@@ -2,6 +2,14 @@
  "about": "The lists the README generator (tools/readme.py) reads. Each curator run edits this file, not the script: add the new story to `stories` (id, title, beat, angle, added, note; newest first), its captures to `rests`, publications to `PUBLISHED`, withdrawals to `WITHDRAWN`, the ready list to `READY` and the assignments to `ASSIGN`. LINK_OVERRIDES: a source URL as captured mapped to the same address written another way (a digit percent-encoded, which the URL standard treats as the same address) so the team site's phone check does not read a long run of digits and dashes as a phone number.",
  "stories": [
   [
+   "S83",
+   "An independent study of five coding agents: reverts, security and review waits",
+   "AI and robotics",
+   "A research paper's abstract on 37,623 pull requests: revert rates differ by agent, pooled agent code had fewer security smells, and review waits are uneven; the paper's figures, from its abstract only, beside the three company accounts we covered.",
+   "24 Nov",
+   "For journalist-ai, categories AI and Corporate. Ready. An arXiv paper's abstract page (submitted 12 September 2026): say it is a research paper read from its abstract only, that the full paper and its method were not read, and that the figures are the paper's own and were not checked. Read the abstract page yourself; give what it reports: 37,623 pull requests from five named coding agents and a matched human baseline across 2,807 repositories, December 2024 to July 2025; revert rates differ by vendor (the paper gives 6.1% against 11.5% for human pull requests for one agent, 14.5% for another); pooled agent code was less likely to contain a security smell; review effort is uneven (one agent's pull requests waited a median 12.6 hours for a first human review). Say plainly what it measures (reverts of pull requests, not production incidents) and that the period is earlier than the companies' posts; no ranking of vendors beyond the paper's wording and no verdict on AI code. Link the three published company accounts as a comparison (S80 CrewAI: crewai-trust-starts-with-human-review; S81 Intercom: intercom-ai-approves-code-changes; S82 Spotify: spotify-ai-change-outran-checks) and repeat none of their content. Explain 'pull request', 'revert' and 'security smell' in plain words at first use. 300 to 700 words."
+  ],
+  [
    "S82",
    "Spotify says AI made change outrun checking: what failed and what it changed",
    "AI and robotics",
@@ -943,6 +951,9 @@
   ],
   "S82": [
    "v-spotify-ai-quality-higher-velocity"
+  ],
+  "S83": [
+   "v-arxiv-five-agents-revert-rates"
   ]
  },
  "DROPPED": {
@@ -1128,6 +1139,18 @@
   "S79": [
    "https://promptugal.news/articles/ai-literacy-bias-data-small-firms-ai-act.html",
    "22 Nov"
+  ],
+  "S80": [
+   "https://promptugal.news/articles/crewai-trust-starts-with-human-review.html",
+   "23 Nov"
+  ],
+  "S81": [
+   "https://promptugal.news/articles/intercom-ai-approves-code-changes.html",
+   "23 Nov"
+  ],
+  "S82": [
+   "https://promptugal.news/articles/spotify-ai-change-outran-checks.html",
+   "23 Nov"
   ]
  },
  "WITHDRAWN": [
@@ -1146,14 +1169,12 @@
   "S54"
  ],
  "READY": [
-  "S82"
+  "S83"
  ],
  "DRAFTED": {
   "S44": "drafted, awaiting review",
   "S47": "published as an update",
-  "S76": "drafted, awaiting review",
-  "S80": "drafted, awaiting review",
-  "S81": "drafted, awaiting review"
+  "S76": "drafted, awaiting review"
  },
  "EXTRA_SRC": {
   "x-web-summit-thursday-facts": [
@@ -1339,9 +1360,9 @@
  },
  "ASSIGN": [
   [
-   "S82",
+   "S83",
    "journalist-ai",
-   "Spotify's own engineering post, so every figure and finding is the company's statement, not checked; follow the note in the story's section"
+   "a research paper's abstract only, so the figures are the paper's and unchecked; follow the note in the story's section"
   ]
  ],
  "LINK_OVERRIDES": {

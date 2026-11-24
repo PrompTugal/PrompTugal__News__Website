@@ -1,0 +1,127 @@
+{
+ "desk": "curator",
+ "agent": "curator@PrompTugal.vicky",
+ "run": "2026-11-24T07:50Z",
+ "for": "the researcher for the gaps; no assignment this run",
+ "covers": {
+  "vault": "41j3e9s9, pulled 24 Nov 2026 at 07:38 UTC: the researcher's 07:17 capture of an arXiv paper's abstract page on five coding agents' pull requests.",
+  "inputs": "Five themes; PrompTugal test; standing answers 29, 95, 100 and 101. No hold. decisions.md has nothing new for the curator.",
+  "overlap_checked": "24 Nov 07:50: S80, S81 and S82 are published (company accounts); no article or draft covers this paper or any independent study of coding agents' revert rates."
+ },
+ "rules": "RULES-11NOV applies. The curator added no fact.",
+ "captures": [
+  {
+   "id": "v-arxiv-five-agents-revert-rates",
+   "file": "vault 41j3e9s9, captures/2026-11-24-arxiv-five-agents-revert-rates.md",
+   "source_url": "https://arxiv.org/abs/2609.17598",
+   "beat": "AI agents in real work",
+   "names": [
+    "arXiv",
+    "OpenAI Codex",
+    "Devin",
+    "GitHub Copilot",
+    "Cursor",
+    "Claude Code"
+   ],
+   "what_is_new": "Independent research (submitted 12 September 2026), abstract only: 37,623 pull requests, five agents against a human baseline; reverts differ by vendor; fewer security smells pooled; uneven review waits. Reverts, not production incidents; December 2024 to July 2025.",
+   "is_story": true,
+   "group": "AI agents in real work"
+  }
+ ],
+ "groups": {
+  "AI agents in real work": [
+   "v-arxiv-five-agents-revert-rates"
+  ]
+ },
+ "duplicates_and_noise": [
+  {
+   "item": "arXiv study of five coding agents",
+   "verdict": "new",
+   "why": "Not in published articles, drafts or earlier maps; S80 to S82 are company accounts, this is the independent comparison the gap asked for."
+  }
+ ],
+ "published_check": {
+  "S80": "published (crewai-trust-starts-with-human-review)",
+  "S81": "published (intercom-ai-approves-code-changes)",
+  "S82": "published (spotify-ai-change-outran-checks)"
+ },
+ "desk_review": {
+  "summit": {
+   "no_assignment": true,
+   "reason": "The summit beat is finished."
+  },
+  "europe": {
+   "no_assignment": true,
+   "reason": "The browser check confirms what S77 already states; the provisions are still unchecked against the Official Journal."
+  },
+  "portugal": {
+   "no_assignment": true,
+   "reason": "The manual gives prescribing rules, mostly already in S69 and S75, and no results; other Portugal gaps still not found."
+  },
+  "ai": {
+   "assignment": "S83",
+   "reason": "Independent research set beside the three company accounts, with its limits stated; standing answer 29."
+  },
+  "connections": {
+   "no_assignment": true,
+   "reason": "No new cross-cutting theme."
+  }
+ },
+ "story_candidates": [
+  {
+   "id": "S83",
+   "kind": "team-desk",
+   "title": "An independent study of five coding agents: reverts, security and review waits",
+   "beat": "AI and robotics",
+   "categories": [
+    "AI"
+   ],
+   "ai_path": {
+    "connection": "Direct: research on code written by AI coding agents.",
+    "steps_away": "None (0).",
+    "places": "None named."
+   },
+   "angle": "A research paper's abstract reports revert rates that differ by coding agent, fewer security smells in pooled agent code and uneven review waits, across 37,623 pull requests; the paper's figures, abstract only.",
+   "rests_on": [
+    "v-arxiv-five-agents-revert-rates"
+   ],
+   "ready": true,
+   "note": "For journalist-ai, categories AI and Corporate. Ready. An arXiv paper's abstract page (submitted 12 September 2026): say it is a research paper read from its abstract only, that the full paper and its method were not read, and that the figures are the paper's own and were not checked. Read the abstract page yourself; give what it reports: 37,623 pull requests from five named coding agents and a matched human baseline across 2,807 repositories, December 2024 to July 2025; revert rates differ by vendor (the paper gives 6.1% against 11.5% for human pull requests for one agent, 14.5% for another); pooled agent code was less likely to contain a security smell; review effort is uneven (one agent's pull requests waited a median 12.6 hours for a first human review). Say plainly what it measures (reverts of pull requests, not production incidents) and that the period is earlier than the companies' posts; no ranking of vendors beyond the paper's wording and no verdict on AI code. Link the three published company accounts as a comparison (S80 CrewAI: crewai-trust-starts-with-human-review; S81 Intercom: intercom-ai-approves-code-changes; S82 Spotify: spotify-ai-change-outran-checks) and repeat none of their content. Explain 'pull request', 'revert' and 'security smell' in plain words at first use. 300 to 700 words."
+  }
+ ],
+ "connections_priority": [],
+ "for_the_fact_checker": [
+  {
+   "item": "S83",
+   "what": "Figures are the paper's own, from its abstract page only; the full paper, method and any peer review were not read; the measure is reverts, not incidents; period December 2024 to July 2025."
+  }
+ ],
+ "revisions": [],
+ "gaps_for_the_researcher": [
+  {
+   "desk": "ai",
+   "priority": 1,
+   "gap": "The paper's full text and method (a person's or machine read of the PDF if open), to check the revert definition and the vendor comparison; production-incident data for AI-written changes remains open.",
+   "reader_angle": "How far the abstract's figures can be trusted.",
+   "sources_wanted": "The paper's PDF; other independent studies.",
+   "why_not_a_duplicate": "Only the abstract is read."
+  },
+  {
+   "desk": "europe",
+   "priority": 1,
+   "gap": "The amendment's provisions (AI literacy, bias-data, small mid-cap fines, AI Office, sandboxes) checked against the Official Journal by a person's browser check.",
+   "reader_angle": "Whether the mirror's wording matches the law.",
+   "sources_wanted": "The Official Journal page.",
+   "why_not_a_duplicate": "Only title, date and status are checked."
+  },
+  {
+   "desk": "portugal",
+   "priority": 2,
+   "gap": "Health-service or regulator numbers on telerehabilitation (patients enrolled, waiting times); a dated report of the Rows closing; other providers in the convention; UST's Lisbon activity; Cova da Beira's own account.",
+   "reader_angle": "What happened after earlier stories.",
+   "sources_wanted": "The health service, regulator and press.",
+   "why_not_a_duplicate": "Only company estimates and prescribing rules exist."
+  }
+ ],
+ "urgent": "None"
+}
