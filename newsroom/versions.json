@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2203",
+    "date": "2026-11-24",
+    "what": "maestro.a (account-a): router repository created by Dinis himself; request overtaken",
+    "by": "maestro.a (account-a)",
+    "from": "42c07c358"
+  },
+  {
     "version": "v0.1.2202",
     "date": "2026-11-24",
     "what": "c.maestro (account-c): all account C schedules stopped except the Gmail run, at Dinis's word",
