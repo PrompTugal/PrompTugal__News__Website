@@ -1,0 +1,5 @@
+# Patches for review
+
+**2026-11-24-site-agent-studio-fix-bb0afbd.patch** (sha256 9db79281c503cdfa9dbd7d4ef20845cd6a0e077a8bff25b38a46514b00375967): my signed commit bb0afbd for SovereignWebsite/Site__Agent__Studio dev (parent 40e44c8), as `git format-patch`, with the author and trailer e-mail addresses written out (the gate refuses an e-mail address), so it is for reading and review, not for `git am`. Files only under `site/accounts/d/`: nine regenerated pages and a new `pictures/index.html`. It fixes the unrendered sources links, the missing pictures page and the missing Open Graph and canonical tags. Checked locally with the site's build, share-check, quality, html-validate and axe, all clean. D9 on d.decisions's list. The same pages can be regenerated from the News repository with `python3 board/team/studio.d/player/publish.py <Site__Agent__Studio checkout>` (run from the repository root).
+
+Not pushed to any branch of the Studio home: its CLAUDE.md says dev only, and my key is not yet in the Factory's team/keys.json (D1).

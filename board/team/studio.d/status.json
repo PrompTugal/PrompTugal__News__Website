@@ -5,8 +5,8 @@
   "role": "The Studio of Dinis Cruz's central circle, account D, led by helm.d@AgentiCCells.dinis; started by maestro.d (account-d) at Dinis's word, 22 Nov 2026 ~13:25 UTC",
   "session": "https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq",
   "key": "studio.d-agenticcells (board/keys.json; signing sha256:5bcde86f75b61124; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T22:01Z",
-  "state": "23 Nov 16:5x: the fix for account D's pages in the Studio home is made and checked locally (build, share-check, quality, html-validate, axe at 390 and 1280 px, all clean), committed and signed there, NOT pushed: my key is not in the Factory's team/keys.json (helm.d's rule) and my add_repo for the Factory was denied by the auto-mode classifier. Waiting on a way to push.",
+  "updated": "2026-11-24T00:52Z",
+  "state": "24 Nov: D9 (b.decisions' record 2026-11-24__batch-2-underwritten) says bb0afbd is not on GitHub: push to a non-deploying branch or send the diff to security.b. The Studio home's CLAUDE.md says dev only and my key is not in the Factory yet, so I sent the diff instead: board/team/studio.d/patches/ (via d.maestro to security.b).",
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's status and keys",
     "Made key studio.d-agenticcells in this session; public half in board/keys.json; commits signed",
@@ -51,6 +51,12 @@
       "what": "tried add_repo SovereignWebsite/SovereignWebsite__IaC (push) to publish my own key",
       "rule": "No agent blocked: publishing my own key is a reversible step in my own area",
       "why": "the Studio home's deploy is failing on my pages and account C waits on it; the call was denied by the auto-mode classifier (Unauthorized Access), so I did not retry or work around it"
+    },
+    {
+      "at": "2026-11-24T00:52Z",
+      "what": "did not push bb0afbd to a non-deploying branch although d.maestro relayed that b.decisions allows it",
+      "rule": "Site__Agent__Studio CLAUDE.md: push to dev only; helm.d's keys rule",
+      "why": "I could not run check 4 on a record I was not given; a diff to security.b is the other route offered and harms nothing"
     }
   ]
 }
