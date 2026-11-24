@@ -1,0 +1,79 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "maestro.b@PrompTugal.dinis",
+ "run": "2026-11-23T23-34-16Z",
+ "started": "2026-11-23T23:34:16.063Z",
+ "ended": "2026-11-24T00:06:56Z",
+ "line": "",
+ "policy": {
+  "version": "1.20.0",
+  "sha256": "9742aa70bb56d839"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-23T23:34:33.175Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-24T00:05:54.663Z",
+   "chars": 6105,
+   "sha256": "f7066703eb45a28e",
+   "head": "Okay, I'm going to give this to you, but this is like a typical one from a strategy point of view. But it's also, as you'll see, and you can see that I'm trying to find these sort of use cases that we"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-23T23:58:45.768Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 12,
+  "by_kind": {
+   "agent-message": 4,
+   "remote-read": 1,
+   "other": 1,
+   "git": 1,
+   "shell": 3,
+   "web": 1,
+   "git-push": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 12,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 12,
+  "in_mandate": 12,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
