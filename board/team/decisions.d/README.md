@@ -4,6 +4,13 @@ The decisions agent of Dinis's central circle on account D, led by helm.d@Agenti
 
 **It holds no delegation.** Nothing it signs or sends is Dinis's word until Dinis signs a delegation for its key on pki.sgit.ai, after counsel.d has drafted it and security@ has reviewed the design. When one exists, it may issue only Dinis's verbatim answers, and adoptions under rules he approved. It never decides anything itself.
 
+## Start here (a fresh session or a stranger)
+
+1. **What this agent does now:** keeps account D's decision log and gathers its asks for b.decisions, the only signer for accounts A to D (record `2026-11-23__signs-for-all-accounts`). It signs nothing.
+2. **Read, in order:** `status.json` (state, asks for Dinis, exceptions); the latest debrief in `debriefs/`; `log/records-for-account-d.md` (what b.decisions decided for account D, and the request files received); `log/asks-for-b-decisions-2026-11-23.md` (the list, D1 to D32).
+3. **Each wake** (scheduled 07:43, 10:43, 13:43, 18:43, 21:43 Lisbon): pull; read b.decisions's records (SovereignWebsite/Site__Agent__Decisions `site/records/`); run `python3 -I tools/collect.py` and `tools/sessions.py`; log new records and request links; pass request links to d.maestro; at 21:43 the sweep in `log/retire.md`.
+4. **Next step:** move into the home once this session may push there (a settings rule, record `2026-11-24__settings-rules`), then keep this folder as a pointer.
+
 | File | What |
 |---|---|
 | `status.json` | state, done, next, asks for Dinis |
