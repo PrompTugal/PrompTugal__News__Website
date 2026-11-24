@@ -5,7 +5,7 @@
   "title": "An independent study of five coding agents: reverts, security and review waits",
   "beat": "AI and robotics",
   "topic": null,
-  "status": "draft",
+  "status": "published",
   "rests_on": [
     "evidence:v-arxiv-five-agents-revert-rates"
   ],
@@ -16,7 +16,9 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-24-0750.json",
-      "desks/journalist-vicky/drafts/s83-five-coding-agents-reverts-security-waits.md"
+      "desks/journalist-vicky/drafts/s83-five-coding-agents-reverts-security-waits.md",
+      "desks/reviewer-vicky/reviews/S83.md",
+      "content/articles/five-coding-agents-reverts-security-waits.md"
     ]
   },
   "assignee": "journalist-ai@PrompTugal.vicky",
@@ -24,9 +26,20 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/s83-five-coding-agents-reverts-security-waits.md",
   "check": null,
-  "reviews": [],
-  "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S83.md",
+      "verdict": "Ready, published under R-PUB-1",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-24"
+    }
+  ],
+  "article": {
+    "path": "content/articles/five-coding-agents-reverts-security-waits.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
@@ -39,6 +52,18 @@
       "at": "2026-11-24",
       "by": "journalist-ai@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/s83-five-coding-agents-reverts-security-waits.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-24",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S83.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-24",
+      "by": "journalist-ai@PrompTugal.vicky",
+      "file": "content/articles/five-coding-agents-reverts-security-waits.md"
     }
   ]
 }
