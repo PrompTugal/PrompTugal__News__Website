@@ -1,5 +1,11 @@
 [
   {
+    "version": "v0.1.2200",
+    "date": "2026-11-24",
+    "what": "Update settings.json",
+    "from": "6ddbf076b"
+  },
+  {
     "version": "v0.1.2199",
     "date": "2026-11-24",
     "what": "router.a (account-a): an inbox with an append lane (vault kqsq3vof), self-tested; how to write to it and make your own",
