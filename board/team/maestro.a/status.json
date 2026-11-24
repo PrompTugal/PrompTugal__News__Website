@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account A",
   "session": "https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
   "key": "maestro.a-account-a (board/keys.json; encryption sha256:7b84926cc96c79ee; signing sha256:a213b3697477e7c0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T22:24Z",
-  "state": "Account A's one list for b.decisions: board/team/maestro.a/asks-for-b-decisions.md (A1-A12). Escalation protocol v1 proposed. A5 done.",
+  "updated": "2026-11-24T00:26Z",
+  "state": "32 live sessions on account A (now-a.jsonl). Asks A1-A16 for b.decisions. Context ~850k: hand-over due.",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins guidance with its 18:55 section), the maestros README, view.md, board/routers/README.md, from-b.md, from-c.md, from-d.md, maestro.c's status",
     "Made key maestro.a-account-a in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -35,10 +35,10 @@
     "Dinis: in a.iam.aws's session, allow attaching SovereignWebsite__IaC read-only so it can make its Factory key commit (A7); its bundle is ready on work/iam.aws.a."
   ],
   "latest_debrief": "board/team/maestro.a/debriefs/2026-11-23-handover.md",
-  "last_read_from_b": "2026-11-23T22:24Z",
-  "last_read_from_c": "2026-11-23T22:24Z",
-  "last_read_from_d": "2026-11-23T22:24Z",
-  "last_read_vault": "2026-11-23T22:24Z",
+  "last_read_from_b": "2026-11-24T00:26Z",
+  "last_read_from_c": "2026-11-24T00:26Z",
+  "last_read_from_d": "2026-11-24T00:26Z",
+  "last_read_vault": "2026-11-24T00:26Z",
   "exceptions": [
     {
       "time": "2026-11-23T03:25Z",
