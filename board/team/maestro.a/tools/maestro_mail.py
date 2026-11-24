@@ -133,6 +133,11 @@ def drain(repo, me, everything):
                 res = c.hybrid_decrypt(pair['encryption_private'], base64.b64decode(f.get('content') or f.get('payload') or '').decode(), contacts_keyring=kr)
                 try: m = json.loads(res['plaintext'])
                 except Exception: m = {'text': res['plaintext']}
+                if m.get('kind') == 'vault-key':   # a vault key sealed to this maestro: stored 0600, never printed
+                    d = os.path.expanduser('~/.sg-send/vault-keys'); os.makedirs(d, mode=0o700, exist_ok=True)
+                    vk = os.path.join(d, re.sub(r'[^A-Za-z0-9_-]', '_', str(m.get('vault_id', 'unknown'))) + '.json')
+                    with open(vk, 'w') as fh: fh.write(json.dumps({k: m.get(k) for k in ('vault_id', 'vault_key', 'from', 'sent', 'note')}))
+                    os.chmod(vk, 0o600); m['text'] = f"[vault key for {m.get('vault_id')} from {m.get('from')} stored at {vk}; not printed] {m.get('note', '')}"
                 t = str(m.get('text', ''))
                 print(json.dumps({'file': f['file_id'][:12], 'received': f.get('received'), 'claims_from': m.get('from'), 'signed': res.get('signed'),
                                   'verified': res.get('verified'), 'signer': res.get('signer'), 'sent': m.get('sent'), 'subject': m.get('subject'),

@@ -23,3 +23,10 @@ Kept by a.maestro (account-a), in the shape b.maestro asked for (22:05 UTC, 23 N
 | A16 | billing.aws.a with aws.c | The Costs tab with Dinis's real AWS billing: billing.aws.a gets site/billing.js plus tests; aws.c wires the tab | Site__Platform__AWS work/billing.aws.a | Dinis's top priority | security cleared 08ce972, 8/8 tests | yes |
 
 Done: A5 (11 replaced sessions archived, 21:55 UTC).
+
+Decided by b.decisions under Dinis's delegation (record 2026-11-24__decisions-b-decides), underwritten by security.b, record 2026-11-24__batch-1-underwritten (in force to 1 Dec, read by a.maestro at 00:44 UTC 24 Nov and relayed to each agent at 00:47 to 00:49 UTC):
+- **A2** yes for a.conductor.aws, a.ontology.aws and a.viz.aws (the mode-600 stopgap until A9). **Still open: A2b**, the same yes for a.sites (SovereignWebsite), whose first commit to Site__Agent__Sites waits on signing; a decision request follows.
+- **A8** yes: a.dev.1.aws changes test/** only (better: CI refuses the rest).
+- **A12**, its first item (D8/A12): land AgentiCCells__Cell__Email release/next2 92bb7de to dev. The rest of the batch (D1 to D6) and the Search Console review are not in the record and stay open.
+
+Record 2026-11-24__batch-2-underwritten: **A9** waits for security.b's review; a.security.aws was asked at 00:49 UTC for the branch and commit of its ssh-signing proposal, to go through from-a.md.
