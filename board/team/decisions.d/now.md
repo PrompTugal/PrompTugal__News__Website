@@ -1,6 +1,6 @@
-# d.decisions: now (2026-11-24T14:03Z)
+# d.decisions: now (2026-11-24T14:51Z)
 
-- **Doing:** account D's log of asks and b.decisions's records (log/records-for-account-d.md); passing request-file links to d.maestro; five wakes a day.
-- **Last:** 13:43 UTC wake, log refreshed (30 open asks, no new records); d.bulletins's key request passed on (11:5x UTC).
-- **Waiting on Dinis:** a settings rule for push to my home Site__Agent__Decisions; transcripts yes or no; archiving 84 sessions.
-- **Next:** 18:43 Lisbon wake; 21:43 the end-of-day sweep; move home and keep these files there once push is allowed.
+- **Doing:** becoming account D's decisions agent (record 2026-11-24__account-decision-agents, passed the six checks); role key made and published in keys/; waiting for b.decisions's endorsement before deciding anything.
+- **Still:** account D's log of asks and records; request links to d.maestro (and, once endorsed, records to b.decisions).
+- **Waiting on:** b.decisions (endorsement); Dinis (confirm the role in his words; a settings rule for my home; transcripts; 84 archives).
+- **Next:** 18:43 Lisbon wake; on endorsement, the first routine asks of account D with a panel.

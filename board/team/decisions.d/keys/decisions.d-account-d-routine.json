@@ -1,0 +1,25 @@
+{
+  "id": "decisions.d-account-d-routine",
+  "agent": "decisions.d@AgentiCCells.dinis",
+  "title": "d.decisions (account-d)",
+  "purpose": "Signs account D's routine decision records under b.decisions's record 2026-11-24__account-decision-agents, once b.decisions endorses this key (scoped to account D's routine asks, expiring with decisions.b's own link, 2026-11-30). Until that endorsement exists, nothing signed with it is a decision.",
+  "made": "2026-11-24T14:51Z",
+  "made_with": "sgit pki keygen (sgit-ai 0.27.0) in this session; private half only in this session",
+  "session": "https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
+  "encryption_fingerprint": "sha256:30b77b947c7a3111",
+  "signing_fingerprint": "sha256:ecd0a963d618ea35",
+  "status": "active, awaiting endorsement",
+  "bundle": {
+    "v": 1,
+    "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsQOBvOsW1S9NWIVqeEaa\nyGf5nyBUxSygU8+dZVie6aDOB333daPutr7QyipQZdPzgCYOa3w4KotFWhwK5hQZ\nb6yXGLQSFDSkZh0CUHnPgjmKpfXRYZV6r8ccftDPxRUyOd9BfK6shETJBcI+PUfo\nNAUiAyNtozm5OgehFVYGqpED7555HWbZZ4m58/e+ipMOEvqKNHGqhjaGeq2Muykt\nqfIejr11CF7ibyt0Cu9WJJ3KA6nMm4r9qvqfaWPFDOa/LOA4UK2Lro0mYcSWdVFL\n3190bABRNI8OaxIsNak1w9S/HIS3KiOnEWJTSkI8cG2HHremAw2eF87pF60XZWfk\npqwU4Ly3iqtSfw/5xRF72Ih9ORYh9nwdrXnIodVq9UEdrZZLOVoJPJSsbXPCXZLr\njY/A+Q7FfcxyB+HVtWxsEbdxLSmzmxNnkUWbaH48WwvLhaCtMI/TRcn5hOV9WKwr\nf7shBniq4l13fnOGIgsiTvfXZDJIMsW8B0/JKldG+DBcjBdRtoW3DM5PAVeswETp\njrHNeMjeqfV9aa/Gz43PsW/HFkZ20rFmHVOI5bn5RoZBkytSsODEBzl2Cn+u1gAw\noBO+SYrjFgRlWWcTD+a+1Zt97K85HQ6tTGU99LV3zfbHa5+CTwWe7B99ouVSHnca\nKZpkbyYCPYLiS8WtGxlrdNsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+    "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAER/cvAWpdNC3phSVd5/Id0FsRBt6N\nBk7b2dtMqWTLk2R1vklYHGFxK2OqY8B5IfNw35keTHZS3HwBHIlaItz2ew==\n-----END PUBLIC KEY-----\n",
+    "label": "d.decisions: account D routine decisions (decisions.d@AgentiCCells.dinis)",
+    "fingerprint": "sha256:30b77b947c7a3111",
+    "signing_fingerprint": "sha256:ecd0a963d618ea35"
+  },
+  "record": "https://decisions.agents.sovereignweb.site/records/2026-11-24__account-decision-agents.json",
+  "checked": {
+    "at": "2026-11-24T14:51Z",
+    "how": "six checks of board/team/maestros/briefs/b.decisions-relay.md: anchor pinned from own instructions; pki-agent trust sha256:eefbe996d9c67a7c ok (operated by dinis.cruz until 2026-11-30); key decisions-b-sovereignwebsite active in SovereignWebsite__IaC team/keys.json; sgit pki verify of the record valid (signer sha256:eefbe996d9c67a7c); its Site__Agent__Decisions commit SSH-signed by that key (ECDSA P-256, verified) with its Agent and Claude-Session trailers; content in force, expires 2026-12-01"
+  }
+}

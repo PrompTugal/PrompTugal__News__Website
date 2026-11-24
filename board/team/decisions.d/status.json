@@ -5,9 +5,9 @@
  "role": "Decisions agent of the central circle on account D, led by helm.d@AgentiCCells.dinis; started by maestro.d at Dinis's word, 22 Nov 2026 about 13:25 UTC",
  "session": "https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
  "key": "decisions.d-agenticcells (board/keys.json; signing sha256:d4de20909c983bd1; encryption sha256:d4562f808111c080; ssh ed25519 for git signatures)",
- "delegation": "None, and none to come: b.decisions is the only signer (record 2026-11-23__signs-for-all-accounts). The design in design/ stays as input to b.decisions's records.",
- "updated": "2026-11-24T07:45Z",
- "state": "Keeps account D's decision log and gathers its asks for b.decisions, the only signer for accounts A to D (Dinis, 22:36 UTC 23 Nov). Signs nothing. Scheduled (07:43, 10:43, 13:43, 18:43, 21:43 Lisbon).",
+ "delegation": "Pending: role key decisions.d-account-d-routine (signing sha256:ecd0a963d618ea35) published in keys/; awaits b.decisions's endorsement at /keys/endorsements/. The record passed the six checks at 14:51 UTC.",
+ "updated": "2026-11-24T14:51Z",
+ "state": "Account D's decisions agent under b.decisions's record 2026-11-24__account-decision-agents (Dinis, 14:26 UTC 24 Nov): once b.decisions endorses my role key, I decide account D's routine asks with a panel and relay each record to b.decisions; until then I log and gather only. One-way doors, money, legal, main, harness settings and keys stay Dinis's.",
  "latest_debrief": "board/team/decisions.d/debriefs/2026-11-23-handover.md",
  "done": [
   "Read CLAUDE.md, New from Dinis, maestro.d's decisions-at-scale (1 to 3, 6, 7) and power-of-attorney analyses, board/person-keys.json, newsroom/tools/person-key.mjs, board/inboxes/, check-signatures.mjs, pki.sgit.ai's llms.txt and identities",
@@ -49,7 +49,8 @@
   "00:53 UTC: read b.decisions's 48 records; log/records-for-account-d.md: D1 (no IaC push; keys in own repos), D8, D10, D11, D12, D13, D32 answered; D9 not covered (push bb0afbd to a non-deploying branch); P3 overtaken (b.decisions signs and decides); asks now signed request files in each agent's own repo",
   "01:01 UTC: first signed request files logged (d.data D6, d.bulletins D32); d.cartographer closed D1/D2 itself (key in its home, c8225ad); vault list sent to d.maestro (none)",
   "01:08 UTC: D12 void (refused by d.synthetic-users's checks), D11 done (e7a49fe), d.slides D1 closed, D9 re-filed as a diff to security.b; every home's signers.mjs reads only the Factory's keys until the org apply (block-01 b.56) reaches it",
-  "07:45 UTC wake: session restarted, keys intact; 14 new or changed b.decisions records read (settings rules, state in the repo, own keys, key chain, blocks 03 to 05); log 32 open asks (was 36); quiet overnight, no session moved since ~01:00 UTC"
+  "07:45 UTC wake: session restarted, keys intact; 14 new or changed b.decisions records read (settings rules, state in the repo, own keys, key chain, blocks 03 to 05); log 32 open asks (was 36); quiet overnight, no session moved since ~01:00 UTC",
+  "14:51 UTC: record 2026-11-24__account-decision-agents passed the six checks (pki chain, IaC key, record signature, commit signature verified as ECDSA by hand, content, scope); made role key sha256:30b77b947c7a3111 (signing sha256:ecd0a963d618ea35), public half in keys/decisions.d-account-d-routine.json; link sent to d.maestro with the conflicts noted"
  ],
  "next": [
   "Compare design/shared-record.md with decisions.b's first record in SovereignWebsite__IaC decisions/ when it lands",
@@ -66,9 +67,11 @@
   "The five failed turns of ~17:05 to 17:37 UTC (sherpa.d, accountant.d, bulletins.d, helm.d, data.d) were the account's usage limit, not faults (maestro.d, 18:56 UTC)",
   "Push access to the Factory (SovereignWebsite__IaC) is the most common block on account D this morning: at least eight sessions name it in their status (session map 07:45 UTC)",
   "The 'word for frameworks' page carries Dinis's own words from cartographer.d's session (16:57 UTC, 22 Nov): my concern of 22:14 UTC is withdrawn",
-  "Two b.decisions records (block-01, block-02-a) carry 'at' times ahead of the clock when read (01:05 and 01:15 UTC, read 00:52 UTC)"
+  "Two b.decisions records (block-01, block-02-a) carry 'at' times ahead of the clock when read (01:05 and 01:15 UTC, read 00:52 UTC)",
+  "My start-up brief (22 Nov) says I never decide anything myself; the record of 24 Nov 14:26 UTC (Dinis's words in b.decisions's session, signed by his delegate) makes me account D's decider for routine asks. I follow the record and have asked Dinis to confirm it in his own words"
  ],
  "asks": [
+  "Dinis: confirm in your own words that d.decisions decides account D's routine asks (record 2026-11-24__account-decision-agents): it reverses 'never decide' in my start-up brief. I act on the record once b.decisions endorses my role key, with a panel per decision - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
   "Dinis: under your settings-rules record (24 Nov 00:51 UTC), my push to my home SovereignWebsite/Site__Agent__Decisions needs a settings.json rule for this session (add_repo push, that repository only), drafted by b.decisions; then I publish my key in its site/keys/ and keep my state there as state-in-the-repo asks - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
   "Dinis: I read only session metadata, not transcripts: you said I 'should have access to their session logs', but your guidance of 18 Nov makes telemetry.b@ the only reader of transcripts. Do I read them (list_events), or keep to metadata? - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
   "Dinis: 84 sessions recommended for archiving (sessions/README.md, 'Recommend archiving'): old one-off runs of 15 and 16 Nov and the php.newsroom team; archive them, or tell me which to keep - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
@@ -86,6 +89,12 @@
    "what": "The log now lists every agent's status.json 'exceptions' as decisions taken on their own call, for Dinis to see",
    "rule": "none bent; extends my own tool",
    "why": "Dinis: 'if there's any violations, again, keep track of it'"
+  },
+  {
+   "at": "2026-11-24T14:51Z",
+   "what": "made and published a second key (account D routine decisions) in my own area",
+   "rule": "none bent: CLAUDE.md 'No agent blocked' lists making and publishing your own key; record 2026-11-24__own-keys-principle",
+   "why": "record 2026-11-24__account-decision-agents asks each account's decisions agent for its own key"
   }
  ],
  "home": "SovereignWebsite/Site__Agent__Decisions (exists since 23 Nov ~05:01 UTC); not moved: first my own key goes into SovereignWebsite__Factory (now __IaC) team/keys.json, one commit of mine signed with my sgit ECDSA signing key (the Factory's keys rule); both pushes wait on this session being allowed to attach the repositories",
