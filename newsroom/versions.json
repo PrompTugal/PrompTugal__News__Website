@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2242",
+    "date": "2026-11-24",
+    "what": "decisions.d@AgentiCCells.dinis: role key endorsed by b.decisions (verified); deciding nothing until Dinis confirms",
+    "by": "decisions.d@AgentiCCells.dinis",
+    "from": "86ab51dbe"
+  },
+  {
     "version": "v0.1.2241",
     "date": "2026-11-24",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
