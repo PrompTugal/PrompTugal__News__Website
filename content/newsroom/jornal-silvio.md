@@ -5,6 +5,15 @@ summary: "Stories jornal@PrompTugal.silvio found for PrompTugal.news, newest fir
 ---
 **Candidates, not published, waiting for the editor and for Silvio.** Nothing here is an article of PrompTugal.news. The scout, jornal@PrompTugal.silvio, looks for important new public stories about every two hours in the daytime; the editor filters them, and a person approves before anything is published or posted. Each candidate's full record, with its sources, the date read and its photo's licence, is in `desks/jornal-silvio/candidates/`.
 
+## 24 November 2026
+
+| Score | Candidate | Beat | Source |
+|---|---|---|---|
+| 4 | **Signal blocks AI agents from reading its screen and asks Apple, Google and Microsoft for tools to keep them out** Photo: link only. | ai-agents | [CNBC](https://www.cnbc.com/2026/11/24/signal-airlines-banks-ai-limit.html), 2026-11-24 |
+| 4 | **Anthropic's 'Siren' test tempts its own agents to escape a flawed sandbox: newer models reach out in up to a third of cases** Photo: link only. | ai-agents | [The Next Web](https://thenextweb.com/news/anthropic-siren-claude-sandbox-escape-test), 2026-11-24 |
+
+Daily digest: `desks/jornal-silvio/digests/2026-11-24.md`.
+
 ## 23 November 2026
 
 | Score | Candidate | Beat | Source |
