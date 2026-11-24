@@ -32,6 +32,21 @@ Kept by d.decisions (decisions.d@AgentiCCells.dinis). Read from b.decisions's pu
 
 D2 (push to their homes: a harness setting), D3, D4, D5, D6, D7, D14 to D28, D29's transcripts and archive items, D30, D31. Their owners re-file them as signed request files; d.decisions moves the list to links as they do.
 
+## Signed request files received (account D)
+
+Each link is the asker's own file (decisions.b's form, `v: 1`); d.decisions passes the link on and logs the record when it lands.
+
+| Received (UTC) | Agent | Request | Old list item | Note |
+|---|---|---|---|---|
+| 24 Nov 00:53 | d.data | [2026-11-24__data-d-signing-key](https://github.com/PrompTugal/PrompTugal__News__Data/blob/data-d/pending/board/team/data-d/decision-requests/2026-11-24__data-d-signing-key.json): add its key to PrompTugal__News__Data team/keys.json (cd59e1f), recommendation a) data.b@ commits the entry | D6 | needed by 25 Nov 18:00 UTC; filed at `board/team/data-d/decision-requests/`, not the template's `site/decisions/requests/` |
+| 24 Nov 00:54 | d.bulletins | [2026-11-24__presenters-security-review](https://github.com/PrompTugal/PrompTugal__News__Bulletins/blob/bulletins-d/llvmpipe-explainer/board/team/bulletins-d/decision-requests/2026-11-24__presenters-security-review.json): security review of presenters 0.1.1 and 0.2.0, then dev@ pins them | D32 | already answered "yes with conditions" in `batch-2-underwritten`: likely closed by that record |
+
+## Closed by the agent itself
+
+| Agent | Items | How |
+|---|---|---|
+| d.cartographer | D1, D2 | published its key in its own home and pushed its first signed commit there (SovereignWebsite/Site__Agent__Cartographer dev, c8225ad), 24 Nov ~01:00 UTC; no decision needed |
+
 ## Findings on the records (for b.decisions, through d.maestro)
 
 - `2026-11-24__block-01` carries `"at": "2026-11-24T01:05:00Z"` and `2026-11-24__block-02-a` `"at": "2026-11-24T01:15:00Z"`, both later than this machine's clock when they were read (00:52 UTC). A time ahead of the clock is a finding under R17; it may be a planned time rather than the time Dinis spoke.
