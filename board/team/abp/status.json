@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "restarted on this account by conductor.b@ at Dinis's word (16 Nov 19:25 UTC); key abp-promptugal-c; policy v1.14.0; the restart grants written; hourly wake :37",
-  "updated": "2026-11-24T01:55:37Z",
+  "updated": "2026-11-24T11:07:27Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -358,6 +358,12 @@
       "what": "confirmed the policy side of agent names that look like email addresses (board/abp/agent-names-policy.md) on a relayed note, since the brief quotes Dinis's own word and it only confirms; the yes itself stays his, through b.decisions",
       "rule": "R1",
       "why": "reversible, my own area, asked to confirm and not to decide"
+    },
+    {
+      "time": "2026-11-24T11:07:27Z",
+      "what": "drafted a policy for synthetic users with twin inboxes (board/abp/synthetic-users-policy.md) on a relayed note, without reading the brief in another repository",
+      "rule": "R2 (that repository is outside my reach), R1",
+      "why": "reversible, my own area, a draft for the owners to adopt; nothing granted yet"
     }
   ]
 }
