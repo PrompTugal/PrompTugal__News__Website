@@ -5,9 +5,9 @@
  "role": "Decisions agent of the central circle on account D, led by helm.d@AgentiCCells.dinis; started by maestro.d at Dinis's word, 22 Nov 2026 about 13:25 UTC",
  "session": "https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
  "key": "decisions.d-agenticcells (board/keys.json; signing sha256:d4de20909c983bd1; encryption sha256:d4562f808111c080; ssh ed25519 for git signatures)",
- "delegation": "NONE. Nothing decisions.d sends is Dinis's word; no agent may act on it as if it were.",
- "updated": "2026-11-23T21:44Z",
- "state": "Scheduled (07:43, 10:43, 13:43, 18:43, 21:43 Lisbon). Account D's collector of asks for b.decisions (Dinis, ~14:30 UTC 23 Nov, relayed by d.maestro). No delegation held.",
+ "delegation": "None, and none to come: b.decisions is the only signer (record 2026-11-23__signs-for-all-accounts). The design in design/ stays as input to b.decisions's records.",
+ "updated": "2026-11-24T00:53Z",
+ "state": "Keeps account D's decision log and gathers its asks for b.decisions, the only signer for accounts A to D (Dinis, 22:36 UTC 23 Nov). Signs nothing. Scheduled (07:43, 10:43, 13:43, 18:43, 21:43 Lisbon).",
  "latest_debrief": "board/team/decisions.d/debriefs/2026-11-23-handover.md",
  "done": [
   "Read CLAUDE.md, New from Dinis, maestro.d's decisions-at-scale (1 to 3, 6, 7) and power-of-attorney analyses, board/person-keys.json, newsroom/tools/person-key.mjs, board/inboxes/, check-signatures.mjs, pki.sgit.ai's llms.txt and identities",
@@ -45,7 +45,8 @@
   "Collected account D's asks for Dinis's yes as one list for b.decisions (log/asks-for-b-decisions-2026-11-23.md: ASK D1 to D20, plus three the agents can take on their own call), at d.maestro's ask under Dinis's 14:30 UTC workflow; sent to d.maestro",
   "List for b.decisions, version 2 (ASK D1 to D31) from fifteen agents' own asks (16:52 to 17:01 UTC) with exact commits and checks; the most urgent: D8, the email cell's unknown-sender fix (92bb7de) on a live site; most of account D waits on D1 (IaC key commits)",
   "18:45 UTC wake: b.decisions's first three signed records read (none for account D yet); shared-record.md draft 2 takes its v2 as the base (patch ids, detached signatures, conditions) plus six optional fields; d.observability and the SovereignWebsite counsel.d told their asks come to me; daily debrief written",
-  "21:44 UTC end-of-day sweep (log/retire.md): 36 asks; 12 merge into 2 (the Factory and home push is eleven sessions' one block), 3 overtaken, 1 answered in part; about 18 distinct questions left, all on the list for b.decisions; no signed record for account D yet"
+  "21:44 UTC end-of-day sweep (log/retire.md): 36 asks; 12 merge into 2 (the Factory and home push is eleven sessions' one block), 3 overtaken, 1 answered in part; about 18 distinct questions left, all on the list for b.decisions; no signed record for account D yet",
+  "00:53 UTC: read b.decisions's 48 records; log/records-for-account-d.md: D1 (no IaC push; keys in own repos), D8, D10, D11, D12, D13, D32 answered; D9 not covered (push bb0afbd to a non-deploying branch); P3 overtaken (b.decisions signs and decides); asks now signed request files in each agent's own repo"
  ],
  "next": [
   "Compare design/shared-record.md with decisions.b's first record in SovereignWebsite__IaC decisions/ when it lands",
@@ -61,14 +62,14 @@
   "Two sessions named counsel.d on account D (counsel.d@account-d, started 13:25 by maestro.d; 'counsel.d: counsel reviews for account D', started 16:34 by conductor.d (SovereignWebsite)): one role, one session (CLAUDE.md)",
   "The five failed turns of ~17:05 to 17:37 UTC (sherpa.d, accountant.d, bulletins.d, helm.d, data.d) were the account's usage limit, not faults (maestro.d, 18:56 UTC)",
   "Push access to the Factory (SovereignWebsite__IaC) is the most common block on account D this morning: at least eight sessions name it in their status (session map 07:45 UTC)",
-  "The 'word for frameworks' page carries Dinis's own words from cartographer.d's session (16:57 UTC, 22 Nov): my concern of 22:14 UTC is withdrawn"
+  "The 'word for frameworks' page carries Dinis's own words from cartographer.d's session (16:57 UTC, 22 Nov): my concern of 22:14 UTC is withdrawn",
+  "Two b.decisions records (block-01, block-02-a) carry 'at' times ahead of the clock when read (01:05 and 01:15 UTC, read 00:52 UTC)"
  ],
  "asks": [
-  "Dinis: one decision unblocks at least eight sessions: push access to SovereignWebsite__IaC (the Factory) and each agent's home. Waiting on it at 07:45 UTC: decisions.d, slides.d, studio.d, holacracy.d (its D10), cartographer.d, helm.d, sherpa.d (factory.d's list), chiswick-cheese-market.d and pybot.d; add_repo is refused by each session's permission check while GitHub says attachable. Allowing add_repo for these sessions (or attaching IaC and the homes) lets each publish its own key and move home - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
+  "Dinis: my home SovereignWebsite/Site__Agent__Decisions needs push from this session (add_repo refused by the permission check); your answer is that keys go in our own repositories, so that one setting is all I need to move home - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
   "Dinis: I read only session metadata, not transcripts: you said I 'should have access to their session logs', but your guidance of 18 Nov makes telemetry.b@ the only reader of transcripts. Do I read them (list_events), or keep to metadata? - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
   "Dinis: 84 sessions recommended for archiving (sessions/README.md, 'Recommend archiving'): old one-off runs of 15 and 16 Nov and the php.newsroom team; archive them, or tell me which to keep - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
-  "Dinis: two sessions are named counsel.d on account D (one from maestro.d at 13:25, one from conductor.d (SovereignWebsite) at 16:34); one role, one session: which stays? - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
-  "Dinis: counsel.d's v0.3 lets me decide two-way doors myself (P3: a closed list of kinds, a five-point reversibility test, each act logged with its undo step, reported the same day). That reverses 'you never decide anything yourself' in my start-up brief; confirm it in your words before it is signed - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG"
+  "Dinis: two sessions are named counsel.d on account D (one from maestro.d at 13:25, one from conductor.d (SovereignWebsite) at 16:34); one role, one session: which stays? - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG"
  ],
  "exceptions": [
   {
