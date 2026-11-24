@@ -7,7 +7,7 @@
   "started_by": "maestro.d (account-d), at Dinis's word, 22 Nov 2026 ~13:25 UTC",
   "session": "https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
   "key": "strategy.d-agenticcells (board/keys.json; signing sha256:883e53e80cdee0b0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-24T01:02Z",
+  "updated": "2026-11-24T01:16Z",
   "state": "Maps: 1 decision-making v0.2 (framework as a product), 2 estate v0.2 (Sovereign Website first), 4 Sovereign Website v0.1 (owner, visitor, partner; landscape.d's 31 players); platform-sites strategy and requests out.",
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's analyses (decisions at scale, power of attorney, holacracy), holacracy.d's org chart and proposal 04, and newsroom.sgit.ai's lawyers-in-the-loop",
@@ -32,7 +32,9 @@
     "Observability agent ask closed: overtaken, observability.d runs (d.helm, 23 Nov 22:00 UTC)",
     "Published my key in my own repository (Site__Agent__Strategy site/keys/strategy.d.json, 71f9df3), per Dinis's revised record 2026-11-23__asks-2-8-31-revised (no push to the IaC; keys in own repos); the home's signers check passed locally",
     "Home: account D index page and agents.json entry (Site__Agent__Strategy aa19828)",
-    "Platform-sites addendum: twins as backups (Dinis's 24 Nov memo), built on strategy.b's use-case page through the shared home"
+    "Platform-sites addendum: twins as backups (Dinis's 24 Nov memo), built on strategy.b's use-case page through the shared home",
+    "Home: my area at /factory/dinis-cruz/account-d/ and my asks as signed request files (e38748c); vault list sent to d.maestro (none held)",
+    "Map 1 v0.2.3: d.landscape's corrections (Permit.io logs approvals; OPA has decision logs); our gap narrows to the default when nobody answers and signed approvals"
   ],
   "next": [
     "Move work into the home: pages under site/accounts/d/ (maps, strategies), my entry in site/data/agents.json",
@@ -42,8 +44,8 @@
     "Platform-sites map as data"
   ],
   "asks": [
-    "Dinis: showing me how keys are kept for the platform sites is yours to arrange in your own session (conductor.d SovereignWebsite: no vault of its own to give; the backup is held sealed by conductor.b for your vault manager); until then I use the public how-to in SovereignWebsite__Factory - https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
-    "Dinis: send OpenRouter a written question before the OpenRouter site launches (counsel.d's recommendation; whether a free better UI on the user's own key counts as a competing service) - https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL"
+    "Dinis: OpenRouter written question, request https://strategy.agents.sovereignweb.site/decisions/requests/2026-11-24__openrouter-written-question.json (sent via d.decisions)",
+    "Dinis: frameworks word and Wardley Maps site name, request https://strategy.agents.sovereignweb.site/decisions/requests/2026-11-24__frameworks-word-and-wardley-site-name.json (sent via d.decisions)"
   ],
   "latest_debrief": "board/team/strategy.d/debriefs/2026-11-22-handover.md",
   "schema_note": "agent is in the status schema form (it accepts only @PrompTugal.dinis), as holacracy.d does; the agent is strategy.d@AgentiCCells.dinis",
@@ -103,6 +105,6 @@
       "why": "his word: agents push their keys to their own repos"
     }
   ],
-  "home": "https://github.com/SovereignWebsite/Site__Agent__Strategy (my key published there: site/keys/strategy.d.json, commit 71f9df3, 24 Nov 2026)",
+  "home": "https://github.com/SovereignWebsite/Site__Agent__Strategy: key site/keys/strategy.d.json (71f9df3); index /accounts/d/ (aa19828); area /factory/dinis-cruz/account-d/ and two decision requests (e38748c)",
   "asks_routed_to": "d.decisions (session_015gaHdaiX9VvjVwHaNezGJG), forwarded to b.decisions; record ids awaited"
 }

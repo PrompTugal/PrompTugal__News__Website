@@ -121,3 +121,10 @@ From landscape.d's `board/team/landscape.d/landscapes/decision-making/` (20 play
 - **framework:** enterprise decision-intelligence tools show no price (dm-g3); Holacracy and Sociocracy 3.0's consent are CC BY-SA 4.0 and reusable with credit, RAPID is proprietary (dm-g6).
 
 What it moves: codified-thinking keeps its place (genesis) but now links to a commodity layer (policy engines, evolution 0.75); decision-log moves no further than custom until signatures exist; the combination (codified thinking, triage, default-yes that knows silence from approval, signed answers) is what nobody read offers.
+
+## v0.2.3 (24 Nov, 01:16 UTC): two corrections from d.landscape's re-read
+
+d.landscape's weekly re-read (v0.1.2195) revises two findings this map cites:
+- **dm-g4 (default-yes, signed answers):** Permit.io, unread before, says risky agent actions pause for an approver in a dashboard or Slack, and that every allow or deny is logged with the human, the agent, the action and the reason, sendable to a SIEM (built on OPA, Cedar and OPAL; no licence or price on the page). So "approvals leave no record" no longer holds for the whole field. What still holds on the pages read: **no default when nobody answers, and no signed approval**. Our gap narrows to those two, plus the "nobody looked" against "looked and found nothing wrong" distinction.
+- **dm-g5 (codified thinking):** Open Policy Agent's own documentation describes decision logs (path, input, bundle metadata, result; masking and drop rules). The decision-log component gains a commodity neighbour: log with what the engine already provides, and add the signature on top.
+- Also new (riskmandate rm-g8): Permit.io is the nearest agent-first neighbour on authorisation (permissions and approvals, not a separate mandate concept).
