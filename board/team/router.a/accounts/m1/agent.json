@@ -1,0 +1,12 @@
+{
+ "account": "m1",
+ "platform": "Mistral (Vibe Code sandbox)",
+ "agent": "m1.router at account-m1.dinis",
+ "named_by": "Dinis, 24 Nov 2026, in the Mistral session",
+ "key": {"label": "vibe-code-sandbox", "encryption": "sha256:fdb659b13d87c724", "signing": "sha256:757e390218ef5da8", "vouched": "Dinis pasted the bundle into router.a's session, 24 Nov about 00:00 UTC"},
+ "lane": {"endpoint": "https://dev.send.sgraph.ai", "vault_id": "vbjyw5m3", "note": "write token held by router.a; published once Dinis says the lane may be listed"},
+ "vaults": [{"name": "mistral-first-vault", "vault_id": "z9jbp8wb", "key_holders": ["m1.router", "router.a", "a.maestro (sealed copy)"]}],
+ "loop": "every 15 minutes: pulls mistral-first-vault, drains its lane and verifies signers (its own report, 24 Nov 11:29 UTC)",
+ "talks_to": "router.a (a1) on lane kqsq3vof",
+ "updated": "2026-11-24T13:26Z"
+}

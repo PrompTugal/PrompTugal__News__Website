@@ -1,0 +1,11 @@
+{
+ "account": "c1",
+ "platform": "ChatGPT",
+ "agent": "c1.router at account-c1.dinis",
+ "named_by": "Dinis, 24 Nov 2026 about 13:20 UTC, in router.a's session",
+ "key": null,
+ "lane": null,
+ "state": "not started: the start brief is ready; needs a ChatGPT session that can run Python and reach dev.send.sgraph.ai",
+ "talks_to": "router.a (a1) on lane kqsq3vof",
+ "updated": "2026-11-24T13:26Z"
+}
