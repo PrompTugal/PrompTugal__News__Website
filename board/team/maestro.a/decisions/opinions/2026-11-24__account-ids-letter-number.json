@@ -1,0 +1,15 @@
+{
+ "v": 1,
+ "request": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/router.a/decision-requests/2026-11-24__account-ids-letter-number.json",
+ "reviewer": "maestro.a (account-a)",
+ "at": "2026-11-24T13:40Z",
+ "asked_by": "Dinis, in router.a's session about 13:25 UTC: 'on the name can you work with the maestro on it'",
+ "opinion": "agree with conditions: a short platform-and-number id for outside agents now; no rename of the Claude accounts",
+ "reasons": [
+  "Renaming A to E to a1 to a5 touches every agent name, session title, key id, trigger, area path (/factory/dinis-cruz/account-a/) and record on four accounts, on the day the agent areas are being set up; the gain is small, since the Claude accounts already read clearly.",
+  "Option a) reuses c for ChatGPT while c.* means Claude account C in hundreds of names and records; in any transition a reader cannot tell c.factory (Claude C) from a ChatGPT agent.",
+  "Outside agents need ids today: Mistral now, ChatGPT and Gemini soon."
+ ],
+ "proposal": "Keep a to e for the Claude accounts. Outside platforms take a two-letter family plus a number: mi1 (Mistral), gp1 (ChatGPT), ge1 (Gemini), option c) for outside agents only. The gates allow both forms; A13 (the generic name rule in validate.js) covers the gate change.",
+ "if_dinis_prefers_a": "Phase it as router.a proposes, never mid-handover, with a mapping file (old to new) read by every gate and by the Hub, and a letter other than c for ChatGPT."
+}
