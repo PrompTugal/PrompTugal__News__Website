@@ -1,0 +1,125 @@
+{
+ "desk": "curator",
+ "agent": "curator@PrompTugal.vicky",
+ "run": "2026-11-24T11:50Z",
+ "for": "the researcher for the gaps; no assignment this run",
+ "covers": {
+  "vault": "41j3e9s9, pulled 24 Nov 2026 at 11:38 UTC: the researcher's 11:16 capture of parts of the arXiv paper's PDF (method, Table 2, limits).",
+  "inputs": "Five themes; PrompTugal test; standing answers 29, 95, 100 and 101. No hold. decisions.md: standing answer 102 is for the journalists and the reviewer.",
+  "overlap_checked": "24 Nov 11:50: S83 is published (five-coding-agents-reverts-security-waits) from the abstract only and has no update note yet; it says the full paper and method were not read; the PDF closes that in part."
+ },
+ "rules": "RULES-11NOV applies. The curator added no fact.",
+ "captures": [
+  {
+   "id": "v-arxiv-five-agents-full-text",
+   "file": "vault 41j3e9s9, captures/2026-11-24-arxiv-five-agents-full-text.md",
+   "source_url": "https://arxiv.org/pdf/2609.17598",
+   "beat": "AI agents in real work",
+   "names": [
+    "arXiv",
+    "OpenAI Codex",
+    "Devin",
+    "GitHub Copilot",
+    "Cursor",
+    "Claude Code"
+   ],
+   "what_is_new": "The paper's method and limits: revert definition, 4,027 human against 9,750 agent pull requests, per-agent odds ratios (three agents not distinguishable from humans), stated limits, PREPRINT header. Figures the paper's, unchecked.",
+   "is_story": true,
+   "group": "AI agents in real work"
+  }
+ ],
+ "groups": {
+  "AI agents in real work": [
+   "v-arxiv-five-agents-full-text"
+  ]
+ },
+ "duplicates_and_noise": [
+  {
+   "item": "The paper's full text and method",
+   "verdict": "update",
+   "why": "A genuine new development for S83 (the article says the method was not read); one note, no follow-up article needed."
+  }
+ ],
+ "published_check": {
+  "S83": "published, no note yet"
+ },
+ "desk_review": {
+  "summit": {
+   "no_assignment": true,
+   "reason": "The summit beat is finished."
+  },
+  "europe": {
+   "no_assignment": true,
+   "reason": "The browser check confirms what S77 already states; the provisions are still unchecked against the Official Journal."
+  },
+  "portugal": {
+   "no_assignment": true,
+   "reason": "The manual gives prescribing rules, mostly already in S69 and S75, and no results; other Portugal gaps still not found."
+  },
+  "ai": {
+   "assignment": "S84",
+   "reason": "An update note that closes the gap named in S83's own caveat, with the paper's limits stated; standing answers 95 and 100."
+  },
+  "connections": {
+   "no_assignment": true,
+   "reason": "No new cross-cutting theme."
+  }
+ },
+ "story_candidates": [
+  {
+   "id": "S84",
+   "kind": "update",
+   "title": "Update to S83: how the five-agent study defined a revert, and its limits",
+   "beat": "AI and robotics",
+   "categories": [
+    "AI"
+   ],
+   "ai_path": {
+    "connection": "Direct: research on code written by AI coding agents.",
+    "steps_away": "None (0).",
+    "places": "None named."
+   },
+   "angle": "The paper's PDF gives the revert definition, the baseline, per-agent odds ratios (three agents not distinguishable from humans) and its own limits.",
+   "rests_on": [
+    "v-arxiv-five-agents-full-text"
+   ],
+   "ready": true,
+   "note": "For journalist-ai, categories AI. Ready. An update note on S83 (five-coding-agents-reverts-security-waits; its first note, none used yet): the paper's PDF was read after the abstract, so the article's line 'only the abstract was read' is now partly closed. Short update with a list (standing answers 95 and 100); read the PDF capture's sources yourself. State what the paper says, as the paper's: a revert means a revert-style commit flagged by commit message among commits touching the pull request's most-changed file in the 90 days after merge; 4,027 human pull requests against 9,750 agent pull requests in the same 810 repositories; Codex at 6.1% reverted (odds ratio 0.50) against the human 11.5%, Devin at 14.5% (1.31), and the other three (Copilot, Cursor, Claude Code) statistically indistinguishable from humans; the paper's own limits (revert detection by message misses silent rewrites, agents are not randomly assigned to tasks so task mix and quality are mixed, public repositories with more than 100 stars, three languages, December 2024 to July 2025, Conclusions may not transfer to private codebases or later versions); the PDF carries the word PREPRINT. Say what is still not known: production incidents, and whether the paper has been peer reviewed (not stated in what was read). The figures are the paper's and were not checked; do not repeat the article's text; one note only."
+  }
+ ],
+ "connections_priority": [],
+ "for_the_fact_checker": [
+  {
+   "item": "S84",
+   "what": "Parts of the PDF were read; figures are the paper's and unchecked; it is marked A PREPRINT; peer review status unknown."
+  }
+ ],
+ "revisions": [],
+ "gaps_for_the_researcher": [
+  {
+   "desk": "ai",
+   "priority": 1,
+   "gap": "Production-incident data for AI-written changes and any other independent study; whether the paper has been peer reviewed.",
+   "reader_angle": "Whether the revert findings hold beyond one corpus.",
+   "sources_wanted": "Other independent studies; the paper's venue.",
+   "why_not_a_duplicate": "Only this paper exists."
+  },
+  {
+   "desk": "europe",
+   "priority": 1,
+   "gap": "The amendment's provisions (AI literacy, bias-data, small mid-cap fines, AI Office, sandboxes) checked against the Official Journal by a person's browser check.",
+   "reader_angle": "Whether the mirror's wording matches the law.",
+   "sources_wanted": "The Official Journal page.",
+   "why_not_a_duplicate": "Only title, date and status are checked."
+  },
+  {
+   "desk": "portugal",
+   "priority": 2,
+   "gap": "Health-service or regulator numbers on telerehabilitation (patients enrolled, waiting times); a dated report of the Rows closing; other providers in the convention; UST's Lisbon activity; Cova da Beira's own account.",
+   "reader_angle": "What happened after earlier stories.",
+   "sources_wanted": "The health service, regulator and press.",
+   "why_not_a_duplicate": "Only company estimates and prescribing rules exist."
+  }
+ ],
+ "urgent": "None"
+}

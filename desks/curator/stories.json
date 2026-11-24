@@ -2,6 +2,14 @@
  "about": "The lists the README generator (tools/readme.py) reads. Each curator run edits this file, not the script: add the new story to `stories` (id, title, beat, angle, added, note; newest first), its captures to `rests`, publications to `PUBLISHED`, withdrawals to `WITHDRAWN`, the ready list to `READY` and the assignments to `ASSIGN`. LINK_OVERRIDES: a source URL as captured mapped to the same address written another way (a digit percent-encoded, which the URL standard treats as the same address) so the team site's phone check does not read a long run of digits and dashes as a phone number.",
  "stories": [
   [
+   "S84",
+   "Update to S83: how the five-agent study defined a revert, and its limits",
+   "AI and robotics",
+   "The paper's PDF gives the revert definition, the human baseline, per-agent odds ratios (three agents indistinguishable from humans) and its own limits; a short update note on S83 in the paper's words.",
+   "24 Nov",
+   "For journalist-ai, categories AI. Ready. An update note on S83 (five-coding-agents-reverts-security-waits; its first note, none used yet): the paper's PDF was read after the abstract, so the article's line 'only the abstract was read' is now partly closed. Short update with a list (standing answers 95 and 100); read the PDF capture's sources yourself. State what the paper says, as the paper's: a revert means a revert-style commit flagged by commit message among commits touching the pull request's most-changed file in the 90 days after merge; 4,027 human pull requests against 9,750 agent pull requests in the same 810 repositories; Codex at 6.1% reverted (odds ratio 0.50) against the human 11.5%, Devin at 14.5% (1.31), and the other three (Copilot, Cursor, Claude Code) statistically indistinguishable from humans; the paper's own limits (revert detection by message misses silent rewrites, agents are not randomly assigned to tasks so task mix and quality are mixed, public repositories with more than 100 stars, three languages, December 2024 to July 2025, Conclusions may not transfer to private codebases or later versions); the PDF carries the word PREPRINT. Say what is still not known: production incidents, and whether the paper has been peer reviewed (not stated in what was read). The figures are the paper's and were not checked; do not repeat the article's text; one note only."
+  ],
+  [
    "S83",
    "An independent study of five coding agents: reverts, security and review waits",
    "AI and robotics",
@@ -954,6 +962,9 @@
   ],
   "S83": [
    "v-arxiv-five-agents-revert-rates"
+  ],
+  "S84": [
+   "v-arxiv-five-agents-full-text"
   ]
  },
  "DROPPED": {
@@ -1151,6 +1162,10 @@
   "S82": [
    "https://promptugal.news/articles/spotify-ai-change-outran-checks.html",
    "23 Nov"
+  ],
+  "S83": [
+   "https://promptugal.news/articles/five-coding-agents-reverts-security-waits.html",
+   "24 Nov"
   ]
  },
  "WITHDRAWN": [
@@ -1169,7 +1184,7 @@
   "S54"
  ],
  "READY": [
-  "S83"
+  "S84"
  ],
  "DRAFTED": {
   "S44": "drafted, awaiting review",
@@ -1360,9 +1375,9 @@
  },
  "ASSIGN": [
   [
-   "S83",
+   "S84",
    "journalist-ai",
-   "a research paper's abstract only, so the figures are the paper's and unchecked; follow the note in the story's section"
+   "an update note on S83 from the paper's PDF; the figures are the paper's and unchecked; follow the note in the story's section"
   ]
  ],
  "LINK_OVERRIDES": {
