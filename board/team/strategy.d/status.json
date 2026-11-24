@@ -7,7 +7,7 @@
   "started_by": "maestro.d (account-d), at Dinis's word, 22 Nov 2026 ~13:25 UTC",
   "session": "https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
   "key": "strategy.d-agenticcells (board/keys.json; signing sha256:883e53e80cdee0b0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-24T00:53Z",
+  "updated": "2026-11-24T01:02Z",
   "state": "Maps: 1 decision-making v0.2 (framework as a product), 2 estate v0.2 (Sovereign Website first), 4 Sovereign Website v0.1 (owner, visitor, partner; landscape.d's 31 players); platform-sites strategy and requests out.",
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's analyses (decisions at scale, power of attorney, holacracy), holacracy.d's org chart and proposal 04, and newsroom.sgit.ai's lawyers-in-the-loop",
@@ -30,7 +30,9 @@
     "Platform-sites addendum: counsel.d on OpenRouter's terms (may and may-not lists; ask OpenRouter in writing) and OWASP Top Ten licence (CC BY-SA 4.0)",
     "Open asks sent to d.decisions in the new workflow (23 Nov 16:54 UTC): Factory push for my key (harness), OpenRouter written question (outside send), observability agent (new session), frameworks word and Wardley Maps site name (brand); Sovereign Website lead user recorded as a two-way working default",
     "Observability agent ask closed: overtaken, observability.d runs (d.helm, 23 Nov 22:00 UTC)",
-    "Published my key in my own repository (Site__Agent__Strategy site/keys/strategy.d.json, 71f9df3), per Dinis's revised record 2026-11-23__asks-2-8-31-revised (no push to the IaC; keys in own repos); the home's signers check passed locally"
+    "Published my key in my own repository (Site__Agent__Strategy site/keys/strategy.d.json, 71f9df3), per Dinis's revised record 2026-11-23__asks-2-8-31-revised (no push to the IaC; keys in own repos); the home's signers check passed locally",
+    "Home: account D index page and agents.json entry (Site__Agent__Strategy aa19828)",
+    "Platform-sites addendum: twins as backups (Dinis's 24 Nov memo), built on strategy.b's use-case page through the shared home"
   ],
   "next": [
     "Move work into the home: pages under site/accounts/d/ (maps, strategies), my entry in site/data/agents.json",

@@ -148,3 +148,14 @@ From counsel.d's note `board/team/counsel.d/notes/2026-11-23-openrouter-terms-an
 - **Uncertain:** whether a free better UI counts as a "competing service"; public tables of models and prices.
 - **Recommendation (counsel.d), which I adopt:** ask OpenRouter in writing before launch. Sending it is Dinis's (an email to an outside party). Until the answer: build on the may-list only, with no public model or price tables and no catalogue copy; the agent port carries no red-teaming feature.
 - **OWASP Top Ten:** CC BY-SA 4.0 (its repository's LICENSE). Adapted text stays CC BY-SA 4.0, not our usual CC BY 4.0. With the licence known, OWASP rejoins the order after Wikipedia.
+
+## Addendum (24 Nov, 01:03 UTC): twins as backups, the strongest first use
+
+Dinis's memo of 24 Nov (about 00:05 UTC, in b.maestro's session; `board/guidance/2026-11-24-twins-backups-and-browser-components.md`): backups of Calendar and Gmail as a digital twin, made in the user's own browser by OAuth from the website (not a connector), kept in local storage and then a vault, version-controlled and encrypted with the user's key; small components in small repositories. The use cases and how they are told are routed to strategy.b with d.strategy. strategy.b's use-case page is in our shared home (`site/accounts/b/use-cases/twin-backups/` in Site__Agent__Strategy); I build on it through the repository, not by message (the twins rule).
+
+Where it sits in this strategy:
+- **It is the cleanest case of the green tiers.** The user's own data, through the platform's own OAuth, held in the user's own browser and vault: nothing passes through our hosts. It is "your keys, your UI" applied to the data people most fear losing.
+- **It answers the stand's chasm** (Map 4, C1): a small first step anyone can take in a minute, with a visible result (a backup they hold), and a natural place to show the policies at work (what the twin may read, what it may never send).
+- **Calendar before Gmail** (as Dinis said; b.maestro's note: Calendar's read scope is "sensitive", Gmail's "restricted", which for a published app adds an annual security assessment; to be checked on Google's pages).
+- **Each capability is a small component** a site can add: the twin, the local model, the browser harness and its policies. That is the factory's volume argument at component level: every new site gets the capability for the cost of adding a component.
+- **Whose Google app** is a decision strategy.b has asked (`site/decisions/requests/2026-11-24__twin-backup-google-app.json` in the home): Dinis's own, or each organisation's own ("fork it yourself"), which moves the verification burden. I add no separate ask.
