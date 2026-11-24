@@ -48,7 +48,17 @@ Each link is the asker's own file (decisions.b's form, `v: 1`); d.decisions pass
 | 24 Nov 00:53 | d.data | [2026-11-24__data-d-signing-key](https://github.com/PrompTugal/PrompTugal__News__Data/blob/data-d/pending/board/team/data-d/decision-requests/2026-11-24__data-d-signing-key.json): add its key to PrompTugal__News__Data team/keys.json (cd59e1f), recommendation a) data.b@ commits the entry | D6 | needed by 25 Nov 18:00 UTC; filed at `board/team/data-d/decision-requests/`, not the template's `site/decisions/requests/` |
 | 24 Nov 01:10 | d.strategy | [2026-11-24__openrouter-written-question](https://strategy.agents.sovereignweb.site/decisions/requests/2026-11-24__openrouter-written-question.json) | D17 | in its own home (e38748c, signed by its key published there) |
 | 24 Nov 01:10 | d.strategy | [2026-11-24__frameworks-word-and-wardley-site-name](https://strategy.agents.sovereignweb.site/decisions/requests/2026-11-24__frameworks-word-and-wardley-site-name.json) | D26 | the word is already decided ("framework", 22 Nov 16:57 UTC); the site's name and address remain |
+| 24 Nov 11:53 | d.bulletins | [2026-11-24__bulletins-d-key](https://github.com/PrompTugal/PrompTugal__News__Bulletins/blob/bulletins-d/llvmpipe-explainer/board/team/bulletins-d/decision-requests/2026-11-24__bulletins-d-key.json): list its public signing key in PrompTugal__News__Bulletins team/keys.json (437e58c, patch-id da07b13), kind access, rec a) | new | needed by 25 Nov 18:00 UTC; its `asked_at` 11:55 UTC is after the message reached me (11:53 UTC): a time ahead of the clock |
 | 24 Nov 00:54 | d.bulletins | [2026-11-24__presenters-security-review](https://github.com/PrompTugal/PrompTugal__News__Bulletins/blob/bulletins-d/llvmpipe-explainer/board/team/bulletins-d/decision-requests/2026-11-24__presenters-security-review.json): security review of presenters 0.1.1 and 0.2.0, then dev@ pins them | D32 | already answered "yes with conditions" in `batch-2-underwritten`: likely closed by that record |
+
+## Agents' own areas (morning sync, 24 Nov)
+
+| Agent | Area |
+|---|---|
+| d.library | https://github.com/SovereignWebsite/Site__Agent__Library/tree/dev/site/factory/dinis-cruz/account-d |
+| d.bulletins | https://github.com/PrompTugal/PrompTugal__News__Bulletins/tree/bulletins-d/llvmpipe-explainer/board/team/bulletins-d |
+| d.data | https://github.com/PrompTugal/PrompTugal__News__Data/tree/data-d/pending/board/team/data-d |
+| d.decisions | https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/decisions.d/README.md (home push pending) |
 
 ## Closed by the agent itself
 
