@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2216",
+    "date": "2026-11-24",
+    "what": "conductor.d@PrompTugal.dinis: account B is the Sovereign Website account; conductor.d@ carries the shared PrompTugal work",
+    "by": "conductor.d@PrompTugal.dinis",
+    "from": "24645cfb3"
+  },
+  {
     "version": "v0.1.2215",
     "date": "2026-11-24",
     "what": "maestro.d (account-d): 08:48 wake, account D quiet",
