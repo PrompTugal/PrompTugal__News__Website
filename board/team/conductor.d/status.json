@@ -4,8 +4,8 @@
  "role": "The PrompTugal conductor on account D, twin and peer of conductor.b@ (board/team/pt-conductors/README.md; role as board/team/conductor.b/ROLE.md)",
  "session": "https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8",
  "key": "conductor.d-promptugal (encryption sha256:37f54523c61892c7, signing sha256:bfedbdebc85d737d) in board/keys.json",
- "updated": "2026-11-24T00:52Z",
- "state": "woke 20:18 Lisbon 23 Nov; next 09:18; asks with d.decisions; account B still silent, ten sites stale ~60 h",
+ "updated": "2026-11-24T09:19Z",
+ "state": "woke 09:18 Lisbon 24 Nov; next 20:18; account B PrompTugal silent ~58 h, ten sites stale ~72 h, escalated (E2 to d.maestro, E3 class)",
  "done": [
   "onboarded: CLAUDE.md, guidance, pt-conductors README, conductor.b@ ROLE/status/watch/debrief/roster, maestros README, slow-until-Monday",
   "key conductor.d-promptugal made in this session and published in board/keys.json, commits signed",
@@ -25,7 +25,8 @@
   "09:18 wake 23 Nov: 13 sites 200, ten not rebuilt since 21 Nov morning; bulletins.d@ 63.63 USD, data.d@ ~33 USD",
   "asks moved to d.decisions per Dinis workflow of 23 Nov ~14:30 UTC; name prefix rule passed to d.bulletins and d.data (2026-11-23T16:52Z)",
   "20:18 wake 23 Nov: 13 sites 200, ten stale since 21 Nov morning; d.bulletins presenters 0.2.0 relayed to d.studio and d.sherpa; d.data slip noted (fixed)",
-  "D13 (record 2026-11-24__batch-1-underwritten) approves data.open.d; start handed to d.maestro per the record; vault listing and ask-file rules passed to d.bulletins and d.data (2026-11-24T00:52Z)"
+  "D13 (record 2026-11-24__batch-1-underwritten) approves data.open.d; start handed to d.maestro per the record; vault listing and ask-file rules passed to d.bulletins and d.data (2026-11-24T00:52Z)",
+  "09:18 wake 24 Nov: sites checked (ten stale ~72 h, data rebuilt 07:34); escalated account B silence to d.maestro"
  ],
  "next": [
   "conduct data.open.d once d.maestro starts it (no wake, public data only, its own key, no vault keys)",
@@ -80,5 +81,27 @@
    "Dinis: https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj - pick the default Explorer voice from bulletins.d@ audition (am_michael, am_fenrir, am_puck, bm_fable, bm_george, bm_lewis)",
    "Dinis: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 - ten of the 13 sites (account B leads) have not rebuilt since 21 Nov 08-09 UTC; is account B running again?"
   ]
- }
+ },
+ "stuck": [
+  {
+   "what": "relay to account B: conductor.b@ silent since 2026-11-21T22:45Z; ten PrompTugal sites not rebuilt since 21 Nov 08-09Z",
+   "blocks": "the .d keys relays, the lane claim, sherpa.d findings P1-P4, site freshness",
+   "class": "cross-account relay",
+   "tried": "asks in from-d.md each wake; ask to d.decisions 23 Nov 16:52Z",
+   "ask": "b.maestro restores account B PrompTugal wakes (slow-until-monday record) or says they stay off",
+   "cost": "ten live sites ~72 h stale",
+   "since": "2026-11-22T09:18Z",
+   "step": "E2 sent to d.maestro 2026-11-24T09:19Z; E3 by class (live sites)"
+  },
+  {
+   "what": "data.open.d not started",
+   "blocks": "generic public sources on data-d/pending",
+   "class": "decision (start is the maestro s under D13)",
+   "tried": "two starts refused by my session safety check (22 Nov 18:10Z, 23 Nov 04:55Z); handed to d.maestro",
+   "ask": "Dinis one word to d.maestro in its session",
+   "cost": "data.d branch waits",
+   "since": "2026-11-22T17:05Z",
+   "step": "E3 with d.maestro"
+  }
+ ]
 }
