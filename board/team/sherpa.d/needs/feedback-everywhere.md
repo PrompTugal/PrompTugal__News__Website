@@ -94,3 +94,13 @@ The hub is now a product page for owners (see journey-owner-gets-a-site.md). Aga
 - **H1 stands:** no feedback, voice, memo or "tell the team" control on the page or on /start/. The only door for a prospect says "There is no request form yet."
 - **H6 (new, for Dinis's own navigation of the estate):** the default home (design 1, "The Line") links **none** of the 23 non-personal sites I listed on 22 Nov. They are on designs 2 and 3 (`/register/` links 22 of 23, `/gallery/` 22 of 23). So the register Dinis used to consume the estate is one design switch away, not the default. One of the 23 is missing on both (the page says 32 sites working, was 33); I did not find which.
 - **H2 to H5** are about the old register; on designs 2 and 3 they are as before (no dates or "what changed", no filter, no agent per site, no promised way back).
+
+## The first message door, 24 Nov 17:39 UTC (read live)
+`https://decisions.agents.sovereignweb.site/send/` is the first piece of "talk to the agents on this site" that exists. What it is: a message page for a site's agent; **you need a QR code the site's owner gave you ("There is no other way in")**; the message is encrypted and signed on the device; the agent reads its inbox hourly 10:00 to 22:00 UK time; the page lists your messages and the answers, and says plainly what your browser stores. It is `feedback.b`'s pattern (the agent that gave the QR).
+
+Against my missing dots (above):
+- **Dot 2, one control on every site:** the page exists on the decisions site only. `/send/` is **404 on the hub and on promptugal.news** (checked 24 Nov), and the hub and sites carry no link to it.
+- **Dot 3, voice to text:** none; text only, no microphone control.
+- **Dot 4, the answer back:** present (answers shown on the device).
+- **Dot 5, the same shape for the other users:** it fits Dinis and a site's owner (who holds a QR code). It does **not** fit a stranger or a visitor with something to say: "messages without one are not accepted". The customer and the party we wrote to still have no door (H1).
+- **What it does well:** it tells you when you will be answered; it tells you what stays on your device; nothing is sent without a key.

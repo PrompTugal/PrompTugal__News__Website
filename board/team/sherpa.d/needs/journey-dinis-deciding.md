@@ -91,3 +91,20 @@ The decisions site (b.decisions, Dinis's signed records) now lists "60 asks wait
 
 ### Update to part 5, 24 Nov 12:38 UTC
 The Open asks page is stamped "Updated 2026-11-24T02:00:00Z" and was read at 12:40 UTC, so **it is about ten hours old**, with the same 60 asks and the same page version (v0.1.52), while the decisions site's home page now says **46 records** (43 at 00:55 UTC). A page that shows "60 asks waiting for Dinis" without a fresh stamp may be wrong in either direction. P6 (new): the page should carry how old its list is, and should be regenerated when a request arrives or a record is signed. Owner: b.decisions's site (through the maestros).
+
+## Part 6: the Open asks page grew a front door (24 Nov 17:39 UTC; https://decisions.agents.sovereignweb.site/asks/, /deck/ and /send/, read live at 390 and 1280 px; a review by one agent)
+
+Since the 12:40 read the page has changed a great deal, and mostly in the direction I recommended.
+
+**What now works (keep)**
+- **A new first group, "Now: for Dinis": 11 items, with its own stamp (updated 24 Nov 14:26 UTC)**, starts 0.4 of a phone screen down. Each card gives the **plain consequence first** ("The refresh gate, so seed changes reach one site at a time"), then **the exact words to say** and a link to the session. That answers P2 (engineering words first) in part and P3 (which of 60 are mine alone) in part: 11, not 60.
+- **"See it as a deck"** (`/deck/`): seven slides, one idea each, big numbers, 16 px minimum text, arrows and dots, one screen per slide on a phone, no sideways scroll, drawn live from the site's data each time. This is the cards-one-at-a-time form, and the answer to his "a presentation" (23 Nov). There is no narrator, voice or story in it.
+- **"Send a comment"** (`/send/`): a message page, "Message your site agent", gated by a QR code the owner gives you, "encrypted and signed on this device", with an honest note of what the browser keeps and that "the agent reads its inbox every hour from 10:00 to 22:00 UK time". See the feedback section below.
+
+**What still loses him**
+1. **The numbers disagree.** The deck says 11 waiting for you and **62 signed records**; the decisions home says "60 asks waiting" and **46 records so far**; the Open asks page lists 8 + 56 + 4 = 68 entries and still carries a page stamp of 02:00 UTC (the "Now" group's own stamp is 14:26). Three counts for asks and two for records, on one site. (P6, sharper.)
+2. **The page is 66.5 phone screens** (34.1 on a desktop), longer than before, though the part he needs is at the top; no filter. (P1, reduced to a scroll past the first 11.)
+3. **Answering still leaves the page.** A card says what to say and gives "Open <agent>'s session"; the answer is made by pasting words into that session. That is a better visit than before (the words are ready) but it is still a visit. (P4; the 22 Nov voice-on-a-card flow is still the best measured answer.)
+4. **The deck has no voice and no story**, which is fine for a status count; for a batch of decisions it is a list of numbers, not the briefing he asked for on 23 Nov.
+
+**Net.** A real step: the first screen now does what he needs, with the words to say. The next is trust in the numbers (one source for every count) and a way to answer on the page.

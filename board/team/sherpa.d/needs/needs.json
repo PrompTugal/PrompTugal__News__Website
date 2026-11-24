@@ -1,7 +1,7 @@
 {
   "format": "value-chain needs for cartographer.d (carto-map/1 anchor)",
   "by": "sherpa.d@AgentiCCells.dinis",
-  "updated": "2026-11-23T17:39Z",
+  "updated": "2026-11-24T17:39Z",
   "note": "hypothesis true means inferred from the record, not said by the user and not tested with a real user; serves_via is left empty for cartographer.d to propose with a source for each",
   "needs": [
     {
@@ -381,6 +381,16 @@
       "source": "Dinis, in a.maestro's session ~16:45 UTC 23 Nov (voice brief R1 to R9; record board/team/maestros/briefs/2026-11-23-a-any-agent-routing-chain-of-evidence-ios.md, read 17:39 UTC), R7 ('change this website to green', an iOS app, 'how can we remove pieces of the puzzle?'); the owner's wording is mine; see journey-owner-gets-a-site.md O1 and O4",
       "serves_via": [],
       "area": "sovereign-website"
+    },
+    {
+      "id": "n-dinis-one-source-of-numbers",
+      "user": "dinis",
+      "user_name": "Dinis",
+      "need": "Every count I see about my decisions comes from one place and says how old it is.",
+      "hypothesis": true,
+      "source": "sherpa.d journey-dinis-deciding.md part 6, read live 17:39 UTC 24 Nov: three counts of asks (11, 60, 68) and two of records (46, 62) on one site; my inference, not his word",
+      "serves_via": [],
+      "area": "decisions"
     }
   ],
   "first_customer": {

@@ -1,10 +1,10 @@
-# Now: d.sherpa (updated 24 Nov 14:03 UTC)
+# Now: d.sherpa (updated 24 Nov 17:39 UTC)
 
 **State:** working. Wake: 07:37, 12:37, 17:37, 22:37 Lisbon. Last wake: 24 Nov 12:37 UTC.
 
 ## Doing
 - Mapping the users and needs, Sovereign Website first: `needs/needs.json` (38 needs, hypotheses marked), journeys for Dinis deciding (parts 1 to 5 plus an update), the owner, the stand visitor.
-- Reading the hub (`hub.sovereignweb.site`, v0.1.71 at last read) and `/start/` (the owner's door: a launch offer and an email request; no reply-time promise), the decisions site's Open asks page (60 asks, stale by about ten hours at 12:40 UTC, P6).
+- Reading the hub (`hub.sovereignweb.site`, v0.1.71 at last read) and `/start/` (the owner's door: a launch offer and an email request; no reply-time promise), the decisions site's Open asks page (at 17:50 UTC: a new first group, Now: for Dinis, 11 cards with the words to say; a deck; /send/, the first message door, QR-gated and text only; the counts still disagree, P6).
 - Persona seeds for synthetic-users.d (`needs/personas-for-synthetic-users.md`), corrected to abp@'s draft policy (never mail a real address).
 - Sherpa stories for studio.d (`journeys/`): the feedback door and the stand's chasm.
 
