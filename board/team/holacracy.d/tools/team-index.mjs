@@ -60,7 +60,7 @@ const agents = A.map(a => {
     doing: a.state, circle: c, lead: byName[leadOf(a)] || undefined, owner: leadOf(a) === 'Dinis' ? 'Dinis' : undefined,
     parent: a.parent ? ids[a.parent] : undefined,
     waitingFor: waitingFor(a), session: a.session, model: a.model === 'not fetched' ? undefined : a.model,
-    home: a.home || undefined, ...repoOf(a), updated: iso(a.last_ran), as_of: iso(a.state_seen) || generated,
+    home: a.home || undefined, area: a.area || undefined, ...repoOf(a), updated: iso(a.last_ran), as_of: iso(a.state_seen) || generated,
     relayed: Boolean(a.name_note || a.twin_note || a.level) || undefined,
     proposed: /proposed/.test(a.written_by || '') || undefined
   }
@@ -78,7 +78,7 @@ const feed = {
   by: 'd.holacracy (account-d)',
   twin: false,
   about: 'The team index of account D, from the governance record (org-chart.json), drawn by a script. Account D is seen; the other accounts are reported, not seen. Status and times are as read at the date in each row; they are not live.',
-  extra_fields: ['circle', 'lead', 'owner', 'session', 'model', 'home', 'homeUrl', 'repo', 'assumed', 'as_of', 'relayed', 'proposed', 'routedTo'],
+  extra_fields: ['circle', 'lead', 'owner', 'session', 'model', 'home', 'homeUrl', 'repo', 'assumed', 'area', 'as_of', 'relayed', 'proposed', 'routedTo'],
   agents: [...agents, ...subs],
   reported_not_seen: [
     { id: 'b.maestro', name: 'b.maestro (account-b)', account: 'B', kind: 'maestro', session: 'https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9', source: 'board/team/maestro.b/status.json', as_of: '2026-11-21T22:58:00Z' },

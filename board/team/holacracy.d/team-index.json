@@ -1,6 +1,6 @@
 {
  "kind": "owner.feed/v1",
- "made": "2026-11-24T00:52:00Z",
+ "made": "2026-11-24T11:51:00Z",
  "by": "d.holacracy (account-d)",
  "twin": false,
  "about": "The team index of account D, from the governance record (org-chart.json), drawn by a script. Account D is seen; the other accounts are reported, not seen. Status and times are as read at the date in each row; they are not live.",
@@ -14,6 +14,7 @@
   "homeUrl",
   "repo",
   "assumed",
+  "area",
   "as_of",
   "relayed",
   "proposed",
@@ -49,6 +50,7 @@
    "session": "https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
    "model": "sonnet",
    "home": "SovereignWebsite/Site__Agent__Holacracy",
+   "area": "board/team/holacracy.d/README.md in PrompTugal/PrompTugal__News__Website (my home, SovereignWebsite/Site__Agent__Holacracy, is not mine to write yet: D12)",
    "updated": "2026-11-23T16:51:45Z",
    "as_of": "2026-11-22T13:26:00Z",
    "relayed": true,
@@ -558,7 +560,7 @@
    "session": "https://claude.ai/code/session_015gaHddy85C9E8oW9YhJ6FK",
    "repo": null,
    "updated": "2026-11-23T16:52:12Z",
-   "as_of": "2026-11-23T17:10:00Z"
+   "as_of": "2026-11-24T12:10:00Z"
   },
   {
    "id": "d.donna-freed.SovereignWebsite",
@@ -573,7 +575,7 @@
    "session": "https://claude.ai/code/session_015gaHdeh6Sh45Ef2fZFAhLi",
    "repo": null,
    "updated": "2026-11-23T16:52:12Z",
-   "as_of": "2026-11-23T17:10:00Z"
+   "as_of": "2026-11-24T12:10:00Z"
   },
   {
    "id": "d.wordpress.SovereignWebsite",
@@ -588,7 +590,7 @@
    "session": "https://claude.ai/code/session_015gaHda1bnbqASo1ed8VUdY",
    "repo": null,
    "updated": "2026-11-23T16:52:11Z",
-   "as_of": "2026-11-23T17:10:00Z"
+   "as_of": "2026-11-24T12:10:00Z"
   },
   {
    "id": "d.observability.SovereignWebsite",
@@ -604,7 +606,7 @@
    "session": "https://claude.ai/code/session_015gaHdayiD5PCvJRyqNHyjC",
    "repo": null,
    "updated": "2026-11-23T04:52:17Z",
-   "as_of": "2026-11-23T17:10:00Z"
+   "as_of": "2026-11-24T12:10:00Z"
   },
   {
    "id": "d.counsel.SovereignWebsite",
@@ -637,7 +639,7 @@
    "session": "https://claude.ai/code/session_015gaHdegs3vxyNtU2tmc28P",
    "repo": null,
    "updated": "2026-11-23T04:52:01Z",
-   "as_of": "2026-11-23T17:10:00Z"
+   "as_of": "2026-11-24T12:10:00Z"
   },
   {
    "id": "d.chiswick-cheese-market.SovereignWebsite",
@@ -653,7 +655,7 @@
    "session": "https://claude.ai/code/session_015gaHdcNSDvpHf63UJRg64C",
    "repo": null,
    "updated": "2026-11-23T04:52:09Z",
-   "as_of": "2026-11-23T17:10:00Z"
+   "as_of": "2026-11-24T12:10:00Z"
   },
   {
    "id": "studio.director.d",
@@ -664,7 +666,7 @@
    "status": "unknown",
    "doing": "a sub-agent inside d.studio's run (named in helm.d's role file, relayed); not a session of its own",
    "relayed": true,
-   "as_of": "2026-11-23T17:10:00Z"
+   "as_of": "2026-11-24T12:10:00Z"
   },
   {
    "id": "studio.storyboard.d",
@@ -675,7 +677,7 @@
    "status": "unknown",
    "doing": "a sub-agent inside d.studio's run (named in helm.d's role file, relayed); not a session of its own",
    "relayed": true,
-   "as_of": "2026-11-23T17:10:00Z"
+   "as_of": "2026-11-24T12:10:00Z"
   },
   {
    "id": "studio.presenters.d",
@@ -686,7 +688,7 @@
    "status": "unknown",
    "doing": "a sub-agent inside d.studio's run (named in helm.d's role file, relayed); not a session of its own",
    "relayed": true,
-   "as_of": "2026-11-23T17:10:00Z"
+   "as_of": "2026-11-24T12:10:00Z"
   }
  ],
  "reported_not_seen": [
@@ -735,8 +737,8 @@
    ],
    "recommended": "A",
    "from": "d.holacracy.account-d",
-   "at": "2026-11-23T17:10:00Z",
-   "as_of": "2026-11-23T17:10:00Z",
+   "at": "2026-11-24T12:10:00Z",
+   "as_of": "2026-11-24T12:10:00Z",
    "evidence": [
     "board/team/holacracy.d/proposals/01-one-naming-rule.md"
    ],
@@ -753,8 +755,8 @@
    ],
    "recommended": "AB",
    "from": "d.holacracy.account-d",
-   "at": "2026-11-23T17:10:00Z",
-   "as_of": "2026-11-23T17:10:00Z",
+   "at": "2026-11-24T12:10:00Z",
+   "as_of": "2026-11-24T12:10:00Z",
    "evidence": [
     "board/team/holacracy.d/proposals/04-anchor-purpose-and-circle-rep.md"
    ],
@@ -770,8 +772,8 @@
    ],
    "recommended": "A",
    "from": "d.holacracy.account-d",
-   "at": "2026-11-23T17:10:00Z",
-   "as_of": "2026-11-23T17:10:00Z",
+   "at": "2026-11-24T12:10:00Z",
+   "as_of": "2026-11-24T12:10:00Z",
    "evidence": [
     "board/team/holacracy.d/proposals/role-repo-layout.md"
    ],
@@ -787,28 +789,10 @@
    ],
    "recommended": "A",
    "from": "d.holacracy.account-d",
-   "at": "2026-11-23T17:10:00Z",
-   "as_of": "2026-11-23T17:10:00Z",
+   "at": "2026-11-24T12:10:00Z",
+   "as_of": "2026-11-24T12:10:00Z",
    "evidence": [
     "board/team/holacracy.d/proposals/role-repo-layout.md"
-   ],
-   "routedTo": "d.decisions.account-d"
-  },
-  {
-   "id": "holacracy.D10",
-   "title": "How an agent's key reaches its home's Factory key list",
-   "detail": "A home asks for a commit signed with a key published in the Factory's team/keys.json. The Factory's own rule says that file waits for Dinis's merge; helm.d relays that each agent publishes its own by a signed commit of its own; CLAUDE.md's no-agent-blocked rule lists 'making and publishing your own key by your own signed commit' as an own-area step.",
-   "options": [
-    "A. Keys go by branch, Dinis merges each (the Factory's current rule)",
-    "B. Self-published keys: an agent lands its own key by its own signed commit",
-    "C. Keys stay in each project's own keys file until homes need them"
-   ],
-   "recommended": "B",
-   "from": "d.holacracy.account-d",
-   "at": "2026-11-23T17:10:00Z",
-   "as_of": "2026-11-23T17:10:00Z",
-   "evidence": [
-    "board/team/holacracy.d/MOVE-TO-HOME.md"
    ],
    "routedTo": "d.decisions.account-d"
   },
@@ -823,10 +807,28 @@
    ],
    "recommended": "A",
    "from": "d.holacracy.account-d",
-   "at": "2026-11-23T17:10:00Z",
-   "as_of": "2026-11-23T17:10:00Z",
+   "at": "2026-11-24T12:10:00Z",
+   "as_of": "2026-11-24T12:10:00Z",
    "evidence": [
     "board/team/holacracy.d/proposals/07-two-counsel-agents.md"
+   ],
+   "routedTo": "d.decisions.account-d"
+  },
+  {
+   "id": "holacracy.D12",
+   "title": "Give d.holacracy access to its own home",
+   "detail": "The own-keys principle lets an agent publish its own key in a repository it has access to. My session cannot reach Site__Agent__Holacracy: attaching it is a session change, and the settings-rules record says no agent adds or widens a rule for itself.",
+   "options": [
+    "A. Attach Site__Agent__Holacracy to my session (a rule in my settings, added by Dinis, or his yes in my session)",
+    "B. Someone else commits my files to the home",
+    "C. Stay here"
+   ],
+   "recommended": "A",
+   "from": "d.holacracy.account-d",
+   "at": "2026-11-24T12:10:00Z",
+   "as_of": "2026-11-24T12:10:00Z",
+   "evidence": [
+    "board/team/holacracy.d/MOVE-TO-HOME.md"
    ],
    "routedTo": "d.decisions.account-d"
   }
