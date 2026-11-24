@@ -17,13 +17,13 @@
   "anchor": "sha256:db7f79fdd87e030a",
   "anchor_name": "dinis.cruz",
   "method": "pki.sgit.ai chain: anchor (pinned) -> operates -> issuer; checked with pki-agent.mjs pin/trust",
-  "chain_ok_at": "2026-11-23T23:55Z",
+  "chain_ok_at": "2026-11-24T00:08Z",
   "until": "2026-11-30",
   "register": "https://pki.sgit.ai/directory/index.json, site v0.2.36",
   "given": "Dinis in this session, about 2026-11-23T23:55Z: take the anchor and the b.decisions key from pki.sgit.ai (\"nobody else can edit that\")",
   "replaces": "the hand-carried pin of decisions.c (never pinned)"
  },
- "last_ledger_read": "2026-11-23T23:55Z",
+ "last_ledger_read": "2026-11-24T00:08Z",
  "done": [
   "clone unshallowed; sgit-ai 0.27.0 present",
   "key made in this session with sgit pki keygen (passphrase random, kept in ~/.sg-send/, never printed); entry router.a-account-a in board/keys.json with its sgit bundle and ssh signing key",
@@ -53,7 +53,7 @@
    "why": "Dinis in this session: the register is the stronger source, only he can edit it; the anchor matches the one in board/guidance/2026-11-23-asks-go-to-b-decisions.md"
   }
  ],
- "updated": "2026-11-23T23:55Z",
+ "updated": "2026-11-24T00:08Z",
  "wake": {
   "trigger": "trig_01MozebE3LqFxGGrW5GNRTVq",
   "cron": "3 * * * *",

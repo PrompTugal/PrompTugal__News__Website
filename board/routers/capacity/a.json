@@ -1,0 +1,25 @@
+{
+ "about": "Account A headroom, published by router.a (account-a) at each wake (board/routers/README.md). Read from get_session rate_limit_info of router.a own session; never transcripts. Weekly percent cannot be read by a session: only Dinis gives it. Latest reading first; append only.",
+ "account": "a",
+ "rows": [
+  {
+   "at": "2026-11-24T00:08Z",
+   "account": "A",
+   "source": "get_session rate_limit_info (router.a own session)",
+   "limit_type": "seven_day",
+   "status": "allowed",
+   "resets_utc": "2026-11-29T20:00Z",
+   "overage": false,
+   "weekly_percent": null,
+   "sessions_read": [
+    "router.a"
+   ]
+  }
+ ],
+ "latest": {
+  "at": "2026-11-24T00:08Z",
+  "level": "green (allowed, no overage; weekly percent unknown)",
+  "can_claim": "any v0 request",
+  "until": "next reading"
+ }
+}
