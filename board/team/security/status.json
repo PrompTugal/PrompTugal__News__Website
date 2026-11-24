@@ -1,18 +1,18 @@
 {
  "agent": "security@PrompTugal.dinis",
  "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 18 Nov 15:05 (Dinis): every PrompTugal repository (Website, Data, Weather, Civic, Startups, Travel, Events, Signals), hourly by day, AppSec on code, threat models for automation, a daily prompt-injection pass.",
- "state": "running on this account since 16 Nov 19:28 UTC; key security-promptugal-2; wakes twice a day (09:03 and 20:03 Lisbon), board/guidance/2026-11-19-twice-a-day.md",
- "updated": "2026-11-23T23:25Z",
+ "state": "running on this account since 16 Nov 19:28 UTC; key security-promptugal-2; scheduled wakes off until Dinis re-enables them (b.maestro, 24 Nov); woken by messages",
+ "updated": "2026-11-24T11:07Z",
  "reviewed_to": "a9bc5ea0e",
  "hold": false,
  "done": [
+  "11:07 24 Nov: risk notes on the morning sync (summit contacts into the CRM by a person only; Angela's login confirmed exactly, least privilege; twin inboxes on our own domain only; Gmail use needs a written grant)",
   "23:25 23 Nov: account E kit (maestro.e) reviewed: not yet; two must-fix items (pin the whole signer key or Dinis's anchor in the QR; the account holder is root, so the controls must not rely on refusals); delegation recommended",
   "15:54 21 Nov: Dinis decided the private vault stays as it is (board/guidance/2026-11-21-private-vault-kept.md); my ask closed; R8 unchanged elsewhere",
   "09:56 21 Nov: raw-history vaults reviewed: the public one acceptable (role mailboxes of CNAs only, no secrets); the private one's 569 contact fields to be removed at collection (For Dinis)",
   "09:05 21 Nov: wake sweep of 20 repositories clean; Live's web-flow key post-reviewed: go (ae940dda2); bulletins' lab innerHTML low",
   "20:05 20 Nov: wake sweep of 20 repositories clean; outreach's official-request drafter and bulletins' OpenRouter voice read, fine; web-flow key rulings for live.b@ (a4e915600, 8667c27ce)",
-  "09:05 20 Nov: wake sweep of 20 repositories clean; ptmap vendored on promptugal.news identical to the reviewed 1.0.2; control-10 notes fixed by dev@; S72 still unwired",
-  "20:05 19 Nov: first twice-a-day wake: 20 repositories clean (509 Website commits); S72 progress read (dev-only release, .gitattributes refused, control 10 in the checker) but still unwired; low notes for dev@ and abp@"
+  "09:05 20 Nov: wake sweep of 20 repositories clean; ptmap vendored on promptugal.news identical to the reviewed 1.0.2; control-10 notes fixed by dev@; S72 still unwired"
  ],
  "next": [
   "each push of the public raw-history vault zqyku8mc: rescan it for personal contacts (Dinis, 21 Nov), and check data.b@'s deny-by-source rule (contracts-finder, events-pt) once it lands",
@@ -75,6 +75,7 @@
   "S72": "medium: promptugal.news signature check built but not run by CI or release.sh (dev@)"
  },
  "asks": [
+  "Dinis: before the first import of summit contacts into the CRM, set its lawful basis, removal route, retention and who holds the vault key (reviews/2026-11-24-*-morning-sync-risks.md); confirm Angela's GitHub login character for character before the Factory grants access",
   "Dinis: for every PrompTugal repository, branch protection on dev with a required status check, a tag ruleset limiting release tags to GitHub Actions, and a github-pages environment rule allowing deployments only from dev; the signed-commit checks cannot close these themselves (reviews/2026-11-19-0130-bar-signing-live-data.md)",
   "Dinis: S41: content/articles/six-people-250-agents-promptugal-news.md says Angelo, Silvio and José live in Loulé and Quarteira, on your word; neither cited source says it. Have they each agreed? If not, place.loule@ takes the towns out. See reviews/2026-11-16-0205-wake.md",
   "Dinis: S51: since last night the meter raises every reader's past charges below 1p to 1p and takes the difference from their balance (which can include the £5 they paid). Raising future prices is yours to decide; charging again for pages already read, without telling them, is not something I would ship. Floor for new charges only, or show the reader the lift. See reviews/2026-11-18-0005-wake.md",
