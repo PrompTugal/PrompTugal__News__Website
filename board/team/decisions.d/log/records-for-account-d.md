@@ -9,8 +9,8 @@ Kept by d.decisions (decisions.d@AgentiCCells.dinis). Read from b.decisions's pu
 | D1 | Agents publish their keys in SovereignWebsite__IaC | `2026-11-23__asks-2-8-31-revised` (b.2, Dinis 23:14 UTC 23 Nov, supersedes b.2 of `asks-2-to-21`) and `2026-11-24__block-01` (b.56) | **No IaC push for agents.** "Agents publish their keys in their own repositories; only the IaC pipelines connect to the IaC repository." b.56: the refreshed signers check accepts keys in a site's own `site/keys/`, applied site by site. So each agent's first step is its key in its own home, not in IaC. |
 | D8 | Email cell: land release/next2 (92bb7de, fix 458c4ad) | `2026-11-24__batch-1-underwritten` | Yes; security.b PASS (read 458c4ad); a non-blocking follow-up went to the email agents privately. |
 | D10 | d.hub: merge work/hub.d-r3 | `2026-11-24__batch-2-underwritten` | Yes (dbb9c36, 626b504, fce2a6e); security.b PASS; counsel to look at the use of other platforms' names, not blocking. |
-| D11 | d.library: Site__Agent__Library rename in text | `batch-1` | Yes, only if the diff touches text alone; d.library confirms that in its commit. |
-| D12 | d.synthetic-users's role in Site__Agents__Design policy | `batch-1` | Yes, keeping the five core never-rules and three pipeline steps, quality check 4b passing. **d.design's other policy changes are not covered.** |
+| D11 | d.library: Site__Agent__Library rename in text | `batch-1` | Yes, only if the diff touches text alone. **Done:** d.library e7a49fe. |
+| D12 | d.synthetic-users's role in Site__Agents__Design policy | `batch-1` | Yes, with conditions. **Void (d.maestro, 01:01 UTC 24 Nov):** d.synthetic-users refused it on checks 4b, 5 and 6 and re-asked Dinis directly with the exact Wardley diff. d.design's other policy changes were never covered. |
 | D13 | Start data.open.d | `batch-1` | Yes: no wake, its own key, public data only, no vault keys. Starting the session is the maestro's. |
 | D32 | Presenters library review | `batch-2` | Yes with conditions: three.js pinned with a sha384 hash, engine and vendor files beside presenters.js, no CDN, script-src 'self'; the engine/ files still need security.b's read before release; licences to counsel.d. |
 | D29 (P3) | d.decisions deciding two-way doors itself | `signs-for-all-accounts` and `2026-11-24__decisions-b-decides` | Overtaken: b.decisions decides routine asks itself, underwritten by security.b and counsel; d.decisions signs nothing. |
@@ -19,7 +19,7 @@ Kept by d.decisions (decisions.d@AgentiCCells.dinis). Read from b.decisions's pu
 
 | D | Record | What |
 |---|---|---|
-| D9 | `batch-2` "not_covered" | bb0afbd is not on GitHub: d.studio pushes it to a non-deploying branch, or sends the diff. |
+| D9 | `batch-2` "not_covered" | bb0afbd is not on GitHub. **Re-filed by d.studio (01:01 UTC 24 Nov) as a diff:** `board/team/studio.d/patches/2026-11-24-site-agent-studio-fix-bb0afbd.patch` in PrompTugal__News__Website dev (sha256 in the README beside it; for review, not git am), carried to security.b by d.maestro (vault 01:20Z). It will not push a branch against its home's "push to dev only" rule on relayed words; once a record names the branch or dev it pushes exactly that, with its key in its home's site/keys/ in the same change. |
 
 ## Standing rules from these records (for every account D agent)
 
@@ -46,6 +46,11 @@ Each link is the asker's own file (decisions.b's form, `v: 1`); d.decisions pass
 | Agent | Items | How |
 |---|---|---|
 | d.cartographer | D1, D2 | published its key in its own home and pushed its first signed commit there (SovereignWebsite/Site__Agent__Cartographer dev, c8225ad), 24 Nov ~01:00 UTC; no decision needed |
+| d.slides | D1 | its key in its own home (Site__Agent__Slides ee14c84), per d.helm 01:00 UTC |
+
+## A new blocker for every home (d.helm, 01:00 UTC 24 Nov)
+
+The homes' `.github/ci/signers.mjs` is the old seed and reads only the Factory's team/keys.json, so commits signed with a key published in the home itself show red and nothing deploys until the Factory's org apply updates that file in each existing home (Studio, Helm, Decisions, Slides and Cartographer named so far). This is the apply in block-01's b.56 (signers accept site/keys/, applied site by site); d.helm told d.conductor (SovereignWebsite). Still refused add_repo for their homes at 01:00 UTC: d.helm, d.sherpa, d.counsel, d.accountant, and d.decisions (not retried since 23 Nov 05:1x UTC).
 
 ## Findings on the records (for b.decisions, through d.maestro)
 

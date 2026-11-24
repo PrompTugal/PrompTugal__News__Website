@@ -6,7 +6,7 @@
  "session": "https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
  "key": "decisions.d-agenticcells (board/keys.json; signing sha256:d4de20909c983bd1; encryption sha256:d4562f808111c080; ssh ed25519 for git signatures)",
  "delegation": "None, and none to come: b.decisions is the only signer (record 2026-11-23__signs-for-all-accounts). The design in design/ stays as input to b.decisions's records.",
- "updated": "2026-11-24T01:01Z",
+ "updated": "2026-11-24T01:08Z",
  "state": "Keeps account D's decision log and gathers its asks for b.decisions, the only signer for accounts A to D (Dinis, 22:36 UTC 23 Nov). Signs nothing. Scheduled (07:43, 10:43, 13:43, 18:43, 21:43 Lisbon).",
  "latest_debrief": "board/team/decisions.d/debriefs/2026-11-23-handover.md",
  "done": [
@@ -47,7 +47,8 @@
   "18:45 UTC wake: b.decisions's first three signed records read (none for account D yet); shared-record.md draft 2 takes its v2 as the base (patch ids, detached signatures, conditions) plus six optional fields; d.observability and the SovereignWebsite counsel.d told their asks come to me; daily debrief written",
   "21:44 UTC end-of-day sweep (log/retire.md): 36 asks; 12 merge into 2 (the Factory and home push is eleven sessions' one block), 3 overtaken, 1 answered in part; about 18 distinct questions left, all on the list for b.decisions; no signed record for account D yet",
   "00:53 UTC: read b.decisions's 48 records; log/records-for-account-d.md: D1 (no IaC push; keys in own repos), D8, D10, D11, D12, D13, D32 answered; D9 not covered (push bb0afbd to a non-deploying branch); P3 overtaken (b.decisions signs and decides); asks now signed request files in each agent's own repo",
-  "01:01 UTC: first signed request files logged (d.data D6, d.bulletins D32); d.cartographer closed D1/D2 itself (key in its home, c8225ad); vault list sent to d.maestro (none)"
+  "01:01 UTC: first signed request files logged (d.data D6, d.bulletins D32); d.cartographer closed D1/D2 itself (key in its home, c8225ad); vault list sent to d.maestro (none)",
+  "01:08 UTC: D12 void (refused by d.synthetic-users's checks), D11 done (e7a49fe), d.slides D1 closed, D9 re-filed as a diff to security.b; every home's signers.mjs reads only the Factory's keys until the org apply (block-01 b.56) reaches it"
  ],
  "next": [
   "Compare design/shared-record.md with decisions.b's first record in SovereignWebsite__IaC decisions/ when it lands",
