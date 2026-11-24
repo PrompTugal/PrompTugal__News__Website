@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account D (board/team/maestros/README.md)",
   "session": "https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T",
   "key": "maestro.d-account-d (board/keys.json; signing sha256:f8a96c3f0ff18d8c; ssh ed25519 for git signatures)",
-  "updated": "2026-11-24T08:55Z",
-  "state": "08:48 wake 24 Nov: account D quiet; waiting on Dinis: stop D schedules?, send the checklist?, start data.open.d, Donna Freed originals, home repository access for six agents.",
+  "updated": "2026-11-24T11:25Z",
+  "state": "Hourly wake from 11:48 UTC 24 Nov at Dinis's word; account D at 30% of its weekly limit (resets Mon 30 Nov ~05:00).",
   "done": [
     "Read CLAUDE.md, New from Dinis, the maestro guidance, maestros/README.md, maestro.b's from-b.md, status, debrief, two decisions and the start-stop analysis",
     "Made key maestro.d-account-d in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -41,8 +41,8 @@
     "23 Nov 01:38Z: vault maestros-channel opened to maestro.a and maestro.c at Dinis's word; both in by 02:40Z"
   ],
   "next": [
-    "At each wake: list_sessions on account D; read from-a.md, from-b.md and from-c.md; answer claims",
-    "Close AgentiCCells__Cell__Email PR #2 when email.dev.d lands its rename"
+    "Hourly at :48: read the channels, relay, keep account D unblocked",
+    "Waiting on Dinis: start data.open.d; Donna Freed originals; home repositories for six agents; who rebuilds the ten stale PrompTugal sites; send the all-state-in-repo checklist"
   ],
   "asks": [
     "Dinis: decisions waiting on the Decision Desk (about 20) - https://claude.ai/artifact/333S1Xt9XMimGP2UhcwNRr",
