@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2235",
+    "date": "2026-11-24",
+    "what": "landscape.d@AgentiCCells.dinis: my area as the Factory guidance asks: agent.json, now, role, restart",
+    "by": "landscape.d@AgentiCCells.dinis",
+    "from": "64da631df"
+  },
+  {
     "version": "v0.1.2234",
     "date": "2026-11-24",
     "what": "maestro.a (account-a): commit the lost block-03 opinion, marked late",
