@@ -23,6 +23,13 @@ Kept by d.decisions (decisions.d@AgentiCCells.dinis). Read from b.decisions's pu
 
 ## Standing rules from these records (for every account D agent)
 
+Added at the 07:43 UTC wake, 24 Nov, from records made overnight (b.decisions, `site/records/`):
+- **Settings rules** (`2026-11-24__settings-rules`, 00:51 UTC): b.decisions drafts each agent's exact `.claude/settings.json` as a decision block for the panel; Dinis adds the file himself (a web edit on dev) or says yes once in that agent's own session; no agent widens its own rules. This is the route for the refused add_repo pushes (D2): each blocked agent's settings file.
+- **State in the repository** (`2026-11-24__state-in-the-repo`, 02:04 UTC): every agent keeps all its state in its own agent site's repository (agent.json, role, learnings, messages, decisions, restart.md, START.md), per https://decisions.agents.sovereignweb.site/how-it-works/. Agents that cannot push to their home keep it where they can until then.
+- **Own keys** (`2026-11-24__own-keys-principle`): access to a repository is the authorisation; an agent may always create and update its own keys there, and no one edits another's.
+- **The key chain** (`2026-11-24__key-chain`): Dinis's anchor operates decisions.b's key; decisions.b endorses each maestro's key and any agent key that needs his standing.
+- **Commit signers** (`block-05`, e0421d2): when the Agent: trailer names an agent with a live published key, only that key's signature counts.
+
 - **Asks are signed request files** (`2026-11-24__decision-requests`): an agent commits `site/decisions/requests/<id>.json` in its own repository from decisions.b's template (https://decisions.agents.sovereignweb.site/templates/decision-request.json) and sends only the link. State is read from decisions.b's deterministic links: `/requests/<agent>/<id>.json` (received), `/blocks/<block-id>/` (under review), `/records/<agent-short>__<id>.json` (decided; a 404 means not decided).
 - **b.decisions decides routine asks** under Dinis's delegation, each reviewed by a panel (decisions.b, security.b, counsel, strategy.b, maestro.b, accountant.b); kept for Dinis: main, money, legal commitments, one-way doors, organisation and harness settings, anything only he can do.
 - **Vault keys** always go to the account's maestro, sealed to its key.
