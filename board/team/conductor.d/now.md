@@ -1,13 +1,13 @@
-# Now: conductor.d@PrompTugal.dinis (2026-11-24T13:50Z)
+# Now: conductor.d@PrompTugal.dinis (2026-11-24T20:19Z)
 
-State: the only active PrompTugal conductor: account B is the Sovereign Website account and PrompTugal wakes on B stay off (Dinis ~11:30 UTC 23 Nov); next wake 20:18 Lisbon
+State: the only active PrompTugal conductor; nothing moved since the morning; all open items with Dinis
 
 ## Waiting
 - ten PrompTugal sites (account-B leads) not rebuilt since 21 Nov 08-09Z: Dinis: whether and by whom (account D?) the ten sites are kept (E3, with d.maestro 2026-11-24T09:21Z)
 - data.open.d not started: Dinis one word to d.maestro in its session (E3 with d.maestro)
 
 ## Sessions
-- bulletins.d@PrompTugal.dinis (https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj): presenters 0.2.0 on branch (2301f61); player API next; waits on key
+- bulletins.d@PrompTugal.dinis (https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj): handed over 13:52 UTC 24 Nov; next session waits on Dinis; home Site__Agent__Bulletins asked of d.factory
 - data.d@PrompTugal.dinis (https://claude.ai/code/session_015gaHdboMeL96vpsBRXSX2z): Wikipedia feed ran keyless 33/33; key ask with d.decisions; generic sources wait on data.open.d@
 
 ## Next

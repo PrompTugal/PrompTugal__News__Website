@@ -70,6 +70,12 @@
    "account": "D",
    "sites": "13/13 up; ten stale ~72 h; data rebuilt 07:34; promptugal.news v0.1.2215",
    "note": "escalated account B silence (E2, cross-account relay, live sites)"
+  },
+  {
+   "at": "2026-11-24T20:19Z",
+   "account": "D",
+   "sites": "13/13 up; ten ~84 h stale; promptugal.news v0.1.2253",
+   "note": "no change; d.bulletins handed over; d.data idle"
   }
  ]
 }
