@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2247",
+    "date": "2026-11-24",
+    "what": "maestro.a (account-a): 18:24 wake; security.b's /send/ conditions to a.factory; Dinis's first decision on the CRM site",
+    "by": "maestro.a (account-a)",
+    "from": "9dd7088f7"
+  },
+  {
     "version": "v0.1.2246",
     "date": "2026-11-24",
     "what": "jornal@PrompTugal.silvio: daily digest 24 Nov (Signal keeps agents out; Anthropic's Siren test)",
