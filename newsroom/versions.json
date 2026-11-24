@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2254",
+    "date": "2026-11-24",
+    "what": "maestro.a (account-a): 20:24 wake; /send/ cleared by security.b; Ben Fung choices to a.factory",
+    "by": "maestro.a (account-a)",
+    "from": "99a1c4a1f"
+  },
+  {
     "version": "v0.1.2253",
     "date": "2026-11-24",
     "what": "maestro.a (account-a): london-agentics.a keeper started by a.sites",
