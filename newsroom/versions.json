@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2241",
+    "date": "2026-11-24",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "9f00348ad"
+  },
+  {
     "version": "v0.1.2240",
     "date": "2026-11-24",
     "what": "maestro.a (account-a): Ben Fung site reassigned to a.factory; c.maestro told",
