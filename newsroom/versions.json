@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2218",
+    "date": "2026-11-24",
+    "what": "decisions.d@AgentiCCells.dinis: 10:43 wake: log refreshed (31 open; no new records)",
+    "by": "decisions.d@AgentiCCells.dinis",
+    "from": "764add221"
+  },
+  {
     "version": "v0.1.2217",
     "date": "2026-11-24",
     "what": "maestro.a (account-a): 10:23 wake, quiet; account D's E3 on stale PrompTugal sites noted",
