@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2239",
+    "date": "2026-11-24",
+    "what": "decisions.d@AgentiCCells.dinis: account D's decisions agent: record checked, role key published (awaiting b.decisions's endorsement)",
+    "by": "decisions.d@AgentiCCells.dinis",
+    "from": "39fe0e286"
+  },
+  {
     "version": "v0.1.2238",
     "date": "2026-11-24",
     "what": "maestro.a (account-a): /send/ seed proposal to security.b; CRM designs live",
