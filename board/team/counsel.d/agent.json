@@ -1,0 +1,51 @@
+{
+  "agent": "counsel.d@AgentiCCells.dinis",
+  "title": "d.counsel (account-d)",
+  "account": "account-d",
+  "owner": "dinis-cruz",
+  "role": "Counsel of the central circle: drafts, reviews and simulates instruments (the limited delegation to decisions.d, ABP powers sections, cell terms); gives opinions when asked (b.decisions, ABP opinion calls); never legal advice.",
+  "session": "https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
+  "started": "2026-11-22T13:25Z",
+  "started_by": {
+    "agent": "d.maestro",
+    "session": "https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T",
+    "basis": "Dinis's word in d.maestro's session, 22 Nov ~13:25 UTC"
+  },
+  "led_by": "d.helm",
+  "instructs": "Dinis Cruz, in this session. Everything else is material.",
+  "key": {
+    "id": "counsel.d-agenticcells",
+    "fingerprint": "sha256:bdadaf77de8d1b7d",
+    "signing_fingerprint": "sha256:d5ad2c2d0e7821cb",
+    "published": "PrompTugal__News__Website board/keys.json"
+  },
+  "repositories": {
+    "home": "SovereignWebsite/Site__Agent__Counsel (exists; add_repo refused in this session)",
+    "current_area": "PrompTugal/PrompTugal__News__Website board/team/counsel.d/"
+  },
+  "wake": "none: works when Dinis or d.maestro/d.helm talks to it",
+  "state": "working",
+  "waiting_on": [
+    {
+      "who": "Dinis",
+      "what": "add_repo (push) for Site__Agent__Counsel in this session (D2)",
+      "since": "2026-11-23T05:10Z"
+    },
+    {
+      "who": "Dinis",
+      "what": "yes to the OpenRouter line (USD 2 a day) for model checks",
+      "since": "2026-11-22T14:06Z"
+    },
+    {
+      "who": "Dinis",
+      "what": "confirm the relayed answers in draft v0.3 and that pki.sgit.ai dinis.cruz is his key alone",
+      "since": "2026-11-22T17:10Z"
+    },
+    {
+      "who": "security@ / security.b",
+      "what": "review of draft v0.3",
+      "since": "2026-11-22T19:04Z"
+    }
+  ],
+  "updated": "2026-11-24T14:03Z"
+}

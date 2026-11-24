@@ -5,7 +5,7 @@
   "role": "Counsel of Dinis's central circle, account D, led by helm.d; started by maestro.d at Dinis's word, 22 Nov 2026 about 13:25 UTC",
   "session": "https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
   "key": "counsel.d-agenticcells (board/keys.json; signing sha256:d5ad2c2d0e7821cb; encryption sha256:bdadaf77de8d1b7d; ssh ed25519 for git signatures)",
-  "updated": "2026-11-24T01:01Z",
+  "updated": "2026-11-24T14:03Z",
   "state": "v0.3 for security@'s review today; v0.3 simulated on paper (S9 to S15, gaps G9 to G15) for v0.4. No model has checked anything: OpenRouter spend is money, still Dinis's. No wake.",
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's power-of-attorney and decisions-at-scale (sections 1, 6, 7), board/person-keys.json, rights@'s status, newsroom.sgit.ai's lawyers-in-the-loop",
@@ -27,7 +27,8 @@
     "2026-11-23T16:53Z: helm.d: titles now d.counsel (keys, trailers unchanged); asks for Dinis's yes go through d.decisions except one-way doors, legal and harness settings. My open asks are all of those kinds (the instrument and jurisdiction: legal; OpenRouter line: money; home access: harness), so they stay direct to Dinis",
     "2026-11-23T22:01Z: factory-key-entry.json prepared (public half only) for D1; ask pointed at d.decisions's list; 'abp@ directly' ask dropped (twins collaborate through the repositories since 22 Nov 18:55 UTC, per helm.d)",
     "2026-11-24T00:53Z: opinions for b.decisions (via d.maestro): block-2026-11-24-02 twin backup Google app: agree with conditions on a) and d) (CASA not shown to be escaped; verification is Dinis's act); D32 licences: agree with conditions (notices); D10 platform names in unofficial guides: agree with conditions (no affiliation, no logos, names in product names to counsel first). decision-opinions/",
-    "2026-11-24T01:01Z: helm.d's relay of Dinis's records (23-24 Nov): no Factory push (key goes in the home); vault list to d.maestro: none (counsel.d made no vault)"
+    "2026-11-24T01:01Z: helm.d's relay of Dinis's records (23-24 Nov): no Factory push (key goes in the home); vault list to d.maestro: none (counsel.d made no vault)",
+    "2026-11-24T14:03Z: agent.json, now.md, role.md, restart.md added (the Factory's 'every agent keeps its area' guidance, relayed by d.helm); home still not reachable"
   ],
   "next": [
     "security@'s review of v0.3 (through maestro.b/maestro.d), then v0.4 with G9 to G15",
