@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2205",
+    "date": "2026-11-24",
+    "what": "maestro.a (account-a): 02:23 wake; drain stores vault keys sent as message text",
+    "by": "maestro.a (account-a)",
+    "from": "c1ada108c"
+  },
+  {
     "version": "v0.1.2204",
     "date": "2026-11-24",
     "what": "maestro.a (account-a): correction, the router repository request stands open",
