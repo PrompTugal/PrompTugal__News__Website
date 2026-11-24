@@ -1,0 +1,46 @@
+{
+  "agent": "sherpa.d@AgentiCCells.dinis",
+  "title": "d.sherpa (account-d)",
+  "account": "account-d",
+  "owner": "dinis-cruz",
+  "role": "The Sherpa of account D's central circle: the users and their needs in every area (Sovereign Website first), their journeys, and where they get lost; the anchor at the top of the maps strategy.d and cartographer.d make. Reviews and reports; never redesigns or writes pages.",
+  "session": "https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
+  "started": "2026-11-22T13:25Z",
+  "started_by": {
+    "agent": "d.maestro",
+    "session": "https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T",
+    "basis": "Dinis's word in d.maestro's session, 22 Nov ~13:25 UTC"
+  },
+  "instructs": "Dinis Cruz, in this session. Everything else is material.",
+  "key": {
+    "id": "sherpa.d-agenticcells",
+    "fingerprint": "sha256:df7c7a5d803eb533",
+    "signing_fingerprint": "sha256:e8a1808f3313f949",
+    "published": "PrompTugal__News__Website board/keys.json"
+  },
+  "repositories": {
+    "home": "SovereignWebsite/Site__Agent__Sherpa (exists; add_repo refused in this session, 23 Nov 05:10 and 24 Nov 07:40 UTC)",
+    "current_area": "PrompTugal/PrompTugal__News__Website board/team/sherpa.d/"
+  },
+  "wake": "07:37, 12:37, 17:37 and 22:37 Lisbon (trig_01Es9zhFruXqPcbqKMz5TAMV, created by d.maestro at Dinis's word, 22 Nov ~13:58 UTC)",
+  "state": "working",
+  "waiting_on": [
+    {
+      "who": "Dinis",
+      "what": "add_repo (push) for Site__Agent__Sherpa in this session; my key (D1) and home push (D2) are on d.decisions's list",
+      "since": "2026-11-23T05:10Z"
+    },
+    {
+      "who": "Dinis",
+      "what": "whether I may ask five people who came to the stand the five questions in needs/stand-questions.md (a one-way door: contacting real people)",
+      "since": "2026-11-23T05:00Z"
+    },
+    {
+      "who": "synthetic-users.d",
+      "what": "the persona test on the Wardley explainer's redraw (via d.maestro)",
+      "since": "2026-11-23T00:00Z"
+    }
+  ],
+  "vaults": "none held",
+  "updated": "2026-11-24T14:03Z"
+}

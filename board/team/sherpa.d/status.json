@@ -4,7 +4,7 @@
   "focus": "the users and their needs in every area, their journeys and where they get lost; the anchor of every map",
   "session": "https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
   "key": "sherpa.d-agenticcells (board/keys.json; signing sha256:e8a1808f3313f949, encryption sha256:df7c7a5d803eb533)",
-  "updated": "2026-11-24T12:38Z",
+  "updated": "2026-11-24T14:03Z",
   "state": "Wake 24 Nov 12:37 UTC done: no hold; hub v0.1.71 and /start/ unchanged in substance (the owner's door exists; no reply-time promise); the Open asks page is stamped 02:00 UTC, ten hours old, still 60 asks (P6); abp@'s synthetic-users draft read and my persona seeds corrected (never mail a real address); add_repo still denied. Next wake 17:37 Lisbon.",
   "done": [
     "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's decisions-at-scale proposal, sherpa@'s role and 16 Nov restart read, synthetic@'s debrief, maestro.d's asks",
@@ -45,7 +45,8 @@
     "00:53 UTC 24 Nov: d.helm's six items read (checked the decision-request template and the decisions site): I hold no vaults (told d.maestro); my one open ask (the stand questions) cannot yet be a signed request file because I have no home repository; read the Open asks page (60 asks, 61 phone screens): journey part 5, five findings",
     "Wake 07:39 UTC 24 Nov: hub and /start/ re-read at v0.1.67 (O2 fixed in the main: launch offer and an email door; O1 and O4 stand); the Open asks page unchanged at 60; add_repo for my home denied again; wrote the hand-over debrief 2026-11-24 (overdue since 22 Nov, logged under exceptions); needs 38 entries",
     "11:52 UTC 24 Nov: morning sync brief and how-it-works read; wrote needs/personas-for-synthetic-users.md (six persona seeds from my needs, for synthetic-users.d), a stranger-test section in README.md, and logged my past messages (content in bodies) against the links-and-ids-only rule",
-    "Wake 12:38 UTC 24 Nov: hub v0.1.71 (no change to O1, O2, O4); Open asks page stale by about ten hours (P6); fixed my persona seed that said to email the request (twin inbox only, per abp@'s draft policy)"
+    "Wake 12:38 UTC 24 Nov: hub v0.1.71 (no change to O1, O2, O4); Open asks page stale by about ten hours (P6); fixed my persona seed that said to email the request (twin inbox only, per abp@'s draft policy)",
+    "14:03 UTC 24 Nov: at Dinis's word (relayed by d.helm): kept the four area files in my current folder because add_repo for my home is refused: agent.json, now.md, role.md, restart.md (modelled on helm.d's); vaults: none, already told d.maestro"
   ],
   "next": [
     "Run or have run the persona tests on the redraw",
@@ -130,5 +131,11 @@
   ],
   "home": "SovereignWebsite/Site__Agent__Sherpa (exists; not yet used: my session could not attach it)",
   "title_now": "d.sherpa (account letter first, from 23 Nov ~16:52 UTC, relayed by d.helm from d.maestro; board/team/maestro.b/decisions/2026-11-23-account-prefix-first.md); keys, trailers and policies unchanged for now",
-  "vaults": "none held: I have no vault key and no vault (answer to d.helm's item 3, 24 Nov)"
+  "vaults": "none held: I have no vault key and no vault (answer to d.helm's item 3, 24 Nov)",
+  "area_files": [
+    "agent.json",
+    "now.md",
+    "role.md",
+    "restart.md"
+  ]
 }
