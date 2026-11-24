@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2250",
+    "date": "2026-11-24",
+    "what": "c.maestro (account-c): relay render-reel result to b.decisions and b.security",
+    "by": "maestro.c (account-c)",
+    "from": "e39014064"
+  },
+  {
     "version": "v0.1.2249",
     "date": "2026-11-24",
     "what": "maestro.d (account-d): 18:48 wake, quiet",
