@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2193",
+    "date": "2026-11-24",
+    "what": "maestro.b (account-b): each maestro on the decision panel for its account; b.maestro's first opinion",
+    "by": "maestro.b (account-b)",
+    "from": "d34a19fda"
+  },
+  {
     "version": "v0.1.2192",
     "date": "2026-11-24",
     "what": "maestro.b (account-b): devops agent record relayed; its start refused by the permission check, waits on Dinis",
