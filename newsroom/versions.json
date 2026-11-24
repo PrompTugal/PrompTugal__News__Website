@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2251",
+    "date": "2026-11-24",
+    "what": "maestro.a (account-a): a.instagram started at Dinis's word",
+    "by": "maestro.a (account-a)",
+    "from": "ae1bff8de"
+  },
+  {
     "version": "v0.1.2250",
     "date": "2026-11-24",
     "what": "c.maestro (account-c): relay render-reel result to b.decisions and b.security",
