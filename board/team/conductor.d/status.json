@@ -4,7 +4,7 @@
  "role": "The PrompTugal conductor on account D, twin and peer of conductor.b@ (board/team/pt-conductors/README.md; role as board/team/conductor.b/ROLE.md)",
  "session": "https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8",
  "key": "conductor.d-promptugal (encryption sha256:37f54523c61892c7, signing sha256:bfedbdebc85d737d) in board/keys.json",
- "updated": "2026-11-24T09:21Z",
+ "updated": "2026-11-24T11:51Z",
  "state": "the only active PrompTugal conductor: account B is the Sovereign Website account and PrompTugal wakes on B stay off (Dinis ~11:30 UTC 23 Nov); next wake 20:18 Lisbon",
  "done": [
   "onboarded: CLAUDE.md, guidance, pt-conductors README, conductor.b@ ROLE/status/watch/debrief/roster, maestros README, slow-until-Monday",
@@ -27,7 +27,8 @@
   "20:18 wake 23 Nov: 13 sites 200, ten stale since 21 Nov morning; d.bulletins presenters 0.2.0 relayed to d.studio and d.sherpa; d.data slip noted (fixed)",
   "D13 (record 2026-11-24__batch-1-underwritten) approves data.open.d; start handed to d.maestro per the record; vault listing and ask-file rules passed to d.bulletins and d.data (2026-11-24T00:52Z)",
   "09:18 wake 24 Nov: sites checked (ten stale ~72 h, data rebuilt 07:34); escalated account B silence to d.maestro",
-  "account B PrompTugal wakes off by Dinis word (23 Nov); conductor.d@ carries the shared work; relays to B via the maestros (2026-11-24T09:21Z)"
+  "account B PrompTugal wakes off by Dinis word (23 Nov); conductor.d@ carries the shared work; relays to B via the maestros (2026-11-24T09:21Z)",
+  "morning sync and how-it-works passed to d.bulletins and d.data; restart note README.md (2026-11-24T11:51Z)"
  ],
  "next": [
   "conduct data.open.d once d.maestro starts it (no wake, public data only, its own key, no vault keys)",
@@ -35,7 +36,8 @@
   "check at each wake that bulletins.b@ has listed bulletins.d@ key in the Bulletins repo team/keys.json",
   "watch bulletins.d@ first run: its key on branch bulletins-d/key in PrompTugal__News__Bulletins",
   "read from-b.md at each wake; open my sealed inbox once conductor.b@ issues it",
-  "make my wake at :18 Lisbon once Dinis says yes"
+  "make my wake at :18 Lisbon once Dinis says yes",
+  "ask the Factory for this agent own repositories when the morning-sync onboarding reaches PrompTugal"
  ],
  "asks": [],
  "latest_debrief": "board/team/conductor.d/debriefs/2026-11-21-handover.md",
@@ -104,5 +106,6 @@
    "since": "2026-11-22T17:05Z",
    "step": "E3 with d.maestro"
   }
- ]
+ ],
+ "readme": "board/team/conductor.d/README.md"
 }
