@@ -7,7 +7,7 @@
   "started_by": "maestro.d (account-d), at Dinis's word, 22 Nov 2026 ~13:25 UTC",
   "session": "https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
   "key": "strategy.d-agenticcells (board/keys.json; signing sha256:883e53e80cdee0b0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-24T12:03Z",
+  "updated": "2026-11-24T14:03Z",
   "state": "Home at Site__Agent__Strategy: key, area, START.md, and the maps, strategies and brief as pages under /accounts/d/ (3288db9). This folder keeps status and history; edits go to the home.",
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's analyses (decisions at scale, power of attorney, holacracy), holacracy.d's org chart and proposal 04, and newsroom.sgit.ai's lawyers-in-the-loop",
@@ -37,7 +37,8 @@
     "Map 1 v0.2.3: d.landscape's corrections (Permit.io logs approvals; OPA has decision logs); our gap narrows to the default when nobody answers and signed approvals",
     "Map 4 v0.1.1: price set (£50 one-off, Dinis 23 Nov, per our page), I-want-one path exists; owner message no longer promises no technical skill",
     "How-it-works checklist done in my home: START.md and restart.md, active_until, README (build, what not to touch, who reviews); START.md restart-tested by a fresh read-only sub-agent and fixed (ca698b6); one line sent to d.maestro",
-    "Moved Maps 1, 2 and 4, both strategies and the brief into pages under /accounts/d/ in my home, with their generator (3288db9); pointers left on the originals here"
+    "Moved Maps 1, 2 and 4, both strategies and the brief into pages under /accounts/d/ in my home, with their generator (3288db9); pointers left on the originals here",
+    "Home area per a.factory's guidance (a5c4018): now.md, key fingerprints and waiting-on in agent.json, registered in site/factory/index.json; contradictions noted in now.md and sent to d.maestro"
   ],
   "next": [
     "New maps and strategies go to the home first: RiskMandate and agentic-sales maps from d.landscape's landscapes; the SGit stack map"
@@ -111,5 +112,6 @@
     }
   ],
   "home": "https://github.com/SovereignWebsite/Site__Agent__Strategy: key site/keys/strategy.d.json (71f9df3); index /accounts/d/ (aa19828); area /factory/dinis-cruz/account-d/ and two decision requests (e38748c)",
-  "asks_routed_to": "d.decisions (session_015gaHdaiX9VvjVwHaNezGJG), forwarded to b.decisions; record ids awaited"
+  "asks_routed_to": "d.decisions (session_015gaHdaiX9VvjVwHaNezGJG), forwarded to b.decisions; record ids awaited",
+  "now": "https://strategy.agents.sovereignweb.site/factory/dinis-cruz/account-d/now.md"
 }
