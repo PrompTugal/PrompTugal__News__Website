@@ -47,7 +47,8 @@
    "player": "ServiceNow AI Agents",
    "group": "vendor-platform",
    "fact_ids": [
-    "as-f016"
+    "as-f016",
+    "as-f063"
    ],
    "flagged": true
   },
@@ -55,9 +56,10 @@
    "player": "Google Agentspace",
    "group": "vendor-platform",
    "fact_ids": [
-    "as-f017"
+    "as-f017",
+    "as-f064"
    ],
-   "flagged": true
+   "flagged": false
   },
   {
    "player": "Relevance AI",
@@ -277,11 +279,13 @@
   {
    "id": "as-g7",
    "kind": "gap-in-my-reading",
-   "text": "Not verified: ServiceNow AI Agents (HTTP 403), Google Agentspace pricing (404); Make shows credits but no price; Artisan and AutoGen were dropped (no usable facts; the AutoGen licence page read was the docs licence, not the code licence). One row had a typo in the scout's output that I corrected to the group digital-worker.",
+   "text": "Not verified: ServiceNow AI Agents (HTTP 403), Google Agentspace pricing (404); Make shows credits but no price; Artisan and AutoGen were dropped (no usable facts; the AutoGen licence page read was the docs licence, not the code licence). One row had a typo in the scout's output that I corrected to the group digital-worker. Re-read 24 Nov: ServiceNow's product pages returned 403 again; Google's Agentspace address now loads a page titled 'Gemini for enterprise: The universal work agent', which suggests Agentspace has become Gemini Enterprise, but only the title was readable (no description or price).",
    "facts": [
     "as-f016",
     "as-f017",
-    "as-f059"
+    "as-f059",
+    "as-f063",
+    "as-f064"
    ]
   }
  ],
@@ -446,7 +450,7 @@
    "url": "https://www.servicenow.com/products/ai-agents.html",
    "date_read": "2026-11-23",
    "confidence": "not-found",
-   "flag": "page failed or not found; re-read"
+   "superseded_by": "re-read 24 Nov (failed again)"
   },
   {
    "id": "as-f017",
@@ -457,7 +461,7 @@
    "url": "https://cloud.google.com/products/agentspace/pricing",
    "date_read": "2026-11-23",
    "confidence": "not-found",
-   "flag": "page failed or not found; re-read"
+   "superseded_by": "re-read 24 Nov"
   },
   {
    "id": "as-f018",
@@ -910,12 +914,39 @@
    "date_read": "2026-11-23",
    "confidence": "not-found",
    "flag": "page failed or not found; re-read"
+  },
+  {
+   "id": "as-f063",
+   "candidate": "ServiceNow AI Agents",
+   "topic": "offer",
+   "fact": "Could not read: servicenow.com/products/ai-agents.html and /products/ai-agents/ both returned 403, so what is sold and price model were not read.",
+   "url": "https://www.servicenow.com/products/ai-agents.html",
+   "date_read": "2026-11-24",
+   "confidence": "not-found",
+   "reread": true,
+   "group": "vendor-platform",
+   "flag": "re-read on 24 Nov also failed"
+  },
+  {
+   "id": "as-f064",
+   "candidate": "Google Agentspace",
+   "topic": "offer",
+   "fact": "cloud.google.com/products/agentspace and /gemini-enterprise both load a page titled 'Gemini for enterprise: The universal work agent', suggesting Agentspace is now Gemini Enterprise, but only the title was readable: no description or price.",
+   "url": "https://cloud.google.com/products/agentspace",
+   "date_read": "2026-11-24",
+   "confidence": "vendor-page",
+   "reread": true,
+   "group": "vendor-platform"
   }
  ],
  "changes": [
   {
    "at": "2026-11-23T05:30Z",
    "what": "first version: 18 players, 62 facts"
+  },
+  {
+   "at": "2026-11-24T01:10Z",
+   "what": "re-read 24 Nov: ServiceNow still 403; Agentspace appears renamed Gemini Enterprise (title only)"
   }
  ]
 }

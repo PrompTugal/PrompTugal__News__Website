@@ -166,7 +166,9 @@
    "player": "S3UI",
    "group": "aws",
    "fact_ids": [
-    "ps-f044"
+    "ps-f044",
+    "ps-f087",
+    "ps-f088"
    ],
    "flagged": false
   },
@@ -259,7 +261,8 @@
    "player": "Wikiwand",
    "group": "wikipedia",
    "fact_ids": [
-    "ps-f074"
+    "ps-f074",
+    "ps-f089"
    ],
    "flagged": true
   },
@@ -373,7 +376,7 @@
   {
    "id": "ps-g3",
    "kind": "aws",
-   "text": "AWS: S3 browsers and cost tools exist but none read states that it runs browser-direct on the user's own key (Filestash says only that you log in with S3 keys and does not say where they are stored): Brows3 (desktop, MIT, profiles in the OS keychain), Filestash (web, self-hostable, login with S3 keys, AGPL logo, licence not named in text), OpenCost (Apache-2.0, aimed at Kubernetes spend, opt-in MCP server), Komiser (Elastic License 2.0, which is source-available, though its page calls it open source). AWS has its own Billing and Cost Management MCP server (run locally with the caller's credentials). AWS's legal page links an acceptable use policy and trademark guidelines, which were not read.",
+   "text": "AWS: S3 browsers and cost tools exist but none read states that it runs browser-direct on the user's own key (Filestash says only that you log in with S3 keys and does not say where they are stored): Brows3 (desktop, MIT, profiles in the OS keychain), Filestash (web, self-hostable, login with S3 keys, AGPL logo, licence not named in text), OpenCost (Apache-2.0, aimed at Kubernetes spend, opt-in MCP server), Komiser (Elastic License 2.0, which is source-available, though its page calls it open source). AWS has its own Billing and Cost Management MCP server (run locally with the caller's credentials). AWS's legal page links an acceptable use policy and trademark guidelines, which were not read. Re-read 24 Nov: S3UI is a desktop file manager for S3 and S3-compatible services such as MinIO, free and open source under MIT (PyPI page).",
    "facts": [
     "ps-f035",
     "ps-f036",
@@ -386,7 +389,9 @@
     "ps-f051",
     "ps-f054",
     "ps-f055",
-    "ps-f056"
+    "ps-f056",
+    "ps-f087",
+    "ps-f088"
    ]
   },
   {
@@ -435,14 +440,15 @@
   {
    "id": "ps-g7",
    "kind": "gap-in-my-reading",
-   "text": "Not verified in this run: L0 Chat (404), Wikiwand (403), Wikiless (404), Odoo's own AI page (404), the pages of Oriveo, Laminar, Helicone, all-api-hub and S3UI (listings only), the OWASP MCP servers (directory listings only), the contents of AWS's acceptable use policy and trademark guidelines, and OWASP's licensing page (404). Names were found by search; each player is kept only where a page was read. Absence on a page is not proof of absence in a product.",
+   "text": "Not verified in this run: L0 Chat (404), Wikiwand (403), Wikiless (404), Odoo's own AI page (404), the pages of Oriveo, Laminar, Helicone, all-api-hub and the OWASP MCP servers (directory listings only), the contents of AWS's acceptable use policy and trademark guidelines, and OWASP's licensing page (404). Names were found by search; each player is kept only where a page was read. Absence on a page is not proof of absence in a product. Re-read 24 Nov: S3UI is now read (MIT desktop manager); Wikiwand returned 403 again.",
    "facts": [
     "ps-f024",
     "ps-f074",
     "ps-f075",
     "ps-f044",
     "ps-f017",
-    "ps-f086"
+    "ps-f086",
+    "ps-f089"
    ]
   }
  ],
@@ -1188,7 +1194,7 @@
    "url": "https://www.wikiwand.com/en/about",
    "date_read": "2026-11-23",
    "confidence": "not-found",
-   "flag": "page failed or not found; re-read"
+   "superseded_by": "re-read 24 Nov (failed again)"
   },
   {
    "id": "ps-f075",
@@ -1311,12 +1317,47 @@
    "url": "https://owasp.org/www-project-top-ten/",
    "date_read": "2026-11-23",
    "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f087",
+   "candidate": "S3UI",
+   "topic": "offer",
+   "fact": "S3UI is a desktop file manager for Amazon S3 and S3-compatible services such as MinIO, showing local and S3 files side by side with drag-and-drop transfers.",
+   "url": "https://pypi.org/project/s3ui/",
+   "date_read": "2026-11-24",
+   "confidence": "project-page",
+   "reread": true
+  },
+  {
+   "id": "ps-f088",
+   "candidate": "S3UI",
+   "topic": "licence",
+   "fact": "Described as free and open-source under the MIT licence, with no paid tier mentioned.",
+   "url": "https://pypi.org/project/s3ui/",
+   "date_read": "2026-11-24",
+   "confidence": "project-page",
+   "reread": true
+  },
+  {
+   "id": "ps-f089",
+   "candidate": "Wikiwand",
+   "topic": "offer",
+   "fact": "Could not read: wikiwand.com/en/about and wikiwand.com both returned 403, so what it is, price and affiliation statement were not read.",
+   "url": "https://www.wikiwand.com/en/about",
+   "date_read": "2026-11-24",
+   "confidence": "not-found",
+   "reread": true,
+   "flag": "re-read on 24 Nov also failed"
   }
  ],
  "changes": [
   {
    "at": "2026-11-23T06:10Z",
    "what": "first version: 34 players, 86 facts"
+  },
+  {
+   "at": "2026-11-24T01:10Z",
+   "what": "re-read 24 Nov: S3UI read; Wikiwand still 403"
   }
  ]
 }

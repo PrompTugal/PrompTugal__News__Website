@@ -57,9 +57,11 @@
    "player": "Astrix Security",
    "group": "agent-identity",
    "fact_ids": [
-    "rm-f019"
+    "rm-f019",
+    "rm-f063",
+    "rm-f064"
    ],
-   "flagged": true
+   "flagged": false
   },
   {
    "player": "Credo AI",
@@ -110,9 +112,11 @@
    "group": "open-source",
    "fact_ids": [
     "rm-f036",
-    "rm-f037"
+    "rm-f037",
+    "rm-f065",
+    "rm-f066"
    ],
-   "flagged": true
+   "flagged": false
   },
   {
    "player": "NVIDIA NeMo Guardrails",
@@ -159,7 +163,8 @@
    "player": "ISO/IEC 42001",
    "group": "framework",
    "fact_ids": [
-    "rm-f051"
+    "rm-f051",
+    "rm-f067"
    ],
    "flagged": true
   },
@@ -191,7 +196,18 @@
     "rm-f059",
     "rm-f060",
     "rm-f061",
-    "rm-f062"
+    "rm-f062",
+    "rm-f068"
+   ],
+   "flagged": true
+  },
+  {
+   "player": "Permit.io",
+   "group": "agent-identity",
+   "fact_ids": [
+    "rm-f069",
+    "rm-f070",
+    "rm-f071"
    ],
    "flagged": false
   }
@@ -277,12 +293,28 @@
   {
    "id": "rm-g7",
    "kind": "gap-in-my-reading",
-   "text": "Not verified in this run: Astrix Security (its address redirected to a Cisco page, not followed), the Cedar project site (404; only its LICENSE read), ISO/IEC 42001 (403), the OWASP Top 10 PDF, Aembit's pricing section (partly read). Absence on a page is not proof of absence in a product. Names were found by search; each player was kept only where its own page was read.",
+   "text": "Re-read 24 Nov. Astrix Security: its own address now redirects to a Cisco Identity Intelligence page that describes an AI-powered identity solution but does not mention AI agents or non-human identities and states no price, so Astrix cannot be verified as a player and is kept only as a gap. Cedar: the official docs were read (an authorization language for allow or deny decisions, kept out of application code; Amazon Verified Permissions is a managed service using it; the repository says Apache-2.0). Still not read: ISO/IEC 42001 (403 on every iso.org URL tried), the ten risk titles of the OWASP Top 10 for Agentic Applications 2026 (the page only has an overview and a download link), Aembit's pricing section (partly read). Absence on a page is not proof of absence in a product.",
    "facts": [
     "rm-f019",
     "rm-f037",
     "rm-f051",
-    "rm-f017"
+    "rm-f017",
+    "rm-f063",
+    "rm-f064",
+    "rm-f065",
+    "rm-f066",
+    "rm-f067",
+    "rm-f068"
+   ]
+  },
+  {
+   "id": "rm-g8",
+   "kind": "overlap",
+   "text": "Permit.io (read 24 Nov) is the nearest agent-first neighbour found on authorization: it treats AI agents as subjects in its policy model, applies role, attribute and relationship rules per tool call through an MCP gateway and a coding-agents gateway, deny by default; risky actions pause for an approver in a dashboard or Slack, and every allow or deny is logged with the human, the agent, the action and the reason and can go to a SIEM. It says it is built on OPA, Cedar and OPAL (OPAL linked as open source); its page states no licence or price. In its own words this is permissions and approvals, not a separate mandate concept.",
+   "facts": [
+    "rm-f069",
+    "rm-f070",
+    "rm-f071"
    ]
   }
  ],
@@ -476,7 +508,7 @@
    "url": "https://astrix.security/",
    "date_read": "2026-11-23",
    "confidence": "not-found",
-   "flag": "page failed or not found; re-read"
+   "superseded_by": "re-read 24 Nov"
   },
   {
    "id": "rm-f020",
@@ -657,7 +689,7 @@
    "url": "https://www.cedarpolicy.com/en",
    "date_read": "2026-11-23",
    "confidence": "not-found",
-   "flag": "page failed or not found; re-read"
+   "superseded_by": "re-read 24 Nov"
   },
   {
    "id": "rm-f038",
@@ -909,12 +941,117 @@
    "url": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
    "date_read": "2026-11-23",
    "confidence": "standard-body"
+  },
+  {
+   "id": "rm-f063",
+   "candidate": "Astrix Security",
+   "topic": "ownership",
+   "fact": "astrix.security returns a 301 redirect to a Cisco page, the Cisco Identity Intelligence product page, so its own site no longer serves Astrix content; the redirect suggests Cisco ownership but the page does not say so.",
+   "url": "https://www.cisco.com/site/us/en/solutions/security/identity-intelligence/index.html",
+   "date_read": "2026-11-24",
+   "confidence": "vendor-page",
+   "reread": true,
+   "group": "agent-identity"
+  },
+  {
+   "id": "rm-f064",
+   "candidate": "Astrix Security",
+   "topic": "gap",
+   "fact": "The landing Cisco page describes an AI-powered identity solution bridging authentication and access but does not mention AI agents or non-human identities, and states no price.",
+   "url": "https://www.cisco.com/site/us/en/solutions/security/identity-intelligence/index.html",
+   "date_read": "2026-11-24",
+   "confidence": "vendor-page",
+   "reread": true,
+   "group": "agent-identity"
+  },
+  {
+   "id": "rm-f065",
+   "candidate": "Cedar policy language",
+   "topic": "offer",
+   "fact": "Cedar is a language for writing authorization policies and making allow or deny decisions, keeping authorization logic out of application code; Amazon Verified Permissions is a managed service using it.",
+   "url": "https://docs.cedarpolicy.com/",
+   "date_read": "2026-11-24",
+   "confidence": "project-page",
+   "reread": true,
+   "group": "open-source"
+  },
+  {
+   "id": "rm-f066",
+   "candidate": "Cedar policy language",
+   "topic": "licence",
+   "fact": "The GitHub repository of the cedar-policy organization states Apache-2.0; no named maintainers are given, docs list an amazon.com feedback address, and cedarpolicy.com itself only showed a playground title.",
+   "url": "https://github.com/cedar-policy/cedar",
+   "date_read": "2026-11-24",
+   "confidence": "project-page",
+   "reread": true,
+   "group": "open-source"
+  },
+  {
+   "id": "rm-f067",
+   "candidate": "ISO/IEC 42001",
+   "topic": "record",
+   "fact": "Could not read: iso.org/standard/42001, the .html variant and the Online Browsing Platform URL all returned 403, so what is sold and price were not read.",
+   "url": "https://www.iso.org/standard/42001",
+   "date_read": "2026-11-24",
+   "confidence": "not-found",
+   "reread": true,
+   "group": "framework",
+   "flag": "re-read on 24 Nov also failed"
+  },
+  {
+   "id": "rm-f068",
+   "candidate": "OWASP Top 10 for Agentic Applications 2026",
+   "topic": "record",
+   "fact": "Ten risk titles not readable: the OWASP resource page only has an overview and a download link, and the LLM Top 10 page links to it without listing ASI01 to ASI10.",
+   "url": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+   "date_read": "2026-11-24",
+   "confidence": "not-found",
+   "reread": true,
+   "group": "framework",
+   "flag": "re-read on 24 Nov also failed"
+  },
+  {
+   "id": "rm-f069",
+   "candidate": "Permit.io",
+   "topic": "offer",
+   "fact": "Permit.io treats AI agents as subjects in its policy model, with MCP Gateway and Coding Agents Gateway applying RBAC, ABAC and ReBAC per tool call, deny by default.",
+   "url": "https://www.permit.io/",
+   "date_read": "2026-11-24",
+   "confidence": "vendor-page",
+   "reread": true,
+   "group": "agent-identity"
+  },
+  {
+   "id": "rm-f070",
+   "candidate": "Permit.io",
+   "topic": "record",
+   "fact": "Risky actions pause for an approver in the dashboard or Slack, and every allow or deny decision is logged with human, agent, action and reason and can be sent to a SIEM.",
+   "url": "https://www.permit.io/",
+   "date_read": "2026-11-24",
+   "confidence": "vendor-page",
+   "reread": true,
+   "group": "agent-identity"
+  },
+  {
+   "id": "rm-f071",
+   "candidate": "Permit.io",
+   "topic": "licence",
+   "fact": "No licence or price stated on the page; it says it is built on OPA, Cedar and OPAL (OPAL linked as open source), and points to /pricing and sales demos.",
+   "url": "https://www.permit.io/",
+   "date_read": "2026-11-24",
+   "confidence": "vendor-page",
+   "reread": true,
+   "group": "agent-identity"
   }
  ],
  "changes": [
   {
    "at": "2026-11-23T05:30Z",
    "what": "first version: 18 players, 62 facts"
+  },
+  {
+   "at": "2026-11-24T01:10Z",
+   "what": "re-read 24 Nov: Astrix unverifiable (Cisco redirect), Cedar docs read, ISO and OWASP titles still unread, Permit.io added (rm-g8)"
   }
  ]
 }

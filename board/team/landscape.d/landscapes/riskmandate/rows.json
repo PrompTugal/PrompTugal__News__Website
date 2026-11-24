@@ -1,7 +1,7 @@
 {
  "format": "landscape-rows/1",
  "for": "cartographer.d@AgentiCCells.dinis",
- "made": "2026-11-23T05:30Z",
+ "made": "2026-11-24T01:10Z",
  "made_by": "landscape.d@AgentiCCells.dinis",
  "rows": [
   {
@@ -86,15 +86,17 @@
    "id": "rm-p-astrix-security",
    "name": "Astrix Security",
    "group": "agent-identity",
-   "what": "The astrix.security address returned a permanent redirect to a Cisco page and was not followed, so nothing about Astrix could be verified.",
+   "what": "astrix.security returns a 301 redirect to a Cisco page, the Cisco Identity Intelligence product page, so its own site no longer serves Astrix content; the redirect suggests Cisco ownership but the page does not say so.",
    "serves_needs": [],
    "lacks_needs": [],
    "price_line": "not read",
-   "source_url": "https://astrix.security/",
-   "date_read": "2026-11-23",
-   "flagged": true,
+   "source_url": "https://www.cisco.com/site/us/en/solutions/security/identity-intelligence/index.html",
+   "date_read": "2026-11-24",
+   "flagged": false,
    "fact_ids": [
-    "rm-f019"
+    "rm-f019",
+    "rm-f063",
+    "rm-f064"
    ],
    "note": "no user-need column: RiskMandate's users are not in sherpa.d's needs yet"
   },
@@ -178,16 +180,18 @@
    "id": "rm-p-cedar-policy-language",
    "name": "Cedar policy language",
    "group": "open-source",
-   "what": "Project website https://www.cedarpolicy.com/en returned 404, so its description is not verified.",
+   "what": "Cedar is a language for writing authorization policies and making allow or deny decisions, keeping authorization logic out of application code; Amazon Verified Permissions is a managed service using it.",
    "serves_needs": [],
    "lacks_needs": [],
    "price_line": "not read",
-   "source_url": "https://www.cedarpolicy.com/en",
-   "date_read": "2026-11-23",
-   "flagged": true,
+   "source_url": "https://docs.cedarpolicy.com/",
+   "date_read": "2026-11-24",
+   "flagged": false,
    "fact_ids": [
     "rm-f036",
-    "rm-f037"
+    "rm-f037",
+    "rm-f065",
+    "rm-f066"
    ],
    "note": "no user-need column: RiskMandate's users are not in sherpa.d's needs yet"
   },
@@ -276,7 +280,8 @@
    "date_read": "2026-11-23",
    "flagged": true,
    "fact_ids": [
-    "rm-f051"
+    "rm-f051",
+    "rm-f067"
    ],
    "note": "no user-need column: RiskMandate's users are not in sherpa.d's needs yet"
   },
@@ -327,12 +332,31 @@
    "price_line": "not read",
    "source_url": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
    "date_read": "2026-11-23",
-   "flagged": false,
+   "flagged": true,
    "fact_ids": [
     "rm-f059",
     "rm-f060",
     "rm-f061",
-    "rm-f062"
+    "rm-f062",
+    "rm-f068"
+   ],
+   "note": "no user-need column: RiskMandate's users are not in sherpa.d's needs yet"
+  },
+  {
+   "id": "rm-p-permit-io",
+   "name": "Permit.io",
+   "group": "agent-identity",
+   "what": "Permit.io treats AI agents as subjects in its policy model, with MCP Gateway and Coding Agents Gateway applying RBAC, ABAC and ReBAC per tool call, deny by default.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://www.permit.io/",
+   "date_read": "2026-11-24",
+   "flagged": false,
+   "fact_ids": [
+    "rm-f069",
+    "rm-f070",
+    "rm-f071"
    ],
    "note": "no user-need column: RiskMandate's users are not in sherpa.d's needs yet"
   }

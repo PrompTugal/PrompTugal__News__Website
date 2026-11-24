@@ -72,7 +72,12 @@
      "status": "not-read",
      "fact": null
     }
-   }
+   },
+   "fact_ids": [
+    "sw-f160",
+    "sw-f161"
+   ],
+   "flagged": false
   },
   {
    "player": "IONOS MyWebsite",
@@ -604,7 +609,11 @@
      "status": "stated",
      "fact": "sw-f152"
     }
-   }
+   },
+   "fact_ids": [
+    "sw-f164"
+   ],
+   "flagged": true
   },
   {
    "player": "Lovable",
@@ -728,7 +737,12 @@
      "status": "stated",
      "fact": "sw-f119"
     }
-   }
+   },
+   "fact_ids": [
+    "sw-f162",
+    "sw-f163"
+   ],
+   "flagged": true
   },
   {
    "player": "OVHcloud",
@@ -829,14 +843,16 @@
   {
    "id": "sw-g1",
    "kind": "gap",
-   "text": "None of the five hosted European builders read (Infomaniak, saldiaBuild, IONOS, Jimdo, Hostinger) documents an export or move-out path on the pages read; Framer's terms describe none and only advise customers to archive their own content. This is the nearest rival evidence for our test 'you can move it'. Reading limited to the pages read: absence on a page is not proof of absence in the product.",
+   "text": "None of the five hosted European builders read (Infomaniak, saldiaBuild, IONOS, Jimdo, Hostinger) documents an export or move-out path on the pages read; Framer's terms describe none and only advise customers to archive their own content. This is the nearest rival evidence for our test 'you can move it'. Reading limited to the pages read: absence on a page is not proof of absence in the product. Re-read 24 Nov: saldiaBuild's product page does not say a site can be exported; it mentions clean, real code and an Enterprise GitHub and Bitbucket feature, with daily backups described as restorable only, so export is unconfirmed. Webflow's export pages again could not be read (a fetch error and a 403).",
    "facts": [
     "sw-f005",
     "sw-f011",
     "sw-f017",
     "sw-f023",
     "sw-f028",
-    "sw-f033"
+    "sw-f033",
+    "sw-f161",
+    "sw-f164"
    ]
   },
   {
@@ -872,12 +888,13 @@
   {
    "id": "sw-g5",
    "kind": "price-anchor",
-   "text": "Hosted builders charge by subscription (examples read: Hostinger from $1.99 a month on a 48-month term renewing at $10.99; IONOS Starter $6 then $14 a month; Framer $10 to $30 a month; Ghost(Pro) $18 a month yearly). Our published line is one-off (500 anchor, 250 standing as relayed, 50 launch offer proposed): one-off against monthly is the difference to test, not a price comparison on its own.",
+   "text": "Hosted builders charge by subscription (examples read: Hostinger from $1.99 a month on a 48-month term renewing at $10.99; IONOS Starter $6 then $14 a month; Framer $10 to $30 a month; Ghost(Pro) $18 a month yearly). Our published line is one-off (500 anchor, 250 standing as relayed, 50 launch offer proposed): one-off against monthly is the difference to test, not a price comparison on its own. Re-read 24 Nov: saldiaBuild is priced in CHF excluding VAT (Free 0; easyBasic 9 a month annually or 29 monthly; easyPlus 29 or 49; easyPremium 49 or 69; Enterprise on request).",
    "facts": [
     "sw-f025",
     "sw-f014",
     "sw-f029",
-    "sw-f061"
+    "sw-f061",
+    "sw-f160"
    ]
   },
   {
@@ -925,14 +942,16 @@
   {
    "id": "sw-g9",
    "kind": "constraint",
-   "text": "Free static hosts are not equal for a business site: GitHub Pages says it is not meant to run an online business or e-commerce (and sets soft limits of 1 GB and 100 GB a month); Netlify's free plan says commercial use is allowed within its monthly credits; Cloudflare Pages states per-site file and build limits. Hetzner starts at EUR 1.60 a month excluding VAT with domains extra. This decides what 'run it anywhere' costs the owner.",
+   "text": "Free static hosts are not equal for a business site: GitHub Pages says it is not meant to run an online business or e-commerce (and sets soft limits of 1 GB and 100 GB a month); Netlify's free plan says commercial use is allowed within its monthly credits; Cloudflare Pages states per-site file and build limits. Hetzner starts at EUR 1.60 a month excluding VAT with domains extra. This decides what 'run it anywhere' costs the owner. Re-read 24 Nov: Hetzner's page shows a EUR 0.00 one-time setup fee beside a EUR 8.32 one; 0.00 appears to be the current one, but the page does not say so.",
    "facts": [
     "sw-f138",
     "sw-f139",
     "sw-f142",
     "sw-f143",
     "sw-f132",
-    "sw-f116"
+    "sw-f116",
+    "sw-f162",
+    "sw-f163"
    ]
   },
   {
@@ -2564,6 +2583,62 @@
    "date_read": "2026-11-22",
    "confidence": "vendor-page",
    "reread": true
+  },
+  {
+   "id": "sw-f160",
+   "candidate": "saldiaBuild",
+   "topic": "price",
+   "fact": "Prices in CHF excl. VAT: Free CHF 0; easyBasic 9/month billed annually or 29 monthly; easyPlus 29 annual or 49 monthly; easyPremium 49 annual or 69 monthly; Enterprise on request; shop and saldiaPay add-ons unpriced; AI credits included.",
+   "url": "https://www.saldia.ch/produkte/saldiabuild/",
+   "date_read": "2026-11-24",
+   "confidence": "vendor-page",
+   "reread": true,
+   "ring": 1
+  },
+  {
+   "id": "sw-f161",
+   "candidate": "saldiaBuild",
+   "topic": "export",
+   "fact": "The product page does not say a site can be exported; it mentions 'clean, real code' and an Enterprise GitHub and Bitbucket feature, and daily backups described only as restorable, so export is unconfirmed.",
+   "url": "https://www.saldia.ch/produkte/saldiabuild/",
+   "date_read": "2026-11-24",
+   "confidence": "vendor-page",
+   "reread": true,
+   "ring": 1
+  },
+  {
+   "id": "sw-f162",
+   "candidate": "Hetzner",
+   "topic": "price",
+   "fact": "Webhosting S is listed at EUR 1.60 per month excluding VAT (EUR 0.0026 per hour); domains are extra from EUR 4.90 per year excl. VAT.",
+   "url": "https://www.hetzner.com/webhosting/",
+   "date_read": "2026-11-24",
+   "confidence": "vendor-page",
+   "reread": true,
+   "ring": 4
+  },
+  {
+   "id": "sw-f163",
+   "candidate": "Hetzner",
+   "topic": "price",
+   "fact": "The page shows 'EUR 8.32 one-time setup fee' beside 'EUR 0.00 one-time setup fee'; the EUR 0.00 appears to be the current figure and EUR 8.32 the struck-through former one, but the page text does not say so explicitly.",
+   "url": "https://www.hetzner.com/webhosting/",
+   "date_read": "2026-11-24",
+   "confidence": "vendor-page",
+   "reread": true,
+   "ring": 4
+  },
+  {
+   "id": "sw-f164",
+   "candidate": "Webflow",
+   "topic": "export",
+   "fact": "Could not read: webflow.com/feature/code-export failed with a fetch parse error (header overflow) and the help-centre article returned 403; no export statement was read.",
+   "url": "https://webflow.com/feature/code-export",
+   "date_read": "2026-11-24",
+   "confidence": "not-found",
+   "reread": true,
+   "ring": 2,
+   "flag": "re-read on 24 Nov also failed"
   }
  ],
  "changes": [
@@ -2582,6 +2657,10 @@
   {
    "at": "2026-11-22T18:40Z",
    "what": "re-read: Webflow now read (price, terms, US processing; export still unverified); Zola licence confirmed EUPL 1.2; Infomaniak, Hostinger and Cloudflare confirmed; flags cleared on those rows"
+  },
+  {
+   "at": "2026-11-24T01:10Z",
+   "what": "re-read 24 Nov: saldiaBuild price and export read, Hetzner setup fee, Webflow export still unread"
   }
  ]
 }

@@ -119,9 +119,12 @@
    "player": "Permit.io agent approvals",
    "group": "approvals",
    "fact_ids": [
-    "dm-f039"
+    "dm-f039",
+    "dm-f071",
+    "dm-f072",
+    "dm-f073"
    ],
-   "flagged": true
+   "flagged": false
   },
   {
    "player": "DMN (OMG standard)",
@@ -161,9 +164,11 @@
     "dm-f050",
     "dm-f051",
     "dm-f052",
-    "dm-f053"
+    "dm-f053",
+    "dm-f074",
+    "dm-f075"
    ],
-   "flagged": true
+   "flagged": false
   },
   {
    "player": "Cedar",
@@ -172,7 +177,9 @@
     "dm-f054",
     "dm-f055",
     "dm-f056",
-    "dm-f057"
+    "dm-f057",
+    "dm-f076",
+    "dm-f077"
    ],
    "flagged": false
   },
@@ -266,19 +273,22 @@
   {
    "id": "dm-g4",
    "kind": "approvals",
-   "text": "For agents, human approval is a mechanism, not a record: LangGraph's interrupt pauses a graph and resumes with a person's value, and if nobody answers it waits indefinitely (no timeout or default described); HumanLayer's page does not describe an approval workflow, who approved or what happens when nobody answers; Permit.io's page returned 404. No page read describes a default when nobody answers or a signed approval, on the pages read. Map 1 nodes: default-yes, signed answers via playable-brief.",
+   "text": "For agents, human approval is a mechanism that is starting to come with a record: LangGraph's interrupt pauses a graph and resumes with a person's value, and if nobody answers it waits indefinitely (no timeout or default described); HumanLayer's page does not describe an approval workflow, who approved or what happens when nobody answers. Permit.io (re-read 24 Nov; its first docs page had returned 404) says risky agent actions pause for an approver in a dashboard or Slack and that every allow or deny is logged with the human, the agent, the action and the reason, sendable to a SIEM; it states no licence or price and says it is built on OPA, Cedar and OPAL. No page read describes a default when nobody answers or a signed approval, on the pages read. Map 1 nodes: default-yes, signed answers via playable-brief.",
    "facts": [
     "dm-f035",
     "dm-f036",
     "dm-f038",
     "dm-f034",
-    "dm-f039"
+    "dm-f039",
+    "dm-f071",
+    "dm-f072",
+    "dm-f073"
    ]
   },
   {
    "id": "dm-g5",
    "kind": "codified",
-   "text": "Codified decision workflows are standards and engines: DMN (OMG, version 1.6 with a 1.7 beta listed, IPR mode RF-Limited), Drools (Apache 2.0, Apache incubator), Camunda 8 (source-available Camunda License; production self-managed needs an enterprise licence; EU-hosted SaaS), and policy engines Open Policy Agent and Cedar (Apache-2.0; allow or deny; policy kept apart from code). OPA's page read does not describe decision logging. Map 1 node: codified-thinking.",
+   "text": "Codified decision workflows are standards and engines: DMN (OMG, version 1.6 with a 1.7 beta listed, IPR mode RF-Limited), Drools (Apache 2.0, Apache incubator), Camunda 8 (source-available Camunda License; production self-managed needs an enterprise licence; EU-hosted SaaS), and policy engines Open Policy Agent and Cedar (Apache-2.0; allow or deny; policy kept apart from code). OPA's documentation does describe decision logs (re-read 24 Nov): each policy query is recorded with path, input, bundle metadata and result and sent to remote servers, plugins or the console, with masking and drop rules. Map 1 node: codified-thinking.",
    "facts": [
     "dm-f041",
     "dm-f042",
@@ -291,7 +301,11 @@
     "dm-f053",
     "dm-f054",
     "dm-f055",
-    "dm-f056"
+    "dm-f056",
+    "dm-f074",
+    "dm-f075",
+    "dm-f076",
+    "dm-f077"
    ]
   },
   {
@@ -313,7 +327,7 @@
   {
    "id": "dm-g7",
    "kind": "gap-in-my-reading",
-   "text": "Not verified or missing in this run: Permit.io (404), the licence of the ADR site and of the LangGraph interrupts page (not named), OPA's decision logging (not on the page read), HumanLayer's approval workflow (not described), Camunda and the enterprise tools' prices (none shown). Names were found by search; each player is kept only where its own page was read. Absence on a page is not proof of absence in a product.",
+   "text": "Still not verified: the licence of the ADR site and of the LangGraph interrupts page (not named), HumanLayer's approval workflow (not described), and the enterprise tools' and Camunda's prices (none shown). Resolved on 24 Nov: Permit.io (now read) and Open Policy Agent's decision logging (described in its docs). Names were found by search; each player is kept only where its own page was read. Absence on a page is not proof of absence in a product.",
    "facts": [
     "dm-f039",
     "dm-f002",
@@ -716,7 +730,7 @@
    "url": "https://docs.permit.io/agent-security/overview",
    "date_read": "2026-11-23",
    "confidence": "not-found",
-   "flag": "page failed or not found; re-read"
+   "superseded_by": "re-read 24 Nov"
   },
   {
    "id": "dm-f040",
@@ -857,7 +871,7 @@
    "url": "https://github.com/open-policy-agent/opa",
    "date_read": "2026-11-23",
    "confidence": "not-found",
-   "flag": "page failed or not found; re-read"
+   "superseded_by": "re-read 24 Nov"
   },
   {
    "id": "dm-f054",
@@ -1028,12 +1042,86 @@
    "url": "https://en.wikipedia.org/wiki/Responsibility_assignment_matrix",
    "date_read": "2026-11-23",
    "confidence": "third-party"
+  },
+  {
+   "id": "dm-f071",
+   "candidate": "Permit.io agent approvals",
+   "topic": "offer",
+   "fact": "Permit.io treats AI agents as subjects in its policy model, with MCP Gateway and Coding Agents Gateway applying RBAC, ABAC and ReBAC per tool call, deny by default.",
+   "url": "https://www.permit.io/",
+   "date_read": "2026-11-24",
+   "confidence": "vendor-page",
+   "reread": true
+  },
+  {
+   "id": "dm-f072",
+   "candidate": "Permit.io agent approvals",
+   "topic": "record",
+   "fact": "Risky actions pause for an approver in the dashboard or Slack, and every allow or deny decision is logged with human, agent, action and reason and can be sent to a SIEM.",
+   "url": "https://www.permit.io/",
+   "date_read": "2026-11-24",
+   "confidence": "vendor-page",
+   "reread": true
+  },
+  {
+   "id": "dm-f073",
+   "candidate": "Permit.io agent approvals",
+   "topic": "licence",
+   "fact": "No licence or price stated on the page; it says it is built on OPA, Cedar and OPAL (OPAL linked as open source), and points to /pricing and sales demos.",
+   "url": "https://www.permit.io/",
+   "date_read": "2026-11-24",
+   "confidence": "vendor-page",
+   "reread": true
+  },
+  {
+   "id": "dm-f074",
+   "candidate": "Open Policy Agent",
+   "topic": "record",
+   "fact": "Yes: the documentation describes decision logs recording each policy query (path, input, bundle metadata, result) for auditing and debugging, sent to remote HTTP servers, plugins or the console.",
+   "url": "https://www.openpolicyagent.org/docs/management-decision-logs",
+   "date_read": "2026-11-24",
+   "confidence": "project-page",
+   "reread": true
+  },
+  {
+   "id": "dm-f075",
+   "candidate": "Open Policy Agent",
+   "topic": "record",
+   "fact": "Decision logs support masking via data.system.log.mask, a drop rule (system.log.drop), batching with retry, and a max_decisions_per_second rate limit.",
+   "url": "https://www.openpolicyagent.org/docs/management-decision-logs",
+   "date_read": "2026-11-24",
+   "confidence": "project-page",
+   "reread": true
+  },
+  {
+   "id": "dm-f076",
+   "candidate": "Cedar",
+   "topic": "offer",
+   "fact": "Cedar is a language for writing authorization policies and making allow or deny decisions, keeping authorization logic out of application code; Amazon Verified Permissions is a managed service using it.",
+   "url": "https://docs.cedarpolicy.com/",
+   "date_read": "2026-11-24",
+   "confidence": "project-page",
+   "reread": true
+  },
+  {
+   "id": "dm-f077",
+   "candidate": "Cedar",
+   "topic": "licence",
+   "fact": "The GitHub repository of the cedar-policy organization states Apache-2.0; no named maintainers are given, docs list an amazon.com feedback address, and cedarpolicy.com itself only showed a playground title.",
+   "url": "https://github.com/cedar-policy/cedar",
+   "date_read": "2026-11-24",
+   "confidence": "project-page",
+   "reread": true
   }
  ],
  "changes": [
   {
    "at": "2026-11-23T05:55Z",
    "what": "first version: 20 players, 70 facts"
+  },
+  {
+   "at": "2026-11-24T01:10Z",
+   "what": "re-read 24 Nov: Permit.io read (dm-g4 revised), OPA decision logs described (dm-g5), Cedar docs"
   }
  ]
 }

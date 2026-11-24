@@ -78,7 +78,7 @@
    "lacks_needs": [
     "n-owner-own-and-move"
    ],
-   "price_line": "not found on the page read",
+   "price_line": "CHF excl. VAT: Free 0; easyBasic 9 a month annual or 29 monthly; easyPlus 29 or 49; easyPremium 49 or 69; Enterprise on request (read 24 Nov)",
    "source_url": "https://www.saldia.ch/en",
    "date_read": "2026-11-22",
    "flagged": false,
@@ -88,9 +88,11 @@
     "sw-f009",
     "sw-f010",
     "sw-f011",
-    "sw-f012"
+    "sw-f012",
+    "sw-f160",
+    "sw-f161"
    ],
-   "note": "serves/lacks are landscape.d's reading from the facts; 'lacks pn-own-it-move-it' for ring 1 means no export path was found on the pages read, not that none exists"
+   "note": "serves/lacks are landscape.d's reading from the facts; 'lacks pn-own-it-move-it' for ring 1 means no export path was found on the pages read, not that none exists; export unconfirmed (mentions clean real code and an Enterprise GitHub and Bitbucket feature)"
   },
   {
    "id": "sw-p-ionos-mywebsite",

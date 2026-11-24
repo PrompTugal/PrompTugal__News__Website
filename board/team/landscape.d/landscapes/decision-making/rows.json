@@ -1,7 +1,7 @@
 {
  "format": "landscape-rows/1",
  "for": "cartographer.d@AgentiCCells.dinis",
- "made": "2026-11-23T05:55Z",
+ "made": "2026-11-24T01:10Z",
  "made_by": "landscape.d@AgentiCCells.dinis",
  "rows": [
   {
@@ -196,15 +196,18 @@
    "id": "dm-p-permit-io-agent-approvals",
    "name": "Permit.io agent approvals",
    "group": "approvals",
-   "what": "Docs page for agent security and approvals returned HTTP 404, so nothing was read.",
+   "what": "Permit.io treats AI agents as subjects in its policy model, with MCP Gateway and Coding Agents Gateway applying RBAC, ABAC and ReBAC per tool call, deny by default.",
    "serves_needs": [],
    "lacks_needs": [],
    "price_line": "not read",
-   "source_url": "https://docs.permit.io/agent-security/overview",
-   "date_read": "2026-11-23",
-   "flagged": true,
+   "source_url": "https://www.permit.io/",
+   "date_read": "2026-11-24",
+   "flagged": false,
    "fact_ids": [
-    "dm-f039"
+    "dm-f039",
+    "dm-f071",
+    "dm-f072",
+    "dm-f073"
    ],
    "note": "no user-need column: the users here are sherpa.d's decision needs (n-decide-*), not yet mapped to these players"
   },
@@ -273,12 +276,14 @@
    "price_line": "not read",
    "source_url": "https://github.com/open-policy-agent/opa",
    "date_read": "2026-11-23",
-   "flagged": true,
+   "flagged": false,
    "fact_ids": [
     "dm-f050",
     "dm-f051",
     "dm-f052",
-    "dm-f053"
+    "dm-f053",
+    "dm-f074",
+    "dm-f075"
    ],
    "note": "no user-need column: the users here are sherpa.d's decision needs (n-decide-*), not yet mapped to these players"
   },
@@ -297,7 +302,9 @@
     "dm-f054",
     "dm-f055",
     "dm-f056",
-    "dm-f057"
+    "dm-f057",
+    "dm-f076",
+    "dm-f077"
    ],
    "note": "no user-need column: the users here are sherpa.d's decision needs (n-decide-*), not yet mapped to these players"
   },

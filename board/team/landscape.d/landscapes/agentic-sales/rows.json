@@ -1,7 +1,7 @@
 {
  "format": "landscape-rows/1",
  "for": "cartographer.d@AgentiCCells.dinis",
- "made": "2026-11-23T05:30Z",
+ "made": "2026-11-24T01:10Z",
  "made_by": "landscape.d@AgentiCCells.dinis",
  "rows": [
   {
@@ -68,15 +68,16 @@
    "id": "as-p-servicenow-ai-agents",
    "name": "ServiceNow AI Agents",
    "group": "vendor-platform",
-   "what": "Product page returned HTTP 403, so nothing could be verified.",
+   "what": "Could not read: servicenow.com/products/ai-agents.html and /products/ai-agents/ both returned 403, so what is sold and price model were not read.",
    "serves_needs": [],
    "lacks_needs": [],
    "price_line": "not read",
    "source_url": "https://www.servicenow.com/products/ai-agents.html",
-   "date_read": "2026-11-23",
+   "date_read": "2026-11-24",
    "flagged": true,
    "fact_ids": [
-    "as-f016"
+    "as-f016",
+    "as-f063"
    ],
    "note": "no user-need column: AgentiCCells's buyers are not in sherpa.d's needs yet"
   },
@@ -84,15 +85,16 @@
    "id": "as-p-google-agentspace",
    "name": "Google Agentspace",
    "group": "vendor-platform",
-   "what": "Pricing page returned 404, so nothing could be verified.",
+   "what": "cloud.google.com/products/agentspace and /gemini-enterprise both load a page titled 'Gemini for enterprise: The universal work agent', suggesting Agentspace is now Gemini Enterprise, but only the title was readable: no description or price.",
    "serves_needs": [],
    "lacks_needs": [],
-   "price_line": "Pricing page returned 404, so nothing could be verified.",
-   "source_url": "https://cloud.google.com/products/agentspace/pricing",
-   "date_read": "2026-11-23",
-   "flagged": true,
+   "price_line": "not read",
+   "source_url": "https://cloud.google.com/products/agentspace",
+   "date_read": "2026-11-24",
+   "flagged": false,
    "fact_ids": [
-    "as-f017"
+    "as-f017",
+    "as-f064"
    ],
    "note": "no user-need column: AgentiCCells's buyers are not in sherpa.d's needs yet"
   },
@@ -327,7 +329,7 @@
    "what": "No services firm with a published price or clear offer was found and verified in this run; none included.",
    "serves_needs": [],
    "lacks_needs": [],
-   "price_line": "No services firm with a published price or clear offer was found and verified in this run; none included.",
+   "price_line": "not read",
    "source_url": "https://agenticcells.ai/pricing/",
    "date_read": "2026-11-23",
    "flagged": true,

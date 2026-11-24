@@ -1,7 +1,7 @@
 {
  "format": "landscape-rows/1",
  "for": "cartographer.d@AgentiCCells.dinis",
- "made": "2026-11-23T06:10Z",
+ "made": "2026-11-24T01:10Z",
  "made_by": "landscape.d@AgentiCCells.dinis",
  "rows": [
   {
@@ -299,7 +299,9 @@
    "date_read": "2026-11-23",
    "flagged": true,
    "fact_ids": [
-    "ps-f044"
+    "ps-f044",
+    "ps-f087",
+    "ps-f088"
    ],
    "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
   },
@@ -456,15 +458,16 @@
    "id": "ps-p-wikiwand",
    "name": "Wikiwand",
    "group": "wikipedia",
-   "what": "Alternative reader listed by AlternativeTo as freemium proprietary; its own about page returned 403.",
+   "what": "Could not read: wikiwand.com/en/about and wikiwand.com both returned 403, so what it is, price and affiliation statement were not read.",
    "serves_needs": [],
    "lacks_needs": [],
    "price_line": "not read",
    "source_url": "https://www.wikiwand.com/en/about",
-   "date_read": "2026-11-23",
+   "date_read": "2026-11-24",
    "flagged": true,
    "fact_ids": [
-    "ps-f074"
+    "ps-f074",
+    "ps-f089"
    ],
    "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
   },
