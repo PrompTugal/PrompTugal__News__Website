@@ -17,6 +17,15 @@ image_width: 1200
 image_height: 630
 image_alt: "A card: five coding agents compared in a study. 37,623 code changes studied, from five AI agents and a human baseline, from the paper's abstract on arXiv."
 ---
+> **Update, 24 November 2026.** The article was written from the paper's abstract alone. The [paper's full text](https://arxiv.org/pdf/2609.17598), read since, answers some of what was left open. The PDF is marked "A PREPRINT" and dated 17 September 2026.
+>
+> - **A revert.** The paper counted a revert as a revert-style commit, flagged by its message, among the commits that touched a pull request's most-changed file in the 90 days after it merged.
+> - **The baseline.** The human comparison was 4,027 pull requests alongside 9,750 agent pull requests in the same 810 repositories.
+> - **The agents.** Against that baseline, Codex had an odds ratio of 0.50 for a revert and Devin 1.31. An odds ratio below 1 means reverted less often. Copilot, Cursor and Claude Code were statistically indistinguishable from humans.
+> - **The paper's own limits.** Revert detection by message misses silent rewrites. Agents were not randomly assigned to tasks, so the quality of the code and the kind of task are mixed together. The corpus was public repositories with more than 100 stars, three programming languages and December 2024 to July 2025, so the results may not transfer to private code, other languages or later versions of the agents.
+>
+> The figures are the paper's and were not checked.
+
 ## In short
 
 - A paper posted to arXiv on 12 September 2026 studies 37,623 code changes from five AI coding agents and a matched human baseline.
@@ -50,6 +59,7 @@ The paper's code predates the accounts of three companies we covered: [CrewAI](.
 ## Where this comes from
 
 - [arXiv, "Not All Agents Are Equal: Code Quality and Post-Merge Maintenance Across Five Autonomous Coding Agents in the Wild" (Obada Kraishan), abstract page](https://arxiv.org/abs/2609.17598) (every claim about the paper), submitted 12 September 2026, read 24 November 2026
+- [arXiv, "Not All Agents Are Equal" (Obada Kraishan), full text (PDF)](https://arxiv.org/pdf/2609.17598) (the update note of 24 November 2026), marked a preprint and dated 17 September 2026, read 24 November 2026
 - [PrompTugal.news, "How CrewAI says teams earn trust: start with full human review"](https://promptugal.news/articles/crewai-trust-starts-with-human-review.html) (a comparison only), read 24 November 2026
 - [PrompTugal.news, "How Intercom lets AI approve code, and keeps people accountable"](https://promptugal.news/articles/intercom-ai-approves-code-changes.html) (a comparison only), read 24 November 2026
 - [PrompTugal.news, "Spotify says AI made change outrun its checks"](https://promptugal.news/articles/spotify-ai-change-outran-checks.html) (a comparison only), read 24 November 2026

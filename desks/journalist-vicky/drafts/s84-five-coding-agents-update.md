@@ -4,7 +4,7 @@ date: 2026-11-24
 story: S84
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
 summary: "An update note for the published 'A study of five coding agents: reverts, security and review waits' (content/articles/five-coding-agents-reverts-security-waits.md): what the paper's full text says about its revert count, its baseline and its own limits."
-status: draft
+status: approved
 beat: AI and robotics
 license: https://creativecommons.org/licenses/by/4.0/
 tags: AI agents, software engineering, research, update
@@ -19,9 +19,10 @@ updates: five-coding-agents-reverts-security-waits
 >
 > - **A revert.** The paper counted a revert as a revert-style commit, flagged by its message, among the commits that touched a pull request's most-changed file in the 90 days after it merged.
 > - **The baseline.** The human comparison was 4,027 pull requests alongside 9,750 agent pull requests in the same 810 repositories.
-> - **The agents.** Codex had 6.1% of its pull requests reverted, against 11.5% for the human baseline, with an odds ratio of 0.50. An odds ratio below 1 means reverted less often. Devin had 14.5%, with an odds ratio of 1.31. Copilot, Cursor and Claude Code were statistically indistinguishable from humans.
+> - **The agents.** Against that baseline, Codex had an odds ratio of 0.50 for a revert and Devin 1.31. An odds ratio below 1 means reverted less often. Copilot, Cursor and Claude Code were statistically indistinguishable from humans.
 > - **The paper's own limits.** Revert detection by message misses silent rewrites. Agents were not randomly assigned to tasks, so the quality of the code and the kind of task are mixed together. The corpus was public repositories with more than 100 stars, three programming languages and December 2024 to July 2025, so the results may not transfer to private code, other languages or later versions of the agents.
-> - **Still unknown.** The paper counts reverts, not outages in production. The text read here does not say whether it has been peer reviewed. The figures are the paper's and were not checked.
+>
+> The figures are the paper's and were not checked.
 
 ## Where this comes from
 
