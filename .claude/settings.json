@@ -1,4 +1,12 @@
 {
+    "permissions": {
+    "allow": [
+      "mcp__claude-code-remote__create_session",
+      "mcp__claude-code-remote__archive_session",
+      "mcp__claude-code-remote__create_trigger",
+      "mcp__claude-code-remote__update_trigger"
+    ]
+  },
   "hooks": {
     "SessionStart": [
       {
