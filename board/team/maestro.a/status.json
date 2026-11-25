@@ -5,35 +5,34 @@
   "role": "Conductor of the conductors, account A",
   "session": "https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
   "key": "maestro.a-account-a (board/keys.json; encryption sha256:7b84926cc96c79ee; signing sha256:a213b3697477e7c0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-25T16:30Z",
-  "state": "Account A partly running. New today: a.drive (Drive and Chat tools, Google API family), the ABP starter kit live on sovereignwebsite.ai/abp/, the for-dinis needs-you lane (vault c084pp1d, sealed to Dinis's Chrome key). Account A at about 81% (allowed_warning, resets Sun 29 Nov 20:00 UTC). Fresh a.maestro still due.",
+  "updated": "2026-11-25T18:30Z",
+  "state": "Renaming to cl-1.maestro@dinis: key published in Site__Agent__Maestro__Claude__1 (signing sha256:6e5669f9295fc4ef), heartbeat beating (next by 20:04Z). 14 account homes exist (no Pages). Accounts view with heartbeats live. Account A at about 81% (allowed_warning, resets Sun 29 Nov 20:00 UTC).",
   "done": [
-    "relayed: m1 studio job 1 via router.a; article brief to a.journalist.aws (draft on work/journalist.aws.a, ecbfe90); certificate priority ask to a.devops",
-    "drained 4 sealed messages from maestro.b (certificates, the sync question, account B's today page, the decisions record)",
-    "13:2x plan-only PR opened by a.factory at Dinis's word: SovereignWebsite__IaC PR 3",
-    "14:2x vault keys for Our work (yiy6okw9) and Team contacts (kg37tfil) received from crm.dev.a after Dinis's yes; stored 0600",
-    "14:4x seal_to_maestro.py now signs with the sender's key (Site__Agent__Maestro 8033414); drain checks extra published keys (extra-signers.json)",
     "15:31 a.drive started at Dinis's word (Site__Tool__Google__Drive); Drive API v0.1.0 then v0.2.0 on a shared base; setup guide for Dinis's partner",
     "16:10 for-dinis lane created (vault c084pp1d), read key held 0600, sealed hand-over prepared",
     "16:21 ABP starter kit live: sovereignwebsite.ai/abp/ and /abp/kit/ (six files, hashes verified from the live site)",
-    "lane.entry/2 final (a.ios, 51859ee), adopted by the Email Cell and the CRM"
+    "lane.entry/2 final (a.ios, 51859ee), adopted by the Email Cell and the CRM",
+    "17:2x naming model agreed and recorded (Site__Agent__Maestro notes/2026-11-25-naming-model.md); IaC PR 4 (naming rules) merged; Claude-8 homes made",
+    "18:00 twelve more homes made (IaC 2a20581); accounts page with heartbeats (Site__Agent__Maestro 1158987)",
+    "18:0x cl-1.maestro key and first heartbeat (Site__Agent__Maestro__Claude__1 0bb0cbd, e9c12b5)",
+    "18:2x security.b's ABP kit review (pass with changes) being applied by a sub-agent; Drive v0.3.0 post-check PASS"
   ],
   "next": [
-    "Re-seal the for-dinis read key to the relay page's own key when a.drive's page shows its k1",
-    "Bring security.b's ABP kit review to Dinis",
-    "Chat site: finish after GitHub's 500s (sweep 18:17 UTC)",
-    "Sign Site__Agent__Maestro commits with a P-256 key"
+    "Send website.a the ABP kit v2; security.b post-checks the new hashes",
+    "Each maestro adopts its home and beats (Dinis's word in each session)",
+    "Step 3 of the renames waits for abp@'s parsing change",
+    "Re-seal the for-dinis read key when a.drive's relay page shows its key"
   ],
   "asks": [
-    "Dinis: in b.factory's session say 'push work branches for the ABP fix and the certificate PR'; then merge them and IaC PR 3",
-    "Dinis: certificate nudges (Org apply, nudge_missing_certificates) for Site__Tool__Google__Drive and Site__Tool__Google__Chat",
-    "Dinis's partner: the Internal Google client per drive.google.tool.sovereignweb.site/app/setup/",
-    "Dinis: confirm lane.entry/2 in b.decisions's session (it cannot read account A's sessions)",
-    "Dinis: a.ios's push to dev of the lane.entry/2 spec, in a.ios's session",
-    "Dinis: start a.abp for Site__Agent__ABP when you want it"
+    "Dinis: business hours for the heartbeat: Mon-Fri 08:00-19:00 or 09:00-17:00 UK?",
+    "Dinis: in b.factory's session, 'push work branches for the ABP fix and the certificate PR'; merge them, then IaC PR 5",
+    "Dinis: in b, c, d and f maestros' sessions, 'attach Site__Agent__Maestro__Claude__N and follow its START.md'",
+    "Dinis: certificates for drive.google.tool and chat.google.tool (Org apply nudge)",
+    "Dinis: a private registry vault for logins and plans, or leave them unwritten",
+    "Dinis: consent from the two team members before their names appear in ids"
   ],
   "latest_debrief": "board/team/maestro.a/debriefs/2026-11-23-handover.md",
-  "last_read_from_b": "2026-11-25T16:22Z",
+  "last_read_from_b": "2026-11-25T18:19Z",
   "last_read_from_c": "2026-11-25T13:16Z",
   "last_read_from_d": "2026-11-24T20:52Z",
   "last_read_vault": "2026-11-25T14:30Z",
