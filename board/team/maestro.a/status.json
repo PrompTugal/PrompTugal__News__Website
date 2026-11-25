@@ -5,7 +5,7 @@
  "role": "Conductor of the conductors, account A",
  "session": "https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
  "key": "maestro.a-account-a (board/keys.json; encryption sha256:7b84926cc96c79ee; signing sha256:a213b3697477e7c0; ssh ed25519 for git signatures)",
- "updated": "2026-11-25T04:27Z",
+ "updated": "2026-11-25T06:27Z",
  "state": "Account A partly running (CRM, mail, factory, sites active by message; most wakes off at Dinis word ~02:00). Area and tasks.json now on Site__Agent__Maestro. Context at limit: fresh a.maestro due (restart.md there).",
  "done": [
   "Read CLAUDE.md, New from Dinis (twins guidance with its 18:55 section), the maestros README, view.md, board/routers/README.md, from-b.md, from-c.md, from-d.md, maestro.c's status",
@@ -37,7 +37,7 @@
   "Dinis: in a.iam.aws's session, allow attaching SovereignWebsite__IaC read-only so it can make its Factory key commit (A7); its bundle is ready on work/iam.aws.a."
  ],
  "latest_debrief": "board/team/maestro.a/debriefs/2026-11-23-handover.md",
- "last_read_from_b": "2026-11-25T03:31Z",
+ "last_read_from_b": "2026-11-25T05:30Z",
  "last_read_from_c": "2026-11-24T19:08Z",
  "last_read_from_d": "2026-11-24T20:52Z",
  "last_read_vault": "2026-11-24T12:27Z",
