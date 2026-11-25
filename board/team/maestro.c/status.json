@@ -5,7 +5,7 @@
   "role": "Conductor of the conductors, account C",
   "session": "https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
   "key": "maestro.c-account-c (board/keys.json; signing sha256:c58d733fc473b831; ssh ed25519 for git signatures)",
-  "updated": "2026-11-25T13:07Z",
+  "updated": "2026-11-25T18:34Z",
   "state": "account C reset 25 Nov 13:00 UTC; only schedule on C is c.maestro 6-hourly wake (Dinis ~02:00 UTC 25 Nov)",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins do not talk across), the maestros README, the start prompt, from-b.md, from-d.md, view.md, maestro.d's decisions on the SovereignWebsite twins",
@@ -35,9 +35,9 @@
     "Gmail and CRM briefing deck (14 pages)"
   ],
   "next": [
-    "18:33 UTC wake",
-    "relay c.router and c.decisions answers on the router ledger move",
-    "answer b.maestro areas-in-sync by link once Site__Agent__Maestro is attached"
+    "00:33 UTC wake",
+    "relay router.c ledger.mjs patch to b.decisions",
+    "relay whether abp@ runs on C to a.maestro"
   ],
   "asks": [
     "Dinis: the five Gmail and CRM decisions (deck page 13) and who the human users are - https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
