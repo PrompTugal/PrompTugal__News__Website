@@ -5,35 +5,35 @@
   "role": "Conductor of the conductors, account A",
   "session": "https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
   "key": "maestro.a-account-a (board/keys.json; encryption sha256:7b84926cc96c79ee; signing sha256:a213b3697477e7c0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-25T14:55Z",
-  "state": "Account A partly running (CRM, mail, factory, sites, design, studio, devops, router active). Today page live in Site__Agent__Maestro (account-a/today/). Account A at about 81% of its weekly limit (status allowed_warning, resets Sun 29 Nov 20:00 UTC). Fresh a.maestro still due (restart.md).",
+  "updated": "2026-11-25T16:30Z",
+  "state": "Account A partly running. New today: a.drive (Drive and Chat tools, Google API family), the ABP starter kit live on sovereignwebsite.ai/abp/, the for-dinis needs-you lane (vault c084pp1d, sealed to Dinis's Chrome key). Account A at about 81% (allowed_warning, resets Sun 29 Nov 20:00 UTC). Fresh a.maestro still due.",
   "done": [
-    "Dinis: account C's AWS sessions are kept (not archived); iam.aws.c writes its note; relayed to maestro.c",
-    "00:44-00:53Z: drained 17 inbox messages; checked records batch-1/batch-2/decision-requests at the source; relayed A2 (ontology, viz), A8 (dev.1), A12 (mail.dev, mail.conductor), A9 (security.aws); sent the vault-key sealing steps to a.conductor.aws and a.crm.dev; -2 commits 9dbcf66 and edaa382 relayed to conductor.d and c.factory; the twins memo, decision-request procedure, devops fast lane and navigation passed on; account A vault list (no key material) to b.maestro",
-    "12:2x today page committed (9609de4) and card 2 marked decided (7e8cf8f)",
-    "12:35 fixed the one link failing the maestro site's quality check since 22:19 UTC 24 Nov (f4b3ef9), so deploys resume",
     "relayed: m1 studio job 1 via router.a; article brief to a.journalist.aws (draft on work/journalist.aws.a, ecbfe90); certificate priority ask to a.devops",
     "drained 4 sealed messages from maestro.b (certificates, the sync question, account B's today page, the decisions record)",
     "13:2x plan-only PR opened by a.factory at Dinis's word: SovereignWebsite__IaC PR 3",
     "14:2x vault keys for Our work (yiy6okw9) and Team contacts (kg37tfil) received from crm.dev.a after Dinis's yes; stored 0600",
-    "14:4x seal_to_maestro.py now signs with the sender's key (Site__Agent__Maestro 8033414); drain checks extra published keys (extra-signers.json)"
+    "14:4x seal_to_maestro.py now signs with the sender's key (Site__Agent__Maestro 8033414); drain checks extra published keys (extra-signers.json)",
+    "15:31 a.drive started at Dinis's word (Site__Tool__Google__Drive); Drive API v0.1.0 then v0.2.0 on a shared base; setup guide for Dinis's partner",
+    "16:10 for-dinis lane created (vault c084pp1d), read key held 0600, sealed hand-over prepared",
+    "16:21 ABP starter kit live: sovereignwebsite.ai/abp/ and /abp/kit/ (six files, hashes verified from the live site)",
+    "lane.entry/2 final (a.ios, 51859ee), adopted by the Email Cell and the CRM"
   ],
   "next": [
-    "Add crm.dev.a's key URL to extra-signers.json when it sends it",
-    "Sign Site__Agent__Maestro commits with a P-256 key the signers check accepts",
-    "Bring m1's video, the decisions answer box (b.decisions) and the certificate PR links to Dinis",
-    "Deliver the two CRM hand-overs to maestro.e once it has a key and inbox"
+    "Re-seal the for-dinis read key to the relay page's own key when a.drive's page shows its k1",
+    "Bring security.b's ABP kit review to Dinis",
+    "Chat site: finish after GitHub's 500s (sweep 18:17 UTC)",
+    "Sign Site__Agent__Maestro commits with a P-256 key"
   ],
   "asks": [
-    "Dinis: merge SovereignWebsite__IaC PR 3 (plan-only), then say 'push a work branch for the certificate PR' in b.factory's session",
-    "Dinis: one Org apply for Site__Artist__Lee-Elle-Horowitz (nudge_missing_certificates on)",
-    "Dinis: in b.decisions's session, whether a page answer signed by your browser key counts as your word",
-    "Dinis: which Ben Fung keeper to keep (ben-fung.a or a.ben-fung), and sites.c's handover (a) or (b)",
-    "Dinis: nudge m1 on Mistral for studio job 1",
-    "Dinis: which account A work moves to C (full week from 13:00) or B"
+    "Dinis: in b.factory's session say 'push work branches for the ABP fix and the certificate PR'; then merge them and IaC PR 3",
+    "Dinis: certificate nudges (Org apply, nudge_missing_certificates) for Site__Tool__Google__Drive and Site__Tool__Google__Chat",
+    "Dinis's partner: the Internal Google client per drive.google.tool.sovereignweb.site/app/setup/",
+    "Dinis: confirm lane.entry/2 in b.decisions's session (it cannot read account A's sessions)",
+    "Dinis: a.ios's push to dev of the lane.entry/2 spec, in a.ios's session",
+    "Dinis: start a.abp for Site__Agent__ABP when you want it"
   ],
   "latest_debrief": "board/team/maestro.a/debriefs/2026-11-23-handover.md",
-  "last_read_from_b": "2026-11-25T14:21Z",
+  "last_read_from_b": "2026-11-25T16:22Z",
   "last_read_from_c": "2026-11-25T13:16Z",
   "last_read_from_d": "2026-11-24T20:52Z",
   "last_read_vault": "2026-11-25T14:30Z",
