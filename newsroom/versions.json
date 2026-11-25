@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2271",
+    "date": "2026-11-25",
+    "what": "maestro.a (account-a): 12:23 wake: today page, maestro site deploy unblocked, relays to a.devops, router.a (m1 studio) and a.journalist.aws",
+    "by": "maestro.a (account-a)",
+    "from": "cd12410c5"
+  },
+  {
     "version": "v0.1.2270",
     "date": "2026-11-25",
     "what": "maestro.a (account-a): 10:24 wake, quiet",
