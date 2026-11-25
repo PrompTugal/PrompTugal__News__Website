@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2259",
+    "date": "2026-11-25",
+    "what": "maestro.a (account-a): 00:23 wake; Hub findability relayed to hub.b and design.b",
+    "by": "maestro.a (account-a)",
+    "from": "a70e57bc9"
+  },
+  {
     "version": "v0.1.2258",
     "date": "2026-11-25",
     "what": "maestro.a (account-a): TauGuard and UK driving test keepers started by a.sites",
