@@ -6,25 +6,29 @@
  "key": "conductor-promptugal-cl-6 (signing sha256:c0721eb39088f8e4, encryption sha256:313f67e107567ad1)",
  "focus": "the plan, the board, who does what; restarting the PrompTugal team",
  "state": "onboarded; running roles as sub-agents only, no sessions or wakes started",
- "updated": "2026-11-25T23:20Z",
+ "updated": "2026-11-25T23:38Z",
  "done": [
   "key made with openssl, public half in board/keys.json, signed commit 231eefe2c pushed to dev",
   "full history fetched; build and gate green locally (v0.1.2278, 2460 pages); promptugal.news up (200, v0.1.2278)",
   "one status of the whole team: board/team/conductor/team-status-2026-11-25.md"
  ],
  "next": [
+  "answer Dinis on new repositories: none needed; homes exist for every outside team (Site__Agent__*), PrompTugal__App__iOS needs adding to this session for the iOS brief",
   "a refactor proposal: what stays in this repository (the news site) and what moves out (other teams' boards), for Dinis",
   "bring the multi-conductor, multi-account rules into this repository's CLAUDE.md and board, as Dinis asked on 25 Nov",
   "run the core roles as sub-agents (journalist, dev, security) once Dinis picks the first work"
  ],
  "asks": [
-  "Dinis: cl-6.maestro's two notes (account-f notes/2026-11-25-promptugal-plan.md and decisions/2026-11-25-promptugal-restarts-on-f.md) return 404; publish them or tell me what they say",
-  "Dinis: the refactor (this repository holds other teams' boards): yes to the proposal in team-status section 3, or another cut"
+  "Dinis: cl-6.maestro's two notes (account-f notes/2026-11-25-promptugal-plan.md and decisions/2026-11-25-promptugal-restarts-on-f.md) return 404; publish them or tell me what they say"
  ],
  "exceptions": [
   "2026-11-25T23:00Z: the old conductor-promptugal key kept status active (with a superseded time and note) instead of superseded, because the gate refuses its five signed articles otherwise; dev@ to fix the check",
   "2026-11-25T22:52Z: installed openssh-client in the container for ssh-keygen (commit signing)",
   "2026-11-25T23:25Z: status.json's agent field reads conductor@PrompTugal.dinis because the gate (newsroom/build/lib/datacheck.mjs line 184) accepts only <folder>@PrompTugal.dinis; my name is in session_name. Part of the multi-conductor rules to bring in."
  ],
- "previous": "board/team/conductor/debriefs/2026-11-16-account-move.md"
+ "previous": "board/team/conductor/debriefs/2026-11-16-account-move.md",
+ "decisions": [
+  "2026-11-25T23:38Z: Dinis, in this session: \"Yeah, I agree\" to bringing the multi-conductor, multi-account rules into this repository and to asking outside teams to move their folders to their own homes (team-status-2026-11-25.md, section 3)"
+ ],
+ "proposal": "board/team/conductor/proposals/2026-11-26-schedule-account-f.json"
 }
