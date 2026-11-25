@@ -1,0 +1,88 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "decisions.c@PrompTugal.dinis",
+ "run": "2026-11-23T06-37-44Z",
+ "started": "2026-11-23T06:37:44.074Z",
+ "ended": "2026-11-25T13:11:27Z",
+ "line": "",
+ "policy": {
+  "version": "1.20.1",
+  "sha256": "26033e3e2a39b389"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-23T06:37:44.074Z",
+   "chars": 409,
+   "sha256": "4b40af02867478c4",
+   "head": "<task-notification>\n<task-id>brmj2u9sd</task-id>\n<tool-use-id>toolu_01EdtRcbZxgT8kC3g13SLVjJ</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/9aa664d3-34fa-51ff-b9f4-48f2b"
+  },
+  {
+   "t": "2026-11-25T13:07:10.520Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-25T13:07:09.717Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 10,
+  "by_kind": {
+   "shell": 3,
+   "other": 1,
+   "git": 1,
+   "web": 3,
+   "remote": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R2": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 9,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-25T13:08:07.307Z",
+    "tool": "mcp__claude-code-remote__get_event",
+    "rule": "R2",
+    "what": "get_event reads another session's transcript: only telemetry.b@ may (Dinis, 18 Nov 2026, board/guidance/2026-11-18-telemetry-and-sub-agents.md)",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 10,
+  "in_mandate": 9,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}

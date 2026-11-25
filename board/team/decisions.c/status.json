@@ -6,22 +6,25 @@
  "session": "https://claude.ai/code/session_01Kw9UwF13Y5u7V1ArghNb5n",
  "key": "decisions.c-account-c (board/keys.json; signing sha256:c0a1a5eb667a649d; encryption sha256:758492fec340e110; ssh ed25519 for git signatures)",
  "delegation": "v0 only: the trust anchor is the pin Dinis carries by hand to each router. No pki.sgit.ai delegation.",
- "updated": "2026-11-23T06:30Z",
- "state": "Both requests prepared and bound to router.a's key sha256:ebb490a825e761a9 (checked against its bundle). Waiting for Dinis to pin my key in router.a's session and say \"test\" here.",
+ "updated": "2026-11-25T13:15Z",
+ "state": "Superseded as the routers' issuer (router.a pinned decisions.b; router work left this repository 25 Nov). Named account C's decisions agent by record 2026-11-24__account-decision-agents (checked: steps 1, 2, 3, 5 pass; 4 not checkable from account C). Key unchanged; no endorsement yet; no decision made.",
  "done": [
   "Read CLAUDE.md, board/routers/README.md, decisions.d's README and design, the router.a start prompt",
   "Made my session key (sgit pki keygen), published it in board/keys.json with its ssh key; commits signed",
   "key-qr.png and key-qr.json: the signing key as a QR code, signed by itself, decode-checked",
   "tools/dreq.mjs (request, verify, canon, sign-json) and tools/key_qr.py; verify self-tested: good request OK, replay, wrong account, wrong pin and altered text all refused",
   "Prepared the two first requests and a minimal start prompt for the test session (ping.a), at Dinis's word relayed by maestro.c",
-  "Checked router.a's published key (router.a-account-a, sha256:ebb490a825e761a9, recomputed from its bundle) and bound the prepared requests to it"
+  "Checked router.a's published key (router.a-account-a, sha256:ebb490a825e761a9, recomputed from its bundle) and bound the prepared requests to it",
+  "Checked record 2026-11-24__account-decision-agents (checks/)",
+  "Agreed to router.a's ledger move, option a) (opinions/2026-11-25__router-ledger-move.json)"
  ],
  "next": [
-  "On Dinis's word in this session: a report-state request to router.a (account A), then a start-session request for a small named session",
-  "Watch board/routers/ledger/receipts/ for router.a's receipt and report it to Dinis and maestro.c"
+  "Send my key link to decisions.b via maestro.c for its endorsement",
+  "Make my own area and presentation pages once I have a repository of my own"
  ],
  "asks": [
-  "Dinis: pin sha256:c0a1a5eb667a649d in router.a's session (https://claude.ai/code/session_018yvwtMhx7CL9da8c7nycat), then say \"test\" here",
-  "Dinis: for the second request, yes to ping.a with board/team/decisions.c/prompts/ping-a.md, or name another title and prompt file"
- ]
+  "Dinis: confirm in my session that I may decide account C's routine asks under record 2026-11-24__account-decision-agents (I could not check its words from account C, and my start prompt says I never decide)",
+  "Dinis: I have no repository of my own for my area (/factory/), my key file and decision decks; name one I may push to (e.g. a Site__Agent__Decisions area or a new repo) and attach it to this session"
+ ],
+ "exceptions": []
 }
