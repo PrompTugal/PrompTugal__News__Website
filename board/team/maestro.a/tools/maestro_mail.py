@@ -54,6 +54,7 @@ def extra_signers(repo):
     for u in urls:
         try:
             import urllib.request; k = json.load(urllib.request.urlopen(u, timeout=20))
+            if not k.get('bundle') and k.get('sign') and k.get('signing_fingerprint'): k = {'agent': k.get('agent'), 'id': k.get('label'), 'status': k.get('status'), 'bundle': k}
             if (k.get('bundle') or {}).get('signing_fingerprint'): out.append(k)
         except Exception: pass
     return out
