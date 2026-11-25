@@ -1,0 +1,175 @@
+{
+ "about": "Proposed by cl-6.conductor@PrompTugal.dinis for cl-6.infra@PrompTugal.dinis (PrompTugal__IaC org/repos.json, 'proposed'), at Dinis's word of 25 Nov 2026 about 23:55 UTC: every PrompTugal agent gets its own repository in the PrompTugal organisation, PrompTugal__Agent__{Name}, the same shape as PrompTugal__Agent__Infrastructure. One repository per role that has a session or a key. Dotted workers (dev.*, designer.experiments) and the twins of Vicky's team run as sub-agents and live in their parent's repository, unless Dinis wants each its own. Phase 1 is what the restart needs now; 2 and 3 can follow. Not included: the sites' own repositories (PrompTugal__News__*, already there) and every SovereignWebsite or AgentiCCells agent (maestros, routers, decisions, the account D cell), which are not PrompTugal's.",
+ "proposed": "2026-11-25T23:59Z",
+ "status": "proposed, waiting on Dinis's yes in cl-6.infra's session",
+ "repos": [
+  {
+   "name": "PrompTugal__Agent__Conductor",
+   "description": "repo for conductor.agent.promptugal.news",
+   "pages": true,
+   "for": "the plan, the board, who does what; cl-6.conductor@PrompTugal.dinis",
+   "phase": 1
+  },
+  {
+   "name": "PrompTugal__Agent__Journalist",
+   "description": "repo for journalist.agent.promptugal.news",
+   "pages": true,
+   "for": "articles, each fact sourced and signed; runs the writers and the twins of Vicky's desk as sub-agents",
+   "phase": 1
+  },
+  {
+   "name": "PrompTugal__Agent__Dev",
+   "description": "repo for dev.agent.promptugal.news",
+   "pages": true,
+   "for": "the build, the gate, features, CI; runs dev.search, dev.pages, dev.graphs, dev.portugal, dev.data, dev.verify as sub-agents",
+   "phase": 1
+  },
+  {
+   "name": "PrompTugal__Agent__Security",
+   "description": "repo for security.agent.promptugal.news",
+   "pages": true,
+   "for": "pre- and post-review of every pass and commit; HOLD",
+   "phase": 1
+  },
+  {
+   "name": "PrompTugal__Agent__Correspondent",
+   "description": "repo for correspondent.agent.promptugal.news",
+   "pages": true,
+   "for": "the front page and the beats (beat correspondents as sub-agents)",
+   "phase": 2
+  },
+  {
+   "name": "PrompTugal__Agent__Designer",
+   "description": "repo for designer.agent.promptugal.news",
+   "pages": true,
+   "for": "design and the brand v2.0; designer.experiments as a sub-agent",
+   "phase": 2
+  },
+  {
+   "name": "PrompTugal__Agent__Accountant",
+   "description": "repo for accountant.agent.promptugal.news",
+   "pages": true,
+   "for": "budgets of tokens and runs",
+   "phase": 2
+  },
+  {
+   "name": "PrompTugal__Agent__ABP",
+   "description": "repo for abp.agent.promptugal.news",
+   "pages": true,
+   "for": "the Agent Behaviour Policies and run reports",
+   "phase": 2
+  },
+  {
+   "name": "PrompTugal__Agent__Ontologist",
+   "description": "repo for ontologist.agent.promptugal.news",
+   "pages": true,
+   "for": "data schemas, derivation, the knowledge graph",
+   "phase": 2
+  },
+  {
+   "name": "PrompTugal__Agent__Librarian",
+   "description": "repo for librarian.agent.promptugal.news",
+   "pages": true,
+   "for": "the map of everything; search",
+   "phase": 2
+  },
+  {
+   "name": "PrompTugal__Agent__Observability",
+   "description": "repo for observability.agent.promptugal.news",
+   "pages": true,
+   "for": "page views and reads, the drain, the reports",
+   "phase": 2
+  },
+  {
+   "name": "PrompTugal__Agent__DevOps",
+   "description": "repo for devops.agent.promptugal.news",
+   "pages": true,
+   "for": "CI health, the release scripts, automations",
+   "phase": 2
+  },
+  {
+   "name": "PrompTugal__Agent__Sherpa",
+   "description": "repo for sherpa.agent.promptugal.news",
+   "pages": true,
+   "for": "the reader's guide; usability reviews",
+   "phase": 2
+  },
+  {
+   "name": "PrompTugal__Agent__Synthetic",
+   "description": "repo for synthetic.agent.promptugal.news",
+   "pages": true,
+   "for": "synthetic readers' reviews",
+   "phase": 2
+  },
+  {
+   "name": "PrompTugal__Agent__Rights",
+   "description": "repo for rights.agent.promptugal.news",
+   "pages": true,
+   "for": "licences, terms and attribution across the sites",
+   "phase": 2
+  },
+  {
+   "name": "PrompTugal__Agent__Places",
+   "description": "repo for places.agent.promptugal.news",
+   "pages": true,
+   "for": "the place desks (place.*, data/datasci/designer/detective/dev/viz.places) as folders of one repository, one desk per town",
+   "phase": 2
+  },
+  {
+   "name": "PrompTugal__Agent__Translator",
+   "description": "repo for translator.agent.promptugal.news",
+   "pages": true,
+   "for": "the translations of the by-place prose",
+   "phase": 3
+  },
+  {
+   "name": "PrompTugal__Agent__Telemetry",
+   "description": "repo for telemetry.agent.promptugal.news",
+   "pages": true,
+   "for": "tokens, cost and tool use per agent and run",
+   "phase": 3
+  },
+  {
+   "name": "PrompTugal__Agent__Historian",
+   "description": "repo for historian.agent.promptugal.news",
+   "pages": true,
+   "for": "the history of PrompTugal.news from the record",
+   "phase": 3
+  },
+  {
+   "name": "PrompTugal__Agent__Researcher",
+   "description": "repo for researcher.agent.promptugal.news",
+   "pages": true,
+   "for": "public research on a mandate per task",
+   "phase": 3
+  },
+  {
+   "name": "PrompTugal__Agent__Outreach",
+   "description": "repo for outreach.agent.promptugal.news",
+   "pages": true,
+   "for": "drafts to companies; nothing sent by agents",
+   "phase": 3
+  },
+  {
+   "name": "PrompTugal__Agent__Backup",
+   "description": "repo for backup.agent.promptugal.news",
+   "pages": true,
+   "for": "backups and the recovery plan",
+   "phase": 3
+  },
+  {
+   "name": "PrompTugal__Agent__Investors",
+   "description": "repo for investors.agent.promptugal.news",
+   "pages": true,
+   "for": "PrompTugal.news as an investable business",
+   "phase": 3
+  },
+  {
+   "name": "PrompTugal__Agent__Customers",
+   "description": "repo for customers.agent.promptugal.news",
+   "pages": true,
+   "for": "Dinis's briefs on readers, customers and products",
+   "phase": 3
+  }
+ ]
+}
