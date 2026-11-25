@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2261",
+    "date": "2026-11-25",
+    "what": "maestro.a (account-a): D8 landed and closed with b.decisions; append-lane note",
+    "by": "maestro.a (account-a)",
+    "from": "4f7a3fc50"
+  },
+  {
     "version": "v0.1.2260",
     "date": "2026-11-25",
     "what": "maestro.a (account-a): a.design started; Apple platform and GitHub tool sites routed; customers confirmed",
