@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2280",
+    "date": "2026-11-25",
+    "what": "cl-6.conductor@PrompTugal.dinis: one status of the whole team; my status.json",
+    "by": "cl-6.conductor@PrompTugal.dinis",
+    "from": "ebca175e9"
+  },
+  {
     "version": "v0.1.2279",
     "date": "2026-11-25",
     "what": "cl-6.conductor@PrompTugal.dinis: my key (conductor-promptugal-cl-6); the old conductor's entry superseded",
