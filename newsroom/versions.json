@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2264",
+    "date": "2026-11-25",
+    "what": "router.a (account-a): pointer from the old c1 start prompt to Site__Agent__Router",
+    "by": "router.a (account-a)",
+    "from": "e2f50c374"
+  },
+  {
     "version": "v0.1.2263",
     "date": "2026-11-25",
     "what": "router.a (account-a): router work frozen here at Dinis's word; moving to SovereignWebsite/Site__Agent__Router",
