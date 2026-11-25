@@ -9,6 +9,7 @@
 //   node board/routers/ledger/tools/ledger.mjs check <id> --pin <sha256:fp> --me <agent> --account <x> [--my-key <sha256:fp>]
 //                                                                      the receiver's mechanical checks, fail closed; prints PASS or REFUSE <step>
 //   node board/routers/ledger/tools/ledger.mjs selftest                 signs a throwaway request with a throwaway key and runs check on it
+//   options on every command: --keys <path> (default <repo root>/board/keys.json), --ref <git ref> (default origin/dev)
 //
 // The check covers what a script can: format, addressee, dates, the pin, the key from board/keys.json matching the pin,
 // the signature (ECDSA P-256 over the request's canonical JSON without sig, sorted keys, compact: `jq -cS 'del(.sig)'`,
@@ -21,8 +22,17 @@ import crypto from 'node:crypto'
 import { execFileSync } from 'node:child_process'
 import { fileURLToPath } from 'node:url'
 
-const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../../..')
-const LEDGER = path.join(ROOT, 'board/routers/ledger')
+// Paths (portable since 25 Nov 2026, for the move to Site__Agent__Router ledger/): the ledger is this tool's parent
+// folder, wherever it lives; the repository root is git's top level; the keys file is <root>/board/keys.json unless
+// --keys <path> or LEDGER_KEYS says otherwise; the dev branch checked by step 6 is origin/dev unless --ref or LEDGER_REF.
+const argv = process.argv.slice(2)
+const argOf = name => { const i = argv.indexOf(`--${name}`); return i >= 0 ? argv[i + 1] : undefined }
+const LEDGER = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
+const ROOT = (() => { try { return execFileSync('git', ['-C', LEDGER, 'rev-parse', '--show-toplevel'], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }).trim() } catch { return path.resolve(LEDGER, '../../..') } })()
+const KEYS = path.resolve(ROOT, argOf('keys') || process.env.LEDGER_KEYS || 'board/keys.json')
+const REF = argOf('ref') || process.env.LEDGER_REF || 'origin/dev'
+const REL = path.relative(ROOT, LEDGER).split(path.sep).join('/')
+const TOOL = `${REL}/tools/ledger.mjs`
 const DIRS = ['requests', 'claims', 'receipts']
 const KIND = 'agenticcells/dinis-request/v1'
 const FIELDS = ['v', 'kind', 'to', 'issued', 'expires', 'nonce', 'ref', 'power', 'text', 'evidence', 'delegation', 'issuer', 'sig']
@@ -37,7 +47,7 @@ function readDir (d) {
   const dir = path.join(LEDGER, d)
   if (!fs.existsSync(dir)) return []
   return fs.readdirSync(dir).filter(f => f.endsWith('.json')).sort().map(f => {
-    const id = f.slice(0, -5), file = `board/routers/ledger/${d}/${f}`
+    const id = f.slice(0, -5), file = `${REL}/${d}/${f}`
     try { return { id, file, json: JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')) } }
     catch (e) { return { id, file, error: `unreadable JSON: ${e.message}` } }
   })
@@ -63,7 +73,7 @@ function summary (now = new Date()) {
         : (Date.parse(r.json?.expires ?? '') < now.getTime() ? 'expired-unclaimed' : 'open')
   }))
   return {
-    about: 'Index of the cross-account ledger (board/routers/README.md, v0). Written by board/routers/ledger/tools/ledger.mjs index; never edit by hand.',
+    about: 'Index of the cross-account ledger (board/routers/README.md, v0). Written by ' + TOOL + ' index; never edit by hand.',
     protocol: 'v0',
     counts: { requests: L.requests.length, claims: L.claims.length, receipts: L.receipts.length },
     by_account: requests.reduce((a, r) => { (a[r.account] ??= { open: 0, claimed: 0, receipted: 0 }); a[r.account][r.state === 'open' ? 'open' : r.state.startsWith('claimed') ? 'claimed' : 'receipted']++; return a }, {}),
@@ -84,13 +94,13 @@ export function verifySig (req, pem) {
   catch { return false }
 }
 
-function keyForSigning (fp, keysFile = path.join(ROOT, 'board/keys.json')) {
+function keyForSigning (fp, keysFile = KEYS) {
   const j = JSON.parse(fs.readFileSync(keysFile, 'utf8'))
   return (j.keys ?? []).filter(k => (k.signing_fingerprint === fp || k.bundle?.signing_fingerprint === fp))
 }
 
 function onDev (file) {
-  try { execFileSync('git', ['-C', ROOT, 'cat-file', '-e', `origin/dev:${file}`], { stdio: 'ignore' }); return true }
+  try { execFileSync('git', ['-C', ROOT, 'cat-file', '-e', `${REF}:${file}`], { stdio: 'ignore' }); return true }
   catch { return false }
 }
 
@@ -109,9 +119,9 @@ export function check (req, { pin, me, account, myKey, file, keysFile, now = Dat
   if (now < iss - 120e3 || now > exp) return refuse('3-dates', 'not in date')
   if (req.issuer?.signing !== pin) return refuse('4-pin', 'issuer.signing is not the pinned fingerprint')
   const keys = keyForSigning(pin, keysFile).filter(k => k.status === 'active')
-  if (keys.length !== 1) return refuse('4-pin', `${keys.length} active entries in board/keys.json carry the pinned fingerprint`)
+  if (keys.length !== 1) return refuse('4-pin', `${keys.length} active entries in ${path.relative(ROOT, keysFile)} carry the pinned fingerprint`)
   const pem = keys[0].bundle?.sign
-  if (!pem || fingerprint(pem) !== pin) return refuse('4-pin', 'the key in board/keys.json does not hash to the pin')
+  if (!pem || fingerprint(pem) !== pin) return refuse('4-pin', `the key in ${path.relative(ROOT, keysFile)} does not hash to the pin`)
   if (!verifySig(req, pem)) return refuse('5-signature', 'sig does not verify')
   if (seenNonces.has(req.nonce)) return refuse('7-replay', 'nonce already seen')
   if (requireOnDev && !(file && onDev(file))) return refuse('6-published', 'request file is not on origin/dev')
@@ -142,9 +152,9 @@ if (cmd === 'open') {
   const strip = s => JSON.stringify({ ...s, by_account: undefined, requests: s.requests.map(({ state, ...r }) => r) })
   if (flag('check')) {
     const old = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : null
-    if (!old || strip(old) !== strip(S)) { console.error('ledger: index.json is stale; run: node board/routers/ledger/tools/ledger.mjs index'); process.exit(1) }
+    if (!old || strip(old) !== strip(S)) { console.error('ledger: index.json is stale; run: node ' + TOOL + ' index'); process.exit(1) }
     console.log('ledger: index.json current')
-  } else { fs.writeFileSync(f, out); console.log(`ledger: wrote board/routers/ledger/index.json (${S.counts.requests} requests, ${S.counts.claims} claims, ${S.counts.receipts} receipts)`) }
+  } else { fs.writeFileSync(f, out); console.log(`ledger: wrote ${REL}/index.json (${S.counts.requests} requests, ${S.counts.claims} claims, ${S.counts.receipts} receipts)`) }
 } else if (cmd === 'check') {
   const id = args[1], r = load().requests.find(x => x.id === id)
   if (!r) { console.log(`REFUSE 1-parse no request ${id}`); process.exit(1) }
@@ -169,7 +179,7 @@ if (cmd === 'open') {
     ['expired refuses', check(req, { ...base, now: now + 7200e3 }).step === '3-dates'],
     ['extra field refuses', check({ ...req, x: 1 }, base).step === '1-parse'],
     ['replayed nonce refuses', check(req, { ...base, seenNonces: new Set([req.nonce]) }).step === '7-replay'],
-    ['not on dev refuses', check(req, { ...base, requireOnDev: true, file: 'board/routers/ledger/requests/none.json' }).step === '6-published']
+    ['not on dev refuses', check(req, { ...base, requireOnDev: true, file: `${REL}/requests/none.json` }).step === '6-published']
   ]
   fs.rmSync(tmp, { recursive: true })
   for (const [name, ok] of cases) console.log(`${ok ? 'ok  ' : 'FAIL'} ${name}`)
