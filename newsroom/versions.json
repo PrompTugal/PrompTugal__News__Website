@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2263",
+    "date": "2026-11-25",
+    "what": "router.a (account-a): router work frozen here at Dinis's word; moving to SovereignWebsite/Site__Agent__Router",
+    "by": "router.a (account-a)",
+    "from": "6d8deaba3"
+  },
+  {
     "version": "v0.1.2262",
     "date": "2026-11-25",
     "what": "router.a (account-a): start prompt for c1.router (ChatGPT): handshake, token, inbox, patches, 15-minute loop with automatic acks",
