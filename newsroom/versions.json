@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2283",
+    "date": "2026-11-25",
+    "what": "cl-6.conductor@PrompTugal.dinis: proposal, one PrompTugal__Agent__{Name} repository per PrompTugal agent, for cl-6.infra",
+    "by": "cl-6.conductor@PrompTugal.dinis",
+    "from": "686f8003d"
+  },
+  {
     "version": "v0.1.2282",
     "date": "2026-11-25",
     "what": "cl-6.conductor@PrompTugal.dinis: Dinis's yes to the multi-conductor rules and the outside teams moving out, recorded",
