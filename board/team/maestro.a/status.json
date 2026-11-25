@@ -1,74 +1,72 @@
 {
- "agent": "maestro.a@PrompTugal.dinis",
- "name": "a.maestro (account-a)",
- "focus": "Conducts account A's sessions and scheduled tasks; a twin of maestro.b, maestro.c and maestro.d (board/team/maestros/README.md); never a conductor's work",
- "role": "Conductor of the conductors, account A",
- "session": "https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
- "key": "maestro.a-account-a (board/keys.json; encryption sha256:7b84926cc96c79ee; signing sha256:a213b3697477e7c0; ssh ed25519 for git signatures)",
- "updated": "2026-11-25T10:26Z",
- "state": "Account A partly running (CRM, mail, factory, sites active by message; most wakes off at Dinis word ~02:00). Area and tasks.json now on Site__Agent__Maestro. Context at limit: fresh a.maestro due (restart.md there).",
- "done": [
-  "Read CLAUDE.md, New from Dinis (twins guidance with its 18:55 section), the maestros README, view.md, board/routers/README.md, from-b.md, from-c.md, from-d.md, maestro.c's status",
-  "Made key maestro.a-account-a in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
-  "Account A's inventory: board/team/maestro.a/inventory/2026-11-22-account-a.md",
-  "Started board/team/maestros/from-a.md",
-  "Wake hourly at :23 (Dinis's yes, 01:27 UTC 23 Nov; decisions/2026-11-23-wake-archives-router-a-and-vault-mail.md)",
-  "Archived the four account A sessions stuck on a permission prompt",
-  "Started router.a (AgentiCCells) https://claude.ai/code/session_018yvwtMhx7CL9da8c7nycat, no pin given",
-  "Direct vault mail: tools/maestro_mail.py; inboxes for maestro.a and maestro.c in board/inboxes/; loopback verified; first message to maestro.c",
-  "Joined the maestros' shared vault (maestros-channel) with the key maestro.d sealed to me; from-a.md written there; wake reads it",
-  "Direct mail confirmed both ways: maestro.c's two mails (02:33Z, 02:56Z) drained, signed and verified",
-  "At Dinis's word (03:31 UTC): started the 16 AWS stage 2 roles on account A from conductor.aws.c's hand-overs, with wakes (account-a-aws-team.json)",
-  "C agents' work confirmed landed on dev (03:43, aws.c); A agents told to rebase; maestro.c told 15 C sessions can be archived",
-  "Wave 2 (conductor, pm, security, architect, s3, sherpa .aws.a) started on account A with wakes (07:25 UTC)",
-  "Dinis: account C's AWS sessions are kept (not archived); iam.aws.c writes its note; relayed to maestro.c",
-  "00:44-00:53Z: drained 17 inbox messages; checked records batch-1/batch-2/decision-requests at the source; relayed A2 (ontology, viz), A8 (dev.1), A12 (mail.dev, mail.conductor), A9 (security.aws); sent the vault-key sealing steps to a.conductor.aws and a.crm.dev; -2 commits 9dbcf66 and edaa382 relayed to conductor.d and c.factory; the twins memo, decision-request procedure, devops fast lane and navigation passed on; account A vault list (no key material) to b.maestro"
- ],
- "next": [
-  "Every 2 h: relay conductor.aws.a's and the agents' notes for account C; account A's state; Dinis's decisions",
-  "Dinis to start a fresh maestro.a from next-session-prompt.md when he chooses"
- ],
- "asks": [
-  "Dinis: in their own sessions (records decided, each session's permission check refused): a.mail.dev, allow the push of 92bb7de to dev (live Email Cell security fix); a.viz.aws and a.ontology.aws, allow decrypting the signing key (A2); a.dev.1.aws, A8 test/**; a.conductor.aws and a.crm.dev, confirm vault keys to the maestro; a.conductor.aws, owning Site__Agent__AWS-Platform",
-  "Dinis: factory.c (account C): land the .a key commits (conductor.aws.a's table 391e1ab) - via c.maestro",
-  "Dinis: the decision desk (keys, pin, R-010, F1-F5) - https://claude.ai/artifact/BNydCaLuhVC8y5UsaLVAAr",
-  "Dinis: start a fresh a.maestro from board/team/maestro.a/next-session-prompt.md (this one is past 700k context)",
-  "Dinis: restart a.vaults.aws in a fresh session (A6)? Long context; hand-over docs/vaults/HANDOVER.md; key to the Factory first, old session archived. Recommend yes, after A3.",
-  "Dinis: in a.iam.aws's session, allow attaching SovereignWebsite__IaC read-only so it can make its Factory key commit (A7); its bundle is ready on work/iam.aws.a."
- ],
- "latest_debrief": "board/team/maestro.a/debriefs/2026-11-23-handover.md",
- "last_read_from_b": "2026-11-25T05:30Z",
- "last_read_from_c": "2026-11-24T19:08Z",
- "last_read_from_d": "2026-11-24T20:52Z",
- "last_read_vault": "2026-11-24T12:27Z",
- "exceptions": [
-  {
-   "time": "2026-11-23T03:25Z",
-   "what": "messaged router.a to make and publish its own key without waiting on Dinis",
-   "rule": "R4 (Dinis's word before acting) relaxed for two-way doors",
-   "why": "Dinis ~03:00 UTC, board/team/maestro.c/decisions/2026-11-23-no-agent-blocked.md: no agent blocked"
-  },
-  {
-   "time": "2026-11-23T08:25Z",
-   "what": "slowed maestro.a's own wake from hourly to every 2 h at :23",
-   "rule": "Dinis approved an hourly wake (01:27 UTC)",
-   "why": "context past 500k and conductor.aws.a now coordinates the AWS team; reversible; CLAUDE.md No agent blocked"
-  },
-  "2026-11-23T15:56Z | 11 AWS agents restarted in fresh sessions at Dinis's word; old sessions stopped and kept, not archived (reversible) | none bent | context past 500k",
-  "2026-11-23T16:35Z | swarm.aws.a's wake moved from hourly to every 2 h (trig_01JF74Gbuh2sBGvdhBPASQ1u), back-off after three quiet wakes, at a.conductor.aws's forwarded request (_common.md) | reversible, own area; not a start, pause or archive | saves spend while it waits on its Factory key",
-  "2026-11-23T17:31Z | a.ios (VoiceDebrief) started with a 2 h wake, at Dinis's word ('which you can push from here') | none bent | R6 owner mode",
-  "2026-11-23T17:54Z | s3.aws.a's wake moved from hourly to every 2 h (trig_01VWcksU5tgpAwMdQF1W3NLT), back-off after a quiet wake, at the old a.conductor.aws's forwarded request | reversible, own area | waits on Factory keys and aws.c (R-010, 44 px targets)",
-  "2026-11-23T18:09Z | the 11 replaced .aws.a sessions retitled 'REPLACED ... use session_<fresh>' so agents stop messaging them (old billing pushed 2 old-key commits at 18:06) | reversible; archiving left to Dinis | at conductor.aws.a's report",
-  "2026-11-23T23:39Z | a.sites started with a 2 h wake at Dinis's word ('can you create one?') | none bent | site requests on account A",
-  "2026-11-23T23:53Z | a.factory and a.accountant started with 2 h wakes at Dinis's word | none bent | requested by Dinis",
-  "2026-11-24T00:08Z | 7 blocked wakes backed off to every 2 h at a.accountant's flag | reversible, own area | spend",
-  "2026-11-24T00:40Z | maestro_mail.py drain stores a vault-key message at ~/.sg-send/vault-keys/<id>.json (0600) and never prints it; seal_to_maestro.py kept in the scratchpad and sent to two agents; one dummy self-test message | reversible, own tool | the vault-keys-to-maestro rule"
- ],
- "lessons": [
-  "2026-11-23T19:38Z: a restart needs the fresh key live on the Factory before re-signing, and the replaced session archived; otherwise the Factory may land the old key (R-028) and the old session can still sign.",
-  "2026-11-23T21:56Z: search every branch, not only dev (missed Ben Fung's Factory request on work/factory.c-ben-fung). Requests made in another account's session are invisible until committed; log at receipt.",
-  "2026-11-23T23:38Z: a repository request relayed to me (CRM site, 15:31) waited 6 h before I passed it to the Factory; every request I receive gets passed on within the wake, with a line in from-a.md and a timeline entry.",
-  "2026-11-24T01:00Z | A b.decisions record decides, but does not lift a session's permission check; agents rightly wait for Dinis in their own session. Route such items to Dinis as a per-session list, not as done.",
-  "2026-11-24T01:00Z | Check an agent's state before telling it its commits (I told ontology of '20/22 commits' it never had, from my own stale notes)."
- ]
+  "agent": "maestro.a@PrompTugal.dinis",
+  "name": "a.maestro (account-a)",
+  "focus": "Conducts account A's sessions and scheduled tasks; a twin of maestro.b, maestro.c and maestro.d (board/team/maestros/README.md); never a conductor's work",
+  "role": "Conductor of the conductors, account A",
+  "session": "https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
+  "key": "maestro.a-account-a (board/keys.json; encryption sha256:7b84926cc96c79ee; signing sha256:a213b3697477e7c0; ssh ed25519 for git signatures)",
+  "updated": "2026-11-25T12:45Z",
+  "state": "Account A partly running (CRM, mail, factory, sites, design, studio, devops, router active). Today page live in Site__Agent__Maestro (account-a/today/). Account A at about 81% of its weekly limit (status allowed_warning, resets Sun 29 Nov 20:00 UTC). Fresh a.maestro still due (restart.md).",
+  "done": [
+    "Direct vault mail: tools/maestro_mail.py; inboxes for maestro.a and maestro.c in board/inboxes/; loopback verified; first message to maestro.c",
+    "Joined the maestros' shared vault (maestros-channel) with the key maestro.d sealed to me; from-a.md written there; wake reads it",
+    "Direct mail confirmed both ways: maestro.c's two mails (02:33Z, 02:56Z) drained, signed and verified",
+    "At Dinis's word (03:31 UTC): started the 16 AWS stage 2 roles on account A from conductor.aws.c's hand-overs, with wakes (account-a-aws-team.json)",
+    "C agents' work confirmed landed on dev (03:43, aws.c); A agents told to rebase; maestro.c told 15 C sessions can be archived",
+    "Wave 2 (conductor, pm, security, architect, s3, sherpa .aws.a) started on account A with wakes (07:25 UTC)",
+    "Dinis: account C's AWS sessions are kept (not archived); iam.aws.c writes its note; relayed to maestro.c",
+    "00:44-00:53Z: drained 17 inbox messages; checked records batch-1/batch-2/decision-requests at the source; relayed A2 (ontology, viz), A8 (dev.1), A12 (mail.dev, mail.conductor), A9 (security.aws); sent the vault-key sealing steps to a.conductor.aws and a.crm.dev; -2 commits 9dbcf66 and edaa382 relayed to conductor.d and c.factory; the twins memo, decision-request procedure, devops fast lane and navigation passed on; account A vault list (no key material) to b.maestro",
+    "12:2x today page committed (9609de4) and card 2 marked decided (7e8cf8f)",
+    "12:35 fixed the one link failing the maestro site's quality check since 22:19 UTC 24 Nov (f4b3ef9), so deploys resume",
+    "relayed: m1 studio job 1 via router.a; article brief to a.journalist.aws (draft on work/journalist.aws.a, ecbfe90); certificate priority ask to a.devops",
+    "drained 4 sealed messages from maestro.b (certificates, the sync question, account B's today page, the decisions record)"
+  ],
+  "next": [
+    "Answer Dinis's sync question by link (sub-agent drafting account-a/notes/2026-11-25-agent-sites-sync.md)",
+    "Pass a.devops's certificate answer to maestro.b",
+    "Bring m1's video and the article links to Dinis",
+    "Add the decisions record (decisions.agents.sovereignweb.site/blocks/) to the today page"
+  ],
+  "asks": [
+    "Dinis: nudge m1 in its Mistral chat to pick up studio job 1",
+    "Dinis: say which work moves to account B (43%) or D (30%) to relieve account A (81%)",
+    "Dinis: share the doorbell artifact with account B, if B joins the wake test",
+    "Dinis: the CRM's first import (lawful basis, removal route, retention), in crm.dev.a's session"
+  ],
+  "latest_debrief": "board/team/maestro.a/debriefs/2026-11-23-handover.md",
+  "last_read_from_b": "2026-11-25T12:20Z",
+  "last_read_from_c": "2026-11-24T19:08Z",
+  "last_read_from_d": "2026-11-24T20:52Z",
+  "last_read_vault": "2026-11-25T12:40Z",
+  "exceptions": [
+    {
+      "time": "2026-11-23T03:25Z",
+      "what": "messaged router.a to make and publish its own key without waiting on Dinis",
+      "rule": "R4 (Dinis's word before acting) relaxed for two-way doors",
+      "why": "Dinis ~03:00 UTC, board/team/maestro.c/decisions/2026-11-23-no-agent-blocked.md: no agent blocked"
+    },
+    {
+      "time": "2026-11-23T08:25Z",
+      "what": "slowed maestro.a's own wake from hourly to every 2 h at :23",
+      "rule": "Dinis approved an hourly wake (01:27 UTC)",
+      "why": "context past 500k and conductor.aws.a now coordinates the AWS team; reversible; CLAUDE.md No agent blocked"
+    },
+    "2026-11-23T15:56Z | 11 AWS agents restarted in fresh sessions at Dinis's word; old sessions stopped and kept, not archived (reversible) | none bent | context past 500k",
+    "2026-11-23T16:35Z | swarm.aws.a's wake moved from hourly to every 2 h (trig_01JF74Gbuh2sBGvdhBPASQ1u), back-off after three quiet wakes, at a.conductor.aws's forwarded request (_common.md) | reversible, own area; not a start, pause or archive | saves spend while it waits on its Factory key",
+    "2026-11-23T17:31Z | a.ios (VoiceDebrief) started with a 2 h wake, at Dinis's word ('which you can push from here') | none bent | R6 owner mode",
+    "2026-11-23T17:54Z | s3.aws.a's wake moved from hourly to every 2 h (trig_01VWcksU5tgpAwMdQF1W3NLT), back-off after a quiet wake, at the old a.conductor.aws's forwarded request | reversible, own area | waits on Factory keys and aws.c (R-010, 44 px targets)",
+    "2026-11-23T18:09Z | the 11 replaced .aws.a sessions retitled 'REPLACED ... use session_<fresh>' so agents stop messaging them (old billing pushed 2 old-key commits at 18:06) | reversible; archiving left to Dinis | at conductor.aws.a's report",
+    "2026-11-23T23:39Z | a.sites started with a 2 h wake at Dinis's word ('can you create one?') | none bent | site requests on account A",
+    "2026-11-23T23:53Z | a.factory and a.accountant started with 2 h wakes at Dinis's word | none bent | requested by Dinis",
+    "2026-11-24T00:08Z | 7 blocked wakes backed off to every 2 h at a.accountant's flag | reversible, own area | spend",
+    "2026-11-24T00:40Z | maestro_mail.py drain stores a vault-key message at ~/.sg-send/vault-keys/<id>.json (0600) and never prints it; seal_to_maestro.py kept in the scratchpad and sent to two agents; one dummy self-test message | reversible, own tool | the vault-keys-to-maestro rule",
+    "2026-11-25T12:35Z | edited one link in account F's start-a-maestro page (written by b.maestro, 88ec781) | every agent keeps its own area | f.maestro is not running and the broken link failed the shared site's deploy for everyone"
+  ],
+  "lessons": [
+    "2026-11-23T19:38Z: a restart needs the fresh key live on the Factory before re-signing, and the replaced session archived; otherwise the Factory may land the old key (R-028) and the old session can still sign.",
+    "2026-11-23T21:56Z: search every branch, not only dev (missed Ben Fung's Factory request on work/factory.c-ben-fung). Requests made in another account's session are invisible until committed; log at receipt.",
+    "2026-11-23T23:38Z: a repository request relayed to me (CRM site, 15:31) waited 6 h before I passed it to the Factory; every request I receive gets passed on within the wake, with a line in from-a.md and a timeline entry.",
+    "2026-11-24T01:00Z | A b.decisions record decides, but does not lift a session's permission check; agents rightly wait for Dinis in their own session. Route such items to Dinis as a per-session list, not as done.",
+    "2026-11-24T01:00Z | Check an agent's state before telling it its commits (I told ontology of '20/22 commits' it never had, from my own stale notes)."
+  ]
 }
