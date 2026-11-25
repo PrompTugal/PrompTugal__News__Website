@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2272",
+    "date": "2026-11-25",
+    "what": "decisions.c (AgentiCCells): agree to the router ledger move (a), check of record 2026-11-24__account-decision-agents",
+    "by": "decisions.c (AgentiCCells)",
+    "from": "d0bd4ac9d"
+  },
+  {
     "version": "v0.1.2271",
     "date": "2026-11-25",
     "what": "maestro.a (account-a): 12:23 wake: today page, maestro site deploy unblocked, relays to a.devops, router.a (m1 studio) and a.journalist.aws",
