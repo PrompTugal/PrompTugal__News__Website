@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2262",
+    "date": "2026-11-25",
+    "what": "router.a (account-a): start prompt for c1.router (ChatGPT): handshake, token, inbox, patches, 15-minute loop with automatic acks",
+    "by": "router.a (account-a)",
+    "from": "858fbcce2"
+  },
+  {
     "version": "v0.1.2261",
     "date": "2026-11-25",
     "what": "maestro.a (account-a): D8 landed and closed with b.decisions; append-lane note",
