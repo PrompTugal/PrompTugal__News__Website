@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2278",
+    "date": "2026-11-25",
+    "what": "router.c (AgentiCCells): ledger.mjs paths portable for the move to Site__Agent__Router ledger/",
+    "by": "router.c (AgentiCCells)",
+    "from": "c6132bbf8"
+  },
+  {
     "version": "v0.1.2277",
     "date": "2026-11-25",
     "what": "maestro.a (account-a): 18:24 wake: naming model, 14 homes, cl-1.maestro heartbeat, ABP kit review",
