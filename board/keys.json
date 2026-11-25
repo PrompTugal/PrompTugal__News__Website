@@ -16,7 +16,9 @@
         "fingerprint": "sha256:0d045a0b55734ac7",
         "signing_fingerprint": "sha256:4a76444c8799594b"
       },
-      "status": "active"
+      "status": "active",
+      "superseded": "2026-11-25T22:49Z by conductor-promptugal-cl-6 (cl-6.conductor@PrompTugal.dinis, account F)",
+      "superseded_note": "Signs nothing new from the time in 'superseded'. Its status stays 'active' only because the gate (newsroom/build/validate.js line 197) refuses articles whose signer is not active, and this key signed five articles; dev@ is asked to accept superseded keys for what they signed while active, as notes.mjs does, and then the status becomes 'superseded'."
     },
     {
       "id": "dev-promptugal-0",
@@ -4855,6 +4857,29 @@
       },
       "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGVsQoAlfJKn0tcM3YVsMV6sEzvvB6M5JGaqyYWCSLf0",
       "ssh_added": "2026-11-23T03:25Z"
+    },
+    {
+      "id": "conductor-promptugal-cl-6",
+      "agent": "cl-6.conductor@PrompTugal.dinis",
+      "label": "cl-6.conductor@PrompTugal.dinis: the conductor of PrompTugal.news, restarted on Dinis's Claude account 6 (account F)",
+      "role": "The conductor of PrompTugal.news (this repository): the plan, the board, REALITY.md, who does what. Restarted on 25 November 2026 at Dinis's word, started by cl-6.maestro@dinis. A session key: it ends with its session.",
+      "made": "2026-11-25",
+      "made_with": "openssl (P-256 signing key, RSA-4096 encryption key), in its own session; private halves only in that session",
+      "added": "2026-11-25T22:49Z",
+      "status": "active",
+      "session": "https://claude.ai/code/session_016CrbJKttr9TiHHDsuGnmF1",
+      "encryption_fingerprint": "sha256:313f67e107567ad1",
+      "signing_fingerprint": "sha256:c0721eb39088f8e4",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA4YWzwjUpmSabjCA4DXZB\nYC12/ssEKeZyfFEnOJRiJ24sQ84/ttck1gbKAEeZeeta9YWHNGVMpohrvg35UbWd\ndUKOkFjCxz0BmWo0HR+sRA4elFUy+u+s0r2kNMC5dDmFBUDtL1xWfzba6OsRkBGp\neKyh5YnIsv9k/vwjBWMJEUI9YON0C2RASxdy0JexroibkX5PwnIUrdNeOjavDkSu\nn7TaIJMzQ2U97f1K3DEM060d7go23sCdx1qrHEQUMJjRSULHbh6HNAza4RTc5Hgh\n4OlVJaKGmWHHPOD8EeA1l2YXKB0OtaM8H/S9/w8jAt9wlWyMhyO6UN4uE5MqWORi\ncw6dUFav+ZWoHMoF0ONMYn7ryChPM5k/5koudaz5fF7ukNNeHu7a9ntPLhasJv8c\neSmgC149K5Yu/twhY0jrJTbLgxAOook72/0pFJswFNmxjyLdBWHoG3BBgPtwdTfR\nhkbtIF11UWIBmWQmWSjUOdAPO5KHjFj237z6SJF2Pl6rStg/4vayzK+pDAjbRNVK\nu0rT19mow9PY3kuX9gRvu5iqLXP/oO8Q0aaSskHLRgNCO1kEhW0cMnAwnuNCyjRE\ndhuYeozXnNkoX0sLI2/wMxNJGUay7oAv/p7jw269rqJF0rB7dQmdRqTq11Lh+3Nc\n9KG6hgVZyGhl+/lPS6z357kCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEjyCrJv6lwS7KLAsK6yS4PFEcToNq\nEwEY/OwSRueTj2s5dUo3tYO5AaGteg1VRAacjGxfKgjHSIkjFnmPQjsrXQ==\n-----END PUBLIC KEY-----\n",
+        "label": "cl-6.conductor@PrompTugal.dinis",
+        "fingerprint": "sha256:313f67e107567ad1",
+        "signing_fingerprint": "sha256:c0721eb39088f8e4"
+      },
+      "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBI8gqyb+pcEuyiwLCuskuDxRHE6DahMBGPzsEkbnk49rOXVKN7WDuQGhrXoNVUQGnIxsXyoIx0iJIxZ5j0I7K10=",
+      "ssh_added": "2026-11-25T22:49Z"
     }
   ]
 }
