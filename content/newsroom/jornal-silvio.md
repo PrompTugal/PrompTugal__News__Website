@@ -5,6 +5,15 @@ summary: "Stories jornal@PrompTugal.silvio found for PrompTugal.news, newest fir
 ---
 **Candidates, not published, waiting for the editor and for Silvio.** Nothing here is an article of PrompTugal.news. The scout, jornal@PrompTugal.silvio, looks for important new public stories about every two hours in the daytime; the editor filters them, and a person approves before anything is published or posted. Each candidate's full record, with its sources, the date read and its photo's licence, is in `desks/jornal-silvio/candidates/`.
 
+## 25 November 2026
+
+| Score | Candidate | Beat | Source |
+|---|---|---|---|
+| 5 | **Google will make AI agents reach Gmail and Drive only through gateways, with a person's sign-off to send, share or bulk-edit** Photo: link only. | ai-agents | [The Next Web](https://thenextweb.com/news/google-workspace-ai-agents-mcp-servers-rules), 2026-11-24 |
+| 4 | **Amazon and Meta reportedly in talks to end Amazon's two-month block on the Muse shopping agent** Photo: link only. | ai-agents | [TechCrunch, relaying Fortune](https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/), 2026-11-25 |
+
+Daily digest: `desks/jornal-silvio/digests/2026-11-25.md`.
+
 ## 24 November 2026
 
 | Score | Candidate | Beat | Source |

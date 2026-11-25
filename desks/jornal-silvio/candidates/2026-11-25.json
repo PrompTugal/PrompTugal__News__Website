@@ -1,0 +1,96 @@
+{
+  "desk": "jornal-silvio",
+  "kept_by": "jornal@PrompTugal.silvio",
+  "date": "2026-11-25",
+  "status": "candidates, not published, waiting for the editor and for Silvio",
+  "candidates": [
+    {
+      "id": "js-2026-11-25-01",
+      "title": "Google will make AI agents reach Gmail and Drive only through gateways, with a person's sign-off to send, share or bulk-edit",
+      "summary": "Google announced on 24 November that from 1 February 2027 AI agents must reach Workspace through new gateways (Workspace MCP servers and a command-line tool) rather than its regular APIs, because those APIs assumed a valid login meant the user wanted the action. Every agent request will be checked against company permissions and data-loss rules; each agent needs its own sign-in with tight limits and quotas; agents may draft and summarise alone but need a person's approval to send email, change Drive sharing or make bulk edits. A new AI Tools Addendum bars training on or scraping Workspace data.",
+      "why_it_matters": "The clearest platform-level mandate yet: the agent gets its own identity, its own limits, and a human sign-off exactly where actions become hard to undo. Reach, mandate and gap written into an API.",
+      "beat": "ai-agents",
+      "sources": [
+        {
+          "url": "https://thenextweb.com/news/google-workspace-ai-agents-mcp-servers-rules",
+          "publisher": "The Next Web",
+          "published": "2026-11-24",
+          "read": "2026-11-25T18:09Z"
+        },
+        {
+          "url": "https://cloud.google.com/blog/products/identity-security/deploying-agents-safely-in-your-enterprise",
+          "publisher": "Google Cloud blog",
+          "published": "2026-11-24",
+          "read": "not yet opened: primary source"
+        }
+      ],
+      "quote": {
+        "text": "Google says its APIs were built for apps that work at human speed, where a valid login meant the user wanted the action.",
+        "by": "The Next Web, paraphrasing Google",
+        "source": "https://thenextweb.com/news/google-workspace-ai-agents-mcp-servers-rules"
+      },
+      "claims_to_check": [
+        "Google's own blog post for the dates and the sign-off list"
+      ],
+      "importance": {
+        "score": 5,
+        "reason": "A major platform encoding human approval and agent identity, one day old; the agentic edition's thesis in product form."
+      },
+      "photo": {
+        "url": "https://thenextweb.com/news/google-workspace-ai-agents-mcp-servers-rules",
+        "description": "lead image",
+        "credit": "Mitchell Luo on Unsplash",
+        "licence": "Unsplash photo, licence not read on its own page",
+        "reuse": "link only"
+      }
+    },
+    {
+      "id": "js-2026-11-25-02",
+      "title": "Amazon and Meta reportedly in talks to end Amazon's two-month block on the Muse shopping agent",
+      "summary": "Fortune reported, citing people familiar with the talks, that Amazon and Meta are discussing a deal to let Meta's Muse agent connect directly to Amazon's store, ending a block in place since September; how search results are presented and how advertising is handled are still open, and both CEOs would need to approve. The same week Walmart let shoppers buy its Black Friday deals through Muse with spending limits, approval before purchase and order review.",
+      "why_it_matters": "The gate starts to become a negotiation: terms for agents (ranking, ads, spending limits, approval) are being set by deals between platforms, not by the user or the law.",
+      "beat": "ai-agents",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+          "publisher": "TechCrunch, relaying Fortune",
+          "published": "2026-11-25",
+          "read": "2026-11-25T18:09Z"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+          "publisher": "TechCrunch",
+          "published": "2026-11-24",
+          "read": "search summary only"
+        }
+      ],
+      "claims_to_check": [
+        "Fortune's report; no comment from Amazon or Meta yet"
+      ],
+      "importance": {
+        "score": 4,
+        "reason": "Same-day turn in the week's 'who lets agents in' story; reported, not confirmed."
+      },
+      "photo": {
+        "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+        "description": "lead image",
+        "credit": "Meta",
+        "licence": "none stated on the page",
+        "reuse": "link only"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "what": "DeepMind's Gemini agents find cheaper quantum algorithms, proved in Lean (TNW); Epochal (TNW); Cegid's ERP agents (ECO, promotional)",
+      "why": "below the bar or promotional"
+    }
+  ],
+  "wakes": [
+    {
+      "at": "2026-11-25T18:09Z",
+      "added": 2,
+      "note": "daily wake (18:07 Lisbon)"
+    }
+  ]
+}
