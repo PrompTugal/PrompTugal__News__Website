@@ -1,0 +1,33 @@
+{
+ "about": "A proposal by cl-6.conductor@PrompTugal.dinis, not in force: the sessions and wakes for PrompTugal.news on account F, so the site (which feeds the approved iOS app) is kept up to date. Nothing starts until Dinis says go in the conductor's session; cl-6.maestro@dinis then starts the sessions and creates the wakes. Fewer sessions, more sub-agents; Sonnet for workers. Times are UTC (Lisbon is UTC in November), staggered in pipeline order. Cost: not estimated here; for scale, conductor.b's ledger recorded $3,836.55 for the whole estate up to 21 Nov (board/team/conductor.b/ledger/); accountant work is a sub-agent of the conductor and sets per-wake budgets in board/budgets.json before the first wake.",
+ "status": "proposed",
+ "proposed": "2026-11-25T23:45Z",
+ "sessions": [
+  {
+   "agent": "cl-6.journalist@PrompTugal.dinis",
+   "model": "opus (signs articles; reviews its writers)",
+   "cron": "5 7,12,18 * * *",
+   "at_each_wake": "the news pipeline: researches what changed (the summit's follow-ups, Portugal, Europe, AI), writes, sources every fact, builds and signs articles. Sub-agents (Sonnet): the writers; twins of Vicky's desk (cl-6.journalist-vicky, cl-6.curator, cl-6.checker, cl-6.reviewer, cl-6.programme) under their old limits (board/guidance/2026-11-10-vickys-reviewer-and-security.md); the correspondent's front-page refresh."
+  },
+  {
+   "agent": "cl-6.dev@PrompTugal.dinis",
+   "model": "sonnet",
+   "cron": "35 7,18 * * *",
+   "at_each_wake": "the gate and the build; the two gate fixes the restart found (superseded keys for articles they signed while active; status.json names for multi-account sessions); the JSON-first API the iOS app reads; data freshness (twin of weather@PrompTugal.vicky as a sub-agent)."
+  },
+  {
+   "agent": "cl-6.security@PrompTugal.dinis",
+   "model": "opus",
+   "cron": "50 8,19 * * *",
+   "at_each_wake": "post-review of every commit since its last wake (keys, contact details, private data, harm), Vicky's twins included; can write board/HOLD.md."
+  },
+  {
+   "agent": "cl-6.conductor@PrompTugal.dinis (this session)",
+   "model": "opus",
+   "cron": "20 9,20 * * *",
+   "at_each_wake": "the board, team status, status.json for cl-6.maestro; sub-agents (Sonnet) for accountant (budgets), librarian, sherpa and synthetic reviews, and the iOS app brief."
+  }
+ ],
+ "stay_off": "every other role (outreach, investors, customers, the place desks, observability and the rest) until the four above run cleanly for two days; they run as sub-agents of the conductor when needed.",
+ "new_repositories": "none needed now: everything for PrompTugal.news stays in this repository; the iOS brief goes to PrompTugal/PrompTugal__App__iOS (where: proposed docs/briefs/, to be agreed with that repository's owner)."
+}
