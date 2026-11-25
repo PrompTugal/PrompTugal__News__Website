@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2279",
+    "date": "2026-11-25",
+    "what": "cl-6.conductor@PrompTugal.dinis: my key (conductor-promptugal-cl-6); the old conductor's entry superseded",
+    "by": "cl-6.conductor@PrompTugal.dinis",
+    "from": "231eefe2c"
+  },
+  {
     "version": "v0.1.2278",
     "date": "2026-11-25",
     "what": "router.c (AgentiCCells): ledger.mjs paths portable for the move to Site__Agent__Router ledger/",
