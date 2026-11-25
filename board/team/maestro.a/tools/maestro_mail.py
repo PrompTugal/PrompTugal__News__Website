@@ -45,8 +45,20 @@ def crypto():
 def my_pair(repo, me):
     c, store = crypto(); b = entry(repo, me)['bundle']
     return c, b, store.load_key_pair(b['fingerprint'], passphrase())
+def extra_signers(repo):
+    # Keys published outside board/keys.json (an agent's own repository), listed by URL in extra-signers.json beside
+    # this tool. Public keys only; an unreachable URL is skipped, so a signature it would have verified stays unverified.
+    try: urls = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'extra-signers.json'))).get('urls', [])
+    except Exception: urls = []
+    out = []
+    for u in urls:
+        try:
+            import urllib.request; k = json.load(urllib.request.urlopen(u, timeout=20))
+            if (k.get('bundle') or {}).get('signing_fingerprint'): out.append(k)
+        except Exception: pass
+    return out
 def keyring(repo):
-    ks = keys(repo)
+    ks = keys(repo) + extra_signers(repo)
     class KR:
         def lookup_by_signing_fingerprint(self, fp):
             for k in ks:

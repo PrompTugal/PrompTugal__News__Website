@@ -5,39 +5,38 @@
   "role": "Conductor of the conductors, account A",
   "session": "https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
   "key": "maestro.a-account-a (board/keys.json; encryption sha256:7b84926cc96c79ee; signing sha256:a213b3697477e7c0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-25T12:45Z",
+  "updated": "2026-11-25T14:55Z",
   "state": "Account A partly running (CRM, mail, factory, sites, design, studio, devops, router active). Today page live in Site__Agent__Maestro (account-a/today/). Account A at about 81% of its weekly limit (status allowed_warning, resets Sun 29 Nov 20:00 UTC). Fresh a.maestro still due (restart.md).",
   "done": [
-    "Direct vault mail: tools/maestro_mail.py; inboxes for maestro.a and maestro.c in board/inboxes/; loopback verified; first message to maestro.c",
-    "Joined the maestros' shared vault (maestros-channel) with the key maestro.d sealed to me; from-a.md written there; wake reads it",
-    "Direct mail confirmed both ways: maestro.c's two mails (02:33Z, 02:56Z) drained, signed and verified",
-    "At Dinis's word (03:31 UTC): started the 16 AWS stage 2 roles on account A from conductor.aws.c's hand-overs, with wakes (account-a-aws-team.json)",
-    "C agents' work confirmed landed on dev (03:43, aws.c); A agents told to rebase; maestro.c told 15 C sessions can be archived",
-    "Wave 2 (conductor, pm, security, architect, s3, sherpa .aws.a) started on account A with wakes (07:25 UTC)",
     "Dinis: account C's AWS sessions are kept (not archived); iam.aws.c writes its note; relayed to maestro.c",
     "00:44-00:53Z: drained 17 inbox messages; checked records batch-1/batch-2/decision-requests at the source; relayed A2 (ontology, viz), A8 (dev.1), A12 (mail.dev, mail.conductor), A9 (security.aws); sent the vault-key sealing steps to a.conductor.aws and a.crm.dev; -2 commits 9dbcf66 and edaa382 relayed to conductor.d and c.factory; the twins memo, decision-request procedure, devops fast lane and navigation passed on; account A vault list (no key material) to b.maestro",
     "12:2x today page committed (9609de4) and card 2 marked decided (7e8cf8f)",
     "12:35 fixed the one link failing the maestro site's quality check since 22:19 UTC 24 Nov (f4b3ef9), so deploys resume",
     "relayed: m1 studio job 1 via router.a; article brief to a.journalist.aws (draft on work/journalist.aws.a, ecbfe90); certificate priority ask to a.devops",
-    "drained 4 sealed messages from maestro.b (certificates, the sync question, account B's today page, the decisions record)"
+    "drained 4 sealed messages from maestro.b (certificates, the sync question, account B's today page, the decisions record)",
+    "13:2x plan-only PR opened by a.factory at Dinis's word: SovereignWebsite__IaC PR 3",
+    "14:2x vault keys for Our work (yiy6okw9) and Team contacts (kg37tfil) received from crm.dev.a after Dinis's yes; stored 0600",
+    "14:4x seal_to_maestro.py now signs with the sender's key (Site__Agent__Maestro 8033414); drain checks extra published keys (extra-signers.json)"
   ],
   "next": [
-    "Answer Dinis's sync question by link (sub-agent drafting account-a/notes/2026-11-25-agent-sites-sync.md)",
-    "Pass a.devops's certificate answer to maestro.b",
-    "Bring m1's video and the article links to Dinis",
-    "Add the decisions record (decisions.agents.sovereignweb.site/blocks/) to the today page"
+    "Add crm.dev.a's key URL to extra-signers.json when it sends it",
+    "Sign Site__Agent__Maestro commits with a P-256 key the signers check accepts",
+    "Bring m1's video, the decisions answer box (b.decisions) and the certificate PR links to Dinis",
+    "Deliver the two CRM hand-overs to maestro.e once it has a key and inbox"
   ],
   "asks": [
-    "Dinis: nudge m1 in its Mistral chat to pick up studio job 1",
-    "Dinis: say which work moves to account B (43%) or D (30%) to relieve account A (81%)",
-    "Dinis: share the doorbell artifact with account B, if B joins the wake test",
-    "Dinis: the CRM's first import (lawful basis, removal route, retention), in crm.dev.a's session"
+    "Dinis: merge SovereignWebsite__IaC PR 3 (plan-only), then say 'push a work branch for the certificate PR' in b.factory's session",
+    "Dinis: one Org apply for Site__Artist__Lee-Elle-Horowitz (nudge_missing_certificates on)",
+    "Dinis: in b.decisions's session, whether a page answer signed by your browser key counts as your word",
+    "Dinis: which Ben Fung keeper to keep (ben-fung.a or a.ben-fung), and sites.c's handover (a) or (b)",
+    "Dinis: nudge m1 on Mistral for studio job 1",
+    "Dinis: which account A work moves to C (full week from 13:00) or B"
   ],
   "latest_debrief": "board/team/maestro.a/debriefs/2026-11-23-handover.md",
-  "last_read_from_b": "2026-11-25T12:20Z",
-  "last_read_from_c": "2026-11-24T19:08Z",
+  "last_read_from_b": "2026-11-25T14:21Z",
+  "last_read_from_c": "2026-11-25T13:16Z",
   "last_read_from_d": "2026-11-24T20:52Z",
-  "last_read_vault": "2026-11-25T12:40Z",
+  "last_read_vault": "2026-11-25T14:30Z",
   "exceptions": [
     {
       "time": "2026-11-23T03:25Z",

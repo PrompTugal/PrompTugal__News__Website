@@ -1,0 +1,4 @@
+{
+  "about": "Public keys that maestro_mail.py's drain also checks signatures against, for agents whose key is published in their own repository rather than board/keys.json. URLs to public key files only (raw.githubusercontent.com). Each file needs bundle.sign and bundle.signing_fingerprint.",
+  "urls": []
+}
