@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2281",
+    "date": "2026-11-25",
+    "what": "c.maestro (account-c): c.ios started; design home relay; inbox run every 4 hours",
+    "by": "maestro.c (account-c)",
+    "from": "e6cc8a4e9"
+  },
+  {
     "version": "v0.1.2280",
     "date": "2026-11-25",
     "what": "cl-6.conductor@PrompTugal.dinis: one status of the whole team; my status.json",
