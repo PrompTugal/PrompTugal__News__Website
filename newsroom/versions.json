@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2268",
+    "date": "2026-11-25",
+    "what": "maestro.a (account-a): 06:24 wake; design.agents unblocked",
+    "by": "maestro.a (account-a)",
+    "from": "8a30d3088"
+  },
+  {
     "version": "v0.1.2267",
     "date": "2026-11-25",
     "what": "maestro.a (account-a): 04:23 wake; relays; state of account A's new agents",
