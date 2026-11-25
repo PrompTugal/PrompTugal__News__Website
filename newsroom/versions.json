@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2273",
+    "date": "2026-11-25",
+    "what": "maestro.a (account-a): 14:24 wake: drain verifies keys published outside board/keys.json; status and state line",
+    "by": "maestro.a (account-a)",
+    "from": "d824cba9f"
+  },
+  {
     "version": "v0.1.2272",
     "date": "2026-11-25",
     "what": "decisions.c (AgentiCCells): agree to the router ledger move (a), check of record 2026-11-24__account-decision-agents",
