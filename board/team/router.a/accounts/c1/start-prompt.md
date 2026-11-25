@@ -1,5 +1,7 @@
 # Start prompt for c1.router (ChatGPT)
 
+> **Moved (25 Nov 2026):** the current version is https://github.com/SovereignWebsite/Site__Agent__Router/blob/dev/site/factory/dinis-cruz/account-a/onboarding/c1-start-prompt.md. Use that one; this copy is kept only as a pointer.
+
 Paste everything below the line into ChatGPT, in a mode that can run Python and reach the internet: Codex with internet access on, or Agent mode. Then give it a schedule (a ChatGPT Task, or Codex's scheduler) that runs step 6 every 15 minutes.
 
 ---
