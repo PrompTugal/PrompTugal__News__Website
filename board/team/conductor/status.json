@@ -1,52 +1,30 @@
 {
-  "agent": "conductor@PrompTugal.dinis",
-  "focus": "the plan, the board, passes, briefs, who does what",
-  "state": "paused for the account move (16 Nov 2026, 15:35 UTC, at Dinis's word)",
-  "updated": "2026-11-16T15:35Z",
-  "done": [
-    "brief 1 for the 12:00 stand-up (board/editor-briefs/2026-11-06T0500Z.pdf)",
-    "inboxes for every agent; lanes with the team site's conductor",
-    "13 passes on the board; the Brazil story project",
-    "lanes and inboxes for abp@ and the new designer session; the old designer inbox marked superseded",
-    "nine Sonnet workers started at Dinis's word once abp@ moved to observe mode (v1.1.0): dev.search, dev.pages, dev.graphs, dev.portugal, dev.data, dev.verify, designer.experiments, researcher, backup; their tasks in board/schedule.json",
-    "Dinis decided (06:25): pounds; The Cyber Boardroom as the legal company; outreach sent by each person from <name>.agent@; the conductor holds every vault key; backups as zips, to Drive later"
-  ],
-  "next": [
-    "the stand-up briefs at about 10:52 and 16:52 UTC",
-    "the 05:52 three-hourly report"
-  ],
-  "asks": [
-    "Dinis: you said everything runs in account A (16 Nov 01:20). The PrompTugal tasks on account B are out of my reach: please disable them there (listed with dinis_2026_11_16 in board/schedule.json), or tell me they are already off.",
-    "Dinis: restart, lean: which of our tasks come back (my wake, security@, accountant@, a short dev@ session for the websummit.com links and the CSS line); all have been disabled since 12 Nov 15:13 (board/briefs/2026-11-15-the-week-and-the-restart.md)",
-    "Dinis: journalist@PrompTugal.dinis silent since 10 Nov 04:09 UTC: three of its signed articles still link pages that came off (mobile-brain, just-travel, the-next-digital-frontier; a gate warning, not a failure); restart it, or leave them",
-    "Dinis: Luma, Meetup and Eventbrite for Lisbon Fringe and the desks: read by hand, or not at all",
-    "Dinis: the shared OpenRouter key's credit is spent (402 since about 05:00 UTC, 11 Nov); social.watch@ is blocked, and every AI image or model check through it stops until it is topped up",
-    "Dinis: the press pass (PB-07, due 9 Nov)",
-    "Dinis: the OpenRouter keys and limits (accountant@'s plan, 250 USD)",
-    "Dinis: sherpa@'s inbox token on account B; the euro Stripe link",
-    "Dinis: still unconfirmed from the relays: main as a release target for this repo (CLAUDE.md forbids it today), the 10:55 names and outreach, and stopping or archiving idle sessions"
-  ],
-  "decisions_on_findings": [
-    {
-      "finding": "F06",
-      "decision": "accept: the About page to be rewritten by journalist@ with what a human reviews and the publisher (The Cyber Boardroom, UK); routed on its lane",
-      "at": "2026-11-06T08:00Z"
-    },
-    {
-      "finding": "F07",
-      "decision": "later: what RiskMandate is, who owns it and whether it sells to covered companies is Dinis's to state; put to him in asks",
-      "at": "2026-11-06T08:00Z"
-    },
-    {
-      "finding": "F19",
-      "decision": "later: the disclosure's wording is Dinis's call (the participant disclosure is the estate's standard); put to him in asks",
-      "at": "2026-11-06T08:00Z"
-    },
-    {
-      "finding": "F21",
-      "decision": "accept: who publishes and pays is now decided (The Cyber Boardroom, UK, prices in pounds, 6 Nov 06:25); journalist@ adds it to About with F06",
-      "at": "2026-11-06T08:00Z"
-    }
-  ],
-  "debrief": "board/team/conductor/debriefs/2026-11-16-account-move.md"
+ "agent": "conductor@PrompTugal.dinis",
+ "session_name": "cl-6.conductor@PrompTugal.dinis",
+ "session": "https://claude.ai/code/session_016CrbJKttr9TiHHDsuGnmF1",
+ "account": "account F (Dinis's Claude account 6), started by cl-6.maestro@dinis",
+ "key": "conductor-promptugal-cl-6 (signing sha256:c0721eb39088f8e4, encryption sha256:313f67e107567ad1)",
+ "focus": "the plan, the board, who does what; restarting the PrompTugal team",
+ "state": "onboarded; running roles as sub-agents only, no sessions or wakes started",
+ "updated": "2026-11-25T23:20Z",
+ "done": [
+  "key made with openssl, public half in board/keys.json, signed commit 231eefe2c pushed to dev",
+  "full history fetched; build and gate green locally (v0.1.2278, 2460 pages); promptugal.news up (200, v0.1.2278)",
+  "one status of the whole team: board/team/conductor/team-status-2026-11-25.md"
+ ],
+ "next": [
+  "a refactor proposal: what stays in this repository (the news site) and what moves out (other teams' boards), for Dinis",
+  "bring the multi-conductor, multi-account rules into this repository's CLAUDE.md and board, as Dinis asked on 25 Nov",
+  "run the core roles as sub-agents (journalist, dev, security) once Dinis picks the first work"
+ ],
+ "asks": [
+  "Dinis: cl-6.maestro's two notes (account-f notes/2026-11-25-promptugal-plan.md and decisions/2026-11-25-promptugal-restarts-on-f.md) return 404; publish them or tell me what they say",
+  "Dinis: the refactor (this repository holds other teams' boards): yes to the proposal in team-status section 3, or another cut"
+ ],
+ "exceptions": [
+  "2026-11-25T23:00Z: the old conductor-promptugal key kept status active (with a superseded time and note) instead of superseded, because the gate refuses its five signed articles otherwise; dev@ to fix the check",
+  "2026-11-25T22:52Z: installed openssh-client in the container for ssh-keygen (commit signing)",
+  "2026-11-25T23:25Z: status.json's agent field reads conductor@PrompTugal.dinis because the gate (newsroom/build/lib/datacheck.mjs line 184) accepts only <folder>@PrompTugal.dinis; my name is in session_name. Part of the multi-conductor rules to bring in."
+ ],
+ "previous": "board/team/conductor/debriefs/2026-11-16-account-move.md"
 }
