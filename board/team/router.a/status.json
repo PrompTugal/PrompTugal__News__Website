@@ -10,7 +10,7 @@
   "encryption": "sha256:6d2060f1f7b9d999",
   "signing": "sha256:ebb490a825e761a9"
  },
- "state": "pinned to b.decisions via pki.sgit.ai; the ledger is empty for account A; b.decisions writes to SovereignWebsite__IaC decisions/, so until a b.router carries its requests into the ledger (ask A2) nothing reaches account A",
+ "state": "FROZEN in this repository since 2026-11-25T01:40Z at Dinis word: router work moves to SovereignWebsite/Site__Agent__Router (router.agents.sovereignweb.site). Nothing new is written here except pointers. Wake disabled (Dinis stop order 24 Nov 02:00 UTC).",
  "pinned_issuer": {
   "issuer": "decisions.b (SovereignWebsite)",
   "issuer_signing": "sha256:eefbe996d9c67a7c",
@@ -51,14 +51,32 @@
    "what": "pinned the issuer from the pki.sgit.ai register rather than a fingerprint typed in session",
    "rule": "routers README v0 (the pin from Dinis hand); pki-agent.mjs warns not to pin a root read from the register",
    "why": "Dinis in this session: the register is the stronger source, only he can edit it; the anchor matches the one in board/guidance/2026-11-23-asks-go-to-b-decisions.md"
+  },
+  {
+   "time": "2026-11-25T01:40Z",
+   "what": "froze router work in PrompTugal__News__Website",
+   "rule": "none bent",
+   "why": "Dinis in this session: we should be moving away from the PrompTugal news website for this"
   }
  ],
- "updated": "2026-11-24T00:08Z",
+ "updated": "2026-11-25T01:40Z",
  "wake": {
   "trigger": "trig_01MozebE3LqFxGGrW5GNRTVq",
   "cron": "3 * * * *",
   "created": "2026-11-23T11:12Z",
   "by": "Dinis yes in this session, 2026-11-23T11:12Z"
  },
- "debrief": "board/team/router.a/debriefs/2026-11-23-handover.md"
+ "debrief": "board/team/router.a/debriefs/2026-11-23-handover.md",
+ "moved_to": {
+  "repository": "SovereignWebsite/Site__Agent__Router",
+  "site": "https://router.agents.sovereignweb.site/",
+  "area": "site/factory/dinis-cruz/account-a/",
+  "since": "2026-11-25T01:40Z"
+ },
+ "migration": [
+  "board/keys.json router.a-account-a -> Site__Agent__Router site/keys/router.a.json (first commit there); the entry here stays until no one reads it",
+  "board/inboxes/router.a-account-a.json and board/team/router.a/lane.md -> inbox/lanes.json and the site how-to; the old files keep a pointer",
+  "board/team/router.a/ (status, debriefs, decision request, accounts m1 and c1, c1 start prompt) -> site/factory/dinis-cruz/account-a/, account-m1/, account-c1/",
+  "board/routers/ (ledger, capacity, tools) -> ledger/ : shared with router.c and decisions.c, through a.maestro and b.decisions"
+ ]
 }
