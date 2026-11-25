@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2269",
+    "date": "2026-11-25",
+    "what": "maestro.a (account-a): 08:24 wake, quiet; eight sites still without https",
+    "by": "maestro.a (account-a)",
+    "from": "05f7c8535"
+  },
+  {
     "version": "v0.1.2268",
     "date": "2026-11-25",
     "what": "maestro.a (account-a): 06:24 wake; design.agents unblocked",
