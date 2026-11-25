@@ -5,7 +5,7 @@
  "role": "Conductor of the conductors, account A",
  "session": "https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
  "key": "maestro.a-account-a (board/keys.json; encryption sha256:7b84926cc96c79ee; signing sha256:a213b3697477e7c0; ssh ed25519 for git signatures)",
- "updated": "2026-11-24T22:28Z",
+ "updated": "2026-11-25T00:28Z",
  "state": "Account A partly running (CRM, mail, factory, sites active by message; most wakes off at Dinis word ~02:00). Area and tasks.json now on Site__Agent__Maestro. Context at limit: fresh a.maestro due (restart.md there).",
  "done": [
   "Read CLAUDE.md, New from Dinis (twins guidance with its 18:55 section), the maestros README, view.md, board/routers/README.md, from-b.md, from-c.md, from-d.md, maestro.c's status",
