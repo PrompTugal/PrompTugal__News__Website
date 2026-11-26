@@ -7,6 +7,14 @@
   "src": "AI and technology across the Algarve and its {count} towns: ",
   "ok": false
  },
+ "bd549f643e5a62ed": {
+  "t": "**Revisão.** \"When AI Teammates Meet Code Review\", de Costain Nachuma e Minhaz Zibran, analisa se os pull requests escritos por agentes são aceites. O resumo diz que o envolvimento do revisor tem a correlação mais forte com a aceitação de uma alteração. Alterações maiores e force pushes, que sobrescrevem as versões anteriores de um ramo partilhado, estiveram associados a uma menor probabilidade de aceitação. As alterações bem-sucedidas surgiram quando o agente respondeu aos comentários de revisão no sentido do que o revisor esperava.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**Review.** \"When AI Teammates Meet Code Review\" by Costain ",
+  "ok": false
+ },
  "bdc8cd12e99136dd": {
   "t": "Projeto escolar de Olhão recria lendas locais com IA num intercâmbio Erasmus+",
   "by": "translator@PrompTugal.dinis",

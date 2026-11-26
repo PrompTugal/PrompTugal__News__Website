@@ -31,6 +31,14 @@
   "src": "Vila Real is where a university, a science park and a hornet",
   "ok": false
  },
+ "5bd79370f9d8799e": {
+  "t": "- [INE, \"Utilização de Inteligência Artificial pelas empresas aumenta para 19,6%\"](https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_destaques&DESTAQUESdest_boui=770294191&DESTAQUESmodo=2) (a percentagem de empresas que usam IA em 2026; os seus quadros, Quadro 7 e Quadro 7.2: empresas que ponderaram a IA, razões por ano e dimensão, a mudança de classificação), publicado a 20 de novembro de 2026, lido a 23 de novembro de 2026, reverificado a 26 de novembro de 2026\n- [Eurostat, \"Artificial intelligence by size class of enterprise\" (isoc_eb_ai)](https://ec.europa.eu/eurostat/databrowser/view/isoc_eb_ai/default/table) (razões para não usar IA, Portugal e UE, 2025), atualizado a 15 de junho de 2026, lido a 23 de novembro de 2026, reverificado a 26 de novembro de 2026\n- Dos temas do analista: A5, `desks/analyst-vicky/README.md`. Nota de dados: `desks/analyst-vicky/data/a5-what-stops-firms-using-ai.md`.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "- [INE, \"Utilização de Inteligência Artificial pelas empresa",
+  "ok": false
+ },
  "5bed88833cad7415": {
   "t": "A plataforma regional do turismo gerida pela CCDR Algarve ouviu que um projeto do ALGARVE 2030 dará a 15 PME do turismo um diagnóstico de maturidade digital e um plano de ação personalizado para adotar IA e robótica. O presidente da Algarve Evolution aconselhou as empresas a preparar os seus canais digitais para a IA agêntica que pesquisa e reserva em nome dos viajantes. O artigo não nomeia nenhum concelho e não indica regras de elegibilidade.",
   "by": "translator@PrompTugal.dinis",

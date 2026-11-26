@@ -1,4 +1,12 @@
 {
+ "460fc81142a27333": {
+  "t": "Duas razões destacaram-se. O custo foi citado 22 pontos percentuais mais vezes em Portugal do que na UE. As preocupações éticas também: 36,4% das empresas portuguesas contra 24,6% na UE.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Two reasons stood apart. Cost was cited 22 percentage points",
+  "ok": false
+ },
  "4640356368f727c3": {
   "t": "O grupo de junho de 2026 inclui a Madrix (aplicações empresariais à medida construídas com IA), a Sião (IA e proteção de dados para cartórios notariais), a Stepps (análise de vídeo com IA para câmaras industriais) e a Sherlock (análise de dados e IA para investigações no setor público). O artigo não menciona IA para as outras cinco.",
   "by": "translator@PrompTugal.dinis",

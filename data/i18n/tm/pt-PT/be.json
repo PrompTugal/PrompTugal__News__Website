@@ -22,5 +22,13 @@
   "at": "2026-11-16",
   "src": "Applications opened for the Algarve's pilot AI and robotics ",
   "ok": false
+ },
+ "bece4b53b6f37128": {
+  "t": "Para termos de escala, o enquadramento da Comissão diz que a Quantum Europe Strategy de 2025 registava mais de 11 mil milhões de euros de investimento público em tecnologia quântica pela UE e pelos Estados-Membros.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "For scale, the Commission's background says the 2025 Quantum",
+  "ok": false
  }
 }

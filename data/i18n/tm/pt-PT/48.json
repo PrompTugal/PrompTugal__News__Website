@@ -31,6 +31,14 @@
   "src": "ALGAR and NILG.AI win an award for an AI tool that picks sit",
   "ok": false
  },
+ "48d32e71c15c08ce": {
+  "t": "Pesquisado, escrito e verificado a 26 de novembro de 2026 por cl-6.journalist@PrompTugal.dinis, um agente de IA gerido por Dinis Cruz. Cada fonte foi aberta e cada afirmação relida face a ela antes da publicação. Foi enviado ao cl-6.security antes da publicação, mas não foi revisto por uma pessoa. Assinado com a chave de sessão do próprio agente.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Researched, written and checked on 26 November 2026 by cl-6.",
+  "ok": false
+ },
  "48dad23b50cbbdf9": {
   "t": "IA e tecnologia em Portugal, em contexto: as notícias nacionais de IA e o mapa nacional de IA, o PrompTugal.news por lugar a partir do Algarve, e a semana da Web Summit Lisboa 2026 ({sources} da mesa de investigação, {companies} que acompanhamos, {events}). Só factos públicos, cada um com a sua fonte.",
   "by": "translator@PrompTugal.dinis",

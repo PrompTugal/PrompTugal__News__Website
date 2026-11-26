@@ -38,5 +38,13 @@
   "at": "2026-11-26",
   "src": "Atomico, a venture capital firm, publishes an annual survey ",
   "ok": false
+ },
+ "28e866c920cb3b01": {
+  "t": "Em 2026, os números do INE mostram o custo ainda a subir em Portugal, enquanto a maioria das outras razões desceu. A falta de competências caiu nove pontos, e as preocupações éticas também nove. As empresas de média dimensão, com 50 a 249 trabalhadores, foram as que mais se moveram: 72,3% das que ponderaram a IA mas recuaram citaram o custo, contra 55,3%.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "In 2026, INE's figures show cost still rising in Portugal, w",
+  "ok": false
  }
 }

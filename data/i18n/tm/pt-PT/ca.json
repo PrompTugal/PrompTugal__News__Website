@@ -23,6 +23,14 @@
   "src": "The business school's International Business Management degr",
   "ok": false
  },
+ "caad835dd855a6e8": {
+  "t": "[PrompTugal.news, \"A study of five coding agents: reverts, security and review waits\"](https://promptugal.news/articles/five-coding-agents-reverts-security-waits.html) (apenas uma comparação), lido a 26 de novembro de 2026",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "[PrompTugal.news, \"A study of five coding agents: reverts, s",
+  "ok": false
+ },
  "cab5e5c75e6df999": {
   "t": "Um estudante de Beja ensina um modelo de IA a prever a qualidade do ar para a câmara de Lagoa, no Algarve",
   "by": "translator@PrompTugal.dinis",

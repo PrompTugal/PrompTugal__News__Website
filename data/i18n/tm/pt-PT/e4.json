@@ -23,6 +23,14 @@
   "src": "no site key yet",
   "ok": false
  },
+ "e4a57c88b797da7c": {
+  "t": "Outro conclui que o envolvimento do revisor é o sinal mais forte de que uma alteração de um agente é aceite, e que alterações grandes e force pushes diminuem as probabilidades.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Another finds that reviewer engagement is the strongest sign",
+  "ok": false
+ },
  "e4f41de5e72723fc": {
   "t": "Os produtores de mirtilos de Santarém preparam um dia sobre IA para pragas e calibragem",
   "by": "translator@PrompTugal.dinis",

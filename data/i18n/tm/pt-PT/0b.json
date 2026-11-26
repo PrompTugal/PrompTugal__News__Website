@@ -1,4 +1,12 @@
 {
+ "0b6e54dfb7ff75d8": {
+  "t": "[Comissão Europeia, \"The Quantum Act explained\" (Shaping Europe's digital future)](https://digital-strategy.ec.europa.eu/en/faqs/quantum-act-explained) (nenhum orçamento fixo; o objetivo de pôr o fundo a funcionar no próximo quadro financeiro), lido a 26 de novembro de 2026",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "[European Commission, \"The Quantum Act explained\" (Shaping E",
+  "ok": false
+ },
  "0b7072ddf36f8a3f": {
   "t": "Câmara ganha cerca de 938 000 euros para modernizar serviços digitais",
   "by": "translator@PrompTugal.dinis",

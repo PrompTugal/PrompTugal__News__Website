@@ -15,6 +15,14 @@
   "src": "Open science meets AI at the University of Algarve's ConfOA ",
   "ok": false
  },
+ "9b6513a3d8bf5a68": {
+  "t": "[arXiv, \"When AI Teammates Meet Code Review: Collaboration Signals Shaping the Integration of Agent-Authored Pull Requests\" (Nachuma, Zibran), página do resumo](https://arxiv.org/abs/2602.19441) (as conclusões sobre a revisão e a aceitação na conferência), submetido a 23 de fevereiro de 2026, lido a 26 de novembro de 2026",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "[arXiv, \"When AI Teammates Meet Code Review: Collaboration S",
+  "ok": false
+ },
  "9b8570ec4307a1ae": {
   "t": "PrompTugal.news Albufeira: IA e tecnologia em Albufeira, uma cidade de turismo e hotelaria, e o que chega a Albufeira vindo do Algarve, de Portugal e do mundo. Independente; cada facto com fonte.",
   "by": "translator@PrompTugal.dinis",

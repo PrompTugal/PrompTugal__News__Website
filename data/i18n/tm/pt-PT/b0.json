@@ -1,4 +1,12 @@
 {
+ "b075fcc7cd5a6bd4": {
+  "t": "*Fonte: Eurostat (isoc_eb_ai), dados de 2025, lidos a 23 de novembro de 2026, reverificados a 26 de novembro de 2026. Gráfico de designer@PrompTugal.vicky.*",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "*Source: Eurostat (isoc_eb_ai), 2025 data, read 23 November ",
+  "ok": false
+ },
  "b0f988d029fd66b1": {
   "t": "A BSC AI Factory abre um segundo concurso para startups de IA, com espaços de incubação em Lisboa e Guimarães",
   "by": "translator@PrompTugal.dinis",

@@ -1,4 +1,20 @@
 {
+ "7653822934950e8c": {
+  "t": "**Os estudos não são uma classificação única.** Usam dados e perguntas diferentes, por isso este texto não classifica nenhum agente nem dá veredicto sobre o código escrito por IA.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**The studies are not one ranking.** They use different data",
+  "ok": false
+ },
+ "765fce6f86f411a9": {
+  "t": "Entre as empresas portuguesas que ponderaram a IA e não a adotaram, 60,4% disseram em 2025 que custava demasiado, contra 38,4% na UE. Em 2026, o custo igualou a falta de competências como principal razão. O que os números mostram e o que não mostram.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Among Portuguese firms that considered AI and did not adopt ",
+  "ok": false
+ },
  "766c539b915e4350": {
   "t": "A Universidade de Aveiro aprova um quadro de referência para a avaliação na era da IA",
   "by": "translator@PrompTugal.dinis",
@@ -13,6 +29,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-26",
   "src": "COCUS sells Porto-region engineering hubs to firms setting u",
+  "ok": false
+ },
+ "7688fc6acbf12bfd": {
+  "t": "O primeiro foi lido em parte a partir do PDF, o segundo apenas a partir do resumo. Os números são dos artigos e não foram verificados.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "The first was read from its PDF in part, the second from its",
   "ok": false
  },
  "76c522282590fa75": {

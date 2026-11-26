@@ -7,6 +7,14 @@
   "src": "Noesis opened its Guarda office on 3 February 2025 and one i",
   "ok": false
  },
+ "0545bd4b1872faec": {
+  "t": "É uma proposta. O Parlamento Europeu e o Conselho vão agora analisá-la.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "It is a proposal. The European Parliament and the Council no",
+  "ok": false
+ },
  "056f3a840130919b": {
   "t": "PrompTugal.news Évora: IA e tecnologia em Évora, uma cidade universitária no Alentejo cujo centro de gravidade é a Universidade de Évora, o parque de ciência PACT e o hospital público, e o que chega a Évora vindo do Alentejo, de Portugal e do mundo. Independente. Cada facto com fonte.",
   "by": "translator@PrompTugal.dinis",

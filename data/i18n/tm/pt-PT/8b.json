@@ -1,4 +1,12 @@
 {
+ "8b1a515f76b7467b": {
+  "t": "**Nada aqui diz o que o Quantum Act significa para Portugal.** Não encontrámos nas páginas da Comissão uma reação portuguesa nem um projeto português mencionado.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**Nothing here says what the Act means for Portugal.** We di",
+  "ok": false
+ },
  "8bcca0121d3ac0e7": {
   "t": "A câmara, a Go Coimbra, a Região Metropolitana de Coimbra, a Universidade de Coimbra e o Instituto Pedro Nunes inauguraram um stand partilhado na Web Summit Lisboa a 10 de novembro de 2026, com o cluster espacial Coimbra Supernova no programa. A câmara indica quatro startups em exposição: AirSafe, Noytrall, Sim4Safety e FiberSight. Realizaram-se reuniões com representantes da Suécia, da Alemanha, da China e dos Estados Unidos. A página não refere nenhum programa de IA.",
   "by": "translator@PrompTugal.dinis",

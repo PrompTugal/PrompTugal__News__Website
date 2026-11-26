@@ -15,6 +15,14 @@
   "src": "Ainda não sabemos tudo, pá, and a few doors slammed 403 in o",
   "ok": false
  },
+ "3f8b9d7174ee9b20": {
+  "t": "Uma comparação com a UE para 2026. O Eurostat ainda não a publicou.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "A comparison with the EU for 2026. Eurostat has not yet publ",
+  "ok": false
+ },
  "3fb4690c92bce2c8": {
   "t": "A Future Business Summit, a 19 de junho na Casa Manuel Teixeira Gomes, promovida pela StartUP Portimão e pela incubadora de empresas da câmara, incluiu um painel sobre o fator humano na era da IA, abrangendo literacia digital, cibersegurança e uso de IA nas empresas.",
   "by": "translator@PrompTugal.dinis",

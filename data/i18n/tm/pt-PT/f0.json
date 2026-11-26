@@ -22,5 +22,13 @@
   "at": "2026-11-16",
   "src": "Viana's council says AI already helps it process building li",
   "ok": false
+ },
+ "f0e00899fe8105d9": {
+  "t": "**Os números são dos artigos e não foram verificados.**",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**The figures are the papers' and were not checked.**",
+  "ok": false
  }
 }

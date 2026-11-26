@@ -1,4 +1,12 @@
 {
+ "627e1c05a8781cbd": {
+  "t": "Em 2025, 60,4% das empresas portuguesas que tinham ponderado a IA mas não a usavam disseram que o custo parecia demasiado alto. Na UE, o valor foi 38,4%.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "In 2025, 60.4% of Portuguese firms that had considered AI bu",
+  "ok": false
+ },
  "62e4336153652524": {
   "t": "O EmoCare dá aos estudantes de Portalegre um assistente de IA generativa para a saúde mental",
   "by": "translator@PrompTugal.dinis",

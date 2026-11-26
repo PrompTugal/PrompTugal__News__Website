@@ -1,4 +1,12 @@
 {
+ "24398b59837730d3": {
+  "t": "O Eurostat, o gabinete de estatística da UE, publica a mesma pergunta para todos os Estados-Membros. Os dados mais recentes são de 2025. Na maioria das razões, Portugal e a UE estavam próximos. A incerteza jurídica, as preocupações com a proteção de dados e a fraca qualidade ou disponibilidade dos dados foram citadas, cada uma, por entre 43% e 54% das empresas da UE, e por alguns pontos a mais em Portugal. Poucas empresas, num e noutro, disseram que a IA simplesmente não lhes era útil: 18,2% em Portugal e 17,8% na UE.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Eurostat, the EU's statistics office, publishes the same que",
+  "ok": false
+ },
  "24787b463b3da82d": {
   "t": "O CeDRI Industry Day coloca os investigadores de robótica de Bragança diante de 40 empresas",
   "by": "translator@PrompTugal.dinis",

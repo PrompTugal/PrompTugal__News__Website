@@ -30,5 +30,13 @@
   "at": "2026-11-16",
   "src": "Agrosocial Plus was launched in Cordoba on 22 and 23 Septemb",
   "ok": false
+ },
+ "16e94df72cd4aef7": {
+  "t": "[Comunicado de imprensa da Comissão Europeia, \"Commission proposes Quantum Act and new Sovereign Tech Equity Fund to strengthen Europe's industrial capacity and security\", 25 de novembro de 2026](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2567) (os três pilares, as medidas de investigação e de segurança, o fundo, os passos seguintes, o enquadramento dos 11 mil milhões de euros), lido a 26 de novembro de 2026",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "[European Commission press release, \"Commission proposes Qua",
+  "ok": false
  }
 }

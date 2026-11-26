@@ -1,10 +1,26 @@
 {
+ "5734ffb11f878a05": {
+  "t": "Não conseguimos encontrar a origem do valor de 50 mil milhões de euros. O Tech.eu atribui ao Politico, que não lemos, um ponto distinto: o de que o fundo tomaria participações em empresas europeias. Até uma fonte indicar a dimensão, trate os 50 mil milhões de euros como o valor do site especializado, não da Comissão.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "We could not find where the 50 billion euro figure comes fro",
+  "ok": false
+ },
  "579a983491d4cc05": {
   "t": "O Porto sobe mais de 15 lugares no ranking global de startups, com a IA como um de quatro motores",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Porto climbs over 15 places in the global startup ranking, A",
+  "ok": false
+ },
+ "57cabeafb77dff89": {
+  "t": "**Não está definida a dimensão do fundo.** Ver acima.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**No fund size is established.** See above.",
   "ok": false
  }
 }

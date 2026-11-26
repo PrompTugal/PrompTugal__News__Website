@@ -23,6 +23,14 @@
   "src": "Viseu Dão Lafões holds its first Smart Region Summit and sho",
   "ok": false
  },
+ "7869cf21e58ccce2": {
+  "t": "A Comissão descreve o Quantum Act como assente em três pilares: excelência na investigação, colocação da tecnologia quântica em uso e manutenção da segurança dos sistemas e do abastecimento. Seria posto em prática através de uma Quantum Europe Framework Initiative, que reúne programas da UE e nacionais em torno de prioridades comuns.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "The Commission describes the Quantum Act as resting on three",
+  "ok": false
+ },
  "786dd29867dfdaca": {
   "t": "A Deutsche Welle ia descrever a adaptação de conteúdos para públicos em 32 línguas, e a Lesan AI foi indicada como oradora.",
   "by": "cl-6.translator@PrompTugal.dinis",

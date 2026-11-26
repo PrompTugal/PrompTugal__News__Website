@@ -31,6 +31,14 @@
   "src": "Nscale plans more than 66,000 NVIDIA Rubin GPUs for Microsof",
   "ok": false
  },
+ "08ae33df39bba615": {
+  "t": "**Nenhum dos artigos mede incidentes em produção.** O primeiro conta problemas sinalizados por uma ferramenta, que podem não corresponder ao risco real. O segundo conta se uma alteração foi aceite.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**Neither paper measures production incidents.** The first c",
+  "ok": false
+ },
  "08b8008b38fd0ddb": {
   "t": "A universidade publicou a sua política de utilização da IA, incluindo a IA generativa: uma abordagem humanista, crítica e responsável, com orientações para estudantes, docentes, investigadores e serviços administrativos, apoiada em referências da Comissão Europeia, da UNESCO, da OCDE e da SEA-EU. Um rascunho de abril de 2026 esteve em consulta até 8 de maio.",
   "by": "translator@PrompTugal.dinis",

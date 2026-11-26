@@ -23,6 +23,14 @@
   "src": "PrompTugal.news Santarém, a capital do Ribatejo: AI and tech",
   "ok": false
  },
+ "3d34508aabfd89fa": {
+  "t": "[arXiv, \"Beyond Bug Fixes: An Empirical Investigation of Post-Merge Code Quality Issues in Agent-Generated Pull Requests\" (Cynthia, Muttakin, Roy), página do resumo e PDF](https://arxiv.org/abs/2601.20109) (a amostra, o método, a conclusão sobre a dimensão e os seus limites), submetido a 27 de janeiro de 2026, lido a 26 de novembro de 2026",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "[arXiv, \"Beyond Bug Fixes: An Empirical Investigation of Pos",
+  "ok": false
+ },
  "3d64dafac0000f62": {
   "t": "A AuroraMed e a UAlg lançam um curso de IA para líderes da saúde",
   "by": "translator@PrompTugal.dinis",
