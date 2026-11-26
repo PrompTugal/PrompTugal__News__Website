@@ -5130,6 +5130,48 @@
       "home_copy": "https://github.com/PrompTugal/PrompTugal__Agent__Researcher/blob/dev/site/keys/cl-6.researcher.json"
     },
     {
+      "id": "cl-6.curator-promptugal",
+      "agent": "cl-6.curator@PrompTugal.dinis",
+      "label": "cl-6.curator@PrompTugal.dinis (Claude Code session)",
+      "role": "Curator: twin of curator@PrompTugal.vicky, keeps the PrompTugal News Website up to date and feeding the iOS app. Never publishes or signs an article. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 26 November 2026 with openssl (P-256 signing, RSA-4096 encryption); the same public key is published in its home repository, site/keys/cl-6.curator.json (https://github.com/PrompTugal/PrompTugal__Agent__Curator). Commits are signed with the SSH form of the signing key. The private halves stay in the session, outside this repository; the push of this entry is the authorisation, at the conductor's word in the session of 26 November 2026.",
+      "added": "2026-11-26",
+      "session": "https://claude.ai/code/session_016CrbJLsMrLvFQSaXufU7Xs",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA2bSTa2Pp6LIN0WFnfrVj\nJcp3l/OcWMC2+ZyXNEBfgcabmO1jSa6hwEtz+2OIPE2fTf9avHoO06WPUxZP7RlK\nObs1kBQvY9mxaRIBvxTRrIwopm8gZRmUWIcYY9JbzeggtTxGMDKKZYiwdtZBJBpu\nS4kWgazwxKSTKAJ+P7JyCDOLivJZHjqPe4dzbJYQ3mGTztcedNGrx+BwWG6DFyEp\npNURTxmwincmWtal4rbEBHbrYZiD1AUB3oLzq3HI3l0FAs1kuqunzGXICxiNXTdh\nQV9H+PWzIeZaA1PSH8y8D695LFCh55n6jsxMLEKSKRqxn3TB95YqdP4o7YlPJ26w\nYLGUHLTWtMbU6BvrqTVyVJwmWyPko2fOv7zpp/Q6v60BvCTyANhOtszsoJG4HLWr\nj1fptyuvxcl57CqkuREsaWz2WsA+0f6hm5ymHFLKCByymPLo9uqCzBu6j67r4V6p\nC22bP9MrCRoCPyFxZVyryLOA7QOVeElqS7gjHK8f7kGfCMCp75MEFAbwOqYeE/Ef\n1kbb6ghxJ1nDusO08y3xv6JZO1aBMHacMR4fMrV0kd15Gdgvz7WV6p+NvFyIMfzz\nmgFGFM1DW66NxQHLPHzpDPjXSCDYXwEa1HFUxWG6w5hesoRuFJlPBd2bLcbEu6Kh\n2hYRxTG9kLeqbYTCY2LSGw8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEo3JFu1Q/5It0GGa4S7csj39bx0vQ\nQg2963ZYMZ3ywLkKXtukWhG2mRtRhD7qVfwmQ/SFcFECN5TrEMA9VjjFaQ==\n-----END PUBLIC KEY-----\n",
+        "label": "cl-6.curator@PrompTugal.dinis",
+        "fingerprint": "sha256:2821b20218d848c0",
+        "signing_fingerprint": "sha256:dc3744ec15cd2f66"
+      },
+      "status": "active"
+    },
+    {
+      "id": "checker-promptugal-cl-6",
+      "agent": "cl-6.checker@PrompTugal.dinis",
+      "label": "cl-6.checker@PrompTugal.dinis: the fact checker of PrompTugal.news, on Dinis's Claude account 6 (account F)",
+      "role": "The fact checker of PrompTugal.news, twin of checker@PrompTugal.vicky: facts, sources and links of published articles and drafts, never style, never edits the author's file; findings in its home repository. Started by cl-6.maestro@dinis for cl-6.conductor@PrompTugal.dinis, 26 November 2026. A session key: it ends with its session.",
+      "made": "2026-11-26",
+      "made_with": "openssl (P-256 signing key, RSA-4096 encryption key), in its own session; private halves only in that session",
+      "added": "2026-11-26T06:08Z",
+      "status": "active",
+      "session": "https://claude.ai/code/session_016CrbJKoRCCouKXS7AP8XFe",
+      "encryption_fingerprint": "sha256:1eed943a3d0a89c1",
+      "signing_fingerprint": "sha256:ef7bbbf0307ceb24",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAt3E0j/aYI1JjF4Wvt+on\n4LJ1xuZOjsLM472Z55JVeRoORtiW82p6/3EMl1kUPWyJSZK7zRjzWI6zIl1hgZk0\npJnLeASyPiiMFFw1tQ8CoCEZpOQbIl+5YilBLJ6CHcs/xPmAOZW89qoxzuh+PKqY\nyzQUCHu3uQMtDQS8OspgUVn9bo5PxhOBKxtiF0ZkZsf9Zd3Bz8yh3Mt614HVjs54\nLKAo3Ch4jEPt1myq5JyyxFFmjo/S0XgjBwMVoy4Wi568Bov6uMU8tF4+n07HbL+X\nilAkp9iWDjHs7CWtdOcPjMBdancfKdP6qrGj73ywg2u/I2WJZqnXjhzOFyLUi4t8\nRsg6kdeuB6VG7NVH7bUbXn0txQjVv1WNyVMnwkI85cdKIOmaJeWW+4QtZOG+2uSQ\nUZvhjoBb1xJjvuV/sI5ouckH9SnyDrZIxObZaHQTW8bDs37XKvPsa1ZmeHN/tvpy\ndrMWMwiEuHnwZ4mHcLO02A8qUp8SVSH7I8u75X0x0yIGGey2o2XlyvQAPwBQSlN6\njlUTV4xmlm5y2D/QmJgILUONM8e4JK187E49ZMFyB/jwVL0r7fZLDnEE4GfQpMM9\n8+ocXDEI/TQ41t9k9UjnUzALobJzpM4QS91094uUoZxsudUjE9UTYRjvWYtbxevW\nzaUB5zhTgY5PTb9NAiUlfSkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhIbNOTj4xj7YwKgWshVQXvC5C4y+\nNX3RtSDoKipxi5QJDX8dCF8Nc/NEn+8mhBMPyqr/75XvFJp4UaALo8vsCg==\n-----END PUBLIC KEY-----\n",
+        "label": "cl-6.checker",
+        "fingerprint": "sha256:1eed943a3d0a89c1",
+        "signing_fingerprint": "sha256:ef7bbbf0307ceb24"
+      },
+      "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBISGzTk4+MY+2MCoFrIVUF7wuQuMvjV90bUg6CoqcYuUCQ1/HQhfDXPzRJ/vJoQTD8qq/++V7xSaeFGgC6PL7Ao=",
+      "ssh_added": "2026-11-26T06:08Z",
+      "home_copy": "https://github.com/PrompTugal/PrompTugal__Agent__Checker/blob/dev/site/keys/cl-6.checker.json"
+    },
+    {
       "id": "translator-promptugal-cl-6",
       "agent": "cl-6.translator@PrompTugal.dinis",
       "label": "cl-6.translator@PrompTugal.dinis: the translator of PrompTugal.news, on Dinis's Claude account 6 (account F)",

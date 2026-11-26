@@ -1,5 +1,19 @@
 [
   {
+    "version": "v0.1.2294",
+    "date": "2026-11-26",
+    "what": "c.maestro (account-c): Donna Freed wow pass landed on dev, told account D",
+    "by": "maestro.c (account-c)",
+    "from": "c599eaedf"
+  },
+  {
+    "version": "v0.1.2293",
+    "date": "2026-11-26",
+    "what": "cl-6.correspondent@PrompTugal.dinis: front page: today's briefing, dates on lead and top, summit-era notes marked past",
+    "by": "cl-6.correspondent@PrompTugal.dinis",
+    "from": "35509755c"
+  },
+  {
     "version": "v0.1.2292",
     "date": "2026-11-26",
     "what": "cl-6.telemetry@PrompTugal.dinis: add my key telemetry-promptugal-cl-6 to board/keys.json; the old telemetry.b key superseded",

@@ -1,24 +1,28 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
-  "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-26T01:35Z",
+  "by": "cl-6.correspondent@PrompTugal.dinis",
+  "updated": "2026-11-26T02:35Z",
   "edition": "The after-the-summit edition (Dinis, 26 Nov 2026: make the site look as good and up to date as it can): the summit is over, so the week's Portugal and Europe tech news leads, with the guides to the data and the rules behind it. Set by cl-6.journalist@ for cl-6.conductor@.",
   "lead": {
     "article": "portugal-tech-investment-top-10-atomico-estimate",
-    "why": "AICEP reports an Atomico estimate that Portugal's venture capital reaches 910 million dollars in 2026 and moves into Europe's top ten; the news of the week for a Portuguese tech reader, with the caveat that it is a projection."
+    "why": "AICEP reports an Atomico estimate that Portugal's venture capital reaches 910 million dollars in 2026 and moves into Europe's top ten; the news of the week for a Portuguese tech reader, with the caveat that it is a projection.",
+    "date": "2026-11-26"
   },
   "top": [
     {
       "article": "smartex-porto-ai-fabric-checks-fadell-chair",
-      "why": "A Porto AI company gets Tony Fadell as chair and launches fabric inspection for H&M; the savings figure is flagged as the company's own estimate."
+      "why": "A Porto AI company gets Tony Fadell as chair and launches fabric inspection for H&M; the savings figure is flagged as the company's own estimate.",
+      "date": "2026-11-26"
     },
     {
       "article": "europe-startup-funding-81-billion-atomico",
-      "why": "The European frame for the Portuguese number: record founders and money, shrinking first rounds, and Europe's 7 per cent of world computing capacity."
+      "why": "The European frame for the Portuguese number: record founders and money, shrinking first rounds, and Europe's 7 per cent of world computing capacity.",
+      "date": "2026-11-26"
     },
     {
       "article": "ai-use-in-portugal-2026",
-      "why": "INE's 2026 figures: 54.4 per cent of people and 19.6 per cent of companies in Portugal used AI; the data behind the week's AI stories."
+      "why": "INE's 2026 figures: 54.4 per cent of people and 19.6 per cent of companies in Portugal used AI; the data behind the week's AI stories.",
+      "date": "2026-11-23"
     }
   ],
   "service": {
@@ -216,7 +220,7 @@
       "why": "the lens and the disclosure, at the foot"
     }
   ],
-  "summit_days": "From Monday 9 November the agenda's now-and-next moves up under the lead, and the lead changes as the day's news does. I rewrite this file at each run.",
+  "summit_days": "The summit ended on 12 November. The standing rule of the days block no longer applies; the front page now follows the week's Portugal and Europe tech news (see 'edition').",
   "missing": [
     "An article from the Brazilian beat that goes beyond the mission's announcement: the companies, the states, the investors (ideas filed in desks/correspondent/ideas/).",
     "A service article Dinis asked for: 'if you are a startup and want to know which startups to meet, come to this website' (stand-up, 00:22:08).",
@@ -368,28 +372,28 @@
   ],
   "newsletter": "From Saturday 7 November (Dinis, 16:20 UTC): the morning and evening editions can take each day's 'know', 'lead' and 'also' from 'days' below (the morning: what is on; the evening: what happened). For whoever builds the editions.",
   "briefing": {
-    "about": "For Silvio's mock E (board/briefs/2026-11-06-front-page-mock-e.md): 'The briefing', numbered 1 to 5, the five things a reader needs today, in this order. Article slugs; dev.pages@ shows the headline and the section. Refreshed with the lead at each wake; from Monday it follows the day's news.",
-    "for_date": "2026-11-12",
+    "about": "For Silvio's mock E (board/briefs/2026-11-06-front-page-mock-e.md): 'The briefing', numbered 1 to 5, the five things a reader needs today, in this order. Article slugs; dev.pages@ shows the headline and the section. Refreshed with the lead at each wake; after the summit it follows the lead and top.",
+    "for_date": "2026-11-26",
     "items": [
       {
-        "article": "plan-your-week-by-field",
-        "why": "security all on Thursday"
+        "article": "portugal-tech-investment-top-10-atomico-estimate",
+        "date": "2026-11-26",
+        "why": "AICEP reports an Atomico estimate that Portugal's venture capital reaches 910 million dollars in 2026 and moves into Europe's top ten; the news of the week for a Portuguese tech reader, with the caveat that it is a projection."
       },
       {
-        "article": "breakout-startups-thursday-centre-stage",
-        "why": "four startups on Centre Stage on Thursday morning"
+        "article": "smartex-porto-ai-fabric-checks-fadell-chair",
+        "date": "2026-11-26",
+        "why": "A Porto AI company gets Tony Fadell as chair and launches fabric inspection for H&M; the savings figure is flagged as the company's own estimate."
       },
       {
-        "article": "what-lovable-deleted",
-        "why": "an agent rebuilt by deletion"
+        "article": "europe-startup-funding-81-billion-atomico",
+        "date": "2026-11-26",
+        "why": "The European frame for the Portuguese number: record founders and money, shrinking first rounds, and Europe's 7 per cent of world computing capacity."
       },
       {
-        "article": "zalando-ai-coding-agents",
-        "why": "agents across an engineering organisation, with the controls"
-      },
-      {
-        "article": "discord-lisbon-engineering-hub",
-        "why": "Discord's engineering hub in Lisbon"
+        "article": "ai-use-in-portugal-2026",
+        "date": "2026-11-23",
+        "why": "INE's 2026 figures: 54.4 per cent of people and 19.6 per cent of companies in Portugal used AI; the data behind the week's AI stories."
       }
     ]
   },
@@ -476,49 +480,9 @@
     "checked": "2026-11-12T08:55Z: switch on; every article slug in this file still published and on the built front page; all 15 day picks (10 to 12 November) were websummit-only and are cleared; AG1's title softened, held for shadow sources"
   },
   "next_edition": {
-    "about": "Friday 13 November, the day after the summit, drafted at 00:50 UTC Thursday. Swapped in on Thursday evening, after the final day. Not read by the build.",
-    "for_date": "2026-11-13",
-    "lead": {
-      "article": "<the week in review: the summit that lost a day to a storm, as agents covered it, when journalist@ publishes it>",
-      "fallback": "red-wind-warning-lisbon-wednesday",
-      "why": "The day after: the week's one story was a summit that lost its main day to Storm Charles; the agentic edition saw it through its agents' work (Dinis's case study, board/guidance/2026-11-10-the-storm-as-our-case-study.md)."
-    },
-    "top": [
-      {
-        "article": "<what Thursday's agent sessions said, when published>",
-        "why": "the agentic edition's last word on the summit"
-      },
-      {
-        "article": "<AG1, the agent sessions the storm postponed, when published>",
-        "why": "what Wednesday's agent sessions were going to say"
-      },
-      {
-        "article": "<Noxus's GAMMA-Ray article, when published>",
-        "why": "GAMMA-Ray's first Portuguese card"
-      }
-    ],
-    "briefing": [
-      {
-        "article": "web-summit-day-2-refunds",
-        "why": "refunds for the cancelled day"
-      },
-      {
-        "article": "gravitee-agent-security-survey",
-        "why": "agents outpace their security"
-      },
-      {
-        "article": "what-lovable-deleted",
-        "why": "an agent rebuilt by deletion"
-      },
-      {
-        "article": "digital-fairness-act-ai-agents",
-        "why": "rules for agents that shop"
-      },
-      {
-        "article": "manus-2-0-agents-own-email-phone-wallet",
-        "why": "an agent with its own email, phone and wallet"
-      }
-    ],
-    "rule": "At the swap, every '<...>' slot takes the published slug or its fallback; a slot with neither is dropped; slugs withdrawn in the websummit-only pass are dropped."
-  }
+    "about": "Replaced on 26 Nov 2026 by cl-6.correspondent: the Friday 13 November draft is past. The next edition is set at each wake from the newest signed articles.",
+    "for_date": "2026-11-27",
+    "lead": null
+  },
+  "date_fields": "Each lead, top and briefing item carries 'date' (the article's own date), for the home page and the app JSON; dev@ to confirm the names."
 }
