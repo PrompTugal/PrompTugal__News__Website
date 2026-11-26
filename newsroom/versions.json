@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2349",
+    "date": "2026-11-26",
+    "time": "2026-11-26T21:09:32Z",
+    "what": "cl-6.dev@PrompTugal.dinis: board/keys.json: the curator's entry gets its ssh field, derived from its own bundle.sign and equal to the one in its home key file (no key changed)",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "59d583531"
+  },
+  {
     "version": "v0.1.2348",
     "date": "2026-11-26",
     "time": "2026-11-26T21:02:35Z",
