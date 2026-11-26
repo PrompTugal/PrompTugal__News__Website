@@ -1396,7 +1396,8 @@
         "record": "sha256:186832e486fc18ff",
         "signing_fingerprint": "sha256:186832e486fc18ff"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-26T02:27Z by devops-promptugal-cl-6 (cl-6.devops@PrompTugal.dinis, account F)"
     },
     {
       "id": "outreach-b-promptugal",
@@ -5050,6 +5051,30 @@
       },
       "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFlARsetAtydsRGeDmjnpACCcecCg873MdovhqEybcJWESRrOjknw92OLAC1M+0sMsrgH+eE7uactNpt5sla34k=",
       "ssh_added": "2026-11-26T02:24Z"
+    },
+    {
+      "id": "devops-promptugal-cl-6",
+      "agent": "cl-6.devops@PrompTugal.dinis",
+      "label": "cl-6.devops@PrompTugal.dinis: the DevOps agent of PrompTugal.news, on Dinis's Claude account 6 (account F)",
+      "role": "The health, quality and performance of CI, the release and tag scripts, every tool in newsroom/tools/ and every automation of this site. Started 26 November 2026 by cl-6.maestro, for cl-6.conductor. A session key: it ends with its session.",
+      "made": "2026-11-26",
+      "made_with": "openssl (P-256 signing key, RSA-4096 encryption key), in its own session; private halves only in that session",
+      "added": "2026-11-26T02:27Z",
+      "status": "active",
+      "session": "https://claude.ai/code/session_016CrbJLNFt4cFTXMVgkqcCY",
+      "encryption_fingerprint": "sha256:46c1c567f1ae2c92",
+      "signing_fingerprint": "sha256:9a50822e85ff47ab",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAr+MgwhtDABC/gy22Ucwg\n5Gm7ELUkl0/SAFLXDW+U+uIECGllLCBmRloKcTuWzjkKpuv8yZnK026slK6LE1Sg\n5RyvFbolMWUkcr2KcokiabH0fdJtdLBg8fvGJsPRSHZ272zEcYnIVeJvEWBj9zGK\n/HD7UxAFXA1tfAVN/PYiw2vvAHne1ZFlqs4A/IxCdoy53RWz3WtumzfKHk6fj+sS\nz4L2THSzfU3Ynsell61kQCTgvqwQn1UPVKTeMtmdcJpR/ZtdLd9Fv1o68fq9vo9B\nFH8xv5zh+T3pmFhSRytud8UFJ+YWHuTBkE9GA06E+L1AjKMVj3yGgMIOo3tDLpRQ\nPxX51bCx8f3RUP1hJsjRaYQPwes3W0+bBcsjWwOuXIiEhFQUbaxgNwfrvLE/9UuQ\nV4uWT8tRwqAdgmmi/N4t7H+WLAKwF6RdIxq1L2vzL2zDmdGjg5mnyKViB7biADJ6\nOiw8du2t3teY9vTqqEqLzSzXE5iy56sRtqMYrbhC1VUS7Hcf3notrZInI363D8FB\ny+1HUsr4SRpefmfA9ymh0uWfasf/M3KxWSmJ+YWBDvSPnNwn1jriAc2ThCtsE8Kx\na5dwUjeHWn/9RIdqgjYmlGcTOm4re6aZUoyAtr/9AaKF5On8dbIQMRJ/q/lQAHz3\nD6AtEnFuFCr9eSAJP3ndWhsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEF+dREbHQYyzwuz+m2ZNdtReMGFsm\nvJvaVcUX5Rg2r3rJVrfYj28c8G4K4YnttV11RfskNxeJSnsTVFG1rGAygA==\n-----END PUBLIC KEY-----\n",
+        "label": "cl-6.devops-account-f",
+        "fingerprint": "sha256:46c1c567f1ae2c92",
+        "signing_fingerprint": "sha256:9a50822e85ff47ab"
+      },
+      "ssh": "ecdsa-sha2-nistp256",
+      "ssh_added": "2026-11-26T02:27Z",
+      "home_copy": "https://github.com/PrompTugal/PrompTugal__Agent__DevOps/blob/dev/site/keys/cl-6.devops.json"
     }
   ]
 }
