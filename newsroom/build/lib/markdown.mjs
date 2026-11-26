@@ -20,6 +20,9 @@ export const shortUrl = u => {
     const tail = last.length > 28 ? last.slice(0, 27) + '…' : last
     return esc(m[1] + (parts.length > 1 ? '/…/' : parts.length ? '/' : '') + tail)
 }
+// only these may be a link or an image source (cl-6.security's S12, 26 Nov 2026): http, https, mailto, a relative path or a #fragment; any other scheme
+// (javascript:, data:, vbscript:, file:) is shown as plain text, never as a link
+export const SAFE_URL = u => /^(https?:|mailto:)/i.test(u) || !/^[a-z][a-z0-9+.-]*:/i.test(u)
 export function inline(s) {
     const codes = []
     s = s.replace(/`([^`]+)`/g, (_, c) => { codes.push(`<code>${esc(c)}</code>`); return `\u0000${codes.length - 1}\u0000` })
@@ -28,13 +31,14 @@ export function inline(s) {
     // an image: ![alt](src). A file named <slug>--paper--<thumb|card|banner>.png gets its size (no layout shift) and its
     // ink twin for dark mode, in a <picture> (design/infographics/out/, the designer's article images).
     s = s.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g, (_, alt, u) => {
+        if (!SAFE_URL(u)) return alt
         const sz = { thumb: [480, 480], card: [1200, 630], banner: [1600, 560] }[(u.match(/--(thumb|card|banner)\.\w+$/) || [])[1]]
         const tag = (name, o) => `<${name}` + Object.entries(o).filter(([, v]) => v !== undefined).map(([k, v]) => ` ${k}="${v}"`).join('') + '>'
         const img = tag('img', { src: u, alt: esc(alt), width: sz?.[0], height: sz?.[1], loading: 'lazy', decoding: 'async' })
         return /--paper--/.test(u) ? tag('picture', {}) + tag('source', { media: '(prefers-color-scheme: dark)', srcset: u.replace('--paper--', '--ink--') }) + img + '</picture>' : img
     })
     const link = (href, u, t, title) => `<a href="${href}"${title ? ` title="${title}"` : ''}${OUTSIDE(u) ? ' target="_blank" rel="noopener"' : ''}>${t}</a>`
-    s = s.replace(/\[((?:[^\[\]]|\[[^\[\]]*\])+)\]\(([^)\s]+)\)/g, (_, t, u) => link(mdToHtmlLink(u), u, t))
+    s = s.replace(/\[((?:[^\[\]]|\[[^\[\]]*\])+)\]\(([^)\s]+)\)/g, (_, t, u) => SAFE_URL(u) ? link(mdToHtmlLink(u), u, t) : t)
     // an autolink: <https://...> (escaped by now; the &amp; in a query string stays right in the attribute)
     // shown short (synthetic@'s F33: full addresses broke mid-word on a phone): the site, then the path's last part;
     // the whole address stays in the link and its title, and the markdown twin keeps it in full

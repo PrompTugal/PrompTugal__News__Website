@@ -5,7 +5,7 @@ import { plain, safeUrl } from '../lib/agent-text.mjs'
 import { render } from '../lib/markdown.mjs'
 let bad = 0
 const t = (what, got, want) => { if (JSON.stringify(got) !== JSON.stringify(want)) { bad++; console.error(`FAIL ${what}: ${JSON.stringify(got)}, want ${JSON.stringify(want)}`) } }
-const html = s => render(`- ${plain(s)}\n`)
+const html = s => render(`- ${plain(s)}\n`).html
 for (const [what, s] of [['a javascript: link', '[x](javascript:alert(1))'], ['an outside link', '[phish](https://evil.example/login)'], ['an image', '![i](https://evil.example/p.png)'], ['an autolink', '<https://evil.example/a>'], ['a table break and newline', 'a | b\n[c](https://evil.example)']]) {
     const h = html(s)
     t(`${what}: no anchor, no image`, [/<a\b/.test(h), /<img\b/.test(h)], [false, false])
