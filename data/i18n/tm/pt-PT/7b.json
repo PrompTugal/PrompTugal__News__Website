@@ -15,6 +15,14 @@
   "src": "A hotel group with an Albufeira hotel adopts an AI guest-mes",
   "ok": true
  },
+ "7b6a8c2ad8487198": {
+  "t": "A H&M é investidora e cliente de lançamento. A poupança de 100 milhões de dólares por ano para a H&M é uma estimativa do presidente executivo e não foi verificada.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "H&M is an investor and a launch customer. The 100 million do",
+  "ok": false
+ },
  "7b720b72fd6a3383": {
   "t": "Loulé instala 60 câmaras no anel hoteleiro de Vilamoura, com extensão prevista a Quarteira; sem IA indicada",
   "by": "translator@PrompTugal.dinis",

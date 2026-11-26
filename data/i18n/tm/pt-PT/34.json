@@ -1,4 +1,12 @@
 {
+ "347cf8321165aa16": {
+  "t": "## A história",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "## The story",
+  "ok": false
+ },
  "34e3fddc48ce23f0": {
   "t": "Docente da UTAD integra painel mundial sobre IA generativa no ensino da engenharia",
   "by": "translator@PrompTugal.dinis",

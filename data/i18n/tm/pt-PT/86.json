@@ -23,6 +23,14 @@
   "src": "The council opens eight digital projects to Porto's startups",
   "ok": false
  },
+ "8658ecb73abf7295": {
+  "t": "Nomeia a ronda de 580 milhões de dólares (528 milhões de euros) da Tekever, em setembro de 2026, como uma das principais razões.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "It names Tekever's 580 million dollar (528 million euro) rou",
+  "ok": false
+ },
  "867572ff80be5e8d": {
   "t": "Mapa do Algarve com os seus {count} lugares, cada um ligado ao seu site",
   "by": "translator@PrompTugal.dinis",

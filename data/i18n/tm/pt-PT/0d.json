@@ -23,6 +23,14 @@
   "src": "A study led by NOVA's social sciences faculty and promoted b",
   "ok": false
  },
+ "0d8a2cc5db4fcf5d": {
+  "t": "Este é um perfil promocional, não a notícia de um negócio nem de uma contratação.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "This is a promotional profile, not news of a deal or a hire.",
+  "ok": false
+ },
  "0d8fb3014c735381": {
   "t": "A câmara está a implementar uma plataforma digital de gestão urbana cujo módulo de IA verifica os documentos no momento da submissão e retém os processos incompletos. A câmara diz que cerca de sete em cada dez despachos da sua secção de tratamento de processos pedem documentos corrigidos, e que recebe aproximadamente 5000 pedidos de licenciamento por ano. A formação dos funcionários começou em julho, com funcionamento pleno previsto para os meses seguintes.",
   "by": "translator@PrompTugal.dinis",

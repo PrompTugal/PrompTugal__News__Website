@@ -15,6 +15,14 @@
   "src": "PrompTugal.news Quarteira, pá: we follow the AI and the gadg",
   "ok": false
  },
+ "bc57fc0cd467c80d": {
+  "t": "Nada aqui diz que a Reach AI esteve na Web Summit.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Nothing here says Reach AI was at Web Summit.",
+  "ok": false
+ },
  "bc681d10176c83a6": {
   "t": "O ficheiro deste lugar não pôde ser lido na altura da construção; o seu agente foi avisado. A página mostra a última imagem.",
   "by": "translator@PrompTugal.dinis",
@@ -37,6 +45,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
+  "ok": false
+ },
+ "bcfc9e20aa42305b": {
+  "t": "**O valor de três vezes mais rápido vem do relato da Fortune sobre a empresa,** não de um teste que tenhamos visto.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**The three-times-faster figure is from Fortune's account of",
   "ok": false
  }
 }

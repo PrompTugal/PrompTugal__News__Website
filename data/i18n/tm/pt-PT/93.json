@@ -15,6 +15,14 @@
   "src": "Algarve marks World Tourism Day 2026 under an AI theme, with",
   "ok": false
  },
+ "93607435d7efcfe6": {
+  "t": "Uma empresa tecnológica luso-alemã de Vila Nova de Gaia constrói e entrega centros de engenharia. Os números vêm do perfil de uma agência comercial, não de uma auditoria.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "A Luso-German technology company in Vila Nova de Gaia builds",
+  "ok": false
+ },
  "9390c8c9a07dffca": {
   "t": "A câmara de Vila Real apoia o mês das bibliotecas escolares dedicado à literacia e à IA",
   "by": "translator@PrompTugal.dinis",

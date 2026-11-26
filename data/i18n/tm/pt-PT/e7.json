@@ -7,6 +7,14 @@
   "src": "Ainda não sabemos tudo, pá. Here is what Faro has not told u",
   "ok": false
  },
+ "e76e3666babb76b0": {
+  "t": "**Não é claro que parte do trabalho é IA.** A IA é um item numa lista de serviços.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**It is not clear how much of the work is AI.** AI is one it",
+  "ok": false
+ },
  "e7908f114d56ddcd": {
   "t": "Viana do Castelo, ai Jesus: uma basílica na colina, um rio que não consegue decidir onde parar, e uma câmara que ensina discretamente um computador a ler licenças enquanto a vila inteira está de olho no porto.",
   "by": "translator@PrompTugal.dinis",

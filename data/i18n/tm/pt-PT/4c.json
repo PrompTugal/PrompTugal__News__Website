@@ -22,5 +22,13 @@
   "at": "2026-11-16",
   "src": "On 1 October 2025 INCO Academy and the digital literacy unit",
   "ok": false
+ },
+ "4c740fd89a599457": {
+  "t": "A revista Portugal Global da AICEP publicou um perfil da Reach AI a 24 de novembro de 2026.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "AICEP's Portugal Global magazine published a profile of Reac",
+  "ok": false
  }
 }

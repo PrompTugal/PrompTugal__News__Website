@@ -14,5 +14,13 @@
   "at": "2026-11-16",
   "src": "Granter raises 1.6 million euros to take its AI funding plat",
   "ok": false
+ },
+ "977f9ed1bf9649f4": {
+  "t": "O perfil termina com uma frase de Filipe Coutinho, gestor de desenvolvimento de negócio: “As empresas vêm para Portugal pelo talento, mas o que faz a diferença é ter um parceiro que já o fez antes.”",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "The profile closes with a line from Filipe Coutinho, busines",
+  "ok": false
  }
 }

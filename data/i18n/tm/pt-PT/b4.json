@@ -22,5 +22,13 @@
   "at": "2026-11-16",
   "src": "The polytechnic leads a 24 month project with ADSI, NERGA an",
   "ok": false
+ },
+ "b4c8afb6437844dd": {
+  "t": "**O total de 2026 é uma previsão** para o ano, não uma contagem final.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**The 2026 total is a forecast** for the year, not a final c",
+  "ok": false
  }
 }

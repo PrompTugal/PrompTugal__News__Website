@@ -1,4 +1,12 @@
 {
+ "9c92765d703de7d4": {
+  "t": "**Este é um perfil publicado por uma agência comercial,** não jornalismo independente.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**This is a profile published by a trade agency,** not indep",
+  "ok": false
+ },
  "9cd7760fae93e137": {
   "t": "Aplicação de Braga vigia o seu agachamento com a câmara do telemóvel e corrige-o com IA",
   "by": "translator@PrompTugal.dinis",

@@ -14,5 +14,13 @@
   "at": "2026-11-16",
   "src": "A free Brazil day on 17 November 2026 brings a roundtable on",
   "ok": false
+ },
+ "46fb10e98030057c": {
+  "t": "Está a lançar o Smartex Inspect, um sistema de câmaras para máquinas têxteis existentes, e o Smartex IQ, que transforma os dados em informação para a cadeia de abastecimento.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "It is launching Smartex Inspect, a camera system for existin",
+  "ok": false
  }
 }

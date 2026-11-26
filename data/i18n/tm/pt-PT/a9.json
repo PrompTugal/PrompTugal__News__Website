@@ -30,5 +30,13 @@
   "at": "2026-11-16",
   "src": "Braga cannot pick just one: the university does research, IN",
   "ok": false
+ },
+ "a9c266c9b1d8f1bf": {
+  "t": "## De onde vem isto",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "## Where this comes from",
+  "ok": false
  }
 }

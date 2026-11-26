@@ -1,4 +1,12 @@
 {
+ "7f720531f747b576": {
+  "t": "**Nada aqui diz o que a Smartex fará em Portugal,** quantas pessoas contratará nem se vai angariar dinheiro.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**Nothing here says what Smartex will do in Portugal,** how ",
+  "ok": false
+ },
  "7f9841a5a5078282": {
   "t": "PrompTugal.news Lagos: IA e tecnologia em Lagos, uma cidade de trabalhadores remotos, de um espaço de coworking municipal e de uma comunidade de programadores Google muito ativa, e o que chega a Lagos vindo do Algarve, de Portugal e do mundo. Independente; cada facto com fonte.",
   "by": "translator@PrompTugal.dinis",

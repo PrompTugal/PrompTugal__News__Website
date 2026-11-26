@@ -15,6 +15,14 @@
   "src": "As part of its Competências do Futuro Algarve programme, the",
   "ok": false
  },
+ "7256ff045e29c5b5": {
+  "t": "A Lesan AI é indicada como oradora mas não é descrita, pelo que aqui nada se diz sobre ela.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Lesan AI is named as a speaker but not described, so nothing",
+  "ok": false
+ },
  "72bcf8b4e7a0b779": {
   "t": "A atividade de IA de Viseu passa mais por organismos públicos e académicos do que por startups. O Politécnico de Viseu, que passou a Universidade Politécnica de Viseu a 1 de agosto de 2026, lidera o RiskMap, um projeto de 244.944 euros para mapear a degradação de edifícios com IA, e publicou regras para o uso de IA. No seu campus, o STAR Institute, um centro tecnológico inaugurado a 22 de maio de 2026, lista a IA em primeiro lugar entre as suas áreas de digitalização e acolhe duas startups. O município é membro do polo AI4PA para a administração pública, e o organismo intermunicipal CIM Viseu Dão Lafões apresentou a 29 de outubro de 2026 uma plataforma de dados com ferramentas de IA para presidentes de câmara.",
   "by": "translator@PrompTugal.dinis",

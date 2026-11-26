@@ -7,6 +7,14 @@
   "src": "A country on the Atlantic edge of Europe that wrote itself a",
   "ok": false
  },
+ "be8d3e3311bb6314": {
+  "t": "Oferece centros tecnológicos construídos, geridos e depois entregues ao cliente, equipas de engenharia a pedido, recrutamento tecnológico e apoio à conformidade em segurança.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "It offers tech hubs built, run and then handed to the custom",
+  "ok": false
+ },
  "be99630c0197edb6": {
   "t": "Abertas as candidaturas ao plano-piloto de IA e robótica do Algarve para PME do turismo",
   "by": "translator@PrompTugal.dinis",

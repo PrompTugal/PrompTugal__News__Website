@@ -1,4 +1,12 @@
 {
+ "48257f70dce156b3": {
+  "t": "**Não são indicados local, plataforma nem assistência.**",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**No venue, platform or attendance** is given.",
+  "ok": false
+ },
  "4863342ccdc3a7fb": {
   "t": "A conferência sísmica de Albufeira de 27 de novembro muda-se para o salão da câmara, com a IA apontada como risco e ferramenta de monitorização",
   "by": "translator@PrompTugal.dinis",

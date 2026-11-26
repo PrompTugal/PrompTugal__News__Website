@@ -1,4 +1,12 @@
 {
+ "ea0cc20750f11f76": {
+  "t": "O argumento do relatório, segundo o Tech.eu, é que o dinheiro se está a concentrar. As primeiras rondas caíram quase 30 por cento entre 2021 e 2025, enquanto os totais são elevados. Quanto à computação, o relatório coloca a Europa em 7 por cento da capacidade mundial e os Estados Unidos em 72 por cento. Quanto ao ânimo, 46 por cento dos inquiridos sentem-se mais positivos em relação à tecnologia europeia do que há um ano.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "The report's argument, in Tech.eu's account, is that money i",
+  "ok": false
+ },
  "ea0e795f1a5211a7": {
   "t": "A atividade de IA do Porto concentra-se em torno da UPTEC, o parque de ciência da Universidade do Porto, onde um relatório de 2025 encontrou pelo menos cinco startups de IA em saúde, indústria e restauração, onde um programa luso-europeu de supercomputação (a BSC AI Factory) iniciou uma ronda de incubação de IA em outubro de 2026, e onde a Granter levantou 1,6 milhões de euros em novembro. Em redor estão um fundo de capital de risco do Porto (a 33N), uma escola de negócios (a Porto Business School), uma comunidade de IA de marketing (a AIhub) e a empresa municipal Porto Digital, que descreve a IA para previsão de tráfego e fluxos sob uma regra de sem caixas negras. O Global Startup Ecosystem Report 2026 nomeia a IA como um de quatro motores de crescimento.",
   "by": "translator@PrompTugal.dinis",

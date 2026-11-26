@@ -31,12 +31,28 @@
   "src": "Tavira puts smart sensors on accessible parking spaces",
   "ok": false
  },
+ "d394f46f20eff89d": {
+  "t": "[Fortune, \"Smartex, AI, Tony Fadell and H&M\", 19 de novembro de 2026](https://fortune.com/2026/11/19/smartex-ai-tony-fadell-fashion-hm/) (presidente, 10 milhões de dólares, três vezes a velocidade humana, 800 sistemas em 10 países, a estimativa de 100 milhões de dólares, a citação sobre a Pantone), lido a 26 de novembro de 2026",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "[Fortune, \"Smartex, AI, Tony Fadell and H&M\", 19 November 20",
+  "ok": false
+ },
  "d3a22b81d24c7f27": {
   "t": "A câmara de Portimão está a implementar uma plataforma digital de gestão urbana com um módulo de IA que verifica os documentos na submissão e assinala os que faltam. Pista do agente da cidade: esta é uma história de Portimão que também importa a nível regional.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The Portimão council is rolling out a digital urban-manageme",
+  "ok": false
+ },
+ "d3fbe79df09f5601": {
+  "t": "Os seus clientes estão nos Estados Unidos, no Reino Unido, na Bélgica, nos Países Baixos e em Espanha.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Its clients are in the United States, the United Kingdom, Be",
   "ok": false
  }
 }

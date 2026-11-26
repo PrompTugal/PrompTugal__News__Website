@@ -14,5 +14,13 @@
   "at": "2026-11-16",
   "src": "The AGROBOTICS-DITWINS project will set up two living labs i",
   "ok": false
+ },
+ "fac50051e723b1ec": {
+  "t": "[Portugal Global (AICEP), \"Priberam and Kenya's APB explore AI's future in media\", 19 de novembro de 2026](https://portugalglobal.pt/en/news/2026/novembro/priberam-and-kenya-s-apb-explore-ai-s-future-in-media/) (todas as afirmações acima), lido a 26 de novembro de 2026",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "[Portugal Global (AICEP), \"Priberam and Kenya's APB explore ",
+  "ok": false
  }
 }

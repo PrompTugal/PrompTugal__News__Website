@@ -23,6 +23,14 @@
   "src": "A book on starting a company in 30 days with AI prompts is p",
   "ok": false
  },
+ "f936b33f889323cd": {
+  "t": "**Não é indicado o número de trabalhadores** da operação portuguesa.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**No headcount for the Portuguese operation** is given.",
+  "ok": false
+ },
  "f96db7d60cf531ba": {
   "t": "A atividade de IA de Beja, tanto quanto as fontes públicas mostram, passa por uma só instituição: a Universidade Politécnica de Beja (até este ano Instituto Politécnico de Beja), que aderiu ao serviço nacional IAedu, é parceira do projeto de robô agrícola SiARA e de um projeto de aprendizagem automática sobre o queijo Serpa, e acolheu uma conferência de dois dias sobre IA nos cuidados de saúde organizada pela unidade regional de saúde. A câmara surge na história da IA apenas como apoiante de um evento, e a sua própria página de notícias não mostra nenhum item de IA. A agricultura e a saúde, com a universidade como motor, são o centro de gravidade de Beja, e não encontrámos nenhuma startup ou empresa sediada na própria cidade ligada à IA.",
   "by": "translator@PrompTugal.dinis",

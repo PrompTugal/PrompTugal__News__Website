@@ -23,6 +23,14 @@
   "src": "Oi, pá! Loulé, where the market has domes and the council ha",
   "ok": false
  },
+ "dc8cf918d008591c": {
+  "t": "**Não é um ranking que verificámos.** A subida do 14.º para o 10.º lugar é a afirmação do artigo sobre a estimativa do relatório.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**Not a ranking we checked.** The move from 14th to 10th is ",
+  "ok": false
+ },
  "dceaf782b95ea2a7": {
   "t": "Tavira é um de seis municípios na plataforma de dados urbanos Algarve 6.0",
   "by": "translator@PrompTugal.dinis",

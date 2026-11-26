@@ -15,6 +15,14 @@
   "src": "The fibre operator announced on 9 June 2026 that the municip",
   "ok": false
  },
+ "1e42c04e2a5c76a9": {
+  "t": "Estas são estimativas do relatório State of European Tech 2026 da Atomico, não totais finais.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "These are estimates from Atomico's State of European Tech 20",
+  "ok": false
+ },
  "1ea0f915d9fc4fff": {
   "t": "A universidade definiu princípios, deveres e boas práticas para o uso de IA por estudantes, docentes, investigadores e funcionários, com uma abordagem humanista e um impulso a ferramentas institucionais seguras.",
   "by": "translator@PrompTugal.dinis",

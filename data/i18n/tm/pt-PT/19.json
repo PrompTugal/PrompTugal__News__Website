@@ -15,12 +15,28 @@
   "src": "**This site's identity:** PrompTugal.news {name} has its own",
   "ok": false
  },
+ "1978e06c988a75c5": {
+  "t": "Quando as pessoas perguntam a um chatbot o que comprar ou quem contratar, a resposta pode nomear algumas organizações. O perfil da Portugal Global diz que a Reach AI foi fundada “para ajudar os grandes modelos de linguagem a recomendar organizações” e que trabalha com marcas para que apareçam nas respostas de plataformas como o ChatGPT, o Gemini e o Claude.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "When people ask a chatbot what to buy or whom to hire, the a",
+  "ok": false
+ },
  "197990ab5ba89370": {
   "t": "O que não encontrámos, dito com ar sério e um pastel de nata:",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "What we did not find, said with a straight face and a pastel",
+  "ok": false
+ },
+ "197cfab9c8381e1b": {
+  "t": "O artigo não detalha o resto do valor de 2026, pelo que um leitor não consegue perceber por ele que parte da subida é essa ronda e que parte são muitas rondas mais pequenas.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "The article gives no breakdown of the rest of the 2026 figur",
   "ok": false
  },
  "198269aaf1071bc9": {

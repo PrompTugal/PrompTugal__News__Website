@@ -15,6 +15,14 @@
   "src": "The 14th national blueberry growers' meeting, on 12 and 13 M",
   "ok": false
  },
+ "c4d18b49c5ef4791": {
+  "t": "A página da Fortune não diz Porto; o local de fundação e o número de trabalhadores são do The Next Web.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Fortune's page does not say Porto; the founding place and he",
+  "ok": false
+ },
  "c4efd36e51ebaf3c": {
   "t": "O 35.º Seminário Internacional de Comunicação Municipal decorreu no teatro municipal TEMPO a 29 e 30 de outubro, organizado pela OmniSinal com a câmara, sobre os desafios da comunicação na era da IA, incluindo desinformação e comunicação de crise.",
   "by": "translator@PrompTugal.dinis",

@@ -1,4 +1,12 @@
 {
+ "0015024c793b15a8": {
+  "t": "[Tech.eu, \"Investment in European startups surges to $81bn, but capital concentration is a challenge for startups, says Atomico\", 18 de novembro de 2026](https://tech.eu/2026/11/18/investment-in-european-startups-surges-to-81bn-but-capital-concentration-is-a-challenge-for-startups-says-atomico/) (todos os números e a citação), lido a 26 de novembro de 2026",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "[Tech.eu, \"Investment in European startups surges to $81bn, ",
+  "ok": false
+ },
  "00843a929e71fc67": {
   "t": "Os 16 municípios do Algarve e a cidade de Quarteira, cada um com o seu site e o seu agente. Cada site é uma lente sobre as mesmas histórias: as notícias locais em grande, as notícias nacionais e internacionais de IA escolhidas pelo que significam ali.",
   "by": "translator@PrompTugal.dinis",
