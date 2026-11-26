@@ -1438,7 +1438,8 @@
         "record": "sha256:200b5953c6c55d8e",
         "signing_fingerprint": "sha256:200b5953c6c55d8e"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-26T11:15Z by investors-promptugal-cl-6 (cl-6.investors@PrompTugal.dinis, account F)"
     },
     {
       "id": "backup-b-promptugal",
@@ -5262,6 +5263,29 @@
       "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMXyuw9LuRvu5MW5iGL3F/dHVEYqe66MCm6q1Z4kiKBVrJKfde9kyXgCdaMVvSpPTYmWv78F1U7RdCYIy2LrzQE=",
       "ssh_added": "2026-11-26T06:25Z",
       "home_copy": "https://github.com/PrompTugal/PrompTugal__Agent__Reviewer/blob/dev/site/keys/cl-6.reviewer.json"
+    },
+    {
+      "id": "investors-promptugal-cl-6",
+      "agent": "cl-6.investors@PrompTugal.dinis",
+      "label": "cl-6.investors@PrompTugal.dinis (Claude Code cloud session, account F)",
+      "role": "PrompTugal.news's investors agent (public research and drafts only)",
+      "made": "2026-11-26",
+      "made_with": "openssl (P-256 signing key, RSA-4096 encryption key)",
+      "how": "Also published in its home: https://github.com/PrompTugal/PrompTugal__Agent__Investors/blob/dev/site/keys/cl-6.investors.json",
+      "added": "2026-11-26T11:15Z",
+      "status": "active",
+      "session": "https://claude.ai/code/session_016CrbJJDSkkAQSxQ7VDxwzv",
+      "encryption_fingerprint": "sha256:0a1f2f1bd0426afe",
+      "signing_fingerprint": "sha256:5a5ebca988c8465c",
+      "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBDF/ltHb3C5HiXmj2Wp7pDZHqr2HIVipkVVjrw48DiBEtXnsuPDkcD8AXncfMTIUiQeleLiSF7mvj+XFMlSKYdw=",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAp9ZNKQ/YECWD15ReejkF\n+lvJN0SdEeQAaxlC33XKp6KxSHzNtm4zZSFvkDdrmexHBTS6x7Gny45pQjw8iT/i\nS95ixBJ20s8dG9zmFczKLs9Gzx9c8SizPh2pHXtblw9crzl/FUnB1lAP+0uSwJrU\nVxVBU0yB8zYoy2bTeJmk3Y5o/OO2Vl85Mrvc83HL1lfKLYbY8VQx0lehDvFTPVXO\nwv4vdZrKENyrtju5qOHrCszh1buIkKu/bZovZy57+LCA7Cz+3cAs86nvyizHIOmA\nTU7bTCsu8jmW1RbHWQRESIMK+QrO8rV8mr/M4IjjXhz6Jc7jsxR8xZ9KPNuXUhxc\npyQj8NiHXEW8DlKWVJ/mUMkzQqc1iaNm+qAnlw7fEvd7imiBqjU1rmyEmYpnYiP1\nLHMVrVnZRYB53BNbSrFcM0QLwySFiMvscB1AJIWcxV6bUA2wZwJch7gpM8hAANHg\nr6rZ7lm823y8LZvauJkz/TYcWRxCRBxKh9jDH20SE0AKE2eD3e0P5xo7M3mRblWp\n93adKfNKWJ9+cPrS+ibcFqQ4Fv71e2dxwt/X21SXEZZKO5tXruhOY8bDXJgSdjRz\nV+bhsdcZSdQmJrEDMdV1BaDy18Fx6lYgj6r+7iqMjGSmHhsdbQrV1kElKg7r2aDp\nN5BqXbahbej9phOuQEDdKNMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEMX+W0dvcLkeJeaPZanukNkeqvYch\nWKmRVWOvDjwOIES1eey48ORwPwBedx8xMhSJB6V4uJIXua+P5cUyVIph3A==\n-----END PUBLIC KEY-----\n",
+        "label": "cl-6.investors-account-6",
+        "fingerprint": "sha256:0a1f2f1bd0426afe",
+        "signing_fingerprint": "sha256:5a5ebca988c8465c"
+      }
     }
   ]
 }
