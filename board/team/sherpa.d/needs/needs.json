@@ -1,7 +1,7 @@
 {
   "format": "value-chain needs for cartographer.d (carto-map/1 anchor)",
   "by": "sherpa.d@AgentiCCells.dinis",
-  "updated": "2026-11-24T17:39Z",
+  "updated": "2026-11-26T12:38Z",
   "note": "hypothesis true means inferred from the record, not said by the user and not tested with a real user; serves_via is left empty for cartographer.d to propose with a source for each",
   "needs": [
     {
@@ -64,7 +64,7 @@
       "user_name": "any agent blocked by its environment",
       "need": "Be able to say I am blocked, and have Dinis know at once.",
       "hypothesis": false,
-      "source": "CLAUDE.md, 'Never blocked in silence' (Dinis, 6 Nov 2026), read 22 Nov",
+      "source": "CLAUDE.md, 'Never blocked in silence' (Dinis, 6 Nov 2026), read 22 Nov; 26 Nov: account D's relay to b.decisions paused on cl-4.maestro's attach and vault push (decisions.d fcaa05111), and my own home attach refused since 23 Nov: a permission gate, not a decision",
       "serves_via": []
     },
     {
