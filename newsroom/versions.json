@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2333",
+    "date": "2026-11-26",
+    "time": "2026-11-26T18:15:13Z",
+    "what": "cl-6.dev@PrompTugal.dinis: place sync: a later signer cannot name a place another later signer names, nor take over a place that has a home in the Portugal registry (cl-6.security's hardening); test",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "f5810952d"
+  },
+  {
     "version": "v0.1.2332",
     "date": "2026-11-26",
     "time": "2026-11-26T17:44:05Z",
