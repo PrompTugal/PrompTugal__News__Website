@@ -73,3 +73,19 @@ From the next wake, every maestro (and c.maestro first) writes its brief to Dini
 2. Is a tap on the phone, signed with the device key, enough for a one-way door, or only for routine asks?
 3. Who else gets read keys (Angela, the team) and to which parts?
 4. Which inboxes join the Inbox surface first?
+
+## 10. v3 (26 Nov, Dinis ~20:00 UTC): the SGit app, and what to try in it
+
+**Decided by Dinis:** the command centre goes into the **SGit iOS app**, our experimental app: ask for every permission and try powerful features there. PrompTugal is the App Store app. VoiceDebrief is to be refactored and put on the App Store on its own, separately.
+
+**Experiments, in order:**
+
+1. **Notifications.** Remote push (APNs): the app registers for push, a small sender (a GitHub Action or an AWS Lambda, holding the APNs key as a secret) pushes when a vault record of class escalate/decide lands. Escalations use the Time Sensitive interruption level; Critical Alerts need Apple's approval, so not at first. Fallback without a sender: background refresh polls the vault and raises a local notification (timing not guaranteed).
+2. **Talk to it.** Hold to speak: on-device speech-to-text (Apple's Speech framework), the transcript and the audio saved to a vault as a memo, routed to the right agent; replies as chat and spoken back (system voice first, a chosen TTS voice later). VoiceDebrief's capture code is the reference.
+3. **Listen from a vault.** An audio player for vault folders: the Suno playlist first (tracks, artwork, notes).
+4. **Upload, build, notify (the loop).** Dinis (or any owner) picks photos in the app or on a vault web page, they go to a vault folder with a note; a mailroom routes "new upload for site X" to the right conductor; the keeper agent is spun up, builds or updates the site, and the app notifies "done: see it". First case: Oscar's padel lesson photos (shared with his permission).
+5. **Mini agentic loops in the app.** Small jobs (caption these photos, draft this reply, check this page) run as one model with one or two tools on a loop until a check passes, without a full agent session.
+
+**The mailroom** is the missing piece for 4 and for cross-account work: one inbox per account that a conductor drains every 15 to 30 minutes and routes to the agent that can do the job (e.g. a Suno request from account C to suno.b on account B).
+
+**A decision-experience agent:** the fields are decision science (judgement and decision-making, behavioural decision research, decision analysis) and, on the security side, usable security (human factors of security). Its job: review how decisions reach Dinis and others (this app, the briefs, the records), and propose what makes them faster and better; the same question as The Cyber Boardroom ("make better risk decisions"), now in practice.
