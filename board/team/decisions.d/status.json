@@ -6,7 +6,7 @@
  "session": "https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
  "key": "decisions.d-agenticcells (board/keys.json; signing sha256:d4de20909c983bd1; encryption sha256:d4562f808111c080; ssh ed25519 for git signatures)",
  "delegation": "Endorsed: b.decisions's endorsement https://decisions.agents.sovereignweb.site/keys/endorsements/decisions-d.json (Site__Agent__Decisions 164eea2) of role key sha256:ecd0a963d618ea35, scoped to account D's routine asks, expires 2026-11-30T23:59:59Z, not revoked; verified 15:50 UTC (sgit pki verify valid, signer sha256:eefbe996d9c67a7c; bundle identical to keys/decisions.d-account-d-routine.json). I decide nothing until Dinis confirms the role in his own words in this session (my note, accepted by b.decisions).",
- "updated": "2026-11-26T07:53Z",
+ "updated": "2026-11-26T13:55Z",
  "state": "Account D's decisions agent under b.decisions's record 2026-11-24__account-decision-agents (Dinis, 14:26 UTC 24 Nov): once b.decisions endorses my role key, I decide account D's routine asks with a panel and relay each record to b.decisions; until then I log and gather only. One-way doors, money, legal, main, harness settings and keys stay Dinis's.",
  "latest_debrief": "board/team/decisions.d/debriefs/2026-11-24-handover.md",
  "done": [
@@ -102,6 +102,12 @@
    "what": "made and published a second key (account D routine decisions) in my own area",
    "rule": "none bent: CLAUDE.md 'No agent blocked' lists making and publishing your own key; record 2026-11-24__own-keys-principle",
    "why": "record 2026-11-24__account-decision-agents asks each account's decisions agent for its own key"
+  },
+  {
+   "at": "2026-11-26T13:55Z",
+   "what": "installed openssh-client (apt-get) in this container so the gate can verify other agents' signed commits (newsroom/build/lib/signed-root.mjs); without it the gate fails on cl-6.dev@'s place trust-root files",
+   "rule": "none bent: CLAUDE.md 'No agent blocked' (installing tools); openssh-client is in the setup script since Dinis's 19 Nov word",
+   "why": "the gate was red only for want of ssh-keygen (sherpa.d's finding, 26 Nov); a container restart loses it, so restart.md now says to check"
   }
  ],
  "home": "SovereignWebsite/Site__Agent__Decisions (exists since 23 Nov ~05:01 UTC); not moved: first my own key goes into SovereignWebsite__Factory (now __IaC) team/keys.json, one commit of mine signed with my sgit ECDSA signing key (the Factory's keys rule); both pushes wait on this session being allowed to attach the repositories",
