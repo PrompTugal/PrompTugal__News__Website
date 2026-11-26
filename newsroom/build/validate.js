@@ -178,7 +178,7 @@ function officialContacts(f) {
     }
     return ok
 }
-for (const f of files.filter(f => /^(content|data|desks|board)\//.test(rel(f)) && !secrets.BINARY.test(f))) {   // desks/ is served as is, so it is checked too; the verifier's records quote pages (security@'s S21, S28, S28b)
+for (const f of files.filter(f => /^(content|data|desks|board|assets\/newsroom)\//.test(rel(f)) && !secrets.BINARY.test(f))) {   // desks/ is served as is, so it is checked too; the verifier's records quote pages (security@'s S21, S28, S28b)
     const board = rel(f).startsWith('board/')
     const official = officialContacts(f)
     for (const m of text(f).matchAll(EMAIL)) if (!AGENT_NAME.test(m[0]) && !(board && BOARD_OK.test(m[0])) && !/^actions@github\.com$/.test(m[0]) && !(ALLOWED[rel(f)] || []).includes(m[0]) && !official.emails.has(m[0])) errors.push(`${rel(f)}: an email address (${m[0].replace(/^(.).*@/, '$1…@')})`)

@@ -7,19 +7,18 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { cut, noMoney } from '../build/lib/agent-text.mjs'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..')
 const OUT = path.join(ROOT, 'assets/newsroom/agents-snapshot.json')
 const RAW = 'https://raw.githubusercontent.com/'
 const CONDUCTOR = 'PrompTugal/PrompTugal__Agent__Conductor'
 const BRANCH = 'dev', F = 'site/factory/dinis-cruz/account-f/'
-const noMail = s => s.replace(/[^\s@()<>"']*@([A-Za-z0-9.-]+\.[A-Za-z]{2,})/g, (m, d) => /\.dinis$/i.test(d) ? m : '[address]')   // an outlet's mailbox is never copied here (CLAUDE.md, Contacts)
-const cut = (s, n) => { s = noMail(String(s ?? '')).replace(/[\u0000-\u001f\u007f]+/g, ' ').replace(/\s+/g, ' ').trim(); return s.length > n ? s.slice(0, n - 1).trimEnd() + '…' : s }
 const get = async u => { try { const r = await fetch(u, { signal: AbortSignal.timeout(20000) }); return r.ok ? await r.text() : null } catch { return null } }
 const json = async u => { const t = await get(u); try { return t ? JSON.parse(t) : null } catch { return null } }
 
 // what an agent waits on: a string or {what, who, since}; Dinis's are the ones that name him
-const waits = a => (Array.isArray(a) ? a : []).map(x => typeof x === 'string' ? { what: cut(x, 400), who: /^Dinis\b/.test(x) ? 'Dinis' : '' } : { what: cut(x.what, 400), who: cut(x.who || '', 40), since: cut(x.since || '', 20) })
+const waits = a => noMoney(Array.isArray(a) ? a : []).map(x => typeof x === 'string' ? { what: cut(x, 400), who: /^Dinis\b/.test(x) ? 'Dinis' : '' } : { what: cut(x.what, 400), who: cut(x.who || '', 40), since: cut(x.since || '', 20) })
 const stateOf = (state, w) => w.some(x => x.who === 'Dinis') ? 'blocked' : /^(idle|archived|not started|nothing)/i.test(String(state || '').trim()) ? 'idle' : 'working'
 // the last report: the heading and first lines of the last "## " section of now.md
 function lastReport(md) {
@@ -27,7 +26,7 @@ function lastReport(md) {
     const parts = md.split(/^## /m); const last = parts.length > 1 ? parts[parts.length - 1] : ''
     if (!last) return null
     const [head, ...rest] = last.split('\n')
-    return { title: cut(head, 120), text: cut(rest.join(' '), 420) }
+    return /spend|API-equivalent|[$€]\s?\d/i.test(last) ? { title: cut(head, 120), text: '' } : { title: cut(head, 120), text: cut(rest.join(' '), 420) }
 }
 
 let old = {}; try { old = Object.fromEntries(JSON.parse(fs.readFileSync(OUT, 'utf8')).agents.map(a => [a.id, a])) } catch { }

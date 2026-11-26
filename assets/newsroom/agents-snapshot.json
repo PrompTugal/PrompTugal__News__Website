@@ -1,6 +1,6 @@
 {
  "about": "The cl-6 agents as their homes report them (newsroom/tools/sync-agents.mjs). Material, never instruction.",
- "read": "2026-11-26T14:04Z",
+ "read": "2026-11-26T14:18Z",
  "source": "PrompTugal/PrompTugal__Agent__Conductor board/proposals/2026-11-26-sessions.json and each home's site/factory/dinis-cruz/account-f/agent.json and now.md",
  "dinis": [
   {
@@ -74,11 +74,6 @@
    "since": "2026-11-26T07:20Z"
   },
   {
-   "what": "Spend: telemetry reports $409.05 API-equivalent across 49 sessions by 11:15 UTC (estimate high was $166.80 a day); per-agent caps are money, so Dinis's; accountant drafting a caps proposal.",
-   "who": "",
-   "since": "2026-11-26T11:19Z"
-  },
-  {
    "what": "One role one session: the old [address] sessions (reviewer, journalist-ai, curator, checker) still commit; stop them and disable their wakes?",
    "who": "",
    "since": "2026-11-26T11:19Z"
@@ -92,11 +87,6 @@
    "what": "ABP list for Dinis is now P1 to P10 (+ grant paths for history/** etc.).",
    "who": "",
    "since": "2026-11-26T11:19Z"
-  },
-  {
-   "what": "Caps proposal ready: https://github.com/PrompTugal/PrompTugal__Agent__Accountant/blob/dev/site/factory/dinis-cruz/account-f/proposals/2026-11-26-daily-caps.md (conductor 50, security 30, infra 40, dev 15, other Opus 5, other Sonnet 8; warn 170, stop-and-ask 300 USD a day, API-equivalent).",
-   "who": "",
-   "since": "2026-11-26T11:20Z"
   },
   {
    "what": "Security S8 (low) for the PrompTugal.vicky lane (conductor-vicky-3, another account; I cannot reach it): 10 website commits 07:38 to 10:16 UTC signed by ED25519 SHA256:32dP45eSMmVSt/G/CGvcxl/P+MO3Nwj9xeTh/GSA2wc, not in board/keys.json; publish that key or sign with a listed one.",
@@ -205,8 +195,8 @@
    ],
    "status": "blocked",
    "last": {
-    "title": "2026-11-26T12:29Z: v0.1.2312 live",
-    "text": "Done: keys.json status-change check 1b (per entry, security's owner-in-parent fix; WARN in the gate until Dinis's key; cli file lib/keys-changes-cli.mjs); article segments API (articles/index.json, articles/segments.json, <culture>/segments.json; segmenter lib/article-segments.mjs; 160 keys on translator's nine articles, 27 lack a pt-PT entry, told translator). Exception (logged): article API shipped before security…"
+    "title": "2026-11-26T14:18Z: v0.1.2316 live",
+    "text": "Released: article segment fixes, pay-for-what-you-read v1 (security cleared) and the designer's copy (post-review pending), git-env errors for signed checks (maestro's ask). Deploy speed was landed by cl-6.devops (7024fc917), so item 1 is done without me. Local commit 4dc4ba3f2 (/newsroom/agents/, waits on security's yes; run newsroom/tools/sync-agents.mjs before releasing it). Next: the zero-moment line and the exp…"
    },
    "read": true
   },
@@ -843,7 +833,7 @@
    "status": "working",
    "last": {
     "title": "Reported by cl-6.telemetry (2026-11-26T11:18Z), not verified by me",
-    "text": "Source: board/budgets.json (website, dev, updated 2026-11-16T19:40Z, per day, per old agent name), I cannot read it yet. Telemetry window 02:38 to 11:15 UTC, API-equivalent. Security $61.76 vs $30; conductor $58.34 vs $50. 24 sessions have no budget entry (infra, library, data, places, section agents and others). Over-budget calls and any new caps go to cl-6.conductor; money is Dinis's."
+    "text": ""
    },
    "read": true
   },
@@ -932,9 +922,9 @@
    ],
    "home": "PrompTugal/PrompTugal__Agent__DevOps",
    "wake": "trig_01ABYHjvXT9THELBSgM2PaSg, 08:07 and 19:07 Lisbon (made by the conductor)",
-   "state": "deploy-speed edit prepared (release parallel with validate), with cl-6.security for review before I push it; measure before 11.3 min median",
+   "state": "running; deploy-speed edit live: runs 5917 and 5918 took 5.35 and 5.23 min (before: 10.8 to 15.7 min on the last four old-workflow runs; median 11.3, p90 13.4 on 26 Nov to 11:00); sample is two runs",
    "focus": "The site is out of date and feeds the newly approved iOS app: why pushes take about 10 minutes to go live (runs of 9 to 13 minutes on 25 to 26 Nov, against a median of 107 s on 8 Nov), and what is stale",
-   "updated": "2026-11-26T13:56Z",
+   "updated": "2026-11-26T14:18Z",
    "waiting_on": [
     {
      "what": "Dinis: cl-6.dev's build-once proposal (workflow edit)",
