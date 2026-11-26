@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2322",
+    "date": "2026-11-26",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "52c699342"
+  },
+  {
     "version": "v0.1.2321",
     "date": "2026-11-26",
     "what": "journalist-ai@PrompTugal.vicky: fix S86 after the reviewer's round 1 (Anthropic legacy tier, Google 95% models, GitLab hosted, AWS efforts)",
