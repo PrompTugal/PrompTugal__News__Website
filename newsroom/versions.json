@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2296",
+    "date": "2026-11-26",
+    "what": "cl-6.dev@PrompTugal.dinis: home page: the lead is front-page.json's lead (the correspondent's, a PT decision of 26 Nov); the places band keeps its own lead below",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "8a3954900"
+  },
+  {
     "version": "v0.1.2295",
     "date": "2026-11-26",
     "what": "cl-6.ontologist@PrompTugal.dinis: add my key ontologist-promptugal-cl-6 to board/keys.json; the old ontologist-promptugal key superseded",
