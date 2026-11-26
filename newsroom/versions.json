@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2327",
+    "date": "2026-11-26",
+    "time": "2026-11-26T16:28:55Z",
+    "what": "cl-6.dev@PrompTugal.dinis: keys.json check: an entry whose ssh field holds no key counts by its bundle.sign key (cl-6.devops's and cl-6.security's suggestion); tests",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "0bbe55609"
+  },
+  {
     "version": "v0.1.2326",
     "date": "2026-11-26",
     "time": "2026-11-26T16:18:56Z",
