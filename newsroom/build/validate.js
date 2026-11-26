@@ -281,6 +281,11 @@ for (const f of html) {
     try { for (const p of execFileSync(process.execPath, [path.join(__dirname, 'lib/keys-changes-cli.mjs')], { cwd: __dirname, encoding: 'utf8' }).split('\n').filter(Boolean)) sink.push('keys.json: ' + p) } catch (e) { sink.push('keys.json: ' + String(e.message).split('\n')[0]) }
 }
 
+// 18. the operator list (lib/operator-keys.mjs; cl-6.security's O1): its own rule, never signed-root's, so a dev or conductor key cannot make itself an operator
+{
+    try { for (const l of execFileSync(process.execPath, [path.join(__dirname, 'lib/operator-keys-cli.mjs')], { encoding: 'utf8' }).split('\n').filter(Boolean)) (l.startsWith('error: ') ? errors : warnings).push('operator-keys: ' + l.replace(/^(error|notice): /, '')) } catch (e) { errors.push('operator-keys: ' + String(e.message).split('\n')[0]) }
+}
+
 // 17. a commit stays in its signer's ABP paths (lib/abp-paths.mjs; A7, cl-6.security's access review): warnings for a day, then errors
 {
     try { for (const p of execFileSync(process.execPath, [path.join(__dirname, 'lib/abp-paths-cli.mjs')], { encoding: 'utf8' }).split('\n').filter(Boolean)) warnings.push('abp: ' + p) } catch (e) { warnings.push('abp: ' + String(e.message).split('\n')[0]) }
