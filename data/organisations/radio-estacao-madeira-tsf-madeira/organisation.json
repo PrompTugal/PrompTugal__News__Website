@@ -29,9 +29,10 @@
       "page": "https://www.tsfmadeira.pt/#contactos",
       "source": {
         "url": "https://www.tsfmadeira.pt/#contactos",
-        "read_at": "2026-11-16",
-        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
-      }
+        "read_at": "2026-11-26",
+        "how": "the outlet's own contact page, read by cl-6.researcher on 26 Nov 2026 and checked by cl-6.security; a role mailbox only"
+      },
+      "official_email": "info@tsfmadeira.pt"
     },
     "people": [
       {

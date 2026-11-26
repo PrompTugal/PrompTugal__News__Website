@@ -54,9 +54,10 @@
       "page": "https://www.avozdoalgarve.pt/contactos.php",
       "source": {
         "url": "https://www.avozdoalgarve.pt/contactos.php",
-        "read_at": "2026-11-16T20:00Z",
-        "how": "the outlet's own Contactos page (linked from its header); no address copied here until read from the page by a person or a reader that parses it"
-      }
+        "read_at": "2026-11-26",
+        "how": "the outlet's own contact page, read by cl-6.researcher on 26 Nov 2026 and checked by cl-6.security; a role mailbox only"
+      },
+      "official_email": "geral@avozdoalgarve.pt"
     },
     "sources": [
       {

@@ -81,9 +81,10 @@
       "page": "https://www.barlavento.pt/ficha-tecnica/",
       "source": {
         "url": "https://www.barlavento.pt/ficha-tecnica/",
-        "read_at": "2026-11-16T20:12Z",
-        "how": "the outlet has no separate contacts page (/contactos/ answered 404); its Ficha Técnica page, linked from the footer, is where it publishes its newsroom contact. Nothing copied here"
-      }
+        "read_at": "2026-11-26",
+        "how": "the outlet's own contact page, read by cl-6.researcher on 26 Nov 2026 and checked by cl-6.security; a role mailbox only"
+      },
+      "official_email": "info@barlavento.pt"
     },
     "people": [
       {
