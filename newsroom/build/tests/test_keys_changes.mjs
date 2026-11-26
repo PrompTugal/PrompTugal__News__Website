@@ -17,41 +17,39 @@ let bad = 0
 const t = (what, got, want) => { if (JSON.stringify(got) !== JSON.stringify(want)) { bad++; console.error(`FAIL ${what}: ${JSON.stringify(got)}, want ${JSON.stringify(want)}`) } }
 const write = keys => { fs.mkdirSync(path.join(tmp, 'board'), { recursive: true }); fs.writeFileSync(path.join(tmp, 'board/keys.json'), JSON.stringify({ keys }, null, 1) + '\n') }
 const commit = (keys, k, msg) => { write(keys); run(['add', '-A']); run(k ? ['-c', 'gpg.format=ssh', '-c', `user.signingkey=${k.file}`, 'commit', '-S', '-q', '-m', msg] : ['-c', 'commit.gpgsign=false', 'commit', '-q', '-m', msg]); return run(['rev-parse', 'HEAD']).trim() }
-const chk = (base) => checkKeyChanges({ root: tmp, baseline: base })
+let prev = null
+const step = (keys, k, msg) => { const c = commit(keys, k, msg); const got = checkKeyChanges({ root: tmp, baseline: prev }); prev = c; return got }
 run(['init', '-q', '-b', 'dev'])
-const A = E('a-1', 'a@x', KA), B = E('b-1', 'b@x', KB)
-const base = commit([A, B], null, 'baseline (unsigned history before it is not checked)')
-t('nothing after the baseline: nothing to report', chk(base), [])
+const A = E('a-1', 'a@x', KA), B = E('b-1', 'b@x', KB), C = E('c-1', 'c@x', KC)
+prev = commit([A, B], null, 'baseline (earlier history is not checked)')
+t('nothing after the baseline: nothing to report', checkKeyChanges({ root: tmp, baseline: prev }), [])
 
-let keys = [A, B, E('c-1', 'c@x', KC)]
-commit(keys, KC, 'C publishes its first key, signed by it')
-t('a first publication signed by the entry\'s own key passes', chk(base), [])
-
-keys = [A, { ...B, status: 'superseded' }, E('c-1', 'c@x', KC)]
-commit(keys, KA, 'A flips B\'s key (a stranger to B)')
-t('another agent changing B\'s key is reported', chk(base).length, 1)
-
-keys = [A, { ...B, status: 'superseded', superseded_in: 'abc' }, E('c-1', 'c@x', KC), E('b-2', 'b@x', KB2)]
-commit(keys, KB2, 'B restarts: its new key supersedes the old, signed by the new key')
-t('B superseding its own old key with a new one passes (the earlier problem stays)', chk(base).length, 1)
-
-keys = [A, { ...B, status: 'superseded', superseded_in: 'abc' }, E('c-1', 'c@x', KC), E('b-2', 'b@x', KB2), E('x-1', 'x@x', KX)]
-commit(keys, null, 'unsigned change')
-t('an unsigned change is reported', chk(base).length, 2)
-
-keys = [A, { ...B, status: 'superseded', superseded_in: 'abc' }, E('c-1', 'c@x', KC), E('b-2', 'b@x', KB2), E('x-1', 'x@x', KX)]
-keys[0] = { ...keys[0], superseded_in: 'zzz' }
-commit(keys, KA, 'A changes its own entry')
-t('an agent changing its own entry passes', chk(base).length, 2)
-
-keys = keys.map(k => k.id === 'a-1' ? { ...k, status: 'superseded' } : k.id === 'c-1' ? { ...k, status: 'superseded' } : k)
-commit(keys, KA, 'A changes its own and C\'s')
-t('two agents\' entries in one commit are reported', chk(base).length, 3)
-
+t('a first publication signed by the entry\'s own key passes', step([A, B, C], KC, 'C publishes its first key'), [])
+let r = step([A, { ...B, status: 'superseded' }, C], KA, 'A flips B\'s key (a stranger to B)')
+t('another agent changing B\'s key is reported, once', [r.length, /b-1 changed, not signed by an active key of b@x/.test(r[0] || '')], [1, true])
+r = step([A, { ...B, status: 'superseded', superseded_in: 'abc' }, C, E('b-2', 'b@x', KB2)], KB2, 'B hands over: a new key retires the old, signed by the new key')
+t('a hand-over (a new key retiring the old one in the same commit) is reported as such, and the added key itself is fine', [r.length, /b-1 changed in the commit that adds a key for b@x \(hand-over; needs an operator\)/.test(r[0] || '')], [1, true])
+r = step([A, { ...B, status: 'superseded', superseded_in: 'abc' }, C, E('b-2', 'b@x', KB2), E('x-1', 'x@x', KX)], null, 'an unsigned addition')
+t('an unsigned change is reported', [r.length, /x-1 added, not signed/.test(r[0] || '')], [1, true])
+let keys = [A, { ...B, status: 'superseded', superseded_in: 'abc' }, C, E('b-2', 'b@x', KB2), E('x-1', 'x@x', KX)]
+t('an agent changing its own entry passes', step(keys.map(k => k.id === 'a-1' ? { ...k, superseded_in: 'zzz' } : k), KA, 'A changes its own entry'), [])
+keys = keys.map(k => k.id === 'a-1' ? { ...k, superseded_in: 'zzz', status: 'superseded' } : k.id === 'c-1' ? { ...k, status: 'superseded' } : k)
+r = step(keys, KA, 'A changes its own and C\'s')
+t('another agent\'s entry in the same commit is reported (and only it)', [r.length, /c-1 changed/.test(r[0] || '')], [1, true])
+r = step(keys.map(k => k.id === 'b-1' ? { ...k, status: 'active' } : k), KB2, 'B re-activates its own retired key')
+t('re-activation is reported even when the entry\'s own agent signs it', [r.length, /b-1 re-activated \(superseded to active\); operator only/.test(r[0] || '')], [1, true])
 keys = keys.map(k => k.id === 'b-1' ? { ...k, status: 'active' } : k)
-commit(keys, KX, 'a stranger reactivates B\'s old key')
-t('a stranger reactivating a key is reported', chk(base).length, 4)
-
+r = step(keys.map(k => k.id === 'c-1' ? { ...k, status: 'active' } : k), KX, 'a stranger re-activates C\'s key')
+t('a stranger re-activating a key: reported as a re-activation', [r.length, /c-1 re-activated/.test(r[0] || '')], [1, true])
+keys = keys.map(k => k.id === 'c-1' ? { ...k, status: 'active' } : k)
+t('a note-only change is not a change', step(keys.map(k => k.id === 'x-1' ? { ...k, note: 'hello' } : k), KX, 'a note'), [])
+r = step(keys.filter(k => k.id !== 'x-1'), KA, 'A removes X\'s entry')
+t('removing another agent\'s entry is reported', [r.length, /x-1 removed, not signed by an active key of x@x/.test(r[0] || '')], [1, true])
+keys = keys.filter(k => k.id !== 'x-1')
+t('an agent removing its own entry (its still-active key in the parent signs) passes', step(keys.filter(k => k.id !== 'b-2'), KB2, 'B removes its own active entry'), [])
+keys = keys.filter(k => k.id !== 'b-2')
+r = step(keys.filter(k => k.id !== 'a-1'), KA, 'A (its key already superseded) removes its own entry')
+t('a superseded key no longer vouches, not even for its own removal', [r.length, /a-1 removed/.test(r[0] || '')], [1, true])
 t('changedEntries: a note-only change is not a change', changedEntries([{ ...A }], [{ ...A, note: 'x' }]).length, 0)
 t('changedEntries: a status change is', changedEntries([{ ...A }], [{ ...A, status: 'superseded' }]).length, 1)
 t('a missing baseline is reported, not passed', checkKeyChanges({ root: tmp, baseline: 'deadbeefdeadbeefdeadbeefdeadbeefdeadbeef' }).length, 1)
