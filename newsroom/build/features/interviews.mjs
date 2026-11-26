@@ -95,7 +95,7 @@ export function api(ctx) {
         date: meta.date, recorded: meta.recorded || '', summary: meta.home || meta.summary, page: meta.rel,
         vault: { endpoint: meta.vault_endpoint, id: meta.vault_id, read_key: meta.vault_read_key, path: meta.vault_path },
     }))
-    return [{ path: 'api/v1/live/videos.json', schema: null, data: { version: ctx.VERSION, about: 'Interview videos for the apps, newest first; as_of is the day this was built. The list is the interviews recorded so far, not a feed that has stopped.', as_of: ctx.TODAY, count: items.length, items } }]
+    return [{ path: 'api/v1/live/videos.json', schema: null, data: { version: ctx.VERSION, about: 'Interview videos for the apps, newest first; as_of is the build day.', as_of: ctx.TODAY, count: items.length, items } }]
 }
 
 export const llms = ctx => `## Interview videos\n- [api/v1/live/videos.json](${ctx.BASE}api/v1/live/videos.json): interview videos for the apps.\n\n`
