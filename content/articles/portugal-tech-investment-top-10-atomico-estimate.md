@@ -22,7 +22,7 @@ tags: venture capital, Portugal, Tekever, Atomico
 
 ## The story
 
-On 24 November 2026 AICEP published an item in its Portugal Global magazine headed "Portugal enters Europe's top 10 for tech investment". It says the country is expected to reach 910 million dollars of venture capital investment in 2026, against 320 million in 2025, and would rise to 10th place among European countries from 14th.
+On 24 November 2026 AICEP published an item on its Portugal Global news site, credited ca.finance/AICEP, headed "Portugal enters Europe's top 10 for tech investment". It says the country is expected to reach 910 million dollars of venture capital investment in 2026, against 320 million in 2025, and would rise to 10th place among European countries from 14th.
 
 The article credits the estimates to Atomico's State of European Tech 2026 report and gives ca.finance as its source. It describes 2026 as "one of its most significant years" for Portugal in attracting capital, and names the financing round of Tekever, a Portuguese company that builds autonomous systems and artificial intelligence technology, as "one of the main factors behind this development". The round was worth 580 million dollars in September 2026.
 
@@ -40,7 +40,7 @@ The article states the growth as 187 per cent. The two figures it gives, 320 and
 ## Where this comes from
 
 - [Portugal Global (AICEP), "Portugal enters Europe's top 10 for tech investment", 24 November 2026](https://portugalglobal.pt/en/news/2026/novembro/portugal-enters-europe-s-top-10-for-tech-investment/) (every figure and the Tekever claim), read 26 November 2026
-- [Tech.eu, "Investment in European startups surges to $81bn", 18 November 2026](https://tech.eu/2026/11/18/investment-in-european-startups-surges-to-81bn-but-capital-concentration-is-a-challenge-for-startups-says-atomico/) (that the Atomico report exists and was published on 18 November; it does not mention Portugal), read 26 November 2026
+- [Tech.eu, "Investment in European startups surges to $81BN, but Europe faces challenges, says Atomico", 18 November 2026](https://tech.eu/2026/11/18/investment-in-european-startups-surges-to-81bn-but-capital-concentration-is-a-challenge-for-startups-says-atomico/) (that the Atomico report exists: the article, dated 18 November, calls it "the latest edition" but gives no publication date, and does not mention Portugal), read 26 November 2026
 
 ## Who made this
 

@@ -17,7 +17,7 @@ tags: European Commission, quantum, Quantum Act, Sovereign Tech Equity Fund, tec
 
 - On 25 November 2026 the European Commission proposed a Quantum Act, a framework to turn Europe's quantum research into products and services, strengthen supply chains and prepare for post-quantum cryptography.
 - The proposal also lays the groundwork for a Sovereign Tech Equity Fund, a new investment vehicle that would provide equity and similar financing for technologies the Commission calls essential to Europe's technological sovereignty and economic security.
-- The trade site Tech.eu headlined the fund as 50 billion euros. The Commission's press release, news article and explainer do not give that figure, and the explainer says no fixed budget is allocated under the proposal.
+- The trade site Tech.eu headlined the fund as 50 billion euros and its text has the Commission saying "the proposed €50 billion fund". The Commission's press release, news article and explainer do not give that figure, and the explainer says no fixed budget is allocated under the proposal.
 - It is a proposal. The European Parliament and the Council now consider it.
 
 ## The story
@@ -32,7 +32,7 @@ The Act "allows for the establishment" of the Sovereign Tech Equity Fund, which 
 
 ## What the 50 billion euros is, and is not
 
-Tech.eu's article, "EU proposes €50BN equity fund to support quantum and essential sovereign tech", says the EU "has proposed a €50 billion equity fund". We read the Commission's press release, its news article and its "Quantum Act explained" page, and none of them states 50 billion euros. The explainer says: "While no fixed budget is allocated under the proposal, the proposal empowers the Commission to establish a new Sovereign Tech Equity Fund". The press release adds that future EU funding under the Act "would depend on budget decisions and the rules of the programmes concerned".
+Tech.eu's article, "EU proposes €50BN equity fund to support quantum and essential sovereign tech", says the EU "has proposed a €50 billion equity fund" and, in its text, that "the Commission said the proposed €50 billion fund will provide equity". We read the Commission's press release, its news article and its "Quantum Act explained" page, and none of them states 50 billion euros. The explainer says: "While no fixed budget is allocated under the proposal, the proposal empowers the Commission to establish a new Sovereign Tech Equity Fund". The press release adds that future EU funding under the Act "would depend on budget decisions and the rules of the programmes concerned".
 
 We could not find where the 50 billion euro figure comes from. Tech.eu attributes a separate point, that the fund would take stakes in European firms, to Politico, which we did not read. Until a source gives the size, treat 50 billion euros as the trade site's figure, not the Commission's.
 

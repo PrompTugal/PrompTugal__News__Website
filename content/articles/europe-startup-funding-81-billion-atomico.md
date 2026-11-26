@@ -16,7 +16,7 @@ tags: venture capital, Europe, Atomico, compute
 ## In short
 
 - Tech.eu reported on 18 November 2026 that Atomico's State of European Tech report expects 81 billion dollars invested in European startups this year, the second-highest level on record.
-- A record 40,000 founders started new tech companies in Europe, up 36 per cent on a year earlier.
+- Atomico estimates that a record 40,000 founders started new tech companies in Europe, up 36 per cent on a year earlier.
 - "First-money-in" rounds, before Series A, fell almost 30 per cent between 2021 and 2025.
 - Europe hosts 7 per cent of the world's computing capacity, against 72 per cent for the United States.
 
@@ -39,7 +39,7 @@ For Portugal, see our separate piece on AICEP's report of an Atomico estimate fo
 
 ## Where this comes from
 
-- [Tech.eu, "Investment in European startups surges to $81bn, but capital concentration is a challenge for startups, says Atomico", 18 November 2026](https://tech.eu/2026/11/18/investment-in-european-startups-surges-to-81bn-but-capital-concentration-is-a-challenge-for-startups-says-atomico/) (every figure and the quote), read 26 November 2026
+- [Tech.eu, "Investment in European startups surges to $81BN, but Europe faces challenges, says Atomico", 18 November 2026](https://tech.eu/2026/11/18/investment-in-european-startups-surges-to-81bn-but-capital-concentration-is-a-challenge-for-startups-says-atomico/) (every figure and the quote), read 26 November 2026
 
 ## Who made this
 

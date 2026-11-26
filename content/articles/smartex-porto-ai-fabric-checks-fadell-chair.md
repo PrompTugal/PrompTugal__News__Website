@@ -22,20 +22,20 @@ tags: Smartex, Porto, textiles, physical AI
 
 ## The story
 
-According to The Next Web, Smartex has about 65 employees and was founded in Porto in 2018. It sells AI systems that look for defects as fabric moves through a mill, work that many mills still do by eye.
+According to The Next Web and Fortune, Smartex has about 65 employees; The Next Web says it was founded in Porto in 2018. It sells AI systems that look for defects as fabric moves through a mill, work that many mills still do by eye.
 
 Fortune reports that Fadell has put about 10 million dollars into Smartex and is becoming chair. The Next Web adds that his fund, Build Collective, co-led Smartex's 24.7 million dollar Series A in 2022 with Lightspeed Venture Partners. He told Fortune: "There's no Pantone color for quality inspection."
 
 The two new products are Smartex Inspect, which attaches to existing textile machines, and Smartex IQ, which converts the data into supply-chain insights. Fortune says the new system checks fabric continuously at three times human speed, and that Smartex has installed 800 older monitoring systems in 10 countries. H&M is an investor. Fortune says strategic suppliers to H&M are among its launch customers; The Next Web says H&M itself is one of the first customers for the new products, so the sources differ.
 
-The claim a reader should weigh is the money. Fortune reports that H&M typically orders about 5 per cent more fabric than it needs to cover quality problems, and that Smartex's chief executive, Max Easton, estimates the company could save H&M 100 million dollars a year. The Next Web notes it has not verified that figure.
+The claim a reader should weigh is the money. Fortune reports that a company like H&M will typically over-order about 5 per cent more fabric than it needs to cover quality problems, and that Smartex's chief executive, Max Easton, estimates the company could save H&M 100 million dollars a year. The Next Web notes it has not verified that figure.
 
 ## What this does not claim
 
 - **The 100 million dollar saving is an estimate by Smartex's chief executive,** not a measured result.
 - **The three-times-faster figure is from Fortune's account of the company,** not a test we saw.
 - **Nothing here says what Smartex will do in Portugal,** how many people it will hire, or whether it will raise money.
-- Fortune's page does not say Porto; the founding place and headcount are from The Next Web.
+- Fortune's page does not say Porto; the founding place is from The Next Web. Both give the headcount.
 
 ## Where this comes from
 

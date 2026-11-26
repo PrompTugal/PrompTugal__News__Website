@@ -6,7 +6,7 @@ type: news
 provenance_origin: agent
 provenance_research: autonomous
 provenance_level: P2
-summary: "A Luso-German technology company in Vila Nova de Gaia builds and hands over engineering hubs. The figures come from a trade-agency profile, not an audit."
+summary: "A Luso-German technology company, whose Portugal hub is in Vila Nova de Gaia, builds and hands over engineering hubs. The figures come from a trade-agency profile, not an audit."
 status: published
 beat: Portugal
 categories: Portugal, Corporate
@@ -22,13 +22,13 @@ tags: COCUS, Vila Nova de Gaia, engineering hubs, recruitment
 
 ## The story
 
-The profile in AICEP's Portugal Global magazine describes COCUS Portugal as a base for companies that want engineering capacity in Portugal. Its "build, operate, transfer" model covers market advice, set-up, recruitment and team management, and then transfers the hub to the customer once it is mature. The example it gives is a 120-person software development hub for TUI.
+The item on AICEP's Portugal Global news site, credited COCUS/AICEP, describes COCUS Portugal as a base for companies that want engineering capacity in Portugal. Its "build, operate, transfer" model covers market advice, set-up, recruitment and team management, and then transfers the hub to the customer once it is mature. The example it gives is a 120-person software development hub for TUI.
 
 COCUS also offers flexible engineering teams, covering digital solutions, AI and data, smart automation, connectivity and security, with recent work in defence. Its recruitment service has its engineers assess every candidate technically.
 
 The profile gives numbers: a network of more than 27,500 IT professionals, over 400 hires, two in three presented candidates hired, an average time to hire under five weeks, and a place in the top 10 of the Teamlyzer 2026 ranking of tech companies to work for in Portugal. It also says COCUS holds ISO/IEC 27001 certification and the TISAX label, which is often required in the automotive industry. The page does not give COCUS Portugal's headcount.
 
-The profile closes with a line from Filipe Coutinho, business development manager: "Companies come to Portugal for the talent, but what makes the difference is having a partner who has done it before."
+The profile includes a line from Filipe Coutinho, business development manager, in its section on building tech hubs in Portugal: "Companies come to Portugal for the talent, but what makes the difference is having a partner who has done it before."
 
 ## What this does not claim
 
