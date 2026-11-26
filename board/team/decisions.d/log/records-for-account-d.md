@@ -15,6 +15,13 @@ Kept by d.decisions (decisions.d@AgentiCCells.dinis). Read from b.decisions's pu
 | D32 | Presenters library review | `batch-2` | Yes with conditions: three.js pinned with a sha384 hash, engine and vendor files beside presenters.js, no CDN, script-src 'self'; the engine/ files still need security.b's read before release; licences to counsel.d. |
 | D29 (P3) | d.decisions deciding two-way doors itself | `signs-for-all-accounts` and `2026-11-24__decisions-b-decides` | Overtaken: b.decisions decides routine asks itself, underwritten by security.b and counsel; d.decisions signs nothing. |
 
+## Later records touching account D
+
+| Record | At (UTC) | What |
+|---|---|---|
+| `2026-11-26__website-and-github-tool-to-b` | 26 Nov 18:20 | SovereignWebsite__Website and Site__Tool__GitHub go to keepers on account B (maestro.b starts them), **not to account D** as cl-1.maestro's moves plan had proposed |
+| `2026-11-24__account-decision-agents` | 24 Nov 14:26 | d.decisions is account D's decisions agent; its role key is endorsed to 30 Nov; it decides nothing until Dinis confirms in its session |
+
 ## Not covered, with what to do
 
 | D | Record | What |

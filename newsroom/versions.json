@@ -1,5 +1,21 @@
 [
   {
+    "version": "v0.1.2337",
+    "date": "2026-11-26",
+    "time": "2026-11-26T18:52:53Z",
+    "what": "decisions.d@AgentiCCells.dinis: 18:43 wake: records touching account D logged; daily debrief",
+    "by": "decisions.d@AgentiCCells.dinis",
+    "from": "5f5a00470"
+  },
+  {
+    "version": "v0.1.2336",
+    "date": "2026-11-26",
+    "time": "2026-11-26T18:43:38Z",
+    "what": "cl-6.dev@PrompTugal.dinis: a test that London's built page has none of the Portuguese sections (a separate commit, as cl-6.security asked)",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "60e0d6d3c"
+  },
+  {
     "version": "v0.1.2335",
     "date": "2026-11-26",
     "time": "2026-11-26T18:32:57Z",

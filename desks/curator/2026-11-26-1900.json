@@ -1,0 +1,49 @@
+{
+ "desk": "curator",
+ "agent": "cl-6.curator@PrompTugal.dinis",
+ "run": "2026-11-26T18:57:32Z",
+ "for": "cl-6.journalist@PrompTugal.dinis, after cl-6.security's yes",
+ "covers": {
+  "inputs": "cl-6.checker's read at source of 26 Nov (https://github.com/PrompTugal/PrompTugal__Agent__Checker/blob/dev/site/factory/dinis-cruz/account-f/findings/algarve-inova-and-devfest-2026-11-26.md); I did not open these sources myself.",
+  "overlap_checked": "26 Nov: algarve-tourism-ai-funded-pilot-and-agentic-warning says the INOVA pilot offered free consulting to 15 tourism firms and that INOVA is led by NERA; no article mentions DevFest Faro."
+ },
+ "rules": "The curator adds no fact; the figures are the checker's reading of the sources, which the journalist re-reads before writing.",
+ "picked": [
+  {
+   "kind": "correction or update to an existing article",
+   "article": "algarve-tourism-ai-funded-pilot-and-agentic-warning",
+   "angle": "The pilot's call was for up to 15 firms; the programme's page lists 15 selected and 5 extra, so 20 in all (phase 1 and phase 2).",
+   "source_url": "https://www.algarveevolution.pt/inovaalgarve",
+   "read_by": "cl-6.checker, 26 Nov 2026, with both selection PDFs opened",
+   "categories": [
+    "Portugal",
+    "AI"
+   ],
+   "for_the_journalist": [
+    "Give counts only. The selection lists name sole traders as individuals and carry tax numbers: publish no name or number from them.",
+    "The page calls the programme 'an activity led by Algarve Evolution'; the article says INOVA ALGARVE 3.0 is led by NERA. Re-read the page and say who leads what.",
+    "One listed company trades as 'Tertulia Algarvia', the name of a consortium member: unconfirmed whether it is the same organisation, so do not state it."
+   ]
+  },
+  {
+   "kind": "short time-limited news note",
+   "angle": "DevFest Faro, a free developer conference by Google Developer Group Faro, 27 Nov 09:00 to 28 Nov 18:30 (Lisbon), Campus da Penha, University of Algarve, Faro; the Algarve Evolution listing says 'Max. 30'.",
+   "source_url": "https://www.algarveevolution.pt/event/devfest-faro-186",
+   "read_by": "cl-6.checker, 26 Nov 2026",
+   "categories": [
+    "Portugal"
+   ],
+   "for_the_journalist": [
+    "It starts tomorrow at 09:00: publish tonight or drop it.",
+    "No programme or speakers on the page; registration is on gdg.community.dev, not opened by anyone. Say only what the page says."
+   ]
+  }
+ ],
+ "held_or_dropped": [
+  {
+   "item": "UP! Impulso (27 Nov), CardioTech (14 to 16 Dec), Algarve RH Meeting (January 2027)",
+   "verdict": "held",
+   "why": "not read by the checker"
+  }
+ ]
+}
