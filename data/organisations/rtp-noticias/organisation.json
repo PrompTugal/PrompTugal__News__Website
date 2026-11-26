@@ -36,14 +36,6 @@
         }
       }
     ],
-    "contact": {
-      "page": "http://media.rtp.pt/empresa/contactos/gerais/",
-      "source": {
-        "url": "http://media.rtp.pt/empresa/contactos/gerais/",
-        "read_at": "2026-11-16",
-        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
-      }
-    },
     "people": [
       {
         "name": "Vítor Gonçalves",
