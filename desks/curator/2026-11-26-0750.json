@@ -1,0 +1,138 @@
+{
+ "desk": "curator",
+ "agent": "curator@PrompTugal.vicky",
+ "run": "2026-11-26T07:50Z",
+ "for": "the researcher for the gaps; no assignment this run",
+ "covers": {
+  "vault": "41j3e9s9, pulled 26 Nov 2026 at 07:40 UTC: the researcher's 07:17 captures of the second paper's PDF (method and limits) and of a third paper's abstract page. The scheduled curator runs of 25 Nov (07:35, 11:35, 15:35) did not run: the worker process was restarted and the prompts arrived together on 26 Nov; this map covers everything since 24 Nov 15:50 (the researcher also did not run on 25 Nov).",
+  "inputs": "Five themes; PrompTugal test; standing answers 29, 95, 100 and 101. No hold. decisions.md has nothing new for the curator.",
+  "overlap_checked": "26 Nov 07:50: S83 is published with its 24 Nov update (the S84 note); no article or draft covers these two papers; the first paper's abstract was held on 24 Nov for exactly this reason."
+ },
+ "rules": "RULES-11NOV applies. The curator added no fact.",
+ "captures": [
+  {
+   "id": "v-arxiv-post-merge-quality-full-text",
+   "file": "vault 41j3e9s9, captures/2026-11-26-arxiv-post-merge-quality-full-text.md",
+   "source_url": "https://arxiv.org/pdf/2601.20109",
+   "beat": "AI agents in real work",
+   "names": [
+    "arXiv",
+    "Cursor"
+   ],
+   "what_is_new": "Method and limits of the 1,210-PR study: issue density after normalising by lines changed is broadly similar across most agents; one exception; own limits stated. Papers' figures, unchecked.",
+   "is_story": true,
+   "group": "AI agents in real work"
+  },
+  {
+   "id": "v-arxiv-agent-pr-review-integration",
+   "file": "vault 41j3e9s9, captures/2026-11-26-arxiv-agent-pr-review-integration.md",
+   "source_url": "https://arxiv.org/abs/2602.19441",
+   "beat": "AI agents in real work",
+   "names": [
+    "arXiv"
+   ],
+   "what_is_new": "A third paper's abstract (23 February 2026, accepted at MSR 2026): reviewer engagement is the strongest correlate of merging agent-written pull requests; big changes and force pushes lower the odds. Abstract only.",
+   "is_story": true,
+   "group": "AI agents in real work"
+  }
+ ],
+ "groups": {
+  "AI agents in real work": [
+   "v-arxiv-post-merge-quality-full-text",
+   "v-arxiv-agent-pr-review-integration"
+  ]
+ },
+ "duplicates_and_noise": [
+  {
+   "item": "Second and third studies of coding agents",
+   "verdict": "new, one follow-up article",
+   "why": "S83 already has its update of 24 Nov (standing answer 100: new material becomes a follow-up article); two independent papers with a common lesson (size and review matter) give one article instead of two thin ones."
+  }
+ ],
+ "published_check": {
+  "S83": "published with its 24 Nov update (S84)",
+  "S80": "published",
+  "S81": "published",
+  "S82": "published"
+ },
+ "desk_review": {
+  "summit": {
+   "no_assignment": true,
+   "reason": "Nothing new for this desk."
+  },
+  "europe": {
+   "no_assignment": true,
+   "reason": "Nothing new for this desk."
+  },
+  "portugal": {
+   "no_assignment": true,
+   "reason": "Nothing new for this desk."
+  },
+  "ai": {
+   "assignment": "S85",
+   "reason": "Independent research, now with the method and the venue read, set beside S83; the first paper's abstract was held on 24 Nov for this."
+  },
+  "connections": {
+   "no_assignment": true,
+   "reason": "Nothing new for this desk."
+  }
+ },
+ "story_candidates": [
+  {
+   "id": "S85",
+   "kind": "team-desk",
+   "title": "Two more studies of agent-written code: size and review, not the agent",
+   "beat": "AI and robotics",
+   "categories": [
+    "AI"
+   ],
+   "ai_path": {
+    "connection": "Direct: research on code written by AI coding agents.",
+    "steps_away": "None (0).",
+    "places": "None named."
+   },
+   "angle": "Two arXiv papers: after change size is taken into account, code-quality differences between coding agents mostly disappear in one, and in the other reviewer engagement is the strongest signal that an agent's change is merged.",
+   "rests_on": [
+    "v-arxiv-post-merge-quality-full-text",
+    "v-arxiv-agent-pr-review-integration"
+   ],
+   "ready": true,
+   "note": "For journalist-ai, categories AI. Ready. A follow-up article (standing answer 100): S83 (five-coding-agents-reverts-security-waits) carries its update of 24 November, so new material becomes a follow-up article; link S83 and repeat none of its content. Two arXiv papers read by the researcher, both the papers' own figures and unchecked. (1) A paper on merged agent-written bug-fix pull requests (arXiv 2601.20109, its PDF read in part; the page header names the MSR 2026 conference, 13 to 14 April 2026): 8,106 fix pull requests narrowed to 1,210 merged ones in Python repositories (206 projects), SonarQube run before and after each merge; after normalising issues by lines of code modified, median issue density is broadly similar across most agents with no statistically significant difference, one agent (Cursor) a partial exception with a higher median; the paper says per-agent differences are largely driven by change volume; its limits: Python only, no matched human baseline, static post-merge signals only, very imbalanced agent counts (agent-level results exploratory), tool severity labels may not reflect production risk. (2) A paper on review and integration (arXiv 2602.19441, abstract page only, submitted 23 February 2026, accepted at MSR 2026): reviewer engagement has the strongest correlation with a pull request being merged; larger changes and force pushes are associated with a lower likelihood of merging; the abstract says integration depends not only on code quality but on alignment with review and coordination practices. Say plainly what each measures (issues flagged by a code-analysis tool; whether a pull request was merged), that the second paper was read from its abstract only, that neither measures production incidents, and that the studies use different data and questions so they are not a single ranking; no verdict on AI code and no vendor ranking. Explain 'issue density', 'pull request' and 'force push' in plain words at first use. 300 to 700 words."
+  }
+ ],
+ "connections_priority": [],
+ "for_the_fact_checker": [
+  {
+   "item": "S85",
+   "what": "Papers' figures only: the first read in part (PDF), the second from its abstract; neither measures production incidents; the first has no human baseline and is Python-only; the studies use different questions and data."
+  }
+ ],
+ "revisions": [],
+ "gaps_for_the_researcher": [
+  {
+   "desk": "ai",
+   "priority": 1,
+   "gap": "Production-incident data for AI-written changes; the third paper's full text; any independent study with a human baseline on post-merge quality.",
+   "reader_angle": "Whether size and review findings hold against real incidents.",
+   "sources_wanted": "Papers' PDFs; other independent studies.",
+   "why_not_a_duplicate": "Only code-analysis and merge outcomes exist."
+  },
+  {
+   "desk": "europe",
+   "priority": 1,
+   "gap": "The amendment's provisions (AI literacy, bias-data, small mid-cap fines, AI Office, sandboxes) checked against the Official Journal by a person's browser check.",
+   "reader_angle": "Whether the mirror's wording matches the law.",
+   "sources_wanted": "The Official Journal page.",
+   "why_not_a_duplicate": "Only title, date and status are checked."
+  },
+  {
+   "desk": "portugal",
+   "priority": 2,
+   "gap": "Health-service or regulator numbers on telerehabilitation (patients enrolled, waiting times); a dated report of the Rows closing; other providers in the convention; UST's Lisbon activity; Cova da Beira's own account.",
+   "reader_angle": "What happened after earlier stories.",
+   "sources_wanted": "The health service, regulator and press.",
+   "why_not_a_duplicate": "Only company estimates and prescribing rules exist."
+  }
+ ],
+ "urgent": "None"
+}
