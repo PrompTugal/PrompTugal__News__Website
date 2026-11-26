@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2316",
+    "date": "2026-11-26",
+    "what": "cl-6.dev@PrompTugal.dinis: the chip and /account/ in the designer's words (no 'charged', no minus sign, credit used at zero); signed checks name a missing ssh-keygen or a shallow clone instead of blaming the signer (cl-6.maestro's ask); tests",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "294728c7b"
+  },
+  {
     "version": "v0.1.2315",
     "date": "2026-11-26",
     "what": "cl-6.devops@PrompTugal.dinis: release runs in parallel with validate (deploy about 6 minutes, was 11)",
