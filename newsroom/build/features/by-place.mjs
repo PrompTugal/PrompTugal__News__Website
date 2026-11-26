@@ -6,6 +6,7 @@
 // word (15 Nov 2026, for his meeting with Algarve Evolution); dev@ owns it from here.
 export const order = 69
 import { camLines, quotesIpma } from './weather.mjs'
+import { plain } from '../lib/agent-text.mjs'
 import { checkSites } from '../../../board/abp/tools/site-identity.mjs'
 import { execFileSync } from 'node:child_process'
 import fs from 'node:fs'
@@ -59,12 +60,16 @@ const isLocalPlace = p => p.kind === 'municipality' || p.kind === 'city'
 // the Algarve's towns (parent algarve, or a city inside one of them) for the region page, its map and its counts; every
 // local place, the district capitals under portugal included (place.districts@), still gets its own page
 const inAlgarve = (L, p) => { for (let q = p, i = 0; q && i < 5; q = L.byId.get(q.parent), i++) if (q.parent === 'algarve') return true; return false }
+// a place inside the Portugal tree (Portugal itself, its regions and towns); London (26 Nov 2026) is the first place outside it, and the Portuguese reading, news, map and weather
+// sections of a town page do not belong on it
+const inPortugal = (L, p) => { for (let q = p, i = 0; q && i < 6; q = L.byId.get(q.parent), i++) if (q.id === 'portugal') return true; return false }
 const towns = (L) => L.list.filter(p => isLocalPlace(p) && inAlgarve(L, p))
 const pagePlaces = (L) => L.list.filter(isLocalPlace)
 const W = (L, key, vars = {}) => String(L.copy[key] || '').replace(/\{(\w+)\}/g, (_, k) => vars[k] ?? '')
 const n = (k, one, many) => `${k} ${k === 1 ? one : (many || one + 's')}`
 
-function esc(ctx, s) { return ctx.md.cell(String(s ?? '')) }
+// place data is agent-written text: through plain(), so no link, image or autolink can be made of it (cl-6.security's W1, and the same for London, 26 Nov 2026)
+function esc(ctx, s) { return plain(s) }
 
 function newsCards(ctx, items, cls) {
     if (!items || !items.length) return ''
@@ -171,9 +176,9 @@ function sideCol(ctx, L, p, rel, inside) {
     const v = p.voice || {}
     let md = ''
     if (inside.length) md += `{.mini-h}\n${W(L, 'h_inside', { name: esc(ctx, p.name) })}\n\n${inside.map(x => `- [${esc(ctx, x.name)}](${ctx.link(rel, `${x.path}index.html`)})`).join('\n')}\n\n`
-    md += mediaBlock(ctx, p, rel, [p.id, p.parent, 'algarve', 'portugal'].filter(Boolean))
+    md += mediaBlock(ctx, p, rel, (inPortugal(L, p) ? [p.id, p.parent, 'algarve', 'portugal'] : [p.id, p.parent]).filter(Boolean))
     md += `{.mini-h}\n${W(L, 'h_events')}\n\n` + (p.events.length ? `{.bp-events}\n${p.events.map(e => `- [${esc(ctx, e.title)}](${url(e.url)})${e.date ? ` · ${esc(ctx, e.date)}` : ''}${typeof e.ai_path === 'string' && e.ai_path ? ` · AI path: ${esc(ctx, e.ai_path)}` : ''}`).join('\n')}` : `{.bp-empty}\nNone found yet.`) + '\n\n'
-    if (p.kind !== 'country' && !nowBlock(ctx, p, L)) md += `{.mini-h}\n${W(L, 'h_weather')}\n\n${W(L, 'weather', { name: p.name })}\n\n`
+    if (p.kind !== 'country' && inPortugal(L, p) && !nowBlock(ctx, p, L)) md += `{.mini-h}\n${W(L, 'h_weather')}\n\n${W(L, 'weather', { name: p.name })}\n\n`
     if (p.extras.length) md += `{.mini-h}\n${W(L, 'h_figures')}\n\n{.bp-extras}\n${p.extras.map(x => `- **${esc(ctx, x.label)}:** ${esc(ctx, x.value)}${url(x.source_url) ? ` ([source](${url(x.source_url)}))` : ''}`).join('\n')}\n\n`
     if (p.start_company.length) md += `{.mini-h}\n${W(L, 'start_h', { name: esc(ctx, p.name) })}\n\n` + entries(ctx, p.start_company, '', x => x.kind ? ` \`${esc(ctx, x.kind)}\`` : '')
     if (p.contacts.length) md += `{.mini-h}\n${W(L, 'contacts_h')}\n\n` + entries(ctx, p.contacts, '', x => x.channel ? `: ${esc(ctx, x.channel)}${/[.!?:]$/.test(x.channel.trim()) || !x.what ? '' : '.'}` : '')
@@ -218,12 +223,13 @@ function townPage(ctx, L, p) {
     const rel = `${p.path}index.html`
     const parent = L.byId.get(p.parent)
     const region = L.byId.get('algarve')
-    const parentLink = parent ? `[${esc(ctx, parent.name)}](${ctx.link(rel, `${parent.path}index.html`)})` : ''
+    const pt = inPortugal(L, p)
+    const parentLink = parent ? (pt || parent.kind !== 'country' ? `[${esc(ctx, parent.name)}](${ctx.link(rel, `${parent.path}index.html`)})` : esc(ctx, parent.name)) : ''   // a country outside Portugal has no page of its own: its name, not a link
     const inside = L.list.filter(x => x.parent === p.id)
     const local = p.ai_news
-    const algarve = inAlgarve(L, p), wider = (algarve ? (region ? region.ai_news : []) : (L.byId.get('portugal') || { ai_news: [] }).ai_news).slice(0, 4)
+    const algarve = inAlgarve(L, p), wider = !pt ? [] : (algarve ? (region ? region.ai_news : []) : (L.byId.get('portugal') || { ai_news: [] }).ai_news).slice(0, 4)
     const ours = tagged(ctx, m => m.town === p.id || inside.some(x => m.town === x.id))
-    const latest = tagged(ctx, m => !ours.some(o => o.meta === m)).slice(0, 4)
+    const latest = !pt ? [] : tagged(ctx, m => !ours.some(o => o.meta === m)).slice(0, 4)
     let md = mast(ctx, L, p, parentLink) + photoBand(ctx, L, p, rel)
     { const nb = nowBlock(ctx, p, L); if (nb) md += `::: bp-nowband\n${nb}:::\n\n` }   // live, at the top (Dinis, 16 Nov: 'quite hidden')
     md += `\n::: cols-8-4\n::: col\n`
@@ -242,10 +248,10 @@ function townPage(ctx, L, p) {
     const accent = (p.look && p.look.accent) || DEF_ACCENT
     return {
         src: `data/by-place/${p.id}.json`, rel, type: 'place', layout: 'wide', date: dmy(p.updated) || ctx.TODAY,
-        section: 'portugal', group: 'Portugal',
-        crumbs: [['portugal/index.html', 'Portugal'], ...(!algarve ? [] : p.parent === 'loule' ? [['algarve/index.html', 'The Algarve'], [`algarve/loule/index.html`, 'Loulé']] : [['algarve/index.html', 'The Algarve']]), [null, p.name]],
+        section: pt ? 'portugal' : '', group: pt ? 'Portugal' : 'Europe',
+        crumbs: [...(pt ? [['portugal/index.html', 'Portugal']] : []), ...(!algarve ? [] : p.parent === 'loule' ? [['algarve/index.html', 'The Algarve'], [`algarve/loule/index.html`, 'Loulé']] : [['algarve/index.html', 'The Algarve']]), [null, p.name]],
         title: `PrompTugal.news ${p.name}`,
-        summary: W(L, 'town_summary', { name: p.name, local: n(local.length, 'local AI story', 'local AI stories'), map: n((p.ai_map || []).length, 'organisation') }),
+        summary: W(L, pt ? 'town_summary' : 'place_summary', { name: p.name, local: n(local.length, 'local AI story', 'local AI stories'), map: n((p.ai_map || []).length, 'organisation') }),
         assets: { css: ['assets/by-place/by-place.css'], js: ['assets/by-place/by-place.js'] },
         postHtml: html => `<div class="bp-frame" data-place="${p.id}" style="--accent:${accent}">${html.replace(/<p class="bp-svgmap bp-locator">([\s\S]*?)<\/p>/, (m, link) => `<figure class="bp-svgmap bp-locator">${algarveSvg(ctx, L, rel, towns(L), p.id)}<figcaption>${link}</figcaption></figure>`)}</div>`,
         md,
