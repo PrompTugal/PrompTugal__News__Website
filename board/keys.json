@@ -417,7 +417,8 @@
         "fingerprint": "sha256:736946c2ec69fa90",
         "signing_fingerprint": "sha256:0d569717985c6923"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-26T11:15Z by historian-promptugal-cl-6 (cl-6.historian@PrompTugal.dinis, account F)"
     },
     {
       "id": "devops-promptugal",
@@ -5359,6 +5360,30 @@
       "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBP72mlwIkgOL1PNHDdqvVd/eh4F33gAtVi6dURpnu2wZOkPXEDdnE9O739ffMr2ExKc+fX2NHknV31NGCKl1TG4=",
       "ssh_added": "2026-11-26T11:16Z",
       "home_copy": "https://github.com/PrompTugal/PrompTugal__Agent__Rights/blob/dev/site/keys/cl-6.rights.json"
+    },
+    {
+      "id": "historian-promptugal-cl-6",
+      "agent": "cl-6.historian@PrompTugal.dinis",
+      "label": "cl-6.historian@PrompTugal.dinis: the historian of PrompTugal.news, on Dinis's Claude account 6 (account F)",
+      "role": "Historian: the story of PrompTugal.news, its site and its team, and lessons from past work. A session key: it ends with its session.",
+      "made": "2026-11-26",
+      "made_with": "openssl (P-256 signing key, RSA-4096 encryption key), in its own session; private halves only in that session",
+      "added": "2026-11-26T11:15Z",
+      "status": "active",
+      "session": "https://claude.ai/code/session_016CrbJLLxVYAM8QwqHBV7aM",
+      "encryption_fingerprint": "sha256:3ab9e73ccda0845d",
+      "signing_fingerprint": "sha256:b7d514304922c751",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsG19DdbRU0aF3O2Hds1G\nv5xA0sI7fW8El2l2JF5stYnAZczAByqgWxrQcmQyStVuOhinZPCFXLlsgd+Jdeg9\n4qOlJiZWlimWVPNJTHQMUEXdcjofJV0gLqZ8h+PSA9c05EYSuRi9iA41WKbX5kYy\nUHQKjWYnyoTa72egjfG6jPYvKv7sczTv9oQK2LcVC06ricRZ1qcFdSuKeYZXwr/i\neAVjoHLlNOWmooqufEVleLXJWzH6McFcg3TfRfA5ny0jSgLkVQ67cpUbN4RGSfQY\nve39cm0QhEQTFqSESfhj/dZrI5g2c/FhAUl8LNl2YSZt/Wo+8HMBpTVCbpCfxev7\nJO3GbBMKVkXNEBBHrQI0vL6+v9Wr0453r9GHCdJajdtqATc/n07x3LTIymulq+Zz\nO6gxGp2+fz+eHiyubdJpyh6OE9q7rFAqbxLmwF1PGTTC9eAQeVfToYalhV5neTM9\ntxzRsaEi/VI6g5OiJ2xnlCK5rrY6S/vy5WGoABjIFBDRK3dYlfCfKKTlseJFa1FL\nsu0sYzCzCQpquTmPd7eXP85JCQj7fwyfRrXJRsM0qBIgO/Rymsk96WyuIp99hzkf\nn+2w8YY2ZkjGtAk8ogBe94SpI9FtvfVKC87bIvB70Tk3jA/JMnHtmLUpgufT2huZ\nqKY9P4RTrEcN4Bpqt6zikbcCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhQa1wsaBZVtB+q/TwWT7utxNQH4P\nRjPO+CyhKuPaxqOtbH58pyxil7ODlkPgVuF5Ct5RafQII4VVl/9WQZ6UIw==\n-----END PUBLIC KEY-----\n",
+        "label": "cl-6.historian",
+        "fingerprint": "sha256:3ab9e73ccda0845d",
+        "signing_fingerprint": "sha256:b7d514304922c751"
+      },
+      "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIUGtcLGgWVbQfqv08Fk+7rcTUB+D0YzzvgsoSrj2sajrWx+fKcsYpezg5ZD4FbheQreUWn0CCOFVZf/VkGelCM=",
+      "ssh_added": "2026-11-26T11:15Z",
+      "home_copy": "https://github.com/PrompTugal/PrompTugal__Agent__Historian/blob/dev/site/keys/cl-6.historian.json"
     }
   ]
 }
