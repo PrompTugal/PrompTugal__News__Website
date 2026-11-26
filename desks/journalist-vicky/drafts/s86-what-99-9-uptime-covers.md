@@ -4,7 +4,7 @@ date: 2026-11-26
 story: S86
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
 summary: "An uptime promise is a number plus rules for what counts as down, over what period and what the customer gets. Five providers' own pages, read on 26 November 2026, differ on all three."
-status: draft
+status: approved
 beat: AI and robotics
 categories: AI
 license: https://creativecommons.org/licenses/by/4.0/

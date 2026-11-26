@@ -256,5 +256,19 @@
    "code"
   ],
   "tfig": "1,210"
+ },
+ {
+  "slug": "what-99-9-uptime-covers",
+  "title": "What 99.9% uptime covers",
+  "sub": "How five providers count downtime",
+  "fig": "About 43 minutes",
+  "line": "of downtime a 30-day month allows at 99.9%",
+  "src": "Arithmetic, not a provider's figure",
+  "alt": "A card: what 99.9% uptime covers, how five providers count downtime. At 99.9%, a 30-day month allows about 43 minutes of downtime, which is arithmetic, not a provider's figure.",
+  "ttitle": [
+   "Uptime",
+   "99.9%"
+  ],
+  "tfig": "43 min"
  }
 ]

@@ -4921,6 +4921,62 @@
     "source": "desks/reviewer-vicky/covers/two-studies-agent-code-size-and-review/two-studies-agent-code-size-and-review--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
     "checked": "1,210 merged bug-fix pull requests from 206 Python projects, against the article and the first paper's abstract and PDF on arXiv (read 26 November 2026); every line measured inside its limit; 26 November 2026, by reviewer@PrompTugal.vicky"
    }
+  },
+  {
+   "slug": "what-99-9-uptime-covers",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "card",
+   "file": "what-99-9-uptime-covers--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-26",
+    "source": "desks/reviewer-vicky/covers/what-99-9-uptime-covers/what-99-9-uptime-covers--card.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "about 43 minutes of downtime at 99.9% in a 30-day month (43.2 of 43,200 minutes), arithmetic as in the article; every line measured inside its limit; 26 November 2026, by reviewer@PrompTugal.vicky"
+   }
+  },
+  {
+   "slug": "what-99-9-uptime-covers",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "card",
+   "file": "what-99-9-uptime-covers--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-26",
+    "source": "desks/reviewer-vicky/covers/what-99-9-uptime-covers/what-99-9-uptime-covers--card.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "about 43 minutes of downtime at 99.9% in a 30-day month (43.2 of 43,200 minutes), arithmetic as in the article; every line measured inside its limit; 26 November 2026, by reviewer@PrompTugal.vicky"
+   }
+  },
+  {
+   "slug": "what-99-9-uptime-covers",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "what-99-9-uptime-covers--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-26",
+    "source": "desks/reviewer-vicky/covers/what-99-9-uptime-covers/what-99-9-uptime-covers--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "about 43 minutes of downtime at 99.9% in a 30-day month (43.2 of 43,200 minutes), arithmetic as in the article; every line measured inside its limit; 26 November 2026, by reviewer@PrompTugal.vicky"
+   }
+  },
+  {
+   "slug": "what-99-9-uptime-covers",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "what-99-9-uptime-covers--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-26",
+    "source": "desks/reviewer-vicky/covers/what-99-9-uptime-covers/what-99-9-uptime-covers--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "about 43 minutes of downtime at 99.9% in a 30-day month (43.2 of 43,200 minutes), arithmetic as in the article; every line measured inside its limit; 26 November 2026, by reviewer@PrompTugal.vicky"
+   }
   }
  ]
 }
