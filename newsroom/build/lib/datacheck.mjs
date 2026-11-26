@@ -5,6 +5,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { checkMediaContact } from './media-contact.mjs'
 import { checkPlaceSources } from './place-sources.mjs'
+import { checkSignedRoot } from './signed-root.mjs'
 import { R, walk } from './config.mjs'
 import { loadSchemas, validate } from './schema.mjs'
 import { derive } from './derive.mjs'
@@ -141,6 +142,7 @@ export function checkData() {
     for (const x of s.series) { const w = `data/series/${x.id}`; need(w, x.organised_by); need(w, x.place); for (const d of x.editions) need(w, d.event) }
     for (const e of s.events) need(`data/events/${e.id}`, e.series)
     // a news outlet (kind media)
+    errors.push(...checkSignedRoot().map(e => `place trust root: ${e}`))   // the pin and the sources change only by a dev or conductor signed commit (lib/signed-root.mjs)
     errors.push(...checkPlaceSources())   // a place file is the one synced from a verified commit (lib/place-sources.mjs)
     for (const o of s.organisations) {
         const w = `data/organisations/${o.id}`
