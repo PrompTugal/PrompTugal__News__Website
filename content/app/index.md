@@ -7,7 +7,7 @@ summary: An iOS app for PrompTugal.news is approved, and it reads this site's pu
 
 ## What the app reads {#reads}
 
-All of it is public JSON, rebuilt with every release of the site. The data is CC BY 4.0.
+All of it is public JSON, rebuilt with every release of the site. What PrompTugal.news made is CC BY 4.0 (code Apache-2.0); an item from another source keeps its own terms, as each file says.
 
 - [The index of every endpoint](../api/v1/index.json) and [what the data is](../api/index.html).
 - [Articles](../api/v1/articles.json): every article, signed. The list also says which pages were withdrawn.
