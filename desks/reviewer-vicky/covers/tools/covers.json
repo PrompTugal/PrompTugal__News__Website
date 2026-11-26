@@ -228,5 +228,19 @@
   ],
   "tfig": "37,623",
   "tfs": 72
+ },
+ {
+  "slug": "cost-holds-back-portuguese-firms-from-ai",
+  "title": "What holds firms back from AI",
+  "sub": "Firms that considered AI but did not use it",
+  "fig": "60.4% cited cost",
+  "line": "in Portugal, against 38.4% across the EU",
+  "src": "Figures: Eurostat, 2025 data",
+  "alt": "A card: what holds firms back from AI. 60.4% of Portuguese firms that considered AI but did not use it cited cost in 2025, against 38.4% across the EU, from Eurostat.",
+  "ttitle": [
+   "Cost",
+   "and AI"
+  ],
+  "tfig": "60.4%"
  }
 ]

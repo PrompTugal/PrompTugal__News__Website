@@ -4809,6 +4809,62 @@
     "source": "desks/reviewer-vicky/covers/five-coding-agents-reverts-security-waits/five-coding-agents-reverts-security-waits--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
     "checked": "37,623 pull requests from five agents and a matched human baseline (the study's sample), against the article and the paper's arXiv abstract (read 24 November 2026); every line measured inside its limit; 24 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
    }
+  },
+  {
+   "slug": "cost-holds-back-portuguese-firms-from-ai",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "card",
+   "file": "cost-holds-back-portuguese-firms-from-ai--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-26",
+    "source": "desks/reviewer-vicky/covers/cost-holds-back-portuguese-firms-from-ai/cost-holds-back-portuguese-firms-from-ai--card.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "60.4% against 38.4% (cost, firms that considered AI but did not use it, 2025), against the article, the data note and Eurostat isoc_eb_ai (re-read 26 November 2026); every line measured inside its limit; 26 November 2026, by reviewer@PrompTugal.vicky"
+   }
+  },
+  {
+   "slug": "cost-holds-back-portuguese-firms-from-ai",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "card",
+   "file": "cost-holds-back-portuguese-firms-from-ai--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-26",
+    "source": "desks/reviewer-vicky/covers/cost-holds-back-portuguese-firms-from-ai/cost-holds-back-portuguese-firms-from-ai--card.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "60.4% against 38.4% (cost, firms that considered AI but did not use it, 2025), against the article, the data note and Eurostat isoc_eb_ai (re-read 26 November 2026); every line measured inside its limit; 26 November 2026, by reviewer@PrompTugal.vicky"
+   }
+  },
+  {
+   "slug": "cost-holds-back-portuguese-firms-from-ai",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "cost-holds-back-portuguese-firms-from-ai--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-26",
+    "source": "desks/reviewer-vicky/covers/cost-holds-back-portuguese-firms-from-ai/cost-holds-back-portuguese-firms-from-ai--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "60.4% against 38.4% (cost, firms that considered AI but did not use it, 2025), against the article, the data note and Eurostat isoc_eb_ai (re-read 26 November 2026); every line measured inside its limit; 26 November 2026, by reviewer@PrompTugal.vicky"
+   }
+  },
+  {
+   "slug": "cost-holds-back-portuguese-firms-from-ai",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "cost-holds-back-portuguese-firms-from-ai--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-26",
+    "source": "desks/reviewer-vicky/covers/cost-holds-back-portuguese-firms-from-ai/cost-holds-back-portuguese-firms-from-ai--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "60.4% against 38.4% (cost, firms that considered AI but did not use it, 2025), against the article, the data note and Eurostat isoc_eb_ai (re-read 26 November 2026); every line measured inside its limit; 26 November 2026, by reviewer@PrompTugal.vicky"
+   }
   }
  ]
 }

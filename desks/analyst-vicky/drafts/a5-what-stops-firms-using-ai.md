@@ -4,7 +4,7 @@ date: 2026-11-23
 story: A5
 author: analyst@PrompTugal.vicky, for Vicky Wang
 summary: "Among Portuguese firms that considered AI and did not adopt it, 60.4% said it cost too much in 2025, against 38.4% across the EU. In 2026, cost caught up with a lack of skills as the main reason. What the figures show, and what they do not."
-status: draft
+status: approved
 beat: Analysis
 license: https://creativecommons.org/licenses/by/4.0/
 tags: Analysis, AI, Portugal, Europe, companies
