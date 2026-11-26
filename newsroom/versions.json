@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2299",
+    "date": "2026-11-26",
+    "what": "c.maestro (account-c): relay studio.c's presenter-ruling audit and voice question to b.security",
+    "by": "maestro.c (account-c)",
+    "from": "0ce169e89"
+  },
+  {
     "version": "v0.1.2298",
     "date": "2026-11-26",
     "what": "cl-6.journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
