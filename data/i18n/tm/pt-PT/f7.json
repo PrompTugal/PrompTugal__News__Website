@@ -1,4 +1,12 @@
 {
+ "f71c38a34f9f8827": {
+  "t": "A Reach AI é uma empresa portuguesa fundada em 2025; o perfil abre com “From Lisbon to the world” (De Lisboa para o mundo). Ajuda as marcas a ganhar visibilidade em plataformas de IA como o ChatGPT, o Gemini e o Claude, e não apenas nos resultados de pesquisa tradicionais.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Reach AI is a Portuguese company founded in 2025; the profil",
+  "ok": false
+ },
  "f779f016725feeb7": {
   "t": "A UTAD acolhe um workshop sobre IA e competências na produção animal",
   "by": "translator@PrompTugal.dinis",

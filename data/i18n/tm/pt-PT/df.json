@@ -7,6 +7,14 @@
   "src": "Viseu hospital group buys PRR-funded scanners that include A",
   "ok": false
  },
+ "df24535cc67a8c1e": {
+  "t": "O perfil inclui uma frase de Filipe Coutinho, gestor de desenvolvimento de negócio, na secção sobre a construção de centros tecnológicos em Portugal: “As empresas vêm para Portugal pelo talento, mas o que faz a diferença é ter um parceiro que já o fez antes.”",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "The profile includes a line from Filipe Coutinho, business d",
+  "ok": false
+ },
  "df2d4bd6a5812b21": {
   "t": "A Critical Software, de Coimbra, constrói a plataforma de IA de um projeto europeu de mísseis",
   "by": "translator@PrompTugal.dinis",

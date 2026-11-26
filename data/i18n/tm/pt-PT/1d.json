@@ -14,5 +14,13 @@
   "at": "2026-11-16",
   "src": "Liceu Azul will give Aljezur its first upper secondary schoo",
   "ok": false
+ },
+ "1db2bdca70bf3ddc": {
+  "t": "O perfil diz que tem clientes em mercados como os Estados Unidos, o Reino Unido, a Bélgica, os Países Baixos e Espanha.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "The profile says it has clients in markets such as the Unite",
+  "ok": false
  }
 }

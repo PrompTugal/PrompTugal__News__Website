@@ -1,4 +1,12 @@
 {
+ "bb8759f5805bc2a5": {
+  "t": "Uma estimativa da Atomico, divulgada pela agência portuguesa de comércio e investimento, coloca o capital de risco em Portugal em 910 milhões de dólares em 2026, contra 320 milhões, com uma ronda de setembro da Tekever apontada como um dos principais fatores.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "An Atomico estimate, relayed by Portugal's trade and investm",
+  "ok": false
+ },
  "bb8bd70fbb29c9f1": {
   "t": "Alcoutim transforma o antigo celeiro da EPAC num centro de negócios e coworking",
   "by": "translator@PrompTugal.dinis",

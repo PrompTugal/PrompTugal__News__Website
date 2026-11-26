@@ -1,4 +1,12 @@
 {
+ "b601130f9eb5e388": {
+  "t": "O artigo atribui as estimativas ao relatório State of European Tech 2026 da Atomico e indica o ca.finance como fonte. Descreve 2026 como “um dos anos mais significativos” para Portugal na atração de capital e nomeia a ronda de financiamento da Tekever, uma empresa portuguesa que constrói sistemas autónomos e tecnologia de inteligência artificial, como “um dos principais fatores por trás deste desenvolvimento”. A ronda valeu 580 milhões de dólares em setembro de 2026.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "The article credits the estimates to Atomico's State of Euro",
+  "ok": false
+ },
  "b64ac05f17e64d03": {
   "t": "Em linha",
   "by": "translator@PrompTugal.dinis",

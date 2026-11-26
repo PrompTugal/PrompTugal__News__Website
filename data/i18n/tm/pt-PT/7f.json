@@ -7,6 +7,14 @@
   "src": "**Nothing here says what Smartex will do in Portugal,** how ",
   "ok": false
  },
+ "7f7cb6e4c5dc780d": {
+  "t": "O artigo do Tech.eu, \"EU proposes €50BN equity fund to support quantum and essential sovereign tech\", diz que a UE “propôs um fundo de capital de 50 mil milhões de euros” e, no texto, que “a Comissão disse que o fundo proposto de 50 mil milhões de euros dará capital”. Lemos o comunicado de imprensa da Comissão, a sua notícia e a sua página \"Quantum Act explained\", e nenhum deles indica 50 mil milhões de euros. O explicador diz: \"While no fixed budget is allocated under the proposal, the proposal empowers the Commission to establish a new Sovereign Tech Equity Fund\" (embora a proposta não atribua um orçamento fixo, habilita a Comissão a criar um novo Sovereign Tech Equity Fund). O comunicado acrescenta que o futuro financiamento da UE ao abrigo da lei \"dependeria de decisões orçamentais e das regras dos programas em causa\".",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Tech.eu's article, \"EU proposes €50BN equity fund to support",
+  "ok": false
+ },
  "7f9841a5a5078282": {
   "t": "PrompTugal.news Lagos: IA e tecnologia em Lagos, uma cidade de trabalhadores remotos, de um espaço de coworking municipal e de uma comunidade de programadores Google muito ativa, e o que chega a Lagos vindo do Algarve, de Portugal e do mundo. Independente; cada facto com fonte.",
   "by": "translator@PrompTugal.dinis",
