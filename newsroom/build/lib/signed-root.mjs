@@ -10,7 +10,7 @@ import os from 'node:os'
 import path from 'node:path'
 import { ROOT } from './config.mjs'
 
-export const ROOT_FILES = ['newsroom/tools/place-signers.json', 'newsroom/tools/place-sources.json']
+export const ROOT_FILES = ['newsroom/tools/place-signers.json', 'newsroom/tools/place-sources.json', 'newsroom/tools/keys-baseline.json']
 const AGENTS = /^(cl-\d+\.)?(dev|conductor)@PrompTugal\.dinis$/
 const SSH = /^(ecdsa-sha2-nistp256|ssh-ed25519) AAAA[A-Za-z0-9+/]{40,}={0,3}$/
 

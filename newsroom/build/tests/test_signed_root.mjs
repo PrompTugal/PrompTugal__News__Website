@@ -27,7 +27,7 @@ let bad = 0
 const t = (what, got, want) => { if (JSON.stringify(got) !== JSON.stringify(want)) { bad++; console.error(`FAIL ${what}: ${JSON.stringify(got)}, want ${JSON.stringify(want)}`) } }
 const commit = (files, k, msg = 'c') => { for (const [f, c] of Object.entries(files)) { fs.mkdirSync(path.dirname(path.join(tmp, f)), { recursive: true }); fs.writeFileSync(path.join(tmp, f), c) } run(['add', '-A'])
     run(k ? ['-c', 'gpg.format=ssh', '-c', `user.signingkey=${k.file}`, 'commit', '-S', '-q', '-m', msg] : ['-c', 'commit.gpgsign=false', 'commit', '-q', '-m', msg]) }
-const chk = (keys) => checkSignedRoot({ root: tmp, keys })
+const chk = (keys) => checkSignedRoot({ root: tmp, keys, files: F })
 run(['init', '-q', '-b', 'dev'])
 
 const k0 = keysFrom(keysOf(null))

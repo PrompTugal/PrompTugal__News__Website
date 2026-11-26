@@ -275,6 +275,15 @@ for (const f of html) {
     try { warnings.push(execFileSync(process.execPath, ['--input-type=module', '-e', js], { cwd: __dirname, encoding: 'utf8' }).trim()) } catch (e) { errors.push('wsonly: ' + e.message) }
 }
 
+// 16. a change to board/keys.json belongs to the agent it concerns (lib/keys-changes.mjs; cl-6.security's follow-up 1b): a WARN until Dinis's
+// key is published in board/keys.json, then an error
+{
+    const js = "import { checkKeyChanges } from './lib/keys-changes.mjs'; for (const p of checkKeyChanges()) console.log(p)"
+    try { for (const p of execFileSync(process.execPath, ['--input-type=module', '-e', js], { cwd: __dirname, encoding: 'utf8' }).split('
+').filter(Boolean)) warnings.push('keys.json: ' + p) } catch (e) { warnings.push('keys.json: not run: ' + String(e.message).split('
+')[0]) }
+}
+
 for (const w of warnings) console.error('WARN ' + w)
 if (errors.length) {
     for (const e of errors) console.error('FAIL ' + e)

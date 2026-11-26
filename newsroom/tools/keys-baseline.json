@@ -1,0 +1,4 @@
+{
+ "about": "The commit after which every change to board/keys.json is held to the agent it concerns (newsroom/build/lib/keys-changes.mjs; cl-6.security's follow-up 1b, 26 Nov 2026). Earlier commits are not checked. A gate file: it moves forward only by a signed commit of the dev agent or the conductor and cl-6.security's review.",
+ "commit": "99929a9e0cb717a035a3ed36f67f247496c05005"
+}
