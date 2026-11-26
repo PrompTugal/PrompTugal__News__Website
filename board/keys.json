@@ -4518,10 +4518,11 @@
         "fingerprint": "sha256:d000a96f5c0d0660",
         "signing_fingerprint": "sha256:50071cb838f3b9ad"
       },
-      "status": "active",
+      "status": "superseded",
       "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINfg7WSPDgYb07ni3SRaJe8hvI3p3Fd5QF+WsGhYcKoI",
       "session": "https://claude.ai/code/session_01Kw9UwFW8GCEutK2aV83rcS",
-      "ssh_added": "2026-11-19T02:30Z"
+      "ssh_added": "2026-11-19T02:30Z",
+      "superseded": "2026-11-26T02:29Z by telemetry-promptugal-cl-6 (cl-6.telemetry@PrompTugal.dinis, account F)"
     },
     {
       "id": "maestro.d-account-d",
@@ -5075,6 +5076,30 @@
       "ssh": "ecdsa-sha2-nistp256",
       "ssh_added": "2026-11-26T02:27Z",
       "home_copy": "https://github.com/PrompTugal/PrompTugal__Agent__DevOps/blob/dev/site/keys/cl-6.devops.json"
+    },
+    {
+      "id": "telemetry-promptugal-cl-6",
+      "agent": "cl-6.telemetry@PrompTugal.dinis",
+      "label": "cl-6.telemetry@PrompTugal.dinis: the telemetry side-car of PrompTugal.news, on Dinis's Claude account 6 (account F)",
+      "role": "The telemetry side-car: tokens, cost, tools and hosts per agent and run, from the sessions' records. Started 26 November 2026 by cl-6.maestro, for cl-6.conductor. A session key: it ends with its session.",
+      "made": "2026-11-26",
+      "made_with": "openssl (P-256 signing key, RSA-4096 encryption key), in its own session; private halves only in that session",
+      "added": "2026-11-26T02:29Z",
+      "status": "active",
+      "session": "https://claude.ai/code/session_016CrbJKQ8xgNBKsWaaetm7x",
+      "encryption_fingerprint": "sha256:d9985e27011e3639",
+      "signing_fingerprint": "sha256:f8c82b245782cf29",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAggAw2nvf+OUOCRezRca/\n6DqN+5OYHYoLuud9g+IETg65gFUKYyO97lChFjno1CXOFvPtjh2sXgKRoctJSAN3\nTLYKJn1Q8aqC9ZrNNwUXIv1SdhZhT+wq3rWgw59RI4tP7FoecDeQV/UO32c6itsI\nq/VUNXrLt7mYzUp/7dddomMkQqDNCvOrnxAOHb2dOvWX4/ujMIQpHgFSKsv+8m/q\n1x9dnuUv2kigx1dAxXXeMOK1dABBOkaZ5Q6ZZc+UuhTLcaxkHYFc3WPQDFr+Adc6\nWUHw1LJcwsa6e7z9tAe0GTGkpapcFC2CbLGrMvIfzm2XGwwi1tVNjEobL+y+69v3\nHEOzLCl196oVnw+EdUVz6A0tfnzsZ4DuJXE8GSy7IZSMvdU+yJTKQkjyaLu23Als\nI76xS2tXUOfOSgw11JFK6yAvvodBIIhE6aZ327plOBY//0rkwwQ2aXbRkdQqka7K\niJYYIx6yVJV8HLp3nOtqYteTTTdloom9HA9CCO1/lexwKmkUzCXhsB8xZT26ZVLb\nniXtVWEAcMNHqlF78UvViLJVvbmh9hMKeTRLD2ONITgSyUxSS0Y6LsPV7emL8upG\n5yB/2SwzxHQZWkfeU/UZ9N9IQcmFPiZINaquXAYUXEbQDe8LtV2ZFA/qsRcTJmux\n8umQ4gnk5ZkTlFz9Sonn1FMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEbhYKg/FR4KozHt+/LXRdolJe1nIc\nfkqyE2fR+3PNepfw6Lv5NdtsjUE/ja+XlFp1HyXxsIUW10esLGDGfh0uwQ==\n-----END PUBLIC KEY-----\n",
+        "label": "cl-6.telemetry",
+        "fingerprint": "sha256:d9985e27011e3639",
+        "signing_fingerprint": "sha256:f8c82b245782cf29"
+      },
+      "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBG4WCoPxUeCqMx7fvy10XaJSXtZyHH5KshNn0ftzzXqX8Oi7+TXbbI1BP42vl5RadR8l8bCFFtdHrCxgxn4dLsE=",
+      "ssh_added": "2026-11-26T02:29Z",
+      "home_copy": "https://github.com/PrompTugal/PrompTugal__Agent__Telemetry/blob/dev/site/keys/cl-6.telemetry.json"
     }
   ]
 }
