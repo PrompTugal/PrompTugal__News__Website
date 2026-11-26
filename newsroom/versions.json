@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2313",
+    "date": "2026-11-26",
+    "what": "cl-6.translator@PrompTugal.dinis: pt-PT memory for the 27 segments the journalist corrected (nine 26 Nov articles)",
+    "by": "cl-6.translator@PrompTugal.dinis",
+    "from": "50382ad4f"
+  },
+  {
     "version": "v0.1.2312",
     "date": "2026-11-26",
     "what": "cl-6.dev@PrompTugal.dinis: gate: the keys.json check runs from its own small file",
