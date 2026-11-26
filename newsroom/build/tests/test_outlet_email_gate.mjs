@@ -8,13 +8,13 @@ const rec = (site, email, page = site + 'contactos') => ({ id: 'x', kind: 'media
 let bad = 0
 const t = (what, got, want) => { if (got !== want) { bad++; console.error(`FAIL ${what}: ${got}, want ${want}`) } }
 const fails = (o, re) => checkMediaContact(o, NOW).some(e => re.test(e))
-t('a role mailbox on the outlet\'s own domain passes', checkMediaContact(rec('https://www.barlavento.pt/', 'redacao@barlavento.pt'), NOW).length, 0)
+t('a role mailbox on the outlet\'s own domain passes', checkMediaContact(rec('https://www.outlet.example/', 'redacao@outlet.example'), NOW).length, 0)
 t('a non-role local part fails', fails(rec('https://www.outlet.example/', 'maria.silva@outlet.example'), /role mailbox/), true)
 t('another non-role local part fails', fails(rec('https://www.outlet.example/', 'joao@outlet.example'), /role mailbox/), true)
 t('a *.sapo.pt outlet cannot claim a sapo.pt address (shared host)', fails(rec('https://outlet.sapo.pt/', 'redacao@sapo.pt'), /shared host/), true)
 t('nor an address on its own sapo.pt sub-domain', checkMediaContact(rec('https://outlet.sapo.pt/', 'redacao@outlet.sapo.pt'), NOW).length > 0, true)
 t('a blogspot outlet fails too', checkMediaContact(rec('https://x.blogspot.com/', 'redacao@blogspot.com'), NOW).length > 0, true)
 t('a foreign domain fails', fails(rec('https://www.outlet.example/', 'redacao@other.example'), /own domain/), true)
-t('a page on another domain fails', fails(rec('https://www.barlavento.pt/', 'redacao@barlavento.pt', 'https://other.example/c'), /contact page/), true)
+t('a page on another domain fails', fails(rec('https://www.outlet.example/', 'redacao@outlet.example', 'https://other.example/c'), /contact page/), true)
 if (bad) { console.error(`${bad} failed`); process.exit(1) }
 console.log('test_outlet_email_gate: OK')
