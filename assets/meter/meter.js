@@ -129,7 +129,7 @@
 
     // The masthead chip ("Pay for what you read · £4.99") is off until Dinis decides the wording of a price (cl-6.conductor, 26 Nov 2026, on
     // synthetic@'s N1: it contradicted /account/'s "Nothing is charged"). One switch, reversible: true draws it again.
-    var SHOW_CHIP = false
+    var SHOW_CHIP = true
     function chip(m) {
         var t = tools()
         var a = document.getElementById('nr-meter-chip') || t.querySelector('.meter')      // the shell's own chip, if it draws one
@@ -143,9 +143,9 @@
         var b = m.state.balance
         a.classList.toggle('is-low', b < 100)
         a.classList.toggle('is-neg', b < 0)
-        a.replaceChildren(h('span', { class: 'meter-label' }, 'Pay for what you read · '), m.money(b))   // the balance, going down as you read (Dinis, 17 November 2026: "I need to see the value of my budget, always")
+        a.replaceChildren(h('span', { class: 'meter-label' }, b > 0 ? 'Pay for what you read · ' : 'Credit used · keep reading · '), b > 0 ? m.money(b) : 'top-up coming soon')   // the balance, going down as you read (Dinis, 17 November 2026: "I need to see the value of my budget, always")
         a.setAttribute('aria-label', 'Reading credit ' + m.money(b) + ', kept in this browser: your account')
-        a.title = b < 0 ? 'You have read ' + m.money(-b) + ' more than your credit. Nothing is blocked; top up whenever it feels fair. Kept in this browser only.' : 'Pay for what you read. Credit left: ' + m.money(b) + ', kept in this browser only: your reading account'
+        a.title = b < 0 ? 'You have read ' + m.money(-b) + ' more than your credit. Nothing is blocked; top-ups are coming soon. Kept in this browser only.' : 'Pay for what you read. Credit left: ' + m.money(b) + ', kept in this browser only: your reading account'
     }
 
     var REASONS = [['clickbait', 'The headline promised more than the page gave'], ['not-relevant', 'Not relevant to me'], ['did-not-read', 'I did not really read it'], ['other', 'Another reason']]
@@ -223,7 +223,7 @@
                     h('p', { class: 'sub' }, (s.reads || 0) + ' page' + (s.reads === 1 ? '' : 's') + ' opened in this browser · ' + m.money(s.spent || 0) + ' spent' + (s.declined ? ' · ' + m.money(s.declined) + ' declined' : '') + ((s.topups || []).length ? ' · ' + s.topups.length + ' top-up' + (s.topups.length === 1 ? '' : 's') : '')),
                     m.noStorage ? h('p', { class: 'sub warn' }, 'This browser refuses to keep a balance (private mode or blocked storage): the meter counts this page only.') : null),
                 h('div', { class: 'actions' },
-                    h('a', { class: 'btn primary', href: at(m.cfg.links.topup) }, 'Top up ' + m.money(m.cfg.topup.amount)),
+                    m.cfg.topup.link ? h('a', { class: 'btn primary', href: at(m.cfg.links.topup) }, 'Top up ' + m.money(m.cfg.topup.amount)) : h('span', { class: 'btn quiet', 'aria-disabled': 'true' }, 'Top up ' + m.money(m.cfg.topup.amount) + ': coming soon'),
                     h('button', { type: 'button', class: 'btn quiet', onclick: function () { if (window.__vault) window.__vault.open('vault') } }, 'Carry it to another device'))),
             h('h2', { id: 'graph' }, 'Your reading graph'),
             readingGraph(log) || h('p', { class: 'empty' }, 'Read a few pages to see it.'),
@@ -304,7 +304,7 @@
         var t = m.cfg.topup, s = m.state
         var elsewhere = hostOf(m.cfg.returns_to) !== location.host && hostOf(m.cfg.returns_to) !== hostOf(m.cfg.our_return) ? hostOf(m.cfg.returns_to) : ''
         if (!t.link) {
-            el.replaceChildren(h('p', { class: 'notice' }, 'Top-ups are switched off on this site for now: no payment link is configured. Every page still opens.'))
+            el.replaceChildren(h('p', { class: 'notice' }, 'Top-ups are coming soon. Nothing is taken; every page still opens.'))
             return
         }
         el.replaceChildren(

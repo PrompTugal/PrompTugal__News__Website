@@ -143,7 +143,7 @@ export function llms(ctx) {
         '## The reading meter',
         `- Every page except the meter's own costs a few pence, from ${money(P, P.start)} of starting credit kept in the reader's browser (localStorage key \`${P.storage_key}\`): a base price per page type (the \`page-type\` meta tag) times a freshness multiplier from the page's date (\`page-date\`), times the share read, never under a tenth; once per page per browser session; never blocking; the balance can go below zero; a reader can rate a page (free to double) or decline to pay and say why.`,
         `- The prices: ${ctx.BASE}${BILLING_PAGE.replace(/\.html$/, '.md')} (the table) and ${ctx.BASE}${CONFIG} (the meter's config, same data).`,
-        `- Top-ups: one payment of ${money(P, T.amount)} through a Stripe Payment Link (${T.link}); the return page adds the credit once per payment reference, unverified by design.`,
+        `- Top-ups: one payment of ${money(P, T.amount)} through a Stripe Payment Link (${T.link || 'coming soon'}); the return page adds the credit once per payment reference, unverified by design.`,
         `- Agents reading the markdown twins or llms.txt are not metered: the meter runs only in a browser, on the HTML pages.`,
         '',
     ].join('\n') + '\n'
@@ -192,7 +192,7 @@ export function validate(gate) {
         const c = gate.json(CONFIG), want = priceTable(P)
         if (JSON.stringify(c.prices) !== JSON.stringify(want)) out.push(`${CONFIG}: its prices are not ${PRICES}'s table`)
         if (c.storageKey !== P.storage_key || c.start !== P.start) out.push(`${CONFIG}: storage key or starting credit differs from ${PRICES}`)
-        if (c.topup.amount !== T.amount || !String(c.topup.link).startsWith(T.link)) out.push(`${CONFIG}: the top-up differs from ${TOPUP}`)
+        if (c.topup.amount !== T.amount || (T.link ? !String(c.topup.link).startsWith(T.link) : c.topup.link)) out.push(`${CONFIG}: the top-up differs from ${TOPUP}`)
     } else out.push(`${CONFIG} was not built`)
     // the published page carries every price of the table
     if (gate.generated.has(BILLING_PAGE.replace(/\.html$/, '.md'))) {
