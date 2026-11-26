@@ -1931,7 +1931,7 @@
       {
         "as_listed": "Cursor",
         "ref": "organisation:cursor",
-        "count": 2
+        "count": 3
       },
       {
         "as_listed": "Dealroom",
@@ -2506,7 +2506,7 @@
       {
         "as_listed": "arXiv",
         "ref": "organisation:arxiv",
-        "count": 3
+        "count": 5
       },
       {
         "as_listed": "eDynamics",
