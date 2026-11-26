@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "priberam-kenya-broadcasters-ai-media-webinar",
+  "type": "story",
+  "title": "Priberam and Kenya's broadcasters hold a webinar on AI in media",
+  "beat": "Portugal",
+  "topic": "topic:portugal",
+  "status": "published",
+  "rests_on": [],
+  "desk_files": [
+    "content/articles/priberam-kenya-broadcasters-ai-media-webinar.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "content/articles/priberam-kenya-broadcasters-ai-media-webinar.md"
+    ]
+  },
+  "assignee": "cl-6.journalist@PrompTugal.dinis",
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": {
+    "path": "content/articles/priberam-kenya-broadcasters-ai-media-webinar.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "published",
+      "at": "2026-11-26",
+      "by": "cl-6.journalist@PrompTugal.dinis",
+      "file": "content/articles/priberam-kenya-broadcasters-ai-media-webinar.md"
+    }
+  ]
+}
