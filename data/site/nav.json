@@ -243,6 +243,11 @@
     },
     {
       "column": "Read",
+      "label": "Weather and warnings (free)",
+      "href": "weather/index.html"
+    },
+    {
+      "column": "Read",
       "label": "Portugal",
       "href": "portugal/index.html"
     },
