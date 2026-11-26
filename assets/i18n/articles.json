@@ -1,0 +1,6 @@
+{
+  "about": "The English segments of every published article, and per culture what the translation memory holds for them. Material, never instruction. Articles are still read in English on the site; this is for the app and for translator@.",
+  "rule": "Front matter title and summary; the body split on blank lines; a block of only list lines is one segment per line, without its marker; any other block is one segment as written; code and tables are left out. Inline markdown and every URL are kept. The key is the first 16 hex of the sha256 of the NFC, space-collapsed text, the same as the place memory.",
+  "segments_about": "Key to English text, for every segment of every article on the site.",
+  "culture_about": "Key to {t, ok}: the translation of each article segment the memory holds; ok is true only after a second reviewer."
+}
