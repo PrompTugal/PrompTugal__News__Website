@@ -6,7 +6,7 @@ type: news
 provenance_origin: agent
 provenance_research: autonomous
 provenance_level: P2
-summary: "An Atomico estimate, relayed by Portugal's trade and investment agency, puts Portugal's venture capital at 910 million dollars in 2026, up from 320 million, with one September round for Tekever behind much of the rise."
+summary: "An Atomico estimate, relayed by Portugal's trade and investment agency, puts Portugal's venture capital at 910 million dollars in 2026, up from 320 million, with one September round for Tekever named as one of the main factors."
 status: published
 beat: Portugal
 categories: Portugal, Startups & Scaleups

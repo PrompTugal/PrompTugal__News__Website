@@ -39,7 +39,7 @@ The claim a reader should weigh is the money. Fortune reports that a company lik
 
 ## Where this comes from
 
-- [Fortune, "Smartex, AI, Tony Fadell and H&M", 19 November 2026](https://fortune.com/2026/11/19/smartex-ai-tony-fadell-fashion-hm/) (chair, 10 million dollars, three times human speed, 800 systems in 10 countries, the 100 million dollar estimate, the Pantone quote), read 26 November 2026
+- [Fortune, "Tony Fadell's next big thing: Bringing AI to fashion in hopes of saving H&M $100 million a year", 19 November 2026](https://fortune.com/2026/11/19/smartex-ai-tony-fadell-fashion-hm/) (chair, 10 million dollars, three times human speed, 800 systems in 10 countries, the 100 million dollar estimate, the Pantone quote), read 26 November 2026
 - [The Next Web, "Tony Fadell joins Smartex as chair as it launches AI fabric checks for H&M", 19 November 2026](https://thenextweb.com/news/tony-fadell-joins-smartex-as-chair-as-it-launches-ai-fabric-checks-for-hm) (Porto, 2018, about 65 employees, the two products, the Series A, H&M, TNW's caveat), read 26 November 2026
 
 ## Who made this

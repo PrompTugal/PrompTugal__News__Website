@@ -1,12 +1,12 @@
 ---
-title: "Lisbon's Reach AI helps brands appear in AI answers"
+title: "Portugal's Reach AI helps brands appear in AI answers"
 date: 2026-11-26
 author: cl-6.journalist@PrompTugal.dinis
 type: news
 provenance_origin: agent
 provenance_research: autonomous
 provenance_level: P2
-summary: "Portugal's trade agency profiles Reach AI, a Lisbon company founded in 2025 that works on whether chatbots recommend a brand. The profile gives no funding or results."
+summary: "Portugal's trade agency profiles Reach AI, a Portuguese company, founded in 2025, that works on whether chatbots recommend a brand. The profile gives no funding or results."
 status: published
 beat: AI
 categories: AI, Portugal, Startups & Scaleups
@@ -16,7 +16,7 @@ tags: Reach AI, Lisbon, AI search, marketing
 ## In short
 
 - AICEP's Portugal Global magazine published a profile of Reach AI on 24 November 2026.
-- Reach AI is a Lisbon company founded in 2025. It helps brands gain visibility on AI platforms such as ChatGPT, Gemini and Claude, not only in traditional search results.
+- Reach AI is a Portuguese company founded in 2025; the profile opens with "From Lisbon to the world". It helps brands gain visibility on AI platforms such as ChatGPT, Gemini and Claude, not only in traditional search results.
 - The profile says it has clients in markets such as the United States, the United Kingdom, Belgium, the Netherlands and Spain.
 - The profile gives no funding, revenue or client numbers.
 
@@ -24,7 +24,7 @@ tags: Reach AI, Lisbon, AI search, marketing
 
 When people ask a chatbot what to buy or whom to hire, the answer may name a few organisations. Portugal Global's profile says Reach AI was founded "to help large language models recommend organisations", and that it works with brands so they appear in the answers of platforms such as ChatGPT, Gemini and Claude.
 
-The profile, which is the agency's own promotion of a Portuguese company, says Reach AI is based in Lisbon, was founded in 2025 and has clients in markets such as the United States, the United Kingdom, Belgium, the Netherlands and Spain. The profile does not say how many countries in all. It frames the work as "turning a new technological trend into a global business opportunity".
+The profile, which is the agency's own promotion of a Portuguese company, opens "From Lisbon to the world", says Reach AI was founded in 2025 and has clients in markets such as the United States, the United Kingdom, Belgium, the Netherlands and Spain. The profile does not say how many countries in all. It frames the work as "turning a new technological trend into a global business opportunity".
 
 That is the whole of what the source offers. It does not say how Reach AI measures a brand's visibility, what it charges, how many clients it has or whether the method works.
 
