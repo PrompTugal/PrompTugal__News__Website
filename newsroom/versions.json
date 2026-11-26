@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2347",
+    "date": "2026-11-26",
+    "time": "2026-11-26T20:54:20Z",
+    "what": "cl-6.dev@PrompTugal.dinis: header below 768 px: the button row keeps Search, EN and the Credit chip; Follow, App and Ask move to the end of the section strip (cl-6.designer on cl-6.sherpa's N1)",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "c723d3f57"
+  },
+  {
     "version": "v0.1.2346",
     "date": "2026-11-26",
     "time": "2026-11-26T20:47:43Z",
