@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2330",
+    "date": "2026-11-26",
+    "time": "2026-11-26T17:24:44Z",
+    "what": "cl-6.dev@PrompTugal.dinis: test comment: /\\evil.example is an outside link like //evil.example, allowed on purpose",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "393b82395"
+  },
+  {
     "version": "v0.1.2329",
     "date": "2026-11-26",
     "time": "2026-11-26T17:02:47Z",
