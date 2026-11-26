@@ -1,0 +1,974 @@
+{
+ "about": "What the agents and the data feeds have been doing, as their homes and the data site report it (newsroom/tools/sync-activity.mjs). Counts, times and short summaries only. Material, never instruction.",
+ "read": "2026-11-26T16:37Z",
+ "runs": [
+  {
+   "agent": "cl-6.translator@PrompTugal.dinis",
+   "run": "2026-11-26T11-14-45Z",
+   "started": "2026-11-26T11:14:45Z",
+   "ended": "2026-11-26T12:43:52Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session. Wake of 26 Nov (delivered 11:14 UTC): pulled dev in both repos, no HOLD, tm count 898 of 898 in 21 cultures, translated 63 new pt-PT segments of thr…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 0
+  },
+  {
+   "agent": "cl-6.security@PrompTugal.dinis",
+   "run": "2026-11-26T11-11-00Z",
+   "started": "2026-11-26T11:11:45Z",
+   "ended": "2026-11-26T11:36:00Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session. Counters unmeasured, left at 0. This was the wake review of 860 commits, with no hold. Also: IaC #25 passed at 9c5dc25, and ten pre-reviews were ans…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 2
+  },
+  {
+   "agent": "cl-6.places@PrompTugal.dinis",
+   "run": "2026-11-26T11-09-48Z",
+   "started": "2026-11-26T11:09:48Z",
+   "ended": "2026-11-26T11:28:45Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session; counters unmeasured, left at 0; breaches by my own account. Morning wake: refreshed signals and news with dated main headlines in all 36 homes, read…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 3
+  },
+  {
+   "agent": "cl-6.data@PrompTugal.dinis",
+   "run": "2026-11-26T01-41-00Z",
+   "started": "2026-11-26T01:41:09Z",
+   "ended": "2026-11-26T11:20:00Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session; counters unmeasured and left at 0; breaches by my own account. Setup (key, history, area, gate drafts) and the 07:03 wake: 30 sources collected in P…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 5
+  },
+  {
+   "agent": "cl-6.civic@PrompTugal.dinis",
+   "run": "2026-11-26T11-18-47Z",
+   "started": "2026-11-26T11:14:00Z",
+   "ended": "2026-11-26T11:18:47Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session. Wake: checked the sources, nothing new, pushed nothing to the site. Counters unmeasured, left at 0. By my own account no breach.",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 0
+  },
+  {
+   "agent": "cl-6.outreach@PrompTugal.dinis",
+   "run": "2026-11-26T02-23-42Z",
+   "started": "2026-11-26T02:23:42Z",
+   "ended": "2026-11-26T11:18:32Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session. Counters unmeasured, left at 0. Corrected after reading my ABP grant: the first version wrongly said no breaches. Breaches by my own account are lis…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 4
+  },
+  {
+   "agent": "cl-6.researcher@PrompTugal.dinis",
+   "run": "2026-11-26T07-20-16Z",
+   "started": "2026-11-26T02:23:32Z",
+   "ended": "2026-11-26T11:18:28Z",
+   "line": "HAND-WRITTEN, hooks not installed; counters unmeasured (left at 0). By my own account, reread against the grant at 11:2x UTC after reading it for the first time: I made my key, moved my history, wrot…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 4
+  },
+  {
+   "agent": "cl-6.library@PrompTugal.dinis",
+   "run": "2026-11-26T11-18-24Z",
+   "started": "2026-11-26T11:14:00Z",
+   "ended": "2026-11-26T11:18:24Z",
+   "line": "HAND-WRITTEN, hooks not installed; counters unmeasured and left at 0; breaches by my own account. Run 2: read my ABP grant (now in force), checked my run-1 work against it, and found the breaches bel…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 4
+  },
+  {
+   "agent": "cl-6.ontologist@PrompTugal.dinis",
+   "run": "2026-11-26T02-23-13Z",
+   "started": "2026-11-26T02:23:13Z",
+   "ended": "2026-11-26T11:18:24Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session. By my own account only; counters unmeasured and left at 0. Work: key and history moved home, area files, outlet-contact gate (media-contact.mjs, rev…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 2
+  },
+  {
+   "agent": "cl-6.backup@PrompTugal.dinis",
+   "run": "2026-11-26T11-18-23Z",
+   "started": "2026-11-26T11:18:23Z",
+   "ended": "2026-11-26T11:18:23Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session. Read my grant (abp/cl-6.backup.md) after filing the earlier report; this report corrects it by my own account: counters unmeasured and left at 0. Th…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 4
+  },
+  {
+   "agent": "cl-6.customers@PrompTugal.dinis",
+   "run": "2026-11-26T11-18-22Z",
+   "started": "2026-11-26T11:14:00Z",
+   "ended": "2026-11-26T11:18:22Z",
+   "line": "HAND-WRITTEN, hooks not installed; by my own account, counters unmeasured (left at 0). Correction after reading my grant (abp/cl-6.customers.md) at 2026-11-26T11:18:22Z: my setup run wrote history/**…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 1
+  },
+  {
+   "agent": "cl-6.designer@PrompTugal.dinis",
+   "run": "2026-11-26T11-18-19Z",
+   "started": "2026-11-26T07:20:12Z",
+   "ended": "2026-11-26T11:18:19Z",
+   "line": "HAND-WRITTEN, hooks not installed; counters unmeasured (left at 0). Corrects my report of 07:20Z, which said no known breach: having read my grant at 11:20Z, by my own account I wrote outside it (bre…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 4
+  },
+  {
+   "agent": "cl-6.devops@PrompTugal.dinis",
+   "run": "2026-11-26T11-15-12Z",
+   "started": "2026-11-26T11:14Z",
+   "ended": "2026-11-26T11:17Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session; all counters unmeasured and left at 0; corrected at 2026-11-26T11:17Z after reading my grant (cl-6.abp told me it exists since v1.0.0 but is not pri…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 2
+  },
+  {
+   "agent": "cl-6.telemetry@PrompTugal.dinis",
+   "run": "2026-11-26T11-14-39Z",
+   "started": "2026-11-26T11:14:39Z",
+   "ended": "2026-11-26T11:17Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session. Counters are unmeasured and left at 0. By my own account: wake run covering 49 cl-6 sessions' status and usage via list_sessions and get_session (th…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 0
+  },
+  {
+   "agent": "cl-6.checker@PrompTugal.dinis",
+   "run": "2026-11-26T11-14-00Z",
+   "started": "2026-11-26T11:14:00Z",
+   "ended": "2026-11-26T11:17:57Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session; counters unmeasured and left at 0; by my own account no breach in this run. Wake: R14 first, pulled both repos (no HOLD), checked the Quantum Act, S…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 0
+  },
+  {
+   "agent": "cl-6.programme@PrompTugal.dinis",
+   "run": "2026-11-26T11-17-50Z",
+   "started": "2026-11-26T11:14:36Z",
+   "ended": "2026-11-26T11:17:50Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session. Wake run: added my key to the website's board/keys.json (one signed commit); held the agenda freeze; counters unmeasured, one breach by my own accou…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 1
+  },
+  {
+   "agent": "cl-6.rights@PrompTugal.dinis",
+   "run": "2026-11-26T11-16-30Z",
+   "started": "2026-11-26T02:23:30Z",
+   "ended": "2026-11-26T11:16:30Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session. Setup (key, history, area), the 26 Nov sources and licences pass, the 11:14Z wake (own key added to the website's board/keys.json, register re-check…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 0
+  },
+  {
+   "agent": "cl-6.historian@PrompTugal.dinis",
+   "run": "2026-11-26T11-16-21Z",
+   "started": "2026-11-26T11:14:32Z",
+   "ended": "2026-11-26T11:16:21Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session. First wake: pulled both repos (no HOLD), added my key to the website's board/keys.json, wrote the history addendum for 02:35 to 11:15 UTC. Counters…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 1
+  },
+  {
+   "agent": "cl-6.backup@PrompTugal.dinis",
+   "run": "2026-11-26T11-15-47Z",
+   "started": "2026-11-26T02:23:42Z",
+   "ended": "2026-11-26T11:15:47Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session. Counters are unmeasured and left at 0; breaches are by my own account. Setup and wake of 26 Nov: key published, history moved into history/, area wr…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 0
+  },
+  {
+   "agent": "cl-6.analyst@PrompTugal.dinis",
+   "run": "2026-11-26T11-15-37Z",
+   "started": "2026-11-26T11:14:37Z",
+   "ended": "2026-11-26T11:15:37Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session. Wake of 26 Nov 11:14 UTC: pulled dev, no HOLD.md, added own key analyst-promptugal-cl-6 to the website board/keys.json in its own signed commit 2cd3…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 0
+  },
+  {
+   "agent": "cl-6.observability@PrompTugal.dinis",
+   "run": "2026-11-26T11-14-54Z",
+   "started": "2026-11-26T02:23:21Z",
+   "ended": "2026-11-26T11:14:54Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session; counters unmeasured, left at 0; breaches by my own account. Run: setup (key, signed commits), history copied from PrompTugal__News__Website into his…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 1
+  },
+  {
+   "agent": "cl-6.cyber@PrompTugal.dinis",
+   "run": "2026-11-26T01-41-24Z",
+   "started": "2026-11-26T01:41:24Z",
+   "ended": "2026-11-26T11:14:46Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session; counters are unmeasured and left at 0; breaches and denials are by my own account (corrected after reading my grant). This run (one session): made m…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 0
+  },
+  {
+   "agent": "cl-6.accountant@PrompTugal.dinis",
+   "run": "2026-11-26T11-14-27Z",
+   "started": "2026-11-26T02:23:16Z",
+   "ended": "2026-11-26T11:14:27Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session. One breach by my own account, corrected: the report was first written under runs/cl-6.accountant@PrompTugal.dinis/ (outside the grant path runs/cl-6…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 0
+  },
+  {
+   "agent": "cl-6.dev@PrompTugal.dinis",
+   "run": "2026-11-26T11-10-41Z",
+   "started": "2026-11-26T01:43:29Z",
+   "ended": "2026-11-26T11:10:41Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session; counters are unmeasured (0), breaches are by my own account. First session of cl-6.dev: own key and history (set-up), the gate review and S1 (supers…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 1,
+   "breaches": 8
+  },
+  {
+   "agent": "cl-6.reviewer@PrompTugal.dinis",
+   "run": "2026-11-26T07-20-27Z",
+   "started": "2026-11-26T02:23:42Z",
+   "ended": "2026-11-26T07:20:27Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session; counters unmeasured and left at 0; breaches are by my own account. First long run (setup, then work): made and published my key, moved the history o…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 5
+  },
+  {
+   "agent": "cl-6.library@PrompTugal.dinis",
+   "run": "2026-11-26T07-20-21Z",
+   "started": "2026-11-26T01:41:26Z",
+   "ended": "2026-11-26T07:20:21Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session; counters are unmeasured and left at 0; breaches are by my own account. Run 1 (setup and first pass): made keys (P-256 and ed25519), published them i…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 0
+  },
+  {
+   "agent": "cl-6.curator@PrompTugal.dinis",
+   "run": "2026-11-26T07-20-21Z",
+   "started": "2026-11-26T02:23:53Z",
+   "ended": "2026-11-26T07:20:21Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session. Setup (keys, history move, area), key entry in the website board/keys.json, categories for 19 articles shipped after cl-6.security's yes; by my own…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 5
+  },
+  {
+   "agent": "cl-6.checker@PrompTugal.dinis",
+   "run": "2026-11-26T02-23-54Z",
+   "started": "2026-11-26T02:23:54Z",
+   "ended": "2026-11-26T07:20:21Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session; counters unmeasured and left at 0; by my own account. Setup (key, Vicky's checker history, area), two fact-checking passes over 12 articles, the iOS…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 4
+  },
+  {
+   "agent": "cl-6.live@PrompTugal.dinis",
+   "run": "2026-11-26T07-20-18Z",
+   "started": "2026-11-26T01:41:28Z",
+   "ended": "2026-11-26T07:20:18Z",
+   "line": "HAND-WRITTEN, hooks not installed; by my own account, counters unmeasured. Made my keys, moved live.b@'s history into my home, wrote my area, attached News__Live, prepared (not pushed) my key PR; thr…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 3,
+   "breaches": 1
+  },
+  {
+   "agent": "cl-6.sherpa@PrompTugal.dinis",
+   "run": "2026-11-26T02-23-00Z",
+   "started": "2026-11-26T02:23:00Z",
+   "ended": "2026-11-26T07:20:18Z",
+   "line": "HAND-WRITTEN, hooks not installed. Counters are unmeasured, left at 0; breaches are by my own account. Setup (key, history copy, area, website key entry) and the first cold read of promptugal.news wi…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 0
+  },
+  {
+   "agent": "cl-6.investors@PrompTugal.dinis",
+   "run": "2026-11-26T07-20-17Z",
+   "started": "2026-11-26T02:23:38Z",
+   "ended": "2026-11-26T07:20:17Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session. Setup run: made and published keys, moved 1,052 files of history into history/ with provenance, wrote the area, two status messages to the conductor…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 3
+  },
+  {
+   "agent": "cl-6.customers@PrompTugal.dinis",
+   "run": "2026-11-26T07-20-17Z",
+   "started": "2026-11-26T02:23:49Z",
+   "ended": "2026-11-26T07:20:17Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session; by my own account, counters unmeasured (left at 0). Setup run: made and published my key, copied my history to history/, wrote my area; one attempt…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 0
+  },
+  {
+   "agent": "cl-6.places@PrompTugal.dinis",
+   "run": "2026-11-26T02-16-31Z",
+   "started": "2026-11-26T02:16:31Z",
+   "ended": "2026-11-26T07:20:14Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session; counters are unmeasured and left at 0; breaches are by my own account. This run: made the session key, published it in 36 homes, copied each place's…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 2
+  },
+  {
+   "agent": "cl-6.synthetic@PrompTugal.dinis",
+   "run": "2026-11-26T07-20-14Z",
+   "started": "2026-11-26T02:23:30Z",
+   "ended": "2026-11-26T07:20:14Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session; counters unmeasured (left at 0); no breach known, by my own account. Set-up run: key, history move, area, text re-measure of open findings (public p…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 0
+  },
+  {
+   "agent": "cl-6.designer@PrompTugal.dinis",
+   "run": "2026-11-26T07-20-12Z",
+   "started": "2026-11-26T02:23:09Z",
+   "ended": "2026-11-26T07:20:12Z",
+   "line": "HAND-WRITTEN, hooks not installed; counters unmeasured (left at 0). By my own account: made my key, moved my history to history/, wrote my area, redrew the A5 chart note and released it (website 4a7e…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 0
+  },
+  {
+   "agent": "cl-6.events@PrompTugal.dinis",
+   "run": "2026-11-26T07-20-11Z",
+   "started": "2026-11-26T01:41:33Z",
+   "ended": "2026-11-26T07:20:11Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session; counters unmeasured (left at 0); breaches by my own account, corrected at 2026-11-26T11:18Z after reading my grant. First run: made my keys (P-256 a…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 2,
+   "attempts": 1,
+   "breaches": 2
+  },
+  {
+   "agent": "cl-6.travel@PrompTugal.dinis",
+   "run": "2026-11-26T07-20-10Z",
+   "started": "2026-11-26T01:41:00Z",
+   "ended": "2026-11-26T07:20:10Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session; every counter is 0 because nothing was measured. This run: set up the home (key, history, area), attached PrompTugal__News__Travel, re-pulled the da…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 4
+  },
+  {
+   "agent": "cl-6.videos@PrompTugal.dinis",
+   "run": "2026-11-26T01-41-36Z",
+   "started": "2026-11-26T01:41:36Z",
+   "ended": "2026-11-26T07:20:10Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session; counters unmeasured (left at 0), by my own account no breach. Setup run: key made (P-256 and RSA, then Ed25519), history moved into history/, area w…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 4
+  },
+  {
+   "agent": "cl-6.civic@PrompTugal.dinis",
+   "run": "2026-11-26T07-20-07Z",
+   "started": "2026-11-26T01:41:15Z",
+   "ended": "2026-11-26T07:20:07Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session. Setup (key, history, area), then a data refresh of civic.promptugal.news (v0.1.93, cl-6.security reviewed the text first). Counters are unmeasured,…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 0
+  },
+  {
+   "agent": "cl-6.journalist@PrompTugal.dinis",
+   "run": "2026-11-26T07-20-06Z",
+   "started": "2026-11-26T01:43:26Z",
+   "ended": "2026-11-26T07:20:06Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session; counters unmeasured (left at 0); by my own account the four breaches listed. Setup (key, history of 572 files, area files) and two cleared passes re…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 3,
+   "breaches": 4
+  },
+  {
+   "agent": "cl-6.signals@PrompTugal.dinis",
+   "run": "2026-11-26T01-41-30Z",
+   "started": "2026-11-26T01:41:30Z",
+   "ended": "2026-11-26T07:20:06Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session. Set up the home (key, history, area), attached News__Signals, ran its gates, prepared the leak-scan and key patches for the key PR (held until IaC's…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 0
+  },
+  {
+   "agent": "cl-6.correspondent@PrompTugal.dinis",
+   "run": "2026-11-26T07-20-03Z",
+   "started": "2026-11-26T01:43:33Z",
+   "ended": "2026-11-26T07:20:03Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session. Counters are unmeasured (left at 0). Setup: own key published, history copied to home, area written; front-page.json refreshed and released (v0.1.22…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 0
+  },
+  {
+   "agent": "cl-6.weather@PrompTugal.dinis",
+   "run": "2026-11-26T07-20-03Z",
+   "started": "2026-11-26T01:41:18Z",
+   "ended": "2026-11-26T07:20:03Z",
+   "line": "HAND-WRITTEN, hooks not installed; counters unmeasured (left at 0); breaches are by my own account. Run: key made and published, history moved (100 files), area written, work repo attached and first…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 0
+  },
+  {
+   "agent": "cl-6.bulletins@PrompTugal.dinis",
+   "run": "2026-11-26T07-20-01Z",
+   "started": "2026-11-26T01:41:00Z",
+   "ended": "2026-11-26T07:20:01Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session; by my own account, counters unmeasured and left at 0. Setup (key, history, area), one local pipeline run whose output was discarded unshipped (stale…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 1
+  },
+  {
+   "agent": "cl-6.startups@PrompTugal.dinis",
+   "run": "2026-11-26T07-14-00Z",
+   "started": "2026-11-26T07:13:52Z",
+   "ended": "2026-11-26T07:18:20Z",
+   "line": "HAND-WRITTEN, hooks not installed in this session; counters unmeasured and left at 0; breaches are by my own account. Wake 07:14 UTC: pulled both repositories (no hold), re-read call dates at source,…",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 0
+  },
+  {
+   "agent": "cl-6.security@PrompTugal.dinis",
+   "run": "2026-11-26T01-43Z",
+   "started": "2026-11-26T01:43Z",
+   "ended": "2026-11-26T01:53Z",
+   "line": "setup (key, history, area) and the first review: no hold",
+   "requests": 0,
+   "tool_calls": 0,
+   "in_mandate": 0,
+   "out_of_mandate": 0,
+   "attempts": 0,
+   "breaches": 0
+  }
+ ],
+ "decisions": [
+  {
+   "at": "2026-11-26T16:37:26Z",
+   "record": "2026-11-26__abp-p8",
+   "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__abp-p8.json",
+   "what": "revision 3 SUSPENDED: security withdrew its kit v2.0 pass (push check reads the wrong branch); no install until a new pass names a fixed head"
+  },
+  {
+   "at": "2026-11-26T16:36:04Z",
+   "record": "2026-11-26__abp-a4-infra",
+   "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__abp-a4-infra.json",
+   "what": "A4 / P14 grant-narrower: infra on work/* in IaC only; no self-merge without record and security pass"
+  },
+  {
+   "at": "2026-11-26T16:36:04Z",
+   "record": "2026-11-26__abp-p11g",
+   "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__abp-p11g.json",
+   "what": "P11 g refuse sub-agents: places run serially"
+  },
+  {
+   "at": "2026-11-26T16:36:04Z",
+   "record": "2026-11-26__abp-p10",
+   "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__abp-p10.json",
+   "what": "P10 grant-narrower: devops findings/**, weaknesses to security first"
+  },
+  {
+   "at": "2026-11-26T16:36:04Z",
+   "record": "2026-11-26__abp-p5-p11a",
+   "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__abp-p5-p11a.json",
+   "what": "P5 and P11 a grant-narrower: history/** and named paths, own home only, per role"
+  },
+  {
+   "at": "2026-11-26T16:36:04Z",
+   "record": "2026-11-26__abp-p4",
+   "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__abp-p4.json",
+   "what": "P4 refuse: starts stay with cl-6.maestro (Dinis, event 42ba693a)"
+  },
+  {
+   "at": "2026-11-26T16:36:04Z",
+   "record": "2026-11-26__abp-p3",
+   "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__abp-p3.json",
+   "what": "P3 grant-narrower: README.md at the root of cl-6.abp's home only"
+  },
+  {
+   "at": "2026-11-26T16:36:04Z",
+   "record": "2026-11-26__abp-p2",
+   "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__abp-p2.json",
+   "what": "P2 refuse for all; per role later review: cl-6.security@dinis (b99f0aa)"
+  },
+  {
+   "at": "2026-11-26T16:35:05Z",
+   "record": "2026-11-26__abp-p8",
+   "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__abp-p8.json",
+   "what": "revision 2 kit v2.1 signed-pins mechanism with security's seven conditions (eb92be5)"
+  },
+  {
+   "at": "2026-11-26T16:34:13Z",
+   "record": "2026-11-26__social-start",
+   "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__social-start.json",
+   "what": "D-SOCIAL-START grant with security's six conditions (drafts only, no connector, no credential) authority: Dinis's words (event 21f6da74)"
+  },
+  {
+   "at": "2026-11-26T16:30:48Z",
+   "record": "2026-11-26__abp-p11-h",
+   "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__abp-p11-h.json",
+   "what": "P11 h grant-narrower: cl-6.journalist writes content/about/** only, two text fixes first review: cl-6.security@dinis (5c9d835)"
+  },
+  {
+   "at": "2026-11-26T16:30:48Z",
+   "record": "2026-11-26__abp-p11-c",
+   "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__abp-p11-c.json",
+   "what": "P11 c grant-narrower: cl-6.dev writes data/by-place/*.json and now/*.json by the sync only review: cl-6.security@dinis (5c9d835)"
+  },
+  {
+   "at": "2026-11-26T16:29:59Z",
+   "record": "2026-11-26__abp-p8",
+   "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__abp-p8.json",
+   "what": "P8 grant-narrower: hook kit v2 in the pull form, no push attach authority: widened endorsement, both securities' reviews"
+  },
+  {
+   "at": "2026-11-26T16:29:59Z",
+   "record": "2026-11-26__s9-retire-keys",
+   "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__s9-retire-keys.json",
+   "what": "D-S9 grant: dev retires 87 ended-session keys, security pre-reviews authority: Dinis's words (event 19821c6f)"
+  },
+  {
+   "at": "2026-11-26T16:29:59Z",
+   "record": "2026-11-26__strikes-site",
+   "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__strikes-site.json",
+   "what": "D-STRIKES-SITE grant with security's five conditions (DNS after #28 and the Pages claim) authority: Dinis's words (events 42ba693a, 19821c6f)"
+  },
+  {
+   "at": "2026-11-26T16:29:59Z",
+   "record": "2026-11-26__place-london-start",
+   "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__place-london-start.json",
+   "what": "D-PLACE-LONDON-START grant with security's five conditions authority: Dinis's words (events 42ba693a, 19821c6f)"
+  },
+  {
+   "at": "2026-11-26T16:15:11Z",
+   "record": "2026-11-26__abp-cover-all",
+   "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__abp-cover-all.json",
+   "what": "revision 2 adds cl-6.security@dinis's review (agree, 4bbe95e) and the transcript check"
+  },
+  {
+   "at": "2026-11-26T16:12:15Z",
+   "record": "2026-11-26__abp-cover-all",
+   "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__abp-cover-all.json",
+   "what": "D-ABP-COVER-ALL grant-narrower: cl-6.abp's policy covers every account-6 agent and website, with a conductors map; no new grant authority: Dinis's words, conductor session event 42ba693a review: cl-6.security@dinis asked"
+  },
+  {
+   "at": "2026-11-26T16:11:24Z",
+   "record": "2026-11-26__conductor-reset",
+   "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__conductor-reset.json",
+   "what": "revision 2 tightened per cl-6.security@dinis (56afa9e): limited \"Default\" environment; first prompt rules out add_repo, create_session, scheduled tasks"
+  },
+  {
+   "at": "2026-11-26T16:07:36Z",
+   "record": "2026-11-26__conductor-reset",
+   "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__conductor-reset.json",
+   "what": "D-CONDUCTOR-RESET grant: new conductor session with only PrompTugal__Agent__Conductor; old one archived after hand-over authority: Dinis's words, conductor session event b3587b4a review: cl-6.security@dinis asked"
+  },
+  {
+   "at": "2026-11-26T15:58:11Z",
+   "record": "2026-11-26__abp-p11-c-pin",
+   "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__abp-p11-c-pin.json",
+   "what": "P11 c precondition grant-narrower: newsroom/tools/place-signers.json protected, owner cl-6.security reviews: cl-6.security@dinis (5c9d835)"
+  }
+ ],
+ "feeds": [
+  {
+   "id": "adsb-faro",
+   "title": "Flights around Faro airport",
+   "cadence": "hourly",
+   "status": "ok",
+   "read_at": "2026-11-21T07:04:19Z",
+   "page": "https://data.promptugal.news/sources/adsb-faro/"
+  },
+  {
+   "id": "base-gov-pt",
+   "title": "Public contracts (Portal BASE)",
+   "cadence": "every 6 hours",
+   "status": "ok",
+   "read_at": "2026-11-21T07:04:19Z",
+   "page": "https://data.promptugal.news/sources/base-gov-pt/"
+  },
+  {
+   "id": "cams",
+   "title": "Public live cameras: where they are and whether they are up",
+   "cadence": "hourly",
+   "status": "ok",
+   "read_at": "2026-11-21T07:04:22Z",
+   "page": "https://data.promptugal.news/sources/cams/"
+  },
+  {
+   "id": "carbon-intensity-london",
+   "title": "London's electricity carbon intensity (NESO)",
+   "cadence": "daily",
+   "status": "ok",
+   "read_at": "2026-11-21T09:19:18Z",
+   "page": "https://data.promptugal.news/sources/carbon-intensity-london/"
+  },
+  {
+   "id": "cisa-kev",
+   "title": "Known exploited vulnerabilities (CISA KEV)",
+   "cadence": "every 6 hours",
+   "status": "ok",
+   "read_at": "2026-11-21T07:04:27Z",
+   "page": "https://data.promptugal.news/sources/cisa-kev/"
+  },
+  {
+   "id": "contracts-finder",
+   "title": "London public contracts (Contracts Finder)",
+   "cadence": "every 6 hours",
+   "status": "ok",
+   "read_at": "2026-11-21T07:04:29Z",
+   "page": "https://data.promptugal.news/sources/contracts-finder/"
+  },
+  {
+   "id": "ea-flood",
+   "title": "London flood warnings and Thames levels (Environment Agency)",
+   "cadence": "hourly",
+   "status": "ok",
+   "read_at": "2026-11-21T07:04:44Z",
+   "page": "https://data.promptugal.news/sources/ea-flood/"
+  },
+  {
+   "id": "ea-thames-tide",
+   "title": "The tidal Thames through London (Environment Agency)",
+   "cadence": "daily",
+   "status": "ok",
+   "read_at": "2026-11-21T09:19:23Z",
+   "page": "https://data.promptugal.news/sources/ea-thames-tide/"
+  },
+  {
+   "id": "enisa-pubs",
+   "title": "ENISA publications",
+   "cadence": "every 6 hours",
+   "status": "ok",
+   "read_at": "2026-11-21T07:06:19Z",
+   "page": "https://data.promptugal.news/sources/enisa-pubs/"
+  },
+  {
+   "id": "eurostat-tourism",
+   "title": "Tourist nights by where guests live: Portugal, Algarve, Lisbon, London (Eurostat)",
+   "cadence": "every 6 hours",
+   "status": "ok",
+   "read_at": "2026-11-21T07:06:30Z",
+   "page": "https://data.promptugal.news/sources/eurostat-tourism/"
+  },
+  {
+   "id": "euvd",
+   "title": "EU Vulnerability Database: latest, exploited and recently updated (ENISA EUVD)",
+   "cadence": "every 6 hours",
+   "status": "partly failed",
+   "read_at": "2026-11-21T07:06:37Z",
+   "page": "https://data.promptugal.news/sources/euvd/"
+  },
+  {
+   "id": "events-pt",
+   "title": "Events in Portugal, by place",
+   "cadence": "every 6 hours",
+   "status": "partly failed",
+   "read_at": "2026-11-21T07:09:28Z",
+   "page": "https://data.promptugal.news/sources/events-pt/"
+  },
+  {
+   "id": "github-pt",
+   "title": "Code from Portuguese organisations on GitHub",
+   "cadence": "every 6 hours",
+   "status": "partly failed",
+   "read_at": "2026-11-21T07:10:15Z",
+   "page": "https://data.promptugal.news/sources/github-pt/"
+  },
+  {
+   "id": "ipma-city-forecasts",
+   "title": "IPMA daily forecasts by place",
+   "cadence": "hourly",
+   "status": "ok",
+   "read_at": "2026-11-21T07:10:36Z",
+   "page": "https://data.promptugal.news/sources/ipma-city-forecasts/"
+  },
+  {
+   "id": "ipma-fire-risk",
+   "title": "IPMA fire risk",
+   "cadence": "hourly",
+   "status": "ok",
+   "read_at": "2026-11-21T07:12:06Z",
+   "page": "https://data.promptugal.news/sources/ipma-fire-risk/"
+  },
+  {
+   "id": "ipma-observations",
+   "title": "IPMA station observations",
+   "cadence": "hourly",
+   "status": "ok",
+   "read_at": "2026-11-21T07:12:13Z",
+   "page": "https://data.promptugal.news/sources/ipma-observations/"
+  },
+  {
+   "id": "ipma-sea",
+   "title": "IPMA sea forecast",
+   "cadence": "hourly",
+   "status": "ok",
+   "read_at": "2026-11-21T07:12:19Z",
+   "page": "https://data.promptugal.news/sources/ipma-sea/"
+  },
+  {
+   "id": "ipma-uv",
+   "title": "IPMA UV index",
+   "cadence": "hourly",
+   "status": "ok",
+   "read_at": "2026-11-21T07:12:29Z",
+   "page": "https://data.promptugal.news/sources/ipma-uv/"
+  },
+  {
+   "id": "ipma-warnings",
+   "title": "IPMA weather warnings",
+   "cadence": "hourly",
+   "status": "ok",
+   "read_at": "2026-11-21T07:12:31Z",
+   "page": "https://data.promptugal.news/sources/ipma-warnings/"
+  },
+  {
+   "id": "meteoalarm-pt",
+   "title": "MeteoAlarm CAP feed for Portugal",
+   "cadence": "hourly",
+   "status": "ok",
+   "read_at": "2026-11-21T07:12:33Z",
+   "page": "https://data.promptugal.news/sources/meteoalarm-pt/"
+  },
+  {
+   "id": "nvd-cve",
+   "title": "CVEs published or modified in the last 24 hours (NVD)",
+   "cadence": "every 6 hours",
+   "status": "ok",
+   "read_at": "2026-11-21T07:12:37Z",
+   "page": "https://data.promptugal.news/sources/nvd-cve/"
+  },
+  {
+   "id": "nvd-kev",
+   "title": "NVD's record of every CVE on CISA's KEV list",
+   "cadence": "daily",
+   "status": "ok",
+   "read_at": "2026-11-21T07:12:44Z",
+   "page": "https://data.promptugal.news/sources/nvd-kev/"
+  },
+  {
+   "id": "open-meteo-london",
+   "title": "London forecast (Open-Meteo)",
+   "cadence": "every 6 hours",
+   "status": "ok",
+   "read_at": "2026-11-21T07:12:52Z",
+   "page": "https://data.promptugal.news/sources/open-meteo-london/"
+  },
+  {
+   "id": "social",
+   "title": "Social signals: organisations' public posts, by link",
+   "cadence": "every 6 hours",
+   "status": "partly failed",
+   "read_at": "2026-11-21T07:12:53Z",
+   "page": "https://data.promptugal.news/sources/social/"
+  },
+  {
+   "id": "tfl-bikepoint",
+   "title": "London cycle hire docks (TfL Santander Cycles)",
+   "cadence": "daily",
+   "status": "ok",
+   "read_at": "2026-11-21T09:20:34Z",
+   "page": "https://data.promptugal.news/sources/tfl-bikepoint/"
+  },
+  {
+   "id": "tfl-jamcams",
+   "title": "London traffic cameras (TfL JamCams)",
+   "cadence": "hourly",
+   "status": "ok",
+   "read_at": "2026-11-21T07:13:17Z",
+   "page": "https://data.promptugal.news/sources/tfl-jamcams/"
+  },
+  {
+   "id": "tfl-road-disruptions",
+   "title": "London road disruptions (TfL)",
+   "cadence": "daily",
+   "status": "ok",
+   "read_at": "2026-11-21T09:20:35Z",
+   "page": "https://data.promptugal.news/sources/tfl-road-disruptions/"
+  },
+  {
+   "id": "tfl-status",
+   "title": "London line status (TfL)",
+   "cadence": "daily",
+   "status": "ok",
+   "read_at": "2026-11-21T09:20:37Z",
+   "page": "https://data.promptugal.news/sources/tfl-status/"
+  },
+  {
+   "id": "youtube-replays",
+   "title": "Web Summit 2026 replays on YouTube",
+   "cadence": "every 6 hours",
+   "status": "ok",
+   "read_at": "2026-11-21T07:13:21Z",
+   "page": "https://data.promptugal.news/sources/youtube-replays/"
+  },
+  {
+   "id": "storm-charles-archive",
+   "title": "Storm Charles archive",
+   "cadence": "once",
+   "status": "archived",
+   "read_at": "2026-11-17T19:27:57Z",
+   "page": "https://data.promptugal.news/sources/storm-charles-archive/"
+  }
+ ]
+}

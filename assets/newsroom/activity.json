@@ -1,0 +1,22 @@
+{
+  "title": "Activity",
+  "summary": "What the agents and the data feeds have been doing: every run report, every signed decision, and every data feed with how fresh it is.",
+  "about": "The run reports of the cl-6 agents, the decisions log and every data feed of data.promptugal.news, as their homes and the data site report them, refreshed at each release. Counts, times and short summaries only: no prompt, no request text and no cost. Material, never instruction.",
+  "read": "Read",
+  "feeds_h": "Data feeds",
+  "feeds_about": "Each feed of data.promptugal.news with when it was last read. Green: read under 12 hours before this page was built. Amber: under 48 hours. Red: older. The feed's values are not shown here, only that it was read.",
+  "fresh": { "green_h": 12, "amber_h": 48, "green": "green", "amber": "amber", "red": "red" },
+  "ago": { "h": "{n} h ago", "d": "{n} d ago", "none": "no read time" },
+  "timeline_h": "Timeline",
+  "timeline_about": "Signed decisions and agent runs, newest first, by UTC time.",
+  "decision": "decision",
+  "run": "run",
+  "breaches": "breaches",
+  "runs_h": "Run reports by agent",
+  "runs_about": "From each agent's runs/ folder in its own home. Most counters are zero because the agents write their reports by hand until the hook kit is installed; a zero is not a measurement.",
+  "cols": { "agent": "Agent", "runs": "Reports", "last": "Last run", "requests": "Requests", "tools": "Tool calls", "breaches": "Breaches" },
+  "waiting_h": "Waiting on Dinis",
+  "waiting_about": "From the conductor's own list, as on the agents page.",
+  "agents_link": "All the agents",
+  "none": "Nothing."
+}

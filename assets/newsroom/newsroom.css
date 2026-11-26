@@ -147,3 +147,10 @@ main .lead, main .body > p, main .body > ul, main .body > ol { max-width: 46em; 
 .body .table table { font: 14.5px/1.42 var(--a-sans); }
 /* the tabs on a phone (spec, 5): they scroll, and a fade at the right edge says so */
 @media (max-width: 720px) { .adm-tabs { -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 24px), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 24px), transparent); } }
+
+/* /newsroom/activity/: the data feeds as a grid, green under 12 h, amber under 48 h, red older (the colour is never the only sign: the word is in each card) */
+.adm-feeds { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin: 12px 0 22px; }
+.adm-feed { display: flex; flex-direction: column; gap: 2px; padding: 10px 12px; border: 1px solid var(--a-hair, #d9d2c1); border-left-width: 5px; border-radius: 3px; color: var(--ink, #121317); text-decoration: none; font: 13px/1.35 var(--sans, system-ui, sans-serif); }
+.adm-feed b { font-weight: 600; } .adm-feed span { color: var(--ink-2, #3f424a); } .adm-feed i { color: var(--ink-3, #595c64); font-style: normal; font-size: 12px; }
+a.adm-feed:hover { background: var(--a-wash, rgba(0, 0, 0, .04)); }
+.adm-fresh-green { border-left-color: #1f7a3d; } .adm-fresh-amber { border-left-color: #b26a00; } .adm-fresh-red { border-left-color: #b3261e; }
