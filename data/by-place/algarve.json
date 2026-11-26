@@ -1,1335 +1,1482 @@
 {
-  "$schema": "../schemas/by-place.schema.json",
-  "id": "algarve",
-  "name": "The Algarve",
-  "kind": "region",
-  "parent": "portugal",
-  "status": "live",
-  "updated": "2026-11-20",
-  "by": "place.algarve@PrompTugal.dinis",
-  "mandate": "PrompTugal.news The Algarve: AI and technology across the Algarve and its 17 towns, centred on Faro's university and innovation community and on tourism and health, and what reaches the region from Portugal and the world. Independent; every fact sourced.",
-  "gravity": {
-    "text": "The Algarve's AI activity is concentrated in Faro around the University of Algarve and Algarve Evolution, and is aimed mostly at the two big regional sectors, tourism and health, with the university adding heritage, food and marine research. Regional bodies such as CCDR Algarve, NERA and Turismo do Algarve fund and teach AI adoption, and in 2026 the University won 31.5 million euros for an AI-first heritage centre.",
-    "sources": [
-      {
-        "title": "UAlg wins 31.5 million euros for UAlgTec Heritage",
-        "url": "https://www.barlavento.pt/?p=397911",
-        "read_on": "2026-11-15"
-      },
-      {
-        "title": "Funds to bring AI and robotics to 15 tourism firms",
-        "url": "https://www.barlavento.pt/?p=394835",
-        "read_on": "2026-11-15"
-      },
-      {
-        "title": "Algarve Evolution",
-        "url": "https://www.algarveevolution.pt",
-        "read_on": "2026-11-15"
-      }
-    ]
-  },
-  "look": {
-    "accent": "#0B5C7A",
-    "landmark": "Ponta da Piedade and the Faro lagoon",
-    "motif": "Atlantic blue, limestone cliffs, a university on the lagoon"
-  },
-  "ai_news": [
-    {
-      "title": "NERA hosts a Lunch & Learn on AI tools for customer analysis, at the University of Algarve",
-      "summary": "The regional business association NERA hosted a session at CRIA, the University of Algarve's entrepreneurship division in Faro, on using AI tools to turn customer feedback into business decisions. It ran on 10 November under the INTREPIDA pro cross-border project.",
-      "date": "2026-11-11",
-      "publisher": "NERA",
-      "url": "https://nera.pt/noticias/intrepida-pro-promoveu-lunch-learn-sobre-ferramentas-de-ia",
-      "read_on": "2026-11-15",
-      "ai_path": "The session is about using AI tools to analyse customer opinions.",
-      "steps": 0,
-      "significance": "neighbours",
-      "significance_why": "A Faro session, but run by a project that serves women-led firms across the Algarve."
-    },
-    {
-      "title": "DevFest Faro gives two days to building AI agents in practice",
-      "summary": "Google Developer Groups Faro runs a free two-day conference on 27 and 28 November at the University of Algarve's Penha campus, on building, securing and scaling AI applications and agents with Google Gemini and Google Cloud. Algarve Evolution is a partner.",
-      "date": "2026-11-06",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/devfest-faro-inteligencia-artificial/",
-      "read_on": "2026-11-15",
-      "ai_path": "The conference is about building and securing AI-powered applications and agents.",
-      "steps": 0,
-      "significance": "region",
-      "significance_why": "An open two-day AI conference that draws students and professionals from the whole region."
-    },
-    {
-      "title": "UAlg's arts and communication centre opens INTERFACE, a digital translation lab, with an AI Studio",
-      "summary": "The University of Algarve's CIAC opened the INTERFACE lab at the Penha campus on 9 October to turn complex science into visual and immersive content, backed by 473,800 euros from FCT's EQUIPAR+2 under the PRR. Its AI Studio extension, focused on AI and digital literacy, sits at CIAC's hub in Santarém, outside the Algarve.",
-      "date": "2026-10-19",
-      "publisher": "Universidade do Algarve",
-      "url": "https://www.ualg.pt/ciac-inaugura-laboratorio-de-traducao-digital-na-ualg",
-      "read_on": "2026-11-16",
-      "ai_path": "A UAlg lab has an AI and digital literacy studio as part of the project.",
-      "steps": 1,
-      "significance": "neighbours",
-      "significance_why": "A Faro lab, with its AI studio outside the Algarve."
-    },
-    {
-      "title": "Algarve Evolution opens a survey on how local companies adopt AI",
-      "summary": "Algarve Evolution launched the Algarve Business AI Adoption Survey, a five-minute questionnaire on how firms of any size use AI, what blocks them and where they see opportunity. Answers are reported only in aggregate and the survey is to repeat twice a year to shape regional support and training.",
-      "date": "2026-10-12",
-      "publisher": "Algarve Evolution",
-      "url": "https://www.algarveevolution.pt/blog/news-2/survey-ai-adoption-in-the-algarve-28",
-      "read_on": "2026-11-15",
-      "ai_path": "The survey measures AI adoption by regional businesses.",
-      "steps": 0,
-      "significance": "region",
-      "significance_why": "A survey of every business in the Algarve."
-    },
-    {
-      "title": "University of Algarve launches its AI use policy",
-      "summary": "The university published its policy on the use of AI, including generative AI: a humanist, critical and responsible approach with guidance for students, teaching staff, researchers and administrative services, drawing on European Commission, UNESCO, OECD and SEA-EU references. An April 2026 draft had gone to consultation until 8 May.",
-      "date": "2026-09-24",
-      "publisher": "Universidade do Algarve",
-      "url": "https://www.ualg.pt/ualg-define-regras-e-principios-para-utilizacao-da-inteligencia-artificial",
-      "read_on": "2026-11-15",
-      "ai_path": "A university sets the rules for AI use across teaching, research and administration.",
-      "steps": 0,
-      "significance": "region",
-      "significance_why": "The region's university sets AI rules for its students and staff in Faro and Portimão."
-    },
-    {
-      "title": "ULS Algarve holds a webinar on AI in the national health service",
-      "summary": "The Algarve's local health unit ran a webinar on 15 September on the opportunities, risks and conditions for using AI in healthcare, covering governance, data protection, cybersecurity and patient trust, for clinical, technical and management staff.",
-      "date": "2026-09-10",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/webseminario-uls-algarve-inteligencia-artificial-sns/",
-      "read_on": "2026-11-15",
-      "ai_path": "A regional health body debates how to adopt AI safely.",
-      "steps": 0,
-      "significance": "region",
-      "significance_why": "The Algarve's health unit serves the whole region."
-    },
-    {
-      "title": "NERA and UAlg prepare two living labs to test robotics and AI on Algarve farms",
-      "summary": "The AGROBOTICS-DITWINS project will set up two living labs in the Algarve to test robotics and AI on working farms. 28 expressions of interest were received and the two hosts were still being selected. The Interreg SUDOE project runs until May 2028.",
-      "date": "2026-07-22",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/nera-ualg-living-labs-robotica-agricultura/",
-      "read_on": "2026-11-16",
-      "ai_path": "The living labs test AI and robotics in agriculture.",
-      "steps": 0,
-      "significance": "region",
-      "significance_why": "Two farms somewhere in the Algarve will host tests that other farms can learn from."
-    },
-    {
-      "title": "Faro panel asks how AI decides which companies to recommend",
-      "summary": "Flow Productions, with Algarve STP and the Ireland Portugal Business Network, hosted an English-language panel on 22 July at the UAlg TEC Campus on how ChatGPT, Gemini, Claude and Perplexity change online search, and on answer-engine and generative-engine optimisation.",
-      "date": "2026-07-17",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/faro-debate-inteligencia-artificial-empresas/",
-      "read_on": "2026-11-15",
-      "ai_path": "The panel is about how AI assistants choose which businesses to recommend.",
-      "steps": 0,
-      "significance": "neighbours",
-      "significance_why": "A Faro panel on AI search that firms in neighbouring councils can use."
-    },
-    {
-      "title": "First Venture Lab by AlgarveSTP picks 12 companies, with AI adoption on the mentoring menu",
-      "summary": "AlgarveSTP's free mentoring programme chose 12 Algarve startups and SMEs. Only Bot Gonçalves is described as AI-based, using AI and satellite imagery to monitor critical infrastructure. Mentoring covers technology and AI adoption among other topics, and the programme is funded by ALGARVE 2030.",
-      "date": "2026-07-10",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/escolhidas-as-12-empresas-do-primeiro-venture-lab-by-algarvestp/",
-      "read_on": "2026-11-16",
-      "ai_path": "A regional accelerator cohort that includes an AI company and mentoring on AI adoption.",
-      "steps": 1,
-      "significance": "region",
-      "significance_why": "An accelerator for firms headquartered anywhere in the Algarve."
-    },
-    {
-      "title": "Portimão uses AI to check building-permit documents",
-      "summary": "The Portimão council is rolling out a digital urban-management platform with an AI module that checks documents on submission and flags missing items. Town agent hint: this is a Portimão story that also matters region-wide.",
-      "date": "2026-07-03",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/portimao-inteligencia-artificial-urbanismo/",
-      "read_on": "2026-11-15",
-      "ai_path": "A council deploys an AI module to check planning documents.",
-      "steps": 0,
-      "significance": "neighbours",
-      "significance_why": "A council tool that adjacent councils may copy, though the service is Portimão's."
-    },
-    {
-      "title": "Vilamoura school hosts an education summit on AI",
-      "summary": "The Colégio Internacional de Vilamoura held an Innovation in Education Summit on 9 May with panels on how AI affects teaching and learning.",
-      "date": "2026-05-06",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/colegio-internacional-vilamoura-debate-ia-summit-educacao/",
-      "read_on": "2026-11-15",
-      "ai_path": "A school summit centred on AI in education.",
-      "steps": 1,
-      "significance": "local",
-      "significance_why": "A school summit in Vilamoura."
-    },
-    {
-      "title": "UAlg wins 31.5 million euros for an AI-first European heritage centre",
-      "summary": "The University of Algarve's ICArEHB research centre secured 31.5 million euros, 15 million from Horizon Europe's Teaming for Excellence and 16.5 million national, to create UAlgTec Heritage. It takes an AI-first approach to protecting and studying archaeological heritage, with partners including Kiel University, ERA Arqueologia and Zartis, and expects over 70 skilled jobs in six years.",
-      "date": "2026-04-23",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/?p=397911",
-      "read_on": "2026-11-15",
-      "ai_path": "The centre's stated approach to heritage is AI-first.",
-      "steps": 0,
-      "significance": "region",
-      "significance_why": "The largest research award in the Algarve this year, with jobs and training across the region."
-    },
-    {
-      "title": "Vale do Lobo launches Oliver, an AI digital concierge",
-      "summary": "The Loulé resort launched a multilingual AI concierge available around the clock for guests, owners and prospective buyers, including property recommendations. Town agent hint: Loulé.",
-      "date": "2026-04-16",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/vale-lobo-lanca-concierge-digital-ia-hospedes-compradores/",
-      "read_on": "2026-11-15",
-      "ai_path": "A resort ships an AI product to customers.",
-      "steps": 0,
-      "significance": "local",
-      "significance_why": "A resort's own product, in Loulé."
-    },
-    {
-      "title": "Turismo do Algarve runs free AI bootcamp for tourism professionals",
-      "summary": "As part of its Competências do Futuro Algarve programme, the regional tourism body scheduled a free four-hour AI session on 17 April at the Portimão hotel and tourism school covering ChatGPT, Gemini, Copilot, automation and prompting, plus a water-efficiency bootcamp.",
-      "date": "2026-03-26",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/turismo-algarve-bootcamps-eficiencia-hidrica-inteligencia-artificial/",
-      "read_on": "2026-11-15",
-      "ai_path": "The bootcamp teaches tourism staff to use AI tools.",
-      "steps": 0,
-      "significance": "region",
-      "significance_why": "The regional tourism body trains tourism staff across the Algarve."
-    },
-    {
-      "title": "European funds to bring AI and robotics to 15 Algarve tourism firms, and a warning on agentic AI",
-      "summary": "At the first meeting of CCDR Algarve's tourism innovation platform, the president of Algarve Evolution urged companies to prepare for agentic AI that can search, compare and book on a traveller's behalf. An ALGARVE 2030 project will support 15 tourism SMEs with digital-maturity checks and AI and robotics action plans.",
-      "date": "2026-03-20",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/?p=394835",
-      "read_on": "2026-11-15",
-      "ai_path": "The story is about agentic AI in tourism and funded AI adoption.",
-      "steps": 0,
-      "significance": "region",
-      "significance_why": "A regionally funded programme and a warning aimed at the Algarve's whole tourism sector."
-    },
-    {
-      "title": "AuroraMed and UAlg launch an executive course on AI in healthcare",
-      "summary": "AuroraMed, a Portuguese healthtech focused on AI in clinical management, and the University of Algarve's medical faculty launched an executive course in Faro on 20 April for health decision-makers, with PRR-funded scholarships.",
-      "date": "2026-03-19",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/auroramed-lanca-curso-de-ia-na-saude-com-a-ualg/",
-      "read_on": "2026-11-15",
-      "ai_path": "A healthtech and a university teach AI in healthcare.",
-      "steps": 0,
-      "significance": "region",
-      "significance_why": "A course for health leaders of the whole region, backed by national funds."
-    },
-    {
-      "title": "Algarve Evolution opens applications for its AI and robotics pilot for tourism SMEs",
-      "summary": "Part of INOVA ALGARVE 3.0, led by NERA with the university, the tourism body, CCDR Algarve, KIPT and Tertúlia Algarvia, the pilot offered consulting to 15 tourism firms. Applications ran from 20 February to 30 April 2026.",
-      "date": "2026-02-23",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/?p=392781",
-      "read_on": "2026-11-15",
-      "ai_path": "A funded programme to put AI and robotics into tourism firms.",
-      "steps": 0,
-      "significance": "region",
-      "significance_why": "A regionally funded pilot open to tourism firms across the Algarve."
-    },
-    {
-      "title": "University of Algarve and Empowered Startups plan an AI cluster for the Algarve",
-      "summary": "Following the EPIA 2025 AI conference at the university, the two partners said they would link entrepreneurs, industry and higher education into an AI cluster and attract talent to southern Portugal.",
-      "date": "2025-11-18",
-      "publisher": "Portugal Global (AICEP)",
-      "url": "https://portugalglobal.pt/en/news/2025/november/fostering-ai-and-innovation-in-the-algarve",
-      "read_on": "2026-11-15",
-      "ai_path": "The stated aim is a regional AI cluster.",
-      "steps": 0,
-      "significance": "region",
-      "significance_why": "A plan for an AI cluster for the whole region."
-    },
-    {
-      "title": "EPIA 2025, Portugal's AI conference, is held at the University of Algarve in Faro",
-      "summary": "The 24th EPIA Conference on Artificial Intelligence ran from 1 to 3 October 2025 at the Gambelas campus, hosted by the University of Algarve with the Portuguese Association for AI as patron, with 16 tracks from AI in medicine and generative AI to AI and IoT in agriculture and AI in transport. A school on AI preceded it on 29 and 30 September.",
-      "date": "2025-10-01",
-      "publisher": "University of Algarve (EPIA 2025)",
-      "url": "https://epia2025.ualg.pt/",
-      "read_on": "2026-11-16",
-      "ai_path": "It is a national AI research conference hosted in the region.",
-      "steps": 0,
-      "significance": "country",
-      "significance_why": "A national AI research conference, with the Portuguese AI association as patron."
-    }
-  ],
+ "$schema": "../schemas/by-place.schema.json",
+ "id": "algarve",
+ "name": "The Algarve",
+ "kind": "region",
+ "parent": "portugal",
+ "status": "live",
+ "updated": "2026-11-26",
+ "by": "place.algarve@PrompTugal.dinis",
+ "mandate": "PrompTugal.news The Algarve: AI and technology across the Algarve and its 17 towns, centred on Faro's university and innovation community and on tourism and health, and what reaches the region from Portugal and the world. Independent; every fact sourced.",
+ "gravity": {
+  "text": "The Algarve's AI activity is concentrated in Faro around the University of Algarve and Algarve Evolution, and is aimed mostly at the two big regional sectors, tourism and health, with the university adding heritage, food and marine research. Regional bodies such as CCDR Algarve, NERA and Turismo do Algarve fund and teach AI adoption, and in 2026 the University won 31.5 million euros for an AI-first heritage centre.",
   "sources": [
-    {
-      "name": "Barlavento: Inteligência Artificial tag",
-      "url": "https://www.barlavento.pt/etiquetas/inteligencia-artificial/",
-      "kind": "press",
-      "feed": "https://www.barlavento.pt/etiquetas/inteligencia-artificial/feed/"
-    },
-    {
-      "name": "Algarve Evolution: news and events",
-      "url": "https://www.algarveevolution.pt/blog",
-      "kind": "business",
-      "feed": null
-    },
-    {
-      "name": "CCDR Algarve: news",
-      "url": "https://www.ccdr-alg.pt",
-      "kind": "other",
-      "feed": null
-    },
-    {
-      "name": "NERA: news",
-      "url": "https://nera.pt",
-      "kind": "business",
-      "feed": null
-    },
-    {
-      "name": "Universidade do Algarve",
-      "url": "https://www.ualg.pt",
-      "kind": "university",
-      "feed": null
-    },
-    {
-      "name": "Sul Informação",
-      "url": "https://www.sulinformacao.pt",
-      "kind": "press",
-      "feed": "https://www.sulinformacao.pt/feed/"
-    },
-    {
-      "name": "Postal do Algarve",
-      "url": "https://postal.pt",
-      "kind": "press",
-      "feed": "https://postal.pt/feed/"
-    },
-    {
-      "name": "BEALG: Algarve entrepreneurship ecosystem directory",
-      "url": "https://bealgarve.pt/pt/ecossistema/",
-      "kind": "business",
-      "feed": null
-    },
-    {
-      "name": "Transparência: PRR projects portal",
-      "url": "https://transparencia.gov.pt/en/fundos-europeus/prr/",
-      "kind": "other",
-      "feed": null
-    },
-    {
-      "name": "Jornal do Algarve",
-      "url": "https://jornaldoalgarve.pt",
-      "kind": "press",
-      "feed": "https://www.jornaldoalgarve.pt/feed/"
-    },
-    {
-      "name": "ALGARVE 2030 regional programme",
-      "url": "https://algarve.portugal2030.pt/",
-      "kind": "other",
-      "feed": null
-    },
-    {
-      "name": "AlgarveSTP news (blocked to our reader)",
-      "url": "https://algarvestp.pt/en/category/noticias/",
-      "kind": "business",
-      "feed": null
-    },
-    {
-      "name": "Algarve Primeiro",
-      "url": "https://www.algarveprimeiro.com",
-      "kind": "press",
-      "feed": null
-    },
-    {
-      "name": "Algarve Daily News (English)",
-      "url": "https://algarvedailynews.com",
-      "kind": "press",
-      "feed": "https://algarvedailynews.com/?format=feed&type=rss"
-    },
-    {
-      "name": "Startup Portugal",
-      "url": "https://www.startupportugal.com/",
-      "kind": "other",
-      "feed": null
-    },
-    {
-      "name": "IAPMEI",
-      "url": "https://www.iapmei.pt/",
-      "kind": "other",
-      "feed": null
-    },
-    {
-      "name": "Algarve Evolution: members list (67 members, four pages)",
-      "url": "https://www.algarveevolution.pt/model/members?order=name+asc",
-      "kind": "business",
-      "feed": null
-    }
-  ],
-  "events": [
-    {
-      "title": "AI Social Content Lab online course (NERA)",
-      "date": "2026-11-04, 2026-11-11 and 2026-11-18",
-      "url": "https://nera.pt",
-      "read_on": "2026-11-15",
-      "ai_path": "Course on AI for social content, 0 steps"
-    },
-    {
-      "title": "Do you know UAlgTec Heritage? (Algarve Evolution, Faro)",
-      "date": "2026-11-17",
-      "url": "https://www.algarveevolution.pt/event/do-you-know-ualgtec-heritage-181",
-      "read_on": "2026-11-15",
-      "ai_path": "UAlgTec Heritage is an AI-first heritage centre, 1 step"
-    },
-    {
-      "title": "Open Mic Pitch Night, second edition (Algarve Evolution, Faro)",
-      "date": "2026-11-19",
-      "url": "https://www.algarveevolution.pt/event/open-mic-pitch-night-second-edition-185",
-      "read_on": "2026-11-15",
-      "ai_path": null
-    },
-    {
-      "title": "Conference: Digitalisation of the Water Cycle in the Algarve (CCDR Algarve, Faro)",
-      "date": "2026-11-24",
-      "url": "https://www.ccdr-alg.pt/site/info/conferencia-digitalizacao-do-ciclo-da-agua-no-algarve",
-      "read_on": "2026-11-15",
-      "ai_path": "Asks how technology and AI can improve water management, 1 step"
-    },
-    {
-      "title": "DevFest Faro 2026: Build, Secure & Scale in the Agentic Era",
-      "date": "2026-11-27 and 2026-11-28",
-      "url": "https://gdg.community.dev/events/details/google-gdg-faro-presents-devfest-2026-build-secure-amp-scale-in-the-agentic-era/",
-      "read_on": "2026-11-15",
-      "ai_path": "AI agents and applications conference, 0 steps"
-    },
-    {
-      "title": "CIMAR-LA crash course: Introduction to DeepLabCut (CCMAR, Gambelas campus, Faro)",
-      "date": "2026-12-02 and 2026-12-03",
-      "url": "https://ccmar.ualg.pt/",
-      "read_on": "2026-11-16",
-      "ai_path": "DeepLabCut is a deep-learning tool for tracking movement in video: the listing names the tool but does not describe the course, 1 step",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://ccmar.ualg.pt/"
-      }
-    },
-    {
-      "title": "Conference on AI and water management, University of Algarve, Faro",
-      "date": "2026-11-24",
-      "url": "https://postal.pt/europedirectalgarve/faro-recebe-conferencia-sobre-inteligencia-artificial-e-gestao-da-agua-no-algarve/",
-      "read_on": "2026-11-16",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://postal.pt/"
-      }
-    }
-  ],
-  "ai_map": [
-    {
-      "name": "LeiGPT",
-      "type": "startup",
-      "url": "https://leigpt.pt/",
-      "what": "AI platform for lawyers on Portuguese law, registered in Faro and a member of Algarve Evolution, which its site lists with Google for Startups and Akamai among its partners and supporters. It answers legal research questions with citations to codes and court rulings, analyses documents, and runs as a cloud service or on a client's own servers. Available now, with a free one-day trial.",
-      "source_url": "https://leigpt.pt/",
-      "read_on": "2026-11-16",
-      "ai_path": "Its product is an AI assistant for legal work.",
-      "steps": 0
-    },
-    {
-      "name": "Algarve Evolution",
-      "type": "organisation",
-      "url": "https://www.algarveevolution.pt",
-      "what": "Faro-based association of entrepreneurs, talent, startups, SMEs and partners that runs the Algarve Innovation Hub and incubator. It runs the regional AI adoption survey and the AI and robotics tourism programme, co-organised the Vibathon with Lovable, and its incubator takes technical founders building AI and software products.",
-      "source_url": "https://www.algarveevolution.pt/blog/news-2/survey-ai-adoption-in-the-algarve-28",
-      "read_on": "2026-11-15",
-      "ai_path": "It surveys AI adoption and runs AI and robotics programmes for regional firms.",
-      "steps": 0
-    },
-    {
-      "name": "Algarve Digital Innovators",
-      "type": "community",
-      "url": "https://newsroom.sgit.ai/articles/vibathon-algarve-2026.html",
-      "what": "Network of digital communities across the Algarve, supported by Algarve Evolution. Reported to include GDG Faro, Flutter Faro and Algarve AI Agents (our own newsroom's reading, to be re-checked at source).",
-      "source_url": "https://newsroom.sgit.ai/articles/vibathon-algarve-2026.html",
-      "read_on": "2026-11-15",
-      "ai_path": "The network includes AI and developer communities.",
-      "steps": 1
-    },
-    {
-      "name": "Algarve AI Agents",
-      "type": "community",
-      "url": "https://bealgarve.pt/pt/ecossistema/",
-      "what": "Community listed as AI-related in the Algarve entrepreneurship ecosystem directory and, per our newsroom, part of the Algarve Digital Innovators network. The directory gives no website: needs a primary source.",
-      "source_url": "https://bealgarve.pt/pt/ecossistema/",
-      "read_on": "2026-11-15",
-      "ai_path": "Its name says it is an AI agents community, and the BEALG directory lists it as AI-related.",
-      "steps": 0
-    },
-    {
-      "name": "GDG Faro",
-      "type": "community",
-      "url": "https://gdg.community.dev/events/details/google-gdg-faro-presents-devfest-2026-build-secure-amp-scale-in-the-agentic-era/",
-      "what": "Developer community that organises DevFest Faro on 27 and 28 November 2026 on AI applications and agents. Its pages also list a Build with AI 2026 day on 11 April and a Gemma AI hackathon on 18 July at UALG TEC Campus, both still marked upcoming when read, so we cannot confirm they ran.",
-      "source_url": "https://gdg.community.dev/events/details/google-gdg-faro-presents-devfest-2026-build-secure-amp-scale-in-the-agentic-era/",
-      "read_on": "2026-11-15",
-      "ai_path": "It runs a two-day conference on building AI applications.",
-      "steps": 0
-    },
-    {
-      "name": "Universidade do Algarve (UAlg)",
-      "type": "institution",
-      "url": "https://www.ualg.pt",
-      "what": "Public university with campuses in Faro (Penha and Gambelas) and Portimão. Launched its AI use policy in September 2026, runs AI courses with partners, hosted the EPIA 2025 conference and leads UAlgTec Heritage.",
-      "source_url": "https://www.ualg.pt/ualg-define-regras-e-principios-para-utilizacao-da-inteligencia-artificial",
-      "read_on": "2026-11-15",
-      "ai_path": "It sets AI policy, teaches AI and hosts AI research.",
-      "steps": 0
-    },
-    {
-      "name": "ICArEHB (UAlg research centre)",
-      "type": "institution",
-      "url": "https://www.algarveevolution.pt/event/do-you-know-ualgtec-heritage-181",
-      "what": "UAlg research centre in archaeology and human behaviour evolution. It leads UAlgTec Heritage, which won 31.5 million euros to create UAlgTec Heritage, a European centre taking an AI-first approach to heritage. A presentation is listed for 17 November 2026 in Faro.",
-      "source_url": "https://www.barlavento.pt/?p=397911",
-      "read_on": "2026-11-15",
-      "ai_path": "The new centre is described as AI-first.",
-      "steps": 0
-    },
-    {
-      "name": "CEOT (Centro de Eletrónica, Optoelectrónica e Telecomunicações, UAlg)",
-      "type": "institution",
-      "url": "https://www.ualg.pt",
-      "what": "UAlg research centre that co-organised a 2024 workshop on deep learning for near-infrared chemometrics in food control.",
-      "source_url": "https://www.barlavento.pt/sao-bras-de-alportel-apoia-workshop-de-inteligencia-artificial-na-ualg/",
-      "read_on": "2026-11-15",
-      "ai_path": "It applies deep learning to spectroscopy data.",
-      "steps": 0
-    },
-    {
-      "name": "CRIA (UAlg entrepreneurship and technology transfer division)",
-      "type": "institution",
-      "url": "https://www.algarveevolution.pt/blog/news-2/programa-de-apoio-a-validacao-de-provas-de-conceito-para-empresas-e-empreendedores-regionais-18",
-      "what": "UAlg division that runs the university's incubator and hosted the 10 November AI Lunch & Learn and, per our newsroom, the Vibathon opening.",
-      "source_url": "https://nera.pt/noticias/intrepida-pro-promoveu-lunch-learn-sobre-ferramentas-de-ia",
-      "read_on": "2026-11-15",
-      "ai_path": "It hosts AI events and supports spin-outs.",
-      "steps": 1
-    },
-    {
-      "name": "FMCB-UAlg (Faculty of Medicine and Biomedical Sciences)",
-      "type": "institution",
-      "url": "https://www.ualg.pt",
-      "what": "Co-runs the executive course on AI in healthcare with AuroraMed, held in Faro.",
-      "source_url": "https://www.barlavento.pt/auroramed-lanca-curso-de-ia-na-saude-com-a-ualg/",
-      "read_on": "2026-11-15",
-      "ai_path": "It co-teaches an AI in healthcare course.",
-      "steps": 0
-    },
-    {
-      "name": "AuroraMed",
-      "type": "company",
-      "url": "https://www.barlavento.pt/auroramed-lanca-curso-de-ia-na-saude-com-a-ualg/",
-      "what": "Portuguese healthtech focused on AI in clinical management, partner of the UAlg healthcare AI executive course. The article does not say where it is based: location to confirm.",
-      "source_url": "https://www.barlavento.pt/auroramed-lanca-curso-de-ia-na-saude-com-a-ualg/",
-      "read_on": "2026-11-15",
-      "ai_path": "It sells AI for clinical management and trains health leaders.",
-      "steps": 0
-    },
-    {
-      "name": "Empowered Startups",
-      "type": "company",
-      "url": "https://portugalglobal.pt/en/news/2025/november/fostering-ai-and-innovation-in-the-algarve",
-      "what": "Partner of UAlg in building an Algarve AI cluster and Platinum sponsor of the EPIA 2025 AI conference.",
-      "source_url": "https://portugalglobal.pt/en/news/2025/november/fostering-ai-and-innovation-in-the-algarve",
-      "read_on": "2026-11-15",
-      "ai_path": "It backs a regional AI cluster.",
-      "steps": 0
-    },
-    {
-      "name": "Lovable",
-      "type": "company",
-      "url": "https://www.algarveevolution.pt/blog/news-2/algarve-vibathon-2026-29",
-      "what": "AI app-building company whose tool powered the sold-out Vibathon Algarve of 31 October 2026, co-organised with Algarve Evolution (per our newsroom).",
-      "source_url": "https://newsroom.sgit.ai/articles/vibathon-algarve-2026.html",
-      "read_on": "2026-11-15",
-      "ai_path": "Its AI tool was the core of the event.",
-      "steps": 0
-    },
-    {
-      "name": "CCDR Algarve",
-      "type": "public body",
-      "url": "https://www.ccdr-alg.pt",
-      "what": "Regional coordination commission. Runs the regional smart-specialisation strategy and innovation platforms, co-funds the AI programmes through ALGARVE 2030 and is hosting a 24 November conference on digitalising the water cycle with AI.",
-      "source_url": "https://www.ccdr-alg.pt/site/info/conferencia-digitalizacao-do-ciclo-da-agua-no-algarve",
-      "read_on": "2026-11-15",
-      "ai_path": "It hosts AI in tourism platforms and AI-for-water events.",
-      "steps": 1
-    },
-    {
-      "name": "NERA, Associação Empresarial da Região do Algarve",
-      "type": "organisation",
-      "url": "https://nera.pt",
-      "what": "Regional business association based in Loulé. Leads INOVA ALGARVE 3.0, runs an AI Social Content Lab course in November 2026 and hosted the AI Lunch & Learn.",
-      "source_url": "https://nera.pt",
-      "read_on": "2026-11-15",
-      "ai_path": "It leads an AI and robotics programme and trains firms in AI.",
-      "steps": 1
-    },
-    {
-      "name": "Turismo do Algarve (Região de Turismo do Algarve)",
-      "type": "public body",
-      "url": "https://www.barlavento.pt/turismo-algarve-bootcamps-eficiencia-hidrica-inteligencia-artificial/",
-      "what": "Regional tourism body that runs the Competências do Futuro Algarve programme, including a free AI bootcamp for tourism professionals, and is an INOVA ALGARVE 3.0 partner.",
-      "source_url": "https://www.barlavento.pt/turismo-algarve-bootcamps-eficiencia-hidrica-inteligencia-artificial/",
-      "read_on": "2026-11-15",
-      "ai_path": "It trains tourism staff in AI tools.",
-      "steps": 1
-    },
-    {
-      "name": "Algarve STP",
-      "type": "organisation",
-      "url": "https://www.barlavento.pt/algarvestp-programa-gratuito-12-empresas-algarvias/",
-      "what": "Named as partner of the July 2026 Faro AI search panel and as support for the UAlgTec Heritage presentation, and as promoter of the Venture Lab by AlgarveSTP, a free mentoring programme for 12 Algarve startups and SMEs funded by ALGARVE 2030. Its own site serves a bot challenge to automated readers, so its role is read through the press.",
-      "source_url": "https://www.barlavento.pt/escolhidas-as-12-empresas-do-primeiro-venture-lab-by-algarvestp/",
-      "read_on": "2026-11-15",
-      "ai_path": "It runs a mentoring programme with AI adoption on the menu and co-hosts AI events.",
-      "steps": 1
-    },
-    {
-      "name": "KIPT CoLab",
-      "type": "organisation",
-      "url": "https://www.algarveevolution.pt/inovaalgarve",
-      "what": "Consortium partner in INOVA ALGARVE 3.0. Its own role in AI is not yet sourced.",
-      "source_url": "https://www.algarveevolution.pt/inovaalgarve",
-      "read_on": "2026-11-15",
-      "ai_path": "It is a partner of the AI and robotics tourism programme.",
-      "steps": 2
-    },
-    {
-      "name": "Tertúlia Algarvia",
-      "type": "organisation",
-      "url": "https://www.algarveevolution.pt/inovaalgarve",
-      "what": "Consortium partner in INOVA ALGARVE 3.0. Its own role in AI is not yet sourced.",
-      "source_url": "https://www.algarveevolution.pt/inovaalgarve",
-      "read_on": "2026-11-15",
-      "ai_path": "It is a partner of the AI and robotics tourism programme.",
-      "steps": 2
-    },
-    {
-      "name": "ULS Algarve",
-      "type": "public body",
-      "url": "https://www.barlavento.pt/webseminario-uls-algarve-inteligencia-artificial-sns/",
-      "what": "The regional health unit ran a webinar on AI in the national health service in September 2026 and is named in the AI healthcare course.",
-      "source_url": "https://www.barlavento.pt/webseminario-uls-algarve-inteligencia-artificial-sns/",
-      "read_on": "2026-11-15",
-      "ai_path": "It trains staff on safe AI adoption in health.",
-      "steps": 1
-    },
-    {
-      "name": "Flow Productions",
-      "type": "company",
-      "url": "http://www.flowproductions.pt/",
-      "what": "Creative technology agency with teams in Faro and Lisbon, listed as a member of Algarve Evolution (as Flow With Us). Its services include MarTech and AI, and its site says it helps companies get found by people and AI engines. It organised the July 2026 Faro panel on how AI assistants recommend businesses.",
-      "source_url": "http://www.flowproductions.pt/",
-      "read_on": "2026-11-15",
-      "ai_path": "It sells MarTech and AI services and runs events on AI search visibility.",
-      "steps": 1
-    },
-    {
-      "name": "Algarve 6.0 Smart Territorial Hub",
-      "type": "public body",
-      "url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/01/C19-i08/2024.P13557/",
-      "what": "PRR-funded project (1.13 million euros, September 2023 to June 2026) to put an urban management platform with sensors and a LoRaWAN network across six municipalities: Olhão, Alcoutim, Loulé, São Brás de Alportel, Tavira and Vila Real de Santo António. Town files name it in their own words.",
-      "source_url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/01/C19-i08/2024.P13557/",
-      "read_on": "2026-11-15",
-      "ai_path": "It builds the sensor and data platform that municipal AI services would run on.",
-      "steps": 2
-    },
-    {
-      "name": "Artificial Intelligence Algarve",
-      "type": "community",
-      "url": "https://www.algarveevolution.pt/events",
-      "what": "Community that appears as an 'AIA Artificial Intelligence Algarve' category on Algarve Evolution's events page and is listed as AI-related in the BEALG ecosystem directory. The events page showed no event under it when read. Needs its own public page.",
-      "source_url": "https://www.algarveevolution.pt/events",
-      "read_on": "2026-11-15",
-      "ai_path": "Its name and the events category are about AI.",
-      "steps": 0
-    },
-    {
-      "name": "Bot Gonçalves",
-      "type": "startup",
-      "url": "https://www.barlavento.pt/escolhidas-as-12-empresas-do-primeiro-venture-lab-by-algarvestp/",
-      "what": "Venture Lab by AlgarveSTP company that uses AI and satellite imagery to monitor critical infrastructure. The article gives no town: needs a primary source.",
-      "source_url": "https://www.barlavento.pt/escolhidas-as-12-empresas-do-primeiro-venture-lab-by-algarvestp/",
-      "read_on": "2026-11-16",
-      "ai_path": "Its product is AI applied to satellite imagery.",
-      "steps": 0
-    },
-    {
-      "name": "DigitalGTPro",
-      "type": "company",
-      "url": "https://www.barlavento.pt/escolhidas-as-12-empresas-do-primeiro-venture-lab-by-algarvestp/",
-      "what": "Venture Lab by AlgarveSTP company that automates business processes and supports data-driven decisions. The article gives no town.",
-      "source_url": "https://www.barlavento.pt/escolhidas-as-12-empresas-do-primeiro-venture-lab-by-algarvestp/",
-      "read_on": "2026-11-16",
-      "ai_path": "Process automation and data-driven decisions are the usual home of AI tools, and the article does not say it uses AI.",
-      "steps": 2
-    },
-    {
-      "name": "AGROBOTICS-DITWINS",
-      "type": "organisation",
-      "url": "https://nera.pt",
-      "what": "Interreg SUDOE project led by the University of Málaga, with 13 partners from Spain, Portugal and France, building robotics, AI and digital-twin living labs for agriculture to May 2028. NERA and UAlg lead the Algarve pilot.",
-      "source_url": "https://www.barlavento.pt/nera-ualg-living-labs-robotica-agricultura/",
-      "read_on": "2026-11-16",
-      "ai_path": "The project tests AI and robotics on farms.",
-      "steps": 0
-    },
-    {
-      "name": "CIAC (UAlg research centre in arts and communication)",
-      "type": "institution",
-      "url": "https://www.ualg.pt/ciac-inaugura-laboratorio-de-traducao-digital-na-ualg",
-      "what": "UAlg centre that opened the INTERFACE digital translation lab in Faro in October 2026, with an AI Studio extension at its Santarém hub.",
-      "source_url": "https://www.ualg.pt/ciac-inaugura-laboratorio-de-traducao-digital-na-ualg",
-      "read_on": "2026-11-16",
-      "ai_path": "Its lab project includes an AI and digital literacy studio.",
-      "steps": 1
-    },
-    {
-      "name": "INTREPIDA pro",
-      "type": "organisation",
-      "url": "https://nera.pt/noticias/intrepida-pro-promoveu-lunch-learn-sobre-ferramentas-de-ia",
-      "what": "Cross-border Interreg Spain-Portugal project led by Fundación Tres Culturas del Mediterráneo, with NERA as partner. It supported the 10 November Lunch & Learn on AI tools in Faro.",
-      "source_url": "https://nera.pt/noticias/intrepida-pro-promoveu-lunch-learn-sobre-ferramentas-de-ia",
-      "read_on": "2026-11-16",
-      "ai_path": "It runs sessions on using AI tools in business.",
-      "steps": 1
-    },
-    {
-      "name": "Faculdade de Ciências e Tecnologia (FCT-UAlg)",
-      "type": "institution",
-      "url": "https://epia2025.ualg.pt/",
-      "what": "UAlg faculty named as the contact for EPIA 2025, the 24th Portuguese conference on AI, held at the Gambelas campus in Faro on 1 to 3 October 2025.",
-      "source_url": "https://epia2025.ualg.pt/",
-      "read_on": "2026-11-16",
-      "ai_path": "It hosted a national AI conference.",
-      "steps": 0
-    },
-    {
-      "name": "AI Aumentar, Lda.",
-      "type": "company",
-      "url": "https://www.algarveevolution.pt/model/members/ai-aumentar-lda-3274",
-      "what": "Listed as a member of Algarve Evolution. The member page gives no description and links to concha-ai.com, a decision-intelligence product for leadership hiring, but that site does not mention AI Aumentar, so the link between them is unconfirmed. Needs its own source.",
-      "source_url": "https://www.algarveevolution.pt/model/members/ai-aumentar-lda-3274",
-      "read_on": "2026-11-16",
-      "ai_path": "Its name points to AI, which is unconfirmed.",
-      "steps": 1
-    },
-    {
-      "name": "DSPA (Data Science Portuguese Association)",
-      "type": "organisation",
-      "url": "http://www.dspa.pt",
-      "what": "National association for data science and AI that is listed as a member of Algarve Evolution. Its own site lists a generative AI certification, an AI Act compliance programme for businesses, an AI agents day for executives and the annual INSIGHTS conference. The site states no Algarve link: it appears on the map because of the membership.",
-      "source_url": "http://www.dspa.pt",
-      "read_on": "2026-11-16",
-      "ai_path": "It is a national data science and AI association.",
-      "steps": 0
-    },
-    {
-      "name": "ADJ3 Sistemas",
-      "type": "company",
-      "url": "http://adj3.pt",
-      "what": "Faro web and app developer that builds sites and portals for universities and municipalities on Drupal and React, and a member of Algarve Evolution. Its site lists AI services integrated with Drupal: chatbots that answer from a site's own content, smart search, and assistants for content editors.",
-      "source_url": "http://adj3.pt",
-      "read_on": "2026-11-16",
-      "ai_path": "It sells AI chatbots, search and editing assistants for public-interest websites.",
-      "steps": 0
-    },
-    {
-      "name": "Neomarca",
-      "type": "company",
-      "url": "http://neomarca.pt",
-      "what": "SME consultancy operating since 1995 with its head office in Faro and a team in Porto, and a member of Algarve Evolution. Its digital transformation work includes a service called digitalisation and adoption of artificial intelligence, alongside funding advice for programmes such as PRR and Portugal 2030.",
-      "source_url": "http://neomarca.pt",
-      "read_on": "2026-11-16",
-      "ai_path": "It consults small firms on adopting AI tools and on the funding that pays for it.",
-      "steps": 1
-    }
-  ],
-  "extras": [
-    {
-      "label": "Regional programme ALGARVE 2030",
-      "value": "Reported on 10 November 2026 to have passed 50% of its funds committed. It co-funds the AI and robotics tourism programme.",
-      "source_url": "https://www.barlavento.pt/?p=394835",
-      "read_on": "2026-11-15"
-    },
-    {
-      "label": "Starting a company here: free mentoring",
-      "value": "The Venture Lab by AlgarveSTP gave individual mentoring sessions to 12 Algarve startups and SMEs, including on AI adoption. It needed a headquarters in the Algarve and a validated business model. The first edition closed applications on 24 June 2026.",
-      "source_url": "https://www.barlavento.pt/algarvestp-programa-gratuito-12-empresas-algarvias/",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Starting a company here: from research to a company",
-      "value": "UAlg's CRIA runs a proof-of-concept programme for early-stage firms and entrepreneurs from technology readiness level 3 to 6, co-funded by ALGARVE 2030. Its 2026 call closed on 10 July.",
-      "source_url": "https://www.barlavento.pt/?p=402933",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Starting a company here: AI and robotics help for tourism firms",
-      "value": "Algarve Evolution's INOVA ALGARVE 3.0 pilot gave consulting and an action plan to 15 tourism SMEs, with a second wave of 5 published on its page. The call closed on 30 April 2026.",
-      "source_url": "https://www.algarveevolution.pt/inovaalgarve",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Starting a company here: the regional funder",
-      "value": "ALGARVE 2030 is the regional programme that funds most of the support above. Its site lists information sessions for calls named MPr-2026-6 and Parcerias para a Inovação, with no company, digital or startup call open on the page when read.",
-      "source_url": "https://algarve.portugal2030.pt/",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Starting a company here: the Algarve Evolution incubator",
-      "value": "Its Founder2Founder growth programme is a six-month mentor-led track for 8 companies that already have customers and revenue. An early-stage incubation programme for teams validating ideas, including technical founders building digital, AI or software products, is announced for 2027. The incubator page says Founder2Founder applications close on 30 September while the association's home page says they are closed: we have not resolved which is current.",
-      "source_url": "https://www.algarveevolution.pt/incubator",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Starting a company here: the national start-up body",
-      "value": "Startup Portugal lists a national one-stop shop for founders, the RNi incubator network and the Tech Foundry Portugal deep-tech acceleration track. Its page lists no Algarve or AI programme.",
-      "source_url": "https://www.startupportugal.com/",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Starting a company here: the national government side",
-      "value": "IAPMEI's public pages list Espaço Empresa business support, the StartUP Voucher Innovate 2025-2026 and StartUP Boost programmes, StartUP Visa and Tech Visa for founders and tech workers, a national mentors network, and a network of Digital Innovation Hubs for digital transformation. Its funding pages list Portugal 2030 and PRR incentives, with open calls on its Concursos abertos page. The page names no AI programme and no Algarve-specific one. Its open-calls page is an index that points to the Portugal 2030 annual call plan (portugal2030.pt/plano-anual-de-avisos/) and the PRR call plan, which we have not read, with PRR digital transition lines under C16 Empresas 4.0.",
-      "source_url": "https://www.iapmei.pt/",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Funding calls planned: AI and innovation, and the Algarve's place in them",
-      "value": "Portugal 2030's annual call plan (September 2026 to August 2027, spreadsheet version of 14 September 2026) lists 177 planned calls worth about 2.04 billion euros. Only seven have a title or objective that mentions AI, digital or IT-type words, and none of the seven lists the Algarve. The one on AI is a national IAPMEI call for AI training for companies under COMPETE2030, worth 80 million euros, planned for 30 October to 30 December 2026, for Alentejo, Centro and Norte only. For the Algarve the spreadsheet has 16 ALGARVE2030 calls (the web page's filter showed 18). The business and innovation ones are SIAC Empreendedorismo Qualificado associado ao conhecimento (1 million euros, 30 September 2026 to 15 January 2027), SIAC Qualificação (500,000 euros, to 29 January 2027), SIAC Transferência do conhecimento científico e tecnológico and SIAC Descarbonização (500,000 euros each, 30 October 2026 to 26 February 2027), hiring of highly qualified staff by firms (1.5 million euros, 1 October 2026 to 30 June 2027) and SICE Inovação Produtiva (listed at zero). The national business R&D call SIID I&D Empresarial (40 million euros, 30 September to 31 December 2026) includes the Algarve. All are forecasts, not launched notices, and keyword matching on titles is a rough test.",
-      "source_url": "https://portugal2030.pt/wp-content/uploads/sites/3/2026/09/PlanoAnualAvisos_download_140926-1.xlsx",
-      "read_on": "2026-11-16"
-    }
-  ],
-  "identity": {
-    "key_id": "site.algarve-promptugal-2",
-    "signed_by": "place.algarve.east@PrompTugal.dinis"
-  },
-  "gaps": [
-    "Candidate for the map once an AI path is sourced: the Algarve cybersecurity competence centre (UAlg, NERA and the intermunicipal community AMAL), whose page does not mention AI.",
-    "Hint for the Portimão agent: the council's AI document check for building permits (3 July 2026), the Portimão hotel and tourism school (17 April AI bootcamp) and the StartUp Portimão incubator.",
-    "Hint for the Loulé agent: the Vale do Lobo AI concierge Oliver (16 April 2026), NERA's base, and Colégio Internacional de Vilamoura's AI summit (Vilamoura is in Loulé).",
-    "Hint for the Faro agent: UAlg Penha campus, UAlgTec Heritage, CRIA, DevFest Faro, Algarve Evolution and the ULS Algarve webinar all sit in Faro.",
-    "Dengun (a startup studio in the BEALG directory) returned 403, and Witflow (selected for Unicorn Factory Lisboa) is known only from a search result: both still need a source we can open before they go on the map.",
-    "The BEALG directory lists about 40 incubators and communities (ANJE Faro, QRIAR, GrowIN Portugal, Impact Hackers, Geek Sessions Faro and others) with no AI tag: each needs a look for an AI path before it is mapped.",
-    "Town files name the Algarve 6.0 Smart Territorial Hub in three different ways, so the region map shows it more than once: dev.places@ or the town agents could align the name.",
-    "Sul Informação and Jornal do Algarve serve their feeds but return 403 on article pages, and Postal and AlgarveSTP serve a bot challenge: we read only their feed headlines, so their AI stories are not in the news list. Headlines to open at source if a route is allowed: Algarve as the first Portuguese tourism destination to advertise on ChatGPT (Sul Informação, November 2026), the INTREPIDA AI Lab, an AI and tourism piece (September 2026), the Algarve Autodrome's AI-in-HR paper at the TMCT'26 conference in Portimão, and Jornal do Algarve's pieces on AI health diagnostics at home and on AI used for urban planning in Castro Marim.",
-    "Feeds read and working: Barlavento's AI tag, Sul Informação, Jornal do Algarve and Postal. None of the Algarve universities' or the CCDR's news pages gave a feed.",
-    "Barlavento's two AI items without a clear Algarve company (a national poll on AI instead of seeing a doctor, and a book on AI that includes an Olhão author) were left out as national or personal.",
-    "UAlg centres: CIMA's page lists marine monitoring and open-data projects but no AI, CCMAR's home page describes no AI beyond a DeepLabCut crash course in December, and CINTAL's page mentions no AI. The SEA-EU alliance lists developing its Green and AI Charters among its priorities (a July 2025 article), but we found no charter text.",
-    "Investment map: we found no 2026 funding round for an Algarve-founded AI startup. Leads whose articles we could not open: COREangels Algarve (an angel group), Sotavento Invest, the Dengun Founders Program (about 20 investor groups as partners) and INDICO Capital Partners.",
-    "Local media: Região Sul and Portugal Resident serve a Cloudflare challenge, Algarve Primeiro shows no feed, and Algarve Daily News gives an RSS address that returned an empty channel. A search shows Rádio Universitária do Algarve and a closed Rádio Solar Algarve, but we opened no radio page. Blogs and the town newspapers are not yet listed: the town agents' files hold some, and the region page should link them.",
-    "Algarve AI Agents and Artificial Intelligence Algarve have no public site we can read: their meetup listings sit on Luma and Meetup, which we do not read, and the second is LinkedIn only. We should ask Algarve Evolution for a public page, or for dates.",
-    "Algarve Evolution's members list (67 members over four pages, read in full) gives names only, and the member pages link to each firm's own site. Sites read with AI evidence, now mapped: LeiGPT, DSPA, Flow Productions, ADJ3 Sistemas and Neomarca. Sites read with none: QXote, Visualforma, Craft 4.0 (business intelligence and IoT), Cyberprotech (cybersecurity, Loulé), Sisgarbe (business software, Faro), Rolear (a Faro engineering and energy group), Azulchain (microcredentials) and Blackbird. Omnibees lists a chatbot called BeeAgent with no description, and the Host PMS site lists a separate AI product and a Canary integration but states no location. Not yet read: Canopy (403), Wise Rocket (404), Indrant and OSB Solutions (no site linked), We Sport IT, and the members not named here.",
-    "Hint for the Faro agent: LeiGPT, Flow Productions, ADJ3 Sistemas and Neomarca are Faro-based Algarve Evolution members with AI offers on their own sites, candidates for its map and a story.",
-    "Finding: in Portugal 2030's call plan none of the seven AI or digital calls includes the Algarve, and the national AI training call for companies (80 million euros) covers only Alentejo, Centro and Norte. The Algarve's own AI help so far comes from the INOVA ALGARVE 3.0 pilot and local bodies. We should check whether ALGARVE2030 plans an AI call of its own and read the formal notices once launched.",
-    "Starting a company here: the Algarve calls we found earlier have closed, and the plan lists new ALGARVE2030 calls opening from 30 September 2026. The formal notices, with eligibility and amounts, are not yet read, and the plan's budgets are forecasts.",
-    "Faro airport traffic for November, IPMA warning levels, algarve2030.gov.pt, amal.pt and ualg.pt were not opened on 16 November; the October airport figure seen in a search snippet is not verified.",
-    "Seen only as headlines: Olhão teachers on Erasmus+ AI and VR training (Postal, 5 November), and CCDR items of 26 October (Matéria Adentro, POCTEP 2021-2027, citrus innovation).",
-    "IPMA warnings for today could not be read: the ipma.pt warnings page the sub-agent tried returned a 404. Check ipma.pt directly. The CCDR notice of 11 November and its 24 November water conference were read from the list page only.",
-    "algarve2030.gov.pt did not resolve from this session on 17 November, and ccdr-alg.pt had nothing dated 14 to 17 November. Seen only as headlines: ICCAT tuna meeting in Vilamoura (Barlavento), a housing march in Faro, a regional investment conference with 300 participants (Postal, 15 November), and national water-cut and E-REDES power-cut lists for 17 and 18 November (whether any of the five places is listed was not checked).",
-    "The UAlg page on its AI rules and principles is undated in the listing, so it is not used as news.",
-    "On 17 November the national water-cut list (5 councils) and the E-REDES power-cut list for 17 and 18 November named none of Tavira, Castro Marim, Vila Real de Santo António or Alcoutim. The NaturMaris prize in Loulé (Barlavento, 16 November) was read from the front-page excerpt only, so it is not used. CCDR Algarve had nothing new after 10 November and no funding call with a deadline.",
-    "On 18 November the 24 November water-cycle conference page on ccdr-alg.pt still showed no registration link. IPMA's feed shows only the yellow sea warning (18 November 12:00 to 20 November 09:00); all other warning types are green through 21 November 03:00. Seen only as headlines: an Olhão teacher's Erasmus+ AI course (Postal, 17 November) and a naval-school exercise on the Guadiana through Mértola, Alcoutim and Vila Real de Santo António (Barlavento).",
-    "The CCDR Algarve front page also mentions a third Algarve 2030 water-cycle conference with Público on technology and AI in water management, with no date given.",
-    "Correction of 18 November: the Castro Marim dementia congress of 12 and 13 November, with an AI session, is real; the council's own page of 17 November confirms it (see the Castro Marim file). Earlier gaps that said it was unconfirmed were wrong because the council page was not yet readable.",
-    "The afternoon scan of 18 November found no new startup, AI or digital-services item for 17 and 18 November. Seen only as listing lines, not opened: the VRSA Youth Participatory Budget (voting to 13 December), the SamhainBaucogna film festival (24 to 29 November), World Diabetes Day at Monte Gordo, the UAlg participatory budget (9 November) and Longevity Society award (9 November), AMAL's 2027 budget and waste-study contract, and CCDR's 13 November waste conference. Barlavento and Postal were not read in the afternoon scan. The fetch of cm-alcoutim.pt returned no news content again (probably rendered by JavaScript); not retried.",
-    "19 November, 06:40 UTC scan: almost nothing new was published overnight; Castro Marim and Alcoutim had no item from 18 or 19 November (cm-alcoutim.pt returned only a skip link again). Every new item above is held under R12 and most are listing only.",
-    "19 November, 11:40 UTC scan: nothing dated 18 or 19 November for Tavira, Castro Marim, Vila Real de Santo António or Alcoutim beyond the items already held; cm-alcoutim.pt returned an empty page and its /pt/noticias a 404, so Alcoutim is unchecked at source. A privately run giant nativity at Monte Francisco (Castro Marim, opens 1 December, Postal 18 November) is not listed: its page gives the private promoter's contact and it is marginal.",
-    "19 November, 16:40 UTC scan: no new item for Tavira, Castro Marim, Vila Real de Santo António or Alcoutim from the councils (cm-alcoutim.pt empty again); the new items are regional. Seen only as headlines: Jornadas Ibéricas de Turismo do Interior (November 2027), a PS budget proposal on linking reservoirs in Beja and Faro, a CCMAR zebrafish study, Santander grants for UAlg teaching students, two VRSA notices (a CPCJ seminar on 25 November, a swimming championship on 21 and 22 November). The IPMA feed fetch returned no Faro entries this time, so no warning content is reported.",
-    "20 November, 07:50 UTC scan: almost nothing new in the window for any of the four towns; cm-alcoutim.pt again returned only a skip link and the site title, so Alcoutim is unchecked at source; no AI, funding call or start-up item found."
-  ],
-  "voice": {
-    "lede": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
-    "mandate": "PrompTugal.news Algarve: AI and technology across the whole Algarve, from Sagres to Vila Real, and what reaches us from Portugal and the world. Independent, and every fact has its fonte.",
-    "gravity": "Pois é: the AI action is mostly in Faro, round the university and Algarve Evolution, and mostly for the tourism and health that pay the bills. The university also landed 31.5 million euros for an AI-first heritage centre, which is not bad for a region famous for sardines.",
-    "gaps_intro": "O que ainda nos falta descobrir, com a humildade de quem já perdeu o último bolo de bolacha:"
-  },
-  "local_news": [
-    {
-      "title": "The University of Algarve hosts a conference on AI and water management on 24 November",
-      "summary": "Third in the water-resources cycle of the Algarve 2030 programme with Público: AI to monitor consumption, find network losses and watch water quality; 14:00 to 18:00, Campus da Penha, Faro. The page gives no technical detail and no registration link.",
-      "date": "2026-11-16",
-      "publisher": "Postal (Europe Direct Algarve)",
-      "url": "https://postal.pt/europedirectalgarve/faro-recebe-conferencia-sobre-inteligencia-artificial-e-gestao-da-agua-no-algarve/",
-      "read_on": "2026-11-16",
-      "significance": "region and country",
-      "ai_path": "Sensors and consumption data from supply networks, then AI or analytics to find losses and anomalies, then operators act on them (the conference topics).",
-      "steps": 3,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://postal.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "Storm Charles brought gusts near 100 km/h and flood risk to the Algarve on 11 November",
-      "summary": "The interior minister said the worst period was about 15:00 to 19:00, with a high tide near 15:20. The article does not name the most affected municipalities.",
-      "date": "2026-11-11",
-      "publisher": "Postal",
-      "url": "https://postal.pt/algarve/o-periodo-mais-grave-esta-a-porta-algarve-enfrenta-vento-de-100-km-h-e-risco-de-inundacoes-ate-as-19h00/",
-      "read_on": "2026-11-16",
-      "significance": "region and country",
-      "ai_path": "no AI",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://postal.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "CCDR Algarve closed its services on 11 November because of the declared alert",
-      "summary": "The notice sits on the CCDR's news list; the notice itself was not opened.",
-      "date": "2026-11-10",
-      "publisher": "CCDR Algarve",
-      "url": "https://www.ccdr-alg.pt",
-      "read_on": "2026-11-16",
-      "significance": "region",
-      "ai_path": "no AI",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.ccdr-alg.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "A Loulé agency launches the Best Number One start-page platform at Web Summit",
-      "summary": "3WX says it passed 300 sign-ups in its first hours; one outlet, uncorroborated, and the article does not mention AI.",
-      "date": "2026-11-12",
-      "publisher": "Postal",
-      "url": "https://postal.pt/algarve/empresa-de-loule-lanca-plataforma-best-number-one-no-web-summit-e-ultrapassa-300-inscricoes/",
-      "read_on": "2026-11-16",
-      "significance": "town and country",
-      "ai_path": "no AI",
-      "steps": 0,
-      "blast_radius": "Loulé",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://postal.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "CCDR Algarve's Matéria Adentro turns local cane, oyster shell and clay into products",
-      "summary": "Results of creative residencies presented on 22 October in Faro: three cane insulation proposals and a modular rammed-earth bench. The roundtable named certification, sales and public procurement as the hurdles. Part of INOVA ALGARVE 3.0, co-financed by Algarve 2030.",
-      "date": "2026-10-26",
-      "publisher": "CCDR Algarve",
-      "url": "https://www.ccdr-alg.pt/site/info/inovacao-em-destaque-na-apresentacao-dos-resultados-do-projeto-materia-adentro",
-      "read_on": "2026-11-16",
-      "significance": "region",
-      "ai_path": "no AI",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.ccdr-alg.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "CCDR Algarve presents the results of POCTEP 2021-2027 cross-border projects",
-      "summary": "A session on 9 November at the CCDR auditorium for Algarve-led projects of the Spain-Portugal programme, to recognise beneficiaries and encourage networking.",
-      "date": "2026-10-26",
-      "publisher": "CCDR Algarve",
-      "url": "https://www.ccdr-alg.pt/site/info/ccdr-algarve-promove-sessao-de-apresentacao-dos-resultados-de-projetos-poctep-2021-2027",
-      "read_on": "2026-11-16",
-      "significance": "region and neighbours",
-      "ai_path": "no AI",
-      "steps": 0,
-      "blast_radius": "Andalusia (Huelva)",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.ccdr-alg.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "IPMA has a yellow sea-agitation warning for the Algarve from 18 to 20 November",
-      "summary": "Valid from 12:00 on 18 November to 02:00 on 20 November: northwest swells of 4 to 5 m on the western coast. All other Faro-district warnings were green when read on 17 November. Read from IPMA's open-data feed, which was summarised by the fetch tool, not read raw.",
-      "date": "2026-11-17",
-      "publisher": "IPMA",
-      "url": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
-      "read_on": "2026-11-17",
-      "significance": "region",
-      "ai_path": "no AI",
-      "steps": 0,
-      "blast_radius": "the west coast first (Aljezur, Vila do Bispo, Lagos)",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://api.ipma.pt/"
-      },
-      "commercial_use": "not allowed: IPMA's data is for non-profit use only (data.promptugal.news/api/v1/sources/commercial.json, read 2026-11-18); keep it off promptugal.news's billing pages; the free sub-sites may show it with its licence (guidance of 18 Nov 2026, 23:45 UTC)",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "AMAL holds its 100th training action of 2026",
-      "summary": "About 2,000 trainees this year, mostly staff of AMAL and the Algarve councils; about 25,000 trained since 2003. The page does not mention AI.",
-      "date": "2026-11-16",
-      "publisher": "AMAL",
-      "url": "https://amal.pt/amal-promove-a-centesima-acao-de-formacao-de-2026",
-      "read_on": "2026-11-17",
-      "significance": "region",
-      "ai_path": "no AI",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://amal.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "The University of the Algarve relaunches Equipa UAlg with 81 school talks",
-      "summary": "81 free talks in 16 areas for basic and secondary pupils and teachers in 2026/27. The talk list was not seen, so any AI topics are unknown.",
-      "date": "2026-11-16",
-      "publisher": "Universidade do Algarve",
-      "url": "https://www.ualg.pt/equipa-ualg-renova-se-e-regressa-escolas-com-81-palestras",
-      "read_on": "2026-11-17",
-      "significance": "region",
-      "ai_path": "no AI",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.ualg.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "AMAL attends the FIREPOCTEP AVANZA wildfire-prevention project meeting in Cáceres",
-      "summary": "Interreg Spain-Portugal project; AMAL took part in a panel on an Iberian certification for products from Strategic Management Zones and productive firebreaks, arguing the criteria should suit small rural producers. The page mentions no technology.",
-      "date": "2026-11-17",
-      "publisher": "AMAL",
-      "url": "https://amal.pt/amal-participou-em-reuniao-do-projeto-firepoctep-avanza",
-      "read_on": "2026-11-17",
-      "significance": "region and neighbours",
-      "ai_path": "no AI",
-      "steps": 0,
-      "blast_radius": "the interior councils, Alcoutim first",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://amal.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "University of Algarve researchers build 'Walking on Ice', an interactive immersive film, with about 300,000 euros",
-      "summary": "CIAC researchers combine immersive technologies with interactive storytelling, funded by the national cultural planning office. The page does not say AI.",
-      "date": "2026-11-17",
-      "publisher": "Universidade do Algarve",
-      "url": "https://www.ualg.pt/investigadores-da-ualg-exploram-narrativas-imersivas",
-      "read_on": "2026-11-17",
-      "significance": "region and country",
-      "ai_path": "No AI stated: immersive and interactive media (XR) research at the university.",
-      "steps": 1,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.ualg.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "AMAL's 9 million euro smart-water project is approved under Algarve 2030",
-      "summary": "'Inteligência no Ciclo Urbano da Água em baixa no Algarve': smart meters and telemetry to improve flow and consumption data, detect leaks and support water balances. Eligible investment 9,053,081.15 euros, FEDER 5,869,477.82 euros, completion expected 31 December 2027. It sits behind the 24 November UAlg and CCDR conference on digitalising the water cycle; the page itself makes no AI claim. Published 4 November, outside the last two days but the best data-and-AI hook for the region page.",
-      "date": "2026-11-04",
-      "publisher": "AMAL",
-      "url": "https://amal.pt/amal-tem-mais-uma-candidatura-aprovada-do-programa-algarve-2030",
-      "read_on": "2026-11-18",
-      "significance": "region",
-      "ai_path": "Smart meters and telemetry produce consumption and flow data, analytics find leaks and balance water, the 24 November conference adds AI on top; the AMAL page itself does not mention AI.",
-      "steps": 3,
-      "blast_radius": "every Algarve council's water utility",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://amal.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "Olhão teacher returns from a Prague Erasmus+ course on AI in education with chatbots and draft school rules",
-      "summary": "An Erasmus+ course, 'Advanced Artificial Intelligence for Education', 2 to 6 November: AI agents, prompting, AI-content detectors and image, audio and video tools; participants drafted rules for AI use in schools, and the teacher built educational chatbots and started a prototype student app. Postal, Europe Direct Algarve section.",
-      "date": "2026-11-17",
-      "publisher": "Postal",
-      "url": "https://postal.pt/europedirectalgarve/professora-de-olhao-aposta-na-inteligencia-artificial-etica-e-criativa-apos-formacao-em-praga/",
-      "read_on": "2026-11-18",
-      "significance": "neighbours and region",
-      "ai_path": "Erasmus+ training course, a teacher, classroom chatbots and a student app, draft school rules for AI use.",
-      "steps": 3,
-      "blast_radius": "Olhão is next to Tavira and Faro",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://postal.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "NaturMaris wins the sea-economy category of INOVA ALGARVE + DIVERSIFICAR at NERA in Loulé",
-      "summary": "A project turning marine by-products into natural pet supplements won 2,500 euros on 13 November; the contest is run by NERA with Algarve Evolution, CCDR Algarve, the tourism board and the University of Algarve, as part of INOVA ALGARVE 3.0 co-financed by Algarve 2030. Companies from the Ria Formosa (Naturafish, MSP, Necton, Sparos and the shellfish nursery cooperative) took part in the sessions.",
-      "date": "2026-11-16",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/naturmaris-suplementos-animais-premio-loule-nera-inova-algarve/",
-      "read_on": "2026-11-18",
-      "significance": "region",
-      "ai_path": "no AI",
-      "steps": 0,
-      "blast_radius": "the Ria Formosa from Faro to Tavira",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.barlavento.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "The Escola Naval's RIO26 exercise runs on the Guadiana from 16 to 20 November",
-      "summary": "76 cadets and 45 military personnel; a river descent in rescue boats from Mértola to Alcoutim and a mass-rescue simulation near Vila Real de Santo António.",
-      "date": "2026-11-17",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/escola-naval-leva-76-cadetes-ao-guadiana-para-exercicio-de-cinco-dias/",
-      "read_on": "2026-11-18",
-      "significance": "neighbours",
-      "ai_path": "no AI",
-      "steps": 0,
-      "blast_radius": "Mértola, Alcoutim, Vila Real de Santo António",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.barlavento.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "The University of Algarve sets rules and principles for the use of AI",
-      "summary": "A policy of 24 September for students, staff, researchers and administration: ethical, transparent and responsible use of AI and a recommendation to use secure institutional tools; the full policy is at ualg.pt/politica-de-ia-na-ualg (not opened). The only AI-policy item found at a regional institution; the page is older than the news window.",
-      "date": "2026-09-24",
-      "publisher": "Universidade do Algarve",
-      "url": "https://www.ualg.pt/ualg-define-regras-e-principios-para-utilizacao-da-inteligencia-artificial",
-      "read_on": "2026-11-18",
-      "significance": "region",
-      "ai_path": "University policy (rules for AI use), staff and students, secure institutional tools, the 24 November water conference sits in the same university.",
-      "steps": 2,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms: no content licence found on the page (read 2026-11-18); only a short factual summary with the link is shown",
-        "url": "https://www.ualg.pt/"
-      },
-      "blast_radius": "every Algarve school and company that works with UAlg",
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "EEA Grants roadshow at CCDR Algarve: Portugal's allocation is 126.3 million euros, 57.6 million for blue growth",
-      "summary": "On 29 October, about 120 participants: Blue Growth 57.6 million (business competitiveness, research and innovation in the blue economy), Green Transition 35 million, Culture about 10.9 million and Combating Domestic and Gender-Based Violence about 14.4 million. No deadlines are stated; the page points to eeagrants.org/pt/portugal. Older than the news window, listed as a funding lead for the east Algarve's sea economy.",
-      "date": "2026-10-31",
-      "publisher": "CCDR Algarve",
-      "url": "https://www.ccdr-alg.pt/site/info/eea-grants-financiamento-para-responder-aos-desafios-do-desenvolvimento-regional",
-      "read_on": "2026-11-18",
-      "significance": "region",
-      "ai_path": "no AI",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms: its footer says all rights reserved (read 2026-11-18); only a short factual summary with the link is shown",
-        "url": "https://www.ccdr-alg.pt/"
-      },
-      "blast_radius": "the Ria Formosa and Guadiana coast, Tavira and Vila Real de Santo António first",
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "Rede AZul opens a call for Algarve shows to tour in 2027",
-      "summary": "A call for Algarve arts organisations to put shows on more stages in 2027; an earlier headline put the closing date at 16 December. Not about technology, listed as a regional support call. (listing only (body not opened))",
-      "date": "2026-11-17",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/rede-azul-candidaturas-espetaculos-algarvios-2027/",
-      "read_on": "2026-11-19",
-      "significance": "region",
-      "ai_path": "no AI",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; none stated on the pages read)",
-        "url": "https://www.barlavento.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "StartUp Portimão closes its seventh acceleration programme with a showcase of 12 projects",
-      "summary": "The only start-up programme item found this week in the western Algarve; what the 12 projects do, and whether any uses AI, was not read. (listing only (body not opened))",
-      "date": "2026-11-18",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/startup-portimao-programa-aceleracao-mostra-12-projetos/",
-      "read_on": "2026-11-19",
-      "significance": "region",
-      "ai_path": "no AI",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; none stated on the pages read)",
-        "url": "https://www.barlavento.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link",
-      "blast_radius": "Portimão, Lagos, Lagoa"
-    },
-    {
-      "title": "Ciência Viva launches its national 2027 solar-eclipse campaign at the University of Algarve on 23 November",
-      "summary": "The launch session is hosted by the University of Algarve in Faro. (listing only (body not opened))",
-      "date": "2026-11-18",
-      "publisher": "Universidade do Algarve",
-      "url": "https://www.ualg.pt/ciencia-viva-lanca-campanha-nacional-para-o-eclipse-solar-de-2027-na-ualg",
-      "read_on": "2026-11-19",
-      "significance": "region and country",
-      "ai_path": "no AI",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; none stated on the pages read)",
-        "url": "https://www.ualg.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "The University of Algarve hosts the MetaRed TIC, X and S Portugal meeting on 17 and 18 November",
-      "summary": "MetaRed is an association of Portuguese higher-education institutions and public bodies working on ICT, university entrepreneurship and sustainability; the page mentions digital transformation but not AI and names no attendees. Only the page text was read.",
-      "date": "2026-11-19",
-      "publisher": "Universidade do Algarve",
-      "url": "https://www.ualg.pt/universidade-do-algarve-acolheu-encontro-metared-tic-x-e-s-portugal-2026",
-      "read_on": "2026-11-19",
-      "significance": "region and country",
-      "ai_path": "no AI",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; none stated on the pages read)",
-        "url": "https://www.ualg.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "The University of Algarve runs Mobility Week from 23 to 27 November",
-      "summary": "Information sessions on Erasmus and partner-institution exchanges at the Penha and Gambelas campuses, 23 to 26 November, one per faculty or school.",
-      "date": "2026-11-19",
-      "publisher": "Universidade do Algarve",
-      "url": "https://www.ualg.pt/semana-da-mobilidade-2026-chega-ualg",
-      "read_on": "2026-11-19",
-      "significance": "region",
-      "ai_path": "no AI",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; none stated on the pages read)",
-        "url": "https://www.ualg.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "Rural fires in the Algarve rose 56% in 2026 but the burned area fell",
-      "summary": "Provisional DECIR balance for 1 January to 31 October, presented on 18 November to the Faro district civil protection commission: 370 fires (+56%), 1,340.89 hectares burned (862 fewer than in 2025), 98.1% controlled within 90 minutes, average dispatch 54 seconds. Alcoutim had 49.24 hectares burned.",
-      "date": "2026-11-19",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/incendios-rurais-algarve-aumento-area-ardida-2026/",
-      "read_on": "2026-11-19",
-      "significance": "region",
-      "ai_path": "no AI",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms: its footer says all rights reserved (read 2026-11-19); only a short factual summary with the link is shown",
-        "url": "https://www.barlavento.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link",
-      "blast_radius": "Alcoutim, Loulé, Silves, Faro"
-    },
-    {
-      "title": "The Socialist Party proposes state funding for the University of Algarve's Portimão campus in the 2027 budget",
-      "summary": "A party proposal, not a decision: an amendment to cover the national share of the campus, with transfers from 2027 and completion aimed at 2029 alongside Algarve 2030 funds.",
-      "date": "2026-11-19",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/ps-oe2027-campus-portimao-conclusao-2029/",
-      "read_on": "2026-11-19",
-      "significance": "region",
-      "ai_path": "no AI",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms: its footer says all rights reserved (read 2026-11-19); only a short factual summary with the link is shown",
-        "url": "https://www.barlavento.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link",
-      "blast_radius": "Portimão, Lagoa, Lagos"
-    }
-  ],
-  "contacts": [
-    {
-      "name": "CCDR Algarve, general office",
-      "what": "The regional coordination commission's published address, phone and email.",
-      "url": "https://www.ccdr-alg.pt/site/info/instalacoes-e-contactos-0",
-      "source_url": "https://www.ccdr-alg.pt/site/info/instalacoes-e-contactos-0",
-      "read_on": "2026-11-16",
-      "channel": "Praça da Liberdade 2, 8000-164 Faro; +351 289 895 200; geral@ccdr-alg.pt"
-    },
-    {
-      "name": "AMAL (Algarve Intermunicipal Community), general office",
-      "what": "The intermunicipal community's published address, phone and email.",
-      "url": "https://amal.pt/amal-promove-a-centesima-acao-de-formacao-de-2026",
-      "source_url": "https://amal.pt/amal-promove-a-centesima-acao-de-formacao-de-2026",
-      "read_on": "2026-11-17",
-      "channel": "geral@amal.pt; (+351) 289 880 800; R. General Humberto Delgado 20, 8000-355 Faro"
-    },
-    {
-      "name": "Universidade do Algarve, general contact",
-      "what": "The university's published general email and phone.",
-      "url": "https://www.ualg.pt/equipa-ualg-renova-se-e-regressa-escolas-com-81-palestras",
-      "source_url": "https://www.ualg.pt/equipa-ualg-renova-se-e-regressa-escolas-com-81-palestras",
-      "read_on": "2026-11-17",
-      "channel": "info@ualg.pt; 289 800 100"
-    }
+   {
+    "title": "UAlg wins 31.5 million euros for UAlgTec Heritage",
+    "url": "https://www.barlavento.pt/?p=397911",
+    "read_on": "2026-11-15"
+   },
+   {
+    "title": "Funds to bring AI and robotics to 15 tourism firms",
+    "url": "https://www.barlavento.pt/?p=394835",
+    "read_on": "2026-11-15"
+   },
+   {
+    "title": "Algarve Evolution",
+    "url": "https://www.algarveevolution.pt",
+    "read_on": "2026-11-15"
+   }
   ]
+ },
+ "look": {
+  "accent": "#0B5C7A",
+  "landmark": "Ponta da Piedade and the Faro lagoon",
+  "motif": "Atlantic blue, limestone cliffs, a university on the lagoon"
+ },
+ "ai_news": [
+  {
+   "title": "NERA hosts a Lunch & Learn on AI tools for customer analysis, at the University of Algarve",
+   "summary": "The regional business association NERA hosted a session at CRIA, the University of Algarve's entrepreneurship division in Faro, on using AI tools to turn customer feedback into business decisions. It ran on 10 November under the INTREPIDA pro cross-border project.",
+   "date": "2026-11-11",
+   "publisher": "NERA",
+   "url": "https://nera.pt/noticias/intrepida-pro-promoveu-lunch-learn-sobre-ferramentas-de-ia",
+   "read_on": "2026-11-15",
+   "ai_path": "The session is about using AI tools to analyse customer opinions.",
+   "steps": 0,
+   "significance": "neighbours",
+   "significance_why": "A Faro session, but run by a project that serves women-led firms across the Algarve."
+  },
+  {
+   "title": "DevFest Faro gives two days to building AI agents in practice",
+   "summary": "Google Developer Groups Faro runs a free two-day conference on 27 and 28 November at the University of Algarve's Penha campus, on building, securing and scaling AI applications and agents with Google Gemini and Google Cloud. Algarve Evolution is a partner.",
+   "date": "2026-11-06",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/devfest-faro-inteligencia-artificial/",
+   "read_on": "2026-11-15",
+   "ai_path": "The conference is about building and securing AI-powered applications and agents.",
+   "steps": 0,
+   "significance": "region",
+   "significance_why": "An open two-day AI conference that draws students and professionals from the whole region."
+  },
+  {
+   "title": "UAlg's arts and communication centre opens INTERFACE, a digital translation lab, with an AI Studio",
+   "summary": "The University of Algarve's CIAC opened the INTERFACE lab at the Penha campus on 9 October to turn complex science into visual and immersive content, backed by 473,800 euros from FCT's EQUIPAR+2 under the PRR. Its AI Studio extension, focused on AI and digital literacy, sits at CIAC's hub in Santarém, outside the Algarve.",
+   "date": "2026-10-19",
+   "publisher": "Universidade do Algarve",
+   "url": "https://www.ualg.pt/ciac-inaugura-laboratorio-de-traducao-digital-na-ualg",
+   "read_on": "2026-11-16",
+   "ai_path": "A UAlg lab has an AI and digital literacy studio as part of the project.",
+   "steps": 1,
+   "significance": "neighbours",
+   "significance_why": "A Faro lab, with its AI studio outside the Algarve."
+  },
+  {
+   "title": "Algarve Evolution opens a survey on how local companies adopt AI",
+   "summary": "Algarve Evolution launched the Algarve Business AI Adoption Survey, a five-minute questionnaire on how firms of any size use AI, what blocks them and where they see opportunity. Answers are reported only in aggregate and the survey is to repeat twice a year to shape regional support and training.",
+   "date": "2026-10-12",
+   "publisher": "Algarve Evolution",
+   "url": "https://www.algarveevolution.pt/blog/news-2/survey-ai-adoption-in-the-algarve-28",
+   "read_on": "2026-11-15",
+   "ai_path": "The survey measures AI adoption by regional businesses.",
+   "steps": 0,
+   "significance": "region",
+   "significance_why": "A survey of every business in the Algarve."
+  },
+  {
+   "title": "University of Algarve launches its AI use policy",
+   "summary": "The university published its policy on the use of AI, including generative AI: a humanist, critical and responsible approach with guidance for students, teaching staff, researchers and administrative services, drawing on European Commission, UNESCO, OECD and SEA-EU references. An April 2026 draft had gone to consultation until 8 May.",
+   "date": "2026-09-24",
+   "publisher": "Universidade do Algarve",
+   "url": "https://www.ualg.pt/ualg-define-regras-e-principios-para-utilizacao-da-inteligencia-artificial",
+   "read_on": "2026-11-15",
+   "ai_path": "A university sets the rules for AI use across teaching, research and administration.",
+   "steps": 0,
+   "significance": "region",
+   "significance_why": "The region's university sets AI rules for its students and staff in Faro and Portimão."
+  },
+  {
+   "title": "ULS Algarve holds a webinar on AI in the national health service",
+   "summary": "The Algarve's local health unit ran a webinar on 15 September on the opportunities, risks and conditions for using AI in healthcare, covering governance, data protection, cybersecurity and patient trust, for clinical, technical and management staff.",
+   "date": "2026-09-10",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/webseminario-uls-algarve-inteligencia-artificial-sns/",
+   "read_on": "2026-11-15",
+   "ai_path": "A regional health body debates how to adopt AI safely.",
+   "steps": 0,
+   "significance": "region",
+   "significance_why": "The Algarve's health unit serves the whole region."
+  },
+  {
+   "title": "NERA and UAlg prepare two living labs to test robotics and AI on Algarve farms",
+   "summary": "The AGROBOTICS-DITWINS project will set up two living labs in the Algarve to test robotics and AI on working farms. 28 expressions of interest were received and the two hosts were still being selected. The Interreg SUDOE project runs until May 2028.",
+   "date": "2026-07-22",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/nera-ualg-living-labs-robotica-agricultura/",
+   "read_on": "2026-11-16",
+   "ai_path": "The living labs test AI and robotics in agriculture.",
+   "steps": 0,
+   "significance": "region",
+   "significance_why": "Two farms somewhere in the Algarve will host tests that other farms can learn from."
+  },
+  {
+   "title": "Faro panel asks how AI decides which companies to recommend",
+   "summary": "Flow Productions, with Algarve STP and the Ireland Portugal Business Network, hosted an English-language panel on 22 July at the UAlg TEC Campus on how ChatGPT, Gemini, Claude and Perplexity change online search, and on answer-engine and generative-engine optimisation.",
+   "date": "2026-07-17",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/faro-debate-inteligencia-artificial-empresas/",
+   "read_on": "2026-11-15",
+   "ai_path": "The panel is about how AI assistants choose which businesses to recommend.",
+   "steps": 0,
+   "significance": "neighbours",
+   "significance_why": "A Faro panel on AI search that firms in neighbouring councils can use."
+  },
+  {
+   "title": "First Venture Lab by AlgarveSTP picks 12 companies, with AI adoption on the mentoring menu",
+   "summary": "AlgarveSTP's free mentoring programme chose 12 Algarve startups and SMEs. Only Bot Gonçalves is described as AI-based, using AI and satellite imagery to monitor critical infrastructure. Mentoring covers technology and AI adoption among other topics, and the programme is funded by ALGARVE 2030.",
+   "date": "2026-07-10",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/escolhidas-as-12-empresas-do-primeiro-venture-lab-by-algarvestp/",
+   "read_on": "2026-11-16",
+   "ai_path": "A regional accelerator cohort that includes an AI company and mentoring on AI adoption.",
+   "steps": 1,
+   "significance": "region",
+   "significance_why": "An accelerator for firms headquartered anywhere in the Algarve."
+  },
+  {
+   "title": "Portimão uses AI to check building-permit documents",
+   "summary": "The Portimão council is rolling out a digital urban-management platform with an AI module that checks documents on submission and flags missing items. Town agent hint: this is a Portimão story that also matters region-wide.",
+   "date": "2026-07-03",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/portimao-inteligencia-artificial-urbanismo/",
+   "read_on": "2026-11-15",
+   "ai_path": "A council deploys an AI module to check planning documents.",
+   "steps": 0,
+   "significance": "neighbours",
+   "significance_why": "A council tool that adjacent councils may copy, though the service is Portimão's."
+  },
+  {
+   "title": "Vilamoura school hosts an education summit on AI",
+   "summary": "The Colégio Internacional de Vilamoura held an Innovation in Education Summit on 9 May with panels on how AI affects teaching and learning.",
+   "date": "2026-05-06",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/colegio-internacional-vilamoura-debate-ia-summit-educacao/",
+   "read_on": "2026-11-15",
+   "ai_path": "A school summit centred on AI in education.",
+   "steps": 1,
+   "significance": "local",
+   "significance_why": "A school summit in Vilamoura."
+  },
+  {
+   "title": "UAlg wins 31.5 million euros for an AI-first European heritage centre",
+   "summary": "The University of Algarve's ICArEHB research centre secured 31.5 million euros, 15 million from Horizon Europe's Teaming for Excellence and 16.5 million national, to create UAlgTec Heritage. It takes an AI-first approach to protecting and studying archaeological heritage, with partners including Kiel University, ERA Arqueologia and Zartis, and expects over 70 skilled jobs in six years.",
+   "date": "2026-04-23",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/?p=397911",
+   "read_on": "2026-11-15",
+   "ai_path": "The centre's stated approach to heritage is AI-first.",
+   "steps": 0,
+   "significance": "region",
+   "significance_why": "The largest research award in the Algarve this year, with jobs and training across the region."
+  },
+  {
+   "title": "Vale do Lobo launches Oliver, an AI digital concierge",
+   "summary": "The Loulé resort launched a multilingual AI concierge available around the clock for guests, owners and prospective buyers, including property recommendations. Town agent hint: Loulé.",
+   "date": "2026-04-16",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/vale-lobo-lanca-concierge-digital-ia-hospedes-compradores/",
+   "read_on": "2026-11-15",
+   "ai_path": "A resort ships an AI product to customers.",
+   "steps": 0,
+   "significance": "local",
+   "significance_why": "A resort's own product, in Loulé."
+  },
+  {
+   "title": "Turismo do Algarve runs free AI bootcamp for tourism professionals",
+   "summary": "As part of its Competências do Futuro Algarve programme, the regional tourism body scheduled a free four-hour AI session on 17 April at the Portimão hotel and tourism school covering ChatGPT, Gemini, Copilot, automation and prompting, plus a water-efficiency bootcamp.",
+   "date": "2026-03-26",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/turismo-algarve-bootcamps-eficiencia-hidrica-inteligencia-artificial/",
+   "read_on": "2026-11-15",
+   "ai_path": "The bootcamp teaches tourism staff to use AI tools.",
+   "steps": 0,
+   "significance": "region",
+   "significance_why": "The regional tourism body trains tourism staff across the Algarve."
+  },
+  {
+   "title": "European funds to bring AI and robotics to 15 Algarve tourism firms, and a warning on agentic AI",
+   "summary": "At the first meeting of CCDR Algarve's tourism innovation platform, the president of Algarve Evolution urged companies to prepare for agentic AI that can search, compare and book on a traveller's behalf. An ALGARVE 2030 project will support 15 tourism SMEs with digital-maturity checks and AI and robotics action plans.",
+   "date": "2026-03-20",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/?p=394835",
+   "read_on": "2026-11-15",
+   "ai_path": "The story is about agentic AI in tourism and funded AI adoption.",
+   "steps": 0,
+   "significance": "region",
+   "significance_why": "A regionally funded programme and a warning aimed at the Algarve's whole tourism sector."
+  },
+  {
+   "title": "AuroraMed and UAlg launch an executive course on AI in healthcare",
+   "summary": "AuroraMed, a Portuguese healthtech focused on AI in clinical management, and the University of Algarve's medical faculty launched an executive course in Faro on 20 April for health decision-makers, with PRR-funded scholarships.",
+   "date": "2026-03-19",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/auroramed-lanca-curso-de-ia-na-saude-com-a-ualg/",
+   "read_on": "2026-11-15",
+   "ai_path": "A healthtech and a university teach AI in healthcare.",
+   "steps": 0,
+   "significance": "region",
+   "significance_why": "A course for health leaders of the whole region, backed by national funds."
+  },
+  {
+   "title": "Algarve Evolution opens applications for its AI and robotics pilot for tourism SMEs",
+   "summary": "Part of INOVA ALGARVE 3.0, led by NERA with the university, the tourism body, CCDR Algarve, KIPT and Tertúlia Algarvia, the pilot offered consulting to 15 tourism firms. Applications ran from 20 February to 30 April 2026.",
+   "date": "2026-02-23",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/?p=392781",
+   "read_on": "2026-11-15",
+   "ai_path": "A funded programme to put AI and robotics into tourism firms.",
+   "steps": 0,
+   "significance": "region",
+   "significance_why": "A regionally funded pilot open to tourism firms across the Algarve."
+  },
+  {
+   "title": "University of Algarve and Empowered Startups plan an AI cluster for the Algarve",
+   "summary": "Following the EPIA 2025 AI conference at the university, the two partners said they would link entrepreneurs, industry and higher education into an AI cluster and attract talent to southern Portugal.",
+   "date": "2025-11-18",
+   "publisher": "Portugal Global (AICEP)",
+   "url": "https://portugalglobal.pt/en/news/2025/november/fostering-ai-and-innovation-in-the-algarve",
+   "read_on": "2026-11-15",
+   "ai_path": "The stated aim is a regional AI cluster.",
+   "steps": 0,
+   "significance": "region",
+   "significance_why": "A plan for an AI cluster for the whole region."
+  },
+  {
+   "title": "EPIA 2025, Portugal's AI conference, is held at the University of Algarve in Faro",
+   "summary": "The 24th EPIA Conference on Artificial Intelligence ran from 1 to 3 October 2025 at the Gambelas campus, hosted by the University of Algarve with the Portuguese Association for AI as patron, with 16 tracks from AI in medicine and generative AI to AI and IoT in agriculture and AI in transport. A school on AI preceded it on 29 and 30 September.",
+   "date": "2025-10-01",
+   "publisher": "University of Algarve (EPIA 2025)",
+   "url": "https://epia2025.ualg.pt/",
+   "read_on": "2026-11-16",
+   "ai_path": "It is a national AI research conference hosted in the region.",
+   "steps": 0,
+   "significance": "country",
+   "significance_why": "A national AI research conference, with the Portuguese AI association as patron."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Barlavento: Inteligência Artificial tag",
+   "url": "https://www.barlavento.pt/etiquetas/inteligencia-artificial/",
+   "kind": "press",
+   "feed": "https://www.barlavento.pt/etiquetas/inteligencia-artificial/feed/"
+  },
+  {
+   "name": "Algarve Evolution: news and events",
+   "url": "https://www.algarveevolution.pt/blog",
+   "kind": "business",
+   "feed": null
+  },
+  {
+   "name": "CCDR Algarve: news",
+   "url": "https://www.ccdr-alg.pt",
+   "kind": "other",
+   "feed": null
+  },
+  {
+   "name": "NERA: news",
+   "url": "https://nera.pt",
+   "kind": "business",
+   "feed": null
+  },
+  {
+   "name": "Universidade do Algarve",
+   "url": "https://www.ualg.pt",
+   "kind": "university",
+   "feed": null
+  },
+  {
+   "name": "Sul Informação",
+   "url": "https://www.sulinformacao.pt",
+   "kind": "press",
+   "feed": "https://www.sulinformacao.pt/feed/"
+  },
+  {
+   "name": "Postal do Algarve",
+   "url": "https://postal.pt",
+   "kind": "press",
+   "feed": "https://postal.pt/feed/"
+  },
+  {
+   "name": "BEALG: Algarve entrepreneurship ecosystem directory",
+   "url": "https://bealgarve.pt/pt/ecossistema/",
+   "kind": "business",
+   "feed": null
+  },
+  {
+   "name": "Transparência: PRR projects portal",
+   "url": "https://transparencia.gov.pt/en/fundos-europeus/prr/",
+   "kind": "other",
+   "feed": null
+  },
+  {
+   "name": "Jornal do Algarve",
+   "url": "https://jornaldoalgarve.pt",
+   "kind": "press",
+   "feed": "https://www.jornaldoalgarve.pt/feed/"
+  },
+  {
+   "name": "ALGARVE 2030 regional programme",
+   "url": "https://algarve.portugal2030.pt/",
+   "kind": "other",
+   "feed": null
+  },
+  {
+   "name": "AlgarveSTP news (blocked to our reader)",
+   "url": "https://algarvestp.pt/en/category/noticias/",
+   "kind": "business",
+   "feed": null
+  },
+  {
+   "name": "Algarve Primeiro",
+   "url": "https://www.algarveprimeiro.com",
+   "kind": "press",
+   "feed": null
+  },
+  {
+   "name": "Algarve Daily News (English)",
+   "url": "https://algarvedailynews.com",
+   "kind": "press",
+   "feed": "https://algarvedailynews.com/?format=feed&type=rss"
+  },
+  {
+   "name": "Startup Portugal",
+   "url": "https://www.startupportugal.com/",
+   "kind": "other",
+   "feed": null
+  },
+  {
+   "name": "IAPMEI",
+   "url": "https://www.iapmei.pt/",
+   "kind": "other",
+   "feed": null
+  },
+  {
+   "name": "Algarve Evolution: members list (67 members, four pages)",
+   "url": "https://www.algarveevolution.pt/model/members?order=name+asc",
+   "kind": "business",
+   "feed": null
+  }
+ ],
+ "events": [
+  {
+   "title": "AI Social Content Lab online course (NERA)",
+   "date": "2026-11-04, 2026-11-11 and 2026-11-18",
+   "url": "https://nera.pt",
+   "read_on": "2026-11-15",
+   "ai_path": "Course on AI for social content, 0 steps"
+  },
+  {
+   "title": "Do you know UAlgTec Heritage? (Algarve Evolution, Faro)",
+   "date": "2026-11-17",
+   "url": "https://www.algarveevolution.pt/event/do-you-know-ualgtec-heritage-181",
+   "read_on": "2026-11-15",
+   "ai_path": "UAlgTec Heritage is an AI-first heritage centre, 1 step"
+  },
+  {
+   "title": "Open Mic Pitch Night, second edition (Algarve Evolution, Faro)",
+   "date": "2026-11-19",
+   "url": "https://www.algarveevolution.pt/event/open-mic-pitch-night-second-edition-185",
+   "read_on": "2026-11-15",
+   "ai_path": null
+  },
+  {
+   "title": "Conference: Digitalisation of the Water Cycle in the Algarve (CCDR Algarve, Faro)",
+   "date": "2026-11-24",
+   "url": "https://www.ccdr-alg.pt/site/info/conferencia-digitalizacao-do-ciclo-da-agua-no-algarve",
+   "read_on": "2026-11-15",
+   "ai_path": "Asks how technology and AI can improve water management, 1 step"
+  },
+  {
+   "title": "DevFest Faro 2026: Build, Secure & Scale in the Agentic Era",
+   "date": "2026-11-27 and 2026-11-28",
+   "url": "https://gdg.community.dev/events/details/google-gdg-faro-presents-devfest-2026-build-secure-amp-scale-in-the-agentic-era/",
+   "read_on": "2026-11-15",
+   "ai_path": "AI agents and applications conference, 0 steps"
+  },
+  {
+   "title": "CIMAR-LA crash course: Introduction to DeepLabCut (CCMAR, Gambelas campus, Faro)",
+   "date": "2026-12-02 and 2026-12-03",
+   "url": "https://ccmar.ualg.pt/",
+   "read_on": "2026-11-16",
+   "ai_path": "DeepLabCut is a deep-learning tool for tracking movement in video: the listing names the tool but does not describe the course, 1 step",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://ccmar.ualg.pt/"
+   }
+  },
+  {
+   "title": "Conference on AI and water management, University of Algarve, Faro",
+   "date": "2026-11-24",
+   "url": "https://postal.pt/europedirectalgarve/faro-recebe-conferencia-sobre-inteligencia-artificial-e-gestao-da-agua-no-algarve/",
+   "read_on": "2026-11-16",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://postal.pt/"
+   }
+  }
+ ],
+ "ai_map": [
+  {
+   "name": "LeiGPT",
+   "type": "startup",
+   "url": "https://leigpt.pt/",
+   "what": "AI platform for lawyers on Portuguese law, registered in Faro and a member of Algarve Evolution, which its site lists with Google for Startups and Akamai among its partners and supporters. It answers legal research questions with citations to codes and court rulings, analyses documents, and runs as a cloud service or on a client's own servers. Available now, with a free one-day trial.",
+   "source_url": "https://leigpt.pt/",
+   "read_on": "2026-11-16",
+   "ai_path": "Its product is an AI assistant for legal work.",
+   "steps": 0
+  },
+  {
+   "name": "Algarve Evolution",
+   "type": "organisation",
+   "url": "https://www.algarveevolution.pt",
+   "what": "Faro-based association of entrepreneurs, talent, startups, SMEs and partners that runs the Algarve Innovation Hub and incubator. It runs the regional AI adoption survey and the AI and robotics tourism programme, co-organised the Vibathon with Lovable, and its incubator takes technical founders building AI and software products.",
+   "source_url": "https://www.algarveevolution.pt/blog/news-2/survey-ai-adoption-in-the-algarve-28",
+   "read_on": "2026-11-15",
+   "ai_path": "It surveys AI adoption and runs AI and robotics programmes for regional firms.",
+   "steps": 0
+  },
+  {
+   "name": "Algarve Digital Innovators",
+   "type": "community",
+   "url": "https://newsroom.sgit.ai/articles/vibathon-algarve-2026.html",
+   "what": "Network of digital communities across the Algarve, supported by Algarve Evolution. Reported to include GDG Faro, Flutter Faro and Algarve AI Agents (our own newsroom's reading, to be re-checked at source).",
+   "source_url": "https://newsroom.sgit.ai/articles/vibathon-algarve-2026.html",
+   "read_on": "2026-11-15",
+   "ai_path": "The network includes AI and developer communities.",
+   "steps": 1
+  },
+  {
+   "name": "Algarve AI Agents",
+   "type": "community",
+   "url": "https://bealgarve.pt/pt/ecossistema/",
+   "what": "Community listed as AI-related in the Algarve entrepreneurship ecosystem directory and, per our newsroom, part of the Algarve Digital Innovators network. The directory gives no website: needs a primary source.",
+   "source_url": "https://bealgarve.pt/pt/ecossistema/",
+   "read_on": "2026-11-15",
+   "ai_path": "Its name says it is an AI agents community, and the BEALG directory lists it as AI-related.",
+   "steps": 0
+  },
+  {
+   "name": "GDG Faro",
+   "type": "community",
+   "url": "https://gdg.community.dev/events/details/google-gdg-faro-presents-devfest-2026-build-secure-amp-scale-in-the-agentic-era/",
+   "what": "Developer community that organises DevFest Faro on 27 and 28 November 2026 on AI applications and agents. Its pages also list a Build with AI 2026 day on 11 April and a Gemma AI hackathon on 18 July at UALG TEC Campus, both still marked upcoming when read, so we cannot confirm they ran.",
+   "source_url": "https://gdg.community.dev/events/details/google-gdg-faro-presents-devfest-2026-build-secure-amp-scale-in-the-agentic-era/",
+   "read_on": "2026-11-15",
+   "ai_path": "It runs a two-day conference on building AI applications.",
+   "steps": 0
+  },
+  {
+   "name": "Universidade do Algarve (UAlg)",
+   "type": "institution",
+   "url": "https://www.ualg.pt",
+   "what": "Public university with campuses in Faro (Penha and Gambelas) and Portimão. Launched its AI use policy in September 2026, runs AI courses with partners, hosted the EPIA 2025 conference and leads UAlgTec Heritage.",
+   "source_url": "https://www.ualg.pt/ualg-define-regras-e-principios-para-utilizacao-da-inteligencia-artificial",
+   "read_on": "2026-11-15",
+   "ai_path": "It sets AI policy, teaches AI and hosts AI research.",
+   "steps": 0
+  },
+  {
+   "name": "ICArEHB (UAlg research centre)",
+   "type": "institution",
+   "url": "https://www.algarveevolution.pt/event/do-you-know-ualgtec-heritage-181",
+   "what": "UAlg research centre in archaeology and human behaviour evolution. It leads UAlgTec Heritage, which won 31.5 million euros to create UAlgTec Heritage, a European centre taking an AI-first approach to heritage. A presentation is listed for 17 November 2026 in Faro.",
+   "source_url": "https://www.barlavento.pt/?p=397911",
+   "read_on": "2026-11-15",
+   "ai_path": "The new centre is described as AI-first.",
+   "steps": 0
+  },
+  {
+   "name": "CEOT (Centro de Eletrónica, Optoelectrónica e Telecomunicações, UAlg)",
+   "type": "institution",
+   "url": "https://www.ualg.pt",
+   "what": "UAlg research centre that co-organised a 2024 workshop on deep learning for near-infrared chemometrics in food control.",
+   "source_url": "https://www.barlavento.pt/sao-bras-de-alportel-apoia-workshop-de-inteligencia-artificial-na-ualg/",
+   "read_on": "2026-11-15",
+   "ai_path": "It applies deep learning to spectroscopy data.",
+   "steps": 0
+  },
+  {
+   "name": "CRIA (UAlg entrepreneurship and technology transfer division)",
+   "type": "institution",
+   "url": "https://www.algarveevolution.pt/blog/news-2/programa-de-apoio-a-validacao-de-provas-de-conceito-para-empresas-e-empreendedores-regionais-18",
+   "what": "UAlg division that runs the university's incubator and hosted the 10 November AI Lunch & Learn and, per our newsroom, the Vibathon opening.",
+   "source_url": "https://nera.pt/noticias/intrepida-pro-promoveu-lunch-learn-sobre-ferramentas-de-ia",
+   "read_on": "2026-11-15",
+   "ai_path": "It hosts AI events and supports spin-outs.",
+   "steps": 1
+  },
+  {
+   "name": "FMCB-UAlg (Faculty of Medicine and Biomedical Sciences)",
+   "type": "institution",
+   "url": "https://www.ualg.pt",
+   "what": "Co-runs the executive course on AI in healthcare with AuroraMed, held in Faro.",
+   "source_url": "https://www.barlavento.pt/auroramed-lanca-curso-de-ia-na-saude-com-a-ualg/",
+   "read_on": "2026-11-15",
+   "ai_path": "It co-teaches an AI in healthcare course.",
+   "steps": 0
+  },
+  {
+   "name": "AuroraMed",
+   "type": "company",
+   "url": "https://www.barlavento.pt/auroramed-lanca-curso-de-ia-na-saude-com-a-ualg/",
+   "what": "Portuguese healthtech focused on AI in clinical management, partner of the UAlg healthcare AI executive course. The article does not say where it is based: location to confirm.",
+   "source_url": "https://www.barlavento.pt/auroramed-lanca-curso-de-ia-na-saude-com-a-ualg/",
+   "read_on": "2026-11-15",
+   "ai_path": "It sells AI for clinical management and trains health leaders.",
+   "steps": 0
+  },
+  {
+   "name": "Empowered Startups",
+   "type": "company",
+   "url": "https://portugalglobal.pt/en/news/2025/november/fostering-ai-and-innovation-in-the-algarve",
+   "what": "Partner of UAlg in building an Algarve AI cluster and Platinum sponsor of the EPIA 2025 AI conference.",
+   "source_url": "https://portugalglobal.pt/en/news/2025/november/fostering-ai-and-innovation-in-the-algarve",
+   "read_on": "2026-11-15",
+   "ai_path": "It backs a regional AI cluster.",
+   "steps": 0
+  },
+  {
+   "name": "Lovable",
+   "type": "company",
+   "url": "https://www.algarveevolution.pt/blog/news-2/algarve-vibathon-2026-29",
+   "what": "AI app-building company whose tool powered the sold-out Vibathon Algarve of 31 October 2026, co-organised with Algarve Evolution (per our newsroom).",
+   "source_url": "https://newsroom.sgit.ai/articles/vibathon-algarve-2026.html",
+   "read_on": "2026-11-15",
+   "ai_path": "Its AI tool was the core of the event.",
+   "steps": 0
+  },
+  {
+   "name": "CCDR Algarve",
+   "type": "public body",
+   "url": "https://www.ccdr-alg.pt",
+   "what": "Regional coordination commission. Runs the regional smart-specialisation strategy and innovation platforms, co-funds the AI programmes through ALGARVE 2030 and is hosting a 24 November conference on digitalising the water cycle with AI.",
+   "source_url": "https://www.ccdr-alg.pt/site/info/conferencia-digitalizacao-do-ciclo-da-agua-no-algarve",
+   "read_on": "2026-11-15",
+   "ai_path": "It hosts AI in tourism platforms and AI-for-water events.",
+   "steps": 1
+  },
+  {
+   "name": "NERA, Associação Empresarial da Região do Algarve",
+   "type": "organisation",
+   "url": "https://nera.pt",
+   "what": "Regional business association based in Loulé. Leads INOVA ALGARVE 3.0, runs an AI Social Content Lab course in November 2026 and hosted the AI Lunch & Learn.",
+   "source_url": "https://nera.pt",
+   "read_on": "2026-11-15",
+   "ai_path": "It leads an AI and robotics programme and trains firms in AI.",
+   "steps": 1
+  },
+  {
+   "name": "Turismo do Algarve (Região de Turismo do Algarve)",
+   "type": "public body",
+   "url": "https://www.barlavento.pt/turismo-algarve-bootcamps-eficiencia-hidrica-inteligencia-artificial/",
+   "what": "Regional tourism body that runs the Competências do Futuro Algarve programme, including a free AI bootcamp for tourism professionals, and is an INOVA ALGARVE 3.0 partner.",
+   "source_url": "https://www.barlavento.pt/turismo-algarve-bootcamps-eficiencia-hidrica-inteligencia-artificial/",
+   "read_on": "2026-11-15",
+   "ai_path": "It trains tourism staff in AI tools.",
+   "steps": 1
+  },
+  {
+   "name": "Algarve STP",
+   "type": "organisation",
+   "url": "https://www.barlavento.pt/algarvestp-programa-gratuito-12-empresas-algarvias/",
+   "what": "Named as partner of the July 2026 Faro AI search panel and as support for the UAlgTec Heritage presentation, and as promoter of the Venture Lab by AlgarveSTP, a free mentoring programme for 12 Algarve startups and SMEs funded by ALGARVE 2030. Its own site serves a bot challenge to automated readers, so its role is read through the press.",
+   "source_url": "https://www.barlavento.pt/escolhidas-as-12-empresas-do-primeiro-venture-lab-by-algarvestp/",
+   "read_on": "2026-11-15",
+   "ai_path": "It runs a mentoring programme with AI adoption on the menu and co-hosts AI events.",
+   "steps": 1
+  },
+  {
+   "name": "KIPT CoLab",
+   "type": "organisation",
+   "url": "https://www.algarveevolution.pt/inovaalgarve",
+   "what": "Consortium partner in INOVA ALGARVE 3.0. Its own role in AI is not yet sourced.",
+   "source_url": "https://www.algarveevolution.pt/inovaalgarve",
+   "read_on": "2026-11-15",
+   "ai_path": "It is a partner of the AI and robotics tourism programme.",
+   "steps": 2
+  },
+  {
+   "name": "Tertúlia Algarvia",
+   "type": "organisation",
+   "url": "https://www.algarveevolution.pt/inovaalgarve",
+   "what": "Consortium partner in INOVA ALGARVE 3.0. Its own role in AI is not yet sourced.",
+   "source_url": "https://www.algarveevolution.pt/inovaalgarve",
+   "read_on": "2026-11-15",
+   "ai_path": "It is a partner of the AI and robotics tourism programme.",
+   "steps": 2
+  },
+  {
+   "name": "ULS Algarve",
+   "type": "public body",
+   "url": "https://www.barlavento.pt/webseminario-uls-algarve-inteligencia-artificial-sns/",
+   "what": "The regional health unit ran a webinar on AI in the national health service in September 2026 and is named in the AI healthcare course.",
+   "source_url": "https://www.barlavento.pt/webseminario-uls-algarve-inteligencia-artificial-sns/",
+   "read_on": "2026-11-15",
+   "ai_path": "It trains staff on safe AI adoption in health.",
+   "steps": 1
+  },
+  {
+   "name": "Flow Productions",
+   "type": "company",
+   "url": "http://www.flowproductions.pt/",
+   "what": "Creative technology agency with teams in Faro and Lisbon, listed as a member of Algarve Evolution (as Flow With Us). Its services include MarTech and AI, and its site says it helps companies get found by people and AI engines. It organised the July 2026 Faro panel on how AI assistants recommend businesses.",
+   "source_url": "http://www.flowproductions.pt/",
+   "read_on": "2026-11-15",
+   "ai_path": "It sells MarTech and AI services and runs events on AI search visibility.",
+   "steps": 1
+  },
+  {
+   "name": "Algarve 6.0 Smart Territorial Hub",
+   "type": "public body",
+   "url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/01/C19-i08/2024.P13557/",
+   "what": "PRR-funded project (1.13 million euros, September 2023 to June 2026) to put an urban management platform with sensors and a LoRaWAN network across six municipalities: Olhão, Alcoutim, Loulé, São Brás de Alportel, Tavira and Vila Real de Santo António. Town files name it in their own words.",
+   "source_url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/01/C19-i08/2024.P13557/",
+   "read_on": "2026-11-15",
+   "ai_path": "It builds the sensor and data platform that municipal AI services would run on.",
+   "steps": 2
+  },
+  {
+   "name": "Artificial Intelligence Algarve",
+   "type": "community",
+   "url": "https://www.algarveevolution.pt/events",
+   "what": "Community that appears as an 'AIA Artificial Intelligence Algarve' category on Algarve Evolution's events page and is listed as AI-related in the BEALG ecosystem directory. The events page showed no event under it when read. Needs its own public page.",
+   "source_url": "https://www.algarveevolution.pt/events",
+   "read_on": "2026-11-15",
+   "ai_path": "Its name and the events category are about AI.",
+   "steps": 0
+  },
+  {
+   "name": "Bot Gonçalves",
+   "type": "startup",
+   "url": "https://www.barlavento.pt/escolhidas-as-12-empresas-do-primeiro-venture-lab-by-algarvestp/",
+   "what": "Venture Lab by AlgarveSTP company that uses AI and satellite imagery to monitor critical infrastructure. The article gives no town: needs a primary source.",
+   "source_url": "https://www.barlavento.pt/escolhidas-as-12-empresas-do-primeiro-venture-lab-by-algarvestp/",
+   "read_on": "2026-11-16",
+   "ai_path": "Its product is AI applied to satellite imagery.",
+   "steps": 0
+  },
+  {
+   "name": "DigitalGTPro",
+   "type": "company",
+   "url": "https://www.barlavento.pt/escolhidas-as-12-empresas-do-primeiro-venture-lab-by-algarvestp/",
+   "what": "Venture Lab by AlgarveSTP company that automates business processes and supports data-driven decisions. The article gives no town.",
+   "source_url": "https://www.barlavento.pt/escolhidas-as-12-empresas-do-primeiro-venture-lab-by-algarvestp/",
+   "read_on": "2026-11-16",
+   "ai_path": "Process automation and data-driven decisions are the usual home of AI tools, and the article does not say it uses AI.",
+   "steps": 2
+  },
+  {
+   "name": "AGROBOTICS-DITWINS",
+   "type": "organisation",
+   "url": "https://nera.pt",
+   "what": "Interreg SUDOE project led by the University of Málaga, with 13 partners from Spain, Portugal and France, building robotics, AI and digital-twin living labs for agriculture to May 2028. NERA and UAlg lead the Algarve pilot.",
+   "source_url": "https://www.barlavento.pt/nera-ualg-living-labs-robotica-agricultura/",
+   "read_on": "2026-11-16",
+   "ai_path": "The project tests AI and robotics on farms.",
+   "steps": 0
+  },
+  {
+   "name": "CIAC (UAlg research centre in arts and communication)",
+   "type": "institution",
+   "url": "https://www.ualg.pt/ciac-inaugura-laboratorio-de-traducao-digital-na-ualg",
+   "what": "UAlg centre that opened the INTERFACE digital translation lab in Faro in October 2026, with an AI Studio extension at its Santarém hub.",
+   "source_url": "https://www.ualg.pt/ciac-inaugura-laboratorio-de-traducao-digital-na-ualg",
+   "read_on": "2026-11-16",
+   "ai_path": "Its lab project includes an AI and digital literacy studio.",
+   "steps": 1
+  },
+  {
+   "name": "INTREPIDA pro",
+   "type": "organisation",
+   "url": "https://nera.pt/noticias/intrepida-pro-promoveu-lunch-learn-sobre-ferramentas-de-ia",
+   "what": "Cross-border Interreg Spain-Portugal project led by Fundación Tres Culturas del Mediterráneo, with NERA as partner. It supported the 10 November Lunch & Learn on AI tools in Faro.",
+   "source_url": "https://nera.pt/noticias/intrepida-pro-promoveu-lunch-learn-sobre-ferramentas-de-ia",
+   "read_on": "2026-11-16",
+   "ai_path": "It runs sessions on using AI tools in business.",
+   "steps": 1
+  },
+  {
+   "name": "Faculdade de Ciências e Tecnologia (FCT-UAlg)",
+   "type": "institution",
+   "url": "https://epia2025.ualg.pt/",
+   "what": "UAlg faculty named as the contact for EPIA 2025, the 24th Portuguese conference on AI, held at the Gambelas campus in Faro on 1 to 3 October 2025.",
+   "source_url": "https://epia2025.ualg.pt/",
+   "read_on": "2026-11-16",
+   "ai_path": "It hosted a national AI conference.",
+   "steps": 0
+  },
+  {
+   "name": "AI Aumentar, Lda.",
+   "type": "company",
+   "url": "https://www.algarveevolution.pt/model/members/ai-aumentar-lda-3274",
+   "what": "Listed as a member of Algarve Evolution. The member page gives no description and links to concha-ai.com, a decision-intelligence product for leadership hiring, but that site does not mention AI Aumentar, so the link between them is unconfirmed. Needs its own source.",
+   "source_url": "https://www.algarveevolution.pt/model/members/ai-aumentar-lda-3274",
+   "read_on": "2026-11-16",
+   "ai_path": "Its name points to AI, which is unconfirmed.",
+   "steps": 1
+  },
+  {
+   "name": "DSPA (Data Science Portuguese Association)",
+   "type": "organisation",
+   "url": "http://www.dspa.pt",
+   "what": "National association for data science and AI that is listed as a member of Algarve Evolution. Its own site lists a generative AI certification, an AI Act compliance programme for businesses, an AI agents day for executives and the annual INSIGHTS conference. The site states no Algarve link: it appears on the map because of the membership.",
+   "source_url": "http://www.dspa.pt",
+   "read_on": "2026-11-16",
+   "ai_path": "It is a national data science and AI association.",
+   "steps": 0
+  },
+  {
+   "name": "ADJ3 Sistemas",
+   "type": "company",
+   "url": "http://adj3.pt",
+   "what": "Faro web and app developer that builds sites and portals for universities and municipalities on Drupal and React, and a member of Algarve Evolution. Its site lists AI services integrated with Drupal: chatbots that answer from a site's own content, smart search, and assistants for content editors.",
+   "source_url": "http://adj3.pt",
+   "read_on": "2026-11-16",
+   "ai_path": "It sells AI chatbots, search and editing assistants for public-interest websites.",
+   "steps": 0
+  },
+  {
+   "name": "Neomarca",
+   "type": "company",
+   "url": "http://neomarca.pt",
+   "what": "SME consultancy operating since 1995 with its head office in Faro and a team in Porto, and a member of Algarve Evolution. Its digital transformation work includes a service called digitalisation and adoption of artificial intelligence, alongside funding advice for programmes such as PRR and Portugal 2030.",
+   "source_url": "http://neomarca.pt",
+   "read_on": "2026-11-16",
+   "ai_path": "It consults small firms on adopting AI tools and on the funding that pays for it.",
+   "steps": 1
+  }
+ ],
+ "extras": [
+  {
+   "label": "Regional programme ALGARVE 2030",
+   "value": "Reported on 10 November 2026 to have passed 50% of its funds committed. It co-funds the AI and robotics tourism programme.",
+   "source_url": "https://www.barlavento.pt/?p=394835",
+   "read_on": "2026-11-15"
+  },
+  {
+   "label": "Starting a company here: free mentoring",
+   "value": "The Venture Lab by AlgarveSTP gave individual mentoring sessions to 12 Algarve startups and SMEs, including on AI adoption. It needed a headquarters in the Algarve and a validated business model. The first edition closed applications on 24 June 2026.",
+   "source_url": "https://www.barlavento.pt/algarvestp-programa-gratuito-12-empresas-algarvias/",
+   "read_on": "2026-11-16"
+  },
+  {
+   "label": "Starting a company here: from research to a company",
+   "value": "UAlg's CRIA runs a proof-of-concept programme for early-stage firms and entrepreneurs from technology readiness level 3 to 6, co-funded by ALGARVE 2030. Its 2026 call closed on 10 July.",
+   "source_url": "https://www.barlavento.pt/?p=402933",
+   "read_on": "2026-11-16"
+  },
+  {
+   "label": "Starting a company here: AI and robotics help for tourism firms",
+   "value": "Algarve Evolution's INOVA ALGARVE 3.0 pilot gave consulting and an action plan to 15 tourism SMEs, with a second wave of 5 published on its page. The call closed on 30 April 2026.",
+   "source_url": "https://www.algarveevolution.pt/inovaalgarve",
+   "read_on": "2026-11-16"
+  },
+  {
+   "label": "Starting a company here: the regional funder",
+   "value": "ALGARVE 2030 is the regional programme that funds most of the support above. Its site lists information sessions for calls named MPr-2026-6 and Parcerias para a Inovação, with no company, digital or startup call open on the page when read.",
+   "source_url": "https://algarve.portugal2030.pt/",
+   "read_on": "2026-11-16"
+  },
+  {
+   "label": "Starting a company here: the Algarve Evolution incubator",
+   "value": "Its Founder2Founder growth programme is a six-month mentor-led track for 8 companies that already have customers and revenue. An early-stage incubation programme for teams validating ideas, including technical founders building digital, AI or software products, is announced for 2027. The incubator page says Founder2Founder applications close on 30 September while the association's home page says they are closed: we have not resolved which is current.",
+   "source_url": "https://www.algarveevolution.pt/incubator",
+   "read_on": "2026-11-16"
+  },
+  {
+   "label": "Starting a company here: the national start-up body",
+   "value": "Startup Portugal lists a national one-stop shop for founders, the RNi incubator network and the Tech Foundry Portugal deep-tech acceleration track. Its page lists no Algarve or AI programme.",
+   "source_url": "https://www.startupportugal.com/",
+   "read_on": "2026-11-16"
+  },
+  {
+   "label": "Starting a company here: the national government side",
+   "value": "IAPMEI's public pages list Espaço Empresa business support, the StartUP Voucher Innovate 2025-2026 and StartUP Boost programmes, StartUP Visa and Tech Visa for founders and tech workers, a national mentors network, and a network of Digital Innovation Hubs for digital transformation. Its funding pages list Portugal 2030 and PRR incentives, with open calls on its Concursos abertos page. The page names no AI programme and no Algarve-specific one. Its open-calls page is an index that points to the Portugal 2030 annual call plan (portugal2030.pt/plano-anual-de-avisos/) and the PRR call plan, which we have not read, with PRR digital transition lines under C16 Empresas 4.0.",
+   "source_url": "https://www.iapmei.pt/",
+   "read_on": "2026-11-16"
+  },
+  {
+   "label": "Funding calls planned: AI and innovation, and the Algarve's place in them",
+   "value": "Portugal 2030's annual call plan (September 2026 to August 2027, spreadsheet version of 14 September 2026) lists 177 planned calls worth about 2.04 billion euros. Only seven have a title or objective that mentions AI, digital or IT-type words, and none of the seven lists the Algarve. The one on AI is a national IAPMEI call for AI training for companies under COMPETE2030, worth 80 million euros, planned for 30 October to 30 December 2026, for Alentejo, Centro and Norte only. For the Algarve the spreadsheet has 16 ALGARVE2030 calls (the web page's filter showed 18). The business and innovation ones are SIAC Empreendedorismo Qualificado associado ao conhecimento (1 million euros, 30 September 2026 to 15 January 2027), SIAC Qualificação (500,000 euros, to 29 January 2027), SIAC Transferência do conhecimento científico e tecnológico and SIAC Descarbonização (500,000 euros each, 30 October 2026 to 26 February 2027), hiring of highly qualified staff by firms (1.5 million euros, 1 October 2026 to 30 June 2027) and SICE Inovação Produtiva (listed at zero). The national business R&D call SIID I&D Empresarial (40 million euros, 30 September to 31 December 2026) includes the Algarve. All are forecasts, not launched notices, and keyword matching on titles is a rough test.",
+   "source_url": "https://portugal2030.pt/wp-content/uploads/sites/3/2026/09/PlanoAnualAvisos_download_140926-1.xlsx",
+   "read_on": "2026-11-16"
+  }
+ ],
+ "identity": {
+  "key_id": "site.algarve-promptugal-2",
+  "signed_by": "place.algarve.east@PrompTugal.dinis"
+ },
+ "gaps": [
+  "Candidate for the map once an AI path is sourced: the Algarve cybersecurity competence centre (UAlg, NERA and the intermunicipal community AMAL), whose page does not mention AI.",
+  "Hint for the Portimão agent: the council's AI document check for building permits (3 July 2026), the Portimão hotel and tourism school (17 April AI bootcamp) and the StartUp Portimão incubator.",
+  "Hint for the Loulé agent: the Vale do Lobo AI concierge Oliver (16 April 2026), NERA's base, and Colégio Internacional de Vilamoura's AI summit (Vilamoura is in Loulé).",
+  "Hint for the Faro agent: UAlg Penha campus, UAlgTec Heritage, CRIA, DevFest Faro, Algarve Evolution and the ULS Algarve webinar all sit in Faro.",
+  "Dengun (a startup studio in the BEALG directory) returned 403, and Witflow (selected for Unicorn Factory Lisboa) is known only from a search result: both still need a source we can open before they go on the map.",
+  "The BEALG directory lists about 40 incubators and communities (ANJE Faro, QRIAR, GrowIN Portugal, Impact Hackers, Geek Sessions Faro and others) with no AI tag: each needs a look for an AI path before it is mapped.",
+  "Town files name the Algarve 6.0 Smart Territorial Hub in three different ways, so the region map shows it more than once: dev.places@ or the town agents could align the name.",
+  "Sul Informação and Jornal do Algarve serve their feeds but return 403 on article pages, and Postal and AlgarveSTP serve a bot challenge: we read only their feed headlines, so their AI stories are not in the news list. Headlines to open at source if a route is allowed: Algarve as the first Portuguese tourism destination to advertise on ChatGPT (Sul Informação, November 2026), the INTREPIDA AI Lab, an AI and tourism piece (September 2026), the Algarve Autodrome's AI-in-HR paper at the TMCT'26 conference in Portimão, and Jornal do Algarve's pieces on AI health diagnostics at home and on AI used for urban planning in Castro Marim.",
+  "Feeds read and working: Barlavento's AI tag, Sul Informação, Jornal do Algarve and Postal. None of the Algarve universities' or the CCDR's news pages gave a feed.",
+  "Barlavento's two AI items without a clear Algarve company (a national poll on AI instead of seeing a doctor, and a book on AI that includes an Olhão author) were left out as national or personal.",
+  "UAlg centres: CIMA's page lists marine monitoring and open-data projects but no AI, CCMAR's home page describes no AI beyond a DeepLabCut crash course in December, and CINTAL's page mentions no AI. The SEA-EU alliance lists developing its Green and AI Charters among its priorities (a July 2025 article), but we found no charter text.",
+  "Investment map: we found no 2026 funding round for an Algarve-founded AI startup. Leads whose articles we could not open: COREangels Algarve (an angel group), Sotavento Invest, the Dengun Founders Program (about 20 investor groups as partners) and INDICO Capital Partners.",
+  "Local media: Região Sul and Portugal Resident serve a Cloudflare challenge, Algarve Primeiro shows no feed, and Algarve Daily News gives an RSS address that returned an empty channel. A search shows Rádio Universitária do Algarve and a closed Rádio Solar Algarve, but we opened no radio page. Blogs and the town newspapers are not yet listed: the town agents' files hold some, and the region page should link them.",
+  "Algarve AI Agents and Artificial Intelligence Algarve have no public site we can read: their meetup listings sit on Luma and Meetup, which we do not read, and the second is LinkedIn only. We should ask Algarve Evolution for a public page, or for dates.",
+  "Algarve Evolution's members list (67 members over four pages, read in full) gives names only, and the member pages link to each firm's own site. Sites read with AI evidence, now mapped: LeiGPT, DSPA, Flow Productions, ADJ3 Sistemas and Neomarca. Sites read with none: QXote, Visualforma, Craft 4.0 (business intelligence and IoT), Cyberprotech (cybersecurity, Loulé), Sisgarbe (business software, Faro), Rolear (a Faro engineering and energy group), Azulchain (microcredentials) and Blackbird. Omnibees lists a chatbot called BeeAgent with no description, and the Host PMS site lists a separate AI product and a Canary integration but states no location. Not yet read: Canopy (403), Wise Rocket (404), Indrant and OSB Solutions (no site linked), We Sport IT, and the members not named here.",
+  "Hint for the Faro agent: LeiGPT, Flow Productions, ADJ3 Sistemas and Neomarca are Faro-based Algarve Evolution members with AI offers on their own sites, candidates for its map and a story.",
+  "Finding: in Portugal 2030's call plan none of the seven AI or digital calls includes the Algarve, and the national AI training call for companies (80 million euros) covers only Alentejo, Centro and Norte. The Algarve's own AI help so far comes from the INOVA ALGARVE 3.0 pilot and local bodies. We should check whether ALGARVE2030 plans an AI call of its own and read the formal notices once launched.",
+  "Starting a company here: the Algarve calls we found earlier have closed, and the plan lists new ALGARVE2030 calls opening from 30 September 2026. The formal notices, with eligibility and amounts, are not yet read, and the plan's budgets are forecasts.",
+  "Faro airport traffic for November, IPMA warning levels, algarve2030.gov.pt, amal.pt and ualg.pt were not opened on 16 November; the October airport figure seen in a search snippet is not verified.",
+  "Seen only as headlines: Olhão teachers on Erasmus+ AI and VR training (Postal, 5 November), and CCDR items of 26 October (Matéria Adentro, POCTEP 2021-2027, citrus innovation).",
+  "IPMA warnings for today could not be read: the ipma.pt warnings page the sub-agent tried returned a 404. Check ipma.pt directly. The CCDR notice of 11 November and its 24 November water conference were read from the list page only.",
+  "algarve2030.gov.pt did not resolve from this session on 17 November, and ccdr-alg.pt had nothing dated 14 to 17 November. Seen only as headlines: ICCAT tuna meeting in Vilamoura (Barlavento), a housing march in Faro, a regional investment conference with 300 participants (Postal, 15 November), and national water-cut and E-REDES power-cut lists for 17 and 18 November (whether any of the five places is listed was not checked).",
+  "The UAlg page on its AI rules and principles is undated in the listing, so it is not used as news.",
+  "On 17 November the national water-cut list (5 councils) and the E-REDES power-cut list for 17 and 18 November named none of Tavira, Castro Marim, Vila Real de Santo António or Alcoutim. The NaturMaris prize in Loulé (Barlavento, 16 November) was read from the front-page excerpt only, so it is not used. CCDR Algarve had nothing new after 10 November and no funding call with a deadline.",
+  "On 18 November the 24 November water-cycle conference page on ccdr-alg.pt still showed no registration link. IPMA's feed shows only the yellow sea warning (18 November 12:00 to 20 November 09:00); all other warning types are green through 21 November 03:00. Seen only as headlines: an Olhão teacher's Erasmus+ AI course (Postal, 17 November) and a naval-school exercise on the Guadiana through Mértola, Alcoutim and Vila Real de Santo António (Barlavento).",
+  "The CCDR Algarve front page also mentions a third Algarve 2030 water-cycle conference with Público on technology and AI in water management, with no date given.",
+  "Correction of 18 November: the Castro Marim dementia congress of 12 and 13 November, with an AI session, is real; the council's own page of 17 November confirms it (see the Castro Marim file). Earlier gaps that said it was unconfirmed were wrong because the council page was not yet readable.",
+  "The afternoon scan of 18 November found no new startup, AI or digital-services item for 17 and 18 November. Seen only as listing lines, not opened: the VRSA Youth Participatory Budget (voting to 13 December), the SamhainBaucogna film festival (24 to 29 November), World Diabetes Day at Monte Gordo, the UAlg participatory budget (9 November) and Longevity Society award (9 November), AMAL's 2027 budget and waste-study contract, and CCDR's 13 November waste conference. Barlavento and Postal were not read in the afternoon scan. The fetch of cm-alcoutim.pt returned no news content again (probably rendered by JavaScript); not retried.",
+  "19 November, 06:40 UTC scan: almost nothing new was published overnight; Castro Marim and Alcoutim had no item from 18 or 19 November (cm-alcoutim.pt returned only a skip link again). Every new item above is held under R12 and most are listing only.",
+  "19 November, 11:40 UTC scan: nothing dated 18 or 19 November for Tavira, Castro Marim, Vila Real de Santo António or Alcoutim beyond the items already held; cm-alcoutim.pt returned an empty page and its /pt/noticias a 404, so Alcoutim is unchecked at source. A privately run giant nativity at Monte Francisco (Castro Marim, opens 1 December, Postal 18 November) is not listed: its page gives the private promoter's contact and it is marginal.",
+  "19 November, 16:40 UTC scan: no new item for Tavira, Castro Marim, Vila Real de Santo António or Alcoutim from the councils (cm-alcoutim.pt empty again); the new items are regional. Seen only as headlines: Jornadas Ibéricas de Turismo do Interior (November 2027), a PS budget proposal on linking reservoirs in Beja and Faro, a CCMAR zebrafish study, Santander grants for UAlg teaching students, two VRSA notices (a CPCJ seminar on 25 November, a swimming championship on 21 and 22 November). The IPMA feed fetch returned no Faro entries this time, so no warning content is reported.",
+  "20 November, 07:50 UTC scan: almost nothing new in the window for any of the four towns; cm-alcoutim.pt again returned only a skip link and the site title, so Alcoutim is unchecked at source; no AI, funding call or start-up item found."
+ ],
+ "voice": {
+  "lede": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
+  "mandate": "PrompTugal.news Algarve: AI and technology across the whole Algarve, from Sagres to Vila Real, and what reaches us from Portugal and the world. Independent, and every fact has its fonte.",
+  "gravity": "Pois é: the AI action is mostly in Faro, round the university and Algarve Evolution, and mostly for the tourism and health that pay the bills. The university also landed 31.5 million euros for an AI-first heritage centre, which is not bad for a region famous for sardines.",
+  "gaps_intro": "O que ainda nos falta descobrir, com a humildade de quem já perdeu o último bolo de bolacha:"
+ },
+ "local_news": [
+  {
+   "title": "The University of Algarve hosts a conference on AI and water management on 24 November",
+   "summary": "Third in the water-resources cycle of the Algarve 2030 programme with Público: AI to monitor consumption, find network losses and watch water quality; 14:00 to 18:00, Campus da Penha, Faro. The page gives no technical detail and no registration link.",
+   "date": "2026-11-16",
+   "publisher": "Postal (Europe Direct Algarve)",
+   "url": "https://postal.pt/europedirectalgarve/faro-recebe-conferencia-sobre-inteligencia-artificial-e-gestao-da-agua-no-algarve/",
+   "read_on": "2026-11-16",
+   "significance": "region and country",
+   "ai_path": "Sensors and consumption data from supply networks, then AI or analytics to find losses and anomalies, then operators act on them (the conference topics).",
+   "steps": 3,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://postal.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "Storm Charles brought gusts near 100 km/h and flood risk to the Algarve on 11 November",
+   "summary": "The interior minister said the worst period was about 15:00 to 19:00, with a high tide near 15:20. The article does not name the most affected municipalities.",
+   "date": "2026-11-11",
+   "publisher": "Postal",
+   "url": "https://postal.pt/algarve/o-periodo-mais-grave-esta-a-porta-algarve-enfrenta-vento-de-100-km-h-e-risco-de-inundacoes-ate-as-19h00/",
+   "read_on": "2026-11-16",
+   "significance": "region and country",
+   "ai_path": "no AI",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://postal.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "CCDR Algarve closed its services on 11 November because of the declared alert",
+   "summary": "The notice sits on the CCDR's news list; the notice itself was not opened.",
+   "date": "2026-11-10",
+   "publisher": "CCDR Algarve",
+   "url": "https://www.ccdr-alg.pt",
+   "read_on": "2026-11-16",
+   "significance": "region",
+   "ai_path": "no AI",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.ccdr-alg.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "A Loulé agency launches the Best Number One start-page platform at Web Summit",
+   "summary": "3WX says it passed 300 sign-ups in its first hours; one outlet, uncorroborated, and the article does not mention AI.",
+   "date": "2026-11-12",
+   "publisher": "Postal",
+   "url": "https://postal.pt/algarve/empresa-de-loule-lanca-plataforma-best-number-one-no-web-summit-e-ultrapassa-300-inscricoes/",
+   "read_on": "2026-11-16",
+   "significance": "town and country",
+   "ai_path": "no AI",
+   "steps": 0,
+   "blast_radius": "Loulé",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://postal.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "CCDR Algarve's Matéria Adentro turns local cane, oyster shell and clay into products",
+   "summary": "Results of creative residencies presented on 22 October in Faro: three cane insulation proposals and a modular rammed-earth bench. The roundtable named certification, sales and public procurement as the hurdles. Part of INOVA ALGARVE 3.0, co-financed by Algarve 2030.",
+   "date": "2026-10-26",
+   "publisher": "CCDR Algarve",
+   "url": "https://www.ccdr-alg.pt/site/info/inovacao-em-destaque-na-apresentacao-dos-resultados-do-projeto-materia-adentro",
+   "read_on": "2026-11-16",
+   "significance": "region",
+   "ai_path": "no AI",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.ccdr-alg.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "CCDR Algarve presents the results of POCTEP 2021-2027 cross-border projects",
+   "summary": "A session on 9 November at the CCDR auditorium for Algarve-led projects of the Spain-Portugal programme, to recognise beneficiaries and encourage networking.",
+   "date": "2026-10-26",
+   "publisher": "CCDR Algarve",
+   "url": "https://www.ccdr-alg.pt/site/info/ccdr-algarve-promove-sessao-de-apresentacao-dos-resultados-de-projetos-poctep-2021-2027",
+   "read_on": "2026-11-16",
+   "significance": "region and neighbours",
+   "ai_path": "no AI",
+   "steps": 0,
+   "blast_radius": "Andalusia (Huelva)",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.ccdr-alg.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "IPMA has a yellow sea-agitation warning for the Algarve from 18 to 20 November",
+   "summary": "Valid from 12:00 on 18 November to 02:00 on 20 November: northwest swells of 4 to 5 m on the western coast. All other Faro-district warnings were green when read on 17 November. Read from IPMA's open-data feed, which was summarised by the fetch tool, not read raw.",
+   "date": "2026-11-17",
+   "publisher": "IPMA",
+   "url": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
+   "read_on": "2026-11-17",
+   "significance": "region",
+   "ai_path": "no AI",
+   "steps": 0,
+   "blast_radius": "the west coast first (Aljezur, Vila do Bispo, Lagos)",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://api.ipma.pt/"
+   },
+   "commercial_use": "not allowed: IPMA's data is for non-profit use only (data.promptugal.news/api/v1/sources/commercial.json, read 2026-11-18); keep it off promptugal.news's billing pages; the free sub-sites may show it with its licence (guidance of 18 Nov 2026, 23:45 UTC)",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "AMAL holds its 100th training action of 2026",
+   "summary": "About 2,000 trainees this year, mostly staff of AMAL and the Algarve councils; about 25,000 trained since 2003. The page does not mention AI.",
+   "date": "2026-11-16",
+   "publisher": "AMAL",
+   "url": "https://amal.pt/amal-promove-a-centesima-acao-de-formacao-de-2026",
+   "read_on": "2026-11-17",
+   "significance": "region",
+   "ai_path": "no AI",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://amal.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "The University of the Algarve relaunches Equipa UAlg with 81 school talks",
+   "summary": "81 free talks in 16 areas for basic and secondary pupils and teachers in 2026/27. The talk list was not seen, so any AI topics are unknown.",
+   "date": "2026-11-16",
+   "publisher": "Universidade do Algarve",
+   "url": "https://www.ualg.pt/equipa-ualg-renova-se-e-regressa-escolas-com-81-palestras",
+   "read_on": "2026-11-17",
+   "significance": "region",
+   "ai_path": "no AI",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.ualg.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "AMAL attends the FIREPOCTEP AVANZA wildfire-prevention project meeting in Cáceres",
+   "summary": "Interreg Spain-Portugal project; AMAL took part in a panel on an Iberian certification for products from Strategic Management Zones and productive firebreaks, arguing the criteria should suit small rural producers. The page mentions no technology.",
+   "date": "2026-11-17",
+   "publisher": "AMAL",
+   "url": "https://amal.pt/amal-participou-em-reuniao-do-projeto-firepoctep-avanza",
+   "read_on": "2026-11-17",
+   "significance": "region and neighbours",
+   "ai_path": "no AI",
+   "steps": 0,
+   "blast_radius": "the interior councils, Alcoutim first",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://amal.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "University of Algarve researchers build 'Walking on Ice', an interactive immersive film, with about 300,000 euros",
+   "summary": "CIAC researchers combine immersive technologies with interactive storytelling, funded by the national cultural planning office. The page does not say AI.",
+   "date": "2026-11-17",
+   "publisher": "Universidade do Algarve",
+   "url": "https://www.ualg.pt/investigadores-da-ualg-exploram-narrativas-imersivas",
+   "read_on": "2026-11-17",
+   "significance": "region and country",
+   "ai_path": "No AI stated: immersive and interactive media (XR) research at the university.",
+   "steps": 1,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.ualg.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "AMAL's 9 million euro smart-water project is approved under Algarve 2030",
+   "summary": "'Inteligência no Ciclo Urbano da Água em baixa no Algarve': smart meters and telemetry to improve flow and consumption data, detect leaks and support water balances. Eligible investment 9,053,081.15 euros, FEDER 5,869,477.82 euros, completion expected 31 December 2027. It sits behind the 24 November UAlg and CCDR conference on digitalising the water cycle; the page itself makes no AI claim. Published 4 November, outside the last two days but the best data-and-AI hook for the region page.",
+   "date": "2026-11-04",
+   "publisher": "AMAL",
+   "url": "https://amal.pt/amal-tem-mais-uma-candidatura-aprovada-do-programa-algarve-2030",
+   "read_on": "2026-11-18",
+   "significance": "region",
+   "ai_path": "Smart meters and telemetry produce consumption and flow data, analytics find leaks and balance water, the 24 November conference adds AI on top; the AMAL page itself does not mention AI.",
+   "steps": 3,
+   "blast_radius": "every Algarve council's water utility",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://amal.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "Olhão teacher returns from a Prague Erasmus+ course on AI in education with chatbots and draft school rules",
+   "summary": "An Erasmus+ course, 'Advanced Artificial Intelligence for Education', 2 to 6 November: AI agents, prompting, AI-content detectors and image, audio and video tools; participants drafted rules for AI use in schools, and the teacher built educational chatbots and started a prototype student app. Postal, Europe Direct Algarve section.",
+   "date": "2026-11-17",
+   "publisher": "Postal",
+   "url": "https://postal.pt/europedirectalgarve/professora-de-olhao-aposta-na-inteligencia-artificial-etica-e-criativa-apos-formacao-em-praga/",
+   "read_on": "2026-11-18",
+   "significance": "neighbours and region",
+   "ai_path": "Erasmus+ training course, a teacher, classroom chatbots and a student app, draft school rules for AI use.",
+   "steps": 3,
+   "blast_radius": "Olhão is next to Tavira and Faro",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://postal.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "NaturMaris wins the sea-economy category of INOVA ALGARVE + DIVERSIFICAR at NERA in Loulé",
+   "summary": "A project turning marine by-products into natural pet supplements won 2,500 euros on 13 November; the contest is run by NERA with Algarve Evolution, CCDR Algarve, the tourism board and the University of Algarve, as part of INOVA ALGARVE 3.0 co-financed by Algarve 2030. Companies from the Ria Formosa (Naturafish, MSP, Necton, Sparos and the shellfish nursery cooperative) took part in the sessions.",
+   "date": "2026-11-16",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/naturmaris-suplementos-animais-premio-loule-nera-inova-algarve/",
+   "read_on": "2026-11-18",
+   "significance": "region",
+   "ai_path": "no AI",
+   "steps": 0,
+   "blast_radius": "the Ria Formosa from Faro to Tavira",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.barlavento.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "The Escola Naval's RIO26 exercise runs on the Guadiana from 16 to 20 November",
+   "summary": "76 cadets and 45 military personnel; a river descent in rescue boats from Mértola to Alcoutim and a mass-rescue simulation near Vila Real de Santo António.",
+   "date": "2026-11-17",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/escola-naval-leva-76-cadetes-ao-guadiana-para-exercicio-de-cinco-dias/",
+   "read_on": "2026-11-18",
+   "significance": "neighbours",
+   "ai_path": "no AI",
+   "steps": 0,
+   "blast_radius": "Mértola, Alcoutim, Vila Real de Santo António",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.barlavento.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "The University of Algarve sets rules and principles for the use of AI",
+   "summary": "A policy of 24 September for students, staff, researchers and administration: ethical, transparent and responsible use of AI and a recommendation to use secure institutional tools; the full policy is at ualg.pt/politica-de-ia-na-ualg (not opened). The only AI-policy item found at a regional institution; the page is older than the news window.",
+   "date": "2026-09-24",
+   "publisher": "Universidade do Algarve",
+   "url": "https://www.ualg.pt/ualg-define-regras-e-principios-para-utilizacao-da-inteligencia-artificial",
+   "read_on": "2026-11-18",
+   "significance": "region",
+   "ai_path": "University policy (rules for AI use), staff and students, secure institutional tools, the 24 November water conference sits in the same university.",
+   "steps": 2,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms: no content licence found on the page (read 2026-11-18); only a short factual summary with the link is shown",
+    "url": "https://www.ualg.pt/"
+   },
+   "blast_radius": "every Algarve school and company that works with UAlg",
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "EEA Grants roadshow at CCDR Algarve: Portugal's allocation is 126.3 million euros, 57.6 million for blue growth",
+   "summary": "On 29 October, about 120 participants: Blue Growth 57.6 million (business competitiveness, research and innovation in the blue economy), Green Transition 35 million, Culture about 10.9 million and Combating Domestic and Gender-Based Violence about 14.4 million. No deadlines are stated; the page points to eeagrants.org/pt/portugal. Older than the news window, listed as a funding lead for the east Algarve's sea economy.",
+   "date": "2026-10-31",
+   "publisher": "CCDR Algarve",
+   "url": "https://www.ccdr-alg.pt/site/info/eea-grants-financiamento-para-responder-aos-desafios-do-desenvolvimento-regional",
+   "read_on": "2026-11-18",
+   "significance": "region",
+   "ai_path": "no AI",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms: its footer says all rights reserved (read 2026-11-18); only a short factual summary with the link is shown",
+    "url": "https://www.ccdr-alg.pt/"
+   },
+   "blast_radius": "the Ria Formosa and Guadiana coast, Tavira and Vila Real de Santo António first",
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "Rede AZul opens a call for Algarve shows to tour in 2027",
+   "summary": "A call for Algarve arts organisations to put shows on more stages in 2027; an earlier headline put the closing date at 16 December. Not about technology, listed as a regional support call. (listing only (body not opened))",
+   "date": "2026-11-17",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/rede-azul-candidaturas-espetaculos-algarvios-2027/",
+   "read_on": "2026-11-19",
+   "significance": "region",
+   "ai_path": "no AI",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; none stated on the pages read)",
+    "url": "https://www.barlavento.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "StartUp Portimão closes its seventh acceleration programme with a showcase of 12 projects",
+   "summary": "The only start-up programme item found this week in the western Algarve; what the 12 projects do, and whether any uses AI, was not read. (listing only (body not opened))",
+   "date": "2026-11-18",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/startup-portimao-programa-aceleracao-mostra-12-projetos/",
+   "read_on": "2026-11-19",
+   "significance": "region",
+   "ai_path": "no AI",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; none stated on the pages read)",
+    "url": "https://www.barlavento.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link",
+   "blast_radius": "Portimão, Lagos, Lagoa"
+  },
+  {
+   "title": "Ciência Viva launches its national 2027 solar-eclipse campaign at the University of Algarve on 23 November",
+   "summary": "The launch session is hosted by the University of Algarve in Faro. (listing only (body not opened))",
+   "date": "2026-11-18",
+   "publisher": "Universidade do Algarve",
+   "url": "https://www.ualg.pt/ciencia-viva-lanca-campanha-nacional-para-o-eclipse-solar-de-2027-na-ualg",
+   "read_on": "2026-11-19",
+   "significance": "region and country",
+   "ai_path": "no AI",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; none stated on the pages read)",
+    "url": "https://www.ualg.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "The University of Algarve hosts the MetaRed TIC, X and S Portugal meeting on 17 and 18 November",
+   "summary": "MetaRed is an association of Portuguese higher-education institutions and public bodies working on ICT, university entrepreneurship and sustainability; the page mentions digital transformation but not AI and names no attendees. Only the page text was read.",
+   "date": "2026-11-19",
+   "publisher": "Universidade do Algarve",
+   "url": "https://www.ualg.pt/universidade-do-algarve-acolheu-encontro-metared-tic-x-e-s-portugal-2026",
+   "read_on": "2026-11-19",
+   "significance": "region and country",
+   "ai_path": "no AI",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; none stated on the pages read)",
+    "url": "https://www.ualg.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "The University of Algarve runs Mobility Week from 23 to 27 November",
+   "summary": "Information sessions on Erasmus and partner-institution exchanges at the Penha and Gambelas campuses, 23 to 26 November, one per faculty or school.",
+   "date": "2026-11-19",
+   "publisher": "Universidade do Algarve",
+   "url": "https://www.ualg.pt/semana-da-mobilidade-2026-chega-ualg",
+   "read_on": "2026-11-19",
+   "significance": "region",
+   "ai_path": "no AI",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; none stated on the pages read)",
+    "url": "https://www.ualg.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "Rural fires in the Algarve rose 56% in 2026 but the burned area fell",
+   "summary": "Provisional DECIR balance for 1 January to 31 October, presented on 18 November to the Faro district civil protection commission: 370 fires (+56%), 1,340.89 hectares burned (862 fewer than in 2025), 98.1% controlled within 90 minutes, average dispatch 54 seconds. Alcoutim had 49.24 hectares burned.",
+   "date": "2026-11-19",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/incendios-rurais-algarve-aumento-area-ardida-2026/",
+   "read_on": "2026-11-19",
+   "significance": "region",
+   "ai_path": "no AI",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms: its footer says all rights reserved (read 2026-11-19); only a short factual summary with the link is shown",
+    "url": "https://www.barlavento.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link",
+   "blast_radius": "Alcoutim, Loulé, Silves, Faro"
+  },
+  {
+   "title": "The Socialist Party proposes state funding for the University of Algarve's Portimão campus in the 2027 budget",
+   "summary": "A party proposal, not a decision: an amendment to cover the national share of the campus, with transfers from 2027 and completion aimed at 2029 alongside Algarve 2030 funds.",
+   "date": "2026-11-19",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/ps-oe2027-campus-portimao-conclusao-2029/",
+   "read_on": "2026-11-19",
+   "significance": "region",
+   "ai_path": "no AI",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms: its footer says all rights reserved (read 2026-11-19); only a short factual summary with the link is shown",
+    "url": "https://www.barlavento.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link",
+   "blast_radius": "Portimão, Lagoa, Lagos"
+  }
+ ],
+ "contacts": [
+  {
+   "name": "CCDR Algarve, general office",
+   "what": "The regional coordination commission's published address, phone and email.",
+   "url": "https://www.ccdr-alg.pt/site/info/instalacoes-e-contactos-0",
+   "source_url": "https://www.ccdr-alg.pt/site/info/instalacoes-e-contactos-0",
+   "read_on": "2026-11-16",
+   "channel": "Praça da Liberdade 2, 8000-164 Faro; +351 289 895 200; geral@ccdr-alg.pt"
+  },
+  {
+   "name": "AMAL (Algarve Intermunicipal Community), general office",
+   "what": "The intermunicipal community's published address, phone and email.",
+   "url": "https://amal.pt/amal-promove-a-centesima-acao-de-formacao-de-2026",
+   "source_url": "https://amal.pt/amal-promove-a-centesima-acao-de-formacao-de-2026",
+   "read_on": "2026-11-17",
+   "channel": "geral@amal.pt; (+351) 289 880 800; R. General Humberto Delgado 20, 8000-355 Faro"
+  },
+  {
+   "name": "Universidade do Algarve, general contact",
+   "what": "The university's published general email and phone.",
+   "url": "https://www.ualg.pt/equipa-ualg-renova-se-e-regressa-escolas-com-81-palestras",
+   "source_url": "https://www.ualg.pt/equipa-ualg-renova-se-e-regressa-escolas-com-81-palestras",
+   "read_on": "2026-11-17",
+   "channel": "info@ualg.pt; 289 800 100"
+  }
+ ],
+ "latest_news": {
+  "read_at": "2026-11-26T02:33Z",
+  "by": "place.algarve@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
+  "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
+  "main_headline": {
+   "title": "Cinco passeios de carro para descobrir o Algarve no inverno",
+   "url": "https://postal.pt/auto/cinco-passeios-de-carro-para-descobrir-o-algarve-no-inverno/",
+   "source": "Postal do Algarve",
+   "date": "2026-11-25",
+   "read_at": "2026-11-26T02:28:26Z",
+   "names_place": true
+  },
+  "items": [
+   {
+    "title": "A região portuguesa onde se vive menos tempo e com a escolaridade abaixo da média nacional",
+    "url": "https://postal.pt/economia/a-regiao-portuguesa-onde-se-vive-menos-tempo-e-com-a-escolaridade-abaixo-da-media-nacional/",
+    "published": "2026-11-25T22:05Z",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/feed/",
+    "read_at": "2026-11-26T02:28:26Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Viu um carro usado barato num leilão online? Faça esta conta antes de licitar",
+    "url": "https://postal.pt/nacional/viu-um-carro-usado-barato-num-leilao-online-faca-esta-conta-antes-de-licitar/",
+    "published": "2026-11-25T20:20Z",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/feed/",
+    "read_at": "2026-11-26T02:28:26Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Tem uma segunda casa onde quase não gasta eletricidade? Há uma taxa que pode deixar de pagar",
+    "url": "https://postal.pt/nacional/tem-uma-segunda-casa-onde-quase-nao-gasta-eletricidade-ha-uma-taxa-que-pode-deixar-de-pagar/",
+    "published": "2026-11-25T20:20Z",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/feed/",
+    "read_at": "2026-11-26T02:28:26Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Bebe água logo ao acordar mesmo sem ter sede? Nutricionista explica se deve manter este hábito",
+    "url": "https://postal.pt/saude/bebe-agua-logo-ao-acordar-mesmo-sem-ter-sede-nutricionista-explica-se-deve-manter-este-habito/",
+    "published": "2026-11-25T20:10Z",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/feed/",
+    "read_at": "2026-11-26T02:28:26Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Cinco passeios de carro para descobrir o Algarve no inverno",
+    "url": "https://postal.pt/auto/cinco-passeios-de-carro-para-descobrir-o-algarve-no-inverno/",
+    "published": "2026-11-25T19:10Z",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/feed/",
+    "read_at": "2026-11-26T02:28:26Z",
+    "mentions_place": true,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Algarve aprova revisão do programa regional de prevenção e gestão de fogos rurais",
+    "url": "https://postal.pt/algarve/algarve-aprova-revisao-do-programa-regional-de-prevencao-e-gestao-de-fogos-rurais/",
+    "published": "2026-11-25T19:00Z",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/feed/",
+    "read_at": "2026-11-26T02:28:26Z",
+    "mentions_place": true,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Faro é o segundo distrito com mais mulheres e raparigas vítimas de crime e violência apoiadas pela APAV",
+    "url": "https://www.barlavento.pt/apav-vitimas-mulheres-raparigas-violencia-distrito-faro-2026/",
+    "published": "2026-11-25T15:43Z",
+    "source": "Barlavento",
+    "source_site": "https://www.barlavento.pt/",
+    "feed": "https://www.barlavento.pt/feed/",
+    "read_at": "2026-11-26T02:28:24Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Parques eólicos da costa sudoeste algarvia registam em média uma colisão por cada 21 mil aves observadas",
+    "url": "https://www.barlavento.pt/parques-eolicos-colisoes-aves-costa-sudoeste-algarvia/",
+    "published": "2026-11-25T14:22Z",
+    "source": "Barlavento",
+    "source_site": "https://www.barlavento.pt/",
+    "feed": "https://www.barlavento.pt/feed/",
+    "read_at": "2026-11-26T02:28:24Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Câmara de Faro aprova proposta do PSD para criar Fundo Municipal de Habitação",
+    "url": "https://www.barlavento.pt/faro-fundo-municipal-habitacao-proposta-psd/",
+    "published": "2026-11-25T13:44Z",
+    "source": "Barlavento",
+    "source_site": "https://www.barlavento.pt/",
+    "feed": "https://www.barlavento.pt/feed/",
+    "read_at": "2026-11-26T02:28:24Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Zoomarine acompanha por satélite a adaptação da tartaruga Molly à vida no oceano",
+    "url": "https://www.barlavento.pt/tartaruga-molly-zoomarine-monitorizacao-satelite/",
+    "published": "2026-11-25T11:02Z",
+    "source": "Barlavento",
+    "source_site": "https://www.barlavento.pt/",
+    "feed": "https://www.barlavento.pt/feed/",
+    "read_at": "2026-11-26T02:28:24Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Vila Natal com mercados, concertos e teatro no centro de Vila Real de Santo António",
+    "url": "https://www.barlavento.pt/vila-natal-vila-real-santo-antonio-programa-2026/",
+    "published": "2026-11-25T10:34Z",
+    "source": "Barlavento",
+    "source_site": "https://www.barlavento.pt/",
+    "feed": "https://www.barlavento.pt/feed/",
+    "read_at": "2026-11-26T02:28:24Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Rede de rega da Várzea de Odeleite vai levar água da barragem a 130 hectares",
+    "url": "https://www.barlavento.pt/rede-rega-varzea-odeleite-130-hectares-ccdr-algarve/",
+    "published": "2026-11-25T10:18Z",
+    "source": "Barlavento",
+    "source_site": "https://www.barlavento.pt/",
+    "feed": "https://www.barlavento.pt/feed/",
+    "read_at": "2026-11-26T02:28:24Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   }
+  ]
+ }
 }

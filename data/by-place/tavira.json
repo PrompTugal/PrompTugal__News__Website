@@ -1,519 +1,611 @@
 {
-  "$schema": "../schemas/by-place.schema.json",
-  "id": "tavira",
-  "name": "Tavira",
-  "kind": "municipality",
-  "parent": "algarve",
-  "status": "live",
-  "updated": "2026-11-19",
-  "by": "place.tavira@PrompTugal.dinis",
-  "mandate": "PrompTugal.news Tavira: AI and technology in Tavira, a town whose digital footprint today is public-sector data platforms and a small tech community, and what reaches Tavira from the Algarve, Portugal and the world. Independent, and every fact sourced.",
-  "gravity": {
-    "text": "On the sources we could open, Tavira's centre of gravity is public research and public data rather than commercial AI. A 1.36 million euro recovery-plan project, the Polo de Inovação de Tavira, builds a research and technology-transfer hub on the Mediterranean Diet, health and climate adaptation. The council is one of six eastern Algarve municipalities in the Algarve 6.0 urban data platform and installed connected parking sensors in 2026, and the Tavira Works community sits in the regional tech network. We found no AI company headquartered in the municipality.",
-    "sources": [
-      {
-        "title": "Polo de Inovação de Tavira, PRR project page (transparencia.gov.pt)",
-        "url": "https://transparencia.gov.pt/pt/fundos-europeus/prr/beneficiarios-projetos/projeto/01/C05-i03/2021.PPRR-C05-i03-P-000037/",
-        "read_on": "2026-11-16"
-      },
-      {
-        "title": "Algarve 6.0 Smart Territorial Hub, project sheet (Câmara Municipal de Tavira)",
-        "url": "https://cm-tavira.pt/site/wp-content/uploads/2025/05/FichaPRR_AMA_TERRITORIOS_INTELIGENTES_FGU-1.pdf",
-        "read_on": "2026-11-15"
-      },
-      {
-        "title": "Novos sensores melhoram estacionamento acessível em Tavira (Barlavento)",
-        "url": "https://www.barlavento.pt/?p=397074",
-        "read_on": "2026-11-15"
-      },
-      {
-        "title": "Algarve Tech Hub, CCDR Algarve slides (July 2025)",
-        "url": "https://www.ccdr-alg.pt/site/sites/default/files/inline-files/20250730_algarvetech-hub.pdf",
-        "read_on": "2026-11-15"
-      }
-    ]
-  },
-  "look": {
-    "accent": "#A4452C",
-    "landmark": "The seven-arched Roman Bridge over the Gilão river",
-    "motif": "terracotta rooftops, white salt-pan light, a river town"
-  },
-  "ai_news": [
-    {
-      "title": "Tavira puts smart sensors on accessible parking spaces",
-      "summary": "Under a protocol with the National Institute for Rehabilitation, the council installed sensors at four public services that report in real time whether a reserved space is free, with the data shown in the Acessibilidades 360 program and app. The article does not claim any AI.",
-      "date": "2026-04-15",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/?p=397074",
-      "read_on": "2026-11-15",
-      "ai_path": "Connected sensors produce live data, a data platform collects it, and analytics or AI models are the usual next layer. The source itself does not mention AI.",
-      "steps": 3
-    },
-    {
-      "title": "Tavira is one of six municipalities in the Algarve 6.0 urban data platform",
-      "summary": "The project sheet describes an urban management platform for Olhão, Alcoutim, Loulé, São Brás de Alportel, Tavira and Vila Real de Santo António, joining sensors and ten service areas such as waste, water, air quality, noise, flood marks and monitoring of isolated elderly people. Investment listed: 102,615 euros, all co-financed.",
-      "date": "2025-05",
-      "publisher": "Câmara Municipal de Tavira (project sheet, dated by the upload month in its URL)",
-      "url": "https://cm-tavira.pt/site/wp-content/uploads/2025/05/FichaPRR_AMA_TERRITORIOS_INTELIGENTES_FGU-1.pdf",
-      "read_on": "2026-11-15",
-      "ai_path": "A shared platform that centralises sensor data across six councils is the data base on which AI analysis of waste, water or ageing care would run. The sheet does not mention AI.",
-      "steps": 2
-    },
-    {
-      "title": "CCDR Algarve approves the works at Tavira's innovation hub, with a sensor-controlled irrigation network",
-      "summary": "The approved eligible investment is 1.68 million euros for the Polo de Inovação de Tavira at the CEAT (about 27 hectares). The works replace the 1989 irrigation network with programmable valve controllers, soil moisture probes and leak-detection equipment, rehabilitate the old CCDR building and plant new fruit and vine trials. Completion was expected by the end of December 2025. The article mentions no AI.",
-      "date": "2024-12-20",
-      "publisher": "CCDR Algarve",
-      "url": "https://www.ccdr-alg.pt/site/info/ccdr-algarve-aprova-intervencoes-nos-polos-de-inovacao-de-tavira-e-do-patacao-faro",
-      "read_on": "2026-11-16",
-      "ai_path": "Soil moisture probes and programmable controllers turn a research farm into a data source, and AI irrigation and crop models are the usual next layer. The source does not mention AI.",
-      "steps": 2
-    },
-    {
-      "title": "Tavira's innovation hub launches with 23 partners and a digital therapeutics centre planned",
-      "summary": "At the 2021 signing, 23 partners joined a Mediterranean Diet research and training hub at the CEAT. Plans included a digital therapeutics centre with Johns Hopkins University and the Algarve Biomedical Center, virtual-reality training, an urban garden and a Ciência Viva science centre. No AI is mentioned.",
-      "date": "2021-11-26",
-      "publisher": "Agricultura e Mar",
-      "url": "https://agriculturaemar.com/polo-de-inovacao-de-tavira-vai-ser-centro-de-referencia-nacional-da-dieta-mediterranica/",
-      "read_on": "2026-11-16",
-      "ai_path": "A research hub whose plans include digital therapeutics, a data-driven health field where AI is the usual next step. The article does not mention AI.",
-      "steps": 2
-    }
-  ],
+ "$schema": "../schemas/by-place.schema.json",
+ "id": "tavira",
+ "name": "Tavira",
+ "kind": "municipality",
+ "parent": "algarve",
+ "status": "live",
+ "updated": "2026-11-26",
+ "by": "place.tavira@PrompTugal.dinis",
+ "mandate": "PrompTugal.news Tavira: AI and technology in Tavira, a town whose digital footprint today is public-sector data platforms and a small tech community, and what reaches Tavira from the Algarve, Portugal and the world. Independent, and every fact sourced.",
+ "gravity": {
+  "text": "On the sources we could open, Tavira's centre of gravity is public research and public data rather than commercial AI. A 1.36 million euro recovery-plan project, the Polo de Inovação de Tavira, builds a research and technology-transfer hub on the Mediterranean Diet, health and climate adaptation. The council is one of six eastern Algarve municipalities in the Algarve 6.0 urban data platform and installed connected parking sensors in 2026, and the Tavira Works community sits in the regional tech network. We found no AI company headquartered in the municipality.",
   "sources": [
-    {
-      "name": "Câmara Municipal de Tavira (news feed)",
-      "url": "https://cm-tavira.pt/site/",
-      "kind": "council",
-      "feed": "https://cm-tavira.pt/site/feed/"
-    },
-    {
-      "name": "Barlavento",
-      "url": "https://www.barlavento.pt/",
-      "kind": "press",
-      "feed": "https://www.barlavento.pt/feed/"
-    },
-    {
-      "name": "Postal do Algarve",
-      "url": "https://postal.pt/",
-      "kind": "press",
-      "feed": "https://postal.pt/feed"
-    },
-    {
-      "name": "Sul Informação",
-      "url": "https://www.sulinformacao.pt/",
-      "kind": "press",
-      "feed": "https://www.sulinformacao.pt/feed/"
-    },
-    {
-      "name": "Portugal Resident",
-      "url": "https://www.portugalresident.com/",
-      "kind": "press",
-      "feed": "https://www.portugalresident.com/feed/"
-    },
-    {
-      "name": "CCDR Algarve",
-      "url": "https://www.ccdr-alg.pt/",
-      "kind": "other",
-      "feed": null
-    },
-    {
-      "name": "Câmara Municipal de Tavira: support for entrepreneurs and investors",
-      "url": "https://cm-tavira.pt/site/apoio-ao-empreendedor-e-investidor/",
-      "kind": "council",
-      "feed": null
-    },
-    {
-      "name": "Portal da Transparência: PRR projects",
-      "url": "https://transparencia.gov.pt/",
-      "kind": "other",
-      "feed": null
-    }
-  ],
-  "events": [
-    {
-      "title": "Plantar Água results event, Tavira",
-      "date": "2026-11-27",
-      "url": "https://www.barlavento.pt/plantar-agua-tavira-resultados-wwf-portugal/",
-      "read_on": "2026-11-16",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.barlavento.pt/"
-      }
-    },
-    {
-      "title": "Market-shop tender deadline (17:00)",
-      "date": "2026-11-19",
-      "url": "https://postal.pt/economia/tavira-lanca-concurso-para-exploracao-de-sete-lojas-em-mercados-municipais-com-valores-a-partir-de-250-euros/",
-      "read_on": "2026-11-16",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://postal.pt/"
-      }
-    },
-    {
-      "title": "Conference on food systems and climate action, Teatro Municipal António Pinheiro (09:30)",
-      "date": "2026-11-26",
-      "url": "https://cm-tavira.pt/site/noticia/tavira-promove-conferencia-sobre-o-impacto-dos-sistemas-alimentares-na-acao-climatica/",
-      "read_on": "2026-11-19"
-    }
-  ],
-  "ai_map": [
-    {
-      "name": "Polo de Inovação de Tavira",
-      "type": "public body",
-      "url": "https://transparencia.gov.pt/pt/fundos-europeus/prr/beneficiarios-projetos/projeto/01/C05-i03/2021.PPRR-C05-i03-P-000037/",
-      "what": "Research, innovation and technology-transfer hub on the Mediterranean Diet, health, sustainable food and climate adaptation, funded by the PRR (1.36 million euros, 3 January 2022 to 31 December 2025), with the CCDR Algarve as direct beneficiary. It includes lab equipment and a collection of about 700 fruit and grape varieties. At its November 2021 launch it had 23 partners, among them DRAP Algarve, the Município de Tavira, Ciência Viva, the Algarve Biomedical Center and Johns Hopkins University, and plans for a digital therapeutics centre and virtual-reality training. CCDR Algarve's December 2024 notice approved 1.68 million euros of eligible investment, including a new irrigation network with soil moisture probes and leak detection.",
-      "source_url": "https://www.ccdr-alg.pt/site/info/ccdr-algarve-aprova-intervencoes-nos-polos-de-inovacao-de-tavira-e-do-patacao-faro",
-      "read_on": "2026-11-16",
-      "ai_path": "The works add sensors and programmable controllers to a research farm, and the launch plans include a digital therapeutics centre with Johns Hopkins and the Algarve Biomedical Center, both data-heavy fields where AI is the usual next step. No source mentions AI, and the centre's construction is unconfirmed.",
-      "steps": 2
-    },
-    {
-      "name": "Câmara Municipal de Tavira",
-      "type": "public body",
-      "url": "https://cm-tavira.pt/site/",
-      "what": "The council is a partner in the Algarve 6.0 urban management data platform and runs parking sensors linked to the Acessibilidades 360 app.",
-      "source_url": "https://cm-tavira.pt/site/wp-content/uploads/2025/05/FichaPRR_AMA_TERRITORIOS_INTELIGENTES_FGU-1.pdf",
-      "read_on": "2026-11-15",
-      "ai_path": "A public buyer of sensor and data platforms, the layer AI services are built on.",
-      "steps": 2
-    },
-    {
-      "name": "Tavira Works",
-      "type": "community",
-      "url": "https://tavira.works/",
-      "what": "Community whose own landing page says it aims to cultivate entrepreneurship and innovation in Tavira. Listed by name in the Algarve Tech Hub network (CCDR Algarve slides, July 2025) and as a collaborator of LOFT. The page names no organisers or events.",
-      "source_url": "https://tavira.works/",
-      "read_on": "2026-11-15",
-      "ai_path": "A local tech community inside the network that also lists an Artificial Intelligence Algarve community, so AI talk reaches Tavira through it.",
-      "steps": 2
-    },
-    {
-      "name": "Centro Ciência Viva de Tavira",
-      "type": "institution",
-      "url": "https://www.barlavento.pt/tavira-acolheu-encontro-escolar-regional-de-robotica-submarina/",
-      "what": "Science centre that co-hosted, with the IPMA mollusc research station and council support, a regional school meeting of the ROV4ALL project in May 2022, where students built small remotely operated underwater robots.",
-      "source_url": "https://www.barlavento.pt/tavira-acolheu-encontro-escolar-regional-de-robotica-submarina/",
-      "read_on": "2026-11-15",
-      "ai_path": "School robotics and programming build the skills pipeline that AI work draws on. The article describes remotely operated vehicles and mentions no AI.",
-      "steps": 3
-    },
-    {
-      "name": "Centro de Negócios e Incubadora Level Up",
-      "type": "organisation",
-      "url": "https://www.gov.pt/locais-de-atendimento/espaco-empresa-de-tavira",
-      "what": "Business centre and incubator in central Tavira, run by the municipal company EMPET, housing the town's Espaço Empresa service point (gov.pt) and listed as an accredited incubator on IAPMEI's November 2018 Vale Incubação list.",
-      "source_url": "https://www.gov.pt/locais-de-atendimento/espaco-empresa-de-tavira",
-      "read_on": "2026-11-15",
-      "ai_path": "An incubator is where a young AI or software startup in Tavira would most likely sit. We found no AI tenant, and the page does not mention AI.",
-      "steps": 3
-    },
-    {
-      "name": "LOFT Community",
-      "type": "community",
-      "url": "https://loftcommunity.pt/",
-      "what": "Community of remote workers, digital nomads and entrepreneurs across Loulé, Olhão, Faro and Tavira. Its collaborators include Algarve Evolution, Tavira Works, GDG, the Algarve Blockchain Community, GeekSessions and the 351 Startup Association. No AI event is listed on its page.",
-      "source_url": "https://loftcommunity.pt/",
-      "read_on": "2026-11-16",
-      "ai_path": "A tech-adjacent community whose collaborators run developer and startup events where AI is a topic. The page lists no AI-specific event.",
-      "steps": 3
-    },
-    {
-      "name": "DRAP Algarve, Centro de Experimentação Agrária de Tavira (CEAT)",
-      "type": "public body",
-      "url": "https://agriculturaemar.com/polo-de-inovacao-de-tavira-vai-ser-centro-de-referencia-nacional-da-dieta-mediterranica/",
-      "what": "The regional agriculture and fisheries directorate manages the CEAT in Tavira, the site that anchors the Polo de Inovação and its Mediterranean Diet research.",
-      "source_url": "https://agriculturaemar.com/polo-de-inovacao-de-tavira-vai-ser-centro-de-referencia-nacional-da-dieta-mediterranica/",
-      "read_on": "2026-11-16",
-      "ai_path": "The public owner of the research site and its long-running crop collections, which agri-food and climate AI would draw on. The source mentions no AI.",
-      "steps": 3
-    }
-  ],
-  "extras": [
-    {
-      "label": "Earlier digital operation",
-      "value": "#ALGARVEMAISDIGITAL (2017 to 2023): Tavira's share covered a digital archive, incident management and event management, with a total eligible cost of 93,835.40 euros across Algarve councils.",
-      "source_url": "https://cm-tavira.pt/site/wp-content/uploads/2025/05/Ficha-ALGARVEMAISDIGITAL.pdf",
-      "read_on": "2026-11-15"
-    },
-    {
-      "label": "Algarve Evolution and Tavira",
-      "value": "Our Algarve Evolution page records that the Faro-based association was listed among the organisers, with Tavira Works, of an Algarve Tech Afterwork held in Tavira. We could not open the listing ourselves, so we rely on that page.",
-      "source_url": "https://promptugal.news/portugal/algarve-evolution/",
-      "read_on": "2026-11-15"
-    },
-    {
-      "label": "Starting a company in Tavira: where to go",
-      "value": "Start at the Espaço Empresa de Tavira, a public service point inside the Level Up business centre and incubator in the old town. Its official gov.pt page carries the address, opening hours and contact options, so we link it rather than copy them. The national route to register a company is the Empresa na Hora counter, run by the Instituto dos Registos e do Notariado.",
-      "source_url": "https://www.gov.pt/locais-de-atendimento/espaco-empresa-de-tavira",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Starting a company: the national counter",
-      "value": "gov.pt describes Criar uma empresa na hora as set up at an Empresa na Hora counter for a private limited company, a single-member company or a public limited company, handled by the Instituto dos Registos e do Notariado. The page mentions no online option.",
-      "source_url": "https://www.gov.pt/servicos/criar-uma-empresa-na-hora",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Incubator accreditation",
-      "value": "IAPMEI's list of accredited incubators for the Vale Incubação instrument, dated 5 November 2018, names EMPET (Parques Empresariais de Tavira) and its Level Up incubator as accredited. We have not checked whether the accreditation is current.",
-      "source_url": "https://www.iapmei.pt/PRODUTOS-E-SERVICOS/Incentivos-Financiamento/Documentos-Incentivos/Entidades-Acreditadas_Vale-Incubacao_nov2018.aspx",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Starting a company: what the council lists",
-      "value": "The council's entrepreneur and investor page names Level Up as a single point of service for company creation, idea development, trademark registration and information on support. It lists partners for funding (IEFP, business angels, Portugal Ventures, crowdfunding) and hiring and internship incentives. It lists no municipal tax incentive and does not target tech or AI firms. No page date is shown.",
-      "source_url": "https://cm-tavira.pt/site/apoio-ao-empreendedor-e-investidor/",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Espaço Empresa services",
-      "value": "Run by IAPMEI with AICEP and AMA, it offers online company formation and certificates (IRN), digital authentication (AMA), SME certification and investment incentives (IAPMEI), export support (AICEP) and the National Tourism Register. For R&D it points to the SIFIDE tax incentive run by ANI. It does not describe incubation or coworking.",
-      "source_url": "https://cm-tavira.pt/site/espaco-empresa-tavira/",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Ideias à Maré: council business-idea contest",
-      "value": "A council programme for people aged 18 to 35 who live in or come from Tavira, with an interest in entrepreneurship, innovation and sustainability. It offers a 70-hour certified training course and the 10 best applications join the programme, with prizes for the winners. The rules we read come from the 2022 participatory budget follow-up and carry no AI or tech focus. We did not verify the prize amounts or the current call.",
-      "source_url": "https://cm-tavira.pt/site/wp-content/uploads/2024/09/normas-ideias-a-mare.pdf",
-      "read_on": "2026-11-16"
-    }
-  ],
-  "identity": {
-    "key_id": "site.tavira-promptugal-2",
-    "signed_by": "place.algarve.east@PrompTugal.dinis"
+   {
+    "title": "Polo de Inovação de Tavira, PRR project page (transparencia.gov.pt)",
+    "url": "https://transparencia.gov.pt/pt/fundos-europeus/prr/beneficiarios-projetos/projeto/01/C05-i03/2021.PPRR-C05-i03-P-000037/",
+    "read_on": "2026-11-16"
+   },
+   {
+    "title": "Algarve 6.0 Smart Territorial Hub, project sheet (Câmara Municipal de Tavira)",
+    "url": "https://cm-tavira.pt/site/wp-content/uploads/2025/05/FichaPRR_AMA_TERRITORIOS_INTELIGENTES_FGU-1.pdf",
+    "read_on": "2026-11-15"
+   },
+   {
+    "title": "Novos sensores melhoram estacionamento acessível em Tavira (Barlavento)",
+    "url": "https://www.barlavento.pt/?p=397074",
+    "read_on": "2026-11-15"
+   },
+   {
+    "title": "Algarve Tech Hub, CCDR Algarve slides (July 2025)",
+    "url": "https://www.ccdr-alg.pt/site/sites/default/files/inline-files/20250730_algarvetech-hub.pdf",
+    "read_on": "2026-11-15"
+   }
+  ]
+ },
+ "look": {
+  "accent": "#A4452C",
+  "landmark": "The seven-arched Roman Bridge over the Gilão river",
+  "motif": "terracotta rooftops, white salt-pan light, a river town"
+ },
+ "ai_news": [
+  {
+   "title": "Tavira puts smart sensors on accessible parking spaces",
+   "summary": "Under a protocol with the National Institute for Rehabilitation, the council installed sensors at four public services that report in real time whether a reserved space is free, with the data shown in the Acessibilidades 360 program and app. The article does not claim any AI.",
+   "date": "2026-04-15",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/?p=397074",
+   "read_on": "2026-11-15",
+   "ai_path": "Connected sensors produce live data, a data platform collects it, and analytics or AI models are the usual next layer. The source itself does not mention AI.",
+   "steps": 3
   },
-  "gaps": [
-    "No AI company, startup or university group headquartered in Tavira was found on any page we could open. A first pass is not proof of absence: the company registry (Racius, Informa D&B) and LinkedIn were not searched.",
-    "Postal do Algarve served a bot check on its article pages, so its Tavira AI-related pieces (an AI-based city discovery tool, smart sensors) were not read and are not used.",
-    "Tavira does not appear in the national AI licensing pilot for councils: the RTP report we read names only Coimbra and carries no date.",
-    "No dated events: the Tavira Algarve Tech Afterwork listing is on a platform we do not read. Look for events on the council agenda, Tavira Works and Algarve Evolution's own pages.",
-    "The council's own news feed (cm-tavira.pt/site/feed/) loads but held no items when read, so it adds nothing yet. Its news page needs a look by hand or another route.",
-    "Level Up's tenants and current accreditation are unknown: its own site was not found, and the press pieces about it (Postal do Algarve, Sul Informação, Barlavento archive) were blocked or down when we tried. Ask the incubator, or EMPET, which startups it hosts and whether any use AI.",
-    "Not yet checked first-hand: hotel and tourism groups, schools, and any Centro Ciência Viva programme on AI (none found, only robotics and programming). No tech event for November 2026 was found in Tavira.",
-    "Not yet mapped for Tavira: investors and investments made here, startups founded here, and local talent who have spoken publicly. No public source for any of them turned up in this pass. Dinis's overnight direction asks for all three, so they stay open.",
-    "Starting a company here: the council's own pages list generic support and no incentive for tech or AI firms. A current Fundo de Apoio à Economia Local call and the planned municipal economic development plan were not found open or dated, so they stay unchecked.",
-    "Tavira Works and LOFT: their pages say little. Their social pages and events were not read, and no dated event with an AI topic was found.",
-    "The Algarve Biomedical Center's own About page (read 16 November 2026) mentions neither Tavira, Campus Med Life nor digital therapeutics, and lists a clinical research unit, an imaging lab, a genetics lab and an insoles lab. Search results point to its press items on the Tavira plan, but those and the Portugal Resident piece were down or blocked, so the digital therapeutics centre stays unconfirmed.",
-    "Polo de Inovação de Tavira: search listings dated March 2026 (Recuperar Portugal, Jornal do Algarve, Região Sul and Agroportal) carry headlines that say the PRR requalification of the CEAT was carried out, at a figure above 2 million euros. All four pages were blocked or down when we tried, so we cannot say what was finished, and we have not read the 2026 plans for the centre or any AI use. CCDR Algarve's December 2024 notice, which we did read, had scheduled the works to end by December 2025. The digital therapeutics centre remains unconfirmed.",
-    "cm-tavira.pt returned HTTP 403 on 16 November, so no council press release, minutes or official contact page was read; the six new items come from Barlavento and Postal. Next: gov.pt, Diário da República, CCDR Algarve and IPMA for the flood-risk coverage.",
-    "Seen only as headlines, not opened: flood-risk zones in Tavira (Postal, 11 November), a missing man and a seized boat near Cabanas, the 2026 council budget (a search snippet says 61.5 million euros, unchecked) and the Regulamento de Mobilidade Sustentável (Edital 120/2026).",
-    "The APA flood-risk classification and RCM 63/2024 are known through Postal only; check apambiente.pt and Diário da República. No storm damage report for Tavira, Castro Marim, Vila Real de Santo António or Alcoutim was found on the official pages read.",
-    "cm-tavira.pt still answered 403 on 17 November, and Postal and Barlavento carried no new Tavira item for 14 to 17 November beyond the ones listed.",
-    "Nothing new from cm-tavira.pt (403 again) on 18 November."
-  ],
-  "voice": {
-    "lede": "Tavira, ó pá, where the river is calmer than any server room and the seven arches have seen more migrations than your cloud provider.",
-    "mandate": "PrompTugal.news Tavira: we keep an eye on AI and tech in Tavira, the town of terracotta roofs, and on whatever arrives from the Algarve, Portugal and the world. Independent, and every fact comes with its receipt.",
-    "gravity": "Here the big project is a research hub for the Mediterranean Diet, ó pá, with a very Tavira reading list: health, food, climate. The câmara is part of a six-council data platform, put sensors on the parking spaces in 2026, and Tavira Works keeps the community lights on. No AI company found at home yet, so the plumbing and the farm labs come first.",
-    "gaps_intro": "Ainda não sabemos tudo, and a good Tavira lunch takes its time. Here is what we have not found yet:"
+  {
+   "title": "Tavira is one of six municipalities in the Algarve 6.0 urban data platform",
+   "summary": "The project sheet describes an urban management platform for Olhão, Alcoutim, Loulé, São Brás de Alportel, Tavira and Vila Real de Santo António, joining sensors and ten service areas such as waste, water, air quality, noise, flood marks and monitoring of isolated elderly people. Investment listed: 102,615 euros, all co-financed.",
+   "date": "2025-05",
+   "publisher": "Câmara Municipal de Tavira (project sheet, dated by the upload month in its URL)",
+   "url": "https://cm-tavira.pt/site/wp-content/uploads/2025/05/FichaPRR_AMA_TERRITORIOS_INTELIGENTES_FGU-1.pdf",
+   "read_on": "2026-11-15",
+   "ai_path": "A shared platform that centralises sensor data across six councils is the data base on which AI analysis of waste, water or ageing care would run. The sheet does not mention AI.",
+   "steps": 2
   },
-  "local_news": [
-    {
-      "title": "Tavira tenders the Quatro Águas riverfront restaurant",
-      "summary": "The council opened a concession tender of up to 10 years, minimum 30,000 euros; proposals are due at 17:00 on 9 December 2026. The site came to the council through the state's transfer of powers to municipalities.",
-      "date": "2026-11-13",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/tavira-concessao-restaurante-quatro-aguas/",
-      "read_on": "2026-11-16",
-      "significance": "town",
-      "ai_path": "no AI",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.barlavento.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "Tavira tenders seven market shops in Tavira, Cabanas and Luz de Tavira",
-      "summary": "Ten-year concessions with minimum bids from 250 to 5,000 euros; proposals are due at 17:00 on 19 November 2026, electronically.",
-      "date": "2026-10-21",
-      "publisher": "Postal",
-      "url": "https://postal.pt/economia/tavira-lanca-concurso-para-exploracao-de-sete-lojas-em-mercados-municipais-com-valores-a-partir-de-250-euros/",
-      "read_on": "2026-11-16",
-      "significance": "town",
-      "ai_path": "no AI",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://postal.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "Chint Solar's 53.42 MWp plant at Cachopo is in public consultation",
-      "summary": "About 70 hectares in the Serra do Caldeirão (Tavira municipality); consultation opened 27 October and runs to 9 December 2026, run by APA.",
-      "date": "2026-11-03",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/central-solar-cachopo-terra-ruiva-consulta-publica/",
-      "read_on": "2026-11-16",
-      "significance": "town and region",
-      "ai_path": "no AI",
-      "steps": 0,
-      "blast_radius": "Alcoutim and Loulé share the Caldeirão interior",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.barlavento.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "WWF Portugal presents the results of 'Plantar Água' in Tavira on 27 November",
-      "summary": "The project has restored over 120 hectares of burned land in the Serra do Caldeirão; the figures for future water recovery are WWF projections. Results event at 10:30 on 27 November.",
-      "date": "2026-11-16",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/plantar-agua-tavira-resultados-wwf-portugal/",
-      "read_on": "2026-11-16",
-      "significance": "town, neighbours and region",
-      "ai_path": "no AI",
-      "steps": 0,
-      "blast_radius": "the Caldeirão serra reaches Alcoutim, Castro Marim and Loulé",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.barlavento.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "A citrus agritourism project from Tavira wins 2,500 euros in the INOVA ALGARVE + DIVERSIFICAR contest",
-      "summary": "The prize was announced on 5 November at the Citrus Sector Conference at the University of Algarve; the contest is run by NERA and co-funded by Algarve 2030.",
-      "date": "2026-11-10",
-      "publisher": "Postal",
-      "url": "https://postal.pt/algarve/projeto-de-turismo-ligado-aos-citrinos-de-tavira-vence-premio-de-2-500-euros/",
-      "read_on": "2026-11-16",
-      "significance": "town and region",
-      "ai_path": "no AI",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://postal.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "Tavira's Municipal Assembly moves citizen participation earlier in its sessions",
-      "summary": "Interventions now follow the period before the agenda; recent online broadcasts drew over 200 simultaneous viewers (print-edition interview).",
-      "date": "2026-11-07",
-      "publisher": "Postal",
-      "url": "https://postal.pt/edicaopapel/jose-manuel-guerreiro-tavira-da-a-palavra-aos-cidadaos-mais-cedo-nas-sessoes-da-assembleia/",
-      "read_on": "2026-11-16",
-      "significance": "town",
-      "ai_path": "no AI",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://postal.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "FRUSOAL launches InovCitrus, a 515,000 euro citrus lab, in Tavira",
-      "summary": "CCDR Algarve backed the launch on 23 October; the first project is a three-year study (2026 to 2028) of the citrus pest Scirtothrips aurantii. The CCDR president called for more R&D funding in the EU's 2028 to 2034 budget. The CCDR page does not itself name Tavira; the venue comes from the report of the event.",
-      "date": "2026-10-26",
-      "publisher": "CCDR Algarve",
-      "url": "https://www.ccdr-alg.pt/site/info/ccdr-algarve-destaca-inovacao-e-conhecimento-como-pilares-da-competitividade-da-citricultura",
-      "read_on": "2026-11-16",
-      "significance": "town and region",
-      "ai_path": "no AI",
-      "steps": 0,
-      "blast_radius": "the citrus belt of Faro, Olhão and Castro Marim",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.ccdr-alg.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "Postal explains why parts of Tavira flood: the Gilão river meets the high tide",
-      "summary": "Low areas by the river are, per the article, classed by APA as an area of significant potential flood risk; floods in 1969 and 1989 are cited. The classification is known only through Postal and is not checked at APA. The page's date is 10 or 11 November.",
-      "date": "2026-11-11",
-      "publisher": "Postal",
-      "url": "https://postal.pt/algarve/no-algarve-tavira-tem-zonas-em-risco-de-cheias-as-razoes-que-tornam-a-cidade-vulneravel/",
-      "read_on": "2026-11-16",
-      "significance": "town and neighbours",
-      "ai_path": "no AI",
-      "steps": 0,
-      "blast_radius": "Olhão and Faro share the Ria Formosa drainage",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://postal.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "Tavira's ECOlógita festival asks for projects and ideas for its 2027 edition",
-      "summary": "Open call for the 4th edition on 4 and 5 June 2027, on sustainability, climate and the green transition; citizens, artists, companies and associations can apply through a municipal form. No deadline is stated. Reported by Postal, citing the council; cm-tavira.pt was not readable.",
-      "date": "2026-11-17",
-      "publisher": "Postal",
-      "url": "https://postal.pt/algarve/festival-ecologita-de-tavira-procura-projetos-e-ideias-para-edicao-de-2027/",
-      "read_on": "2026-11-17",
-      "significance": "town and neighbours",
-      "ai_path": "no AI",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://postal.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "Tavira marks the centenary of the CEAT with a debate on the Algarve's native livestock breeds",
-      "summary": "Opens the centenary celebrations of the Centro de Experimentação Agrária de Tavira, the site of the Polo de Inovação. Known only from Postal's headline and listing blurb, not the article body.",
-      "date": "2026-11-17",
-      "publisher": "Postal",
-      "url": "https://postal.pt/algarve/tavira-assinala-centenario-do-ceat-com-debate-sobre-futuro-das-racas-autoctones-do-algarve/",
-      "read_on": "2026-11-18",
-      "significance": "neighbours and region",
-      "ai_path": "no AI",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://postal.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "Tavira holds a conference on food systems and climate action on 26 November",
-      "summary": "09:30 at the Teatro Municipal António Pinheiro, organised by the council. (listing only (body not opened))",
-      "date": "2026-11-13",
-      "publisher": "Câmara Municipal de Tavira",
-      "url": "https://cm-tavira.pt/site/noticia/tavira-promove-conferencia-sobre-o-impacto-dos-sistemas-alimentares-na-acao-climatica/",
-      "read_on": "2026-11-19",
-      "significance": "town and neighbours",
-      "ai_path": "no AI",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; none stated on the pages read)",
-        "url": "https://cm-tavira.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    }
-  ],
-  "contacts": []
+  {
+   "title": "CCDR Algarve approves the works at Tavira's innovation hub, with a sensor-controlled irrigation network",
+   "summary": "The approved eligible investment is 1.68 million euros for the Polo de Inovação de Tavira at the CEAT (about 27 hectares). The works replace the 1989 irrigation network with programmable valve controllers, soil moisture probes and leak-detection equipment, rehabilitate the old CCDR building and plant new fruit and vine trials. Completion was expected by the end of December 2025. The article mentions no AI.",
+   "date": "2024-12-20",
+   "publisher": "CCDR Algarve",
+   "url": "https://www.ccdr-alg.pt/site/info/ccdr-algarve-aprova-intervencoes-nos-polos-de-inovacao-de-tavira-e-do-patacao-faro",
+   "read_on": "2026-11-16",
+   "ai_path": "Soil moisture probes and programmable controllers turn a research farm into a data source, and AI irrigation and crop models are the usual next layer. The source does not mention AI.",
+   "steps": 2
+  },
+  {
+   "title": "Tavira's innovation hub launches with 23 partners and a digital therapeutics centre planned",
+   "summary": "At the 2021 signing, 23 partners joined a Mediterranean Diet research and training hub at the CEAT. Plans included a digital therapeutics centre with Johns Hopkins University and the Algarve Biomedical Center, virtual-reality training, an urban garden and a Ciência Viva science centre. No AI is mentioned.",
+   "date": "2021-11-26",
+   "publisher": "Agricultura e Mar",
+   "url": "https://agriculturaemar.com/polo-de-inovacao-de-tavira-vai-ser-centro-de-referencia-nacional-da-dieta-mediterranica/",
+   "read_on": "2026-11-16",
+   "ai_path": "A research hub whose plans include digital therapeutics, a data-driven health field where AI is the usual next step. The article does not mention AI.",
+   "steps": 2
+  }
+ ],
+ "sources": [
+  {
+   "name": "Câmara Municipal de Tavira (news feed)",
+   "url": "https://cm-tavira.pt/site/",
+   "kind": "council",
+   "feed": "https://cm-tavira.pt/site/feed/"
+  },
+  {
+   "name": "Barlavento",
+   "url": "https://www.barlavento.pt/",
+   "kind": "press",
+   "feed": "https://www.barlavento.pt/feed/"
+  },
+  {
+   "name": "Postal do Algarve",
+   "url": "https://postal.pt/",
+   "kind": "press",
+   "feed": "https://postal.pt/feed"
+  },
+  {
+   "name": "Sul Informação",
+   "url": "https://www.sulinformacao.pt/",
+   "kind": "press",
+   "feed": "https://www.sulinformacao.pt/feed/"
+  },
+  {
+   "name": "Portugal Resident",
+   "url": "https://www.portugalresident.com/",
+   "kind": "press",
+   "feed": "https://www.portugalresident.com/feed/"
+  },
+  {
+   "name": "CCDR Algarve",
+   "url": "https://www.ccdr-alg.pt/",
+   "kind": "other",
+   "feed": null
+  },
+  {
+   "name": "Câmara Municipal de Tavira: support for entrepreneurs and investors",
+   "url": "https://cm-tavira.pt/site/apoio-ao-empreendedor-e-investidor/",
+   "kind": "council",
+   "feed": null
+  },
+  {
+   "name": "Portal da Transparência: PRR projects",
+   "url": "https://transparencia.gov.pt/",
+   "kind": "other",
+   "feed": null
+  }
+ ],
+ "events": [
+  {
+   "title": "Plantar Água results event, Tavira",
+   "date": "2026-11-27",
+   "url": "https://www.barlavento.pt/plantar-agua-tavira-resultados-wwf-portugal/",
+   "read_on": "2026-11-16",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.barlavento.pt/"
+   }
+  },
+  {
+   "title": "Market-shop tender deadline (17:00)",
+   "date": "2026-11-19",
+   "url": "https://postal.pt/economia/tavira-lanca-concurso-para-exploracao-de-sete-lojas-em-mercados-municipais-com-valores-a-partir-de-250-euros/",
+   "read_on": "2026-11-16",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://postal.pt/"
+   }
+  },
+  {
+   "title": "Conference on food systems and climate action, Teatro Municipal António Pinheiro (09:30)",
+   "date": "2026-11-26",
+   "url": "https://cm-tavira.pt/site/noticia/tavira-promove-conferencia-sobre-o-impacto-dos-sistemas-alimentares-na-acao-climatica/",
+   "read_on": "2026-11-19"
+  }
+ ],
+ "ai_map": [
+  {
+   "name": "Polo de Inovação de Tavira",
+   "type": "public body",
+   "url": "https://transparencia.gov.pt/pt/fundos-europeus/prr/beneficiarios-projetos/projeto/01/C05-i03/2021.PPRR-C05-i03-P-000037/",
+   "what": "Research, innovation and technology-transfer hub on the Mediterranean Diet, health, sustainable food and climate adaptation, funded by the PRR (1.36 million euros, 3 January 2022 to 31 December 2025), with the CCDR Algarve as direct beneficiary. It includes lab equipment and a collection of about 700 fruit and grape varieties. At its November 2021 launch it had 23 partners, among them DRAP Algarve, the Município de Tavira, Ciência Viva, the Algarve Biomedical Center and Johns Hopkins University, and plans for a digital therapeutics centre and virtual-reality training. CCDR Algarve's December 2024 notice approved 1.68 million euros of eligible investment, including a new irrigation network with soil moisture probes and leak detection.",
+   "source_url": "https://www.ccdr-alg.pt/site/info/ccdr-algarve-aprova-intervencoes-nos-polos-de-inovacao-de-tavira-e-do-patacao-faro",
+   "read_on": "2026-11-16",
+   "ai_path": "The works add sensors and programmable controllers to a research farm, and the launch plans include a digital therapeutics centre with Johns Hopkins and the Algarve Biomedical Center, both data-heavy fields where AI is the usual next step. No source mentions AI, and the centre's construction is unconfirmed.",
+   "steps": 2
+  },
+  {
+   "name": "Câmara Municipal de Tavira",
+   "type": "public body",
+   "url": "https://cm-tavira.pt/site/",
+   "what": "The council is a partner in the Algarve 6.0 urban management data platform and runs parking sensors linked to the Acessibilidades 360 app.",
+   "source_url": "https://cm-tavira.pt/site/wp-content/uploads/2025/05/FichaPRR_AMA_TERRITORIOS_INTELIGENTES_FGU-1.pdf",
+   "read_on": "2026-11-15",
+   "ai_path": "A public buyer of sensor and data platforms, the layer AI services are built on.",
+   "steps": 2
+  },
+  {
+   "name": "Tavira Works",
+   "type": "community",
+   "url": "https://tavira.works/",
+   "what": "Community whose own landing page says it aims to cultivate entrepreneurship and innovation in Tavira. Listed by name in the Algarve Tech Hub network (CCDR Algarve slides, July 2025) and as a collaborator of LOFT. The page names no organisers or events.",
+   "source_url": "https://tavira.works/",
+   "read_on": "2026-11-15",
+   "ai_path": "A local tech community inside the network that also lists an Artificial Intelligence Algarve community, so AI talk reaches Tavira through it.",
+   "steps": 2
+  },
+  {
+   "name": "Centro Ciência Viva de Tavira",
+   "type": "institution",
+   "url": "https://www.barlavento.pt/tavira-acolheu-encontro-escolar-regional-de-robotica-submarina/",
+   "what": "Science centre that co-hosted, with the IPMA mollusc research station and council support, a regional school meeting of the ROV4ALL project in May 2022, where students built small remotely operated underwater robots.",
+   "source_url": "https://www.barlavento.pt/tavira-acolheu-encontro-escolar-regional-de-robotica-submarina/",
+   "read_on": "2026-11-15",
+   "ai_path": "School robotics and programming build the skills pipeline that AI work draws on. The article describes remotely operated vehicles and mentions no AI.",
+   "steps": 3
+  },
+  {
+   "name": "Centro de Negócios e Incubadora Level Up",
+   "type": "organisation",
+   "url": "https://www.gov.pt/locais-de-atendimento/espaco-empresa-de-tavira",
+   "what": "Business centre and incubator in central Tavira, run by the municipal company EMPET, housing the town's Espaço Empresa service point (gov.pt) and listed as an accredited incubator on IAPMEI's November 2018 Vale Incubação list.",
+   "source_url": "https://www.gov.pt/locais-de-atendimento/espaco-empresa-de-tavira",
+   "read_on": "2026-11-15",
+   "ai_path": "An incubator is where a young AI or software startup in Tavira would most likely sit. We found no AI tenant, and the page does not mention AI.",
+   "steps": 3
+  },
+  {
+   "name": "LOFT Community",
+   "type": "community",
+   "url": "https://loftcommunity.pt/",
+   "what": "Community of remote workers, digital nomads and entrepreneurs across Loulé, Olhão, Faro and Tavira. Its collaborators include Algarve Evolution, Tavira Works, GDG, the Algarve Blockchain Community, GeekSessions and the 351 Startup Association. No AI event is listed on its page.",
+   "source_url": "https://loftcommunity.pt/",
+   "read_on": "2026-11-16",
+   "ai_path": "A tech-adjacent community whose collaborators run developer and startup events where AI is a topic. The page lists no AI-specific event.",
+   "steps": 3
+  },
+  {
+   "name": "DRAP Algarve, Centro de Experimentação Agrária de Tavira (CEAT)",
+   "type": "public body",
+   "url": "https://agriculturaemar.com/polo-de-inovacao-de-tavira-vai-ser-centro-de-referencia-nacional-da-dieta-mediterranica/",
+   "what": "The regional agriculture and fisheries directorate manages the CEAT in Tavira, the site that anchors the Polo de Inovação and its Mediterranean Diet research.",
+   "source_url": "https://agriculturaemar.com/polo-de-inovacao-de-tavira-vai-ser-centro-de-referencia-nacional-da-dieta-mediterranica/",
+   "read_on": "2026-11-16",
+   "ai_path": "The public owner of the research site and its long-running crop collections, which agri-food and climate AI would draw on. The source mentions no AI.",
+   "steps": 3
+  }
+ ],
+ "extras": [
+  {
+   "label": "Earlier digital operation",
+   "value": "#ALGARVEMAISDIGITAL (2017 to 2023): Tavira's share covered a digital archive, incident management and event management, with a total eligible cost of 93,835.40 euros across Algarve councils.",
+   "source_url": "https://cm-tavira.pt/site/wp-content/uploads/2025/05/Ficha-ALGARVEMAISDIGITAL.pdf",
+   "read_on": "2026-11-15"
+  },
+  {
+   "label": "Algarve Evolution and Tavira",
+   "value": "Our Algarve Evolution page records that the Faro-based association was listed among the organisers, with Tavira Works, of an Algarve Tech Afterwork held in Tavira. We could not open the listing ourselves, so we rely on that page.",
+   "source_url": "https://promptugal.news/portugal/algarve-evolution/",
+   "read_on": "2026-11-15"
+  },
+  {
+   "label": "Starting a company in Tavira: where to go",
+   "value": "Start at the Espaço Empresa de Tavira, a public service point inside the Level Up business centre and incubator in the old town. Its official gov.pt page carries the address, opening hours and contact options, so we link it rather than copy them. The national route to register a company is the Empresa na Hora counter, run by the Instituto dos Registos e do Notariado.",
+   "source_url": "https://www.gov.pt/locais-de-atendimento/espaco-empresa-de-tavira",
+   "read_on": "2026-11-16"
+  },
+  {
+   "label": "Starting a company: the national counter",
+   "value": "gov.pt describes Criar uma empresa na hora as set up at an Empresa na Hora counter for a private limited company, a single-member company or a public limited company, handled by the Instituto dos Registos e do Notariado. The page mentions no online option.",
+   "source_url": "https://www.gov.pt/servicos/criar-uma-empresa-na-hora",
+   "read_on": "2026-11-16"
+  },
+  {
+   "label": "Incubator accreditation",
+   "value": "IAPMEI's list of accredited incubators for the Vale Incubação instrument, dated 5 November 2018, names EMPET (Parques Empresariais de Tavira) and its Level Up incubator as accredited. We have not checked whether the accreditation is current.",
+   "source_url": "https://www.iapmei.pt/PRODUTOS-E-SERVICOS/Incentivos-Financiamento/Documentos-Incentivos/Entidades-Acreditadas_Vale-Incubacao_nov2018.aspx",
+   "read_on": "2026-11-16"
+  },
+  {
+   "label": "Starting a company: what the council lists",
+   "value": "The council's entrepreneur and investor page names Level Up as a single point of service for company creation, idea development, trademark registration and information on support. It lists partners for funding (IEFP, business angels, Portugal Ventures, crowdfunding) and hiring and internship incentives. It lists no municipal tax incentive and does not target tech or AI firms. No page date is shown.",
+   "source_url": "https://cm-tavira.pt/site/apoio-ao-empreendedor-e-investidor/",
+   "read_on": "2026-11-16"
+  },
+  {
+   "label": "Espaço Empresa services",
+   "value": "Run by IAPMEI with AICEP and AMA, it offers online company formation and certificates (IRN), digital authentication (AMA), SME certification and investment incentives (IAPMEI), export support (AICEP) and the National Tourism Register. For R&D it points to the SIFIDE tax incentive run by ANI. It does not describe incubation or coworking.",
+   "source_url": "https://cm-tavira.pt/site/espaco-empresa-tavira/",
+   "read_on": "2026-11-16"
+  },
+  {
+   "label": "Ideias à Maré: council business-idea contest",
+   "value": "A council programme for people aged 18 to 35 who live in or come from Tavira, with an interest in entrepreneurship, innovation and sustainability. It offers a 70-hour certified training course and the 10 best applications join the programme, with prizes for the winners. The rules we read come from the 2022 participatory budget follow-up and carry no AI or tech focus. We did not verify the prize amounts or the current call.",
+   "source_url": "https://cm-tavira.pt/site/wp-content/uploads/2024/09/normas-ideias-a-mare.pdf",
+   "read_on": "2026-11-16"
+  }
+ ],
+ "identity": {
+  "key_id": "site.tavira-promptugal-2",
+  "signed_by": "place.algarve.east@PrompTugal.dinis"
+ },
+ "gaps": [
+  "No AI company, startup or university group headquartered in Tavira was found on any page we could open. A first pass is not proof of absence: the company registry (Racius, Informa D&B) and LinkedIn were not searched.",
+  "Postal do Algarve served a bot check on its article pages, so its Tavira AI-related pieces (an AI-based city discovery tool, smart sensors) were not read and are not used.",
+  "Tavira does not appear in the national AI licensing pilot for councils: the RTP report we read names only Coimbra and carries no date.",
+  "No dated events: the Tavira Algarve Tech Afterwork listing is on a platform we do not read. Look for events on the council agenda, Tavira Works and Algarve Evolution's own pages.",
+  "The council's own news feed (cm-tavira.pt/site/feed/) loads but held no items when read, so it adds nothing yet. Its news page needs a look by hand or another route.",
+  "Level Up's tenants and current accreditation are unknown: its own site was not found, and the press pieces about it (Postal do Algarve, Sul Informação, Barlavento archive) were blocked or down when we tried. Ask the incubator, or EMPET, which startups it hosts and whether any use AI.",
+  "Not yet checked first-hand: hotel and tourism groups, schools, and any Centro Ciência Viva programme on AI (none found, only robotics and programming). No tech event for November 2026 was found in Tavira.",
+  "Not yet mapped for Tavira: investors and investments made here, startups founded here, and local talent who have spoken publicly. No public source for any of them turned up in this pass. Dinis's overnight direction asks for all three, so they stay open.",
+  "Starting a company here: the council's own pages list generic support and no incentive for tech or AI firms. A current Fundo de Apoio à Economia Local call and the planned municipal economic development plan were not found open or dated, so they stay unchecked.",
+  "Tavira Works and LOFT: their pages say little. Their social pages and events were not read, and no dated event with an AI topic was found.",
+  "The Algarve Biomedical Center's own About page (read 16 November 2026) mentions neither Tavira, Campus Med Life nor digital therapeutics, and lists a clinical research unit, an imaging lab, a genetics lab and an insoles lab. Search results point to its press items on the Tavira plan, but those and the Portugal Resident piece were down or blocked, so the digital therapeutics centre stays unconfirmed.",
+  "Polo de Inovação de Tavira: search listings dated March 2026 (Recuperar Portugal, Jornal do Algarve, Região Sul and Agroportal) carry headlines that say the PRR requalification of the CEAT was carried out, at a figure above 2 million euros. All four pages were blocked or down when we tried, so we cannot say what was finished, and we have not read the 2026 plans for the centre or any AI use. CCDR Algarve's December 2024 notice, which we did read, had scheduled the works to end by December 2025. The digital therapeutics centre remains unconfirmed.",
+  "cm-tavira.pt returned HTTP 403 on 16 November, so no council press release, minutes or official contact page was read; the six new items come from Barlavento and Postal. Next: gov.pt, Diário da República, CCDR Algarve and IPMA for the flood-risk coverage.",
+  "Seen only as headlines, not opened: flood-risk zones in Tavira (Postal, 11 November), a missing man and a seized boat near Cabanas, the 2026 council budget (a search snippet says 61.5 million euros, unchecked) and the Regulamento de Mobilidade Sustentável (Edital 120/2026).",
+  "The APA flood-risk classification and RCM 63/2024 are known through Postal only; check apambiente.pt and Diário da República. No storm damage report for Tavira, Castro Marim, Vila Real de Santo António or Alcoutim was found on the official pages read.",
+  "cm-tavira.pt still answered 403 on 17 November, and Postal and Barlavento carried no new Tavira item for 14 to 17 November beyond the ones listed.",
+  "Nothing new from cm-tavira.pt (403 again) on 18 November."
+ ],
+ "voice": {
+  "lede": "Tavira, ó pá, where the river is calmer than any server room and the seven arches have seen more migrations than your cloud provider.",
+  "mandate": "PrompTugal.news Tavira: we keep an eye on AI and tech in Tavira, the town of terracotta roofs, and on whatever arrives from the Algarve, Portugal and the world. Independent, and every fact comes with its receipt.",
+  "gravity": "Here the big project is a research hub for the Mediterranean Diet, ó pá, with a very Tavira reading list: health, food, climate. The câmara is part of a six-council data platform, put sensors on the parking spaces in 2026, and Tavira Works keeps the community lights on. No AI company found at home yet, so the plumbing and the farm labs come first.",
+  "gaps_intro": "Ainda não sabemos tudo, and a good Tavira lunch takes its time. Here is what we have not found yet:"
+ },
+ "local_news": [
+  {
+   "title": "Tavira tenders the Quatro Águas riverfront restaurant",
+   "summary": "The council opened a concession tender of up to 10 years, minimum 30,000 euros; proposals are due at 17:00 on 9 December 2026. The site came to the council through the state's transfer of powers to municipalities.",
+   "date": "2026-11-13",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/tavira-concessao-restaurante-quatro-aguas/",
+   "read_on": "2026-11-16",
+   "significance": "town",
+   "ai_path": "no AI",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.barlavento.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "Tavira tenders seven market shops in Tavira, Cabanas and Luz de Tavira",
+   "summary": "Ten-year concessions with minimum bids from 250 to 5,000 euros; proposals are due at 17:00 on 19 November 2026, electronically.",
+   "date": "2026-10-21",
+   "publisher": "Postal",
+   "url": "https://postal.pt/economia/tavira-lanca-concurso-para-exploracao-de-sete-lojas-em-mercados-municipais-com-valores-a-partir-de-250-euros/",
+   "read_on": "2026-11-16",
+   "significance": "town",
+   "ai_path": "no AI",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://postal.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "Chint Solar's 53.42 MWp plant at Cachopo is in public consultation",
+   "summary": "About 70 hectares in the Serra do Caldeirão (Tavira municipality); consultation opened 27 October and runs to 9 December 2026, run by APA.",
+   "date": "2026-11-03",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/central-solar-cachopo-terra-ruiva-consulta-publica/",
+   "read_on": "2026-11-16",
+   "significance": "town and region",
+   "ai_path": "no AI",
+   "steps": 0,
+   "blast_radius": "Alcoutim and Loulé share the Caldeirão interior",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.barlavento.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "WWF Portugal presents the results of 'Plantar Água' in Tavira on 27 November",
+   "summary": "The project has restored over 120 hectares of burned land in the Serra do Caldeirão; the figures for future water recovery are WWF projections. Results event at 10:30 on 27 November.",
+   "date": "2026-11-16",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/plantar-agua-tavira-resultados-wwf-portugal/",
+   "read_on": "2026-11-16",
+   "significance": "town, neighbours and region",
+   "ai_path": "no AI",
+   "steps": 0,
+   "blast_radius": "the Caldeirão serra reaches Alcoutim, Castro Marim and Loulé",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.barlavento.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "A citrus agritourism project from Tavira wins 2,500 euros in the INOVA ALGARVE + DIVERSIFICAR contest",
+   "summary": "The prize was announced on 5 November at the Citrus Sector Conference at the University of Algarve; the contest is run by NERA and co-funded by Algarve 2030.",
+   "date": "2026-11-10",
+   "publisher": "Postal",
+   "url": "https://postal.pt/algarve/projeto-de-turismo-ligado-aos-citrinos-de-tavira-vence-premio-de-2-500-euros/",
+   "read_on": "2026-11-16",
+   "significance": "town and region",
+   "ai_path": "no AI",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://postal.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "Tavira's Municipal Assembly moves citizen participation earlier in its sessions",
+   "summary": "Interventions now follow the period before the agenda; recent online broadcasts drew over 200 simultaneous viewers (print-edition interview).",
+   "date": "2026-11-07",
+   "publisher": "Postal",
+   "url": "https://postal.pt/edicaopapel/jose-manuel-guerreiro-tavira-da-a-palavra-aos-cidadaos-mais-cedo-nas-sessoes-da-assembleia/",
+   "read_on": "2026-11-16",
+   "significance": "town",
+   "ai_path": "no AI",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://postal.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "FRUSOAL launches InovCitrus, a 515,000 euro citrus lab, in Tavira",
+   "summary": "CCDR Algarve backed the launch on 23 October; the first project is a three-year study (2026 to 2028) of the citrus pest Scirtothrips aurantii. The CCDR president called for more R&D funding in the EU's 2028 to 2034 budget. The CCDR page does not itself name Tavira; the venue comes from the report of the event.",
+   "date": "2026-10-26",
+   "publisher": "CCDR Algarve",
+   "url": "https://www.ccdr-alg.pt/site/info/ccdr-algarve-destaca-inovacao-e-conhecimento-como-pilares-da-competitividade-da-citricultura",
+   "read_on": "2026-11-16",
+   "significance": "town and region",
+   "ai_path": "no AI",
+   "steps": 0,
+   "blast_radius": "the citrus belt of Faro, Olhão and Castro Marim",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.ccdr-alg.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "Postal explains why parts of Tavira flood: the Gilão river meets the high tide",
+   "summary": "Low areas by the river are, per the article, classed by APA as an area of significant potential flood risk; floods in 1969 and 1989 are cited. The classification is known only through Postal and is not checked at APA. The page's date is 10 or 11 November.",
+   "date": "2026-11-11",
+   "publisher": "Postal",
+   "url": "https://postal.pt/algarve/no-algarve-tavira-tem-zonas-em-risco-de-cheias-as-razoes-que-tornam-a-cidade-vulneravel/",
+   "read_on": "2026-11-16",
+   "significance": "town and neighbours",
+   "ai_path": "no AI",
+   "steps": 0,
+   "blast_radius": "Olhão and Faro share the Ria Formosa drainage",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://postal.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "Tavira's ECOlógita festival asks for projects and ideas for its 2027 edition",
+   "summary": "Open call for the 4th edition on 4 and 5 June 2027, on sustainability, climate and the green transition; citizens, artists, companies and associations can apply through a municipal form. No deadline is stated. Reported by Postal, citing the council; cm-tavira.pt was not readable.",
+   "date": "2026-11-17",
+   "publisher": "Postal",
+   "url": "https://postal.pt/algarve/festival-ecologita-de-tavira-procura-projetos-e-ideias-para-edicao-de-2027/",
+   "read_on": "2026-11-17",
+   "significance": "town and neighbours",
+   "ai_path": "no AI",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://postal.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "Tavira marks the centenary of the CEAT with a debate on the Algarve's native livestock breeds",
+   "summary": "Opens the centenary celebrations of the Centro de Experimentação Agrária de Tavira, the site of the Polo de Inovação. Known only from Postal's headline and listing blurb, not the article body.",
+   "date": "2026-11-17",
+   "publisher": "Postal",
+   "url": "https://postal.pt/algarve/tavira-assinala-centenario-do-ceat-com-debate-sobre-futuro-das-racas-autoctones-do-algarve/",
+   "read_on": "2026-11-18",
+   "significance": "neighbours and region",
+   "ai_path": "no AI",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://postal.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "Tavira holds a conference on food systems and climate action on 26 November",
+   "summary": "09:30 at the Teatro Municipal António Pinheiro, organised by the council. (listing only (body not opened))",
+   "date": "2026-11-13",
+   "publisher": "Câmara Municipal de Tavira",
+   "url": "https://cm-tavira.pt/site/noticia/tavira-promove-conferencia-sobre-o-impacto-dos-sistemas-alimentares-na-acao-climatica/",
+   "read_on": "2026-11-19",
+   "significance": "town and neighbours",
+   "ai_path": "no AI",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; none stated on the pages read)",
+    "url": "https://cm-tavira.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  }
+ ],
+ "contacts": [],
+ "latest_news": {
+  "read_at": "2026-11-26T06:13:32Z",
+  "by": "place.tavira@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
+  "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
+  "main_headline": {
+   "title": "Tavira promove visita orientada à história da comunidade judaica da cidade",
+   "url": "https://postal.pt/algarve/tavira-promove-visita-orientada-a-historia-da-comunidade-judaica-da-cidade/",
+   "source": "Postal do Algarve",
+   "date": "2026-11-25",
+   "read_at": "2026-11-26T02:28:26Z",
+   "names_place": true
+  },
+  "items": [
+   {
+    "title": "Tavira promove visita orientada à história da comunidade judaica da cidade",
+    "url": "https://postal.pt/algarve/tavira-promove-visita-orientada-a-historia-da-comunidade-judaica-da-cidade/",
+    "published": "2026-11-25T16:00Z",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/feed/",
+    "read_at": "2026-11-26T02:28:26Z",
+    "mentions_place": true,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Orquestra do Algarve apresenta concerto “Música sem fronteiras” em Tavira",
+    "url": "https://postal.pt/algarve/orquestra-do-algarve-apresenta-concerto-musica-sem-fronteiras-em-tavira/",
+    "published": "2026-11-25T15:11Z",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/feed/",
+    "read_at": "2026-11-26T02:28:26Z",
+    "mentions_place": true,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Centro Ciência Viva de Tavira leva palestras e experiências às escolas do concelho",
+    "url": "https://www.barlavento.pt/centro-ciencia-viva-de-tavira-leva-palestras-e-experiencias-as-escolas-do-concelho/",
+    "published": "2026-11-24T10:09Z",
+    "date": "2026-11-24",
+    "source": "Barlavento",
+    "source_site": "https://www.barlavento.pt/",
+    "feed": "https://www.barlavento.pt/?s=Tavira&feed=rss2",
+    "read_at": "2026-11-26T06:13:26Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Tavira recorda os protagonistas do processo SAAL «em prol do bairro»",
+    "url": "https://www.barlavento.pt/saal-tavira-protagonistas-bairros/",
+    "published": "2026-11-23T18:33Z",
+    "date": "2026-11-23",
+    "source": "Barlavento",
+    "source_site": "https://www.barlavento.pt/",
+    "feed": "https://www.barlavento.pt/?s=Tavira&feed=rss2",
+    "read_at": "2026-11-26T06:13:26Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Caminhada sonora propõe ouvir e descobrir as espécies da Mata da Conceição em Tavira",
+    "url": "https://www.barlavento.pt/caminhada-sonora-mata-conceicao-tavira/",
+    "published": "2026-11-23T15:07Z",
+    "date": "2026-11-23",
+    "source": "Barlavento",
+    "source_site": "https://www.barlavento.pt/",
+    "feed": "https://www.barlavento.pt/?s=Tavira&feed=rss2",
+    "read_at": "2026-11-26T06:13:26Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Ginásio Clube de Tavira e Câmara divergem sobre equipamentos retirados antes da entrega do campo",
+    "url": "https://www.barlavento.pt/ginasio-clube-tavira-camara-equipamentos-entrega-campo/",
+    "published": "2026-11-22T12:32Z",
+    "date": "2026-11-22",
+    "source": "Barlavento",
+    "source_site": "https://www.barlavento.pt/",
+    "feed": "https://www.barlavento.pt/?s=Tavira&feed=rss2",
+    "read_at": "2026-11-26T06:13:26Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Sergio de Lope e João Barradas juntam flamenco e jazz em Tavira",
+    "url": "https://www.barlavento.pt/flamenco-jazz-tavira-sergio-de-lope-joao-barradas-mostra-espanha-2026/",
+    "published": "2026-11-21T16:57Z",
+    "date": "2026-11-21",
+    "source": "Barlavento",
+    "source_site": "https://www.barlavento.pt/",
+    "feed": "https://www.barlavento.pt/?s=Tavira&feed=rss2",
+    "read_at": "2026-11-26T06:13:26Z",
+    "mentions_place": true
+   }
+  ]
+ }
 }

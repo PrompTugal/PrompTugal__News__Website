@@ -1,909 +1,1188 @@
 {
-  "$schema": "../schemas/by-place.schema.json",
-  "id": "coimbra",
-  "name": "Coimbra",
-  "kind": "city",
-  "parent": "portugal",
-  "status": "live",
-  "updated": "2026-11-17",
-  "by": "place.districts@PrompTugal.dinis",
-  "mandate": "PrompTugal.news Coimbra: AI and technology in Coimbra, a university city whose centre of gravity is the University of Coimbra, its research centres, the Instituto Pedro Nunes incubator and the fraud-detection company Feedzai, and what reaches Coimbra from Portugal, Europe and the world. Independent; every fact sourced.",
-  "gravity": {
-    "text": "Coimbra's AI activity grows out of its university. The University of Coimbra restructured its programmes into an AI and Data Science degree and master's, its INESCC research unit leads a defence-funded AI project on hybrid threats, and Feedzai, a Portuguese AI company that grew out of university research, has its headquarters in the city. Around the university sit the Instituto Pedro Nunes, which runs an incubator and lists AI as a service, and a municipal agency, Go Coimbra, that names AI as one of five priority sectors. The council also appears as a first-phase pilot for AI in urban licensing, so here city government, and not only research, is part of the story.",
-    "sources": [
-      {
-        "title": "University of Coimbra develops AI against hybrid threats (Notícias ao Minuto, from Lusa, 3 August 2026)",
-        "url": "https://www.noticiasaominuto.com/tech/3031493/universidade-de-coimbra-desenvolve-ia-contra-ameacas-hibridas",
-        "read_on": "2026-11-16"
-      },
-      {
-        "title": "University of Coimbra creates a bachelor's and master's in AI (Notícias ao Minuto, 17 June 2025)",
-        "url": "https://www.noticiasaominuto.com/tech/2807236/universidade-de-coimbra-cria-licenciatura-e-mestrado-em-ia",
-        "read_on": "2026-11-16"
-      },
-      {
-        "title": "UC and Feedzai extend partnership to Startup Capital Summit (Portugal Global, 8 May 2026)",
-        "url": "https://portugalglobal.pt/en/news/2026/maio/uc-and-feedzai-extend-partnership-to-startup-capital-summit",
-        "read_on": "2026-11-16"
-      },
-      {
-        "title": "Government moves ahead with a pilot to use AI in municipal licensing (RTP, 2026)",
-        "url": "https://www.rtp.pt/noticias/economia/governo-avanca-com-projeto-piloto-em-municipios-para-usar-ia-nos-licenciamentos_n1766366",
-        "read_on": "2026-11-16"
-      }
-    ]
-  },
-  "look": {
-    "accent": "#8A5A00",
-    "landmark": "the University of Coimbra on its hill above the Mondego",
-    "motif": "old gold, student capes, the river Mondego, a hill of books and a startup scene at its feet"
-  },
-  "ai_news": [
-    {
-      "title": "Coimbra takes its first joint stand to Web Summit, with the new Go Coimbra agency and four startups",
-      "summary": "The council, Go Coimbra, the Coimbra metropolitan region, the University of Coimbra and the Instituto Pedro Nunes opened a shared stand at Web Summit Lisbon on 10 November 2026, with the space cluster Coimbra Supernova on the programme. The council names four startups on show: AirSafe, Noytrall, Sim4Safety and FiberSight. Meetings were held with Swedish, German, Chinese and United States representatives. The page does not give an AI programme.",
-      "date": "2026-11-11",
-      "publisher": "Câmara Municipal de Coimbra",
-      "url": "https://www.coimbra.pt/2026/11/coimbra-reforca-contactos-internacionais-e-aposta-na-atracao-de-investimento-na-web-summit/",
-      "read_on": "2026-11-17",
-      "ai_path": "A city stand for the region's companies, with an agency that lists AI as a priority and AirSafe, which the map lists as the AI startup AirSafe.ai: two steps from AI, because the stand is not about AI itself.",
-      "steps": 2
-    },
-    {
-      "title": "Go Coimbra, the new municipal agency, names AI as a priority sector",
-      "summary": "The agency, which replaces iParque, was presented with targets to cut investor decision times by 20 percent, create 750 skilled jobs and grow exports by 10 percent by 2029. Artificial intelligence is one of its five strategic areas. The council announced the agency on 2 November 2026 and its own news page names four services: build, connect, invest and innovate.",
-      "date": "2026-11-02",
-      "publisher": "RTP",
-      "url": "https://www.rtp.pt/noticias/mundo/agencia-municipal-go-coimbra-quer-aumentar-exportacoes-da-regiao-em-10-ate-2029_n1776308",
-      "read_on": "2026-11-16",
-      "ai_path": "A city agency that lists AI as one of five priorities for attracting investment: one step from AI.",
-      "steps": 1
-    },
-    {
-      "title": "Coimbra is among the first councils to test AI in urban licensing",
-      "summary": "The government plans a pilot in a small number of municipalities that are already technologically ready, with AI acting as a single access layer over council platforms, starting with construction licences. Coimbra is named as part of the first phase, and its mayor said AI can speed processes while respecting planning rules and without dehumanising public services.",
-      "date": "2026-09-18",
-      "publisher": "RTP",
-      "url": "https://www.rtp.pt/noticias/economia/governo-avanca-com-projeto-piloto-em-municipios-para-usar-ia-nos-licenciamentos_n1766366",
-      "read_on": "2026-11-16",
-      "ai_path": "A council piloting AI in a public service: directly about AI, in Coimbra.",
-      "steps": 0
-    },
-    {
-      "title": "APDC and Google start an AI course for civil servants, kicked off in Coimbra",
-      "summary": "A national training programme called Estado em Acção, for public administration staff, opened with a free session in Coimbra on 18 September 2026 and was to continue with ten sessions across the country.",
-      "date": "2026-09-11",
-      "publisher": "HR Portugal",
-      "url": "https://hrportugal.sapo.pt/apdc-e-google-vao-ensinar-ia-aos-profissionais-do-estado/",
-      "read_on": "2026-11-16",
-      "ai_path": "A practical AI training programme for the state, launched in Coimbra: directly about AI.",
-      "steps": 0
-    },
-    {
-      "title": "Neuraspace of Coimbra raises 15.6 million euros for its space AI platform",
-      "summary": "The company, which sells AI for tracking satellites and managing space traffic, closed a round from three private investors plus national recovery funds. It will use the money to grow its AI platform, its own optical sensors and a defence branch.",
-      "date": "2026-09-01",
-      "publisher": "Portugal Global (AICEP)",
-      "url": "https://www.portugalglobal.pt/pt/noticias/2026/setembro/neuraspace-capta-15-6-milhões-para-expandir-tecnologia-espacial/",
-      "read_on": "2026-11-16",
-      "ai_path": "A Coimbra company whose product is AI for space situational awareness: directly about AI.",
-      "steps": 0
-    },
-    {
-      "title": "University of Coimbra researchers build AI against hybrid threats",
-      "summary": "The SHIELD-EU project, led by the university's INESCC research unit and funded by the national science foundation, combines Internet of Things, edge AI and behavioural models, with the Portuguese Air Force helping to test the solutions.",
-      "date": "2026-08-03",
-      "publisher": "Notícias ao Minuto (Lusa)",
-      "url": "https://www.noticiasaominuto.com/tech/3031493/universidade-de-coimbra-desenvolve-ia-contra-ameacas-hibridas",
-      "read_on": "2026-11-16",
-      "ai_path": "A Coimbra research project that builds AI for defence: directly about AI.",
-      "steps": 0
-    },
-    {
-      "title": "Instituto Pedro Nunes runs Portugal's NATO DIANA accelerator",
-      "summary": "In June 2026 the Coimbra institute began operating the national accelerator inside NATO's defence innovation network. Artificial intelligence is the first priority area listed, and two IPN-incubated startups, one of them the AI company Neuraspace, had just been picked nationally.",
-      "date": "2026-06-08",
-      "publisher": "Observador",
-      "url": "https://observador.pt/2026/06/08/portugal-integra-rede-de-aceleradores-da-nato-diana/",
-      "read_on": "2026-11-16",
-      "ai_path": "An accelerator in Coimbra whose priority areas start with AI and whose first picks include an AI company: one step from AI.",
-      "steps": 1
-    },
-    {
-      "title": "Feedzai and the University of Coimbra widen their partnership for the Startup Capital Summit",
-      "summary": "On 4 May 2026 the university and Feedzai, a Portuguese company that grew out of university research on fraud detection, extended their partnership to back the Startup Capital Summit in Coimbra on 3 June, which is about deep tech, venture capital and entrepreneurship.",
-      "date": "2026-05-08",
-      "publisher": "Portugal Global",
-      "url": "https://portugalglobal.pt/en/news/2026/maio/uc-and-feedzai-extend-partnership-to-startup-capital-summit",
-      "read_on": "2026-11-16",
-      "ai_path": "An AI company and a university back a startup summit in Coimbra: one step from AI, because the summit itself is about deep tech in general.",
-      "steps": 1
-    },
-    {
-      "title": "University of Coimbra opens an AI and Data Science bachelor's and master's",
-      "summary": "After restructuring existing engineering and data science courses to meet labour market demand, the university opened applications in summer 2025 for the new degree and master's.",
-      "date": "2025-06-17",
-      "publisher": "Notícias ao Minuto",
-      "url": "https://www.noticiasaominuto.com/tech/2807236/universidade-de-coimbra-cria-licenciatura-e-mestrado-em-ia",
-      "read_on": "2026-11-16",
-      "ai_path": "A university creating its first dedicated AI degrees: directly about AI. Older than the 2026 items.",
-      "steps": 0
-    },
-    {
-      "title": "Critical Software of Coimbra builds the AI platform for a European missile project",
-      "summary": "The Coimbra-based software company is the only Portuguese partner in a 26-member consortium and will design a machine-learning operations platform to put AI models into the missile system's software. The three-year project was due to start in the last quarter of 2025.",
-      "date": "2025-06-15",
-      "publisher": "RTP (Lusa)",
-      "url": "https://www.rtp.pt/noticias/economia/sistema-europeu-de-misseis-vai-ter-tecnologia-portuguesa-de-inteligencia-artificial_n1662145",
-      "read_on": "2026-11-16",
-      "ai_path": "A Coimbra company building AI tooling for a defence system: directly about AI. Older than the 2026 items.",
-      "steps": 0
-    },
-    {
-      "title": "Coimbra hosts an international session on AI for smart tourism destinations",
-      "summary": "On 30 April 2026 the council hosted the second online technical session of the EU's International Urban and Regional Cooperation programme, on 'Smart Destination Intelligence and Artificial Intelligence', with cities from Europe and Asia. Coimbra presented three cases of its own. The council's page is dated May 2026; the date given here is the session's.",
-      "date": "2026-04-30",
-      "publisher": "Câmara Municipal de Coimbra",
-      "url": "https://www.coimbra.pt/2026/05/coimbra-destaca-papel-da-inteligencia-artificial-na-construcao-de-destinos-turisticos-inteligentes/",
-      "read_on": "2026-11-17",
-      "ai_path": "A council session whose theme is AI in tourism: directly about AI.",
-      "steps": 0
-    },
-    {
-      "title": "Coimbra council tested IBM's watsonx AI to sort its council email",
-      "summary": "On 28 June 2024 the contractor Softinsa, an IBM subsidiary, presented to the council the results of a six-week proof of concept using IBM's watsonx platform on the more than 4,000 emails a month the council receives, to route them to the right service. Older than the 2026 items.",
-      "date": "2024-06-28",
-      "publisher": "Câmara Municipal de Coimbra",
-      "url": "https://www.coimbra.pt/2024/06/cm-de-coimbra-testa-gestao-de-fluxo-de-e-mails-com-plataforma-de-inteligencia-artificial-da-ibm/",
-      "read_on": "2026-11-17",
-      "ai_path": "A council testing generative AI on its own service desk: directly about AI. Older than the 2026 items.",
-      "steps": 0
-    }
-  ],
+ "$schema": "../schemas/by-place.schema.json",
+ "id": "coimbra",
+ "name": "Coimbra",
+ "kind": "city",
+ "parent": "portugal",
+ "status": "live",
+ "updated": "2026-11-26",
+ "by": "place.coimbra@PrompTugal.dinis",
+ "mandate": "PrompTugal.news Coimbra: AI and technology in Coimbra, a university city whose centre of gravity is the University of Coimbra, its research centres, the Instituto Pedro Nunes incubator and the fraud-detection company Feedzai, and what reaches Coimbra from Portugal, Europe and the world. Independent; every fact sourced.",
+ "gravity": {
+  "text": "Coimbra's AI activity grows out of its university. The University of Coimbra restructured its programmes into an AI and Data Science degree and master's, its INESCC research unit leads a defence-funded AI project on hybrid threats, and Feedzai, a Portuguese AI company that grew out of university research, has its headquarters in the city. Around the university sit the Instituto Pedro Nunes, which runs an incubator and lists AI as a service, and a municipal agency, Go Coimbra, that names AI as one of five priority sectors. The council also appears as a first-phase pilot for AI in urban licensing, so here city government, and not only research, is part of the story.",
   "sources": [
-    {
-      "name": "Câmara Municipal de Coimbra: news (coimbra.pt)",
-      "url": "https://www.coimbra.pt/",
-      "kind": "council",
-      "feed": "https://www.coimbra.pt/feed/"
-    },
-    {
-      "name": "Universidade de Coimbra: news",
-      "url": "https://noticias.uc.pt/en/",
-      "kind": "university",
-      "feed": null
-    },
-    {
-      "name": "Instituto Pedro Nunes: news",
-      "url": "https://www.ipn.pt/en/",
-      "kind": "business",
-      "feed": "https://www.ipn.pt/en/feed/"
-    },
-    {
-      "name": "CISUC (Centre for Informatics and Systems of the University of Coimbra)",
-      "url": "https://www.cisuc.uc.pt/en/history",
-      "kind": "university",
-      "feed": null
-    },
-    {
-      "name": "Notícias ao Minuto: Tech (carries Lusa items on Coimbra research)",
-      "url": "https://www.noticiasaominuto.com/tech/3031493/universidade-de-coimbra-desenvolve-ia-contra-ameacas-hibridas",
-      "kind": "press",
-      "feed": null
-    },
-    {
-      "name": "RTP Notícias",
-      "url": "https://www.rtp.pt/noticias/economia/governo-avanca-com-projeto-piloto-em-municipios-para-usar-ia-nos-licenciamentos_n1766366",
-      "kind": "press",
-      "feed": null
-    },
-    {
-      "name": "Portugal Global (AICEP news)",
-      "url": "https://portugalglobal.pt/en/news/2026/maio/uc-and-feedzai-extend-partnership-to-startup-capital-summit",
-      "kind": "business",
-      "feed": null
-    },
-    {
-      "name": "Câmara Municipal de Coimbra: investor and incentives pages",
-      "url": "https://www.cm-coimbra.pt/areas/investir/investir/apoios-e-incentivos-municipais",
-      "kind": "council",
-      "feed": null
-    },
-    {
-      "name": "GO Coimbra (investment and innovation agency)",
-      "url": "https://www.gocoimbra.pt",
-      "kind": "business",
-      "feed": null
-    },
-    {
-      "name": "Instituto Pedro Nunes: events (calendar export only)",
-      "url": "https://www.ipn.pt/en/eventos/",
-      "kind": "events",
-      "feed": null
-    },
-    {
-      "name": "ESA BIC Centro (IPN)",
-      "url": "https://space.ipn.pt/",
-      "kind": "business",
-      "feed": "https://space.ipn.pt/feed/"
-    },
-    {
-      "name": "JNation developer conference",
-      "url": "https://jnation.pt/",
-      "kind": "events",
-      "feed": null
-    },
-    {
-      "name": "CISUC: news",
-      "url": "https://www.cisuc.uc.pt/en",
-      "kind": "university",
-      "feed": null
-    },
-    {
-      "name": "Campeão das Províncias (media map, researcher@)",
-      "url": "https://www.campeaoprovincias.pt",
-      "kind": "press",
-      "feed": "https://www.campeaoprovincias.pt/rss"
-    },
-    {
-      "name": "Central Press (media map, researcher@)",
-      "url": "https://www.centralpress.pt",
-      "kind": "press",
-      "feed": null
-    },
-    {
-      "name": "Diário As Beiras (media map, researcher@)",
-      "url": "https://www.asbeiras.pt",
-      "kind": "press",
-      "feed": "https://www.asbeiras.pt/feed/"
-    },
-    {
-      "name": "Diário de Coimbra (media map, researcher@)",
-      "url": "https://www.diariocoimbra.pt",
-      "kind": "press",
-      "feed": "https://www.diariocoimbra.pt/feed/"
-    },
-    {
-      "name": "Jornal O Despertar (media map, researcher@)",
-      "url": "https://www.odespertar.pt",
-      "kind": "press",
-      "feed": "https://www.odespertar.pt/feed/"
-    },
-    {
-      "name": "Notícias de Coimbra (NDC) (media map, researcher@)",
-      "url": "https://www.noticiasdecoimbra.pt",
-      "kind": "press",
-      "feed": "https://www.noticiasdecoimbra.pt/feed/"
-    },
-    {
-      "name": "M80 Coimbra (media map, researcher@)",
-      "url": "https://m80.pt/",
-      "kind": "press",
-      "feed": null
-    },
-    {
-      "name": "Mega Hits - Coimbra (media map, researcher@)",
-      "url": "https://megahits.fm/",
-      "kind": "press",
-      "feed": "https://megahits.fm/rssfeed"
-    },
-    {
-      "name": "RUC - Rádio Universidade de Coimbra (media map, researcher@)",
-      "url": "https://www.ruc.pt",
-      "kind": "press",
-      "feed": null
-    },
-    {
-      "name": "TugaTech (media map, researcher@)",
-      "url": "https://tugatech.com.pt/",
-      "kind": "press",
-      "feed": "https://tugatech.com.pt/feed/"
-    }
-  ],
-  "events": [
-    {
-      "title": "Estado em Acção, kickoff of the APDC and Google AI course for public administration (Coimbra, already held)",
-      "date": "2026-09-18",
-      "url": "https://hrportugal.sapo.pt/apdc-e-google-vao-ensinar-ia-aos-profissionais-do-estado/",
-      "read_on": "2026-11-16",
-      "ai_path": "A training session on practical, safe use of AI by public staff: directly about AI."
-    },
-    {
-      "title": "Startup Capital Summit 2026 (Coimbra, backed by UC and Feedzai, already held)",
-      "date": "2026-06-03",
-      "url": "https://portugalglobal.pt/en/news/2026/maio/uc-and-feedzai-extend-partnership-to-startup-capital-summit",
-      "read_on": "2026-11-16",
-      "ai_path": "A deep tech and venture summit backed by an AI company: one step from AI. The page does not give an AI programme."
-    },
-    {
-      "title": "JNation 2027, developer conference with machine learning and AI among its topics (Convento São Francisco, Coimbra)",
-      "date": "2027-05-25 to 2027-05-26",
-      "url": "https://jnation.pt/",
-      "read_on": "2026-11-16",
-      "ai_path": "A software developer conference whose own page lists machine learning and artificial intelligence among its topics: one step from AI."
-    },
-    {
-      "title": "Digital Cork final demonstration, on digitalisation and AI in cork quality control (IPN, Coimbra, already held)",
-      "date": "2026-09-30",
-      "url": "https://www.ipn.pt/en/evento/sessao-final-de-demonstracao-do-projeto-digital-cork-focada-na-digitalizacao-e-inteligencia-artificial-no-controlo-de-qualidade-de-rolhas/",
-      "read_on": "2026-11-16",
-      "ai_path": "A demonstration of AI in industrial quality control, hosted in Coimbra: directly about AI."
-    },
-    {
-      "title": "Coimbra, We Have It All, showcase of the 12 startups representing Coimbra at Web Summit (IPN, already held)",
-      "date": "2026-11-06",
-      "url": "https://www.ipn.pt/en/evento/coimbra-we-have-it-all/",
-      "read_on": "2026-11-16",
-      "ai_path": null
-    },
-    {
-      "title": "Digitizing Historical Libraries in the Age of Artificial Intelligence, symposium in the Sons da Cidade week (Colégio da Trindade, Coimbra, already held)",
-      "date": "2026-06-17 to 2026-06-18",
-      "url": "https://www.coimbra.pt/2026/06/sons-da-cidade-regressa-a-coimbra-com-programacao-dedicada-ao-patrimonio-e-a-inteligencia-artificial/",
-      "read_on": "2026-11-17",
-      "ai_path": "An international symposium on AI in preserving historical libraries: directly about AI."
-    }
-  ],
-  "ai_map": [
-    {
-      "name": "Universidade de Coimbra (UC)",
-      "type": "institution",
-      "url": "https://www.uc.pt",
-      "what": "The city's public university. Opened AI and Data Science degrees in 2025 and hosts the research units below.",
-      "source_url": "https://www.noticiasaominuto.com/tech/2807236/universidade-de-coimbra-cria-licenciatura-e-mestrado-em-ia",
-      "read_on": "2026-11-16",
-      "ai_path": "Teaches and researches AI.",
-      "steps": 0
-    },
-    {
-      "name": "CISUC (Centre for Informatics and Systems of the University of Coimbra)",
-      "type": "institution",
-      "url": "https://www.cisuc.uc.pt/en/history",
-      "what": "Research centre created in 1991 with about 150 researchers by its own page. Its groups include an AI and computational creativity lab, bio-inspired AI and a Responsible AI Lab, and it joined a global responsible-AI consortium in November 2022.",
-      "source_url": "https://noticias.uc.pt/en/articles/the-centre-for-informatics-and-systems-of-the-university-of-coimbra-joins-the-largest-global-artificial-intelligence-consortium/",
-      "read_on": "2026-11-16",
-      "ai_path": "Runs AI research groups.",
-      "steps": 0
-    },
-    {
-      "name": "INESCC (Institute of Systems and Computer Engineering of Coimbra)",
-      "type": "institution",
-      "url": "https://www.noticiasaominuto.com/tech/3031493/universidade-de-coimbra-desenvolve-ia-contra-ameacas-hibridas",
-      "what": "Research unit linked to the university's science and technology faculty. Leads SHIELD-EU, an AI defence project funded by the national science foundation.",
-      "source_url": "https://www.noticiasaominuto.com/tech/3031493/universidade-de-coimbra-desenvolve-ia-contra-ameacas-hibridas",
-      "read_on": "2026-11-16",
-      "ai_path": "Builds edge AI for defence resilience.",
-      "steps": 0
-    },
-    {
-      "name": "Feedzai",
-      "type": "company",
-      "url": "https://en.wikipedia.org/wiki/Feedzai",
-      "what": "Financial-crime prevention company with AI at its core, described as headquartered in Coimbra and grown out of university research. Extended its partnership with the University of Coimbra on 4 May 2026. Founding years differ between sources, so none is stated here.",
-      "source_url": "https://portugalglobal.pt/en/news/2026/maio/uc-and-feedzai-extend-partnership-to-startup-capital-summit",
-      "read_on": "2026-11-16",
-      "ai_path": "Sells AI for fraud detection.",
-      "steps": 0
-    },
-    {
-      "name": "Instituto Pedro Nunes (IPN)",
-      "type": "organisation",
-      "url": "https://www.ipn.pt/en/?p=7498",
-      "what": "Private non-profit created through a University of Coimbra initiative to move technology from science to industry. Runs an incubator and accelerator, and lists artificial intelligence among its specialised services.",
-      "source_url": "https://www.ipn.pt/en/?p=7498",
-      "read_on": "2026-11-16",
-      "ai_path": "Incubates technology companies and offers AI as a service.",
-      "steps": 1
-    },
-    {
-      "name": "Go Coimbra",
-      "type": "public body",
-      "url": "https://www.gocoimbra.pt",
-      "what": "Municipal investment and innovation agency, a brand of iParque, that replaces the old iParque role. Its own site names Digital and Artificial Intelligence (data science, applied AI) as one of five strategic areas, and offers investors a single point of contact.",
-      "source_url": "https://www.gocoimbra.pt",
-      "read_on": "2026-11-16",
-      "ai_path": "Names AI as a strategic area and courts AI investment for the city.",
-      "steps": 1
-    },
-    {
-      "name": "Câmara Municipal de Coimbra",
-      "type": "public body",
-      "url": "https://www.cm-coimbra.pt",
-      "what": "Named in the first phase of a national pilot of AI in municipal licensing, the mayor saying AI must not dehumanise public services. Its own news pages also record a June 2024 proof of concept of IBM's watsonx on council email, a 30 April 2026 EU session on AI in tourism and the CoimbraCityLab test programme.",
-      "source_url": "https://www.rtp.pt/noticias/economia/governo-avanca-com-projeto-piloto-em-municipios-para-usar-ia-nos-licenciamentos_n1766366",
-      "read_on": "2026-11-16",
-      "ai_path": "A council testing AI in a public service.",
-      "steps": 0
-    },
-    {
-      "name": "Sensing Evolution",
-      "type": "company",
-      "url": "https://www.noticiasaominuto.com/tech/2686124/projeto-em-coimbra-cria-ia-para-prever-possiveis-perdas-auditivas",
-      "what": "Company that led the Audiology for All project with the university's engineering faculty and Coimbra's health school, building AI models that estimate hearing loss risk (December 2024). The page does not state the company's base city.",
-      "source_url": "https://www.noticiasaominuto.com/tech/2686124/projeto-em-coimbra-cria-ia-para-prever-possiveis-perdas-auditivas",
-      "read_on": "2026-11-16",
-      "ai_path": "Led an AI health project with Coimbra researchers.",
-      "steps": 0
-    },
-    {
-      "name": "IBM Portugal and Softinsa innovation centre",
-      "type": "company",
-      "url": "https://hrportugal.sapo.pt/?p=312904",
-      "what": "Announced in October 2023 a centre in Coimbra for AI and smart cities, with a protocol with the university and the council. We found no later report on whether it opened. The council's news page of 28 June 2024 shows Softinsa presenting a watsonx proof of concept on council email, which is a council project, not the centre.",
-      "source_url": "https://hrportugal.sapo.pt/?p=312904",
-      "read_on": "2026-11-16",
-      "ai_path": "A planned AI and smart city centre.",
-      "steps": 0
-    },
-    {
-      "name": "Coimbra iTEC",
-      "type": "organisation",
-      "url": "https://www.ismt.pt/news/presenca-do-ismt-no-ciclo-de-conferencias-tertulias-2026-sobre-aplicacoes-da-inteligencia-artificial.html",
-      "what": "Organiser of the TertulIAs 2026 conference cycle on AI applications in industry, according to the ISMT's own news page of 3 June 2026, which says its vice-president, a board member of Coimbra iTEC, attended the sessions on AI in factories and production. The page gives no dates or programme.",
-      "source_url": "https://www.ismt.pt/news/presenca-do-ismt-no-ciclo-de-conferencias-tertulias-2026-sobre-aplicacoes-da-inteligencia-artificial.html",
-      "read_on": "2026-11-17",
-      "ai_path": "Runs a conference cycle on AI applications.",
-      "steps": 0
-    },
-    {
-      "name": "Neuraspace",
-      "type": "company",
-      "url": "https://www.portugalglobal.pt/pt/noticias/2026/setembro/neuraspace-capta-15-6-milhões-para-expandir-tecnologia-espacial/",
-      "what": "Company of Coimbra, founded in 2020, selling AI for space situational awareness and space traffic management. Raised 15.6 million euros in September 2026 and monitors more than 600 customer satellites by its own account.",
-      "source_url": "https://www.portugalglobal.pt/pt/noticias/2026/setembro/neuraspace-capta-15-6-milhões-para-expandir-tecnologia-espacial/",
-      "read_on": "2026-11-16",
-      "ai_path": "Its product is AI for satellite risk and autonomous decision support.",
-      "steps": 0
-    },
-    {
-      "name": "Critical Software",
-      "type": "company",
-      "url": "https://www.rtp.pt/noticias/economia/sistema-europeu-de-misseis-vai-ter-tecnologia-portuguesa-de-inteligencia-artificial_n1662145",
-      "what": "Technology company described as based in Coimbra. Designs a machine-learning operations platform for a European missile consortium. Also listed on IPN's incubator companies page.",
-      "source_url": "https://www.rtp.pt/noticias/economia/sistema-europeu-de-misseis-vai-ter-tecnologia-portuguesa-de-inteligencia-artificial_n1662145",
-      "read_on": "2026-11-16",
-      "ai_path": "Builds AI tooling for defence software.",
-      "steps": 0
-    },
-    {
-      "name": "IPN Informatics and Systems Lab (LIS)",
-      "type": "institution",
-      "url": "https://www.ipn.pt/en/servico/inteligencia-artificial-2/",
-      "what": "The IPN lab behind its Artificial Intelligence service: computer vision, language processing, ranking, forecasting, digital twins and LLM-based agents.",
-      "source_url": "https://www.ipn.pt/en/servico/inteligencia-artificial-2/",
-      "read_on": "2026-11-16",
-      "ai_path": "Sells AI development as a service.",
-      "steps": 0
-    },
-    {
-      "name": "NATO DIANA accelerator at IPN",
-      "type": "organisation",
-      "url": "https://www.ipn.pt/en/diana-portugal/",
-      "what": "Portugal's NATO DIANA accelerator, operated by IPN in Coimbra since June 2026. Offers selected innovators 100,000 euros in stage 1 and up to 300,000 in stage 2, plus test centres and investor links.",
-      "source_url": "https://www.ipn.pt/en/diana-portugal/",
-      "read_on": "2026-11-16",
-      "ai_path": "A defence accelerator whose priority areas begin with AI.",
-      "steps": 1
-    },
-    {
-      "name": "Coimbra Supernova",
-      "type": "community",
-      "url": "https://coimbrasupernova.com/",
-      "what": "Alliance of public bodies, the university, innovation centres and companies for the Coimbra space cluster, aiming to double turnover to 50 million euros by 2030. Lists Neuraspace among its reference companies. Its home page lists as reference companies Active Space Technologies, Critical Software, Neuraspace, Open Cosmos and Spotlite, with the council and Go Coimbra, the university and IPN as the governing trio.",
-      "source_url": "https://coimbrasupernova.com/",
-      "read_on": "2026-11-17",
-      "ai_path": "A space cluster that counts an AI company among its members: one step from AI.",
-      "steps": 1
-    },
-    {
-      "name": "ESA BIC Centro (IPN)",
-      "type": "organisation",
-      "url": "https://space.ipn.pt/",
-      "what": "European Space Agency business incubation centre for space-enabled startups in the Central Region and the Azores, coordinated by IPN in Coimbra.",
-      "source_url": "https://space.ipn.pt/",
-      "read_on": "2026-11-16",
-      "ai_path": "Incubates space startups, of which some use AI: two steps from AI.",
-      "steps": 2
-    },
-    {
-      "name": "Instituto Superior Miguel Torga (ISMT)",
-      "type": "institution",
-      "url": "https://www.rtp.pt/noticias/pais/modelo-de-ia-do-instituto-superior-miguel-torga-potencia-medicina-de-diagnostico_n1649141",
-      "what": "Coimbra higher education institute whose researchers, with colleagues from Coimbra and Porto, published an AI model that fills in missing health data more accurately than standard methods (RTP, April 2025).",
-      "source_url": "https://www.rtp.pt/noticias/pais/modelo-de-ia-do-instituto-superior-miguel-torga-potencia-medicina-de-diagnostico_n1649141",
-      "read_on": "2026-11-16",
-      "ai_path": "Publishes AI research for medical diagnosis.",
-      "steps": 0
-    },
-    {
-      "name": "coalex.ai",
-      "type": "startup",
-      "url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "what": "AI-powered automation with human oversight, listed as an IPN incubator company. Listed on IPN's incubator companies page, which does not say which stage each is in.",
-      "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "read_on": "2026-11-16",
-      "ai_path": "An IPN incubator company whose own description is about AI.",
-      "steps": 0
-    },
-    {
-      "name": "Granter.ai",
-      "type": "startup",
-      "url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "what": "Uses AI to help businesses find and write grant applications, with expert review. Listed on IPN's incubator companies page, which does not say which stage each is in.",
-      "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "read_on": "2026-11-16",
-      "ai_path": "An IPN incubator company whose own description is about AI.",
-      "steps": 0
-    },
-    {
-      "name": "EDNU.AI",
-      "type": "startup",
-      "url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "what": "Describes itself as an AI development partner. Listed on IPN's incubator companies page, which does not say which stage each is in.",
-      "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "read_on": "2026-11-16",
-      "ai_path": "An IPN incubator company whose own description is about AI.",
-      "steps": 0
-    },
-    {
-      "name": "Sentinel.AI",
-      "type": "startup",
-      "url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "what": "Describes itself as trusted intelligence for critical systems. Listed on IPN's incubator companies page, which does not say which stage each is in.",
-      "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "read_on": "2026-11-16",
-      "ai_path": "An IPN incubator company whose own description is about AI.",
-      "steps": 0
-    },
-    {
-      "name": "Complear",
-      "type": "startup",
-      "url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "what": "Develops AI compliance infrastructure for safety-critical industries. Listed on IPN's incubator companies page, which does not say which stage each is in.",
-      "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "read_on": "2026-11-16",
-      "ai_path": "An IPN incubator company whose own description is about AI.",
-      "steps": 0
-    },
-    {
-      "name": "AirSafe.ai",
-      "type": "startup",
-      "url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "what": "Detect-and-avoid technology for long-range drone flights. Listed on IPN's incubator companies page, which does not say which stage each is in.",
-      "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "read_on": "2026-11-16",
-      "ai_path": "An IPN incubator company whose own description is about AI.",
-      "steps": 0
-    },
-    {
-      "name": "EvoWorkforce",
-      "type": "startup",
-      "url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "what": "Develops physical-AI apps so advanced robots can do specialised industrial tasks. Listed on IPN's incubator companies page, which does not say which stage each is in.",
-      "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "read_on": "2026-11-16",
-      "ai_path": "An IPN incubator company whose own description is about AI.",
-      "steps": 0
-    },
-    {
-      "name": "Eryvo",
-      "type": "startup",
-      "url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "what": "Intelligent interaction platform that turns websites into adaptive, conversational interfaces. Listed on IPN's incubator companies page, which does not say which stage each is in.",
-      "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "read_on": "2026-11-16",
-      "ai_path": "An IPN incubator company whose own description is about AI.",
-      "steps": 0
-    },
-    {
-      "name": "BreastScreening-AI",
-      "type": "startup",
-      "url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "what": "Uses AI to diagnose breast cancer. Listed on IPN's incubator companies page, which does not say which stage each is in.",
-      "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "read_on": "2026-11-16",
-      "ai_path": "An IPN incubator company whose own description is about AI.",
-      "steps": 0
-    },
-    {
-      "name": "LusoScan AI",
-      "type": "startup",
-      "url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "what": "AI middleware that pre-reads hospital imaging exams and flags urgent anomalies. Listed on IPN's incubator companies page, which does not say which stage each is in.",
-      "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "read_on": "2026-11-16",
-      "ai_path": "An IPN incubator company whose own description is about AI.",
-      "steps": 0
-    },
-    {
-      "name": "Medgical",
-      "type": "startup",
-      "url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "what": "Health startup using AI to automate clinical records. Listed on IPN's incubator companies page, which does not say which stage each is in.",
-      "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "read_on": "2026-11-16",
-      "ai_path": "An IPN incubator company whose own description is about AI.",
-      "steps": 0
-    },
-    {
-      "name": "Neuroreviver",
-      "type": "startup",
-      "url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "what": "Digital health startup using AI for neurological screening. Listed on IPN's incubator companies page, which does not say which stage each is in.",
-      "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "read_on": "2026-11-16",
-      "ai_path": "An IPN incubator company whose own description is about AI.",
-      "steps": 0
-    },
-    {
-      "name": "Abtrace",
-      "type": "startup",
-      "url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "what": "Artificial intelligence against antimicrobial resistance. Listed on IPN's incubator companies page, which does not say which stage each is in.",
-      "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "read_on": "2026-11-16",
-      "ai_path": "An IPN incubator company whose own description is about AI.",
-      "steps": 0
-    },
-    {
-      "name": "Pahilabs",
-      "type": "startup",
-      "url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "what": "Based in Coimbra by its own text, builds a passwordless authentication system that uses AI against phishing. Listed on IPN's incubator companies page, which does not say which stage each is in.",
-      "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "read_on": "2026-11-16",
-      "ai_path": "An IPN incubator company whose own description is about AI.",
-      "steps": 0
-    },
-    {
-      "name": "Labtech - IconsAI",
-      "type": "startup",
-      "url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "what": "Building a new generation of AI and software development. Listed on IPN's incubator companies page, which does not say which stage each is in.",
-      "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "read_on": "2026-11-16",
-      "ai_path": "An IPN incubator company whose own description is about AI.",
-      "steps": 0
-    },
-    {
-      "name": "Future Dynamics Systems",
-      "type": "startup",
-      "url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "what": "Advanced technologies for defence systems, AI, drones and augmented reality. Listed on IPN's incubator companies page, which does not say which stage each is in.",
-      "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
-      "read_on": "2026-11-16",
-      "ai_path": "An IPN incubator company whose own description is about AI.",
-      "steps": 0
-    },
-    {
-      "name": "CoimbraCityLab (council programme)",
-      "type": "organisation",
-      "url": "https://www.coimbra.pt/2023/12/coimbracitylab-testa-projeto-piloto-para-detecao-e-mapeamento-de-objetos-atraves-de-inteligencia-artificial/",
-      "what": "Council initiative that lets people and companies test technology-based solutions in real conditions in the municipality, working with IPN. Its first reported pilot, in December 2023, tested an AI computer-vision product that finds and maps road signs and recycling points.",
-      "source_url": "https://www.coimbra.pt/2023/12/coimbracitylab-testa-projeto-piloto-para-detecao-e-mapeamento-de-objetos-atraves-de-inteligencia-artificial/",
-      "read_on": "2026-11-17",
-      "ai_path": "A public test bed whose reported pilot was an AI product.",
-      "steps": 1
-    },
-    {
-      "name": "Bluecover Technologies",
-      "type": "company",
-      "url": "https://www.coimbra.pt/2023/12/coimbracitylab-testa-projeto-piloto-para-detecao-e-mapeamento-de-objetos-atraves-de-inteligencia-artificial/",
-      "what": "Company behind Vision Surveyor, an AI computer-vision product that detects and maps road assets from GPS cameras, tested in Coimbra in December 2023. The page does not state where the company is based.",
-      "source_url": "https://www.coimbra.pt/2023/12/coimbracitylab-testa-projeto-piloto-para-detecao-e-mapeamento-de-objetos-atraves-de-inteligencia-artificial/",
-      "read_on": "2026-11-17",
-      "ai_path": "Builds AI vision for municipalities: directly about AI. Older than the 2026 items.",
-      "steps": 0
-    }
-  ],
-  "extras": [],
-  "identity": {
-    "key_id": "site.coimbra-promptugal-2",
-    "signed_by": "place.districts@PrompTugal.dinis"
-  },
-  "gaps": [
-    "The University of Coimbra's own news pages (noticias.uc.pt and uc.pt) still return 403 behind a browser check on 17 November, so the university's news and any feed are not read. CISUC's home page opens and its newest news items are from October 2026 (CISUC Day, an award and a researchers' ranking, none read in full); its /en/news and /en/events pages returned a server error on 17 November.",
-    "The council's site opens with a browser-style request and its feed works (latest item 16 November). A search of the council's own news for 'inteligência artificial' finds items on AI in tourism (April 2026), the IBM watsonx email test (2024), CoimbraCityLab (2023) and a June 2026 AI symposium, but still no council account of the AI licensing pilot; the council's agenda and editais were not searched. The 11 November council item on the Web Summit stand has no AI programme.",
-    "The Rádio Renascença report that 80 percent of UC students use AI (March 2026) came up in search but returned 403, so it is not used.",
-    "Coimbra iTEC is now confirmed by ISMT's own page of 3 June 2026 as organiser of the TertulIAs 2026 cycle, but that page gives no dates, sessions or later edition, and Coimbra iTEC's own site was not found.",
-    "No upcoming AI event in Coimbra in the weeks after 17 November 2026 was found on an organiser's own page. IPN's events list shows only one event, on 1 November (Safety Culture and Just Culture, not about AI), and nothing later. The only dated future event is JNation on 25 and 26 May 2027, whose programme is not yet published. Go Coimbra's home page lists no events.",
-    "We found funding news for Neuraspace and Feedzai but none for the IPN-incubated AI startups or for CISUC spin-offs. Sources to look for: Portugal Ventures and Banco de Fomento notices, and IPN's annual report. Not reachable this pass.",
-    "The AI startups added from IPN's incubator list rest on that one page: we did not open each company's own site, and the page does not say which are active or graduated. Connect Robotics, a DIANA pick, is placed at IPN by one outlet and at UPTEC in Porto by another, so it is left out. IPN's news feed (ipn.pt/en/feed/) now returns only items up to April 2025, so it is not a live news source; the council's feed and the ESA BIC feed still work.",
-    "Still missing from the map for lack of an opened source: IPN's ATTRACT accelerator for AI and high-performance computing startups (the IPN site's search finds nothing and the guessed page returns 404), CISUC's spin-offs, the Coimbra hospital group's AI use (a search found none), the other university faculties, and the members of Coimbra Supernova beyond its five named reference companies. LASI (the lab) was not found: the lasi.pt site is an unrelated defence electronics company in Barcarena and is not used.",
-    "Critical Software's base in Coimbra rests on a Lusa report, its IPN listing and now its place among Coimbra Supernova's reference companies. Feedzai's round page does not name investors or say where its headquarters is. The council's Web Summit page names AirSafe, Noytrall, Sim4Safety and FiberSight as the four startups; only AirSafe is on the AI map, and we did not check the other three.",
-    "Local talent is not filled (an open question for Dinis). We did not find where the Empresa na Hora counters in Coimbra are, nor the details of IPN's application and DIANA 2027 call deadlines. The council's women's entrepreneurship prize (3,000 euros for a project, 2,000 for a career, applications to 19 November 2026) is a municipal grant for any sector with no AI link, so it is not added to the investors list."
-  ],
-  "voice": {
-    "lede": "Coimbra, ó pá: where the capes flap, the Mondego dawdles, and a hill full of professors keeps teaching the machines to read faculdade-style, while a unicorn quietly pays its rent down the slope.",
-    "mandate": "PrompTugal.news Coimbra, a cidade dos estudantes: AI and tech in Coimbra, with the Universidade as the big brain on the hill, the IPN as the greenhouse and Feedzai as the proud old boy, plus whatever news floats in from Portugal, Europe and the world. Independente, and every fact comes with a receipt.",
-    "gravity": "Coimbra is the place where an AI degree, a defence project on hybrid threats and a fraud-hunting company all trace back to the same hill. The Câmara has even been named in the first batch to try AI on building licences, so even the paperwork is getting clever. Research first, sim senhor, and now city hall too.",
-    "gaps_intro": "Ainda não sabemos tudo, pá, and a few doors slammed 403 in our face. Here is what Coimbra has not told us yet:"
-  },
-  "start_company": [
-    {
-      "name": "GO Coimbra, the city's investment and innovation agency",
-      "what": "Offers a single point of contact for investors, with help through licensing and soft landing, and help to find sites in its three business parks and coworks. The page also lists a fast-track for investment and an incentives page.",
-      "url": "https://www.gocoimbra.pt",
-      "source_url": "https://www.gocoimbra.pt",
-      "read_on": "2026-11-16",
-      "kind": "public desk"
-    },
-    {
-      "name": "Coimbra council: Via Rápida para o Investimento and Invest Coimbra incentives",
-      "what": "A fast-track request for business investment filed through the council's online services (prior registration needed), plus a regulation of municipal incentives such as partial or full exemption from property transfer tax, property tax for up to five years, local business surtax and urban fees. Projects in innovative or technology-based sectors are among those that can qualify.",
-      "url": "https://www.cm-coimbra.pt/areas/investir/investir/apoios-e-incentivos-municipais",
-      "source_url": "https://www.cm-coimbra.pt/areas/investir/investir/apoios-e-incentivos-municipais",
-      "read_on": "2026-11-16",
-      "kind": "public desk"
-    },
-    {
-      "name": "Coimbra council: Cowork Pátio (creativity, innovation and entrepreneurship)",
-      "what": "A municipal coworking space in the former Colégio das Artes in the city centre, with shared spaces for new businesses.",
-      "url": "https://www.cm-coimbra.pt/areas/investir/the-right-place-to-invest/apoios-e-incentivos-municipais/espacos-empresariais/cowork-patio-criatividade-e-inovacao-espaco-municipal",
-      "source_url": "https://www.cm-coimbra.pt/areas/investir/the-right-place-to-invest/apoios-e-incentivos-municipais/espacos-empresariais/cowork-patio-criatividade-e-inovacao-espaco-municipal",
-      "read_on": "2026-11-16",
-      "kind": "space"
-    },
-    {
-      "name": "Coimbra council and Startup Portugal memorandum",
-      "what": "Signed on 14 November 2024 at Web Summit. The council shares ecosystem information, identifies startups and scaleups recognised by Startup Portugal and based in the municipality, helps attract talent and investors, and publicises its events. No cost to the parties.",
-      "url": "https://www.coimbra.pt/2024/11/cm-de-coimbra-e-startup-portugal-assinam-acordo-para-promover-empresas-startup-e-scaleup-no-concelho/",
-      "source_url": "https://www.coimbra.pt/2024/11/cm-de-coimbra-e-startup-portugal-assinam-acordo-para-promover-empresas-startup-e-scaleup-no-concelho/",
-      "read_on": "2026-11-16",
-      "kind": "community"
-    },
-    {
-      "name": "Instituto Pedro Nunes business incubator",
-      "what": "Open to any project that develops technology-based products or advanced services, with priority for University of Coimbra spin-offs. Application starts with a free form, then a business plan with IPN support. Physical modules from 20 to 66 square metres, or virtual incubation, plus legal, funding and consultant support.",
-      "url": "https://www.ipn.pt/en/incubadora/",
-      "source_url": "https://www.ipn.pt/en/incubadora/",
-      "read_on": "2026-11-16",
-      "kind": "incubator"
-    },
-    {
-      "name": "Instituto Pedro Nunes business accelerator",
-      "what": "Launched in May 2014 for more advanced technology companies with high growth potential, with internationalisation support. By its own count the aggregate impact for 2014 to 2023 covers 42 companies.",
-      "url": "https://www.ipn.pt/en/aceleradora-sobre/",
-      "source_url": "https://www.ipn.pt/en/aceleradora-sobre/",
-      "read_on": "2026-11-16",
-      "kind": "accelerator"
-    },
-    {
-      "name": "NATO DIANA accelerator at IPN",
-      "what": "Defence and dual-use accelerator with 100,000 euros in stage 1 and up to 300,000 in stage 2, access to NATO test centres, mentoring and investor links. Priority areas begin with AI.",
-      "url": "https://www.ipn.pt/en/diana-portugal/",
-      "source_url": "https://www.ipn.pt/en/diana-portugal/",
-      "read_on": "2026-11-16",
-      "kind": "accelerator"
-    },
-    {
-      "name": "ESA BIC Centro",
-      "what": "Incubation for early-stage startups with a space connection, coordinated by IPN in Coimbra, with Coimbra Supernova as the city's space cluster alliance.",
-      "url": "https://space.ipn.pt/",
-      "source_url": "https://space.ipn.pt/",
-      "read_on": "2026-11-16",
-      "kind": "incubator"
-    },
-    {
-      "name": "Startup Portugal: founder resources",
-      "what": "The national startup agency lists a Founder's Guide, a national incubators network and an investors matching programme. We read only the page's headings, not the guide's content.",
-      "url": "https://www.startupportugal.com/founders-guide/",
-      "source_url": "https://www.startupportugal.com/founders-guide/",
-      "read_on": "2026-11-16",
-      "kind": "mentoring"
-    },
-    {
-      "name": "Empresa na Hora (gov.pt service)",
-      "what": "The national service to set up private limited and public limited companies quickly at a counter. The responsible entity is the national registry institute. The page does not list Coimbra counters.",
-      "url": "https://eportugal.gov.pt/en/servicos/criar-uma-empresa-na-hora",
-      "source_url": "https://eportugal.gov.pt/en/servicos/criar-uma-empresa-na-hora",
-      "read_on": "2026-11-16",
-      "kind": "public desk"
-    },
-    {
-      "name": "CoimbraCityLab (council test bed for technology projects)",
-      "what": "A council initiative to support the development and testing of innovative, technology-based projects in real conditions, open to individuals and to public or private legal entities whose projects meet its regulation. A 2023 pilot with IPN tested an AI product.",
-      "url": "https://www.coimbra.pt/2023/12/coimbracitylab-testa-projeto-piloto-para-detecao-e-mapeamento-de-objetos-atraves-de-inteligencia-artificial/",
-      "source_url": "https://www.coimbra.pt/2023/12/coimbracitylab-testa-projeto-piloto-para-detecao-e-mapeamento-de-objetos-atraves-de-inteligencia-artificial/",
-      "read_on": "2026-11-17",
-      "kind": "public desk"
-    }
-  ],
-  "investors": [
-    {
-      "name": "Lince Capital, Explorer Investments and Armilar Venture Partners into Neuraspace",
-      "what": "Private backers of Neuraspace's 15.6 million euro round, alongside national recovery plan funds. The page does not split the amounts.",
-      "url": "https://www.portugalglobal.pt/pt/noticias/2026/setembro/neuraspace-capta-15-6-milhões-para-expandir-tecnologia-espacial/",
-      "source_url": "https://www.portugalglobal.pt/pt/noticias/2026/setembro/neuraspace-capta-15-6-milhões-para-expandir-tecnologia-espacial/",
-      "read_on": "2026-11-16",
-      "type": "investment",
-      "amount": "15.6 million euros (whole round)",
-      "date": "2026-09-01",
-      "ai_path": "Fund an AI company in Coimbra: directly about AI."
-    },
-    {
-      "name": "National recovery plan (PRR) funds into Neuraspace",
-      "what": "Public funds that are part of the same round.",
-      "url": "https://www.portugalglobal.pt/pt/noticias/2026/setembro/neuraspace-capta-15-6-milhões-para-expandir-tecnologia-espacial/",
-      "source_url": "https://www.portugalglobal.pt/pt/noticias/2026/setembro/neuraspace-capta-15-6-milhões-para-expandir-tecnologia-espacial/",
-      "read_on": "2026-11-16",
-      "type": "grant",
-      "date": "2026-09-01",
-      "ai_path": "Co-fund a Coimbra AI company: directly about AI."
-    },
-    {
-      "name": "NATO DIANA initial funding for Neuraspace",
-      "what": "Neuraspace was one of two Portuguese companies picked for NATO's DIANA accelerator, with access to 100,000 euros of initial investment and later up to 300,000.",
-      "url": "https://portugalglobal.pt/en/news/2026/janeiro/connect-robotics-and-neuraspace-selected-for-nato-accelerator/",
-      "source_url": "https://portugalglobal.pt/en/news/2026/janeiro/connect-robotics-and-neuraspace-selected-for-nato-accelerator/",
-      "read_on": "2026-11-16",
-      "type": "grant",
-      "amount": "100,000 euros, up to 300,000 later",
-      "date": "2026-01",
-      "ai_path": "AI for satellite security and resilience: directly about AI."
-    },
-    {
-      "name": "Feedzai funding round",
-      "what": "The financial-crime AI company that the map lists in Coimbra raised 75 million dollars on a valuation above 2 billion dollars and signed a framework agreement with the European Central Bank for digital euro fraud detection. The page names no investors.",
-      "url": "https://www.feedzai.com/inthenews/feedzai-raises-75m-at-2b-valuation-secures-key-role-in-digital-euro-fraud-prevention/",
-      "source_url": "https://www.feedzai.com/inthenews/feedzai-raises-75m-at-2b-valuation-secures-key-role-in-digital-euro-fraud-prevention/",
-      "read_on": "2026-11-16",
-      "type": "investment",
-      "amount": "75 million dollars",
-      "date": "2025-10-02",
-      "ai_path": "Sells AI for fraud prevention: directly about AI."
-    },
-    {
-      "name": "NATO DIANA programme (via the IPN accelerator)",
-      "what": "Stage 1 funding of 100,000 euros, stage 2 up to 300,000, and a route to the NATO Innovation Fund for defence technology companies.",
-      "url": "https://www.ipn.pt/en/diana-portugal/",
-      "source_url": "https://www.ipn.pt/en/diana-portugal/",
-      "read_on": "2026-11-16",
-      "type": "programme",
-      "ai_path": "Priority areas begin with AI: one step from AI."
-    },
-    {
-      "name": "Invest Coimbra municipal incentives",
-      "what": "Council tax exemptions for investment projects, including innovative and technology-based ones.",
-      "url": "https://www.cm-coimbra.pt/areas/investir/investir/apoios-e-incentivos-municipais",
-      "source_url": "https://www.cm-coimbra.pt/areas/investir/investir/apoios-e-incentivos-municipais",
-      "read_on": "2026-11-16",
-      "type": "programme",
-      "ai_path": "Open to technology-based projects, so AI ventures can qualify: two steps from AI."
-    }
-  ],
-  "contacts": [
-    {
-      "name": "GO Coimbra, investment and innovation agency",
-      "what": "The agency's published channel for investors and companies, with a contact form on its site.",
-      "url": "https://www.gocoimbra.pt",
-      "source_url": "https://www.gocoimbra.pt",
-      "read_on": "2026-11-16",
-      "channel": "the agency's general email, phone and contact form, published on its home page (open the linked page for them)"
-    },
-    {
-      "name": "Câmara Municipal de Coimbra, general",
-      "what": "The council's published general email and phone, with a free line for complaints and suggestions.",
-      "url": "https://www.cm-coimbra.pt/areas/viver/municipio/contactos",
-      "source_url": "https://www.cm-coimbra.pt/areas/viver/municipio/contactos",
-      "read_on": "2026-11-16",
-      "channel": "the council's general email and phone on its Contactos page (open the linked page for them)"
-    },
-    {
-      "name": "Câmara Municipal de Coimbra, Cowork Pátio",
-      "what": "The coworking space's own published email and phone.",
-      "url": "https://www.cm-coimbra.pt/areas/investir/the-right-place-to-invest/apoios-e-incentivos-municipais/espacos-empresariais/cowork-patio-criatividade-e-inovacao-espaco-municipal",
-      "source_url": "https://www.cm-coimbra.pt/areas/investir/the-right-place-to-invest/apoios-e-incentivos-municipais/espacos-empresariais/cowork-patio-criatividade-e-inovacao-espaco-municipal",
-      "read_on": "2026-11-16",
-      "channel": "the space's email and phone on its council page (open the linked page for them)"
-    },
-    {
-      "name": "Instituto Pedro Nunes, general and incubator application",
-      "what": "IPN is a private non-profit, not a public body. Its site publishes a general email, phone and a contact form, and the incubator application form.",
-      "url": "https://www.ipn.pt/en/incubadora-candidatura/",
-      "source_url": "https://www.ipn.pt/en/incubadora-candidatura/",
-      "read_on": "2026-11-16",
-      "channel": "the institute's general email, phone and application form on its site (open the linked page for them)"
-    }
+   {
+    "title": "University of Coimbra develops AI against hybrid threats (Notícias ao Minuto, from Lusa, 3 August 2026)",
+    "url": "https://www.noticiasaominuto.com/tech/3031493/universidade-de-coimbra-desenvolve-ia-contra-ameacas-hibridas",
+    "read_on": "2026-11-16"
+   },
+   {
+    "title": "University of Coimbra creates a bachelor's and master's in AI (Notícias ao Minuto, 17 June 2025)",
+    "url": "https://www.noticiasaominuto.com/tech/2807236/universidade-de-coimbra-cria-licenciatura-e-mestrado-em-ia",
+    "read_on": "2026-11-16"
+   },
+   {
+    "title": "UC and Feedzai extend partnership to Startup Capital Summit (Portugal Global, 8 May 2026)",
+    "url": "https://portugalglobal.pt/en/news/2026/maio/uc-and-feedzai-extend-partnership-to-startup-capital-summit",
+    "read_on": "2026-11-16"
+   },
+   {
+    "title": "Government moves ahead with a pilot to use AI in municipal licensing (RTP, 2026)",
+    "url": "https://www.rtp.pt/noticias/economia/governo-avanca-com-projeto-piloto-em-municipios-para-usar-ia-nos-licenciamentos_n1766366",
+    "read_on": "2026-11-16"
+   }
   ]
+ },
+ "look": {
+  "accent": "#8A5A00",
+  "landmark": "the University of Coimbra on its hill above the Mondego",
+  "motif": "old gold, student capes, the river Mondego, a hill of books and a startup scene at its feet"
+ },
+ "ai_news": [
+  {
+   "title": "Coimbra takes its first joint stand to Web Summit, with the new Go Coimbra agency and four startups",
+   "summary": "The council, Go Coimbra, the Coimbra metropolitan region, the University of Coimbra and the Instituto Pedro Nunes opened a shared stand at Web Summit Lisbon on 10 November 2026, with the space cluster Coimbra Supernova on the programme. The council names four startups on show: AirSafe, Noytrall, Sim4Safety and FiberSight. Meetings were held with Swedish, German, Chinese and United States representatives. The page does not give an AI programme.",
+   "date": "2026-11-11",
+   "publisher": "Câmara Municipal de Coimbra",
+   "url": "https://www.coimbra.pt/2026/11/coimbra-reforca-contactos-internacionais-e-aposta-na-atracao-de-investimento-na-web-summit/",
+   "read_on": "2026-11-17",
+   "ai_path": "A city stand for the region's companies, with an agency that lists AI as a priority and AirSafe, which the map lists as the AI startup AirSafe.ai: two steps from AI, because the stand is not about AI itself.",
+   "steps": 2
+  },
+  {
+   "title": "Go Coimbra, the new municipal agency, names AI as a priority sector",
+   "summary": "The agency, which replaces iParque, was presented with targets to cut investor decision times by 20 percent, create 750 skilled jobs and grow exports by 10 percent by 2029. Artificial intelligence is one of its five strategic areas. The council announced the agency on 2 November 2026 and its own news page names four services: build, connect, invest and innovate.",
+   "date": "2026-11-02",
+   "publisher": "RTP",
+   "url": "https://www.rtp.pt/noticias/mundo/agencia-municipal-go-coimbra-quer-aumentar-exportacoes-da-regiao-em-10-ate-2029_n1776308",
+   "read_on": "2026-11-16",
+   "ai_path": "A city agency that lists AI as one of five priorities for attracting investment: one step from AI.",
+   "steps": 1
+  },
+  {
+   "title": "Coimbra is among the first councils to test AI in urban licensing",
+   "summary": "The government plans a pilot in a small number of municipalities that are already technologically ready, with AI acting as a single access layer over council platforms, starting with construction licences. Coimbra is named as part of the first phase, and its mayor said AI can speed processes while respecting planning rules and without dehumanising public services.",
+   "date": "2026-09-18",
+   "publisher": "RTP",
+   "url": "https://www.rtp.pt/noticias/economia/governo-avanca-com-projeto-piloto-em-municipios-para-usar-ia-nos-licenciamentos_n1766366",
+   "read_on": "2026-11-16",
+   "ai_path": "A council piloting AI in a public service: directly about AI, in Coimbra.",
+   "steps": 0
+  },
+  {
+   "title": "APDC and Google start an AI course for civil servants, kicked off in Coimbra",
+   "summary": "A national training programme called Estado em Acção, for public administration staff, opened with a free session in Coimbra on 18 September 2026 and was to continue with ten sessions across the country.",
+   "date": "2026-09-11",
+   "publisher": "HR Portugal",
+   "url": "https://hrportugal.sapo.pt/apdc-e-google-vao-ensinar-ia-aos-profissionais-do-estado/",
+   "read_on": "2026-11-16",
+   "ai_path": "A practical AI training programme for the state, launched in Coimbra: directly about AI.",
+   "steps": 0
+  },
+  {
+   "title": "Neuraspace of Coimbra raises 15.6 million euros for its space AI platform",
+   "summary": "The company, which sells AI for tracking satellites and managing space traffic, closed a round from three private investors plus national recovery funds. It will use the money to grow its AI platform, its own optical sensors and a defence branch.",
+   "date": "2026-09-01",
+   "publisher": "Portugal Global (AICEP)",
+   "url": "https://www.portugalglobal.pt/pt/noticias/2026/setembro/neuraspace-capta-15-6-milhões-para-expandir-tecnologia-espacial/",
+   "read_on": "2026-11-16",
+   "ai_path": "A Coimbra company whose product is AI for space situational awareness: directly about AI.",
+   "steps": 0
+  },
+  {
+   "title": "University of Coimbra researchers build AI against hybrid threats",
+   "summary": "The SHIELD-EU project, led by the university's INESCC research unit and funded by the national science foundation, combines Internet of Things, edge AI and behavioural models, with the Portuguese Air Force helping to test the solutions.",
+   "date": "2026-08-03",
+   "publisher": "Notícias ao Minuto (Lusa)",
+   "url": "https://www.noticiasaominuto.com/tech/3031493/universidade-de-coimbra-desenvolve-ia-contra-ameacas-hibridas",
+   "read_on": "2026-11-16",
+   "ai_path": "A Coimbra research project that builds AI for defence: directly about AI.",
+   "steps": 0
+  },
+  {
+   "title": "Instituto Pedro Nunes runs Portugal's NATO DIANA accelerator",
+   "summary": "In June 2026 the Coimbra institute began operating the national accelerator inside NATO's defence innovation network. Artificial intelligence is the first priority area listed, and two IPN-incubated startups, one of them the AI company Neuraspace, had just been picked nationally.",
+   "date": "2026-06-08",
+   "publisher": "Observador",
+   "url": "https://observador.pt/2026/06/08/portugal-integra-rede-de-aceleradores-da-nato-diana/",
+   "read_on": "2026-11-16",
+   "ai_path": "An accelerator in Coimbra whose priority areas start with AI and whose first picks include an AI company: one step from AI.",
+   "steps": 1
+  },
+  {
+   "title": "Feedzai and the University of Coimbra widen their partnership for the Startup Capital Summit",
+   "summary": "On 4 May 2026 the university and Feedzai, a Portuguese company that grew out of university research on fraud detection, extended their partnership to back the Startup Capital Summit in Coimbra on 3 June, which is about deep tech, venture capital and entrepreneurship.",
+   "date": "2026-05-08",
+   "publisher": "Portugal Global",
+   "url": "https://portugalglobal.pt/en/news/2026/maio/uc-and-feedzai-extend-partnership-to-startup-capital-summit",
+   "read_on": "2026-11-16",
+   "ai_path": "An AI company and a university back a startup summit in Coimbra: one step from AI, because the summit itself is about deep tech in general.",
+   "steps": 1
+  },
+  {
+   "title": "University of Coimbra opens an AI and Data Science bachelor's and master's",
+   "summary": "After restructuring existing engineering and data science courses to meet labour market demand, the university opened applications in summer 2025 for the new degree and master's.",
+   "date": "2025-06-17",
+   "publisher": "Notícias ao Minuto",
+   "url": "https://www.noticiasaominuto.com/tech/2807236/universidade-de-coimbra-cria-licenciatura-e-mestrado-em-ia",
+   "read_on": "2026-11-16",
+   "ai_path": "A university creating its first dedicated AI degrees: directly about AI. Older than the 2026 items.",
+   "steps": 0
+  },
+  {
+   "title": "Critical Software of Coimbra builds the AI platform for a European missile project",
+   "summary": "The Coimbra-based software company is the only Portuguese partner in a 26-member consortium and will design a machine-learning operations platform to put AI models into the missile system's software. The three-year project was due to start in the last quarter of 2025.",
+   "date": "2025-06-15",
+   "publisher": "RTP (Lusa)",
+   "url": "https://www.rtp.pt/noticias/economia/sistema-europeu-de-misseis-vai-ter-tecnologia-portuguesa-de-inteligencia-artificial_n1662145",
+   "read_on": "2026-11-16",
+   "ai_path": "A Coimbra company building AI tooling for a defence system: directly about AI. Older than the 2026 items.",
+   "steps": 0
+  },
+  {
+   "title": "Coimbra hosts an international session on AI for smart tourism destinations",
+   "summary": "On 30 April 2026 the council hosted the second online technical session of the EU's International Urban and Regional Cooperation programme, on 'Smart Destination Intelligence and Artificial Intelligence', with cities from Europe and Asia. Coimbra presented three cases of its own. The council's page is dated May 2026; the date given here is the session's.",
+   "date": "2026-04-30",
+   "publisher": "Câmara Municipal de Coimbra",
+   "url": "https://www.coimbra.pt/2026/05/coimbra-destaca-papel-da-inteligencia-artificial-na-construcao-de-destinos-turisticos-inteligentes/",
+   "read_on": "2026-11-17",
+   "ai_path": "A council session whose theme is AI in tourism: directly about AI.",
+   "steps": 0
+  },
+  {
+   "title": "Coimbra council tested IBM's watsonx AI to sort its council email",
+   "summary": "On 28 June 2024 the contractor Softinsa, an IBM subsidiary, presented to the council the results of a six-week proof of concept using IBM's watsonx platform on the more than 4,000 emails a month the council receives, to route them to the right service. Older than the 2026 items.",
+   "date": "2024-06-28",
+   "publisher": "Câmara Municipal de Coimbra",
+   "url": "https://www.coimbra.pt/2024/06/cm-de-coimbra-testa-gestao-de-fluxo-de-e-mails-com-plataforma-de-inteligencia-artificial-da-ibm/",
+   "read_on": "2026-11-17",
+   "ai_path": "A council testing generative AI on its own service desk: directly about AI. Older than the 2026 items.",
+   "steps": 0
+  }
+ ],
+ "sources": [
+  {
+   "name": "Câmara Municipal de Coimbra: news (coimbra.pt)",
+   "url": "https://www.coimbra.pt/",
+   "kind": "council",
+   "feed": "https://www.coimbra.pt/feed/"
+  },
+  {
+   "name": "Universidade de Coimbra: news",
+   "url": "https://noticias.uc.pt/en/",
+   "kind": "university",
+   "feed": null
+  },
+  {
+   "name": "Instituto Pedro Nunes: news",
+   "url": "https://www.ipn.pt/en/",
+   "kind": "business",
+   "feed": "https://www.ipn.pt/en/feed/"
+  },
+  {
+   "name": "CISUC (Centre for Informatics and Systems of the University of Coimbra)",
+   "url": "https://www.cisuc.uc.pt/en/history",
+   "kind": "university",
+   "feed": null
+  },
+  {
+   "name": "Notícias ao Minuto: Tech (carries Lusa items on Coimbra research)",
+   "url": "https://www.noticiasaominuto.com/tech/3031493/universidade-de-coimbra-desenvolve-ia-contra-ameacas-hibridas",
+   "kind": "press",
+   "feed": null
+  },
+  {
+   "name": "RTP Notícias",
+   "url": "https://www.rtp.pt/noticias/economia/governo-avanca-com-projeto-piloto-em-municipios-para-usar-ia-nos-licenciamentos_n1766366",
+   "kind": "press",
+   "feed": null
+  },
+  {
+   "name": "Portugal Global (AICEP news)",
+   "url": "https://portugalglobal.pt/en/news/2026/maio/uc-and-feedzai-extend-partnership-to-startup-capital-summit",
+   "kind": "business",
+   "feed": null
+  },
+  {
+   "name": "Câmara Municipal de Coimbra: investor and incentives pages",
+   "url": "https://www.cm-coimbra.pt/areas/investir/investir/apoios-e-incentivos-municipais",
+   "kind": "council",
+   "feed": null
+  },
+  {
+   "name": "GO Coimbra (investment and innovation agency)",
+   "url": "https://www.gocoimbra.pt",
+   "kind": "business",
+   "feed": null
+  },
+  {
+   "name": "Instituto Pedro Nunes: events (calendar export only)",
+   "url": "https://www.ipn.pt/en/eventos/",
+   "kind": "events",
+   "feed": null
+  },
+  {
+   "name": "ESA BIC Centro (IPN)",
+   "url": "https://space.ipn.pt/",
+   "kind": "business",
+   "feed": "https://space.ipn.pt/feed/"
+  },
+  {
+   "name": "JNation developer conference",
+   "url": "https://jnation.pt/",
+   "kind": "events",
+   "feed": null
+  },
+  {
+   "name": "CISUC: news",
+   "url": "https://www.cisuc.uc.pt/en",
+   "kind": "university",
+   "feed": null
+  },
+  {
+   "name": "Campeão das Províncias (media map, researcher@)",
+   "url": "https://www.campeaoprovincias.pt",
+   "kind": "press",
+   "feed": "https://www.campeaoprovincias.pt/rss"
+  },
+  {
+   "name": "Central Press (media map, researcher@)",
+   "url": "https://www.centralpress.pt",
+   "kind": "press",
+   "feed": null
+  },
+  {
+   "name": "Diário As Beiras (media map, researcher@)",
+   "url": "https://www.asbeiras.pt",
+   "kind": "press",
+   "feed": "https://www.asbeiras.pt/feed/"
+  },
+  {
+   "name": "Diário de Coimbra (media map, researcher@)",
+   "url": "https://www.diariocoimbra.pt",
+   "kind": "press",
+   "feed": "https://www.diariocoimbra.pt/feed/"
+  },
+  {
+   "name": "Jornal O Despertar (media map, researcher@)",
+   "url": "https://www.odespertar.pt",
+   "kind": "press",
+   "feed": "https://www.odespertar.pt/feed/"
+  },
+  {
+   "name": "Notícias de Coimbra (NDC) (media map, researcher@)",
+   "url": "https://www.noticiasdecoimbra.pt",
+   "kind": "press",
+   "feed": "https://www.noticiasdecoimbra.pt/feed/"
+  },
+  {
+   "name": "M80 Coimbra (media map, researcher@)",
+   "url": "https://m80.pt/",
+   "kind": "press",
+   "feed": null
+  },
+  {
+   "name": "Mega Hits - Coimbra (media map, researcher@)",
+   "url": "https://megahits.fm/",
+   "kind": "press",
+   "feed": "https://megahits.fm/rssfeed"
+  },
+  {
+   "name": "RUC - Rádio Universidade de Coimbra (media map, researcher@)",
+   "url": "https://www.ruc.pt",
+   "kind": "press",
+   "feed": null
+  },
+  {
+   "name": "TugaTech (media map, researcher@)",
+   "url": "https://tugatech.com.pt/",
+   "kind": "press",
+   "feed": "https://tugatech.com.pt/feed/"
+  }
+ ],
+ "events": [
+  {
+   "title": "Estado em Acção, kickoff of the APDC and Google AI course for public administration (Coimbra, already held)",
+   "date": "2026-09-18",
+   "url": "https://hrportugal.sapo.pt/apdc-e-google-vao-ensinar-ia-aos-profissionais-do-estado/",
+   "read_on": "2026-11-16",
+   "ai_path": "A training session on practical, safe use of AI by public staff: directly about AI."
+  },
+  {
+   "title": "Startup Capital Summit 2026 (Coimbra, backed by UC and Feedzai, already held)",
+   "date": "2026-06-03",
+   "url": "https://portugalglobal.pt/en/news/2026/maio/uc-and-feedzai-extend-partnership-to-startup-capital-summit",
+   "read_on": "2026-11-16",
+   "ai_path": "A deep tech and venture summit backed by an AI company: one step from AI. The page does not give an AI programme."
+  },
+  {
+   "title": "JNation 2027, developer conference with machine learning and AI among its topics (Convento São Francisco, Coimbra)",
+   "date": "2027-05-25 to 2027-05-26",
+   "url": "https://jnation.pt/",
+   "read_on": "2026-11-16",
+   "ai_path": "A software developer conference whose own page lists machine learning and artificial intelligence among its topics: one step from AI."
+  },
+  {
+   "title": "Digital Cork final demonstration, on digitalisation and AI in cork quality control (IPN, Coimbra, already held)",
+   "date": "2026-09-30",
+   "url": "https://www.ipn.pt/en/evento/sessao-final-de-demonstracao-do-projeto-digital-cork-focada-na-digitalizacao-e-inteligencia-artificial-no-controlo-de-qualidade-de-rolhas/",
+   "read_on": "2026-11-16",
+   "ai_path": "A demonstration of AI in industrial quality control, hosted in Coimbra: directly about AI."
+  },
+  {
+   "title": "Coimbra, We Have It All, showcase of the 12 startups representing Coimbra at Web Summit (IPN, already held)",
+   "date": "2026-11-06",
+   "url": "https://www.ipn.pt/en/evento/coimbra-we-have-it-all/",
+   "read_on": "2026-11-16",
+   "ai_path": null
+  },
+  {
+   "title": "Digitizing Historical Libraries in the Age of Artificial Intelligence, symposium in the Sons da Cidade week (Colégio da Trindade, Coimbra, already held)",
+   "date": "2026-06-17 to 2026-06-18",
+   "url": "https://www.coimbra.pt/2026/06/sons-da-cidade-regressa-a-coimbra-com-programacao-dedicada-ao-patrimonio-e-a-inteligencia-artificial/",
+   "read_on": "2026-11-17",
+   "ai_path": "An international symposium on AI in preserving historical libraries: directly about AI."
+  }
+ ],
+ "ai_map": [
+  {
+   "name": "Universidade de Coimbra (UC)",
+   "type": "institution",
+   "url": "https://www.uc.pt",
+   "what": "The city's public university. Opened AI and Data Science degrees in 2025 and hosts the research units below.",
+   "source_url": "https://www.noticiasaominuto.com/tech/2807236/universidade-de-coimbra-cria-licenciatura-e-mestrado-em-ia",
+   "read_on": "2026-11-16",
+   "ai_path": "Teaches and researches AI.",
+   "steps": 0
+  },
+  {
+   "name": "CISUC (Centre for Informatics and Systems of the University of Coimbra)",
+   "type": "institution",
+   "url": "https://www.cisuc.uc.pt/en/history",
+   "what": "Research centre created in 1991 with about 150 researchers by its own page. Its groups include an AI and computational creativity lab, bio-inspired AI and a Responsible AI Lab, and it joined a global responsible-AI consortium in November 2022.",
+   "source_url": "https://noticias.uc.pt/en/articles/the-centre-for-informatics-and-systems-of-the-university-of-coimbra-joins-the-largest-global-artificial-intelligence-consortium/",
+   "read_on": "2026-11-16",
+   "ai_path": "Runs AI research groups.",
+   "steps": 0
+  },
+  {
+   "name": "INESCC (Institute of Systems and Computer Engineering of Coimbra)",
+   "type": "institution",
+   "url": "https://www.noticiasaominuto.com/tech/3031493/universidade-de-coimbra-desenvolve-ia-contra-ameacas-hibridas",
+   "what": "Research unit linked to the university's science and technology faculty. Leads SHIELD-EU, an AI defence project funded by the national science foundation.",
+   "source_url": "https://www.noticiasaominuto.com/tech/3031493/universidade-de-coimbra-desenvolve-ia-contra-ameacas-hibridas",
+   "read_on": "2026-11-16",
+   "ai_path": "Builds edge AI for defence resilience.",
+   "steps": 0
+  },
+  {
+   "name": "Feedzai",
+   "type": "company",
+   "url": "https://en.wikipedia.org/wiki/Feedzai",
+   "what": "Financial-crime prevention company with AI at its core, described as headquartered in Coimbra and grown out of university research. Extended its partnership with the University of Coimbra on 4 May 2026. Founding years differ between sources, so none is stated here.",
+   "source_url": "https://portugalglobal.pt/en/news/2026/maio/uc-and-feedzai-extend-partnership-to-startup-capital-summit",
+   "read_on": "2026-11-16",
+   "ai_path": "Sells AI for fraud detection.",
+   "steps": 0
+  },
+  {
+   "name": "Instituto Pedro Nunes (IPN)",
+   "type": "organisation",
+   "url": "https://www.ipn.pt/en/?p=7498",
+   "what": "Private non-profit created through a University of Coimbra initiative to move technology from science to industry. Runs an incubator and accelerator, and lists artificial intelligence among its specialised services.",
+   "source_url": "https://www.ipn.pt/en/?p=7498",
+   "read_on": "2026-11-16",
+   "ai_path": "Incubates technology companies and offers AI as a service.",
+   "steps": 1
+  },
+  {
+   "name": "Go Coimbra",
+   "type": "public body",
+   "url": "https://www.gocoimbra.pt",
+   "what": "Municipal investment and innovation agency, a brand of iParque, that replaces the old iParque role. Its own site names Digital and Artificial Intelligence (data science, applied AI) as one of five strategic areas, and offers investors a single point of contact.",
+   "source_url": "https://www.gocoimbra.pt",
+   "read_on": "2026-11-16",
+   "ai_path": "Names AI as a strategic area and courts AI investment for the city.",
+   "steps": 1
+  },
+  {
+   "name": "Câmara Municipal de Coimbra",
+   "type": "public body",
+   "url": "https://www.cm-coimbra.pt",
+   "what": "Named in the first phase of a national pilot of AI in municipal licensing, the mayor saying AI must not dehumanise public services. Its own news pages also record a June 2024 proof of concept of IBM's watsonx on council email, a 30 April 2026 EU session on AI in tourism and the CoimbraCityLab test programme.",
+   "source_url": "https://www.rtp.pt/noticias/economia/governo-avanca-com-projeto-piloto-em-municipios-para-usar-ia-nos-licenciamentos_n1766366",
+   "read_on": "2026-11-16",
+   "ai_path": "A council testing AI in a public service.",
+   "steps": 0
+  },
+  {
+   "name": "Sensing Evolution",
+   "type": "company",
+   "url": "https://www.noticiasaominuto.com/tech/2686124/projeto-em-coimbra-cria-ia-para-prever-possiveis-perdas-auditivas",
+   "what": "Company that led the Audiology for All project with the university's engineering faculty and Coimbra's health school, building AI models that estimate hearing loss risk (December 2024). The page does not state the company's base city.",
+   "source_url": "https://www.noticiasaominuto.com/tech/2686124/projeto-em-coimbra-cria-ia-para-prever-possiveis-perdas-auditivas",
+   "read_on": "2026-11-16",
+   "ai_path": "Led an AI health project with Coimbra researchers.",
+   "steps": 0
+  },
+  {
+   "name": "IBM Portugal and Softinsa innovation centre",
+   "type": "company",
+   "url": "https://hrportugal.sapo.pt/?p=312904",
+   "what": "Announced in October 2023 a centre in Coimbra for AI and smart cities, with a protocol with the university and the council. We found no later report on whether it opened. The council's news page of 28 June 2024 shows Softinsa presenting a watsonx proof of concept on council email, which is a council project, not the centre.",
+   "source_url": "https://hrportugal.sapo.pt/?p=312904",
+   "read_on": "2026-11-16",
+   "ai_path": "A planned AI and smart city centre.",
+   "steps": 0
+  },
+  {
+   "name": "Coimbra iTEC",
+   "type": "organisation",
+   "url": "https://www.ismt.pt/news/presenca-do-ismt-no-ciclo-de-conferencias-tertulias-2026-sobre-aplicacoes-da-inteligencia-artificial.html",
+   "what": "Organiser of the TertulIAs 2026 conference cycle on AI applications in industry, according to the ISMT's own news page of 3 June 2026, which says its vice-president, a board member of Coimbra iTEC, attended the sessions on AI in factories and production. The page gives no dates or programme.",
+   "source_url": "https://www.ismt.pt/news/presenca-do-ismt-no-ciclo-de-conferencias-tertulias-2026-sobre-aplicacoes-da-inteligencia-artificial.html",
+   "read_on": "2026-11-17",
+   "ai_path": "Runs a conference cycle on AI applications.",
+   "steps": 0
+  },
+  {
+   "name": "Neuraspace",
+   "type": "company",
+   "url": "https://www.portugalglobal.pt/pt/noticias/2026/setembro/neuraspace-capta-15-6-milhões-para-expandir-tecnologia-espacial/",
+   "what": "Company of Coimbra, founded in 2020, selling AI for space situational awareness and space traffic management. Raised 15.6 million euros in September 2026 and monitors more than 600 customer satellites by its own account.",
+   "source_url": "https://www.portugalglobal.pt/pt/noticias/2026/setembro/neuraspace-capta-15-6-milhões-para-expandir-tecnologia-espacial/",
+   "read_on": "2026-11-16",
+   "ai_path": "Its product is AI for satellite risk and autonomous decision support.",
+   "steps": 0
+  },
+  {
+   "name": "Critical Software",
+   "type": "company",
+   "url": "https://www.rtp.pt/noticias/economia/sistema-europeu-de-misseis-vai-ter-tecnologia-portuguesa-de-inteligencia-artificial_n1662145",
+   "what": "Technology company described as based in Coimbra. Designs a machine-learning operations platform for a European missile consortium. Also listed on IPN's incubator companies page.",
+   "source_url": "https://www.rtp.pt/noticias/economia/sistema-europeu-de-misseis-vai-ter-tecnologia-portuguesa-de-inteligencia-artificial_n1662145",
+   "read_on": "2026-11-16",
+   "ai_path": "Builds AI tooling for defence software.",
+   "steps": 0
+  },
+  {
+   "name": "IPN Informatics and Systems Lab (LIS)",
+   "type": "institution",
+   "url": "https://www.ipn.pt/en/servico/inteligencia-artificial-2/",
+   "what": "The IPN lab behind its Artificial Intelligence service: computer vision, language processing, ranking, forecasting, digital twins and LLM-based agents.",
+   "source_url": "https://www.ipn.pt/en/servico/inteligencia-artificial-2/",
+   "read_on": "2026-11-16",
+   "ai_path": "Sells AI development as a service.",
+   "steps": 0
+  },
+  {
+   "name": "NATO DIANA accelerator at IPN",
+   "type": "organisation",
+   "url": "https://www.ipn.pt/en/diana-portugal/",
+   "what": "Portugal's NATO DIANA accelerator, operated by IPN in Coimbra since June 2026. Offers selected innovators 100,000 euros in stage 1 and up to 300,000 in stage 2, plus test centres and investor links.",
+   "source_url": "https://www.ipn.pt/en/diana-portugal/",
+   "read_on": "2026-11-16",
+   "ai_path": "A defence accelerator whose priority areas begin with AI.",
+   "steps": 1
+  },
+  {
+   "name": "Coimbra Supernova",
+   "type": "community",
+   "url": "https://coimbrasupernova.com/",
+   "what": "Alliance of public bodies, the university, innovation centres and companies for the Coimbra space cluster, aiming to double turnover to 50 million euros by 2030. Lists Neuraspace among its reference companies. Its home page lists as reference companies Active Space Technologies, Critical Software, Neuraspace, Open Cosmos and Spotlite, with the council and Go Coimbra, the university and IPN as the governing trio.",
+   "source_url": "https://coimbrasupernova.com/",
+   "read_on": "2026-11-17",
+   "ai_path": "A space cluster that counts an AI company among its members: one step from AI.",
+   "steps": 1
+  },
+  {
+   "name": "ESA BIC Centro (IPN)",
+   "type": "organisation",
+   "url": "https://space.ipn.pt/",
+   "what": "European Space Agency business incubation centre for space-enabled startups in the Central Region and the Azores, coordinated by IPN in Coimbra.",
+   "source_url": "https://space.ipn.pt/",
+   "read_on": "2026-11-16",
+   "ai_path": "Incubates space startups, of which some use AI: two steps from AI.",
+   "steps": 2
+  },
+  {
+   "name": "Instituto Superior Miguel Torga (ISMT)",
+   "type": "institution",
+   "url": "https://www.rtp.pt/noticias/pais/modelo-de-ia-do-instituto-superior-miguel-torga-potencia-medicina-de-diagnostico_n1649141",
+   "what": "Coimbra higher education institute whose researchers, with colleagues from Coimbra and Porto, published an AI model that fills in missing health data more accurately than standard methods (RTP, April 2025).",
+   "source_url": "https://www.rtp.pt/noticias/pais/modelo-de-ia-do-instituto-superior-miguel-torga-potencia-medicina-de-diagnostico_n1649141",
+   "read_on": "2026-11-16",
+   "ai_path": "Publishes AI research for medical diagnosis.",
+   "steps": 0
+  },
+  {
+   "name": "coalex.ai",
+   "type": "startup",
+   "url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "what": "AI-powered automation with human oversight, listed as an IPN incubator company. Listed on IPN's incubator companies page, which does not say which stage each is in.",
+   "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "read_on": "2026-11-16",
+   "ai_path": "An IPN incubator company whose own description is about AI.",
+   "steps": 0
+  },
+  {
+   "name": "Granter.ai",
+   "type": "startup",
+   "url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "what": "Uses AI to help businesses find and write grant applications, with expert review. Listed on IPN's incubator companies page, which does not say which stage each is in.",
+   "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "read_on": "2026-11-16",
+   "ai_path": "An IPN incubator company whose own description is about AI.",
+   "steps": 0
+  },
+  {
+   "name": "EDNU.AI",
+   "type": "startup",
+   "url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "what": "Describes itself as an AI development partner. Listed on IPN's incubator companies page, which does not say which stage each is in.",
+   "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "read_on": "2026-11-16",
+   "ai_path": "An IPN incubator company whose own description is about AI.",
+   "steps": 0
+  },
+  {
+   "name": "Sentinel.AI",
+   "type": "startup",
+   "url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "what": "Describes itself as trusted intelligence for critical systems. Listed on IPN's incubator companies page, which does not say which stage each is in.",
+   "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "read_on": "2026-11-16",
+   "ai_path": "An IPN incubator company whose own description is about AI.",
+   "steps": 0
+  },
+  {
+   "name": "Complear",
+   "type": "startup",
+   "url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "what": "Develops AI compliance infrastructure for safety-critical industries. Listed on IPN's incubator companies page, which does not say which stage each is in.",
+   "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "read_on": "2026-11-16",
+   "ai_path": "An IPN incubator company whose own description is about AI.",
+   "steps": 0
+  },
+  {
+   "name": "AirSafe.ai",
+   "type": "startup",
+   "url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "what": "Detect-and-avoid technology for long-range drone flights. Listed on IPN's incubator companies page, which does not say which stage each is in.",
+   "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "read_on": "2026-11-16",
+   "ai_path": "An IPN incubator company whose own description is about AI.",
+   "steps": 0
+  },
+  {
+   "name": "EvoWorkforce",
+   "type": "startup",
+   "url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "what": "Develops physical-AI apps so advanced robots can do specialised industrial tasks. Listed on IPN's incubator companies page, which does not say which stage each is in.",
+   "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "read_on": "2026-11-16",
+   "ai_path": "An IPN incubator company whose own description is about AI.",
+   "steps": 0
+  },
+  {
+   "name": "Eryvo",
+   "type": "startup",
+   "url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "what": "Intelligent interaction platform that turns websites into adaptive, conversational interfaces. Listed on IPN's incubator companies page, which does not say which stage each is in.",
+   "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "read_on": "2026-11-16",
+   "ai_path": "An IPN incubator company whose own description is about AI.",
+   "steps": 0
+  },
+  {
+   "name": "BreastScreening-AI",
+   "type": "startup",
+   "url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "what": "Uses AI to diagnose breast cancer. Listed on IPN's incubator companies page, which does not say which stage each is in.",
+   "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "read_on": "2026-11-16",
+   "ai_path": "An IPN incubator company whose own description is about AI.",
+   "steps": 0
+  },
+  {
+   "name": "LusoScan AI",
+   "type": "startup",
+   "url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "what": "AI middleware that pre-reads hospital imaging exams and flags urgent anomalies. Listed on IPN's incubator companies page, which does not say which stage each is in.",
+   "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "read_on": "2026-11-16",
+   "ai_path": "An IPN incubator company whose own description is about AI.",
+   "steps": 0
+  },
+  {
+   "name": "Medgical",
+   "type": "startup",
+   "url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "what": "Health startup using AI to automate clinical records. Listed on IPN's incubator companies page, which does not say which stage each is in.",
+   "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "read_on": "2026-11-16",
+   "ai_path": "An IPN incubator company whose own description is about AI.",
+   "steps": 0
+  },
+  {
+   "name": "Neuroreviver",
+   "type": "startup",
+   "url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "what": "Digital health startup using AI for neurological screening. Listed on IPN's incubator companies page, which does not say which stage each is in.",
+   "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "read_on": "2026-11-16",
+   "ai_path": "An IPN incubator company whose own description is about AI.",
+   "steps": 0
+  },
+  {
+   "name": "Abtrace",
+   "type": "startup",
+   "url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "what": "Artificial intelligence against antimicrobial resistance. Listed on IPN's incubator companies page, which does not say which stage each is in.",
+   "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "read_on": "2026-11-16",
+   "ai_path": "An IPN incubator company whose own description is about AI.",
+   "steps": 0
+  },
+  {
+   "name": "Pahilabs",
+   "type": "startup",
+   "url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "what": "Based in Coimbra by its own text, builds a passwordless authentication system that uses AI against phishing. Listed on IPN's incubator companies page, which does not say which stage each is in.",
+   "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "read_on": "2026-11-16",
+   "ai_path": "An IPN incubator company whose own description is about AI.",
+   "steps": 0
+  },
+  {
+   "name": "Labtech - IconsAI",
+   "type": "startup",
+   "url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "what": "Building a new generation of AI and software development. Listed on IPN's incubator companies page, which does not say which stage each is in.",
+   "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "read_on": "2026-11-16",
+   "ai_path": "An IPN incubator company whose own description is about AI.",
+   "steps": 0
+  },
+  {
+   "name": "Future Dynamics Systems",
+   "type": "startup",
+   "url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "what": "Advanced technologies for defence systems, AI, drones and augmented reality. Listed on IPN's incubator companies page, which does not say which stage each is in.",
+   "source_url": "https://www.ipn.pt/en/incubadora-empresas/",
+   "read_on": "2026-11-16",
+   "ai_path": "An IPN incubator company whose own description is about AI.",
+   "steps": 0
+  },
+  {
+   "name": "CoimbraCityLab (council programme)",
+   "type": "organisation",
+   "url": "https://www.coimbra.pt/2023/12/coimbracitylab-testa-projeto-piloto-para-detecao-e-mapeamento-de-objetos-atraves-de-inteligencia-artificial/",
+   "what": "Council initiative that lets people and companies test technology-based solutions in real conditions in the municipality, working with IPN. Its first reported pilot, in December 2023, tested an AI computer-vision product that finds and maps road signs and recycling points.",
+   "source_url": "https://www.coimbra.pt/2023/12/coimbracitylab-testa-projeto-piloto-para-detecao-e-mapeamento-de-objetos-atraves-de-inteligencia-artificial/",
+   "read_on": "2026-11-17",
+   "ai_path": "A public test bed whose reported pilot was an AI product.",
+   "steps": 1
+  },
+  {
+   "name": "Bluecover Technologies",
+   "type": "company",
+   "url": "https://www.coimbra.pt/2023/12/coimbracitylab-testa-projeto-piloto-para-detecao-e-mapeamento-de-objetos-atraves-de-inteligencia-artificial/",
+   "what": "Company behind Vision Surveyor, an AI computer-vision product that detects and maps road assets from GPS cameras, tested in Coimbra in December 2023. The page does not state where the company is based.",
+   "source_url": "https://www.coimbra.pt/2023/12/coimbracitylab-testa-projeto-piloto-para-detecao-e-mapeamento-de-objetos-atraves-de-inteligencia-artificial/",
+   "read_on": "2026-11-17",
+   "ai_path": "Builds AI vision for municipalities: directly about AI. Older than the 2026 items.",
+   "steps": 0
+  }
+ ],
+ "extras": [],
+ "identity": {
+  "key_id": "site.coimbra-promptugal-2",
+  "signed_by": "place.districts@PrompTugal.dinis"
+ },
+ "gaps": [
+  "The University of Coimbra's own news pages (noticias.uc.pt and uc.pt) still return 403 behind a browser check on 17 November, so the university's news and any feed are not read. CISUC's home page opens and its newest news items are from October 2026 (CISUC Day, an award and a researchers' ranking, none read in full); its /en/news and /en/events pages returned a server error on 17 November.",
+  "The council's site opens with a browser-style request and its feed works (latest item 16 November). A search of the council's own news for 'inteligência artificial' finds items on AI in tourism (April 2026), the IBM watsonx email test (2024), CoimbraCityLab (2023) and a June 2026 AI symposium, but still no council account of the AI licensing pilot; the council's agenda and editais were not searched. The 11 November council item on the Web Summit stand has no AI programme.",
+  "The Rádio Renascença report that 80 percent of UC students use AI (March 2026) came up in search but returned 403, so it is not used.",
+  "Coimbra iTEC is now confirmed by ISMT's own page of 3 June 2026 as organiser of the TertulIAs 2026 cycle, but that page gives no dates, sessions or later edition, and Coimbra iTEC's own site was not found.",
+  "No upcoming AI event in Coimbra in the weeks after 17 November 2026 was found on an organiser's own page. IPN's events list shows only one event, on 1 November (Safety Culture and Just Culture, not about AI), and nothing later. The only dated future event is JNation on 25 and 26 May 2027, whose programme is not yet published. Go Coimbra's home page lists no events.",
+  "We found funding news for Neuraspace and Feedzai but none for the IPN-incubated AI startups or for CISUC spin-offs. Sources to look for: Portugal Ventures and Banco de Fomento notices, and IPN's annual report. Not reachable this pass.",
+  "The AI startups added from IPN's incubator list rest on that one page: we did not open each company's own site, and the page does not say which are active or graduated. Connect Robotics, a DIANA pick, is placed at IPN by one outlet and at UPTEC in Porto by another, so it is left out. IPN's news feed (ipn.pt/en/feed/) now returns only items up to April 2025, so it is not a live news source; the council's feed and the ESA BIC feed still work.",
+  "Still missing from the map for lack of an opened source: IPN's ATTRACT accelerator for AI and high-performance computing startups (the IPN site's search finds nothing and the guessed page returns 404), CISUC's spin-offs, the Coimbra hospital group's AI use (a search found none), the other university faculties, and the members of Coimbra Supernova beyond its five named reference companies. LASI (the lab) was not found: the lasi.pt site is an unrelated defence electronics company in Barcarena and is not used.",
+  "Critical Software's base in Coimbra rests on a Lusa report, its IPN listing and now its place among Coimbra Supernova's reference companies. Feedzai's round page does not name investors or say where its headquarters is. The council's Web Summit page names AirSafe, Noytrall, Sim4Safety and FiberSight as the four startups; only AirSafe is on the AI map, and we did not check the other three.",
+  "Local talent is not filled (an open question for Dinis). We did not find where the Empresa na Hora counters in Coimbra are, nor the details of IPN's application and DIANA 2027 call deadlines. The council's women's entrepreneurship prize (3,000 euros for a project, 2,000 for a career, applications to 19 November 2026) is a municipal grant for any sector with no AI link, so it is not added to the investors list."
+ ],
+ "voice": {
+  "lede": "Coimbra, ó pá: where the capes flap, the Mondego dawdles, and a hill full of professors keeps teaching the machines to read faculdade-style, while a unicorn quietly pays its rent down the slope.",
+  "mandate": "PrompTugal.news Coimbra, a cidade dos estudantes: AI and tech in Coimbra, with the Universidade as the big brain on the hill, the IPN as the greenhouse and Feedzai as the proud old boy, plus whatever news floats in from Portugal, Europe and the world. Independente, and every fact comes with a receipt.",
+  "gravity": "Coimbra is the place where an AI degree, a defence project on hybrid threats and a fraud-hunting company all trace back to the same hill. The Câmara has even been named in the first batch to try AI on building licences, so even the paperwork is getting clever. Research first, sim senhor, and now city hall too.",
+  "gaps_intro": "Ainda não sabemos tudo, pá, and a few doors slammed 403 in our face. Here is what Coimbra has not told us yet:"
+ },
+ "start_company": [
+  {
+   "name": "GO Coimbra, the city's investment and innovation agency",
+   "what": "Offers a single point of contact for investors, with help through licensing and soft landing, and help to find sites in its three business parks and coworks. The page also lists a fast-track for investment and an incentives page.",
+   "url": "https://www.gocoimbra.pt",
+   "source_url": "https://www.gocoimbra.pt",
+   "read_on": "2026-11-16",
+   "kind": "public desk"
+  },
+  {
+   "name": "Coimbra council: Via Rápida para o Investimento and Invest Coimbra incentives",
+   "what": "A fast-track request for business investment filed through the council's online services (prior registration needed), plus a regulation of municipal incentives such as partial or full exemption from property transfer tax, property tax for up to five years, local business surtax and urban fees. Projects in innovative or technology-based sectors are among those that can qualify.",
+   "url": "https://www.cm-coimbra.pt/areas/investir/investir/apoios-e-incentivos-municipais",
+   "source_url": "https://www.cm-coimbra.pt/areas/investir/investir/apoios-e-incentivos-municipais",
+   "read_on": "2026-11-16",
+   "kind": "public desk"
+  },
+  {
+   "name": "Coimbra council: Cowork Pátio (creativity, innovation and entrepreneurship)",
+   "what": "A municipal coworking space in the former Colégio das Artes in the city centre, with shared spaces for new businesses.",
+   "url": "https://www.cm-coimbra.pt/areas/investir/the-right-place-to-invest/apoios-e-incentivos-municipais/espacos-empresariais/cowork-patio-criatividade-e-inovacao-espaco-municipal",
+   "source_url": "https://www.cm-coimbra.pt/areas/investir/the-right-place-to-invest/apoios-e-incentivos-municipais/espacos-empresariais/cowork-patio-criatividade-e-inovacao-espaco-municipal",
+   "read_on": "2026-11-16",
+   "kind": "space"
+  },
+  {
+   "name": "Coimbra council and Startup Portugal memorandum",
+   "what": "Signed on 14 November 2024 at Web Summit. The council shares ecosystem information, identifies startups and scaleups recognised by Startup Portugal and based in the municipality, helps attract talent and investors, and publicises its events. No cost to the parties.",
+   "url": "https://www.coimbra.pt/2024/11/cm-de-coimbra-e-startup-portugal-assinam-acordo-para-promover-empresas-startup-e-scaleup-no-concelho/",
+   "source_url": "https://www.coimbra.pt/2024/11/cm-de-coimbra-e-startup-portugal-assinam-acordo-para-promover-empresas-startup-e-scaleup-no-concelho/",
+   "read_on": "2026-11-16",
+   "kind": "community"
+  },
+  {
+   "name": "Instituto Pedro Nunes business incubator",
+   "what": "Open to any project that develops technology-based products or advanced services, with priority for University of Coimbra spin-offs. Application starts with a free form, then a business plan with IPN support. Physical modules from 20 to 66 square metres, or virtual incubation, plus legal, funding and consultant support.",
+   "url": "https://www.ipn.pt/en/incubadora/",
+   "source_url": "https://www.ipn.pt/en/incubadora/",
+   "read_on": "2026-11-16",
+   "kind": "incubator"
+  },
+  {
+   "name": "Instituto Pedro Nunes business accelerator",
+   "what": "Launched in May 2014 for more advanced technology companies with high growth potential, with internationalisation support. By its own count the aggregate impact for 2014 to 2023 covers 42 companies.",
+   "url": "https://www.ipn.pt/en/aceleradora-sobre/",
+   "source_url": "https://www.ipn.pt/en/aceleradora-sobre/",
+   "read_on": "2026-11-16",
+   "kind": "accelerator"
+  },
+  {
+   "name": "NATO DIANA accelerator at IPN",
+   "what": "Defence and dual-use accelerator with 100,000 euros in stage 1 and up to 300,000 in stage 2, access to NATO test centres, mentoring and investor links. Priority areas begin with AI.",
+   "url": "https://www.ipn.pt/en/diana-portugal/",
+   "source_url": "https://www.ipn.pt/en/diana-portugal/",
+   "read_on": "2026-11-16",
+   "kind": "accelerator"
+  },
+  {
+   "name": "ESA BIC Centro",
+   "what": "Incubation for early-stage startups with a space connection, coordinated by IPN in Coimbra, with Coimbra Supernova as the city's space cluster alliance.",
+   "url": "https://space.ipn.pt/",
+   "source_url": "https://space.ipn.pt/",
+   "read_on": "2026-11-16",
+   "kind": "incubator"
+  },
+  {
+   "name": "Startup Portugal: founder resources",
+   "what": "The national startup agency lists a Founder's Guide, a national incubators network and an investors matching programme. We read only the page's headings, not the guide's content.",
+   "url": "https://www.startupportugal.com/founders-guide/",
+   "source_url": "https://www.startupportugal.com/founders-guide/",
+   "read_on": "2026-11-16",
+   "kind": "mentoring"
+  },
+  {
+   "name": "Empresa na Hora (gov.pt service)",
+   "what": "The national service to set up private limited and public limited companies quickly at a counter. The responsible entity is the national registry institute. The page does not list Coimbra counters.",
+   "url": "https://eportugal.gov.pt/en/servicos/criar-uma-empresa-na-hora",
+   "source_url": "https://eportugal.gov.pt/en/servicos/criar-uma-empresa-na-hora",
+   "read_on": "2026-11-16",
+   "kind": "public desk"
+  },
+  {
+   "name": "CoimbraCityLab (council test bed for technology projects)",
+   "what": "A council initiative to support the development and testing of innovative, technology-based projects in real conditions, open to individuals and to public or private legal entities whose projects meet its regulation. A 2023 pilot with IPN tested an AI product.",
+   "url": "https://www.coimbra.pt/2023/12/coimbracitylab-testa-projeto-piloto-para-detecao-e-mapeamento-de-objetos-atraves-de-inteligencia-artificial/",
+   "source_url": "https://www.coimbra.pt/2023/12/coimbracitylab-testa-projeto-piloto-para-detecao-e-mapeamento-de-objetos-atraves-de-inteligencia-artificial/",
+   "read_on": "2026-11-17",
+   "kind": "public desk"
+  }
+ ],
+ "investors": [
+  {
+   "name": "Lince Capital, Explorer Investments and Armilar Venture Partners into Neuraspace",
+   "what": "Private backers of Neuraspace's 15.6 million euro round, alongside national recovery plan funds. The page does not split the amounts.",
+   "url": "https://www.portugalglobal.pt/pt/noticias/2026/setembro/neuraspace-capta-15-6-milhões-para-expandir-tecnologia-espacial/",
+   "source_url": "https://www.portugalglobal.pt/pt/noticias/2026/setembro/neuraspace-capta-15-6-milhões-para-expandir-tecnologia-espacial/",
+   "read_on": "2026-11-16",
+   "type": "investment",
+   "amount": "15.6 million euros (whole round)",
+   "date": "2026-09-01",
+   "ai_path": "Fund an AI company in Coimbra: directly about AI."
+  },
+  {
+   "name": "National recovery plan (PRR) funds into Neuraspace",
+   "what": "Public funds that are part of the same round.",
+   "url": "https://www.portugalglobal.pt/pt/noticias/2026/setembro/neuraspace-capta-15-6-milhões-para-expandir-tecnologia-espacial/",
+   "source_url": "https://www.portugalglobal.pt/pt/noticias/2026/setembro/neuraspace-capta-15-6-milhões-para-expandir-tecnologia-espacial/",
+   "read_on": "2026-11-16",
+   "type": "grant",
+   "date": "2026-09-01",
+   "ai_path": "Co-fund a Coimbra AI company: directly about AI."
+  },
+  {
+   "name": "NATO DIANA initial funding for Neuraspace",
+   "what": "Neuraspace was one of two Portuguese companies picked for NATO's DIANA accelerator, with access to 100,000 euros of initial investment and later up to 300,000.",
+   "url": "https://portugalglobal.pt/en/news/2026/janeiro/connect-robotics-and-neuraspace-selected-for-nato-accelerator/",
+   "source_url": "https://portugalglobal.pt/en/news/2026/janeiro/connect-robotics-and-neuraspace-selected-for-nato-accelerator/",
+   "read_on": "2026-11-16",
+   "type": "grant",
+   "amount": "100,000 euros, up to 300,000 later",
+   "date": "2026-01",
+   "ai_path": "AI for satellite security and resilience: directly about AI."
+  },
+  {
+   "name": "Feedzai funding round",
+   "what": "The financial-crime AI company that the map lists in Coimbra raised 75 million dollars on a valuation above 2 billion dollars and signed a framework agreement with the European Central Bank for digital euro fraud detection. The page names no investors.",
+   "url": "https://www.feedzai.com/inthenews/feedzai-raises-75m-at-2b-valuation-secures-key-role-in-digital-euro-fraud-prevention/",
+   "source_url": "https://www.feedzai.com/inthenews/feedzai-raises-75m-at-2b-valuation-secures-key-role-in-digital-euro-fraud-prevention/",
+   "read_on": "2026-11-16",
+   "type": "investment",
+   "amount": "75 million dollars",
+   "date": "2025-10-02",
+   "ai_path": "Sells AI for fraud prevention: directly about AI."
+  },
+  {
+   "name": "NATO DIANA programme (via the IPN accelerator)",
+   "what": "Stage 1 funding of 100,000 euros, stage 2 up to 300,000, and a route to the NATO Innovation Fund for defence technology companies.",
+   "url": "https://www.ipn.pt/en/diana-portugal/",
+   "source_url": "https://www.ipn.pt/en/diana-portugal/",
+   "read_on": "2026-11-16",
+   "type": "programme",
+   "ai_path": "Priority areas begin with AI: one step from AI."
+  },
+  {
+   "name": "Invest Coimbra municipal incentives",
+   "what": "Council tax exemptions for investment projects, including innovative and technology-based ones.",
+   "url": "https://www.cm-coimbra.pt/areas/investir/investir/apoios-e-incentivos-municipais",
+   "source_url": "https://www.cm-coimbra.pt/areas/investir/investir/apoios-e-incentivos-municipais",
+   "read_on": "2026-11-16",
+   "type": "programme",
+   "ai_path": "Open to technology-based projects, so AI ventures can qualify: two steps from AI."
+  }
+ ],
+ "contacts": [
+  {
+   "name": "GO Coimbra, investment and innovation agency",
+   "what": "The agency's published channel for investors and companies, with a contact form on its site.",
+   "url": "https://www.gocoimbra.pt",
+   "source_url": "https://www.gocoimbra.pt",
+   "read_on": "2026-11-16",
+   "channel": "the agency's general email, phone and contact form, published on its home page (open the linked page for them)"
+  },
+  {
+   "name": "Câmara Municipal de Coimbra, general",
+   "what": "The council's published general email and phone, with a free line for complaints and suggestions.",
+   "url": "https://www.cm-coimbra.pt/areas/viver/municipio/contactos",
+   "source_url": "https://www.cm-coimbra.pt/areas/viver/municipio/contactos",
+   "read_on": "2026-11-16",
+   "channel": "the council's general email and phone on its Contactos page (open the linked page for them)"
+  },
+  {
+   "name": "Câmara Municipal de Coimbra, Cowork Pátio",
+   "what": "The coworking space's own published email and phone.",
+   "url": "https://www.cm-coimbra.pt/areas/investir/the-right-place-to-invest/apoios-e-incentivos-municipais/espacos-empresariais/cowork-patio-criatividade-e-inovacao-espaco-municipal",
+   "source_url": "https://www.cm-coimbra.pt/areas/investir/the-right-place-to-invest/apoios-e-incentivos-municipais/espacos-empresariais/cowork-patio-criatividade-e-inovacao-espaco-municipal",
+   "read_on": "2026-11-16",
+   "channel": "the space's email and phone on its council page (open the linked page for them)"
+  },
+  {
+   "name": "Instituto Pedro Nunes, general and incubator application",
+   "what": "IPN is a private non-profit, not a public body. Its site publishes a general email, phone and a contact form, and the incubator application form.",
+   "url": "https://www.ipn.pt/en/incubadora-candidatura/",
+   "source_url": "https://www.ipn.pt/en/incubadora-candidatura/",
+   "read_on": "2026-11-16",
+   "channel": "the institute's general email, phone and application form on its site (open the linked page for them)"
+  }
+ ],
+ "latest_news": {
+  "read_at": "2026-11-26T02:34Z",
+  "by": "place.coimbra@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
+  "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
+  "main_headline": {
+   "title": "Fundo de apoio a estudantes em Coimbra recebe novo reforço para 2026/2027",
+   "url": "https://megahits.fm/mega-news/18854/fundo-de-apoio-a-estudantes-em-coimbra-recebe-novo-reforco-para-20262027?utm_medium=rss",
+   "source": "Mega Hits - Coimbra",
+   "date": "2026-11-25",
+   "read_at": "2026-11-26T02:30:28Z",
+   "names_place": true
+  },
+  "items": [
+   {
+    "title": "Motos saem à estrada em Vila de Rei para celebrar o Natal",
+    "url": "https://www.noticiasdecoimbra.pt/motos-saem-a-estrada-em-vila-de-rei-para-celebrar-o-natal/",
+    "published": "2026-11-26T01:07Z",
+    "source": "Notícias de Coimbra (NDC)",
+    "source_site": "https://www.noticiasdecoimbra.pt",
+    "feed": "https://www.noticiasdecoimbra.pt/feed/",
+    "read_at": "2026-11-26T02:30:26Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Ministra da Saúde inaugura nova unidade de saúde em Oiã com capacidade para 12 mil utentes",
+    "url": "https://www.noticiasdecoimbra.pt/ministra-da-saude-inaugura-nova-unidade-de-saude-em-oia-com-capacidade-para-12-mil-utentes/",
+    "published": "2026-11-26T00:28Z",
+    "source": "Notícias de Coimbra (NDC)",
+    "source_site": "https://www.noticiasdecoimbra.pt",
+    "feed": "https://www.noticiasdecoimbra.pt/feed/",
+    "read_at": "2026-11-26T02:30:26Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Colisão entre camiões na A1",
+    "url": "https://www.noticiasdecoimbra.pt/colisao-entre-camioes-na-a1/",
+    "published": "2026-11-25T23:30Z",
+    "source": "Notícias de Coimbra (NDC)",
+    "source_site": "https://www.noticiasdecoimbra.pt",
+    "feed": "https://www.noticiasdecoimbra.pt/feed/",
+    "read_at": "2026-11-26T02:30:26Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Homem vai parar ao hospital após colisão em Condeixa",
+    "url": "https://www.noticiasdecoimbra.pt/homem-vai-parar-hospital-apos-colisao-em-condeixa/",
+    "published": "2026-11-25T23:07Z",
+    "source": "Notícias de Coimbra (NDC)",
+    "source_site": "https://www.noticiasdecoimbra.pt",
+    "feed": "https://www.noticiasdecoimbra.pt/feed/",
+    "read_at": "2026-11-26T02:30:26Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "João Gião é o novo treinador do Estoril Praia",
+    "url": "https://www.diariocoimbra.pt/2026/11/25/joao-giao-e-o-novo-treinador-do-estoril-praia/?utm_source=rss&utm_medium=rss&utm_campaign=joao-giao-e-o-novo-treinador-do-estoril-praia",
+    "published": "2026-11-25T23:00Z",
+    "source": "Diário de Coimbra",
+    "source_site": "https://www.diariocoimbra.pt",
+    "feed": "https://www.diariocoimbra.pt/feed/",
+    "read_at": "2026-11-26T02:30:22Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Homem condenado em Portugal por atacar sexualmente familiar é detido na Galiza",
+    "url": "https://www.noticiasdecoimbra.pt/homem-condenado-em-portugal-por-atacar-sexualmente-familiar-e-detido-na-galiza/",
+    "published": "2026-11-25T23:00Z",
+    "source": "Notícias de Coimbra (NDC)",
+    "source_site": "https://www.noticiasdecoimbra.pt",
+    "feed": "https://www.noticiasdecoimbra.pt/feed/",
+    "read_at": "2026-11-26T02:30:26Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Académica já tem data e hora marcada para tentar chegar aos quartos de final da Taça de Portugal",
+    "url": "https://www.noticiasdecoimbra.pt/academica-tem-data-e-hora-marcada-para-tentar-chegar-aos-quartos-de-final-da-taca-de-portugal/",
+    "published": "2026-11-25T22:37Z",
+    "source": "Notícias de Coimbra (NDC)",
+    "source_site": "https://www.noticiasdecoimbra.pt",
+    "feed": "https://www.noticiasdecoimbra.pt/feed/",
+    "read_at": "2026-11-26T02:30:26Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Andebol | Sporting sofre primeira derrota na fase principal da Liga dos Campeões",
+    "url": "https://www.diariocoimbra.pt/2026/11/25/andebol-sporting-sofre-primeira-derrota-na-fase-principal-da-liga-dos-campeoes/?utm_source=rss&utm_medium=rss&utm_campaign=andebol-sporting-sofre-primeira-derrota-na-fase-principal-da-liga-dos-campeoes",
+    "published": "2026-11-25T22:30Z",
+    "source": "Diário de Coimbra",
+    "source_site": "https://www.diariocoimbra.pt",
+    "feed": "https://www.diariocoimbra.pt/feed/",
+    "read_at": "2026-11-26T02:30:22Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Faleceu José Ferreira, músico e ex-presidente da Filarmónica Vilanovense",
+    "url": "https://www.diariocoimbra.pt/2026/11/25/faleceu-jose-ferreira-musico-e-ex-presidente-da-filarmonica-vilanovense/?utm_source=rss&utm_medium=rss&utm_campaign=faleceu-jose-ferreira-musico-e-ex-presidente-da-filarmonica-vilanovense",
+    "published": "2026-11-25T22:13Z",
+    "source": "Diário de Coimbra",
+    "source_site": "https://www.diariocoimbra.pt",
+    "feed": "https://www.diariocoimbra.pt/feed/",
+    "read_at": "2026-11-26T02:30:22Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Sporting e Manchester United empatam com \"bis\" de Suárez e Bruno Fernandes",
+    "url": "https://www.diariocoimbra.pt/2026/11/25/sporting-e-manchester-united-empatam-com-bis-de-suarez-e-bruno-fernandes/?utm_source=rss&utm_medium=rss&utm_campaign=sporting-e-manchester-united-empatam-com-bis-de-suarez-e-bruno-fernandes",
+    "published": "2026-11-25T22:05Z",
+    "source": "Diário de Coimbra",
+    "source_site": "https://www.diariocoimbra.pt",
+    "feed": "https://www.diariocoimbra.pt/feed/",
+    "read_at": "2026-11-26T02:30:22Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Morreu Jorge Mendes, filho do fundador das lojas Manuel Mendes Decorações",
+    "url": "https://www.diariocoimbra.pt/2026/11/25/morreu-jorge-mendes-filho-do-fundador-das-lojas-jorge-mendes/?utm_source=rss&utm_medium=rss&utm_campaign=morreu-jorge-mendes-filho-do-fundador-das-lojas-jorge-mendes",
+    "published": "2026-11-25T21:36Z",
+    "source": "Diário de Coimbra",
+    "source_site": "https://www.diariocoimbra.pt",
+    "feed": "https://www.diariocoimbra.pt/feed/",
+    "read_at": "2026-11-26T02:30:22Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "A floresta que plantamos na Mealhada e a que deixamos às próximas gerações",
+    "url": "https://www.campeaoprovincias.pt/2026/11/25/a-floresta-que-plantamos-na-mealhada-e-a-que-deixamos-as-proximas-geracoes/",
+    "published": "2026-11-25T21:26Z",
+    "source": "Campeão das Províncias",
+    "source_site": "https://www.campeaoprovincias.pt",
+    "feed": "https://www.campeaoprovincias.pt/rss",
+    "read_at": "2026-11-26T02:29:08Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Capitão Miguel Queiroz pede o apoio para a seleção de basquetebol em Matosinhos: “Que não nos faltem”",
+    "url": "https://www.diariocoimbra.pt/2026/11/25/capitao-miguel-queiroz-pede-o-apoio-para-a-selecao-de-basquetebol-em-matosinhos-que-nao-nos-faltem/?utm_source=rss&utm_medium=rss&utm_campaign=capitao-miguel-queiroz-pede-o-apoio-para-a-selecao-de-basquetebol-em-matosinhos-que-nao-nos-faltem",
+    "published": "2026-11-25T21:15Z",
+    "source": "Diário de Coimbra",
+    "source_site": "https://www.diariocoimbra.pt",
+    "feed": "https://www.diariocoimbra.pt/feed/",
+    "read_at": "2026-11-26T02:30:22Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "As 100 maiores empresas de Cantanhede: negócios atingem pela primeira vez mil milhões",
+    "url": "https://www.campeaoprovincias.pt/2026/11/25/as-100-maiores-empresas-de-cantanhede-negocios-atingem-pela-primeira-vez-mil-milhoes/",
+    "published": "2026-11-25T20:56Z",
+    "source": "Campeão das Províncias",
+    "source_site": "https://www.campeaoprovincias.pt",
+    "feed": "https://www.campeaoprovincias.pt/rss",
+    "read_at": "2026-11-26T02:29:08Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "O Natal sobe ao castelo e espalha-se pela vila de Montemor-o-Velho",
+    "url": "https://www.campeaoprovincias.pt/2026/11/25/o-natal-sobe-ao-castelo-e-espalha-se-pela-vila-de-montemor-o-velho/",
+    "published": "2026-11-25T20:29Z",
+    "source": "Campeão das Províncias",
+    "source_site": "https://www.campeaoprovincias.pt",
+    "feed": "https://www.campeaoprovincias.pt/rss",
+    "read_at": "2026-11-26T02:29:08Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "ANMP desafia os 308 municípios a rumarem a Lisboa em Maio",
+    "url": "https://www.campeaoprovincias.pt/2026/11/25/anmp-desafia-os-308-municipios-a-rumarem-a-lisboa-em-maio/",
+    "published": "2026-11-25T19:59Z",
+    "source": "Campeão das Províncias",
+    "source_site": "https://www.campeaoprovincias.pt",
+    "feed": "https://www.campeaoprovincias.pt/rss",
+    "read_at": "2026-11-26T02:29:08Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Jorge Gouveia Monteiro: “É estúpido deixar na gaveta um bom projecto para o Ingote”",
+    "url": "https://www.campeaoprovincias.pt/2026/11/25/jorge-gouveia-monteiro-e-estupido-deixar-na-gaveta-um-bom-projecto-para-o-ingote/",
+    "published": "2026-11-25T19:26Z",
+    "source": "Campeão das Províncias",
+    "source_site": "https://www.campeaoprovincias.pt",
+    "feed": "https://www.campeaoprovincias.pt/rss",
+    "read_at": "2026-11-26T02:29:08Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "José Martins: “Fazer cinema fora dos centros de decisão é um trabalho extraordinário”",
+    "url": "https://www.campeaoprovincias.pt/2026/11/25/jose-martins-fazer-cinema-fora-dos-centros-de-decisao-e-um-trabalho-extraordinario/",
+    "published": "2026-11-25T18:57Z",
+    "source": "Campeão das Províncias",
+    "source_site": "https://www.campeaoprovincias.pt",
+    "feed": "https://www.campeaoprovincias.pt/rss",
+    "read_at": "2026-11-26T02:29:08Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Sporting x Manchester United: uma história de reencontros",
+    "url": "https://megahits.fm/mega-news/18857/sporting-x-manchester-united-uma-historia-de-reencontros?utm_medium=rss",
+    "published": "2026-11-25T14:39Z",
+    "source": "Mega Hits - Coimbra",
+    "source_site": "https://megahits.fm/",
+    "feed": "https://megahits.fm/rssfeed",
+    "read_at": "2026-11-26T02:30:28Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Carolina Deslandes com concertos especiais em Aveiro",
+    "url": "https://megahits.fm/mega-news/18856/carolina-deslandes-com-concertos-especiais-em-aveiro?utm_medium=rss",
+    "published": "2026-11-25T12:02Z",
+    "source": "Mega Hits - Coimbra",
+    "source_site": "https://megahits.fm/",
+    "feed": "https://megahits.fm/rssfeed",
+    "read_at": "2026-11-26T02:30:28Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "A magia do Natal está quase a chegar a Viseu!",
+    "url": "https://megahits.fm/mega-news/18855/a-magia-do-natal-esta-quase-a-chegar-a-viseu?utm_medium=rss",
+    "published": "2026-11-25T11:56Z",
+    "source": "Mega Hits - Coimbra",
+    "source_site": "https://megahits.fm/",
+    "feed": "https://megahits.fm/rssfeed",
+    "read_at": "2026-11-26T02:30:28Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Fundo de apoio a estudantes em Coimbra recebe novo reforço para 2026/2027",
+    "url": "https://megahits.fm/mega-news/18854/fundo-de-apoio-a-estudantes-em-coimbra-recebe-novo-reforco-para-20262027?utm_medium=rss",
+    "published": "2026-11-25T11:50Z",
+    "source": "Mega Hits - Coimbra",
+    "source_site": "https://megahits.fm/",
+    "feed": "https://megahits.fm/rssfeed",
+    "read_at": "2026-11-26T02:30:28Z",
+    "mentions_place": true,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Plutonio e Pedro Teixeira da Mota doam 12 mil euros a campeão do mundo de tumbling",
+    "url": "https://megahits.fm/mega-news/18853/plutonio-e-pedro-teixeira-da-mota-doam-12-mil-euros-a-campeao-do-mundo-de-tumbling?utm_medium=rss",
+    "published": "2026-11-25T11:18Z",
+    "source": "Mega Hits - Coimbra",
+    "source_site": "https://megahits.fm/",
+    "feed": "https://megahits.fm/rssfeed",
+    "read_at": "2026-11-26T02:30:28Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Hoje assinala-se o Dia Internacional para a Eliminação da Violência contra as Mulheres",
+    "url": "https://megahits.fm/mega-news/18852/hoje-assinala-se-o-dia-internacional-para-a-eliminacao-da-violencia-contra-as-mulheres?utm_medium=rss",
+    "published": "2026-11-25T11:10Z",
+    "source": "Mega Hits - Coimbra",
+    "source_site": "https://megahits.fm/",
+    "feed": "https://megahits.fm/rssfeed",
+    "read_at": "2026-11-26T02:30:28Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   }
+  ]
+ }
 }

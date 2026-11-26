@@ -1,788 +1,1177 @@
 {
-  "$schema": "../schemas/by-place.schema.json",
-  "id": "portugal",
-  "name": "Portugal",
-  "kind": "country",
-  "parent": "",
-  "status": "live",
-  "updated": "2026-11-16",
-  "by": "place.portugal@PrompTugal.dinis",
-  "mandate": "PrompTugal.news Portugal: AI and technology in Portugal, in context, from Portugal for Europe, with the national AI map, the national programmes and what flows down to the Algarve and every region. Independent, every fact sourced.",
-  "gravity": {
-    "text": "Portugal's AI story is national policy first, with a National AI Agenda for 2026 to 2030 backed by more than 400 million euros, mostly European funds. Around it sit a state-funded open language model for European Portuguese (AMALIA), public supercomputing run through FCT, and a startup scene that raised several rounds in 2026, in Porto and Lisbon above all.",
-    "sources": [
-      {
-        "title": "National AI Agenda 2026-2030 (CMS)",
-        "url": "https://cms.law/en/prt/news-information/national-artificial-intelligence-agenda-for-the-2026-2030",
-        "read_on": "2026-11-15"
-      },
-      {
-        "title": "RTP: the Agenda has more than 400 million euros to 2030",
-        "url": "https://www.rtp.pt/noticias/economia/agenda-nacional-de-ia-tem-investimento-acima-de-400-milhoes-de-euros-ate-2030_n1708609",
-        "read_on": "2026-11-15"
-      },
-      {
-        "title": "INESC-ID: AMALIA launched",
-        "url": "https://www.inesc-id.pt/amalia-was-officially-launched-and-is-now-ready-for-open-use/",
-        "read_on": "2026-11-15"
-      }
-    ]
-  },
-  "look": {
-    "accent": "#0B5D3B",
-    "landmark": "Torre de Belém",
-    "motif": "Atlantic green, a country on the edge of Europe looking out"
-  },
-  "ai_news": [
-    {
-      "title": "Granter raises 1.6 million euros to take its AI funding platform across Europe",
-      "summary": "The Portuguese startup helps SMEs and startups find public funding, write applications and run won projects. The round was led by 3XP Global through a fund of Banco Português de Fomento.",
-      "date": "2026-11-03",
-      "publisher": "Tech.eu",
-      "url": "https://tech.eu/2026/11/03/portuguese-ai-startup-granter-bags-eur16m-to-expand-across-europe/",
-      "read_on": "2026-11-15",
-      "ai_path": "A company that sells an AI product, so directly AI.",
-      "steps": 0
-    },
-    {
-      "title": "Prime Minister signs an international call for safer advanced AI",
-      "summary": "Portugal's Prime Minister signed, with more than 30 leaders, an appeal for safety protocols, common standards and international mechanisms for advanced AI models.",
-      "date": "2026-09-25",
-      "publisher": "Portugal.gov.pt",
-      "url": "https://portugal.gov.pt/pt/gc25/comunicacao/noticias/portugal-assina-apelo-internacional-para-uma-gestao-responsavel-da-inteligencia-artificial",
-      "read_on": "2026-11-15",
-      "ai_path": "National government policy on AI governance, so directly AI.",
-      "steps": 0
-    },
-    {
-      "title": "AMALIA gets a second phase: 1.8 million euros more, agent tools planned by the end of 2026",
-      "summary": "A Council of Ministers resolution adds 1.8 million euros from the recovery plan, taking the project cost to 7.3 million euros, and aims to move AMALIA from prototype into citizen services. The training plan covers agent tools and image and speech, and the government will seek talks with media companies for archive access. The article notes that the Journalists' Union contested the use of Arquivo.pt data in the first phase. These are stated intentions, not deliveries.",
-      "date": "2026-09-15",
-      "publisher": "ECO",
-      "url": "https://eco.sapo.pt/2026/09/15/amalia-ganha-ferramentas-de-agentificacao-ate-final-do-ano/",
-      "read_on": "2026-11-16",
-      "ai_path": "A national language model, so directly AI.",
-      "steps": 0
-    },
-    {
-      "title": "Neuraspace raises 15.6 million euros for AI space-traffic intelligence",
-      "summary": "The platform helps satellite operators watch collision risks, cyber threats and radio interference. Investors include Lince Capital, Explorer Investments and Armilar, plus recovery plan funds.",
-      "date": "2026-08-05",
-      "publisher": "Tech.eu",
-      "url": "https://tech.eu/2026/08/05/neuraspace-lands-eur156m-to-expand-ai-space-intelligence-platform/",
-      "read_on": "2026-11-15",
-      "ai_path": "An AI-powered platform company, so directly AI.",
-      "steps": 0
-    },
-    {
-      "title": "Government backs an Iberian bid for an EU AI gigafactory, with up to 200 million euros of Portuguese funding",
-      "summary": "Portugal would buy computing time with up to 200 million euros in the first phase, matched by EuroHPC. The Portuguese component is estimated at about 4 billion euros. The source gives no site in Portugal.",
-      "date": "2026-06-26",
-      "publisher": "Portugal.gov.pt",
-      "url": "https://portugal.gov.pt/pt/gc25/comunicacao/noticias/gigafabricas-de-inteligencia-artificial-reforcam-soberania-tecnologica-com-investimento-de-200-milhoes",
-      "read_on": "2026-11-16",
-      "ai_path": "Public AI compute capacity, so directly AI.",
-      "steps": 0
-    },
-    {
-      "title": "Center for Responsible AI changed hands after Unbabel's fall and expects 150 million euros of turnover",
-      "summary": "The largest recovery-plan technology agenda is now led by Sword Health. The consortium expects about 150 million euros of turnover this year, mostly exports, and names Priberam and NeuralShift among its products.",
-      "date": "2026-07-18",
-      "publisher": "Dinheiro Vivo",
-      "url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
-      "read_on": "2026-11-15",
-      "ai_path": "A national AI consortium, so directly AI.",
-      "steps": 0
-    },
-    {
-      "title": "AMALIA's funding rises to 7 million euros as it heads into the Gov.pt app",
-      "summary": "The government added 1.5 million euros on top of the original 5.5 million from the recovery plan, to 2027. Next steps named are use in the Gov.pt app, licensing and procurement, agent abilities and a growth from 9 to 22 billion parameters. The Prime Minister said the government was not celebrating and called it a small step toward autonomy.",
-      "date": "2026-07-01",
-      "publisher": "ECO",
-      "url": "https://eco.sapo.pt/2026/07/01/investimento-no-amalia-sobe-para-sete-milhoes-de-euros-montenegro-diz-que-o-governo-nao-esta-a-festejar-nada/",
-      "read_on": "2026-11-16",
-      "ai_path": "A national language model, so directly AI.",
-      "steps": 0
-    },
-    {
-      "title": "AMALIA, the open language model for European Portuguese, is launched",
-      "summary": "Presented on 1 July 2026 at the Técnico Innovation Center in Lisbon, built on EuroLLM with data from Arquivo.PT, funded with 5.5 million euros from the recovery plan and ready for open use.",
-      "date": "2026-07-15",
-      "publisher": "INESC-ID",
-      "url": "https://www.inesc-id.pt/amalia-was-officially-launched-and-is-now-ready-for-open-use/",
-      "read_on": "2026-11-15",
-      "ai_path": "A national large language model, so directly AI.",
-      "steps": 0
-    },
-    {
-      "title": "Nscale plans more than 66,000 NVIDIA Rubin GPUs for Microsoft at the Sines data campus",
-      "summary": "From late 2027, with 230 million euros for shared infrastructure and 465 million euros for a second 200 MW building, next to the 12,600 Blackwell Ultra GPUs already planned there. Start Campus builds and operates the site.",
-      "date": "2026-05-05",
-      "publisher": "Nscale",
-      "url": "https://www.nscale.com/press-releases/nscale-start-campus",
-      "read_on": "2026-11-15",
-      "ai_path": "AI compute capacity in Portugal, so one step: the hardware AI workloads run on.",
-      "steps": 1
-    },
-    {
-      "title": "CGI sets up a generative and agentic AI centre of excellence in Portugal",
-      "summary": "The Canadian consulting firm, with over 2,000 staff in Portugal, launched the centre in May 2026. The source names no city for it.",
-      "date": "2026-05",
-      "publisher": "Portugal Global newsletter",
-      "url": "https://portugalglobal.pt/en/investment/publications/newsletter-invest-in-portugal-may-2026/",
-      "read_on": "2026-11-15",
-      "ai_path": "A centre focused on generative and agentic AI, so directly AI.",
-      "steps": 0
-    },
-    {
-      "title": "Coalex.ai raises an angel round to supervise AI agents",
-      "summary": "The Portuguese startup monitors autonomous AI agents, flags risky outputs for human review and scores them from 0 to 100. The investor is Angels Way.",
-      "date": "2026-06-19",
-      "publisher": "Dealroom",
-      "url": "https://dealroom.co/news/135231-coalex-ai-raises-angel-round-from-angels-way-to-build-its-ai-trust-layer/",
-      "read_on": "2026-11-15",
-      "ai_path": "An AI-governance product, so directly AI.",
-      "steps": 0
-    },
-    {
-      "title": "Lisbon applied-AI lab Augusta Labs closes a first round at a 50 million euro valuation",
-      "summary": "The lab builds custom AI solutions for large companies, private equity firms and government agencies. The round size was not disclosed.",
-      "date": "2026-06-01",
-      "publisher": "Dealroom",
-      "url": "https://dealroom.co/news/130785-augusta-labs-raises-seed-round-at-50m-valuation/",
-      "read_on": "2026-11-15",
-      "ai_path": "An applied-AI company, so directly AI.",
-      "steps": 0
-    },
-    {
-      "title": "Dojo AI raises 5.1 million euros for its AI marketing agent",
-      "summary": "A Portuguese startup selling an AI agent system to marketing teams, with most revenue from the US. The seed round was led by Armilar.",
-      "date": "2026-04-22",
-      "publisher": "Essential Business",
-      "url": "https://www.essential-business.pt/2026/04/22/dojo-ai-in-e5-1-million-raise-for-us-expansion/",
-      "read_on": "2026-11-15",
-      "ai_path": "An AI agent product, so directly AI.",
-      "steps": 0
-    },
-    {
-      "title": "FuriosaAI, a South Korean AI chip start-up, sets up its European flagship office in Lisbon",
-      "summary": "The office will coordinate commercial and technical support across Europe and do R&D in compilers and chip and PCB design.",
-      "date": "2026-04",
-      "publisher": "Portugal Global newsletter",
-      "url": "https://portugalglobal.pt/en/investment/publications/newsletter-invest-in-portugal-april-2026/",
-      "read_on": "2026-11-15",
-      "ai_path": "An AI chip company based in Lisbon, so one step: hardware AI runs on.",
-      "steps": 1
-    },
-    {
-      "title": "Government puts up to 19.3 million euros into two supercomputing and AI projects",
-      "summary": "Up to 3.7 million euros for the Deucalion supercomputer in Guimarães and up to 15.6 million euros to upgrade MareNostrum 5 in Barcelona into an AI platform, both managed by FCT.",
-      "date": "2026-04-08",
-      "publisher": "DPL News",
-      "url": "https://dplnews.com/portugal-vai-investir-em-supercomputacao-estrategica-e-projetos-de-ia/",
-      "read_on": "2026-11-15",
-      "ai_path": "Public compute for AI research, so one step: compute that AI workloads run on.",
-      "steps": 1
-    },
-    {
-      "title": "Sybilion, from Porto, raises 3.6 million euros for an AI decision layer",
-      "summary": "The platform links market data such as commodity prices and freight rates to a company's own costs to help procurement and pricing. Co-led by VentureFriends and Semapa Next.",
-      "date": "2026-03-12",
-      "publisher": "Pulse 2.0",
-      "url": "https://pulse2.com/sybilion-e3-6-million-raised-to-build-ai-decision-layer-for-industrial-companies/amp/",
-      "read_on": "2026-11-15",
-      "ai_path": "An AI decision-intelligence product, so directly AI.",
-      "steps": 0
-    },
-    {
-      "title": "BSC AI Factory opens a second call for AI startups, with incubation spaces in Lisbon and Guimarães",
-      "summary": "Early-stage startups building or intensively using AI could apply for incubation from April to September 2026, with technical AI support and mentoring. Portugal takes part through FCT and the National Center for Advanced Computing.",
-      "date": "2026-03-03",
-      "publisher": "FCT",
-      "url": "https://www.fct.pt/en/bsc-ai-factory-lanca-segunda-call-do-incubation-space-program-dirigido-a-startups/",
-      "read_on": "2026-11-15",
-      "ai_path": "A programme that incubates AI startups, so directly AI.",
-      "steps": 0
-    },
-    {
-      "title": "Champalimaud Foundation and Técnico open a Neurorobotics Laboratory",
-      "summary": "A five-year agreement signed on 18 February 2026 creates a lab covering embodied AI, social robotics, neurorehabilitation and biomimetic robots, with Técnico's Institute for Systems and Robotics.",
-      "date": "2026-02-26",
-      "publisher": "Champalimaud Foundation",
-      "url": "https://www.fchampalimaud.org/news/champalimaud-foundation-and-instituto-superior-tecnico-join-forces-lead-research-neurorobotics",
-      "read_on": "2026-11-15",
-      "ai_path": "A lab with an embodied AI research area, so directly AI.",
-      "steps": 0
-    },
-    {
-      "title": "Portugal approves its National AI Agenda and an action plan to 2030",
-      "summary": "Resolution 2/2026 sets four pillars and four first initiatives: a gigafactory bid, sector AI centres, an acceleration programme for responsible AI startups and regulatory sandboxes.",
-      "date": "2026-01-08",
-      "publisher": "CMS",
-      "url": "https://cms.law/en/prt/news-information/national-artificial-intelligence-agenda-for-the-2026-2030",
-      "read_on": "2026-11-15",
-      "ai_path": "National AI policy, so directly AI.",
-      "steps": 0
-    },
-    {
-      "title": "Government earmarks about 25 million euros to adopt AI in public administration",
-      "summary": "The money funds use cases from public procurement support agents to invoice automation. About 10 million euros has already gone to cases under development.",
-      "date": "2026-01-08",
-      "publisher": "Forbes Portugal",
-      "url": "https://www.forbespt.com/?p=178259",
-      "read_on": "2026-11-15",
-      "ai_path": "The State adopting AI in services, so directly AI.",
-      "steps": 0
-    },
-    {
-      "title": "Portugal's new Agency for Research and Innovation (AI²) was due to start on 1 January 2026",
-      "summary": "It merges FCT and the National Innovation Agency into one public body for the whole innovation chain. This single article described it before its decree-law was published, so treat the details as provisional.",
-      "date": "2025-12-14",
-      "publisher": "The Portugal Post",
-      "url": "https://theportugalpost.com/posts/portugals-new-ai-agency-to-streamline-grants-and-fund-innovation",
-      "read_on": "2026-11-15",
-      "ai_path": "The funder that will pay for national AI research and startups, so one step.",
-      "steps": 1
-    },
-    {
-      "title": "European AI research network CAIRNE opens its Portuguese hub in Guimarães",
-      "summary": "CAIRNE | Guimarães is hosted by the University of Minho's School of Engineering and joins branch offices in cities such as Brussels, Paris and Rome.",
-      "date": "2025-10-21",
-      "publisher": "University of Minho",
-      "url": "https://www.engium.uminho.pt/en/european-ai-research-network-establishes-hub-in-guimaraes/",
-      "read_on": "2026-11-16",
-      "ai_path": "A network of AI research laboratories, so directly AI.",
-      "steps": 0
-    }
-  ],
+ "$schema": "../schemas/by-place.schema.json",
+ "id": "portugal",
+ "name": "Portugal",
+ "kind": "country",
+ "parent": "",
+ "status": "live",
+ "updated": "2026-11-26",
+ "by": "place.portugal@PrompTugal.dinis",
+ "mandate": "PrompTugal.news Portugal: AI and technology in Portugal, in context, from Portugal for Europe, with the national AI map, the national programmes and what flows down to the Algarve and every region. Independent, every fact sourced.",
+ "gravity": {
+  "text": "Portugal's AI story is national policy first, with a National AI Agenda for 2026 to 2030 backed by more than 400 million euros, mostly European funds. Around it sit a state-funded open language model for European Portuguese (AMALIA), public supercomputing run through FCT, and a startup scene that raised several rounds in 2026, in Porto and Lisbon above all.",
   "sources": [
-    {
-      "name": "Portugal.gov.pt news",
-      "url": "https://portugal.gov.pt/",
-      "kind": "other",
-      "feed": null
-    },
-    {
-      "name": "FCT (Foundation for Science and Technology)",
-      "url": "https://www.fct.pt/en/",
-      "kind": "other",
-      "feed": null
-    },
-    {
-      "name": "INESC-ID news",
-      "url": "https://www.inesc-id.pt/",
-      "kind": "university",
-      "feed": null
-    },
-    {
-      "name": "INESC TEC news",
-      "url": "https://www.inesctec.pt/en",
-      "kind": "university",
-      "feed": null
-    },
-    {
-      "name": "Dinheiro Vivo",
-      "url": "https://dinheirovivo.dn.pt/",
-      "kind": "press",
-      "feed": null
-    },
-    {
-      "name": "RTP Notícias",
-      "url": "https://www.rtp.pt/noticias/",
-      "kind": "press",
-      "feed": null
-    },
-    {
-      "name": "Tech.eu",
-      "url": "https://tech.eu/",
-      "kind": "press",
-      "feed": null
-    },
-    {
-      "name": "Forbes Portugal",
-      "url": "https://www.forbespt.com/",
-      "kind": "press",
-      "feed": null
-    }
-  ],
-  "events": [
-    {
-      "title": "UNESCO Global MOOC on the Ethics of AI (listed on FCT's agenda)",
-      "date": "December 2026",
-      "url": "https://www.fct.pt/en/",
-      "read_on": "2026-11-15",
-      "ai_path": "An online course on AI ethics, so directly AI."
-    }
-  ],
-  "ai_map": [
-    {
-      "name": "AMALIA",
-      "type": "public body",
-      "url": "https://www.inesc-id.pt/amalia-was-officially-launched-and-is-now-ready-for-open-use/",
-      "what": "Open language model for European Portuguese, launched 1 July 2026 in Lisbon, coordinated by ARTE and FCT with about 80 researchers. Funding rose to 7 million euros in July and to 7.3 million euros by a September resolution. Multimodal, 9 billion parameters, growing to 22 billion.",
-      "source_url": "https://eco.sapo.pt/2026/09/15/amalia-ganha-ferramentas-de-agentificacao-ate-final-do-ano/",
-      "read_on": "2026-11-15",
-      "ai_path": "A language model, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "ARTE (Agência para a Reforma Tecnológica do Estado)",
-      "type": "public body",
-      "url": "https://www.inesc-id.pt/amalia-was-officially-launched-and-is-now-ready-for-open-use/",
-      "what": "State agency that coordinated AMALIA with FCT, under the Ministry of State Reform.",
-      "source_url": "https://www.inesc-id.pt/amalia-was-officially-launched-and-is-now-ready-for-open-use/",
-      "read_on": "2026-11-15",
-      "ai_path": "Runs public-sector AI, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "FCT (Fundação para a Ciência e a Tecnologia)",
-      "type": "public body",
-      "url": "https://www.fct.pt/en/",
-      "what": "National science funder, Lisbon, co-coordinated AMALIA and manages the supercomputing and AI projects of 2026.",
-      "source_url": "https://dplnews.com/portugal-vai-investir-em-supercomputacao-estrategica-e-projetos-de-ia/",
-      "read_on": "2026-11-15",
-      "ai_path": "Funds AI research and compute, so one step.",
-      "steps": 1
-    },
-    {
-      "name": "Ministry of State Reform (Ministério da Reforma do Estado)",
-      "type": "public body",
-      "url": "https://www.rtp.pt/noticias/economia/agenda-nacional-de-ia-tem-investimento-acima-de-400-milhoes-de-euros-ate-2030_n1708609",
-      "what": "Announced the National AI Agenda and the 25 million euro programme for AI in public administration.",
-      "source_url": "https://www.rtp.pt/noticias/economia/agenda-nacional-de-ia-tem-investimento-acima-de-400-milhoes-de-euros-ate-2030_n1708609",
-      "read_on": "2026-11-15",
-      "ai_path": "Owns national AI policy, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "Banco Português de Fomento",
-      "type": "public body",
-      "url": "https://www.rtp.pt/noticias/economia/agenda-nacional-de-ia-tem-investimento-acima-de-400-milhoes-de-euros-ate-2030_n1708609",
-      "what": "Leads Portugal's bid to host a European AI gigafactory, in initial assessment under EuroHPC, also manages a venture programme that backed Granter.",
-      "source_url": "https://www.rtp.pt/noticias/economia/agenda-nacional-de-ia-tem-investimento-acima-de-400-milhoes-de-euros-ate-2030_n1708609",
-      "read_on": "2026-11-15",
-      "ai_path": "Funds AI compute and startups, so one step.",
-      "steps": 1
-    },
-    {
-      "name": "Instituto Superior Técnico (Lisbon)",
-      "type": "institution",
-      "url": "https://www.inesc-id.pt/amalia-was-officially-launched-and-is-now-ready-for-open-use/",
-      "what": "University school co-owning INESC-ID, hosts the Técnico Innovation Center where AMALIA was presented, part of the AMALIA consortium.",
-      "source_url": "https://www.inesc-id.pt/amalia-was-officially-launched-and-is-now-ready-for-open-use/",
-      "read_on": "2026-11-15",
-      "ai_path": "AI research and the AMALIA model, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "NOVA FCT (Lisbon area)",
-      "type": "institution",
-      "url": "https://www.fct.unl.pt/en/news/2026/07/amalia-llm-project-led-nova-fct-now-available",
-      "what": "University faculty in the AMALIA consortium, its NOVA LINCS researchers coordinate the project.",
-      "source_url": "https://www.fct.unl.pt/en/news/2026/07/amalia-llm-project-led-nova-fct-now-available",
-      "read_on": "2026-11-15",
-      "ai_path": "AI research, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "University of Coimbra, University of Minho, University of Porto",
-      "type": "institution",
-      "url": "https://www.fct.unl.pt/en/news/2026/07/amalia-llm-project-led-nova-fct-now-available",
-      "what": "Three universities in the AMALIA consortium with NOVA FCT and Técnico (Coimbra and Porto regions, and Minho in the north).",
-      "source_url": "https://www.fct.unl.pt/en/news/2026/07/amalia-llm-project-led-nova-fct-now-available",
-      "read_on": "2026-11-15",
-      "ai_path": "AI research, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "INESC-ID",
-      "type": "institution",
-      "url": "https://www.inesc-id.pt/",
-      "what": "Private non-profit research institute founded in 1999, over 750 people, jointly owned by Técnico and INESC, led its AMALIA team.",
-      "source_url": "https://www.inesc-id.pt/about-us/",
-      "read_on": "2026-11-15",
-      "ai_path": "AI research, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "INESC TEC (Porto)",
-      "type": "institution",
-      "url": "https://www.inesctec.pt/en",
-      "what": "Research institute at the FEUP campus in Porto with AI as one of eight research domains.",
-      "source_url": "https://www.inesctec.pt/en",
-      "read_on": "2026-11-15",
-      "ai_path": "AI research, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "Minho Advanced Computing Centre and the Deucalion supercomputer (Guimarães, Norte)",
-      "type": "institution",
-      "url": "https://www.macc.fccn.pt/",
-      "what": "MACC at the University of Minho runs Deucalion, which its page calls the largest supercomputer in Portugal and open to research, innovation and public-service projects since June 2024. The state put up to 3.7 million euros into it for 2026 to 2029.",
-      "source_url": "https://www.macc.fccn.pt/",
-      "read_on": "2026-11-15",
-      "ai_path": "Compute for AI workloads, so one step.",
-      "steps": 1
-    },
-    {
-      "name": "Center for Responsible AI",
-      "type": "organisation",
-      "url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
-      "what": "Consortium of the recovery plan, the largest technology agenda there, about 49 million public and 27 million private euros, led by Sword Health since October 2025.",
-      "source_url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
-      "read_on": "2026-11-15",
-      "ai_path": "A national AI consortium, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "Sword Health",
-      "type": "company",
-      "url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
-      "what": "Leads the Center for Responsible AI since October 2025.",
-      "source_url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
-      "read_on": "2026-11-15",
-      "ai_path": "Leads an AI consortium, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "Unbabel",
-      "type": "company",
-      "url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
-      "what": "AI translation company whose assets were bought by US capital in August 2025, the consortium products stayed in Portugal.",
-      "source_url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
-      "read_on": "2026-11-15",
-      "ai_path": "AI translation, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "Priberam",
-      "type": "company",
-      "url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
-      "what": "Built a tool that automates clinical episode coding in public hospitals, named in the Center for Responsible AI story.",
-      "source_url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
-      "read_on": "2026-11-15",
-      "ai_path": "An AI product, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "NeuralShift",
-      "type": "startup",
-      "url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
-      "what": "Startup behind Affine, an AI legal research tool, named in the Center for Responsible AI story.",
-      "source_url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
-      "read_on": "2026-11-15",
-      "ai_path": "An AI product, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "Feedzai",
-      "type": "company",
-      "url": "https://www.feedzai.com/about-us/",
-      "what": "AI fraud and financial crime prevention platform for financial institutions.",
-      "source_url": "https://www.feedzai.com/about-us/",
-      "read_on": "2026-11-15",
-      "ai_path": "An AI product, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "Talkdesk",
-      "type": "company",
-      "url": "https://www.talkdesk.com/about/",
-      "what": "Contact-centre platform with AI agents (Autopilot, Copilot and others), founded in 2011.",
-      "source_url": "https://www.talkdesk.com/about/",
-      "read_on": "2026-11-15",
-      "ai_path": "An AI product, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "Granter",
-      "type": "startup",
-      "url": "https://tech.eu/2026/11/03/portuguese-ai-startup-granter-bags-eur16m-to-expand-across-europe/",
-      "what": "AI platform to find and win public funding, raised 1.6 million euros in November 2026.",
-      "source_url": "https://tech.eu/2026/11/03/portuguese-ai-startup-granter-bags-eur16m-to-expand-across-europe/",
-      "read_on": "2026-11-15",
-      "ai_path": "An AI product, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "Neuraspace",
-      "type": "startup",
-      "url": "https://tech.eu/2026/08/05/neuraspace-lands-eur156m-to-expand-ai-space-intelligence-platform/",
-      "what": "AI platform for satellite operators' collision and interference risks, raised 15.6 million euros in August 2026.",
-      "source_url": "https://tech.eu/2026/08/05/neuraspace-lands-eur156m-to-expand-ai-space-intelligence-platform/",
-      "read_on": "2026-11-15",
-      "ai_path": "An AI product, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "Dojo AI",
-      "type": "startup",
-      "url": "https://www.essential-business.pt/2026/04/22/dojo-ai-in-e5-1-million-raise-for-us-expansion/",
-      "what": "AI marketing agent system, 5.1 million euro seed round in April 2026.",
-      "source_url": "https://www.essential-business.pt/2026/04/22/dojo-ai-in-e5-1-million-raise-for-us-expansion/",
-      "read_on": "2026-11-15",
-      "ai_path": "An AI product, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "Sybilion (Porto)",
-      "type": "startup",
-      "url": "https://pulse2.com/sybilion-e3-6-million-raised-to-build-ai-decision-layer-for-industrial-companies/amp/",
-      "what": "Decision layer for industrial companies linking market data to costs, about 3.6 million euro seed round in March 2026.",
-      "source_url": "https://pulse2.com/sybilion-e3-6-million-raised-to-build-ai-decision-layer-for-industrial-companies/amp/",
-      "read_on": "2026-11-15",
-      "ai_path": "An AI product, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "Coalex.ai",
-      "type": "startup",
-      "url": "https://dealroom.co/news/135231-coalex-ai-raises-angel-round-from-angels-way-to-build-its-ai-trust-layer/",
-      "what": "Real-time supervisor that monitors autonomous AI agents, angel round from Angels Way in June 2026.",
-      "source_url": "https://dealroom.co/news/135231-coalex-ai-raises-angel-round-from-angels-way-to-build-its-ai-trust-layer/",
-      "read_on": "2026-11-15",
-      "ai_path": "An AI product, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "Augusta Labs (Lisbon)",
-      "type": "company",
-      "url": "https://dealroom.co/news/130785-augusta-labs-raises-seed-round-at-50m-valuation/",
-      "what": "Applied-AI lab for large companies and governments, first round at a 50 million euro valuation, June 2026.",
-      "source_url": "https://dealroom.co/news/130785-augusta-labs-raises-seed-round-at-50m-valuation/",
-      "read_on": "2026-11-15",
-      "ai_path": "An applied-AI company, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "Angels Way",
-      "type": "investor",
-      "url": "https://dealroom.co/news/135231-coalex-ai-raises-angel-round-from-angels-way-to-build-its-ai-trust-layer/",
-      "what": "Portuguese angel investor community of 436 members, Coalex.ai is its 12th portfolio company.",
-      "source_url": "https://dealroom.co/news/135231-coalex-ai-raises-angel-round-from-angels-way-to-build-its-ai-trust-layer/",
-      "read_on": "2026-11-15",
-      "ai_path": "Backs an AI startup, so one step.",
-      "steps": 1
-    },
-    {
-      "name": "Armilar Venture Partners",
-      "type": "investor",
-      "url": "https://tech.eu/2026/08/05/neuraspace-lands-eur156m-to-expand-ai-space-intelligence-platform/",
-      "what": "Venture fund that backed Neuraspace and led Dojo AI's round.",
-      "source_url": "https://www.essential-business.pt/2026/04/22/dojo-ai-in-e5-1-million-raise-for-us-expansion/",
-      "read_on": "2026-11-15",
-      "ai_path": "Backs AI startups, so one step.",
-      "steps": 1
-    },
-    {
-      "name": "Champalimaud Foundation (Lisbon)",
-      "type": "institution",
-      "url": "https://www.fchampalimaud.org/news/champalimaud-foundation-and-instituto-superior-tecnico-join-forces-lead-research-neurorobotics",
-      "what": "Research foundation whose Neurotechnology Warehouse runs the new Neurorobotics Laboratory with Técnico, including an Embodied AI area.",
-      "source_url": "https://www.fchampalimaud.org/news/champalimaud-foundation-and-instituto-superior-tecnico-join-forces-lead-research-neurorobotics",
-      "read_on": "2026-11-15",
-      "ai_path": "AI research, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "Institute for Systems and Robotics, Técnico (ISR/LARSyS, Lisbon)",
-      "type": "institution",
-      "url": "https://www.fchampalimaud.org/news/champalimaud-foundation-and-instituto-superior-tecnico-join-forces-lead-research-neurorobotics",
-      "what": "Técnico's partner in the Neurorobotics Laboratory, a five-year agreement signed 18 February 2026.",
-      "source_url": "https://www.fchampalimaud.org/news/champalimaud-foundation-and-instituto-superior-tecnico-join-forces-lead-research-neurorobotics",
-      "read_on": "2026-11-15",
-      "ai_path": "AI and robotics research, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "BSC AI Factory, Portuguese nodes (Lisbon and Guimarães)",
-      "type": "public body",
-      "url": "https://www.fct.pt/en/bsc-ai-factory-lanca-segunda-call-do-incubation-space-program-dirigido-a-startups/",
-      "what": "EuroHPC-style AI incubation programme led by the Barcelona Supercomputing Center, with Portugal taking part through FCT and the National Center for Advanced Computing.",
-      "source_url": "https://www.fct.pt/en/bsc-ai-factory-lanca-segunda-call-do-incubation-space-program-dirigido-a-startups/",
-      "read_on": "2026-11-15",
-      "ai_path": "Incubates AI startups, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "National Center for Advanced Computing (CNCA)",
-      "type": "public body",
-      "url": "https://www.fct.pt/en/bsc-ai-factory-lanca-segunda-call-do-incubation-space-program-dirigido-a-startups/",
-      "what": "Portugal's partner, with FCT, in the BSC AI Factory.",
-      "source_url": "https://www.fct.pt/en/bsc-ai-factory-lanca-segunda-call-do-incubation-space-program-dirigido-a-startups/",
-      "read_on": "2026-11-15",
-      "ai_path": "Compute for AI, so one step.",
-      "steps": 1
-    },
-    {
-      "name": "FuriosaAI (Lisbon)",
-      "type": "company",
-      "url": "https://portugalglobal.pt/en/investment/publications/newsletter-invest-in-portugal-april-2026/",
-      "what": "South Korean AI chip start-up with its European flagship office in Lisbon since April 2026.",
-      "source_url": "https://portugalglobal.pt/en/investment/publications/newsletter-invest-in-portugal-april-2026/",
-      "read_on": "2026-11-15",
-      "ai_path": "An AI chip company, so one step.",
-      "steps": 1
-    },
-    {
-      "name": "AI² (Agency for Research and Innovation)",
-      "type": "public body",
-      "url": "https://theportugalpost.com/posts/portugals-new-ai-agency-to-streamline-grants-and-fund-innovation",
-      "what": "New public funder merging FCT and ANI, due to start on 1 January 2026 per one press article, details provisional.",
-      "source_url": "https://theportugalpost.com/posts/portugals-new-ai-agency-to-streamline-grants-and-fund-innovation",
-      "read_on": "2026-11-15",
-      "ai_path": "Funds national AI research, so one step.",
-      "steps": 1
-    },
-    {
-      "name": "Start Campus, SINES Data Campus (Sines, Alentejo coast)",
-      "type": "company",
-      "url": "https://www.nscale.com/press-releases/nscale-start-campus",
-      "what": "Builds and operates the data campus in Sines, permitted for 1.2 GW, where Nscale deploys GPUs for Microsoft.",
-      "source_url": "https://www.nscale.com/press-releases/nscale-start-campus",
-      "read_on": "2026-11-15",
-      "ai_path": "AI data-centre capacity, so one step.",
-      "steps": 1
-    },
-    {
-      "name": "Nscale",
-      "type": "company",
-      "url": "https://www.nscale.com/press-releases/nscale-start-campus",
-      "what": "AI infrastructure company announcing 66,000+ NVIDIA Rubin GPUs at Sines from late 2027, on top of 12,600 Blackwell Ultra GPUs.",
-      "source_url": "https://www.nscale.com/press-releases/nscale-start-campus",
-      "read_on": "2026-11-15",
-      "ai_path": "AI compute, so one step.",
-      "steps": 1
-    },
-    {
-      "name": "CGI Portugal",
-      "type": "company",
-      "url": "https://portugalglobal.pt/en/investment/publications/newsletter-invest-in-portugal-may-2026/",
-      "what": "Consulting firm with over 2,000 staff in Portugal and a new generative and agentic AI centre of excellence, city not stated.",
-      "source_url": "https://portugalglobal.pt/en/investment/publications/newsletter-invest-in-portugal-may-2026/",
-      "read_on": "2026-11-15",
-      "ai_path": "Generative AI practice, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "AI Centre of Excellence in Public Administration (under ARTE)",
-      "type": "public body",
-      "url": "https://digital.gov.pt/en/noticias/centro-excelencia-ia-motor-administracao-publica",
-      "what": "Leads and coordinates the responsible adoption of data and AI across the public sector, part of Action 20 of the digital strategy 2026 to 2027 plan.",
-      "source_url": "https://digital.gov.pt/en/noticias/centro-excelencia-ia-motor-administracao-publica",
-      "read_on": "2026-11-16",
-      "ai_path": "Runs public-sector AI, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "CAIRNE | Guimarães (University of Minho)",
-      "type": "community",
-      "url": "https://www.engium.uminho.pt/en/european-ai-research-network-establishes-hub-in-guimaraes/",
-      "what": "Portugal's national hub of the European Confederation of AI Research Laboratories, hosted at the School of Engineering in Guimarães (Norte).",
-      "source_url": "https://www.engium.uminho.pt/en/european-ai-research-network-establishes-hub-in-guimaraes/",
-      "read_on": "2026-11-16",
-      "ai_path": "An AI research network, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "APPIA (Associação Portuguesa para a Inteligência Artificial)",
-      "type": "organisation",
-      "url": "https://www.appia.pt/",
-      "what": "National AI society founded in 1984 and a member of EurAI. Runs the EPIA conference, a PhD thesis award, the PRAI journal and the Advanced School on AI.",
-      "source_url": "https://eurai.org/members/appia",
-      "read_on": "2026-11-16",
-      "ai_path": "A national society for AI research, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "NOVA LINCS (NOVA FCT, Lisbon area)",
-      "type": "institution",
-      "url": "https://nova-lincs.di.fct.unl.pt/",
-      "what": "NOVA's computer science research unit. Its multimodal systems group's RedTWIZ team took second place in the global Amazon Nova AI Challenge, and its researchers work on trustworthy LLMs and AMALIA.",
-      "source_url": "https://nova-lincs.di.fct.unl.pt/",
-      "read_on": "2026-11-16",
-      "ai_path": "AI and LLM research, so directly AI.",
-      "steps": 0
-    },
-    {
-      "name": "ia.gov.pt (AI portal of the public administration)",
-      "type": "public body",
-      "url": "https://digital.gov.pt/en/noticias/ja-esta-online-o-ia-gov-pt-o-portal-de-inteligencia-artificial-da-administracao-publica",
-      "what": "Single access point for national public-sector AI: a citizen assistant, a culture platform with about 42,000 objects, an education platform and access to AMALIA. In an initial phase. The page credits ARTE.",
-      "source_url": "https://digital.gov.pt/en/noticias/ja-esta-online-o-ia-gov-pt-o-portal-de-inteligencia-artificial-da-administracao-publica",
-      "read_on": "2026-11-16",
-      "ai_path": "A public AI portal, so directly AI.",
-      "steps": 0
-    }
-  ],
-  "extras": [
-    {
-      "label": "Portugal worker productivity vs the EU average",
-      "value": "75 percent, which the Agenda aims to lift by 2030",
-      "source_url": "https://cms.law/en/prt/news-information/national-artificial-intelligence-agenda-for-the-2026-2030",
-      "read_on": "2026-11-15"
-    },
-    {
-      "label": "Government estimate of AI's GDP effect over a decade",
-      "value": "18 to 22 billion euros",
-      "source_url": "https://www.rtp.pt/noticias/economia/agenda-nacional-de-ia-tem-investimento-acima-de-400-milhoes-de-euros-ate-2030_n1708609",
-      "read_on": "2026-11-15"
-    },
-    {
-      "label": "Starting a company here: Startup Portugal",
-      "value": "A public and private initiative to make it simpler to start, grow and invest in a company in Portugal, with a One Stop Shop for funding, visas and programmes, a national incubator network (RNi), a Founder's Guide and the SIM investor matching event. It reports 5,091 startups and 470 million euros raised in 2025. Its page lists no AI-specific programme.",
-      "source_url": "https://startupportugal.com/",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Starting a company here: Banco Português de Fomento",
-      "value": "The state development bank, with a pillar for creating new businesses and Portugal Ventures named as a partner. It leads the AI gigafactory bid, and its capitalisation programme backed the AI startup Granter. Its own page does not mention AI.",
-      "source_url": "https://www.bpfomento.pt/en/",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Starting a company here: ANI (National Innovation Agency)",
-      "value": "Runs the Portugal 2030 company R&D measures, the PRR Mission Interface programme and the Digital Innovation Hubs, and with FCT the national semiconductor strategy (121 million euros to 2027). The page read shows no AI programme, and AI² is due to merge ANI with FCT.",
-      "source_url": "https://ani.pt/en/",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "EPIA, Portugal's AI conference (APPIA)",
-      "value": "The 2025 edition was held at the University of Algarve in Faro, EPIA 2026 is set for 2 to 4 September 2026 at the University of Madeira, and the 2026 Advanced School on AI was at the University of Aveiro on 23 and 24 July.",
-      "source_url": "https://www.appia.pt/",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Starting a company here: Portugal Ventures",
-      "value": "Venture investor in technology startups at pre-seed, seed and Series A, with tickets up to 6 million euros and offices in Porto (headquarters) and Lisbon. It reports 283 million euros under management and 256 companies. Its page does not mention AI.",
-      "source_url": "https://www.portugalventures.pt/en/",
-      "read_on": "2026-11-16"
-    }
-  ],
-  "identity": {
-    "key_id": "site.portugal-promptugal",
-    "signed_by": "place.portugal@PrompTugal.dinis"
+   {
+    "title": "National AI Agenda 2026-2030 (CMS)",
+    "url": "https://cms.law/en/prt/news-information/national-artificial-intelligence-agenda-for-the-2026-2030",
+    "read_on": "2026-11-15"
+   },
+   {
+    "title": "RTP: the Agenda has more than 400 million euros to 2030",
+    "url": "https://www.rtp.pt/noticias/economia/agenda-nacional-de-ia-tem-investimento-acima-de-400-milhoes-de-euros-ate-2030_n1708609",
+    "read_on": "2026-11-15"
+   },
+   {
+    "title": "INESC-ID: AMALIA launched",
+    "url": "https://www.inesc-id.pt/amalia-was-officially-launched-and-is-now-ready-for-open-use/",
+    "read_on": "2026-11-15"
+   }
+  ]
+ },
+ "look": {
+  "accent": "#0B5D3B",
+  "landmark": "Torre de Belém",
+  "motif": "Atlantic green, a country on the edge of Europe looking out"
+ },
+ "ai_news": [
+  {
+   "title": "Granter raises 1.6 million euros to take its AI funding platform across Europe",
+   "summary": "The Portuguese startup helps SMEs and startups find public funding, write applications and run won projects. The round was led by 3XP Global through a fund of Banco Português de Fomento.",
+   "date": "2026-11-03",
+   "publisher": "Tech.eu",
+   "url": "https://tech.eu/2026/11/03/portuguese-ai-startup-granter-bags-eur16m-to-expand-across-europe/",
+   "read_on": "2026-11-15",
+   "ai_path": "A company that sells an AI product, so directly AI.",
+   "steps": 0
   },
-  "gaps": [
-    "Ninth pass of 16 November: 40 map entries, 22 news items, 7 extras, all from pages opened. Still to map: Lisbon and Porto AI communities, the other university labs (LIACC, CISUC, INESC TEC groups, IT: two sites down), people and talent.",
-    "No page we opened states the region of Priberam, Neuraspace, Granter, Dojo AI, Coalex.ai or Feedzai, so their region is left out until a source says it.",
-    "The gigafactory is an Iberian bid to EuroHPC, but our sources give no site in Portugal or decision date, and the National Data Centre Plan is still being finalised.",
-    "Sword Health and Unbabel have no page of their own read tonight (the company site refused or redirected), their entries rest on one press article.",
-    "No Algarve entry yet at national level: the region's AI map belongs to place.algarve@, and flows up from its file.",
-    "Tech Foundry Portugal (a deep tech accelerator announced in May 2026) was left out: the page we read does not mention AI, so it fails the PrompTugal test for now.",
-    "The DemocracI.A. conference in Porto on 25 November was only mentioned in a search summary and we found no page for it, so it is not listed. UJET's new Porto hub was left out: nothing we read connects it to AI.",
-    "Founder-facing public bodies (Startup Portugal, BPF, ANI) are in extras, not the map: the pages read show no AI programme of their own. A consolidated 'where do I go' guide for AI founders still needs one official page per step.",
-    "INESC-ID's SAIL Centre of Excellence (reported at 27.2 million euros in a search snippet) is not listed: the page we tried returned 404.",
-    "The Instituto de Telecomunicações site returned an error on two tries (503), and INESC-ID's Center for Responsible AI page returned 404, so both stay out of the map until an official page loads.",
-    "Investors: Armilar and Lince Capital appear in our news items, but we found no official page of theirs, and the directories we saw are not primary sources. Portugal Ventures' own page names no AI focus, so it sits in extras.",
-    "CISUC (Coimbra) lists research groups on its page but does not say which are AI, and LIACC's site returned an error (503), so neither is mapped yet.",
-    "The AMALIA coverage has one critical point so far, the Journalists' Union's objection to the Arquivo.pt data (in ECO, 15 September). A political critique of its cost reported in July could not be opened (403), so the page still lacks the opposition's own words and any government reply."
-  ],
-  "voice": {
-    "lede": "A country on the Atlantic edge of Europe that wrote itself a language model of its own, and would like you to try it.",
-    "mandate": "PrompTugal.news Portugal: AI and tech from the edge of Europe, the national map, the national programmes, and what trickles down to the Algarve and every region. Independent, and every fact has its source.",
-    "gravity": "First the national plan, over 400 million euros of mostly European money, then AMALIA, the supercomputers and a startup scene that keeps raising rounds in Porto and Lisbon.",
-    "gaps_intro": "What we have not found yet, because even a good research agent needs a pastel de nata and a second pass."
+  {
+   "title": "Prime Minister signs an international call for safer advanced AI",
+   "summary": "Portugal's Prime Minister signed, with more than 30 leaders, an appeal for safety protocols, common standards and international mechanisms for advanced AI models.",
+   "date": "2026-09-25",
+   "publisher": "Portugal.gov.pt",
+   "url": "https://portugal.gov.pt/pt/gc25/comunicacao/noticias/portugal-assina-apelo-internacional-para-uma-gestao-responsavel-da-inteligencia-artificial",
+   "read_on": "2026-11-15",
+   "ai_path": "National government policy on AI governance, so directly AI.",
+   "steps": 0
+  },
+  {
+   "title": "AMALIA gets a second phase: 1.8 million euros more, agent tools planned by the end of 2026",
+   "summary": "A Council of Ministers resolution adds 1.8 million euros from the recovery plan, taking the project cost to 7.3 million euros, and aims to move AMALIA from prototype into citizen services. The training plan covers agent tools and image and speech, and the government will seek talks with media companies for archive access. The article notes that the Journalists' Union contested the use of Arquivo.pt data in the first phase. These are stated intentions, not deliveries.",
+   "date": "2026-09-15",
+   "publisher": "ECO",
+   "url": "https://eco.sapo.pt/2026/09/15/amalia-ganha-ferramentas-de-agentificacao-ate-final-do-ano/",
+   "read_on": "2026-11-16",
+   "ai_path": "A national language model, so directly AI.",
+   "steps": 0
+  },
+  {
+   "title": "Neuraspace raises 15.6 million euros for AI space-traffic intelligence",
+   "summary": "The platform helps satellite operators watch collision risks, cyber threats and radio interference. Investors include Lince Capital, Explorer Investments and Armilar, plus recovery plan funds.",
+   "date": "2026-08-05",
+   "publisher": "Tech.eu",
+   "url": "https://tech.eu/2026/08/05/neuraspace-lands-eur156m-to-expand-ai-space-intelligence-platform/",
+   "read_on": "2026-11-15",
+   "ai_path": "An AI-powered platform company, so directly AI.",
+   "steps": 0
+  },
+  {
+   "title": "Government backs an Iberian bid for an EU AI gigafactory, with up to 200 million euros of Portuguese funding",
+   "summary": "Portugal would buy computing time with up to 200 million euros in the first phase, matched by EuroHPC. The Portuguese component is estimated at about 4 billion euros. The source gives no site in Portugal.",
+   "date": "2026-06-26",
+   "publisher": "Portugal.gov.pt",
+   "url": "https://portugal.gov.pt/pt/gc25/comunicacao/noticias/gigafabricas-de-inteligencia-artificial-reforcam-soberania-tecnologica-com-investimento-de-200-milhoes",
+   "read_on": "2026-11-16",
+   "ai_path": "Public AI compute capacity, so directly AI.",
+   "steps": 0
+  },
+  {
+   "title": "Center for Responsible AI changed hands after Unbabel's fall and expects 150 million euros of turnover",
+   "summary": "The largest recovery-plan technology agenda is now led by Sword Health. The consortium expects about 150 million euros of turnover this year, mostly exports, and names Priberam and NeuralShift among its products.",
+   "date": "2026-07-18",
+   "publisher": "Dinheiro Vivo",
+   "url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
+   "read_on": "2026-11-15",
+   "ai_path": "A national AI consortium, so directly AI.",
+   "steps": 0
+  },
+  {
+   "title": "AMALIA's funding rises to 7 million euros as it heads into the Gov.pt app",
+   "summary": "The government added 1.5 million euros on top of the original 5.5 million from the recovery plan, to 2027. Next steps named are use in the Gov.pt app, licensing and procurement, agent abilities and a growth from 9 to 22 billion parameters. The Prime Minister said the government was not celebrating and called it a small step toward autonomy.",
+   "date": "2026-07-01",
+   "publisher": "ECO",
+   "url": "https://eco.sapo.pt/2026/07/01/investimento-no-amalia-sobe-para-sete-milhoes-de-euros-montenegro-diz-que-o-governo-nao-esta-a-festejar-nada/",
+   "read_on": "2026-11-16",
+   "ai_path": "A national language model, so directly AI.",
+   "steps": 0
+  },
+  {
+   "title": "AMALIA, the open language model for European Portuguese, is launched",
+   "summary": "Presented on 1 July 2026 at the Técnico Innovation Center in Lisbon, built on EuroLLM with data from Arquivo.PT, funded with 5.5 million euros from the recovery plan and ready for open use.",
+   "date": "2026-07-15",
+   "publisher": "INESC-ID",
+   "url": "https://www.inesc-id.pt/amalia-was-officially-launched-and-is-now-ready-for-open-use/",
+   "read_on": "2026-11-15",
+   "ai_path": "A national large language model, so directly AI.",
+   "steps": 0
+  },
+  {
+   "title": "Nscale plans more than 66,000 NVIDIA Rubin GPUs for Microsoft at the Sines data campus",
+   "summary": "From late 2027, with 230 million euros for shared infrastructure and 465 million euros for a second 200 MW building, next to the 12,600 Blackwell Ultra GPUs already planned there. Start Campus builds and operates the site.",
+   "date": "2026-05-05",
+   "publisher": "Nscale",
+   "url": "https://www.nscale.com/press-releases/nscale-start-campus",
+   "read_on": "2026-11-15",
+   "ai_path": "AI compute capacity in Portugal, so one step: the hardware AI workloads run on.",
+   "steps": 1
+  },
+  {
+   "title": "CGI sets up a generative and agentic AI centre of excellence in Portugal",
+   "summary": "The Canadian consulting firm, with over 2,000 staff in Portugal, launched the centre in May 2026. The source names no city for it.",
+   "date": "2026-05",
+   "publisher": "Portugal Global newsletter",
+   "url": "https://portugalglobal.pt/en/investment/publications/newsletter-invest-in-portugal-may-2026/",
+   "read_on": "2026-11-15",
+   "ai_path": "A centre focused on generative and agentic AI, so directly AI.",
+   "steps": 0
+  },
+  {
+   "title": "Coalex.ai raises an angel round to supervise AI agents",
+   "summary": "The Portuguese startup monitors autonomous AI agents, flags risky outputs for human review and scores them from 0 to 100. The investor is Angels Way.",
+   "date": "2026-06-19",
+   "publisher": "Dealroom",
+   "url": "https://dealroom.co/news/135231-coalex-ai-raises-angel-round-from-angels-way-to-build-its-ai-trust-layer/",
+   "read_on": "2026-11-15",
+   "ai_path": "An AI-governance product, so directly AI.",
+   "steps": 0
+  },
+  {
+   "title": "Lisbon applied-AI lab Augusta Labs closes a first round at a 50 million euro valuation",
+   "summary": "The lab builds custom AI solutions for large companies, private equity firms and government agencies. The round size was not disclosed.",
+   "date": "2026-06-01",
+   "publisher": "Dealroom",
+   "url": "https://dealroom.co/news/130785-augusta-labs-raises-seed-round-at-50m-valuation/",
+   "read_on": "2026-11-15",
+   "ai_path": "An applied-AI company, so directly AI.",
+   "steps": 0
+  },
+  {
+   "title": "Dojo AI raises 5.1 million euros for its AI marketing agent",
+   "summary": "A Portuguese startup selling an AI agent system to marketing teams, with most revenue from the US. The seed round was led by Armilar.",
+   "date": "2026-04-22",
+   "publisher": "Essential Business",
+   "url": "https://www.essential-business.pt/2026/04/22/dojo-ai-in-e5-1-million-raise-for-us-expansion/",
+   "read_on": "2026-11-15",
+   "ai_path": "An AI agent product, so directly AI.",
+   "steps": 0
+  },
+  {
+   "title": "FuriosaAI, a South Korean AI chip start-up, sets up its European flagship office in Lisbon",
+   "summary": "The office will coordinate commercial and technical support across Europe and do R&D in compilers and chip and PCB design.",
+   "date": "2026-04",
+   "publisher": "Portugal Global newsletter",
+   "url": "https://portugalglobal.pt/en/investment/publications/newsletter-invest-in-portugal-april-2026/",
+   "read_on": "2026-11-15",
+   "ai_path": "An AI chip company based in Lisbon, so one step: hardware AI runs on.",
+   "steps": 1
+  },
+  {
+   "title": "Government puts up to 19.3 million euros into two supercomputing and AI projects",
+   "summary": "Up to 3.7 million euros for the Deucalion supercomputer in Guimarães and up to 15.6 million euros to upgrade MareNostrum 5 in Barcelona into an AI platform, both managed by FCT.",
+   "date": "2026-04-08",
+   "publisher": "DPL News",
+   "url": "https://dplnews.com/portugal-vai-investir-em-supercomputacao-estrategica-e-projetos-de-ia/",
+   "read_on": "2026-11-15",
+   "ai_path": "Public compute for AI research, so one step: compute that AI workloads run on.",
+   "steps": 1
+  },
+  {
+   "title": "Sybilion, from Porto, raises 3.6 million euros for an AI decision layer",
+   "summary": "The platform links market data such as commodity prices and freight rates to a company's own costs to help procurement and pricing. Co-led by VentureFriends and Semapa Next.",
+   "date": "2026-03-12",
+   "publisher": "Pulse 2.0",
+   "url": "https://pulse2.com/sybilion-e3-6-million-raised-to-build-ai-decision-layer-for-industrial-companies/amp/",
+   "read_on": "2026-11-15",
+   "ai_path": "An AI decision-intelligence product, so directly AI.",
+   "steps": 0
+  },
+  {
+   "title": "BSC AI Factory opens a second call for AI startups, with incubation spaces in Lisbon and Guimarães",
+   "summary": "Early-stage startups building or intensively using AI could apply for incubation from April to September 2026, with technical AI support and mentoring. Portugal takes part through FCT and the National Center for Advanced Computing.",
+   "date": "2026-03-03",
+   "publisher": "FCT",
+   "url": "https://www.fct.pt/en/bsc-ai-factory-lanca-segunda-call-do-incubation-space-program-dirigido-a-startups/",
+   "read_on": "2026-11-15",
+   "ai_path": "A programme that incubates AI startups, so directly AI.",
+   "steps": 0
+  },
+  {
+   "title": "Champalimaud Foundation and Técnico open a Neurorobotics Laboratory",
+   "summary": "A five-year agreement signed on 18 February 2026 creates a lab covering embodied AI, social robotics, neurorehabilitation and biomimetic robots, with Técnico's Institute for Systems and Robotics.",
+   "date": "2026-02-26",
+   "publisher": "Champalimaud Foundation",
+   "url": "https://www.fchampalimaud.org/news/champalimaud-foundation-and-instituto-superior-tecnico-join-forces-lead-research-neurorobotics",
+   "read_on": "2026-11-15",
+   "ai_path": "A lab with an embodied AI research area, so directly AI.",
+   "steps": 0
+  },
+  {
+   "title": "Portugal approves its National AI Agenda and an action plan to 2030",
+   "summary": "Resolution 2/2026 sets four pillars and four first initiatives: a gigafactory bid, sector AI centres, an acceleration programme for responsible AI startups and regulatory sandboxes.",
+   "date": "2026-01-08",
+   "publisher": "CMS",
+   "url": "https://cms.law/en/prt/news-information/national-artificial-intelligence-agenda-for-the-2026-2030",
+   "read_on": "2026-11-15",
+   "ai_path": "National AI policy, so directly AI.",
+   "steps": 0
+  },
+  {
+   "title": "Government earmarks about 25 million euros to adopt AI in public administration",
+   "summary": "The money funds use cases from public procurement support agents to invoice automation. About 10 million euros has already gone to cases under development.",
+   "date": "2026-01-08",
+   "publisher": "Forbes Portugal",
+   "url": "https://www.forbespt.com/?p=178259",
+   "read_on": "2026-11-15",
+   "ai_path": "The State adopting AI in services, so directly AI.",
+   "steps": 0
+  },
+  {
+   "title": "Portugal's new Agency for Research and Innovation (AI²) was due to start on 1 January 2026",
+   "summary": "It merges FCT and the National Innovation Agency into one public body for the whole innovation chain. This single article described it before its decree-law was published, so treat the details as provisional.",
+   "date": "2025-12-14",
+   "publisher": "The Portugal Post",
+   "url": "https://theportugalpost.com/posts/portugals-new-ai-agency-to-streamline-grants-and-fund-innovation",
+   "read_on": "2026-11-15",
+   "ai_path": "The funder that will pay for national AI research and startups, so one step.",
+   "steps": 1
+  },
+  {
+   "title": "European AI research network CAIRNE opens its Portuguese hub in Guimarães",
+   "summary": "CAIRNE | Guimarães is hosted by the University of Minho's School of Engineering and joins branch offices in cities such as Brussels, Paris and Rome.",
+   "date": "2025-10-21",
+   "publisher": "University of Minho",
+   "url": "https://www.engium.uminho.pt/en/european-ai-research-network-establishes-hub-in-guimaraes/",
+   "read_on": "2026-11-16",
+   "ai_path": "A network of AI research laboratories, so directly AI.",
+   "steps": 0
   }
+ ],
+ "sources": [
+  {
+   "name": "Portugal.gov.pt news",
+   "url": "https://portugal.gov.pt/",
+   "kind": "other",
+   "feed": null
+  },
+  {
+   "name": "FCT (Foundation for Science and Technology)",
+   "url": "https://www.fct.pt/en/",
+   "kind": "other",
+   "feed": null
+  },
+  {
+   "name": "INESC-ID news",
+   "url": "https://www.inesc-id.pt/",
+   "kind": "university",
+   "feed": null
+  },
+  {
+   "name": "INESC TEC news",
+   "url": "https://www.inesctec.pt/en",
+   "kind": "university",
+   "feed": null
+  },
+  {
+   "name": "Dinheiro Vivo",
+   "url": "https://dinheirovivo.dn.pt/",
+   "kind": "press",
+   "feed": null
+  },
+  {
+   "name": "RTP Notícias",
+   "url": "https://www.rtp.pt/noticias/",
+   "kind": "press",
+   "feed": null
+  },
+  {
+   "name": "Tech.eu",
+   "url": "https://tech.eu/",
+   "kind": "press",
+   "feed": null
+  },
+  {
+   "name": "Forbes Portugal",
+   "url": "https://www.forbespt.com/",
+   "kind": "press",
+   "feed": null
+  }
+ ],
+ "events": [
+  {
+   "title": "UNESCO Global MOOC on the Ethics of AI (listed on FCT's agenda)",
+   "date": "December 2026",
+   "url": "https://www.fct.pt/en/",
+   "read_on": "2026-11-15",
+   "ai_path": "An online course on AI ethics, so directly AI."
+  }
+ ],
+ "ai_map": [
+  {
+   "name": "AMALIA",
+   "type": "public body",
+   "url": "https://www.inesc-id.pt/amalia-was-officially-launched-and-is-now-ready-for-open-use/",
+   "what": "Open language model for European Portuguese, launched 1 July 2026 in Lisbon, coordinated by ARTE and FCT with about 80 researchers. Funding rose to 7 million euros in July and to 7.3 million euros by a September resolution. Multimodal, 9 billion parameters, growing to 22 billion.",
+   "source_url": "https://eco.sapo.pt/2026/09/15/amalia-ganha-ferramentas-de-agentificacao-ate-final-do-ano/",
+   "read_on": "2026-11-15",
+   "ai_path": "A language model, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "ARTE (Agência para a Reforma Tecnológica do Estado)",
+   "type": "public body",
+   "url": "https://www.inesc-id.pt/amalia-was-officially-launched-and-is-now-ready-for-open-use/",
+   "what": "State agency that coordinated AMALIA with FCT, under the Ministry of State Reform.",
+   "source_url": "https://www.inesc-id.pt/amalia-was-officially-launched-and-is-now-ready-for-open-use/",
+   "read_on": "2026-11-15",
+   "ai_path": "Runs public-sector AI, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "FCT (Fundação para a Ciência e a Tecnologia)",
+   "type": "public body",
+   "url": "https://www.fct.pt/en/",
+   "what": "National science funder, Lisbon, co-coordinated AMALIA and manages the supercomputing and AI projects of 2026.",
+   "source_url": "https://dplnews.com/portugal-vai-investir-em-supercomputacao-estrategica-e-projetos-de-ia/",
+   "read_on": "2026-11-15",
+   "ai_path": "Funds AI research and compute, so one step.",
+   "steps": 1
+  },
+  {
+   "name": "Ministry of State Reform (Ministério da Reforma do Estado)",
+   "type": "public body",
+   "url": "https://www.rtp.pt/noticias/economia/agenda-nacional-de-ia-tem-investimento-acima-de-400-milhoes-de-euros-ate-2030_n1708609",
+   "what": "Announced the National AI Agenda and the 25 million euro programme for AI in public administration.",
+   "source_url": "https://www.rtp.pt/noticias/economia/agenda-nacional-de-ia-tem-investimento-acima-de-400-milhoes-de-euros-ate-2030_n1708609",
+   "read_on": "2026-11-15",
+   "ai_path": "Owns national AI policy, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "Banco Português de Fomento",
+   "type": "public body",
+   "url": "https://www.rtp.pt/noticias/economia/agenda-nacional-de-ia-tem-investimento-acima-de-400-milhoes-de-euros-ate-2030_n1708609",
+   "what": "Leads Portugal's bid to host a European AI gigafactory, in initial assessment under EuroHPC, also manages a venture programme that backed Granter.",
+   "source_url": "https://www.rtp.pt/noticias/economia/agenda-nacional-de-ia-tem-investimento-acima-de-400-milhoes-de-euros-ate-2030_n1708609",
+   "read_on": "2026-11-15",
+   "ai_path": "Funds AI compute and startups, so one step.",
+   "steps": 1
+  },
+  {
+   "name": "Instituto Superior Técnico (Lisbon)",
+   "type": "institution",
+   "url": "https://www.inesc-id.pt/amalia-was-officially-launched-and-is-now-ready-for-open-use/",
+   "what": "University school co-owning INESC-ID, hosts the Técnico Innovation Center where AMALIA was presented, part of the AMALIA consortium.",
+   "source_url": "https://www.inesc-id.pt/amalia-was-officially-launched-and-is-now-ready-for-open-use/",
+   "read_on": "2026-11-15",
+   "ai_path": "AI research and the AMALIA model, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "NOVA FCT (Lisbon area)",
+   "type": "institution",
+   "url": "https://www.fct.unl.pt/en/news/2026/07/amalia-llm-project-led-nova-fct-now-available",
+   "what": "University faculty in the AMALIA consortium, its NOVA LINCS researchers coordinate the project.",
+   "source_url": "https://www.fct.unl.pt/en/news/2026/07/amalia-llm-project-led-nova-fct-now-available",
+   "read_on": "2026-11-15",
+   "ai_path": "AI research, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "University of Coimbra, University of Minho, University of Porto",
+   "type": "institution",
+   "url": "https://www.fct.unl.pt/en/news/2026/07/amalia-llm-project-led-nova-fct-now-available",
+   "what": "Three universities in the AMALIA consortium with NOVA FCT and Técnico (Coimbra and Porto regions, and Minho in the north).",
+   "source_url": "https://www.fct.unl.pt/en/news/2026/07/amalia-llm-project-led-nova-fct-now-available",
+   "read_on": "2026-11-15",
+   "ai_path": "AI research, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "INESC-ID",
+   "type": "institution",
+   "url": "https://www.inesc-id.pt/",
+   "what": "Private non-profit research institute founded in 1999, over 750 people, jointly owned by Técnico and INESC, led its AMALIA team.",
+   "source_url": "https://www.inesc-id.pt/about-us/",
+   "read_on": "2026-11-15",
+   "ai_path": "AI research, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "INESC TEC (Porto)",
+   "type": "institution",
+   "url": "https://www.inesctec.pt/en",
+   "what": "Research institute at the FEUP campus in Porto with AI as one of eight research domains.",
+   "source_url": "https://www.inesctec.pt/en",
+   "read_on": "2026-11-15",
+   "ai_path": "AI research, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "Minho Advanced Computing Centre and the Deucalion supercomputer (Guimarães, Norte)",
+   "type": "institution",
+   "url": "https://www.macc.fccn.pt/",
+   "what": "MACC at the University of Minho runs Deucalion, which its page calls the largest supercomputer in Portugal and open to research, innovation and public-service projects since June 2024. The state put up to 3.7 million euros into it for 2026 to 2029.",
+   "source_url": "https://www.macc.fccn.pt/",
+   "read_on": "2026-11-15",
+   "ai_path": "Compute for AI workloads, so one step.",
+   "steps": 1
+  },
+  {
+   "name": "Center for Responsible AI",
+   "type": "organisation",
+   "url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
+   "what": "Consortium of the recovery plan, the largest technology agenda there, about 49 million public and 27 million private euros, led by Sword Health since October 2025.",
+   "source_url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
+   "read_on": "2026-11-15",
+   "ai_path": "A national AI consortium, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "Sword Health",
+   "type": "company",
+   "url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
+   "what": "Leads the Center for Responsible AI since October 2025.",
+   "source_url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
+   "read_on": "2026-11-15",
+   "ai_path": "Leads an AI consortium, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "Unbabel",
+   "type": "company",
+   "url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
+   "what": "AI translation company whose assets were bought by US capital in August 2025, the consortium products stayed in Portugal.",
+   "source_url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
+   "read_on": "2026-11-15",
+   "ai_path": "AI translation, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "Priberam",
+   "type": "company",
+   "url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
+   "what": "Built a tool that automates clinical episode coding in public hospitals, named in the Center for Responsible AI story.",
+   "source_url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
+   "read_on": "2026-11-15",
+   "ai_path": "An AI product, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "NeuralShift",
+   "type": "startup",
+   "url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
+   "what": "Startup behind Affine, an AI legal research tool, named in the Center for Responsible AI story.",
+   "source_url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
+   "read_on": "2026-11-15",
+   "ai_path": "An AI product, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "Feedzai",
+   "type": "company",
+   "url": "https://www.feedzai.com/about-us/",
+   "what": "AI fraud and financial crime prevention platform for financial institutions.",
+   "source_url": "https://www.feedzai.com/about-us/",
+   "read_on": "2026-11-15",
+   "ai_path": "An AI product, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "Talkdesk",
+   "type": "company",
+   "url": "https://www.talkdesk.com/about/",
+   "what": "Contact-centre platform with AI agents (Autopilot, Copilot and others), founded in 2011.",
+   "source_url": "https://www.talkdesk.com/about/",
+   "read_on": "2026-11-15",
+   "ai_path": "An AI product, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "Granter",
+   "type": "startup",
+   "url": "https://tech.eu/2026/11/03/portuguese-ai-startup-granter-bags-eur16m-to-expand-across-europe/",
+   "what": "AI platform to find and win public funding, raised 1.6 million euros in November 2026.",
+   "source_url": "https://tech.eu/2026/11/03/portuguese-ai-startup-granter-bags-eur16m-to-expand-across-europe/",
+   "read_on": "2026-11-15",
+   "ai_path": "An AI product, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "Neuraspace",
+   "type": "startup",
+   "url": "https://tech.eu/2026/08/05/neuraspace-lands-eur156m-to-expand-ai-space-intelligence-platform/",
+   "what": "AI platform for satellite operators' collision and interference risks, raised 15.6 million euros in August 2026.",
+   "source_url": "https://tech.eu/2026/08/05/neuraspace-lands-eur156m-to-expand-ai-space-intelligence-platform/",
+   "read_on": "2026-11-15",
+   "ai_path": "An AI product, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "Dojo AI",
+   "type": "startup",
+   "url": "https://www.essential-business.pt/2026/04/22/dojo-ai-in-e5-1-million-raise-for-us-expansion/",
+   "what": "AI marketing agent system, 5.1 million euro seed round in April 2026.",
+   "source_url": "https://www.essential-business.pt/2026/04/22/dojo-ai-in-e5-1-million-raise-for-us-expansion/",
+   "read_on": "2026-11-15",
+   "ai_path": "An AI product, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "Sybilion (Porto)",
+   "type": "startup",
+   "url": "https://pulse2.com/sybilion-e3-6-million-raised-to-build-ai-decision-layer-for-industrial-companies/amp/",
+   "what": "Decision layer for industrial companies linking market data to costs, about 3.6 million euro seed round in March 2026.",
+   "source_url": "https://pulse2.com/sybilion-e3-6-million-raised-to-build-ai-decision-layer-for-industrial-companies/amp/",
+   "read_on": "2026-11-15",
+   "ai_path": "An AI product, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "Coalex.ai",
+   "type": "startup",
+   "url": "https://dealroom.co/news/135231-coalex-ai-raises-angel-round-from-angels-way-to-build-its-ai-trust-layer/",
+   "what": "Real-time supervisor that monitors autonomous AI agents, angel round from Angels Way in June 2026.",
+   "source_url": "https://dealroom.co/news/135231-coalex-ai-raises-angel-round-from-angels-way-to-build-its-ai-trust-layer/",
+   "read_on": "2026-11-15",
+   "ai_path": "An AI product, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "Augusta Labs (Lisbon)",
+   "type": "company",
+   "url": "https://dealroom.co/news/130785-augusta-labs-raises-seed-round-at-50m-valuation/",
+   "what": "Applied-AI lab for large companies and governments, first round at a 50 million euro valuation, June 2026.",
+   "source_url": "https://dealroom.co/news/130785-augusta-labs-raises-seed-round-at-50m-valuation/",
+   "read_on": "2026-11-15",
+   "ai_path": "An applied-AI company, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "Angels Way",
+   "type": "investor",
+   "url": "https://dealroom.co/news/135231-coalex-ai-raises-angel-round-from-angels-way-to-build-its-ai-trust-layer/",
+   "what": "Portuguese angel investor community of 436 members, Coalex.ai is its 12th portfolio company.",
+   "source_url": "https://dealroom.co/news/135231-coalex-ai-raises-angel-round-from-angels-way-to-build-its-ai-trust-layer/",
+   "read_on": "2026-11-15",
+   "ai_path": "Backs an AI startup, so one step.",
+   "steps": 1
+  },
+  {
+   "name": "Armilar Venture Partners",
+   "type": "investor",
+   "url": "https://tech.eu/2026/08/05/neuraspace-lands-eur156m-to-expand-ai-space-intelligence-platform/",
+   "what": "Venture fund that backed Neuraspace and led Dojo AI's round.",
+   "source_url": "https://www.essential-business.pt/2026/04/22/dojo-ai-in-e5-1-million-raise-for-us-expansion/",
+   "read_on": "2026-11-15",
+   "ai_path": "Backs AI startups, so one step.",
+   "steps": 1
+  },
+  {
+   "name": "Champalimaud Foundation (Lisbon)",
+   "type": "institution",
+   "url": "https://www.fchampalimaud.org/news/champalimaud-foundation-and-instituto-superior-tecnico-join-forces-lead-research-neurorobotics",
+   "what": "Research foundation whose Neurotechnology Warehouse runs the new Neurorobotics Laboratory with Técnico, including an Embodied AI area.",
+   "source_url": "https://www.fchampalimaud.org/news/champalimaud-foundation-and-instituto-superior-tecnico-join-forces-lead-research-neurorobotics",
+   "read_on": "2026-11-15",
+   "ai_path": "AI research, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "Institute for Systems and Robotics, Técnico (ISR/LARSyS, Lisbon)",
+   "type": "institution",
+   "url": "https://www.fchampalimaud.org/news/champalimaud-foundation-and-instituto-superior-tecnico-join-forces-lead-research-neurorobotics",
+   "what": "Técnico's partner in the Neurorobotics Laboratory, a five-year agreement signed 18 February 2026.",
+   "source_url": "https://www.fchampalimaud.org/news/champalimaud-foundation-and-instituto-superior-tecnico-join-forces-lead-research-neurorobotics",
+   "read_on": "2026-11-15",
+   "ai_path": "AI and robotics research, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "BSC AI Factory, Portuguese nodes (Lisbon and Guimarães)",
+   "type": "public body",
+   "url": "https://www.fct.pt/en/bsc-ai-factory-lanca-segunda-call-do-incubation-space-program-dirigido-a-startups/",
+   "what": "EuroHPC-style AI incubation programme led by the Barcelona Supercomputing Center, with Portugal taking part through FCT and the National Center for Advanced Computing.",
+   "source_url": "https://www.fct.pt/en/bsc-ai-factory-lanca-segunda-call-do-incubation-space-program-dirigido-a-startups/",
+   "read_on": "2026-11-15",
+   "ai_path": "Incubates AI startups, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "National Center for Advanced Computing (CNCA)",
+   "type": "public body",
+   "url": "https://www.fct.pt/en/bsc-ai-factory-lanca-segunda-call-do-incubation-space-program-dirigido-a-startups/",
+   "what": "Portugal's partner, with FCT, in the BSC AI Factory.",
+   "source_url": "https://www.fct.pt/en/bsc-ai-factory-lanca-segunda-call-do-incubation-space-program-dirigido-a-startups/",
+   "read_on": "2026-11-15",
+   "ai_path": "Compute for AI, so one step.",
+   "steps": 1
+  },
+  {
+   "name": "FuriosaAI (Lisbon)",
+   "type": "company",
+   "url": "https://portugalglobal.pt/en/investment/publications/newsletter-invest-in-portugal-april-2026/",
+   "what": "South Korean AI chip start-up with its European flagship office in Lisbon since April 2026.",
+   "source_url": "https://portugalglobal.pt/en/investment/publications/newsletter-invest-in-portugal-april-2026/",
+   "read_on": "2026-11-15",
+   "ai_path": "An AI chip company, so one step.",
+   "steps": 1
+  },
+  {
+   "name": "AI² (Agency for Research and Innovation)",
+   "type": "public body",
+   "url": "https://theportugalpost.com/posts/portugals-new-ai-agency-to-streamline-grants-and-fund-innovation",
+   "what": "New public funder merging FCT and ANI, due to start on 1 January 2026 per one press article, details provisional.",
+   "source_url": "https://theportugalpost.com/posts/portugals-new-ai-agency-to-streamline-grants-and-fund-innovation",
+   "read_on": "2026-11-15",
+   "ai_path": "Funds national AI research, so one step.",
+   "steps": 1
+  },
+  {
+   "name": "Start Campus, SINES Data Campus (Sines, Alentejo coast)",
+   "type": "company",
+   "url": "https://www.nscale.com/press-releases/nscale-start-campus",
+   "what": "Builds and operates the data campus in Sines, permitted for 1.2 GW, where Nscale deploys GPUs for Microsoft.",
+   "source_url": "https://www.nscale.com/press-releases/nscale-start-campus",
+   "read_on": "2026-11-15",
+   "ai_path": "AI data-centre capacity, so one step.",
+   "steps": 1
+  },
+  {
+   "name": "Nscale",
+   "type": "company",
+   "url": "https://www.nscale.com/press-releases/nscale-start-campus",
+   "what": "AI infrastructure company announcing 66,000+ NVIDIA Rubin GPUs at Sines from late 2027, on top of 12,600 Blackwell Ultra GPUs.",
+   "source_url": "https://www.nscale.com/press-releases/nscale-start-campus",
+   "read_on": "2026-11-15",
+   "ai_path": "AI compute, so one step.",
+   "steps": 1
+  },
+  {
+   "name": "CGI Portugal",
+   "type": "company",
+   "url": "https://portugalglobal.pt/en/investment/publications/newsletter-invest-in-portugal-may-2026/",
+   "what": "Consulting firm with over 2,000 staff in Portugal and a new generative and agentic AI centre of excellence, city not stated.",
+   "source_url": "https://portugalglobal.pt/en/investment/publications/newsletter-invest-in-portugal-may-2026/",
+   "read_on": "2026-11-15",
+   "ai_path": "Generative AI practice, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "AI Centre of Excellence in Public Administration (under ARTE)",
+   "type": "public body",
+   "url": "https://digital.gov.pt/en/noticias/centro-excelencia-ia-motor-administracao-publica",
+   "what": "Leads and coordinates the responsible adoption of data and AI across the public sector, part of Action 20 of the digital strategy 2026 to 2027 plan.",
+   "source_url": "https://digital.gov.pt/en/noticias/centro-excelencia-ia-motor-administracao-publica",
+   "read_on": "2026-11-16",
+   "ai_path": "Runs public-sector AI, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "CAIRNE | Guimarães (University of Minho)",
+   "type": "community",
+   "url": "https://www.engium.uminho.pt/en/european-ai-research-network-establishes-hub-in-guimaraes/",
+   "what": "Portugal's national hub of the European Confederation of AI Research Laboratories, hosted at the School of Engineering in Guimarães (Norte).",
+   "source_url": "https://www.engium.uminho.pt/en/european-ai-research-network-establishes-hub-in-guimaraes/",
+   "read_on": "2026-11-16",
+   "ai_path": "An AI research network, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "APPIA (Associação Portuguesa para a Inteligência Artificial)",
+   "type": "organisation",
+   "url": "https://www.appia.pt/",
+   "what": "National AI society founded in 1984 and a member of EurAI. Runs the EPIA conference, a PhD thesis award, the PRAI journal and the Advanced School on AI.",
+   "source_url": "https://eurai.org/members/appia",
+   "read_on": "2026-11-16",
+   "ai_path": "A national society for AI research, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "NOVA LINCS (NOVA FCT, Lisbon area)",
+   "type": "institution",
+   "url": "https://nova-lincs.di.fct.unl.pt/",
+   "what": "NOVA's computer science research unit. Its multimodal systems group's RedTWIZ team took second place in the global Amazon Nova AI Challenge, and its researchers work on trustworthy LLMs and AMALIA.",
+   "source_url": "https://nova-lincs.di.fct.unl.pt/",
+   "read_on": "2026-11-16",
+   "ai_path": "AI and LLM research, so directly AI.",
+   "steps": 0
+  },
+  {
+   "name": "ia.gov.pt (AI portal of the public administration)",
+   "type": "public body",
+   "url": "https://digital.gov.pt/en/noticias/ja-esta-online-o-ia-gov-pt-o-portal-de-inteligencia-artificial-da-administracao-publica",
+   "what": "Single access point for national public-sector AI: a citizen assistant, a culture platform with about 42,000 objects, an education platform and access to AMALIA. In an initial phase. The page credits ARTE.",
+   "source_url": "https://digital.gov.pt/en/noticias/ja-esta-online-o-ia-gov-pt-o-portal-de-inteligencia-artificial-da-administracao-publica",
+   "read_on": "2026-11-16",
+   "ai_path": "A public AI portal, so directly AI.",
+   "steps": 0
+  }
+ ],
+ "extras": [
+  {
+   "label": "Portugal worker productivity vs the EU average",
+   "value": "75 percent, which the Agenda aims to lift by 2030",
+   "source_url": "https://cms.law/en/prt/news-information/national-artificial-intelligence-agenda-for-the-2026-2030",
+   "read_on": "2026-11-15"
+  },
+  {
+   "label": "Government estimate of AI's GDP effect over a decade",
+   "value": "18 to 22 billion euros",
+   "source_url": "https://www.rtp.pt/noticias/economia/agenda-nacional-de-ia-tem-investimento-acima-de-400-milhoes-de-euros-ate-2030_n1708609",
+   "read_on": "2026-11-15"
+  },
+  {
+   "label": "Starting a company here: Startup Portugal",
+   "value": "A public and private initiative to make it simpler to start, grow and invest in a company in Portugal, with a One Stop Shop for funding, visas and programmes, a national incubator network (RNi), a Founder's Guide and the SIM investor matching event. It reports 5,091 startups and 470 million euros raised in 2025. Its page lists no AI-specific programme.",
+   "source_url": "https://startupportugal.com/",
+   "read_on": "2026-11-16"
+  },
+  {
+   "label": "Starting a company here: Banco Português de Fomento",
+   "value": "The state development bank, with a pillar for creating new businesses and Portugal Ventures named as a partner. It leads the AI gigafactory bid, and its capitalisation programme backed the AI startup Granter. Its own page does not mention AI.",
+   "source_url": "https://www.bpfomento.pt/en/",
+   "read_on": "2026-11-16"
+  },
+  {
+   "label": "Starting a company here: ANI (National Innovation Agency)",
+   "value": "Runs the Portugal 2030 company R&D measures, the PRR Mission Interface programme and the Digital Innovation Hubs, and with FCT the national semiconductor strategy (121 million euros to 2027). The page read shows no AI programme, and AI² is due to merge ANI with FCT.",
+   "source_url": "https://ani.pt/en/",
+   "read_on": "2026-11-16"
+  },
+  {
+   "label": "EPIA, Portugal's AI conference (APPIA)",
+   "value": "The 2025 edition was held at the University of Algarve in Faro, EPIA 2026 is set for 2 to 4 September 2026 at the University of Madeira, and the 2026 Advanced School on AI was at the University of Aveiro on 23 and 24 July.",
+   "source_url": "https://www.appia.pt/",
+   "read_on": "2026-11-16"
+  },
+  {
+   "label": "Starting a company here: Portugal Ventures",
+   "value": "Venture investor in technology startups at pre-seed, seed and Series A, with tickets up to 6 million euros and offices in Porto (headquarters) and Lisbon. It reports 283 million euros under management and 256 companies. Its page does not mention AI.",
+   "source_url": "https://www.portugalventures.pt/en/",
+   "read_on": "2026-11-16"
+  }
+ ],
+ "identity": {
+  "key_id": "site.portugal-promptugal",
+  "signed_by": "place.portugal@PrompTugal.dinis"
+ },
+ "gaps": [
+  "Ninth pass of 16 November: 40 map entries, 22 news items, 7 extras, all from pages opened. Still to map: Lisbon and Porto AI communities, the other university labs (LIACC, CISUC, INESC TEC groups, IT: two sites down), people and talent.",
+  "No page we opened states the region of Priberam, Neuraspace, Granter, Dojo AI, Coalex.ai or Feedzai, so their region is left out until a source says it.",
+  "The gigafactory is an Iberian bid to EuroHPC, but our sources give no site in Portugal or decision date, and the National Data Centre Plan is still being finalised.",
+  "Sword Health and Unbabel have no page of their own read tonight (the company site refused or redirected), their entries rest on one press article.",
+  "No Algarve entry yet at national level: the region's AI map belongs to place.algarve@, and flows up from its file.",
+  "Tech Foundry Portugal (a deep tech accelerator announced in May 2026) was left out: the page we read does not mention AI, so it fails the PrompTugal test for now.",
+  "The DemocracI.A. conference in Porto on 25 November was only mentioned in a search summary and we found no page for it, so it is not listed. UJET's new Porto hub was left out: nothing we read connects it to AI.",
+  "Founder-facing public bodies (Startup Portugal, BPF, ANI) are in extras, not the map: the pages read show no AI programme of their own. A consolidated 'where do I go' guide for AI founders still needs one official page per step.",
+  "INESC-ID's SAIL Centre of Excellence (reported at 27.2 million euros in a search snippet) is not listed: the page we tried returned 404.",
+  "The Instituto de Telecomunicações site returned an error on two tries (503), and INESC-ID's Center for Responsible AI page returned 404, so both stay out of the map until an official page loads.",
+  "Investors: Armilar and Lince Capital appear in our news items, but we found no official page of theirs, and the directories we saw are not primary sources. Portugal Ventures' own page names no AI focus, so it sits in extras.",
+  "CISUC (Coimbra) lists research groups on its page but does not say which are AI, and LIACC's site returned an error (503), so neither is mapped yet.",
+  "The AMALIA coverage has one critical point so far, the Journalists' Union's objection to the Arquivo.pt data (in ECO, 15 September). A political critique of its cost reported in July could not be opened (403), so the page still lacks the opposition's own words and any government reply."
+ ],
+ "voice": {
+  "lede": "A country on the Atlantic edge of Europe that wrote itself a language model of its own, and would like you to try it.",
+  "mandate": "PrompTugal.news Portugal: AI and tech from the edge of Europe, the national map, the national programmes, and what trickles down to the Algarve and every region. Independent, and every fact has its source.",
+  "gravity": "First the national plan, over 400 million euros of mostly European money, then AMALIA, the supercomputers and a startup scene that keeps raising rounds in Porto and Lisbon.",
+  "gaps_intro": "What we have not found yet, because even a good research agent needs a pastel de nata and a second pass."
+ },
+ "latest_news": {
+  "read_at": "2026-11-26T06:13:32Z",
+  "by": "place.portugal@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
+  "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
+  "main_headline": {
+   "title": "Portugal's tech investment is set to enter Europe's top ten",
+   "url": "https://promptugal.news/articles/portugal-tech-investment-top-10-atomico-estimate.html",
+   "source": "PrompTugal.news (signed article)",
+   "date": "2026-11-26",
+   "read_at": "2026-11-26T06:13:32Z",
+   "names_place": true
+  },
+  "items": [
+   {
+    "title": "As notícias das 2h",
+    "url": "https://observador.pt/programas/noticiario/as-noticias-das-2h-2480/",
+    "published": "2026-11-26T02:16Z",
+    "source": "Observador",
+    "source_site": "https://observador.pt",
+    "feed": "https://observador.pt/feed/",
+    "read_at": "2026-11-26T02:27:56Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Big Brother - Veja o episódio aqui",
+    "url": "https://tvi.iol.pt/videos/big-brother-veja-o-episodio-aqui/6b07937b0cf22114c9128ead",
+    "published": "2026-11-26T02:04Z",
+    "source": "TVI",
+    "source_site": "https://tvi.iol.pt",
+    "feed": "https://tvi.iol.pt/rss",
+    "read_at": "2026-11-26T02:28:12Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Big Brother - Veja o episódio aqui",
+    "url": "https://tvi.iol.pt/videos/big-brother-veja-o-episodio-aqui/6b07937a0cf294b9345ebb81",
+    "published": "2026-11-26T02:04Z",
+    "source": "TVI",
+    "source_site": "https://tvi.iol.pt",
+    "feed": "https://tvi.iol.pt/rss",
+    "read_at": "2026-11-26T02:28:12Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "PGR e CSM juntam-se para reforçar formação de juízes e procuradores",
+    "url": "https://eco.sapo.pt/2026/11/26/pgr-e-csm-juntam-se-para-reforcar-formacao-de-juizes-e-procuradores/",
+    "published": "2026-11-26T01:36Z",
+    "source": "ECO (eco.sapo.pt)",
+    "source_site": "https://eco.sapo.pt",
+    "feed": "https://eco.sapo.pt/feed/",
+    "read_at": "2026-11-26T02:27:47Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "<![CDATA[ Treinador do Sp. Braga: \"Objetivo é atingir os oito primeiros lugares\" ]]>",
+    "url": "https://www.cmjornal.pt/desporto/futebol/detalhe/treinador-do-sp-braga-objetivo-e-atingir-os-oito-primeiros-lugares",
+    "published": "2026-11-26T01:30Z",
+    "source": "Correio da Manhã (CM)",
+    "source_site": "https://www.cmjornal.pt",
+    "feed": "https://www.cmjornal.pt/rss",
+    "read_at": "2026-11-26T02:27:45Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "<![CDATA[ Desfaz perna da namorada com dois disparos de caçadeira  ]]>",
+    "url": "https://www.cmjornal.pt/portugal/detalhe/desfaz-perna-da-namorada-com-dois-disparos-de-cacadeira",
+    "published": "2026-11-26T01:30Z",
+    "source": "Correio da Manhã (CM)",
+    "source_site": "https://www.cmjornal.pt",
+    "feed": "https://www.cmjornal.pt/rss",
+    "read_at": "2026-11-26T02:27:45Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "<![CDATA[ Menor abusada por membro da família de acolhimento em Ourém ]]>",
+    "url": "https://www.cmjornal.pt/portugal/detalhe/menor-abusada-por-membro-da-familia-de-acolhimento-em-ourem",
+    "published": "2026-11-26T01:30Z",
+    "source": "Correio da Manhã (CM)",
+    "source_site": "https://www.cmjornal.pt",
+    "feed": "https://www.cmjornal.pt/rss",
+    "read_at": "2026-11-26T02:27:45Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "<![CDATA[ Idoso esperou por cirurgia duas semanas num corredor no hospital de Santarém ]]>",
+    "url": "https://www.cmjornal.pt/sociedade/detalhe/idoso-esperou-por-cirurgia-duas-semanas-num-corredor-no-hospital-de-santarem",
+    "published": "2026-11-26T01:30Z",
+    "source": "Correio da Manhã (CM)",
+    "source_site": "https://www.cmjornal.pt",
+    "feed": "https://www.cmjornal.pt/rss",
+    "read_at": "2026-11-26T02:27:45Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "<![CDATA[ Avaliação das casas sobe 12,7% num ano ]]>",
+    "url": "https://www.cmjornal.pt/economia/detalhe/avaliacao-das-casas-sobe-12-7-num-ano",
+    "published": "2026-11-26T01:30Z",
+    "source": "Correio da Manhã (CM)",
+    "source_site": "https://www.cmjornal.pt",
+    "feed": "https://www.cmjornal.pt/rss",
+    "read_at": "2026-11-26T02:27:45Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "<![CDATA[ Trump admite perdoar CEO da Nvidia ]]>",
+    "url": "https://www.cmjornal.pt/mundo/detalhe/trump-admite-perdoar-ceo-da-nvidia",
+    "published": "2026-11-26T01:30Z",
+    "source": "Correio da Manhã (CM)",
+    "source_site": "https://www.cmjornal.pt",
+    "feed": "https://www.cmjornal.pt/rss",
+    "read_at": "2026-11-26T02:27:45Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "1h Montenegro recusa criar um cabaz alimentar com IVA zero e aumentar impostos sobre rendas",
+    "url": "https://www.rtp.pt/noticias/noticiario-antena1/1h-montenegro-recusa-criar-um-cabaz-alimentar-com-iva-zero-e-aumentar-impostos-sobre-rendas_a1_1781678",
+    "published": "2026-11-26T01:22Z",
+    "source": "RTP Notícias (Rádio e Televisão de Portugal)",
+    "source_site": "https://www.rtp.pt/noticias",
+    "feed": "https://www.rtp.pt/noticias/rss",
+    "read_at": "2026-11-26T02:28:03Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "As notícias da 1h",
+    "url": "https://observador.pt/programas/noticiario/as-noticias-da-1h-2457/",
+    "published": "2026-11-26T01:14Z",
+    "source": "Observador",
+    "source_site": "https://observador.pt",
+    "feed": "https://observador.pt/feed/",
+    "read_at": "2026-11-26T02:27:56Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "A Madrasta - 25 de novembro - Veja o episódio aqui",
+    "url": "https://tvi.iol.pt/videos/a-madrasta-25-de-novembro-veja-o-episodio-aqui/6b077efa0cf29f111c0f4ac2",
+    "published": "2026-11-26T00:36Z",
+    "source": "TVI",
+    "source_site": "https://tvi.iol.pt",
+    "feed": "https://tvi.iol.pt/rss",
+    "read_at": "2026-11-26T02:28:12Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "A Madrasta - 25 de novembro - Veja o episódio aqui",
+    "url": "https://tvi.iol.pt/videos/a-madrasta-25-de-novembro-veja-o-episodio-aqui/6b077e4a0cf294b9345ebb7d",
+    "published": "2026-11-26T00:33Z",
+    "source": "TVI",
+    "source_site": "https://tvi.iol.pt",
+    "feed": "https://tvi.iol.pt/rss",
+    "read_at": "2026-11-26T02:28:12Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Contra o adultismo, pelo direito de voto dos bebés",
+    "url": "https://www.publico.pt/2026/11/26/opiniao/opiniao/adultismo-direito-voto-bebes-2196328",
+    "published": "2026-11-26T00:30Z",
+    "source": "PÚBLICO",
+    "source_site": "https://www.publico.pt",
+    "feed": "https://feeds.feedburner.com/PublicoRSS",
+    "read_at": "2026-11-26T02:28:02Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "0h Carlos Moedas quer explicações da Carris sobre os elevadores históricos da cidade",
+    "url": "https://www.rtp.pt/noticias/noticiario-antena1/0h-carlos-moedas-quer-explicacoes-da-carris-sobre-os-elevadores-historicos-da-cidade_a1_1781677",
+    "published": "2026-11-26T00:28Z",
+    "source": "RTP Notícias (Rádio e Televisão de Portugal)",
+    "source_site": "https://www.rtp.pt/noticias",
+    "feed": "https://www.rtp.pt/noticias/rss",
+    "read_at": "2026-11-26T02:28:03Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Nos 500 anos da Crónica do Condestável",
+    "url": "https://observador.pt/opiniao/nos-500-anos-da-cronica-do-condestavel/",
+    "published": "2026-11-26T00:25Z",
+    "source": "Observador",
+    "source_site": "https://observador.pt",
+    "feed": "https://observador.pt/feed/",
+    "read_at": "2026-11-26T02:27:56Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Olá, Alá! Olá, todes!",
+    "url": "https://observador.pt/opiniao/ola-ala-ola-todes/",
+    "published": "2026-11-26T00:24Z",
+    "source": "Observador",
+    "source_site": "https://observador.pt",
+    "feed": "https://observador.pt/feed/",
+    "read_at": "2026-11-26T02:27:56Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Aguiar Branco. Discurso corajoso, frontal e contracorrente",
+    "url": "https://observador.pt/opiniao/aguiar-branco-um-discurso-corajoso-frontal-e-contracorrente/",
+    "published": "2026-11-26T00:23Z",
+    "source": "Observador",
+    "source_site": "https://observador.pt",
+    "feed": "https://observador.pt/feed/",
+    "read_at": "2026-11-26T02:27:56Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "SCP x MUFC. “Falta de Dorgu, golo do United bem anulado.”",
+    "url": "https://observador.pt/programas/sem-falta/scp-x-mufc-falta-de-dorgu-golo-united-bem-anulado/",
+    "published": "2026-11-26T00:22Z",
+    "source": "Observador",
+    "source_site": "https://observador.pt",
+    "feed": "https://observador.pt/feed/",
+    "read_at": "2026-11-26T02:27:56Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "As cobiçadas “batatas fritas modernas” do amigo americano",
+    "url": "https://www.publico.pt/2026/11/26/culturaipsilon/opiniao/cobicadas-batatas-fritas-modernas-amigo-americano-2196205",
+    "published": "2026-11-26T00:20Z",
+    "source": "PÚBLICO",
+    "source_site": "https://www.publico.pt",
+    "feed": "https://feeds.feedburner.com/PublicoRSS",
+    "read_at": "2026-11-26T02:28:02Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Fieldfisher aumenta em 34% trabalho pro bono e define novas metas de redução de emissões até 2030",
+    "url": "https://eco.sapo.pt/2026/11/26/fieldfisher-aumenta-em-34-trabalho-pro-bono-e-define-novas-metas-de-reducao-de-emissoes-ate-2030/",
+    "published": "2026-11-26T00:15Z",
+    "source": "ECO (eco.sapo.pt)",
+    "source_site": "https://eco.sapo.pt",
+    "feed": "https://eco.sapo.pt/feed/",
+    "read_at": "2026-11-26T02:27:47Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Divórcio empresarial",
+    "url": "https://jornaleconomico.sapo.pt/noticias/divorcio-empresarial/",
+    "published": "2026-11-26T00:15Z",
+    "source": "Jornal Económico",
+    "source_site": "https://jornaleconomico.sapo.pt",
+    "feed": "https://jornaleconomico.sapo.pt/feed/",
+    "read_at": "2026-11-26T02:27:53Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Um orçamento sem adultos na sala",
+    "url": "https://www.publico.pt/2026/11/26/opiniao/opiniao/orcamento-adultos-sala-2196324",
+    "published": "2026-11-26T00:15Z",
+    "source": "PÚBLICO",
+    "source_site": "https://www.publico.pt",
+    "feed": "https://feeds.feedburner.com/PublicoRSS",
+    "read_at": "2026-11-26T02:28:02Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Uma <em>Flauta Mágica</em> cantada em português",
+    "url": "https://www.publico.pt/2026/11/26/opiniao/opiniao/flauta-magica-cantada-portugues-2195989",
+    "published": "2026-11-26T00:15Z",
+    "source": "PÚBLICO",
+    "source_site": "https://www.publico.pt",
+    "feed": "https://feeds.feedburner.com/PublicoRSS",
+    "read_at": "2026-11-26T02:28:02Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Zalazar: «Jogo com o FC Porto vai ser uma guerra»",
+    "url": "https://cnnportugal.iol.pt/videos/zalazar-jogo-com-o-fc-porto-vai-ser-uma-guerra/6b0779bf0cf29f111c0f4ac0",
+    "published": "2026-11-26T00:13Z",
+    "source": "CNN Portugal",
+    "source_site": "https://cnnportugal.iol.pt",
+    "feed": "https://cnnportugal.iol.pt/rss",
+    "read_at": "2026-11-26T02:27:44Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "IL diz que Governo terá de arcar com as consequências do \"imbróglio jurídico\" que criou",
+    "url": "https://www.rtp.pt/noticias/economia/il-diz-que-governo-tera-de-arcar-com-as-consequencias-do-imbroglio-juridico-que-criou_n1781674",
+    "published": "2026-11-26T00:11Z",
+    "source": "RTP Notícias (Rádio e Televisão de Portugal)",
+    "source_site": "https://www.rtp.pt/noticias",
+    "feed": "https://www.rtp.pt/noticias/rss",
+    "read_at": "2026-11-26T02:28:03Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "António Braz Teixeira, 90 anos em prol da Cultura e do bem comum",
+    "url": "https://www.publico.pt/2026/11/26/opiniao/opiniao/antonio-braz-teixeira-90-anos-prol-cultura-bem-comum-2196268",
+    "published": "2026-11-26T00:10Z",
+    "source": "PÚBLICO",
+    "source_site": "https://www.publico.pt",
+    "feed": "https://feeds.feedburner.com/PublicoRSS",
+    "read_at": "2026-11-26T02:28:02Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Wall Street fecha sem rumo mas tendencialmente em baixa arrastada pela IA",
+    "url": "https://www.rtp.pt/noticias/mundo/wall-street-fecha-sem-rumo-mas-tendencialmente-em-baixa-arrastada-pela-ia_n1781675",
+    "published": "2026-11-26T00:10Z",
+    "source": "RTP Notícias (Rádio e Televisão de Portugal)",
+    "source_site": "https://www.rtp.pt/noticias",
+    "feed": "https://www.rtp.pt/noticias/rss",
+    "read_at": "2026-11-26T02:28:03Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Turismo em Angola: do potencial anunciado à economia que ainda falta construir",
+    "url": "https://jornaleconomico.sapo.pt/noticias/turismo-em-angola-do-potencial-anunciado-a-economia-que-ainda-falta-construir/",
+    "published": "2026-11-26T00:08Z",
+    "source": "Jornal Económico",
+    "source_site": "https://jornaleconomico.sapo.pt",
+    "feed": "https://jornaleconomico.sapo.pt/feed/",
+    "read_at": "2026-11-26T02:27:53Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Portugal's tech investment is set to enter Europe's top ten",
+    "url": "https://promptugal.news/articles/portugal-tech-investment-top-10-atomico-estimate.html",
+    "published": "2026-11-26",
+    "date": "2026-11-26",
+    "source": "PrompTugal.news (signed article)",
+    "source_site": "https://promptugal.news/",
+    "feed": "desks/correspondent/front-page.json",
+    "read_at": "2026-11-26T06:13:32Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Porto's Smartex names Tony Fadell chair and launches fabric checks",
+    "url": "https://promptugal.news/articles/smartex-porto-ai-fabric-checks-fadell-chair.html",
+    "published": "2026-11-26",
+    "date": "2026-11-26",
+    "source": "PrompTugal.news (signed article)",
+    "source_site": "https://promptugal.news/",
+    "feed": "desks/correspondent/front-page.json",
+    "read_at": "2026-11-26T06:13:32Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Europe's startups on course for 81 billion dollars, says Atomico",
+    "url": "https://promptugal.news/articles/europe-startup-funding-81-billion-atomico.html",
+    "published": "2026-11-26",
+    "date": "2026-11-26",
+    "source": "PrompTugal.news (signed article)",
+    "source_site": "https://promptugal.news/",
+    "feed": "desks/correspondent/front-page.json",
+    "read_at": "2026-11-26T06:13:32Z",
+    "mentions_place": true
+   },
+   {
+    "title": "AI use in Portugal jumps in 2026, for people and companies",
+    "url": "https://promptugal.news/articles/ai-use-in-portugal-2026.html",
+    "published": "2026-11-23",
+    "date": "2026-11-23",
+    "source": "PrompTugal.news (signed article)",
+    "source_site": "https://promptugal.news/",
+    "feed": "desks/correspondent/front-page.json",
+    "read_at": "2026-11-26T06:13:32Z",
+    "mentions_place": true
+   }
+  ]
+ }
 }

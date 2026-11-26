@@ -1,437 +1,782 @@
 {
-  "$schema": "../schemas/by-place.schema.json",
-  "id": "guarda",
-  "name": "Guarda",
-  "kind": "city",
-  "parent": "portugal",
-  "status": "live",
-  "updated": "2026-11-20",
-  "by": "place.districts@PrompTugal.dinis",
-  "mandate": "PrompTugal.news Guarda: AI and technology in Guarda, a district capital of the interior whose centre of gravity is the Politécnico da Guarda, its data science and AI degree, its incubator and its business-digitalisation projects, and what reaches Guarda from Portugal and the world. Independent; every fact sourced.",
-  "gravity": {
-    "text": "Almost all the AI we could source in Guarda runs through one institution, the Politécnico da Guarda (IPG until 1 August 2026, since then the Universidade Politécnica da Guarda, UPG). It teaches the data science and AI degree that opened in 2022, leads a project of about one million euros to bring AI, IoT and blockchain to small firms in the Centro region, signed a drones and AI agreement with a Ukrainian university, and runs the incubator where the city's startups sit. The council's own pages show no AI use or AI programme, and the private AI layer is thin, with a consultancy office that recruits AI profiles as the clearest example. Guarda's centre of gravity is therefore its polytechnic, not its city hall or its companies.",
-    "sources": [
-      {
-        "title": "Politécnico da Guarda lidera projeto de digitalização de empresas na região Centro (RTP)",
-        "url": "https://www.rtp.pt/noticias/economia/politecnico-da-guarda-lidera-projeto-de-digitalizacao-de-empresas-na-regiao-centro_n1684496",
-        "read_on": "2026-11-16"
-      },
-      {
-        "title": "Politécnico da Guarda desenvolve drones e projetos IA com universidade ucraniana (ECO, Lusa, 30 September 2025)",
-        "url": "https://eco.sapo.pt/2025/09/30/politecnico-da-guarda-desenvolve-drones-e-projetos-ia-com-universidade-ucraniana/",
-        "read_on": "2026-11-16"
-      },
-      {
-        "title": "Politécnico da Guarda cria licenciatura que une ciência de dados à inteligência artificial (Politécnico da Guarda, 8 June 2022)",
-        "url": "https://politecnicoguarda.pt/politecnico-da-guarda-cria-licenciatura-que-une-ciencia-de-dados-a-inteligencia-artificial/",
-        "read_on": "2026-11-16"
-      },
-      {
-        "title": "Politécnico da Guarda: news page, with the September 2026 vote to apply to become a university",
-        "url": "https://politecnicoguarda.pt",
-        "read_on": "2026-11-16"
-      },
-      {
-        "title": "UPG launches cybersecurity courses in Trancoso and describes its creation on 1 August 2026 (Politécnico da Guarda)",
-        "url": "https://politecnicoguarda.pt/universidade-politecnica-da-guarda-lanca-em-trancoso-cursos-de-ciberseguranca-reparacao-automovel-e-cozinha/",
-        "read_on": "2026-11-16"
-      }
-    ]
-  },
-  "look": {
-    "accent": "#4A5568",
-    "landmark": "The Sé, Guarda's cathedral, whose new organ the council says will be inaugurated on 27 November 2026",
-    "motif": "Granite grey, stone and cold mountain air, a city on a hill with a polytechnic at its heart"
-  },
-  "ai_news": [
-    {
-      "title": "Politécnico da Guarda hosts a free AI and digital skills demo session for regional firms",
-      "summary": "On 8 April 2026 the Guarda polytechnic's technology school hosted a session under PTCentroDiH, the Centro region's digital innovation hub, showing AI and virtual and augmented reality solutions to companies. It was free, with registration, and funded by the national recovery plan.",
-      "date": "2026-04-08",
-      "publisher": "Politécnico da Guarda",
-      "url": "https://politecnicoguarda.pt/sessao-de-capacitacao-promove-transformacao-digital-com-foco-em-ia-e-competencias-avancadas/",
-      "read_on": "2026-11-16",
-      "ai_path": "A skills and demonstration session on AI for local businesses, held in Guarda: directly about AI. The page shows the event date, not a publication date.",
-      "steps": 0
-    },
-    {
-      "title": "Guarda polytechnic leads a one million euro Digital PME project to bring AI to firms",
-      "summary": "The polytechnic leads a 24 month project with ADSI, NERGA and Capital Douro, worth 999,614 euros with most of it from COMPETE 2030, to bring AI, IoT and blockchain into the business models of small firms and startups in the Centro region. Forbes Portugal reported on 5 April 2026 that it starts in April, with a kick-off session on 9 April at the polytechnic.",
-      "date": "2026-04-05",
-      "publisher": "RTP and Forbes Portugal (Lusa)",
-      "url": "https://www.rtp.pt/noticias/economia/politecnico-da-guarda-lidera-projeto-de-digitalizacao-de-empresas-na-regiao-centro_n1684496",
-      "read_on": "2026-11-16",
-      "ai_path": "A regional programme whose stated aim is to put AI into firms' business models, led from Guarda: directly about AI. The RTP page shows no date, so the date is Forbes Portugal's (https://www.forbespt.com/?p=183777), whose page does not itself mention AI.",
-      "steps": 0
-    },
-    {
-      "title": "Guarda polytechnic signs a drones and AI logistics agreement with a Ukrainian university",
-      "summary": "At a meeting of the UNITA university network in Turin, the polytechnic and Yuriy Fedkovych National University in Chernivtsi agreed to develop drone and AI projects for logistics, with civil and military uses, plus teaching initiatives and researcher mobility.",
-      "date": "2025-09-30",
-      "publisher": "ECO (Lusa)",
-      "url": "https://eco.sapo.pt/2025/09/30/politecnico-da-guarda-desenvolve-drones-e-projetos-ia-com-universidade-ucraniana/",
-      "read_on": "2026-11-16",
-      "ai_path": "A cooperation agreement that names AI projects for logistics: directly about AI. The report does not describe the AI work itself.",
-      "steps": 0
-    },
-    {
-      "title": "Guarda students build Imo Harmonia, an AI tool that reads municipal master plans",
-      "summary": "Polytechnic students made a platform that uses AI to analyse the rules in Planos Diretores Municipais and show permissions, restrictions and inconsistencies to architects, engineers and planning offices. It won the regional phase of the Poliempreende contest.",
-      "date": "2025-06-23",
-      "publisher": "Observador (Lusa)",
-      "url": "https://observador.pt/2025/06/23/politecnico-da-guarda-desenvolve-plataforma-com-recurso-a-ia-que-simplifica-planos-diretores-municipais/",
-      "read_on": "2026-11-16",
-      "ai_path": "A student-built AI product for urban planning: directly about AI. Older than the 2026 items.",
-      "steps": 0
-    },
-    {
-      "title": "Tech consultancy Noesis opens a Guarda office and recruits AI profiles",
-      "summary": "Noesis opened its Guarda office on 3 February 2025 and one in Castelo Branco, planning about 30 hires this year, with about 70 staff across the Beira Interior. The report lists AI among the specialists it is recruiting but says nothing about AI products.",
-      "date": "2025-02-14",
-      "publisher": "Executive Digest",
-      "url": "https://executivedigest.sapo.pt/consultora-tecnologica-noesis-expande-presenca-em-portugal-com-abertura-de-novos-rscritorios-na-guarda-e-castelo-branco/",
-      "read_on": "2026-11-16",
-      "ai_path": "A tech firm opening in Guarda and recruiting AI skills: the AI link is the hiring only, two steps from AI. Older than the 2026 items.",
-      "steps": 2
-    }
-  ],
+ "$schema": "../schemas/by-place.schema.json",
+ "id": "guarda",
+ "name": "Guarda",
+ "kind": "city",
+ "parent": "portugal",
+ "status": "live",
+ "updated": "2026-11-26",
+ "by": "place.guarda@PrompTugal.dinis",
+ "mandate": "PrompTugal.news Guarda: AI and technology in Guarda, a district capital of the interior whose centre of gravity is the Politécnico da Guarda, its data science and AI degree, its incubator and its business-digitalisation projects, and what reaches Guarda from Portugal and the world. Independent; every fact sourced.",
+ "gravity": {
+  "text": "Almost all the AI we could source in Guarda runs through one institution, the Politécnico da Guarda (IPG until 1 August 2026, since then the Universidade Politécnica da Guarda, UPG). It teaches the data science and AI degree that opened in 2022, leads a project of about one million euros to bring AI, IoT and blockchain to small firms in the Centro region, signed a drones and AI agreement with a Ukrainian university, and runs the incubator where the city's startups sit. The council's own pages show no AI use or AI programme, and the private AI layer is thin, with a consultancy office that recruits AI profiles as the clearest example. Guarda's centre of gravity is therefore its polytechnic, not its city hall or its companies.",
   "sources": [
-    {
-      "name": "Município da Guarda",
-      "url": "https://www.mun-guarda.pt",
-      "kind": "council",
-      "feed": null
-    },
-    {
-      "name": "Politécnico da Guarda: news",
-      "url": "https://politecnicoguarda.pt",
-      "kind": "university",
-      "feed": "https://politecnicoguarda.pt/feed/"
-    },
-    {
-      "name": "Politécnico da Guarda: degree applications",
-      "url": "https://politecnicoguarda.pt/ensino/licenciaturas/candidaturas/",
-      "kind": "university",
-      "feed": null
-    },
-    {
-      "name": "RTP Notícias (Lusa copy on the polytechnic)",
-      "url": "https://www.rtp.pt/noticias/economia/politecnico-da-guarda-lidera-projeto-de-digitalizacao-de-empresas-na-regiao-centro_n1684496",
-      "kind": "press",
-      "feed": null
-    },
-    {
-      "name": "Forbes Portugal (Lusa copy, Guarda startups)",
-      "url": "https://www.forbespt.com/?p=183777",
-      "kind": "press",
-      "feed": null
-    },
-    {
-      "name": "Observador (Lusa copy)",
-      "url": "https://observador.pt/2025/06/23/politecnico-da-guarda-desenvolve-plataforma-com-recurso-a-ia-que-simplifica-planos-diretores-municipais/",
-      "kind": "press",
-      "feed": null
-    },
-    {
-      "name": "Município da Guarda: news",
-      "url": "https://mun-guarda.pt/noticias/",
-      "kind": "council",
-      "feed": "https://www.mun-guarda.pt/feed/"
-    },
-    {
-      "name": "Município da Guarda: agenda of events",
-      "url": "https://mun-guarda.pt/agenda-de-eventos/",
-      "kind": "council",
-      "feed": null
-    },
-    {
-      "name": "Universidade Politécnica da Guarda: news",
-      "url": "https://politecnicoguarda.pt/noticias/",
-      "kind": "university",
-      "feed": "https://politecnicoguarda.pt/feed/"
-    },
-    {
-      "name": "A Guarda (media map, researcher@)",
-      "url": "https://www.jornalaguarda.com",
-      "kind": "press",
-      "feed": null
-    },
-    {
-      "name": "beira.pt (media map, researcher@)",
-      "url": "https://beira.pt/",
-      "kind": "press",
-      "feed": "https://beira.pt/feed/"
-    },
-    {
-      "name": "Futuro da Guarda (media map, researcher@)",
-      "url": "https://www.futurodaguarda.pt",
-      "kind": "press",
-      "feed": "https://www.futurodaguarda.pt/feed/"
-    },
-    {
-      "name": "O Interior (media map, researcher@)",
-      "url": "https://www.ointerior.pt",
-      "kind": "press",
-      "feed": "https://www.ointerior.pt/feed/"
-    },
-    {
-      "name": "Rádio Altitude (media map, researcher@)",
-      "url": "https://www.altitude.fm/",
-      "kind": "press",
-      "feed": "https://www.altitude.fm/feed/"
-    },
-    {
-      "name": "Rádio Fronteira (media map, researcher@)",
-      "url": "https://radiofronteira.pt",
-      "kind": "press",
-      "feed": "https://radiofronteira.pt/feed/"
-    },
-    {
-      "name": "TB - Todas As Beiras (media map, researcher@)",
-      "url": "http://www.todasasbeiras.pt",
-      "kind": "press",
-      "feed": "http://www.todasasbeiras.pt/feed/"
-    },
-    {
-      "name": "Terras da Guarda (media map, researcher@)",
-      "url": "https://terrasdaguarda.sapo.pt/",
-      "kind": "press",
-      "feed": "https://terrasdaguarda.sapo.pt/feed/"
-    }
-  ],
-  "events": [
-    {
-      "title": "CEI-IIT Research, Innovation and Territory Prize 2026: award ceremony and seminar",
-      "date": "2026-12-03",
-      "url": "https://mun-guarda.pt/agenda-de-eventos/entrega-de-premio-e-seminario-entrega-do-premio-cei-iit-investigacao-inovacao-e-territorio-2026/",
-      "read_on": "2026-11-16",
-      "ai_path": "A seminar on innovation and research projects for cross-border and low-density territories, free, at 18:00 in the Biblioteca Municipal Eduardo Lourenço. The page does not mention AI: three steps from AI."
-    }
-  ],
-  "ai_map": [
-    {
-      "name": "Universidade Politécnica da Guarda (UPG, formerly IPG)",
-      "type": "institution",
-      "url": "https://politecnicoguarda.pt",
-      "what": "Public higher education institution in Guarda, created as a Universidade Politécnica on 1 August 2026 under a new statute. Its General Council voted unanimously on 17 September 2026 to seek conversion from universidade politécnica to universidade, a process that needs a decree-law. It leads the Digital PME project, signed the drones and AI agreement with a Ukrainian university and hosts the incubator.",
-      "source_url": "https://politecnicoguarda.pt/conselho-geral-da-upg-decide-por-unanimidade-candidatura-para-a-conversao-em-universidade/",
-      "read_on": "2026-11-16",
-      "ai_path": "Teaches AI, leads an AI adoption project for firms and does AI research partnerships.",
-      "steps": 0
-    },
-    {
-      "name": "Licenciatura em Ciência de Dados e Inteligência Artificial (ESTG, Politécnico da Guarda)",
-      "type": "institution",
-      "url": "https://politecnicoguarda.pt/politecnico-da-guarda-cria-licenciatura-que-une-ciencia-de-dados-a-inteligencia-artificial/",
-      "what": "Bachelor's degree started in 2022 and presented as the first in the Centro region and second in Portugal in this area. Its 2026/2027 intake lists 44 places over three phases.",
-      "source_url": "https://politecnicoguarda.pt/ensino/licenciaturas/candidaturas/",
-      "read_on": "2026-11-16",
-      "ai_path": "A full degree in data science and AI.",
-      "steps": 0
-    },
-    {
-      "name": "Digital PME (IPG with ADSI, NERGA and Capital Douro)",
-      "type": "organisation",
-      "url": "https://www.forbespt.com/?p=183777",
-      "what": "Consortium for a 999,614 euro project, 40 percent held by the polytechnic, to digitalise small firms in the Centro region, introducing AI, IoT and blockchain.",
-      "source_url": "https://www.rtp.pt/noticias/economia/politecnico-da-guarda-lidera-projeto-de-digitalizacao-de-empresas-na-regiao-centro_n1684496",
-      "read_on": "2026-11-16",
-      "ai_path": "Its stated aim is to bring AI into firms' business models.",
-      "steps": 0
-    },
-    {
-      "name": "NERGA (Associação Empresarial da Região da Guarda)",
-      "type": "organisation",
-      "url": "https://www.rtp.pt/noticias/economia/politecnico-da-guarda-lidera-projeto-de-digitalizacao-de-empresas-na-regiao-centro_n1684496",
-      "what": "Business association of the Guarda region, a 20 percent partner in Digital PME.",
-      "source_url": "https://www.rtp.pt/noticias/economia/politecnico-da-guarda-lidera-projeto-de-digitalizacao-de-empresas-na-regiao-centro_n1684496",
-      "read_on": "2026-11-16",
-      "ai_path": "Partner in a project to bring AI to regional firms.",
-      "steps": 1
-    },
-    {
-      "name": "Incubadora Desnuclearizada do IPG (Guarda pole)",
-      "type": "institution",
-      "url": "https://www.forbespt.com/?p=168719",
-      "what": "The polytechnic's incubator network, with a pole on the Guarda campus that took in eight companies in August 2025, none described as AI firms, and poles in Mêda, Vouzela and São Pedro do Sul and São João da Pesqueira.",
-      "source_url": "https://www.forbespt.com/?p=168719",
-      "read_on": "2026-11-16",
-      "ai_path": "The sources say its startups are first in line for the Digital PME project's AI support, but none of the companies we read about is an AI company.",
-      "steps": 2
-    },
-    {
-      "name": "Imo Harmonia (student project)",
-      "type": "startup",
-      "url": "https://observador.pt/2025/06/23/politecnico-da-guarda-desenvolve-plataforma-com-recurso-a-ia-que-simplifica-planos-diretores-municipais/",
-      "what": "AI platform for reading municipal master plans, made by polytechnic students, winner of the regional Poliempreende phase in 2025. We found no sign of a company behind it.",
-      "source_url": "https://observador.pt/2025/06/23/politecnico-da-guarda-desenvolve-plataforma-com-recurso-a-ia-que-simplifica-planos-diretores-municipais/",
-      "read_on": "2026-11-16",
-      "ai_path": "An AI product for urban planning.",
-      "steps": 0
-    },
-    {
-      "name": "Noesis (Guarda office)",
-      "type": "company",
-      "url": "https://executivedigest.sapo.pt/consultora-tecnologica-noesis-expande-presenca-em-portugal-com-abertura-de-novos-rscritorios-na-guarda-e-castelo-branco/",
-      "what": "Technology consultancy with an office in Guarda since 3 February 2025, a unit at the polytechnic since 2022 and about 70 staff in the Beira Interior. It lists AI among the profiles it recruits.",
-      "source_url": "https://executivedigest.sapo.pt/consultora-tecnologica-noesis-expande-presenca-em-portugal-com-abertura-de-novos-rscritorios-na-guarda-e-castelo-branco/",
-      "read_on": "2026-11-16",
-      "ai_path": "Recruits AI specialists. The report names no AI product.",
-      "steps": 2
-    },
-    {
-      "name": "Município da Guarda",
-      "type": "public body",
-      "url": "https://www.mun-guarda.pt",
-      "what": "The council's front page on 16 November 2026 lists a weather alert, the city's 827th anniversary, the Sé organ and a Capital of Culture bid. It has a Balcão Digital and online services, with no AI item.",
-      "source_url": "https://www.mun-guarda.pt",
-      "read_on": "2026-11-16",
-      "ai_path": "No AI use or programme found in what we read, listed so that the gap is visible.",
-      "steps": 3
-    }
-  ],
-  "extras": [],
-  "identity": {
-    "key_id": "site.guarda-promptugal-2",
-    "signed_by": "place.districts@PrompTugal.dinis"
-  },
-  "gaps": [
-    "Guarda is a thin capital for AI. Everything we could source comes from one institution, the Universidade Politécnica da Guarda (UPG, until 1 August 2026 the Politécnico, IPG), so a reader should not mistake the whole city for a tech hub.",
-    "The council shows no AI item. On 16 November 2026 we read its front page, the first of 19 pages of news (23 October to 10 November 2026), its agenda to 26 December and its Investir pages, and none mentions AI. Older news, council minutes, base.gov.pt procurement notices and the Balcão Digital's technical pages were not read, so council AI use is unconfirmed. The address www.cm-guarda.pt did not resolve and mun-guarda.pt is the one that did.",
-    "No dated AI event in Guarda was found. The council agenda and the UPG home page events list (to 2 December 2026) hold none, and the UPG calendar address we tried returned not found. The one innovation event listed, the CEI-IIT prize seminar on 3 December 2026, does not mention AI.",
-    "No feed was found on the council or UPG pages, and no local outlet such as O Interior or Rádio Altitude could be read. Search returned only national copies of Lusa stories.",
-    "Dates: the RTP pages on the Digital PME project and on Imo Harmonia show no publication date, so we took the date from Forbes Portugal and Observador copies of the same stories. The Forbes copy does not mention AI, so the AI claim rests on RTP.",
-    "The Digital PME consortium's ADSI is named differently by RTP (a district association for the information society) and Forbes Portugal (an agency for the information society and knowledge), so we kept the acronym only.",
-    "We found no AI startup based in Guarda. The incubator's tenants named in sources work in digital agriculture, micro-credit and HR recruitment, and its four new international startups of 2025 (automation, logistics, digital economy, social economy) are not named. Its own company list, the Poliempreende results and Startup Visa lists were not found.",
-    "PTCentroDiH, the Centro digital innovation hub, appears to include the university as a partner according to a third-party report, but the European catalogue page we read does not name Guarda or AI. The university's own page on the 8 April 2026 session names it, but the hub's own site was not read.",
-    "Left out as not AI: the Blockchain.PT project (2 November 2026), the three patents of 2026 (digital manufacturing, 3D printing and a medical infusion device, reported 8 September 2026), the CTeSP cybersecurity course in Trancoso (from September 2026) and the SmartEcoLighting public lighting pilot at the Parque Urbano do Rio Diz (23 October 2026), whose page gives no detail on sensors or data.",
-    "The conversion from universidade politécnica to universidade is only an approved motion of 17 September 2026 and needs a decree-law, so it must not be reported as done.",
-    "The 2026/2027 intake for the data science and AI degree is 20, 14 and 10 places over three phases (44 in all, from the UPG applications page). We found no page of the degree itself under the new name and did not read an earlier DGES figure of 20 places.",
-    "Not reached: the Guarda health unit's AI use (nothing found), the UPG research centres beyond the names in its menu, and investors in Guarda companies. The Loja de Cidadão da Guarda page on gov.pt lists no Espaço Empresa or Empresa na Hora counter, so where to register a company in person in Guarda is unconfirmed. Startup Portugal has no Guarda page we could read.",
-    "Local talent is not filled. No source lists anyone and nobody has agreed to be listed here. The Poliempreende page names staff contacts, which we did not copy.",
-    "Third pass, 17 November 2026: no AI news since 16 November. The UPG news page (latest item 13 November, a health notice) and the council news page (latest 16 November, a Christmas market) hold nothing on AI; only headlines and excerpts were visible, so article bodies were not checked. The other gaps above are unchanged: we did not re-open the council minutes, procurement notices, PTCentroDiH or the Poliempreende pages in this pass.",
-    "Feeds tested on 17 November 2026 and working: https://politecnicoguarda.pt/feed/ and https://mun-guarda.pt/feed/ (both RSS 2.0), now recorded in sources; the earlier gap saying no feed was found is out of date for these two. No local outlet feed was found.",
-    "Fourth pass, 20 November 2026 (window 17 to 20 November): no AI news, event or programme found, so nothing was added. Feeds read: UPG (latest item 13 November), the council (https://mun-guarda.pt/feed/ now answers with a redirect to www.mun-guarda.pt, whose feed lists items to 19 November: social housing, Christmas vouchers and market, none on AI), beira.pt and Rádio Altitude (to 19 November). The Congresso Mundial de Turismo do Interior in Guarda (18 and 19 November) and the Enertech energy fair in Sabugal (to 21 November) were read as headlines and short reports with no AI mention, so they were left out. The Futuro da Guarda and O Interior feeds returned nothing usable, so those two outlets were not checked. Article bodies of the council items were not opened."
-  ],
-  "voice": {
-    "lede": "Guarda, ó pá: cold enough to freeze a server, stubborn as granite, and home to a polytechnic that quietly teaches machines and taught a few students to read the PDM before the architects could.",
-    "mandate": "PrompTugal.news Guarda, a cidade de pedra: AI and tech in Guarda, with the Politécnico da Guarda as the warm room in a cold town, plus whatever news climbs up from Portugal and the world. Independente, and every fact comes with a receipt.",
-    "gravity": "Guarda keeps its AI close to the polytechnic, like a good blanket. The data science degree, the million euro Digital PME project and the Ukrainian drones deal all sit under one roof, while the Câmara minds the Sé organ and the birthday party and the private companies mostly keep quiet. A thin capital, sim senhor, but a solid one.",
-    "gaps_intro": "Ainda há muito por saber, pá. Here is what Guarda has not told us yet:"
-  },
-  "start_company": [
-    {
-      "name": "Incubadora Desnuclearizada do IPG (Guarda pole)",
-      "what": "The polytechnic's incubator network, with a pole on the Guarda campus and others in Mêda, Vouzela and São Pedro do Sul and São João da Pesqueira. Eight companies joined the Guarda pole in August 2025.",
-      "url": "https://www.forbespt.com/?p=168719",
-      "source_url": "https://www.forbespt.com/?p=168719",
-      "read_on": "2026-11-16",
-      "kind": "incubator"
-    },
-    {
-      "name": "Digital PME (IPG, ADSI, NERGA, Capital Douro)",
-      "what": "A two year project co-funded by COMPETE 2030 to help small firms and startups in the Centro region adopt advanced digital technologies, starting April 2026.",
-      "url": "https://www.forbespt.com/?p=183777",
-      "source_url": "https://www.forbespt.com/?p=183777",
-      "read_on": "2026-11-16",
-      "kind": "mentoring"
-    },
-    {
-      "name": "Município da Guarda: Espaço Empresa / Apoio ao Investidor",
-      "what": "The council's business and investor desk, under its Investir section (Empresas, Apoio ao Investidor, Empreendedorismo). It lists support and incentives, company creation, training and information sessions and referral to support bodies, with no programme named. The Empreendedorismo page names no incubator.",
-      "url": "https://mun-guarda.pt/investir/empreendedorismo/",
-      "source_url": "https://mun-guarda.pt/investir/",
-      "read_on": "2026-11-16",
-      "kind": "public desk"
-    },
-    {
-      "name": "Policasulos (UPG nano-incubation space)",
-      "what": "Acceleration and incubation for business projects, in former classrooms where student or staff founding teams can set up.",
-      "url": "https://politecnicoguarda.pt/comunidade/inovacao-empreendedorismo/",
-      "source_url": "https://politecnicoguarda.pt/comunidade/inovacao-empreendedorismo/",
-      "read_on": "2026-11-16",
-      "kind": "incubator"
-    },
-    {
-      "name": "Poliempreende (UPG)",
-      "what": "Business-idea competition and support from creativity to company creation or patent filing, within the national polytechnic network. Open to students, graduates and teachers in teams with students or graduates. The 2025/2026 edition ran from May to June 2026 with a regional jury on 12 June. The page lists no prizes.",
-      "url": "https://politecnicoguarda.pt/comunidade/inovacao-empreendedorismo/poliempreende/",
-      "source_url": "https://politecnicoguarda.pt/comunidade/inovacao-empreendedorismo/poliempreende/",
-      "read_on": "2026-11-16",
-      "kind": "funding"
-    },
-    {
-      "name": "UPG executive training in innovation and intellectual property (with Inventa)",
-      "what": "Hybrid evening programme launched in March 2026 on patents, trademarks, designs and technology transfer, aimed at researchers, entrepreneurs and municipal technicians. Startups in the UPG incubator asked for it.",
-      "url": "https://politecnicoguarda.pt/universidade-politecnica-da-guarda-regista-tres-patentes-apos-ter-lancado-formacao-em-propriedade-industrial/",
-      "source_url": "https://politecnicoguarda.pt/universidade-politecnica-da-guarda-regista-tres-patentes-apos-ter-lancado-formacao-em-propriedade-industrial/",
-      "read_on": "2026-11-16",
-      "kind": "mentoring"
-    },
-    {
-      "name": "ARRISCA C, 15th national business-idea competition (announced by UPG)",
-      "what": "National competition for business ideas based on science and technology, open for applications until 18 December 2026 at 23:59, with cash prizes of up to 2,500 euros depending on category and service prizes such as incubation, mentoring, consulting, training and business plan support. Details and the form are on arriscac.pt, which we did not read.",
-      "url": "https://politecnicoguarda.pt/inscricoes-abertas-para-a-15-a-edicao-do-concurso-de-ideias-de-negocio-arrisca-c/",
-      "source_url": "https://politecnicoguarda.pt/inscricoes-abertas-para-a-15-a-edicao-do-concurso-de-ideias-de-negocio-arrisca-c/",
-      "read_on": "2026-11-17",
-      "kind": "funding"
-    }
-  ],
-  "investors": [
-    {
-      "name": "Portugal 2030, COMPETE 2030 into Digital PME",
-      "what": "849,672 euros of the 999,614 euro project led by the polytechnic, with the partners adding the rest from their own funds.",
-      "url": "https://www.rtp.pt/noticias/economia/politecnico-da-guarda-lidera-projeto-de-digitalizacao-de-empresas-na-regiao-centro_n1684496",
-      "source_url": "https://www.rtp.pt/noticias/economia/politecnico-da-guarda-lidera-projeto-de-digitalizacao-de-empresas-na-regiao-centro_n1684496",
-      "read_on": "2026-11-16",
-      "type": "programme",
-      "amount": "849,672 euros",
-      "date": "2026-04-05",
-      "ai_path": "Pays for a project whose stated aim is to bring AI into firms: directly about AI."
-    },
-    {
-      "name": "Empowered Startups (HQA Visa Program) into the Guarda incubator",
-      "what": "A programme partnership with the polytechnic brought foreign-backed startups into its incubator, among them A-G Transformer, a digital agriculture startup, reported on 2 April 2024. In May 2025 the incubator hosted three companies with North American capital, one with Indian capital and several with Portuguese investors. No amounts or investor names are given.",
-      "url": "https://www.portugalglobal.pt/en/news/archive/empowered-startups-hqa-program-flourishing-in-guarda/",
-      "source_url": "https://www.portugalglobal.pt/en/news/archive/empowered-startups-hqa-program-flourishing-in-guarda/",
-      "read_on": "2026-11-16",
-      "type": "investor",
-      "date": "2024-04-02",
-      "ai_path": "Foreign capital behind incubator startups in digital agriculture and other fields, none described as AI: two steps from AI."
-    }
-  ],
-  "contacts": [
-    {
-      "name": "Município da Guarda, Espaço Empresa / Apoio ao Investidor",
-      "what": "The council's published channel for investors and entrepreneurs: a desk email and two phone lines, on its Investir page.",
-      "url": "https://mun-guarda.pt/investir/",
-      "source_url": "https://mun-guarda.pt/investir/",
-      "read_on": "2026-11-16",
-      "channel": "the support desk's email and phone lines, published on the council's Investir page (open the linked page for them)"
-    },
-    {
-      "name": "Município da Guarda, general",
-      "what": "The council's general email, phone and opening hours (Monday to Friday, 09:00 to 16:30), at Praça do Município.",
-      "url": "https://mun-guarda.pt/contactos",
-      "source_url": "https://mun-guarda.pt/contactos",
-      "read_on": "2026-11-16",
-      "channel": "the council's general email and phone, published on its Contactos page (open the linked page for them)"
-    },
-    {
-      "name": "Universidade Politécnica da Guarda, general",
-      "what": "The institution's published general email, phone and WhatsApp line.",
-      "url": "https://politecnicoguarda.pt/sobrenos/contactos/",
-      "source_url": "https://politecnicoguarda.pt/sobrenos/contactos/",
-      "read_on": "2026-11-16",
-      "channel": "the university's general email, phone and WhatsApp, published on its Contactos page (open the linked page for them)"
-    },
-    {
-      "name": "Universidade Politécnica da Guarda, Policasulos incubation",
-      "what": "The office email published for information and registration on the nano-incubation space.",
-      "url": "https://politecnicoguarda.pt/comunidade/inovacao-empreendedorismo/",
-      "source_url": "https://politecnicoguarda.pt/comunidade/inovacao-empreendedorismo/",
-      "read_on": "2026-11-16",
-      "channel": "the incubation office email, published on the Inovação & Empreendedorismo page (open the linked page for it)"
-    }
+   {
+    "title": "Politécnico da Guarda lidera projeto de digitalização de empresas na região Centro (RTP)",
+    "url": "https://www.rtp.pt/noticias/economia/politecnico-da-guarda-lidera-projeto-de-digitalizacao-de-empresas-na-regiao-centro_n1684496",
+    "read_on": "2026-11-16"
+   },
+   {
+    "title": "Politécnico da Guarda desenvolve drones e projetos IA com universidade ucraniana (ECO, Lusa, 30 September 2025)",
+    "url": "https://eco.sapo.pt/2025/09/30/politecnico-da-guarda-desenvolve-drones-e-projetos-ia-com-universidade-ucraniana/",
+    "read_on": "2026-11-16"
+   },
+   {
+    "title": "Politécnico da Guarda cria licenciatura que une ciência de dados à inteligência artificial (Politécnico da Guarda, 8 June 2022)",
+    "url": "https://politecnicoguarda.pt/politecnico-da-guarda-cria-licenciatura-que-une-ciencia-de-dados-a-inteligencia-artificial/",
+    "read_on": "2026-11-16"
+   },
+   {
+    "title": "Politécnico da Guarda: news page, with the September 2026 vote to apply to become a university",
+    "url": "https://politecnicoguarda.pt",
+    "read_on": "2026-11-16"
+   },
+   {
+    "title": "UPG launches cybersecurity courses in Trancoso and describes its creation on 1 August 2026 (Politécnico da Guarda)",
+    "url": "https://politecnicoguarda.pt/universidade-politecnica-da-guarda-lanca-em-trancoso-cursos-de-ciberseguranca-reparacao-automovel-e-cozinha/",
+    "read_on": "2026-11-16"
+   }
   ]
+ },
+ "look": {
+  "accent": "#4A5568",
+  "landmark": "The Sé, Guarda's cathedral, whose new organ the council says will be inaugurated on 27 November 2026",
+  "motif": "Granite grey, stone and cold mountain air, a city on a hill with a polytechnic at its heart"
+ },
+ "ai_news": [
+  {
+   "title": "Politécnico da Guarda hosts a free AI and digital skills demo session for regional firms",
+   "summary": "On 8 April 2026 the Guarda polytechnic's technology school hosted a session under PTCentroDiH, the Centro region's digital innovation hub, showing AI and virtual and augmented reality solutions to companies. It was free, with registration, and funded by the national recovery plan.",
+   "date": "2026-04-08",
+   "publisher": "Politécnico da Guarda",
+   "url": "https://politecnicoguarda.pt/sessao-de-capacitacao-promove-transformacao-digital-com-foco-em-ia-e-competencias-avancadas/",
+   "read_on": "2026-11-16",
+   "ai_path": "A skills and demonstration session on AI for local businesses, held in Guarda: directly about AI. The page shows the event date, not a publication date.",
+   "steps": 0
+  },
+  {
+   "title": "Guarda polytechnic leads a one million euro Digital PME project to bring AI to firms",
+   "summary": "The polytechnic leads a 24 month project with ADSI, NERGA and Capital Douro, worth 999,614 euros with most of it from COMPETE 2030, to bring AI, IoT and blockchain into the business models of small firms and startups in the Centro region. Forbes Portugal reported on 5 April 2026 that it starts in April, with a kick-off session on 9 April at the polytechnic.",
+   "date": "2026-04-05",
+   "publisher": "RTP and Forbes Portugal (Lusa)",
+   "url": "https://www.rtp.pt/noticias/economia/politecnico-da-guarda-lidera-projeto-de-digitalizacao-de-empresas-na-regiao-centro_n1684496",
+   "read_on": "2026-11-16",
+   "ai_path": "A regional programme whose stated aim is to put AI into firms' business models, led from Guarda: directly about AI. The RTP page shows no date, so the date is Forbes Portugal's (https://www.forbespt.com/?p=183777), whose page does not itself mention AI.",
+   "steps": 0
+  },
+  {
+   "title": "Guarda polytechnic signs a drones and AI logistics agreement with a Ukrainian university",
+   "summary": "At a meeting of the UNITA university network in Turin, the polytechnic and Yuriy Fedkovych National University in Chernivtsi agreed to develop drone and AI projects for logistics, with civil and military uses, plus teaching initiatives and researcher mobility.",
+   "date": "2025-09-30",
+   "publisher": "ECO (Lusa)",
+   "url": "https://eco.sapo.pt/2025/09/30/politecnico-da-guarda-desenvolve-drones-e-projetos-ia-com-universidade-ucraniana/",
+   "read_on": "2026-11-16",
+   "ai_path": "A cooperation agreement that names AI projects for logistics: directly about AI. The report does not describe the AI work itself.",
+   "steps": 0
+  },
+  {
+   "title": "Guarda students build Imo Harmonia, an AI tool that reads municipal master plans",
+   "summary": "Polytechnic students made a platform that uses AI to analyse the rules in Planos Diretores Municipais and show permissions, restrictions and inconsistencies to architects, engineers and planning offices. It won the regional phase of the Poliempreende contest.",
+   "date": "2025-06-23",
+   "publisher": "Observador (Lusa)",
+   "url": "https://observador.pt/2025/06/23/politecnico-da-guarda-desenvolve-plataforma-com-recurso-a-ia-que-simplifica-planos-diretores-municipais/",
+   "read_on": "2026-11-16",
+   "ai_path": "A student-built AI product for urban planning: directly about AI. Older than the 2026 items.",
+   "steps": 0
+  },
+  {
+   "title": "Tech consultancy Noesis opens a Guarda office and recruits AI profiles",
+   "summary": "Noesis opened its Guarda office on 3 February 2025 and one in Castelo Branco, planning about 30 hires this year, with about 70 staff across the Beira Interior. The report lists AI among the specialists it is recruiting but says nothing about AI products.",
+   "date": "2025-02-14",
+   "publisher": "Executive Digest",
+   "url": "https://executivedigest.sapo.pt/consultora-tecnologica-noesis-expande-presenca-em-portugal-com-abertura-de-novos-rscritorios-na-guarda-e-castelo-branco/",
+   "read_on": "2026-11-16",
+   "ai_path": "A tech firm opening in Guarda and recruiting AI skills: the AI link is the hiring only, two steps from AI. Older than the 2026 items.",
+   "steps": 2
+  }
+ ],
+ "sources": [
+  {
+   "name": "Município da Guarda",
+   "url": "https://www.mun-guarda.pt",
+   "kind": "council",
+   "feed": null
+  },
+  {
+   "name": "Politécnico da Guarda: news",
+   "url": "https://politecnicoguarda.pt",
+   "kind": "university",
+   "feed": "https://politecnicoguarda.pt/feed/"
+  },
+  {
+   "name": "Politécnico da Guarda: degree applications",
+   "url": "https://politecnicoguarda.pt/ensino/licenciaturas/candidaturas/",
+   "kind": "university",
+   "feed": null
+  },
+  {
+   "name": "RTP Notícias (Lusa copy on the polytechnic)",
+   "url": "https://www.rtp.pt/noticias/economia/politecnico-da-guarda-lidera-projeto-de-digitalizacao-de-empresas-na-regiao-centro_n1684496",
+   "kind": "press",
+   "feed": null
+  },
+  {
+   "name": "Forbes Portugal (Lusa copy, Guarda startups)",
+   "url": "https://www.forbespt.com/?p=183777",
+   "kind": "press",
+   "feed": null
+  },
+  {
+   "name": "Observador (Lusa copy)",
+   "url": "https://observador.pt/2025/06/23/politecnico-da-guarda-desenvolve-plataforma-com-recurso-a-ia-que-simplifica-planos-diretores-municipais/",
+   "kind": "press",
+   "feed": null
+  },
+  {
+   "name": "Município da Guarda: news",
+   "url": "https://mun-guarda.pt/noticias/",
+   "kind": "council",
+   "feed": "https://www.mun-guarda.pt/feed/"
+  },
+  {
+   "name": "Município da Guarda: agenda of events",
+   "url": "https://mun-guarda.pt/agenda-de-eventos/",
+   "kind": "council",
+   "feed": null
+  },
+  {
+   "name": "Universidade Politécnica da Guarda: news",
+   "url": "https://politecnicoguarda.pt/noticias/",
+   "kind": "university",
+   "feed": "https://politecnicoguarda.pt/feed/"
+  },
+  {
+   "name": "A Guarda (media map, researcher@)",
+   "url": "https://www.jornalaguarda.com",
+   "kind": "press",
+   "feed": null
+  },
+  {
+   "name": "beira.pt (media map, researcher@)",
+   "url": "https://beira.pt/",
+   "kind": "press",
+   "feed": "https://beira.pt/feed/"
+  },
+  {
+   "name": "Futuro da Guarda (media map, researcher@)",
+   "url": "https://www.futurodaguarda.pt",
+   "kind": "press",
+   "feed": "https://www.futurodaguarda.pt/feed/"
+  },
+  {
+   "name": "O Interior (media map, researcher@)",
+   "url": "https://www.ointerior.pt",
+   "kind": "press",
+   "feed": "https://www.ointerior.pt/feed/"
+  },
+  {
+   "name": "Rádio Altitude (media map, researcher@)",
+   "url": "https://www.altitude.fm/",
+   "kind": "press",
+   "feed": "https://www.altitude.fm/feed/"
+  },
+  {
+   "name": "Rádio Fronteira (media map, researcher@)",
+   "url": "https://radiofronteira.pt",
+   "kind": "press",
+   "feed": "https://radiofronteira.pt/feed/"
+  },
+  {
+   "name": "TB - Todas As Beiras (media map, researcher@)",
+   "url": "http://www.todasasbeiras.pt",
+   "kind": "press",
+   "feed": "http://www.todasasbeiras.pt/feed/"
+  },
+  {
+   "name": "Terras da Guarda (media map, researcher@)",
+   "url": "https://terrasdaguarda.sapo.pt/",
+   "kind": "press",
+   "feed": "https://terrasdaguarda.sapo.pt/feed/"
+  }
+ ],
+ "events": [
+  {
+   "title": "CEI-IIT Research, Innovation and Territory Prize 2026: award ceremony and seminar",
+   "date": "2026-12-03",
+   "url": "https://mun-guarda.pt/agenda-de-eventos/entrega-de-premio-e-seminario-entrega-do-premio-cei-iit-investigacao-inovacao-e-territorio-2026/",
+   "read_on": "2026-11-16",
+   "ai_path": "A seminar on innovation and research projects for cross-border and low-density territories, free, at 18:00 in the Biblioteca Municipal Eduardo Lourenço. The page does not mention AI: three steps from AI."
+  }
+ ],
+ "ai_map": [
+  {
+   "name": "Universidade Politécnica da Guarda (UPG, formerly IPG)",
+   "type": "institution",
+   "url": "https://politecnicoguarda.pt",
+   "what": "Public higher education institution in Guarda, created as a Universidade Politécnica on 1 August 2026 under a new statute. Its General Council voted unanimously on 17 September 2026 to seek conversion from universidade politécnica to universidade, a process that needs a decree-law. It leads the Digital PME project, signed the drones and AI agreement with a Ukrainian university and hosts the incubator.",
+   "source_url": "https://politecnicoguarda.pt/conselho-geral-da-upg-decide-por-unanimidade-candidatura-para-a-conversao-em-universidade/",
+   "read_on": "2026-11-16",
+   "ai_path": "Teaches AI, leads an AI adoption project for firms and does AI research partnerships.",
+   "steps": 0
+  },
+  {
+   "name": "Licenciatura em Ciência de Dados e Inteligência Artificial (ESTG, Politécnico da Guarda)",
+   "type": "institution",
+   "url": "https://politecnicoguarda.pt/politecnico-da-guarda-cria-licenciatura-que-une-ciencia-de-dados-a-inteligencia-artificial/",
+   "what": "Bachelor's degree started in 2022 and presented as the first in the Centro region and second in Portugal in this area. Its 2026/2027 intake lists 44 places over three phases.",
+   "source_url": "https://politecnicoguarda.pt/ensino/licenciaturas/candidaturas/",
+   "read_on": "2026-11-16",
+   "ai_path": "A full degree in data science and AI.",
+   "steps": 0
+  },
+  {
+   "name": "Digital PME (IPG with ADSI, NERGA and Capital Douro)",
+   "type": "organisation",
+   "url": "https://www.forbespt.com/?p=183777",
+   "what": "Consortium for a 999,614 euro project, 40 percent held by the polytechnic, to digitalise small firms in the Centro region, introducing AI, IoT and blockchain.",
+   "source_url": "https://www.rtp.pt/noticias/economia/politecnico-da-guarda-lidera-projeto-de-digitalizacao-de-empresas-na-regiao-centro_n1684496",
+   "read_on": "2026-11-16",
+   "ai_path": "Its stated aim is to bring AI into firms' business models.",
+   "steps": 0
+  },
+  {
+   "name": "NERGA (Associação Empresarial da Região da Guarda)",
+   "type": "organisation",
+   "url": "https://www.rtp.pt/noticias/economia/politecnico-da-guarda-lidera-projeto-de-digitalizacao-de-empresas-na-regiao-centro_n1684496",
+   "what": "Business association of the Guarda region, a 20 percent partner in Digital PME.",
+   "source_url": "https://www.rtp.pt/noticias/economia/politecnico-da-guarda-lidera-projeto-de-digitalizacao-de-empresas-na-regiao-centro_n1684496",
+   "read_on": "2026-11-16",
+   "ai_path": "Partner in a project to bring AI to regional firms.",
+   "steps": 1
+  },
+  {
+   "name": "Incubadora Desnuclearizada do IPG (Guarda pole)",
+   "type": "institution",
+   "url": "https://www.forbespt.com/?p=168719",
+   "what": "The polytechnic's incubator network, with a pole on the Guarda campus that took in eight companies in August 2025, none described as AI firms, and poles in Mêda, Vouzela and São Pedro do Sul and São João da Pesqueira.",
+   "source_url": "https://www.forbespt.com/?p=168719",
+   "read_on": "2026-11-16",
+   "ai_path": "The sources say its startups are first in line for the Digital PME project's AI support, but none of the companies we read about is an AI company.",
+   "steps": 2
+  },
+  {
+   "name": "Imo Harmonia (student project)",
+   "type": "startup",
+   "url": "https://observador.pt/2025/06/23/politecnico-da-guarda-desenvolve-plataforma-com-recurso-a-ia-que-simplifica-planos-diretores-municipais/",
+   "what": "AI platform for reading municipal master plans, made by polytechnic students, winner of the regional Poliempreende phase in 2025. We found no sign of a company behind it.",
+   "source_url": "https://observador.pt/2025/06/23/politecnico-da-guarda-desenvolve-plataforma-com-recurso-a-ia-que-simplifica-planos-diretores-municipais/",
+   "read_on": "2026-11-16",
+   "ai_path": "An AI product for urban planning.",
+   "steps": 0
+  },
+  {
+   "name": "Noesis (Guarda office)",
+   "type": "company",
+   "url": "https://executivedigest.sapo.pt/consultora-tecnologica-noesis-expande-presenca-em-portugal-com-abertura-de-novos-rscritorios-na-guarda-e-castelo-branco/",
+   "what": "Technology consultancy with an office in Guarda since 3 February 2025, a unit at the polytechnic since 2022 and about 70 staff in the Beira Interior. It lists AI among the profiles it recruits.",
+   "source_url": "https://executivedigest.sapo.pt/consultora-tecnologica-noesis-expande-presenca-em-portugal-com-abertura-de-novos-rscritorios-na-guarda-e-castelo-branco/",
+   "read_on": "2026-11-16",
+   "ai_path": "Recruits AI specialists. The report names no AI product.",
+   "steps": 2
+  },
+  {
+   "name": "Município da Guarda",
+   "type": "public body",
+   "url": "https://www.mun-guarda.pt",
+   "what": "The council's front page on 16 November 2026 lists a weather alert, the city's 827th anniversary, the Sé organ and a Capital of Culture bid. It has a Balcão Digital and online services, with no AI item.",
+   "source_url": "https://www.mun-guarda.pt",
+   "read_on": "2026-11-16",
+   "ai_path": "No AI use or programme found in what we read, listed so that the gap is visible.",
+   "steps": 3
+  }
+ ],
+ "extras": [],
+ "identity": {
+  "key_id": "site.guarda-promptugal-2",
+  "signed_by": "place.districts@PrompTugal.dinis"
+ },
+ "gaps": [
+  "Guarda is a thin capital for AI. Everything we could source comes from one institution, the Universidade Politécnica da Guarda (UPG, until 1 August 2026 the Politécnico, IPG), so a reader should not mistake the whole city for a tech hub.",
+  "The council shows no AI item. On 16 November 2026 we read its front page, the first of 19 pages of news (23 October to 10 November 2026), its agenda to 26 December and its Investir pages, and none mentions AI. Older news, council minutes, base.gov.pt procurement notices and the Balcão Digital's technical pages were not read, so council AI use is unconfirmed. The address www.cm-guarda.pt did not resolve and mun-guarda.pt is the one that did.",
+  "No dated AI event in Guarda was found. The council agenda and the UPG home page events list (to 2 December 2026) hold none, and the UPG calendar address we tried returned not found. The one innovation event listed, the CEI-IIT prize seminar on 3 December 2026, does not mention AI.",
+  "No feed was found on the council or UPG pages, and no local outlet such as O Interior or Rádio Altitude could be read. Search returned only national copies of Lusa stories.",
+  "Dates: the RTP pages on the Digital PME project and on Imo Harmonia show no publication date, so we took the date from Forbes Portugal and Observador copies of the same stories. The Forbes copy does not mention AI, so the AI claim rests on RTP.",
+  "The Digital PME consortium's ADSI is named differently by RTP (a district association for the information society) and Forbes Portugal (an agency for the information society and knowledge), so we kept the acronym only.",
+  "We found no AI startup based in Guarda. The incubator's tenants named in sources work in digital agriculture, micro-credit and HR recruitment, and its four new international startups of 2025 (automation, logistics, digital economy, social economy) are not named. Its own company list, the Poliempreende results and Startup Visa lists were not found.",
+  "PTCentroDiH, the Centro digital innovation hub, appears to include the university as a partner according to a third-party report, but the European catalogue page we read does not name Guarda or AI. The university's own page on the 8 April 2026 session names it, but the hub's own site was not read.",
+  "Left out as not AI: the Blockchain.PT project (2 November 2026), the three patents of 2026 (digital manufacturing, 3D printing and a medical infusion device, reported 8 September 2026), the CTeSP cybersecurity course in Trancoso (from September 2026) and the SmartEcoLighting public lighting pilot at the Parque Urbano do Rio Diz (23 October 2026), whose page gives no detail on sensors or data.",
+  "The conversion from universidade politécnica to universidade is only an approved motion of 17 September 2026 and needs a decree-law, so it must not be reported as done.",
+  "The 2026/2027 intake for the data science and AI degree is 20, 14 and 10 places over three phases (44 in all, from the UPG applications page). We found no page of the degree itself under the new name and did not read an earlier DGES figure of 20 places.",
+  "Not reached: the Guarda health unit's AI use (nothing found), the UPG research centres beyond the names in its menu, and investors in Guarda companies. The Loja de Cidadão da Guarda page on gov.pt lists no Espaço Empresa or Empresa na Hora counter, so where to register a company in person in Guarda is unconfirmed. Startup Portugal has no Guarda page we could read.",
+  "Local talent is not filled. No source lists anyone and nobody has agreed to be listed here. The Poliempreende page names staff contacts, which we did not copy.",
+  "Third pass, 17 November 2026: no AI news since 16 November. The UPG news page (latest item 13 November, a health notice) and the council news page (latest 16 November, a Christmas market) hold nothing on AI; only headlines and excerpts were visible, so article bodies were not checked. The other gaps above are unchanged: we did not re-open the council minutes, procurement notices, PTCentroDiH or the Poliempreende pages in this pass.",
+  "Feeds tested on 17 November 2026 and working: https://politecnicoguarda.pt/feed/ and https://mun-guarda.pt/feed/ (both RSS 2.0), now recorded in sources; the earlier gap saying no feed was found is out of date for these two. No local outlet feed was found.",
+  "Fourth pass, 20 November 2026 (window 17 to 20 November): no AI news, event or programme found, so nothing was added. Feeds read: UPG (latest item 13 November), the council (https://mun-guarda.pt/feed/ now answers with a redirect to www.mun-guarda.pt, whose feed lists items to 19 November: social housing, Christmas vouchers and market, none on AI), beira.pt and Rádio Altitude (to 19 November). The Congresso Mundial de Turismo do Interior in Guarda (18 and 19 November) and the Enertech energy fair in Sabugal (to 21 November) were read as headlines and short reports with no AI mention, so they were left out. The Futuro da Guarda and O Interior feeds returned nothing usable, so those two outlets were not checked. Article bodies of the council items were not opened."
+ ],
+ "voice": {
+  "lede": "Guarda, ó pá: cold enough to freeze a server, stubborn as granite, and home to a polytechnic that quietly teaches machines and taught a few students to read the PDM before the architects could.",
+  "mandate": "PrompTugal.news Guarda, a cidade de pedra: AI and tech in Guarda, with the Politécnico da Guarda as the warm room in a cold town, plus whatever news climbs up from Portugal and the world. Independente, and every fact comes with a receipt.",
+  "gravity": "Guarda keeps its AI close to the polytechnic, like a good blanket. The data science degree, the million euro Digital PME project and the Ukrainian drones deal all sit under one roof, while the Câmara minds the Sé organ and the birthday party and the private companies mostly keep quiet. A thin capital, sim senhor, but a solid one.",
+  "gaps_intro": "Ainda há muito por saber, pá. Here is what Guarda has not told us yet:"
+ },
+ "start_company": [
+  {
+   "name": "Incubadora Desnuclearizada do IPG (Guarda pole)",
+   "what": "The polytechnic's incubator network, with a pole on the Guarda campus and others in Mêda, Vouzela and São Pedro do Sul and São João da Pesqueira. Eight companies joined the Guarda pole in August 2025.",
+   "url": "https://www.forbespt.com/?p=168719",
+   "source_url": "https://www.forbespt.com/?p=168719",
+   "read_on": "2026-11-16",
+   "kind": "incubator"
+  },
+  {
+   "name": "Digital PME (IPG, ADSI, NERGA, Capital Douro)",
+   "what": "A two year project co-funded by COMPETE 2030 to help small firms and startups in the Centro region adopt advanced digital technologies, starting April 2026.",
+   "url": "https://www.forbespt.com/?p=183777",
+   "source_url": "https://www.forbespt.com/?p=183777",
+   "read_on": "2026-11-16",
+   "kind": "mentoring"
+  },
+  {
+   "name": "Município da Guarda: Espaço Empresa / Apoio ao Investidor",
+   "what": "The council's business and investor desk, under its Investir section (Empresas, Apoio ao Investidor, Empreendedorismo). It lists support and incentives, company creation, training and information sessions and referral to support bodies, with no programme named. The Empreendedorismo page names no incubator.",
+   "url": "https://mun-guarda.pt/investir/empreendedorismo/",
+   "source_url": "https://mun-guarda.pt/investir/",
+   "read_on": "2026-11-16",
+   "kind": "public desk"
+  },
+  {
+   "name": "Policasulos (UPG nano-incubation space)",
+   "what": "Acceleration and incubation for business projects, in former classrooms where student or staff founding teams can set up.",
+   "url": "https://politecnicoguarda.pt/comunidade/inovacao-empreendedorismo/",
+   "source_url": "https://politecnicoguarda.pt/comunidade/inovacao-empreendedorismo/",
+   "read_on": "2026-11-16",
+   "kind": "incubator"
+  },
+  {
+   "name": "Poliempreende (UPG)",
+   "what": "Business-idea competition and support from creativity to company creation or patent filing, within the national polytechnic network. Open to students, graduates and teachers in teams with students or graduates. The 2025/2026 edition ran from May to June 2026 with a regional jury on 12 June. The page lists no prizes.",
+   "url": "https://politecnicoguarda.pt/comunidade/inovacao-empreendedorismo/poliempreende/",
+   "source_url": "https://politecnicoguarda.pt/comunidade/inovacao-empreendedorismo/poliempreende/",
+   "read_on": "2026-11-16",
+   "kind": "funding"
+  },
+  {
+   "name": "UPG executive training in innovation and intellectual property (with Inventa)",
+   "what": "Hybrid evening programme launched in March 2026 on patents, trademarks, designs and technology transfer, aimed at researchers, entrepreneurs and municipal technicians. Startups in the UPG incubator asked for it.",
+   "url": "https://politecnicoguarda.pt/universidade-politecnica-da-guarda-regista-tres-patentes-apos-ter-lancado-formacao-em-propriedade-industrial/",
+   "source_url": "https://politecnicoguarda.pt/universidade-politecnica-da-guarda-regista-tres-patentes-apos-ter-lancado-formacao-em-propriedade-industrial/",
+   "read_on": "2026-11-16",
+   "kind": "mentoring"
+  },
+  {
+   "name": "ARRISCA C, 15th national business-idea competition (announced by UPG)",
+   "what": "National competition for business ideas based on science and technology, open for applications until 18 December 2026 at 23:59, with cash prizes of up to 2,500 euros depending on category and service prizes such as incubation, mentoring, consulting, training and business plan support. Details and the form are on arriscac.pt, which we did not read.",
+   "url": "https://politecnicoguarda.pt/inscricoes-abertas-para-a-15-a-edicao-do-concurso-de-ideias-de-negocio-arrisca-c/",
+   "source_url": "https://politecnicoguarda.pt/inscricoes-abertas-para-a-15-a-edicao-do-concurso-de-ideias-de-negocio-arrisca-c/",
+   "read_on": "2026-11-17",
+   "kind": "funding"
+  }
+ ],
+ "investors": [
+  {
+   "name": "Portugal 2030, COMPETE 2030 into Digital PME",
+   "what": "849,672 euros of the 999,614 euro project led by the polytechnic, with the partners adding the rest from their own funds.",
+   "url": "https://www.rtp.pt/noticias/economia/politecnico-da-guarda-lidera-projeto-de-digitalizacao-de-empresas-na-regiao-centro_n1684496",
+   "source_url": "https://www.rtp.pt/noticias/economia/politecnico-da-guarda-lidera-projeto-de-digitalizacao-de-empresas-na-regiao-centro_n1684496",
+   "read_on": "2026-11-16",
+   "type": "programme",
+   "amount": "849,672 euros",
+   "date": "2026-04-05",
+   "ai_path": "Pays for a project whose stated aim is to bring AI into firms: directly about AI."
+  },
+  {
+   "name": "Empowered Startups (HQA Visa Program) into the Guarda incubator",
+   "what": "A programme partnership with the polytechnic brought foreign-backed startups into its incubator, among them A-G Transformer, a digital agriculture startup, reported on 2 April 2024. In May 2025 the incubator hosted three companies with North American capital, one with Indian capital and several with Portuguese investors. No amounts or investor names are given.",
+   "url": "https://www.portugalglobal.pt/en/news/archive/empowered-startups-hqa-program-flourishing-in-guarda/",
+   "source_url": "https://www.portugalglobal.pt/en/news/archive/empowered-startups-hqa-program-flourishing-in-guarda/",
+   "read_on": "2026-11-16",
+   "type": "investor",
+   "date": "2024-04-02",
+   "ai_path": "Foreign capital behind incubator startups in digital agriculture and other fields, none described as AI: two steps from AI."
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Município da Guarda, Espaço Empresa / Apoio ao Investidor",
+   "what": "The council's published channel for investors and entrepreneurs: a desk email and two phone lines, on its Investir page.",
+   "url": "https://mun-guarda.pt/investir/",
+   "source_url": "https://mun-guarda.pt/investir/",
+   "read_on": "2026-11-16",
+   "channel": "the support desk's email and phone lines, published on the council's Investir page (open the linked page for them)"
+  },
+  {
+   "name": "Município da Guarda, general",
+   "what": "The council's general email, phone and opening hours (Monday to Friday, 09:00 to 16:30), at Praça do Município.",
+   "url": "https://mun-guarda.pt/contactos",
+   "source_url": "https://mun-guarda.pt/contactos",
+   "read_on": "2026-11-16",
+   "channel": "the council's general email and phone, published on its Contactos page (open the linked page for them)"
+  },
+  {
+   "name": "Universidade Politécnica da Guarda, general",
+   "what": "The institution's published general email, phone and WhatsApp line.",
+   "url": "https://politecnicoguarda.pt/sobrenos/contactos/",
+   "source_url": "https://politecnicoguarda.pt/sobrenos/contactos/",
+   "read_on": "2026-11-16",
+   "channel": "the university's general email, phone and WhatsApp, published on its Contactos page (open the linked page for them)"
+  },
+  {
+   "name": "Universidade Politécnica da Guarda, Policasulos incubation",
+   "what": "The office email published for information and registration on the nano-incubation space.",
+   "url": "https://politecnicoguarda.pt/comunidade/inovacao-empreendedorismo/",
+   "source_url": "https://politecnicoguarda.pt/comunidade/inovacao-empreendedorismo/",
+   "read_on": "2026-11-16",
+   "channel": "the incubation office email, published on the Inovação & Empreendedorismo page (open the linked page for it)"
+  }
+ ],
+ "latest_news": {
+  "read_at": "2026-11-26T02:34Z",
+  "by": "place.guarda@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
+  "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
+  "main_headline": {
+   "title": "PSP da Guarda deteve sete pessoas suspeitas do crime de tráfico de estupefacientes",
+   "url": "https://todasasbeiras.pt/2026/11/25/psp-da-guarda-deteve-sete-pessoas-suspeitas-do-crime-de-trafico-de-estupefacientes/",
+   "source": "TB - Todas As Beiras",
+   "date": "2026-11-25",
+   "read_at": "2026-11-26T02:30:56Z",
+   "names_place": true
+  },
+  "items": [
+   {
+    "title": "PSP da Guarda deteve sete pessoas suspeitas do crime de tráfico de estupefacientes",
+    "url": "https://todasasbeiras.pt/2026/11/25/psp-da-guarda-deteve-sete-pessoas-suspeitas-do-crime-de-trafico-de-estupefacientes/",
+    "published": "2026-11-25T21:09Z",
+    "source": "TB - Todas As Beiras",
+    "source_site": "http://www.todasasbeiras.pt",
+    "feed": "http://www.todasasbeiras.pt/feed/",
+    "read_at": "2026-11-26T02:30:56Z",
+    "mentions_place": true,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Sp. Covilhã continua sem ganhar na Liga 3",
+    "url": "https://www.ointerior.pt/sem-categoria/sp-covilha-continua-sem-ganhar-na-liga-3/",
+    "published": "2026-11-25T19:30Z",
+    "source": "O Interior",
+    "source_site": "https://www.ointerior.pt",
+    "feed": "https://www.ointerior.pt/feed/",
+    "read_at": "2026-11-26T02:30:46Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "O Pavilhão Municipal do Sabugal, acolheu o 2º Encontro de Walking Football Recreativo, da Associação de Futebol da Guarda.",
+    "url": "https://radiofronteira.pt/2026/11/25/o-pavilhao-municipal-do-sabugal-acolheu-o-2o-encontro-de-walking-football-recreativo-da-associacao-de-futebol-da-guarda/",
+    "published": "2026-11-25T19:29Z",
+    "source": "Rádio Fronteira",
+    "source_site": "https://radiofronteira.pt",
+    "feed": "https://radiofronteira.pt/feed/",
+    "read_at": "2026-11-26T02:30:50Z",
+    "mentions_place": true,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "O artista Telmo Lourenço, foi o convidado do programa “Gente de Cá” da Rádio Fronteira.",
+    "url": "https://radiofronteira.pt/2026/11/25/o-artista-telmo-lourenco-foi-o-convidado-do-programa-gente-de-ca-da-radio-fronteira/",
+    "published": "2026-11-25T18:36Z",
+    "source": "Rádio Fronteira",
+    "source_site": "https://radiofronteira.pt",
+    "feed": "https://radiofronteira.pt/feed/",
+    "read_at": "2026-11-26T02:30:50Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Município de Seia apoia corporações de bombeiros com mais de 170 mil euros",
+    "url": "https://www.ointerior.pt/regiao/municipio-de-seia-apoia-corporacoes-de-bombeiros-com-mais-de-170-mil-euros/",
+    "published": "2026-11-25T18:30Z",
+    "source": "O Interior",
+    "source_site": "https://www.ointerior.pt",
+    "feed": "https://www.ointerior.pt/feed/",
+    "read_at": "2026-11-26T02:30:46Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Autarquias obrigadas a publicar deliberações nos jornais locais",
+    "url": "https://www.ointerior.pt/regiao/autarquias-obrigadas-a-publicar-deliberacoes-nos-jornais-locais/",
+    "published": "2026-11-25T18:00Z",
+    "source": "O Interior",
+    "source_site": "https://www.ointerior.pt",
+    "feed": "https://www.ointerior.pt/feed/",
+    "read_at": "2026-11-26T02:30:46Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Turismo do Centro defende valorização dos caminhos do contrabando",
+    "url": "https://www.ointerior.pt/sem-categoria/turismo-do-centro-defende-valorizacao-dos-caminhos-do-contrabando/",
+    "published": "2026-11-25T17:00Z",
+    "source": "O Interior",
+    "source_site": "https://www.ointerior.pt",
+    "feed": "https://www.ointerior.pt/feed/",
+    "read_at": "2026-11-26T02:30:46Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Guarda FC e Minerva Academy Punjab (Índia) estabelecem protocolo de colaboração",
+    "url": "https://www.ointerior.pt/sociedade/guarda-fc-e-minerva-academy-punjab-india-estabelecem-protocolo-de-colaboracao/",
+    "published": "2026-11-25T16:55Z",
+    "source": "O Interior",
+    "source_site": "https://www.ointerior.pt",
+    "feed": "https://www.ointerior.pt/feed/",
+    "read_at": "2026-11-26T02:30:46Z",
+    "mentions_place": true,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Guarda FC e Minerva Academy Punjab (Índia) estabelecem protocolo de colaboração",
+    "url": "https://www.altitude.fm/actualidade/guarda-fc-minerva-academy-punjab-india-estabelecem-protocolo-de-colaboracao/",
+    "published": "2026-11-25T16:38Z",
+    "source": "Rádio Altitude",
+    "source_site": "https://www.altitude.fm/",
+    "feed": "https://www.altitude.fm/feed/",
+    "read_at": "2026-11-26T02:30:48Z",
+    "mentions_place": true,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Igor Gomes convocado para os Campeonatos Europeus de Corta-Mato",
+    "url": "https://www.ointerior.pt/desporto/igor-gomes-convocado-para-os-campeonatos-europeus-de-corta-mato/",
+    "published": "2026-11-25T16:35Z",
+    "source": "O Interior",
+    "source_site": "https://www.ointerior.pt",
+    "feed": "https://www.ointerior.pt/feed/",
+    "read_at": "2026-11-26T02:30:46Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Igor Gomes convocado para os Campeonatos Europeus de Corta-Mato",
+    "url": "https://www.altitude.fm/actualidade/igor-gomes-convocado-para-os-campeonatos-europeus-de-corta-mato/",
+    "published": "2026-11-25T16:35Z",
+    "source": "Rádio Altitude",
+    "source_site": "https://www.altitude.fm/",
+    "feed": "https://www.altitude.fm/feed/",
+    "read_at": "2026-11-26T02:30:48Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Homem de 57 anos tentou introduzir droga no Estabelecimento Prisional da Guarda",
+    "url": "https://www.altitude.fm/actualidade/homem-de-57-anos-tentou-introduzir-droga-no-estabelecimento-prisional-da-guarda/",
+    "published": "2026-11-25T16:16Z",
+    "source": "Rádio Altitude",
+    "source_site": "https://www.altitude.fm/",
+    "feed": "https://www.altitude.fm/feed/",
+    "read_at": "2026-11-26T02:30:48Z",
+    "mentions_place": true,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Homem detido ao tentar introduzir droga no Estabelecimento Prisional da Guarda",
+    "url": "https://todasasbeiras.pt/2026/11/25/homem-detido-ao-tentar-introduzir-droga-no-estabelecimento-prisional-da-guarda/",
+    "published": "2026-11-25T13:39Z",
+    "source": "TB - Todas As Beiras",
+    "source_site": "http://www.todasasbeiras.pt",
+    "feed": "http://www.todasasbeiras.pt/feed/",
+    "read_at": "2026-11-26T02:30:56Z",
+    "mentions_place": true,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Município da Guarda reabilitou dos dois edifícios, na Guarda-Gare, para arrendamentos a famílias de rendimentos intermédios.",
+    "url": "https://radiofronteira.pt/2026/11/25/municipio-da-guarda-reabilitou-dos-dois-edificios-na-guarda-gare-para-arrendamentos-a-familias-de-rendimentos-intermedios/",
+    "published": "2026-11-25T13:14Z",
+    "source": "Rádio Fronteira",
+    "source_site": "https://radiofronteira.pt",
+    "feed": "https://radiofronteira.pt/feed/",
+    "read_at": "2026-11-26T02:30:50Z",
+    "mentions_place": true,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Férias Municipais repletas de atividades para às crianças das Escolas de Almeida e Vilar Formoso, do 1.º e 2.º Ciclos do Ensino Básico e dos Pré-Escolares, de 16 a 31 de dezembro.",
+    "url": "https://radiofronteira.pt/2026/11/25/ferias-municipais-repletas-de-atividades-para-as-criancas-das-escolas-de-almeida-e-vilar-formoso-do-1-o-e-2-o-ciclos-do-ensino-basico-e-dos-pre-escolares-de-16-a-31-de-dezembro/",
+    "published": "2026-11-25T12:43Z",
+    "source": "Rádio Fronteira",
+    "source_site": "https://radiofronteira.pt",
+    "feed": "https://radiofronteira.pt/feed/",
+    "read_at": "2026-11-26T02:30:50Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Guarda recebe cerimónia nacional das celebrações dos 50 anos do Poder Local Democrático",
+    "url": "https://beira.pt/portal/noticias/guarda-recebe-cerimonia-nacional-das-celebracoes-dos-50-anos-do-poder-local-democratico/",
+    "published": "2026-11-25T12:28Z",
+    "source": "beira.pt",
+    "source_site": "https://beira.pt/",
+    "feed": "https://beira.pt/feed/",
+    "read_at": "2026-11-26T02:30:42Z",
+    "mentions_place": true,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Figueira Terra Natal regressa a Figueira de Castelo Rodrigo em dezembro",
+    "url": "https://beira.pt/portal/noticias/figueira-terra-natal-regressa-a-figueira-de-castelo-rodrigo-em-dezembro/",
+    "published": "2026-11-25T12:12Z",
+    "source": "beira.pt",
+    "source_site": "https://beira.pt/",
+    "feed": "https://beira.pt/feed/",
+    "read_at": "2026-11-26T02:30:42Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Câmara de Seia discute orçamento superior a 44 milhões de euros para 2027",
+    "url": "https://todasasbeiras.pt/2026/11/25/camara-de-seia-discute-orcamento-superior-a-44-milhoes-de-euros-para-2027/",
+    "published": "2026-11-25T12:12Z",
+    "source": "TB - Todas As Beiras",
+    "source_site": "http://www.todasasbeiras.pt",
+    "feed": "http://www.todasasbeiras.pt/feed/",
+    "read_at": "2026-11-26T02:30:56Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "A Rede Côa Selvagem da Rewilding Portugal conquistou o Prémio Nacional de Turismo, na categoria de Turismo Comunitário.",
+    "url": "https://radiofronteira.pt/2026/11/25/a-rede-coa-selvagem-da-rewilding-portugal-conquistou-o-premio-nacional-de-turismo-na-categoria-de-turismo-comunitario/",
+    "published": "2026-11-25T12:01Z",
+    "source": "Rádio Fronteira",
+    "source_site": "https://radiofronteira.pt",
+    "feed": "https://radiofronteira.pt/feed/",
+    "read_at": "2026-11-26T02:30:50Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "CCDR Centro distingue 25 municípios com o Galardão “Territórios da Longevidade 2025”, seis dos quais da Região das Beiras e Serra da Estrela",
+    "url": "https://todasasbeiras.pt/2026/11/25/ccdr-centro-distingue-25-municipios-com-o-galardao-territorios-da-longevidade-2025-seis-dos-quais-da-regiao-das-beiras-e-serra-da-estrela/",
+    "published": "2026-11-25T11:56Z",
+    "source": "TB - Todas As Beiras",
+    "source_site": "http://www.todasasbeiras.pt",
+    "feed": "http://www.todasasbeiras.pt/feed/",
+    "read_at": "2026-11-26T02:30:56Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Pinhel recebe a magia do Natal entre 1 de dezembro e 1 de janeiro",
+    "url": "https://beira.pt/portal/noticias/pinhel-recebe-a-magia-do-natal-entre-1-de-dezembro-e-1-de-janeiro/",
+    "published": "2026-11-25T11:42Z",
+    "source": "beira.pt",
+    "source_site": "https://beira.pt/",
+    "feed": "https://beira.pt/feed/",
+    "read_at": "2026-11-26T02:30:42Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Mais Bebés a nascer na Maternidade da Guarda, este ano.",
+    "url": "https://radiofronteira.pt/2026/11/25/mais-bebes-a-nascer-na-maternidade-da-guarda-este-ano/",
+    "published": "2026-11-25T11:16Z",
+    "source": "Rádio Fronteira",
+    "source_site": "https://radiofronteira.pt",
+    "feed": "https://radiofronteira.pt/feed/",
+    "read_at": "2026-11-26T02:30:50Z",
+    "mentions_place": true,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Rede Côa Selvagem vence Prémio Nacional de Turismo 2026 na categoria de Turismo Comunitário",
+    "url": "https://beira.pt/portal/noticias/rede-coa-selvagem-vence-premio-nacional-de-turismo-2026-na-categoria-de-turismo-comunitario/",
+    "published": "2026-11-25T10:23Z",
+    "source": "beira.pt",
+    "source_site": "https://beira.pt/",
+    "feed": "https://beira.pt/feed/",
+    "read_at": "2026-11-26T02:30:42Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Trancoso recebe pela primeira vez cursos técnicos superiores profissionais da Universidade Politécnica da Guarda",
+    "url": "https://beira.pt/portal/noticias/trancoso-recebe-pela-primeira-vez-cursos-tecnicos-superiores-profissionais-da-universidade-politecnica-da-guarda/",
+    "published": "2026-11-25T09:47Z",
+    "source": "beira.pt",
+    "source_site": "https://beira.pt/",
+    "feed": "https://beira.pt/feed/",
+    "read_at": "2026-11-26T02:30:42Z",
+    "mentions_place": true,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Ouça o noticiário desta quarta-feira, 25 de novembro",
+    "url": "https://www.altitude.fm/actualidade/ouca-o-noticiario-desta-quarta-feira-25-de-novembro/",
+    "published": "2026-11-25T09:47Z",
+    "source": "Rádio Altitude",
+    "source_site": "https://www.altitude.fm/",
+    "feed": "https://www.altitude.fm/feed/",
+    "read_at": "2026-11-26T02:30:48Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Guarda homenageia empresários do concelho no âmbito das comemorações dos 827 anos da cidade",
+    "url": "https://beira.pt/portal/noticias/sociedade/guarda-homenageia-empresarios-do-concelho-no-ambito-das-comemoracoes-dos-827-anos-da-cidade/",
+    "published": "2026-11-25T09:34Z",
+    "source": "beira.pt",
+    "source_site": "https://beira.pt/",
+    "feed": "https://beira.pt/feed/",
+    "read_at": "2026-11-26T02:30:42Z",
+    "mentions_place": true,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "A culpa é do arco (da ponte)",
+    "url": "https://todasasbeiras.pt/2026/11/24/a-culpa-e-do-arco-da-ponte/",
+    "published": "2026-11-24T19:34Z",
+    "source": "TB - Todas As Beiras",
+    "source_site": "http://www.todasasbeiras.pt",
+    "feed": "http://www.todasasbeiras.pt/feed/",
+    "read_at": "2026-11-26T02:30:56Z",
+    "mentions_place": false,
+    "date": "2026-11-24"
+   },
+   {
+    "title": "Lurdes Ferrão, atleta da Cercig, integrou a equipa “Special Olympics Portugal” vencedora do campeonato internacional",
+    "url": "https://todasasbeiras.pt/2026/11/24/lurdes-ferrao-atleta-da-cercig-integrou-a-equipa-special-olympics-portugal-vencedora-do-campeonato-internacional/",
+    "published": "2026-11-24T16:38Z",
+    "source": "TB - Todas As Beiras",
+    "source_site": "http://www.todasasbeiras.pt",
+    "feed": "http://www.todasasbeiras.pt/feed/",
+    "read_at": "2026-11-26T02:30:56Z",
+    "mentions_place": false,
+    "date": "2026-11-24"
+   },
+   {
+    "title": "CTESP da UPG arrancaram na Escola Profissional de Trancoso",
+    "url": "https://www.altitude.fm/actualidade/ctesp-da-upg-arrancaram-na-escola-profissional-de-trancoso/",
+    "published": "2026-11-24T11:35Z",
+    "source": "Rádio Altitude",
+    "source_site": "https://www.altitude.fm/",
+    "feed": "https://www.altitude.fm/feed/",
+    "read_at": "2026-11-26T02:30:48Z",
+    "mentions_place": false,
+    "date": "2026-11-24"
+   },
+   {
+    "title": "Ouça o noticiário desta terça-feira, 24 de novembro",
+    "url": "https://www.altitude.fm/actualidade/ouca-o-noticiario-desta-terca-feira-24-de-novembro/",
+    "published": "2026-11-24T11:09Z",
+    "source": "Rádio Altitude",
+    "source_site": "https://www.altitude.fm/",
+    "feed": "https://www.altitude.fm/feed/",
+    "read_at": "2026-11-26T02:30:48Z",
+    "mentions_place": false,
+    "date": "2026-11-24"
+   }
+  ]
+ }
 }

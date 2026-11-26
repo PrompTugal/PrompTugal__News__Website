@@ -1,770 +1,1115 @@
 {
-  "$schema": "../schemas/by-place.schema.json",
-  "id": "lisboa",
-  "name": "Lisboa",
-  "kind": "city",
-  "parent": "portugal",
-  "status": "live",
-  "updated": "2026-11-17",
-  "by": "place.districts@PrompTugal.dinis",
-  "mandate": "PrompTugal.news Lisboa: AI and technology in Lisboa, the capital whose centre of gravity is its universities and research institutes, the Unicorn Factory startup hub and the national AI projects, and what reaches Lisboa from Portugal, Europe and the world. Independent; every fact sourced.",
-  "gravity": {
-    "text": "Lisboa is where Portugal's AI money and institutions meet. The University of Lisbon is spending over 20 million euros on two AI data centres, INESC-ID has won 27.2 million euros for a sustainable AI centre, and the national language model AMALIA was presented at Técnico's innovation centre. The city's own startup hub, Unicorn Factory Lisboa, runs an AI community with Microsoft, and funded startups such as Augusta Labs and DOJO AI are based here. The city council's own use of AI is thinly documented in what we could read, so research, startups and national projects, not city hall, are Lisboa's centre of gravity.",
-    "sources": [
-      {
-        "title": "University of Lisbon to invest 20 million euros in AI and science data centres (Portugal Global, 24 July 2026)",
-        "url": "https://www.portugalglobal.pt/en/news/2026/julho/university-of-lisbon-to-invest-20m-in-ai-science-data-centres/",
-        "read_on": "2026-11-16"
-      },
-      {
-        "title": "Centre of excellence for sustainable and trustworthy AI led by INESC-ID (HR Portugal, 28 April 2026)",
-        "url": "https://hrportugal.sapo.pt/?p=451309",
-        "read_on": "2026-11-16"
-      },
-      {
-        "title": "AMALIA, the Portuguese language model, is available (NOVA FCT, 2 July 2026)",
-        "url": "https://www.fct.unl.pt/noticias/2026/07/amalia-nova-fct-liderou-projeto-de-llm-que-ja-esta-disponivel",
-        "read_on": "2026-11-16"
-      },
-      {
-        "title": "Unicorn Factory Lisboa",
-        "url": "https://www.unicornfactorylisboa.com",
-        "read_on": "2026-11-16"
-      }
-    ]
-  },
-  "look": {
-    "accent": "#1D4E89",
-    "landmark": "The Torre de Belém and the yellow trams climbing the hills of Alfama",
-    "motif": "Azulejo blue, Tagus light, seven hills, a capital full of conferences and startups"
-  },
-  "ai_news": [
-    {
-      "title": "Web Summit opens in Lisbon with humanoid robots as speakers and a focus on physical AI",
-      "summary": "AICEP reports that the tenth Web Summit opened in Lisbon on 9 November with a stronger focus on physical AI. Humanoid robots from Chinese companies take part as official speakers, including a wheeled two-armed robot by Galbot made for shifts in shops, pharmacies and factories. Delegations from China's Ministry of Commerce and Cyberspace Administration attend, and about 300 Brazilian start-ups take part. The programme covers AI agents, AI-supported research, digital regulation and new working models.",
-      "date": "2026-11-16",
-      "publisher": "Portugal Global (AICEP)",
-      "url": "https://www.portugalglobal.pt/en/news/2026/novembro/web-summit-features-humanoid-robots-and-record-chinese-presence/",
-      "read_on": "2026-11-17",
-      "ai_path": "An event held in Lisbon whose stated focus this year is physical AI and AI agents: directly about AI. Read from the public agency's page, not from the summit's own site.",
-      "steps": 0
-    },
-    {
-      "title": "Lisbon drone maker Beyond Vision raises over 28 million euros to speed up AI and swarm technology",
-      "summary": "Beyond Vision, a Lisbon company making unmanned aerial systems, secured more than 28 million euros co-led by Índico Capital Partners and Lince Capital. Part of the money is meant to scale production and to accelerate its AI and swarm technology.",
-      "date": "2026-11-05",
-      "publisher": "Vestbee",
-      "url": "https://vestbee.com/insights/articles/top-european-funding-rounds-closed-in-october-2026",
-      "read_on": "2026-11-16",
-      "ai_path": "A Lisbon hardware company that says it will use new funding to build AI and swarm software: one step from AI.",
-      "steps": 1
-    },
-    {
-      "title": "University of Lisbon builds two AI data centres",
-      "summary": "ULisboa will invest over 20 million euros in two data centres for AI, high-performance computing and secure research data, at Técnico's Taguspark campus in Oeiras and at the Faculty of Sciences in Lisbon. Companies and startups will also be able to use them, with completion expected by 2028.",
-      "date": "2026-07-24",
-      "publisher": "Portugal Global (AICEP)",
-      "url": "https://www.portugalglobal.pt/en/news/2026/julho/university-of-lisbon-to-invest-20m-in-ai-science-data-centres/",
-      "read_on": "2026-11-16",
-      "ai_path": "Computing built for AI workloads at a Lisbon university, one of the two sites inside the city: directly about AI.",
-      "steps": 0
-    },
-    {
-      "title": "Portugal's responsible AI consortium reports its results",
-      "summary": "The Center for Responsible AI, a publicly funded consortium now led by Sword Health after Unbabel's collapse, reports about 49 million euros of public and 27 million of private investment and expects 150 million euros of turnover by the end of 2026. Partners include Priberam and NeuralShift. We cannot tell from the article which partners work in Lisboa.",
-      "date": "2026-07-18",
-      "publisher": "Dinheiro Vivo",
-      "url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
-      "read_on": "2026-11-16",
-      "ai_path": "A national AI product consortium: directly about AI. The Lisbon link is not stated on the page.",
-      "steps": 0
-    },
-    {
-      "title": "AMALIA, an open Portuguese language model, is presented in Lisbon",
-      "summary": "The open-source model for European Portuguese, built by a consortium of five universities including Técnico, is aimed at public services and businesses. It was presented at the Técnico Innovation Center in Lisbon.",
-      "date": "2026-07-02",
-      "publisher": "NOVA FCT",
-      "url": "https://www.fct.unl.pt/noticias/2026/07/amalia-nova-fct-liderou-projeto-de-llm-que-ja-esta-disponivel",
-      "read_on": "2026-11-16",
-      "ai_path": "A national large language model, presented in Lisbon: directly about AI.",
-      "steps": 0
-    },
-    {
-      "title": "Lisbon applied AI lab Augusta Labs closes its first round at 50 million euros",
-      "summary": "The lab builds custom AI for companies, private equity firms and government agencies. Its angels include founders from Sword Health, OutSystems and Feedzai. The round size was not disclosed.",
-      "date": "2026-06-01",
-      "publisher": "Dealroom",
-      "url": "https://dealroom.co/news/130785-augusta-labs-raises-seed-round-at-50m-valuation/",
-      "read_on": "2026-11-16",
-      "ai_path": "A Lisbon company that sells applied AI work: directly about AI.",
-      "steps": 0
-    },
-    {
-      "title": "INESC-ID wins 27.2 million euros for a sustainable AI centre in Lisbon",
-      "summary": "The research unit, associated with Técnico, leads a centre of excellence on sustainable and trustworthy AI, with 13 million euros from Horizon Europe's Teaming for Excellence and 14.2 million of national money. The Max Planck Institute for Software Systems and the German Research Center for Artificial Intelligence are partners.",
-      "date": "2026-04-28",
-      "publisher": "HR Portugal",
-      "url": "https://hrportugal.sapo.pt/?p=451309",
-      "read_on": "2026-11-16",
-      "ai_path": "A Lisbon research centre dedicated to AI: directly about AI.",
-      "steps": 0
-    },
-    {
-      "title": "DOJO AI raises 6 million dollars for agent-run marketing",
-      "summary": "The company, headquartered in London and Lisbon, closed a seed round at a 30 million dollar valuation, led by Armilar with Heartfelt VC. Its software uses autonomous agents to analyse marketing data and act on it.",
-      "date": "2026-04-22",
-      "publisher": "Pulse 2.0",
-      "url": "https://pulse2.com/dojo-ai-6-million-raised-for-agentic-marketing-platform-driving-autonomous-decision-making/",
-      "read_on": "2026-11-16",
-      "ai_path": "A company with a Lisbon base selling AI agents: directly about AI.",
-      "steps": 0
-    },
-    {
-      "title": "Public administration tests AI in pilots with Lisbon university researchers",
-      "summary": "At the AI Summit AP, a Ciências ULisboa professor from the LASIGE centre described the national administration institute's AI XLab programme, where each pilot pairs a public body with a university and an industry partner. The Faculty of Sciences of the University of Lisbon is in three ongoing pilots, which could become regular public services.",
-      "date": "2026-03-03",
-      "publisher": "Ciências ULisboa",
-      "url": "https://ciencias.ulisboa.pt/en/news/ai-summit-ap-luis-correia-participates-in-debate-on-artificial-intelligence",
-      "read_on": "2026-11-16",
-      "ai_path": "Public services piloting AI with a Lisbon faculty: directly about AI. The programme is national, the Lisbon link is the faculty.",
-      "steps": 0
-    },
-    {
-      "title": "Champalimaud Foundation and Técnico open a neurorobotics lab with an embodied AI line",
-      "summary": "The two institutions signed a five-year partnership on 18 February to create a lab inside the foundation's Neurotechnology Warehouse in Lisbon. One of its four research areas is embodied AI, on how artificial systems build models of the world by acting in it. The foundation says the lab positions Lisbon as a reference hub for natural and artificial intelligence.",
-      "date": "2026-02-26",
-      "publisher": "Champalimaud Foundation",
-      "url": "https://fchampalimaud.org/news/champalimaud-foundation-and-instituto-superior-tecnico-join-forces-lead-research-neurorobotics",
-      "read_on": "2026-11-16",
-      "ai_path": "A new Lisbon lab that includes AI research as a core line: directly about AI.",
-      "steps": 0
-    }
-  ],
+ "$schema": "../schemas/by-place.schema.json",
+ "id": "lisboa",
+ "name": "Lisboa",
+ "kind": "city",
+ "parent": "portugal",
+ "status": "live",
+ "updated": "2026-11-26",
+ "by": "place.lisboa@PrompTugal.dinis",
+ "mandate": "PrompTugal.news Lisboa: AI and technology in Lisboa, the capital whose centre of gravity is its universities and research institutes, the Unicorn Factory startup hub and the national AI projects, and what reaches Lisboa from Portugal, Europe and the world. Independent; every fact sourced.",
+ "gravity": {
+  "text": "Lisboa is where Portugal's AI money and institutions meet. The University of Lisbon is spending over 20 million euros on two AI data centres, INESC-ID has won 27.2 million euros for a sustainable AI centre, and the national language model AMALIA was presented at Técnico's innovation centre. The city's own startup hub, Unicorn Factory Lisboa, runs an AI community with Microsoft, and funded startups such as Augusta Labs and DOJO AI are based here. The city council's own use of AI is thinly documented in what we could read, so research, startups and national projects, not city hall, are Lisboa's centre of gravity.",
   "sources": [
-    {
-      "name": "Câmara Municipal de Lisboa: Lisboa Aberta",
-      "url": "https://lisboaaberta.cm-lisboa.pt",
-      "kind": "council",
-      "feed": null
-    },
-    {
-      "name": "Lisboa Aberta: LxDataLab challenges",
-      "url": "https://lisboaaberta.cm-lisboa.pt/index.php/pt/lx-data-lab/desafios",
-      "kind": "council",
-      "feed": null
-    },
-    {
-      "name": "Unicorn Factory Lisboa",
-      "url": "https://www.unicornfactorylisboa.com",
-      "kind": "business",
-      "feed": null
-    },
-    {
-      "name": "Portugal Global (AICEP) news",
-      "url": "https://www.portugalglobal.pt/en/news/",
-      "kind": "press",
-      "feed": null
-    },
-    {
-      "name": "HR Portugal",
-      "url": "https://hrportugal.sapo.pt",
-      "kind": "press",
-      "feed": "https://hrportugal.sapo.pt/feed/"
-    },
-    {
-      "name": "Lisbon AI Week",
-      "url": "https://lisbonaiweek.com",
-      "kind": "events",
-      "feed": null
-    },
-    {
-      "name": "Dealroom news",
-      "url": "https://dealroom.co/news",
-      "kind": "business",
-      "feed": null
-    },
-    {
-      "name": "NOVA FCT news",
-      "url": "https://www.fct.unl.pt/noticias",
-      "kind": "university",
-      "feed": "https://www.fct.unl.pt/rss.xml"
-    },
-    {
-      "name": "AIhub, Unicorn Factory Lisboa",
-      "url": "https://aihub.unicornfactorylisboa.com/",
-      "kind": "business",
-      "feed": null
-    },
-    {
-      "name": "Startup Portugal",
-      "url": "https://startupportugal.com/",
-      "kind": "business",
-      "feed": "https://startupportugal.com/feed/"
-    },
-    {
-      "name": "ECO (economy and startups)",
-      "url": "https://eco.sapo.pt/",
-      "kind": "press",
-      "feed": "https://eco.sapo.pt/feed/"
-    },
-    {
-      "name": "Champalimaud Foundation news",
-      "url": "https://fchampalimaud.org/news",
-      "kind": "university",
-      "feed": "https://www.fchampalimaud.org/rss.xml"
-    },
-    {
-      "name": "Vestbee insights (funding round roundups)",
-      "url": "https://vestbee.com/insights",
-      "kind": "press",
-      "feed": null
-    }
-  ],
-  "events": [
-    {
-      "title": "Above & Beyond Hangout #57 (Startup Portugal, Ferroviário in Lisbon and online)",
-      "date": "2026-11-25",
-      "url": "https://startupportugal.com/",
-      "read_on": "2026-11-16",
-      "ai_path": null
-    },
-    {
-      "title": "Unblock AI Lisbon Meetup #09 (listed by Unicorn Factory Lisboa, the date is not shown on its page)",
-      "date": "date not shown",
-      "url": "https://www.unicornfactorylisboa.com/",
-      "read_on": "2026-11-16",
-      "ai_path": "A monthly meetup of AI builders in Lisbon: directly about AI."
-    },
-    {
-      "title": "Lisbon Tech Evening: Building (with) AI in Europe (listed by Unicorn Factory Lisboa, the date is not shown on its page)",
-      "date": "date not shown",
-      "url": "https://www.unicornfactorylisboa.com/",
-      "read_on": "2026-11-16",
-      "ai_path": "A tech evening about building with AI in Europe: directly about AI."
-    },
-    {
-      "title": "Portugal Digital Summit 2026: the age of AI agents (ACEPI with GoingNext, Centro de Congressos de Lisboa)",
-      "date": "2026-10-21 to 2026-10-22",
-      "url": "https://portugalglobal.pt/noticias/2026/outubro/portugal-digital-summit-2026-debate-impacto-da-ia/",
-      "read_on": "2026-11-16",
-      "ai_path": "A two-day conference on AI agents with over 150 speakers: directly about AI. Already held."
-    },
-    {
-      "title": "Lisbon AI Week 2026 (the organisers' own page lists 21 to 27 September and now announces the next edition as coming in 2027)",
-      "date": "2026-09-21 to 2026-09-27",
-      "url": "https://lisbonaiweek.com",
-      "read_on": "2026-11-17",
-      "ai_path": "A week of AI hackathons, workshops and talks spread across the city: directly about AI. Already held."
-    },
-    {
-      "title": "AI Factory Workshops on LLMs (FCT and CNCA, TTC@Lisboa)",
-      "date": "2026-01-22",
-      "url": "https://eurocc.fccn.pt/?p=9600",
-      "read_on": "2026-11-16",
-      "ai_path": "A free hands-on workshop on building with large language models: directly about AI. Already held."
-    }
-  ],
-  "ai_map": [
-    {
-      "name": "Universidade de Lisboa (ULisboa)",
-      "type": "institution",
-      "url": "https://www.ulisboa.pt",
-      "what": "Public university investing over 20 million euros in two AI and research data centres, one at its Faculty of Sciences in Lisbon.",
-      "source_url": "https://www.portugalglobal.pt/en/news/2026/julho/university-of-lisbon-to-invest-20m-in-ai-science-data-centres/",
-      "read_on": "2026-11-16",
-      "ai_path": "Builds AI computing capacity.",
-      "steps": 0
-    },
-    {
-      "name": "Instituto Superior Técnico",
-      "type": "institution",
-      "url": "https://tecnico.ulisboa.pt",
-      "what": "ULisboa's engineering school, a partner in the AMALIA language model, host of the Técnico Innovation Center in Lisbon where it was presented, and degree partner in the INESC-ID AI doctoral programme.",
-      "source_url": "https://www.fct.unl.pt/noticias/2026/07/amalia-nova-fct-liderou-projeto-de-llm-que-ja-esta-disponivel",
-      "read_on": "2026-11-16",
-      "ai_path": "Co-built a national language model and hosts AI research.",
-      "steps": 0
-    },
-    {
-      "name": "INESC-ID",
-      "type": "institution",
-      "url": "https://hrportugal.sapo.pt/?p=451309",
-      "what": "Research unit associated with Técnico, leading a 27.2 million euro centre of excellence on sustainable and trustworthy AI.",
-      "source_url": "https://hrportugal.sapo.pt/?p=451309",
-      "read_on": "2026-11-16",
-      "ai_path": "Runs an AI research centre.",
-      "steps": 0
-    },
-    {
-      "name": "NOVA FCT and NOVA LINCS",
-      "type": "institution",
-      "url": "https://www.fct.unl.pt/noticias/2026/07/amalia-nova-fct-liderou-projeto-de-llm-que-ja-esta-disponivel",
-      "what": "A NOVA FCT professor and NOVA LINCS researcher is one of the coordinators of AMALIA. The article does not place NOVA FCT in Lisboa itself, so treat the link as national.",
-      "source_url": "https://www.fct.unl.pt/noticias/2026/07/amalia-nova-fct-liderou-projeto-de-llm-que-ja-esta-disponivel",
-      "read_on": "2026-11-16",
-      "ai_path": "Coordinates a national language model.",
-      "steps": 0
-    },
-    {
-      "name": "Unicorn Factory Lisboa",
-      "type": "organisation",
-      "url": "https://www.unicornfactorylisboa.com",
-      "what": "Startup and innovation hub created with Lisbon city council, with an AIhub community on AI, machine learning and data science and thematic hubs beside it.",
-      "source_url": "https://www.unicornfactorylisboa.com",
-      "read_on": "2026-11-16",
-      "ai_path": "Runs a hub and events for AI founders.",
-      "steps": 0
-    },
-    {
-      "name": "Microsoft AI Innovation Factory",
-      "type": "company",
-      "url": "https://news.microsoft.com/pt-pt/2024/11/13/microsoft-inaugura-ai-innovation-factory-em-lisboa/",
-      "what": "Programme opened on 13 November 2024 in Unicorn Factory Lisboa's AIhub in Alvalade, with Accenture, Avanade and Unicorn Factory Lisboa, to help companies and public bodies adopt AI.",
-      "source_url": "https://news.microsoft.com/pt-pt/2024/11/13/microsoft-inaugura-ai-innovation-factory-em-lisboa/",
-      "read_on": "2026-11-16",
-      "ai_path": "Trains organisations to adopt AI.",
-      "steps": 0
-    },
-    {
-      "name": "Augusta Labs",
-      "type": "startup",
-      "url": "https://dealroom.co/news/130785-augusta-labs-raises-seed-round-at-50m-valuation/",
-      "what": "Lisbon applied AI lab for enterprises, private equity and government, valued at 50 million euros after its first round.",
-      "source_url": "https://dealroom.co/news/130785-augusta-labs-raises-seed-round-at-50m-valuation/",
-      "read_on": "2026-11-16",
-      "ai_path": "Sells custom AI solutions.",
-      "steps": 0
-    },
-    {
-      "name": "DOJO AI",
-      "type": "startup",
-      "url": "https://pulse2.com/dojo-ai-6-million-raised-for-agentic-marketing-platform-driving-autonomous-decision-making/",
-      "what": "Agent-based marketing platform with headquarters in London and Lisbon, which raised a 6 million dollar seed round.",
-      "source_url": "https://pulse2.com/dojo-ai-6-million-raised-for-agentic-marketing-platform-driving-autonomous-decision-making/",
-      "read_on": "2026-11-16",
-      "ai_path": "Sells AI agents for marketing.",
-      "steps": 0
-    },
-    {
-      "name": "Armilar Venture Partners",
-      "type": "investor",
-      "url": "https://pulse2.com/dojo-ai-6-million-raised-for-agentic-marketing-platform-driving-autonomous-decision-making/",
-      "what": "Venture fund that led DOJO AI's April 2026 seed round. The page we opened does not state its base city.",
-      "source_url": "https://pulse2.com/dojo-ai-6-million-raised-for-agentic-marketing-platform-driving-autonomous-decision-making/",
-      "read_on": "2026-11-16",
-      "ai_path": "Funds an AI startup.",
-      "steps": 1
-    },
-    {
-      "name": "Center for Responsible AI (consortium led by Sword Health)",
-      "type": "organisation",
-      "url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
-      "what": "Publicly funded consortium of Portuguese AI product firms including Sword Health, Priberam and NeuralShift. The page does not say which members are based in Lisboa. Unicorn Factory Lisboa's AI membership page lists the consortium as a partner, beside Google and Microsoft.",
-      "source_url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
-      "read_on": "2026-11-16",
-      "ai_path": "Builds AI products for export.",
-      "steps": 0
-    },
-    {
-      "name": "Câmara Municipal de Lisboa (LxDataLab)",
-      "type": "public body",
-      "url": "https://lisboaaberta.cm-lisboa.pt",
-      "what": "The city council runs the LxDataLab urban data laboratory with universities. Search snippets from its own site mention 2026 challenges on digital twins and AI in asset management, but we could not open the page to confirm them.",
-      "source_url": "https://lisboaaberta.cm-lisboa.pt/index.php/pt/lx-data-lab/desafios",
-      "read_on": "2026-11-16",
-      "ai_path": "Sets data and AI research challenges for universities, unconfirmed.",
-      "steps": 2
-    },
-    {
-      "name": "FCT and CNCA (AI Factories Portugal)",
-      "type": "public body",
-      "url": "https://eurocc.fccn.pt/?p=9600",
-      "what": "The science funding foundation and the national advanced computing centre ran free LLM workshops at TTC@Lisboa on 22 January 2026.",
-      "source_url": "https://eurocc.fccn.pt/?p=9600",
-      "read_on": "2026-11-16",
-      "ai_path": "Public bodies teaching LLM building.",
-      "steps": 0
-    },
-    {
-      "name": "Lisbon AI Week",
-      "type": "community",
-      "url": "https://lisbonaiweek.com",
-      "what": "A week of AI events spread across Lisbon, hosted by the city's AI builder community. The page does not name an organiser.",
-      "source_url": "https://lisbonaiweek.com",
-      "read_on": "2026-11-16",
-      "ai_path": "Convenes AI builders.",
-      "steps": 0
-    },
-    {
-      "name": "Champalimaud Foundation",
-      "type": "institution",
-      "url": "https://www.fchampalimaud.org",
-      "what": "Lisbon research and clinical foundation. Its Neurotechnology Warehouse hosts the new neurorobotics lab with Técnico, with an embodied AI research line.",
-      "source_url": "https://fchampalimaud.org/news/champalimaud-foundation-and-instituto-superior-tecnico-join-forces-lead-research-neurorobotics",
-      "read_on": "2026-11-16",
-      "ai_path": "Hosts an AI research line.",
-      "steps": 0
-    },
-    {
-      "name": "Beyond Vision",
-      "type": "company",
-      "url": "https://vestbee.com/insights/articles/top-european-funding-rounds-closed-in-october-2026",
-      "what": "Lisbon maker of unmanned aerial systems, founded in 2013, funded with over 28 million euros led by Índico Capital Partners and Lince Capital to scale production and speed up AI and swarm technology.",
-      "source_url": "https://vestbee.com/insights/articles/top-european-funding-rounds-closed-in-october-2026",
-      "read_on": "2026-11-16",
-      "ai_path": "A drone maker developing AI and swarm technology.",
-      "steps": 1
-    },
-    {
-      "name": "AIhub (Unicorn Factory Lisboa)",
-      "type": "community",
-      "url": "https://aihub.unicornfactorylisboa.com/",
-      "what": "Unicorn Factory's AI innovation hub in Alvalade: over 50 member companies, 234 seats in a seven-storey building and an event space for up to 140 people.",
-      "source_url": "https://aihub.unicornfactorylisboa.com/",
-      "read_on": "2026-11-16",
-      "ai_path": "A hub and coworking space for AI startups.",
-      "steps": 0
-    },
-    {
-      "name": "Instituto Nacional de Administração, AI XLab programme",
-      "type": "public body",
-      "url": "https://ciencias.ulisboa.pt/en/news/ai-summit-ap-luis-correia-participates-in-debate-on-artificial-intelligence",
-      "what": "National public administration institute running pilots that pair a public body, a university and an industry partner to test AI. Ciências ULisboa is in three pilots.",
-      "source_url": "https://ciencias.ulisboa.pt/en/news/ai-summit-ap-luis-correia-participates-in-debate-on-artificial-intelligence",
-      "read_on": "2026-11-16",
-      "ai_path": "Tests AI in public services with a Lisbon faculty.",
-      "steps": 1
-    },
-    {
-      "name": "Ciências ULisboa and the LASIGE centre",
-      "type": "institution",
-      "url": "https://ciencias.ulisboa.pt/en/news/ai-summit-ap-luis-correia-participates-in-debate-on-artificial-intelligence",
-      "what": "Faculty of Sciences of the University of Lisbon, whose LASIGE researchers take part in AI XLab public administration pilots.",
-      "source_url": "https://ciencias.ulisboa.pt/en/news/ai-summit-ap-luis-correia-participates-in-debate-on-artificial-intelligence",
-      "read_on": "2026-11-16",
-      "ai_path": "Researches and pilots AI for public services.",
-      "steps": 0
-    },
-    {
-      "name": "AgentifAI",
-      "type": "startup",
-      "url": "https://aihub.unicornfactorylisboa.com/",
-      "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. Conversational AI for customer care with a voice-first assistant. The page does not give each firm's headquarters.",
-      "source_url": "https://aihub.unicornfactorylisboa.com/",
-      "read_on": "2026-11-16",
-      "ai_path": "Sells an AI product.",
-      "steps": 0
-    },
-    {
-      "name": "Coalex.ai",
-      "type": "startup",
-      "url": "https://aihub.unicornfactorylisboa.com/",
-      "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. AI automation with human oversight, aimed at compliance risk. The page does not give each firm's headquarters.",
-      "source_url": "https://aihub.unicornfactorylisboa.com/",
-      "read_on": "2026-11-16",
-      "ai_path": "Sells an AI product.",
-      "steps": 0
-    },
-    {
-      "name": "Granter",
-      "type": "startup",
-      "url": "https://aihub.unicornfactorylisboa.com/",
-      "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. AI platform that matches companies with grants and drafts applications. The page does not give each firm's headquarters.",
-      "source_url": "https://aihub.unicornfactorylisboa.com/",
-      "read_on": "2026-11-16",
-      "ai_path": "Sells an AI product.",
-      "steps": 0
-    },
-    {
-      "name": "jsonify",
-      "type": "startup",
-      "url": "https://aihub.unicornfactorylisboa.com/",
-      "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. An AI tool that autonomously finds, extracts and syncs online data. The page does not give each firm's headquarters.",
-      "source_url": "https://aihub.unicornfactorylisboa.com/",
-      "read_on": "2026-11-16",
-      "ai_path": "Sells an AI product.",
-      "steps": 0
-    },
-    {
-      "name": "Keymate360",
-      "type": "startup",
-      "url": "https://aihub.unicornfactorylisboa.com/",
-      "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. AI-powered key account management. The page does not give each firm's headquarters.",
-      "source_url": "https://aihub.unicornfactorylisboa.com/",
-      "read_on": "2026-11-16",
-      "ai_path": "Sells an AI product.",
-      "steps": 0
-    },
-    {
-      "name": "Mantis AI",
-      "type": "startup",
-      "url": "https://aihub.unicornfactorylisboa.com/",
-      "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. Turns raw video into organised content. The page does not give each firm's headquarters.",
-      "source_url": "https://aihub.unicornfactorylisboa.com/",
-      "read_on": "2026-11-16",
-      "ai_path": "Sells an AI product.",
-      "steps": 0
-    },
-    {
-      "name": "NeuralShift",
-      "type": "startup",
-      "url": "https://aihub.unicornfactorylisboa.com/",
-      "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. Early-stage startup that integrates AI into lawyers' daily work. Also named in the Center for Responsible AI consortium. The page does not give each firm's headquarters.",
-      "source_url": "https://aihub.unicornfactorylisboa.com/",
-      "read_on": "2026-11-16",
-      "ai_path": "Sells an AI product.",
-      "steps": 0
-    },
-    {
-      "name": "noan",
-      "type": "startup",
-      "url": "https://aihub.unicornfactorylisboa.com/",
-      "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. AI system that gives a team one source of truth. The page does not give each firm's headquarters.",
-      "source_url": "https://aihub.unicornfactorylisboa.com/",
-      "read_on": "2026-11-16",
-      "ai_path": "Sells an AI product.",
-      "steps": 0
-    },
-    {
-      "name": "Noxus",
-      "type": "startup",
-      "url": "https://aihub.unicornfactorylisboa.com/",
-      "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. Platform to deploy AI company-wide without building from scratch. The page does not give each firm's headquarters.",
-      "source_url": "https://aihub.unicornfactorylisboa.com/",
-      "read_on": "2026-11-16",
-      "ai_path": "Sells an AI product.",
-      "steps": 0
-    },
-    {
-      "name": "pleez",
-      "type": "startup",
-      "url": "https://aihub.unicornfactorylisboa.com/",
-      "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. Uses delivery data and AI to manage restaurants and sales. The page does not give each firm's headquarters.",
-      "source_url": "https://aihub.unicornfactorylisboa.com/",
-      "read_on": "2026-11-16",
-      "ai_path": "Sells an AI product.",
-      "steps": 0
-    },
-    {
-      "name": "rosent",
-      "type": "startup",
-      "url": "https://aihub.unicornfactorylisboa.com/",
-      "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. AI recruiting platform for sourcing candidates. The page does not give each firm's headquarters.",
-      "source_url": "https://aihub.unicornfactorylisboa.com/",
-      "read_on": "2026-11-16",
-      "ai_path": "Sells an AI product.",
-      "steps": 0
-    },
-    {
-      "name": "SentiVue",
-      "type": "startup",
-      "url": "https://aihub.unicornfactorylisboa.com/",
-      "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. AI platform for customer touchpoints and loyalty. The page does not give each firm's headquarters.",
-      "source_url": "https://aihub.unicornfactorylisboa.com/",
-      "read_on": "2026-11-16",
-      "ai_path": "Sells an AI product.",
-      "steps": 0
-    },
-    {
-      "name": "SparkNow",
-      "type": "startup",
-      "url": "https://aihub.unicornfactorylisboa.com/",
-      "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. AI platform that summarises expert insights. The page does not give each firm's headquarters.",
-      "source_url": "https://aihub.unicornfactorylisboa.com/",
-      "read_on": "2026-11-16",
-      "ai_path": "Sells an AI product.",
-      "steps": 0
-    },
-    {
-      "name": "talka",
-      "type": "startup",
-      "url": "https://aihub.unicornfactorylisboa.com/",
-      "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. Extracts insights from video and voice conversations. The page does not give each firm's headquarters.",
-      "source_url": "https://aihub.unicornfactorylisboa.com/",
-      "read_on": "2026-11-16",
-      "ai_path": "Sells an AI product.",
-      "steps": 0
-    },
-    {
-      "name": "Visor.ai",
-      "type": "startup",
-      "url": "https://aihub.unicornfactorylisboa.com/",
-      "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. AI platform that automates customer service interactions. The page does not give each firm's headquarters.",
-      "source_url": "https://aihub.unicornfactorylisboa.com/",
-      "read_on": "2026-11-16",
-      "ai_path": "Sells an AI product.",
-      "steps": 0
-    }
-  ],
-  "extras": [],
-  "identity": {
-    "key_id": "site.lisboa-promptugal-2",
-    "signed_by": "place.districts@PrompTugal.dinis"
-  },
-  "gaps": [
-    "The city council's own sites (lisboa.pt, lisboaaberta.cm-lisboa.pt) still answer 403 to us on 17 November (the page body is a short block page of about 5,000 characters, so there is no content to fetch at an offset). The LxDataLab entry therefore still rests on search snippets, and the council's business desk, news and procurement notices are not reachable. base.gov.pt answers 301 and we did not find a council notice there; Lusa wire copy is not checked.",
-    "We found no named council business desk or contact for Lisboa. Unicorn Factory Lisboa and Startup Portugal's Lisbon office are the routes we could read. The Unicorn Factory contact page shows a general address that is spelled differently on two of its own pages (the home page footer and a variant with a different spelling on the contacts page), so we link the pages and do not copy an address.",
-    "Feeds on 17 November: ECO (works, 22 items, nothing Lisbon-AI since 16 November), NOVA FCT (works but carries only jury notices, not news), Champalimaud (works but holds one stale homepage item from 2018), Startup Portugal (valid but empty), HR Portugal (now answers 403 to us). None found for the council, Unicorn Factory, AICEP or Dealroom. AICEP's news list page is readable as HTML and is the better route.",
-    "Lisbon AI Week dates: a press article says 19 to 23 October and the organisers' own page says 21 to 27 September 2026 (and now announces 2027 as coming). We use the organisers' page.",
-    "We cannot read the Web Summit pages by rule, so the summit's own AI programme is not covered here; the AICEP report of 16 November is the public-agency view. Unicorn Factory's events page is a Luma embed, which we do not open, so the dates of Unblock AI #09 and Lisbon Tech Evening stay missing (the home page lists them without dates).",
-    "The AIhub member list shows names and one-line descriptions but not each firm's headquarters, so the members are listed as AIhub community members, not as Lisboa-based. Sword Health, Priberam, Feedzai, Unbabel and Farfetch are still not placed in Lisboa by a page we opened.",
-    "Investors are still thin. Armilar's base city is not stated on a page we opened, and Portugal Ventures, Lince Capital and Índico gave us no page of their own (the Unicorn Factory home page links lince-capital.com, not opened). The Banco de Fomento's new fund of funds is still unconfirmed.",
-    "Missing: Lisbon hospitals' AI use, the ISCTE, NOVA SBE and Católica AI centres, and the Unicorn Factory startup list as data (the startups page is about 1.2 MB of markup and was not parsed). The Soft Landing Program terms are not published at any address we reached (see its entry). Discord's new Lisbon engineering hub (AICEP, 12 November) is not AI news by our test and is left out.",
-    "Talent is not filled, by decision pending from Dinis on naming individuals."
-  ],
-  "voice": {
-    "lede": "Lisboa, pá: seven hills, one very busy tram, and more AI conferences per square kilometre than there are pastéis de nata in Belém.",
-    "mandate": "PrompTugal.news Lisboa, a capital que nunca dorme: AI and tech in Lisboa, with the universities and the Unicorn Factory as the big brains, plus whatever news sails in from Portugal, Europe and the world. Independente, and every fact comes with a receipt.",
-    "gravity": "Lisboa is where the universities build data centres, the institutes win millions, and a national language model gets its stage at Técnico. The startups come to Alvalade, the angels come with their cheque books, and the Câmara, bless it, keeps its AI plans to itself for now. Research and startups, sim senhor, not city hall.",
-    "gaps_intro": "Ainda não sabemos tudo, pá. Here is what Lisboa has not told us yet:"
-  },
-  "start_company": [
-    {
-      "name": "Unicorn Factory Lisboa: Incubation Program",
-      "what": "Founder-driven programme from pre-seed to seed, with no equity taken, fully online and no registered company needed. It cites over 1,000 startups supported since 2012 and over 200 mentors. The next batch closes in early December 2026 (its pages say 1 and 3 December).",
-      "url": "https://unicornfactorylisboa.com/incubation/",
-      "source_url": "https://unicornfactorylisboa.com/incubation/",
-      "read_on": "2026-11-16",
-      "kind": "incubator"
-    },
-    {
-      "name": "Unicorn Factory Lisboa: Active Programs and thematic hubs",
-      "what": "Open calls for mobility and cleantech, a global scaling cohort and agritech and foodtech acceleration, plus membership programmes with partners for AI (Google, Microsoft and the Center for Responsible AI), cleantech, healthtech and industrials.",
-      "url": "https://unicornfactorylisboa.com/active-programs/",
-      "source_url": "https://unicornfactorylisboa.com/active-programs/",
-      "read_on": "2026-11-16",
-      "kind": "accelerator"
-    },
-    {
-      "name": "AIhub membership and coworking",
-      "what": "AI community with tiers from free (Discovery) to paid (Immersion and Catalyst), coworking from a 15 euro day pass and private offices. Prices as published, plus VAT.",
-      "url": "https://aihub.unicornfactorylisboa.com/",
-      "source_url": "https://aihub.unicornfactorylisboa.com/",
-      "read_on": "2026-11-16",
-      "kind": "space"
-    },
-    {
-      "name": "Unicorn Factory Lisboa: Soft Landing Program",
-      "what": "Listed on the hub's menu as support for founders setting up in Lisbon. On 17 November the menu entry links to an application form on a Microsoft forms address, not to a page of terms, and the guessed address /soft-landing/ returns 404, so we still cannot state its terms.",
-      "url": "https://unicornfactorylisboa.com/",
-      "source_url": "https://unicornfactorylisboa.com/",
-      "read_on": "2026-11-17",
-      "kind": "programme"
-    },
-    {
-      "name": "Startup Portugal One Stop Shop (Lisbon office at Cais Português, Pavilhão de Portugal)",
-      "what": "Centralised information and personalised support, online and in person, for those who want to found, operate and scale a business from Portugal, with offices in Lisboa and Porto.",
-      "url": "https://startupportugal.com/one-stop-shop/",
-      "source_url": "https://startupportugal.com/one-stop-shop/",
-      "read_on": "2026-11-16",
-      "kind": "public desk"
-    },
-    {
-      "name": "Startup Portugal: programmes and incubator network (RNi)",
-      "what": "National agency for the startup ecosystem. Runs the monthly Above & Beyond Hangouts, the Tech Foundry Portugal deep tech programme and Road 2 Web Summit, and keeps the national incubator network RNi.",
-      "url": "https://startupportugal.com/",
-      "source_url": "https://startupportugal.com/",
-      "read_on": "2026-11-16",
-      "kind": "community"
-    },
-    {
-      "name": "Empresa na Hora (Instituto dos Registos e do Notariado, via gov.pt)",
-      "what": "Counter service to create quota companies, single-member quota companies and public limited companies quickly. The gov.pt page was updated on 4 September 2026 and names the registry institute as responsible.",
-      "url": "https://www.gov.pt/en/servicos/criar-uma-empresa-na-hora",
-      "source_url": "https://www.gov.pt/en/servicos/criar-uma-empresa-na-hora",
-      "read_on": "2026-11-16",
-      "kind": "public desk"
-    }
-  ],
-  "investors": [
-    {
-      "name": "Índico Capital Partners and Lince Capital into Beyond Vision",
-      "what": "Co-led the funding round of a Lisbon drone maker that plans to speed up AI and swarm technology.",
-      "url": "https://vestbee.com/insights/articles/top-european-funding-rounds-closed-in-october-2026",
-      "source_url": "https://vestbee.com/insights/articles/top-european-funding-rounds-closed-in-october-2026",
-      "read_on": "2026-11-16",
-      "type": "investment",
-      "amount": "over 28 million euros",
-      "date": "2026-10",
-      "ai_path": "Funds a company building AI and swarm technology: one step from AI."
-    },
-    {
-      "name": "Armilar Venture Partners into DOJO AI",
-      "what": "Led the April 2026 seed round of an agent-based marketing company with a Lisbon base and a place in Unicorn Factory's AIhub.",
-      "url": "https://pulse2.com/dojo-ai-6-million-raised-for-agentic-marketing-platform-driving-autonomous-decision-making/",
-      "source_url": "https://pulse2.com/dojo-ai-6-million-raised-for-agentic-marketing-platform-driving-autonomous-decision-making/",
-      "read_on": "2026-11-16",
-      "type": "investment",
-      "amount": "6 million dollars",
-      "date": "2026-04-22",
-      "ai_path": "Funds an AI agent company: directly about AI."
-    },
-    {
-      "name": "Horizon Europe Teaming for Excellence and national funds into INESC-ID's AI centre",
-      "what": "13 million euros from Horizon Europe plus 14.2 million of national money for the sustainable and trustworthy AI centre.",
-      "url": "https://hrportugal.sapo.pt/?p=451309",
-      "source_url": "https://hrportugal.sapo.pt/?p=451309",
-      "read_on": "2026-11-16",
-      "type": "grant",
-      "amount": "27.2 million euros",
-      "date": "2026-04-28",
-      "ai_path": "Funds an AI research centre: directly about AI."
-    },
-    {
-      "name": "University of Lisbon's own investment in two AI data centres",
-      "what": "Over 20 million euros for computing for AI and research data in Lisbon and Oeiras, open to companies and startups, due by 2028.",
-      "url": "https://www.portugalglobal.pt/en/news/2026/julho/university-of-lisbon-to-invest-20m-in-ai-science-data-centres/",
-      "source_url": "https://www.portugalglobal.pt/en/news/2026/julho/university-of-lisbon-to-invest-20m-in-ai-science-data-centres/",
-      "read_on": "2026-11-16",
-      "type": "investment",
-      "amount": "over 20 million euros",
-      "date": "2026-07-24",
-      "ai_path": "Builds AI computing: directly about AI."
-    },
-    {
-      "name": "Banco Português de Fomento: IFIC call for AI adoption (national)",
-      "what": "The state development bank received over 3,700 applications to the AI call of its innovation and competitiveness instrument, with proposed investment of 801 million euros, and sent its first decisions on 5 February 2026. The call is national, the page does not place the winners in Lisboa.",
-      "url": "https://eco.sapo.pt/2026/02/11/apoios-a-industria-defesa-e-ia-do-banco-de-fomento-tiveram-5-067-candidaturas/",
-      "source_url": "https://eco.sapo.pt/2026/02/11/apoios-a-industria-defesa-e-ia-do-banco-de-fomento-tiveram-5-067-candidaturas/",
-      "read_on": "2026-11-16",
-      "type": "programme",
-      "date": "2026-02-11",
-      "ai_path": "Public money for companies adopting AI: directly about AI."
-    },
-    {
-      "name": "Unicorn Factory Lisboa investor network",
-      "what": "The Incubation Program page cites over 150 investors and over 200 mentors in its network, and the site shows a partners section for corporates and investors. It names no individual fund.",
-      "url": "https://unicornfactorylisboa.com/incubation/",
-      "source_url": "https://unicornfactorylisboa.com/incubation/",
-      "read_on": "2026-11-16",
-      "type": "programme",
-      "ai_path": "Connects founders, including AI founders, with investors: one step from AI."
-    }
-  ],
-  "contacts": [
-    {
-      "name": "Startup Portugal, official contact page",
-      "what": "The national startup agency's published contact channel, with online and in-person meetings and a Lisbon one stop shop office.",
-      "url": "https://startupportugal.com/contacts/",
-      "source_url": "https://startupportugal.com/contacts/",
-      "read_on": "2026-11-16",
-      "channel": "the agency's contact form and email, published on its Contacts page (open the linked page for the address)"
-    },
-    {
-      "name": "Unicorn Factory Lisboa, contact page",
-      "what": "The council-backed hub's published channels for visits, event hosting, workspace and programme support.",
-      "url": "https://unicornfactorylisboa.com/contacts/",
-      "source_url": "https://unicornfactorylisboa.com/contacts/",
-      "read_on": "2026-11-16",
-      "channel": "the hub's published contact buttons and general email on its Contacts page (open the linked page for the address)"
-    },
-    {
-      "name": "AICEP, Portugal's trade and investment agency",
-      "what": "Public agency that publishes the Portugal Global news pages we cite, with a general line and email in its footer.",
-      "url": "https://www.portugalglobal.pt/en/news/2026/maio/using-data-improves-smart-city-management/",
-      "source_url": "https://www.portugalglobal.pt/en/news/2026/maio/using-data-improves-smart-city-management/",
-      "read_on": "2026-11-16",
-      "channel": "the agency's general phone line and email, published in the footer of its pages (open the linked page for the details)"
-    }
+   {
+    "title": "University of Lisbon to invest 20 million euros in AI and science data centres (Portugal Global, 24 July 2026)",
+    "url": "https://www.portugalglobal.pt/en/news/2026/julho/university-of-lisbon-to-invest-20m-in-ai-science-data-centres/",
+    "read_on": "2026-11-16"
+   },
+   {
+    "title": "Centre of excellence for sustainable and trustworthy AI led by INESC-ID (HR Portugal, 28 April 2026)",
+    "url": "https://hrportugal.sapo.pt/?p=451309",
+    "read_on": "2026-11-16"
+   },
+   {
+    "title": "AMALIA, the Portuguese language model, is available (NOVA FCT, 2 July 2026)",
+    "url": "https://www.fct.unl.pt/noticias/2026/07/amalia-nova-fct-liderou-projeto-de-llm-que-ja-esta-disponivel",
+    "read_on": "2026-11-16"
+   },
+   {
+    "title": "Unicorn Factory Lisboa",
+    "url": "https://www.unicornfactorylisboa.com",
+    "read_on": "2026-11-16"
+   }
   ]
+ },
+ "look": {
+  "accent": "#1D4E89",
+  "landmark": "The Torre de Belém and the yellow trams climbing the hills of Alfama",
+  "motif": "Azulejo blue, Tagus light, seven hills, a capital full of conferences and startups"
+ },
+ "ai_news": [
+  {
+   "title": "Web Summit opens in Lisbon with humanoid robots as speakers and a focus on physical AI",
+   "summary": "AICEP reports that the tenth Web Summit opened in Lisbon on 9 November with a stronger focus on physical AI. Humanoid robots from Chinese companies take part as official speakers, including a wheeled two-armed robot by Galbot made for shifts in shops, pharmacies and factories. Delegations from China's Ministry of Commerce and Cyberspace Administration attend, and about 300 Brazilian start-ups take part. The programme covers AI agents, AI-supported research, digital regulation and new working models.",
+   "date": "2026-11-16",
+   "publisher": "Portugal Global (AICEP)",
+   "url": "https://www.portugalglobal.pt/en/news/2026/novembro/web-summit-features-humanoid-robots-and-record-chinese-presence/",
+   "read_on": "2026-11-17",
+   "ai_path": "An event held in Lisbon whose stated focus this year is physical AI and AI agents: directly about AI. Read from the public agency's page, not from the summit's own site.",
+   "steps": 0
+  },
+  {
+   "title": "Lisbon drone maker Beyond Vision raises over 28 million euros to speed up AI and swarm technology",
+   "summary": "Beyond Vision, a Lisbon company making unmanned aerial systems, secured more than 28 million euros co-led by Índico Capital Partners and Lince Capital. Part of the money is meant to scale production and to accelerate its AI and swarm technology.",
+   "date": "2026-11-05",
+   "publisher": "Vestbee",
+   "url": "https://vestbee.com/insights/articles/top-european-funding-rounds-closed-in-october-2026",
+   "read_on": "2026-11-16",
+   "ai_path": "A Lisbon hardware company that says it will use new funding to build AI and swarm software: one step from AI.",
+   "steps": 1
+  },
+  {
+   "title": "University of Lisbon builds two AI data centres",
+   "summary": "ULisboa will invest over 20 million euros in two data centres for AI, high-performance computing and secure research data, at Técnico's Taguspark campus in Oeiras and at the Faculty of Sciences in Lisbon. Companies and startups will also be able to use them, with completion expected by 2028.",
+   "date": "2026-07-24",
+   "publisher": "Portugal Global (AICEP)",
+   "url": "https://www.portugalglobal.pt/en/news/2026/julho/university-of-lisbon-to-invest-20m-in-ai-science-data-centres/",
+   "read_on": "2026-11-16",
+   "ai_path": "Computing built for AI workloads at a Lisbon university, one of the two sites inside the city: directly about AI.",
+   "steps": 0
+  },
+  {
+   "title": "Portugal's responsible AI consortium reports its results",
+   "summary": "The Center for Responsible AI, a publicly funded consortium now led by Sword Health after Unbabel's collapse, reports about 49 million euros of public and 27 million of private investment and expects 150 million euros of turnover by the end of 2026. Partners include Priberam and NeuralShift. We cannot tell from the article which partners work in Lisboa.",
+   "date": "2026-07-18",
+   "publisher": "Dinheiro Vivo",
+   "url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
+   "read_on": "2026-11-16",
+   "ai_path": "A national AI product consortium: directly about AI. The Lisbon link is not stated on the page.",
+   "steps": 0
+  },
+  {
+   "title": "AMALIA, an open Portuguese language model, is presented in Lisbon",
+   "summary": "The open-source model for European Portuguese, built by a consortium of five universities including Técnico, is aimed at public services and businesses. It was presented at the Técnico Innovation Center in Lisbon.",
+   "date": "2026-07-02",
+   "publisher": "NOVA FCT",
+   "url": "https://www.fct.unl.pt/noticias/2026/07/amalia-nova-fct-liderou-projeto-de-llm-que-ja-esta-disponivel",
+   "read_on": "2026-11-16",
+   "ai_path": "A national large language model, presented in Lisbon: directly about AI.",
+   "steps": 0
+  },
+  {
+   "title": "Lisbon applied AI lab Augusta Labs closes its first round at 50 million euros",
+   "summary": "The lab builds custom AI for companies, private equity firms and government agencies. Its angels include founders from Sword Health, OutSystems and Feedzai. The round size was not disclosed.",
+   "date": "2026-06-01",
+   "publisher": "Dealroom",
+   "url": "https://dealroom.co/news/130785-augusta-labs-raises-seed-round-at-50m-valuation/",
+   "read_on": "2026-11-16",
+   "ai_path": "A Lisbon company that sells applied AI work: directly about AI.",
+   "steps": 0
+  },
+  {
+   "title": "INESC-ID wins 27.2 million euros for a sustainable AI centre in Lisbon",
+   "summary": "The research unit, associated with Técnico, leads a centre of excellence on sustainable and trustworthy AI, with 13 million euros from Horizon Europe's Teaming for Excellence and 14.2 million of national money. The Max Planck Institute for Software Systems and the German Research Center for Artificial Intelligence are partners.",
+   "date": "2026-04-28",
+   "publisher": "HR Portugal",
+   "url": "https://hrportugal.sapo.pt/?p=451309",
+   "read_on": "2026-11-16",
+   "ai_path": "A Lisbon research centre dedicated to AI: directly about AI.",
+   "steps": 0
+  },
+  {
+   "title": "DOJO AI raises 6 million dollars for agent-run marketing",
+   "summary": "The company, headquartered in London and Lisbon, closed a seed round at a 30 million dollar valuation, led by Armilar with Heartfelt VC. Its software uses autonomous agents to analyse marketing data and act on it.",
+   "date": "2026-04-22",
+   "publisher": "Pulse 2.0",
+   "url": "https://pulse2.com/dojo-ai-6-million-raised-for-agentic-marketing-platform-driving-autonomous-decision-making/",
+   "read_on": "2026-11-16",
+   "ai_path": "A company with a Lisbon base selling AI agents: directly about AI.",
+   "steps": 0
+  },
+  {
+   "title": "Public administration tests AI in pilots with Lisbon university researchers",
+   "summary": "At the AI Summit AP, a Ciências ULisboa professor from the LASIGE centre described the national administration institute's AI XLab programme, where each pilot pairs a public body with a university and an industry partner. The Faculty of Sciences of the University of Lisbon is in three ongoing pilots, which could become regular public services.",
+   "date": "2026-03-03",
+   "publisher": "Ciências ULisboa",
+   "url": "https://ciencias.ulisboa.pt/en/news/ai-summit-ap-luis-correia-participates-in-debate-on-artificial-intelligence",
+   "read_on": "2026-11-16",
+   "ai_path": "Public services piloting AI with a Lisbon faculty: directly about AI. The programme is national, the Lisbon link is the faculty.",
+   "steps": 0
+  },
+  {
+   "title": "Champalimaud Foundation and Técnico open a neurorobotics lab with an embodied AI line",
+   "summary": "The two institutions signed a five-year partnership on 18 February to create a lab inside the foundation's Neurotechnology Warehouse in Lisbon. One of its four research areas is embodied AI, on how artificial systems build models of the world by acting in it. The foundation says the lab positions Lisbon as a reference hub for natural and artificial intelligence.",
+   "date": "2026-02-26",
+   "publisher": "Champalimaud Foundation",
+   "url": "https://fchampalimaud.org/news/champalimaud-foundation-and-instituto-superior-tecnico-join-forces-lead-research-neurorobotics",
+   "read_on": "2026-11-16",
+   "ai_path": "A new Lisbon lab that includes AI research as a core line: directly about AI.",
+   "steps": 0
+  }
+ ],
+ "sources": [
+  {
+   "name": "Câmara Municipal de Lisboa: Lisboa Aberta",
+   "url": "https://lisboaaberta.cm-lisboa.pt",
+   "kind": "council",
+   "feed": null
+  },
+  {
+   "name": "Lisboa Aberta: LxDataLab challenges",
+   "url": "https://lisboaaberta.cm-lisboa.pt/index.php/pt/lx-data-lab/desafios",
+   "kind": "council",
+   "feed": null
+  },
+  {
+   "name": "Unicorn Factory Lisboa",
+   "url": "https://www.unicornfactorylisboa.com",
+   "kind": "business",
+   "feed": null
+  },
+  {
+   "name": "Portugal Global (AICEP) news",
+   "url": "https://www.portugalglobal.pt/en/news/",
+   "kind": "press",
+   "feed": null
+  },
+  {
+   "name": "HR Portugal",
+   "url": "https://hrportugal.sapo.pt",
+   "kind": "press",
+   "feed": "https://hrportugal.sapo.pt/feed/"
+  },
+  {
+   "name": "Lisbon AI Week",
+   "url": "https://lisbonaiweek.com",
+   "kind": "events",
+   "feed": null
+  },
+  {
+   "name": "Dealroom news",
+   "url": "https://dealroom.co/news",
+   "kind": "business",
+   "feed": null
+  },
+  {
+   "name": "NOVA FCT news",
+   "url": "https://www.fct.unl.pt/noticias",
+   "kind": "university",
+   "feed": "https://www.fct.unl.pt/rss.xml"
+  },
+  {
+   "name": "AIhub, Unicorn Factory Lisboa",
+   "url": "https://aihub.unicornfactorylisboa.com/",
+   "kind": "business",
+   "feed": null
+  },
+  {
+   "name": "Startup Portugal",
+   "url": "https://startupportugal.com/",
+   "kind": "business",
+   "feed": "https://startupportugal.com/feed/"
+  },
+  {
+   "name": "ECO (economy and startups)",
+   "url": "https://eco.sapo.pt/",
+   "kind": "press",
+   "feed": "https://eco.sapo.pt/feed/"
+  },
+  {
+   "name": "Champalimaud Foundation news",
+   "url": "https://fchampalimaud.org/news",
+   "kind": "university",
+   "feed": "https://www.fchampalimaud.org/rss.xml"
+  },
+  {
+   "name": "Vestbee insights (funding round roundups)",
+   "url": "https://vestbee.com/insights",
+   "kind": "press",
+   "feed": null
+  }
+ ],
+ "events": [
+  {
+   "title": "Above & Beyond Hangout #57 (Startup Portugal, Ferroviário in Lisbon and online)",
+   "date": "2026-11-25",
+   "url": "https://startupportugal.com/",
+   "read_on": "2026-11-16",
+   "ai_path": null
+  },
+  {
+   "title": "Unblock AI Lisbon Meetup #09 (listed by Unicorn Factory Lisboa, the date is not shown on its page)",
+   "date": "date not shown",
+   "url": "https://www.unicornfactorylisboa.com/",
+   "read_on": "2026-11-16",
+   "ai_path": "A monthly meetup of AI builders in Lisbon: directly about AI."
+  },
+  {
+   "title": "Lisbon Tech Evening: Building (with) AI in Europe (listed by Unicorn Factory Lisboa, the date is not shown on its page)",
+   "date": "date not shown",
+   "url": "https://www.unicornfactorylisboa.com/",
+   "read_on": "2026-11-16",
+   "ai_path": "A tech evening about building with AI in Europe: directly about AI."
+  },
+  {
+   "title": "Portugal Digital Summit 2026: the age of AI agents (ACEPI with GoingNext, Centro de Congressos de Lisboa)",
+   "date": "2026-10-21 to 2026-10-22",
+   "url": "https://portugalglobal.pt/noticias/2026/outubro/portugal-digital-summit-2026-debate-impacto-da-ia/",
+   "read_on": "2026-11-16",
+   "ai_path": "A two-day conference on AI agents with over 150 speakers: directly about AI. Already held."
+  },
+  {
+   "title": "Lisbon AI Week 2026 (the organisers' own page lists 21 to 27 September and now announces the next edition as coming in 2027)",
+   "date": "2026-09-21 to 2026-09-27",
+   "url": "https://lisbonaiweek.com",
+   "read_on": "2026-11-17",
+   "ai_path": "A week of AI hackathons, workshops and talks spread across the city: directly about AI. Already held."
+  },
+  {
+   "title": "AI Factory Workshops on LLMs (FCT and CNCA, TTC@Lisboa)",
+   "date": "2026-01-22",
+   "url": "https://eurocc.fccn.pt/?p=9600",
+   "read_on": "2026-11-16",
+   "ai_path": "A free hands-on workshop on building with large language models: directly about AI. Already held."
+  }
+ ],
+ "ai_map": [
+  {
+   "name": "Universidade de Lisboa (ULisboa)",
+   "type": "institution",
+   "url": "https://www.ulisboa.pt",
+   "what": "Public university investing over 20 million euros in two AI and research data centres, one at its Faculty of Sciences in Lisbon.",
+   "source_url": "https://www.portugalglobal.pt/en/news/2026/julho/university-of-lisbon-to-invest-20m-in-ai-science-data-centres/",
+   "read_on": "2026-11-16",
+   "ai_path": "Builds AI computing capacity.",
+   "steps": 0
+  },
+  {
+   "name": "Instituto Superior Técnico",
+   "type": "institution",
+   "url": "https://tecnico.ulisboa.pt",
+   "what": "ULisboa's engineering school, a partner in the AMALIA language model, host of the Técnico Innovation Center in Lisbon where it was presented, and degree partner in the INESC-ID AI doctoral programme.",
+   "source_url": "https://www.fct.unl.pt/noticias/2026/07/amalia-nova-fct-liderou-projeto-de-llm-que-ja-esta-disponivel",
+   "read_on": "2026-11-16",
+   "ai_path": "Co-built a national language model and hosts AI research.",
+   "steps": 0
+  },
+  {
+   "name": "INESC-ID",
+   "type": "institution",
+   "url": "https://hrportugal.sapo.pt/?p=451309",
+   "what": "Research unit associated with Técnico, leading a 27.2 million euro centre of excellence on sustainable and trustworthy AI.",
+   "source_url": "https://hrportugal.sapo.pt/?p=451309",
+   "read_on": "2026-11-16",
+   "ai_path": "Runs an AI research centre.",
+   "steps": 0
+  },
+  {
+   "name": "NOVA FCT and NOVA LINCS",
+   "type": "institution",
+   "url": "https://www.fct.unl.pt/noticias/2026/07/amalia-nova-fct-liderou-projeto-de-llm-que-ja-esta-disponivel",
+   "what": "A NOVA FCT professor and NOVA LINCS researcher is one of the coordinators of AMALIA. The article does not place NOVA FCT in Lisboa itself, so treat the link as national.",
+   "source_url": "https://www.fct.unl.pt/noticias/2026/07/amalia-nova-fct-liderou-projeto-de-llm-que-ja-esta-disponivel",
+   "read_on": "2026-11-16",
+   "ai_path": "Coordinates a national language model.",
+   "steps": 0
+  },
+  {
+   "name": "Unicorn Factory Lisboa",
+   "type": "organisation",
+   "url": "https://www.unicornfactorylisboa.com",
+   "what": "Startup and innovation hub created with Lisbon city council, with an AIhub community on AI, machine learning and data science and thematic hubs beside it.",
+   "source_url": "https://www.unicornfactorylisboa.com",
+   "read_on": "2026-11-16",
+   "ai_path": "Runs a hub and events for AI founders.",
+   "steps": 0
+  },
+  {
+   "name": "Microsoft AI Innovation Factory",
+   "type": "company",
+   "url": "https://news.microsoft.com/pt-pt/2024/11/13/microsoft-inaugura-ai-innovation-factory-em-lisboa/",
+   "what": "Programme opened on 13 November 2024 in Unicorn Factory Lisboa's AIhub in Alvalade, with Accenture, Avanade and Unicorn Factory Lisboa, to help companies and public bodies adopt AI.",
+   "source_url": "https://news.microsoft.com/pt-pt/2024/11/13/microsoft-inaugura-ai-innovation-factory-em-lisboa/",
+   "read_on": "2026-11-16",
+   "ai_path": "Trains organisations to adopt AI.",
+   "steps": 0
+  },
+  {
+   "name": "Augusta Labs",
+   "type": "startup",
+   "url": "https://dealroom.co/news/130785-augusta-labs-raises-seed-round-at-50m-valuation/",
+   "what": "Lisbon applied AI lab for enterprises, private equity and government, valued at 50 million euros after its first round.",
+   "source_url": "https://dealroom.co/news/130785-augusta-labs-raises-seed-round-at-50m-valuation/",
+   "read_on": "2026-11-16",
+   "ai_path": "Sells custom AI solutions.",
+   "steps": 0
+  },
+  {
+   "name": "DOJO AI",
+   "type": "startup",
+   "url": "https://pulse2.com/dojo-ai-6-million-raised-for-agentic-marketing-platform-driving-autonomous-decision-making/",
+   "what": "Agent-based marketing platform with headquarters in London and Lisbon, which raised a 6 million dollar seed round.",
+   "source_url": "https://pulse2.com/dojo-ai-6-million-raised-for-agentic-marketing-platform-driving-autonomous-decision-making/",
+   "read_on": "2026-11-16",
+   "ai_path": "Sells AI agents for marketing.",
+   "steps": 0
+  },
+  {
+   "name": "Armilar Venture Partners",
+   "type": "investor",
+   "url": "https://pulse2.com/dojo-ai-6-million-raised-for-agentic-marketing-platform-driving-autonomous-decision-making/",
+   "what": "Venture fund that led DOJO AI's April 2026 seed round. The page we opened does not state its base city.",
+   "source_url": "https://pulse2.com/dojo-ai-6-million-raised-for-agentic-marketing-platform-driving-autonomous-decision-making/",
+   "read_on": "2026-11-16",
+   "ai_path": "Funds an AI startup.",
+   "steps": 1
+  },
+  {
+   "name": "Center for Responsible AI (consortium led by Sword Health)",
+   "type": "organisation",
+   "url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
+   "what": "Publicly funded consortium of Portuguese AI product firms including Sword Health, Priberam and NeuralShift. The page does not say which members are based in Lisboa. Unicorn Factory Lisboa's AI membership page lists the consortium as a partner, beside Google and Microsoft.",
+   "source_url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
+   "read_on": "2026-11-16",
+   "ai_path": "Builds AI products for export.",
+   "steps": 0
+  },
+  {
+   "name": "Câmara Municipal de Lisboa (LxDataLab)",
+   "type": "public body",
+   "url": "https://lisboaaberta.cm-lisboa.pt",
+   "what": "The city council runs the LxDataLab urban data laboratory with universities. Search snippets from its own site mention 2026 challenges on digital twins and AI in asset management, but we could not open the page to confirm them.",
+   "source_url": "https://lisboaaberta.cm-lisboa.pt/index.php/pt/lx-data-lab/desafios",
+   "read_on": "2026-11-16",
+   "ai_path": "Sets data and AI research challenges for universities, unconfirmed.",
+   "steps": 2
+  },
+  {
+   "name": "FCT and CNCA (AI Factories Portugal)",
+   "type": "public body",
+   "url": "https://eurocc.fccn.pt/?p=9600",
+   "what": "The science funding foundation and the national advanced computing centre ran free LLM workshops at TTC@Lisboa on 22 January 2026.",
+   "source_url": "https://eurocc.fccn.pt/?p=9600",
+   "read_on": "2026-11-16",
+   "ai_path": "Public bodies teaching LLM building.",
+   "steps": 0
+  },
+  {
+   "name": "Lisbon AI Week",
+   "type": "community",
+   "url": "https://lisbonaiweek.com",
+   "what": "A week of AI events spread across Lisbon, hosted by the city's AI builder community. The page does not name an organiser.",
+   "source_url": "https://lisbonaiweek.com",
+   "read_on": "2026-11-16",
+   "ai_path": "Convenes AI builders.",
+   "steps": 0
+  },
+  {
+   "name": "Champalimaud Foundation",
+   "type": "institution",
+   "url": "https://www.fchampalimaud.org",
+   "what": "Lisbon research and clinical foundation. Its Neurotechnology Warehouse hosts the new neurorobotics lab with Técnico, with an embodied AI research line.",
+   "source_url": "https://fchampalimaud.org/news/champalimaud-foundation-and-instituto-superior-tecnico-join-forces-lead-research-neurorobotics",
+   "read_on": "2026-11-16",
+   "ai_path": "Hosts an AI research line.",
+   "steps": 0
+  },
+  {
+   "name": "Beyond Vision",
+   "type": "company",
+   "url": "https://vestbee.com/insights/articles/top-european-funding-rounds-closed-in-october-2026",
+   "what": "Lisbon maker of unmanned aerial systems, founded in 2013, funded with over 28 million euros led by Índico Capital Partners and Lince Capital to scale production and speed up AI and swarm technology.",
+   "source_url": "https://vestbee.com/insights/articles/top-european-funding-rounds-closed-in-october-2026",
+   "read_on": "2026-11-16",
+   "ai_path": "A drone maker developing AI and swarm technology.",
+   "steps": 1
+  },
+  {
+   "name": "AIhub (Unicorn Factory Lisboa)",
+   "type": "community",
+   "url": "https://aihub.unicornfactorylisboa.com/",
+   "what": "Unicorn Factory's AI innovation hub in Alvalade: over 50 member companies, 234 seats in a seven-storey building and an event space for up to 140 people.",
+   "source_url": "https://aihub.unicornfactorylisboa.com/",
+   "read_on": "2026-11-16",
+   "ai_path": "A hub and coworking space for AI startups.",
+   "steps": 0
+  },
+  {
+   "name": "Instituto Nacional de Administração, AI XLab programme",
+   "type": "public body",
+   "url": "https://ciencias.ulisboa.pt/en/news/ai-summit-ap-luis-correia-participates-in-debate-on-artificial-intelligence",
+   "what": "National public administration institute running pilots that pair a public body, a university and an industry partner to test AI. Ciências ULisboa is in three pilots.",
+   "source_url": "https://ciencias.ulisboa.pt/en/news/ai-summit-ap-luis-correia-participates-in-debate-on-artificial-intelligence",
+   "read_on": "2026-11-16",
+   "ai_path": "Tests AI in public services with a Lisbon faculty.",
+   "steps": 1
+  },
+  {
+   "name": "Ciências ULisboa and the LASIGE centre",
+   "type": "institution",
+   "url": "https://ciencias.ulisboa.pt/en/news/ai-summit-ap-luis-correia-participates-in-debate-on-artificial-intelligence",
+   "what": "Faculty of Sciences of the University of Lisbon, whose LASIGE researchers take part in AI XLab public administration pilots.",
+   "source_url": "https://ciencias.ulisboa.pt/en/news/ai-summit-ap-luis-correia-participates-in-debate-on-artificial-intelligence",
+   "read_on": "2026-11-16",
+   "ai_path": "Researches and pilots AI for public services.",
+   "steps": 0
+  },
+  {
+   "name": "AgentifAI",
+   "type": "startup",
+   "url": "https://aihub.unicornfactorylisboa.com/",
+   "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. Conversational AI for customer care with a voice-first assistant. The page does not give each firm's headquarters.",
+   "source_url": "https://aihub.unicornfactorylisboa.com/",
+   "read_on": "2026-11-16",
+   "ai_path": "Sells an AI product.",
+   "steps": 0
+  },
+  {
+   "name": "Coalex.ai",
+   "type": "startup",
+   "url": "https://aihub.unicornfactorylisboa.com/",
+   "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. AI automation with human oversight, aimed at compliance risk. The page does not give each firm's headquarters.",
+   "source_url": "https://aihub.unicornfactorylisboa.com/",
+   "read_on": "2026-11-16",
+   "ai_path": "Sells an AI product.",
+   "steps": 0
+  },
+  {
+   "name": "Granter",
+   "type": "startup",
+   "url": "https://aihub.unicornfactorylisboa.com/",
+   "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. AI platform that matches companies with grants and drafts applications. The page does not give each firm's headquarters.",
+   "source_url": "https://aihub.unicornfactorylisboa.com/",
+   "read_on": "2026-11-16",
+   "ai_path": "Sells an AI product.",
+   "steps": 0
+  },
+  {
+   "name": "jsonify",
+   "type": "startup",
+   "url": "https://aihub.unicornfactorylisboa.com/",
+   "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. An AI tool that autonomously finds, extracts and syncs online data. The page does not give each firm's headquarters.",
+   "source_url": "https://aihub.unicornfactorylisboa.com/",
+   "read_on": "2026-11-16",
+   "ai_path": "Sells an AI product.",
+   "steps": 0
+  },
+  {
+   "name": "Keymate360",
+   "type": "startup",
+   "url": "https://aihub.unicornfactorylisboa.com/",
+   "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. AI-powered key account management. The page does not give each firm's headquarters.",
+   "source_url": "https://aihub.unicornfactorylisboa.com/",
+   "read_on": "2026-11-16",
+   "ai_path": "Sells an AI product.",
+   "steps": 0
+  },
+  {
+   "name": "Mantis AI",
+   "type": "startup",
+   "url": "https://aihub.unicornfactorylisboa.com/",
+   "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. Turns raw video into organised content. The page does not give each firm's headquarters.",
+   "source_url": "https://aihub.unicornfactorylisboa.com/",
+   "read_on": "2026-11-16",
+   "ai_path": "Sells an AI product.",
+   "steps": 0
+  },
+  {
+   "name": "NeuralShift",
+   "type": "startup",
+   "url": "https://aihub.unicornfactorylisboa.com/",
+   "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. Early-stage startup that integrates AI into lawyers' daily work. Also named in the Center for Responsible AI consortium. The page does not give each firm's headquarters.",
+   "source_url": "https://aihub.unicornfactorylisboa.com/",
+   "read_on": "2026-11-16",
+   "ai_path": "Sells an AI product.",
+   "steps": 0
+  },
+  {
+   "name": "noan",
+   "type": "startup",
+   "url": "https://aihub.unicornfactorylisboa.com/",
+   "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. AI system that gives a team one source of truth. The page does not give each firm's headquarters.",
+   "source_url": "https://aihub.unicornfactorylisboa.com/",
+   "read_on": "2026-11-16",
+   "ai_path": "Sells an AI product.",
+   "steps": 0
+  },
+  {
+   "name": "Noxus",
+   "type": "startup",
+   "url": "https://aihub.unicornfactorylisboa.com/",
+   "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. Platform to deploy AI company-wide without building from scratch. The page does not give each firm's headquarters.",
+   "source_url": "https://aihub.unicornfactorylisboa.com/",
+   "read_on": "2026-11-16",
+   "ai_path": "Sells an AI product.",
+   "steps": 0
+  },
+  {
+   "name": "pleez",
+   "type": "startup",
+   "url": "https://aihub.unicornfactorylisboa.com/",
+   "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. Uses delivery data and AI to manage restaurants and sales. The page does not give each firm's headquarters.",
+   "source_url": "https://aihub.unicornfactorylisboa.com/",
+   "read_on": "2026-11-16",
+   "ai_path": "Sells an AI product.",
+   "steps": 0
+  },
+  {
+   "name": "rosent",
+   "type": "startup",
+   "url": "https://aihub.unicornfactorylisboa.com/",
+   "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. AI recruiting platform for sourcing candidates. The page does not give each firm's headquarters.",
+   "source_url": "https://aihub.unicornfactorylisboa.com/",
+   "read_on": "2026-11-16",
+   "ai_path": "Sells an AI product.",
+   "steps": 0
+  },
+  {
+   "name": "SentiVue",
+   "type": "startup",
+   "url": "https://aihub.unicornfactorylisboa.com/",
+   "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. AI platform for customer touchpoints and loyalty. The page does not give each firm's headquarters.",
+   "source_url": "https://aihub.unicornfactorylisboa.com/",
+   "read_on": "2026-11-16",
+   "ai_path": "Sells an AI product.",
+   "steps": 0
+  },
+  {
+   "name": "SparkNow",
+   "type": "startup",
+   "url": "https://aihub.unicornfactorylisboa.com/",
+   "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. AI platform that summarises expert insights. The page does not give each firm's headquarters.",
+   "source_url": "https://aihub.unicornfactorylisboa.com/",
+   "read_on": "2026-11-16",
+   "ai_path": "Sells an AI product.",
+   "steps": 0
+  },
+  {
+   "name": "talka",
+   "type": "startup",
+   "url": "https://aihub.unicornfactorylisboa.com/",
+   "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. Extracts insights from video and voice conversations. The page does not give each firm's headquarters.",
+   "source_url": "https://aihub.unicornfactorylisboa.com/",
+   "read_on": "2026-11-16",
+   "ai_path": "Sells an AI product.",
+   "steps": 0
+  },
+  {
+   "name": "Visor.ai",
+   "type": "startup",
+   "url": "https://aihub.unicornfactorylisboa.com/",
+   "what": "Listed as a member of Unicorn Factory Lisboa's AIhub community. AI platform that automates customer service interactions. The page does not give each firm's headquarters.",
+   "source_url": "https://aihub.unicornfactorylisboa.com/",
+   "read_on": "2026-11-16",
+   "ai_path": "Sells an AI product.",
+   "steps": 0
+  }
+ ],
+ "extras": [],
+ "identity": {
+  "key_id": "site.lisboa-promptugal-2",
+  "signed_by": "place.districts@PrompTugal.dinis"
+ },
+ "gaps": [
+  "The city council's own sites (lisboa.pt, lisboaaberta.cm-lisboa.pt) still answer 403 to us on 17 November (the page body is a short block page of about 5,000 characters, so there is no content to fetch at an offset). The LxDataLab entry therefore still rests on search snippets, and the council's business desk, news and procurement notices are not reachable. base.gov.pt answers 301 and we did not find a council notice there; Lusa wire copy is not checked.",
+  "We found no named council business desk or contact for Lisboa. Unicorn Factory Lisboa and Startup Portugal's Lisbon office are the routes we could read. The Unicorn Factory contact page shows a general address that is spelled differently on two of its own pages (the home page footer and a variant with a different spelling on the contacts page), so we link the pages and do not copy an address.",
+  "Feeds on 17 November: ECO (works, 22 items, nothing Lisbon-AI since 16 November), NOVA FCT (works but carries only jury notices, not news), Champalimaud (works but holds one stale homepage item from 2018), Startup Portugal (valid but empty), HR Portugal (now answers 403 to us). None found for the council, Unicorn Factory, AICEP or Dealroom. AICEP's news list page is readable as HTML and is the better route.",
+  "Lisbon AI Week dates: a press article says 19 to 23 October and the organisers' own page says 21 to 27 September 2026 (and now announces 2027 as coming). We use the organisers' page.",
+  "We cannot read the Web Summit pages by rule, so the summit's own AI programme is not covered here; the AICEP report of 16 November is the public-agency view. Unicorn Factory's events page is a Luma embed, which we do not open, so the dates of Unblock AI #09 and Lisbon Tech Evening stay missing (the home page lists them without dates).",
+  "The AIhub member list shows names and one-line descriptions but not each firm's headquarters, so the members are listed as AIhub community members, not as Lisboa-based. Sword Health, Priberam, Feedzai, Unbabel and Farfetch are still not placed in Lisboa by a page we opened.",
+  "Investors are still thin. Armilar's base city is not stated on a page we opened, and Portugal Ventures, Lince Capital and Índico gave us no page of their own (the Unicorn Factory home page links lince-capital.com, not opened). The Banco de Fomento's new fund of funds is still unconfirmed.",
+  "Missing: Lisbon hospitals' AI use, the ISCTE, NOVA SBE and Católica AI centres, and the Unicorn Factory startup list as data (the startups page is about 1.2 MB of markup and was not parsed). The Soft Landing Program terms are not published at any address we reached (see its entry). Discord's new Lisbon engineering hub (AICEP, 12 November) is not AI news by our test and is left out.",
+  "Talent is not filled, by decision pending from Dinis on naming individuals."
+ ],
+ "voice": {
+  "lede": "Lisboa, pá: seven hills, one very busy tram, and more AI conferences per square kilometre than there are pastéis de nata in Belém.",
+  "mandate": "PrompTugal.news Lisboa, a capital que nunca dorme: AI and tech in Lisboa, with the universities and the Unicorn Factory as the big brains, plus whatever news sails in from Portugal, Europe and the world. Independente, and every fact comes with a receipt.",
+  "gravity": "Lisboa is where the universities build data centres, the institutes win millions, and a national language model gets its stage at Técnico. The startups come to Alvalade, the angels come with their cheque books, and the Câmara, bless it, keeps its AI plans to itself for now. Research and startups, sim senhor, not city hall.",
+  "gaps_intro": "Ainda não sabemos tudo, pá. Here is what Lisboa has not told us yet:"
+ },
+ "start_company": [
+  {
+   "name": "Unicorn Factory Lisboa: Incubation Program",
+   "what": "Founder-driven programme from pre-seed to seed, with no equity taken, fully online and no registered company needed. It cites over 1,000 startups supported since 2012 and over 200 mentors. The next batch closes in early December 2026 (its pages say 1 and 3 December).",
+   "url": "https://unicornfactorylisboa.com/incubation/",
+   "source_url": "https://unicornfactorylisboa.com/incubation/",
+   "read_on": "2026-11-16",
+   "kind": "incubator"
+  },
+  {
+   "name": "Unicorn Factory Lisboa: Active Programs and thematic hubs",
+   "what": "Open calls for mobility and cleantech, a global scaling cohort and agritech and foodtech acceleration, plus membership programmes with partners for AI (Google, Microsoft and the Center for Responsible AI), cleantech, healthtech and industrials.",
+   "url": "https://unicornfactorylisboa.com/active-programs/",
+   "source_url": "https://unicornfactorylisboa.com/active-programs/",
+   "read_on": "2026-11-16",
+   "kind": "accelerator"
+  },
+  {
+   "name": "AIhub membership and coworking",
+   "what": "AI community with tiers from free (Discovery) to paid (Immersion and Catalyst), coworking from a 15 euro day pass and private offices. Prices as published, plus VAT.",
+   "url": "https://aihub.unicornfactorylisboa.com/",
+   "source_url": "https://aihub.unicornfactorylisboa.com/",
+   "read_on": "2026-11-16",
+   "kind": "space"
+  },
+  {
+   "name": "Unicorn Factory Lisboa: Soft Landing Program",
+   "what": "Listed on the hub's menu as support for founders setting up in Lisbon. On 17 November the menu entry links to an application form on a Microsoft forms address, not to a page of terms, and the guessed address /soft-landing/ returns 404, so we still cannot state its terms.",
+   "url": "https://unicornfactorylisboa.com/",
+   "source_url": "https://unicornfactorylisboa.com/",
+   "read_on": "2026-11-17",
+   "kind": "programme"
+  },
+  {
+   "name": "Startup Portugal One Stop Shop (Lisbon office at Cais Português, Pavilhão de Portugal)",
+   "what": "Centralised information and personalised support, online and in person, for those who want to found, operate and scale a business from Portugal, with offices in Lisboa and Porto.",
+   "url": "https://startupportugal.com/one-stop-shop/",
+   "source_url": "https://startupportugal.com/one-stop-shop/",
+   "read_on": "2026-11-16",
+   "kind": "public desk"
+  },
+  {
+   "name": "Startup Portugal: programmes and incubator network (RNi)",
+   "what": "National agency for the startup ecosystem. Runs the monthly Above & Beyond Hangouts, the Tech Foundry Portugal deep tech programme and Road 2 Web Summit, and keeps the national incubator network RNi.",
+   "url": "https://startupportugal.com/",
+   "source_url": "https://startupportugal.com/",
+   "read_on": "2026-11-16",
+   "kind": "community"
+  },
+  {
+   "name": "Empresa na Hora (Instituto dos Registos e do Notariado, via gov.pt)",
+   "what": "Counter service to create quota companies, single-member quota companies and public limited companies quickly. The gov.pt page was updated on 4 September 2026 and names the registry institute as responsible.",
+   "url": "https://www.gov.pt/en/servicos/criar-uma-empresa-na-hora",
+   "source_url": "https://www.gov.pt/en/servicos/criar-uma-empresa-na-hora",
+   "read_on": "2026-11-16",
+   "kind": "public desk"
+  }
+ ],
+ "investors": [
+  {
+   "name": "Índico Capital Partners and Lince Capital into Beyond Vision",
+   "what": "Co-led the funding round of a Lisbon drone maker that plans to speed up AI and swarm technology.",
+   "url": "https://vestbee.com/insights/articles/top-european-funding-rounds-closed-in-october-2026",
+   "source_url": "https://vestbee.com/insights/articles/top-european-funding-rounds-closed-in-october-2026",
+   "read_on": "2026-11-16",
+   "type": "investment",
+   "amount": "over 28 million euros",
+   "date": "2026-10",
+   "ai_path": "Funds a company building AI and swarm technology: one step from AI."
+  },
+  {
+   "name": "Armilar Venture Partners into DOJO AI",
+   "what": "Led the April 2026 seed round of an agent-based marketing company with a Lisbon base and a place in Unicorn Factory's AIhub.",
+   "url": "https://pulse2.com/dojo-ai-6-million-raised-for-agentic-marketing-platform-driving-autonomous-decision-making/",
+   "source_url": "https://pulse2.com/dojo-ai-6-million-raised-for-agentic-marketing-platform-driving-autonomous-decision-making/",
+   "read_on": "2026-11-16",
+   "type": "investment",
+   "amount": "6 million dollars",
+   "date": "2026-04-22",
+   "ai_path": "Funds an AI agent company: directly about AI."
+  },
+  {
+   "name": "Horizon Europe Teaming for Excellence and national funds into INESC-ID's AI centre",
+   "what": "13 million euros from Horizon Europe plus 14.2 million of national money for the sustainable and trustworthy AI centre.",
+   "url": "https://hrportugal.sapo.pt/?p=451309",
+   "source_url": "https://hrportugal.sapo.pt/?p=451309",
+   "read_on": "2026-11-16",
+   "type": "grant",
+   "amount": "27.2 million euros",
+   "date": "2026-04-28",
+   "ai_path": "Funds an AI research centre: directly about AI."
+  },
+  {
+   "name": "University of Lisbon's own investment in two AI data centres",
+   "what": "Over 20 million euros for computing for AI and research data in Lisbon and Oeiras, open to companies and startups, due by 2028.",
+   "url": "https://www.portugalglobal.pt/en/news/2026/julho/university-of-lisbon-to-invest-20m-in-ai-science-data-centres/",
+   "source_url": "https://www.portugalglobal.pt/en/news/2026/julho/university-of-lisbon-to-invest-20m-in-ai-science-data-centres/",
+   "read_on": "2026-11-16",
+   "type": "investment",
+   "amount": "over 20 million euros",
+   "date": "2026-07-24",
+   "ai_path": "Builds AI computing: directly about AI."
+  },
+  {
+   "name": "Banco Português de Fomento: IFIC call for AI adoption (national)",
+   "what": "The state development bank received over 3,700 applications to the AI call of its innovation and competitiveness instrument, with proposed investment of 801 million euros, and sent its first decisions on 5 February 2026. The call is national, the page does not place the winners in Lisboa.",
+   "url": "https://eco.sapo.pt/2026/02/11/apoios-a-industria-defesa-e-ia-do-banco-de-fomento-tiveram-5-067-candidaturas/",
+   "source_url": "https://eco.sapo.pt/2026/02/11/apoios-a-industria-defesa-e-ia-do-banco-de-fomento-tiveram-5-067-candidaturas/",
+   "read_on": "2026-11-16",
+   "type": "programme",
+   "date": "2026-02-11",
+   "ai_path": "Public money for companies adopting AI: directly about AI."
+  },
+  {
+   "name": "Unicorn Factory Lisboa investor network",
+   "what": "The Incubation Program page cites over 150 investors and over 200 mentors in its network, and the site shows a partners section for corporates and investors. It names no individual fund.",
+   "url": "https://unicornfactorylisboa.com/incubation/",
+   "source_url": "https://unicornfactorylisboa.com/incubation/",
+   "read_on": "2026-11-16",
+   "type": "programme",
+   "ai_path": "Connects founders, including AI founders, with investors: one step from AI."
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Startup Portugal, official contact page",
+   "what": "The national startup agency's published contact channel, with online and in-person meetings and a Lisbon one stop shop office.",
+   "url": "https://startupportugal.com/contacts/",
+   "source_url": "https://startupportugal.com/contacts/",
+   "read_on": "2026-11-16",
+   "channel": "the agency's contact form and email, published on its Contacts page (open the linked page for the address)"
+  },
+  {
+   "name": "Unicorn Factory Lisboa, contact page",
+   "what": "The council-backed hub's published channels for visits, event hosting, workspace and programme support.",
+   "url": "https://unicornfactorylisboa.com/contacts/",
+   "source_url": "https://unicornfactorylisboa.com/contacts/",
+   "read_on": "2026-11-16",
+   "channel": "the hub's published contact buttons and general email on its Contacts page (open the linked page for the address)"
+  },
+  {
+   "name": "AICEP, Portugal's trade and investment agency",
+   "what": "Public agency that publishes the Portugal Global news pages we cite, with a general line and email in its footer.",
+   "url": "https://www.portugalglobal.pt/en/news/2026/maio/using-data-improves-smart-city-management/",
+   "source_url": "https://www.portugalglobal.pt/en/news/2026/maio/using-data-improves-smart-city-management/",
+   "read_on": "2026-11-16",
+   "channel": "the agency's general phone line and email, published in the footer of its pages (open the linked page for the details)"
+  }
+ ],
+ "latest_news": {
+  "read_at": "2026-11-26T02:33Z",
+  "by": "place.lisboa@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
+  "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
+  "main_headline": {
+   "title": "Quatro relatórios, um ano na gaveta: CML não divulgou auditorias aos elevadores históricos de Lisboa",
+   "url": "https://lisboaparapessoas.pt/2026/11/19/relatorios-gloria-elevadores-carris/",
+   "source": "LPP - Lisboa Para Pessoas",
+   "date": "2026-11-19",
+   "read_at": "2026-11-26T02:28:33Z",
+   "names_place": true
+  },
+  "items": [
+   {
+    "title": "Vai comprar na Black Friday? Quase 2 mil queixas de burlas online deixam alerta em Portugal",
+    "url": "https://diariodistrito.sapo.pt/black-friday-e-burlas-online-quase-2-mil-queixas/",
+    "published": "2026-11-26T02:00Z",
+    "source": "Diário do Distrito",
+    "source_site": "https://www.diariodistrito.pt",
+    "feed": "https://www.diariodistrito.pt/feed/",
+    "read_at": "2026-11-26T02:28:32Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Paulo Fonseca avisa que dez pontos podem não chegar para o Sporting: «Oxalá que sim»",
+    "url": "https://diariodistrito.sapo.pt/paulo-fonseca-avisa-que-dez-pontos-podem-nao-chegar-para-o-sporting-oxala-que-sim/",
+    "published": "2026-11-26T01:15Z",
+    "source": "Diário do Distrito",
+    "source_site": "https://www.diariodistrito.pt",
+    "feed": "https://www.diariodistrito.pt/feed/",
+    "read_at": "2026-11-26T02:28:32Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Liga dos Campeões: génio de Bruno Fernandes evita um mal menor do Manchester United frente ao Sporting",
+    "url": "https://diariodistrito.sapo.pt/liga-dos-campeoes-genio-de-bruno-fernandes-evita-um-mal-menor-do-manchester-united/",
+    "published": "2026-11-26T01:02Z",
+    "source": "Diário do Distrito",
+    "source_site": "https://www.diariodistrito.pt",
+    "feed": "https://www.diariodistrito.pt/feed/",
+    "read_at": "2026-11-26T02:28:32Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "1.684 romances e 50 mil euros em jogo: júri do Prémio LeYa não escolhe nenhum vencedor",
+    "url": "https://diariodistrito.sapo.pt/premio-leya-2026-sem-vencedor-apos-1684-candidaturas/",
+    "published": "2026-11-26T01:00Z",
+    "source": "Diário do Distrito",
+    "source_site": "https://www.diariodistrito.pt",
+    "feed": "https://www.diariodistrito.pt/feed/",
+    "read_at": "2026-11-26T02:28:32Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Reino Unido congela ativos dos Houthis: o que está em causa para o comércio mundial?",
+    "url": "https://diariodistrito.sapo.pt/reino-unido-reforca-sancoes-aos-houthis/",
+    "published": "2026-11-26T00:00Z",
+    "source": "Diário do Distrito",
+    "source_site": "https://www.diariodistrito.pt",
+    "feed": "https://www.diariodistrito.pt/feed/",
+    "read_at": "2026-11-26T02:28:32Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "A inteligência artificial pode mudar o seu salário? O tema chega hoje à Amora",
+    "url": "https://diariodistrito.sapo.pt/ia-salarios-e-futuro-do-trabalho-em-amora-hoje/",
+    "published": "2026-11-25T23:45Z",
+    "source": "Diário do Distrito",
+    "source_site": "https://www.diariodistrito.pt",
+    "feed": "https://www.diariodistrito.pt/feed/",
+    "read_at": "2026-11-26T02:28:32Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "AbrilAbril hoje: STAL: sindicalistas «agredidos» nas instalações da SUMA no Cacém",
+    "url": "https://www.abrilabril.pt/newsletter/abrilabril-hoje-stal-sindicalistas-agredidos-nas-instalacoes-da-suma-no-cacem",
+    "published": "2026-11-25T19:22Z",
+    "source": "AbrilAbril",
+    "source_site": "https://www.abrilabril.pt",
+    "feed": "https://www.abrilabril.pt/rss.xml",
+    "read_at": "2026-11-26T02:28:27Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Isaltino, Plutónio, Japão e os gastos que levantaram dúvidas",
+    "url": "https://lisboaparapessoas.pt/2026/11/25/isaltino-plutonio-viagem-japao-premio-melhores-alunos/",
+    "published": "2026-11-25T15:12Z",
+    "source": "LPP - Lisboa Para Pessoas",
+    "source_site": "https://lisboaparapessoas.pt/",
+    "feed": "https://lisboaparapessoas.pt/feed/",
+    "read_at": "2026-11-26T02:28:33Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Sporting x Manchester United: uma história de reencontros",
+    "url": "https://megahits.fm/mega-news/18857/sporting-x-manchester-united-uma-historia-de-reencontros?utm_medium=rss",
+    "published": "2026-11-25T14:39Z",
+    "source": "Mega Hits",
+    "source_site": "https://megahits.fm/",
+    "feed": "https://megahits.fm/rssfeed",
+    "read_at": "2026-11-26T02:28:36Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Carolina Deslandes com concertos especiais em Aveiro",
+    "url": "https://megahits.fm/mega-news/18856/carolina-deslandes-com-concertos-especiais-em-aveiro?utm_medium=rss",
+    "published": "2026-11-25T12:02Z",
+    "source": "Mega Hits",
+    "source_site": "https://megahits.fm/",
+    "feed": "https://megahits.fm/rssfeed",
+    "read_at": "2026-11-26T02:28:36Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "A magia do Natal está quase a chegar a Viseu!",
+    "url": "https://megahits.fm/mega-news/18855/a-magia-do-natal-esta-quase-a-chegar-a-viseu?utm_medium=rss",
+    "published": "2026-11-25T11:56Z",
+    "source": "Mega Hits",
+    "source_site": "https://megahits.fm/",
+    "feed": "https://megahits.fm/rssfeed",
+    "read_at": "2026-11-26T02:28:36Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Fundo de apoio a estudantes em Coimbra recebe novo reforço para 2026/2027",
+    "url": "https://megahits.fm/mega-news/18854/fundo-de-apoio-a-estudantes-em-coimbra-recebe-novo-reforco-para-20262027?utm_medium=rss",
+    "published": "2026-11-25T11:50Z",
+    "source": "Mega Hits",
+    "source_site": "https://megahits.fm/",
+    "feed": "https://megahits.fm/rssfeed",
+    "read_at": "2026-11-26T02:28:36Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Plutonio e Pedro Teixeira da Mota doam 12 mil euros a campeão do mundo de tumbling",
+    "url": "https://megahits.fm/mega-news/18853/plutonio-e-pedro-teixeira-da-mota-doam-12-mil-euros-a-campeao-do-mundo-de-tumbling?utm_medium=rss",
+    "published": "2026-11-25T11:18Z",
+    "source": "Mega Hits",
+    "source_site": "https://megahits.fm/",
+    "feed": "https://megahits.fm/rssfeed",
+    "read_at": "2026-11-26T02:28:36Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Hoje assinala-se o Dia Internacional para a Eliminação da Violência contra as Mulheres",
+    "url": "https://megahits.fm/mega-news/18852/hoje-assinala-se-o-dia-internacional-para-a-eliminacao-da-violencia-contra-as-mulheres?utm_medium=rss",
+    "published": "2026-11-25T11:10Z",
+    "source": "Mega Hits",
+    "source_site": "https://megahits.fm/",
+    "feed": "https://megahits.fm/rssfeed",
+    "read_at": "2026-11-26T02:28:36Z",
+    "mentions_place": false,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "AbrilAbril hoje: Orçamento aprovado, com o amparo do PS e a encenação do Chega",
+    "url": "https://www.abrilabril.pt/newsletter/abrilabril-hoje-orcamento-aprovado-com-o-amparo-do-ps-e-encenacao-do-chega",
+    "published": "2026-11-24T19:09Z",
+    "source": "AbrilAbril",
+    "source_site": "https://www.abrilabril.pt",
+    "feed": "https://www.abrilabril.pt/rss.xml",
+    "read_at": "2026-11-26T02:28:27Z",
+    "mentions_place": false,
+    "date": "2026-11-24"
+   },
+   {
+    "title": "A história da acampada que criou um “parlamento” no Rossio em 2011",
+    "url": "https://lisboaparapessoas.pt/2026/11/24/acampada-2011-rossio/",
+    "published": "2026-11-24T17:05Z",
+    "source": "LPP - Lisboa Para Pessoas",
+    "source_site": "https://lisboaparapessoas.pt/",
+    "feed": "https://lisboaparapessoas.pt/feed/",
+    "read_at": "2026-11-26T02:28:33Z",
+    "mentions_place": false,
+    "date": "2026-11-24"
+   },
+   {
+    "title": "AbrilAbril hoje: Trabalhadores preparam-se para chumbar nas ruas o orçamento viabilizado pelo PS",
+    "url": "https://www.abrilabril.pt/newsletter/abrilabril-hoje-trabalhadores-preparam-se-para-chumbar-nas-ruas-o-orcamento-viabilizado",
+    "published": "2026-11-23T16:57Z",
+    "source": "AbrilAbril",
+    "source_site": "https://www.abrilabril.pt",
+    "feed": "https://www.abrilabril.pt/rss.xml",
+    "read_at": "2026-11-26T02:28:27Z",
+    "mentions_place": false,
+    "date": "2026-11-23"
+   },
+   {
+    "title": "10 terrenos, quase 60 milhões de euros: CML vende propriedade municipal, acção popular tenta travar",
+    "url": "https://lisboaparapessoas.pt/2026/11/23/lisboa-hasta-publica-terrenos-municipais-accao-popular/",
+    "published": "2026-11-23T10:58Z",
+    "source": "LPP - Lisboa Para Pessoas",
+    "source_site": "https://lisboaparapessoas.pt/",
+    "feed": "https://lisboaparapessoas.pt/feed/",
+    "read_at": "2026-11-26T02:28:33Z",
+    "mentions_place": false,
+    "date": "2026-11-23"
+   },
+   {
+    "title": "Quatro relatórios, um ano na gaveta: CML não divulgou auditorias aos elevadores históricos de Lisboa",
+    "url": "https://lisboaparapessoas.pt/2026/11/19/relatorios-gloria-elevadores-carris/",
+    "published": "2026-11-19T20:51Z",
+    "source": "LPP - Lisboa Para Pessoas",
+    "source_site": "https://lisboaparapessoas.pt/",
+    "feed": "https://lisboaparapessoas.pt/feed/",
+    "read_at": "2026-11-26T02:28:33Z",
+    "mentions_place": true,
+    "date": "2026-11-19"
+   },
+   {
+    "title": "Acampada: das 10 reivindicações às “quatro exigências prioritárias” apresentadas a Seguro",
+    "url": "https://lisboaparapessoas.pt/2026/11/16/acampada-reinvindicacoes-seguro-restauradores/",
+    "published": "2026-11-16T14:13Z",
+    "source": "LPP - Lisboa Para Pessoas",
+    "source_site": "https://lisboaparapessoas.pt/",
+    "feed": "https://lisboaparapessoas.pt/feed/",
+    "read_at": "2026-11-26T02:28:33Z",
+    "mentions_place": false,
+    "date": "2026-11-16"
+   },
+   {
+    "title": "O fim da paciência",
+    "url": "https://lisboaparapessoas.pt/2026/11/12/fim-da-paciencia/",
+    "published": "2026-11-12T13:05Z",
+    "source": "LPP - Lisboa Para Pessoas",
+    "source_site": "https://lisboaparapessoas.pt/",
+    "feed": "https://lisboaparapessoas.pt/feed/",
+    "read_at": "2026-11-26T02:28:33Z",
+    "mentions_place": false,
+    "date": "2026-11-12"
+   },
+   {
+    "title": "Casa de Trump revistada pelo FBI",
+    "url": "https://www.abrilabril.pt/internacional/casa-de-trump-revistada-pelo-fbi",
+    "published": "2022-08-09T09:50Z",
+    "source": "AbrilAbril",
+    "source_site": "https://www.abrilabril.pt",
+    "feed": "https://www.abrilabril.pt/rss.xml",
+    "read_at": "2026-11-26T02:28:27Z",
+    "mentions_place": false,
+    "date": "2022-08-09"
+   },
+   {
+    "title": "Como Draghi e os últimos 30 anos abriram caminho à extrema-direita",
+    "url": "https://www.abrilabril.pt/internacional/como-draghi-e-os-ultimos-30-anos-abriram-caminho-extrema-direita",
+    "published": "2022-07-30T13:15Z",
+    "source": "AbrilAbril",
+    "source_site": "https://www.abrilabril.pt",
+    "feed": "https://www.abrilabril.pt/rss.xml",
+    "read_at": "2026-11-26T02:28:27Z",
+    "mentions_place": false,
+    "date": "2022-07-30"
+   },
+   {
+    "title": "«Lutar até ao fim» para garantir que os CTT ficam na freguesia",
+    "url": "https://www.abrilabril.pt/nacional/lutar-ate-ao-fim-para-garantir-que-os-ctt-ficam-na-freguesia",
+    "published": "2019-10-21T15:42Z",
+    "source": "AbrilAbril",
+    "source_site": "https://www.abrilabril.pt",
+    "feed": "https://www.abrilabril.pt/rss.xml",
+    "read_at": "2026-11-26T02:28:27Z",
+    "mentions_place": false,
+    "date": "2019-10-21"
+   },
+   {
+    "title": "A peça  As Mulheres com Abril na Boca em cena na Boutique da Cultura",
+    "url": "https://regiaodelisboa.sapo.pt/noticias/a-peca-as-mulheres-com-abril-na-boca-em-cena-na-boutique-da-cultura",
+    "published": null,
+    "source": "Região de Lisboa",
+    "source_site": "https://regiaodelisboa.sapo.pt/",
+    "feed": "https://regiaodelisboa.sapo.pt/feed",
+    "read_at": "2026-11-26T02:28:42Z",
+    "mentions_place": false,
+    "date": null
+   },
+   {
+    "title": "Lisboa recebeu mais de 135 mil estudantes universitários e 120 centros de investigação",
+    "url": "https://regiaodelisboa.sapo.pt/noticias/lisboa-recebeu-mais-de-135-mil-estudantes-universitarios-e-120-centros-de-investigacao",
+    "published": null,
+    "source": "Região de Lisboa",
+    "source_site": "https://regiaodelisboa.sapo.pt/",
+    "feed": "https://regiaodelisboa.sapo.pt/feed",
+    "read_at": "2026-11-26T02:28:42Z",
+    "mentions_place": true,
+    "date": null
+   },
+   {
+    "title": "AF Lisboa presente na VI Gala do Desporto de Marvila 2026",
+    "url": "https://regiaodelisboa.sapo.pt/noticias/af-lisboa-presente-na-vi-gala-do-desporto-de-marvila-2026",
+    "published": null,
+    "source": "Região de Lisboa",
+    "source_site": "https://regiaodelisboa.sapo.pt/",
+    "feed": "https://regiaodelisboa.sapo.pt/feed",
+    "read_at": "2026-11-26T02:28:42Z",
+    "mentions_place": true,
+    "date": null
+   },
+   {
+    "title": "Cinema São Jorge celebra 25 anos sob gestão da EGEAC",
+    "url": "https://regiaodelisboa.sapo.pt/noticias/cinema-sao-jorge-celebra-25-anos-sob-gestao-da-egeac",
+    "published": null,
+    "source": "Região de Lisboa",
+    "source_site": "https://regiaodelisboa.sapo.pt/",
+    "feed": "https://regiaodelisboa.sapo.pt/feed",
+    "read_at": "2026-11-26T02:28:42Z",
+    "mentions_place": false,
+    "date": null
+   },
+   {
+    "title": "MULHERES AO LADO DOS HOMENS? AINDA UMA MIRAGEM",
+    "url": "https://regiaodelisboa.sapo.pt/noticias/mulheres-ao-lado-dos-homens-ainda-uma-miragem-1795513644",
+    "published": null,
+    "source": "Região de Lisboa",
+    "source_site": "https://regiaodelisboa.sapo.pt/",
+    "feed": "https://regiaodelisboa.sapo.pt/feed",
+    "read_at": "2026-11-26T02:28:42Z",
+    "mentions_place": false,
+    "date": null
+   },
+   {
+    "title": "Os Belenenses | Resultados | Modalidades",
+    "url": "https://regiaodelisboa.sapo.pt/noticias/os-belenenses-resultados-modalidades",
+    "published": null,
+    "source": "Região de Lisboa",
+    "source_site": "https://regiaodelisboa.sapo.pt/",
+    "feed": "https://regiaodelisboa.sapo.pt/feed",
+    "read_at": "2026-11-26T02:28:42Z",
+    "mentions_place": false,
+    "date": null
+   }
+  ]
+ }
 }

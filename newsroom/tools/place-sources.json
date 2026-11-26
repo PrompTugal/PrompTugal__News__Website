@@ -1,0 +1,383 @@
+{
+ "about": "Where each place file came from: the home, the commit whose bytes were taken (signed by the pinned key, with the trailer), the signer and when. Written by newsroom/tools/sync-places.mjs.",
+ "places": {
+  "portugal": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Portugal",
+   "head": "6f9932c848c51bd4edab4303d2dd5bc2789c8848",
+   "files": {
+    "data/by-place/portugal.json": "6f9932c848c51bd4edab4303d2dd5bc2789c8848"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "algarve": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Algarve",
+   "head": "4335064c0c61542cd22f544eea915138f7b41348",
+   "files": {
+    "data/by-place/algarve.json": "6e9d7cff47f94a3b658494fef25ba3d26031b942",
+    "data/by-place/now/algarve.json": "6e9d7cff47f94a3b658494fef25ba3d26031b942"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "faro": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Faro",
+   "head": "6c93c1c3bdb4d25131d61f5aa96359a25998e864",
+   "files": {
+    "data/by-place/faro.json": "ae7da89a0da0db6dbdacd4ed1330a2d2e904c2bd",
+    "data/by-place/now/faro.json": "ae7da89a0da0db6dbdacd4ed1330a2d2e904c2bd"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "loule": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Loule",
+   "head": "5fd181e0f1735dc36e44ed406fd33b21bd7ad09b",
+   "files": {
+    "data/by-place/loule.json": "fdd658b50e3abbad51f01ce21676ce3aa02b47f7",
+    "data/by-place/now/loule.json": "fdd658b50e3abbad51f01ce21676ce3aa02b47f7"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "quarteira": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Quarteira",
+   "head": "228f749b0e771465e09f1f965c25e6b0c245cf47",
+   "files": {
+    "data/by-place/quarteira.json": "72414ac0bfc92d8bd81243c88fc7a6fd43aa9fe8",
+    "data/by-place/now/quarteira.json": "72414ac0bfc92d8bd81243c88fc7a6fd43aa9fe8"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "silves": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Silves",
+   "head": "cd284bea79ab1167658795f4456501201fa071ab",
+   "files": {
+    "data/by-place/silves.json": "cd284bea79ab1167658795f4456501201fa071ab",
+    "data/by-place/now/silves.json": "410817858d032b496a04339f096e3caed3bf6e79"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "tavira": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Tavira",
+   "head": "f61ebdf7d39f0188c0b2d4605432d9ac787cd0d0",
+   "files": {
+    "data/by-place/tavira.json": "f61ebdf7d39f0188c0b2d4605432d9ac787cd0d0",
+    "data/by-place/now/tavira.json": "3617d3475357feee716492f7b65d28136bbaa8f7"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "vila-real-de-santo-antonio": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Vila-Real-de-Santo-Antonio",
+   "head": "1ddb26b10494bf15f77c2ad802c577c131ab8806",
+   "files": {
+    "data/by-place/vila-real-de-santo-antonio.json": "2ab9359623a3f2a54683217e51f7949e2d59f3d9",
+    "data/by-place/now/vila-real-de-santo-antonio.json": "2ab9359623a3f2a54683217e51f7949e2d59f3d9"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "portimao": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Portimao",
+   "head": "9ae5efc3faabdb504211fa427b0849061d635103",
+   "files": {
+    "data/by-place/portimao.json": "9ae5efc3faabdb504211fa427b0849061d635103",
+    "data/by-place/now/portimao.json": "e626e21fc1b25447dcac8c579af29c2078c2a9a0"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "lagos": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Lagos",
+   "head": "89ce9af3ce8b2de7cd23f2a4b1da735ac2d0c2db",
+   "files": {
+    "data/by-place/lagos.json": "89ce9af3ce8b2de7cd23f2a4b1da735ac2d0c2db",
+    "data/by-place/now/lagos.json": "a5741f4c7e4ad8751fb63afa36459fbae7ff221e"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "olhao": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Olhao",
+   "head": "c760909736e0590691a661d59baa9c8007f80470",
+   "files": {
+    "data/by-place/olhao.json": "c760909736e0590691a661d59baa9c8007f80470",
+    "data/by-place/now/olhao.json": "6b4759cb58ed783d8d23f3d3ae2e835dc5c8a21d"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "albufeira": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Albufeira",
+   "head": "4ffddca8027cd56f48149239def9b7026a30f07c",
+   "files": {
+    "data/by-place/albufeira.json": "4ffddca8027cd56f48149239def9b7026a30f07c",
+    "data/by-place/now/albufeira.json": "2e78c5c03535271787162710012b76fffb0f55d7"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "lagoa": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Lagoa",
+   "head": "10d0a5bef3e37c370356260270abeddbadee6324",
+   "files": {
+    "data/by-place/lagoa.json": "10d0a5bef3e37c370356260270abeddbadee6324",
+    "data/by-place/now/lagoa.json": "290bf49c83768a3606fed54186bfc995eba16c61"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "monchique": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Monchique",
+   "head": "07e5df3042e323cc44ceb45269eaac073459ed2a",
+   "files": {
+    "data/by-place/monchique.json": "07e5df3042e323cc44ceb45269eaac073459ed2a",
+    "data/by-place/now/monchique.json": "31dc9d78e127afdd4960eed8f549eeb00252b283"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "aljezur": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Aljezur",
+   "head": "3287dad660ec9eb855451f1c35e53245fa4de71c",
+   "files": {
+    "data/by-place/aljezur.json": "3287dad660ec9eb855451f1c35e53245fa4de71c",
+    "data/by-place/now/aljezur.json": "a79d2776c8fd50c059a1693fd3427f9d5f31c1ba"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "vila-do-bispo": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Vila-do-Bispo",
+   "head": "6e37a3e90fb3d061ffdd9dd808978b10b7ff43df",
+   "files": {
+    "data/by-place/vila-do-bispo.json": "6e37a3e90fb3d061ffdd9dd808978b10b7ff43df",
+    "data/by-place/now/vila-do-bispo.json": "acafa70b4386f4a5486e2d07e06eae99cd47f7f2"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "castro-marim": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Castro-Marim",
+   "head": "5d56f3bd49b53a37c94dfdaeab1b31506cf4d47f",
+   "files": {
+    "data/by-place/castro-marim.json": "5d56f3bd49b53a37c94dfdaeab1b31506cf4d47f",
+    "data/by-place/now/castro-marim.json": "c7a9c190eb2b9f5af71ca3581dcf327a3c423057"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "alcoutim": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Alcoutim",
+   "head": "8e6fd72164b49ef8fe297b74e1d636594621a84e",
+   "files": {
+    "data/by-place/alcoutim.json": "8e6fd72164b49ef8fe297b74e1d636594621a84e",
+    "data/by-place/now/alcoutim.json": "660df925f3c91f96c23bfbed1e4e284b0a335de9"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "sao-bras-de-alportel": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Sao-Bras-de-Alportel",
+   "head": "d6aec87b8af3ff2aa51f7de1de83d627f41dbcfc",
+   "files": {
+    "data/by-place/sao-bras-de-alportel.json": "0e69e72203e70735cc9975eed8e5595b3fc8224a",
+    "data/by-place/now/sao-bras-de-alportel.json": "0e69e72203e70735cc9975eed8e5595b3fc8224a"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "porto": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Porto",
+   "head": "097da1d106c975acb25e5fed82cdaa2cf7637bb9",
+   "files": {
+    "data/by-place/porto.json": "ef4215138c8e208c239bbcfb15a3bfbe9b17e538"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "aveiro": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Aveiro",
+   "head": "2674b981d50454de64300ecfc2699892eb1992e0",
+   "files": {
+    "data/by-place/aveiro.json": "dea99c1303f1aabf9e5ba2dcd4978fde27fb2f07"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "viana-do-castelo": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Viana-do-Castelo",
+   "head": "b3972720b603b068613de21fa2bd47f82be669f4",
+   "files": {
+    "data/by-place/viana-do-castelo.json": "44afe6bb96ef37d056bba57e166045705fcf65fe"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "braga": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Braga",
+   "head": "5595f2783e2bf3d5d55f9f27ca5bbe33f4aefe03",
+   "files": {
+    "data/by-place/braga.json": "4a1bbf7bb0ffe6cfb3e45f77c86ed7292939911b"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "coimbra": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Coimbra",
+   "head": "ef7043b3c0a6ff38a757bfee82c8951760ccbdef",
+   "files": {
+    "data/by-place/coimbra.json": "8f6b2fa8140afdb95a5f760640a78e425193ba12"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "guarda": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Guarda",
+   "head": "438cbac4a85efaf0ddcf571c4b2d86c4267947df",
+   "files": {
+    "data/by-place/guarda.json": "31c27de8aa8abac9e8850dc733491aaeaf278290"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "viseu": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Viseu",
+   "head": "1aec4f58924e6f4d6ef82e820e389cd1a24aa5c6",
+   "files": {
+    "data/by-place/viseu.json": "038d937ca267e562f568c6c1d634518cf7fbf7f0"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "leiria": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Leiria",
+   "head": "d690c89a70de0f5d9031364391ed45de249ce812",
+   "files": {
+    "data/by-place/leiria.json": "8828c0a0fba44443ea9a312f914106b014088b93"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "evora": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Evora",
+   "head": "62cabff756ce9ec877ba70a70f46fc2f76c2df84",
+   "files": {
+    "data/by-place/evora.json": "01cf20a88a1537b94de3b6c9250dc32f59f9caef"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:37Z"
+  },
+  "lisboa": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Lisboa",
+   "head": "7cbc6976d259853d81986b2de0cf1dcbee520ad8",
+   "files": {
+    "data/by-place/lisboa.json": "614529aa7d4a6f9593353b565987263245d1457b"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:38Z"
+  },
+  "vila-real": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Vila-Real",
+   "head": "81fd49f6cbd002580f4981c84d09010e0d4fe7c5",
+   "files": {
+    "data/by-place/vila-real.json": "3482ebc27767fbeb39d8d48bab752ad766ae4915"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:38Z"
+  },
+  "braganca": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Braganca",
+   "head": "ab78aa330642d1ff1d3e7877aa086d162692c192",
+   "files": {
+    "data/by-place/braganca.json": "9e00e544c41ab50dcfbf10bd099c394026708ead"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:38Z"
+  },
+  "castelo-branco": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Castelo-Branco",
+   "head": "5563b3e4b6d80de6dcfe11373a79a83b61c9ccf4",
+   "files": {
+    "data/by-place/castelo-branco.json": "8e554c8dba6a369202bedace5e70bf8036f96af0"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:38Z"
+  },
+  "santarem": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Santarem",
+   "head": "568e31163e8c8ebd06871c0bceb9a993b23a8891",
+   "files": {
+    "data/by-place/santarem.json": "627821b5b30819c287cc07e531b888c7ca08bd67"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:38Z"
+  },
+  "portalegre": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Portalegre",
+   "head": "6b18a8c3125873ee93fde7132398a7990ca2d6d1",
+   "files": {
+    "data/by-place/portalegre.json": "941d0a521075aaaa60aa9a4bd087a2b183fadf8a"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:38Z"
+  },
+  "setubal": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Setubal",
+   "head": "5b418627fbf32260310d04cb9f66d41ee9250fb4",
+   "files": {
+    "data/by-place/setubal.json": "ca0ff5a36be5c625ed8ac16f68288098c58dc18f"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:38Z"
+  },
+  "beja": {
+   "repo": "https://github.com/PrompTugal/PrompTugal__Agent__Place__Beja",
+   "head": "862a496bc131f134f42ec8980102f91b18c2adc2",
+   "files": {
+    "data/by-place/beja.json": "b5f8f2a57309fc86ef9c23d1395ab2f32f51f99f"
+   },
+   "signed_by": "cl-6.places@PrompTugal.dinis",
+   "key": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
+   "synced": "2026-11-26T06:38Z"
+  }
+ }
+}

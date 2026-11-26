@@ -1,581 +1,618 @@
 {
-  "$schema": "../schemas/by-place.schema.json",
-  "id": "vila-real-de-santo-antonio",
-  "name": "Vila Real de Santo António",
-  "kind": "municipality",
-  "parent": "algarve",
-  "status": "live",
-  "updated": "2026-11-19",
-  "by": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
-  "mandate": "PrompTugal.news Vila Real de Santo António: AI and technology in Vila Real de Santo António, a Pombaline border town on the Guadiana where cross-border projects count, and what reaches it from the Algarve, Portugal and the world. Independent; every fact sourced.",
-  "gravity": {
-    "text": "Vila Real de Santo António is a planned town on the Guadiana, built from 1773 on a grid and completed in 1776, whose old fishing and canning economy gave way to tourism, with many residents working across the river around Ayamonte in Spain. Today it is pushing to become a national pole of the blue economy, around its fishing port and a shipbuilding yard, and it is wiring its historic centre under the PRR-funded VRSA Digital project and joining a six-municipality PRR sensor platform. It shares the Eurocidade do Guadiana with Ayamonte and Castro Marim, and the council holds its presidency in 2026. We found no AI company based in the town yet, so for now the AI story is a shipyard that built a robot test vessel and plans a unit for unmanned vessels, data groundwork and a Spanish neighbour's plans.",
-    "sources": [
-      {
-        "title": "Vila Real de Santo António (history and economy)",
-        "url": "https://en.wikipedia.org/wiki/Vila_Real_de_Santo_Ant%C3%B3nio",
-        "read_on": "2026-11-15"
-      },
-      {
-        "title": "VRSA instala Wi-Fi gratuito e controlo automóvel no centro histórico (Barlavento)",
-        "url": "https://www.barlavento.pt/?p=399594",
-        "read_on": "2026-11-15"
-      },
-      {
-        "title": "Câmara Municipal de Vila Real de Santo António (news page, Eurocidade items)",
-        "url": "https://www.cm-vrsa.pt",
-        "read_on": "2026-11-15"
-      },
-      {
-        "title": "Vila Real de Santo António quer ser polo nacional da economia azul (Barlavento, 24 February 2026)",
-        "url": "https://www.barlavento.pt/vila-real-santo-antonio-polo-nacional-economia-azul/",
-        "read_on": "2026-11-15"
-      }
-    ]
-  },
-  "look": {
-    "accent": "#1F4E79",
-    "landmark": "the Pombaline grid town and its riverfront customs house on the Guadiana",
-    "motif": "river blue, a ruled grid, a ferry to Spain"
-  },
-  "ai_news": [
-    {
-      "title": "The Lower Guadiana's development association joins a cross-border project that will test AI",
-      "summary": "Odiana, which represents the Baixo Guadiana, is the Portuguese partner in Agrosocial Plus, a 2.06 million euro Spain and Portugal project launched in Córdoba on 22 and 23 September 2026. Its Living Labs are planned to test solutions including artificial intelligence, the Internet of Things and smart irrigation. The article does not say whether Vila Real de Santo António takes part, though the page is tagged with the town.",
-      "date": "2026-09-25",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/odiana-lancamento-projeto-inovacao-agrosocial-plus/",
-      "read_on": "2026-11-16",
-      "ai_path": "The project's Living Labs test AI, which is one step from Odiana and a second from the town, if the town is in its territory. We could not confirm that.",
-      "steps": 2,
-      "significance": "neighbours"
-    },
-    {
-      "title": "A Guadiana shipyard plans a defence unit aimed at unmanned vessels",
-      "summary": "Nautiber, the shipyard in Vila Real de Santo António, says it plans a new unit to build vessels for the defence sector, targeting unmanned systems and platforms. It has already delivered the structure for four surface drones with a partner and would team up with a Lagos yard, and it has not decided between VRSA, Portimão and Lagos. The piece is sponsored content, so these are the company's own claims.",
-      "date": "2025-12-17",
-      "publisher": "Barlavento (sponsored content)",
-      "url": "https://www.barlavento.pt/?p=388252",
-      "read_on": "2026-11-16",
-      "ai_path": "Surface drones and other unmanned platforms are where autonomy software and AI run. The yard builds the hulls and structures, not the software, and the article mentions no AI.",
-      "steps": 2,
-      "significance": "region"
-    },
-    {
-      "title": "VRSA wires its historic centre with free Wi-Fi and 16 footfall counters",
-      "summary": "The council is installing free Wi-Fi and 16 pedestrian flow monitors in the historic centre, with bollards and information kiosks to follow, as part of a PRR-funded digital shops district worth about 895 thousand euros that targets some 200 businesses. The counters give statistics only and capture no image, video or sound. An online marketplace already lists over a hundred businesses.",
-      "date": "2026-05-18",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/?p=399594",
-      "read_on": "2026-11-15",
-      "ai_path": "The counters and the marketplace produce footfall and sales data for the town centre, which is the raw material for AI forecasting. The article itself mentions no AI.",
-      "steps": 2,
-      "significance": "local"
-    },
-    {
-      "title": "Ayamonte's innovation node is meant to reach Vila Real de Santo António",
-      "summary": "In a March 2024 interview, the IT manager of Ayamonte's council said the council was preparing an AI virtual assistant for citizens and companies and planning a 2 to 3 million euro innovation node on tourism and digital support for small firms. He described the node as the first to involve a Eurocidade, covering parts of the Portuguese Algarve. This is the council's own account, with no launch dates, and we have not confirmed the node went ahead.",
-      "date": "2024-03-15",
-      "publisher": "CIO",
-      "url": "https://www.cio.com/administraciones-publicas/el-ayuntamiento-de-ayamonte-apuesta-por-la-digitalizacion-para-adaptarse-a-las-nuevas-necesidades-de-los-ciudadanos",
-      "read_on": "2026-11-15",
-      "ai_path": "A neighbouring council is building an AI assistant (step 0 for Ayamonte) and an innovation node that would serve the Eurocidade, VRSA included (step 2 for the town).",
-      "steps": 2,
-      "significance": "neighbours"
-    }
-  ],
+ "$schema": "../schemas/by-place.schema.json",
+ "id": "vila-real-de-santo-antonio",
+ "name": "Vila Real de Santo António",
+ "kind": "municipality",
+ "parent": "algarve",
+ "status": "live",
+ "updated": "2026-11-26",
+ "by": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
+ "mandate": "PrompTugal.news Vila Real de Santo António: AI and technology in Vila Real de Santo António, a Pombaline border town on the Guadiana where cross-border projects count, and what reaches it from the Algarve, Portugal and the world. Independent; every fact sourced.",
+ "gravity": {
+  "text": "Vila Real de Santo António is a planned town on the Guadiana, built from 1773 on a grid and completed in 1776, whose old fishing and canning economy gave way to tourism, with many residents working across the river around Ayamonte in Spain. Today it is pushing to become a national pole of the blue economy, around its fishing port and a shipbuilding yard, and it is wiring its historic centre under the PRR-funded VRSA Digital project and joining a six-municipality PRR sensor platform. It shares the Eurocidade do Guadiana with Ayamonte and Castro Marim, and the council holds its presidency in 2026. We found no AI company based in the town yet, so for now the AI story is a shipyard that built a robot test vessel and plans a unit for unmanned vessels, data groundwork and a Spanish neighbour's plans.",
   "sources": [
-    {
-      "name": "Câmara Municipal de Vila Real de Santo António",
-      "url": "https://www.cm-vrsa.pt",
-      "kind": "council",
-      "feed": null
-    },
-    {
-      "name": "VRSA Geoportal (council maps and plans online)",
-      "url": "https://websig.cm-vrsa.pt/geoportal",
-      "kind": "council",
-      "feed": null
-    },
-    {
-      "name": "Barlavento",
-      "url": "https://www.barlavento.pt",
-      "kind": "press",
-      "feed": null
-    },
-    {
-      "name": "Sul Informação",
-      "url": "https://www.sulinformacao.pt",
-      "kind": "press",
-      "feed": "https://www.sulinformacao.pt/feed/"
-    },
-    {
-      "name": "Postal do Algarve (Eurocidade and Europe Direct Algarve items, behind a bot check for our reader)",
-      "url": "https://postal.pt",
-      "kind": "press",
-      "feed": null
-    },
-    {
-      "name": "Eurocidade do Guadiana (Ayamonte, Castro Marim, VRSA)",
-      "url": "https://www.eurociudadguadiana.eu",
-      "kind": "other",
-      "feed": null
-    },
-    {
-      "name": "Ayamonte council innovation case study (CIO)",
-      "url": "https://www.cio.com/administraciones-publicas/el-ayuntamiento-de-ayamonte-apuesta-por-la-digitalizacion-para-adaptarse-a-las-nuevas-necesidades-de-los-ciudadanos",
-      "kind": "press",
-      "feed": null
-    },
-    {
-      "name": "VRSA council: economic activities and business support (entrepreneurship office, funds desk, application unit)",
-      "url": "https://www.cm-vrsa.pt/pt/menu/956/atividades-economicas.aspx",
-      "kind": "council",
-      "feed": null
-    },
-    {
-      "name": "Mercados de VRSA (council site for the three municipal markets)",
-      "url": "https://www.mercadosdevrsa.pt/",
-      "kind": "council",
-      "feed": null
-    },
-    {
-      "name": "24notícias, Vila Real de Santo António page (Madre Media, regional news archive for the town)",
-      "url": "https://24noticias.sapo.pt/local/faro/vila-real-de-santo-antonio",
-      "kind": "press",
-      "feed": null
-    },
-    {
-      "name": "Gabinete do Empreendedorismo brochure (council entrepreneurship office, Invest Algarve network)",
-      "url": "https://cms.cm-vrsa.pt/upload_files/client_id_1/website_id_1/Atividade%20Municipal/Atividades%20economicas/Gabinete%20do%20empreendorismo/Brochura_Gabinete%20do%20Empreendedorismo.pdf",
-      "kind": "council",
-      "feed": null
-    },
-    {
-      "name": "CIMA, Universidade do Algarve: SIMPATICO and data products",
-      "url": "https://cima.ualg.pt/en/info/data-products",
-      "kind": "university",
-      "feed": null
-    },
-    {
-      "name": "Odiana, Baixo Guadiana development association (project news via Barlavento)",
-      "url": "https://www.barlavento.pt/odiana-lancamento-projeto-inovacao-agrosocial-plus/",
-      "kind": "other",
-      "feed": null
-    }
-  ],
-  "events": [
-    {
-      "title": "Monte Gordo Sand Race, FIM Sand Races World Championship stage 4",
-      "date": "2026-11-27",
-      "url": "https://www.cm-vrsa.pt/pt/noticias/68390/monte-gordo-recebe-quarta-etapa-do-campeonato-do-mundo-de-corridas-em-areia.aspx",
-      "read_on": "2026-11-16",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.cm-vrsa.pt/"
-      }
-    },
-    {
-      "title": "Natal a Ganhar draw, Vila Natal, Praça Marquês de Pombal",
-      "date": "2026-12-30",
-      "url": "https://www.cm-vrsa.pt/pt/noticias/68392/campanha-natal-a-ganhar-regressa-para-apoiar-e-dinamizar-o-comercio-local-de-vila-real-de-santo-antonio.aspx",
-      "read_on": "2026-11-16",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.cm-vrsa.pt/"
-      }
-    },
-    {
-      "title": "Cross-border meeting of women entrepreneurs, Ayamonte (10:30 Spanish time)",
-      "date": "2026-11-19",
-      "url": "https://www.cm-vrsa.pt/pt/noticias/68406/eurocidade-do-guadiana-promove-encontro-transfronteirico-de-mulheres-empreendedoras.aspx",
-      "read_on": "2026-11-17",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.cm-vrsa.pt/"
-      }
-    },
-    {
-      "title": "Giant Nativity opens, Centro Cultural António Aleixo",
-      "date": "2026-11-28",
-      "url": "https://www.cm-vrsa.pt/pt/noticias/68414/presepio-gigante-de-vila-real-de-santo-antonio-volta-a-surpreender-com-mais-de-6000-figuras.aspx",
-      "read_on": "2026-11-18",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.cm-vrsa.pt/"
-      }
-    }
-  ],
-  "ai_map": [
-    {
-      "name": "Câmara Municipal de Vila Real de Santo António",
-      "type": "public body",
-      "url": "https://www.cm-vrsa.pt",
-      "what": "The council runs the VRSA Digital project (Wi-Fi, footfall counters, online marketplace), a municipal Geoportal launched in January 2025 and a new digital platform for the 2026/2027 school activity offer.",
-      "source_url": "https://www.barlavento.pt/?p=399594",
-      "read_on": "2026-11-15",
-      "ai_path": "A public data owner with live data projects. We found no stated use of AI.",
-      "steps": 2
-    },
-    {
-      "name": "Eurocidade do Guadiana",
-      "type": "public body",
-      "url": "https://www.cm-vrsa.pt/pt/noticias/47651/eurocidade-do-guadiana-e-comunidade-europeia-do-desporto-2026.aspx",
-      "what": "Cross-border grouping of Ayamonte, Castro Marim and Vila Real de Santo António, named European Sport Community 2026. VRSA's council holds its presidency this year.",
-      "source_url": "https://www.cm-vrsa.pt/pt/noticias/47651/eurocidade-do-guadiana-e-comunidade-europeia-do-desporto-2026.aspx",
-      "read_on": "2026-11-15",
-      "ai_path": "The grouping is the vehicle for the cross-border innovation node that Ayamonte's council described, which includes an AI assistant on its own side.",
-      "steps": 2
-    },
-    {
-      "name": "Ayuntamiento de Ayamonte",
-      "type": "public body",
-      "url": "https://www.cio.com/administraciones-publicas/el-ayuntamiento-de-ayamonte-apuesta-por-la-digitalizacion-para-adaptarse-a-las-nuevas-necesidades-de-los-ciudadanos",
-      "what": "Spanish council across the river, in the Eurocidade with VRSA. In March 2024 it said it was preparing an AI virtual assistant and a Eurocidade innovation node. It sits outside the municipality and is listed as the cross-border neighbour.",
-      "source_url": "https://www.cio.com/administraciones-publicas/el-ayuntamiento-de-ayamonte-apuesta-por-la-digitalizacion-para-adaptarse-a-las-nuevas-necesidades-de-los-ciudadanos",
-      "read_on": "2026-11-15",
-      "ai_path": "Its own AI virtual assistant, in preparation as of March 2024.",
-      "steps": 1
-    },
-    {
-      "name": "Nautiber, Estaleiros Navais do Guadiana",
-      "type": "company",
-      "url": "https://www.barlavento.pt/mar-profundo-marca-a-entrada-da-nautiber-na-ciencia/",
-      "what": "Shipyard on the Guadiana in Vila Real de Santo António. In 2021 it launched the 19 metre research vessel «Mar Profundo» for INESC TEC and CINTAL (University of Algarve), meant for testing marine robots, sensors and unmanned underwater vehicles. In December 2025 it said it plans a defence unit aimed at unmanned systems, with the structure of four surface drones already delivered, and the site undecided between VRSA, Portimão and Lagos. Visited in February 2026 as part of the council's blue economy push.",
-      "source_url": "https://www.barlavento.pt/mar-profundo-marca-a-entrada-da-nautiber-na-ciencia/",
-      "read_on": "2026-11-15",
-      "ai_path": "It builds the hulls and structures of robots and drones, the platforms on which autonomy and AI run. The articles mention no AI.",
-      "steps": 2
-    },
-    {
-      "name": "CIMA, Universidade do Algarve (SIMPATICO monitoring buoy)",
-      "type": "institution",
-      "url": "https://cima.ualg.pt/en/info/simpatico",
-      "what": "The University of the Algarve's marine and environmental research centre runs SIMPATICO, an autonomous buoy at the mouth of the Guadiana estuary on the Portugal and Spain border. It has recorded currents, water level and water quality every hour and every 15 minutes since March 2008, and the data are open on PANGAEA. The centre is based at the university, not in the municipality.",
-      "source_url": "https://cima.ualg.pt/en/info/simpatico",
-      "read_on": "2026-11-16",
-      "ai_path": "A long, open, high-frequency sensor series at the town's river mouth is the kind of dataset used to train and test forecasting models. The page mentions no AI.",
-      "steps": 2
-    },
-    {
-      "name": "Algarve 6.0 Smart Territorial Hub (PRR project, VRSA is one of six municipalities)",
-      "type": "public body",
-      "url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/01/C19-i08/2024.P13557/",
-      "what": "A PRR digital public administration project of 1.13 million euros, run through the state's technological reform agency, to put an urban management platform with sensors and a LoRaWAN network in six Algarve municipalities. Vila Real de Santo António is assigned 140.74 thousand euros, with nothing spent on the day we read the page. Planned areas include incident management, waste, water use, air quality, green spaces and monitoring isolated elderly residents. The page gives an expected end date of 30 June 2026.",
-      "source_url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/01/C19-i08/2024.P13557/",
-      "read_on": "2026-11-16",
-      "ai_path": "A shared data platform fed by town sensors is the layer that data-based decisions, and AI on top of them, would use. The project summary mentions no AI.",
-      "steps": 2
-    },
-    {
-      "name": "Odiana, Baixo Guadiana development association",
-      "type": "organisation",
-      "url": "https://www.barlavento.pt/odiana-lancamento-projeto-inovacao-agrosocial-plus/",
-      "what": "Association that represents the Baixo Guadiana in the cooperation network of Agrosocial Plus, a 2,062,429.85 euro Interreg Spain-Portugal project, funded 75 percent by ERDF, whose Living Labs will test AI, IoT and smart irrigation. The article does not say whether Vila Real de Santo António is part of the project.",
-      "source_url": "https://www.barlavento.pt/odiana-lancamento-projeto-inovacao-agrosocial-plus/",
-      "read_on": "2026-11-16",
-      "ai_path": "Its project tests AI in Living Labs, with the town's link to it unconfirmed.",
-      "steps": 2
-    }
-  ],
-  "extras": [
-    {
-      "label": "Geoportal",
-      "value": "The council launched an online Geoportal in January 2025 for territorial plans, orthophotos and online location plans, with a back office to track issued plans.",
-      "source_url": "https://www.barlavento.pt/vrsa-lanca-geoportal-para-modernizar-servicos-e-facilitar-o-acesso-a-informacao/",
-      "read_on": "2026-11-15"
-    },
-    {
-      "label": "Footfall privacy",
-      "value": "The council says the 16 pedestrian counters capture no image, video or sound and cannot identify individuals.",
-      "source_url": "https://www.barlavento.pt/?p=399594",
-      "read_on": "2026-11-15"
-    },
-    {
-      "label": "Blue economy priorities",
-      "value": "At a working meeting on 19 February 2026 with the Secretary of State for Fisheries and the Sea, the council set priorities including a shipbuilding and repair cluster area, redevelopment of the fishing port and keeping the Guadiana navigable. The article mentions no technology or AI.",
-      "source_url": "https://www.barlavento.pt/vila-real-santo-antonio-polo-nacional-economia-azul/",
-      "read_on": "2026-11-15"
-    },
-    {
-      "label": "Starting a company here",
-      "value": "The council runs an Entrepreneurship Office, part of the Invest Algarve network, open to companies and to individuals with potential. Its brochure lists help structuring projects, workshops, talks with specialists and meetings with and between entrepreneurs, with the goal of creating firms and jobs locally. The council's business pages also list a funds desk and an applications unit. We did not read the funds desk, which sends visitors to a sign-in.",
-      "source_url": "https://cms.cm-vrsa.pt/upload_files/client_id_1/website_id_1/Atividade%20Municipal/Atividades%20economicas/Gabinete%20do%20empreendorismo/Brochura_Gabinete%20do%20Empreendedorismo.pdf",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Entrepreneurship Office, official channel",
-      "value": "The council's own brochure publishes the Entrepreneurship Office's general landline, 281 510 014, and an office email address, which we link through the brochure and do not copy here. It is the council's published office channel, not a person's contact.",
-      "source_url": "https://cms.cm-vrsa.pt/upload_files/client_id_1/website_id_1/Atividade%20Municipal/Atividades%20economicas/Gabinete%20do%20empreendorismo/Brochura_Gabinete%20do%20Empreendedorismo.pdf",
-      "read_on": "2026-11-16"
-    }
-  ],
-  "identity": {
-    "key_id": "site.vila-real-de-santo-antonio-promptugal-2",
-    "signed_by": "place.algarve.east@PrompTugal.dinis"
-  },
-  "gaps": [
-    "We found no AI company, startup, lab or community based in Vila Real de Santo António. A town with no AI map is a finding. Search results point to a few small IT service and software firms in the town and in Monte Gordo, listed in business directories, but the directory pages would not open for us (a 503 and a 403), so none is on the map and none is known to offer AI. Where to look next: the Algarve business registry by municipality, Algarve Evolution's member list, NERA and the council's economic development pages.",
-    "No local news about AI itself. The two items we carry are about the data groundwork and a Spanish neighbour. We should watch Barlavento, Sul Informação and the council's news page for the first one.",
-    "The Ayamonte innovation node and AI assistant come from a March 2024 interview. A new search found no later source confirming either, and the EU project database page for Ayamonte's Smart City project would not open for us. Ask the Eurocidade and Ayamonte's council whether the node launched and whether VRSA companies take part.",
-    "The council's news page loaded only partly, and the Eurocidade site returned an error. Postal do Algarve and the PRR project pages for VRSA Digital were behind a bot check or a login, so we did not read them.",
-    "We found no AI course or programme at the municipality's schools or its hospitality and tourism school. The nearest AI-adjacent teaching we saw is in Faro, at the Universidade do Algarve. Ask the school cluster and the Escola de Hotelaria e Turismo for their 2026/2027 offer.",
-    "The blue economy is the town's strongest economic story, but the sources we read mention no AI in it. A February 2026 meeting and the Nautiber yard are on the page for that reason. We should watch for sea-tech, aquaculture monitoring or port digitalisation projects.",
-    "Local media: we found regional outlets that cover the town (Barlavento, Sul Informação, Postal do Algarve, 24notícias) but no local radio, blog or newsletter based in the municipality. Ask the council and the Eurocidade which exist. Only Sul Informação gave us an RSS feed.",
-    "Investors, startups, local talent and cooperatives: we found none in public sources so far. The Entrepreneurship Office's workshops and the Eurocidade's women entrepreneurs network (seen in search results, not opened) are where to look next.",
-    "Algarve Evolution and the regional tech network (Algarve Tech Hub, Digital Innovators) publish no member list by municipality that we could read, so we cannot say whether any member is based in Vila Real de Santo António. The Algarve file of this publication covers the regional level.",
-    "The Algarve 6.0 sensor platform showed 0 euros spent for Vila Real de Santo António on the day we read it, with an expected end date of 30 June 2026 that has passed. We do not know what is installed in the town. Ask the council and the state's technological reform agency.",
-    "We could not confirm whether Vila Real de Santo António is in Odiana's territory or takes part in Agrosocial Plus: the Barlavento article names no municipality, and the regional outlet that would say so is behind a bot check for our reader. Ask Odiana and the council.",
-    "No upcoming events with an AI link found for the town. Search results showed a women entrepreneurs meeting in the municipal library and the Monte Gordo Sand Race on 27 to 29 November 2026, but the first is not clearly dated 2026 and neither has an AI link. The nearest tech events are in Lagos and Lisbon.",
-    "NERA's public newsletters (February to June 2026) mention regional digital and AI projects (an agriculture robotics and AI diagnostic, a digital training project for microenterprises, a startup call for hotels) but none names Vila Real de Santo António. A search result suggested an Algarve Empreende 2026 session in the town, and we could not confirm it from a page we may read. Ask NERA and the University of Algarve's business support unit.",
-    "Nothing new on Nautiber, council decisions or AI on the council pages on 16 November. Search snippets mention a PRR housing rehabilitation of 372 units, the 2026 budget and a PDM consultation: unopened, not used.",
-    "The national earthquake exercise item (5 November) and the storm alert notice were seen only as headlines.",
-    "Only the front page and the highlights list of the council's news were read on 17 November; other items seen there (a film festival 24 to 29 November, a canned-fish day, a library session) have unconfirmed dates and were not used.",
-    "sulinformacao.pt is not read by this desk: its robots.txt disallows ClaudeBot, Claude-Web and anthropic-ai across the whole site, feed included, and Dinis has not yet answered whether any agent may read it (conductor.b@, 17 November). One item taken from its feed on 17 November was removed. Link to the outlet only."
-  ],
-  "voice": {
-    "lede": "Ó pá, a whole town drawn with a ruler in two years, and now it counts its pedestrians like a careful sardine merchant.",
-    "mandate": "PrompTugal.news Vila Real de Santo António: AI and technology in VRSA, the tidy Pombaline town with its feet in the Guadiana and one eye on Spain, plus whatever reaches us from the Algarve, Portugal and the world. Independent, and every fact has its source, pá.",
-    "gravity": "Pombal drew this town on a grid from 1773 and it was done by 1776, which is faster than most of us finish a bica. The sardines and tuna gave way to tourism, and plenty of people nip across the river to work near Ayamonte. Now the town wants to be the national capital of the blue economy, with a shipyard on the Guadiana that built a boat for testing robots and fancies a unit for unmanned vessels, a PRR sensor platform shared with five other councils, Wi-Fi and footfall counters in the centre, and the Eurocidade do Guadiana with Ayamonte and Castro Marim for the cross-border ideas. AI company based here? Not yet, caramba.",
-    "gaps_intro": "Eish, here is what we could not find, and an honest empty net is still a finding."
-  },
-  "local_news": [
-    {
-      "title": "'Natal a Ganhar' returns, with receipts registered in the VRSA Digital marketplace",
-      "summary": "14 November to 24 December: each 20 euros on one receipt earns a draw entry, now registered in the free Marketplace VRSA Digital app by scanning the invoice QR code; draw on 30 December at 16:00. The council does not describe the validation as AI.",
-      "date": "2026-11-13",
-      "publisher": "Câmara Municipal de Vila Real de Santo António",
-      "url": "https://www.cm-vrsa.pt/pt/noticias/68392/campanha-natal-a-ganhar-regressa-para-apoiar-e-dinamizar-o-comercio-local-de-vila-real-de-santo-antonio.aspx",
-      "read_on": "2026-11-16",
-      "significance": "town",
-      "ai_path": "No AI stated: a digital marketplace with automatic receipt validation, the data groundwork of the PRR VRSA Digital project.",
-      "steps": 3,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.cm-vrsa.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "Monte Gordo hosts the 4th stage of the FIM Sand Races World Championship, 27 to 29 November",
-      "summary": "Free entry on Monte Gordo beach, motorcycles and quads, with dune and water monitoring measures listed by the organisers (ACP and the council).",
-      "date": "2026-11-12",
-      "publisher": "Câmara Municipal de Vila Real de Santo António",
-      "url": "https://www.cm-vrsa.pt/pt/noticias/68390/monte-gordo-recebe-quarta-etapa-do-campeonato-do-mundo-de-corridas-em-areia.aspx",
-      "read_on": "2026-11-16",
-      "significance": "town and region",
-      "ai_path": "no AI",
-      "steps": 0,
-      "blast_radius": "Castro Marim and Ayamonte, a few minutes away",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.cm-vrsa.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "Eurocidade do Guadiana promotes the Orquestra do Algarve concert in Ayamonte",
-      "summary": "14 November in Ayamonte, under the 'A Cultura que nos une' protocol between the Eurocidade councils, CCDR Algarve and Turismo do Algarve, co-financed through Interreg VI-A Spain-Portugal.",
-      "date": "2026-11-06",
-      "publisher": "Câmara Municipal de Vila Real de Santo António",
-      "url": "https://www.cm-vrsa.pt/pt/noticias/58377/eurocidade-do-guadiana-promove-espetaculo-da-orquestra-do-algarve-em-ayamonte.aspx",
-      "read_on": "2026-11-16",
-      "significance": "neighbours and region",
-      "ai_path": "no AI",
-      "steps": 0,
-      "blast_radius": "Ayamonte (Spain), Castro Marim",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.cm-vrsa.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "VRSA's civil protection commission meets to prepare for storm Charles",
-      "summary": "An extraordinary meeting on 10 November with police, fire brigades, health and Social Security; the page gives no specific measures.",
-      "date": "2026-11-10",
-      "publisher": "Câmara Municipal de Vila Real de Santo António",
-      "url": "https://www.cm-vrsa.pt/pt/noticias/68374/vila-real-de-santo-antonio-prepara-resposta-a-depressao-charles.aspx",
-      "read_on": "2026-11-16",
-      "significance": "town and region",
-      "ai_path": "no AI",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.cm-vrsa.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "VRSA closed schools and non-essential services for the 11 November alert",
-      "summary": "The council's notice for the national alert expected gusts of 120 km/h, over 150 km/h if a 'sting jet' formed, and restricted access to woods, the coast and flood-prone areas.",
-      "date": "2026-11-10",
-      "publisher": "Câmara Municipal de Vila Real de Santo António",
-      "url": "https://www.cm-vrsa.pt/pt/noticias/58391/mau-tempo-declarada-situacao-de-alerta-para-o-dia-11-de-novembro.aspx",
-      "read_on": "2026-11-16",
-      "significance": "town and country",
-      "ai_path": "no AI",
-      "steps": 0,
-      "blast_radius": "Castro Marim, Ayamonte",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.cm-vrsa.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "VRSA's schools took part in the national earthquake drill 'A Terra Treme' on 5 November",
-      "summary": "A seismic-risk drill promoted by the national civil protection authority, held at the Escola Secundária de VRSA and the EB 2,3 Infante D. Fernando in Vila Nova de Cacela, with an evacuation to test the schools' emergency plans.",
-      "date": "2026-11-06",
-      "publisher": "Câmara Municipal de Vila Real de Santo António",
-      "url": "https://www.cm-vrsa.pt/pt/noticias/58376/vila-real-de-santo-antonio-associou-se-ao-exercicio-nacional-a-terra-treme.aspx",
-      "read_on": "2026-11-16",
-      "significance": "town and country",
-      "ai_path": "no AI",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.cm-vrsa.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "VRSA closes its São Martinho market programme with a magusto on 14 November",
-      "summary": "Roasted chestnuts and jeropiga at the Mercado Municipal; the council says it wants to keep the markets active as neighbourhood spaces. The listing also shows a cross-border women entrepreneurs' meeting on 19 November, not opened.",
-      "date": "2026-11-14",
-      "publisher": "Câmara Municipal de Vila Real de Santo António",
-      "url": "https://www.cm-vrsa.pt/pt/noticias/68399/magusto-no-mercado-municipal-de-vila-real-de-santo-antonio.aspx",
-      "read_on": "2026-11-17",
-      "significance": "town",
-      "ai_path": "no AI",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.cm-vrsa.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "Eurocidade do Guadiana promotes a cross-border meeting of women entrepreneurs on 19 November",
-      "summary": "10:30 Spanish time at the Centro de Exposições e Congressos de Ayamonte, under the EURES Transfronteiriço Andaluzia-Algarve project: a leadership talk, business presentations and speed networking. The page does not say how to register.",
-      "date": "2026-11-16",
-      "publisher": "Câmara Municipal de Vila Real de Santo António",
-      "url": "https://www.cm-vrsa.pt/pt/noticias/68406/eurocidade-do-guadiana-promove-encontro-transfronteirico-de-mulheres-empreendedoras.aspx",
-      "read_on": "2026-11-17",
-      "significance": "town and neighbours",
-      "ai_path": "no AI",
-      "steps": 0,
-      "blast_radius": "Ayamonte (Spain), Castro Marim",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.cm-vrsa.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "VRSA opens an SNS 24 desk at its municipal health office",
-      "summary": "Staff at the Gabinete Municipal de Saúde guide residents through the national health digital services (booking, teleconsultation, results, prescriptions); a second phase would reach the Espaços Cidadão in VRSA, Monte Gordo and Vila Nova de Cacela. Teleconsultations stay at the main desk only.",
-      "date": "2026-11-17",
-      "publisher": "Município de Vila Real de Santo António",
-      "url": "https://www.cm-vrsa.pt/pt/noticias/68410/vila-real-de-santo-antonio-ja-disponibiliza-balcao-sns-24.aspx",
-      "read_on": "2026-11-18",
-      "significance": "town and neighbours",
-      "ai_path": "No AI: a digital public-service desk (national SNS 24 platform) run by council staff.",
-      "steps": 1,
-      "blast_radius": "Castro Marim and Alcoutim residents also use the VRSA services",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.cm-vrsa.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "VRSA's 24th Giant Nativity opens on 28 November with more than 6,000 figures",
-      "summary": "At the Centro Cultural António Aleixo until 6 January 2027: 240 m2 with LED lighting and recycled water, and a new piece referencing Ayamonte; entry 1 euro from age 4.",
-      "date": "2026-11-17",
-      "publisher": "Município de Vila Real de Santo António",
-      "url": "https://www.cm-vrsa.pt/pt/noticias/68414/presepio-gigante-de-vila-real-de-santo-antonio-volta-a-surpreender-com-mais-de-6000-figuras.aspx",
-      "read_on": "2026-11-18",
-      "significance": "town and neighbours",
-      "ai_path": "no AI",
-      "steps": 0,
-      "blast_radius": "Ayamonte, Castro Marim",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.cm-vrsa.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "The Escola Naval's RIO26 exercise on the Guadiana, 16 to 20 November",
-      "summary": "76 cadets and 45 military personnel: a river descent in rescue boats from Mértola to Alcoutim and a mass-rescue simulation near Vila Real de Santo António. For this town: the mass-rescue simulation is near Vila Real de Santo António.",
-      "date": "2026-11-17",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/escola-naval-leva-76-cadetes-ao-guadiana-para-exercicio-de-cinco-dias/",
-      "read_on": "2026-11-18",
-      "significance": "town and neighbours",
-      "ai_path": "no AI",
-      "steps": 0,
-      "blast_radius": "Mértola, Alcoutim, Vila Real de Santo António",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.barlavento.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "VRSA's fourth Youth Participatory Budget is in its voting phase until 13 December",
-      "summary": "People aged 12 to 35, resident or not, vote for one of four projects ('A moda começa aqui!', 'Anda daí, moh!', 'Nature Meals', 'Vilarealiza Teatro') through an online form; phase 6 of the programme. (body read)",
-      "date": "2026-11-17",
-      "publisher": "Município de Vila Real de Santo António",
-      "url": "https://www.cm-vrsa.pt/pt/noticias/68411/orcamento-participativo-jovem--votacoes-decorrem-ate-13-de-dezembro.aspx",
-      "read_on": "2026-11-19",
-      "significance": "town",
-      "ai_path": "no AI",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; none stated on the pages read)",
-        "url": "https://www.cm-vrsa.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    }
-  ],
-  "contacts": [
-    {
-      "name": "Câmara Municipal de Vila Real de Santo António, general office",
-      "what": "The council's published general phone and email, shown at the foot of its news pages; the civil protection line is separate.",
-      "url": "https://www.cm-vrsa.pt/",
-      "source_url": "https://www.cm-vrsa.pt/pt/noticias/68392/campanha-natal-a-ganhar-regressa-para-apoiar-e-dinamizar-o-comercio-local-de-vila-real-de-santo-antonio.aspx",
-      "read_on": "2026-11-16",
-      "channel": "281 510 000; geral@cm-vrsa.pt; civil protection line 281 512 000"
-    }
+   {
+    "title": "Vila Real de Santo António (history and economy)",
+    "url": "https://en.wikipedia.org/wiki/Vila_Real_de_Santo_Ant%C3%B3nio",
+    "read_on": "2026-11-15"
+   },
+   {
+    "title": "VRSA instala Wi-Fi gratuito e controlo automóvel no centro histórico (Barlavento)",
+    "url": "https://www.barlavento.pt/?p=399594",
+    "read_on": "2026-11-15"
+   },
+   {
+    "title": "Câmara Municipal de Vila Real de Santo António (news page, Eurocidade items)",
+    "url": "https://www.cm-vrsa.pt",
+    "read_on": "2026-11-15"
+   },
+   {
+    "title": "Vila Real de Santo António quer ser polo nacional da economia azul (Barlavento, 24 February 2026)",
+    "url": "https://www.barlavento.pt/vila-real-santo-antonio-polo-nacional-economia-azul/",
+    "read_on": "2026-11-15"
+   }
   ]
+ },
+ "look": {
+  "accent": "#1F4E79",
+  "landmark": "the Pombaline grid town and its riverfront customs house on the Guadiana",
+  "motif": "river blue, a ruled grid, a ferry to Spain"
+ },
+ "ai_news": [
+  {
+   "title": "The Lower Guadiana's development association joins a cross-border project that will test AI",
+   "summary": "Odiana, which represents the Baixo Guadiana, is the Portuguese partner in Agrosocial Plus, a 2.06 million euro Spain and Portugal project launched in Córdoba on 22 and 23 September 2026. Its Living Labs are planned to test solutions including artificial intelligence, the Internet of Things and smart irrigation. The article does not say whether Vila Real de Santo António takes part, though the page is tagged with the town.",
+   "date": "2026-09-25",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/odiana-lancamento-projeto-inovacao-agrosocial-plus/",
+   "read_on": "2026-11-16",
+   "ai_path": "The project's Living Labs test AI, which is one step from Odiana and a second from the town, if the town is in its territory. We could not confirm that.",
+   "steps": 2,
+   "significance": "neighbours"
+  },
+  {
+   "title": "A Guadiana shipyard plans a defence unit aimed at unmanned vessels",
+   "summary": "Nautiber, the shipyard in Vila Real de Santo António, says it plans a new unit to build vessels for the defence sector, targeting unmanned systems and platforms. It has already delivered the structure for four surface drones with a partner and would team up with a Lagos yard, and it has not decided between VRSA, Portimão and Lagos. The piece is sponsored content, so these are the company's own claims.",
+   "date": "2025-12-17",
+   "publisher": "Barlavento (sponsored content)",
+   "url": "https://www.barlavento.pt/?p=388252",
+   "read_on": "2026-11-16",
+   "ai_path": "Surface drones and other unmanned platforms are where autonomy software and AI run. The yard builds the hulls and structures, not the software, and the article mentions no AI.",
+   "steps": 2,
+   "significance": "region"
+  },
+  {
+   "title": "VRSA wires its historic centre with free Wi-Fi and 16 footfall counters",
+   "summary": "The council is installing free Wi-Fi and 16 pedestrian flow monitors in the historic centre, with bollards and information kiosks to follow, as part of a PRR-funded digital shops district worth about 895 thousand euros that targets some 200 businesses. The counters give statistics only and capture no image, video or sound. An online marketplace already lists over a hundred businesses.",
+   "date": "2026-05-18",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/?p=399594",
+   "read_on": "2026-11-15",
+   "ai_path": "The counters and the marketplace produce footfall and sales data for the town centre, which is the raw material for AI forecasting. The article itself mentions no AI.",
+   "steps": 2,
+   "significance": "local"
+  },
+  {
+   "title": "Ayamonte's innovation node is meant to reach Vila Real de Santo António",
+   "summary": "In a March 2024 interview, the IT manager of Ayamonte's council said the council was preparing an AI virtual assistant for citizens and companies and planning a 2 to 3 million euro innovation node on tourism and digital support for small firms. He described the node as the first to involve a Eurocidade, covering parts of the Portuguese Algarve. This is the council's own account, with no launch dates, and we have not confirmed the node went ahead.",
+   "date": "2024-03-15",
+   "publisher": "CIO",
+   "url": "https://www.cio.com/administraciones-publicas/el-ayuntamiento-de-ayamonte-apuesta-por-la-digitalizacion-para-adaptarse-a-las-nuevas-necesidades-de-los-ciudadanos",
+   "read_on": "2026-11-15",
+   "ai_path": "A neighbouring council is building an AI assistant (step 0 for Ayamonte) and an innovation node that would serve the Eurocidade, VRSA included (step 2 for the town).",
+   "steps": 2,
+   "significance": "neighbours"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Câmara Municipal de Vila Real de Santo António",
+   "url": "https://www.cm-vrsa.pt",
+   "kind": "council",
+   "feed": null
+  },
+  {
+   "name": "VRSA Geoportal (council maps and plans online)",
+   "url": "https://websig.cm-vrsa.pt/geoportal",
+   "kind": "council",
+   "feed": null
+  },
+  {
+   "name": "Barlavento",
+   "url": "https://www.barlavento.pt",
+   "kind": "press",
+   "feed": null
+  },
+  {
+   "name": "Sul Informação",
+   "url": "https://www.sulinformacao.pt",
+   "kind": "press",
+   "feed": "https://www.sulinformacao.pt/feed/"
+  },
+  {
+   "name": "Postal do Algarve (Eurocidade and Europe Direct Algarve items, behind a bot check for our reader)",
+   "url": "https://postal.pt",
+   "kind": "press",
+   "feed": null
+  },
+  {
+   "name": "Eurocidade do Guadiana (Ayamonte, Castro Marim, VRSA)",
+   "url": "https://www.eurociudadguadiana.eu",
+   "kind": "other",
+   "feed": null
+  },
+  {
+   "name": "Ayamonte council innovation case study (CIO)",
+   "url": "https://www.cio.com/administraciones-publicas/el-ayuntamiento-de-ayamonte-apuesta-por-la-digitalizacion-para-adaptarse-a-las-nuevas-necesidades-de-los-ciudadanos",
+   "kind": "press",
+   "feed": null
+  },
+  {
+   "name": "VRSA council: economic activities and business support (entrepreneurship office, funds desk, application unit)",
+   "url": "https://www.cm-vrsa.pt/pt/menu/956/atividades-economicas.aspx",
+   "kind": "council",
+   "feed": null
+  },
+  {
+   "name": "Mercados de VRSA (council site for the three municipal markets)",
+   "url": "https://www.mercadosdevrsa.pt/",
+   "kind": "council",
+   "feed": null
+  },
+  {
+   "name": "24notícias, Vila Real de Santo António page (Madre Media, regional news archive for the town)",
+   "url": "https://24noticias.sapo.pt/local/faro/vila-real-de-santo-antonio",
+   "kind": "press",
+   "feed": null
+  },
+  {
+   "name": "Gabinete do Empreendedorismo brochure (council entrepreneurship office, Invest Algarve network)",
+   "url": "https://cms.cm-vrsa.pt/upload_files/client_id_1/website_id_1/Atividade%20Municipal/Atividades%20economicas/Gabinete%20do%20empreendorismo/Brochura_Gabinete%20do%20Empreendedorismo.pdf",
+   "kind": "council",
+   "feed": null
+  },
+  {
+   "name": "CIMA, Universidade do Algarve: SIMPATICO and data products",
+   "url": "https://cima.ualg.pt/en/info/data-products",
+   "kind": "university",
+   "feed": null
+  },
+  {
+   "name": "Odiana, Baixo Guadiana development association (project news via Barlavento)",
+   "url": "https://www.barlavento.pt/odiana-lancamento-projeto-inovacao-agrosocial-plus/",
+   "kind": "other",
+   "feed": null
+  }
+ ],
+ "events": [
+  {
+   "title": "Monte Gordo Sand Race, FIM Sand Races World Championship stage 4",
+   "date": "2026-11-27",
+   "url": "https://www.cm-vrsa.pt/pt/noticias/68390/monte-gordo-recebe-quarta-etapa-do-campeonato-do-mundo-de-corridas-em-areia.aspx",
+   "read_on": "2026-11-16",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.cm-vrsa.pt/"
+   }
+  },
+  {
+   "title": "Natal a Ganhar draw, Vila Natal, Praça Marquês de Pombal",
+   "date": "2026-12-30",
+   "url": "https://www.cm-vrsa.pt/pt/noticias/68392/campanha-natal-a-ganhar-regressa-para-apoiar-e-dinamizar-o-comercio-local-de-vila-real-de-santo-antonio.aspx",
+   "read_on": "2026-11-16",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.cm-vrsa.pt/"
+   }
+  },
+  {
+   "title": "Cross-border meeting of women entrepreneurs, Ayamonte (10:30 Spanish time)",
+   "date": "2026-11-19",
+   "url": "https://www.cm-vrsa.pt/pt/noticias/68406/eurocidade-do-guadiana-promove-encontro-transfronteirico-de-mulheres-empreendedoras.aspx",
+   "read_on": "2026-11-17",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.cm-vrsa.pt/"
+   }
+  },
+  {
+   "title": "Giant Nativity opens, Centro Cultural António Aleixo",
+   "date": "2026-11-28",
+   "url": "https://www.cm-vrsa.pt/pt/noticias/68414/presepio-gigante-de-vila-real-de-santo-antonio-volta-a-surpreender-com-mais-de-6000-figuras.aspx",
+   "read_on": "2026-11-18",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.cm-vrsa.pt/"
+   }
+  }
+ ],
+ "ai_map": [
+  {
+   "name": "Câmara Municipal de Vila Real de Santo António",
+   "type": "public body",
+   "url": "https://www.cm-vrsa.pt",
+   "what": "The council runs the VRSA Digital project (Wi-Fi, footfall counters, online marketplace), a municipal Geoportal launched in January 2025 and a new digital platform for the 2026/2027 school activity offer.",
+   "source_url": "https://www.barlavento.pt/?p=399594",
+   "read_on": "2026-11-15",
+   "ai_path": "A public data owner with live data projects. We found no stated use of AI.",
+   "steps": 2
+  },
+  {
+   "name": "Eurocidade do Guadiana",
+   "type": "public body",
+   "url": "https://www.cm-vrsa.pt/pt/noticias/47651/eurocidade-do-guadiana-e-comunidade-europeia-do-desporto-2026.aspx",
+   "what": "Cross-border grouping of Ayamonte, Castro Marim and Vila Real de Santo António, named European Sport Community 2026. VRSA's council holds its presidency this year.",
+   "source_url": "https://www.cm-vrsa.pt/pt/noticias/47651/eurocidade-do-guadiana-e-comunidade-europeia-do-desporto-2026.aspx",
+   "read_on": "2026-11-15",
+   "ai_path": "The grouping is the vehicle for the cross-border innovation node that Ayamonte's council described, which includes an AI assistant on its own side.",
+   "steps": 2
+  },
+  {
+   "name": "Ayuntamiento de Ayamonte",
+   "type": "public body",
+   "url": "https://www.cio.com/administraciones-publicas/el-ayuntamiento-de-ayamonte-apuesta-por-la-digitalizacion-para-adaptarse-a-las-nuevas-necesidades-de-los-ciudadanos",
+   "what": "Spanish council across the river, in the Eurocidade with VRSA. In March 2024 it said it was preparing an AI virtual assistant and a Eurocidade innovation node. It sits outside the municipality and is listed as the cross-border neighbour.",
+   "source_url": "https://www.cio.com/administraciones-publicas/el-ayuntamiento-de-ayamonte-apuesta-por-la-digitalizacion-para-adaptarse-a-las-nuevas-necesidades-de-los-ciudadanos",
+   "read_on": "2026-11-15",
+   "ai_path": "Its own AI virtual assistant, in preparation as of March 2024.",
+   "steps": 1
+  },
+  {
+   "name": "Nautiber, Estaleiros Navais do Guadiana",
+   "type": "company",
+   "url": "https://www.barlavento.pt/mar-profundo-marca-a-entrada-da-nautiber-na-ciencia/",
+   "what": "Shipyard on the Guadiana in Vila Real de Santo António. In 2021 it launched the 19 metre research vessel «Mar Profundo» for INESC TEC and CINTAL (University of Algarve), meant for testing marine robots, sensors and unmanned underwater vehicles. In December 2025 it said it plans a defence unit aimed at unmanned systems, with the structure of four surface drones already delivered, and the site undecided between VRSA, Portimão and Lagos. Visited in February 2026 as part of the council's blue economy push.",
+   "source_url": "https://www.barlavento.pt/mar-profundo-marca-a-entrada-da-nautiber-na-ciencia/",
+   "read_on": "2026-11-15",
+   "ai_path": "It builds the hulls and structures of robots and drones, the platforms on which autonomy and AI run. The articles mention no AI.",
+   "steps": 2
+  },
+  {
+   "name": "CIMA, Universidade do Algarve (SIMPATICO monitoring buoy)",
+   "type": "institution",
+   "url": "https://cima.ualg.pt/en/info/simpatico",
+   "what": "The University of the Algarve's marine and environmental research centre runs SIMPATICO, an autonomous buoy at the mouth of the Guadiana estuary on the Portugal and Spain border. It has recorded currents, water level and water quality every hour and every 15 minutes since March 2008, and the data are open on PANGAEA. The centre is based at the university, not in the municipality.",
+   "source_url": "https://cima.ualg.pt/en/info/simpatico",
+   "read_on": "2026-11-16",
+   "ai_path": "A long, open, high-frequency sensor series at the town's river mouth is the kind of dataset used to train and test forecasting models. The page mentions no AI.",
+   "steps": 2
+  },
+  {
+   "name": "Algarve 6.0 Smart Territorial Hub (PRR project, VRSA is one of six municipalities)",
+   "type": "public body",
+   "url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/01/C19-i08/2024.P13557/",
+   "what": "A PRR digital public administration project of 1.13 million euros, run through the state's technological reform agency, to put an urban management platform with sensors and a LoRaWAN network in six Algarve municipalities. Vila Real de Santo António is assigned 140.74 thousand euros, with nothing spent on the day we read the page. Planned areas include incident management, waste, water use, air quality, green spaces and monitoring isolated elderly residents. The page gives an expected end date of 30 June 2026.",
+   "source_url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/01/C19-i08/2024.P13557/",
+   "read_on": "2026-11-16",
+   "ai_path": "A shared data platform fed by town sensors is the layer that data-based decisions, and AI on top of them, would use. The project summary mentions no AI.",
+   "steps": 2
+  },
+  {
+   "name": "Odiana, Baixo Guadiana development association",
+   "type": "organisation",
+   "url": "https://www.barlavento.pt/odiana-lancamento-projeto-inovacao-agrosocial-plus/",
+   "what": "Association that represents the Baixo Guadiana in the cooperation network of Agrosocial Plus, a 2,062,429.85 euro Interreg Spain-Portugal project, funded 75 percent by ERDF, whose Living Labs will test AI, IoT and smart irrigation. The article does not say whether Vila Real de Santo António is part of the project.",
+   "source_url": "https://www.barlavento.pt/odiana-lancamento-projeto-inovacao-agrosocial-plus/",
+   "read_on": "2026-11-16",
+   "ai_path": "Its project tests AI in Living Labs, with the town's link to it unconfirmed.",
+   "steps": 2
+  }
+ ],
+ "extras": [
+  {
+   "label": "Geoportal",
+   "value": "The council launched an online Geoportal in January 2025 for territorial plans, orthophotos and online location plans, with a back office to track issued plans.",
+   "source_url": "https://www.barlavento.pt/vrsa-lanca-geoportal-para-modernizar-servicos-e-facilitar-o-acesso-a-informacao/",
+   "read_on": "2026-11-15"
+  },
+  {
+   "label": "Footfall privacy",
+   "value": "The council says the 16 pedestrian counters capture no image, video or sound and cannot identify individuals.",
+   "source_url": "https://www.barlavento.pt/?p=399594",
+   "read_on": "2026-11-15"
+  },
+  {
+   "label": "Blue economy priorities",
+   "value": "At a working meeting on 19 February 2026 with the Secretary of State for Fisheries and the Sea, the council set priorities including a shipbuilding and repair cluster area, redevelopment of the fishing port and keeping the Guadiana navigable. The article mentions no technology or AI.",
+   "source_url": "https://www.barlavento.pt/vila-real-santo-antonio-polo-nacional-economia-azul/",
+   "read_on": "2026-11-15"
+  },
+  {
+   "label": "Starting a company here",
+   "value": "The council runs an Entrepreneurship Office, part of the Invest Algarve network, open to companies and to individuals with potential. Its brochure lists help structuring projects, workshops, talks with specialists and meetings with and between entrepreneurs, with the goal of creating firms and jobs locally. The council's business pages also list a funds desk and an applications unit. We did not read the funds desk, which sends visitors to a sign-in.",
+   "source_url": "https://cms.cm-vrsa.pt/upload_files/client_id_1/website_id_1/Atividade%20Municipal/Atividades%20economicas/Gabinete%20do%20empreendorismo/Brochura_Gabinete%20do%20Empreendedorismo.pdf",
+   "read_on": "2026-11-16"
+  },
+  {
+   "label": "Entrepreneurship Office, official channel",
+   "value": "The council's own brochure publishes the Entrepreneurship Office's general landline, 281 510 014, and an office email address, which we link through the brochure and do not copy here. It is the council's published office channel, not a person's contact.",
+   "source_url": "https://cms.cm-vrsa.pt/upload_files/client_id_1/website_id_1/Atividade%20Municipal/Atividades%20economicas/Gabinete%20do%20empreendorismo/Brochura_Gabinete%20do%20Empreendedorismo.pdf",
+   "read_on": "2026-11-16"
+  }
+ ],
+ "identity": {
+  "key_id": "site.vila-real-de-santo-antonio-promptugal-2",
+  "signed_by": "place.algarve.east@PrompTugal.dinis"
+ },
+ "gaps": [
+  "We found no AI company, startup, lab or community based in Vila Real de Santo António. A town with no AI map is a finding. Search results point to a few small IT service and software firms in the town and in Monte Gordo, listed in business directories, but the directory pages would not open for us (a 503 and a 403), so none is on the map and none is known to offer AI. Where to look next: the Algarve business registry by municipality, Algarve Evolution's member list, NERA and the council's economic development pages.",
+  "No local news about AI itself. The two items we carry are about the data groundwork and a Spanish neighbour. We should watch Barlavento, Sul Informação and the council's news page for the first one.",
+  "The Ayamonte innovation node and AI assistant come from a March 2024 interview. A new search found no later source confirming either, and the EU project database page for Ayamonte's Smart City project would not open for us. Ask the Eurocidade and Ayamonte's council whether the node launched and whether VRSA companies take part.",
+  "The council's news page loaded only partly, and the Eurocidade site returned an error. Postal do Algarve and the PRR project pages for VRSA Digital were behind a bot check or a login, so we did not read them.",
+  "We found no AI course or programme at the municipality's schools or its hospitality and tourism school. The nearest AI-adjacent teaching we saw is in Faro, at the Universidade do Algarve. Ask the school cluster and the Escola de Hotelaria e Turismo for their 2026/2027 offer.",
+  "The blue economy is the town's strongest economic story, but the sources we read mention no AI in it. A February 2026 meeting and the Nautiber yard are on the page for that reason. We should watch for sea-tech, aquaculture monitoring or port digitalisation projects.",
+  "Local media: we found regional outlets that cover the town (Barlavento, Sul Informação, Postal do Algarve, 24notícias) but no local radio, blog or newsletter based in the municipality. Ask the council and the Eurocidade which exist. Only Sul Informação gave us an RSS feed.",
+  "Investors, startups, local talent and cooperatives: we found none in public sources so far. The Entrepreneurship Office's workshops and the Eurocidade's women entrepreneurs network (seen in search results, not opened) are where to look next.",
+  "Algarve Evolution and the regional tech network (Algarve Tech Hub, Digital Innovators) publish no member list by municipality that we could read, so we cannot say whether any member is based in Vila Real de Santo António. The Algarve file of this publication covers the regional level.",
+  "The Algarve 6.0 sensor platform showed 0 euros spent for Vila Real de Santo António on the day we read it, with an expected end date of 30 June 2026 that has passed. We do not know what is installed in the town. Ask the council and the state's technological reform agency.",
+  "We could not confirm whether Vila Real de Santo António is in Odiana's territory or takes part in Agrosocial Plus: the Barlavento article names no municipality, and the regional outlet that would say so is behind a bot check for our reader. Ask Odiana and the council.",
+  "No upcoming events with an AI link found for the town. Search results showed a women entrepreneurs meeting in the municipal library and the Monte Gordo Sand Race on 27 to 29 November 2026, but the first is not clearly dated 2026 and neither has an AI link. The nearest tech events are in Lagos and Lisbon.",
+  "NERA's public newsletters (February to June 2026) mention regional digital and AI projects (an agriculture robotics and AI diagnostic, a digital training project for microenterprises, a startup call for hotels) but none names Vila Real de Santo António. A search result suggested an Algarve Empreende 2026 session in the town, and we could not confirm it from a page we may read. Ask NERA and the University of Algarve's business support unit.",
+  "Nothing new on Nautiber, council decisions or AI on the council pages on 16 November. Search snippets mention a PRR housing rehabilitation of 372 units, the 2026 budget and a PDM consultation: unopened, not used.",
+  "The national earthquake exercise item (5 November) and the storm alert notice were seen only as headlines.",
+  "Only the front page and the highlights list of the council's news were read on 17 November; other items seen there (a film festival 24 to 29 November, a canned-fish day, a library session) have unconfirmed dates and were not used.",
+  "sulinformacao.pt is not read by this desk: its robots.txt disallows ClaudeBot, Claude-Web and anthropic-ai across the whole site, feed included, and Dinis has not yet answered whether any agent may read it (conductor.b@, 17 November). One item taken from its feed on 17 November was removed. Link to the outlet only."
+ ],
+ "voice": {
+  "lede": "Ó pá, a whole town drawn with a ruler in two years, and now it counts its pedestrians like a careful sardine merchant.",
+  "mandate": "PrompTugal.news Vila Real de Santo António: AI and technology in VRSA, the tidy Pombaline town with its feet in the Guadiana and one eye on Spain, plus whatever reaches us from the Algarve, Portugal and the world. Independent, and every fact has its source, pá.",
+  "gravity": "Pombal drew this town on a grid from 1773 and it was done by 1776, which is faster than most of us finish a bica. The sardines and tuna gave way to tourism, and plenty of people nip across the river to work near Ayamonte. Now the town wants to be the national capital of the blue economy, with a shipyard on the Guadiana that built a boat for testing robots and fancies a unit for unmanned vessels, a PRR sensor platform shared with five other councils, Wi-Fi and footfall counters in the centre, and the Eurocidade do Guadiana with Ayamonte and Castro Marim for the cross-border ideas. AI company based here? Not yet, caramba.",
+  "gaps_intro": "Eish, here is what we could not find, and an honest empty net is still a finding."
+ },
+ "local_news": [
+  {
+   "title": "'Natal a Ganhar' returns, with receipts registered in the VRSA Digital marketplace",
+   "summary": "14 November to 24 December: each 20 euros on one receipt earns a draw entry, now registered in the free Marketplace VRSA Digital app by scanning the invoice QR code; draw on 30 December at 16:00. The council does not describe the validation as AI.",
+   "date": "2026-11-13",
+   "publisher": "Câmara Municipal de Vila Real de Santo António",
+   "url": "https://www.cm-vrsa.pt/pt/noticias/68392/campanha-natal-a-ganhar-regressa-para-apoiar-e-dinamizar-o-comercio-local-de-vila-real-de-santo-antonio.aspx",
+   "read_on": "2026-11-16",
+   "significance": "town",
+   "ai_path": "No AI stated: a digital marketplace with automatic receipt validation, the data groundwork of the PRR VRSA Digital project.",
+   "steps": 3,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.cm-vrsa.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "Monte Gordo hosts the 4th stage of the FIM Sand Races World Championship, 27 to 29 November",
+   "summary": "Free entry on Monte Gordo beach, motorcycles and quads, with dune and water monitoring measures listed by the organisers (ACP and the council).",
+   "date": "2026-11-12",
+   "publisher": "Câmara Municipal de Vila Real de Santo António",
+   "url": "https://www.cm-vrsa.pt/pt/noticias/68390/monte-gordo-recebe-quarta-etapa-do-campeonato-do-mundo-de-corridas-em-areia.aspx",
+   "read_on": "2026-11-16",
+   "significance": "town and region",
+   "ai_path": "no AI",
+   "steps": 0,
+   "blast_radius": "Castro Marim and Ayamonte, a few minutes away",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.cm-vrsa.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "Eurocidade do Guadiana promotes the Orquestra do Algarve concert in Ayamonte",
+   "summary": "14 November in Ayamonte, under the 'A Cultura que nos une' protocol between the Eurocidade councils, CCDR Algarve and Turismo do Algarve, co-financed through Interreg VI-A Spain-Portugal.",
+   "date": "2026-11-06",
+   "publisher": "Câmara Municipal de Vila Real de Santo António",
+   "url": "https://www.cm-vrsa.pt/pt/noticias/58377/eurocidade-do-guadiana-promove-espetaculo-da-orquestra-do-algarve-em-ayamonte.aspx",
+   "read_on": "2026-11-16",
+   "significance": "neighbours and region",
+   "ai_path": "no AI",
+   "steps": 0,
+   "blast_radius": "Ayamonte (Spain), Castro Marim",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.cm-vrsa.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "VRSA's civil protection commission meets to prepare for storm Charles",
+   "summary": "An extraordinary meeting on 10 November with police, fire brigades, health and Social Security; the page gives no specific measures.",
+   "date": "2026-11-10",
+   "publisher": "Câmara Municipal de Vila Real de Santo António",
+   "url": "https://www.cm-vrsa.pt/pt/noticias/68374/vila-real-de-santo-antonio-prepara-resposta-a-depressao-charles.aspx",
+   "read_on": "2026-11-16",
+   "significance": "town and region",
+   "ai_path": "no AI",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.cm-vrsa.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "VRSA closed schools and non-essential services for the 11 November alert",
+   "summary": "The council's notice for the national alert expected gusts of 120 km/h, over 150 km/h if a 'sting jet' formed, and restricted access to woods, the coast and flood-prone areas.",
+   "date": "2026-11-10",
+   "publisher": "Câmara Municipal de Vila Real de Santo António",
+   "url": "https://www.cm-vrsa.pt/pt/noticias/58391/mau-tempo-declarada-situacao-de-alerta-para-o-dia-11-de-novembro.aspx",
+   "read_on": "2026-11-16",
+   "significance": "town and country",
+   "ai_path": "no AI",
+   "steps": 0,
+   "blast_radius": "Castro Marim, Ayamonte",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.cm-vrsa.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "VRSA's schools took part in the national earthquake drill 'A Terra Treme' on 5 November",
+   "summary": "A seismic-risk drill promoted by the national civil protection authority, held at the Escola Secundária de VRSA and the EB 2,3 Infante D. Fernando in Vila Nova de Cacela, with an evacuation to test the schools' emergency plans.",
+   "date": "2026-11-06",
+   "publisher": "Câmara Municipal de Vila Real de Santo António",
+   "url": "https://www.cm-vrsa.pt/pt/noticias/58376/vila-real-de-santo-antonio-associou-se-ao-exercicio-nacional-a-terra-treme.aspx",
+   "read_on": "2026-11-16",
+   "significance": "town and country",
+   "ai_path": "no AI",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.cm-vrsa.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "VRSA closes its São Martinho market programme with a magusto on 14 November",
+   "summary": "Roasted chestnuts and jeropiga at the Mercado Municipal; the council says it wants to keep the markets active as neighbourhood spaces. The listing also shows a cross-border women entrepreneurs' meeting on 19 November, not opened.",
+   "date": "2026-11-14",
+   "publisher": "Câmara Municipal de Vila Real de Santo António",
+   "url": "https://www.cm-vrsa.pt/pt/noticias/68399/magusto-no-mercado-municipal-de-vila-real-de-santo-antonio.aspx",
+   "read_on": "2026-11-17",
+   "significance": "town",
+   "ai_path": "no AI",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.cm-vrsa.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "Eurocidade do Guadiana promotes a cross-border meeting of women entrepreneurs on 19 November",
+   "summary": "10:30 Spanish time at the Centro de Exposições e Congressos de Ayamonte, under the EURES Transfronteiriço Andaluzia-Algarve project: a leadership talk, business presentations and speed networking. The page does not say how to register.",
+   "date": "2026-11-16",
+   "publisher": "Câmara Municipal de Vila Real de Santo António",
+   "url": "https://www.cm-vrsa.pt/pt/noticias/68406/eurocidade-do-guadiana-promove-encontro-transfronteirico-de-mulheres-empreendedoras.aspx",
+   "read_on": "2026-11-17",
+   "significance": "town and neighbours",
+   "ai_path": "no AI",
+   "steps": 0,
+   "blast_radius": "Ayamonte (Spain), Castro Marim",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.cm-vrsa.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "VRSA opens an SNS 24 desk at its municipal health office",
+   "summary": "Staff at the Gabinete Municipal de Saúde guide residents through the national health digital services (booking, teleconsultation, results, prescriptions); a second phase would reach the Espaços Cidadão in VRSA, Monte Gordo and Vila Nova de Cacela. Teleconsultations stay at the main desk only.",
+   "date": "2026-11-17",
+   "publisher": "Município de Vila Real de Santo António",
+   "url": "https://www.cm-vrsa.pt/pt/noticias/68410/vila-real-de-santo-antonio-ja-disponibiliza-balcao-sns-24.aspx",
+   "read_on": "2026-11-18",
+   "significance": "town and neighbours",
+   "ai_path": "No AI: a digital public-service desk (national SNS 24 platform) run by council staff.",
+   "steps": 1,
+   "blast_radius": "Castro Marim and Alcoutim residents also use the VRSA services",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.cm-vrsa.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "VRSA's 24th Giant Nativity opens on 28 November with more than 6,000 figures",
+   "summary": "At the Centro Cultural António Aleixo until 6 January 2027: 240 m2 with LED lighting and recycled water, and a new piece referencing Ayamonte; entry 1 euro from age 4.",
+   "date": "2026-11-17",
+   "publisher": "Município de Vila Real de Santo António",
+   "url": "https://www.cm-vrsa.pt/pt/noticias/68414/presepio-gigante-de-vila-real-de-santo-antonio-volta-a-surpreender-com-mais-de-6000-figuras.aspx",
+   "read_on": "2026-11-18",
+   "significance": "town and neighbours",
+   "ai_path": "no AI",
+   "steps": 0,
+   "blast_radius": "Ayamonte, Castro Marim",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.cm-vrsa.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "The Escola Naval's RIO26 exercise on the Guadiana, 16 to 20 November",
+   "summary": "76 cadets and 45 military personnel: a river descent in rescue boats from Mértola to Alcoutim and a mass-rescue simulation near Vila Real de Santo António. For this town: the mass-rescue simulation is near Vila Real de Santo António.",
+   "date": "2026-11-17",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/escola-naval-leva-76-cadetes-ao-guadiana-para-exercicio-de-cinco-dias/",
+   "read_on": "2026-11-18",
+   "significance": "town and neighbours",
+   "ai_path": "no AI",
+   "steps": 0,
+   "blast_radius": "Mértola, Alcoutim, Vila Real de Santo António",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.barlavento.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "VRSA's fourth Youth Participatory Budget is in its voting phase until 13 December",
+   "summary": "People aged 12 to 35, resident or not, vote for one of four projects ('A moda começa aqui!', 'Anda daí, moh!', 'Nature Meals', 'Vilarealiza Teatro') through an online form; phase 6 of the programme. (body read)",
+   "date": "2026-11-17",
+   "publisher": "Município de Vila Real de Santo António",
+   "url": "https://www.cm-vrsa.pt/pt/noticias/68411/orcamento-participativo-jovem--votacoes-decorrem-ate-13-de-dezembro.aspx",
+   "read_on": "2026-11-19",
+   "significance": "town",
+   "ai_path": "no AI",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; none stated on the pages read)",
+    "url": "https://www.cm-vrsa.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Câmara Municipal de Vila Real de Santo António, general office",
+   "what": "The council's published general phone and email, shown at the foot of its news pages; the civil protection line is separate.",
+   "url": "https://www.cm-vrsa.pt/",
+   "source_url": "https://www.cm-vrsa.pt/pt/noticias/68392/campanha-natal-a-ganhar-regressa-para-apoiar-e-dinamizar-o-comercio-local-de-vila-real-de-santo-antonio.aspx",
+   "read_on": "2026-11-16",
+   "channel": "281 510 000; geral@cm-vrsa.pt; civil protection line 281 512 000"
+  }
+ ],
+ "latest_news": {
+  "read_at": "2026-11-26T02:33Z",
+  "by": "place.vila-real-de-santo-antonio@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
+  "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
+  "main_headline": {
+   "title": "Travessia de ciclismo desafia atletas a percorrer 340 quilómetros entre Tróia e Vila Real de Santo António",
+   "url": "https://postal.pt/europedirectalgarve/travessia-de-ciclismo-desafia-atletas-a-percorrer-340-quilometros-entre-troia-e-vila-real-de-santo-antonio/",
+   "source": "Postal do Algarve",
+   "date": "2026-11-25",
+   "read_at": "2026-11-26T02:28:26Z",
+   "names_place": true
+  },
+  "items": [
+   {
+    "title": "Travessia de ciclismo desafia atletas a percorrer 340 quilómetros entre Tróia e Vila Real de Santo António",
+    "url": "https://postal.pt/europedirectalgarve/travessia-de-ciclismo-desafia-atletas-a-percorrer-340-quilometros-entre-troia-e-vila-real-de-santo-antonio/",
+    "published": "2026-11-25T17:34Z",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/feed/",
+    "read_at": "2026-11-26T02:28:26Z",
+    "mentions_place": true,
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Vila Natal com mercados, concertos e teatro no centro de Vila Real de Santo António",
+    "url": "https://www.barlavento.pt/vila-natal-vila-real-santo-antonio-programa-2026/",
+    "published": "2026-11-25T10:34Z",
+    "source": "Barlavento",
+    "source_site": "https://www.barlavento.pt/",
+    "feed": "https://www.barlavento.pt/feed/",
+    "read_at": "2026-11-26T02:28:24Z",
+    "mentions_place": true,
+    "date": "2026-11-25"
+   }
+  ]
+ }
 }

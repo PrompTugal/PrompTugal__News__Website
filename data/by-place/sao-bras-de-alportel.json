@@ -1,502 +1,509 @@
 {
-  "$schema": "../schemas/by-place.schema.json",
-  "id": "sao-bras-de-alportel",
-  "name": "São Brás de Alportel",
-  "kind": "municipality",
-  "parent": "algarve",
-  "status": "live",
-  "updated": "2026-11-21",
-  "by": "place.sao-bras-de-alportel@PrompTugal.dinis",
-  "mandate": "PrompTugal.news São Brás de Alportel: AI and technology in São Brás de Alportel, a hill town of cork heritage, a costume museum and a municipal push to digitise, and what reaches São Brás de Alportel from the Algarve, Portugal and the world. Independent; every fact sourced.",
-  "gravity": {
-    "text": "São Brás de Alportel is a small inland municipality whose identity rests on heritage (the Museu do Traje, the cork industry and now Praça 1914, an outdoor industrial heritage space) and on a manufacturing base led by Globalfire, a fire-detection technology maker that is described as its largest employer and exporter. Its AI story is early and public-sector led: the council is a partner in the intermunicipal Algarve 6.0 smart territory project, runs a coworking space and an entrepreneur's office, and backs research at the University of Algarve.",
-    "sources": [
-      {
-        "title": "Município de São Brás de Alportel, official site",
-        "url": "https://www.cm-sbras.pt",
-        "read_on": "2026-11-15"
-      },
-      {
-        "title": "Município: Globalfire",
-        "url": "https://www.cm-sbras.pt/pt/24008/gobal-fire.aspx",
-        "read_on": "2026-11-15"
-      },
-      {
-        "title": "Município: Praça 1914 joins the Rede Portuguesa de Turismo Industrial",
-        "url": "https://www.cm-sbras.pt/pt/noticias/38244/praca-1914-integra-rede-portuguesa-de-turismo-industrial.aspx",
-        "read_on": "2026-11-15"
-      }
-    ]
-  },
-  "look": {
-    "accent": "#8A4B1F",
-    "landmark": "Museu do Traje",
-    "motif": "cork bark, serra hills, the Sintra algarvia road"
-  },
-  "ai_news": [
-    {
-      "title": "Regional development body visits São Brás schools, including a specialised informatics centre",
-      "summary": "The vice-president for education of CCDR Algarve toured the town's school network on 4 November 2026. The secondary school has a specialised technology centre in informatics, described as the first of its kind in the region. The mayor said a 6 million euro school expansion still awaits an answer on its recovery-plan application. The report does not mention AI.",
-      "date": "2026-11-16",
-      "publisher": "Município de São Brás de Alportel",
-      "url": "https://www.cm-sbras.pt/pt/noticias/48256/municipio-de-sao-bras-de-alportel-acolheu-visita-da-ccdr-algarve-ao-parque-escolar-do-concelho.aspx",
-      "read_on": "2026-11-16",
-      "significance": "town",
-      "blast": [
-        "faro",
-        "loule",
-        "olhao",
-        "tavira"
-      ],
-      "ai_path": "An informatics training centre is where local students would learn the skills AI work builds on. The council page does not say AI is taught.",
-      "steps": 3,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "robots.txt returned 404 (no rules) on 2026-11-19; no terms page found (only a privacy policy); no reuse sentence. Only a short own-words summary with the link is held here; rights@ to clear.",
-        "url": "https://www.cm-sbras.pt/",
-        "legal_page_url": "https://www.cm-sbras.pt/pt/menu/1135/politica-de-privacidade.aspx"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "Council forum puts a local IT firm and a medical-technology firm on stage",
-      "summary": "At the sixth Fórum Ideias de Negócios on 27 October 2026, two panels presented local businesses. Among them were InovaPrime, an information technology company, and Savvy Alpha, working in medical equipment and technology. The council says it will follow the presented projects through the year. The report does not mention AI.",
-      "date": "2026-11-02",
-      "publisher": "Município de São Brás de Alportel",
-      "url": "https://www.cm-sbras.pt/pt/noticias/38178/forum-ideias-de-negocios-deu-visibilidade-ao-empreendedorismo-sao-brasense.aspx",
-      "read_on": "2026-11-16",
-      "ai_path": "Local IT and medical-technology firms are the likeliest local adopters or builders of AI. The council names them but does not say they use AI.",
-      "steps": 3,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "robots.txt returned 404 (no rules) on 2026-11-19; no terms page found (only a privacy policy); no reuse sentence. Only a short own-words summary with the link is held here; rights@ to clear.",
-        "url": "https://www.cm-sbras.pt/",
-        "legal_page_url": "https://www.cm-sbras.pt/pt/menu/1135/politica-de-privacidade.aspx"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "Town hall and University of Algarve prepare a knowledge and innovation pact",
-      "summary": "The council and the University of Algarve met in April 2026 to widen their partnership into teaching, training and research, including school and business links through short higher-education courses. They agreed to work towards a pact in the coming months. The report does not mention AI.",
-      "date": "2026-04-29",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/?p=398233",
-      "read_on": "2026-11-15",
-      "ai_path": "A research and training pact with the university that runs AI work in the region could carry AI courses and projects into the town, but nothing in the report says it will.",
-      "steps": 3,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.barlavento.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "Algarve EduTalks in São Brás puts AI in education on the agenda",
-      "summary": "More than 150 people attended the 21 February 2026 conference on digital challenges in education, where digital safety, tech literacy and the use of artificial intelligence were among the topics.",
-      "date": "2026-03-02",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/?p=393395",
-      "read_on": "2026-11-15",
-      "ai_path": "AI use in schools was a named topic of a conference held in the town.",
-      "steps": 1,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.barlavento.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "Council joins the Algarve 6.0 smart territory project",
-      "summary": "São Brás de Alportel is a partner, with Olhão, Loulé, Tavira, Vila Real de Santo António and Alcoutim, in an intermunicipal project funded by the national recovery plan to set up an urban management platform and other digital tools. The report does not mention AI.",
-      "date": "2025-06-26",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/sao-bras-de-alportel-aposta-na-inovacao-tecnologica-e-modernizacao-de-servicos/",
-      "read_on": "2026-11-15",
-      "ai_path": "An urban management platform pools municipal data, which is the base any AI analytics would later run on.",
-      "steps": 2,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.barlavento.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "Digital Commerce Accelerator reaches local shops, restaurants and service firms",
-      "summary": "The Algarve business association's accelerator, funded by the recovery plan, presented itself to São Brás businesses at the town hall under a protocol with the council, with help applying for grants of up to 2,000 euros per company.",
-      "date": "2024-10-15",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/aceleradora-de-comercio-digital-do-algarve-apresenta-se-em-sao-bras-de-alportel/",
-      "read_on": "2026-11-15",
-      "ai_path": "Getting small firms online is the first step before they can use AI tools for sales and service. The report does not mention AI.",
-      "steps": 3,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.barlavento.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "Council backs an AI workshop at the University of Algarve",
-      "summary": "The council supported a March 2024 workshop on deep learning for food quality sensing, co-organised by the university's electronics research centre and a European research network, with nine international experts and about 40 participants.",
-      "date": "2024-04-08",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/sao-bras-de-alportel-apoia-workshop-de-inteligencia-artificial-na-ualg/",
-      "read_on": "2026-11-15",
-      "ai_path": "The workshop itself is about AI (deep learning), and the municipality funded part of it.",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.barlavento.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    }
-  ],
+ "$schema": "../schemas/by-place.schema.json",
+ "id": "sao-bras-de-alportel",
+ "name": "São Brás de Alportel",
+ "kind": "municipality",
+ "parent": "algarve",
+ "status": "live",
+ "updated": "2026-11-26",
+ "by": "place.sao-bras-de-alportel@PrompTugal.dinis",
+ "mandate": "PrompTugal.news São Brás de Alportel: AI and technology in São Brás de Alportel, a hill town of cork heritage, a costume museum and a municipal push to digitise, and what reaches São Brás de Alportel from the Algarve, Portugal and the world. Independent; every fact sourced.",
+ "gravity": {
+  "text": "São Brás de Alportel is a small inland municipality whose identity rests on heritage (the Museu do Traje, the cork industry and now Praça 1914, an outdoor industrial heritage space) and on a manufacturing base led by Globalfire, a fire-detection technology maker that is described as its largest employer and exporter. Its AI story is early and public-sector led: the council is a partner in the intermunicipal Algarve 6.0 smart territory project, runs a coworking space and an entrepreneur's office, and backs research at the University of Algarve.",
   "sources": [
-    {
-      "name": "Município de São Brás de Alportel, news",
-      "url": "https://www.cm-sbras.pt/pt/noticias-listagem.aspx",
-      "kind": "council",
-      "feed": null
-    },
-    {
-      "name": "Município de São Brás de Alportel, agenda",
-      "url": "https://www.cm-sbras.pt/pt/agenda.aspx",
-      "kind": "council",
-      "feed": null
-    },
-    {
-      "name": "Município: Gabinete do Empreendedor",
-      "url": "https://www.cm-sbras.pt/pt/menu/1038/gabinete-do-empreendedor.aspx",
-      "kind": "council",
-      "feed": null
-    },
-    {
-      "name": "Barlavento",
-      "url": "https://www.barlavento.pt",
-      "kind": "press",
-      "feed": null
-    },
-    {
-      "name": "Sul Informação",
-      "url": "https://www.sulinformacao.pt",
-      "kind": "press",
-      "feed": null
-    },
-    {
-      "name": "Postal do Algarve",
-      "url": "https://postal.pt",
-      "kind": "press",
-      "feed": null
-    },
-    {
-      "name": "Município: Espaços de Incubação",
-      "url": "https://www.cm-sbras.pt/pt/menu/1641/espacos-de-incubacao.aspx",
-      "kind": "council",
-      "feed": null
-    },
-    {
-      "name": "Município: Os nossos Empreendedores (local business showcase)",
-      "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx",
-      "kind": "council",
-      "feed": null
-    },
-    {
-      "name": "Município: São Brás ON, Rede Empresarial",
-      "url": "https://www.cm-sbras.pt/pt/menu/1710/sao-bras-on---rede-empresarial.aspx",
-      "kind": "council",
-      "feed": null
-    },
-    {
-      "name": "Algarve Daily News",
-      "url": "https://www.algarvedailynews.com/",
-      "kind": "local news (English); read 2026-11-17, front page, technology section and a Vilamoura article: no AI-linked local item"
-    },
-    {
-      "name": "Jornal do Algarve",
-      "url": "https://jornaldoalgarve.pt/",
-      "kind": "regional news; homepage 403, but the RSS feed opened (12 items, 16-17 Nov)",
-      "feed": "https://www.jornaldoalgarve.pt/feed/"
-    },
-    {
-      "name": "Jornal do Algarve RSS",
-      "url": "https://www.jornaldoalgarve.pt/feed/",
-      "kind": "press"
-    }
-  ],
-  "events": [
-    {
-      "title": "Sábados no Mercado, with a local entrepreneurship action (21 November 2026, Mercado Municipal)",
-      "date": "2026-11-21",
-      "url": "https://www.cm-sbras.pt/pt/agenda/38214/sabados-no-mercado.aspx",
-      "read_on": "2026-11-16",
-      "ai_path": null,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "robots.txt returned 404 (no rules) on 2026-11-19; no terms page found (only a privacy policy); no reuse sentence. Only a short own-words summary with the link is held here; rights@ to clear.",
-        "url": "https://www.cm-sbras.pt/",
-        "legal_page_url": "https://www.cm-sbras.pt/pt/menu/1135/politica-de-privacidade.aspx"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
-    },
-    {
-      "title": "VI Fórum Ideias de Negócios (held 27 October 2026, Cineteatro Jaime Pinto): local business panels incl. IT and medical technology",
-      "date": "2026-10-27",
-      "url": "https://www.cm-sbras.pt/pt/noticias/38178/forum-ideias-de-negocios-deu-visibilidade-ao-empreendedorismo-sao-brasense.aspx",
-      "read_on": "2026-11-16",
-      "ai_path": "Local IT and medical-technology firms presented, no AI mention (3 steps)",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "robots.txt returned 404 (no rules) on 2026-11-19; no terms page found (only a privacy policy); no reuse sentence. Only a short own-words summary with the link is held here; rights@ to clear.",
-        "url": "https://www.cm-sbras.pt/",
-        "legal_page_url": "https://www.cm-sbras.pt/pt/menu/1135/politica-de-privacidade.aspx"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
-    }
-  ],
-  "ai_map": [
-    {
-      "name": "Município de São Brás de Alportel",
-      "type": "public body",
-      "url": "https://www.cm-sbras.pt",
-      "what": "Local council, partner in the Algarve 6.0 smart territory project, supporter of University of Algarve research, host of the town's entrepreneurship programme.",
-      "source_url": "https://www.barlavento.pt/sao-bras-de-alportel-aposta-na-inovacao-tecnologica-e-modernizacao-de-servicos/",
-      "read_on": "2026-11-15",
-      "ai_path": "Runs the urban management platform data base and funded an AI workshop.",
-      "steps": 1
-    },
-    {
-      "name": "Algarve 6.0 Smart Territorial Hub (urban management platform)",
-      "type": "public body",
-      "url": "https://www.barlavento.pt/sao-bras-de-alportel-aposta-na-inovacao-tecnologica-e-modernizacao-de-servicos/",
-      "what": "Intermunicipal recovery-plan project with six Algarve councils to set up an urban management platform and digital tools.",
-      "source_url": "https://www.barlavento.pt/sao-bras-de-alportel-aposta-na-inovacao-tecnologica-e-modernizacao-de-servicos/",
-      "read_on": "2026-11-15",
-      "ai_path": "A municipal data platform is where AI analytics would run.",
-      "steps": 2
-    },
-    {
-      "name": "Espaço Coworking São Brás de Alportel",
-      "type": "organisation",
-      "url": "https://www.barlavento.pt/sao-bras-de-alportel-ja-tem-espaco-coworking-para-jovens/",
-      "what": "Municipal coworking space for young people opened in August 2020, with five workstations and a meeting room.",
-      "source_url": "https://www.barlavento.pt/sao-bras-de-alportel-ja-tem-espaco-coworking-para-jovens/",
-      "read_on": "2026-11-15",
-      "ai_path": "A seat where local founders could start tech projects. No AI use reported.",
-      "steps": 3
-    },
-    {
-      "name": "Digital Commerce Accelerator, local actions in São Brás",
-      "type": "public body",
-      "url": "https://www.barlavento.pt/aceleradora-de-comercio-digital-do-algarve-apresenta-se-em-sao-bras-de-alportel/",
-      "what": "Recovery-plan programme led by the Algarve business association, run locally under a protocol with the council.",
-      "source_url": "https://www.barlavento.pt/aceleradora-de-comercio-digital-do-algarve-apresenta-se-em-sao-bras-de-alportel/",
-      "read_on": "2026-11-15",
-      "ai_path": "Digitising small firms is the step before they adopt AI tools.",
-      "steps": 3
-    },
-    {
-      "name": "Ninho de Empreendedorismo da Vila",
-      "type": "organisation",
-      "url": "https://www.cm-sbras.pt/pt/menu/1641/espacos-de-incubacao.aspx",
-      "what": "Municipal incubation space in the village square, with one individual office, three coworking desks, two spaces for digital nomads and a meeting room.",
-      "source_url": "https://www.cm-sbras.pt/pt/menu/1641/espacos-de-incubacao.aspx",
-      "read_on": "2026-11-15",
-      "ai_path": "A shared workplace where remote tech workers and local founders could build with AI. No AI use reported.",
-      "steps": 3
-    },
-    {
-      "name": "Ninho de Empreendedorismo 4 Olhos",
-      "type": "organisation",
-      "url": "https://www.cm-sbras.pt/pt/menu/1641/espacos-de-incubacao.aspx",
-      "what": "Second municipal Ninho listed on the council's incubation page, supporting local founders with a space and resources.",
-      "source_url": "https://www.cm-sbras.pt/pt/menu/1641/espacos-de-incubacao.aspx",
-      "read_on": "2026-11-15",
-      "ai_path": "An incubator where AI-using startups could start. No AI use reported.",
-      "steps": 3
-    },
-    {
-      "name": "We Stream Algarve",
-      "type": "company",
-      "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx",
-      "what": "Local business on the council's 'Os nossos Empreendedores' page (page 3 of 4), listed together with Substância3D as 3D and streaming services, described there in terms of technology, communication, online work and digital solutions.",
-      "source_url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=3",
-      "read_on": "2026-11-15",
-      "ai_path": "3D and streaming are digital media services where AI tools for video and imaging are common. The page does not mention AI, so this is a lead to check, not an AI claim.",
-      "steps": 3
-    },
-    {
-      "name": "Substância3D",
-      "type": "company",
-      "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=3",
-      "what": "Local 3D services business listed with We Stream Algarve on the council's entrepreneur showcase.",
-      "source_url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=3",
-      "read_on": "2026-11-16",
-      "ai_path": "3D content work is a field where AI generation tools are used. The page does not mention AI, so this is a lead to check.",
-      "steps": 3
-    },
-    {
-      "name": "Peanuts",
-      "type": "company",
-      "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=4",
-      "what": "Local marketing and digital content project on the council's entrepreneur showcase (page 4 of 4).",
-      "source_url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=4",
-      "read_on": "2026-11-16",
-      "ai_path": "Digital marketing and content work is where AI writing and image tools are adopted first. The page does not mention AI, so this is a lead to check.",
-      "steps": 3
-    },
-    {
-      "name": "InovaPrime",
-      "type": "company",
-      "url": "https://www.cm-sbras.pt/pt/noticias/38178/forum-ideias-de-negocios-deu-visibilidade-ao-empreendedorismo-sao-brasense.aspx",
-      "what": "Local information technology company that presented its activity at the council's sixth business ideas forum on 27 October 2026.",
-      "source_url": "https://www.cm-sbras.pt/pt/noticias/38178/forum-ideias-de-negocios-deu-visibilidade-ao-empreendedorismo-sao-brasense.aspx",
-      "read_on": "2026-11-16",
-      "ai_path": "An IT company is a natural place for AI services to be built or resold. The council page gives no product detail and does not mention AI, so this is a lead to check.",
-      "steps": 3
-    },
-    {
-      "name": "Savvy Alpha",
-      "type": "company",
-      "url": "https://www.cm-sbras.pt/pt/noticias/38178/forum-ideias-de-negocios-deu-visibilidade-ao-empreendedorismo-sao-brasense.aspx",
-      "what": "Local business in medical equipment and technology, presented at the council's sixth business ideas forum on 27 October 2026.",
-      "source_url": "https://www.cm-sbras.pt/pt/noticias/38178/forum-ideias-de-negocios-deu-visibilidade-ao-empreendedorismo-sao-brasense.aspx",
-      "read_on": "2026-11-16",
-      "ai_path": "Medical technology is a field where AI is common. The council page gives no product detail and does not mention AI, so this is a lead to check.",
-      "steps": 3
-    },
-    {
-      "name": "Informatics specialised technology centre, Escola Secundária José Belchior Viegas",
-      "type": "organisation",
-      "url": "https://www.cm-sbras.pt/pt/noticias/48256/municipio-de-sao-bras-de-alportel-acolheu-visita-da-ccdr-algarve-ao-parque-escolar-do-concelho.aspx",
-      "what": "School centre in informatics, described by the council as the first of its kind in the region.",
-      "source_url": "https://www.cm-sbras.pt/pt/noticias/48256/municipio-de-sao-bras-de-alportel-acolheu-visita-da-ccdr-algarve-ao-parque-escolar-do-concelho.aspx",
-      "read_on": "2026-11-16",
-      "ai_path": "Trains local students in computing, the base for AI skills. No AI teaching reported.",
-      "steps": 3
-    }
-  ],
-  "extras": [
-    {
-      "label": "Largest employer and exporter (not AI)",
-      "value": "Globalfire makes fire-detection technology in the Barracha industrial zone and exports to about 90 countries. The council page does not mention software or AI, so it is context, not an AI map entry.",
-      "source_url": "https://www.cm-sbras.pt/pt/24008/gobal-fire.aspx",
-      "read_on": "2026-11-15"
-    },
-    {
-      "label": "Praça 1914",
-      "value": "Joined the Rede Portuguesa de Turismo Industrial on 10 November 2026 (council news), described as the first outdoor site of the network on the mainland.",
-      "source_url": "https://www.cm-sbras.pt/pt/noticias/38244/praca-1914-integra-rede-portuguesa-de-turismo-industrial.aspx",
-      "read_on": "2026-11-15"
-    },
-    {
-      "label": "São Brás ON",
-      "value": "The council's monthly feature on local business projects, run by the entrepreneurship office and published in both local newspapers. The page names no members and no AI focus.",
-      "source_url": "https://www.cm-sbras.pt/pt/menu/1710/sao-bras-on---rede-empresarial.aspx",
-      "read_on": "2026-11-15"
-    },
-    {
-      "label": "Storm Charles, 11 November 2026",
-      "value": "21 incidents, mostly minor flooding and wall falls, coordinated from an operations centre. The council's account names no digital warning system or data platform, and mentions technology only in that the civil protection commission met in hybrid format.",
-      "source_url": "https://www.cm-sbras.pt/pt/noticias/48250/tempestade-charles-testou-capacidade-de-prevencao-e-resposta-de-sao-bras-de-alportel.aspx",
-      "read_on": "2026-11-15"
-    },
-    {
-      "label": "First year of the council's mandate",
-      "value": "The 2 November 2026 balance lists health, housing, education, safety and economic development as priorities, with a business park among the works. It does not mention digital, smart territory or AI.",
-      "source_url": "https://www.cm-sbras.pt/pt/noticias/38236/executivo-municipal-de-sao-bras-de-alportel-apresenta-balanco-do-1-ano-de-mandato.aspx",
-      "read_on": "2026-11-15"
-    },
-    {
-      "label": "Starting a company here: first stop",
-      "value": "The council's Gabinete do Empreendedor receives founders and investors, clarifies the legal requirements, refers them to specialised partners (IAPMEI for small and medium firms, CRIA and microcredit agencies for founders, ACRAL for commerce, AHISA for hotels and restaurants, IN LOCO for artisans and local producers), helps publicise and reach financing programmes, follows the firm through municipal procedures and runs training sessions. The page sets out no step-by-step procedure. Its contact channel is on the same council page.",
-      "source_url": "https://www.cm-sbras.pt/pt/menu/1523/o-que-e-o-gabinete-do-empreendedor.aspx",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Starting a company here: where to work",
-      "value": "Three municipal incubation spaces: a coworking space for young entrepreneurs, Ninho de Empreendedorismo 4 Olhos, and Ninho de Empreendedorismo da Vila (one office, three coworking desks, two spaces for digital nomads, a meeting room).",
-      "source_url": "https://www.cm-sbras.pt/pt/menu/1641/espacos-de-incubacao.aspx",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Starting a company here: grants and events",
-      "value": "The Digital Commerce Accelerator offers help with applications for a non-repayable grant of up to 2,000 euros per company for shops, services and restaurants. The council's Fórum Ideias de Negócio is its yearly meeting point for new ideas and support services. The council lists three support measures (local businesses, entrepreneurship, employability) whose subpages have not been read.",
-      "source_url": "https://www.barlavento.pt/aceleradora-de-comercio-digital-do-algarve-apresenta-se-em-sao-bras-de-alportel/",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Nearest weather data",
-      "value": "Per the conductor's IPMA map (board/briefs/2026-11-16-storm-local-map.json), the nearest IPMA station is Olhão EPPO at about 15 km and the nearest forecast place is Loulé at about 12 km, so the town has no station of its own.",
-      "source_url": "https://api.ipma.pt/open-data/",
-      "read_on": "2026-11-16"
-    }
-  ],
-  "identity": {
-    "key_id": "site.sao-bras-de-alportel-promptugal",
-    "signed_by": "place.sao-bras-de-alportel@PrompTugal.dinis"
-  },
-  "gaps": [
-    "Third read of the council's entrepreneur showcase (all four pages): the clearly digital local businesses are We Stream Algarve, Substância3D (3D and streaming) and Peanuts (marketing and digital content). None mentions AI, so they are listed as leads at three steps, not as AI companies. Still no AI company, startup or lab found, and the commercial registry has not been read.",
-    "Lead firms: searches on 16 November 2026 for InovaPrime, Savvy Alpha and Aplitec (named on the council's forum page) found no website, product page or description we could read, so none can be called an AI user or builder. The next sources are the business registry and the firms' own pages if they exist.",
-    "The council's site shows no mention of AI in its front-page news and has no RSS feed we could find, so its news must be read page by page.",
-    "Postal do Algarve and Sul Informação blocked our automated reading with a bot check or an error, so their São Brás stories are not used here until they can be read openly. The pages with a bot challenge were skipped on purpose.",
-    "Sources to find next: the University of Algarve's electronics research centre for any town link, the business association for local digital firms, and the Algarve 6.0 platform's supplier and timetable.",
-    "The council's own November 2026 news (the first-year balance, Storm Charles, Praça 1914) never mentions AI or the Algarve 6.0 platform, so the municipal AI story is told by regional press, not by the council.",
-    "Investment map and local talent: no investor, investment or startup founded in the town is documented in the sources read. Local talent who have spoken publicly is not listed, because no public speaker profile has been found and the agent does not name private individuals.",
-    "The council's three support-measure subpages and the Via Verde para o desenvolvimento page returned no detail to our reader, so grants and fee waivers for investors are not stated.",
-    "Events: the whole council agenda (five pages, 15 November to 5 December 2026) is now read. It lists markets, concerts, reading clubs, sports, nature walks and film sessions, with one local entrepreneurship action at the Saturday market, and nothing about AI or technology.",
-    "Algarve 6.0 platform: a search listing points to a January 2026 EU tender by the Algarve intermunicipal body for a leased urban management platform, worth roughly 356,000 euros before VAT. We could not open the notice, so this is an unconfirmed lead. No supplier, award or timetable is known, and the project page on the national transparency portal returned an error.",
-    "InvestAlgarve: search listings say the regional investment support network opened a service point in São Brás de Alportel in November 2016, but we could not open those pages and found nothing newer. It is not known whether it still operates, so it is not on the map. The council's Gabinete do Empreendedor is the current first stop.",
-    "Council news list of 16 November 2026 (six items: boccia award, CCDR school visit, Storm Charles, EM 523 road, Praça 1914, scholarships) was read; only the school visit has a technology angle, none mentions AI.",
-    "The scholarship notice (6 November 2026) prioritises health students and does not mention technology or AI.",
-    "A search for AI news in the town in November 2026 found nothing new; results were the already-recorded EduTalks, Algarve 6.0 and University workshop stories.",
-    "A Postal do Algarve piece on Algarve digital and smart villages appeared in search but was not opened, so it is not used.",
-    "cm-sbras.pt news read: no new AI items beyond those present.",
-    "cm-sbras.pt news 12-16 Nov (bocce, CCDR visit, storm, EM 523) has no AI or digital items beyond what is already present.",
-    "17 Nov recheck of Barlavento, Postal Algarve, Algarve Primeiro and ualg.pt: nothing new with an AI link for this town.",
-    "17 Nov (recheck 5): council news list read (six items, 6 to 16 Nov, none on AI or digital). Algarve Primeiro homepage had only a boccia item. Nothing new.",
-    "Sul Informação (sulinformacao.pt): homepage, tag page and feed all returned 403 on 2026-11-17; skipped.",
-    "Jornal do Algarve (jornaldoalgarve.pt): homepage and search returned 403 on 2026-11-17; only the RSS feed opened and held no new AI-linked item for this town.",
-    "São Brás parish site (jf-saobras.pt and variants) refused the connection (proxy 502); not read. Jornal do Algarve feed on 17 Nov has a São Brás accordion festival item with no AI link.",
-    "cm-sbras.pt news opened 2026-11-18: latest items (12-16 Nov) are boccia, CCDR school visit (already held), storm Charles, EM 523 road; nothing new on AI or technology.",
-    "18 Nov: no Sao Bras item on any homepage opened; nothing new.",
-    "18 Nov: cm-sbras.pt/pt/noticias.aspx returned 404; searches found nothing new.",
-    "cm-sbras.pt news listing opened: six November items, none on AI or digital.",
-    "WebSearch: nothing new.",
-    "Council news page not opened; no new item found elsewhere.",
-    "cm-sbras.pt/pt/noticias-listagem.aspx opened: page 1 of 5, 6 items, newest 2026-11-16; nothing AI beyond items already in the file.",
-    "Opened cm-sbras.pt/pt/noticias-listagem.aspx page 1 of 5: 6 items, newest 16 Nov, none AI; CCDR visit already in file. Other pages not seen.",
-    "cm-sbras.pt listing 6-16 Nov: nothing with AI; the 16 Nov CCDR item already in file",
-    "Opened cm-sbras.pt/pt/noticias-listagem.aspx page 1: 6 items, newest 2026-11-16; none new with AI link (the 16 Nov CCDR item already in file). robots.txt 404 (no restrictions stated).",
-    "robots.txt returns 404 (no rules). /pt/noticias-listagem.aspx page 1: 6 items, newest 16 Nov 2026; none AI; the 16 Nov CCDR visit is already in file. Pages 2-5 not opened. No agenda opened.",
-    "www.cm-sbras.pt could not open: connection reset by peer on TLS handshake from this environment (robots.txt not readable, so nothing was read)."
-  ],
-  "voice": {
-    "lede": "Cork, costumes and a quiet pinch of artificial intelligence, aqui na serra, com calma.",
-    "mandate": "PrompTugal.news São Brás de Alportel: AI and technology from the serra, where the cork was king and the costume museum still holds court. Independent, ó pá, and every fact sourced.",
-    "gravity": "São Brás is a small town up in the hills that lives on heritage, from the Museu do Traje to cork and now Praça 1914, with Globalfire, a fire-detection maker, as its biggest employer and exporter. The AI chapter is still being written, and the câmara is holding the pen: a smart territory project with its neighbours, a coworking desk, an entrepreneur's office and a hand for the university.",
-    "gaps_intro": "Pois, there is no AI company here yet that we could find, and we say so straight. Here is what is missing, devagar, devagarinho."
-  },
-  "contacts": [
-    {
-      "name": "Município de São Brás de Alportel, general contacts",
-      "what": "Official council channels printed on the council's scholarship notice (general office and municipal services).",
-      "url": "https://www.cm-sbras.pt/pt/noticias/38239/ensino-superior--municipio-abre-candidaturas-a-bolsas-de-estudo.aspx",
-      "read_on": "2026-11-16",
-      "channel": "Phone 289 840 000; email (the council's general email, printed on the linked page); Rua Gago Coutinho 1, 8150-151 São Brás de Alportel",
-      "source_url": "https://www.cm-sbras.pt/pt/noticias/38239/ensino-superior--municipio-abre-candidaturas-a-bolsas-de-estudo.aspx"
-    }
+   {
+    "title": "Município de São Brás de Alportel, official site",
+    "url": "https://www.cm-sbras.pt",
+    "read_on": "2026-11-15"
+   },
+   {
+    "title": "Município: Globalfire",
+    "url": "https://www.cm-sbras.pt/pt/24008/gobal-fire.aspx",
+    "read_on": "2026-11-15"
+   },
+   {
+    "title": "Município: Praça 1914 joins the Rede Portuguesa de Turismo Industrial",
+    "url": "https://www.cm-sbras.pt/pt/noticias/38244/praca-1914-integra-rede-portuguesa-de-turismo-industrial.aspx",
+    "read_on": "2026-11-15"
+   }
   ]
+ },
+ "look": {
+  "accent": "#8A4B1F",
+  "landmark": "Museu do Traje",
+  "motif": "cork bark, serra hills, the Sintra algarvia road"
+ },
+ "ai_news": [
+  {
+   "title": "Regional development body visits São Brás schools, including a specialised informatics centre",
+   "summary": "The vice-president for education of CCDR Algarve toured the town's school network on 4 November 2026. The secondary school has a specialised technology centre in informatics, described as the first of its kind in the region. The mayor said a 6 million euro school expansion still awaits an answer on its recovery-plan application. The report does not mention AI.",
+   "date": "2026-11-16",
+   "publisher": "Município de São Brás de Alportel",
+   "url": "https://www.cm-sbras.pt/pt/noticias/48256/municipio-de-sao-bras-de-alportel-acolheu-visita-da-ccdr-algarve-ao-parque-escolar-do-concelho.aspx",
+   "read_on": "2026-11-16",
+   "significance": "town",
+   "blast": [
+    "faro",
+    "loule",
+    "olhao",
+    "tavira"
+   ],
+   "ai_path": "An informatics training centre is where local students would learn the skills AI work builds on. The council page does not say AI is taught.",
+   "steps": 3,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "robots.txt returned 404 (no rules) on 2026-11-19; no terms page found (only a privacy policy); no reuse sentence. Only a short own-words summary with the link is held here; rights@ to clear.",
+    "url": "https://www.cm-sbras.pt/",
+    "legal_page_url": "https://www.cm-sbras.pt/pt/menu/1135/politica-de-privacidade.aspx"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "Council forum puts a local IT firm and a medical-technology firm on stage",
+   "summary": "At the sixth Fórum Ideias de Negócios on 27 October 2026, two panels presented local businesses. Among them were InovaPrime, an information technology company, and Savvy Alpha, working in medical equipment and technology. The council says it will follow the presented projects through the year. The report does not mention AI.",
+   "date": "2026-11-02",
+   "publisher": "Município de São Brás de Alportel",
+   "url": "https://www.cm-sbras.pt/pt/noticias/38178/forum-ideias-de-negocios-deu-visibilidade-ao-empreendedorismo-sao-brasense.aspx",
+   "read_on": "2026-11-16",
+   "ai_path": "Local IT and medical-technology firms are the likeliest local adopters or builders of AI. The council names them but does not say they use AI.",
+   "steps": 3,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "robots.txt returned 404 (no rules) on 2026-11-19; no terms page found (only a privacy policy); no reuse sentence. Only a short own-words summary with the link is held here; rights@ to clear.",
+    "url": "https://www.cm-sbras.pt/",
+    "legal_page_url": "https://www.cm-sbras.pt/pt/menu/1135/politica-de-privacidade.aspx"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "Town hall and University of Algarve prepare a knowledge and innovation pact",
+   "summary": "The council and the University of Algarve met in April 2026 to widen their partnership into teaching, training and research, including school and business links through short higher-education courses. They agreed to work towards a pact in the coming months. The report does not mention AI.",
+   "date": "2026-04-29",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/?p=398233",
+   "read_on": "2026-11-15",
+   "ai_path": "A research and training pact with the university that runs AI work in the region could carry AI courses and projects into the town, but nothing in the report says it will.",
+   "steps": 3,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.barlavento.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "Algarve EduTalks in São Brás puts AI in education on the agenda",
+   "summary": "More than 150 people attended the 21 February 2026 conference on digital challenges in education, where digital safety, tech literacy and the use of artificial intelligence were among the topics.",
+   "date": "2026-03-02",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/?p=393395",
+   "read_on": "2026-11-15",
+   "ai_path": "AI use in schools was a named topic of a conference held in the town.",
+   "steps": 1,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.barlavento.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "Council joins the Algarve 6.0 smart territory project",
+   "summary": "São Brás de Alportel is a partner, with Olhão, Loulé, Tavira, Vila Real de Santo António and Alcoutim, in an intermunicipal project funded by the national recovery plan to set up an urban management platform and other digital tools. The report does not mention AI.",
+   "date": "2025-06-26",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/sao-bras-de-alportel-aposta-na-inovacao-tecnologica-e-modernizacao-de-servicos/",
+   "read_on": "2026-11-15",
+   "ai_path": "An urban management platform pools municipal data, which is the base any AI analytics would later run on.",
+   "steps": 2,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.barlavento.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "Digital Commerce Accelerator reaches local shops, restaurants and service firms",
+   "summary": "The Algarve business association's accelerator, funded by the recovery plan, presented itself to São Brás businesses at the town hall under a protocol with the council, with help applying for grants of up to 2,000 euros per company.",
+   "date": "2024-10-15",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/aceleradora-de-comercio-digital-do-algarve-apresenta-se-em-sao-bras-de-alportel/",
+   "read_on": "2026-11-15",
+   "ai_path": "Getting small firms online is the first step before they can use AI tools for sales and service. The report does not mention AI.",
+   "steps": 3,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.barlavento.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "Council backs an AI workshop at the University of Algarve",
+   "summary": "The council supported a March 2024 workshop on deep learning for food quality sensing, co-organised by the university's electronics research centre and a European research network, with nine international experts and about 40 participants.",
+   "date": "2024-04-08",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/sao-bras-de-alportel-apoia-workshop-de-inteligencia-artificial-na-ualg/",
+   "read_on": "2026-11-15",
+   "ai_path": "The workshop itself is about AI (deep learning), and the municipality funded part of it.",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.barlavento.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Município de São Brás de Alportel, news",
+   "url": "https://www.cm-sbras.pt/pt/noticias-listagem.aspx",
+   "kind": "council",
+   "feed": null
+  },
+  {
+   "name": "Município de São Brás de Alportel, agenda",
+   "url": "https://www.cm-sbras.pt/pt/agenda.aspx",
+   "kind": "council",
+   "feed": null
+  },
+  {
+   "name": "Município: Gabinete do Empreendedor",
+   "url": "https://www.cm-sbras.pt/pt/menu/1038/gabinete-do-empreendedor.aspx",
+   "kind": "council",
+   "feed": null
+  },
+  {
+   "name": "Barlavento",
+   "url": "https://www.barlavento.pt",
+   "kind": "press",
+   "feed": null
+  },
+  {
+   "name": "Sul Informação",
+   "url": "https://www.sulinformacao.pt",
+   "kind": "press",
+   "feed": null
+  },
+  {
+   "name": "Postal do Algarve",
+   "url": "https://postal.pt",
+   "kind": "press",
+   "feed": null
+  },
+  {
+   "name": "Município: Espaços de Incubação",
+   "url": "https://www.cm-sbras.pt/pt/menu/1641/espacos-de-incubacao.aspx",
+   "kind": "council",
+   "feed": null
+  },
+  {
+   "name": "Município: Os nossos Empreendedores (local business showcase)",
+   "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx",
+   "kind": "council",
+   "feed": null
+  },
+  {
+   "name": "Município: São Brás ON, Rede Empresarial",
+   "url": "https://www.cm-sbras.pt/pt/menu/1710/sao-bras-on---rede-empresarial.aspx",
+   "kind": "council",
+   "feed": null
+  },
+  {
+   "name": "Algarve Daily News",
+   "url": "https://www.algarvedailynews.com/",
+   "kind": "local news (English); read 2026-11-17, front page, technology section and a Vilamoura article: no AI-linked local item"
+  },
+  {
+   "name": "Jornal do Algarve",
+   "url": "https://jornaldoalgarve.pt/",
+   "kind": "regional news; homepage 403, but the RSS feed opened (12 items, 16-17 Nov)",
+   "feed": "https://www.jornaldoalgarve.pt/feed/"
+  },
+  {
+   "name": "Jornal do Algarve RSS",
+   "url": "https://www.jornaldoalgarve.pt/feed/",
+   "kind": "press"
+  }
+ ],
+ "events": [
+  {
+   "title": "Sábados no Mercado, with a local entrepreneurship action (21 November 2026, Mercado Municipal)",
+   "date": "2026-11-21",
+   "url": "https://www.cm-sbras.pt/pt/agenda/38214/sabados-no-mercado.aspx",
+   "read_on": "2026-11-16",
+   "ai_path": null,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "robots.txt returned 404 (no rules) on 2026-11-19; no terms page found (only a privacy policy); no reuse sentence. Only a short own-words summary with the link is held here; rights@ to clear.",
+    "url": "https://www.cm-sbras.pt/",
+    "legal_page_url": "https://www.cm-sbras.pt/pt/menu/1135/politica-de-privacidade.aspx"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
+  },
+  {
+   "title": "VI Fórum Ideias de Negócios (held 27 October 2026, Cineteatro Jaime Pinto): local business panels incl. IT and medical technology",
+   "date": "2026-10-27",
+   "url": "https://www.cm-sbras.pt/pt/noticias/38178/forum-ideias-de-negocios-deu-visibilidade-ao-empreendedorismo-sao-brasense.aspx",
+   "read_on": "2026-11-16",
+   "ai_path": "Local IT and medical-technology firms presented, no AI mention (3 steps)",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "robots.txt returned 404 (no rules) on 2026-11-19; no terms page found (only a privacy policy); no reuse sentence. Only a short own-words summary with the link is held here; rights@ to clear.",
+    "url": "https://www.cm-sbras.pt/",
+    "legal_page_url": "https://www.cm-sbras.pt/pt/menu/1135/politica-de-privacidade.aspx"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
+  }
+ ],
+ "ai_map": [
+  {
+   "name": "Município de São Brás de Alportel",
+   "type": "public body",
+   "url": "https://www.cm-sbras.pt",
+   "what": "Local council, partner in the Algarve 6.0 smart territory project, supporter of University of Algarve research, host of the town's entrepreneurship programme.",
+   "source_url": "https://www.barlavento.pt/sao-bras-de-alportel-aposta-na-inovacao-tecnologica-e-modernizacao-de-servicos/",
+   "read_on": "2026-11-15",
+   "ai_path": "Runs the urban management platform data base and funded an AI workshop.",
+   "steps": 1
+  },
+  {
+   "name": "Algarve 6.0 Smart Territorial Hub (urban management platform)",
+   "type": "public body",
+   "url": "https://www.barlavento.pt/sao-bras-de-alportel-aposta-na-inovacao-tecnologica-e-modernizacao-de-servicos/",
+   "what": "Intermunicipal recovery-plan project with six Algarve councils to set up an urban management platform and digital tools.",
+   "source_url": "https://www.barlavento.pt/sao-bras-de-alportel-aposta-na-inovacao-tecnologica-e-modernizacao-de-servicos/",
+   "read_on": "2026-11-15",
+   "ai_path": "A municipal data platform is where AI analytics would run.",
+   "steps": 2
+  },
+  {
+   "name": "Espaço Coworking São Brás de Alportel",
+   "type": "organisation",
+   "url": "https://www.barlavento.pt/sao-bras-de-alportel-ja-tem-espaco-coworking-para-jovens/",
+   "what": "Municipal coworking space for young people opened in August 2020, with five workstations and a meeting room.",
+   "source_url": "https://www.barlavento.pt/sao-bras-de-alportel-ja-tem-espaco-coworking-para-jovens/",
+   "read_on": "2026-11-15",
+   "ai_path": "A seat where local founders could start tech projects. No AI use reported.",
+   "steps": 3
+  },
+  {
+   "name": "Digital Commerce Accelerator, local actions in São Brás",
+   "type": "public body",
+   "url": "https://www.barlavento.pt/aceleradora-de-comercio-digital-do-algarve-apresenta-se-em-sao-bras-de-alportel/",
+   "what": "Recovery-plan programme led by the Algarve business association, run locally under a protocol with the council.",
+   "source_url": "https://www.barlavento.pt/aceleradora-de-comercio-digital-do-algarve-apresenta-se-em-sao-bras-de-alportel/",
+   "read_on": "2026-11-15",
+   "ai_path": "Digitising small firms is the step before they adopt AI tools.",
+   "steps": 3
+  },
+  {
+   "name": "Ninho de Empreendedorismo da Vila",
+   "type": "organisation",
+   "url": "https://www.cm-sbras.pt/pt/menu/1641/espacos-de-incubacao.aspx",
+   "what": "Municipal incubation space in the village square, with one individual office, three coworking desks, two spaces for digital nomads and a meeting room.",
+   "source_url": "https://www.cm-sbras.pt/pt/menu/1641/espacos-de-incubacao.aspx",
+   "read_on": "2026-11-15",
+   "ai_path": "A shared workplace where remote tech workers and local founders could build with AI. No AI use reported.",
+   "steps": 3
+  },
+  {
+   "name": "Ninho de Empreendedorismo 4 Olhos",
+   "type": "organisation",
+   "url": "https://www.cm-sbras.pt/pt/menu/1641/espacos-de-incubacao.aspx",
+   "what": "Second municipal Ninho listed on the council's incubation page, supporting local founders with a space and resources.",
+   "source_url": "https://www.cm-sbras.pt/pt/menu/1641/espacos-de-incubacao.aspx",
+   "read_on": "2026-11-15",
+   "ai_path": "An incubator where AI-using startups could start. No AI use reported.",
+   "steps": 3
+  },
+  {
+   "name": "We Stream Algarve",
+   "type": "company",
+   "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx",
+   "what": "Local business on the council's 'Os nossos Empreendedores' page (page 3 of 4), listed together with Substância3D as 3D and streaming services, described there in terms of technology, communication, online work and digital solutions.",
+   "source_url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=3",
+   "read_on": "2026-11-15",
+   "ai_path": "3D and streaming are digital media services where AI tools for video and imaging are common. The page does not mention AI, so this is a lead to check, not an AI claim.",
+   "steps": 3
+  },
+  {
+   "name": "Substância3D",
+   "type": "company",
+   "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=3",
+   "what": "Local 3D services business listed with We Stream Algarve on the council's entrepreneur showcase.",
+   "source_url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=3",
+   "read_on": "2026-11-16",
+   "ai_path": "3D content work is a field where AI generation tools are used. The page does not mention AI, so this is a lead to check.",
+   "steps": 3
+  },
+  {
+   "name": "Peanuts",
+   "type": "company",
+   "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=4",
+   "what": "Local marketing and digital content project on the council's entrepreneur showcase (page 4 of 4).",
+   "source_url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=4",
+   "read_on": "2026-11-16",
+   "ai_path": "Digital marketing and content work is where AI writing and image tools are adopted first. The page does not mention AI, so this is a lead to check.",
+   "steps": 3
+  },
+  {
+   "name": "InovaPrime",
+   "type": "company",
+   "url": "https://www.cm-sbras.pt/pt/noticias/38178/forum-ideias-de-negocios-deu-visibilidade-ao-empreendedorismo-sao-brasense.aspx",
+   "what": "Local information technology company that presented its activity at the council's sixth business ideas forum on 27 October 2026.",
+   "source_url": "https://www.cm-sbras.pt/pt/noticias/38178/forum-ideias-de-negocios-deu-visibilidade-ao-empreendedorismo-sao-brasense.aspx",
+   "read_on": "2026-11-16",
+   "ai_path": "An IT company is a natural place for AI services to be built or resold. The council page gives no product detail and does not mention AI, so this is a lead to check.",
+   "steps": 3
+  },
+  {
+   "name": "Savvy Alpha",
+   "type": "company",
+   "url": "https://www.cm-sbras.pt/pt/noticias/38178/forum-ideias-de-negocios-deu-visibilidade-ao-empreendedorismo-sao-brasense.aspx",
+   "what": "Local business in medical equipment and technology, presented at the council's sixth business ideas forum on 27 October 2026.",
+   "source_url": "https://www.cm-sbras.pt/pt/noticias/38178/forum-ideias-de-negocios-deu-visibilidade-ao-empreendedorismo-sao-brasense.aspx",
+   "read_on": "2026-11-16",
+   "ai_path": "Medical technology is a field where AI is common. The council page gives no product detail and does not mention AI, so this is a lead to check.",
+   "steps": 3
+  },
+  {
+   "name": "Informatics specialised technology centre, Escola Secundária José Belchior Viegas",
+   "type": "organisation",
+   "url": "https://www.cm-sbras.pt/pt/noticias/48256/municipio-de-sao-bras-de-alportel-acolheu-visita-da-ccdr-algarve-ao-parque-escolar-do-concelho.aspx",
+   "what": "School centre in informatics, described by the council as the first of its kind in the region.",
+   "source_url": "https://www.cm-sbras.pt/pt/noticias/48256/municipio-de-sao-bras-de-alportel-acolheu-visita-da-ccdr-algarve-ao-parque-escolar-do-concelho.aspx",
+   "read_on": "2026-11-16",
+   "ai_path": "Trains local students in computing, the base for AI skills. No AI teaching reported.",
+   "steps": 3
+  }
+ ],
+ "extras": [
+  {
+   "label": "Largest employer and exporter (not AI)",
+   "value": "Globalfire makes fire-detection technology in the Barracha industrial zone and exports to about 90 countries. The council page does not mention software or AI, so it is context, not an AI map entry.",
+   "source_url": "https://www.cm-sbras.pt/pt/24008/gobal-fire.aspx",
+   "read_on": "2026-11-15"
+  },
+  {
+   "label": "Praça 1914",
+   "value": "Joined the Rede Portuguesa de Turismo Industrial on 10 November 2026 (council news), described as the first outdoor site of the network on the mainland.",
+   "source_url": "https://www.cm-sbras.pt/pt/noticias/38244/praca-1914-integra-rede-portuguesa-de-turismo-industrial.aspx",
+   "read_on": "2026-11-15"
+  },
+  {
+   "label": "São Brás ON",
+   "value": "The council's monthly feature on local business projects, run by the entrepreneurship office and published in both local newspapers. The page names no members and no AI focus.",
+   "source_url": "https://www.cm-sbras.pt/pt/menu/1710/sao-bras-on---rede-empresarial.aspx",
+   "read_on": "2026-11-15"
+  },
+  {
+   "label": "Storm Charles, 11 November 2026",
+   "value": "21 incidents, mostly minor flooding and wall falls, coordinated from an operations centre. The council's account names no digital warning system or data platform, and mentions technology only in that the civil protection commission met in hybrid format.",
+   "source_url": "https://www.cm-sbras.pt/pt/noticias/48250/tempestade-charles-testou-capacidade-de-prevencao-e-resposta-de-sao-bras-de-alportel.aspx",
+   "read_on": "2026-11-15"
+  },
+  {
+   "label": "First year of the council's mandate",
+   "value": "The 2 November 2026 balance lists health, housing, education, safety and economic development as priorities, with a business park among the works. It does not mention digital, smart territory or AI.",
+   "source_url": "https://www.cm-sbras.pt/pt/noticias/38236/executivo-municipal-de-sao-bras-de-alportel-apresenta-balanco-do-1-ano-de-mandato.aspx",
+   "read_on": "2026-11-15"
+  },
+  {
+   "label": "Starting a company here: first stop",
+   "value": "The council's Gabinete do Empreendedor receives founders and investors, clarifies the legal requirements, refers them to specialised partners (IAPMEI for small and medium firms, CRIA and microcredit agencies for founders, ACRAL for commerce, AHISA for hotels and restaurants, IN LOCO for artisans and local producers), helps publicise and reach financing programmes, follows the firm through municipal procedures and runs training sessions. The page sets out no step-by-step procedure. Its contact channel is on the same council page.",
+   "source_url": "https://www.cm-sbras.pt/pt/menu/1523/o-que-e-o-gabinete-do-empreendedor.aspx",
+   "read_on": "2026-11-16"
+  },
+  {
+   "label": "Starting a company here: where to work",
+   "value": "Three municipal incubation spaces: a coworking space for young entrepreneurs, Ninho de Empreendedorismo 4 Olhos, and Ninho de Empreendedorismo da Vila (one office, three coworking desks, two spaces for digital nomads, a meeting room).",
+   "source_url": "https://www.cm-sbras.pt/pt/menu/1641/espacos-de-incubacao.aspx",
+   "read_on": "2026-11-16"
+  },
+  {
+   "label": "Starting a company here: grants and events",
+   "value": "The Digital Commerce Accelerator offers help with applications for a non-repayable grant of up to 2,000 euros per company for shops, services and restaurants. The council's Fórum Ideias de Negócio is its yearly meeting point for new ideas and support services. The council lists three support measures (local businesses, entrepreneurship, employability) whose subpages have not been read.",
+   "source_url": "https://www.barlavento.pt/aceleradora-de-comercio-digital-do-algarve-apresenta-se-em-sao-bras-de-alportel/",
+   "read_on": "2026-11-16"
+  },
+  {
+   "label": "Nearest weather data",
+   "value": "Per the conductor's IPMA map (board/briefs/2026-11-16-storm-local-map.json), the nearest IPMA station is Olhão EPPO at about 15 km and the nearest forecast place is Loulé at about 12 km, so the town has no station of its own.",
+   "source_url": "https://api.ipma.pt/open-data/",
+   "read_on": "2026-11-16"
+  }
+ ],
+ "identity": {
+  "key_id": "site.sao-bras-de-alportel-promptugal",
+  "signed_by": "place.sao-bras-de-alportel@PrompTugal.dinis"
+ },
+ "gaps": [
+  "Third read of the council's entrepreneur showcase (all four pages): the clearly digital local businesses are We Stream Algarve, Substância3D (3D and streaming) and Peanuts (marketing and digital content). None mentions AI, so they are listed as leads at three steps, not as AI companies. Still no AI company, startup or lab found, and the commercial registry has not been read.",
+  "Lead firms: searches on 16 November 2026 for InovaPrime, Savvy Alpha and Aplitec (named on the council's forum page) found no website, product page or description we could read, so none can be called an AI user or builder. The next sources are the business registry and the firms' own pages if they exist.",
+  "The council's site shows no mention of AI in its front-page news and has no RSS feed we could find, so its news must be read page by page.",
+  "Postal do Algarve and Sul Informação blocked our automated reading with a bot check or an error, so their São Brás stories are not used here until they can be read openly. The pages with a bot challenge were skipped on purpose.",
+  "Sources to find next: the University of Algarve's electronics research centre for any town link, the business association for local digital firms, and the Algarve 6.0 platform's supplier and timetable.",
+  "The council's own November 2026 news (the first-year balance, Storm Charles, Praça 1914) never mentions AI or the Algarve 6.0 platform, so the municipal AI story is told by regional press, not by the council.",
+  "Investment map and local talent: no investor, investment or startup founded in the town is documented in the sources read. Local talent who have spoken publicly is not listed, because no public speaker profile has been found and the agent does not name private individuals.",
+  "The council's three support-measure subpages and the Via Verde para o desenvolvimento page returned no detail to our reader, so grants and fee waivers for investors are not stated.",
+  "Events: the whole council agenda (five pages, 15 November to 5 December 2026) is now read. It lists markets, concerts, reading clubs, sports, nature walks and film sessions, with one local entrepreneurship action at the Saturday market, and nothing about AI or technology.",
+  "Algarve 6.0 platform: a search listing points to a January 2026 EU tender by the Algarve intermunicipal body for a leased urban management platform, worth roughly 356,000 euros before VAT. We could not open the notice, so this is an unconfirmed lead. No supplier, award or timetable is known, and the project page on the national transparency portal returned an error.",
+  "InvestAlgarve: search listings say the regional investment support network opened a service point in São Brás de Alportel in November 2016, but we could not open those pages and found nothing newer. It is not known whether it still operates, so it is not on the map. The council's Gabinete do Empreendedor is the current first stop.",
+  "Council news list of 16 November 2026 (six items: boccia award, CCDR school visit, Storm Charles, EM 523 road, Praça 1914, scholarships) was read; only the school visit has a technology angle, none mentions AI.",
+  "The scholarship notice (6 November 2026) prioritises health students and does not mention technology or AI.",
+  "A search for AI news in the town in November 2026 found nothing new; results were the already-recorded EduTalks, Algarve 6.0 and University workshop stories.",
+  "A Postal do Algarve piece on Algarve digital and smart villages appeared in search but was not opened, so it is not used.",
+  "cm-sbras.pt news read: no new AI items beyond those present.",
+  "cm-sbras.pt news 12-16 Nov (bocce, CCDR visit, storm, EM 523) has no AI or digital items beyond what is already present.",
+  "17 Nov recheck of Barlavento, Postal Algarve, Algarve Primeiro and ualg.pt: nothing new with an AI link for this town.",
+  "17 Nov (recheck 5): council news list read (six items, 6 to 16 Nov, none on AI or digital). Algarve Primeiro homepage had only a boccia item. Nothing new.",
+  "Sul Informação (sulinformacao.pt): homepage, tag page and feed all returned 403 on 2026-11-17; skipped.",
+  "Jornal do Algarve (jornaldoalgarve.pt): homepage and search returned 403 on 2026-11-17; only the RSS feed opened and held no new AI-linked item for this town.",
+  "São Brás parish site (jf-saobras.pt and variants) refused the connection (proxy 502); not read. Jornal do Algarve feed on 17 Nov has a São Brás accordion festival item with no AI link.",
+  "cm-sbras.pt news opened 2026-11-18: latest items (12-16 Nov) are boccia, CCDR school visit (already held), storm Charles, EM 523 road; nothing new on AI or technology.",
+  "18 Nov: no Sao Bras item on any homepage opened; nothing new.",
+  "18 Nov: cm-sbras.pt/pt/noticias.aspx returned 404; searches found nothing new.",
+  "cm-sbras.pt news listing opened: six November items, none on AI or digital.",
+  "WebSearch: nothing new.",
+  "Council news page not opened; no new item found elsewhere.",
+  "cm-sbras.pt/pt/noticias-listagem.aspx opened: page 1 of 5, 6 items, newest 2026-11-16; nothing AI beyond items already in the file.",
+  "Opened cm-sbras.pt/pt/noticias-listagem.aspx page 1 of 5: 6 items, newest 16 Nov, none AI; CCDR visit already in file. Other pages not seen.",
+  "cm-sbras.pt listing 6-16 Nov: nothing with AI; the 16 Nov CCDR item already in file",
+  "Opened cm-sbras.pt/pt/noticias-listagem.aspx page 1: 6 items, newest 2026-11-16; none new with AI link (the 16 Nov CCDR item already in file). robots.txt 404 (no restrictions stated).",
+  "robots.txt returns 404 (no rules). /pt/noticias-listagem.aspx page 1: 6 items, newest 16 Nov 2026; none AI; the 16 Nov CCDR visit is already in file. Pages 2-5 not opened. No agenda opened.",
+  "www.cm-sbras.pt could not open: connection reset by peer on TLS handshake from this environment (robots.txt not readable, so nothing was read)."
+ ],
+ "voice": {
+  "lede": "Cork, costumes and a quiet pinch of artificial intelligence, aqui na serra, com calma.",
+  "mandate": "PrompTugal.news São Brás de Alportel: AI and technology from the serra, where the cork was king and the costume museum still holds court. Independent, ó pá, and every fact sourced.",
+  "gravity": "São Brás is a small town up in the hills that lives on heritage, from the Museu do Traje to cork and now Praça 1914, with Globalfire, a fire-detection maker, as its biggest employer and exporter. The AI chapter is still being written, and the câmara is holding the pen: a smart territory project with its neighbours, a coworking desk, an entrepreneur's office and a hand for the university.",
+  "gaps_intro": "Pois, there is no AI company here yet that we could find, and we say so straight. Here is what is missing, devagar, devagarinho."
+ },
+ "contacts": [
+  {
+   "name": "Município de São Brás de Alportel, general contacts",
+   "what": "Official council channels printed on the council's scholarship notice (general office and municipal services).",
+   "url": "https://www.cm-sbras.pt/pt/noticias/38239/ensino-superior--municipio-abre-candidaturas-a-bolsas-de-estudo.aspx",
+   "read_on": "2026-11-16",
+   "channel": "Phone 289 840 000; email (the council's general email, printed on the linked page); Rua Gago Coutinho 1, 8150-151 São Brás de Alportel",
+   "source_url": "https://www.cm-sbras.pt/pt/noticias/38239/ensino-superior--municipio-abre-candidaturas-a-bolsas-de-estudo.aspx"
+  }
+ ],
+ "latest_news": {
+  "read_at": "2026-11-26T02:33Z",
+  "by": "place.sao-bras-de-alportel@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
+  "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
+  "main_headline": null,
+  "items": []
+ }
 }

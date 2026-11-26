@@ -1,356 +1,481 @@
 {
-  "$schema": "../schemas/by-place.schema.json",
-  "id": "albufeira",
-  "name": "Albufeira",
-  "kind": "municipality",
-  "parent": "algarve",
-  "status": "live",
-  "updated": "2026-11-21",
-  "by": "place.albufeira@PrompTugal.dinis",
-  "mandate": "PrompTugal.news Albufeira: AI and technology in Albufeira, a tourism and hospitality town, and what reaches Albufeira from the Algarve, Portugal and the world. Independent; every fact sourced.",
-  "gravity": {
-    "text": "Albufeira's council puts creativity and tourism first in its business incubator, and it runs a free coworking space for remote workers inside a seafront hotel. Tourism and hospitality are the centre of gravity, so the AI that matters here is the AI that hotels and tourism companies adopt, with the path written down each time. On the public side, the council says it uses an AI-based urban management platform.",
-    "sources": [
-      {
-        "title": "Startup Albufeira, Município de Albufeira",
-        "url": "https://www.cm-albufeira.pt/startup-albufeira",
-        "read_on": "2026-11-15"
-      },
-      {
-        "title": "Albufeira Digital Nomads, Município de Albufeira",
-        "url": "https://www.cm-albufeira.pt/albufeira-digital-nomads",
-        "read_on": "2026-11-15"
-      },
-      {
-        "title": "Conferência em Albufeira reúne especialistas e analisa mudanças no urbanismo, Barlavento",
-        "url": "https://www.barlavento.pt/?p=402125",
-        "read_on": "2026-11-15"
-      }
-    ]
-  },
-  "look": {
-    "accent": "#0A5C7A",
-    "landmark": "The Old Town and its seafront beaches",
-    "motif": "deep Atlantic blue, whitewash, sun and sea"
-  },
-  "ai_news": [
-    {
-      "title": "Albufeira seismic conference on 27 November moved to the council hall, with AI named as a risk and monitoring tool",
-      "summary": "Postal do Algarve (2 Nov 2026) reports that the SIPRS earthquake and disaster prevention conference, organised by urbanist Antonio Nobrega with the Albufeira council, moves to the council's Salao Nobre on 27 November. The organisers plan to use AI tools to identify risks, monitor seismic activity and support emergency response. The AI content is a plan, not a result.",
-      "date": "2026-11-02",
-      "publisher": "Postal do Algarve",
-      "url": "https://postal.pt/algarve/albufeira-recebe-conferencia-sobre-prevencao-de-sismos-e-resposta-a-catastrofes/",
-      "read_on": "2026-11-17",
-      "ai_path": "Conference programme names AI tools for seismic risk identification and monitoring",
-      "steps": 1,
-      "significance": "town",
-      "blast": [
-        "loule",
-        "quarteira"
-      ],
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://postal.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "Albufeira conference on an AI-assisted earthquake prevention system moved to 27 November",
-      "summary": "The conference presenting a proposed integrated earthquake prevention and response system (SIPRS) was postponed from 23-24 October to 27 November, 09:00-17:00, at Hotel Alisios in Albufeira. The proposed system includes AI algorithms for seismic detection alongside seismic networks and smart submarine cables. The organiser, an urbanist, calls it non-profit; invitations to about 15 bodies and to national AI-in-territory specialists are not confirmed participants.",
-      "date": "2026-10-20",
-      "publisher": "Postal do Algarve",
-      "url": "https://postal.pt/algarve/conferencia-sobre-sismos-em-albufeira-adiada-para-27-de-novembro-com-programa-alargado/",
-      "read_on": "2026-11-16",
-      "ai_path": "The proposed system itself is described as using AI algorithms for seismic detection.",
-      "steps": 0,
-      "significance": "region",
-      "blast": [
-        "loule",
-        "silves",
-        "lagoa"
-      ],
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://postal.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "Albufeira council says it runs an AI-based urban management platform",
-      "summary": "Reporting on a conference about the new urbanism decree, Barlavento quotes the council naming a platform that uses artificial intelligence among its measures to make urban processes quicker and easier to reach. The article gives no technical detail.",
-      "date": "2026-06-16",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/?p=402125",
-      "read_on": "2026-11-15",
-      "ai_path": "The council itself says it uses AI in urban management.",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.barlavento.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "Albufeira town hall hosts a conference on AI in urban planning",
-      "summary": "A day-long conference in the council's main hall on 15 June 2026 looked at the new urbanism decree and the effect of AI and automatic decision-making on urban processes, with a University of Porto speaker on AI in territorial management.",
-      "date": "2026-06-11",
-      "publisher": "Barlavento",
-      "url": "https://www.barlavento.pt/?p=401664",
-      "read_on": "2026-11-15",
-      "ai_path": "The conference was partly about AI in urban processes.",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.barlavento.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "AP Hotels & Resorts, a group with Albufeira resorts, adopts AI revenue management",
-      "summary": "A supplier press release says AP Hotels & Resorts relies on LodgIQ, an AI-driven pricing and demand-forecasting platform, across its resort and city hotels. The release lists units including resorts it places in Albufeira but does not say which units use the system.",
-      "date": "2026-02-24",
-      "publisher": "10 Minutes News for Hoteliers (supplier press release)",
-      "url": "https://en.10minhotel.com/2026/02/24/ap-hotels-resorts-relies-on-lodgiq-to-boost-revenue-performance-across-portuguese-portfolio/",
-      "read_on": "2026-11-15",
-      "ai_path": "Hotel group with Albufeira resorts uses an AI platform to set prices.",
-      "steps": 1,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://en.10minhotel.com/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    },
-    {
-      "title": "A hotel group with an Albufeira hotel adopts an AI guest-messaging app",
-      "summary": "The vendor Quinta says Jupiter Hotel Group deployed its AI guest communication app, Velma. The group's hotels include one in Albufeira. This is a vendor's own page, so treat it as a claim by the supplier.",
-      "date": "2024-05-02",
-      "publisher": "Quinta (vendor blog)",
-      "url": "https://www.quinta.im/blog/ai-has-landed-on-jupiter-hotel-group/",
-      "read_on": "2026-11-15",
-      "ai_path": "A hospitality group with an Albufeira hotel uses an AI app to talk to guests.",
-      "steps": 1,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.quinta.im/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
-      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
-    }
-  ],
+ "$schema": "../schemas/by-place.schema.json",
+ "id": "albufeira",
+ "name": "Albufeira",
+ "kind": "municipality",
+ "parent": "algarve",
+ "status": "live",
+ "updated": "2026-11-26",
+ "by": "place.albufeira@PrompTugal.dinis",
+ "mandate": "PrompTugal.news Albufeira: AI and technology in Albufeira, a tourism and hospitality town, and what reaches Albufeira from the Algarve, Portugal and the world. Independent; every fact sourced.",
+ "gravity": {
+  "text": "Albufeira's council puts creativity and tourism first in its business incubator, and it runs a free coworking space for remote workers inside a seafront hotel. Tourism and hospitality are the centre of gravity, so the AI that matters here is the AI that hotels and tourism companies adopt, with the path written down each time. On the public side, the council says it uses an AI-based urban management platform.",
   "sources": [
-    {
-      "name": "Município de Albufeira, news",
-      "url": "https://www.cm-albufeira.pt/noticias",
-      "kind": "council",
-      "feed": null
-    },
-    {
-      "name": "Albufeira Smart City portal",
-      "url": "https://smartcity.cm-albufeira.pt/v2/portal",
-      "kind": "council",
-      "feed": null
-    },
-    {
-      "name": "Startup Albufeira (council incubator)",
-      "url": "https://www.cm-albufeira.pt/startup-albufeira",
-      "kind": "business",
-      "feed": null
-    },
-    {
-      "name": "Barlavento",
-      "url": "https://www.barlavento.pt/",
-      "kind": "press",
-      "feed": null
-    },
-    {
-      "name": "Sul Informação",
-      "url": "https://www.sulinformacao.pt/",
-      "kind": "press",
-      "feed": null
-    },
-    {
-      "name": "Postal do Algarve (needs a human check first: it showed a bot challenge)",
-      "url": "https://postal.pt/algarve/",
-      "kind": "press",
-      "feed": null
-    },
-    {
-      "name": "Algarve Daily News",
-      "url": "https://www.algarvedailynews.com/",
-      "kind": "local news (English); read 2026-11-17, front page, technology section and a Vilamoura article: no AI-linked local item"
-    },
-    {
-      "name": "Jornal do Algarve",
-      "url": "https://jornaldoalgarve.pt/",
-      "kind": "regional news; homepage 403, but the RSS feed opened (12 items, 16-17 Nov)",
-      "feed": "https://www.jornaldoalgarve.pt/feed/"
-    },
-    {
-      "name": "Jornal do Algarve RSS",
-      "url": "https://www.jornaldoalgarve.pt/feed/",
-      "kind": "press"
-    }
-  ],
-  "events": [
-    {
-      "title": "SIPRS earthquake prevention and response conference (includes AI detection)",
-      "date": "2026-11-27",
-      "time": "09:00-17:00",
-      "venue": "Hotel Alisios, Albufeira",
-      "organiser": "António Nóbrega, urbanist (non-profit, per the article)",
-      "url": "https://postal.pt/algarve/conferencia-sobre-sismos-em-albufeira-adiada-para-27-de-novembro-com-programa-alargado/",
-      "read_on": "2026-11-16",
-      "ai_path": "Proposed system uses AI algorithms for seismic detection; AI specialists are invited, not confirmed.",
-      "steps": 0,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://postal.pt/"
-      },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
-    }
-  ],
-  "ai_map": [
-    {
-      "name": "Município de Albufeira",
-      "type": "public body",
-      "url": "https://www.cm-albufeira.pt",
-      "what": "The council says it uses an AI-based urban management platform, and it runs a smart city portal for occurrence management.",
-      "source_url": "https://www.barlavento.pt/?p=402125",
-      "read_on": "2026-11-15",
-      "ai_path": "The council says it uses AI in urban processes.",
-      "steps": 0
-    },
-    {
-      "name": "Jupiter Hotel Group (Jupiter Albufeira Hotel)",
-      "type": "company",
-      "url": "https://www.quinta.im/blog/ai-has-landed-on-jupiter-hotel-group/",
-      "what": "A hotel group with a hotel in Albufeira that the vendor Quinta lists as a user of its AI guest communication app.",
-      "source_url": "https://www.quinta.im/blog/ai-has-landed-on-jupiter-hotel-group/",
-      "read_on": "2026-11-15",
-      "ai_path": "Hotel group uses an AI guest-messaging app, named by the vendor.",
-      "steps": 1
-    },
-    {
-      "name": "AP Hotels & Resorts",
-      "type": "company",
-      "url": "https://en.10minhotel.com/2026/02/24/ap-hotels-resorts-relies-on-lodgiq-to-boost-revenue-performance-across-portuguese-portfolio/",
-      "what": "A hotel group whose portfolio includes resorts the release places in Albufeira, named by supplier LodgIQ as a user of its AI revenue management platform.",
-      "source_url": "https://en.10minhotel.com/2026/02/24/ap-hotels-resorts-relies-on-lodgiq-to-boost-revenue-performance-across-portuguese-portfolio/",
-      "read_on": "2026-11-15",
-      "ai_path": "Hotel group uses an AI pricing platform, per the supplier's release.",
-      "steps": 1
-    }
-  ],
-  "extras": [
-    {
-      "label": "Council coworking",
-      "value": "Albufeira Digital Nomads: a free coworking space run by the council at a seafront hotel, subject to space. The page does not mention AI.",
-      "source_url": "https://www.cm-albufeira.pt/albufeira-digital-nomads",
-      "read_on": "2026-11-15"
-    },
-    {
-      "label": "Council incubator",
-      "value": "Startup Albufeira has two poles, creativity and tourism, and local products and gastronomy, with a preference for tourism ideas. The page does not mention AI.",
-      "source_url": "https://www.cm-albufeira.pt/startup-albufeira",
-      "read_on": "2026-11-15"
-    },
-    {
-      "label": "Algarve Tech Hub Summit 2024",
-      "value": "Held in Albufeira on 23 to 25 October 2024, organised by Algarve STP, Algarve Evolution and the University of the Algarve with the council. The article we read does not mention AI.",
-      "source_url": "https://www.barlavento.pt/?p=358515",
-      "read_on": "2026-11-15"
-    },
-    {
-      "label": "Digital urbanism counter",
-      "value": "On 4 February 2026 the council launched an online service for urban planning requests, with sign-in by Chave Móvel Digital. The article does not mention AI and does not link it to the AI platform the council names later.",
-      "source_url": "https://www.barlavento.pt/?p=391318",
-      "read_on": "2026-11-15"
-    },
-    {
-      "label": "Dengun Founders Program",
-      "value": "A free six-week online accelerator by the Algarve tech company Dengun, announced in October 2024, with AI one of five focus areas. The article does not mention Albufeira, so we hold the Albufeira demo-day lead until a readable source confirms it.",
-      "source_url": "https://www.barlavento.pt/dengun-lanca-programa-de-aceleracao-inovador-para-startups-globais/",
-      "read_on": "2026-11-15"
-    },
-    {
-      "label": "AI pilot for Algarve tourism SMEs",
-      "value": "Barlavento (20 March 2026) reports an ALGARVE 2030 supported project to bring AI and robotics to 15 tourism SMEs, through digital maturity diagnostics and action plans. The article does not say whether Albufeira firms can take part.",
-      "source_url": "https://www.barlavento.pt/?p=394835",
-      "read_on": "2026-11-15"
-    },
-    {
-      "label": "Starting a company here",
-      "value": "The council's incubator Startup Albufeira takes innovative projects, with preference for creativity and tourism, from individuals or firms under two years old, and offers four offices and a 16-desk shared room (its 2021 price list is still on the page, so confirm current terms). Requests to the council for building and planning work now go through its online urbanism counter (since February 2026). The council also gives free coworking space at a seafront hotel. For AI help, an Algarve-wide pilot for tourism SMEs exists, run with Algarve Evolution partners. Official pages: https://www.cm-albufeira.pt/startup-albufeira and https://www.cm-albufeira.pt/albufeira-digital-nomads",
-      "source_url": "https://www.cm-albufeira.pt/startup-albufeira",
-      "read_on": "2026-11-16"
-    }
-  ],
-  "identity": {
-    "key_id": "site.albufeira-promptugal",
-    "signed_by": "place.albufeira@PrompTugal.dinis"
-  },
-  "gaps": [
-    "No Albufeira-based AI company or startup is confirmed yet. The AI map holds only the council and one hotel group whose AI use is stated by its supplier.",
-    "Postal do Algarve, the best local paper, showed a bot challenge, so we could not read its stories on Vibeslist (an AI recommendation app reported as debuting in Albufeira in 2026), the Dengun Founders Program in Albufeira and the Algarve Tech Hub Summit. They are leads to confirm, not facts.",
-    "No event with an AI path is listed for the coming weeks. Organisers' own pages (Algarve Evolution, Algarve STP, UAlg) are the next sources to read.",
-    "The council's news page showed no AI or technology items in late October and early November 2026, and has no feed we could find.",
-    "Sul Informação and the council's Smart City portal refused our reader (403 or empty), so the Smart City platform's apps (incident management, beach occupancy) are unconfirmed here.",
-    "Hotel AI use is known only through suppliers' own releases (Quinta for Jupiter, LodgIQ for AP Hotels & Resorts). Neither names which Albufeira unit uses the tool. Next: the hotels' own pages and AHETA.",
-    "cm-albufeira.pt news (26 Oct to 12 Nov 2026, 12 items read) has no AI, tech or smart city item; they cover storm Charles, sport and culture.",
-    "The Smart City portal's own content could not be confirmed as AI; the storm communique mentions only the Gestao de Ocorrencias portal, with no AI.",
-    "No Albufeira AI hotel or nightlife/security tech item found in Nov 2026; web search returned only generic vendor pieces and spam-like pages.",
-    "The Hyatt resort in Albufeira and the Atos Hotelaria Inteligente 2026 event (Faro, not Albufeira) were seen in search snippets only, not opened, so not used.",
-    "Barlavento, Sul Informacao, Algarve Primeiro and Regiao Sul were not opened this run for new Albufeira AI items; only search and the council site were used.",
-    "The SIPRS conference has no confirmed speakers or AI specialists; treat the AI content as a plan.",
-    "cm-albufeira.pt /pt/noticias returned 404; search shows nothing new since morning. SIPRS 27 Nov (AI in seismic prevention) unchanged, only seen via search snippets this run.",
-    "No new AI item on Barlavento or postal.pt 16-17 Nov; cm-albufeira.pt/pt/noticias returned 404.",
-    "17 Nov recheck of Barlavento, Postal Algarve, Algarve Primeiro and ualg.pt: nothing new with an AI link for this town.",
-    "17 Nov (recheck 5): opened Algarve Primeiro homepage, cm-albufeira.pt/noticias (12 items, 27 Oct to 17 Nov, none on AI) and Postal do Algarve (opened this time). Regiao Sul and Portugal Resident refused (403); The Portugal News returned empty; Diario do Sul homepage showed nothing for the town.",
-    "Sul Informação (sulinformacao.pt): homepage, tag page and feed all returned 403 on 2026-11-17; skipped.",
-    "Jornal do Algarve (jornaldoalgarve.pt): homepage and search returned 403 on 2026-11-17; only the RSS feed opened and held no new AI-linked item for this town.",
-    "Albufeira parish sites (jf-albufeira.pt and variants) refused the connection (proxy 502); not read.",
-    "Jornal do Algarve RSS, Barlavento feed, Postal Algarve and Algarve Daily News front pages (17-18 Nov) show no new AI or technology item for this town.",
-    "18 Nov: cm-albufeira.pt/noticias opened (12 items, 27 Oct-17 Nov), no AI item. DevFest Faro 27-28 Nov: no update found.",
-    "18 Nov: cm-albufeira.pt/noticias opened, newest item 17 Nov (Sao Silvestre run), no AI item.",
-    "cm-albufeira.pt/noticias opened: no AI or urbanism item in November 2026 (latest 17 Nov is a sports item).",
-    "Marafado article not yet in the file: see marafado verdict.",
-    "No primary council notice or minutes on the AI planning platform found.",
-    "18 Nov: a lead from Algarve Marafado (29 May 2026) says the mayor stated he would contract an AI-based platform for planning applications. The page was read and is public; the site looks like a regional outlet (daily items, archive to 2016, an editorial statute link) but its publisher was not verified and no primary source (council notice, minutes, contract) was found. Held as a lead, not published as fact; Barlavento's reports of the council's AI urban-management platform stay the source.",
-    "No new AI item found on Barlavento, Postal, Algarve Primeiro or Algarve Daily News homepages.",
-    "18 Nov, Algarve Marafado checked further: its Ficha Tecnica e Estatuto Editorial (https://www.algarvemarafado.com/ficha-tecnica/, read 2026-11-18, linked from its home page) describes an independent regional online daily with ERC registration no. 127013 and a named editorial team; the owner is an individual, not a company. That settles that it is a registered outlet. The 29 May claim that the mayor would contract an AI planning platform still has no primary source (council notice, minutes, contract), so it stays a held lead, usable only as an attributed secondary source.",
-    "cm-albufeira.pt/noticias opened: 12 items, newest 2026-11-17 (Sao Silvestre run); none touches AI or technology; 'Carregar Mais' not followed.",
-    "Opened cm-albufeira.pt/noticias on retry (first try HTTP 503): newest item 17 Nov 2026 (São Silvestre race, no AI); next 12 Nov. Nothing new with an AI link.",
-    "cm-albufeira.pt/noticias 17 Nov 2026 shows 6 items (Sao Silvestre race, Charles storm, sport, Halloween), none with an AI link; 'Carregar Mais' not clicked",
-    "Opened cm-albufeira.pt/noticias: 12 items, newest 2026-11-17 (more behind a load-more button, not opened); none on AI or tech (sport, storm Charles notices, culture). robots.txt respected (Drupal admin paths only).",
-    "robots.txt read (www.cm-albufeira.pt; /noticias not disallowed; bare host returns 400). Opened www.cm-albufeira.pt/noticias: 12 items, newest 17 Nov 2026 (sports run); none on AI; nothing for 19-20 Nov. Load-more not opened. No agenda page opened.",
-    "Read robots.txt of www.cm-albufeira.pt (does not disallow /noticias). Opened https://www.cm-albufeira.pt/noticias on 2026-11-21: 12 items dated 2026-10-27 to 2026-11-17 (sports, Depressao Charles alert, Halloween, police), none about AI within 3 steps; nothing new."
-  ],
-  "voice": {
-    "lede": "Sol, sea and a chatbot to book your sunbed: this is Albufeira, where tourism is the main business and AI is turning up at the front desk.",
-    "mandate": "PrompTugal.news Albufeira: we follow the AI and tech in Albufeira, the town of beaches, bars and bookings, and whatever washes in from the Algarve, Portugal and the world. Independent, every fact sourced, no sunburn.",
-    "gravity": "Albufeira runs on visitors, so hotels and tourism come first. The council has a coworking space inside a seafront hotel and an incubator that prefers tourism ideias, and it says an AI platform now helps with urban planning. Pois, not bad for a town famous for its beaches.",
-    "gaps_intro": "Ora bem, what we could not find yet, and where we will look next:"
-  },
-  "contacts": [
-    {
-      "name": "Município de Albufeira, general office",
-      "what": "Official council switchboard and email, printed on the council's own news page",
-      "url": "https://www.cm-albufeira.pt/artigo/comunicado-balanco-da-depressao-charles-em-albufeira",
-      "read_on": "2026-11-16",
-      "channel": "Phone 289 599 500; email (the council's general email, printed on the linked page); Rua do Município, 8201-863 Albufeira; Mon-Fri 9:00-17:00",
-      "source_url": "https://www.cm-albufeira.pt/artigo/comunicado-balanco-da-depressao-charles-em-albufeira"
-    }
+   {
+    "title": "Startup Albufeira, Município de Albufeira",
+    "url": "https://www.cm-albufeira.pt/startup-albufeira",
+    "read_on": "2026-11-15"
+   },
+   {
+    "title": "Albufeira Digital Nomads, Município de Albufeira",
+    "url": "https://www.cm-albufeira.pt/albufeira-digital-nomads",
+    "read_on": "2026-11-15"
+   },
+   {
+    "title": "Conferência em Albufeira reúne especialistas e analisa mudanças no urbanismo, Barlavento",
+    "url": "https://www.barlavento.pt/?p=402125",
+    "read_on": "2026-11-15"
+   }
   ]
+ },
+ "look": {
+  "accent": "#0A5C7A",
+  "landmark": "The Old Town and its seafront beaches",
+  "motif": "deep Atlantic blue, whitewash, sun and sea"
+ },
+ "ai_news": [
+  {
+   "title": "Albufeira seismic conference on 27 November moved to the council hall, with AI named as a risk and monitoring tool",
+   "summary": "Postal do Algarve (2 Nov 2026) reports that the SIPRS earthquake and disaster prevention conference, organised by urbanist Antonio Nobrega with the Albufeira council, moves to the council's Salao Nobre on 27 November. The organisers plan to use AI tools to identify risks, monitor seismic activity and support emergency response. The AI content is a plan, not a result.",
+   "date": "2026-11-02",
+   "publisher": "Postal do Algarve",
+   "url": "https://postal.pt/algarve/albufeira-recebe-conferencia-sobre-prevencao-de-sismos-e-resposta-a-catastrofes/",
+   "read_on": "2026-11-17",
+   "ai_path": "Conference programme names AI tools for seismic risk identification and monitoring",
+   "steps": 1,
+   "significance": "town",
+   "blast": [
+    "loule",
+    "quarteira"
+   ],
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://postal.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "Albufeira conference on an AI-assisted earthquake prevention system moved to 27 November",
+   "summary": "The conference presenting a proposed integrated earthquake prevention and response system (SIPRS) was postponed from 23-24 October to 27 November, 09:00-17:00, at Hotel Alisios in Albufeira. The proposed system includes AI algorithms for seismic detection alongside seismic networks and smart submarine cables. The organiser, an urbanist, calls it non-profit; invitations to about 15 bodies and to national AI-in-territory specialists are not confirmed participants.",
+   "date": "2026-10-20",
+   "publisher": "Postal do Algarve",
+   "url": "https://postal.pt/algarve/conferencia-sobre-sismos-em-albufeira-adiada-para-27-de-novembro-com-programa-alargado/",
+   "read_on": "2026-11-16",
+   "ai_path": "The proposed system itself is described as using AI algorithms for seismic detection.",
+   "steps": 0,
+   "significance": "region",
+   "blast": [
+    "loule",
+    "silves",
+    "lagoa"
+   ],
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://postal.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "Albufeira council says it runs an AI-based urban management platform",
+   "summary": "Reporting on a conference about the new urbanism decree, Barlavento quotes the council naming a platform that uses artificial intelligence among its measures to make urban processes quicker and easier to reach. The article gives no technical detail.",
+   "date": "2026-06-16",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/?p=402125",
+   "read_on": "2026-11-15",
+   "ai_path": "The council itself says it uses AI in urban management.",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.barlavento.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "Albufeira town hall hosts a conference on AI in urban planning",
+   "summary": "A day-long conference in the council's main hall on 15 June 2026 looked at the new urbanism decree and the effect of AI and automatic decision-making on urban processes, with a University of Porto speaker on AI in territorial management.",
+   "date": "2026-06-11",
+   "publisher": "Barlavento",
+   "url": "https://www.barlavento.pt/?p=401664",
+   "read_on": "2026-11-15",
+   "ai_path": "The conference was partly about AI in urban processes.",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.barlavento.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "AP Hotels & Resorts, a group with Albufeira resorts, adopts AI revenue management",
+   "summary": "A supplier press release says AP Hotels & Resorts relies on LodgIQ, an AI-driven pricing and demand-forecasting platform, across its resort and city hotels. The release lists units including resorts it places in Albufeira but does not say which units use the system.",
+   "date": "2026-02-24",
+   "publisher": "10 Minutes News for Hoteliers (supplier press release)",
+   "url": "https://en.10minhotel.com/2026/02/24/ap-hotels-resorts-relies-on-lodgiq-to-boost-revenue-performance-across-portuguese-portfolio/",
+   "read_on": "2026-11-15",
+   "ai_path": "Hotel group with Albufeira resorts uses an AI platform to set prices.",
+   "steps": 1,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://en.10minhotel.com/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  },
+  {
+   "title": "A hotel group with an Albufeira hotel adopts an AI guest-messaging app",
+   "summary": "The vendor Quinta says Jupiter Hotel Group deployed its AI guest communication app, Velma. The group's hotels include one in Albufeira. This is a vendor's own page, so treat it as a claim by the supplier.",
+   "date": "2024-05-02",
+   "publisher": "Quinta (vendor blog)",
+   "url": "https://www.quinta.im/blog/ai-has-landed-on-jupiter-hotel-group/",
+   "read_on": "2026-11-15",
+   "ai_path": "A hospitality group with an Albufeira hotel uses an AI app to talk to guests.",
+   "steps": 1,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://www.quinta.im/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+   "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Município de Albufeira, news",
+   "url": "https://www.cm-albufeira.pt/noticias",
+   "kind": "council",
+   "feed": null
+  },
+  {
+   "name": "Albufeira Smart City portal",
+   "url": "https://smartcity.cm-albufeira.pt/v2/portal",
+   "kind": "council",
+   "feed": null
+  },
+  {
+   "name": "Startup Albufeira (council incubator)",
+   "url": "https://www.cm-albufeira.pt/startup-albufeira",
+   "kind": "business",
+   "feed": null
+  },
+  {
+   "name": "Barlavento",
+   "url": "https://www.barlavento.pt/",
+   "kind": "press",
+   "feed": null
+  },
+  {
+   "name": "Sul Informação",
+   "url": "https://www.sulinformacao.pt/",
+   "kind": "press",
+   "feed": null
+  },
+  {
+   "name": "Postal do Algarve (needs a human check first: it showed a bot challenge)",
+   "url": "https://postal.pt/algarve/",
+   "kind": "press",
+   "feed": null
+  },
+  {
+   "name": "Algarve Daily News",
+   "url": "https://www.algarvedailynews.com/",
+   "kind": "local news (English); read 2026-11-17, front page, technology section and a Vilamoura article: no AI-linked local item"
+  },
+  {
+   "name": "Jornal do Algarve",
+   "url": "https://jornaldoalgarve.pt/",
+   "kind": "regional news; homepage 403, but the RSS feed opened (12 items, 16-17 Nov)",
+   "feed": "https://www.jornaldoalgarve.pt/feed/"
+  },
+  {
+   "name": "Jornal do Algarve RSS",
+   "url": "https://www.jornaldoalgarve.pt/feed/",
+   "kind": "press"
+  }
+ ],
+ "events": [
+  {
+   "title": "SIPRS earthquake prevention and response conference (includes AI detection)",
+   "date": "2026-11-27",
+   "time": "09:00-17:00",
+   "venue": "Hotel Alisios, Albufeira",
+   "organiser": "António Nóbrega, urbanist (non-profit, per the article)",
+   "url": "https://postal.pt/algarve/conferencia-sobre-sismos-em-albufeira-adiada-para-27-de-novembro-com-programa-alargado/",
+   "read_on": "2026-11-16",
+   "ai_path": "Proposed system uses AI algorithms for seismic detection; AI specialists are invited, not confirmed.",
+   "steps": 0,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "source_license": {
+    "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+    "url": "https://postal.pt/"
+   },
+   "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
+  }
+ ],
+ "ai_map": [
+  {
+   "name": "Município de Albufeira",
+   "type": "public body",
+   "url": "https://www.cm-albufeira.pt",
+   "what": "The council says it uses an AI-based urban management platform, and it runs a smart city portal for occurrence management.",
+   "source_url": "https://www.barlavento.pt/?p=402125",
+   "read_on": "2026-11-15",
+   "ai_path": "The council says it uses AI in urban processes.",
+   "steps": 0
+  },
+  {
+   "name": "Jupiter Hotel Group (Jupiter Albufeira Hotel)",
+   "type": "company",
+   "url": "https://www.quinta.im/blog/ai-has-landed-on-jupiter-hotel-group/",
+   "what": "A hotel group with a hotel in Albufeira that the vendor Quinta lists as a user of its AI guest communication app.",
+   "source_url": "https://www.quinta.im/blog/ai-has-landed-on-jupiter-hotel-group/",
+   "read_on": "2026-11-15",
+   "ai_path": "Hotel group uses an AI guest-messaging app, named by the vendor.",
+   "steps": 1
+  },
+  {
+   "name": "AP Hotels & Resorts",
+   "type": "company",
+   "url": "https://en.10minhotel.com/2026/02/24/ap-hotels-resorts-relies-on-lodgiq-to-boost-revenue-performance-across-portuguese-portfolio/",
+   "what": "A hotel group whose portfolio includes resorts the release places in Albufeira, named by supplier LodgIQ as a user of its AI revenue management platform.",
+   "source_url": "https://en.10minhotel.com/2026/02/24/ap-hotels-resorts-relies-on-lodgiq-to-boost-revenue-performance-across-portuguese-portfolio/",
+   "read_on": "2026-11-15",
+   "ai_path": "Hotel group uses an AI pricing platform, per the supplier's release.",
+   "steps": 1
+  }
+ ],
+ "extras": [
+  {
+   "label": "Council coworking",
+   "value": "Albufeira Digital Nomads: a free coworking space run by the council at a seafront hotel, subject to space. The page does not mention AI.",
+   "source_url": "https://www.cm-albufeira.pt/albufeira-digital-nomads",
+   "read_on": "2026-11-15"
+  },
+  {
+   "label": "Council incubator",
+   "value": "Startup Albufeira has two poles, creativity and tourism, and local products and gastronomy, with a preference for tourism ideas. The page does not mention AI.",
+   "source_url": "https://www.cm-albufeira.pt/startup-albufeira",
+   "read_on": "2026-11-15"
+  },
+  {
+   "label": "Algarve Tech Hub Summit 2024",
+   "value": "Held in Albufeira on 23 to 25 October 2024, organised by Algarve STP, Algarve Evolution and the University of the Algarve with the council. The article we read does not mention AI.",
+   "source_url": "https://www.barlavento.pt/?p=358515",
+   "read_on": "2026-11-15"
+  },
+  {
+   "label": "Digital urbanism counter",
+   "value": "On 4 February 2026 the council launched an online service for urban planning requests, with sign-in by Chave Móvel Digital. The article does not mention AI and does not link it to the AI platform the council names later.",
+   "source_url": "https://www.barlavento.pt/?p=391318",
+   "read_on": "2026-11-15"
+  },
+  {
+   "label": "Dengun Founders Program",
+   "value": "A free six-week online accelerator by the Algarve tech company Dengun, announced in October 2024, with AI one of five focus areas. The article does not mention Albufeira, so we hold the Albufeira demo-day lead until a readable source confirms it.",
+   "source_url": "https://www.barlavento.pt/dengun-lanca-programa-de-aceleracao-inovador-para-startups-globais/",
+   "read_on": "2026-11-15"
+  },
+  {
+   "label": "AI pilot for Algarve tourism SMEs",
+   "value": "Barlavento (20 March 2026) reports an ALGARVE 2030 supported project to bring AI and robotics to 15 tourism SMEs, through digital maturity diagnostics and action plans. The article does not say whether Albufeira firms can take part.",
+   "source_url": "https://www.barlavento.pt/?p=394835",
+   "read_on": "2026-11-15"
+  },
+  {
+   "label": "Starting a company here",
+   "value": "The council's incubator Startup Albufeira takes innovative projects, with preference for creativity and tourism, from individuals or firms under two years old, and offers four offices and a 16-desk shared room (its 2021 price list is still on the page, so confirm current terms). Requests to the council for building and planning work now go through its online urbanism counter (since February 2026). The council also gives free coworking space at a seafront hotel. For AI help, an Algarve-wide pilot for tourism SMEs exists, run with Algarve Evolution partners. Official pages: https://www.cm-albufeira.pt/startup-albufeira and https://www.cm-albufeira.pt/albufeira-digital-nomads",
+   "source_url": "https://www.cm-albufeira.pt/startup-albufeira",
+   "read_on": "2026-11-16"
+  }
+ ],
+ "identity": {
+  "key_id": "site.albufeira-promptugal",
+  "signed_by": "place.albufeira@PrompTugal.dinis"
+ },
+ "gaps": [
+  "No Albufeira-based AI company or startup is confirmed yet. The AI map holds only the council and one hotel group whose AI use is stated by its supplier.",
+  "Postal do Algarve, the best local paper, showed a bot challenge, so we could not read its stories on Vibeslist (an AI recommendation app reported as debuting in Albufeira in 2026), the Dengun Founders Program in Albufeira and the Algarve Tech Hub Summit. They are leads to confirm, not facts.",
+  "No event with an AI path is listed for the coming weeks. Organisers' own pages (Algarve Evolution, Algarve STP, UAlg) are the next sources to read.",
+  "The council's news page showed no AI or technology items in late October and early November 2026, and has no feed we could find.",
+  "Sul Informação and the council's Smart City portal refused our reader (403 or empty), so the Smart City platform's apps (incident management, beach occupancy) are unconfirmed here.",
+  "Hotel AI use is known only through suppliers' own releases (Quinta for Jupiter, LodgIQ for AP Hotels & Resorts). Neither names which Albufeira unit uses the tool. Next: the hotels' own pages and AHETA.",
+  "cm-albufeira.pt news (26 Oct to 12 Nov 2026, 12 items read) has no AI, tech or smart city item; they cover storm Charles, sport and culture.",
+  "The Smart City portal's own content could not be confirmed as AI; the storm communique mentions only the Gestao de Ocorrencias portal, with no AI.",
+  "No Albufeira AI hotel or nightlife/security tech item found in Nov 2026; web search returned only generic vendor pieces and spam-like pages.",
+  "The Hyatt resort in Albufeira and the Atos Hotelaria Inteligente 2026 event (Faro, not Albufeira) were seen in search snippets only, not opened, so not used.",
+  "Barlavento, Sul Informacao, Algarve Primeiro and Regiao Sul were not opened this run for new Albufeira AI items; only search and the council site were used.",
+  "The SIPRS conference has no confirmed speakers or AI specialists; treat the AI content as a plan.",
+  "cm-albufeira.pt /pt/noticias returned 404; search shows nothing new since morning. SIPRS 27 Nov (AI in seismic prevention) unchanged, only seen via search snippets this run.",
+  "No new AI item on Barlavento or postal.pt 16-17 Nov; cm-albufeira.pt/pt/noticias returned 404.",
+  "17 Nov recheck of Barlavento, Postal Algarve, Algarve Primeiro and ualg.pt: nothing new with an AI link for this town.",
+  "17 Nov (recheck 5): opened Algarve Primeiro homepage, cm-albufeira.pt/noticias (12 items, 27 Oct to 17 Nov, none on AI) and Postal do Algarve (opened this time). Regiao Sul and Portugal Resident refused (403); The Portugal News returned empty; Diario do Sul homepage showed nothing for the town.",
+  "Sul Informação (sulinformacao.pt): homepage, tag page and feed all returned 403 on 2026-11-17; skipped.",
+  "Jornal do Algarve (jornaldoalgarve.pt): homepage and search returned 403 on 2026-11-17; only the RSS feed opened and held no new AI-linked item for this town.",
+  "Albufeira parish sites (jf-albufeira.pt and variants) refused the connection (proxy 502); not read.",
+  "Jornal do Algarve RSS, Barlavento feed, Postal Algarve and Algarve Daily News front pages (17-18 Nov) show no new AI or technology item for this town.",
+  "18 Nov: cm-albufeira.pt/noticias opened (12 items, 27 Oct-17 Nov), no AI item. DevFest Faro 27-28 Nov: no update found.",
+  "18 Nov: cm-albufeira.pt/noticias opened, newest item 17 Nov (Sao Silvestre run), no AI item.",
+  "cm-albufeira.pt/noticias opened: no AI or urbanism item in November 2026 (latest 17 Nov is a sports item).",
+  "Marafado article not yet in the file: see marafado verdict.",
+  "No primary council notice or minutes on the AI planning platform found.",
+  "18 Nov: a lead from Algarve Marafado (29 May 2026) says the mayor stated he would contract an AI-based platform for planning applications. The page was read and is public; the site looks like a regional outlet (daily items, archive to 2016, an editorial statute link) but its publisher was not verified and no primary source (council notice, minutes, contract) was found. Held as a lead, not published as fact; Barlavento's reports of the council's AI urban-management platform stay the source.",
+  "No new AI item found on Barlavento, Postal, Algarve Primeiro or Algarve Daily News homepages.",
+  "18 Nov, Algarve Marafado checked further: its Ficha Tecnica e Estatuto Editorial (https://www.algarvemarafado.com/ficha-tecnica/, read 2026-11-18, linked from its home page) describes an independent regional online daily with ERC registration no. 127013 and a named editorial team; the owner is an individual, not a company. That settles that it is a registered outlet. The 29 May claim that the mayor would contract an AI planning platform still has no primary source (council notice, minutes, contract), so it stays a held lead, usable only as an attributed secondary source.",
+  "cm-albufeira.pt/noticias opened: 12 items, newest 2026-11-17 (Sao Silvestre run); none touches AI or technology; 'Carregar Mais' not followed.",
+  "Opened cm-albufeira.pt/noticias on retry (first try HTTP 503): newest item 17 Nov 2026 (São Silvestre race, no AI); next 12 Nov. Nothing new with an AI link.",
+  "cm-albufeira.pt/noticias 17 Nov 2026 shows 6 items (Sao Silvestre race, Charles storm, sport, Halloween), none with an AI link; 'Carregar Mais' not clicked",
+  "Opened cm-albufeira.pt/noticias: 12 items, newest 2026-11-17 (more behind a load-more button, not opened); none on AI or tech (sport, storm Charles notices, culture). robots.txt respected (Drupal admin paths only).",
+  "robots.txt read (www.cm-albufeira.pt; /noticias not disallowed; bare host returns 400). Opened www.cm-albufeira.pt/noticias: 12 items, newest 17 Nov 2026 (sports run); none on AI; nothing for 19-20 Nov. Load-more not opened. No agenda page opened.",
+  "Read robots.txt of www.cm-albufeira.pt (does not disallow /noticias). Opened https://www.cm-albufeira.pt/noticias on 2026-11-21: 12 items dated 2026-10-27 to 2026-11-17 (sports, Depressao Charles alert, Halloween, police), none about AI within 3 steps; nothing new."
+ ],
+ "voice": {
+  "lede": "Sol, sea and a chatbot to book your sunbed: this is Albufeira, where tourism is the main business and AI is turning up at the front desk.",
+  "mandate": "PrompTugal.news Albufeira: we follow the AI and tech in Albufeira, the town of beaches, bars and bookings, and whatever washes in from the Algarve, Portugal and the world. Independent, every fact sourced, no sunburn.",
+  "gravity": "Albufeira runs on visitors, so hotels and tourism come first. The council has a coworking space inside a seafront hotel and an incubator that prefers tourism ideias, and it says an AI platform now helps with urban planning. Pois, not bad for a town famous for its beaches.",
+  "gaps_intro": "Ora bem, what we could not find yet, and where we will look next:"
+ },
+ "contacts": [
+  {
+   "name": "Município de Albufeira, general office",
+   "what": "Official council switchboard and email, printed on the council's own news page",
+   "url": "https://www.cm-albufeira.pt/artigo/comunicado-balanco-da-depressao-charles-em-albufeira",
+   "read_on": "2026-11-16",
+   "channel": "Phone 289 599 500; email (the council's general email, printed on the linked page); Rua do Município, 8201-863 Albufeira; Mon-Fri 9:00-17:00",
+   "source_url": "https://www.cm-albufeira.pt/artigo/comunicado-balanco-da-depressao-charles-em-albufeira"
+  }
+ ],
+ "latest_news": {
+  "read_at": "2026-11-26T06:13:32Z",
+  "by": "place.albufeira@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
+  "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
+  "main_headline": {
+   "title": "100 Montaditos abre novo restaurante em Albufeira e cria cinco postos de trabalho",
+   "url": "https://postal.pt/algarve/100-montaditos-abre-novo-restaurante-em-albufeira-e-cria-cinco-postos-de-trabalho/",
+   "source": "Postal do Algarve",
+   "date": "2026-11-25",
+   "read_at": "2026-11-26T06:08:22Z",
+   "names_place": true
+  },
+  "items": [
+   {
+    "title": "100 Montaditos abre novo restaurante em Albufeira e cria cinco postos de trabalho",
+    "url": "https://postal.pt/algarve/100-montaditos-abre-novo-restaurante-em-albufeira-e-cria-cinco-postos-de-trabalho/",
+    "published": "2026-11-25T10:40Z",
+    "date": "2026-11-25",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/?s=Albufeira&feed=rss2",
+    "read_at": "2026-11-26T06:08:22Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Albufeira acolhe apresentação de sistema de prevenção e resposta a sismos e outras catástrofes",
+    "url": "https://postal.pt/algarve/albufeira-acolhe-apresentacao-de-sistema-de-prevencao-e-resposta-a-sismos-e-outras-catastrofes/",
+    "published": "2026-11-25T07:10Z",
+    "date": "2026-11-25",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/?s=Albufeira&feed=rss2",
+    "read_at": "2026-11-26T06:08:22Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Albufeira assinala o 25 de Novembro pela primeira vez com honras protocolares",
+    "url": "https://postal.pt/algarve/albufeira-assinala-o-25-de-novembro-pela-primeira-vez-com-honras-protocolares/",
+    "published": "2026-11-24T11:40Z",
+    "date": "2026-11-24",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/?s=Albufeira&feed=rss2",
+    "read_at": "2026-11-26T06:08:22Z",
+    "mentions_place": true
+   },
+   {
+    "title": "GNR detém em Albufeira suspeito de furtos no Algarve e Alentejo",
+    "url": "https://www.barlavento.pt/gnr-detencao-albufeira-furto-qualificado/",
+    "published": "2026-11-23T14:17Z",
+    "date": "2026-11-23",
+    "source": "Barlavento",
+    "source_site": "https://www.barlavento.pt/",
+    "feed": "https://www.barlavento.pt/?s=Albufeira&feed=rss2",
+    "read_at": "2026-11-26T06:08:15Z",
+    "mentions_place": true
+   },
+   {
+    "title": "António Nóbrega apresenta projeto em Albufeira para reforçar a prevenção de sismos e salvar vidas",
+    "url": "https://postal.pt/edicaopapel/antonio-nobrega-apresenta-projeto-em-albufeira-para-reforcar-a-prevencao-de-sismos-e-salvar-vidas/",
+    "published": "2026-11-22T11:00Z",
+    "date": "2026-11-22",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/?s=Albufeira&feed=rss2",
+    "read_at": "2026-11-26T06:08:22Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Luna Silva quer criar Assembleia Municipal da Juventude em Albufeira",
+    "url": "https://postal.pt/edicaopapel/luna-silva-quer-criar-assembleia-municipal-da-juventude-em-albufeira/",
+    "published": "2026-11-21T17:30Z",
+    "date": "2026-11-21",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/?s=Albufeira&feed=rss2",
+    "read_at": "2026-11-26T06:08:22Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Albufeira apresenta projeto inovador de prevenção de sismos e catástrofes",
+    "url": "https://postal.pt/edicaopapel/albufeira-apresenta-projeto-inovador-de-prevencao-de-sismos-e-catastrofes/",
+    "published": "2026-11-21T10:00Z",
+    "date": "2026-11-21",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/?s=Albufeira&feed=rss2",
+    "read_at": "2026-11-26T06:08:22Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Assalto à mão armada em agência do Novo Banco em Albufeira está a ser investigado pela PJ",
+    "url": "https://postal.pt/algarve/assalto-a-mao-armada-em-agencia-do-novo-banco-em-albufeira-esta-a-ser-investigado-pela-pj/",
+    "published": "2026-11-20T17:30Z",
+    "date": "2026-11-20",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/?s=Albufeira&feed=rss2",
+    "read_at": "2026-11-26T06:08:22Z",
+    "mentions_place": true
+   },
+   {
+    "title": "MP pede perda de mandato do presidente da Câmara de Albufeira por nomeação da irmã",
+    "url": "https://postal.pt/politica/mp-pede-perda-de-mandato-do-presidente-da-camara-de-albufeira-por-nomeacao-da-irma/",
+    "published": "2026-11-20T07:45Z",
+    "date": "2026-11-20",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/?s=Albufeira&feed=rss2",
+    "read_at": "2026-11-26T06:08:22Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Ministério Público pede perda de mandato de Rui Cristina por nomeação da irmã na Câmara de Albufeira",
+    "url": "https://www.barlavento.pt/ministerio-publico-rui-cristina-perda-mandato-albufeira/",
+    "published": "2026-11-19T16:33Z",
+    "date": "2026-11-19",
+    "source": "Barlavento",
+    "source_site": "https://www.barlavento.pt/",
+    "feed": "https://www.barlavento.pt/?s=Albufeira&feed=rss2",
+    "read_at": "2026-11-26T06:08:15Z",
+    "mentions_place": true
+   }
+  ]
+ }
 }
