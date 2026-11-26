@@ -39,9 +39,14 @@
       "who": "Dinis",
       "what": "archive the 84 sessions recommended in sessions/README.md",
       "since": "2026-11-22T15:42Z"
+    },
+    {
+      "who": "Dinis",
+      "what": "cl-4.maestro's attach and vault push, so account D's request links reach b.decisions again",
+      "since": "2026-11-26T07:53Z"
     }
   ],
-  "updated": "2026-11-26T07:45Z",
+  "updated": "2026-11-26T07:53Z",
   "keys": [
     {
       "id": "decisions.d-agenticcells",
