@@ -5,7 +5,7 @@
 // The Portugal level is the existing portugal/ page, which links here. Built by conductor@PrompTugal.dinis at Dinis's
 // word (15 Nov 2026, for his meeting with Algarve Evolution); dev@ owns it from here.
 export const order = 69
-import { camLines } from './weather.mjs'
+import { camLines, quotesIpma } from './weather.mjs'
 import { checkSites } from '../../../board/abp/tools/site-identity.mjs'
 import { execFileSync } from 'node:child_process'
 import fs from 'node:fs'
@@ -44,7 +44,7 @@ function load(ctx) {
             sources: arr(d.sources).filter(s => s && s.name && okUrl(s.url)),
             events: arr(d.events).filter(e => e && e.title && okUrl(e.url)),
             extras: arr(d.extras).filter(x => x && x.label && x.value),
-            gaps: arr(d.gaps).filter(g => typeof g === 'string' && g.trim()),
+            gaps: arr(d.gaps).filter(g => typeof g === 'string' && g.trim() && !quotesIpma(g)),
             ...Object.fromEntries(['start_company', 'investors', 'talent', 'contacts'].map(k => [k, arr(d[k]).filter(x => x && x.name)])),
         }
         if (!/^#[0-9a-f]{6}$/i.test((d.look && d.look.accent) || '')) clean.look = { ...(d.look || {}), accent: undefined }

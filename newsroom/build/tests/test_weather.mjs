@@ -5,7 +5,7 @@ import fs from 'node:fs'
 import os from 'node:os'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { fill, fresh, camLines, CAM_PAGES } from '../features/weather.mjs'
+import { fill, fresh, camLines, CAM_PAGES, quotesIpma } from '../features/weather.mjs'
 const here = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../..')
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'weather-test-')); fs.mkdirSync(path.join(tmp, 'assets/weather'), { recursive: true })
 fs.copyFileSync(path.join(here, 'assets/weather/weather.json'), path.join(tmp, 'assets/weather/weather.json'))
@@ -38,6 +38,7 @@ put(60)
 t('a warnings feed older than 48 hours is not shown', [/Vento forte/.test(fill['weather:warnings'](null, ctx)), /more than 48 hours ago/.test(fill['weather:warnings'](null, ctx))], [false, true])
 t('nor the sea or the fire risk', [/Sagres/.test(fill['weather:sea'](null, ctx)), /high: 8/.test(fill['weather:fire'](null, ctx))], [false, false])
 t('nor a camera link', camLines(ctx, 'lisboa'), [])
+t('a note that quotes an IPMA warning level is left out of the metered pages; one that only says IPMA could not be read stays', [quotesIpma("IPMA's feed shows only the yellow sea warning (18 November 12:00 to 20 November 09:00)"), quotesIpma('IPMA warnings for today could not be read: the page returned a 404.'), quotesIpma('The CCDR notice was read from the list page only.')], [true, false, false])
 fs.rmSync(path.join(tmp, 'assets/weather/snapshot.json'))
 t('no snapshot: nothing is shown and nothing breaks', [fill['weather:warnings'](null, ctx), camLines(ctx, 'lisboa')], [W.missing, []])
 fs.rmSync(tmp, { recursive: true, force: true })
