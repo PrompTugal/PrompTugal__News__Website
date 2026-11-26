@@ -151,7 +151,22 @@
     var REASONS = [['clickbait', 'The headline promised more than the page gave'], ['not-relevant', 'Not relevant to me'], ['did-not-read', 'I did not really read it'], ['other', 'Another reason']]
     var USEFUL = ['Not useful', 'A little', 'As priced', 'Very', 'Excellent']
 
-    function footLine(m, k) {
+    // the zero moment (designer@'s spec of 26 Nov 2026): once per browser, when the credit reaches zero, one dismissible note in the foot line: never a modal, never over text,
+    // nothing locked. The top-up button is the spec's coming-soon state while no payment link exists.
+    var zero = ''
+    function zeroMoment(m) {
+        var line = document.getElementById('nr-meter-line')
+        if (!line || m.state.balance > 0 || zero === 'dismissed') return
+        if (!zero) { try { if (localStorage.getItem(m.cfg.storageKey + '.zero-seen')) return; localStorage.setItem(m.cfg.storageKey + '.zero-seen', '1') } catch (e) { return } zero = 'shown' }
+        if (line.querySelector('.nr-zero')) return
+        var pay = m.cfg.topup.link ? h('a', { class: 'btn primary', href: at(m.cfg.links.topup) }, 'Top up ' + m.money(m.cfg.topup.amount)) : h('span', { class: 'btn quiet', 'aria-disabled': 'true' }, 'Top up ' + m.money(m.cfg.topup.amount) + ': coming soon')
+        line.append(h('div', { class: 'nr-zero', role: 'note' },
+            h('p', {}, 'Your ' + m.money(m.cfg.start) + ' is used up. You can keep reading: every page still opens. If you would like to put ' + m.money(m.cfg.topup.amount) + ' in, you can.'),
+            h('p', { class: 'nr-zero-row' }, pay, m.cfg.topup.link ? null : h('span', { class: 'nr-small' }, 'No payment is taken yet.'), h('a', { href: at(m.cfg.links.account) }, 'How this works'),
+                h('button', { type: 'button', class: 'btn quiet', onclick: function () { zero = 'dismissed'; var z = line.querySelector('.nr-zero'); if (z) z.remove() } }, 'Dismiss'))))
+    }
+    function footLine(m, k) { footLineMain(m, k); zeroMoment(m) }
+    function footLineMain(m, k) {
         var body = document.querySelector('main .body')
         if (!body || m.status === 'free' || m.status === 'idle' || !m.entry) return
         var line = document.getElementById('nr-meter-line')
