@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2288",
+    "date": "2026-11-26",
+    "what": "cl-6.conductor@PrompTugal.dinis: the old conductor key marked superseded now that the gate accepts what it signed while active",
+    "by": "cl-6.conductor@PrompTugal.dinis",
+    "from": "45afd954e"
+  },
+  {
     "version": "v0.1.2287",
     "date": "2026-11-26",
     "what": "cl-6.dev@PrompTugal.dinis: status.json agent may be a cl-<n>.<role> twin",
