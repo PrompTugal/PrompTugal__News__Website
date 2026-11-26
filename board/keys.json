@@ -17,7 +17,8 @@
         "signing_fingerprint": "sha256:4a76444c8799594b"
       },
       "status": "superseded",
-      "superseded": "2026-11-25T22:49Z by conductor-promptugal-cl-6 (cl-6.conductor@PrompTugal.dinis, account F)"
+      "superseded": "2026-11-25T22:49Z by conductor-promptugal-cl-6 (cl-6.conductor@PrompTugal.dinis, account F)",
+      "superseded_in": "45afd954e85d"
     },
     {
       "id": "dev-promptugal-0",
@@ -37,7 +38,8 @@
       "status": "superseded",
       "superseded_at": "2026-11-06T23:12Z",
       "superseded_by": "dev-promptugal-1",
-      "superseded_note": "The first dev@ session handed over at 22:42 UTC when all of development moved to account B (board/the-account-move.md); this key stays here so its signatures can still be checked."
+      "superseded_note": "The first dev@ session handed over at 22:42 UTC when all of development moved to account B (board/the-account-move.md); this key stays here so its signatures can still be checked.",
+      "superseded_in": "f6f47f330db3"
     },
     {
       "id": "dev-promptugal-1",
@@ -57,7 +59,8 @@
       "status": "superseded",
       "superseded_at": "2026-11-16T19:32Z",
       "superseded_by": "dev-promptugal",
-      "superseded_note": "The account B dev@ session (6 to 13 November) was paused with every PrompTugal agent; dev@ restarts on this account on 16 November at 19:25 UTC (board/team/conductor.b/plans/2026-11-16-restart-here.md); this key stays here so its signatures can still be checked."
+      "superseded_note": "The account B dev@ session (6 to 13 November) was paused with every PrompTugal agent; dev@ restarts on this account on 16 November at 19:25 UTC (board/team/conductor.b/plans/2026-11-16-restart-here.md); this key stays here so its signatures can still be checked.",
+      "superseded_in": "f472f4d3294a"
     },
     {
       "id": "dev-promptugal",
@@ -96,7 +99,8 @@
       },
       "status": "superseded",
       "superseded_at": "2026-11-06T04:45Z",
-      "superseded_by": "designer-promptugal-2"
+      "superseded_by": "designer-promptugal-2",
+      "superseded_in": "2340783cf9bb"
     },
     {
       "id": "designer-promptugal-2",
@@ -115,7 +119,8 @@
       },
       "status": "superseded",
       "superseded_at": "2026-11-06T22:46Z",
-      "superseded_by": "designer-promptugal-3"
+      "superseded_by": "designer-promptugal-3",
+      "superseded_in": "4afaf7a715fa"
     },
     {
       "id": "designer-promptugal-3",
@@ -134,7 +139,8 @@
       },
       "status": "superseded",
       "superseded_at": "2026-11-16T19:32Z",
-      "superseded_by": "designer-promptugal-4"
+      "superseded_by": "designer-promptugal-4",
+      "superseded_in": "7ea75bb0bd01"
     },
     {
       "id": "designer-promptugal-4",
@@ -172,7 +178,8 @@
         "signing_fingerprint": "sha256:4a2f0ced8205f5dc"
       },
       "status": "superseded",
-      "superseded": "2026-11-06T22:50Z by designer.experiments-b-promptugal (account B session)"
+      "superseded": "2026-11-06T22:50Z by designer.experiments-b-promptugal (account B session)",
+      "superseded_in": "6e20643eb5d5"
     },
     {
       "id": "synthetic-promptugal-0",
@@ -192,7 +199,8 @@
       "status": "superseded",
       "superseded_at": "2026-11-06T22:45Z",
       "superseded_by": "synthetic-promptugal",
-      "superseded_note": "The first synthetic session handed over at 21:35 UTC when the role moved to Dinis's second account (board/the-account-move.md); its id moved from synthetic-promptugal to synthetic-promptugal-0 so the active key keeps the role's id (board/tools/agent_inboxes.py finds a sender by id)."
+      "superseded_note": "The first synthetic session handed over at 21:35 UTC when the role moved to Dinis's second account (board/the-account-move.md); its id moved from synthetic-promptugal to synthetic-promptugal-0 so the active key keeps the role's id (board/tools/agent_inboxes.py finds a sender by id).",
+      "superseded_in": "aa79d60e3f3d"
     },
     {
       "id": "synthetic-promptugal",
@@ -227,7 +235,8 @@
         "signing_fingerprint": "sha256:09dcfd5570d9d8f5"
       },
       "status": "superseded",
-      "superseded": "2026-11-06T22:50Z by outreach-b-promptugal (account B session)"
+      "superseded": "2026-11-06T22:50Z by outreach-b-promptugal (account B session)",
+      "superseded_in": "204cd1e1788f"
     },
     {
       "id": "ontologist-promptugal-0",
@@ -247,7 +256,8 @@
       "status": "superseded",
       "superseded_at": "2026-11-06T22:50Z",
       "superseded_by": "ontologist-promptugal",
-      "superseded_note": "The first ontologist session handed over at 21:40 UTC when the role moved to Dinis's second account (board/the-account-move.md); its id moved from ontologist-promptugal to ontologist-promptugal-0 so the active key keeps the role's id (board/tools/agent_inboxes.py finds a sender by id), as librarian@ did."
+      "superseded_note": "The first ontologist session handed over at 21:40 UTC when the role moved to Dinis's second account (board/the-account-move.md); its id moved from ontologist-promptugal to ontologist-promptugal-0 so the active key keeps the role's id (board/tools/agent_inboxes.py finds a sender by id), as librarian@ did.",
+      "superseded_in": "92ad921a4567"
     },
     {
       "id": "ontologist-promptugal-1",
@@ -267,7 +277,8 @@
       "status": "superseded",
       "superseded_at": "2026-11-16T19:40Z",
       "superseded_by": "ontologist-promptugal",
-      "superseded_note": "The account B session handed over (account move, 16 November 2026)"
+      "superseded_note": "The account B session handed over (account move, 16 November 2026)",
+      "superseded_in": "7f807faebf30"
     },
     {
       "id": "ontologist-promptugal",
@@ -307,7 +318,8 @@
       "status": "superseded",
       "superseded_at": "2026-11-06T22:50Z",
       "superseded_by": "journalist-promptugal",
-      "superseded_note": "The first journalist session handed over at 21:35 UTC when the role moved to Dinis's second account (board/the-account-move.md); its id moved from journalist-promptugal to journalist-promptugal-0 so the active key keeps the role's id. The articles it signed are re-signed by the new key (the gate accepts only active signers)."
+      "superseded_note": "The first journalist session handed over at 21:35 UTC when the role moved to Dinis's second account (board/the-account-move.md); its id moved from journalist-promptugal to journalist-promptugal-0 so the active key keeps the role's id. The articles it signed are re-signed by the new key (the gate accepts only active signers).",
+      "superseded_in": "9ff3f42454b1"
     },
     {
       "id": "journalist-promptugal-1",
@@ -327,7 +339,8 @@
       "status": "superseded",
       "superseded_at": "2026-11-16T19:35Z",
       "superseded_by": "journalist-promptugal",
-      "superseded_note": "the role restarted on this account at Dinis's word (board/guidance/2026-11-16-restart-here-go.md); the 18 articles this key signed were re-signed with the new key"
+      "superseded_note": "the role restarted on this account at Dinis's word (board/guidance/2026-11-16-restart-here-go.md); the 18 articles this key signed were re-signed with the new key",
+      "superseded_in": "5eb8c2ac86e6"
     },
     {
       "id": "journalist-promptugal",
@@ -385,7 +398,8 @@
         "signing_fingerprint": "sha256:ec0d0c60d25e2ae8"
       },
       "status": "superseded",
-      "superseded": "2026-11-06T22:50Z by historian-b-promptugal (account B session)"
+      "superseded": "2026-11-06T22:50Z by historian-b-promptugal (account B session)",
+      "superseded_in": "e83b40af1442"
     },
     {
       "id": "historian-b-promptugal",
@@ -420,7 +434,8 @@
         "signing_fingerprint": "sha256:daef48c7c5018fdc"
       },
       "status": "superseded",
-      "superseded": "2026-11-06T22:50Z by devops-b-promptugal (account B session)"
+      "superseded": "2026-11-06T22:50Z by devops-b-promptugal (account B session)",
+      "superseded_in": "e3fe3f4aede1"
     },
     {
       "id": "security-promptugal",
@@ -438,7 +453,8 @@
         "signing_fingerprint": "sha256:2e768b7ad63c24df"
       },
       "status": "superseded",
-      "superseded": "2026-11-16T19:30Z by security-promptugal-2 (the restart on this account; the old session paused at the account move, 15:40Z)"
+      "superseded": "2026-11-16T19:30Z by security-promptugal-2 (the restart on this account; the old session paused at the account move, 15:40Z)",
+      "superseded_in": "80e22343b054"
     },
     {
       "id": "accountant-promptugal",
@@ -475,7 +491,8 @@
       "status": "superseded",
       "superseded_at": "2026-11-06T22:46Z",
       "superseded_by": "correspondent-promptugal",
-      "superseded_note": "The first correspondent session handed over at 21:25 UTC when the role moved to Dinis's second account (board/the-account-move.md); its id moved from correspondent-promptugal to correspondent-promptugal-0 so the active key keeps the role's id (board/tools/agent_inboxes.py finds a sender by id)."
+      "superseded_note": "The first correspondent session handed over at 21:25 UTC when the role moved to Dinis's second account (board/the-account-move.md); its id moved from correspondent-promptugal to correspondent-promptugal-0 so the active key keeps the role's id (board/tools/agent_inboxes.py finds a sender by id).",
+      "superseded_in": "0faa70c4405d"
     },
     {
       "id": "sherpa-promptugal",
@@ -493,7 +510,8 @@
         "signing_fingerprint": "sha256:815546ef5b00a41c"
       },
       "status": "superseded",
-      "superseded": "2026-11-06T22:50Z by sherpa-b-promptugal (account B session)"
+      "superseded": "2026-11-06T22:50Z by sherpa-b-promptugal (account B session)",
+      "superseded_in": "f3d0ba162f21"
     },
     {
       "id": "librarian-promptugal-0",
@@ -513,7 +531,8 @@
       "status": "superseded",
       "superseded_at": "2026-11-06T22:30Z",
       "superseded_by": "librarian-promptugal",
-      "superseded_note": "The first librarian session handed over at 21:30 UTC when the role moved to Dinis's second account (board/the-account-move.md); its id moved from librarian-promptugal to librarian-promptugal-0 so the active key keeps the role's id (board/tools/agent_inboxes.py finds a sender by id)."
+      "superseded_note": "The first librarian session handed over at 21:30 UTC when the role moved to Dinis's second account (board/the-account-move.md); its id moved from librarian-promptugal to librarian-promptugal-0 so the active key keeps the role's id (board/tools/agent_inboxes.py finds a sender by id).",
+      "superseded_in": "26aec72dc771"
     },
     {
       "id": "librarian-promptugal-1",
@@ -532,7 +551,8 @@
       },
       "status": "superseded",
       "superseded": "2026-11-16T19:32Z",
-      "superseded_by": "librarian-promptugal"
+      "superseded_by": "librarian-promptugal",
+      "superseded_in": "b87a3e87dcb5"
     },
     {
       "id": "librarian-promptugal",
@@ -567,7 +587,8 @@
         "signing_fingerprint": "sha256:6975207c890c9415"
       },
       "status": "superseded",
-      "superseded": "2026-11-15T21:55Z by abp-promptugal-b (a new abp@ session, started at Dinis's word on 15 November 2026)"
+      "superseded": "2026-11-15T21:55Z by abp-promptugal-b (a new abp@ session, started at Dinis's word on 15 November 2026)",
+      "superseded_in": "da4f980c8c23"
     },
     {
       "id": "abp-promptugal-b",
@@ -585,7 +606,8 @@
         "signing_fingerprint": "sha256:efde361dad975baa"
       },
       "status": "superseded",
-      "superseded": "2026-11-16T19:52Z by abp-promptugal-c (a new abp@ session, started by conductor.b@PrompTugal.dinis at Dinis's word, 16 November 2026, about 19:25 UTC)"
+      "superseded": "2026-11-16T19:52Z by abp-promptugal-c (a new abp@ session, started by conductor.b@PrompTugal.dinis at Dinis's word, 16 November 2026, about 19:25 UTC)",
+      "superseded_in": "a27c26dd2efd"
     },
     {
       "id": "customers-promptugal",
@@ -603,7 +625,8 @@
         "signing_fingerprint": "sha256:c9343261a2d9c30a"
       },
       "status": "superseded",
-      "superseded": "2026-11-06T22:50Z by customers-b-promptugal (account B session)"
+      "superseded": "2026-11-06T22:50Z by customers-b-promptugal (account B session)",
+      "superseded_in": "5ddf71a2cf42"
     },
     {
       "id": "backup-promptugal",
@@ -621,7 +644,8 @@
         "signing_fingerprint": "sha256:be79ffe28ee62bcb"
       },
       "status": "superseded",
-      "superseded": "2026-11-06T22:50Z by backup-b-promptugal (account B session)"
+      "superseded": "2026-11-06T22:50Z by backup-b-promptugal (account B session)",
+      "superseded_in": "24c3e58d6294"
     },
     {
       "id": "dev.pages-promptugal",
@@ -640,7 +664,8 @@
         "signing_fingerprint": "sha256:051118dcdff18e56"
       },
       "superseded_at": "2026-11-06T23:10Z",
-      "superseded_by": "dev.pages-b-promptugal"
+      "superseded_by": "dev.pages-b-promptugal",
+      "superseded_in": "e4978c30da6e"
     },
     {
       "id": "dev.graphs-promptugal",
@@ -659,7 +684,8 @@
       },
       "status": "superseded",
       "superseded_at": "2026-11-06T23:12Z",
-      "superseded_by": "dev.graphs-promptugal-2"
+      "superseded_by": "dev.graphs-promptugal-2",
+      "superseded_in": "1bfcc69b0602"
     },
     {
       "id": "dev.graphs-promptugal-2",
@@ -695,7 +721,8 @@
       },
       "status": "superseded",
       "superseded_at": "2026-11-06T23:10Z",
-      "superseded_by": "dev.search-promptugal-2"
+      "superseded_by": "dev.search-promptugal-2",
+      "superseded_in": "9223abf9ee89"
     },
     {
       "id": "dev.verify-promptugal",
@@ -714,7 +741,8 @@
       },
       "status": "superseded",
       "superseded": "2026-11-06T23:10Z",
-      "superseded_by": "dev.verify-b-promptugal"
+      "superseded_by": "dev.verify-b-promptugal",
+      "superseded_in": "c5307f7abdbb"
     },
     {
       "id": "dev.verify-b-promptugal",
@@ -749,7 +777,8 @@
         "signing_fingerprint": "sha256:4ce62f3c4ce780cc"
       },
       "status": "superseded",
-      "superseded": "2026-11-06T23:12Z by dev.data-b-promptugal (account B session)"
+      "superseded": "2026-11-06T23:12Z by dev.data-b-promptugal (account B session)",
+      "superseded_in": "e37756a47ba1"
     },
     {
       "id": "researcher-promptugal-1",
@@ -767,7 +796,8 @@
         "signing_fingerprint": "sha256:f93bc841c931c599"
       },
       "status": "superseded",
-      "superseded": "2026-11-06T22:55Z by researcher-b-promptugal (account B session)"
+      "superseded": "2026-11-06T22:55Z by researcher-b-promptugal (account B session)",
+      "superseded_in": "da625fb72926"
     },
     {
       "id": "researcher-promptugal",
@@ -805,7 +835,8 @@
         "signing_fingerprint": "sha256:e712d2d2c9069311"
       },
       "status": "superseded",
-      "superseded": "2026-11-06T23:12Z by dev.portugal-b-promptugal (account B session)"
+      "superseded": "2026-11-06T23:12Z by dev.portugal-b-promptugal (account B session)",
+      "superseded_in": "833b006b71d6"
     },
     {
       "id": "journalist-vicky-promptugal",
@@ -823,7 +854,8 @@
         "signing_fingerprint": "sha256:9b06aaa9c85941a3"
       },
       "status": "superseded",
-      "superseded": "2026-11-10T11:57Z by journalist-vicky-promptugal-b (new session on Vicky's account)"
+      "superseded": "2026-11-10T11:57Z by journalist-vicky-promptugal-b (new session on Vicky's account)",
+      "superseded_in": "ef19e4ee5eb9"
     },
     {
       "id": "journalist-vicky-promptugal-b",
@@ -841,7 +873,8 @@
         "signing_fingerprint": "sha256:8dd04b857a2b77c9"
       },
       "status": "superseded",
-      "superseded": "2026-11-11T19:10Z by journalist-vicky-promptugal-c (the team account session, at the switch-back, standing answer 32)"
+      "superseded": "2026-11-11T19:10Z by journalist-vicky-promptugal-c (the team account session, at the switch-back, standing answer 32)",
+      "superseded_in": "3a83bf971694"
     },
     {
       "id": "journalist-connections-vicky-promptugal",
@@ -860,7 +893,8 @@
       },
       "status": "superseded",
       "superseded": "2026-11-10T11:58Z",
-      "superseded_by": "journalist-connections-vicky-promptugal-b"
+      "superseded_by": "journalist-connections-vicky-promptugal-b",
+      "superseded_in": "a4c1d2753047"
     },
     {
       "id": "journalist-connections-vicky-promptugal-b",
@@ -878,7 +912,8 @@
         "signing_fingerprint": "sha256:62410c7458f3ff31"
       },
       "status": "superseded",
-      "superseded": "2026-11-11T19:16Z by journalist-connections-vicky-promptugal-c (the team account session, at standing answer 32 of people/vicky/decisions.md on the team site)"
+      "superseded": "2026-11-11T19:16Z by journalist-connections-vicky-promptugal-c (the team account session, at standing answer 32 of people/vicky/decisions.md on the team site)",
+      "superseded_in": "6c07f1edb733"
     },
     {
       "id": "journalist-connections-vicky-promptugal-c",
@@ -914,7 +949,8 @@
       },
       "status": "superseded",
       "superseded_at": "2026-11-10T11:57Z",
-      "superseded_by": "journalist-portugal-vicky-promptugal-b"
+      "superseded_by": "journalist-portugal-vicky-promptugal-b",
+      "superseded_in": "05738f24cf52"
     },
     {
       "id": "reviewer-vicky-promptugal",
@@ -933,7 +969,8 @@
         "signing_fingerprint": "sha256:d26f3e5ec1db676c"
       },
       "superseded_at": "2026-11-06T19:50Z",
-      "superseded_by": "reviewer-vicky-promptugal-2"
+      "superseded_by": "reviewer-vicky-promptugal-2",
+      "superseded_in": "61ccc40f7481"
     },
     {
       "id": "reviewer-vicky-promptugal-2",
@@ -952,7 +989,8 @@
         "signing_fingerprint": "sha256:e08d700e4e0db741"
       },
       "superseded_at": "2026-11-10T12:00Z",
-      "superseded_by": "reviewer-vicky-promptugal-b"
+      "superseded_by": "reviewer-vicky-promptugal-b",
+      "superseded_in": "9d80fcdab7ce"
     },
     {
       "id": "reviewer-vicky-promptugal-b",
@@ -971,7 +1009,8 @@
         "record": "sha256:efd76bbe0f59fd99",
         "signing_fingerprint": "sha256:efd76bbe0f59fd99"
       },
-      "superseded": "2026-11-11T19:20Z, by reviewer-vicky-promptugal-3 (the team account's session, standing answer 32)"
+      "superseded": "2026-11-11T19:20Z, by reviewer-vicky-promptugal-3 (the team account's session, standing answer 32)",
+      "superseded_in": "99d0a6132022"
     },
     {
       "id": "curator-vicky-promptugal",
@@ -990,7 +1029,8 @@
       },
       "status": "superseded",
       "superseded_at": "2026-11-06T20:19Z",
-      "superseded_note": "Replaced by a new session at Vicky's word (scout's P17), 6 November 2026; the new session makes and publishes its own key. This key signed nothing on this site."
+      "superseded_note": "Replaced by a new session at Vicky's word (scout's P17), 6 November 2026; the new session makes and publishes its own key. This key signed nothing on this site.",
+      "superseded_in": "3f20ad863932"
     },
     {
       "id": "curator-vicky-2-promptugal",
@@ -1010,7 +1050,8 @@
       },
       "status": "superseded",
       "superseded_at": "2026-11-10T11:56Z",
-      "superseded_note": "Replaced by a new session on Vicky's own account, started by conductor.B@PrompTugal.vicky at Vicky's word, 10 November 2026; the earlier account ran out of usage. This key signed nothing on this site."
+      "superseded_note": "Replaced by a new session on Vicky's own account, started by conductor.B@PrompTugal.vicky at Vicky's word, 10 November 2026; the earlier account ran out of usage. This key signed nothing on this site.",
+      "superseded_in": "cd242c4e3fae"
     },
     {
       "id": "curator-vicky-promptugal-b",
@@ -1030,7 +1071,8 @@
       },
       "status": "superseded",
       "superseded_at": "2026-11-11T19:05Z",
-      "superseded_note": "Replaced by the team account's curator session at Vicky's word (standing answer 32, the switch-back, 11 Nov 2026); the new session made its own key. Never reactivated."
+      "superseded_note": "Replaced by the team account's curator session at Vicky's word (standing answer 32, the switch-back, 11 Nov 2026); the new session made its own key. Never reactivated.",
+      "superseded_in": "8b42680b3a43"
     },
     {
       "id": "curator-vicky-3-promptugal",
@@ -1083,7 +1125,8 @@
         "signing_fingerprint": "sha256:2d1801d4d6b81aef"
       },
       "status": "superseded",
-      "superseded": "2026-11-10T11:57Z"
+      "superseded": "2026-11-10T11:57Z",
+      "superseded_in": "7a12641fc769"
     },
     {
       "id": "programme-vicky-promptugal-b",
@@ -1102,7 +1145,8 @@
       },
       "status": "superseded",
       "superseded_at": "2026-11-11T19:08Z",
-      "superseded_note": "Replaced by the team account's programme session at Vicky's word (standing answer 32, the switch-back, 11 Nov 2026); the new session made its own key. Never reactivated."
+      "superseded_note": "Replaced by the team account's programme session at Vicky's word (standing answer 32, the switch-back, 11 Nov 2026); the new session made its own key. Never reactivated.",
+      "superseded_in": "b055a4e7fae6"
     },
     {
       "id": "journalist-europe-vicky-promptugal",
@@ -1122,7 +1166,8 @@
       "status": "superseded",
       "superseded_at": "2026-11-10T11:58Z",
       "superseded_by": "journalist-europe-vicky-promptugal-b",
-      "superseded_note": "The earlier session ran on another account that ran out of usage; the role moved to a new session on Vicky's own account on 10 November 2026 (onboarding by conductor.B@PrompTugal.vicky). This key stays so its signatures can still be checked."
+      "superseded_note": "The earlier session ran on another account that ran out of usage; the role moved to a new session on Vicky's own account on 10 November 2026 (onboarding by conductor.B@PrompTugal.vicky). This key stays so its signatures can still be checked.",
+      "superseded_in": "d7b634e919ee"
     },
     {
       "id": "journalist-europe-vicky-promptugal-b",
@@ -1141,7 +1186,8 @@
       },
       "status": "superseded",
       "superseded_at": "2026-11-11T19:13Z",
-      "superseded_by": "journalist-europe-vicky-promptugal-c"
+      "superseded_by": "journalist-europe-vicky-promptugal-c",
+      "superseded_in": "f7f9d9c1edb2"
     },
     {
       "id": "journalist-ai-vicky-promptugal",
@@ -1161,7 +1207,8 @@
       "status": "superseded",
       "superseded_at": "2026-11-10T11:56Z",
       "superseded_by": "journalist-ai-vicky-promptugal-b",
-      "superseded_note": "The earlier session ran on another account that ran out of usage; journalist-ai@PrompTugal.vicky took over in a new session on Vicky's own account on 10 November 2026 (desks/conductor-vicky/onboarding/journalist-ai.md). This key stays so its signatures can still be checked."
+      "superseded_note": "The earlier session ran on another account that ran out of usage; journalist-ai@PrompTugal.vicky took over in a new session on Vicky's own account on 10 November 2026 (desks/conductor-vicky/onboarding/journalist-ai.md). This key stays so its signatures can still be checked.",
+      "superseded_in": "f45ee71b44c1"
     },
     {
       "id": "journalist-ai-vicky-promptugal-b",
@@ -1180,7 +1227,8 @@
       },
       "status": "superseded",
       "superseded_at": "2026-11-11T19:16Z",
-      "superseded_by": "journalist-ai-vicky-promptugal-2"
+      "superseded_by": "journalist-ai-vicky-promptugal-2",
+      "superseded_in": "174ff5b75d9e"
     },
     {
       "id": "checker-vicky-promptugal",
@@ -1199,7 +1247,8 @@
       },
       "status": "superseded",
       "superseded": "2026-11-10T11:56Z",
-      "superseded_by": "checker-vicky-promptugal-b"
+      "superseded_by": "checker-vicky-promptugal-b",
+      "superseded_in": "a8cbb98511ea"
     },
     {
       "id": "claims-issuer-promptugal",
@@ -1233,7 +1282,8 @@
         "signing_fingerprint": "sha256:5795e1959875387e"
       },
       "status": "superseded",
-      "superseded": "2026-11-10T12:10Z by dev-vicky-promptugal-b (Vicky's own account session)"
+      "superseded": "2026-11-10T12:10Z by dev-vicky-promptugal-b (Vicky's own account session)",
+      "superseded_in": "8ffa513dc46a"
     },
     {
       "id": "investors-promptugal",
@@ -1251,7 +1301,8 @@
         "signing_fingerprint": "sha256:f44298c6cc19ca3f"
       },
       "status": "superseded",
-      "superseded": "2026-11-06T22:50Z by investors-b-promptugal (account B session)"
+      "superseded": "2026-11-06T22:50Z by investors-b-promptugal (account B session)",
+      "superseded_in": "121c9c7a8f8c"
     },
     {
       "id": "conductor.b-promptugal",
@@ -1326,7 +1377,8 @@
         "signing_fingerprint": "sha256:27e31c309115516e"
       },
       "status": "superseded",
-      "superseded": "2026-11-16T19:35Z by researcher-promptugal (new session, account A)"
+      "superseded": "2026-11-16T19:35Z by researcher-promptugal (new session, account A)",
+      "superseded_in": "bf1afa07ad45"
     },
     {
       "id": "devops-b-promptugal",
@@ -1363,7 +1415,8 @@
         "signing_fingerprint": "sha256:fd327f683fdeb6ad"
       },
       "status": "superseded",
-      "superseded": "2026-11-16T19:35Z by outreach-c-promptugal (restart on this account, 16 Nov 2026)"
+      "superseded": "2026-11-16T19:35Z by outreach-c-promptugal (restart on this account, 16 Nov 2026)",
+      "superseded_in": "281b1dd27ac6"
     },
     {
       "id": "investors-b-promptugal",
@@ -1418,7 +1471,9 @@
       },
       "status": "superseded",
       "superseded_by": "correspondent-promptugal",
-      "superseded_note": "The account B session handed over; superseded at 2026-11-16T19:30Z by the session started by conductor.b@PrompTugal.dinis on this account (board/guidance/2026-11-16-restart-here-go.md). Its id moved to -b so the active key keeps the role id."
+      "superseded_note": "The account B session handed over; superseded at 2026-11-16T19:30Z by the session started by conductor.b@PrompTugal.dinis on this account (board/guidance/2026-11-16-restart-here-go.md). Its id moved to -b so the active key keeps the role id.",
+      "superseded_in": "3e120607ea0a",
+      "superseded_at": "2026-11-16T19:30Z"
     },
     {
       "id": "sherpa-b-promptugal",
@@ -1437,7 +1492,8 @@
         "signing_fingerprint": "sha256:66809fbd319dae5a"
       },
       "status": "superseded",
-      "superseded": "2026-11-16T19:35Z by sherpa-promptugal-3 (account B restart session)"
+      "superseded": "2026-11-16T19:35Z by sherpa-promptugal-3 (account B restart session)",
+      "superseded_in": "9d87060aa803"
     },
     {
       "id": "dev.search-promptugal-2",
@@ -1635,7 +1691,8 @@
         "signing_fingerprint": "sha256:87a4ab3d4d231bb0"
       },
       "status": "superseded",
-      "superseded": "2026-11-11T19:13Z by journalist-portugal-vicky-promptugal-c (the team account session, at standing answer 32 of people/vicky/decisions.md on the team site)"
+      "superseded": "2026-11-11T19:13Z by journalist-portugal-vicky-promptugal-c (the team account session, at standing answer 32 of people/vicky/decisions.md on the team site)",
+      "superseded_in": "5bef7d64e180"
     },
     {
       "id": "journalist-portugal-vicky-promptugal-c",
@@ -1672,7 +1729,8 @@
       },
       "status": "superseded",
       "superseded_at": "2026-11-11T19:21Z",
-      "superseded_by": "dev-vicky-promptugal-c"
+      "superseded_by": "dev-vicky-promptugal-c",
+      "superseded_in": "ea719cee7f31"
     },
     {
       "id": "checker-vicky-promptugal-b",
@@ -1690,7 +1748,8 @@
         "signing_fingerprint": "sha256:946a20db81a9823d"
       },
       "status": "superseded",
-      "superseded": "2026-11-11T19:21Z"
+      "superseded": "2026-11-11T19:21Z",
+      "superseded_in": "dd168f05b109"
     },
     {
       "id": "weather-vicky-promptugal",
@@ -1776,7 +1835,8 @@
         "signing_fingerprint": "sha256:2f7b009fb8c94153"
       },
       "status": "superseded",
-      "superseded": "2026-11-11T10:45Z"
+      "superseded": "2026-11-11T10:45Z",
+      "superseded_in": "bf6affd9d69f"
     },
     {
       "id": "conductor.fringe-promptugal",
@@ -1845,7 +1905,8 @@
         "signing_fingerprint": "sha256:9c16424f1889540d"
       },
       "status": "superseded",
-      "superseded": "2026-11-14T09:30Z"
+      "superseded": "2026-11-14T09:30Z",
+      "superseded_in": "bf49d6d20edb"
     },
     {
       "id": "conductor-vicky-3-promptugal",
@@ -1882,7 +1943,8 @@
       },
       "status": "superseded",
       "superseded_at": "2026-11-14T10:37Z",
-      "superseded_note": "The same session became reporter@PrompTugal.vicky at Vicky's word (14 Nov 2026, the repurposing hand-over) and made a fresh key, reporter-vicky-promptugal. Never reactivated."
+      "superseded_note": "The same session became reporter@PrompTugal.vicky at Vicky's word (14 Nov 2026, the repurposing hand-over) and made a fresh key, reporter-vicky-promptugal. Never reactivated.",
+      "superseded_in": "55bfb2e7096c"
     },
     {
       "id": "journalist-vicky-promptugal-c",
@@ -1900,7 +1962,8 @@
         "signing_fingerprint": "sha256:962def922dc5c2b7"
       },
       "status": "superseded",
-      "superseded": "2026-11-14T10:40Z by internal-vicky in the team site's data/keys.json (the same session, repurposed as internal@web-summit.vicky at Vicky's word, 14 November 2026, standing answer 34)"
+      "superseded": "2026-11-14T10:40Z by internal-vicky in the team site's data/keys.json (the same session, repurposed as internal@web-summit.vicky at Vicky's word, 14 November 2026, standing answer 34)",
+      "superseded_in": "4f3e757a73a6"
     },
     {
       "id": "journalist-europe-vicky-promptugal-c",
@@ -2042,7 +2105,8 @@
       },
       "superseded_at": "2026-11-16T19:35Z",
       "superseded_by": "dev.places-promptugal-2",
-      "superseded_note": "The first dev.places@ session paused for the account move on 16 November 2026 (board/team/dev.places/debriefs/2026-11-16-account-move.md); a new session took over. This key stays so its signatures can still be checked."
+      "superseded_note": "The first dev.places@ session paused for the account move on 16 November 2026 (board/team/dev.places/debriefs/2026-11-16-account-move.md); a new session took over. This key stays so its signatures can still be checked.",
+      "superseded_in": "c638e17e8a3e"
     },
     {
       "id": "place.aljezur-promptugal",
@@ -2099,7 +2163,8 @@
         "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEuxdcxIQLBfUqKhXx6UwK9IU+i1h3\nv3FsspVnXqxHfrmOSiyZPTL7ii1KloMYfQV0IdGO5UsT5q99SXP/rXE0Cw==\n-----END PUBLIC KEY-----\n"
       },
       "superseded_at": "2026-11-16T19:33Z",
-      "superseded_by": "designer.places-2-promptugal"
+      "superseded_by": "designer.places-2-promptugal",
+      "superseded_in": "ec94dbd0f1d8"
     },
     {
       "id": "place.vila-do-bispo-promptugal",
@@ -2177,7 +2242,9 @@
         "signing_fingerprint": "sha256:99a76a4e5cad5183"
       },
       "superseded": "2026-11-16T22:45:00Z",
-      "superseded_by": "site.alcoutim-promptugal-2"
+      "superseded_by": "site.alcoutim-promptugal-2",
+      "superseded_in": "a919b540f5e0",
+      "superseded_at": "2026-11-16T23:40Z"
     },
     {
       "id": "place.quarteira-promptugal",
@@ -2218,7 +2285,8 @@
       "site": "https://promptugal.news/algarve/quarteira/",
       "superseded_at": "2026-11-16T19:50Z",
       "superseded_by": "site.quarteira-promptugal",
-      "superseded_note": "The earlier place session ended in the account move of 16 November 2026; this key stays so its signatures can still be checked."
+      "superseded_note": "The earlier place session ended in the account move of 16 November 2026; this key stays so its signatures can still be checked.",
+      "superseded_in": "80a490581896"
     },
     {
       "id": "place.portugal-promptugal",
@@ -2329,7 +2397,8 @@
       },
       "superseded_at": "2026-11-16T19:50Z",
       "superseded_by": "site.albufeira-promptugal",
-      "superseded_note": "The earlier place session ended in the account move of 16 November 2026; this key stays so its signatures can still be checked."
+      "superseded_note": "The earlier place session ended in the account move of 16 November 2026; this key stays so its signatures can still be checked.",
+      "superseded_in": "80a490581896"
     },
     {
       "id": "place.vila-real-de-santo-antonio-promptugal",
@@ -2369,7 +2438,9 @@
       "kind": "site",
       "site": "https://promptugal.news/algarve/vila-real-de-santo-antonio/",
       "superseded": "2026-11-16T22:45:00Z",
-      "superseded_by": "site.vila-real-de-santo-antonio-promptugal-2"
+      "superseded_by": "site.vila-real-de-santo-antonio-promptugal-2",
+      "superseded_in": "a919b540f5e0",
+      "superseded_at": "2026-11-16T23:40Z"
     },
     {
       "id": "place.sao-bras-de-alportel-promptugal",
@@ -2408,7 +2479,8 @@
       },
       "superseded_at": "2026-11-16T19:50Z",
       "superseded_by": "site.sao-bras-de-alportel-promptugal",
-      "superseded_note": "The earlier place session ended in the account move of 16 November 2026; this key stays so its signatures can still be checked."
+      "superseded_note": "The earlier place session ended in the account move of 16 November 2026; this key stays so its signatures can still be checked.",
+      "superseded_in": "80a490581896"
     },
     {
       "id": "place.lagos-promptugal",
@@ -2484,7 +2556,9 @@
         "signing_fingerprint": "sha256:e44d384ebf19ba54"
       },
       "superseded": "2026-11-16T22:45:00Z",
-      "superseded_by": "site.algarve-promptugal-2"
+      "superseded_by": "site.algarve-promptugal-2",
+      "superseded_in": "a919b540f5e0",
+      "superseded_at": "2026-11-16T23:40Z"
     },
     {
       "id": "place.lagoa-promptugal",
@@ -2561,7 +2635,8 @@
       },
       "superseded_at": "2026-11-16T19:50Z",
       "superseded_by": "site.faro-promptugal",
-      "superseded_note": "The earlier place session ended in the account move of 16 November 2026; this key stays so its signatures can still be checked."
+      "superseded_note": "The earlier place session ended in the account move of 16 November 2026; this key stays so its signatures can still be checked.",
+      "superseded_in": "80a490581896"
     },
     {
       "id": "place.olhao-promptugal",
@@ -2602,7 +2677,8 @@
       },
       "superseded_at": "2026-11-16T19:50Z",
       "superseded_by": "site.olhao-promptugal",
-      "superseded_note": "The earlier place session ended in the account move of 16 November 2026; this key stays so its signatures can still be checked."
+      "superseded_note": "The earlier place session ended in the account move of 16 November 2026; this key stays so its signatures can still be checked.",
+      "superseded_in": "80a490581896"
     },
     {
       "id": "place.tavira-promptugal",
@@ -2640,7 +2716,9 @@
         "signing_fingerprint": "sha256:344b8829b9663022"
       },
       "superseded": "2026-11-16T22:45:00Z",
-      "superseded_by": "site.tavira-promptugal-2"
+      "superseded_by": "site.tavira-promptugal-2",
+      "superseded_in": "a919b540f5e0",
+      "superseded_at": "2026-11-16T23:40Z"
     },
     {
       "id": "place.castro-marim-promptugal",
@@ -2680,7 +2758,9 @@
         "signing_fingerprint": "sha256:e6d37066243d18b3"
       },
       "superseded": "2026-11-16T22:45:00Z",
-      "superseded_by": "site.castro-marim-promptugal-2"
+      "superseded_by": "site.castro-marim-promptugal-2",
+      "superseded_in": "a919b540f5e0",
+      "superseded_at": "2026-11-16T23:40Z"
     },
     {
       "id": "place.silves-promptugal",
@@ -2797,7 +2877,8 @@
       },
       "superseded_at": "2026-11-16T19:50Z",
       "superseded_by": "site.loule-promptugal",
-      "superseded_note": "The earlier place session ended in the account move of 16 November 2026; this key stays so its signatures can still be checked."
+      "superseded_note": "The earlier place session ended in the account move of 16 November 2026; this key stays so its signatures can still be checked.",
+      "superseded_in": "80a490581896"
     },
     {
       "id": "data.places-promptugal",
@@ -2869,7 +2950,8 @@
         "signing_fingerprint": "sha256:943b31bbe841bc1a"
       },
       "superseded_at": "2026-11-16T19:31Z",
-      "superseded_by": "datasci.places-promptugal-b"
+      "superseded_by": "datasci.places-promptugal-b",
+      "superseded_in": "c1dcc394ecf2"
     },
     {
       "id": "place.districts-promptugal-2",
@@ -2911,7 +2993,8 @@
         "record": "sha256:f4b0ff0e02f68a66",
         "signing_fingerprint": "sha256:f4b0ff0e02f68a66"
       },
-      "superseded": "2026-11-17T00:36Z (second place.districts@ session)"
+      "superseded": "2026-11-17T00:36Z (second place.districts@ session)",
+      "superseded_in": "5ddee1874b9a"
     },
     {
       "id": "site.porto-promptugal",
@@ -2932,7 +3015,8 @@
         "record": "sha256:32dcdc45681ebadb",
         "signing_fingerprint": "sha256:32dcdc45681ebadb"
       },
-      "superseded": "2026-11-17T00:36Z (second place.districts@ session)"
+      "superseded": "2026-11-17T00:36Z (second place.districts@ session)",
+      "superseded_in": "5ddee1874b9a"
     },
     {
       "id": "site.braga-promptugal",
@@ -2953,7 +3037,8 @@
         "record": "sha256:e28741c6be4a2991",
         "signing_fingerprint": "sha256:e28741c6be4a2991"
       },
-      "superseded": "2026-11-17T00:36Z (second place.districts@ session)"
+      "superseded": "2026-11-17T00:36Z (second place.districts@ session)",
+      "superseded_in": "5ddee1874b9a"
     },
     {
       "id": "site.viana-do-castelo-promptugal",
@@ -2974,7 +3059,8 @@
         "record": "sha256:f957f57b8be00bf4",
         "signing_fingerprint": "sha256:f957f57b8be00bf4"
       },
-      "superseded": "2026-11-17T02:36Z (second place.districts@ session)"
+      "superseded": "2026-11-17T02:36Z (second place.districts@ session)",
+      "superseded_in": "26bc34bb51b7"
     },
     {
       "id": "site.vila-real-promptugal",
@@ -2995,7 +3081,8 @@
         "record": "sha256:d8f241eeccce43d4",
         "signing_fingerprint": "sha256:d8f241eeccce43d4"
       },
-      "superseded": "2026-11-17T02:36Z (second place.districts@ session)"
+      "superseded": "2026-11-17T02:36Z (second place.districts@ session)",
+      "superseded_in": "26bc34bb51b7"
     },
     {
       "id": "site.braganca-promptugal",
@@ -3016,7 +3103,8 @@
         "record": "sha256:bc2a10c19747d110",
         "signing_fingerprint": "sha256:bc2a10c19747d110"
       },
-      "superseded": "2026-11-17T02:36Z (second place.districts@ session)"
+      "superseded": "2026-11-17T02:36Z (second place.districts@ session)",
+      "superseded_in": "26bc34bb51b7"
     },
     {
       "id": "site.aveiro-promptugal-2",
@@ -3057,7 +3145,8 @@
         "record": "sha256:619d9bc658ffb7be",
         "signing_fingerprint": "sha256:619d9bc658ffb7be"
       },
-      "superseded": "2026-11-17T02:36Z (second place.districts@ session)"
+      "superseded": "2026-11-17T02:36Z (second place.districts@ session)",
+      "superseded_in": "26bc34bb51b7"
     },
     {
       "id": "site.guarda-promptugal",
@@ -3078,7 +3167,8 @@
         "record": "sha256:634670f6f582ced1",
         "signing_fingerprint": "sha256:634670f6f582ced1"
       },
-      "superseded": "2026-11-17T02:36Z (second place.districts@ session)"
+      "superseded": "2026-11-17T02:36Z (second place.districts@ session)",
+      "superseded_in": "26bc34bb51b7"
     },
     {
       "id": "site.coimbra-promptugal",
@@ -3099,7 +3189,8 @@
         "record": "sha256:9ea54c94dba26b55",
         "signing_fingerprint": "sha256:9ea54c94dba26b55"
       },
-      "superseded": "2026-11-17T00:36Z (second place.districts@ session)"
+      "superseded": "2026-11-17T00:36Z (second place.districts@ session)",
+      "superseded_in": "5ddee1874b9a"
     },
     {
       "id": "site.castelo-branco-promptugal",
@@ -3120,7 +3211,8 @@
         "record": "sha256:1378226953731ad0",
         "signing_fingerprint": "sha256:1378226953731ad0"
       },
-      "superseded": "2026-11-17T04:36Z (second place.districts@ session)"
+      "superseded": "2026-11-17T04:36Z (second place.districts@ session)",
+      "superseded_in": "6a4f05fc0757"
     },
     {
       "id": "site.leiria-promptugal-2",
@@ -3161,7 +3253,8 @@
         "record": "sha256:cf24477817a9c62f",
         "signing_fingerprint": "sha256:cf24477817a9c62f"
       },
-      "superseded": "2026-11-17T04:36Z (second place.districts@ session)"
+      "superseded": "2026-11-17T04:36Z (second place.districts@ session)",
+      "superseded_in": "6a4f05fc0757"
     },
     {
       "id": "site.portalegre-promptugal",
@@ -3182,7 +3275,8 @@
         "record": "sha256:49f4ad19bf0de91c",
         "signing_fingerprint": "sha256:49f4ad19bf0de91c"
       },
-      "superseded": "2026-11-17T04:36Z (second place.districts@ session)"
+      "superseded": "2026-11-17T04:36Z (second place.districts@ session)",
+      "superseded_in": "6a4f05fc0757"
     },
     {
       "id": "site.setubal-promptugal",
@@ -3203,7 +3297,8 @@
         "record": "sha256:5e32bf53f706aa59",
         "signing_fingerprint": "sha256:5e32bf53f706aa59"
       },
-      "superseded": "2026-11-17T04:36Z (second place.districts@ session)"
+      "superseded": "2026-11-17T04:36Z (second place.districts@ session)",
+      "superseded_in": "6a4f05fc0757"
     },
     {
       "id": "site.evora-promptugal",
@@ -3224,7 +3319,8 @@
         "record": "sha256:805295fc112037c3",
         "signing_fingerprint": "sha256:805295fc112037c3"
       },
-      "superseded": "2026-11-17T04:36Z (second place.districts@ session)"
+      "superseded": "2026-11-17T04:36Z (second place.districts@ session)",
+      "superseded_in": "6a4f05fc0757"
     },
     {
       "id": "site.beja-promptugal",
@@ -3245,7 +3341,8 @@
         "record": "sha256:390c99ccaabc423a",
         "signing_fingerprint": "sha256:390c99ccaabc423a"
       },
-      "superseded": "2026-11-17T04:36Z (second place.districts@ session)"
+      "superseded": "2026-11-17T04:36Z (second place.districts@ session)",
+      "superseded_in": "6a4f05fc0757"
     },
     {
       "id": "translator-promptugal",
@@ -3264,7 +3361,8 @@
         "signing_fingerprint": "sha256:27730bacdfe55b1d"
       },
       "superseded": "2026-11-16T19:33Z",
-      "superseded_by": "translator-promptugal-2"
+      "superseded_by": "translator-promptugal-2",
+      "superseded_in": "8c0f107aabef"
     },
     {
       "id": "translator-promptugal-2",
@@ -4083,7 +4181,8 @@
         "record": "sha256:383807062e16b9c9",
         "signing_fingerprint": "sha256:383807062e16b9c9"
       },
-      "superseded": "2026-11-17T04:49Z (public half overwritten in place at 19:31 on 16 Nov by the second session; restored here, the new key is place.districts-promptugal-2)"
+      "superseded": "2026-11-17T04:49Z (public half overwritten in place at 19:31 on 16 Nov by the second session; restored here, the new key is place.districts-promptugal-2)",
+      "superseded_in": "65a205672e8a"
     },
     {
       "id": "site.aveiro-promptugal",
@@ -4104,7 +4203,8 @@
         "record": "sha256:12b7eb629f6797ca",
         "signing_fingerprint": "sha256:12b7eb629f6797ca"
       },
-      "superseded": "2026-11-17T04:49Z (public half overwritten in place at 19:31 on 16 Nov by the second session; restored here, the new key is site.aveiro-promptugal-2)"
+      "superseded": "2026-11-17T04:49Z (public half overwritten in place at 19:31 on 16 Nov by the second session; restored here, the new key is site.aveiro-promptugal-2)",
+      "superseded_in": "65a205672e8a"
     },
     {
       "id": "site.leiria-promptugal",
@@ -4125,7 +4225,8 @@
         "record": "sha256:36e871cdcd393bd7",
         "signing_fingerprint": "sha256:36e871cdcd393bd7"
       },
-      "superseded": "2026-11-17T04:49Z (public half overwritten in place at 19:31 on 16 Nov by the second session; restored here, the new key is site.leiria-promptugal-2)"
+      "superseded": "2026-11-17T04:49Z (public half overwritten in place at 19:31 on 16 Nov by the second session; restored here, the new key is site.leiria-promptugal-2)",
+      "superseded_in": "65a205672e8a"
     },
     {
       "id": "observability-promptugal-2",
@@ -4145,7 +4246,8 @@
       "status": "superseded",
       "superseded_at": "2026-11-18T01:35Z",
       "superseded_by": "observability-promptugal",
-      "superseded_note": "Session 2 was started by mistake on 17 November (the first session still existed and held the drain's credentials); at Dinis's word on 18 November session 1 carries on and this key is retired. Nothing was sealed to it."
+      "superseded_note": "Session 2 was started by mistake on 17 November (the first session still existed and held the drain's credentials); at Dinis's word on 18 November session 1 carries on and this key is retired. Nothing was sealed to it.",
+      "superseded_in": "d9c309fced51"
     },
     {
       "id": "data.b-promptugal",
