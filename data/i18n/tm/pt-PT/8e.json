@@ -15,6 +15,30 @@
   "src": "A day-long conference in the council's main hall on 15 June ",
   "ok": false
  },
+ "8e6ba34089d86bab": {
+  "t": "Disponibilidade (uptime) é a parte do tempo em que um serviço funciona. Um SLA, sigla de acordo de nível de serviço, é a promessa escrita sobre ela. Um crédito de serviço é dinheiro abatido a uma fatura posterior quando a promessa não é cumprida. Quem compra serviços de IA ou de nuvem deve ler como a inatividade é contada, e não apenas o número.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Uptime is the share of time a service works. An SLA, short f",
+  "ok": false
+ },
+ "8ea3efa014f8c5bf": {
+  "t": "[Anthropic, \"Service tiers\"](https://docs.claude.com/en/api/service-tiers) (o nível padrão de melhor esforço, o objetivo do Priority Tier), lido a 26 de novembro de 2026",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "[Anthropic, \"Service tiers\"](https://docs.claude.com/en/api/",
+  "ok": false
+ },
+ "8eaac5c43d617982": {
+  "t": "**Isto não é uma classificação.** As promessas cobrem serviços, níveis e clientes diferentes, pelo que não se podem pôr numa só ordem.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**This is not a ranking.** The promises cover different serv",
+  "ok": false
+ },
  "8ededdc755b1fa1e": {
   "t": "A página de notícias da instituição lista a segunda edição da microcredencial Educação e IA, anunciada a 15 de maio de 2026. A brochura do curso descreve 27 horas sobre o uso crítico e ético da IA generativa no ensino, com sessões presenciais em Viseu.",
   "by": "translator@PrompTugal.dinis",

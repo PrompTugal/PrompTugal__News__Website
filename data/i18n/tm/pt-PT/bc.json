@@ -39,6 +39,14 @@
   "src": "The open-source model for European Portuguese, built by a co",
   "ok": false
  },
+ "bce05ae458c2a2f1": {
+  "t": "**Não lemos a página de tfl.gov.uk,** que recusou o nosso pedido por volta das 15:50 UTC de 26 de novembro; o comunicado da TfL foi lido no site da sua sala de imprensa. O site do próprio RMT devolveu um erro às tentativas anteriores do correspondente e respondeu quando o lemos, por volta das 15:55 UTC.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**We did not read tfl.gov.uk's page,** which refused our req",
+  "ok": false
+ },
  "bce4171009b6eb45": {
   "t": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
   "by": "translator@PrompTugal.dinis",

@@ -1,4 +1,12 @@
 {
+ "535e4f95938391cf": {
+  "t": "Os maquinistas do metro do sindicato RMT deviam iniciar a primeira de oito greves às 12:00 de quinta-feira, 26 de novembro de 2026; o comunicado do sindicato desse dia diz que a ação estava a “começar hoje”. As outras sete começam a 17 e 19 de dezembro, 4 e 6 de janeiro, e 17, 23 e 25 de fevereiro.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Tube drivers in the RMT union were due to begin the first of",
+  "ok": false
+ },
  "53869087adbcd8c5": {
   "t": "A conferência de bibliotecas de Setúbal põe a IA na prateleira",
   "by": "translator@PrompTugal.dinis",

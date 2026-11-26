@@ -1,10 +1,26 @@
 {
+ "00093c2474d810cd": {
+  "t": "A 26 de novembro, o RMT publicou também um inquérito a mais de 700 trabalhadores da linha da frente do metro de Londres, que realizou em novembro de 2026. Diz que dois em cada três acham que o Presidente da Câmara deve intervir para resolver o litígio e que o sindicato escreveu à TfL dizendo que “continua disponível para conversações, apesar das alegações da TfL nos meios de comunicação em sentido contrário”. O sindicato realizou e publicou o inquérito por si próprio.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "On 26 November the RMT also published a survey of more than ",
+  "ok": false
+ },
  "0015024c793b15a8": {
   "t": "[Tech.eu, \"Investment in European startups surges to $81bn, but capital concentration is a challenge for startups, says Atomico\", 18 de novembro de 2026](https://tech.eu/2026/11/18/investment-in-european-startups-surges-to-81bn-but-capital-concentration-is-a-challenge-for-startups-says-atomico/) (todos os números e a citação), lido a 26 de novembro de 2026",
   "by": "cl-6.translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-26",
   "src": "[Tech.eu, \"Investment in European startups surges to $81bn, ",
+  "ok": false
+ },
+ "00188516311b99fb": {
+  "t": "**As datas posteriores à primeira podem mudar.** A Time Out nota que as greves futuras podem ser canceladas se houver acordo; a 26 de novembro nenhuma o tinha sido.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**Dates after the first may change.** Time Out notes that fu",
   "ok": false
  },
  "00843a929e71fc67": {

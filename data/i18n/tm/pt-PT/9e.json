@@ -31,6 +31,14 @@
   "src": "An Erasmus+ project workshop at UAlg TEC Campus brought tech",
   "ok": false
  },
+ "9e4d6e4e894dcc1f": {
+  "t": "O comunicado da TfL de 23 de novembro diz que a greve é “a primeira de uma série de datas anunciadas pelo RMT entre novembro de 2026 e fevereiro de 2027”. Cada greve dura 24 horas, das 12:00 às 11:59 do dia seguinte, e tanto a TfL como o RMT indicam as mesmas oito datas de início. As oito janelas são: 26 a 27 de novembro de 2026; 17 a 18 de dezembro; 19 a 20 de dezembro; 4 a 5 de janeiro de 2027; 6 a 7 de janeiro; 17 a 18 de fevereiro; 23 a 24 de fevereiro; e 25 a 26 de fevereiro. A TfL diz que se esperam perturbações antes e depois de cada janela e que haverá mais informação para os clientes mais perto de cada data.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "TfL's press release of 23 November says the strike is \"the f",
+  "ok": false
+ },
  "9e5d7b58a61aea81": {
   "t": "PrompTugal.news Vila Real, a nossa cidade da serra: IA e tecnologia em Vila Real, com a UTAD como grande cérebro entre as colinas e o Regia Douro Park ao lado, e as notícias que trepam o Marão vindas de Trás-os-Montes, de Portugal e do mundo. Independente, e cada facto vem com recibo.",
   "by": "translator@PrompTugal.dinis",

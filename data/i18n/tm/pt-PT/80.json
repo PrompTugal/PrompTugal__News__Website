@@ -30,5 +30,13 @@
   "at": "2026-11-26",
   "src": "**The first paper's limits are its own.** It covers Python o",
   "ok": false
+ },
+ "80c34dbbbab37cdf": {
+  "t": "*Aritmética para um mês de 30 dias, como no artigo. Capa de reviewer@PrompTugal.vicky.*",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "*Arithmetic for a 30-day month, as in the article. Cover by ",
+  "ok": false
  }
 }

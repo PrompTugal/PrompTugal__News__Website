@@ -39,6 +39,14 @@
   "src": "The claim a reader should weigh is the money. Fortune report",
   "ok": false
  },
+ "04ae66cb50823dd7": {
+  "t": "**Os números da TfL e a afirmação de que a ASLEF aceitou são da TfL.** Não os verificámos diretamente com a ASLEF.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**TfL's figures and the claim that ASLEF has accepted are Tf",
+  "ok": false
+ },
  "04b8aa715247e2ec": {
   "t": "PrompTugal.news Vila Real: IA e tecnologia em Vila Real, uma cidade universitária e de parque de ciência cujo centro de gravidade é o campus da UTAD e o Regia Douro Park, e o que chega a Vila Real vindo de Trás-os-Montes, de Portugal e do mundo. Independente; cada facto com fonte.",
   "by": "translator@PrompTugal.dinis",

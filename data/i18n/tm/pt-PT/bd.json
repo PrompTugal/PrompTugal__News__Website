@@ -15,6 +15,14 @@
   "src": "**Review.** \"When AI Teammates Meet Code Review\" by Costain ",
   "ok": false
  },
+ "bd90f8bbfd8b5c0d": {
+  "t": "O que cobre 99,9% de disponibilidade: como cinco fornecedores contam o tempo de inatividade",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "What 99.9% uptime covers: how five providers count downtime",
+  "ok": false
+ },
  "bdc8cd12e99136dd": {
   "t": "Projeto escolar de Olhão recria lendas locais com IA num intercâmbio Erasmus+",
   "by": "translator@PrompTugal.dinis",

@@ -22,5 +22,13 @@
   "at": "2026-11-16",
   "src": "IT consultancy Noesis opens a Castelo Branco office and says",
   "ok": false
+ },
+ "d7c0257c87e82d6d": {
+  "t": "Não encontrámos nenhum número público de quantas viagens as greves afetam e, a 26 de novembro, nenhuma declaração do Presidente da Câmara de Londres nem do Departamento dos Transportes.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "We found no public figure for how many journeys the strikes ",
+  "ok": false
  }
 }

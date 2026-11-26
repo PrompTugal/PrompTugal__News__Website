@@ -39,6 +39,22 @@
   "src": "Deutsche Welle was to describe adapting content for audience",
   "ok": false
  },
+ "787268699fdb1ea1": {
+  "t": "O gráfico: janelas de greve e pormenor por linha do primeiro dia do comunicado PN-259 da TfL, 23 de novembro de 2026 (lido a 26 de novembro de 2026), com os comunicados do próprio RMT para as datas. As datas posteriores à primeira podem mudar.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "The chart: strike windows and first-day line detail from TfL",
+  "ok": false
+ },
+ "78ba24dc1416257a": {
+  "t": "**GitLab.** A página cobre o serviço alojado da GitLab, não o GitLab autogerido, no nível Ultimate comprado ou renovado a partir de 1 de janeiro de 2026. Promete 99,9% em cada mês civil para issues e merge requests, operações Git, os registos de contentores e de pacotes e os pedidos de API para estes. Um minuto de inatividade é aquele em que 5% ou mais dos pedidos válidos de clientes terminam em erros de servidor. A manutenção programada e de emergência, a força maior e os problemas gerais da internet são excluídos. Os créditos são 5% das taxas mensais abaixo de 99,9% e 10% abaixo de 99,5%.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**GitLab.** The page covers GitLab's hosted service, not sel",
+  "ok": false
+ },
  "78bee850bc310c70": {
   "t": "Criar uma empresa em {name}",
   "by": "translator@PrompTugal.dinis",

@@ -1,4 +1,12 @@
 {
+ "f30a8bb7a588bf6e": {
+  "t": "[GitLab Handbook, \"Service Level Agreement\"](https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/service-level-agreement/) (a promessa de 99,9%, o minuto de inatividade, as exclusões, os créditos), lido a 26 de novembro de 2026",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "[GitLab Handbook, \"Service Level Agreement\"](https://handboo",
+  "ok": false
+ },
  "f30e26d27493f31a": {
   "t": "Um almoço de trabalho a 5 de março de 2026, promovido pelo novobanco e pela AEP no âmbito do Portugal Export +60'30, reuniu cerca de 30 líderes empresariais para discutir a IA e as exportações.",
   "by": "translator@PrompTugal.dinis",

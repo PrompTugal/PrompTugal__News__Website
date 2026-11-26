@@ -15,6 +15,14 @@
   "src": "## What the 50 billion euros is, and is not",
   "ok": false
  },
+ "ba78d02c3c17c65e": {
+  "t": "![As oito janelas de greve dos maquinistas do metro, de novembro de 2026 a fevereiro de 2027: cada uma vai das 12:00 às 11:59 do dia seguinte, com início a 26 de novembro, 17 e 19 de dezembro, 4 e 6 de janeiro, e 17, 23 e 25 de fevereiro.](https://promptugal.news/api/v1/charts/tube-strikes-2026.svg)",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "![The eight Tube driver strike windows, November 2026 to Feb",
+  "ok": false
+ },
  "ba82092f0fba1546": {
   "t": "Lisboa é onde as universidades constroem centros de dados, os institutos ganham milhões, e um modelo de linguagem nacional ganha palco no Técnico. As startups vêm para Alvalade, os investidores-anjo vêm com os livros de cheques, e a Câmara, abençoada seja, guarda os seus planos de IA para si por agora. Investigação e startups, sim senhor, não a câmara municipal.",
   "by": "translator@PrompTugal.dinis",

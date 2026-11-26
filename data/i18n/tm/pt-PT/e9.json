@@ -1,4 +1,12 @@
 {
+ "e93106c08849b9aa": {
+  "t": "[RMT, \"Tube drivers to take eight days of strike action over attacks on working conditions\", 6 de novembro de 2026](https://www.rmt.org.uk/news/tube-drivers-to-take-eight-days-of-strike-action-over-attacks/) (as datas do RMT e a sua versão do litígio), lido a 26 de novembro de 2026",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "[RMT, \"Tube drivers to take eight days of strike action over",
+  "ok": false
+ },
  "e94ec82166240854": {
   "t": "PrompTugal.news Beja: IA e tecnologia em Beja, capital de distrito do Baixo Alentejo, cujo centro de gravidade é a sua universidade politécnica e o trabalho de IA na agricultura e na saúde à sua volta, e o que chega a Beja vindo do Alentejo, de Portugal e do mundo. Independente; cada facto com fonte.",
   "by": "translator@PrompTugal.dinis",

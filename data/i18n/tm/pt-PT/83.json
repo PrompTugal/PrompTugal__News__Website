@@ -1,4 +1,12 @@
 {
+ "8384970262f62ac4": {
+  "t": "Uma promessa de disponibilidade é um número mais regras sobre o que conta como inatividade, em que período e o que o cliente recebe. As páginas dos próprios cinco fornecedores, lidas a 26 de novembro de 2026, diferem nos três pontos.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "An uptime promise is a number plus rules for what counts as ",
+  "ok": false
+ },
  "83c2b6b5c4403524": {
   "t": "A conferência gratuita do GDG Faro decorre a 27 e 28 de novembro no Campus da Penha da Universidade do Algarve, com workshops e palestras sobre como construir, proteger e escalar aplicações de IA.",
   "by": "translator@PrompTugal.dinis",

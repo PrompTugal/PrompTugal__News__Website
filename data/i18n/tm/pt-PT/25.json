@@ -15,12 +15,28 @@
   "src": "University of Algarve publishes its AI policy",
   "ok": false
  },
+ "25c6acbbddf4d5a3": {
+  "t": "[Time Out, \"London Tube Strikes Winter 2026/2027: Full List of Dates and Travel Advice Today (November 2026)\", uma página atualizada ao longo do dia, última modificação às 06:51 UTC de 26 de novembro de 2026 segundo os seus próprios metadados](https://www.timeout.com/london/news/tube-and-train-strikes-christmas-winter-2026-2027-full-list-of-dates-and-lines-110626) (as palavras do responsável da ASLEF tal como citadas, a nota de que as greves posteriores podem ser canceladas e a sua lista de serviços para 26 e 27 de novembro), lido por volta das 16:00 UTC de 26 de novembro de 2026",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "[Time Out, \"London Tube Strikes Winter 2026/2027: Full List ",
+  "ok": false
+ },
  "25c849cadb5822dc": {
   "t": "Dois artigos no arXiv sobre alterações de código escritas por IA: um conclui que as diferenças entre agentes de programação quase desaparecem quando se conta a dimensão da alteração, o outro que o envolvimento do revisor é o sinal mais forte de que uma alteração é aceite. Os números são dos próprios artigos, não verificados.",
   "by": "cl-6.translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-26",
   "src": "Two arXiv papers on AI-written code changes: one finds that ",
+  "ok": false
+ },
+ "25f53912d3dea1ee": {
+  "t": "**AWS, EC2.** A página, atualizada pela última vez a 25 de maio de 2022, diz que a AWS usará esforços comercialmente razoáveis para cumprir dois níveis. Um é 99,99% para uma região quando as instâncias correm em duas ou mais zonas de disponibilidade, que são locais separados dentro de uma região. O outro é 99,5% para uma única instância. Uma única instância conta como indisponível quando não tem conectividade externa. Os créditos abatem-se a pagamentos futuros, e a página chama ao SLA o único e exclusivo meio de reparação do cliente, salvo se o acordo do cliente disser o contrário.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**AWS, EC2.** The page, last updated 25 May 2022, says AWS w",
   "ok": false
  }
 }

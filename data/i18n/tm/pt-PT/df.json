@@ -7,6 +7,14 @@
   "src": "Viseu hospital group buys PRR-funded scanners that include A",
   "ok": false
  },
+ "df144f4f0735e9f8": {
+  "t": "**Nenhum número de viagens, nenhum número de custos e nenhuma estimativa** de quantas pessoas as greves afetam foi publicado nas fontes que lemos. A 26 de novembro de 2026, não encontrámos nenhuma declaração sobre as greves do Presidente da Câmara de Londres nem do Departamento dos Transportes.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**No journeys figure, no cost figure and no estimate** of ho",
+  "ok": false
+ },
  "df24535cc67a8c1e": {
   "t": "O perfil inclui uma frase de Filipe Coutinho, gestor de desenvolvimento de negócio, na secção sobre a construção de centros tecnológicos em Portugal: “As empresas vêm para Portugal pelo talento, mas o que faz a diferença é ter um parceiro que já o fez antes.”",
   "by": "cl-6.translator@PrompTugal.dinis",

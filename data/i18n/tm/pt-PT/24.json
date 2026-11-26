@@ -7,6 +7,14 @@
   "src": "Eurostat, the EU's statistics office, publishes the same que",
   "ok": false
  },
+ "24667972aec41b49": {
+  "t": "*Horas do comunicado PN-259 da TfL de 23 de novembro de 2026. As datas posteriores à primeira podem mudar.*",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "*Times from TfL's press release PN-259 of 23 Nov 2026. Dates",
+  "ok": false
+ },
  "247659ba2dee21c1": {
   "t": "A página da Fortune não diz Porto; o local de fundação é do The Next Web. Ambos dão o número de trabalhadores.",
   "by": "cl-6.translator@PrompTugal.dinis",

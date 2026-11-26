@@ -7,6 +7,14 @@
   "src": "On 8 April 2026 the Guarda polytechnic's technology school h",
   "ok": false
  },
+ "67a1828241c23352": {
+  "t": "[Google Cloud, \"Gemini Online Inference API on Gemini Enterprise Agent Platform Service Level Agreement (SLA)\"](https://cloud.google.com/vertex-ai/generative-ai/sla) (o objetivo de 99,5%, a definição de inatividade, os créditos), lido a 26 de novembro de 2026",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "[Google Cloud, \"Gemini Online Inference API on Gemini Enterp",
+  "ok": false
+ },
  "67c1a8e2293feed1": {
   "t": "Um novo projeto escolar deveria abrir em setembro de 2026 com ensino básico e secundário em Ciências e Tecnologias, aprendizagem aplicada a desafios locais e um centro de investigação que acompanha os seus métodos de ensino. Até agora, a maioria dos alunos de Aljezur tinha de se deslocar a Lagos ou Portimão depois do 9.º ano. O artigo não menciona IA.",
   "by": "translator@PrompTugal.dinis",

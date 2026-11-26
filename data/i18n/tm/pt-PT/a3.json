@@ -7,6 +7,14 @@
   "src": "Invisible CFO, founded in 2024 and housed in the Monchique b",
   "ok": false
  },
+ "a34fc1f8f4b37cee": {
+  "t": "O número, sozinho, permite muito. Num mês de 30 dias com 43 200 minutos, 99,9% admite cerca de 43 minutos de inatividade, 99,5% cerca de 3,6 horas e 99,99% cerca de 4 minutos. Isto é aritmética, não o número de nenhum fornecedor.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "The number alone allows a lot. In a 30-day month of 43,200 m",
+  "ok": false
+ },
  "a35e2e051e4faf81": {
   "t": "PrompTugal.news Quarteira: IA e tecnologia em Quarteira, uma cidade de praia e golfe cuja freguesia inclui Vilamoura, e o que chega a Quarteira vindo de Loulé, do Algarve, de Portugal e do mundo. Independente; cada facto com fonte.",
   "by": "translator@PrompTugal.dinis",

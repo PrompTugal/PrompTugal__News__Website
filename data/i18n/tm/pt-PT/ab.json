@@ -7,6 +7,14 @@
   "src": "A two-year project listed by the university's research offic",
   "ok": false
  },
+ "ab793e6444823aaf": {
+  "t": "**Não dizemos quem tem razão.** A TfL e o RMT discordam sobre se a proposta é voluntária e sobre o que custa aos maquinistas. A versão de cada lado aqui é a sua, tirada do seu próprio comunicado.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**We do not say who is right.** TfL and the RMT disagree on ",
+  "ok": false
+ },
  "aba7aa34a9e303a2": {
   "t": "O consórcio EdgeOnVespa, liderado pela empresa Dotlabs com o MORE CoLAB, a federação nacional de apicultores e a Anbeit, constrói um sistema de computação na periferia que usa IA para encontrar e seguir a vespa e desencadear o controlo. É cofinanciado pelo programa NORTE2030.",
   "by": "translator@PrompTugal.dinis",

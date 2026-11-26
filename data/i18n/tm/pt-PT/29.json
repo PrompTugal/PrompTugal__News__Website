@@ -22,5 +22,13 @@
   "at": "2026-11-26",
   "src": "Neither measures problems in production, and they ask differ",
   "ok": false
+ },
+ "29be0cb0bbf1be69": {
+  "t": "Os termos comerciais da Anthropic, tal como lidos, não assumem nenhum compromisso de disponibilidade. O seu objetivo de 99,5% é para um nível antigo, fechado a novos compradores.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Anthropic's commercial terms, as read, make no uptime commit",
+  "ok": false
  }
 }

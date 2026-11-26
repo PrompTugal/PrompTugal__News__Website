@@ -1,4 +1,12 @@
 {
+ "cd19ed4cc5a3fad0": {
+  "t": "**Anthropic.** A sua página de níveis de serviço diz que o nível padrão tem disponibilidade de melhor esforço. Diz que o Priority Tier “visa 99,5 por cento de disponibilidade”. A página diz também que os níveis de serviço são antigos. Os compromissos de capacidade do Priority Tier já não estão disponíveis para compra, e as organizações com um compromisso existente podem usá-lo até ao fim do contrato. A página não define inatividade nem créditos. Os Termos Comerciais dizem que os serviços são fornecidos “TAL COMO ESTÃO” e “CONFORME DISPONÍVEIS” e que não se garante que sejam ininterruptos. Nenhum compromisso de disponibilidade apareceu nos termos, tal como lidos.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**Anthropic.** Its service-tiers page says the standard tier",
+  "ok": false
+ },
  "cd337f06fade32ec": {
   "t": "O programa de empreendedorismo da câmara lista startups com que se reuniu, entre as quais AntAtlas (camada de contexto para agentes de programação com IA), Braining (reabilitação com IA após AVC), CAPTAIN (treinador de basquetebol com IA), PromoRealtor (IA para marketing imobiliário), WiseWorld (IA que mede competências humanas) e Planta Smart Homes (IA física para edifícios). A página indica que estas são algumas das startups encontradas, não o total.",
   "by": "translator@PrompTugal.dinis",
