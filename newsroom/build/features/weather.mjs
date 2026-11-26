@@ -30,7 +30,7 @@ export { fillers as fill }
 
 // a place's note that quotes an IPMA warning level (cl-6.rights' R1 residual, 26 Nov 2026): IPMA's values may show only on the free /weather/ page, never on a metered page
 // or in the API, so such a note is left out of the town pages until the place agent drops it. A note that only says IPMA could not be read stays.
-export const quotesIpma = g => /\bIPMA\b[^.]*\b(warning|warnings|feed)\b[^.]*\b(yellow|orange|red|green)\b/i.test(String(g))
+export const quotesIpma = g => /\bIPMA\b[^.]*\b(warning|warnings|feed)\b[^.]*\b(yellow|orange|red|green)\b/i.test(String(g).slice(0, 500))
 
 // the camera links for one town, for its "Now in" block: cleared operators only, only when the camera feed was read in the last 48 hours
 export function camLines(ctx, placeId, now = new Date()) {
