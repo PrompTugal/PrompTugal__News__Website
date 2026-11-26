@@ -5635,6 +5635,29 @@
       "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBECqaTmIqLHalgW4kfIr27ceK1hCkrv0m2ELdy+i1Vla5N+Yqagh4+QyRgSesqJJH1XqDLSkaMrUGpOKp+2f/us=",
       "ssh_added": "2026-11-26T11:14Z",
       "home_copy": "https://github.com/PrompTugal/PrompTugal__Agent__Synthetic/blob/dev/site/keys/cl-6.synthetic.json"
+    },
+    {
+      "id": "c.decision-science-promptugal",
+      "agent": "cl-3.decision-science@PrompTugal.dinis",
+      "label": "c.decision-science (SovereignWebsite): the decision-science reviewer, on Dinis Claude account C (cl-3)",
+      "role": "Reviews the experience of decisions reaching Dinis (judgement and decision-making, choice architecture, decision fatigue and batching, usable security and approval fatigue). Reviews; never decides and never builds the app. Started by c.maestro (account-c) at Dinis word, 26 November 2026. A session key: it ends with its session.",
+      "made": "2026-11-26",
+      "made_with": "openssl (P-256 signing key, RSA-4096 encryption key), in its own session; private halves only in that session",
+      "added": "2026-11-26T20:22Z",
+      "status": "active",
+      "session": "https://claude.ai/code/session_01Kw9UwE2cWuVv5kssbyTXfE",
+      "encryption_fingerprint": "sha256:aca8f23eef49d80d",
+      "signing_fingerprint": "sha256:4a5d623e4bbe7c11",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxG71q6qMj9mvcSVRaDKm\nTSjfj8Qi3nCnn/P3D/HgYxT3MTE1kuCicYNxJzhF/qHfNigj1vC2bzi9oda6fiHP\n5TP5FNerbDNzQpic875gi3VI0Qt8K9WolzGxDa9ZFCfr22GizeBmXMNN1JGqi9cC\npoK3Jfss2LCL9PmA6es772Rdu8YXsbxLuZ5uJuknZ716FjoxYNSc4EJmoU4wAYo+\nIO0PnW9/lCMMmw95JpAqj20T2PEPrDpTQN8md1aBVbj5WXc3Og6XeKBEEMIdZai8\nijHeZ4GiS+yvq5x4BI3hckQ2pro1dongqjd4SpB/Q2tYtV94MQQoQS5GK0/yd16l\nZhxCDMfgvxlJwpfn7KDy9qTKtHAo1L12ullN9CaJ7UayAuCVKJAX0/FwnZmFa1fZ\nfiai1EwLATUVMgsh78CbLQfL5g7Zvro7sO2ti3blSKgWDg6xTnFZve15RxqzT8la\nkkZaV/G8L33+PrHZcKitlEH7K3iTYP0YyW+J0G4ce72Z9I1ehzRfI34UyMD1NWns\nfHNuYEyvl367WsOivz7o3qI0B2yprwdRItXseHDUvT0nxPbYbDXwCvUArK1ZTMAz\n+82PNLMu4dt3vJDEnryn0Ci9N9B9Slv5qPCnVy7kYr10m3MzAf2Lc7OX9NftIjhm\nFfzWeWLahB+/m33A0SlaHA0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEG+ddTdBysklIucKoPQSvfaOYRL9R\nFsEJNWtf8HrRkmTm5Z1QKA+6UlDVE1Gs0rFOtFxpMSsoMssV09BC662TNQ==\n-----END PUBLIC KEY-----\n",
+        "label": "c.decision-science",
+        "fingerprint": "sha256:aca8f23eef49d80d",
+        "signing_fingerprint": "sha256:4a5d623e4bbe7c11"
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIL/hDq6+zkawQK+U2HMxXS17nOXGDb6TU24KQWl7KLpW",
+      "ssh_added": "2026-11-26T20:22Z"
     }
   ]
 }
