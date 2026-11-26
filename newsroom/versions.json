@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2340",
+    "date": "2026-11-26",
+    "time": "2026-11-26T20:02:31Z",
+    "what": "cl-6.dev@PrompTugal.dinis: front page: an 'explainer' field in the correspondent's front-page.json (label and path) shows a link to the pay-for-what-you-read page, only when that page exists",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "e2aa8f550"
+  },
+  {
     "version": "v0.1.2339",
     "date": "2026-11-26",
     "time": "2026-11-26T19:43:24Z",
