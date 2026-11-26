@@ -271,13 +271,14 @@ for (const f of html) {
 // 15. what rests only on websummit.com (lib/wsonly.mjs; the pass 2026-11-11-only-websummit-sourced-comes-off): counted
 // at every run; while the switch is off this is a dry run and nothing served changes
 {
-    try { warnings.push(execFileSync(process.execPath, [path.join(__dirname, 'lib/keys-changes-cli.mjs')], { cwd: __dirname, encoding: 'utf8' }).trim()) } catch (e) { errors.push('wsonly: ' + e.message) }
+    try { warnings.push(execFileSync(process.execPath, [path.join(__dirname, 'lib/wsonly-cli.mjs')], { cwd: __dirname, encoding: 'utf8' }).trim()) } catch (e) { errors.push('wsonly: ' + e.message) }
 }
 
-// 16. a change to board/keys.json belongs to the agent it concerns (lib/keys-changes.mjs; cl-6.security's follow-up 1b): a WARN until Dinis's
-// key is published in board/keys.json, then an error
+// 16. a change to board/keys.json belongs to the agent it concerns (lib/keys-changes.mjs; cl-6.security's follow-up 1b): a WARN until an operator's
+// fingerprint is in newsroom/tools/operator-keys.json (Dinis's key is not published yet), then an error
 {
-    try { for (const p of execFileSync(process.execPath, [path.join(__dirname, 'lib/keys-changes-cli.mjs')], { cwd: __dirname, encoding: 'utf8' }).split('\n').filter(Boolean)) warnings.push('keys.json: ' + p) } catch (e) { warnings.push('keys.json: ' + String(e.message).split('\n')[0]) }
+    let sink = warnings; try { if (JSON.parse(read('newsroom/tools/operator-keys.json')).operators.length) sink = errors } catch { sink = errors }
+    try { for (const p of execFileSync(process.execPath, [path.join(__dirname, 'lib/keys-changes-cli.mjs')], { cwd: __dirname, encoding: 'utf8' }).split('\n').filter(Boolean)) sink.push('keys.json: ' + p) } catch (e) { sink.push('keys.json: ' + String(e.message).split('\n')[0]) }
 }
 
 // 17. a commit stays in its signer's ABP paths (lib/abp-paths.mjs; A7, cl-6.security's access review): warnings for a day, then errors

@@ -11,7 +11,7 @@ import path from 'node:path'
 import { ROOT } from './config.mjs'
 import { envProblem } from './git-env.mjs'
 
-export const ROOT_FILES = ['newsroom/tools/place-signers.json', 'newsroom/tools/place-sources.json', 'newsroom/tools/keys-baseline.json', 'newsroom/tools/abp-paths.json', 'newsroom/tools/abp-signers.json']
+export const ROOT_FILES = ['newsroom/tools/place-signers.json', 'newsroom/tools/place-sources.json', 'newsroom/tools/keys-baseline.json', 'newsroom/tools/abp-paths.json', 'newsroom/tools/abp-signers.json', 'newsroom/tools/operator-keys.json']
 const AGENTS = /^(cl-\d+\.)?(dev|conductor)@PrompTugal\.dinis$/
 const SSH = /^(ecdsa-sha2-nistp256|ssh-ed25519) AAAA[A-Za-z0-9+/]{40,}={0,3}$/
 

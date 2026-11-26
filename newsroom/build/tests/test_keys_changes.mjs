@@ -69,6 +69,21 @@ t('a missing baseline is reported, not passed', checkKeyChanges({ root: tmp, bas
     r = step([...keys, { ...BAD, status: 'superseded' }], KQ, 'the bad-PEM entry is changed')
     t('a PEM that does not convert is no key', r.some(x => /p-3 changed/.test(x)), true)
 }
+// an operator is recognised by the fingerprint listed in operator-keys.json, never by a name in board/keys.json (cl-6.security, 26 Nov 2026)
+{
+    const KO = key('o'), KM = key('m'), fp = k => /(SHA256:\S+)/.exec(execFileSync('ssh-keygen', ['-lf', k.file + '.pub'], { encoding: 'utf8' }))[1]
+    const OPK = E('o-1', 'dinis@x', KO), FAKE = E('m-1', 'operator@x', KM), V = E('v-1', 'v@x', KX), W2 = E('w-1', 'w@x', KX)
+    const base0 = commit([...keys, OPK, FAKE, V], KO, 'an operator key and an agent called operator are published'); prev = base0
+    const withOps = k => checkKeyChanges({ root: tmp, baseline: base0, operators: k })
+    let c1 = commit([...keys, OPK, FAKE, { ...V, status: 'superseded' }], KO, 'the operator retires V')
+    t('an operator, by fingerprint, may change another agent\'s entry', withOps([fp(KO)]), [])
+    t('with no operator listed the same commit is reported', withOps([]).length, 1)
+    prev = c1; let c2 = commit([...keys, OPK, FAKE, { ...V, status: 'active' }], KM, 'an agent called operator re-activates V')
+    const r2 = checkKeyChanges({ root: tmp, baseline: c1, operators: [fp(KO)] })
+    t('a key whose entry is named operator is not an operator: re-activation reported', [r2.length, /v-1 re-activated/.test(r2[0] || '')], [1, true])
+    prev = c2; commit([...keys, OPK, FAKE, { ...V, status: 'active' }, { ...OPK, status: 'superseded' }], KO, 'the operator key itself is retired by its own signature')
+    t('an operator, active in the parent, may retire its own key', checkKeyChanges({ root: tmp, baseline: c2, operators: [fp(KO)] }).length, 0)
+}
 fs.rmSync(tmp, { recursive: true, force: true })
 if (bad) { console.error(`${bad} failed`); process.exit(1) }
 console.log('test_keys_changes: OK')
