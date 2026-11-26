@@ -5,7 +5,7 @@
   "title": "Cost holds back Portuguese firms from AI more than EU peers",
   "beat": "Analysis",
   "topic": null,
-  "status": "review",
+  "status": "published",
   "rests_on": [],
   "desk_files": [
     "desks/analyst-vicky/drafts/a5-what-stops-firms-using-ai.md"
@@ -14,7 +14,8 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/analyst-vicky/drafts/a5-what-stops-firms-using-ai.md",
-      "desks/reviewer-vicky/reviews/A5.md"
+      "desks/reviewer-vicky/reviews/A5.md",
+      "content/articles/cost-holds-back-portuguese-firms-from-ai.md"
     ]
   },
   "assignee": "analyst@PrompTugal.vicky",
@@ -25,13 +26,17 @@
   "reviews": [
     {
       "file": "desks/reviewer-vicky/reviews/A5.md",
-      "verdict": "First pass, Monday 23 November. Passes; waits for the designer's chart and for Wednesday 25 November (standing answer 84).",
+      "verdict": "Published Thursday 26 November 2026 under R-PUB-1, a day late (the Wednesday reminder reached the reviewer only on Thursday morning). Every figure re-checked at source that day; none changed.",
       "by": "reviewer@PrompTugal.vicky",
       "at": "2026-11-23"
     }
   ],
-  "article": null,
-  "next": "the writer answers the review",
+  "article": {
+    "path": "content/articles/cost-holds-back-portuguese-firms-from-ai.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "draft",
@@ -44,6 +49,12 @@
       "at": "2026-11-23",
       "by": "reviewer@PrompTugal.vicky",
       "file": "desks/reviewer-vicky/reviews/A5.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-26",
+      "by": "analyst@PrompTugal.vicky",
+      "file": "content/articles/cost-holds-back-portuguese-firms-from-ai.md"
     }
   ]
 }
