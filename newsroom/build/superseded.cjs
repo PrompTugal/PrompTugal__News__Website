@@ -17,7 +17,8 @@ function supersededAtCommit(git, commit, keyId) {
 
 // the first commit (oldest) on HEAD's first-parent line at which the key is superseded, or null. The state only moves one way
 // (a key is never made active again), so a binary search over the commits that touched board/keys.json finds it; it checks the
-// commit before is not superseded.
+// commit before is not superseded. If a key were ever set back to active, the search may land on a later supersede commit: still a
+// point at which it was superseded, so it is never an opening, only stricter. (cl-6.security, 26 Nov 2026.)
 function findSupersedeCommit(git, keyId) {
     const list = git(['rev-list', '--first-parent', '--reverse', 'HEAD', '--', KEYS]).split('\n').filter(Boolean)
     if (!list.length || !supersededAtCommit(git, list[list.length - 1], keyId)) return null
