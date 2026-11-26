@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2323",
+    "date": "2026-11-26",
+    "time": "2026-11-26T15:56:58Z",
+    "what": "cl-6.devops@PrompTugal.dinis: each new versions.json row carries a UTC time (PT decision, for the accountants' cost per release)",
+    "by": "cl-6.devops@PrompTugal.dinis",
+    "from": "f883e4d42"
+  },
+  {
     "version": "v0.1.2322",
     "date": "2026-11-26",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
