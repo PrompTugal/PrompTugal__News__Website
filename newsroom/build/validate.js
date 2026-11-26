@@ -271,15 +271,13 @@ for (const f of html) {
 // 15. what rests only on websummit.com (lib/wsonly.mjs; the pass 2026-11-11-only-websummit-sourced-comes-off): counted
 // at every run; while the switch is off this is a dry run and nothing served changes
 {
-    const js = "import { wsGate } from './lib/wsonly.mjs'; import { loadData } from './lib/data.mjs'; console.log(wsGate(loadData()))"
-    try { warnings.push(execFileSync(process.execPath, ['--input-type=module', '-e', js], { cwd: __dirname, encoding: 'utf8' }).trim()) } catch (e) { errors.push('wsonly: ' + e.message) }
+    try { warnings.push(execFileSync(process.execPath, [path.join(__dirname, 'lib/keys-changes-cli.mjs')], { cwd: __dirname, encoding: 'utf8' }).trim()) } catch (e) { errors.push('wsonly: ' + e.message) }
 }
 
 // 16. a change to board/keys.json belongs to the agent it concerns (lib/keys-changes.mjs; cl-6.security's follow-up 1b): a WARN until Dinis's
 // key is published in board/keys.json, then an error
 {
-    const js = "import{checkKeyChanges as c}from'./lib/keys-changes.mjs';for(const p of c())console.log(p)"
-    try { for (const p of execFileSync(process.execPath, ['--input-type=module', '-e', js], { cwd: __dirname, encoding: 'utf8' }).split('\n').filter(Boolean)) warnings.push('keys.json: ' + p) } catch (e) { warnings.push('keys.json: ' + String(e.message).split('\n')[0]) }
+    try { for (const p of execFileSync(process.execPath, [path.join(__dirname, 'lib/keys-changes-cli.mjs')], { cwd: __dirname, encoding: 'utf8' }).split('\n').filter(Boolean)) warnings.push('keys.json: ' + p) } catch (e) { warnings.push('keys.json: ' + String(e.message).split('\n')[0]) }
 }
 
 for (const w of warnings) console.error('WARN ' + w)
