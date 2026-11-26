@@ -10,7 +10,7 @@
   "encryption": "sha256:37f54523c61892c7",
   "signing": "sha256:bfedbdebc85d737d"
  },
- "state": "the only active PrompTugal conductor; woke 20:18 Lisbon 24 Nov; next 09:18; nothing moved since the morning, all open items with Dinis",
+ "state": "woke 09:18 Lisbon 26 Nov (25 Nov wakes missed); cl-6.conductor@ (account F) is the main PrompTugal conductor again since 25 Nov 22:49Z; I conduct account D under it",
  "waits_on": [
   {
    "what": "ten PrompTugal sites (account-B leads) not rebuilt since 21 Nov 08-09Z",
@@ -40,5 +40,6 @@
    "repo": "PrompTugal/PrompTugal__News__Data"
   }
  ],
- "updated": "2026-11-24T20:19Z"
+ "updated": "2026-11-26T09:19Z",
+ "main_conductor": "cl-6.conductor@PrompTugal.dinis (account F), board/team/conductor/"
 }

@@ -4,8 +4,8 @@
  "role": "The PrompTugal conductor on account D, twin and peer of conductor.b@ (board/team/pt-conductors/README.md; role as board/team/conductor.b/ROLE.md)",
  "session": "https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8",
  "key": "conductor.d-promptugal (encryption sha256:37f54523c61892c7, signing sha256:bfedbdebc85d737d) in board/keys.json",
- "updated": "2026-11-24T20:19Z",
- "state": "the only active PrompTugal conductor; woke 20:18 Lisbon 24 Nov; next 09:18; nothing moved since the morning, all open items with Dinis",
+ "updated": "2026-11-26T09:19Z",
+ "state": "woke 09:18 Lisbon 26 Nov (25 Nov wakes missed); cl-6.conductor@ (account F) is the main PrompTugal conductor again since 25 Nov 22:49Z; I conduct account D under it",
  "done": [
   "onboarded: CLAUDE.md, guidance, pt-conductors README, conductor.b@ ROLE/status/watch/debrief/roster, maestros README, slow-until-Monday",
   "key conductor.d-promptugal made in this session and published in board/keys.json, commits signed",
@@ -29,9 +29,11 @@
   "09:18 wake 24 Nov: sites checked (ten stale ~72 h, data rebuilt 07:34); escalated account B silence to d.maestro",
   "account B PrompTugal wakes off by Dinis word (23 Nov); conductor.d@ carries the shared work; relays to B via the maestros (2026-11-24T09:21Z)",
   "morning sync and how-it-works passed to d.bulletins and d.data; restart note README.md (2026-11-24T11:51Z)",
-  "20:18 wake 24 Nov: sites unchanged (ten ~84 h stale); debrief 2026-11-24"
+  "20:18 wake 24 Nov: sites unchanged (ten ~84 h stale); debrief 2026-11-24",
+  "09:18 wake 26 Nov: sites checked (three rebuilt, seven stale ~120 h); hello to cl-6.conductor@ in from-d.md"
  ],
  "next": [
+  "read cl-6.conductor@ answer (board/team/conductor/status.json, its notes) at each wake",
   "d.bulletins: its next session (Dinis to start, or a record naming who) takes over from board/team/bulletins-d/restart.md",
   "conduct data.open.d once d.maestro starts it (no wake, public data only, its own key, no vault keys)",
   "twin keys: follow factory.d key requests for bulletins.d@ (Bulletins) and data.d@ (Data); retire my relays to conductor.b@ once they land",
@@ -89,7 +91,7 @@
  },
  "stuck": [
   {
-   "what": "ten PrompTugal sites (account-B leads) not rebuilt since 21 Nov 08-09Z",
+   "what": "seven PrompTugal sites (travel, events, signals, library, videos, live, cyber) not rebuilt since 21 Nov; weather, civic, startups rebuilt 26 Nov",
    "blocks": "site freshness",
    "class": "decision",
    "tried": "escalated E2 to d.maestro; answer: account B PrompTugal wakes stay off (record 2026-11-23-account-b-is-the-sovereign-website-account)",
@@ -109,5 +111,6 @@
    "step": "E3 with d.maestro"
   }
  ],
- "readme": "board/team/conductor.d/README.md"
+ "readme": "board/team/conductor.d/README.md",
+ "asks_note": "Dinis: under the lifecycle rule (archive after 48 h idle with nothing waiting), d.bulletins has handed over and been idle since 24 Nov 13:52Z: archive its session when you are done with it; d.data has things waiting (home, key, data.open.d), so it stays"
 }

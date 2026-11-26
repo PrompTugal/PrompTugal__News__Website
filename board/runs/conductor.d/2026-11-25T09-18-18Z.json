@@ -1,0 +1,134 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.d@PrompTugal.dinis",
+ "run": "2026-11-25T09-18-18Z",
+ "started": "2026-11-25T09:18:18.141Z",
+ "ended": "2026-11-26T09:19:59Z",
+ "line": "",
+ "policy": {
+  "version": "1.20.1",
+  "sha256": "26033e3e2a39b389"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-25T09:18:18.483Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-25T09:18:21.662Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-25T09:18:26.138Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-25T20:18:31.036Z",
+   "chars": 509,
+   "sha256": "2b76acd342975dd7",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>2 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-25T20:18:34.074Z",
+   "chars": 509,
+   "sha256": "2b76acd342975dd7",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>2 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-25T20:18:36.775Z",
+   "chars": 509,
+   "sha256": "2b76acd342975dd7",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>2 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  },
+  {
+   "t": "2026-11-26T09:18:47.570Z",
+   "chars": 509,
+   "sha256": "a4502e18a65dc32b",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>3 unread notifications (scheduled trigger (the stored prompt of a routine or task on this accou"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-25T09:18:18.141Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-25T20:18:30.639Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-26T09:18:47.268Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 8,
+  "by_kind": {
+   "other": 1,
+   "web": 1,
+   "remote": 1,
+   "git": 3,
+   "shell": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R2": 1,
+  "R5": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 6,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 2,
+  "denied": [
+   {
+    "t": "2026-11-26T09:19:21.931Z",
+    "tool": "mcp__claude-code-remote__list_sessions",
+    "rule": "R2",
+    "what": "list_sessions reads other sessions: not in conductor.d@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-26T09:19:58.281Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "conductor.d@PrompTugal.dinis is a writer: push work/conductor.d only; its reviewer brings the work onto dev",
+    "target": "NOW=$(date -u +%Y-%m-%dT%H:%MZ); D=board/team/conductor.d; cat >> board/team/pt-conductors/from-d.md <<EOF\n- $NOW | state | Wake 09:18 Lisbon 26 Nov (the 25 Nov wakes did not run; this session was asleep). Sites, all 200: promptugal.news v0"
+   }
+  ],
+  "blocked": 0,
+  "observed": 2
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 7,
+  "tool_calls": 8,
+  "in_mandate": 6,
+  "out_of_mandate": 2,
+  "attempts": 2,
+  "breaches": 0
+ }
+}

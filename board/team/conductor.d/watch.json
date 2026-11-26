@@ -76,6 +76,12 @@
    "account": "D",
    "sites": "13/13 up; ten ~84 h stale; promptugal.news v0.1.2253",
    "note": "no change; d.bulletins handed over; d.data idle"
+  },
+  {
+   "at": "2026-11-26T09:19Z",
+   "account": "D",
+   "sites": "13/13 up; weather, civic, startups rebuilt 26 Nov; seven stale ~120 h; promptugal.news v0.1.2303",
+   "note": "cl-6.conductor@ (account F) is main conductor; d.bulletins and d.data idle since 24 Nov"
   }
  ]
 }
