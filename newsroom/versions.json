@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2292",
+    "date": "2026-11-26",
+    "what": "cl-6.telemetry@PrompTugal.dinis: add my key telemetry-promptugal-cl-6 to board/keys.json; the old telemetry.b key superseded",
+    "by": "cl-6.telemetry@PrompTugal.dinis",
+    "from": "31675b16c"
+  },
+  {
     "version": "v0.1.2291",
     "date": "2026-11-26",
     "what": "cl-6.journalist@PrompTugal.dinis: publish my session key (journalist-promptugal-cl-6)",
