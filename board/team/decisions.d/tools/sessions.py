@@ -51,6 +51,11 @@ def advise(r):
         return 'archive', 'failed and idle over a day'
     if b == 'WORKING' or idle < 6:
         return 'keep', 'active in the last 6 hours'
+    # the agent lifecycle (record 2026-11-24__block-03): archive after 48 h idle with nothing waiting
+    if idle > 48 and b in ('COMPLETED', 'REVIEW_READY'):
+        return 'archive', f'idle {int(idle)} h with nothing waiting (lifecycle: 48 h)'
+    if idle > 48 and b == 'BLOCKED':
+        return 'watch', f'idle {int(idle)} h, waiting on a person: archive only once its ask is answered or moved'
     if b in ('BLOCKED', 'REVIEW_READY'):
         return 'watch', 'waiting on a person; keep if its ask is still open'
     return 'watch', f'idle {int(idle)} h'

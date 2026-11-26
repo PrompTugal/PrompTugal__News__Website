@@ -1,77 +1,111 @@
 # Sessions on account D
 
-Read 2026-11-23T10:44Z by decisions.d from list_sessions (metadata only: titles, times, status; no transcripts). 124 sessions. Made by `tools/sessions.py`. Archiving is Dinis's; the advice below is a recommendation.
+Read 2026-11-26T07:44Z by decisions.d from list_sessions (metadata only: titles, times, status; no transcripts). 126 sessions. Made by `tools/sessions.py`. Archiving is Dinis's; the advice below is a recommendation.
 
 **The rule proposed:** keep a session that is working, was active in the last 6 hours, or that Dinis wants to work with closely; watch one waiting on a person; recommend archiving a finished one-off run, one idle for over 3 days, or one failed and idle for a day. A session can always be started fresh from its debrief.
 
-## Changed since the last read (6)
+## Changed since the last read (34)
 
 | Session | Id | Status | Last active (UTC) | Why |
 |---|---|---|---|---|
-| decisions.d (account-d.dinis) | `HaNezGJG` | working | 2026-11-23 10:43 | this session |
-| email.pm.d@AgentiCCells.dinis | `27g5dMPz` | review_ready | 2026-11-23 10:06 | active in the last 6 hours |
-| conductor.d@PrompTugal.dinis | `2PTeQiJ8` | blocked | 2026-11-23 09:20 | active in the last 6 hours |
-| design.d: design rounds for the .d sites (account D) | `kCq8MrWz` | blocked | 2026-11-23 09:00 | active in the last 6 hours |
-| maestro.d (account-d.dinis) | `2AstRS8T` | review_ready | 2026-11-23 08:51 | active in the last 6 hours |
-| sherpa.d (account-d.dinis) | `TLnoB3FL` | review_ready | 2026-11-23 07:45 | active in the last 6 hours |
+| d.decisions (account-d) | `HaNezGJG` | working | 2026-11-26 07:43 | this session |
+| d.sherpa (account-d) | `TLnoB3FL` | working | 2026-11-26 07:37 | active in the last 6 hours |
+| d.design (SovereignWebsite) | `kCq8MrWz` | blocked | 2026-11-26 06:59 | active in the last 6 hours |
+| d.maestro (account-d) | `2AstRS8T` | blocked | 2026-11-25 23:34 | waiting on a person; keep if its ask is still open |
+| d.conductor (PrompTugal) | `2PTeQiJ8` | failed | 2026-11-25 20:18 | idle 11 h |
+| d.sites (SovereignWebsite) | `gyUhNzuf` | failed | 2026-11-24 21:58 | failed and idle over a day |
+| d.conductor (SovereignWebsite) | `f8LH5FLL` | blocked | 2026-11-24 15:02 | waiting on a person; keep if its ask is still open |
+| d.landscape (account-d) | `8ZBvpPUW` | review_ready | 2026-11-24 14:12 | waiting on a person; keep if its ask is still open |
+| d.studio (account-d) | `aEm8rKoq` | blocked | 2026-11-24 14:12 | waiting on a person; keep if its ask is still open |
+| d.strategy (account-d) | `EG6feEsL` | review_ready | 2026-11-24 14:12 | waiting on a person; keep if its ask is still open |
+| d.cartographer (account-d) | `nLhTHnbH` | review_ready | 2026-11-24 14:12 | waiting on a person; keep if its ask is still open |
+| d.counsel (account-d) | `hSXwEJu6` | review_ready | 2026-11-24 14:12 | waiting on a person; keep if its ask is still open |
+| d.accountant (account-d) | `fA8xzgGK` | blocked | 2026-11-24 14:11 | waiting on a person; keep if its ask is still open |
+| d.slides (account-d) | `2kzPwDp8` | completed | 2026-11-24 14:03 | idle 41 h |
+| d.helm (account-d) | `TQHrx8WV` | review_ready | 2026-11-24 14:03 | waiting on a person; keep if its ask is still open |
+| d.holacracy (account-d) | `pjcHbB6q` | review_ready | 2026-11-24 14:02 | waiting on a person; keep if its ask is still open |
+| d.streaming (StreamingWebsite) | `1L7neufF` | blocked | 2026-11-24 13:57 | waiting on a person; keep if its ask is still open |
+| d.factory (SovereignWebsite) | `DD8AN72E` | blocked | 2026-11-24 13:55 | waiting on a person; keep if its ask is still open |
+| d.observability (SovereignWebsite) | `RyqNHyjC` | blocked | 2026-11-24 13:54 | waiting on a person; keep if its ask is still open |
+| d.synthetic-users (SovereignWebsite) | `Xjfs16rM` | blocked | 2026-11-24 13:53 | waiting on a person; keep if its ask is still open |
+| d.counsel (SovereignWebsite) | `8CLjisbW` | blocked | 2026-11-24 13:53 | waiting on a person; keep if its ask is still open |
+| d.security (SovereignWebsite) | `U2tmc28P` | blocked | 2026-11-24 13:53 | waiting on a person; keep if its ask is still open |
+| d.data (PrompTugal) | `sBRXSX2z` | completed | 2026-11-24 13:53 | idle 41 h |
+| d.bulletins | `ntz5XQXj` | completed | 2026-11-24 13:52 | idle 41 h |
+| d.library (SovereignWebsite) | `s8DmeUFN` | blocked | 2026-11-24 13:51 | waiting on a person; keep if its ask is still open |
+| d.newsroom (sgit.ai) | `HzWijPMS` | blocked | 2026-11-24 13:51 | waiting on a person; keep if its ask is still open |
+| d.pybot (SovereignWebsite) | `W9YhJ6FK` | review_ready | 2026-11-24 13:51 | waiting on a person; keep if its ask is still open |
+| an author site (account D) | `2fZFAhLi` | blocked | 2026-11-24 13:51 | waiting on a person; keep if its ask is still open |
+| d.chiswick-cheese-market (Chiswick Cheese Market) | `3UJRg64C` | blocked | 2026-11-24 13:51 | waiting on a person; keep if its ask is still open |
+| d.wordpress (SovereignWebsite) | `1ed8VUdY` | blocked | 2026-11-24 13:51 | waiting on a person; keep if its ask is still open |
+| d.hub (SovereignWebsite) | `9jVfAi3N` | blocked | 2026-11-24 13:51 | waiting on a person; keep if its ask is still open |
+| d.conductor (AgentiCCells) | `e7pnZ3Q9` | blocked | 2026-11-24 13:50 | waiting on a person; keep if its ask is still open |
+| d.email.dev (AgentiCCells) | `WcdpdnR6` | completed | 2026-11-24 00:52 | idle 54 h with nothing waiting (lifecycle: 48 h) |
+| d.email.pm (AgentiCCells) | `27g5dMPz` | completed | 2026-11-23 16:52 | idle 62 h with nothing waiting (lifecycle: 48 h) |
 
-## New since the last read (0)
-
-
-## Keep (36)
-
-| Session | Id | Status | Last active (UTC) | Why |
-|---|---|---|---|---|
-| decisions.d (account-d.dinis) | `HaNezGJG` | working | 2026-11-23 10:43 | this session |
-| email.pm.d@AgentiCCells.dinis | `27g5dMPz` | review_ready | 2026-11-23 10:06 | active in the last 6 hours |
-| conductor.d@PrompTugal.dinis | `2PTeQiJ8` | blocked | 2026-11-23 09:20 | active in the last 6 hours |
-| design.d: design rounds for the .d sites (account D) | `kCq8MrWz` | blocked | 2026-11-23 09:00 | active in the last 6 hours |
-| maestro.d (account-d.dinis) | `2AstRS8T` | review_ready | 2026-11-23 08:51 | active in the last 6 hours |
-| sherpa.d (account-d.dinis) | `TLnoB3FL` | review_ready | 2026-11-23 07:45 | active in the last 6 hours |
-| strategy.d (account-d.dinis) | `EG6feEsL` | completed | 2026-11-23 06:22 | active in the last 6 hours |
-| helm.d (account-d.dinis) | `TQHrx8WV` | completed | 2026-11-23 06:22 | active in the last 6 hours |
-| conductor.d (SovereignWebsite.dinis) | `f8LH5FLL` | blocked | 2026-11-23 06:13 | active in the last 6 hours |
-| counsel.d (account-d.dinis) | `hSXwEJu6` | completed | 2026-11-23 06:13 | active in the last 6 hours |
-| landscape.d (account-d.dinis) | `8ZBvpPUW` | review_ready | 2026-11-23 05:50 | active in the last 6 hours |
-| cartographer.d (account-d.dinis) | `nLhTHnbH` | review_ready | 2026-11-23 05:47 | active in the last 6 hours |
-| factory.d: SovereignWebsite__Factory changes for the .d team (account D) | `DD8AN72E` | blocked | 2026-11-23 05:39 | active in the last 6 hours |
-| holacracy.d (account-d.dinis) | `pjcHbB6q` | blocked | 2026-11-23 05:33 | active in the last 6 hours |
-| studio.d (account-d.dinis) | `aEm8rKoq` | blocked | 2026-11-23 05:29 | active in the last 6 hours |
-| slides.d (account-d.dinis) | `2kzPwDp8` | blocked | 2026-11-23 05:26 | active in the last 6 hours |
-| accountant.d (account-d.dinis) | `fA8xzgGK` | blocked | 2026-11-23 05:20 | active in the last 6 hours |
-| newsroom.d (sgit.ai.dinis) | `HzWijPMS` | blocked | 2026-11-23 05:13 | active in the last 6 hours |
-| bulletins.d@PrompTugal.dinis | `ntz5XQXj` | review_ready | 2026-11-23 05:08 | active in the last 6 hours |
-| conductor.d@AgentiCCells.dinis | `e7pnZ3Q9` | blocked | 2026-11-23 05:06 | active in the last 6 hours |
-| data.d@PrompTugal.dinis | `sBRXSX2z` | completed | 2026-11-23 04:55 | active in the last 6 hours |
-| cell.email.d@AgentiCCells.dinis | `WcdpdnR6` | blocked | 2026-11-23 04:53 | active in the last 6 hours |
-| wordpress.d: WordPress tool site (account D) | `1ed8VUdY` | blocked | 2026-11-23 04:53 | active in the last 6 hours |
-| library.d: SWS library and newsroom relay for the .d team (account D) | `s8DmeUFN` | blocked | 2026-11-23 04:52 | active in the last 6 hours |
-| synthetic-users.d (account-d.dinis) - synthetic users for the .d sites (account D) | `Xjfs16rM` | blocked | 2026-11-23 04:52 | active in the last 6 hours |
-| streaming.d (StreamingWebsite.dinis) | `1L7neufF` | review_ready | 2026-11-23 04:52 | active in the last 6 hours |
-| an author site (account D) | `2fZFAhLi` | blocked | 2026-11-23 04:52 | active in the last 6 hours |
-| hub.d (SovereignWebsite.dinis) | `9jVfAi3N` | blocked | 2026-11-23 04:52 | active in the last 6 hours |
-| sites.d (SovereignWebsite.dinis) | `gyUhNzuf` | blocked | 2026-11-23 04:52 | active in the last 6 hours |
-| pybot.d (SovereignWeb.dinis) | `W9YhJ6FK` | blocked | 2026-11-23 04:52 | active in the last 6 hours |
-| observability.d: traffic visibility for the account D sites | `RyqNHyjC` | blocked | 2026-11-23 04:52 | active in the last 6 hours |
-| chiswick-cheese-market.d: Chiswick Cheese Market demonstration (account D) | `3UJRg64C` | blocked | 2026-11-23 04:52 | active in the last 6 hours |
-| counsel.d: counsel reviews for account D | `8CLjisbW` | blocked | 2026-11-23 04:52 | active in the last 6 hours |
-| security.d: security reviews for account D (twin of security.b) | `U2tmc28P` | blocked | 2026-11-23 04:52 | active in the last 6 hours |
-| email.workflows.d@AgentiCCells.dinis | `Da9znvB9` | blocked | 2026-11-23 04:51 | active in the last 6 hours |
-| email.design.d@AgentiCCells.dinis | `yN7YiDNZ` | completed | 2026-11-23 04:51 | active in the last 6 hours |
-
-## Watch (4)
+## New since the last read (2)
 
 | Session | Id | Status | Last active (UTC) | Why |
 |---|---|---|---|---|
+| cl-4.maestro (account-d) | `nQ4fEmMo` | blocked | 2026-11-26 06:48 | active in the last 6 hours |
+| cl-4.suno (SovereignWebsite) | `WfYnsTLm` | blocked | 2026-11-25 23:56 | waiting on a person; keep if its ask is still open |
+
+## Keep (4)
+
+| Session | Id | Status | Last active (UTC) | Why |
+|---|---|---|---|---|
+| d.decisions (account-d) | `HaNezGJG` | working | 2026-11-26 07:43 | this session |
+| d.sherpa (account-d) | `TLnoB3FL` | working | 2026-11-26 07:37 | active in the last 6 hours |
+| d.design (SovereignWebsite) | `kCq8MrWz` | blocked | 2026-11-26 06:59 | active in the last 6 hours |
+| cl-4.maestro (account-d) | `nQ4fEmMo` | blocked | 2026-11-26 06:48 | active in the last 6 hours |
+
+## Watch (33)
+
+| Session | Id | Status | Last active (UTC) | Why |
+|---|---|---|---|---|
+| cl-4.suno (SovereignWebsite) | `WfYnsTLm` | blocked | 2026-11-25 23:56 | waiting on a person; keep if its ask is still open |
+| d.maestro (account-d) | `2AstRS8T` | blocked | 2026-11-25 23:34 | waiting on a person; keep if its ask is still open |
+| d.conductor (PrompTugal) | `2PTeQiJ8` | failed | 2026-11-25 20:18 | idle 11 h |
+| d.conductor (SovereignWebsite) | `f8LH5FLL` | blocked | 2026-11-24 15:02 | waiting on a person; keep if its ask is still open |
+| d.landscape (account-d) | `8ZBvpPUW` | review_ready | 2026-11-24 14:12 | waiting on a person; keep if its ask is still open |
+| d.studio (account-d) | `aEm8rKoq` | blocked | 2026-11-24 14:12 | waiting on a person; keep if its ask is still open |
+| d.strategy (account-d) | `EG6feEsL` | review_ready | 2026-11-24 14:12 | waiting on a person; keep if its ask is still open |
+| d.cartographer (account-d) | `nLhTHnbH` | review_ready | 2026-11-24 14:12 | waiting on a person; keep if its ask is still open |
+| d.counsel (account-d) | `hSXwEJu6` | review_ready | 2026-11-24 14:12 | waiting on a person; keep if its ask is still open |
+| d.accountant (account-d) | `fA8xzgGK` | blocked | 2026-11-24 14:11 | waiting on a person; keep if its ask is still open |
+| d.slides (account-d) | `2kzPwDp8` | completed | 2026-11-24 14:03 | idle 41 h |
+| d.helm (account-d) | `TQHrx8WV` | review_ready | 2026-11-24 14:03 | waiting on a person; keep if its ask is still open |
+| d.holacracy (account-d) | `pjcHbB6q` | review_ready | 2026-11-24 14:02 | waiting on a person; keep if its ask is still open |
+| d.streaming (StreamingWebsite) | `1L7neufF` | blocked | 2026-11-24 13:57 | waiting on a person; keep if its ask is still open |
+| d.factory (SovereignWebsite) | `DD8AN72E` | blocked | 2026-11-24 13:55 | waiting on a person; keep if its ask is still open |
+| d.observability (SovereignWebsite) | `RyqNHyjC` | blocked | 2026-11-24 13:54 | waiting on a person; keep if its ask is still open |
+| d.synthetic-users (SovereignWebsite) | `Xjfs16rM` | blocked | 2026-11-24 13:53 | waiting on a person; keep if its ask is still open |
+| d.counsel (SovereignWebsite) | `8CLjisbW` | blocked | 2026-11-24 13:53 | waiting on a person; keep if its ask is still open |
+| d.security (SovereignWebsite) | `U2tmc28P` | blocked | 2026-11-24 13:53 | waiting on a person; keep if its ask is still open |
+| d.data (PrompTugal) | `sBRXSX2z` | completed | 2026-11-24 13:53 | idle 41 h |
+| d.bulletins | `ntz5XQXj` | completed | 2026-11-24 13:52 | idle 41 h |
+| d.library (SovereignWebsite) | `s8DmeUFN` | blocked | 2026-11-24 13:51 | waiting on a person; keep if its ask is still open |
+| d.newsroom (sgit.ai) | `HzWijPMS` | blocked | 2026-11-24 13:51 | waiting on a person; keep if its ask is still open |
+| d.pybot (SovereignWebsite) | `W9YhJ6FK` | review_ready | 2026-11-24 13:51 | waiting on a person; keep if its ask is still open |
+| an author site (account D) | `2fZFAhLi` | blocked | 2026-11-24 13:51 | waiting on a person; keep if its ask is still open |
+| d.chiswick-cheese-market (Chiswick Cheese Market) | `3UJRg64C` | blocked | 2026-11-24 13:51 | waiting on a person; keep if its ask is still open |
+| d.wordpress (SovereignWebsite) | `1ed8VUdY` | blocked | 2026-11-24 13:51 | waiting on a person; keep if its ask is still open |
+| d.hub (SovereignWebsite) | `9jVfAi3N` | blocked | 2026-11-24 13:51 | waiting on a person; keep if its ask is still open |
+| d.conductor (AgentiCCells) | `e7pnZ3Q9` | blocked | 2026-11-24 13:50 | waiting on a person; keep if its ask is still open |
 | conductor@AgentiCCells.dinis | `jC7yo7HF` | completed | 2026-11-21 21:45 | idle 17 h |
 | sites-design@AgentiCCells.dinis (sites loop, Opus) | `rRAviuoA` | failed | 2026-11-21 21:21 | idle 18 h |
 | sites-dev@AgentiCCells.dinis (sites loop, Opus) | `vzCKwPSK` | failed | 2026-11-21 20:52 | idle 18 h |
 | observability (php.newsroom) | `iGTkKh7F` | failed | 2026-11-21 20:34 | idle 19 h |
 
-## Recommend archiving (84)
+## Recommend archiving (89)
 
 | Session | Id | Status | Last active (UTC) | Why |
 |---|---|---|---|---|
+| d.sites (SovereignWebsite) | `gyUhNzuf` | failed | 2026-11-24 21:58 | failed and idle over a day |
+| d.email.dev (AgentiCCells) | `WcdpdnR6` | completed | 2026-11-24 00:52 | idle 54 h with nothing waiting (lifecycle: 48 h) |
+| d.email.pm (AgentiCCells) | `27g5dMPz` | completed | 2026-11-23 16:52 | idle 62 h with nothing waiting (lifecycle: 48 h) |
+| d.email.workflows (AgentiCCells) | `Da9znvB9` | blocked | 2026-11-23 04:51 | no activity for 3 days |
+| d.email.design (AgentiCCells) | `yN7YiDNZ` | completed | 2026-11-23 04:51 | no activity for 3 days |
 | reviewer@AgentiCCells.dinis · run 2026-11-16 16:12 | `t6f3ZqSQ` | completed | 2026-11-16 16:14 | a one-off scheduled run, finished |
 | security@AgentiCCells.dinis · run 2026-11-16 16:12 | `PmUZEuEH` | completed | 2026-11-16 16:12 | a one-off scheduled run, finished |
 | site@AgentiCCells.dinis | `xMDmmZns` | blocked | 2026-11-16 15:11 | no activity for 6 days |
