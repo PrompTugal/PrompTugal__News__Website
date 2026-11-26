@@ -55,6 +55,20 @@ t('another agent rewriting an entry\'s agent field to itself is reported', [r.le
 t('changedEntries: a note-only change is not a change', changedEntries([{ ...A }], [{ ...A, note: 'x' }]).length, 0)
 t('changedEntries: a status change is', changedEntries([{ ...A }], [{ ...A, status: 'superseded' }]).length, 1)
 t('a missing baseline is reported, not passed', checkKeyChanges({ root: tmp, baseline: 'deadbeefdeadbeefdeadbeefdeadbeefdeadbeef' }).length, 1)
+// an entry whose ssh field holds only the key type is vouched for by its bundle.sign key (cl-6.devops, 26 Nov 2026)
+{
+    const KP = key('p'), KQ = key('q'), pem = k => execFileSync('ssh-keygen', ['-e', '-m', 'PKCS8', '-f', k.file + '.pub'], { encoding: 'utf8' }).trim()
+    const P = { id: 'p-1', agent: 'p@x', status: 'active', ssh: 'ecdsa-sha2-nistp256', bundle: { sign: pem(KP) } }
+    step([...keys, P], KP, 'P publishes with only the key type in ssh')
+    r = step([...keys, { ...P, superseded_in: 'zzz' }], KP, 'P changes its own entry, signed by its bundle.sign key')
+    t('an entry with no ssh key is vouched for by its bundle.sign key', r, [])
+    r = step([...keys, { ...P, superseded_in: 'yyy' }], KQ, 'a stranger signs a change of P')
+    t('a stranger is still reported for such an entry', [r.length > 0, /p-1/.test(r.join(' '))], [true, true])
+    const BAD = { ...P, id: 'p-3', agent: 'bad@x', bundle: { sign: '-----BEGIN PUBLIC KEY-----\nAAAA\n-----END PUBLIC KEY-----' } }
+    step([...keys, BAD], KQ, 'a bad PEM is published')
+    r = step([...keys, { ...BAD, status: 'superseded' }], KQ, 'the bad-PEM entry is changed')
+    t('a PEM that does not convert is no key', r.some(x => /p-3 changed/.test(x)), true)
+}
 fs.rmSync(tmp, { recursive: true, force: true })
 if (bad) { console.error(`${bad} failed`); process.exit(1) }
 console.log('test_keys_changes: OK')

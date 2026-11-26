@@ -5,7 +5,7 @@
 //   a CHANGED or REMOVED existing entry: only by an active key of its agent in the parent, never by a key the commit adds: so a commit that adds
 //     a new key for X, retires X's real one and is signed by the new key is reported as a hand-over (it needs an operator);
 //   a RE-ACTIVATION (superseded or revoked back to active) is always reported, even when the agent signs: a retired key's private half outlives its session.
-// An operator key (none is published yet, so the list is empty) vouches for any entry. The verifier is named on the command line. The result is
+// An entry whose ssh field holds no key counts by its bundle.sign key (the same key, in PEM). An operator key (none is published yet, so the list is empty) vouches for any entry. The verifier is named on the command line. The result is
 // a list of problems; the gate shows them as warnings until Dinis's key is in board/keys.json, then as errors. Known gap: a first publication is
 // self-signed. Pure of the gate: root, baseline and the operator list are parameters.
 import { execFileSync } from 'node:child_process'
@@ -40,7 +40,15 @@ export function checkKeyChanges({ root = ROOT, baseline = null, operators = [], 
     let n = 0
     const verify = (c, lines) => { if (!lines.length) return false; const f = path.join(tmp, `allowed${n++}`); fs.writeFileSync(f, lines.join('\n') + '\n')
         return tryGit(root, ['-c', 'gpg.format=ssh', '-c', 'gpg.ssh.program=ssh-keygen', '-c', `gpg.ssh.allowedSignersFile=${f}`, 'verify-commit', c]) !== null }
-    const line = (k, who) => { const ssh = String(k.ssh || '').trim(); return SSH.test(ssh) ? [`${who} namespaces="git" ${ssh}`] : [] }
+    // the SSH key of an entry: its ssh field, or, when that holds no key (cl-6.devops's entry held only the type, 26 Nov 2026), the same key from
+    // the entry's own bundle.sign (a P-256 public key in PEM), converted by ssh-keygen; anything that does not convert is no key
+    const sshOf = k => {
+        const ssh = String(k.ssh || '').trim(); if (SSH.test(ssh)) return ssh
+        const pem = String((k.bundle && k.bundle.sign) || '').trim(); if (!/^-----BEGIN PUBLIC KEY-----[A-Za-z0-9+/=\s]+-----END PUBLIC KEY-----$/.test(pem)) return ''
+        const f = path.join(tmp, `pem${n++}`); fs.writeFileSync(f, pem + '\n')
+        try { const o = execFileSync('ssh-keygen', ['-i', '-m', 'PKCS8', '-f', f], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }).trim(); return /^ecdsa-sha2-nistp256 AAAA/.test(o) && SSH.test(o) ? o : '' } catch { return '' }
+    }
+    const line = (k, who) => { const ssh = sshOf(k); return ssh ? [`${who} namespaces="git" ${ssh}`] : [] }
     try {
         const commits = (tryGit(root, ['rev-list', '--first-parent', '--reverse', `${baseline}..HEAD`, '--', 'board/keys.json']) || '').split('\n').filter(Boolean)
         for (const c of commits) {
