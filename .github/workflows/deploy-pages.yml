@@ -2,8 +2,8 @@
 # (https://newsroom.sgit.ai/articles/ci-owns-the-version.html): nobody who pushes writes a number.
 #
 #   1. validate — builds the pushed commit (generated output is never committed) and runs
-#                 newsroom/build/validate.js. A failure stops everything. Also runs on PRs, read-only.
-#   2. release  — one at a time (concurrency group "release", never cancelled): newsroom/build/tag_release.sh
+#                 newsroom/build/validate.js. A failure shows red on the pushed commit (the release job's own gate stops a red tree). Also runs on PRs, read-only.
+#   2. release  — in parallel with validate (see its comment); one at a time (concurrency group "release", never cancelled): newsroom/build/tag_release.sh
 #                 takes the branch head as it is now, bumps the newest version (dev the last number,
 #                 main the middle one), writes version.txt, the versions row and REALITY.md, builds,
 #                 runs the gate again on that tree, commits as GitHub Actions ("site vX.Y.Z: <subject>"),
@@ -74,7 +74,11 @@ jobs:
     runs-on: ubuntu-latest
     # tag and build about 30s, a deploy of at most 8 minutes (a second only after a fast refusal), 30 s asking the live site
     timeout-minutes: 12
-    needs: [validate]
+    # No "needs: [validate]" since 26 Nov 2026 (devops@PrompTugal.dinis, at Dinis's word; security@ approved 14:02 UTC): validate and release
+    # run in parallel. tag_release.sh runs the same gate (set -e) on the numbered tree before it commits, tags, pushes or deploys,
+    # so a red tree is never released; validate stays as the check on the pushed commit. Saves about 5 of 11 minutes a push.
+    # Keep this job's .gitattributes step and the gate inside tag_release.sh: any change that skips validate.js here (a cache,
+    # a "validate already ran" shortcut) goes to security@ first.
     # Only dev is production: never from a PR, a worker's branch, main, or a manual run on any other branch
     # (live.b@'s review a4c6fce, MEDIUM). One release at a time; a pending run may be dropped, which is harmless.
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/dev'
