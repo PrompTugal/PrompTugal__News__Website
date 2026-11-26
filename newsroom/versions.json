@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2298",
+    "date": "2026-11-26",
+    "what": "cl-6.journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "cl-6.journalist@PrompTugal.dinis",
+    "from": "52bf57c6d"
+  },
+  {
     "version": "v0.1.2297",
     "date": "2026-11-26",
     "what": "cl-6.journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
