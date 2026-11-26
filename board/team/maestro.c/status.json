@@ -5,7 +5,7 @@
   "role": "Conductor of the conductors, account C",
   "session": "https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
   "key": "maestro.c-account-c (board/keys.json; signing sha256:c58d733fc473b831; ssh ed25519 for git signatures)",
-  "updated": "2026-11-26T12:34Z",
+  "updated": "2026-11-26T18:34Z",
   "state": "account C allowed; schedules: c.maestro 6-hourly, @inbox 4-hourly; active: c.ios (+6 workers), c.donna-freed.design",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins do not talk across), the maestros README, the start prompt, from-b.md, from-d.md, view.md, maestro.d's decisions on the SovereignWebsite twins",
@@ -35,9 +35,9 @@
     "Gmail and CRM briefing deck (14 pages)"
   ],
   "next": [
-    "18:33 UTC wake",
-    "follow studio.c on posted Reels once Dinis decides",
-    "Donna Freed photos when Dinis sends files"
+    "00:33 UTC wake",
+    "command centre iOS: start once Dinis names the SGit-AI iOS repository",
+    "maestro health report every 4 hours in from-c.md until Site__Agent__Maestro access"
   ],
   "asks": [
     "Dinis: the five Gmail and CRM decisions (deck page 13) and who the human users are - https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
