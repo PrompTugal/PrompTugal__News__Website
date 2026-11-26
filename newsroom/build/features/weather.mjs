@@ -15,7 +15,7 @@ export const snap = ctx => { try { return JSON.parse(fs.readFileSync(path.join(c
 export const words = ctx => JSON.parse(fs.readFileSync(path.join(ctx.ROOT, 'assets/weather/weather.json'), 'utf8'))
 const fill = (t, o) => Object.entries(o).reduce((s, [k, v]) => s.replaceAll(`{${k}}`, v), t)
 export const fresh = (read_at, W, now = new Date()) => { const t = Date.parse(read_at || ''); return Number.isFinite(t) && (now - t) / 36e5 < W.stale_hours }
-const feed = (S, k, W, f) => !S || !S[k] ? W.missing : fresh(S[k].read_at, W) ? f(S[k]) : fill(W.stale, { read: S[k].read_at.slice(0, 10), hours: W.stale_hours })
+const feed = (S, k, W, f) => !S || !S[k] ? W.missing : fresh(S[k].read_at, W) ? `${f(S[k])}\n\n${W.source}` : fill(W.stale, { read: S[k].read_at.slice(0, 10), hours: W.stale_hours })
 
 const fillers = {
     'weather:status': (page, ctx) => { const S = snap(ctx), W = words(ctx); return S ? fill(W.status, { read: S.read.slice(0, 10), hours: W.stale_hours }) : W.missing },

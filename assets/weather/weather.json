@@ -13,5 +13,6 @@
   "sea_head": "| Coast | Wave height (m) | Direction | Sea temperature (°C) |",
   "fire_line": "{level}: {n} of {total} municipalities",
   "fire_date": "Forecast for {date}.",
-  "cam": "Live camera: [{name}]({page}), {credit}. A link to the operator's own page; read {read}."
+  "cam": "Camera: [{name}]({page}), {credit}. A link to the operator's own page; listed {read}.",
+  "source": "*Source: IPMA, [ipma.pt](https://www.ipma.pt/en/). Shown on a page with no charge.*"
 }

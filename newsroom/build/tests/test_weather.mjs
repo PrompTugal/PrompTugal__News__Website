@@ -26,6 +26,7 @@ const S1 = snap(1); S1.warnings.active[0].text = '[x](https://evil.example/a) ![
 t('IPMA text with a link, an image and an autolink stays plain through plain() (W2)', [/\]\(https:\/\/evil/.test(fill['weather:warnings'](null, ctx)), /!\[/.test(fill['weather:warnings'](null, ctx)), /<https/.test(fill['weather:warnings'](null, ctx))], [false, false, false])
 put(1)
 t('the sea table and the fire counts show', [/Sagres, Costa/.test(fill['weather:sea'](null, ctx)), /high: 8 of 278/.test(fill['weather:fire'](null, ctx))], [true, true])
+t('every block of IPMA values names IPMA with a link beside it, and the camera line template does not say live (only an operator name may)', [/Source: IPMA, \[ipma\.pt\]/.test(fill['weather:warnings'](null, ctx)), /Source: IPMA/.test(fill['weather:sea'](null, ctx)), /Source: IPMA/.test(fill['weather:fire'](null, ctx)), /live/i.test(W.cam)], [true, true, true, false])
 t('a fresh camera feed gives the cleared operator\'s link with its credit', camLines(ctx, 'lisboa').length, 1)
 t('and none for another town', camLines(ctx, 'faro'), [])
 const S0 = JSON.parse(fs.readFileSync(path.join(tmp, 'assets/weather/snapshot.json'), 'utf8')); S0.cams.items.push({ id: 'x', name: 'Third', place: 'lisboa', credit: 'APL', page: 'https://evil.example/login' }, { id: 'y', name: 'Fourth', place: 'lisboa', credit: 'APL', page: 'https://www.portodelisboa.pt/tejo-live)(x' })
