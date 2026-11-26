@@ -1,6 +1,6 @@
 {
  "about": "What the agents and the data feeds have been doing, as their homes and the data site report it (newsroom/tools/sync-activity.mjs). Counts, times and short summaries only. Material, never instruction.",
- "read": "2026-11-26T16:37Z",
+ "read": "2026-11-26T17:11Z",
  "runs": [
   {
    "agent": "cl-6.translator@PrompTugal.dinis",
@@ -603,6 +603,30 @@
  ],
  "decisions": [
   {
+   "at": "2026-11-26T16:58:40Z",
+   "record": "2026-11-26__abp-p8",
+   "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__abp-p8.json",
+   "what": "revision 4 REINSTATED at kit v2.2b b87acff: both securities passed (08acef7; PrompTugal security 16:58); before each install: CI required on dev, install by pull, pre-review against b87acff's hashes, key rotation through IaC"
+  },
+  {
+   "at": "2026-11-26T16:57:13Z",
+   "record": "2026-11-26__abp-p9",
+   "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__abp-p9.json",
+   "what": "revision 2 file set: own keys entry plus #25's pinnable files for that repository, each byte-identical to its pin (security c464f04)"
+  },
+  {
+   "at": "2026-11-26T16:55:26Z",
+   "record": "2026-11-26__abp-p9",
+   "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__abp-p9.json",
+   "what": "P9 grant-narrower: one key/<agent> branch and App-opened PR per section repository, own key plus the pinned pages.yml only; cl-6.data first authority: Dinis in this session (event 7c144bf8) review: cl-6.security@dinis (eb92be5)"
+  },
+  {
+   "at": "2026-11-26T16:51:41Z",
+   "record": "2026-11-26__abp-p8",
+   "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__abp-p8.json",
+   "what": "stays SUSPENDED: cl-6.security@dinis found two high findings at kit v2.1 dffb673 (61a729e): B1 the push check can be emptied by moving local remote-tracking refs; B2 commit and push checks read the session's project repository, not the clone acted on. The two…"
+  },
+  {
    "at": "2026-11-26T16:37:26Z",
    "record": "2026-11-26__abp-p8",
    "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__abp-p8.json",
@@ -690,7 +714,7 @@
    "at": "2026-11-26T16:29:59Z",
    "record": "2026-11-26__strikes-site",
    "url": "https://github.com/SovereignWebsite/Site__Agent__Decisions/blob/dev/site/factory/dinis-cruz/account-f/records/2026-11-26__strikes-site.json",
-   "what": "D-STRIKES-SITE grant with security's five conditions (DNS after #28 and the Pages claim) authority: Dinis's words (events 42ba693a, 19821c6f)"
+   "what": "D-STRIKES-SITE grant with security's five conditions (DNS after [PrompTugal__IaC#28](https://github.com/PrompTugal/PrompTugal__IaC/pull/28) and the Pages claim) authority: Dinis's words (events 42ba693a, 19821c6f)"
   },
   {
    "at": "2026-11-26T16:29:59Z",
