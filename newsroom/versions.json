@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2324",
+    "date": "2026-11-26",
+    "time": "2026-11-26T16:02:12Z",
+    "what": "cl-6.dev@PrompTugal.dinis: agent text: the operators' agent names stay readable (the names validate.js accepts), others are still [address]",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "f56b4fceb"
+  },
+  {
     "version": "v0.1.2323",
     "date": "2026-11-26",
     "time": "2026-11-26T15:56:58Z",
