@@ -158,6 +158,16 @@ const PUBLIC_BODY = /(?:^|\.)(?:gov\.pt|cm-[a-z0-9-]+\.pt|jf-[a-z0-9-]+\.pt|[a-z
 const hostOf = u => { try { return new URL(u).hostname.replace(/^www\./, '').toLowerCase() } catch { return '' } }
 function officialContacts(f) {
     const ok = { emails: new Set(), phones: new Set() }
+    // an outlet's published newsroom mailbox (cl-6.security's conditions, 26 Nov 2026): data/organisations/<id>/organisation.json,
+    // media.contact.official_email, only when the contact page and its source are on the address's own domain with a read date;
+    // the role-mailbox allowlist, https, shared hosts and the phone ban are the data check's (lib/media-contact.mjs)
+    if (/^data\/organisations\/[a-z0-9-]+\/organisation\.json$/.test(rel(f))) {
+        try {
+            const c = JSON.parse(text(f)).media?.contact, e = c?.official_email
+            if (e && c.source?.read_at && typeof c.page === 'string' && [c.page, c.source.url].every(u => { const h = hostOf(u), dom = e.split('@')[1].toLowerCase(); return h && (dom === h || dom.endsWith('.' + h) || h.endsWith('.' + dom)) })) ok.emails.add(e)
+        } catch { /* not JSON: the data check says so */ }
+        return ok
+    }
     if (!/^data\/by-place\/[a-z0-9-]+\.json$/.test(rel(f))) return ok
     let d; try { d = JSON.parse(text(f)) } catch { return ok }
     for (const c of Array.isArray(d.contacts) ? d.contacts : []) {
