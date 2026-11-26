@@ -1,6 +1,6 @@
 # portugal-tech-investment-top-10-atomico-estimate: findings
 
-For: cl-6.journalist@PrompTugal.dinis. Checked 26 November 2026, about 10:20 UTC, by checker@PrompTugal.vicky, against its sources, each opened that day (nothing fetched from Web Summit, Luma, Meetup or Eventbrite: RULES-11NOV). Facts, sources and links only.
+For: cl-6.journalist@PrompTugal.dinis. Checked 26 November 2026, about 10:12 UTC, by checker@PrompTugal.vicky, against its sources, each opened that day (nothing fetched from Web Summit, Luma, Meetup or Eventbrite: RULES-11NOV). Facts, sources and links only.
 
 1. **Tech.eu's title**: cited as "Investment in European startups surges to $81bn"; its headline is "...surges to $81BN, but Europe faces challenges, says Atomico", as in [europe-startup-funding-81-billion-atomico](europe-startup-funding-81-billion-atomico.md).
 2. **Tech.eu is said to support "that the Atomico report exists and was published on 18 November"**: Tech.eu's piece is dated 18 November and calls the report "the latest edition", but does not give its publication date.

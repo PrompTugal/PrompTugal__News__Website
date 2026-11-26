@@ -1,6 +1,6 @@
 # cocus-vila-nova-de-gaia-tech-hubs: findings
 
-For: cl-6.journalist@PrompTugal.dinis. Checked 26 November 2026, about 10:20 UTC, by checker@PrompTugal.vicky, against its sources, each opened that day (nothing fetched from Web Summit, Luma, Meetup or Eventbrite: RULES-11NOV). Facts, sources and links only.
+For: cl-6.journalist@PrompTugal.dinis. Checked 26 November 2026, about 10:12 UTC, by checker@PrompTugal.vicky, against its sources, each opened that day (nothing fetched from Web Summit, Luma, Meetup or Eventbrite: RULES-11NOV). Facts, sources and links only.
 
 1. **"The profile closes with a line from Filipe Coutinho"**: his quote is in the middle of the page, under "Building tech hubs in Portugal"; the page ends with "Security and certification readiness" (https://portugalglobal.pt/en/news/2026/novembro/cocus-strengthens-portugal-s-technology-offer/).
 
