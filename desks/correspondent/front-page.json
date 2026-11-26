@@ -1,34 +1,34 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-21T08:15Z",
-  "edition": "The places edition (Dinis, 16 Nov 2026, 04:00 and 19:25 UTC): the Algarve's stories lead, then national and international; the summit is over and its pieces sit in their beats. Set by correspondent@ at the restart on this account.",
+  "updated": "2026-11-26T01:35Z",
+  "edition": "The after-the-summit edition (Dinis, 26 Nov 2026: make the site look as good and up to date as it can): the summit is over, so the week's Portugal and Europe tech news leads, with the guides to the data and the rules behind it. Set by cl-6.journalist@ for cl-6.conductor@.",
   "lead": {
-    "article": "algarve-tourism-ai-funded-pilot-and-agentic-warning",
-    "why": "The Algarve's biggest industry offered AI three ways, and the head of Algarve Evolution warns that AI agents could soon search and book trips: regional, sourced, and the frame for the Algarve places that follow. (place.algarve@; picked at the restart, 16 Nov 2026)"
+    "article": "portugal-tech-investment-top-10-atomico-estimate",
+    "why": "AICEP reports an Atomico estimate that Portugal's venture capital reaches 910 million dollars in 2026 and moves into Europe's top ten; the news of the week for a Portuguese tech reader, with the caveat that it is a projection."
   },
   "top": [
     {
-      "article": "algarve-farms-become-ai-and-robot-test-beds",
-      "why": "Two Algarve farms will host robotics and AI living labs (NERA, University of Algarve): the region's land, not its beaches."
+      "article": "smartex-porto-ai-fabric-checks-fadell-chair",
+      "why": "A Porto AI company gets Tony Fadell as chair and launches fabric inspection for H&M; the savings figure is flagged as the company's own estimate."
     },
     {
-      "article": "faro-ai-gathers-around-the-university",
-      "why": "The capital's AI runs through the University of Algarve: a town-level picture a reader can compare with their own."
+      "article": "europe-startup-funding-81-billion-atomico",
+      "why": "The European frame for the Portuguese number: record founders and money, shrinking first rounds, and Europe's 7 per cent of world computing capacity."
     },
     {
-      "article": "neuraspace-coimbra-raises-15-6-million",
-      "why": "The national item: a Portuguese AI space-software company raises 15.6 million euros (Vicky's team, reviewed by journalist@)."
+      "article": "ai-use-in-portugal-2026",
+      "why": "INE's 2026 figures: 54.4 per cent of people and 19.6 per cent of companies in Portugal used AI; the data behind the week's AI stories."
     }
   ],
   "service": {
-    "label": "If you are going",
+    "label": "Guides worth keeping",
     "articles": [
-      "your-first-day-at-web-summit",
-      "tuesday-10-november-three-ways-in",
-      "wednesday-11-november-going-abroad"
+      "how-the-eu-simplified-the-ai-act",
+      "agent-setup-guide",
+      "where-to-find-portugal"
     ],
-    "why": "Practical pieces that keep their value until the day they describe; a box of their own so they do not push news down. Tuesday's and Wednesday's day guides in date order."
+    "why": "The summit is over, so the 'If you are going' box gives way to pieces that keep their value: the AI Act as it now stands, the setup guide for agents and a map of Portugal's tech places."
   },
   "beats": [
     {
@@ -50,6 +50,8 @@
     {
       "beat": "AI",
       "articles": [
+        "reach-ai-lisbon-brands-in-ai-answers",
+        "ai-use-in-portugal-2026",
         "one-door",
         "pagerduty-agents-in-production",
         "digital-fairness-act-ai-agents",
@@ -70,27 +72,6 @@
       "note": "the guide to setting up agents is the reader's way in; the robotics route for the summit"
     },
     {
-      "beat": "Web Summit 2026",
-      "articles": [
-        "breakout-startups-thursday-centre-stage",
-        "red-wind-warning-lisbon-wednesday",
-        "web-summit-day-2-refunds",
-        "plan-your-week-by-field",
-        "web-summit-wristband-queues",
-        "web-summit-passes-and-colours",
-        "your-first-day-at-web-summit",
-        "venue-map",
-        "driving-to-web-summit",
-        "tuesday-10-november-three-ways-in",
-        "web-summit-2026-in-numbers",
-        "gender-in-tech-report-2026",
-        "web-summit-before-2026",
-        "health-startups-by-problem",
-        "ibm-sports-tech-challenge",
-        "press-conferences-day-by-day"
-      ]
-    },
-    {
       "beat": "Brazil",
       "articles": [
         "breakout-startups-thursday-centre-stage",
@@ -107,6 +88,10 @@
     {
       "beat": "Portugal",
       "articles": [
+        "portugal-tech-investment-top-10-atomico-estimate",
+        "smartex-porto-ai-fabric-checks-fadell-chair",
+        "priberam-kenya-broadcasters-ai-media-webinar",
+        "cocus-vila-nova-de-gaia-tech-hubs",
         "health-service-pays-remote-physiotherapy",
         "superhuman-to-buy-rows-porto",
         "ai-physiotherapy-portugal-health-service",
@@ -134,6 +119,7 @@
     {
       "beat": "Europe",
       "articles": [
+        "europe-startup-funding-81-billion-atomico",
         "how-the-eu-simplified-the-ai-act",
         "digital-fairness-act-ai-agents",
         "ai-act-first-harmonised-standard",
@@ -143,6 +129,27 @@
         "italy-and-portugal-in-beato",
         "europe-in-pavilion-4",
         "wednesday-11-november-going-abroad"
+      ]
+    },
+    {
+      "beat": "Web Summit 2026",
+      "articles": [
+        "breakout-startups-thursday-centre-stage",
+        "red-wind-warning-lisbon-wednesday",
+        "web-summit-day-2-refunds",
+        "plan-your-week-by-field",
+        "web-summit-wristband-queues",
+        "web-summit-passes-and-colours",
+        "your-first-day-at-web-summit",
+        "venue-map",
+        "driving-to-web-summit",
+        "tuesday-10-november-three-ways-in",
+        "web-summit-2026-in-numbers",
+        "gender-in-tech-report-2026",
+        "web-summit-before-2026",
+        "health-startups-by-problem",
+        "ibm-sports-tech-challenge",
+        "press-conferences-day-by-day"
       ]
     },
     {

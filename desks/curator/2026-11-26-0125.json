@@ -1,0 +1,96 @@
+{
+ "desk": "curator",
+ "agent": "cl-6.journalist@PrompTugal.dinis (playing the curator phase)",
+ "run": "2026-11-26T01:25Z",
+ "for": "the journalist phase of the same run",
+ "covers": {
+  "inputs": "Public web research 20 to 26 November 2026 (WebSearch and WebFetch; nothing behind a login). No hold.",
+  "overlap_checked": "26 Nov: no existing article on Smartex, Atomico, Priberam, COCUS, Reach AI or the AICEP Portugal item; Web Summit 2026 results are already covered (web-summit-2026-in-numbers); the AI Act omnibus is covered (how-the-eu-simplified-the-ai-act)."
+ },
+ "rules": "The curator added no fact; each candidate was opened at its source by the checker phase.",
+ "picked": [
+  {
+   "slug": "portugal-tech-investment-top-10-atomico-estimate",
+   "source_url": "https://portugalglobal.pt/en/news/2026/novembro/portugal-enters-europe-s-top-10-for-tech-investment/",
+   "read": "2026-11-26",
+   "categories": [
+    "Portugal",
+    "Startups & Scaleups"
+   ]
+  },
+  {
+   "slug": "smartex-porto-ai-fabric-checks-fadell-chair",
+   "source_url": "https://thenextweb.com/news/tony-fadell-joins-smartex-as-chair-as-it-launches-ai-fabric-checks-for-hm",
+   "read": "2026-11-26",
+   "categories": [
+    "Portugal",
+    "Startups & Scaleups",
+    "AI"
+   ]
+  },
+  {
+   "slug": "europe-startup-funding-81-billion-atomico",
+   "source_url": "https://tech.eu/2026/11/18/investment-in-european-startups-surges-to-81bn-but-capital-concentration-is-a-challenge-for-startups-says-atomico/",
+   "read": "2026-11-26",
+   "categories": [
+    "Europe",
+    "Startups & Scaleups"
+   ]
+  },
+  {
+   "slug": "reach-ai-lisbon-brands-in-ai-answers",
+   "source_url": "https://portugalglobal.pt/en/news/2026/novembro/reach-ai-investing-in-the-new-frontier-of-digital-research/",
+   "read": "2026-11-26",
+   "categories": [
+    "AI",
+    "Portugal",
+    "Startups & Scaleups"
+   ]
+  },
+  {
+   "slug": "priberam-kenya-broadcasters-ai-media-webinar",
+   "source_url": "https://portugalglobal.pt/en/news/2026/novembro/priberam-and-kenya-s-apb-explore-ai-s-future-in-media/",
+   "read": "2026-11-26",
+   "categories": [
+    "Portugal",
+    "AI"
+   ]
+  },
+  {
+   "slug": "cocus-vila-nova-de-gaia-tech-hubs",
+   "source_url": "https://portugalglobal.pt/en/news/2026/novembro/cocus-strengthens-portugal-s-technology-offer/",
+   "read": "2026-11-26",
+   "categories": [
+    "Portugal",
+    "Corporate"
+   ]
+  }
+ ],
+ "held_or_dropped": [
+  {
+   "item": "Granter 1.6 million euro round",
+   "verdict": "dropped",
+   "why": "announced 3 November, outside the window; mentioned by Forbes Portugal only as a past PITCH winner"
+  },
+  {
+   "item": "Wilco 2.5 million euro round (Samaipata)",
+   "verdict": "dropped",
+   "why": "Tech.eu files it under Portugal but Spanish outlets call it a Spanish startup; home market unclear"
+  },
+  {
+   "item": "EU Commission AI Continent plan one-year report",
+   "verdict": "dropped",
+   "why": "dated 9 April 2026, not this week"
+  },
+  {
+   "item": "Kodly conversational AI, NTT Data e-commerce AI (AICEP)",
+   "verdict": "held",
+   "why": "thin profiles with no figures; Kodly could follow"
+  },
+  {
+   "item": "Web Summit PITCH winner Carevision and attendance",
+   "verdict": "dropped",
+   "why": "Forbes Portugal, 14 November; summit figures already covered"
+  }
+ ]
+}
