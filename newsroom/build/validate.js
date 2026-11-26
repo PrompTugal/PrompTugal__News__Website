@@ -25,6 +25,7 @@ const path = require('path')
 const { execFileSync } = require('child_process')
 const crypto = require('crypto')
 const SIGNED = require('./signed-form.cjs')
+const { supersededVouches } = require('./superseded.cjs')
 
 const ROOT = path.resolve(__dirname, '..', '..')
 const errors = [], warnings = []
@@ -194,7 +195,11 @@ for (const f of files.filter(f => /^content\/articles\/[^/]+\.md$/.test(rel(f)) 
     // the signer must be a key in board/keys.json, active; a signature over the version-free form must verify
     const key = KEYS.find(k => k.bundle && k.bundle.signing_fingerprint === s.fingerprint)
     if (!key) { errors.push(`${sig}: signed by ${s.fingerprint}, which is not in board/keys.json`); continue }
-    if (key.status !== 'active' && key.status !== 'superseded') { errors.push(`${sig}: signed by ${key.id}, whose key is ${key.status || 'not active'} in board/keys.json`); continue }  // a key handed over at a session's end still vouches for what it signed while active
+    if (key.status !== 'active' && key.status !== 'superseded') { errors.push(`${sig}: signed by ${key.id}, whose key is ${key.status || 'not active'} in board/keys.json`); continue }
+    // a superseded key (handed over at a session's end) still vouches only for a .sig that was already committed, unchanged, when the
+    // key was superseded: by ancestry, not by a commit's time, which anyone can set (security@ S1, cl-6.security, 26 Nov 2026;
+    // the rule is supersededVouches() in superseded.cjs, pinned by tests/test_superseded_sigs.mjs)
+    if (key.status === 'superseded' && !supersededVouches(git, key, sig)) { errors.push(`${sig}: key ${key.id} superseded; .sig not as it was then`); continue }
     if (s.form === SIGNED.FORM || s.form === SIGNED.LEGACY_FORM) {
         if (!exists(out + '.md')) continue
         if (SIGNED.builderLines(read(out + '.md')) > 1) { errors.push(`${out}.md: more than one 'built by: ' line; only the agent block's may have that shape`); continue }
