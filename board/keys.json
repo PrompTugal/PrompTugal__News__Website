@@ -16,9 +16,8 @@
         "fingerprint": "sha256:0d045a0b55734ac7",
         "signing_fingerprint": "sha256:4a76444c8799594b"
       },
-      "status": "active",
-      "superseded": "2026-11-25T22:49Z by conductor-promptugal-cl-6 (cl-6.conductor@PrompTugal.dinis, account F)",
-      "superseded_note": "Signs nothing new from the time in 'superseded'. Its status stays 'active' only because the gate (newsroom/build/validate.js line 197) refuses articles whose signer is not active, and this key signed five articles; dev@ is asked to accept superseded keys for what they signed while active, as notes.mjs does, and then the status becomes 'superseded'."
+      "status": "superseded",
+      "superseded": "2026-11-25T22:49Z by conductor-promptugal-cl-6 (cl-6.conductor@PrompTugal.dinis, account F)"
     },
     {
       "id": "dev-promptugal-0",
