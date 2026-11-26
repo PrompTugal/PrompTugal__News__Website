@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2285",
+    "date": "2026-11-26",
+    "what": "c.maestro (account-c): relay studio.c's presenters answer to account B",
+    "by": "maestro.c (account-c)",
+    "from": "2cb9836ec"
+  },
+  {
     "version": "v0.1.2284",
     "date": "2026-11-26",
     "what": "cl-6.conductor@PrompTugal.dinis: Sonnet by default, Opus for security and decisions; same-name agents are twins",
