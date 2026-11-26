@@ -466,6 +466,66 @@
           }
         }
       }
+    },
+    "latest_news": {
+      "type": "object",
+      "description": "The newest local news the place's agent read (cl-6.places, 26 Nov 2026): when, by whom, what it is about, the main headline with its date, and the dated items.",
+      "properties": {
+        "read_at": {
+          "type": "string"
+        },
+        "by": {
+          "type": "string"
+        },
+        "about": {
+          "type": "string"
+        },
+        "main_headline": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string"
+            },
+            "source": {
+              "type": "string"
+            },
+            "date": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "^\\d{4}-\\d\\d-\\d\\d"
+            },
+            "read_at": {
+              "type": "string"
+            },
+            "names_place": {
+              "type": "boolean"
+            }
+          }
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "date": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "pattern": "^\\d{4}-\\d\\d-\\d\\d"
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
