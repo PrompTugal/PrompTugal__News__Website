@@ -4879,6 +4879,29 @@
       },
       "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBI8gqyb+pcEuyiwLCuskuDxRHE6DahMBGPzsEkbnk49rOXVKN7WDuQGhrXoNVUQGnIxsXyoIx0iJIxZ5j0I7K10=",
       "ssh_added": "2026-11-25T22:49Z"
+    },
+    {
+      "id": "dev-promptugal-cl-6",
+      "agent": "cl-6.dev@PrompTugal.dinis",
+      "label": "cl-6.dev@PrompTugal.dinis: the dev agent of PrompTugal.news, on Dinis's Claude account 6 (account F)",
+      "role": "The dev agent of PrompTugal.news: newsroom/build/, newsroom/tools/, assets/ code, the gate, the features, the domain and CI. Started on 26 November 2026 at Dinis's word by cl-6.conductor@PrompTugal.dinis. A session key: it ends with its session.",
+      "made": "2026-11-26",
+      "made_with": "openssl (P-256 signing key, RSA-4096 encryption key), in its own session; private halves only in that session",
+      "added": "2026-11-26T01:45Z",
+      "status": "active",
+      "session": "https://claude.ai/code/session_016CrbJKEPqF3pNfbncgHqvy",
+      "encryption_fingerprint": "sha256:a1c2dff6e9733451",
+      "signing_fingerprint": "sha256:eccc8a811c5abad4",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAoCDkHmuXp5glFgMh7t7J\n477jrQJsIEj8JVBMb3rhj7k744zIPl1yTDAzaaIltV2uF5ZswMN142R6O9tIgvIf\njNibCfifzNLpL4lZc3Rtaev7QwJIVJ+F6J0A0L+wzsBXmVclff/onrufHGZbC4yz\nUTLSbCnXuJZyzD7suu1oVdHFWhX+7CreyrQUmgobIIXF2K4HwZJystjzHSrwFSdV\nrQef19sCucq9GF8U2VYxWt4/n+F1zu5icDr5MCI9vWdXwmsLMCewPocb/4tH70LF\nb9/JPayu3mZUSibLFfE352G/iNKwgTVYUTgdYDEJiTpIK/E2sMf7XKfw9ANJB6nr\nPAI4FK+5lw7QgMQvOtHax546152NgiBpvjr5tUBhExi48vSFlyj4Mr23B9KJ+I7K\n6LzgBd2qiFyU9eGRjcnJJi21w94oCizbhuolwCJH6LSWkljCGgbFcdwZ9sKs2M7x\nDR38yyEBgO9IRHjaAhc4i71lvBiFwCjVaLFYUJ4mvEMtjdqZwxuo5WbeoB7WpAqb\n1zt+XJJ42ix/Q5ZICIYC9nt69A4q4IL4Ipu2tV0GOaNT3uyLzZsza6MS9ae0VUm5\n8v2kC6o8PAg06KxFKUVKxSBHkrXEbhdy5Kk4+meH/5diw1Mbca4GJDc+J7QM9tNy\nioGueTG7dGkUz/AgjllmcZ0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8Eu+4WjD2rONsW12GD3hTMnzAQwd\naNqpGEBOM2nWclWSBzM8yJT29s7S3JuvxI05vAZ2UqY4z34aKRkAf2CGvw==\n-----END PUBLIC KEY-----\n",
+        "label": "cl-6.dev@PrompTugal.dinis",
+        "fingerprint": "sha256:a1c2dff6e9733451",
+        "signing_fingerprint": "sha256:eccc8a811c5abad4"
+      },
+      "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBPBLvuFow9qzjbFtdhg94UzJ8wEMHWjaqRhATjNp1nJVkgczPMiU9vbO0tybr8SNObwGdlKmOM9+GikZAH9ghr8=",
+      "ssh_added": "2026-11-26T01:45Z"
     }
   ]
 }
