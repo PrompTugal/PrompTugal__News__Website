@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2307",
+    "date": "2026-11-26",
+    "what": "cl-6.synthetic@PrompTugal.dinis: add my key synthetic-promptugal-cl-6 to board/keys.json",
+    "by": "cl-6.synthetic@PrompTugal.dinis",
+    "from": "2f6efca57"
+  },
+  {
     "version": "v0.1.2306",
     "date": "2026-11-26",
     "what": "decisions.d@AgentiCCells.dinis: 10:43 wake: log refreshed (32 open; no new records)",
