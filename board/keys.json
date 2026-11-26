@@ -217,7 +217,10 @@
         "fingerprint": "sha256:7bcf22c9fe51e0c2",
         "signing_fingerprint": "sha256:e545d41398236e61"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded_at": "2026-11-26",
+      "superseded_by": "synthetic-promptugal-cl-6",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits); replaced by synthetic-promptugal-cl-6."
     },
     {
       "id": "outreach-promptugal",
@@ -379,9 +382,11 @@
         "fingerprint": "sha256:2be4372a9ba5de94",
         "signing_fingerprint": "sha256:510645ab1d366802"
       },
-      "status": "active",
+      "status": "superseded",
       "reinstated_at": "2026-11-18T01:35Z",
-      "reinstated_note": "Superseded on 17 November when session 2 was started; Dinis then chose to keep this session (18 November), because it still holds the drain's credentials. Session 2 (observability-promptugal-2) is retired."
+      "reinstated_note": "Superseded on 17 November when session 2 was started; Dinis then chose to keep this session (18 November), because it still holds the drain's credentials. Session 2 (observability-promptugal-2) is retired.",
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "historian-promptugal",
@@ -473,7 +478,9 @@
         "fingerprint": "sha256:9c1bb7158495c662",
         "signing_fingerprint": "sha256:f9861b7b562fd76f"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T06:53 (48 commits)."
     },
     {
       "id": "correspondent-promptugal-0",
@@ -571,7 +578,9 @@
         "fingerprint": "sha256:3d3d6c2d4761fb0e",
         "signing_fingerprint": "sha256:ddf6ca1995a07790"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-12T13:01 (37 commits)."
     },
     {
       "id": "abp-promptugal",
@@ -704,7 +713,9 @@
         "fingerprint": "sha256:e37bb680909f180c",
         "signing_fingerprint": "sha256:23825302a54f3ba6"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "dev.search-promptugal",
@@ -761,7 +772,9 @@
         "fingerprint": "sha256:c6e5f59ff3945af9",
         "signing_fingerprint": "sha256:c73b14faae0334ff"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "dev.data-promptugal",
@@ -1259,7 +1272,7 @@
       "agent": "observability@PrompTugal.dinis",
       "label": "observability@PrompTugal.dinis (vault onboarding: the issuer and the sweep)",
       "added": "2026-11-06",
-      "status": "active",
+      "status": "superseded",
       "role": "Signs the onboarding pool, licences and mailbox (sign); claims are sealed to it (encrypt). Kept by observability@PrompTugal.dinis outside the repository, sealed to Dinis for recovery.",
       "bundle": {
         "v": 1,
@@ -1268,7 +1281,9 @@
         "label": "claims-issuer-promptugal",
         "fingerprint": "sha256:b951b45354bf5563",
         "signing_fingerprint": "sha256:167f6342fe297d00"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "dev-vicky-promptugal",
@@ -1345,7 +1360,9 @@
         "record": "sha256:9f23f97717f21f2f",
         "signing_fingerprint": "sha256:9f23f97717f21f2f"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "customers-b-promptugal",
@@ -1363,7 +1380,9 @@
         "record": "sha256:8f0e91dadb288261",
         "signing_fingerprint": "sha256:8f0e91dadb288261"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "researcher-b-promptugal",
@@ -1458,7 +1477,10 @@
         "record": "sha256:a9b5a7ae8b925a0a",
         "signing_fingerprint": "sha256:a9b5a7ae8b925a0a"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded_at": "2026-11-26",
+      "superseded_by": "backup-promptugal-cl-6",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits); replaced by backup-promptugal-cl-6."
     },
     {
       "id": "correspondent-promptugal-b",
@@ -1516,7 +1538,9 @@
         "fingerprint": "sha256:9866657638c75046",
         "signing_fingerprint": "sha256:def0a0e73b05b1b2"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "writer-angelo-promptugal",
@@ -1543,7 +1567,7 @@
       "role": "Page layouts from data for PrompTugal.news: the front page, the articles page, the companies page versions, the people page, the summit's days. A worker: pushes only to work/dev.pages; dev@ reviews. A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 6 November 2026, 23:09 UTC, on account B (pki-agent.mjs keygen --session, tool sha256 fcb28a1c...02ab checked) and pushed by that session; the push is the authorisation. Takes over from dev.pages-promptugal (board/the-account-move.md). Not yet linked to the operator or submitted to pki.sgit.ai.",
       "added": "2026-11-06",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAofFg7bghvAjAteSqZY43\nCaqcDi5KaAPvY4KRigArEli9sPym8siU0zeMqLuLxxKg2Oq+rUWN9/GT3oeOVxBY\nNxqZgFwwB9vPRV9CL1AVqOu6wteO3mF9/cHTW7DeHfmPXgMGkabB82KS4YgYgoQp\nxtAYBX7qfQ7UKttfoQFHzsq0By8+eB/LkBdWBqe/ZPzodZyjAK6XyMgOOey5jeFE\nxgddbH90L9PagyxAOv+e2DeOZOhXaqqzRPZ2ahzabCir47R2Q+BPk1n/5ZeNU6oz\nPAwS8PiUme4CZkYhUaV1hgQXKW9Ykh/vCTdPowf3ScvyWIeXJVUbT3q+IFCrU+WV\nOGfCm3fY8DFZD6zPnEae7f8MxuLF60bhhNcRPYNj5z+FegcQT+4+Lid4CWhjN6t4\n7uTKlaJM4iojoc8NMXPzgpbikKKbb/s5caRV3V2c5DgmPKqU+iEYHJtP3rF400v4\nhWgvo24ysA+BYXGOgxbFMCZE73eo/lsEifYqiGj9MGbvhql3HMU/uHd1lZxec9YB\nc/yTFwFsi85pCL/BT3xfK0WYS2VIi29F1ZCXuf42YGXLLI2srKd9DjU8rA5TNrdj\nsvBy3/J9OckpSk8iWKiSMFR5SBeSX+y/XAV/1s2T08dIcyVha2vbYKXdmvopK3es\nkukSvvFuigOKbVxxJIfagT0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -1551,7 +1575,9 @@
         "label": "dev.pages@PrompTugal.dinis",
         "fingerprint": "sha256:ed2519a7036380a7",
         "signing_fingerprint": "sha256:71cf5919bb0b84fb"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "dev.data-b-promptugal",
@@ -1569,7 +1595,9 @@
         "record": "sha256:cfb59c663c081c32",
         "signing_fingerprint": "sha256:cfb59c663c081c32"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "dev.portugal-b-promptugal",
@@ -1586,7 +1614,9 @@
         "fingerprint": "sha256:5b8a1f13cb732c6b",
         "signing_fingerprint": "sha256:621f573ed9d31b13"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "writer-jose-promptugal",
@@ -1622,7 +1652,9 @@
         "record": "sha256:ecdfe53bdcbc0f68",
         "signing_fingerprint": "sha256:ecdfe53bdcbc0f68"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "gamma-ray-promptugal",
@@ -1789,7 +1821,9 @@
         "fingerprint": "sha256:f1ed772ac0fc5963",
         "signing_fingerprint": "sha256:f2d72cf94b4baa37"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "reporter.newsroom-promptugal",
@@ -1798,7 +1832,7 @@
       "role": "The newsroom's work-desk reporter: collects the evidence of what Vicky's newsroom agents do (commits, trailers, desk notes, run reports, hand-offs) and writes it as JSON traces in board/team/work-desk/traces/ for journalist.newsroom@PrompTugal.dinis. A session key: it ends with its session.",
       "how": "Made by the agent in its own new session on 10 November 2026, 17:22 UTC (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab), started by conductor@web-summit.dinis at Dinis's word ('Please start', about 17:40 UTC per board/team/work-desk/BRIEF.md). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation.",
       "added": "2026-11-10",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA4kO1cKyOVn4b+211Bk7x\nE+8H4PgOwUyuv9kWZeDdA66V3N3e2uyIIGzvKdLHoVuqbs5Q2xcf7PwUuAqsCsWq\niMzQioHvGcHLsVkMfdMKwMkJZ80WPN3g1K4vkn7WjNKTuTEzqX5oNgWwFuRK+hF5\nyIdHAg8WHdk/I8XW4awMZ+9hnFYUa+TqnrcnlJ2WS4zv6d0iU8VMyp/4Wf2JQ7Hd\nl5wzXc67zMbhedJBVG8u3Gs3PUbioY3hP0AzJlhYsJzU3gTyFVoV+AnAbRBieFww\n203ZTGRkT4JxG303m7BKm5rmV6HONoLj3sJ1Q8v4DPB7OrAXb3oBQAC+qAXmlOgZ\n5oxUJma0dMLilGzq2hx6dZk+XZAHuwCJQyVLro/BTX9xd4wzr3mOzMbo8kDtudH/\nM5R3/DXzl31GVCQIcLNSKKhlDyRPTCvaCLB9x3HNB/3/FhXxnr3lBBQDVwCcb4Jw\njjG/ozv1GgJ50es8oCoIt3ckRlp7w7wflK2Ts20spgyaHTWG6DoicOh4unWn6MoL\nkD9om0VoX4uQSApg0RqkplUwlmX9PHxxR6nNok5BAstS1LI7VOfOKPpi4Wx8Xm5b\nDHdDiFw7MOzuiBNiMaP8Grci+E3673Q2fn1kbB94Axav7BGlrhnjD0GQ6qnWdAuj\nL6Z9dRH8zkzi3DV/VTR08AECAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -1806,7 +1840,9 @@
         "label": "reporter.newsroom@PrompTugal.dinis",
         "fingerprint": "sha256:c48d6420d525246a",
         "signing_fingerprint": "sha256:0e29b227974af7c9"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "social-watch-promptugal",
@@ -1815,7 +1851,7 @@
       "role": "The summit's social watch: finds public content about Web Summit Lisbon 2026 (press, blogs, public posts, video, podcasts, Web Summit's own channels), verifies each item at its URL, credits it, and records it in data/summit-coverage.json with an hourly 'what people are talking about' summary in board/team/social.watch/; signals desk for the storm incident (WS-214). A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 10 November 2026, 18:44 UTC (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Started by conductor@web-summit.dinis at 04:20 UTC; held until Dinis confirmed the role, the name social.watch@PrompTugal.dinis, the OpenRouter budget and the sub-agents in this session (about 18:42 UTC). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session (~/.sg-send, outside this repository); the push of this entry is the authorisation.",
       "added": "2026-11-10",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAt4YmOpt/afL5m0jHYTMi\n7qinuSQ3t/6pYP9xWJsuEMF+0GZ0K4US0KKoKRRGeuS9quFHkIbWtzUKnO2eeSZk\n5qrC70ynIb0CO/IdIeX2d4LdKHSgmNrETM9gzZeNtJaYXSWAxEzfz+XrE2A+IclB\nGtxyQlTPhsLnzT9IYe5rYlmLYKkW370QYOM0cCoa7qFs5kt+Rsn2CjhYk8/ui1DI\nPVIGiWAeRBX23RfAwFpyqr/YP+3t+HEo6PwBGwRftV4IB6If+fBjc8GgLAOrAEbM\nCNE/AZCsCm/tKkbflGda2mtN66szxZvr9PzE8wGeQzQGsMnaNuV58jMGqqDGhAcn\nPxRlO9K8pvXNKdariCWHTNSOfhbulu/KlpMp17t3jA5+GGFhYGDszTGazfmNkb06\nkRzDvvto78JxScF+qmpiNlUW9DGiuiJYTB6bQutL/uC9iXh90aC34NrzLeM/SzSo\nUENg8/levetQkQvyOgwAsol19gyGTAGxDKGV8a2LXgTKHQLsXNJoniRLQwEo7+P5\n0q1hX4DhJ/AEleB/REYBHzpPIuA+ClOpR6oIpeOui3Dmm8un4rA5V+JNvrMnNoQc\nVErc+40/0woiY36qsI4eN4V7OPYo71FKXuXRZTWBwzrkBjNDrpzKrz9N1ZEBevJ1\nx6JfV56w+yjpMJM/gJiSCTMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -1823,7 +1859,9 @@
         "label": "social.watch@PrompTugal.dinis",
         "fingerprint": "sha256:a58b199da08fee12",
         "signing_fingerprint": "sha256:fc93da40c6296c07"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "conductor.fringe-promptugal-1",
@@ -1851,7 +1889,7 @@
       "role": "The lead of Lisbon Fringe (fringe.promptugal.news, WS-215): routes the swarm's work, keeps the board, at Dinis Cruz's word (11 November 2026: 'you're going to be my main conductor from here').",
       "how": "Made in its own session (session_01Kw9UwBGQe9BhMCbDw28aDA) on 11 November 2026, 10:44 UTC (pki-agent.mjs keygen --session, the copy whose sha256 is fcb28a1c...02ab). A session key: it ends with the session. Replaces the 10:40 entry above (superseded 10:45 UTC).",
       "added": "2026-11-11",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEApOjZaGcUFU6Nkjmh1n3s\nsSGt+H2T8o3+SieKAActiZhPjDY3lbH6l3QWU6SB5hBZPOnsbX1ln5QcrDA0AOUM\nxCdUx8GAcH9PRUF/70GevuW9yBYoPAAGjBCsaX0rA5m/6es8LZ5Az87nVVWRESE+\n8ur9zA/ALM2lfaYHIfXmySa9RvT86d9UhUTGuSP8rJ5qnmg8VlSTLnIdfHmyLYZ8\n0WNT7xZUnL90raFVAI4f6t0LGyzblBpNEgNPYHW/NFA1TM9iMoizyQeccUA0WmDL\nuyFKvclSNwVk8aOog3hERoZjDE1NT+9dymtMn2W1h5GPhVdyFBgLM+uR1OfiokaF\nhpqZZYhLZVqRyO0GjrMDN4eaNmo/5hY++2peUA4t8wstIIfDAJ8kWVzHWYdkjt7b\nqkph+uUj97Kqk7eDmi7Iz/tT2+mP3SdabwFwOlJRsN/0EXgBPOT5IdqEBf4nJ5C8\nEU8g3IIJ/U+jB7ts/9yTjbmsMJV6lEEXU+H3/sf3tLrdl/NHFgUOIiF3wg9FxfxY\n3xmhIKwGQVKPbjRdBqmx1v8ITUQClip3orA/W+vuIoL0aDWgufHdU25n8HQQXJwZ\nCCWPAZrTXFq+8avWPPKkxoSPjtzJfJ2z4DA5F3BbA61PH68PLqho0TqLbrxf+suC\nirvx7esEcLAS30s3LNSlUz0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -1859,7 +1897,9 @@
         "label": "conductor.fringe@PrompTugal.dinis",
         "fingerprint": "sha256:0fa7162784a49b23",
         "signing_fingerprint": "sha256:cb7afbe3025a6ec1"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "conductor.fringe-vicky",
@@ -2121,7 +2161,7 @@
       "role": "Aljezur's site, promptugal.news/algarve/aljezur/ (data/by-place/aljezur.json), started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA7aYWAeFLdMvBGUbPTDzJ\n3xZXAgiT7BkdzDBTkBvTkN3Azy4yI1Vb7AZ8QDCcFG4lwLljWXUxNOnDOTvGmRgd\n47rLQ4xE0hBsCansgaZZGe91nn4yqTQCc2wVMtqdBTqUt7uPflmsQ9LpMrgHPTgL\nOZZ/2XLlIJx1leokC435+mS6CH23Bfwixol+eU/yknNUgB3Iu4dqfT7OXVQ0dsyx\npIp6tS8jqW1GbpjBdPyGQoPAIlUORhOnKXqZs/dJ80qTDzXm5QQtAcbuR2sovoz2\n4aufLD24A4JmPnfdKJTXMBqcBhBqkk5HBJ7xCMd+WHAcpeFxhjATeobNSwJ1T4+4\nktJS4i+J1+gNUScnDTcn0fFy+AwytSM5+tOvlv8huFL5FYDuDvgAZ8IMxfGwq4o0\nvs6vAK64WxVSvEr/OI/p5lU+QHojP7zifL7rBd+kQCaWAW3ji7BFDTKPnktCJm5y\nWTjuTzRGh36Tj2qSopdgDuYYpmJxa/4VZblkC4zGB8hHzHr+QzZjxdyJDI1wF6hp\nFLMF2fPmLZprWoQ0SUq9/VbVmCjxWHFkU8Oo5QnwB7AzAoJx8QpQkllxb1lm8Jof\n8a13bvyXBNpABixQK022PBEMN2kBH+n0NIknYcA4vAvwXkFcSbqnLX9WiHn5et97\ni1GqUscOSTE7IlvFazFGFwMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2130,7 +2170,9 @@
         "fingerprint": "sha256:f9131ad53ecdc701",
         "record": "sha256:7ea1015728f296c6",
         "signing_fingerprint": "sha256:7ea1015728f296c6"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "site.aljezur-promptugal",
@@ -2139,7 +2181,7 @@
       "role": "Signs data/by-place/aljezur.json: the identity of the Aljezur site, held in the session of place.aljezur@PrompTugal.dinis.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "kind": "site",
       "site": "https://promptugal.news/algarve/aljezur/",
       "bundle": {
@@ -2150,7 +2192,9 @@
         "fingerprint": "sha256:cc04d7986eb31f53",
         "record": "sha256:97958d8b26c6802c",
         "signing_fingerprint": "sha256:97958d8b26c6802c"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "designer.places-promptugal",
@@ -2179,7 +2223,7 @@
       "role": "The agent of the Vila do Bispo site: data/by-place/vila-do-bispo.json, its research and publish loop (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAiPNhScOIRADk47O+2nGi\nq54SlTgH0Dz18ykktrpoKlomdrkEHoPGSLp6WfMya/6bluSBph3h0vaZzUupg5ch\ncNF0abaZfn2FqqQKw6+DBWGtMaIIBWClyMfN4GSWkYkoErd+V1A1rhdPCc2cD17Y\nfyO4SQppSIiktiLhUt29N0mVCTEnc4aw03/YUWT5bbYZI3YG1CdzNW7cqd0fL4gn\nV1mNWlSR/WCjzBrTxUiKr076HXM7oHMnMchNLtnFSjb5QG8R19Ye6tkTLyVIHZig\nXNxC3+sEkeO7pSeD1za6/TsF19ElKEJiw2IT1BBYNUNGfLZl5QLzlcMXMHVx2rrl\negixY9AhfaX+ebE0vMVOOyWk0kUHweJasZ8y5/HmaQ6q4L49weqX+yiMULvc9XxU\nLoant7Lm2glGJfS0rOwk5Z5MUn0u/c2QBfXKjpjxUO0eOCCyYJX6UadhbgTfOMyL\nlo+/k5VVt3dcfHHRwiq3c0Lr9CTxU2huBRBQCLRubNpowcqeiTXcVXs1qBwulduA\nEHCjHSInhl+bz7rR6iLMaupy9/ibxyhlO4rHxcTPzoX07KYReBOtD+6mXa/D1ta3\nQPAoTE/dM7Gq9pK34JS5Wssi1EmKPDqz8gl5u5qFQ2jFS7XaPGvVOjpxkJHITsJI\n6HdIcy6MkPqvfpyX9ATQq/kCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2188,7 +2232,9 @@
         "fingerprint": "sha256:bdd80bbd803d7b18",
         "signing_fingerprint": "sha256:73a5f8caa99ebd33",
         "record": "sha256:73a5f8caa99ebd33"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "site.vila-do-bispo-promptugal",
@@ -2197,7 +2243,7 @@
       "role": "The identity of the Vila do Bispo site: signs data/by-place/vila-do-bispo.json. Made and held by place.vila-do-bispo@PrompTugal.dinis for the length of its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAinaNW3dFxYZd/5C7ZJAn\nU4GosvqxuUsNvrpTDek+zXQTswOnGfgszNTqHUMase5G+KOaxLGCFuxD9E7LAV9w\nf6ROXpHtYafE44T422RHBO/9Om63vKdt48KHNlhQURqt4ZtQQzhmNQ3HnCI+5jGm\nGLjto/3nRUGnTcYKti4DfSy2ikAvrdryyY85b3ICSX8ux6Pm/K+VDzizhACDR+qm\neE7upHTtEQLhKetAJmt3KPzjQZpavtHnwdzlb/IEaPvdzHrK/H1M/QvJrvS6eGpk\ntR88CoJrEvyGu/JOFzSZKJ/l9jdDKI4YGXPS2b5VfWDE6qfx+hLmm7uh4mqTIZ0z\nutpkAlN4dGN4tBppZcPLxiEaSZnu930RdfbMqiTBnVGTDq8WfcBSQb/+ZIA2ZgD1\npLIHPadAU0RZDbG1c2oiiRCDMAl2BFPwUSmA+GCyvfK77u41+pt2t1DlrEp2ddIz\nwb5z80+too6NHZXRBxDl9wweTGzjZPLauhyyDii3zl2RioI0NaVzqshX7X5QiF4R\nu61e6W1DVIOqkDCVX5FB0F3oPtIF0tcILkfvkFSLXEuT4GH7OtRFjD2hzPam1Tti\nCbDsFvRyy0iOuEhJV6M33leJiWKsRyuPhWo8IoFXiILObFGFZGKyYdHolxYUlXQA\nrtGWA/6NE8Lr+9HZTOJ1N0sCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2208,7 +2254,9 @@
         "record": "sha256:45a9ab02290d2b0d"
       },
       "kind": "site",
-      "site": "https://promptugal.news/algarve/vila-do-bispo/"
+      "site": "https://promptugal.news/algarve/vila-do-bispo/",
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "place.alcoutim-promptugal",
@@ -2217,7 +2265,7 @@
       "role": "The agent for Alcoutim's site, promptugal.news/algarve/alcoutim/ (data/by-place/alcoutim.json), started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAmY6TkshkiK+G9RatEZzu\nPuAJUtRpOcMhd/zGRxA6HEAWUQbnaV31j0LutdpWxOw1NfaDonfdHlafTjapolQq\nqvNfLhHf7S/79YTlphgfV2PghiFYwU8T9kgH5ucuKTlEKC8r0Tq0aufpxmWsskKH\nI0UFQ5246pfK5TfzguoJIeovHnOHHHTT1KkQggk87yvWHlrGXoAInKNP1s1Y0IgC\nR9VWmszhneaXYpSQLe/paQaU6YXqOwUrGTDFk3m05jxRznLl9nQyt3U16QW+csP5\nrM8Nyv9vxZjZ8KYdszCYnEr5Wssafud3GRsEtZm42UJrUqdS/hW4lRwUceIPLCgD\ndhr0kQX1LGZqYPU9+OwbPW4NjMQDpyHuRn/I2Mk0IQzDoxNACWg6eZ0dH+4jUMLF\nNCTyjc/usI2xVBjTxbQTU98JNDh+q/6mhB9GiV0IBx30wSzJqqfQCPHY0zfO048G\nMW9NEkq1URF9rnN/VbcX/LhM50LDqkzMOeD7ECr1m9OoR6eGqFCOZbskCbP8vfn5\nNmou9Fsdni/bw867jScCzIhY60VxKG5yYLeJUdpbRwasiQ4kNitUcR92BE03Jiie\n6GutUS4u/R1dxy703Ybrfnkauzeww7djRPbAnhNuIvs3YGR1npBcISNhmhnfogzc\nYNlRga4lFxv3BdBi7sF+4dMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2226,7 +2274,9 @@
         "fingerprint": "sha256:084df5f21ead08a2",
         "record": "sha256:3474d6d58ab3d873",
         "signing_fingerprint": "sha256:3474d6d58ab3d873"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T02:59 (2 commits)."
     },
     {
       "id": "site.alcoutim-promptugal",
@@ -2259,7 +2309,7 @@
       "role": "Quarteira's place site of PrompTugal.news (data/by-place/quarteira.json): the research and publish loop for Quarteira and its AI map, started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA4yh8BVSvrWU7LSKHK74G\nDYKOrS+CEXJSyYn3i7E333IrDXBRXEROuW/p17WHUXlEn7W7x3rtFpHHTRsivFkZ\n3Dtj+ju5BurT2kCj57197v3tbGuC/4AxDxyCKxgK019W1fmJOykTFw+GRIOjRG6+\nRs3D3toorG+RbNtajlXgPbYRPlBlh3zOaJgDoP+01v/ZZT88uBzHI4hhhNJZRjY/\nb0sZa1iOd0IHP7qrKwdbDTLcHy2v7WphQn9fI2zzJlfj82J/sgr/F9KeIXokJCd2\nXUVAcpXZgbkk1ro3m6IxCH8cyYRMk7qMdl6962zocfvrHRTKwyFDd0mNQeK/GoWe\nvN6rebpLdK2swHhpjQGHxB0HG+6WzRsAactVq8osppRj//2XtyIwtdj/Av/dqmOD\nD3tk9k8ITIrjwH3llVs/bNGfrIZI+BKZWlIRRDCHXMmrqTj9KUuBxuM+rf22mloz\nEViC/EuBsk2Aay6ryVmVApap9tm/5c1LFdgm9ncCltA+21jQkqY5JXf0W1rB89xU\nQXwVNwz2ROoFr3dHFeSBUBYwSTtZOL1z6HFT4/tTr/RiYapiL/6PHKiU4TUiUiAw\nqQ3hX7dQJAl7TsKQzeEFlKXnGaiAX9vq7PhY92sJPfHDq98+1PO+NqJhX2FDrbGV\nDY5a272dhfX5QwOgXgtG1wsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2268,7 +2318,9 @@
         "fingerprint": "sha256:f6d6b3d7903bb17c",
         "record": "sha256:0519d5c8ce094cde",
         "signing_fingerprint": "sha256:0519d5c8ce094cde"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "site.quarteira-promptugal-0",
@@ -2301,7 +2353,7 @@
       "role": "The national-level place agent of PrompTugal.news: researches and writes data/by-place/portugal.json (the AI map of Portugal, Portugal's AI news). Writes only its own file, its notes and its own entries here.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session). A session key: it ends with its session.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAq2KynbdqSP75xGlsKzeo\nQmCUfXJ3xJyvfp2AOEnNnNi1lnkWzzdxcYuotpxlX0YASBPp97q51qSQR14nvfwU\nGVilmb5D89lZzKpHZuG3WFxw1WvLZNo6vN3pdJxQWhcSgs8nrPdaPTw5+6wzyPkm\neoHF60qg4raMNDBjMOXO9668Z+Jir4xa3EbIHWVRyzAjqMpZBpS6iRzuJmMXHBpQ\n4+CIEhnx9JSj0i7aLBOU4mhbBSMeidvPB2Dj7EPcA6SThEttg0ZVM7boSP3kHo64\nU4/h1Adaqe35peMmYdXsb52/apmy6i6gXvkLzWjLPMun914XxfODpLfBQt6H334U\nfb03rQn9stztXomxGgcMAW2WrgVb/36XlMcWKH/IrzHrLpqpM0Gxc9KWQq1R/kP8\n2b6HBt4tZJd6oSiNCO+GXjSvzA/fktZUbyRLyym2HXpHfSCZcjrbzvTP+3+UrILT\n2MgxJsCR9R5B0YoDEIqt3P0e0tjuDfaXZp1C+9OPUyZg4iXj7eqI8WViokdCS35K\nEffcjNNhU7VMJzURCiq5zK1yfe1j+JsyttMTqjO8nuCPr3cOvzCPRMz+1fJ5HeQR\njWlSlBZMUEkImC/K0vhFH4DXa5PFtuKtsFKlYSR8fmUWcrxGxpVPbK/oh0CGeGzn\ntaUUEEGNmtdaTSmZXo05AOECAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2309,7 +2361,9 @@
         "label": "place.portugal@PrompTugal.dinis",
         "fingerprint": "sha256:1e2430d89fd4cf22",
         "signing_fingerprint": "sha256:8cbfc4d90ba614db"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "site.portugal-promptugal",
@@ -2320,7 +2374,7 @@
       "role": "The site identity of the Portugal national page: data/by-place/portugal.json.sig verifies against this key. Held by place.portugal@PrompTugal.dinis for the session.",
       "how": "Made by place.portugal@PrompTugal.dinis on 15 November 2026 (pki-agent.mjs keygen --session, separate home).",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAzbzYvGSQdm5nzIN8mTpU\nGvoyQizvkQK8Nr53fwek3dD6Bm/KM/ikiJ8OfMVozTa1+NtrLY4OT1yeHUAWNDkb\n8CxsKeIA98GIG1vgj8SCGFUF2tkejU9ft0YivP6oY5PhA/K0s+33MmDjRTXI31In\nUIYZF5Z6rljzJ0sycV60+f0/rN848Q1UCyslD3/JvGmLJtrD84FkvJ6vcB5k3Dfa\nYNvfgjJ0vSRrk3sxPUm020ZKilnWTmCV25JXfHVSFMlOAlsyNPfhfnrWVB24wYf+\nj8x56HVhBIEm2Efr64/hZcr04BRQgSYuY1vBbmEdulQxmnZfVPZGQHXkzakIRUR9\n+lIoZsrHiaNryJNv6JfZPGKJL9CtK1whU9Bwdaz33kPqXD8/WnGlp1NbgJtmICvQ\nYPy7j3Fzpk96ApaoOtGDHMUK1n79h+/WXWRR5dHtbOs0gyoJPetp1/0FP4taMJBG\nk89l3ptYMZIK92D10inugecSaU0kbPqVHDn/CCuYAUXLFkT0r/7eEfvc0r9Iuggu\nveTp/K2tuF5C5tzaFU7XrmkD1Vh4yHmdzD9h6QOQkn8BXkgA/HeqCq9cReLFck8L\n3BRSDak9gcU/X3JToOWjHJnrdnnGM4olw4gMUsN/u4CdOiK5NqgEUTiY+eM4VIqr\nW34t0lWFc28+KYMztmuJV7ECAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2328,7 +2382,9 @@
         "label": "site.portugal@PrompTugal.dinis",
         "fingerprint": "sha256:5f6875723d1b8f43",
         "signing_fingerprint": "sha256:d50beea261bba6f0"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "place.monchique-promptugal",
@@ -2337,7 +2393,7 @@
       "role": "The Monchique place agent: data/by-place/monchique.json and its research and publish loop for promptugal.news/algarve/monchique/, started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA1ccmAMzV+CejM4rNgI8j\nvuSN4jCThtKcUoRksookZpVSKUx7OtA2XOxWUfmS1zi0g3ZEGM+ueKFjJbo+agZL\nmgjeQLpLk8wY1QGiksIxAT+5gk18XjD32yc13lrW/mujP+EdtCYzNyzoA1WQPiYd\nVP0x+8LtOfbkVikq/RVm11izcvWc/R2LyReJhcGa4knfW2zIEf1zLFjFEpqtEo5S\nMWcGFEoPm4PKMW8xc3YzXqFhLQCCLeVSJyv3boCFDol+roROxSuPxKs/RJ798EJO\n7MyZY3zJFYfGKGfomUYdlhsN9jNmQezheCda9xUP75vcW+pnHTo9ArFe1hqy0Mgr\nrs2rSQSlJzDNgJH/CPb5P2aQDIK7NZ0888vqCgo8o2d3iUqXXyWDjcV2SKX+w8s6\n6CnavAabEeezhkXGdW9nHIC70UUe4PfZlFiGspOOakzH9GsMr7IplDqZkahr7Oea\nq7CYqk7/3XaBe7gc1OBgK2JKhY/hwZLuxt181JlCrty1SvBQnQbaPxnV63o0CJ2m\nduqd1uUu/lLTcrW5BEICY2E3N4Td721/pAJXSTAt5CFVvwqxa7n1W6dS0EKKNoDZ\nyEG2cpORLOduApubWHu2VN7vJH/pmTMXVIvd6vAuHsgIXDbSNo7tEmN5DNYRJ8Ep\nhK+6otJaoESOKR/10CBqZV8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2345,7 +2401,9 @@
         "label": "place.monchique@PrompTugal.dinis",
         "fingerprint": "sha256:63d391aad5818e80",
         "signing_fingerprint": "sha256:960c92e4f3212c70"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T04:44 (1 commits)."
     },
     {
       "id": "site.monchique-promptugal",
@@ -2356,7 +2414,7 @@
       "role": "The site key of the Monchique place site; the file data/by-place/monchique.json.sig verifies against it. Held in the place agent's session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAl+3r3CpWPtNKJn4DyPXp\nsq9MKUIkwPQ/fG2ELb6HAld4/yWVoRr3BvZRLTyc4BclrPgT4LPQQIoayPGwX1Ws\nXAJcO0/Se4L9bskG1enPEKT70wjs+8OM1A8s6oBN1mia61/x6DhjeNh28n4u4fZ5\ndFR1RHTHS1RmBvb4IZgLopR7nQvZxu9sXYSmfFA3jXQretsbTChkMEq+LT4JCUJC\nDh4yD+BmyU0N/4Knsgvu937gS6hCKqiPqgnGQnG+suhO+3YHqX95lRp3FLUoYCeE\niT26/Kqxczm930JqkvKRgKv1+B4oQPUgW25U5QLIi+U/DHbMmPNfeHIlt8owr57D\nIIViTLX+yunqYg65C9gzbSRQznBs72WwlnFfGcQ+mN9KFR+lk5lU26jcQlbfkOUJ\noouXCLTFqGgNLUZBOC/WvlzRmSHZ0P53M6oG6ktQ2fLbKZEvZBAqGa/XQhOB29ZF\n+AqPZ3gUqg95Itib2fxgZvgxNnIq+NAJP8AQsRNs6I60EF6BdYfJsLeb/h0ocGwy\nea+rSUzFtsSusScBdQEEtpUXzTiKRxfjyTDdde0L4Y1pgGhfiQ/9GOidB1KylqlM\nw5kmXjUBFn4bP2dXxctAvC9MN4RyThHlqbDAyRVLiU6TJwnlKibNZq/NguFGSv8E\nYbZcEZV3xmtYtR20LkrYXc8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2364,7 +2422,9 @@
         "label": "site.monchique-promptugal",
         "fingerprint": "sha256:dbf39cd76dceac95",
         "signing_fingerprint": "sha256:2d6f65ee118568f6"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T04:44 (1 commits)."
     },
     {
       "id": "place.albufeira-promptugal",
@@ -2373,7 +2433,7 @@
       "role": "The agent for Albufeira's site (promptugal.news/algarve/albufeira/): researches and writes data/by-place/albufeira.json and its own articles. A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). The private half stays in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA3189vQOaldr3ZuPikW++\n9vgB0RfRKdzBIH6Uhl4Oty8csAdVG37MNBFL8GEzbIBGM7uYlGihf1UrT/ksVzNE\nzUfx+F1HcWOdjq5nNEgZqbY1zP79ZB8/wSoTA1Bvns6ct3r3I6UrqbYHmzZUvHkL\nF/2QF+hhjweM6HbZFdlSLCC/rPf31gi49ihrk9jfbE86uTRt10WG9yRc+kx2tNak\nX1ViP/Ki7h1yqJY1E1BkNnw9A5+pQmBO0eQs92XiIm7NbhsBtII3JcG9jph10Z/s\nqGMklb1uMqWCzngiPIkqy8SffdnFwZLCMTXT6FMQvi0OQapAZMIY5Oz0PoqC0COY\nxIMsBcDggjzfF1BuCLF8YMfvXnKoovj63qiihdlqc3/9R71APRfcrpJRfZCicSy2\nPoNMY/jv5hJa69Gv3zoKg/r9NM+usAbDY6CDeV7iDIOvn/xGM6x37reA9CEg8htf\nICxcz9WOTLyG4EbTddNiP350to2zXEhEBsLHW2QUk2nzvJ0KBRVT12M6whczGVYY\nuT+sEB0i2QmzWEwd5+6YSeAqHIvm3+Gbpojp9gQ3Yn8h74rhuYCfD+4toPCPxF7L\nho2mrgcKGAVmEkwS30k1cRlD8/5SScQhRRXN8WaDIffXx36EecB+PBVhosdYBxwX\nJpajPytZL2zpyo/k/QT6zHcCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2381,7 +2441,9 @@
         "label": "place.albufeira@PrompTugal.dinis",
         "fingerprint": "sha256:560e517ab3f34b54",
         "signing_fingerprint": "sha256:e6e6207bf0a7b003"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T20:16 (8 commits)."
     },
     {
       "id": "site.albufeira-promptugal-0",
@@ -2413,7 +2475,7 @@
       "role": "The place agent for Vila Real de Santo António: researches and writes data/by-place/vila-real-de-santo-antonio.json (promptugal.news/algarve/vila-real-de-santo-antonio/), started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAzKeqYF+DTl7ZJLwG5sJ5\n7D9JngjxiwbNpHc8F385S7zlSHUwIyBOm5eleU6OXyNOqgFNntZIuzNKoop+5RNG\n0bo1u+NjqIB7HmE6tqCOJTmLpuryW7fLbZtC4AaiDknm29CQfP4ZZ47MbXhME7ht\ndiz/a1fAVyE4WowO1VmKb810yQyaD1NiuuIdCX9XoJS4vgY7ewgpGc2DTNiNoSJh\nuE/87MC6jQYselIX+kzsP2metr8cPfWiGM1akjDLi5gQ7ByoLeRb/+lm6/90Kaip\nFVeUf+VnZFf6ZOzFsWSvhRlJI6vwDTfn0rsJXwgfOvxLJQpOVcg+wLJOa7Ya1BNE\nIkwoJHy4Sj6V/an6w/wGl85N88bqoAQInRrKbrwO7bf9nb4MwqFLYoN0/cLbD2zL\nhLoz42M/tfoI9n2FpWG6gYdrkiJLRFuGnKrur6ldaG+BO0dLcrGOW/Pmz+9Kfvg2\ng253xHU/1I0y80Bsbr1tsM59+SL0zwe7hvc+eLHh3/Gnim2PRPGjqRu8mkc7UGLm\n3GlP8nyfr+H+yScbSwrqdC2LL13Igt9DaMKC37igBBuTz3zBc+EY3X8SmikPB+Fk\nb7RBcBek4Oz80Dik3xVllAWwnBsQYKNW1JQBnsLcGPvaFN8lB6jpi3urOGgN0G3J\nxX41Y9UT3iGP9r4HQw/j5KkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2422,7 +2484,9 @@
         "fingerprint": "sha256:593d94195f30068b",
         "record": "sha256:8c98ed99365a64d5",
         "signing_fingerprint": "sha256:8c98ed99365a64d5"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T03:26 (1 commits)."
     },
     {
       "id": "site.vila-real-de-santo-antonio-promptugal",
@@ -2455,7 +2519,7 @@
       "role": "The site of São Brás de Alportel, promptugal.news/algarve/sao-bras-de-alportel/ (data/by-place/sao-bras-de-alportel.json), started 15 November 2026 at Dinis's word. A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator's key or confirmed on pki.sgit.ai. The private half stays in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAt0k4ctCI3IjlyuRMtpcj\nyOUuW7XmPHRl0344NCWtI0LInCrCIb3ti7n23K0HT5nAHvipbLBWlL8BmO7/uSNc\n2IgmldHUukli0T2XETA7klMt1f49dCBphVf3dRll/02FdgmsN8tLaWYr6e0jOjkP\n2dJlmBjT5w/EViZlb//II7X7zIyavYTy5VuY4mU20IKYBakCjHoXJjO1lHZxwzk/\nrfgr8Kbj01GNDpnbS+m3Gd8q9lblUvuyOK9Gh7aC2HIvWqMG6sJhoZc2gN5358UN\n/e0awnBHMyMqwmI7T7LONQrHOMsn8fPmhaLMCjFK9grxWAfjYRUhqWHUCt3Qss8d\nOEGhjYOCyhugiK7S/HK3TcQQW8eKsIqHcYLHyt1xssdcCNGL4HKRKuzKuuMMqfeo\nvRQcaKE3iTgJilm4AGZrtRNmxMUUcDmQRL0NImLEtCxB2GW8fuRsWHIWVYwo8dzo\nOhYGNBVw5mQjsbrkf/w3tY4OVS9blz2SxxCuFArq8WbBS4YakafFmPvatc2dNt/V\n1N1g558HUk9O0eD/XveRbxW3qBaw0ZwzY2RJme0czzOgymuReDnuxcSVjASUS3w0\nTh1USRZuR2FXbajKt7SuraqO1cV0aoTK3DwHcwNTpWAHOOvcKVGSZtnU0cb/PRgb\nSgS1vqgwXKyE6miBkfOw3iECAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2463,7 +2527,9 @@
         "label": "place.sao-bras-de-alportel@PrompTugal.dinis",
         "fingerprint": "sha256:b14842a0e1f8b261",
         "signing_fingerprint": "sha256:5b669f5545b32c01"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "site.sao-bras-de-alportel-promptugal-0",
@@ -2495,7 +2561,7 @@
       "role": "The Lagos place agent: data/by-place/lagos.json and promptugal.news/algarve/lagos/, started 15 November 2026 at Dinis's word. A session key: it ends with its session.",
       "how": "Made in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAv/nh29NZFVFyMMzmQQum\nII1HGMYgpVIQyyIFxCQcN+gY+fpFVsfddmSqZebhHTg38KPhpuxf97xZw8l7OvPq\nvertdF0E6iDDV1D3VyZKXNjMUAswRNG3/GJ+BwV6b11wjTtYQMfVizpBB+jBLTWl\n6VotMH4shu8iXc29Zt6wQjPwyzCnbhLp29Z0TBlXCfnk7qrLDgTrPQVuIb9UrYCm\ng5XYIe6aTYBx2Eof5RcGvhn3pk/a5XQv3sJMOiDcp4PlaopB/J7WvTVg52z0nSY9\n3TzsQraYLxlZnJ5g/dJii6yTr8bCR7EyH2AIdq8+McqA8ludKqD0w7Rv79JVZZWW\nrMSdNVchAGuO9i9mTFauuM8zJdbRK6MvOPhl/v2Z6JpH3tjxm2UGz5EQqBvNCYpd\nNKc8W3lk/vMNBnZZQu9zlNiktz3v5sso6VQ/peFCSUD2nsNh1c+wFBD1Z6YxsTi+\n60t2bt8joAfevoCFxZqNd6oovKGLmfrgdVRXyv80cwBcWd2MImXg1wF0mySHekED\n/TelDYf3v8cwg70AzEDJjzRzasHtVSb3AVwSgbKcRt9ByYUqAliryv3kbhNN8Jy2\nNe2NVBne1RmnzWxZZDqs4/qDZ6CShxf25ihAE5fo2Xc2iMKp8B7QnFhyCgFjlg3C\nK+R6fRCNPB1q8YSIIWKA3IUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2504,7 +2570,9 @@
         "fingerprint": "sha256:91aba709fb382854",
         "record": "sha256:351f334954892055",
         "signing_fingerprint": "sha256:351f334954892055"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "site.lagos-promptugal",
@@ -2515,7 +2583,7 @@
       "role": "The identity of the Lagos site: signs data/by-place/lagos.json. Held in the place.lagos agent's session.",
       "how": "Made in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsfo72U7jaAdOyVu09BCy\nJR++faUhxpU+vTX7NWZ918pNdalCUgRT5nuNDsaz2PtyLLBHC7mamCzCeDTNfn7K\nX90ejTifR5RRndEvYhlZdHvkYDjc6u8aM5HzEo8Qs08Wb8k5tBh2vhzmNh1lC6LT\n1jcC8iwPZfJXIMoH6ogOs9kBd8OXepCyykzQMHr9D35EDzzJ9NpwcyX2yabExVg4\ni02Il0pQHYm3QYaES93t9lUKLzsn9dWbQ9mNZshNLj3ccWhB/us0V6ZfsqAoEzkn\nU1tlgOMMPcwtBQSD4skpo2EXfs8ulO6EwzDwee1tjePJiVtqCjD7g4fEM2cnY/D6\nwZarvL31WnkJI8YfB2x02o2GyeSkOQeTCmt7AFXKEcc5ZyW2E+i7YRt3al9W3L0e\n41HU+un8mMOIOOioE1B4EmKoy7p161ytQ4Uk/8vY3+cP/O5dwBOfAKj+yvE9R7zL\n7SYrnDK1YwvRmJZ56jXojJRfvE5GWmQ/dH43Z9BppteIm0OuMadKj/tib/edeQXZ\nR+Wc4ecVnarpEyvvLcUyt+f9Uk4Us8KmLF9nfYiX+c1r27athIQFFOYfVXQXtKwj\niQ1J1wtvDL3GR93AYl2BZAk2zMuLn2bb0MEx1x8J59wyOD//Ax1LoGnyeNxComzH\nKcPWyL20cZzQjGpaBIRQ8ZMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2524,7 +2592,9 @@
         "fingerprint": "sha256:9028e7ddc451f63c",
         "record": "sha256:fddd18190dbf778c",
         "signing_fingerprint": "sha256:fddd18190dbf778c"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "place.algarve-promptugal",
@@ -2533,7 +2603,7 @@
       "role": "The place agent for the Algarve region of PrompTugal.news (data/by-place/algarve.json): the regional AI map, region-wide AI news, sources, events and gaps. Public research only; a session key that ends with its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). The private half stays in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxUY7JAadfG1cHnH0xONV\n0UB96UhMzcVzw67BpWjCMz6P07oASu4XiDNAR2nh4Rrd5fCs+MBZkJj97PBOnv6R\n+O70oL+gAUlA1IgWzcJS7XAPctav9IDPGCC6mLKNLHTdwzr8ahcVG1lfkQAz3aU+\n7mnbTC3Olby5EBQpq0ot7rYiSB/BoPhfasRS7xz4iLK9JrjbmTMT7MhneeHBgT+D\nav1/xVWbXYYL0naEgnnWfNEMEyJoX5eXTA/x7LZ4dwoN1+sqBqP9k7L1EDsRpxma\nGconyNrfLgQx1T7zbo+TmixPiS2bVOpwrwpj06dchlIIC4NSqJ2G0GyJNzWv68XZ\nnkAP4Bz8e9RpwPDU+/wMuLCne+ba25kli9H1dapBUS6yeSMHEwzUWxdzHX7byeBg\n6PU7BH24sUSwTj6spLIIDSjh7JE2ljuIE76TKeA8SsVnxu/h1Kz5Hgd/rYDR20aI\nQbRAnJ1/cuTwwne5FF927WAMYd2+Ngtkho6fWGoqIpv06Qk/q7jdUSv+PdJqghhf\n2hEwZdql2DCFLH3DRbInJbWlBzFlBc5jN00N539iKjhOvR+tV30psxxHQYbvPRei\n76r1RladaZUYD6zoCa/w4wX4NjT8Pl8AgnNhuGgsQhifkpeHU/7xf6qr1nZzFDAf\nJn7LOdJ2Nw1D+J/aB1RDwCcCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2541,7 +2611,9 @@
         "label": "place.algarve@PrompTugal.dinis",
         "fingerprint": "sha256:8e59874804341a0a",
         "signing_fingerprint": "sha256:fadc5274917bd2dc"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T15:27 (19 commits)."
     },
     {
       "id": "site.algarve-promptugal",
@@ -2573,7 +2645,7 @@
       "role": "The agent of Lagoa's site, promptugal.news/algarve/lagoa/ (data/by-place/lagoa.json), started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). The agent's own key. Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArjSZR7D6QcMvo06jtfGj\nPIaNeFKZ6MZV+OjnhQB6Hehz4IOEzfTXK1LjXSw6qhacUu0C517jSmEsYhCnyyz6\n19jLNjlRp8i78L5s9Mbdh/isI/AzDOmpCciwAICjEwMqcxGTk6KUu0tK+09dNlaE\naC0uKz8mViyAVbK86/YqsgE3EfbtFjEekasc3VbCxVSXtq/4pPoiI1KvK+H55XmU\nvCVAPBZCFP18N5VB4cRejVOYKszpKfMk7f6slH5/e6rwHW4F9ZtWo7YreQVmBm6S\nkQoeuwrrWbwW64AGiwNNSYhNkC+7aecAZIMuHHwBCWBoRu43ZPX46M1LR57m4WIh\nMUspCpxQRyqfysfO0YGVIVBkB3IV8pK90dczIh9rZuTel2vNjOvAFfNssok8BpBD\nT95u1NqZL41uTykdKvB+ibVgzdf8g3btWsY0npKNSaIChAJQBkxP0zmQNW5YuKnm\nqIbVblJQq44miFEc5w9U1S02Z/6m8oB76sV6+mu3Wiy1kcWwFCLQ4mh/1r+Eildy\nN0BBsSx8r+JW4W83vFkyXHKvucpA5AM9SJts7XNZMedoa3cfhLqE5ghSzXgf/4eh\nyVn7Lkik+640axcHF3itw28hmGlGf0Gsj0NOTg7qxVSNRgii+J+Wy4E8oHqSaWKn\nM5ebAwQIvHyAtz4Y2DuXd1kCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2581,7 +2653,9 @@
         "label": "place.lagoa@PrompTugal.dinis",
         "fingerprint": "sha256:bdf5d11c39a0d100",
         "signing_fingerprint": "sha256:aace4aff7cee171a"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "site.lagoa-promptugal",
@@ -2590,7 +2664,7 @@
       "role": "The identity of Lagoa's site: signs data/by-place/lagoa.json. Held in the session of place.lagoa@PrompTugal.dinis, so it ends with that session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). The site's own key, made apart from the agent's. Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA5UXoWq+txOyqhrUwaOGZ\nXJ5dI5zb1uKjSSQ4VKjtNuG2NGvej+oFddAudoan/H3/wNHkduxwG18sshuTUFTz\nP1Npxf+deHZelSfePfxwkatE5JWF4mUf2pgg4xIxfdGMW7Tj4n3GwLMSkiKWCklz\ncRJ+vMKlrLox1PBP6TRJ5ZyNtooI8Jn66bXqeDkj9JF9FZ7Y//BJ413VkwZGF5Y0\nJ//RPwhMlTVbq8P+JICAjlfFvlQ4Eoa1lr1mUhJicdUFwsg0osy2RriqZUfoeo8K\nly9xmQRSt7ZieXi/TMURhV4n6Jhxkk12VqV4acajKSxNpoTwXkIRP6gAub62J4NT\nixB7wLi0x9P1VtDx1FtfEfEqCu8+vut70d4GcP6TcjFKPI13b7co0FDSCLdPboSr\niSlk9zbjmnc04Z4yctYRDEhUfv88R88qR1kY9kuh8k8IC+8Peo/XwEKC06kEFajM\nh4xLrEaVfzV/cLnVLVogHvBmiX2iQ47bvBlNu2LQoyWKa8E5u6/SXcCnYblx0Xfc\n5ydvymcT8al/5Gz2H6eb35QdHOvMYicoyP0svSWkawr7Eb9aRDMZP1aQBRgu3iZB\nOE6bKcP6Fg6/whklNp/wGtaNKaNO8+eRLvSoNzUxQEEEq7XEfzkMIEuADhbuB3gk\ni6W8TD6r7WxYy9YVXm8ZZ2MCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2600,7 +2674,9 @@
         "signing_fingerprint": "sha256:264b7fe237169055"
       },
       "kind": "site",
-      "site": "https://promptugal.news/algarve/lagoa/"
+      "site": "https://promptugal.news/algarve/lagoa/",
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "place.faro-promptugal",
@@ -2609,7 +2685,7 @@
       "role": "The Faro place agent: data/by-place/faro.json, its research and articles, started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator's key. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAlx7PUO6OGO8D3eDYOoIm\nXQ9lxIfRmbd1nv6sYRk2RMBL2dJ4YubdIiRRfVvlgteD8ARmRiYlnvmNWPvzADJF\nSrXFOL1Iid1r2PnNL2oefgzwPJJIewoQr4ZtuAN2x2lsTTT0bxmqSALdNg9IhssC\neYq/ckPT3OUfQYd8Dcd4ZCatQz5qOqm6Bzc6u17/KCKM3FUaoi/y5uS5HMfhrinl\nwXzVCeduXjxDI4V8X+f7HH3yWctJeeWoy7stv4yHdaAlhl0IezKay6yNj23robqO\nS8WHASDkDTOBk3FGh7S50oF9V9D00Kb8FufhOqhDtu2puungkdnEpScLHVxV/Gme\nxS7nMW53tRBPg/R0rUjjbZSllgD3dPfFgfeouaFs3xN4MalT0tUR/rVDIwdIhxZ2\nZOK6SJDRPD6/+46SCOt00KUGQxtVrH08Zc3keohHkt4HW3N560IRbJt1hfYAvy+w\nLWk8U1NxS3pjgaCvKi8UNymDQ1poCD62xGcGxMjn1hXSE4UL3akbVBy+AcP+lZCa\nnMKVWeGrciTnUa3YHUpAlMUS5+zbhX+4RG9ICZ6qSt7DR8qeOQejf6xrlFbTWZuW\nYJK5KBl3n33cMCsJ096ZuBQKnqKiqOHiYfm+EqLatIUgZxW816PIUIsviJh/IhFY\nd2Ivn/06rY4XzpIiD32J5IUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2618,7 +2694,9 @@
         "fingerprint": "sha256:fd6345d292a33094",
         "record": "sha256:5ebce4411e13ccc9",
         "signing_fingerprint": "sha256:5ebce4411e13ccc9"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T00:11 (1 commits)."
     },
     {
       "id": "site.faro-promptugal-0",
@@ -2651,7 +2729,7 @@
       "role": "The agent for Olhão: data/by-place/olhao.json, promptugal.news/algarve/olhao/, started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator's key or confirmed on pki.sgit.ai. The private half stays in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA6WiGqTgsUItM8motD2+D\nLxOKOUhVcI72HF1QX2pRoO9uJudSCnhyRR2pqiazGKMr0dGLZMwGtgEahgMggOKp\nUWMgNjrFFv4bUaANXCU+61umpwNvdxqUh3gI7RtRW6PvdK9PXe597bKwBOOrOoKf\nCst6wu5WMJqDNnoV0yTHMDCWq5LO/hYRowaahRnkIzgB5oLUKPiGfDvQ+hvP+WBm\nOwbDJkrmhErQWe90aOrtkx/WxZny2COFppozUIYVVfGfQrJe5gCLj1ItqVDTj3qj\nkHdPtrZCsRty1J4sHE8LaP5+hd/c5+7CwI5R4HBmpFsIlhFC/mjcMeFMx7k2SzEs\nFjNLbiHu3E1TrCV75IKGeoDhgnEi5ExdM/Y0cxHpWSePNmB8zWXiR8kDc/OXlvYy\ncLQZvvNn4zDWxOI+KLOJAA8aNtpKaqgai/rjh3RFqmgT9JIMBXwy5lpQhPF81thG\n2aii5IlB87H3E2x3FZpHkjJgeMgU2ZL7orpyJXxCLCFUHVOG1OecD8Ww6qKyE+Tl\nKXXQWAqk5MevQcwVhBFQUwTEnc2jYc7meP1leNiKPKTk9cuPt0gYzCy9Vz6glr73\nJyQqGRFk8Txq23WNyrZPfueBWAUR7KHS5ftT9m8GTzPczm/1/pnAsv9uxvVHgnBc\nwDWiNOUX+FsLz62bQ/7FWuMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2660,7 +2738,9 @@
         "fingerprint": "sha256:e588f476725ad9ff",
         "record": "sha256:37084b4ad5fd7829",
         "signing_fingerprint": "sha256:37084b4ad5fd7829"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T00:34 (1 commits)."
     },
     {
       "id": "site.olhao-promptugal-0",
@@ -2693,7 +2773,7 @@
       "role": "The place agent for Tavira (data/by-place/tavira.json, promptugal.news/algarve/tavira/): research and publish loop, started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private half stays in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA1yeWUoQbsx4sHywkXLR4\n9xuf0stY5Jkjm8TJG+yxDdzKPW+cG+d9ND2DpQzsrQsCpbmU8JHuKgWIQWnJ605c\nTFkVL4SgsGaz5NMritvIeCsLP69qLsSFFgwkwTC8YRaz2xlzI8GH7Vlyj8YEkPyV\nUccMh2IDg3T6QCpEd68WWyMSECAnj+pDs/lIjDjmEViUlSZ/rW0pHAdUFa4+JWlR\nWHH+wseBVfuhXDLcvNsFPpyxOIADmjfTRwDLDsG35pZlPUFBbBdHMfcEb7jhHHfb\nuOA/45BXikbh84KyL87B2FGKm24iLXByfMRDe6don+D8Y2BbmJ8d1lY/+LWej4yS\nMBWv2n2szaUd2z0o6x2gn9J1ef9cUXmzhyiRqop/qAmAFCN5J6eL/MZJGMhOfoAT\nVkiOlFzwy4n1nyH3aX+nRhsIGinFM6KLpxUgLi/rSgpYC8krK4kTexQj3cUtqgBZ\n2KMW8y6/iIgQilnLmSvSzm5fVk4pHfkmTRy9EG9O0t7BTplAripcFmWmSjRjiQfX\n+z9/w2w45xogcMoJCfHZnbRd5v8J+u/Q2uYY0KZOnSlyn7bPDg2F0vzWaEly9qDy\nPTVGikgjmhLfTOg2QQfMbbsplcu2s1wvpfxMIhJJJbqRgjZ9aaHgUbUCCi8mbqi9\n3n5zy2bdL/vmMXrVlKPp/kkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2701,7 +2781,9 @@
         "label": "place.tavira@PrompTugal.dinis",
         "fingerprint": "sha256:81a1682e1b63f081",
         "signing_fingerprint": "sha256:28b9013be145c5ea"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "site.tavira-promptugal",
@@ -2733,7 +2815,7 @@
       "role": "The agent for the Castro Marim site of PrompTugal.news (data/by-place/castro-marim.json), started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator's key or confirmed on pki.sgit.ai. The private half stays in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": "1",
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtf5JL3+rV7645IZXZuTU\nx3LFz8wmrffDLRpwOTgAxPKwscqAX/unAyXZ4zj5+zytNl1DgCEM1HuUaZ5NvLFf\nlJevowyefI2Vcw4r2Y9uNLQ5OSySfRXLPZgmrDFyiby+Nc3xJHJMeQenMDkduzQu\n8k5MXbDwrT48GGecioZrTtnqfWnrmA9wP9XNi2d931Cw4eWiNarfkQDqYYRitYYD\n4t6E61ePJ9qBkWdT1/wJYo5ksDwKkjHIPtkYHTWCXU6Xvd0Cv8AcpZ7PzLnOzsUf\nw2aoSIdmjE6DhUudjV0i1t16Qi2rfldTrxGzeXSsviC1SN/gVy5ZxuN0cRF7pu3m\nwRiatS2WENSN202xLMk7MwpxzzlRjFdZ26CMw5iWS0FpKYClUygF7ba1ipnx1AhR\n4lCX/V/yWZ0J8XW7ztlPQ7UmoHavUgA26lqQv5T3L75x4icN2yw2gsBNoGEl2Ia6\nx6cfS/7h/EmfmUyU/LQP05m3IzDgKUPkwKJHf9TIFVogPT6/XiKfHhTT5N0BOoVn\nXLAMQ8ZzQKxOCiyMlABbJ63EGKSgrw/fXCO1rxA4SoMaADKSFUmmepRsI2YUXGaR\nO7LFEQ3ESgEZljQHNCr0zexwHiJ2m+h8PXjtjBHl4v2keQc1WRV7SUUycZWK1a01\n0QMBRUKWrA7gn2ZABYvkvrcCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2742,7 +2824,9 @@
         "fingerprint": "sha256:c333ef94ecfb43c6",
         "record": "sha256:c5736844edb3e8f4",
         "signing_fingerprint": "sha256:c5736844edb3e8f4"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "site.castro-marim-promptugal",
@@ -2775,7 +2859,7 @@
       "role": "The place agent for Silves, promptugal.news/algarve/silves/: its file data/by-place/silves.json, its AI map and its research loop. Started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the pinned one). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAwgO142G+4A0HM61hF9zA\nFl97PYfmJK/hs3rVMqpfkP2oRlSDe5tHqld9Xt4Oys4tCgAsB6nKsuxW1BOvWDbe\newyxy6b5zPtxHd9MA8Y1HeFIGQGFYqaUnjUDx7QlLzIFShNY8IVoiBnjOWn71XHM\nIJlhBB1Xl7LWHorY7pWInMdXYzqkeMMQEIySnjOHQ3G3t+zeTAH5+mSpaBUXE6mG\nYqu+gREoLBLsfu2DUDAW1W7tIOc+wTV1+rT5ZJ0aXrE/4fMytKNkmKQBVg+ACQmu\n3wqaivneySfSWc441pAFYFRJEwh/IbRZ+vi4E1JdzH6KzVp6IrUNVZRwvMaxFYdZ\nkwoR2UdvQ0wG7N5hrcNG88GSiclkiqlu7yKIPsZTI0oBpxa6oW6YIxQMdEBVeudL\n6Fwcby47dNbzstNCyU7fWWSqBIkuy8qmfzZT2O0MvVm8/0iyC0+xPgUZx184+kCb\nJ5fckMyjglWBk5QLuXa+/uahG9NTnTlMBdR+Cbdfq/33dyQvK7o2ujTG/lATUnTn\nC8TCrOkF1pUCPkY1uOT6rznTgJItjaKABP+hD79NHsAYTdkFW2aanM9IE+gBiHwr\npF4rdJzz4abOQG7NiOXT0YiQ3BSSKGjlX6RFKsARzW16y81GBOxd6cNRNLYo9G2K\n8pEkJTsNdyAqbixUliUZWIMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2784,7 +2868,9 @@
         "fingerprint": "sha256:b24e68bb0c98d3e2",
         "record": "sha256:399ca91eb15a67e6",
         "signing_fingerprint": "sha256:399ca91eb15a67e6"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T15:33 (14 commits)."
     },
     {
       "id": "site.silves-promptugal",
@@ -2795,7 +2881,7 @@
       "role": "The identity of the Silves site itself: it signs data/by-place/silves.json (the .sig beside it). Held by place.silves@PrompTugal.dinis for the session; it ends with the session and a successor makes a new one.",
       "how": "Made by place.silves@PrompTugal.dinis on 15 November 2026 in its own session (pki-agent.mjs keygen --session, in a separate key directory from the agent's own key). The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAmkF6pxpQ2AK1VhAF7ONa\n2NK69SXHNytdmhwh9lXQcvkvIBdcLLTCu1ZSfI7FV4m9J8KfJDQzxWbMQ1ykEdAl\nacI5TrGyxNB43ntKl/d4WRf8mt6BEs1GIxBNjJv4UCmTUpEMjv5CbzgjC83KORvn\nH+D8XN0wPshisjSCsBqSFZHlr6OkeabHHufwy1wXTH7JU2gc2uBAat6izyqFbnEG\nlR3aXPWrBil1cCjJdndl3P8N6V6sDpKBmQTtKBxhyEdIFimCm1lxEJ9eBkmhFh9H\ncM/FX6mT7PxWQBo2LVabo6GJDxkL65EDQDhN6kZ62r9IVvCQ8i1ZKTuXItawv++G\ns+U4exhj2JilMh9PfRFotkZlWKBmYyKI+HToMT64I6qyTx1M0ujF1xNNV7ePcp/v\nGKLID+sPRz8oZY2CLHnsK6VwQKw+f9tp8vMrtk/39EZqn5tDTcnChY8SrpkqRN3g\ntGArS03haihB0znESZCldu9UlOlOg2uS2EGxCfs9UjoTES0aoj6QLaorP8vug6q8\nO+LzzBrX1m/oG2gL4yefLXCjreWSk7IE0zDdVHQjv7mxvOAvCasfwzxezXYiWPkU\nkDTS0XwCVFZZzUeQ8HqXx+Rp73l8B+8SjrBo5QtwH2bwt9I13xyrylzGauGy2KbE\ndIDBHpEFsHLLHNSvGlDLKWsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2804,7 +2890,9 @@
         "fingerprint": "sha256:6938668bed212e51",
         "record": "sha256:266a9327d6fa28bc",
         "signing_fingerprint": "sha256:266a9327d6fa28bc"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T15:33 (14 commits)."
     },
     {
       "id": "place.portimao-promptugal",
@@ -2813,7 +2901,7 @@
       "role": "The agent for Portimão's site, promptugal.news/algarve/portimao/ (data/by-place/portimao.json), started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEApqyRzwP59fcx975Q9aDb\nw1ikzPhQW41TYduUs4Gz6xWVvTykYM6NPj+LaEvpP/tf+LUkeGKPEzGysFghhLPB\n+1kR/FIPZJhJJcvJE9oLlZH5PWP1yKWe9qqo6rTsY2OiqpU/6ukMx7bdESmrjYAN\nBuc8d2V6L3oAZYxbfHujKPeXj9pupil/XKsWYUftiA42ZESIi8VaznIuBvumxeX+\nzdRFkmBLk0Rc8dGI+3uAR3SHIwLj666xVenEG2xwYFhvgCZM4S8R0Td+4KbJYQAy\nJu+ojDnISNhgdFc55PHyJp5g1LlGzD9sPNip+8bsRYDrbrB6+KYHAuvT0ka3YxDl\nBtEAatEGWui29CJB5sujmJmBYLI3jh6eXn50/KMnIGSMt0fmuGRcHhBvlQmDSAH6\nLyVaw8dBCbK6hv5P75x5VO9cbZNFN2kz+CFc6MVCM23MeIOJXcIu7T2rCwbDKyQr\nh7/iLFKYIHMPxS+2Z+CD5NvD+JRt474PC8pUtmywV5K2LOTm+L4D/IAkZvNFHn/G\nVRZFVxHi5S7TXxFBWsWAqONeTX3AR3cVDZCd6ymwU3jjBlhYAYEL8DzvULA3XEUj\n/127OvjIYk+0G96tQc1/SMYkhaCFNgHTzQw6S/SerqRCMvgFMLJvksDs+qbDcsv+\nxHiMIVGxNXFJRgoP55y9JOsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2822,7 +2910,9 @@
         "fingerprint": "sha256:3bc8df484d56f226",
         "signing_fingerprint": "sha256:2c06595543a8d604",
         "record": "sha256:2c06595543a8d604"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T00:28 (1 commits)."
     },
     {
       "id": "site.portimao-promptugal",
@@ -2833,7 +2923,7 @@
       "role": "The site identity of Portimão's page: signs data/by-place/portimao.json. Held in the session of place.portimao@PrompTugal.dinis; a session key, it ends with that session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAoDVW4YVorO257GCpqmuA\nSAawuyEZ/a8krIU+6XRBp6Cg+rpfqoX8RLRw1eBVZJSTg/2ZgKZRHof3kg6GAR7f\nYbF3QZ9XdmtzW9BLdfDGM3zjvHBPeGan0cVEvjerf5DtTCtfIQOpOzIo8WfZqmi2\nF8kLFsCnWDVC6i59Hn9Mtf1xtnndwxZo+U4B8RZ6JiZYd/3pLGBv5Cq8AZHtihbU\nXzqdCDMoDQMqo9JanRQSm1z6VSRbwDzoGY32bTHbbHx8JQ6pZDbNhppvdlj/JYMe\nFEd/m81hr05aamRH7Q1//j5Gsb4s+SIue1KOCJI6gRmfNcYDXJfbatUDuiPb+4uO\nYYPOTvFsbayccCkwFiONOWPvDC/MHmveP4SntBwWvU1PG3AzR5/Dfq0CqBhzmJHP\n+mt7BORsfVXFABXlx08zTMn3U+NR+y6w3vW3L0inDoTBXQj0OltYQmGOI9S/QBZg\ndQOdF72Hb9e7VHa8pNELZ2HxswEjoHAuVk2VWBzkPHDzDIYs3UK6Xa1YHS11RKNW\nmhAPv7F5tuCjQ/LNM5tPZbMcmXxdjEV+Tx5o9KGF93GRT+JhRRzLmKM8c+76My4l\nNtimNRhrYAiGuHYlY3/3uG5QKwukggEhwF65WV1UBG8UdNHE71ydmGacuxmCeFHk\nlIxzTQoyKmEJ+e1rGfHBh2UCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2842,7 +2932,9 @@
         "fingerprint": "sha256:bea62cffbbb0b35d",
         "signing_fingerprint": "sha256:4a39174bcb538ae2",
         "record": "sha256:4a39174bcb538ae2"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T00:28 (1 commits)."
     },
     {
       "id": "place.loule-promptugal",
@@ -2851,7 +2943,7 @@
       "role": "The agent for Loulé's site, promptugal.news/algarve/loule/ (data/by-place/loule.json): research, writing and release, started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-the-place-agents.md). A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAl+5sQnnAKkn30pMC69M0\n5nzrdmnIbDN4GQS2covqNwEIOhIrN6epXsvdeXp23gvDtrpSGd7StHb2oeXYxngW\nqkhbGUmQqc0yFwDfktteCKBsGzRFQ2L+nP8NYKPY6mvBARWT9AGbfxVsh3oVhX+e\ncdKxoFc9SpsAMnbjjrmQpYB4RA/QR1MeStNiCBCBlHmD9BCNKS8aUzv07P0wCI2G\n2cH1gLcCthNaYcEyQWBVnIvbFkoZIYKPThFfIlE5abIAwz6hTtAvtpvkjF+M16IF\nNj2Lmg3g1Y+uSQ/tpqeh5AQHIJoyrupU8805Hd3uJoQw8n+OOQ25G6rztIBzVWNT\nI+ws+Ny4hHmVNJua4tgVcwbhZDkIJxPGyfI+oPIblBC+ERKLcrCqAFtjBgn32j7J\n+4pa7DpjrnTDo74JRbq6prAy/DVeN5a0m+tSFMUIfCUpa4sqyRg+ma4clk89Qciy\nRfi7JGcOubIOWIhc7pB3Hu1PKFR+6G6J0NOpySY1++etvy2keCkyJuvTjtPZp0np\njKg2NOGvyvHx+ctMSK5No+gKlFtFUJou/gh6RkRRdgJHzF5Yr4SYz6ronjnW01Tn\njPABrCkMVn1stWP5PfZz7Nmmf26/3u6yP3AuO2VizQ5IBr2hFiv3MfsQdTV+3PB9\nXDakwlUrqTXgKHn9iAznwFUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2860,7 +2952,9 @@
         "fingerprint": "sha256:f93326c9433d8d83",
         "record": "sha256:e871f19c052070cc",
         "signing_fingerprint": "sha256:e871f19c052070cc"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T01:30 (2 commits)."
     },
     {
       "id": "site.loule-promptugal-0",
@@ -2893,7 +2987,7 @@
       "role": "The data online and queryable (each place's data and the whole graph as JSON tables with a documented schema, a SQL and graph query page in the browser), the provenance line with captures in an sgit vault, and custom decks from the data; started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-show-the-power.md). A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAyug7JcYu70/PwMNJcu5J\nOW/Mrdmnm0qnGZQeS5ICj5sim+WkBxNpvy2nXQkAznmvr3BsaXNIEyRV0TyBmsZE\nm27vP40NAEjZJxJRG8RbU7giITTOaquUm1AuUtRtcqAJHasm1QgGZ7JVqXe+VRY/\n1V0s+YKLHjxqiSTRCk6WWB0fP+PaO7yxPOBiPjz43tjgLFVzbiY7KjrrYVa88szI\n9+q0P36EXB1FvgymC6u1yjlnRSOaBoMSgMhNZPkQrgQqrIYClbsX0jBRqdsoL026\nRPF/PFxMlieVQFPlAtetDWkC9VVzQw8XkOI2xWnRabvHxl/Sz5IPEoYZK4vePm08\nFGKai2/wogUOnAj62nIv+lr6JHyN2xuMR+jy9UsYyzg9yPfIG0VWolZCyzsl02QR\nzb/9YCOGiGHI8oRPfONGi47WB00Ag3o6lrtGy7mUFfQ/bzbKPL16RByCS1fvhOCc\nPjTfZfFhIzRdjDP+EQukowB1S2Msiync+cGWpdQ1MLQ7cc47wTKGl4s+5P7oT3tU\n9J4Gxbx5wyke40xAFCjnTAXvM4Ivl1H9CMAqNFP7mbYndfVZZFRtPYNEkhxyWvQl\nhL2LxfV7xgLTt5h6hqf6r5LMjU5HMuBrLxvlQB0opTZKCGcmoTZEg2Q4t+hEe6H3\n7po7njVMdWcdqiyqK2EzHyMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2902,7 +2996,9 @@
         "fingerprint": "sha256:c0360966bd04b431",
         "record": "sha256:44ae8a3a4d9b0b47",
         "signing_fingerprint": "sha256:44ae8a3a4d9b0b47"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T15:32 (1 commits)."
     },
     {
       "id": "viz.places-promptugal",
@@ -2911,7 +3007,7 @@
       "role": "The visible agentic system: agents panels on every place page, each place's newsroom drawn end to end, the explainer powered by AgentiCCells. Started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-show-the-power.md). A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator's key. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA6VPXvuZbwtOxFsDt1rzu\nemK0m7/NJ2SV3zsTpbjuCmj3KJB1vo2dFULeQko3U6Yg3rCNfUbCgdJrIhwjRYAC\nfaHI9nxmRkIi1lhpjOb7rpBvAswVhXf9k7bl7OzJUn73N8oWaBAX5Tz2IQeVkxWa\nRAaIrXXv+HBebD4LWLN8OF1Juj1h7CondrA6xR+DkPMBSwEoEIxkyScQ+qyTPpMx\nZjW9Gl7HW/xxfZdhi67+wgTC+B1vRYhD/2fNxpnCj+9LZeZskK59nOsw4xGtf6/S\ndp0t9SrWgkSuClf+nnW19IK3zD3WaUo+8eFigMsoLuIIJbpHqBVIfne5OUPHVeGv\nFL3nuk4YHMDjYAnZZen2CppZxh7UD+sdgjB+CNmlE+E2KQ6zUWrbgQBfg9U34ZVn\nsivE7F1f8yYx5VL4VZXhqUbXEL8KQHPQUFxoKvUrseK8NAlkFznYa19Z00m9hR9c\nO59mqHomMwadsTnJv0vthDDIuurZf8mWHKtujgO4PvXjxHgbCrEEIxj0hGDDNpFU\n1zEbBUmHSH9lFnhEnnDkPT9YwijIcf+GveqQ8NMkYz2cZg3offDn47uabPtIcyb+\nXScZyPfBRn/qmHjwotPuOtbt6zO3umY3kTQ9tVMYYlRG4jJw981hJ2+AtJulwwv1\n8JkVzC7cG3Ll0L4X7/IJbWsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2919,7 +3015,9 @@
         "label": "viz.places@PrompTugal.dinis",
         "fingerprint": "sha256:06a0f3c287f0f71d",
         "signing_fingerprint": "sha256:e19910b4d83c008b"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "detective.places-promptugal",
@@ -2928,7 +3026,7 @@
       "role": "The detective for the places: finds AI-related activity in the Algarve from public social posts, public pages and regional news, and connects the dots (data/by-place/connections.json). Started 15 November 2026 at Dinis's word (board/briefs/2026-11-15-show-the-power.md). A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA0JlLYA6KdC2ZB15rI+2A\nFVrYj8CVOtvYknklgfp2k+nGYYDfr8AAp761Zy4LXCOYEIs3FvBYGV0ZPCMZIrb7\n736tzlo1eyl9uiNx75quHFCdA3YIbRTI3wZh5oLBbaa66HA8kZmQQ89uTroNtKdz\nr5FkS08cJ6JukF0n3wE8sgdY6FCAMyAfwXCuuXyT0vsWq1CxQ74l3J8nQy/2zqpA\n6MMMiXpSXJSzkoK1ceqAA831L6Q98U4mwNCOrsC/UGaAVaoKgfn1U2J2qzYNxe19\nAnMn5cZuhQYSYCsqsYF0M2PH8DMm4kT84EQTSo4OBVNTjkFMTGBiswykDGboppYF\nLSRUUCQ8+70TA/iG1WgftVAv5Js0JZhJsY/Zf5IccPSrcx6tE0TCLDDWLuhbFoPr\nJZ788YR6JTFCISzduakLG8r+VUnyDb5TjoSABBPPGi0sag2eK8wIYy93G5mbJckP\nqwyWhvw8ExHtviMRBSBlcl3QmN1stlf89lGUNtwK8QcxJzrz+OGTKQitxkcOYU7b\nz2XF5EBVZRZATZutYRJ4Jtw1otJ91yZ2hBNxAhrJ7FSFzOxfh96tX6b0Yw7wld8t\n4k6KRyTYH3sU4vx8L6kMAiH9AjCXSdB4n+GXD8AVBrMKu6qoBfo5avDM0DKtmd4v\n7Y9MozlZonJCbubjLWvhaWMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2937,7 +3035,9 @@
         "fingerprint": "sha256:06f9d15ec5ac4558",
         "record": "sha256:d2cad3fd7010adf8",
         "signing_fingerprint": "sha256:d2cad3fd7010adf8"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T20:11 (18 commits)."
     },
     {
       "id": "datasci.places-promptugal",
@@ -3121,7 +3221,7 @@
       "role": "The identity of the Aveiro site: signs data/by-place/aveiro.json. Made and held in the session of place.districts@PrompTugal.dinis.",
       "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAnui1YyoD0dF5675w/aCK\nuD4Du5LziuZZBd+OiiYACGv3cTkBCoiZ0PYhK78qy5J3uGcdTTtDk81JIW391k0L\nC0IL00Nr4uGQMbWUeRf4Xx6yzLzOSb8xiNDnuwMhxL3AuuVaQ3xqcIslZFqWky1B\nBqFISTPgxB4fxh+V/dudt30+vNvrfP+9v958ixEPRbHiEudjKYh6l9JV0g1KsWVY\n2Ykt4vVXHJrwGloxcyMONDsKf9m2Bkopt9sQrhTjAov27d1NRwdTjSfD7rjiW653\nOzLCMlwinxycONv9TJ7QFNrmgTzdpcQeLfUV1mxw/hFqfpOCb+pKtsC1T7FxE9r0\nlJNNH9J6ymiKPBJUcHFb9ctkvdCN4/xTP/hjB7ovBnRQglV6zVW1Ob3NvM3DresO\nBgouULyN9ehxAFspnaNMx38c+R0oz8yIm4+lsm78aNMut0qLijm+hTYhkjk1tztc\nn0j+EzbvHDINkpaHS1TQ1FaXxjYPK4drVuysD3BjzUJeAHpaE7nbibqZZwz/kL4V\nGCO7HJ5418RhkA9WLTyN+x1mnh0/c7pyV9TDxJ2LR6akVnDSmei9vqnHP5hWSzV3\nB6TibQXXZxvp9KbbJsirx/teCsx4JonP6tfIfBHVYzeDCDHGTiq2oXgtNqNnRgft\nB97xC2Hii5j+p0aMX9qlfl8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -3130,7 +3230,9 @@
         "fingerprint": "sha256:cde247fa4abdc68c",
         "record": "sha256:520dd25bd7c89159",
         "signing_fingerprint": "sha256:520dd25bd7c89159"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T05:29 (1 commits)."
     },
     {
       "id": "site.viseu-promptugal",
@@ -3229,7 +3331,7 @@
       "role": "The identity of the Leiria site: signs data/by-place/leiria.json. Made and held in the session of place.districts@PrompTugal.dinis.",
       "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAzThiNOSKJH6n/6GlV7Kb\n33Y6mFuyiKaeItkaOtqwaT5+yxYmZUP2tT1aCc6z7+Zh9x0xma/B0F5npqTlYpzR\n3p7l2QF9EgwBx0ED4/CUlJM0IUWOq+ghsQOpuKJmkTN5xeB4ChyhwINuaFrft6hl\nvjX0lddJgruoOQelaHVg46xdqbyfiJ4O/tB8mYQRxDm0BYpmDg3rIcWOzt5bk3un\ny60EP+wKoKTKo3buemwrRvbQfrOC6Bs0zJxPhyai7CHM3sk/94oZraz6IJ7O7yIt\nfw5wi0yAdffNWGDjtnQ5Bc2/6nOSOgrArECabTy5L1twN7FXpFB+N/tk4p28Ti/K\nkVA3E/XT+U5g8O9IgfbrFo4kNsiQnWvQ2LBUCk2y/kZpf41T7tunu6gSqn0juXOR\noTfmmcwdvtxAl6ETyDS0QZMeystXDrGAiy0ocurTif78euVieYE7o+RjmTU4PpMD\nNwIjlbRaxer2rAM0ANufGOSW/nCi9OVFCo3iFiN6pcnN6+Md3gdn5BwR5qcnLVFW\n2nqy1N95+8NOQjcCF8w/X/Y+izXU9UgKNLQZm38GTYBm/mEpS8/wh3Tk2yXjXcjr\nwP/VkhcLwse50V75IRscDWcw/VRQuyIcuXBFbV+qnwN+jmW7Ah8857VlMmpn9qHz\n7i5Y9JDR3xmYcaKk+LKKA7MCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -3238,7 +3340,9 @@
         "fingerprint": "sha256:d8a508b9bf970201",
         "record": "sha256:998b86485e2008f9",
         "signing_fingerprint": "sha256:998b86485e2008f9"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T05:29 (1 commits)."
     },
     {
       "id": "site.santarem-promptugal",
@@ -3570,14 +3674,16 @@
         "record": "sha256:0eb02bbb48ac2517",
         "signing_fingerprint": "sha256:0eb02bbb48ac2517"
       },
-      "status": "active",
+      "status": "superseded",
       "session": "https://claude.ai/code/session_01Kw9UwF2TrbbV5BhUjFGupN",
       "ssh_signing": {
         "public_key": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAPakiwXTz+fJ1qblvRB7eHZo3NpLpTelsgKljVNvucpyk82qBtD/3qbGdRNfp0YwvhYBnD1Mnwb/MB0+p2g1YE=",
         "fingerprint": "SHA256:Z/hjsCPdnltxvHPN4suEahvuXWdmtpEMYCOIdHuxGZI",
         "from": "bundle.sign (the same ECDSA P-256 key, in OpenSSH form)",
         "since": "2026-11-19T01:25Z"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-24T11:12 (50 commits)."
     },
     {
       "id": "abp-promptugal-c",
@@ -3668,7 +3774,7 @@
       "role": "The identity of the Albufeira site: signs data/by-place/albufeira.json. Made and held in the session of place.algarve.central@PrompTugal.dinis.",
       "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the central Algarve desk's session; private halves stay there.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAt2jaVssxkZk3nRTNsM1a\naDV514flkNOvESxCaNA6l8uahf4MYdHPnHxZM9tjS5NKKUq3njbNgeR0zR/iYueB\nQICEqVX4+X7MXt9foFoIXYJ/oosorGnvcJKrCHNFwg4fEhiv3cpGiftoK0JWjH3u\nMyG/hK0bjYgYvT+pvPriUws0H7lbDrEDYTihDev1r+f5K1ovV4qhYMC4J5ZdRp9d\n60+ZRFQueheWRvFGn3FQvVl5b8+unaK8qyPg60r4vrOUWWpUPv1J7H92ZWYHeNcD\nE7ev0omW+B+Rcgj268F5t7yuqoQrmy/C2CWZuB+vC+CPoMqUzfqNo4j4QWAL0D9h\n3RAhWxL+bCJP5pRcKiU4wiKc0PM23U2aMEZ9H0++oQyKHwiuVzuIDNzYMHTOYoIP\nZMzBj2Q68l28R5+sBD8SOhZhJxDlfQMYsv2qI+epUtx0oI6I7aqMv99aAN7zv8MK\n5g6cg5sL6FWMKzHbuCPQ02FdUNbrWDuPpv+pZKEujZ3t+e+09rqtfmKTyfzSlllA\nsHRLtao63EYIjJ/Oe4GhGD2MhH97z1S6V76QxThl9OvxmUqwDoCb0+wJEwZmrwEe\no2k0lWbN61Uv+1Bnl11ydgRxS8n07jzvGUeMqldiJHEZdsRvWisUMD1t1ZEgaJAR\nHwplSc3fuYr+UYxUffmtZSkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -3677,7 +3783,9 @@
         "fingerprint": "sha256:d9bdfe79dd0bc88f",
         "record": "sha256:83afd726839b38b0",
         "signing_fingerprint": "sha256:83afd726839b38b0"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-21T07:32 (2 commits)."
     },
     {
       "id": "site.loule-promptugal",
@@ -3688,7 +3796,7 @@
       "role": "The identity of the Loulé site: signs data/by-place/loule.json. Made and held in the session of place.algarve.central@PrompTugal.dinis.",
       "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the central Algarve desk's session; private halves stay there.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA7w2G9/YcGNjAiMFUxswa\nXVlJNKou8ykEb+BR2LmEDLB88ZnU9eI5iq/FI9czPuxkpyjgZhoqj4n0KyJEZA2G\nhDW3M36/tbiPQSIjH8t8pY7e+S5q4wehXetinz4pxjC+4Zjxp/qgWrHccS/WKIzy\nF+vK8CHEIWF3CR0IO+DtYwLXelsU2UiHyZz0siOSUYXPtVNBZnEEeumAa2NUhwca\nlb9BpmN/OTgqZYkUu0loNbrujyp8UEagTbOHphyESXd4Mi3vWOsXBfzwl/yWprEy\ntchxwCqiF3coQuXSDv3ly9zjUmIx+NFLxJ9TKQ46SMBShaPKXbkd3+JRBElJSGtU\nv3bhHH9BqEtNaTSUCGgHXWnqQDmM2qTs5l+Hy2nLgJNT1nmydouczqIrEp6+k/OH\n64FgbO/IMd0LsUcrTuVoZprSjJuNCi6vYtRHe8Oatb0x0LGDnyTuzEAxr8qRykb8\nFgcXVj2wxduIeLXd0BGR6UZOzrPP8W67KLfPTPToZmYTCRnxWGyS/nJIm1k0GDAZ\nHJVrK4DMfSyTOBUx7fodxXsN/mQkFAUgbOvRhh8T462QF97zFIKb9118V1J2DOUV\n8AnxjQmGRbnOrv9/qTvG/yLqiEhrSmWA3hcHRSigwHfxEZsAxc8F9zBsVWxEOP+Q\nf7WEtiq0Ho62CTUoh390gZ0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -3697,7 +3805,9 @@
         "fingerprint": "sha256:a3b346ad072997ce",
         "record": "sha256:badcb5c2a1eb1cfc",
         "signing_fingerprint": "sha256:badcb5c2a1eb1cfc"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-21T07:32 (2 commits)."
     },
     {
       "id": "site.quarteira-promptugal",
@@ -3708,7 +3818,7 @@
       "role": "The identity of the Quarteira site: signs data/by-place/quarteira.json. Made and held in the session of place.algarve.central@PrompTugal.dinis.",
       "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the central Algarve desk's session; private halves stay there.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA0cZioiqcY4Ycd+Rg9jQY\nF6OUAX1EPVLJEtN0iBt3SP3Etc/YMSNvV61vKac7cXPbv1odONllmdkZtR7fN8SH\nqDeAYVE16zoleM0is8XX5Mf0FvmCKtm0CzDl+aO9kKuWl7f5INSYcWfrTxRnh3Pv\n30BmGT+MVAawvVvNuuRohzeyZsu+M94kAHj3gZmsKZ6Uh36ppX3Z/iklKnPVlZwW\nASv4Pp5PIgadf5GLhJHmS8hqKzif+HVb5uw4AZcVnmXoEFVBf5U6tcWDDGNi5NQ6\n4f2ONiZCDpUwvkcA3HtKq3DCadtD4X4GXjHEDGgi89ao/I+Dhd3HftEwP1N8cSC6\nIgqOsmWU/o22dr7zlYdMAQJTPPhVn1jKwzfPpmwqvZNBsC+/rsrsJH26yV5GO+sn\nTmozTTv7t2NbHPBVsI0HsRoLneUA0PslmeZGWSxc3ipEpVkAycfVZI82aCwgsfAD\nJ26SRytmTrQRUJ+k8teWYTg/7AHK9K+9OWI5UMNZZhwQQgq1UFDiJzjO0s1sE08E\njfv1WEqG+y+DGm1QvM/iy828sTmLzVMgr4tQJBu+s5eD2kvPkjr5MzQCt85sOtjQ\nqZyN727iGEUANInI0acrLYrlcYPxG02kP1y+1j9iPNaAfgCfCCG1AV/jtApEa2bb\n3rSYNZjAHdBm3iCWhxrCnAUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -3717,7 +3827,9 @@
         "fingerprint": "sha256:b752e740248f7b91",
         "record": "sha256:a44ae28dbfc85d7a",
         "signing_fingerprint": "sha256:a44ae28dbfc85d7a"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-21T07:32 (2 commits)."
     },
     {
       "id": "site.faro-promptugal",
@@ -3728,7 +3840,7 @@
       "role": "The identity of the Faro site: signs data/by-place/faro.json. Made and held in the session of place.algarve.central@PrompTugal.dinis.",
       "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the central Algarve desk's session; private halves stay there.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA3QRQb9vaGLZqpdv4oa7P\nlGXunDngkF7pKCXWhxTArKzydnZ+KN8/rle3j31yBKrFAm//B/E9jggVY9wRtyoj\nRTNL6I28GkqrttwFcZBMVZJVzWRAiQ3iO6mOREgOtUrj6WFLytOXrhPK7SccLF8K\n+xzXs9YZb1pYgSH7mgc2uai+vy3BsVTARHGQokmkdM4awXvz6pNOXDLg4DxWAQQY\nIt7lx9Za4qH0HhTggLz9LVl/ijS93bGYwxLviBe1mioIqgxpQPsbHCc/YUL4nTEc\nXUMzFdsXMiSRF3sG3EOAeGJYDUzUxUJoPM7gN9JrJkrtviK82IbQhTvbd6tnSs/O\naBSQqMza/V+yEQF5cldWfT3W/YaPF/2MLJn/p/Q5Xd8lmNw/3yCKEH2J5z0FIex2\nUlKV5snyNJtmVe/aU46QRcApyTcJEn8WFJ3pIQzHfLlzhJs4DXHCUTPWVTthhp3E\nxmzObSfAi5pfsUu/gGqfu1nFVBErBruq71TSppR12uZDYaaWRkzzTqwSuloapo9T\nuc+MUpOfulTwJJ6vM21Fffm3lahHPIEJSm+hVOAW/8Q1J7OcKNIRQI+JeG8cj8u6\n9obsz+bn66CFf1DUF2j7RtnUdNHWSgUT43aoWLXxnfVJgjEcwX40ID2yKKSmKP1s\nO9bqs3YbfZrdijp7MWpCXP0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -3737,7 +3849,9 @@
         "fingerprint": "sha256:3cd935e6fc1871c6",
         "record": "sha256:caad698b0ba453a5",
         "signing_fingerprint": "sha256:caad698b0ba453a5"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-21T07:32 (2 commits)."
     },
     {
       "id": "site.sao-bras-de-alportel-promptugal",
@@ -3748,7 +3862,7 @@
       "role": "The identity of the São Brás de Alportel site: signs data/by-place/sao-bras-de-alportel.json. Made and held in the session of place.algarve.central@PrompTugal.dinis.",
       "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the central Algarve desk's session; private halves stay there.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAs+YZBciiC58IKanDsBE5\novTObVFCUAhm+hqiZaw/1eXP0o7K9BaKY4YU0I54skXDF/+QvFPb9gw3+NHCkbuL\nLyFiyxOoPhBgmUNZbBTyKjZD2jZgVkMt3A2lGV6oMvwGQntZQT2TDV/t0x8HUZ0+\nfM/syO3p6fC/dGZxdxpxVjOjHKcfZoSSBx+xCifG0OefbJjzI6067JD/VjY48wwL\nMukH6jcArx9h/BV/0xo9BieOihLVbgdjSN5xwbgqv1gIDjp36VGTLtxkXU2CjDRb\ntXhq4vPW6lBlXm9ifqpO37WlEkcEwLJnmiHvIq1PclMN2kyjdEi8FelwL+revgF+\n7VUeSnnJGYBNpDZvlFWhwqfBhow9iEmjYoW6qPpIUZ+rwToe7J8/Xm0DBIVD6NFw\nQm7jBVOvdKv0G27bnHHX15UjFUZVQy7o1mgrIUV+BfOIhMvIM6qD1sVZlIWB8L7Q\nqjiBf69rvyexuHZ9TWDFkgXj1nVlV+PdWqW05YcxU6YBhqEr4mUpaw6Y2PHtrV45\nCkVJTIVsirwLXtOIHlRKJClMMfubD4p2Z+O2/pMz3uAKjhN0NE7sKpqqYayYEYt7\n0qDwFKssFFgAujX98mpvtrdgZZB+hiAoaES4oH8NuGSKDWTrDQI7dQaHQ9aVi9NA\nxTWAhV5hE/33PT6ukLt4FFkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -3757,7 +3871,9 @@
         "fingerprint": "sha256:1d0de82541d8ec59",
         "record": "sha256:f2d631950294f7e4",
         "signing_fingerprint": "sha256:f2d631950294f7e4"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-21T07:32 (2 commits)."
     },
     {
       "id": "site.olhao-promptugal",
@@ -3768,7 +3884,7 @@
       "role": "The identity of the Olhão site: signs data/by-place/olhao.json. Made and held in the session of place.algarve.central@PrompTugal.dinis.",
       "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the central Algarve desk's session; private halves stay there.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsiKugUB+TT43hAlvqixo\n/MwPDU6J60HA/1VSAQvjjLdD3aFVtb8zZprJ4+zIFlThpX1aEVsIT2/2jRfgOD28\nDjs9369dk5OyVnKv3kHxL/4qTZxqb+SeO7jG5mG6h9fVTEVnsmjAQx4DJ+O1razu\nuR7xWTL2HhrneS2ksCb+yrJHziA7+hTIEI15leNsSdr+lt3V7lFhQMO9ZC+l79ov\nLwWolk1IKklgdQI4jHsYfMMRF1AmV99CtJinQ9at3hZGxTDQkO/NpgpXdw2O87bi\nyx1PGO1udu2Alu52rf5lBO2m8Z0No8vuZvAuEP/YnN8e52sTTaD2wjkQ1+yjPFRP\nMUi17D3N0eCwMAKK33vQiX9swPn0ZlMtApwrXzW9rWXWNd2yP44KbEgU4FKbQpyb\nqS57U6Q1z++pZtwlT/9/c8mLrmHJWhQE7nWUrdXkY09pu/nOELnSYzoLIvNuSCGT\nSJ4cv34Xsh+IhpldhfhAxku/Acyq1ie3KpSQbw6AlB5w7QNL80v+f+MlCZbRpnrV\nayreZ11GhTfF/fhptEXj20WtDtIfWDvphWneS2IWJmv6ke8IDsPFVBcXvrtxSl2p\nwGmOTErtYHDVqdbGFt1oqJ1dxtL5cDu3R+xmC0/aBAFUSY2uk7rnkDfp+9ZSaMRE\nIN0yTmYqfBW2RRD2a3ytVZ8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -3777,7 +3893,9 @@
         "fingerprint": "sha256:691796bda9838b03",
         "record": "sha256:ed23dc15c520c981",
         "signing_fingerprint": "sha256:ed23dc15c520c981"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-21T07:32 (2 commits)."
     },
     {
       "id": "site.tavira-promptugal-2",
@@ -3788,7 +3906,7 @@
       "role": "The identity of the Tavira place site: signs data/by-place/tavira.json (the .sig beside it). Made and held by place.algarve.east@PrompTugal.dinis for this session; replaces the old site key, whose private half stayed in an earlier session.",
       "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session, PKI_AGENT_HOME in a home of its own). The private half stays in the session; the push of this entry is the authorisation.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAiL7v3IQsrDoowDpO02zc\n7M2Na16nBHBCp+d2yl0BmIoP5UvcJVWweX1bagYsKIQXsAHAlT4vj9TPGjFh6YGf\n19gVZAxu0QPDKmQ6znohjBM5Rfx82cR36IWI37d7v0GuMrU6ZY3O/NFDeYIetxGG\nnhzLJyLaS5zruystGAEkJwGGUjamnMpQ27+luECZCwysm0CdebfeBjFjAbldnL/s\nSheGSqqlQ0TaHpQhoAe2Lyg931gH7/a7nl7mWbI4NDpgRNnYetsOvl9YdH1F0GuC\na3Tw5ElDEb6ioChHOZLX46UOBsv/LmpgVm3KvBURayAOew4ZbbrazxwpnQsLSWhZ\nnxHcSbyRBJ09trEpjP1wHNBo1O/6Y8QyFkrHgjV7Gbzq+q7qC+hCHqIWrJw5Z74R\nTvG5k5lVXBRHWG6cRgdEjROUCd2OGKXpkorkjWetDy99869WUgOBqkrQsb2KBj/K\nGdCy5f+BtwVCEtPaoU4JyzIo6TKtU6DW95g+3+KnvZY9xl3HjWOu1bbFt+Id7YbM\nwWoQAZmwUrjRJOC8Q0szbP3HgG8DJD/pRutqrQPyDAmIP1QAKiT3v3LmtSLPouCz\nv+iG7mgWuiMYZwGzfuStI1DLBtvOh0Ww70bWjrj6SNJTGokogOBmVPPB4kHdQfp7\nmqE76Ta+7ZAZfjEvwUaRvrMCAwEAAQ==\n-----END PUBLIC KEY-----",
@@ -3796,7 +3914,9 @@
         "label": "site.tavira-promptugal",
         "fingerprint": "sha256:4f016f62bbd9e383",
         "signing_fingerprint": "sha256:35c8da16786106a7"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "site.castro-marim-promptugal-2",
@@ -3807,7 +3927,7 @@
       "role": "The identity of the Castro Marim place site: signs data/by-place/castro-marim.json (the .sig beside it). Made and held by place.algarve.east@PrompTugal.dinis for this session; replaces the old site key, whose private half stayed in an earlier session.",
       "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session, PKI_AGENT_HOME in a home of its own). The private half stays in the session; the push of this entry is the authorisation.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEApRXNrOh5ta7eybxDHiZj\neRLWlAatU+/yOCzOHevxCfiAoMHycks9TDGqfa0MnDZBGg9IpMGW1owcsQwr/lQt\n+4lIy0HqqGpgDllXc3bGQBM9DnEIRhUB95THxS5oq3pS8+vuWON62hAsS7IazNYF\noOZi4OC7qP/ifuxf4NkUI2gZnyDSTnvX7QOaFTeWi/TzvZmvo9/vePnIbXE2Zhk8\nmkqo89yxTIT2fGPUve1URcmsFrz6GsKh3ZWusvMC9zzgOIJjH6J7L0JIHlaXwLqh\nnVYGiDVyyHgQreZlky0FAhgH459bf6UL3F34y6ONR6i7DECC/R3Kc3Agx3TLRKIh\naesixC3xyqfSmaVnvRMWdKA4ytPQKoKBPl3WkE3MqvErPLrnbYGJirHjt0jXxUVk\nt1Ktxfrjx272EYmNcxQcODYw8m4OgtTZHFpGHCUoBpPhdJlCl2475zoc1xU7f7N/\nDGIPHf6hGYy2rRakmurT55THF/1sCVzESbCcp8cbupf9TLI1douvIe9Dmq2mkmsh\nnUXNQ/gabsmcUoI91OIA+nbl/5E2KjV7qyLUlbzzzBocwLqyxyrE5bm19NDoDlaL\nu7zJL82xKGd+yuH/mbk4EzdCFyD/Mh+AwdRbpMdAoI/4GuJzi5ZmeuuJby3PSFp5\ncLEvvQFJ5UN/69qGoc3s0Q8CAwEAAQ==\n-----END PUBLIC KEY-----",
@@ -3815,7 +3935,9 @@
         "label": "site.castro-marim-promptugal",
         "fingerprint": "sha256:f720070c48f4a6d5",
         "signing_fingerprint": "sha256:55dbb8a832275a66"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "site.vila-real-de-santo-antonio-promptugal-2",
@@ -3826,7 +3948,7 @@
       "role": "The identity of the Vila Real de Santo António place site: signs data/by-place/vila-real-de-santo-antonio.json (the .sig beside it). Made and held by place.algarve.east@PrompTugal.dinis for this session; replaces the old site key, whose private half stayed in an earlier session.",
       "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session, PKI_AGENT_HOME in a home of its own). The private half stays in the session; the push of this entry is the authorisation.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAmPEnrTfWvL+vzlEYMhkq\ntAeF9q9qxDF/hvwc8Q9AVFPNVb+9Rwr2h9qr5bHUllf7gqtccjy5iTVEnackNs4e\nYIm9d8NhOPl1ST7PTgSzRaljbt5k4M/HH8MyTg2GYEf9zEK04LMuWr9iZjpqILGk\nAzLPVdKTF07Y9GuNf6rvKDpsgMakIpDMb0cb3+VNgQG2uvix+xFZPRga65u1hw/W\nBQIpzHUDR+uve1NzUF83OBpNdVvnLdX1TGthlcedFo+lJ0aA0Dx3BPJwFFtg/0Bq\nRLj5VJXVza+Po8cvkfdV7ER/wRlJ6StagJu6pp7/5Oc+Zez6tjpqwuCeV2Cu6Mw8\nsrEKs68haTjbTE/BsE+0IAtHR3uZntkB/m9QQCoRNPnV5ehoHmgvEAPxPYYlBegI\ng6aOxl7w8qF6a2x3b7J4WuGwacF+B+zXBCxdcy5SleejdHqebBeaadz72DVRVcMQ\n7MDWHUx6Il45gPgH+x4yM/ysMLVvz6rBQ5zzcOYN8Q3lwkppSSp08iRgtWQXZDuC\nEkigUNGlVtPRtClpRDAlu7CcYA8nQ6DC3SOGCsY2sjp4/gKdKsURNtZMtZL5nMBC\nUK8y2qhj5bpDDfteYjonGcK0P39oGztHg80PZOlHlPN0Yu4kM/sOA3hzi5dkUg6L\nrMNbiRfPaNK7fOVW1eEuxpECAwEAAQ==\n-----END PUBLIC KEY-----",
@@ -3834,7 +3956,9 @@
         "label": "site.vila-real-de-santo-antonio-promptugal",
         "fingerprint": "sha256:0df44494e6e87c9d",
         "signing_fingerprint": "sha256:c9ebd9e9d3ae704f"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "site.alcoutim-promptugal-2",
@@ -3845,7 +3969,7 @@
       "role": "The identity of the Alcoutim place site: signs data/by-place/alcoutim.json (the .sig beside it). Made and held by place.algarve.east@PrompTugal.dinis for this session; replaces the old site key, whose private half stayed in an earlier session.",
       "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session, PKI_AGENT_HOME in a home of its own). The private half stays in the session; the push of this entry is the authorisation.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA88GZ3m/Q8eEvOoU3LMFN\nCDY59slPvpUcwU3hjdZ4yInrHIozxwBPNrKOtjLGC4glXqp0mqasRT29rQOTYLc5\nVt59QdhBP7PjwqoTZAAsoTMoTX/JzY+C4F/GnlGL4BYjex84IFzy1vmXijdGhIxg\ni9aKYiSSEdd+lCCqhhDj1mdldf4g6x3l+GnZBA6XfkKwBtkmOoAA+ivL0xojOlIQ\nUuRzQbA5i/yqWFQbPmCCXnOHq1jWOUzKUj9j4vy1gBkpzWppf4XVd1PRqvQ+S1z/\nTm+N7WwjdhLaZMC42UmXPqkcYjFVFx5n/lImoTqNV9vsHlPH1vUzl8SUXuKXqa7g\nmtrH2/eGxV0YBjghjspQ54ojZ2bPVHACZJAPfDsCie3hqwE/MVOZrzTRB7I/u8jK\nMJusV8FkCjbVsC3FbiYoGvTd5MS/pB3tTzDcAioopdx/u29frVitcttJHsdcRsb9\n1yg8sAJVhkKmzhrVpy771HWbsMJYCsYVfT/Lh4grWq6VYd5UE/G0X9Np6TQj59o/\nyPEYRW/cvrxmoPbYKAbsKGFXHY+SumBG3Hb91dU/Pm3J4lkma6wh+mNN7Q9VNmVk\niUeX11m4AFSl8Qrei5pT+qNPRzw4nNZefWpnzObSMLBW403K+Qvv2EgOhXnAvbiV\noxFfc6Nf7Nl/SzvYi8cnku0CAwEAAQ==\n-----END PUBLIC KEY-----",
@@ -3853,7 +3977,9 @@
         "label": "site.alcoutim-promptugal",
         "fingerprint": "sha256:8f88a1d1f13a2af6",
         "signing_fingerprint": "sha256:c248c4a7aa194cce"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "site.algarve-promptugal-2",
@@ -3864,7 +3990,7 @@
       "role": "The identity of the the Algarve region place site: signs data/by-place/algarve.json (the .sig beside it). Made and held by place.algarve.east@PrompTugal.dinis for this session; replaces the old site key, whose private half stayed in an earlier session.",
       "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session, PKI_AGENT_HOME in a home of its own). The private half stays in the session; the push of this entry is the authorisation.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxnvxnSW4imway2HFKS3Z\n483DiiMjlLIot8FjQmTznBlb6bmIMMaZ/EIZJ59n+jzfa+p9cn6XWV6jtRnMlmyl\nr6b5Rvzh5orNYIbMq7/aHZel9I9IUkVKBs0rZBMIBTj+8hCr0EICciFGUlprQpev\n0AnWOJWi77LGkHbNynjKo4377LfWxrLUtLqUpDuC8an2ueFtekGlWOWSqpDpSpjn\napE3QRPyGf+rT67JIMmFYFL5DQhhdtwb3rachXCFCpP2/qyVjOJLx8gS+CG1Wq8h\nXhhlZ9MBAqssCA/JFkQemS+Rt8G4tmZJRe7hQ3ScqkwHYd5/QoQ2JrgcTpdDDh2w\nklxOl2rD+2d2pK1CalYNYq9x6vvBQyvRTQ303PLmKQBODsWPTcoVv2akFSRyjGKN\n3vG/afXiLY7KbOSSWETZ7zbIk436buwtVZgnm8eUPmp8JKqlPeBbebIvdwteh6J+\nG4ZA3/X7w92TBe32xo2xTZ+6uvR5Xc3BTHTd6SxsksxEIjK7u21Ck9zb5may2vxe\nHI3/foFcSI4ZnulQbwytwDy142DY+D+xzywdVMMqq+EUDOKn+FyhKS+5f2u13ydp\ntA8Iv63jNFsQ8bvF8JMwBb98fp4I70xK6VHajkzzf0JbeU6oGekGAPz/zotcmThF\nNL/n8PBEj97Pb8PIoN1tabECAwEAAQ==\n-----END PUBLIC KEY-----",
@@ -3872,7 +3998,9 @@
         "label": "site.algarve-promptugal",
         "fingerprint": "sha256:5b9117325d1d7f47",
         "signing_fingerprint": "sha256:75cd01b43f558522"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "site.lisboa-promptugal-2",
@@ -3883,7 +4011,7 @@
       "role": "The identity of the Lisboa site: signs data/by-place/lisboa.json. Made and held in the session of place.districts@PrompTugal.dinis.",
       "how": "Made on 17 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAt/AdCCIYsm45CJwJ//iC\nmYh8I+w0rRWMDnQkjHGlTaq405FW79Xy/h2Xci9MbgMeJ9LOAQQEGkOLd060fXUc\nbw40ZTxju5udWBmPo5rgQ2yaiizTI0fvlzXeoGXblmR6AIQ2YWDX54KEAxnav9ms\nfnS2Rv6F4q6UiZeyKviHEy37buonYyuy9yLhszAK+tvaOXCUHTtTcTwRESGa+mjg\nGQI1KzMgKCASYeu174NOJcqlHckTTRJktctZW4fj9lokY1NYEXxpFC4DrbjM7anq\n/TnoZqegEe+3iFjHXWRUYjhdtK2dQmw3hzlTKktmGJQr2KwNi2batER1CR6IR+yW\nsP/KqrRi5KeeKfg8whFsh7kMcdPRwl3cvIduzJEmOpsIWYy8Q1SuPUmbCB2V8qlh\n3T4PhVpctB2hd4HW0bEkgEW9+RkjsokpEoLZA/fzQpaQqssHKLtbvS7+2CV5FCm8\ntfgkBXH5lZTc+wQyegdqrGXuMaoFZ6+l/BGs0lD+fUSVTlSWc7g9SxIQb8vcBf0g\nZU+5swgdS8qXWX5JWJcd8/ibR7nuwWJ0tgHCcUCVmnRvvV953F07kgSlARGuvw9q\n0G78AVxkKf2lpz3GLOhNMasaNRrf54DcKMZJ7UTx0muKwsFzFw99SuyeuT6XopCM\nYo5DpnyfogktaGkzf0VOuc8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -3892,7 +4020,9 @@
         "fingerprint": "sha256:516897d10a8dda80",
         "record": "sha256:c5bb62c683a05683",
         "signing_fingerprint": "sha256:c5bb62c683a05683"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T05:29 (1 commits)."
     },
     {
       "id": "site.porto-promptugal-2",
@@ -3903,7 +4033,7 @@
       "role": "The identity of the Porto site: signs data/by-place/porto.json. Made and held in the session of place.districts@PrompTugal.dinis.",
       "how": "Made on 17 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAujS15dR4QugqXgEIrpJC\nZ8bLd8ujys/ZQunurxnSipkEdBstnggCcFrvTCnwrhXGkkB323MckvtCO1KopOra\nLIEqj+UDG/yzu89U/4DqqoWPdgTDseGBdgR8cgYvT8WU2XLP/NQ6Np1rYpJ+0qbJ\nMGJ/Guuro4VRlTcQwvHCxNNmZ7kN5q2MDR4ajlhSg2wA2bx+dcqb7K+MQE5HYFRd\nqX83myQ/+iTh9xrininEYu1UctBm5AJwWOoNA6uF0gjb9c2x6mtp/I1e+9pddw8k\ncjTBrAxUMAnI9s+YPi0nrh5/QfaCwU6I4ZxY0M/a/HkQhRYyB8WBtYEvN13N98bZ\nhh4w2gaKC1R+TbF7vxvOxaRXyPJqzfypck9htyYeFwmh9Zl6oDMyqr7wIUEYlhi6\nvr1wcYRBgKwcGiz7NaNKQH1r6BklqpVKkVRyzq39RJ3IuMGgrlLfHg/rzxlkKJY5\nbnDnaiYjSRY8JeEEvHrXjC0zulgyzAROtvYmWK240m1bJs8vfta53AIk2FEkJhcd\nQlk9eArHe2lWAo5mB53Ay+5VQ7TxMTmQmi5zJRbI0F6YPMpExcyrOlcmi7L88b3m\nC6zkYM9A2SkyilrRR4Gv0Zf/BYzu9k6N+9PMA/FebcMkuf1uE9r6PW0GNRyUxEet\n4rnFIughsrYpashoCoaJy10CAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -3912,7 +4042,9 @@
         "fingerprint": "sha256:84fcbbf6f8d06d97",
         "record": "sha256:cfc4aedfe28ebaa4",
         "signing_fingerprint": "sha256:cfc4aedfe28ebaa4"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T05:29 (1 commits)."
     },
     {
       "id": "site.coimbra-promptugal-2",
@@ -3923,7 +4055,7 @@
       "role": "The identity of the Coimbra site: signs data/by-place/coimbra.json. Made and held in the session of place.districts@PrompTugal.dinis.",
       "how": "Made on 17 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAno8ipVc1RhMDi8qMbBkS\nSJd1qAXts4MheGDCNtTY2sa2DQgEIB/Bo14gQttllsUexAptF3giikO/ddSYSOx/\nLPdvcJQfMN4epC/RLD2l1Gmdm5dxNs5XMua9w4I45xkeDhVlpPpKHVOPgW4v5dAn\n3uHiOSWQHjdGMEbXFLTImG26hb/Qgt8Hj00BrEfEHfRyv9cWW4KV5mIKUhaOXTi+\nyXRxWBiVpFQc1+EmVYzcNt4LZ/IbHv066Az9yWjaf1A0scoNlEJR8MT7phLXcfar\nd3+uisjc7Hi4SqkYrEclEHuQ7ptw8lcI2gxIhcgQC8IWPsZgAXdm+wU1P+kc90ZR\nRv/dufHgEnTllkkNVbZVLls8/R1JrgjYwh5pC9CuQT4ZIuoCbUnFWdPiyfGYs5J4\n8nct744qCeCooZ4E9ZpZfbhU5IsR27CZvVQ6/saoG2jsT9SXuHCSlVZFwwxTz9g/\n3bx3nkWeTCKnlGYj09bq8Cih3DdTzf7yX8IHhY8RQVhFo3N75yuNlo+jejKUw8Ao\nUqlfH0f7SgxvByxe5t+Yzu9AjD7mEm1pWBIp/MDP6K8Nzk2G5qPIb90aldZWktmt\nCQnwDknh7g8fXIqPRBHVIIOkhpKztWjKsi/9HNfKatAqo3dLm0YSlhRMmSfNsTOf\nehPXzzPd1VUP7U7e21xWOFsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -3932,7 +4064,9 @@
         "fingerprint": "sha256:12e7caeb65ba719d",
         "record": "sha256:0bf47b5ebac5cce2",
         "signing_fingerprint": "sha256:0bf47b5ebac5cce2"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T05:29 (1 commits)."
     },
     {
       "id": "site.braga-promptugal-2",
@@ -3943,7 +4077,7 @@
       "role": "The identity of the Braga site: signs data/by-place/braga.json. Made and held in the session of place.districts@PrompTugal.dinis.",
       "how": "Made on 17 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAkwdRc+zmltFFqnxHwZgu\nnGjFbfkudS8RubKaGIjtzuw5OHV1G70a6C1Id9XkBOYWZBrFYGJkIWOLw/p87wAk\n0bErOYdLKYbw9rftoLZQ7cp7VQDngmRJqFREoKi/ZdcM8jr9zwHqnu5KtiyDpUNa\ni1EFUapXorSgAAkTBo1GC16DhQrtw45HAgCjSkiTeeAG5ibenEBzt0vPYADVGtAO\nBlQH60AVq8sI1on5zKDHIYVtyHdSKZ0ckjm5FFoj6DjMT48T74OsOSZgSyyhljbb\nZ77K3D1GLYZ6jSQSYOJavDJQBs8Hj3/pMEtIgCjP7c0naOLjn5M3t6GF7kW4Vo6M\n2QRvEJW78WXr+WT4qyGQl/zeZvdU5XhQFq/nef7ifwSWivgFJkSgrYKu28WUolxd\nEsxjUse17Bg+TRHSWaL9SljkTPOR73omWFOOcCXRLSaCvvrgabGbYatip8doMTp1\nBVH1TQHHw2X0kT5IgE6Qp7AGpaCQKd9Sj9LNPWMsbi7Dd5gZmAjibv47SYPv4D1p\nb2YfG+7Tthcz7x9s+huJgfMOjPp3bdqnnerOsqZAqzrtUiYa0MIC+0qni9kH2Us6\no52g6KSbBUJWwKOnKlGddFcfWrRkjUc5+egyxkeD2z/Pm+WHDH6j8OpQ2SweGD59\nC6ddBaDCoMZm5KPjK4uMXbkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -3952,7 +4086,9 @@
         "fingerprint": "sha256:cf197e6f8b121334",
         "record": "sha256:7e1d34696ce83a09",
         "signing_fingerprint": "sha256:7e1d34696ce83a09"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T05:29 (1 commits)."
     },
     {
       "id": "site.viana-do-castelo-promptugal-2",
@@ -3963,7 +4099,7 @@
       "role": "The identity of the Viana do Castelo site: signs data/by-place/viana-do-castelo.json. Made and held in the session of place.districts@PrompTugal.dinis.",
       "how": "Made on 17 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAspAxpJqpevDY4EOVmZSi\nmk7wptPAkP03rntcYYCPvpc29Dl5XBYvB7yjtbs1cCTMYEvUJb4C1PD/oJvI4Vzv\np/spPvDwmO4hOULMKhsKUGfO74D0jKtrRDkRbk7X/kbTPT43NtHvSeimyzuXJ/qY\n3PLdX/3vPbHcLsFLZ7dC8chaChqD5TtYjF1IfbJqzAipbgh84sU9RiKtMBGheKrT\ntT7reLPyijGXok7AqDS/k1o+UYyKwTtZoEmf7zWNRZBLkplyqxott4Qz/OA27Ws/\njepKQVK+UTrp05SBw1UutPqIobXiCtONNP6XATO04rJW9dUsYPfmW3T7SDipNuVY\nJXUpJDcub7lDnQJtY/6NiXpt206g+M3MdxIre7elN03ozqc8EtRTNf4oPqb4OwJ3\nouZhyn70PJqvA6UBKg3JS7zCMAXDSjw9kizJ/+2C9xCh9SOkV19aMfpitFO4FSmi\nwt2pT3XvrEDAWD83ujko7YBpCodEDmE+5JAtmsYJq+3e22U5eBxjlkr1sWmZJgQ/\n6zv4agTDNxfNW5lJ34GBgqts3lJwjVK/MGNn5xf4gQJtdmEsF+1/dtdyNP6ZLU1D\nlZmeXIKposdwqYyVWXEdZYS6eY4gPNa87REt8QQ7xop+lP1UCvIdvyYZEp+7nxzx\nDOMMxnz3cZ7UtyN102ArFU0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -3972,7 +4108,9 @@
         "fingerprint": "sha256:7f8069f310971ce1",
         "record": "sha256:59e714b989cbac1f",
         "signing_fingerprint": "sha256:59e714b989cbac1f"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T05:29 (1 commits)."
     },
     {
       "id": "site.vila-real-promptugal-2",
@@ -3983,7 +4121,7 @@
       "role": "The identity of the Vila Real site: signs data/by-place/vila-real.json. Made and held in the session of place.districts@PrompTugal.dinis.",
       "how": "Made on 17 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtFNzl/8yslZz64vwjhr5\nRSCWApef6kTc3fGkBkRCxZ+REjFcBI3sT+7LfMkViNLXQVD0RST5m/G5A+GtVOTY\nuiGOOg6enzq+A0w5o2Eq89lsPI5r1HnKTFJWaF9THYgJk4a4DGxNVgkMfYseSWuk\n1xB0TLEjWzWhnKuIXR8o5eBKBwESUolR+Cp5tmhVNkYHjH/2pvcmZyWF2egCQs70\n1mK4zh3mBw2iVbmMoxy9N8WzrDPSM+MY/6JvDIFEzHvXkD0R+t/kguZ1N9VD2B45\nej/K6WHEmuuKpyTPAM7JybI4r/ZTpK8GBlUHoKm8D1mfTv4bgsk7FyJklpb6mmCF\ngSQEBlpPiiHsybRsW3liFNOBmGUDxdz9+nzLwlT4MelmB/owaL+3MKD9zwa1vm76\noYEKb1J+OhNA5C8fUIEVUlZBuQZH0NqxkSComyzhriKbc8jkagJbvzHEyfFSY9f7\naFDlPWNZKLVr7ZsItXtFjCwkECukCUxOtV4Ob+ca4BveLtkPET7V/9Z00nb48RgU\nmFQJe5pOPmOgz75NtkLVsySbHgt3BzoGuDqyDRupG89x4MRHDrJDqoM6ywS37Xe2\n3bTfbRXDKMtKKTSaKU5bvw3sPBwgggFADYDyA7i4H30d52sRzF4LG5fYkU/2ivdN\nCdWYKjNNPW03TyZw1ruKS1ECAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -3992,7 +4130,9 @@
         "fingerprint": "sha256:b61ccea017d1cc0f",
         "record": "sha256:f8861ff853d44c5a",
         "signing_fingerprint": "sha256:f8861ff853d44c5a"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T05:29 (1 commits)."
     },
     {
       "id": "site.braganca-promptugal-2",
@@ -4003,7 +4143,7 @@
       "role": "The identity of the Bragança site: signs data/by-place/braganca.json. Made and held in the session of place.districts@PrompTugal.dinis.",
       "how": "Made on 17 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtmoyeMUdgmZJFg387TUg\nQY4GEDN/cFu0Jj6ZqvLk9MBOVZpg4iGRTT+f3stWZs/R952o72rDa0EjIJpUnaXA\njwZ8yz9hFbXbKt2XWRLZtG5hgN1FfCtNcHOPel32rSYyuo16rrhTbLI9vpNhf3hW\n1ROhCLPv13VcVyKz6DyHoGOoNaOpbHLCI45VFwwDSpIgac3xXjLe2bfycpsu8ETZ\nTYaaRRfdi+5vQoWQz/tDHx2T2HKt6yASBfgyM1gs0v8tNYQxX9vb0karECg7+TXz\neRpeWlsin4uzPeBBS6wi56Qonxf2InGmX+qbW7ypfSb4KpLRUfD7AGTNvwTrTPPn\nBWV8wFTPX3rexvGttANHVbTUFPJdgLoErF26Kg/YI5FAqzvklWENQV8KGTRkDDK/\nKrb5IcCO0hZ/vvcnGwmDIiKxL7DKmjpNEJzzsEPd4sddQIIpd4jg29Lkd87pnk2C\nSK1VQ+HQKQko+FehoCvUmnlIVMyJ/D65NnM/Q6qnOLFB5T011HnPWhu0D5blP+4W\nHojSvwBOC2P1Yq3EW7tNs6uafc12iVEyIvvPk174oEGXkos9CJRoVFZkNbu8GINl\n4rF7uyRLRBuFQb4y4hJXhn1eeg4eydP7+rFrzzmf9Ql3adTCjQk41glyaefUXNZL\nvteblcL2a/WW2vYqPXKbbRUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -4012,7 +4152,9 @@
         "fingerprint": "sha256:b556f6263e6cd2aa",
         "record": "sha256:ba20d965d0fb71c0",
         "signing_fingerprint": "sha256:ba20d965d0fb71c0"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T05:29 (1 commits)."
     },
     {
       "id": "site.viseu-promptugal-2",
@@ -4023,7 +4165,7 @@
       "role": "The identity of the Viseu site: signs data/by-place/viseu.json. Made and held in the session of place.districts@PrompTugal.dinis.",
       "how": "Made on 17 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAq1pkSQDqmEDcHZvTvQno\nvxLINFnGZBO0qm+fywWxSBPUKG5WUkGagX7o7lG76+kol/Kj0o16FTwvnrlGqlBn\nvRVpNELD5+5lPO/ti8L4i7E6ALz3xa0fWDaOzglqIujDg+l62ph+z1bUS4EwPsW5\nB+LhjpGhuCo8aG4c9CxvS45JmTRMn7gBlTEXu8KjCD01X58YW8u9otAdCRS86zId\n3YkECBRbE0MT6IGgdZiUA7u6Qdafy/JIBraOpPoXAUKEtnl2geaBv8oDI323W+7T\n7P26Ir8utLdOXS4xKzUzGivAbt+t7isYZhnleZtW/bTrTdLA6EGMeMdkDh2aMSP0\nTJaRPvnnagBnLYlUSG6ASKOHY1TesTUOMOvjiuodQBZztcymBeDgr6ZbLkPfV+DP\ngYBAb1uQ4Mly3auZOOZX2O01ikkaSFm6yeiy9426SESVLFNgLoOt0tc/zRAy+JE5\ncdYzTk5AaVPzpGCkLTlvajipjz+0Hin6hnK5Q0OuWsohkw2XydXLg6y3iPkUd19T\nEJmwDUeJvYSSAoOTO30UFhIJr8AIXbo8z0odpQxIEqLLOUkwffZmQeRU/laPmjQt\n6/i9cmD2dWUMgFqZEfpiD1dBU/UFWx2vPMb33MIdavPVKaJRHx5OJuSYyc2olht+\nEyEARJc8G/koJUvHh4syQHUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -4032,7 +4174,9 @@
         "fingerprint": "sha256:ee560bd16b093458",
         "record": "sha256:ddd8d9d7f3421ae2",
         "signing_fingerprint": "sha256:ddd8d9d7f3421ae2"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T05:29 (1 commits)."
     },
     {
       "id": "site.guarda-promptugal-2",
@@ -4043,7 +4187,7 @@
       "role": "The identity of the Guarda site: signs data/by-place/guarda.json. Made and held in the session of place.districts@PrompTugal.dinis.",
       "how": "Made on 17 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA0h2d+8Dk0itp/mQbUa0e\nlL2mCbDsbEqr8KlfNQTtAf5ZAGmwT+LBbXTukIs3FaNIWbB8haDhuLbIfHJmPda4\n/sXVBOJag81NeclAykEUiPtH2qfM4qOEnT8jxEEOVSYpzrU9ILZ/SG2A+mT9bFYT\n2BjoQse7MiJ0YGwFK0Jge/r9gqL32PBVJwCZwu0uTZSpo6w90ew0APaGFJhYv1fz\nTKYLzb1R+b9YZQxbbjq+I4dvl5RQSW6OiaQPG8VPjLw+rc9gtiCHxg/9StEZQs6H\n5zeZDKUaPs7tEJyWQkDraizqbF0trGOFpWgrp7dLtANJu+xRZVO8xm1qV+DFJzud\nZgv4QCa08BfAUdgu09oM9RkoOhKVpZcTxCJbisXN0BMInPprlt2zNq4aCx433QX7\n4Xnx4ycWnaeFSka1MvMixFUwp4EZdlAZhRvuuG21N6ctGc5v6sgx21eEmQEnXgqA\nCEUjVz2t6Q7xPibGHUuJUiIySMt3nQKk5osGgEQcN8FEG7kSz9kGxHOqkthDk26o\npSYe78yCAjNXvkFX00eKeWObELg7lNcMhCGX4Z0sKNS0u2mcaxOEfR3xwzbz1ikM\nPH/hlMCV/0dlZh9NLd3NTIDYmDMXwCHpIN5METY9YhKL/lxgoYnKacmHx2WkcUaq\nyZbwaHWihsZSyO+xGXhcrkMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -4052,7 +4196,9 @@
         "fingerprint": "sha256:8d6368eba1c399ed",
         "record": "sha256:7e314600cd3c839d",
         "signing_fingerprint": "sha256:7e314600cd3c839d"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T05:29 (1 commits)."
     },
     {
       "id": "site.santarem-promptugal-2",
@@ -4063,7 +4209,7 @@
       "role": "The identity of the Santarém site: signs data/by-place/santarem.json. Made and held in the session of place.districts@PrompTugal.dinis.",
       "how": "Made on 17 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAr86qzgHo1KasqMjkbiUf\nJy+4Pb/dhHgY1TwVPg2JuAx+Yg+Lv1LO0UC7WXhzX+zr58r2KBbpLZVy/uLxA1ff\nt2HTNCPLJVUR+LGCeVgpg5Q6q0sqz+fWaQyltGTTjVRk2KNIp7zqFQldB6VcyGfW\ntUXomqW/RHxhoQH8dHeqenkFKmugWFhaJamv/Rpd/saPhK8gZQ8Df639q396+JKs\n9FcWBeUhxL7vkNbH1vEpzySNQ8neUZcujh/Ea3rnR/5RT2D+iALFOqIwPmq0q8NB\nmhT3KO5oEpXOjpGB+pXE6EZGGBZp2KbYCEk2ko+/4zHw5lHpbUN5U4rQ8Csarpij\n/zFztYIH9RyS92+0OIm2YI17HK2KzS9K0dV8/PjbaC2D4Wp4getapSVdhvb034Bv\nZp1lOVrmpDFhy5vDQo1ppBYCpXE09dba6PcOIGNoo2kGJyR0wTb7u2JZPa0lJw/l\nsJsb4zmlCuTivgqZFQClnW2BhDYTVvzwOFX2OqwCo3gGXp4V8z7adcNdK7ahGjkA\nGC3h7mzdmpweFB5NlnAMvR9IFqA926JumdQiOlwIDYCLx7+VzBNq3oLAbavF9wdo\nPgnpRb+aU+DqYdjXZ9KminN7e/CHn8xxYsL+qgvy+PdFy6u2uVB5ONPP6X/GMepw\nG8Z2Eu5HazbD8JsKxH0wMlsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -4072,7 +4218,9 @@
         "fingerprint": "sha256:456571f81d361ae7",
         "record": "sha256:e6bf8b2f8da961cb",
         "signing_fingerprint": "sha256:e6bf8b2f8da961cb"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T05:29 (1 commits)."
     },
     {
       "id": "site.castelo-branco-promptugal-2",
@@ -4083,7 +4231,7 @@
       "role": "The identity of the Castelo Branco site: signs data/by-place/castelo-branco.json. Made and held in the session of place.districts@PrompTugal.dinis.",
       "how": "Made on 17 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAh7nMf6AL5pbTZNvKqfRm\n6hvjAXD1eutSDVwTTrUQTZjT0oCqG6ddCQgaJQ3mGONE+/Utl5T3UJqnV38FWCjh\nY2LPXMsrwk/j6Dh2iqF+6a3s9BWeas/8KsHZj2juKvViWZ7QmhBnBOZ3fyX1QwlA\n7KfhGG9EIHexW204Y/4Odi/jG3/NL34OrPJr9UWLMXDVlmoE36eqChaN99ZAKWYG\nqhMONQ+CvqFcvkummcczC2swT1YQDefGsgqgq1PgHkhhy+hdodE1cjHELHwG1ddj\nr351XNuJp0E2zh+dQRnzz/+AfPuMdCeLmcNUmoKTqxstpD5x+SEhogIPqpx2kOpB\nhz8Aue8pp4NzZw88FIajOk2mbWXSGWnotY9MABUm88Pn4P8r2plqhOfagcvWQH6D\nI3IFUIzTfNQ7wZ5KityQbGFI0bHEy6WKOsSZX+xLTNxyyNu7Fpp24XXymGaExi2r\nSTzMGOnjycEvFMXWz2xoX8BI6sOVIbZ8ghyRegvVfaaxHeVFtBsFs1N8c9z8ScoE\n3skELjYhpxObKfsvpoydbxpDk5JhSSnOZCP6Oo9oeY6G6zl9a3kEAADz3SSJ3ESx\n3/axZxhg9kOCrlU7t+Hin2jvTQFsekxhOdBkIIvLEhheUa/C87cPm1ZTtwzStpE8\ni/kQxUAqc/WUmuXaKVFGeZMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -4092,7 +4240,9 @@
         "fingerprint": "sha256:8f683cdc56dd939b",
         "record": "sha256:3ca49db7f76d877c",
         "signing_fingerprint": "sha256:3ca49db7f76d877c"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T05:29 (1 commits)."
     },
     {
       "id": "site.portalegre-promptugal-2",
@@ -4103,7 +4253,7 @@
       "role": "The identity of the Portalegre site: signs data/by-place/portalegre.json. Made and held in the session of place.districts@PrompTugal.dinis.",
       "how": "Made on 17 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAmnk4iSZgUZJHwU4C8qOI\nYnXD7hGhQOfwMLmLM8BpvNnlK/NIH6yYpoERMyl+Svaje00fm7c7s2Q8tI1voTxJ\nGAsenutO00++IgnmCQ/VCb9UZyLl6rtb2PCZYgmsvqaVS20dNMDrkWGqK42rfBQm\nKKXJwkq01GhCIQfPmFBBZR0gPrieXwCN7CRYa7TDBaIWwSqgQQUY35DnLRfcw6iE\n0UlfH4nBNyYEW7dm5S+Sypa0+MZGl3d37Fpa80WBoFYSBO3wU8lq+pQQMxpAolg7\nbtTzIp+iR7dx4Y27ECeeqOo58OX4ShYO40eYU3S5xx7ZAsAL3O8B+gWQEssmHy5Y\nGT5gWV9Rh+KXnkVivueeItahL2phCU2zL9U+7N6XUZFdAAeCWrcr39RvvfpSIM4P\nTROmJq7s8O9ZDOaROgcJNlTe5Duc55m8TwGbOxi9ViT+s8iK3MHI27TspzFcH2kC\nd5FALIN54ckYiwgwBgZdTJ32+wg0+SFo9aHHG3imthNEZuDdOLk0/1zWcSXKKMdp\nQ/DANaSGaHvSJs/cplOPiohHINcOoddYARNtZZKJ9VWeWJR8mTjLdUx7kAeR274y\nhNtdYL2b7YNSVHLzaeSBwkcVAFV+jlzGoye+ok5icg/cJvwwKI/5Ggfvy7hwRsuq\n/jC+SjI4UFBeVJYZV56FgjcCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -4112,7 +4262,9 @@
         "fingerprint": "sha256:8809402202a478d8",
         "record": "sha256:34d28192594b7941",
         "signing_fingerprint": "sha256:34d28192594b7941"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T05:29 (1 commits)."
     },
     {
       "id": "site.setubal-promptugal-2",
@@ -4123,7 +4275,7 @@
       "role": "The identity of the Setúbal site: signs data/by-place/setubal.json. Made and held in the session of place.districts@PrompTugal.dinis.",
       "how": "Made on 17 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA3FGV41i79/J3T7GYyjNI\nvVGAMwoa/5U6IRn9URHaimxbaIwz9bNg3RF/+WvpT2GAicl3IezR9PwU7VayNe1h\nDxiwcbuhgvdt/QjtfDWSbKZXE06XCkXyMYgxAf00kmsWJszbD6OxiPKTCtQhNrDF\nOr62LLE2aMOkDqBxcGccZduf/FAQj4ISpTGxbX9k7qNKBQQ3hKCJUfx0CxX5elBU\n730TDGY7dhJQq/8mWHbh9gI3CCpW68yesyUmX9uJYea1s3vUPrZeC9+4cDcoUVgg\ni8jOFJApo9OZ8QKdc/K+G3ymEeaYlJJwC84yZEmMA1ucYliDy6HSGC/7K0iSyx3/\ntAq7Gt5tlIR4B0jJc6mq8Kl+CgpY2EL2zy53dhWzKqwsPZKkOjS41TPKfD/EJJLx\n/jpNAnr1qWwh+YxL8V3DWwW3nIh7XVA9iYJvSwHMzvqc+KSDqyarIF3k2h+xgeqq\nsnJH3+6ayodkhc3E76PjlA8eKj0vRuuImZAl6gjaPuX36E90nnwNpDjjzV9Sy4Jf\nZx4RDdlZ2IqfTkzVchDu1q9xmUmbaMmBVCwArEx9LPQawZCvIQ60YH51xn+XCaIJ\navQb4jKRiLhNWIqMUQlupdaOePS/TlZWzdOKEyuGVZTKpvuAGMmWqNl9MU6DKUQ1\naJ8+U+J8U6aZYbeppRQyHEkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -4132,7 +4284,9 @@
         "fingerprint": "sha256:2796e8fe7bb363a1",
         "record": "sha256:3c5d960edc1cbf33",
         "signing_fingerprint": "sha256:3c5d960edc1cbf33"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T05:29 (1 commits)."
     },
     {
       "id": "site.evora-promptugal-2",
@@ -4143,7 +4297,7 @@
       "role": "The identity of the Évora site: signs data/by-place/evora.json. Made and held in the session of place.districts@PrompTugal.dinis.",
       "how": "Made on 17 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAiY8d5kfyZLqiA0BcdLl9\n4osHasvflX7wiNj2njL15a2ytY+da8jwIS0TW4JcFO9siZR6Whwf/7WskvPKWu3a\nIBVGF8wHypia3RrpngZM5+nHyPgICvXWVM/Uxbsea8sYcY8xWg75YimPQ9gW67qK\nJ41Hy/ay1meuDMYw5usZd47IU8K7uwUWIrfvpJdZInsdDkngxaSG7/CfvZzGj8sq\nPIvTmps2LkcI0FaIiwQRQrkgPC+/BfQOdZtND0si3WUdGHgL6KFffeGBjesXGc4D\nt+TPyWZyBDC/XJxaUZA3Ol2SOHQnMUd1+XN3LZDaMHOisgpAEH65mGqtJ9lOQmca\nnsxQQfMz7SxIq0D2V/LpJewgnL/gHNU2UQZXffr7gcCTeQTp81g8bW5yqMExeU/L\nqDb0ZO6I/o7hZEWu0UOwDyHWzbiHBNYof8WESnXHmVI7jDD6F2zLhoh7AGH7Qc4P\n13qlm47oNy6pZzUgtPTXdgfuxk9JZM1OVP/77D7ct6wmlOlRjmk/ztZFj/6YvETe\nXP3Fo/e3JTH6BDIHlnyJ30a+QKSPAxijr14fOuKglx0FwORSonvJurQgirmLDhOJ\n1KJkRqMlpWcaCndyvMt5NZCBdxt+ENhO6OslO502OU3BQHTN/LDHAWHKhzJYhRXg\neEYakf3XZnkvgTYrQVc3H8MCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -4152,7 +4306,9 @@
         "fingerprint": "sha256:dd24c6a20d82aa9c",
         "record": "sha256:8d81aeecdd34ea39",
         "signing_fingerprint": "sha256:8d81aeecdd34ea39"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T05:29 (1 commits)."
     },
     {
       "id": "site.beja-promptugal-2",
@@ -4163,7 +4319,7 @@
       "role": "The identity of the Beja site: signs data/by-place/beja.json. Made and held in the session of place.districts@PrompTugal.dinis.",
       "how": "Made on 17 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAlDncvrVHfLIY+/06+D3G\nuHmZj17tSlUB/tTJY+/JFfayM52BXkSahhmn4M05CYq5abM09AUF7KfDWGDrG+23\nHMo5+VAR5RCIg2YfenvR2QeJygMMmYKjutP2WLW9SHhu3lYrT351yXyUo7J2oPLj\noxsVhqltofFsQIvk/1NSbxGAUPl/83Rm5N8tW9lrIo5JbIDaTbOBrQ+X2xTl9L/f\n6HIhDR2uxr0DytCrOBI4svZUj+wKOELfIhaScrfZ7FxOBUFofq8nr2g/sPx+XKVZ\nMWeAbYko0ROapQS99mT/mvhTUcPA+Om+NZzY0xr19YFIJbvMHzUTQYydxMJU6FvP\n1gw3Ykcv/Xqpvms6OvC/e+1sqDmIRw9XPP8PclfBmn5OPgweslTnxQHr3aHugEP6\n//vyxvFJ01mSUE1z9B4mCsdhYOa/s30oh/fvLDahY3jBYQqvsUOX9yOZEHcMfQMH\nbXa+oxPHwymhicrufLsVu9+H2o54gI6mSY1J5yqxGxERo+TLuzE4tnIoW8PitXWu\n0rYT/KH+jO1Esa1ERy9azrHZzf1cdBzY+jybI092stjU7euqgQvtoiGMmSfhnqr1\nKH8ziNOg7Gc8A0Gh1jsz2RbIMMPPWRgWoxSqv35RwfU2lsMgoGOMuzAqkRPJrfZ8\n0iaMiAxDBqcOt7Cn5nxkxYkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -4172,7 +4328,9 @@
         "fingerprint": "sha256:a8fd91d25a68534a",
         "record": "sha256:a0d422d7d49f928c",
         "signing_fingerprint": "sha256:a0d422d7d49f928c"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit 2026-11-16T05:29 (1 commits)."
     },
     {
       "id": "place.districts-promptugal",
@@ -4268,12 +4426,14 @@
       "record": "sha256:9c82eecc96449bb7",
       "fingerprint": "sha256:3db9d371d16ea30b",
       "added": "2026-11-18",
-      "status": "active",
+      "status": "superseded",
       "public_pem": {
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAwURSrUT/ba81MlQmLXbt\nqRu8TJXK21Fzj4QzB3rkkMXxhmkI77+HZDIkFgZ8Uc8/qjs5SRxnwf/oqK7WM0ip\ninPL3dPwsI6C4sESdsDyd+91MP1kiPL0oIDRKgOCv85lBlFq4gno5Ih66kkEupmB\nlWJAVTL2LQpBb+LWGg7LdRqgFScwiEOY8UO9heD0SPv0JIXPNrSeijVN7G96PzC6\ntWGNV+IBjs8rO2KGVynmjwGoY2QdK0CehqblxMbdSl+gV7bhimCJwUBpFAGi9JMT\nE2UG3yDtKmsgAsPsxM0w3zBLud0hIFOANPUmgqe9Dml0tjzn4BeKYOlsATPbcUc3\nvX4JVHwD5Yxi8Z1t5Ff4Mdf5TghsjW1hbGDe81hlwCpio5tDKWb24qgiNw6FG2U6\nsgkxgTlqhbXudeHOT9j1y3etOU+EgKHY5E3ijyxC8oD8lCqa9jTzSxkBUYdsFRPS\nls1HTRjdUGzRUfGiEXLfsWd3MOhGfK/79bI3/tUoyw5suWq8VWRzgW40wVVgnQQj\nlp2vyWu30zteUXTs0EETgDGIBUwyxxOpDrJV3FQt534EQMYR5/qnTzv6k9LTS+OM\nY6MSx0Jnk49lFbIiEhaCMDMNiKPM7eDHS88NzP8PYOzwCTdMDIDRyKE3ONSA6CV2\nvvjra3KABFUmE45BkFBBLcUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
         "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE+/uFp3khYUbzN/6gGNNs55DRZPN5\nGITjILAwE9mzMQLh1ur8Zo9RyCCySGjgMDiv1sD91cPN0o9cn/42A4vw6g==\n-----END PUBLIC KEY-----\n"
       },
-      "source": "https://github.com/PrompTugal/PrompTugal__News__Data/blob/dev/team/keys.json (published by data.b@ in its own repository; listed here by conductor.b@, 18 Nov 2026, at Dinis's word in board/guidance/2026-11-18-keys-issues-rebuilds-observability.md)"
+      "source": "https://github.com/PrompTugal/PrompTugal__News__Data/blob/dev/team/keys.json (published by data.b@ in its own repository; listed here by conductor.b@, 18 Nov 2026, at Dinis's word in board/guidance/2026-11-18-keys-issues-rebuilds-observability.md)",
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "weather.b-promptugal",
@@ -4282,7 +4442,7 @@
       "role": "Lead of weather.promptugal.news on account B",
       "how": "Made in its own Claude Code cloud session on 18 November 2026 with sgit pki keygen (sgit-ai 0.27.0), at Dinis's word in that session",
       "added": "2026-11-18",
-      "status": "active",
+      "status": "superseded",
       "source": "https://github.com/PrompTugal/PrompTugal__News__Weather/blob/dev/team/keys/weather-b-promptugal.json",
       "bundle": {
         "v": 1,
@@ -4291,7 +4451,9 @@
         "label": "weather.b-promptugal",
         "fingerprint": "sha256:53e470b8da5c6fa9",
         "signing_fingerprint": "sha256:f7d418b96ae5985b"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "civic.b-promptugal",
@@ -4307,8 +4469,10 @@
         "fingerprint": "sha256:9d9c860d01c845f3",
         "signing_fingerprint": "sha256:a278211c320c733f"
       },
-      "status": "active",
-      "source": "https://github.com/PrompTugal/PrompTugal__News__Civic/blob/dev/team/keys.json (made with sgit pki at Dinis's word in civic.b@'s session, 18 Nov 2026)"
+      "status": "superseded",
+      "source": "https://github.com/PrompTugal/PrompTugal__News__Civic/blob/dev/team/keys.json (made with sgit pki at Dinis's word in civic.b@'s session, 18 Nov 2026)",
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "events.b-promptugal",
@@ -4317,7 +4481,7 @@
       "role": "Lead of events.promptugal.news on account B",
       "how": "Made in its own Claude Code cloud session on 18 November 2026 with sgit pki keygen (sgit-ai 0.27.0), at Dinis's word in that session",
       "added": "2026-11-18",
-      "status": "active",
+      "status": "superseded",
       "source": "https://github.com/PrompTugal/PrompTugal__News__Events/blob/dev/team/keys/events-b-promptugal.json",
       "bundle": {
         "v": 1,
@@ -4326,7 +4490,9 @@
         "label": "events.b@PrompTugal.dinis",
         "fingerprint": "sha256:132591c814aa0b3c",
         "signing_fingerprint": "sha256:d19cf3ea7f5568ab"
-      }
+      },
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "startups.b-promptugal",
@@ -4343,8 +4509,10 @@
         "fingerprint": "sha256:524512380b71f7da",
         "signing_fingerprint": "sha256:d4ac98c903399679"
       },
-      "status": "active",
-      "source": "https://github.com/PrompTugal/PrompTugal__News__Startups/blob/dev/team/keys.json (made with sgit pki at Dinis's word in its session, 18 Nov 2026)"
+      "status": "superseded",
+      "source": "https://github.com/PrompTugal/PrompTugal__News__Startups/blob/dev/team/keys.json (made with sgit pki at Dinis's word in its session, 18 Nov 2026)",
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "travel.b-promptugal",
@@ -4360,8 +4528,10 @@
         "fingerprint": "sha256:609d2f8354bd6aeb",
         "signing_fingerprint": "sha256:53baa65c14af3ef1"
       },
-      "status": "active",
-      "source": "https://github.com/PrompTugal/PrompTugal__News__Travel/blob/dev/team/keys.json (made with sgit pki at Dinis's word in its session, 18 Nov 2026)"
+      "status": "superseded",
+      "source": "https://github.com/PrompTugal/PrompTugal__News__Travel/blob/dev/team/keys.json (made with sgit pki at Dinis's word in its session, 18 Nov 2026)",
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "signals.b-promptugal",
@@ -4391,8 +4561,10 @@
       },
       "id": "videos.b-promptugal",
       "agent": "videos.b@PrompTugal.dinis",
-      "status": "active",
-      "source": "https://github.com/PrompTugal/PrompTugal__News__Videos/blob/dev/team/keys/videos-b-promptugal.json (made with sgit pki in its session, 18 Nov 2026)"
+      "status": "superseded",
+      "source": "https://github.com/PrompTugal/PrompTugal__News__Videos/blob/dev/team/keys/videos-b-promptugal.json (made with sgit pki in its session, 18 Nov 2026)",
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "library.b-promptugal",
@@ -4401,7 +4573,7 @@
       "role": "Lead and librarian-in-chief of library.promptugal.news (PrompTugal/PrompTugal__News__Library). A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 18 November 2026 with the installed `sgit pki keygen` (sgit-ai v0.27.0), at Dinis's word ('keys in every session'; board/guidance/2026-11-18-keys-issues-rebuilds-observability.md in PrompTugal__News__Website). The other halves stay in the session, outside this repository, locked and never committed or printed. The push of this entry is the authorisation. Not yet linked to an operator's key.",
       "added": "2026-11-18",
-      "status": "active",
+      "status": "superseded",
       "fingerprint": "sha256:78fa318e01745b38",
       "signing_fingerprint": "sha256:51b1474aae1dc589",
       "bundle": {
@@ -4412,7 +4584,9 @@
         "fingerprint": "sha256:78fa318e01745b38",
         "signing_fingerprint": "sha256:51b1474aae1dc589"
       },
-      "source": "https://github.com/PrompTugal/PrompTugal__News__Library/blob/dev/team/keys.json (made with sgit pki in its session, 18 Nov 2026)"
+      "source": "https://github.com/PrompTugal/PrompTugal__News__Library/blob/dev/team/keys.json (made with sgit pki in its session, 18 Nov 2026)",
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "id": "live.b-promptugal",
@@ -4438,7 +4612,7 @@
       "role": "Lead of cyber.promptugal.news (PrompTugal/PrompTugal__News__Cyber). A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 18 November 2026 with the installed `sgit pki keygen` (sgit-ai v0.27.0), at Dinis's word of 18 November 2026 (PrompTugal__News__Website board/guidance/2026-11-18-keys-issues-rebuilds-observability.md); public bundle from `sgit pki export`. Kept at team/keys.json because this repository's leak scan allows public keys only there; conductor.b@ lists it in PrompTugal__News__Website board/keys.json. Not linked to an operator's key.",
       "added": "2026-11-18",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAhVmAGQxxhQ77J1w/GZ9m\n8cR9gMvIlf+mDsqlEFU3SDPeVEsYiPmDPw95nNHzLMkANaaN45xGyNiYo2rsMwb/\nXkZMvUM4Ai4MpJ9+RvtBU2hjX+dZ4LrfQfvx9wWhtEDDmilfbPkQuwMN/hgpfUBo\nVJ4ZQnavKiU6VddjBv9eMyqDCbmNI93qYRkhqm1CZvkRLspisHdCpjB0dIVGqgUw\nsnsXWB9jVTcurgnLJP6j2Gs15RnYl+rRDLQxRtMjyeHwHWMdGdggbJKRf68chjwe\n+w3rqO61CBzTNekNYQAWBtDgX4AJUES1EY/JYqwzKwbDhFjzMB/EshoJxuRbNw2+\nTXA+KIBoRp3Tl9+vHcX+td9jgdRu2L3P23tnAnzYmI0klGVNdjilYeOU+2gtp7Wk\nhc4pMEUZppdtv/jRrt5JzDMHrSHReq0mjlv/ECT9KWM1D9jSbXlPN9r+BQG9ghk9\nJedu7z+43rJdjc+b+0gz+xMV1b2fTXClA3Q8SNSSUsuK3LOM7CbrIbVIUoWNTY1h\nMD9hLrkGyqSl9WgtOM80YUyX577JZxAHVqq74gRsNz46mk2I7Uk8DkJxKvxfoiCZ\nqEfEyIAP24qCWhorZRiTLkFTZbOCGNtcTmZ93eLh5IVvUbEarYtge5RVl0JbkhCZ\nGQuqq9V4vNTrteb/uPeLQA8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -4447,7 +4621,9 @@
         "fingerprint": "sha256:cc44cd97ce4c8ac2",
         "signing_fingerprint": "sha256:c726b219f62e8657"
       },
-      "source": "https://github.com/PrompTugal/PrompTugal__News__Cyber/blob/dev/team/keys.json (made with sgit pki in cyber.b@'s session, 18 Nov 2026)"
+      "source": "https://github.com/PrompTugal/PrompTugal__News__Cyber/blob/dev/team/keys.json (made with sgit pki in cyber.b@'s session, 18 Nov 2026)",
+      "superseded_at": "2026-11-26",
+      "superseded_note": "A key with no ssh field (cl-6.security S9, 26 Nov 2026; record 2026-11-26__s9-retire-keys): not among the 41 cl-6 sessions of the conductor's list (2026-11-26-sessions.json); last commit none: the key was never used for a commit (0 commits)."
     },
     {
       "agent": "bulletins.b@PrompTugal.dinis",
