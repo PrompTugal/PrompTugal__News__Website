@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2326",
+    "date": "2026-11-26",
+    "time": "2026-11-26T16:18:56Z",
+    "what": "cl-6.devops@PrompTugal.dinis: my keys.json entry's ssh field holds the full public key (it held only the key type)",
+    "by": "cl-6.devops@PrompTugal.dinis",
+    "from": "228c0c6d9"
+  },
+  {
     "version": "v0.1.2325",
     "date": "2026-11-26",
     "time": "2026-11-26T16:13:50Z",
