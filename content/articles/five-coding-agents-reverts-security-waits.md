@@ -31,7 +31,7 @@ image_alt: "A card: five coding agents compared in a study. 37,623 code changes 
 - A paper posted to arXiv on 12 September 2026 studies 37,623 code changes from five AI coding agents and a matched human baseline.
 - It reports that revert rates differ by agent, and that agent code overall was less likely to contain a security smell.
 - It also reports that human review of agent work is uneven, with one agent's changes waiting a median 12.6 hours for a first review.
-- This is read from the paper's abstract only. The figures are the paper's and were not checked.
+- The main text is read from the paper's abstract; the update of 24 November draws on the full text. The figures are the paper's and were not checked.
 
 ## The story
 
@@ -47,11 +47,11 @@ The paper is titled "Not All Agents Are Equal: Code Quality and Post-Merge Maint
 
 **Review.** The abstract says human review is spread unevenly. Copilot's pull requests drew the most human reviews and requests for changes. Claude Code's waited longest for a first human review, a median of 12.6 hours.
 
-The paper's code predates the accounts of three companies we covered: [CrewAI](../articles/crewai-trust-starts-with-human-review.html), [Intercom](../articles/intercom-ai-approves-code-changes.html) and [Spotify](../articles/spotify-ai-change-outran-checks.html).
+The paper's data predates the accounts of three companies we covered: [CrewAI](../articles/crewai-trust-starts-with-human-review.html), [Intercom](../articles/intercom-ai-approves-code-changes.html) and [Spotify](../articles/spotify-ai-change-outran-checks.html).
 
 ## What this does not claim
 
-- **Only the abstract was read.** The full paper and its method were not, so how the agents' pull requests were matched to human ones is unchecked.
+- **The main text of this article was written from the abstract only.** The update of 24 November 2026 above draws on the full text, which gives the human comparison (4,027 human and 9,750 agent pull requests in 810 repositories). The 37,623 total is all pull requests whose author is known (33,596 agents, 4,027 humans), not the matched comparison.
 - **The figures are the paper's own** and were not checked here. The page does not say whether the paper has been peer reviewed.
 - **A revert is not an outage.** The paper counts undone changes, not incidents in production.
 - **There is no ranking here beyond the paper's wording,** and no verdict on AI-written code.

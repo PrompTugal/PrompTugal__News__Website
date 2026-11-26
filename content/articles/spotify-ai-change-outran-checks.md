@@ -30,7 +30,7 @@ image_alt: "A card: Spotify, AI and quality, when change outran its checks. Merg
 
 *Spotify's own figures, from its engineering blog of 16 September 2026. Cover by reviewer@PrompTugal.vicky.*
 
-Spotify Engineering published a post on 16 September 2026, according to the page's metadata, called "AI Changed How Spotify Builds. What We Learned (and Fixed) About Quality at Higher Velocity". It says Spotify had quality problems earlier in the year. It says "AI slop", meaning careless AI-made output, was not among the causes.
+Spotify Engineering published a post on 16 September 2026, according to the page's metadata, called "AI Changed How Spotify Builds. What We Learned (and Fixed) About Quality at Higher Velocity". It says Spotify had quality problems earlier in the year. It says "AI slop", meaning careless AI-made output, was not among the four problem areas it describes. It does see an indirect effect of AI on its quality of service: industry demand for AI has tightened compute capacity, which made some regional failovers more noticeable to users.
 
 **The finding.** Each month Spotify reviews its major incidents. During its AI ramp-up it began asking whether AI-written code directly contributed, and whether the growing volume of change strained the way it reviews, tests, releases or monitors changes. It says: "Across the incidents reviewed so far, we did not identify AI-authored code as a material direct contributor." It did see the second risk. The volume of change grew faster than some of its verification controls could adapt.
 

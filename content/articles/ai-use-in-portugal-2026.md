@@ -50,7 +50,7 @@ The statistics do not say why people use AI more than their employers adopt it. 
 
 - A comparison with the EU for 2026. Eurostat has not yet published the EU's 2026 figures.
 - That the two shares can be compared directly. People and firms are different units, and the companies' figure leaves out finance and firms under ten staff. The shares are set side by side, never subtracted.
-- Comparisons by sector. In 2026 INE moved the companies' survey to a new classification of economic activities. INE compares the totals across years, but not sectors in detail.
+- Comparisons by sector. In 2026 INE moved the companies' survey to a new classification of economic activities. On our reading of INE's tables, INE gives 2026 only by sector (under the new classification, CAE Rev. 4), and earlier years only for the total and by size. No INE sentence says this; it is how the tables read.
 - How often or how well people use AI, or whether they use their employer's tools.
 - Private surveys that give other shares for Portugal. They ask different questions of different samples, and were not read at source.
 

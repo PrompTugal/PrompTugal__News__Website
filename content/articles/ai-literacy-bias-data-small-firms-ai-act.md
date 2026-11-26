@@ -71,13 +71,13 @@ A regulatory sandbox is a supervised space where companies can test AI under the
 
 - **The text is not the Official Journal.** It was read on a third-party site, as said above. Quotes are the provisions as that site shows them.
 - **Only the named provisions were read.** Nothing here comes from the recitals or from other articles.
-- **Cuatrecasas is a firm's reading.** Its page, undated as read, summarises the published Regulation. Each point from it is credited to the firm.
+- **Cuatrecasas is a firm's reading.** Its page, dated 24 July 2026, summarises the published Regulation. Each point from it is credited to the firm.
 - **No legal advice.** This article does not say what any company must do, or whether a system or a company falls under a rule.
 
 ## Where this comes from
 
 - [AI Act Explorer (Future of Life Institute), "Digital Omnibus on AI", Regulation (EU) 2026/1744](https://artificialintelligenceact.eu/ai-act-explorer/digital-omnibus/) (the small mid-cap definition, Articles 4, 4a, 99(6a), 75 and the sandbox provision, as the site shows them), read 21 November 2026
-- [Cuatrecasas, "EU Official Journal publishes Digital Omnibus on AI, amending AI Act"](https://www.cuatrecasas.com/en/portugal/intellectual-property/art/digital-omnibus-ai-has-been-published) (a law firm's summary; the origin of the literacy, SMC and sandbox points), read 21 November 2026
+- [Cuatrecasas, "EU Official Journal publishes Digital Omnibus on AI, amending AI Act"](https://www.cuatrecasas.com/en/portugal/intellectual-property/art/digital-omnibus-ai-has-been-published) (a law firm's summary, dated 24 July 2026; the origin of the literacy, SMC and sandbox points), read 21 November 2026
 - [PrompTugal.news, "How the EU simplified the AI Act: what changed and when"](https://promptugal.news/articles/how-the-eu-simplified-the-ai-act.html) (S77, linked, not repeated), published 20 November 2026, read 21 November 2026
 - Tried and not reached: the Official Journal text of Regulation (EU) 2026/1744, not compared.
 - From the curator's map: S79, `desks/curator/2026-11-21-1550.json`

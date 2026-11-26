@@ -21,7 +21,7 @@ image_alt: "A card: trust before autonomy, CrewAI's account of AI agents with hu
 
 - CrewAI, which sells software for building AI agents, published a post on what it learnt from its customers.
 - It says the teams with the best results began with a person reviewing every output, then reduced the review.
-- Its main example is an HR services team whose agent now handles over half of its tickets' steps without review.
+- Its main example is an HR services team whose agent, the post says, now handles 50% or more of what it calls "touches" without review. The post does not define a touch.
 - Every figure and case is CrewAI's own statement.
 
 ## The story
@@ -32,21 +32,21 @@ image_alt: "A card: trust before autonomy, CrewAI's account of AI agents with hu
 
 CrewAI's blog post, dated 24 January 2026, is called "Lessons From 2 Billion Agentic Workflows". An agentic workflow is a job done in steps, where software built on an AI model, called an agent, does some of the steps. Human review means a person checks what the agent produced before it goes on.
 
-CrewAI says its software ran about 2 billion of these workflows in the past 12 months. The post's main point is about trust. It says the teams with the biggest results "started with 100% human review and worked their way down". It describes customers going from reviewing every output to reviewing half, as the system proved itself over thousands of runs.
+CrewAI says its software powered around 2 billion agentic system executions in the past 12 months. The post's main point is about trust. It says the teams with the biggest results "started with 100% human review and worked their way down". It describes customers going from reviewing every output to reviewing 50%, as the system proved itself over thousands of runs.
 
 **The HR example.** CrewAI describes an HR services company with more than 3,000 employee tickets a month and a compliance team that could not keep up. CrewAI does not name the company. Its agent, called Andy, drafted replies, found the relevant policies and flagged unusual cases. A person checked every ticket before it reached an employee.
 
-After a few thousand runs, CrewAI says, the compliance team saw the quality. Its senior vice president asked whether the outputs could help train human staff. Today, the post says, Andy handles over 50% of "touches" without human review. CrewAI says this took weeks, not months.
+After a few thousand runs, CrewAI says, the compliance team saw the quality. Its senior vice president asked whether the outputs could be used to train its human agents. Today, the post says, Andy handles 50% or more of "touches" without human review. CrewAI says this took weeks, not months.
 
-**The sales example.** The post says DocuSign built a flow of five agents, named the Identifier, Researcher, Composer, Validator and Orchestrator, inside a fixed sequence that controls the order of steps and handles errors. It describes three checks on each result. One is an AI model scoring the quality of another's output. One compares claims with the source material to catch statements the agent made up. One is a quality score from another system. The post names better open, reply and conversion rates but gives no figures.
+**The sales example.** The post says DocuSign built a flow of five agents, named the Identifier, Researcher, Composer, Validator and Orchestrator, inside a fixed sequence that controls the order of steps and handles errors. It describes three checks on each result. One is an AI model scoring the quality of another's output. One compares claims with the source material to catch statements the agent made up. One is an API-based quality score. The post names better open, reply and conversion rates but gives no figures.
 
 PagerDuty, another vendor, published its own account of running agents in production. We covered it in [an earlier article](../articles/pagerduty-agents-in-production.html).
 
 ## What this does not claim
 
-- **Nothing here was independently checked.** The only source is CrewAI's own post. The 2 billion runs, the ticket numbers, the 50% and the weeks are its statements.
+- **Nothing here was independently checked.** The only source is CrewAI's own post. The 2 billion executions, the ticket numbers, the 50% and the weeks are its statements.
 - **The post does not define a "touch".** It gives no error rates and does not say what share of tickets Andy closes alone.
-- **The HR company is unnamed,** and neither company has confirmed the account.
+- **The HR company is unnamed,** and we found no confirmation from DocuSign or the HR company.
 - **The sales results have no figures.** The post only says they improved.
 - **This is a vendor's account of its own product.** It is not advice, and no verdict on whether the approach works elsewhere.
 
