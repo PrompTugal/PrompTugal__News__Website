@@ -5,8 +5,8 @@
  "account": "account F (Dinis's Claude account 6), started by cl-6.maestro@dinis",
  "key": "conductor-promptugal-cl-6 (signing sha256:c0721eb39088f8e4, encryption sha256:313f67e107567ad1)",
  "focus": "the plan, the board, who does what; restarting the PrompTugal team",
- "state": "onboarded; running roles as sub-agents only, no sessions or wakes started",
- "updated": "2026-11-26T00:30Z",
+ "state": "running the publishing workflow and the data refresh with Sonnet sub-agents in this session (Dinis, 26 Nov ~01:25 UTC: start all the agents here, full pass on data refresh and news)",
+ "updated": "2026-11-26T01:40Z",
  "done": [
   "key made with openssl, public half in board/keys.json, signed commit 231eefe2c pushed to dev",
   "full history fetched; build and gate green locally (v0.1.2278, 2460 pages); promptugal.news up (200, v0.1.2278)",
@@ -19,19 +19,28 @@
   "run the core roles as sub-agents (journalist, dev, security) once Dinis picks the first work"
  ],
  "asks": [
+  "Dinis: the 51 new PrompTugal__Agent__* homes refuse this session (add_repo: no push access); install the Claude GitHub App on them (or on all PrompTugal repositories) so the conductor can seed them",
   "Dinis: cl-6.maestro's two notes (account-f notes/2026-11-25-promptugal-plan.md and decisions/2026-11-25-promptugal-restarts-on-f.md) return 404; publish them or tell me what they say"
  ],
  "exceptions": [
   "2026-11-25T23:00Z: the old conductor-promptugal key kept status active (with a superseded time and note) instead of superseded, because the gate refuses its five signed articles otherwise; dev@ to fix the check",
   "2026-11-25T22:52Z: installed openssh-client in the container for ssh-keygen (commit signing)",
-  "2026-11-25T23:25Z: status.json's agent field reads conductor@PrompTugal.dinis because the gate (newsroom/build/lib/datacheck.mjs line 184) accepts only <folder>@PrompTugal.dinis; my name is in session_name. Part of the multi-conductor rules to bring in."
+  "2026-11-25T23:25Z: status.json's agent field reads conductor@PrompTugal.dinis because the gate (newsroom/build/lib/datacheck.mjs line 184) accepts only <folder>@PrompTugal.dinis; my name is in session_name. Part of the multi-conductor rules to bring in.",
+  "2026-11-26T01:35Z: sub-agents commit signed with the conductor's key, trailer Agent: cl-6.conductor@PrompTugal.dinis plus Sub-agent: <name>, and sign articles and place files with conductor-promptugal-cl-6, until each agent makes its own key in its home"
  ],
  "previous": "board/team/conductor/debriefs/2026-11-16-account-move.md",
  "decisions": [
   "2026-11-25T23:38Z: Dinis, in this session: \"Yeah, I agree\" to bringing the multi-conductor, multi-account rules into this repository and to asking outside teams to move their folders to their own homes (team-status-2026-11-25.md, section 3)",
   "2026-11-26T00:10Z: Dinis: each PrompTugal agent gets its own repo, the place desks included; do everything here (account F), then clean up Vicky's environment; the conductor's own repo (PrompTugal__Agent__Conductor) is in cl-6.infra's draft, not yet created",
   "2026-11-26T00:25Z: Dinis: agents with the same name are all twins; every agent started here on Sonnet unless strategically needed; Opus for decisions and security",
-  "2026-11-26T00:30Z: Dinis: several journalists (Vicky's AI and other beats) are one journalist, not separate; applied to dev.* and designer.experiments too"
+  "2026-11-26T00:30Z: Dinis: several journalists (Vicky's AI and other beats) are one journalist, not separate; applied to dev.* and designer.experiments too",
+  "2026-11-26T01:25Z: Dinis: start all the agents here and give them a new home; a full pass on the data refresh and news; run the full publishing workflow here for a while (research, curation, writing, publishing)"
  ],
- "proposal": "board/team/conductor/proposals/2026-11-26-schedule-account-f.json"
+ "proposal": "board/team/conductor/proposals/2026-11-26-schedule-account-f.json",
+ "running": [
+  "cl-6.journalist (sub-agent, Sonnet): research, curation, writing, checking, publishing, front page; clone /home/user/pt-journalist",
+  "cl-6.dev (sub-agent, Sonnet): two gate fixes and visual QA; /home/user/pt-dev",
+  "cl-6.places (sub-agent, Sonnet): the place data and news refresh; /home/user/pt-places",
+  "cl-6.data (sub-agent, Sonnet): PrompTugal__News__Data collectors"
+ ]
 }
