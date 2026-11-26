@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2312",
+    "date": "2026-11-26",
+    "what": "cl-6.dev@PrompTugal.dinis: gate: the keys.json check runs from its own small file",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "29f94adb1"
+  },
+  {
     "version": "v0.1.2311",
     "date": "2026-11-26",
     "what": "cl-6.ontologist@PrompTugal.dinis: correio-da-manha publishes its newsroom mailbox, from its own contact page (read 26 Nov)",
