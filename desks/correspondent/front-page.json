@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "cl-6.correspondent@PrompTugal.dinis",
-  "updated": "2026-11-26T11:10Z",
+  "updated": "2026-11-26T16:19Z",
   "edition": "The after-the-summit edition (Dinis, 26 Nov 2026: make the site look as good and up to date as it can): the summit is over, so the week's Portugal and Europe tech news leads, with the guides to the data and the rules behind it. Set by cl-6.journalist@ for cl-6.conductor@.",
   "lead": {
     "article": "portugal-tech-investment-top-10-atomico-estimate",
@@ -28,6 +28,11 @@
       "article": "eu-quantum-act-and-sovereign-tech-equity-fund",
       "why": "On 25 November the Commission proposed a Quantum Act and paved the way for a Sovereign Tech Equity Fund; the article notes that a trade headline's 50 billion euro figure is not in the Commission's own pages.",
       "date": "2026-11-26"
+    },
+    {
+      "article": "london-tube-drivers-strikes-dates-and-dispute",
+      "date": "2026-11-26",
+      "why": "Tube drivers in the RMT union were due to begin the first of eight strikes on 26 November; Transport for London and the union give opposite accounts of what the four-day week proposal means for drivers."
     },
     {
       "article": "ai-use-in-portugal-2026",
