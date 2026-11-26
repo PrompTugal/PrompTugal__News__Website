@@ -8,7 +8,7 @@
 <header class="fe-mast"><a href="index.html" aria-label="{{name}}, the home page">{{wordmark}}</a></header>
 <nav class="fe-nav" aria-label="Sections">{{#nav}}</nav></div>
 {{lead}}
-<div class="fe-w">{{nowline}}</div>
+<div class="fe-w">{{nowline}}{{explainer}}</div>
 <section class="fe-w fe-ptb" aria-label="Portugal, town by town"><div class="fe-ptb-map"><h2 class="fe-h">Portugal, town by town</h2>{{ptmap}}<p class="fe-ptk">{{ptk}}</p></div><div class="fe-pl"><h2 class="fe-h">The Algarve</h2><p class="fe-pli">{{places_intro}}</p><ul>{{#places}}</ul><p class="fe-more fe-pall"><a href="algarve/index.html">{{places_all}} <span aria-hidden="true">→</span></a></p><p class="fe-more"><a href="algarve/index.html">The Algarve</a> · <a href="portugal/index.html">Portugal</a> · <a href="api/swagger/index.html">The API</a></p></div></section>
 <div class="fe-w"><div class="fe-cols">
 <section class="fe-brf"><h2 class="fe-h">National and international</h2><ol>{{#briefing}}</ol><p class="fe-more">From the summit: <a href="interviews/buzz-messaging-ai/guy-ben-zvi/index.html">Guy Ben Zvi, Buzz Messaging AI</a> · <a href="interviews/student-property-network/leo-tashev-and-fraser-lloyd/index.html">Student Property Network</a> · <a href="summit/index.html">the archive</a> · <a href="agentic/index.html">the GAMMA-Ray spectrum</a></p></section>
@@ -36,6 +36,7 @@
 <!-- item:picture --><picture>{{phone}}<source media="(prefers-color-scheme: dark)" srcset="{{ink}}"><img src="{{src}}" alt="{{alt}}" width="{{w}}" height="{{h}}"{{load}}></picture>
 <!-- item:mark --><mark>{{text}}</mark>
 <!-- item:pill --><span class="fe-pill" title="{{title}}">{{text}}</span>
+<!-- item:explainer --><p class="fe-expl"><a href="{{href}}">{{label}}</a></p>
 <!-- item:nav --><a href="{{href}}"{{cur}}>{{label}}</a>
 <!-- item:week --><li><a href="{{href}}"{{tab}}><time datetime="{{date}}">{{when}}</time> {{what}}{{where}}</a></li>
 <!-- item:brief --><li><a href="{{href}}">{{title}}</a><small>{{beat}}</small></li>

@@ -195,6 +195,8 @@ function fillE(page, ctx) {
         today: ctx.TODAY, date: `${ctx.DAY(ctx.TODAY)} ${y}`, opening_at: openingAt, opening_in: days > 0 ? `${days}d` : '', name: esc(ctx.SITE.name), wordmark: WORDMARK(''),
         '#nav': many('nav', ctx.NAV.nav.map(n => ({ href: n.href, label: esc(n.label), cur: n.id === 'now' ? ' aria-current="page"' : '' }))),
         lead: lead(ctx, theLead),
+        explainer: (() => { const x = FP && FP.explainer, rel = x && typeof x.path === 'string' ? x.path : ''   // the correspondent's link to the pay-for-what-you-read page: shown only for a page that exists
+            return /^[a-z0-9-]+(\/[a-z0-9-]+)*\/index\.html$/.test(rel) && typeof x.label === 'string' && x.label.trim() && fs.existsSync(path.join(ctx.ROOT, 'content', rel.replace(/index\.html$/, 'index.md'))) ? many('explainer', [{ href: esc(rel), label: esc(cut(x.label.trim(), 80)) }]) : '' })(),
         spectrum: stripHtml(ctx, ''),   // GAMMA-Ray's cards under the lead (THE RESTART: the agentic edition), left out with no data
         ...(() => { const tk = PR.filter(r => r.a || r.n).map(r => r.a ? { href: r.a.rel, date: r.a.meta.date, when: esc(r.p.name), what: esc(cut(r.a.meta.title, 80)), where: '' } : { href: r.p.path + 'index.html', date: '', when: esc(r.p.name), what: esc(cut(r.n.title || r.n.headline || '', 80)), where: '' })
             return { '#week': many('week', tk), '#week_again': many('week', tk.map(w => ({ ...w, tab: ' tabindex="-1"' }))) } })(),

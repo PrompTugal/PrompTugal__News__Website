@@ -216,3 +216,5 @@
 .fe-ptmap .cnt { font: 700 9px var(--sans); fill: var(--ink, #222); paint-order: stroke; stroke: #fff; stroke-width: 2.5px; pointer-events: none; }
 .fe-ptk .on.is-week { background: #d98e04; } .fe-ptk .on.is-day { background: var(--brand-red, #c8102e); }
 .fe-pall { margin: 12px 0 4px; font: 600 15px var(--sans); }
+
+.fe-expl { margin: 8px 0 0; font-size: 14px; }
