@@ -21,12 +21,12 @@ const tryGit = (cwd, args) => { try { return git(cwd, args) } catch { return nul
 const keysAt = (root, c) => { try { return (JSON.parse(git(root, ['show', `${c}:board/keys.json`])).keys) || [] } catch { return null } }
 const same = (a, b) => JSON.stringify(a ?? null) === JSON.stringify(b ?? null)
 
-// the entries a commit changed: [{ id, agent, added }]
+// the entries a commit changed: [{ id, agent (the owner in the PARENT, or the new owner of an added entry), added }]
 export function changedEntries(before, after) {
     const B = new Map(before.map(k => [k.id, k])), A = new Map(after.map(k => [k.id, k])), out = []
     for (const id of new Set([...B.keys(), ...A.keys()])) {
         const b = B.get(id), a = A.get(id)
-        if (!b || !a || FIELDS.some(f => !same(b[f], a[f]))) out.push({ id, agent: (a || b).agent || '', added: !b, removed: !a })
+        if (!b || !a || FIELDS.some(f => !same(b[f], a[f]))) out.push({ id, agent: (b || a).agent || '', newAgent: (a || b).agent || '', added: !b, removed: !a })
     }
     return out
 }
@@ -55,6 +55,7 @@ export function checkKeyChanges({ root = ROOT, baseline = null, operators = [] }
             for (const x of changed) {
                 const b = B.get(x.id), a = A.get(x.id)
                 if (b && a && b.status !== 'active' && a.status === 'active') { problems.push(`${at}: ${x.id} re-activated (${b.status} to active); operator only`); continue }
+                if (b && a && b.agent !== a.agent) { problems.push(`${at}: ${x.id} agent changed (${b.agent} to ${a.agent}); operator only`); continue }
                 if (x.added) { if (!(ownOk(x.id) || parentOk(x.agent))) problems.push(`${at}: ${x.id} added, not signed by its own key or by an active key of ${x.agent}`); continue }
                 if (parentOk(x.agent)) continue
                 if (addedFor(x.agent).length) problems.push(`${at}: ${x.id} ${x.removed ? 'removed' : 'changed'} in the commit that adds a key for ${x.agent} (hand-over; needs an operator)`)

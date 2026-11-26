@@ -50,6 +50,8 @@ t('an agent removing its own entry (its still-active key in the parent signs) pa
 keys = keys.filter(k => k.id !== 'b-2')
 r = step(keys.filter(k => k.id !== 'a-1'), KA, 'A (its key already superseded) removes its own entry')
 t('a superseded key no longer vouches, not even for its own removal', [r.length, /a-1 removed/.test(r[0] || '')], [1, true])
+r = step(keys.filter(k => k.id !== 'a-1').map(k => k.id === 'c-1' ? { ...k, agent: 'x@x' } : k), KX, 'X rewrites C\'s agent field to itself and signs')
+t('another agent rewriting an entry\'s agent field to itself is reported', [r.length, /c-1 agent changed \(c@x to x@x\); operator only/.test(r[0] || '')], [1, true])
 t('changedEntries: a note-only change is not a change', changedEntries([{ ...A }], [{ ...A, note: 'x' }]).length, 0)
 t('changedEntries: a status change is', changedEntries([{ ...A }], [{ ...A, status: 'superseded' }]).length, 1)
 t('a missing baseline is reported, not passed', checkKeyChanges({ root: tmp, baseline: 'deadbeefdeadbeefdeadbeefdeadbeefdeadbeef' }).length, 1)
