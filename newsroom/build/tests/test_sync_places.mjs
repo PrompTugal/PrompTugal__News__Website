@@ -14,7 +14,8 @@ const run = (cwd, args, env = {}) => execFileSync('git', args, { cwd, encoding: 
 const keygen = n => { const f = path.join(tmp, n); execFileSync('ssh-keygen', ['-q', '-t', 'ecdsa', '-b', '256', '-N', '', '-f', f]); return { file: f, pub: fs.readFileSync(f + '.pub', 'utf8').trim().split(' ').slice(0, 2).join(' ') } }
 const K1 = keygen('k1'), K2 = keygen('k2')           // K1 is the pinned key, K2 a stranger
 const AGENT = 'cl-6.places@PrompTugal.dinis', TR = `Agent: ${AGENT}`
-const pin = { ssh: K1.pub, agent: AGENT, home_key_path: 'site/keys/cl-6.places.json', fingerprint: '' }
+const FP = k => /(SHA256:\S+)/.exec(execFileSync('ssh-keygen', ['-lf', k.file + '.pub'], { encoding: 'utf8' }))[1]
+const pin = { ssh: K1.pub, agent: AGENT, home_key_path: 'site/keys/cl-6.places.json', fingerprint: FP(K1) }
 let bad = 0
 const t = (what, got, want) => { if (JSON.stringify(got) !== JSON.stringify(want)) { bad++; console.error(`FAIL ${what}: ${JSON.stringify(got)}, want ${JSON.stringify(want)}`) } }
 

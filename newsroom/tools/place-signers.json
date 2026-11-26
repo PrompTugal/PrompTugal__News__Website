@@ -1,9 +1,8 @@
 {
- "about": "The one signer the place-data sync trusts (newsroom/tools/sync-places.mjs). A GATE FILE: it changes only by a signed commit of cl-6.dev@PrompTugal.dinis and cl-6.security's review; the sync never writes it. A home's own copy of this key must equal `ssh` byte for byte or that place is stopped, never followed. Rotation: a new pin through cl-6.security, with cl-6.places confirming the new fingerprint to it first.",
+ "about": "The one signer the place-data sync trusts (newsroom/tools/sync-places.mjs). A GATE FILE: it changes only by a signed commit of cl-6.dev@PrompTugal.dinis and cl-6.security's review; the sync never writes it. The pin is the key's SHA-256 fingerprint (not the key string: the gate's secrets rule allows SSH public keys only in board/keys.json). The fingerprint of the key a home publishes must equal it or that place is stopped, never followed. Rotation: a new pin through cl-6.security, with cl-6.places confirming the new fingerprint to it first.",
  "signers": [
   {
    "agent": "cl-6.places@PrompTugal.dinis",
-   "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBICAWZusNylPg4QQc9J4AM/mc9worwC8u9HN+rjjUNF5LQAY24rd9DpbsiG7Q460AZLy97U6bm9ODIECQqiSRyg=",
    "ssh_fingerprint": "SHA256:xSUBWx9MZBhggV5fKfu8HSvSqD03ounn5o3R/6kasVA",
    "home_key_path": "site/keys/cl-6.places.json",
    "pinned": "2026-11-26",

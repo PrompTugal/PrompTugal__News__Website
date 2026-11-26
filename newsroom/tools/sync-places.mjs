@@ -5,8 +5,9 @@
  *   node newsroom/tools/sync-places.mjs [--only id,id] [--dry] [--cache dir]
  *
  * The rules (cl-6.security, 26 November 2026; decisions of cl-6.dev's home, site/factory/dinis-cruz/account-f/decisions.md):
- *  1. The trust is the PIN, never a key read from a home: a home's site/keys/cl-6.places.json must equal the pinned ssh string
- *     byte for byte, or that place is stopped and reported (never followed).
+ *  1. The trust is the PIN, never a key read from a home: the SHA-256 fingerprint of the key in a home's site/keys/cl-6.places.json must
+ *     equal the pinned fingerprint (equal fingerprints are the same key), or that place is stopped and reported (never followed). The pin is
+ *     a fingerprint, not the key string, because the gate's secrets rule keeps SSH public keys out of every file but board/keys.json.
  *  2. A file's bytes come from a commit that `git verify-commit` accepts against the pin alone AND that carries the trailer
  *     "Agent: cl-6.places@PrompTugal.dinis": taken with `git show <sha>:<path>`, never from a working tree. A newer commit that is
  *     unsigned, signed by another key, a bot's or without the trailer is skipped; the last good version is taken, or nothing.
@@ -36,14 +37,22 @@ const tryGit = (cwd, args, env) => { try { return git(cwd, args, env) } catch { 
 export function readPin(file = path.join(ROOT, 'newsroom/tools/place-signers.json')) {
     let j; try { j = JSON.parse(fs.readFileSync(file, 'utf8')) } catch { return null }
     const s = (j.signers || [])[0]
-    return s && s.ssh && s.agent && /^ecdsa-sha2-nistp256 \S+$/.test(s.ssh) ? { ssh: s.ssh, agent: s.agent, home_key_path: s.home_key_path || 'site/keys/cl-6.places.json', fingerprint: s.ssh_fingerprint || '' } : null
+    return s && s.agent && /^SHA256:[A-Za-z0-9+/]{43}$/.test(s.ssh_fingerprint || '') ? { agent: s.agent, home_key_path: s.home_key_path || 'site/keys/cl-6.places.json', fingerprint: s.ssh_fingerprint } : null
 }
 
-// a home's own key file, read at `head`, must equal the pin byte for byte
+// the SHA-256 fingerprint of an ecdsa-sha2-nistp256 public key string, or ''
+export function fingerprintOf(ssh) {
+    if (!/^ecdsa-sha2-nistp256 [A-Za-z0-9+/]+={0,3}$/.test(ssh)) return ''
+    const d = fs.mkdtempSync(path.join(os.tmpdir(), 'places-fp-')), f = path.join(d, 'k.pub')
+    try { fs.writeFileSync(f, ssh + '\n'); return (/(SHA256:\S+)/.exec(execFileSync('ssh-keygen', ['-lf', f], { encoding: 'utf8' })) || [])[1] || '' } catch { return '' } finally { fs.rmSync(d, { recursive: true, force: true }) }
+}
+
+// a home's own key file, read at `head`: its key's fingerprint must equal the pin; returns the key string to verify with
 export function homeKeyMatches(dir, head, pin) {
     const raw = tryGit(dir, ['show', `${head}:${pin.home_key_path}`]); if (raw == null) return { ok: false, why: 'no key file in the home' }
     let k; try { k = JSON.parse(raw) } catch { return { ok: false, why: 'the home key file is not JSON' } }
-    return String(k.ssh || '').trim() === pin.ssh ? { ok: true } : { ok: false, why: 'the home publishes a different key than the pin' }
+    const ssh = String(k.ssh || '').trim()
+    return fingerprintOf(ssh) === pin.fingerprint ? { ok: true, ssh } : { ok: false, why: 'the home publishes a different key than the pin' }
 }
 
 // the newest version of `file` in a commit that is signed by the pin and carries the trailer; skipped commits are counted
@@ -71,6 +80,7 @@ export function syncHome({ dir, id, pin, siteRoot = ROOT, validate = null, dry =
     if (!head) { out.stop = 'no commit in the home'; return out }
     const key = homeKeyMatches(dir, head, pin); if (!key.ok) { out.stop = key.why; return out }
     out.head = head
+    pin = { ...pin, ssh: key.ssh }   // the key string to verify with: the home's, proven to be the pinned key by its fingerprint
     for (const rel of [`data/by-place/${id}.json`, `data/by-place/now/${id}.json`]) {
         if (tryGit(dir, ['cat-file', '-e', `${head}:${rel}`]) === null) continue   // the home has no such file (a now/ file only the Algarve has)
         const v = signedVersion(dir, head, pin, rel)
@@ -101,8 +111,9 @@ async function main() {
     // each place's home: the registry in the Algarve home lists them; only a PrompTugal/PrompTugal__Agent__Place__<Name> URL is accepted
     const regDir = fetchHome('https://github.com/PrompTugal/PrompTugal__Agent__Place__Algarve')
     const regHead = git(regDir, ['rev-parse', 'HEAD']).trim()
-    if (!homeKeyMatches(regDir, regHead, pin).ok) { console.error('sync-places: the Algarve home does not publish the pinned key; stopped'); process.exit(2) }
-    const reg2 = signedVersion(regDir, regHead, pin, 'site/factory/dinis-cruz/account-f/places.json')
+    const regKey = homeKeyMatches(regDir, regHead, pin)
+    if (!regKey.ok) { console.error('sync-places: the Algarve home does not publish the pinned key; stopped'); process.exit(2) }
+    const reg2 = signedVersion(regDir, regHead, { ...pin, ssh: regKey.ssh }, 'site/factory/dinis-cruz/account-f/places.json')
     if (!reg2) { console.error('sync-places: the registry of homes has no signed version; stopped'); process.exit(2) }
     const homes = new Map(JSON.parse(reg2.bytes).places.filter(p => HOME_URL.test(p.home || '')).map(p => [p.id, p.home]))
     const sources = (() => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, 'newsroom/tools/place-sources.json'), 'utf8')) } catch { return { places: {} } } })()
