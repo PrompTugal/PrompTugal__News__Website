@@ -22,7 +22,10 @@ export const shortUrl = u => {
 }
 // only these may be a link or an image source (cl-6.security's S12, 26 Nov 2026): http, https, mailto, a relative path or a #fragment; any other scheme
 // (javascript:, data:, vbscript:, file:) is shown as plain text, never as a link
-export const SAFE_URL = u => /^(https?:|mailto:)/i.test(u) || !/^[a-z][a-z0-9+.-]*:/i.test(u)
+// A browser strips leading C0 controls and spaces and every tab and newline from an href before it reads the scheme (the WHATWG URL parser), so the same is done here
+// before the test, and a URL with any control character is refused outright. A protocol-relative //host is an outside https link, which is allowed.
+export const SAFE_URL = u => { const s = String(u); if (/[\u0000-\u001f\u007f]/.test(s.replace(/^[\u0000-\u0020]+/, '').replace(/[\t\n\r]/g, ''))) return false
+    const n = s.replace(/^[\u0000-\u0020]+/, '').replace(/[\t\n\r]/g, ''); return /^(https?:|mailto:)/i.test(n) || !/^[a-z][a-z0-9+.-]*:/i.test(n) }
 export function inline(s) {
     const codes = []
     s = s.replace(/`([^`]+)`/g, (_, c) => { codes.push(`<code>${esc(c)}</code>`); return `\u0000${codes.length - 1}\u0000` })
