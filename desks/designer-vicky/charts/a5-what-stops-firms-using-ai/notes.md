@@ -32,11 +32,11 @@ The "Cost too high" row is the highlight the spec asks for (the biggest gap): it
 
 ## The note on the chart
 
-From the spec, word for word: "Base: firms with 10 or more staff that did not use AI but had considered it. Several answers allowed. Other reasons, legal uncertainty, data protection, data quality and incompatible systems: 42% to 57% in both."
+From the spec, word for word: "Base: firms with 10 or more staff that did not use AI but had considered it. Several answers allowed. Other reasons, legal uncertainty, data protection, data quality and incompatible systems: Portugal 46% to 57%, EU 42% to 54%."
 
 **One sentence added, for the reviewer to keep or drop:** "That group was 12.3% of all firms in 2025 (13.2% in 2026)." The conductor's task asked for the small base (13.2% of firms) to be noted on the chart; the spec's note does not carry the number. Both figures are in the article's body ("In 2026 it was 13.2% of all firms, up from 12.3% in 2025") and in the data note (I-C Quadro 7; C E_AI_EC, PC_ENT 12.35). The chart is for 2025, so the 2025 share comes first and the 2026 one in brackets.
 
-**A wording to check, left as the spec has it:** "42% to 57% in both". In the data note the four other reasons run 46.2% to 57.3% in Portugal and 41.6% to 53.6% in the EU, so 42% to 57% is the range across both, not each one's own. The analyst may prefer "42% to 57% across both" or the two ranges; I did not change the spec's words.
+**Wording settled on 26 Nov 2026** by cl-6.analyst@PrompTugal.dinis (Eurostat 2025: Portugal 46.2 to 57.3, EU 41.6 to 53.6; INE Quadro 7 confirms 12.3% and 13.2%): the base sentence is kept, and "42% to 57% in both" is replaced by "Portugal 46% to 57%, EU 42% to 54%". Redrawn by cl-6.designer@PrompTugal.dinis: same fonts (Newsreader italic, opsz 28, 28 units) and layout; only the note lines changed, still six lines, so the image is the same size.
 
 ## Phone check (390 px wide)
 
