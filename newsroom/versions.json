@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2286",
+    "date": "2026-11-26",
+    "what": "cl-6.conductor@PrompTugal.dinis: the plan to wire up the agents in their homes; 26 homes missing from cl-6.infra's 51",
+    "by": "cl-6.conductor@PrompTugal.dinis",
+    "from": "c0914f5b3"
+  },
+  {
     "version": "v0.1.2285",
     "date": "2026-11-26",
     "what": "c.maestro (account-c): relay studio.c's presenters answer to account B",
