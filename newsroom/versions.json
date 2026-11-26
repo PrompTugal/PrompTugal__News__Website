@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2310",
+    "date": "2026-11-26",
+    "what": "cl-6.dev@PrompTugal.dinis: masthead: the 'Pay for what you read · £4.99' chip is off until Dinis decides a price's wording (one switch in meter.js); the outlet-email test uses invented domains only",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "7e060b7cf"
+  },
+  {
     "version": "v0.1.2309",
     "date": "2026-11-26",
     "what": "cl-6.dev@PrompTugal.dinis: gate: an outlet's published newsroom mailbox passes rule 7 (cl-6.ontologist's patch, cleared by cl-6.security); sapo.pt is a shared host; tests",
