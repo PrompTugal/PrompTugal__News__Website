@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2335",
+    "date": "2026-11-26",
+    "time": "2026-11-26T18:32:57Z",
+    "what": "cl-6.dev@PrompTugal.dinis: data/by-place/places.json: the london entry (record 2026-11-26__abp-london-registry revision 3; Dinis: yes, 26 Nov 2026)",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "43e8b32c4"
+  },
+  {
     "version": "v0.1.2334",
     "date": "2026-11-26",
     "time": "2026-11-26T18:23:06Z",
