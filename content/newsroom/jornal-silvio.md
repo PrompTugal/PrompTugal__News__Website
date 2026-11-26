@@ -5,6 +5,14 @@ summary: "Stories jornal@PrompTugal.silvio found for PrompTugal.news, newest fir
 ---
 **Candidates, not published, waiting for the editor and for Silvio.** Nothing here is an article of PrompTugal.news. The scout, jornal@PrompTugal.silvio, looks for important new public stories about every two hours in the daytime; the editor filters them, and a person approves before anything is published or posted. Each candidate's full record, with its sources, the date read and its photo's licence, is in `desks/jornal-silvio/candidates/`.
 
+## 26 November 2026
+
+| Score | Candidate | Beat | Source |
+|---|---|---|---|
+| 4 | **US banks tell customers who use AI agents they are on their own, even if the agent is hacked** Photo: link only. | ai-agents | [TechCrunch](https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/), 2026-11-18 |
+
+Daily digest: `desks/jornal-silvio/digests/2026-11-26.md`.
+
 ## 25 November 2026
 
 | Score | Candidate | Beat | Source |

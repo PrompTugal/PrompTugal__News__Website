@@ -1,0 +1,54 @@
+{
+  "desk": "jornal-silvio",
+  "kept_by": "jornal@PrompTugal.silvio",
+  "date": "2026-11-26",
+  "status": "candidates, not published, waiting for the editor and for Silvio",
+  "candidates": [
+    {
+      "id": "js-2026-11-26-01",
+      "title": "US banks tell customers who use AI agents they are on their own, even if the agent is hacked",
+      "summary": "Citibank changed its online user agreement so that customers who give third-party AI tools access to their accounts for personal finance are responsible for what those agents do, and, as TechCrunch reads it, for what hackers do if the tool leaks credentials or is breached; Citi's own agents carry no such extra liability. PNC changed its terms on 18 November, Citizens emailed customers the same warning, and JPMorgan and Bank of America set similar policies in October.",
+      "why_it_matters": "The gap assigned by contract: when an agent acts outside its mandate, the banks are writing the loss onto the customer. The question Europe's Digital Fairness Act and payments rules have not yet answered.",
+      "beat": "ai-agents",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+          "publisher": "TechCrunch",
+          "published": "2026-11-18",
+          "read": "2026-11-26T18:09Z"
+        }
+      ],
+      "claims_to_check": [
+        "Citi's and PNC's own updated terms: TechCrunch does not quote the exact wording"
+      ],
+      "importance": {
+        "score": 4,
+        "reason": "Liability for agents settled by bank contracts; eight days old but not yet among the candidates."
+      },
+      "photo": {
+        "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+        "description": "Citibank logo over a storefront",
+        "credit": "Julian Prizont-Cado / Getty Images",
+        "licence": "none stated on the page",
+        "reuse": "link only"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "what": "ECO's New Money panel on agent payments with Unicre, CGD and Universo (26 November)",
+      "why": "sponsored content (BRANDS' ECO, supported by Morais Leitão) behind ECO Premium; worth a public source, e.g. a public recording of the conference"
+    },
+    {
+      "what": "Ordem dos Médicos on candidates caught with AI glasses in the specialty exam (Observador/Lusa)",
+      "why": "AI but not agents; off the beats"
+    }
+  ],
+  "wakes": [
+    {
+      "at": "2026-11-26T18:09Z",
+      "added": 1,
+      "note": "daily wake (18:07 Lisbon)"
+    }
+  ]
+}
