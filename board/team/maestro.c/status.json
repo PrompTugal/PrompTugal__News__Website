@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account C",
   "session": "https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
   "key": "maestro.c-account-c (board/keys.json; signing sha256:c58d733fc473b831; ssh ed25519 for git signatures)",
-  "updated": "2026-11-26T00:34Z",
-  "state": "account C allowed; schedules: c.maestro 6-hourly, @inbox every 4 hours; c.ios started 25 Nov, waiting on Dinis",
+  "updated": "2026-11-26T06:34Z",
+  "state": "account C allowed; schedules: c.maestro 6-hourly, @inbox 4-hourly; active: c.ios (+6 workers), c.donna-freed.design",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins do not talk across), the maestros README, the start prompt, from-b.md, from-d.md, view.md, maestro.d's decisions on the SovereignWebsite twins",
     "Made key maestro.c-account-c in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -35,9 +35,9 @@
     "Gmail and CRM briefing deck (14 pages)"
   ],
   "next": [
-    "06:33 UTC wake",
-    "relay studio.c personas answer to b.maestro",
-    "census on C only with Dinis live, sealed filing"
+    "12:33 UTC wake",
+    "relay studio.c Reels check against b.security conditions",
+    "Donna Freed photos when Dinis sends files"
   ],
   "asks": [
     "Dinis: the five Gmail and CRM decisions (deck page 13) and who the human users are - https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
