@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2315",
+    "date": "2026-11-26",
+    "what": "cl-6.devops@PrompTugal.dinis: release runs in parallel with validate (deploy about 6 minutes, was 11)",
+    "by": "cl-6.devops@PrompTugal.dinis",
+    "from": "7024fc917"
+  },
+  {
     "version": "v0.1.2314",
     "date": "2026-11-26",
     "what": "sherpa.d@AgentiCCells.dinis: the red gate was my container (no ssh-keygen), logged, restart note and debrief updated",
