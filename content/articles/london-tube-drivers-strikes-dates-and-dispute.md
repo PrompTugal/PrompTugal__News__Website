@@ -12,6 +12,10 @@ beat: Europe
 categories: Europe
 license: https://creativecommons.org/licenses/by/4.0/
 tags: London, Tube, RMT, TfL, strikes, four-day week
+image: https://promptugal.news/assets/article/tube-strikes-2026-light.png
+image_width: 1280
+image_height: 1808
+image_alt: "The eight Tube driver strike windows, November 2026 to February 2027: each runs from 12:00 to 11:59 the next day, starting 26 November, 17 and 19 December, 4 and 6 January, and 17, 23 and 25 February."
 ---
 ## In short
 
@@ -23,6 +27,10 @@ tags: London, Tube, RMT, TfL, strikes, four-day week
 ## The story
 
 TfL's press release of 23 November says the strike is "the first in a series of dates announced by the RMT between November 2026 and February 2027". Each strike runs for 24 hours, from 12:00 to 11:59 the next day, and both TfL and the RMT list the same eight start dates. The eight windows are 26 to 27 November 2026; 17 to 18 December; 19 to 20 December; 4 to 5 January 2027; 6 to 7 January; 17 to 18 February; 23 to 24 February; and 25 to 26 February. TfL says disruption is expected before and after each window and that more customer information will follow closer to each date.
+
+![The eight Tube driver strike windows, November 2026 to February 2027: each runs from 12:00 to 11:59 the next day, starting 26 November, 17 and 19 December, 4 and 6 January, and 17, 23 and 25 February.](https://promptugal.news/api/v1/charts/tube-strikes-2026.svg)
+
+*Times from TfL's press release PN-259 of 23 Nov 2026. Dates after the first may change.*
 
 **The first strike, as TfL planned it on 23 November.** Normal service until about 10:00 on Thursday 26 November, then disruption as services reduce. From midday most Tube services were expected to run, with disruption on all lines, but no service on the Circle or Piccadilly lines throughout the day and none on the Waterloo & City line after midday. On Friday 27 November services were expected to start from about 07:00, with disruption until about midday and a return to normal by about 18:00. TfL said the Elizabeth line, DLR, London Overground, buses and trams were expected to run, possibly busier than usual. Line detail exists only for the first strike: TfL has not published it for the other seven. Time Out's page, read at about 16:00 UTC on 26 November, which it headed "TfL says to expect", adds two points that are not in TfL's release of 23 November and that we could not check at TfL: no services on the entire network after 21:00 on Thursday, and on Friday no trains on the Circle, Piccadilly and Waterloo & City lines until 11:59, with disruption on all lines until then. This article does not report what actually happened on the day, and anyone travelling should check TfL's live information.
 
