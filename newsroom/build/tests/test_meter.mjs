@@ -57,13 +57,16 @@ async function load(b, pathname) {
 const kindOf = (type, date) => { const t = CFG.types[type]; return t.decays ? `${type}_${tierOf(P, (Date.now() - Date.parse(date + 'T00:00:00Z')) / 864e5)}` : type }
 const daysAgo = n => new Date(Date.now() - n * 864e5).toISOString().slice(0, 10)
 const st = b => JSON.parse(b.local.getItem(CFG.storageKey))
+// the prices are read from the table, never typed here: they have changed (Dinis, 17 Nov: from 1p, 2p assembled, 3p a signed article; the archive tier a pence less)
+const r1 = x => Math.round(x * 10) / 10, pa = CFG.prices.article_archive, pf = CFG.prices.article_fresh, pcn = CFG.prices.company_new, ppl = CFG.prices.place
 
 // --- the config ------------------------------------------------------------------------------------------------
-check(CFG.storageKey === 'web-summit.newsroom.meter.v1' && CFG.start === 500 && CFG.minDepth === 0.1, 'this site\'s own storage key, £5.00 to start, never under a tenth')
+check(CFG.storageKey === P.storage_key && CFG.start === 500 && CFG.minDepth === P.min_share, 'this site\'s own storage key, £5.00 to start, and the minimum share the table says')
 check(JSON.stringify(CFG.prices) === JSON.stringify(priceTable(P)), 'the meter\'s prices are the published table')
-check(CFG.prices.article_fresh === 12 && CFG.prices.article_new === 9 && CFG.prices.article_current === 6 && CFG.prices.article_archive === 3, 'an article: 12p fresh, 9p new, 6p current, 3p archive (the reference\'s numbers)')
-check(CFG.prices.company_new === 5 && CFG.prices.company_archive === 2 && CFG.prices.event_fresh === 4 && CFG.prices.person === 1 && CFG.prices.account === 0, 'a company 5p new and 2p archived, an event 4p fresh, a person 1p, the account free')
-check(/^https:\/\/buy\.stripe\.com\/6oUfZ9ez65vVgU2fY15os04\?client_reference_id=web-summit-newsroom$/.test(CFG.topup.link) && CFG.topup.amount === 500, 'the top-up is the live payment link, £5.00, with this site\'s reference')
+check(['article_fresh', 'article_new', 'article_current', 'article_archive'].every(k => CFG.prices[k] >= P.floor) && CFG.prices.article_archive <= CFG.prices.article_fresh, 'an article never costs under the floor, and the archive costs no more than a fresh one')
+check(CFG.prices.company_archive <= CFG.prices.company_new && CFG.prices.person >= P.floor && CFG.prices.account === 0 && Object.entries(CFG.prices).every(([k, v]) => k === 'account' || v >= P.floor), 'no kind is under the floor except the account, which is free')
+const T = config.readJSON('data/billing/topup.json')
+check(CFG.topup.amount === 500 && (T.link === '' ? CFG.topup.link === '' : CFG.topup.link.startsWith(T.link)), 'the top-up is £5.00 and its link is the data file\'s: none while PrompTugal.news has no payment link of its own (26 Nov 2026)')
 check(kindOf('article', daysAgo(0)) === 'article_fresh' && kindOf('article', daysAgo(3)) === 'article_new' && kindOf('company', daysAgo(20)) === 'company_current' && kindOf('event', daysAgo(90)) === 'event_archive' && kindOf('person', daysAgo(90)) === 'person', 'freshness: a day fresh, a week new, a month current, then archive; reference pages do not decay')
 
 // --- the rules -------------------------------------------------------------------------------------------------
@@ -71,20 +74,23 @@ const b = browser()
 let m = await load(b, '/articles/an-older-article.html')
 m.open({ kind: kindOf('article', daysAgo(60)), date: daysAgo(60), topics: ['article'], title: 'An older article' }); m.reach(0)
 let s = st(b)
-check(s.log[0].price === 3 && s.log[0].cost === 0.3 && s.balance === 499.7, `opening an archived article charges a tenth of 3p (${s.log[0].cost}p)`)
+// min_share is 1 since 17 Nov (Dinis: a minimum of 1p per thing): opening a page charges its whole price, whatever share is read. The public copy still speaks of a tenth and of the share read:
+// cl-6.dev told the conductor on 26 Nov. If min_share goes back to a fraction, these three checks change back with it.
+const open0 = r1(pa * CFG.minDepth)
+check(s.log[0].price === pa && s.log[0].cost === open0 && s.balance === r1(500 - open0), `opening an archived article charges ${CFG.minDepth * 100}% of ${pa}p (${s.log[0].cost}p)`)
 m.reach(0.5); s = st(b)
-check(s.log[0].cost === 1.5, `half of it read costs half (${s.log[0].cost}p)`)
+check(s.log[0].cost === r1(pa * Math.max(0.5, CFG.minDepth)), `half of it read costs the larger of half and the minimum (${s.log[0].cost}p)`)
 m.reach(0.3); s = st(b)
-check(s.log[0].cost === 1.5, 'reading is never un-charged by a smaller share later in the page')
+check(s.log[0].cost === r1(pa * Math.max(0.5, CFG.minDepth)), 'reading is never un-charged by a smaller share later in the page')
 m.reach(1); s = st(b)
-check(s.log[0].cost === 3 && s.balance === 497, `read to the end, the whole price (balance ${s.balance})`)
+check(s.log[0].cost === pa && s.balance === 500 - pa, `read to the end, the whole price (balance ${s.balance})`)
 m.rate('useful', 5); s = st(b)
-check(s.log[0].cost === 6 && s.balance === 494, 'rated excellent, it costs double')
+check(s.log[0].cost === 2 * pa && s.balance === 500 - 2 * pa, 'rated excellent, it costs double')
 m.rate('useful', 1); s = st(b)
 check(s.log[0].cost === 0 && s.balance === 500, 'rated not useful, it is free')
 m.rate('useful', 3)
 m.decline('clickbait'); s = st(b)
-check(s.balance === 500 && s.log[0].declined && s.log[0].declined.reason === 'clickbait' && s.declined === 3, 'declining refunds the page and keeps the reason')
+check(s.balance === 500 && s.log[0].declined && s.log[0].declined.reason === 'clickbait' && s.declined === pa, 'declining refunds the page and keeps the reason')
 m = await load(b, '/articles/an-older-article.html')
 m.open({ kind: kindOf('article', daysAgo(60)), date: daysAgo(60), title: 'An older article' }); m.reach(1)
 s = st(b)
@@ -98,16 +104,16 @@ s = st(b); s.balance = 2; b.local.setItem(CFG.storageKey, JSON.stringify(s))
 m = await load(b, '/articles/a-fresh-article.html')
 m.open({ kind: kindOf('article', daysAgo(0)), date: daysAgo(0), title: 'A fresh article' }); m.reach(1)
 s = st(b)
-check(s.balance === -10 && m.status === 'reading', `the balance goes below zero and the page still opens (${s.balance})`)
+check(s.balance === 2 - pf && s.balance < 0 && m.status === 'reading', `the balance goes below zero and the page still opens (${s.balance})`)
 // a company page, new
 m = await load(b, '/companies/replit/')
 m.open({ kind: kindOf('company', daysAgo(2)), date: daysAgo(2), title: 'Replit' }); m.reach(1)
-check(st(b).log[0].kind === 'company_new' && st(b).log[0].cost === 5, 'a company profile from two days ago costs 5p read to the end')
+check(st(b).log[0].kind === 'company_new' && st(b).log[0].cost === pcn, `a company profile from two days ago costs ${pcn}p read to the end`)
 // a new session charges again
 b.session = new Store()
 m = await load(b, '/companies/replit/')
 m.open({ kind: kindOf('company', daysAgo(2)), date: daysAgo(2), title: 'Replit' }); m.reach(0)
-check(st(b).log.length === 4 && st(b).log[0].cost === 0.5, 'a new browser session opens the page again, from a tenth')
+check(st(b).log.length === 4 && st(b).log[0].cost === r1(pcn * CFG.minDepth), 'a new browser session opens the page again, from the minimum')
 // the return page: once per reference
 const before = st(b).balance
 check(m.credit(500, 'link', 'cs_test_1') === true && m.credit(500, 'link', 'cs_test_1') === false && st(b).balance === before + 500 && st(b).topups.length === 1, 'a payment reference is credited once')
@@ -121,12 +127,12 @@ check(m2.restore(exported) === '' && st(b2).reads === st(b).reads && st(b2).bala
 s = st(b2); s.paused = true; b2.local.setItem(CFG.storageKey, JSON.stringify(s))
 m2 = await load(b2, '/places/lisbon/')
 m2.open({ kind: 'place', title: 'Lisbon' }); m2.reach(1)
-check(m2.status === 'reading' && st(b2).log[0].cost === 1, 'a stored paused flag does not stop the meter')
+check(m2.status === 'reading' && st(b2).log[0].cost === ppl, 'a stored paused flag does not stop the meter')
 // storage that refuses
 const b3 = browser(); b3.local.fail = true; b3.session.fail = true
 const m3 = await load(b3, '/articles/x.html')
 m3.open({ kind: kindOf('article', daysAgo(0)), title: 'x' }); m3.reach(1)
-check(m3.noStorage && m3.status === 'reading' && m3.state.balance === 488, 'storage that refuses: the meter says so, counts this page in memory, and blocks nothing')
+check(m3.noStorage && m3.status === 'reading' && m3.state.balance === 500 - pf, 'storage that refuses: the meter says so, counts this page in memory, and blocks nothing')
 
 console.log(failed ? `${failed} FAILED` : 'ALL METER CHECKS PASS')
 process.exit(failed ? 1 : 0)
