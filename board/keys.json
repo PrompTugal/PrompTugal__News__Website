@@ -5309,6 +5309,31 @@
       },
       "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBRKEFXdjDOXDbgavsfX9IuTic8yslFogaSmBQdBbJ8Gs5YVE/MPOV6QZlQ+iWcvZyNNw4QSXqEH0DI1Gicx73I=",
       "ssh_added": "2026-11-26T11:15Z"
+    },
+    {
+      "id": "backup-promptugal-cl-6",
+      "agent": "cl-6.backup@PrompTugal.dinis",
+      "label": "cl-6.backup@PrompTugal.dinis (Claude Code cloud session, account F)",
+      "role": "Backup agent: full, restore-tested backups of the PrompTugal repositories and vaults, and the recovery plan. A session key: it ends with its session.",
+      "made": "2026-11-26",
+      "made_with": "openssl (P-256 signing key, RSA-4096 encryption key), in its own session; private halves only in that session",
+      "how": "Also published in its home: https://github.com/PrompTugal/PrompTugal__Agent__Backup/blob/dev/site/keys/cl-6.backup.json",
+      "added": "2026-11-26T11:15Z",
+      "status": "active",
+      "session": "https://claude.ai/code/session_016CrbJLUcdAqJPbap3cW4nW",
+      "encryption_fingerprint": "sha256:799ecb5b6670e1f1",
+      "signing_fingerprint": "sha256:a381eadb6fc2cf5a",
+      "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMMjcV1dGQlqRkHdxGHoFejncIIuk5Z7SmEvFUpzzagNnHDkDf23BIF8L3C0fVKd1lJWC2cjV8DLwpwl8AyZm48=",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtvQP3qwowKrtC6Tyhhlo\nP9XsdV54BffeeQwKXIKdxaPhuFZqhsIO5yxCEp4IC/tgolCwuKBDx2j5TKxg3Yfi\nkQiRuJeu2oE0ufmh/J32yZvd2TCWYCm7frGEeJ1f8Wp1LQWv+g4xBSTAfkxzREGe\n8dnLJU2XL68X28dH9GFfuI90qpCStrMb6a8gbU/z8fFt50y9VUgevjFuzAMbUHTK\nv83BSTDLP+O/ydvooSJYVmAo4Tdpdp5kzfuNa1MGmku4fg8gMGw0CAuivBOU9dF5\nTY890J+mx8HkXx3AO39EJV7c72obBuVUTnadNGXFYoRUNhC8XK43Fyk0O0XlEa39\nVTgdb4t5YuAA/UK2WbCvdQPcXf8LzkhTtLF8gQwW/awVaViZcMRK5xNJK5TNoVjF\nn3fBkQC312PRXjvyAE6ex+Elt2F6v7i+SkF5xPFN2dsjWHGmBkavl4D7YHXWw7PG\nFUZlGnxsQQS+5IYXvPZDQaBSdcUNpDB1MALBAKPj6JCYr3inV5qhbvRfilP1aZZi\nOilChpxsVJ5aAZjWXoIZhRCLMePuG2LzHmU1DjTOiOX9a3V6ZZJszk22nVvHZ2Gc\nhsLTeuzroIg8Lp2WULfDOeYUxnsfsZr8+QBvmRQ3O9Jmq5r7yNCdght71iTpjPDR\nswmw+rh1L0m5xYu7dyIStBkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEwyNxXV0ZCWpGQd3EYegV6Odwgi6T\nlntKYS8VSnPNqA2ccOQN/bcEgXwvcLR9Up3WUlYLZyNXwMvCnCXwDJmbjw==\n-----END PUBLIC KEY-----\n",
+        "label": "cl-6.backup",
+        "fingerprint": "sha256:799ecb5b6670e1f1",
+        "signing_fingerprint": "sha256:a381eadb6fc2cf5a"
+      },
+      "ssh_added": "2026-11-26T11:15Z",
+      "home_copy": "https://github.com/PrompTugal/PrompTugal__Agent__Backup/blob/dev/site/keys/cl-6.backup.json"
     }
   ]
 }
