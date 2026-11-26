@@ -5155,7 +5155,7 @@
       "made": "2026-11-25",
       "made_with": "openssl (P-256 signing key, RSA-4096 encryption key), in its own session; private halves only in that session",
       "added": "2026-11-25T22:49Z",
-      "status": "active",
+      "status": "superseded",
       "session": "https://claude.ai/code/session_016CrbJKttr9TiHHDsuGnmF1",
       "encryption_fingerprint": "sha256:313f67e107567ad1",
       "signing_fingerprint": "sha256:c0721eb39088f8e4",
@@ -5168,7 +5168,34 @@
         "signing_fingerprint": "sha256:c0721eb39088f8e4"
       },
       "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBI8gqyb+pcEuyiwLCuskuDxRHE6DahMBGPzsEkbnk49rOXVKN7WDuQGhrXoNVUQGnIxsXyoIx0iJIxZ5j0I7K10=",
-      "ssh_added": "2026-11-25T22:49Z"
+      "ssh_added": "2026-11-25T22:49Z",
+      "superseded_at": "2026-11-26T16:39Z",
+      "superseded_by": "conductor-promptugal-cl-6-2",
+      "superseded_note": "The conductor's session session_016CrbJKttr9TiHHDsuGnmF1 was archived and replaced by a new one (cl-6.maestro, D-CONDUCTOR-RESET revision 2). Valid for what it signed while it was active."
+    },
+    {
+      "id": "conductor-promptugal-cl-6-2",
+      "agent": "cl-6.conductor@PrompTugal.dinis",
+      "label": "cl-6.conductor@PrompTugal.dinis: the conductor of PrompTugal.news, a new session started by cl-6.maestro under D-CONDUCTOR-RESET revision 2 (26 Nov 2026)",
+      "role": "The conductor of PrompTugal.news (this repository): the plan, the board, REALITY.md, who does what. Restarted on 25 November 2026 at Dinis's word, started by cl-6.maestro@dinis. A session key: it ends with its session.",
+      "made": "2026-11-26",
+      "made_with": "openssl (P-256 signing key, RSA-4096 encryption key), in its own session; private halves only in that session",
+      "added": "2026-11-26T16:39Z",
+      "status": "active",
+      "session": "https://claude.ai/code/session_016CrbJMiN8eUtML9vvvGCVt",
+      "encryption_fingerprint": "sha256:667dc849e2e83688",
+      "signing_fingerprint": "sha256:93d6e3a51260713f",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsC3FV9oUuIWBnK8b86r3\n6M0s9a2J9fA6BZ5vQ/WpUcLUh+QmUd/W6KRIDgP5GPcFwjOipN8i/p0QNOgxtVcZ\nfPGUFVVM2GvNWZVZF+dwNZqTC0gf08CTuYeJDmR4J5C8/eCU7Uy7sh79vWYuToCW\nad6lS4SbwiVsaJowT8rK9GgD/iFvXo5Fn321UQKCqbQgsjnLX8XHp+Aoc/5Y7ji4\nqF8urUw2nzAJpiGyBL/Qz9HeCAIC5VXDZsXlH9mwJ3HIzgqDFlPzZWOq0VFH6JD9\nMoUi+Zcy17Ne/ssnk/PoDeNBh0gM4b12fzdUK9OfUKMwI9BBdTnlmoF/ZOO8g2Wy\nTAPzMwZwlPV684UX2wWgw9UZBd7EtZT67LnieJkUrMqlkXnHAqx+PGRH5IPeVIcy\nOdzfdmGY/z69V62pLZZqbR5G8Y7A761ROuruJn1HdkJp4BJNmW3z4+jyHkuKMPgt\nQkM1dW1+XmyBWVpKlxuAEOEkkKz/zioj2ckwlescIO9hkdLWrkMJ23mxUDnD+xjB\noh5LsHpNOMc7fbIN2y2QWbr//LLO3HUYy+CYu7cWgcWTKSwYW54QuIStsmRuAQfq\nY58vpbnvTnNs55kiPBmzsE8jMC5QACc7/GbLDJsxBdZG/DmihrM0ch6riwT9hMz4\n2YiJ9fYJXDBuQF160qpCv7cCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEL3/mN9wzQB2QP2LYXIZPRfmdoooG\ns8pRhhs3oa3wC36l4xCxEZQqZ5VryWEPyOoj7L+u34WF41JmI+9IQDcJqw==\n-----END PUBLIC KEY-----\n",
+        "label": "cl-6.conductor@PrompTugal.dinis",
+        "fingerprint": "sha256:667dc849e2e83688",
+        "signing_fingerprint": "sha256:93d6e3a51260713f"
+      },
+      "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBC9/5jfcM0AdkD9i2FyGT0X5naKKBrPKUYYbN6Gt8At+peMQsRGUKmeVa8lhD8jqI+y/rt+FheNSZiPvSEA3Cas=",
+      "ssh_added": "2026-11-26T16:39Z",
+      "first_published": "PrompTugal/PrompTugal__Agent__Conductor site/keys/cl-6.conductor.json (commit 9041407), added here by cl-6.dev at the conductor's word (26 Nov 2026, 16:40 UTC): the key is taken from that file"
     },
     {
       "id": "dev-promptugal-cl-6",
