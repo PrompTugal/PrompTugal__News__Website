@@ -76,6 +76,15 @@ export const KINDS = [
     [/^data\/billing\/agent-costs\.json$/, 'billing-agent-costs'],
 ]
 
+// Is `agent` the role of a board/team/<role> folder? The folder is the role: <role>@PrompTugal.dinis; Dinis's other agent
+// domains are the same role (@account-b.dinis, @AgentiCCells.dinis); an account-prefixed twin cl-<n>.<role>@PrompTugal.dinis
+// is the same role (Dinis, 26 Nov). Pure, so newsroom/build/tests/test_gate_agents.mjs can pin it.
+export function agentIsRole(agent, role) {
+    if ([`${role}@PrompTugal.dinis`, `${role}@account-b.dinis`, `${role}@AgentiCCells.dinis`].includes(agent)) return true
+    const tail = `.${role}@PrompTugal.dinis`
+    return agent.endsWith(tail) && /^cl-\d+$/.test(agent.slice(0, -tail.length))
+}
+
 export function checkData() {
     const errors = []
     const reg = loadSchemas(R('data/schemas'))
@@ -181,7 +190,7 @@ export function checkData() {
     // the board's machine-read files (board/the-team-setup.md, board/spec-budgets-schema.md), against data/schemas/
     const board = (r, kind) => { if (!fs.existsSync(R(r))) return null; let v; try { v = JSON.parse(fs.readFileSync(R(r), 'utf8')) } catch { errors.push(`${r}: not JSON`); return null } for (const e of validate(v, `${kind}.schema.json`, reg)) errors.push(`${r}: ${e}`); return v }
     // the folder is the role; account-prefixed twins cl-<n>.<role>@PrompTugal.dinis are the same role (Dinis, 26 Nov); Dinis's other agent domains are the same role (the maestro, maestro.b@account-b.dinis, 19 Nov; the cells, @AgentiCCells.dinis)
-    const mine = (r, a, role) => { if (a && ![`${role}@PrompTugal.dinis`, `${role}@account-b.dinis`, `${role}@AgentiCCells.dinis`].includes(a) && !(a.endsWith(`.${role}@PrompTugal.dinis`) && /^cl-\d+$/.test(a.slice(0, -`.${role}@PrompTugal.dinis`.length)))) errors.push(`${r}: agent ${a} != folder`) }
+    const mine = (r, a, role) => { if (a && !agentIsRole(a, role)) errors.push(`${r}: agent ${a} != folder`) }
     const teamDir = R('board/team')
     if (fs.existsSync(teamDir)) for (const role of fs.readdirSync(teamDir).filter(d => fs.statSync(path.join(teamDir, d)).isDirectory())) {
         const sr = `board/team/${role}/status.json`, rr = `board/team/${role}/ROLE.md`
