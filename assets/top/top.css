@@ -107,6 +107,8 @@ html .ctop, html .ctop-tagline, html .dateline, html header.mast, html nav.site 
     .em-mark { padding: 6px 0 4px; } .em-mark .wordmark { width: 240px; }
     .em-nav { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; scrollbar-width: none; gap: 18px; padding: 9px 0 8px; white-space: nowrap; }
     .em-nav::-webkit-scrollbar { display: none; }
+    /* the strip scrolls sideways on a phone: its right edge fades so readers see there is more (cl-6.designer, 26 Nov); room at the end so the last item clears the fade */
+    .em-nav { -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent); padding-right: 32px; }
 }
 /* the home page in E: the shell's masthead is E's, so E's own copy gives way; the other home designs keep theirs */
 html[data-design="e"] .fe > .fe-w:first-child { display: none; }
