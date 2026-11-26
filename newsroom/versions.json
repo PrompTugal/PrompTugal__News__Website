@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2311",
+    "date": "2026-11-26",
+    "what": "cl-6.ontologist@PrompTugal.dinis: correio-da-manha publishes its newsroom mailbox, from its own contact page (read 26 Nov)",
+    "by": "cl-6.ontologist@PrompTugal.dinis",
+    "from": "5f99b6dbd"
+  },
+  {
     "version": "v0.1.2310",
     "date": "2026-11-26",
     "what": "cl-6.dev@PrompTugal.dinis: masthead: the 'Pay for what you read · £4.99' chip is off until Dinis decides a price's wording (one switch in meter.js); the outlet-email test uses invented domains only",
