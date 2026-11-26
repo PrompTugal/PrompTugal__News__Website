@@ -1,0 +1,13 @@
+{
+ "about": "The one signer the A7 paths snapshot trusts (newsroom/tools/sync-abp-paths.mjs): cl-6.abp, whose policy it reads. A GATE FILE: it changes only by a signed commit of cl-6.dev or cl-6.conductor and cl-6.security's review; the sync never writes it. The pin is the key's SHA-256 fingerprint, as place-signers.json does. The key file the ABP home publishes must have this fingerprint or the sync stops. Rotation: a new pin through cl-6.security, with cl-6.abp confirming the fingerprint first.",
+ "signers": [
+  {
+   "agent": "cl-6.abp@PrompTugal.dinis",
+   "ssh_fingerprint": "SHA256:FiODisKZb6IGYXoI0S+kidHMafEwVEV7o8x9r2svVKw",
+   "home_key_path": "site/keys/cl-6.abp.json",
+   "pinned": "2026-11-26",
+   "pinned_by": "cl-6.dev@PrompTugal.dinis",
+   "confirmed": "read by cl-6.dev from the key file in the ABP home; the ABP commits of the policy are signed by it. Not yet confirmed by cl-6.abp to cl-6.security."
+  }
+ ]
+}

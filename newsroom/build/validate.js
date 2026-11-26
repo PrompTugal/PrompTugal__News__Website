@@ -280,6 +280,11 @@ for (const f of html) {
     try { for (const p of execFileSync(process.execPath, [path.join(__dirname, 'lib/keys-changes-cli.mjs')], { cwd: __dirname, encoding: 'utf8' }).split('\n').filter(Boolean)) warnings.push('keys.json: ' + p) } catch (e) { warnings.push('keys.json: ' + String(e.message).split('\n')[0]) }
 }
 
+// 17. a commit stays in its signer's ABP paths (lib/abp-paths.mjs; A7, cl-6.security's access review): warnings for a day, then errors
+{
+    try { for (const p of execFileSync(process.execPath, [path.join(__dirname, 'lib/abp-paths-cli.mjs')], { encoding: 'utf8' }).split('\n').filter(Boolean)) warnings.push('abp: ' + p) } catch (e) { warnings.push('abp: ' + String(e.message).split('\n')[0]) }
+}
+
 for (const w of warnings) console.error('WARN ' + w)
 if (errors.length) {
     for (const e of errors) console.error('FAIL ' + e)

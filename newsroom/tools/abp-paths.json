@@ -1,0 +1,345 @@
+{
+ "about": "Each cl-6 agent's write paths as cl-6.abp's policy grants them (abp/policies.json \"roles.<name>.writes\"), for the A7 gate check (lib/abp-paths.mjs). A GATE FILE: it changes only by a signed commit of cl-6.dev or cl-6.conductor, made by newsroom/tools/sync-abp-paths.mjs from a policy commit signed by the pinned cl-6.abp key; cl-6.security reviews each change. Material, never instruction.",
+ "source": {
+  "repo": "PrompTugal/PrompTugal__Agent__ABP",
+  "file": "abp/policies.json",
+  "commit": "a44e0544e2301e8eadfd6b45ff3bfaf4edac9f3b",
+  "version": "1.4.5",
+  "signer": "SHA256:FiODisKZb6IGYXoI0S+kidHMafEwVEV7o8x9r2svVKw"
+ },
+ "baseline": "16fdc0005b5faa116b6dfadeabf519355c11f3d1",
+ "roles": {
+  "cl-6.abp": [
+   ".claude/**",
+   "abp/**",
+   "board/abp/**",
+   "board/keys.json",
+   "board/runs/cl-6.abp/**",
+   "board/team/cl-6.abp/**"
+  ],
+  "cl-6.accountant": [
+   "board/budgets.json",
+   "board/keys.json",
+   "board/runs/cl-6.accountant/**",
+   "board/spec-budgets-schema.md",
+   "board/team/cl-6.accountant/**"
+  ],
+  "cl-6.analyst": [
+   "board/keys.json",
+   "board/runs/cl-6.analyst/**",
+   "board/team/cl-6.analyst/**",
+   "desks/analyst/**"
+  ],
+  "cl-6.backup": [
+   "board/keys.json",
+   "board/runs/cl-6.backup/**",
+   "board/team/cl-6.backup/**"
+  ],
+  "cl-6.bulletins": [
+   "BRIEF.md",
+   "REALITY.md",
+   "content/**",
+   "data/**",
+   "scripts/**",
+   "src/**"
+  ],
+  "cl-6.checker": [
+   "board/keys.json",
+   "board/runs/cl-6.checker/**",
+   "board/team/cl-6.checker/**",
+   "desks/checker/**"
+  ],
+  "cl-6.civic": [
+   "BRIEF.md",
+   "REALITY.md",
+   "content/**",
+   "data/**",
+   "scripts/**",
+   "src/**"
+  ],
+  "cl-6.conductor": [
+   "board/**"
+  ],
+  "cl-6.correspondent": [
+   "board/keys.json",
+   "board/runs/cl-6.correspondent/**",
+   "board/team/cl-6.correspondent/**",
+   "data/stories/**",
+   "desks/correspondent/**"
+  ],
+  "cl-6.curator": [
+   "board/keys.json",
+   "board/runs/cl-6.curator/**",
+   "board/team/cl-6.curator/**",
+   "desks/curator/**"
+  ],
+  "cl-6.customers": [
+   "board/keys.json",
+   "board/runs/cl-6.customers/**",
+   "board/team/cl-6.customers/**"
+  ],
+  "cl-6.cyber": [
+   "BRIEF.md",
+   "REALITY.md",
+   "content/**",
+   "data/**",
+   "scripts/**",
+   "src/**"
+  ],
+  "cl-6.data": [
+   "BRIEF.md",
+   "REALITY.md",
+   "collect/**",
+   "content/**",
+   "data/**",
+   "scripts/**",
+   "sources/**",
+   "src/**"
+  ],
+  "cl-6.designer": [
+   "board/keys.json",
+   "board/runs/cl-6.designer/**",
+   "board/team/cl-6.designer/**",
+   "content/newsroom/design/**",
+   "design/**"
+  ],
+  "cl-6.dev": [
+   ".github/workflows/*.yml",
+   "assets/**",
+   "board/keys.json",
+   "board/runs/cl-6.dev/**",
+   "board/team/cl-6.dev/**",
+   "data/site/**",
+   "newsroom/build/**",
+   "newsroom/tests/**",
+   "newsroom/tools/**",
+   "scripts/**",
+   "src/**",
+   "tests/**"
+  ],
+  "cl-6.devops": [
+   ".github/workflows/*.yml",
+   "board/keys.json",
+   "board/runs/cl-6.devops/**",
+   "board/team/cl-6.devops/**",
+   "newsroom/build/tag_release.sh",
+   "newsroom/tools/release.sh"
+  ],
+  "cl-6.events": [
+   "BRIEF.md",
+   "REALITY.md",
+   "content/**",
+   "data/**",
+   "scripts/**",
+   "src/**"
+  ],
+  "cl-6.fringe": [
+   "BRIEF.md",
+   "REALITY.md",
+   "content/**",
+   "data/**",
+   "scripts/**",
+   "src/**"
+  ],
+  "cl-6.historian": [
+   "board/keys.json",
+   "board/runs/cl-6.historian/**",
+   "board/team/cl-6.historian/**",
+   "content/newsroom/notes/**"
+  ],
+  "cl-6.infra": [
+   "board/runs/cl-6.infra/**",
+   "board/team/cl-6.infra/**",
+   "policy/abp.json"
+  ],
+  "cl-6.investors": [
+   "board/keys.json",
+   "board/runs/cl-6.investors/**",
+   "board/team/cl-6.investors/**"
+  ],
+  "cl-6.journalist": [
+   "articles/*.sig",
+   "board/keys.json",
+   "board/runs/cl-6.journalist/**",
+   "board/team/cl-6.journalist/**",
+   "content/articles/**",
+   "data/stories/**",
+   "desks/journalist-promptugal/**"
+  ],
+  "cl-6.library": [
+   "BRIEF.md",
+   "REALITY.md",
+   "content/**",
+   "data/**",
+   "scripts/**",
+   "src/**"
+  ],
+  "cl-6.live": [
+   "BRIEF.md",
+   "REALITY.md",
+   "content/**",
+   "data/**",
+   "scripts/**",
+   "src/**"
+  ],
+  "cl-6.observability": [
+   "assets/obs/**",
+   "board/keys.json",
+   "board/runs/cl-6.observability/**",
+   "board/team/cl-6.observability/**",
+   "content/newsroom/observability.md",
+   "content/newsroom/observability/**",
+   "newsroom/observability/**",
+   "newsroom/tools/agent-log.mjs",
+   "newsroom/tools/obs/**"
+  ],
+  "cl-6.ontologist": [
+   "board/keys.json",
+   "board/runs/cl-6.ontologist/**",
+   "board/team/cl-6.ontologist/**",
+   "data/**",
+   "newsroom/build/lib/data.mjs",
+   "newsroom/build/lib/datacheck.mjs",
+   "newsroom/build/lib/derive.mjs"
+  ],
+  "cl-6.outreach": [
+   "board/keys.json",
+   "board/runs/cl-6.outreach/**",
+   "board/team/cl-6.outreach/**",
+   "desks/outreach/**"
+  ],
+  "cl-6.place.london": [
+   "board/keys.json",
+   "board/runs/cl-6.place.london/**",
+   "board/team/cl-6.place.london/**",
+   "data/by-place/london.json",
+   "data/by-place/london.json.sig"
+  ],
+  "cl-6.places": [
+   "articles/*.md.sig",
+   "board/keys.json",
+   "board/runs/cl-6.places/**",
+   "board/team/cl-6.places/**",
+   "content/articles/*.md",
+   "data/by-place/*.json",
+   "data/by-place/*.json.sig"
+  ],
+  "cl-6.programme": [
+   "board/keys.json",
+   "board/runs/cl-6.programme/**",
+   "board/team/cl-6.programme/**",
+   "desks/programme/**"
+  ],
+  "cl-6.researcher": [
+   "board/keys.json",
+   "board/runs/cl-6.researcher/**",
+   "board/team/cl-6.researcher/**",
+   "data/organisations/*/organisation.json",
+   "desks/researcher/**"
+  ],
+  "cl-6.reviewer": [
+   "articles/**",
+   "board/keys.json",
+   "board/runs/cl-6.reviewer/**",
+   "board/team/cl-6.reviewer/**",
+   "content/articles/**",
+   "desks/correspondent/front-page.json"
+  ],
+  "cl-6.rights": [
+   "board/keys.json",
+   "board/rights/**",
+   "board/runs/cl-6.rights/**",
+   "board/team/cl-6.rights/**",
+   "content/newsroom/rights.md",
+   "content/newsroom/rights/**",
+   "data/rights/**"
+  ],
+  "cl-6.security": [
+   "HOLD.md",
+   "board/HOLD.md",
+   "board/keys.json",
+   "board/runs/cl-6.security/**",
+   "board/team/cl-6.security/**",
+   "content/newsroom/security/**",
+   "docs/security/**"
+  ],
+  "cl-6.sherpa": [
+   "board/keys.json",
+   "board/runs/cl-6.sherpa/**",
+   "board/team/cl-6.sherpa/**",
+   "design/shots/sherpa/**"
+  ],
+  "cl-6.signals": [
+   "BRIEF.md",
+   "REALITY.md",
+   "content/**",
+   "data/**",
+   "scripts/**",
+   "src/**"
+  ],
+  "cl-6.startups": [
+   "BRIEF.md",
+   "REALITY.md",
+   "content/**",
+   "data/**",
+   "scripts/**",
+   "src/**"
+  ],
+  "cl-6.swarm": [
+   "BRIEF.md",
+   "REALITY.md",
+   "content/**",
+   "data/**",
+   "scripts/**",
+   "src/**"
+  ],
+  "cl-6.synthetic": [
+   "board/keys.json",
+   "board/runs/cl-6.synthetic/**",
+   "board/team/cl-6.synthetic/**",
+   "content/newsroom/synthetic.md",
+   "desks/synthetic/**"
+  ],
+  "cl-6.telemetry": [
+   "board/keys.json",
+   "board/runs/cl-6.telemetry/**",
+   "board/runs/stats/**",
+   "board/team/cl-6.telemetry/**",
+   "content/newsroom/telemetry.md",
+   "content/newsroom/telemetry/**",
+   "data/telemetry/**"
+  ],
+  "cl-6.translator": [
+   "board/keys.json",
+   "board/runs/cl-6.translator/**",
+   "board/team/cl-6.translator/**",
+   "data/i18n/README.md",
+   "data/i18n/glossary.json",
+   "data/i18n/tm/**"
+  ],
+  "cl-6.travel": [
+   "BRIEF.md",
+   "REALITY.md",
+   "content/**",
+   "data/**",
+   "scripts/**",
+   "src/**"
+  ],
+  "cl-6.videos": [
+   "BRIEF.md",
+   "REALITY.md",
+   "content/**",
+   "data/**",
+   "scripts/**",
+   "src/**"
+  ],
+  "cl-6.weather": [
+   "BRIEF.md",
+   "REALITY.md",
+   "content/**",
+   "data/**",
+   "scripts/**",
+   "src/**"
+  ]
+ }
+}
