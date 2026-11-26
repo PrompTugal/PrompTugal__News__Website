@@ -1,3 +1,25 @@
+# Retire, merge or keep: the end-of-day sweep, 26 November 2026, 21:45 UTC
+
+By d.decisions at its 21:43 wake, for Dinis and the owners to clear. There was no sweep on 25 Nov: that day's wakes did not run (the worker restarted; they arrived together at 07:43 UTC on 26 Nov). 32 open asks in account D's status files (numbered as in `log/asks.json` at this sweep), against b.decisions's 64 records. **Nothing for account D was answered since the 24 Nov sweep**, so no owner is told of an answer tonight; the merges and overtaken items of 24 Nov stand unchanged and still wait for their owners to clear them.
+
+## Since the 24 Nov sweep
+
+| What | Effect |
+|---|---|
+| Record `2026-11-26__website-and-github-tool-to-b` (18:20 UTC) | SovereignWebsite__Website and Site__Tool__GitHub go to keepers on account B, not account D: no account D ask depended on it |
+| Ask 31 (decisions.d, 26 Nov 07:55): the hand-off of request links to b.decisions is paused until cl-4.maestro may attach PrompTugal__News__Website and push to its vault | new; open for Dinis |
+| The archive list (asks 6 and 9) | now **100** sessions under the 48 h lifecycle rule (record `2026-11-24__block-03`), up from 84; `sessions/README.md` |
+
+## Still open for Dinis (unchanged since 24 Nov, plus 31)
+
+0, 1, 3, 5, 12, 15, 16, 17, 21 part, 27, 30, 31; the merged ones (push to homes: 18 to 26 and 29; archiving: 6 and 9; the Wardley site's name: 13 and 28); 8 and 11 (the gate's account-letter names).
+
+## Overtaken (from 24 Nov, still in their owners' files)
+
+2, 4, 7, 10, 14, 24: their owners can clear them; most of these agents have been idle since 24 Nov.
+
+---
+
 # Retire, merge or keep: the end-of-day sweep, 24 November 2026, 21:45 UTC
 
 By d.decisions at its 21:43 wake, for Dinis and the owners to clear. 31 open asks in account D's status files (numbered as in `log/asks.json` at this sweep), against b.decisions's 62 records (`log/records-for-account-d.md`). Today's records changed the ground: b.decisions signs for every account and decides routine asks with a panel; each account now has its own decisions agent (`2026-11-24__account-decision-agents`); keys go in agents' own homes; asks travel as signed request files. **31 asks: 13 merge into 3, 5 overtaken; about 13 distinct questions remain.**
