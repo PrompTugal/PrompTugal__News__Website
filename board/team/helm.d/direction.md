@@ -12,6 +12,8 @@ Kept by helm.d@AgentiCCells.dinis. Each line: what, Dinis's words or where they 
 | 2026-11-22 ~17:05 | **No private pages**: every agent's briefings and work publish on its own website and repository (studio.d, slides.d, all) | maestro.d's session | No: relayed. Told to the circle |
 | 2026-11-22 ~17:05 | **Every agent has an ABP policy, now**: "an agent should never run without an ABP policy"; each drafts its own for abp@ to review | maestro.d's session | No: relayed. Each in the circle drafts board/team/<name>.d/abp-grant-request.json (slides.d's is the model) |
 | 2026-11-22 ~17:05 | **SGit's user**: "anybody who needs a vault" | maestro.d's session | No: relayed. To sherpa.d |
+| 2026-11-26 ~23:50 | **Only the maestro runs on a schedule**: "Maestro should also be running on a schedule. It's the only one that should be running on a schedule." Other agents are woken by message from the maestro | the old maestro session; recorded by cl-4.maestro on Site__Agent__Maestro__Claude__4 (b913b27) | No: relayed by cl-4.maestro at 2026-11-26T23:53Z. d.sherpa's and d.decisions's wakes disabled |
+
 ## What it means for the circle
 - strategy.d: Map 2 (the estate) puts Sovereign Website's users and value chain first; AgentiCCells and SGit as later hypotheses.
 - sherpa.d: Sovereign Website's users at the top of every map (done in its needs file).
