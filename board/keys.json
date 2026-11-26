@@ -5083,7 +5083,7 @@
         "fingerprint": "sha256:46c1c567f1ae2c92",
         "signing_fingerprint": "sha256:9a50822e85ff47ab"
       },
-      "ssh": "ecdsa-sha2-nistp256",
+      "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBfnURGx0GMs8Ls/ptmTXbUXjBhbJryb2lXFF+UYNq96yVa32I9vHPBuCuGJ7bVddUX7JDcXiUp7E1RRtaxgMoA=",
       "ssh_added": "2026-11-26T02:27Z",
       "home_copy": "https://github.com/PrompTugal/PrompTugal__Agent__DevOps/blob/dev/site/keys/cl-6.devops.json"
     },
