@@ -5131,7 +5131,7 @@
         "fingerprint": "sha256:132762119d59882c",
         "signing_fingerprint": "sha256:f9c180a7dc6e7c0a"
       },
-      "ssh": "ecdsa-sha2-nistp256",
+      "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBNiHLEaVXtx6mfRrRJpHRcaJ/0kY60wouQS3X6zwzfWYx3NgRwIctxnkZRcwoWhaE0nQWOF2bWSbznzMLqG44XY=",
       "ssh_added": "2026-11-26T02:34Z",
       "home_copy": "https://github.com/PrompTugal/PrompTugal__Agent__Researcher/blob/dev/site/keys/cl-6.researcher.json"
     },
