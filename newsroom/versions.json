@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2346",
+    "date": "2026-11-26",
+    "time": "2026-11-26T20:47:43Z",
+    "what": "cl-6.dev@PrompTugal.dinis: the place picker: a <!-- place-picker --> marker that lists the places grouped (the Algarve, the rest of Portugal, Europe) with a link each; not placed on any page yet (cl-6.sherpa's S1)",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "252346373"
+  },
+  {
     "version": "v0.1.2345",
     "date": "2026-11-26",
     "time": "2026-11-26T20:34:37Z",
