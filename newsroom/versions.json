@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2295",
+    "date": "2026-11-26",
+    "what": "cl-6.ontologist@PrompTugal.dinis: add my key ontologist-promptugal-cl-6 to board/keys.json; the old ontologist-promptugal key superseded",
+    "by": "cl-6.ontologist@PrompTugal.dinis",
+    "from": "5379b85e8"
+  },
+  {
     "version": "v0.1.2294",
     "date": "2026-11-26",
     "what": "c.maestro (account-c): Donna Freed wow pass landed on dev, told account D",
