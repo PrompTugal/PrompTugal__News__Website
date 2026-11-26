@@ -87,8 +87,9 @@ html .ctop, html .ctop-tagline, html .dateline, html header.mast, html nav.site 
 .em-w { max-width: var(--page); margin: 0 auto; padding: 0 var(--gutter); box-sizing: border-box; }
 .em-dl { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 14px; padding: 8px 0; font: 12px/1.4 var(--mono); color: var(--ink-3); }
 .em-where { flex: 1; }
-.em-tools { display: flex; align-items: center; gap: 6px; margin-left: auto; }
-.em-tools .ctop-tools { display: flex; align-items: center; gap: 6px; }
+.em-tools { display: flex; align-items: center; flex-wrap: wrap; justify-content: flex-end; gap: 6px; margin-left: auto; min-width: 0; max-width: 100%; }   /* wraps, never past the page's edge (Dinis, 26 Nov: the account button was cut off) */
+.em-tools .ctop-tools { display: flex; align-items: center; flex-wrap: wrap; justify-content: flex-end; gap: 6px; min-width: 0; }
+.em-tools .tool, .em-tools .em-pill { max-width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .em-short { display: none; }
 .em-pill, .em-tools .tool, .em-tools .pt-app-btn { font: 600 12.5px var(--sans); height: 30px; display: inline-flex; align-items: center; gap: 4px; padding: 0 11px; border: 1px solid var(--rule-2); border-radius: 999px; background: none; color: var(--ink); text-decoration: none; margin: 0; min-height: 0; box-sizing: border-box; }
 .em-pill[aria-current] { border-color: var(--ink); }
@@ -101,7 +102,7 @@ html .ctop, html .ctop-tagline, html .dateline, html header.mast, html nav.site 
 .em-nav a:hover { color: var(--brand-green); }
 .em-nav a[aria-current] { color: var(--brand-green); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 6px; }
 @media (max-width: 767px) {
-    .em-where, .em-long { display: none; } .em-short { display: inline; } .em-dl { flex-wrap: nowrap; }
+    .em-where, .em-long { display: none; } .em-short { display: inline; } .em-dl { flex-wrap: wrap; }
     .em-dl { padding: 6px 0; }
     .em-mark { padding: 6px 0 4px; } .em-mark .wordmark { width: 240px; }
     .em-nav { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; scrollbar-width: none; gap: 18px; padding: 9px 0 8px; white-space: nowrap; }

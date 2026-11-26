@@ -21,6 +21,18 @@ const many = (n, list) => list.map(v => put(item(n), v)).join('')
 
 const slugOf = a => a.rel.replace(/^articles\//, '').replace(/\.html$/, '')
 const beatOf = a => String(a.meta.beat || String(a.meta.tags || 'News').split(',')[0]).replace(/^connections:\s*/i, '').trim()
+// a date on every card and headline (Dinis, 26 Nov: "a date on every card"): "Today", "Yesterday", else "24 Nov", in a <time>; the page's own day
+// is the build's day. A date given in front-page.json beside an article's slug ("date", ISO) wins over the article's own, so the correspondent can
+// set the moment a headline is current from (the iOS app's JSON carries the same field).
+const dayOf = v => String(v || '').slice(0, 10)
+const ageDays = (ctx, v) => Math.round((Date.parse(ctx.TODAY) - Date.parse(dayOf(v))) / 864e5)
+const nice = (ctx, v) => { const d = dayOf(v); if (!/^\d{4}-\d\d-\d\d$/.test(d) || isNaN(Date.parse(d))) return ''; const n = ageDays(ctx, d)
+    return `<time class="fe-dt" datetime="${d}">${n <= 0 ? 'Today' : n === 1 ? 'Yesterday' : new Date(d + 'T00:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'short', timeZone: 'UTC' })}</time>` }
+const dt = (ctx, v) => { const t = nice(ctx, v); return t ? ' · ' + t : '' }
+let FPDATES = null
+const dateOf = (ctx, a) => { if (!FPDATES) { FPDATES = new Map(); try { const F = JSON.parse(fs.readFileSync(path.join(ctx.ROOT, 'desks/correspondent/front-page.json'), 'utf8'))
+        for (const e of [F.lead, ...(F.top || [])]) if (e && e.article && e.date) FPDATES.set(e.article, e.date) } catch {} }
+    return FPDATES.get(slugOf(a)) || a.meta.date }
 const cut = (t, max) => t.length > max ? t.slice(0, max - 1).replace(/\s+\S*$/, '') + '…' : t
 // the pill only where true: "signed" when the article's signature is in the repository (the gate verifies every one
 // against board/keys.json and refuses the release otherwise), "checked" when dev.verify@'s verified record exists
@@ -84,7 +96,7 @@ function lead(ctx, a) {
     const esc = ctx.md.esc, f = figureOf(a), fig = picture(esc, a, 'card', false)
     let headline = esc(a.meta.title)
     if (f?.value && headline.includes(esc(f.value))) headline = headline.replace(esc(f.value), put(item('mark'), { text: esc(f.value) }))
-    return put(part('lead'), { href: a.rel, kicker: esc(a.meta.tags || beatOf(a)), headline, dek: esc(a.meta.summary || ''), byline: esc(byline(a.meta.author)), minutes: minutes(a.md),
+    return put(part('lead'), { href: a.rel, kicker: esc(a.meta.tags || beatOf(a)) + dt(ctx, dateOf(ctx, a)), headline, dek: esc(a.meta.summary || ''), byline: esc(byline(a.meta.author)), minutes: minutes(a.md),
         pill: pill(ctx, a), storm: stormLink(ctx, a), figure: satFigure(ctx, a) || (fig ? put(item('figure'), { href: a.rel, picture: fig, cap: 'AI-made image' }) : ''), ...leadExtra(ctx, a) })
 }
 
@@ -97,7 +109,11 @@ function placesOf(ctx, all) {
     const towns = L.places.filter(p => p.kind === 'municipality' || p.kind === 'city')   // every town and city (the map); the Algarve's list filters by parent
     const art = t => all.filter(a => a.meta.town === t).sort((x, y) => String(y.meta.date).localeCompare(String(x.meta.date)))[0]
     const first = t => { const m = String(t || '').match(/^.*?[.!?](?=\s|$)/); const x = (m ? m[0] : String(t || '')).trim(); return x.length > 130 ? x.slice(0, 129).replace(/\s+\S*$/, '') + '…' : x }
-    const rows = towns.map(p => { const d = rd(`data/by-place/${p.id}.json`) || {}; return { p, d, news: (d.ai_news || []).length, map: (d.ai_map || []).length, a: art(p.id), n: (d.ai_news || [])[0], about: first(d.gravity && d.gravity.text) } })
+    const rows = towns.map(p => { const d = rd(`data/by-place/${p.id}.json`) || {}, a = art(p.id)
+        // every dated item of the place: its local AI stories and its signed articles; the newest, and how many fall in the last day and the last week
+        const ds = [...(d.ai_news || []).map(x => dayOf(x.date || x.read_on)), ...all.filter(x => x.meta.town === p.id).map(x => dayOf(x.meta.date))].filter(x => /^\d{4}-\d\d-\d\d$/.test(x)).sort().reverse()
+        const within = n => ds.filter(x => ageDays(ctx, x) <= n).length
+        return { p, d, news: (d.ai_news || []).length, map: (d.ai_map || []).length, a, n: (d.ai_news || [])[0], about: first(d.gravity && d.gravity.text), newest: ds[0] || '', day: within(1), wk: within(7) } })
     return { L, rows }
 }
 
@@ -112,10 +128,12 @@ function ptMap(ctx, PR) {
     const sc = W / ((V.lon1 - V.lon0) * k), H = Math.round((V.lat1 - V.lat0) * sc)
     const X = lo => ((lo - V.lon0) * k * sc).toFixed(1), Y = la => ((V.lat1 - la) * sc).toFixed(1)
     const land = (n, c) => (O.countries[n] || []).map(poly => put(item('mland'), { cls: c, d: poly.map(r => 'M' + r.map(([lo, la]) => `${X(lo)},${Y(la)}`).join('L') + 'Z').join('') })).join('')
-    const esc = ctx.md.esc
-    const pins = PR.filter(r => Array.isArray(r.p.at)).map(r => put(item('mpin'), { href: r.p.path + 'index.html', title: esc(`${r.p.name}: ${r.news} local AI stories, ${r.map} on the AI map`), x: X(r.p.at[0]), y: Y(r.p.at[1]), r: (2.5 + Math.min(5, Math.sqrt(r.news + r.map) * 0.8)).toFixed(1) })).join('')
+    const esc = ctx.md.esc, algWk = PR.filter(r => r.p.parent === 'algarve' || r.p.parent === 'loule').reduce((n, r) => n + r.wk, 0)
+    const pins = PR.filter(r => Array.isArray(r.p.at)).map(r => put(item('mpin'), { href: r.p.path + 'index.html', title: esc(`${r.p.name}: ${r.news} local AI stories, ${r.map} on the AI map${r.day ? `; ${r.day} dated in the last day` : r.wk ? `; ${r.wk} dated in the last week` : ''}`),
+        cls: r.day ? ' is-day' : r.wk ? ' is-week' : '', cnt: r.wk && r.p.parent === 'portugal' ? put(item('mcnt'), { x: (+X(r.p.at[0]) + 8).toFixed(1), y: (+Y(r.p.at[1]) + 3).toFixed(1), n: r.wk }) : '', x: X(r.p.at[0]), y: Y(r.p.at[1]), r: (2.5 + Math.min(5, Math.sqrt(r.news + r.map) * 0.8)).toFixed(1) })).join('')
     const have = new Set(PR.map(r => r.p.id)), next = (N?.places || []).filter(q => !have.has(q.id)).map(q => put(item('mnext'), { title: esc(q.name), x: X(q.at[0]), y: Y(q.at[1]), lx: (+X(q.at[0]) + 6).toFixed(1), ly: (+Y(q.at[1]) + 3).toFixed(1) })).join('')
-    return put(item('map'), { w: W, h: H, aria: esc(`Map of mainland Portugal: ${PR.length} places covered, ${(N?.places || []).length} district capitals to come`), body: land('Spain', 'es') + land('Portugal', 'pt') + next + pins, ax: X(-8.9), ay: Y(36.9) })
+    return put(item('map'), { w: W, h: H, aria: esc(`Map of mainland Portugal: ${PR.length} places covered, ${(N?.places || []).length} district capitals to come`), body: land('Spain', 'es') + land('Portugal', 'pt') + next + pins, ax: X(-8.9), ay: Y(36.9),
+        rg: 'The Algarve' + (algWk ? ` · ${algWk} this week` : '') })
 }
 
 // Now in the Algarve, one line under the ticker (Dinis, 16 Nov): data/by-place/now/ (board/tools/local-now.mjs); markup: front-e.tmpl
@@ -150,7 +168,10 @@ function fillE(page, ctx) {
     const fo = frontOrder(ctx), placed = fo.filter(a => a.meta.region || a.meta.town).sort((x, y) => (y.meta.front_lead ? 1 : 0) - (x.meta.front_lead ? 1 : 0) || String(y.meta.date).localeCompare(String(x.meta.date)))
     const all = [...placed, ...fo.filter(a => !placed.includes(a))]
     const { L: PL, rows: PR } = placesOf(ctx, all)
-    const story = (a, i) => put(item('story'), { big: i ? '' : ' big', beat: esc(beatOf(a)), href: a.rel, title: esc(a.meta.title), dek: esc(cut(a.meta.summary || '', 170)), pill: pill(ctx, a),
+    // the Algarve's grid beside the map: the towns with the newest news first, capped so the two columns balance, then a link to all of them
+    const algTowns = PR.filter(r => r.p.parent === 'algarve' || r.p.parent === 'loule').sort((x, y) => (y.newest || '').localeCompare(x.newest || '') || (y.news + y.map) - (x.news + x.map) || x.p.name.localeCompare(y.p.name))
+    const ALG_CAP = 9
+    const story = (a, i) => put(item('story'), { big: i ? '' : ' big', beat: esc(beatOf(a)) + dt(ctx, dateOf(ctx, a)), href: a.rel, title: esc(a.meta.title), dek: esc(cut(a.meta.summary || '', 170)), pill: pill(ctx, a),
         thumb: i && imageFile(a, 'thumb') ? put(item('thumb'), { href: a.rel, picture: picture(esc, a, 'thumb', true) }) : '' })
     // this week: today and the six days after it, the two that matter most each day
     const week = [...Array(7).keys()].map(n => plusDays(ctx.TODAY, n)).filter(d => !cancelledDays()[d]).flatMap(d => [...itemsOn(d)].sort((x, y) => rank(x) - rank(y) || (x.start || '').localeCompare(y.start || '')).slice(0, 2))
@@ -173,11 +194,13 @@ function fillE(page, ctx) {
         spectrum: stripHtml(ctx, ''),   // GAMMA-Ray's cards under the lead (THE RESTART: the agentic edition), left out with no data
         ...(() => { const tk = PR.filter(r => r.a || r.n).map(r => r.a ? { href: r.a.rel, date: r.a.meta.date, when: esc(r.p.name), what: esc(cut(r.a.meta.title, 80)), where: '' } : { href: r.p.path + 'index.html', date: '', when: esc(r.p.name), what: esc(cut(r.n.title || r.n.headline || '', 80)), where: '' })
             return { '#week': many('week', tk), '#week_again': many('week', tk.map(w => ({ ...w, tab: ' tabindex="-1"' }))) } })(),
-        places_intro: esc(PL.copy?.home_places_intro || ''), ptmap: ptMap(ctx, PR), nowline: nowLine(ctx),
-        '#places': many('place', PR.filter(r => r.p.parent === 'algarve' || r.p.parent === 'loule').map(r => ({ href: r.p.path + 'index.html', name: esc(r.p.name), counts: `${r.news} stories · ${r.map} on the AI map`, about: esc(r.about),
-            newest: r.a ? put(item('pnew'), { href: r.a.rel, title: esc(cut(r.a.meta.title, 80)) }) : r.n && r.n.title ? put(item('pnew'), { href: r.p.path + 'index.html#local', title: esc(cut(r.n.title, 80)) }) : '' }))),
+        places_all: `All ${algTowns.length} towns`, places_intro: esc(PL.copy?.home_places_intro || ''), ptmap: ptMap(ctx, PR),
+        ptk: (() => { const day = PR.filter(r => r.day), wk = PR.filter(r => r.wk && !r.day)
+            return `<span class="on"></span> a place we cover <span class="on is-week"></span> dated news this week (${wk.length + day.length}) <span class="on is-day"></span> today or yesterday (${day.length}) <span class="next"></span> a district capital, coming next` })(), nowline: nowLine(ctx),
+        '#places': many('place', algTowns.slice(0, ALG_CAP).map(r => ({ href: r.p.path + 'index.html', name: esc(r.p.name), counts: `${r.news} stories · ${r.map} on the AI map`, about: esc(r.about),
+            newest: r.a ? put(item('pnew'), { href: r.a.rel, date: nice(ctx, r.a.meta.date), title: esc(cut(r.a.meta.title, 80)) }) : r.n && r.n.title ? put(item('pnew'), { href: r.p.path + 'index.html#local', date: nice(ctx, r.n.date || r.n.read_on), title: esc(cut(r.n.title, 80)) }) : '' }))),
         '#stats': many('stat', statsOf(ctx, PR, all)),
-        '#briefing': many('brief', all.filter(a => !(a.meta.region || a.meta.town)).slice(0, 8).map(a => ({ href: a.rel, title: esc(a.meta.title), beat: esc(beatOf(a)) }))),  // national and international (Dinis, 16 Nov): what has no place, in the correspondent's order
+        '#briefing': many('brief', all.filter(a => !(a.meta.region || a.meta.town)).slice(0, 8).map(a => ({ href: a.rel, title: esc(a.meta.title), beat: esc(beatOf(a)) + dt(ctx, dateOf(ctx, a)) }))),  // national and international (Dinis, 16 Nov): what has no place, in the correspondent's order
         '#stories': placed.slice(1, 9).map(story).join(''),
         '#next': many('next', next.map(i => ({ href: `events/${i.id}/index.html`, date: i.date, end: endOf(i), when: esc(when(ctx, i)), what: esc(cut(i.what, 110)), where: esc(i.where || '') }))),
         '#radar': many('radar', fields.slice(0, 6).map(([t, n]) => ({ href: `topics/${t.id}/index.html`, name: esc(t.name), n, pct: Math.round(100 * n / max) }))),
