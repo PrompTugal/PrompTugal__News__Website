@@ -3375,7 +3375,7 @@
       "role": "The translator of PrompTugal.news: the site's content into its cultures through a translation memory, so nothing already translated is sent for translation again. Started 16 November 2026 at Dinis's word via the conductor. A session key: it ends with its session.",
       "how": "Made by the agent in its own session on 16 November 2026 at 19:31 UTC (pki-agent.mjs keygen --session) when the role restarted at Dinis's word (board/guidance/2026-11-16-restart-here-go.md). Supersedes translator-promptugal. Not linked to an operator's key. The private half stays in the session; the push of this entry is the authorisation.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsLMEdnYBonVRS30AIXyx\nzXrC6uOBFH3KgxnQ1F85Kxdq1Vn06AYiLoLuOtr6cV/1LZxb5zu5P2OK9ejPyLXG\n7n6F39CfD3I9o5WqxBv6UJ4YKIofWxgxi7O0FE+0DMtGpQp2++V5YoTWAIAq869N\nCDZ4THjRSI/hS1JlQSghQ1j/x1CYe1Y6Phks/52UcmoJWwwNL5jwp/7ep0yeVNJo\nceR1vcFYj3FeHpZ1dqV3XF1JAR8604KjbpkBxjyXS4sarRfLujq0j0xkq8LmMk/R\nUvEHooZf1IOK+8esFNm4CVs3KKFLHiF/zOcRAI8SysyAQcdsW1b7qq7fjKOBoDeS\n1k4JUp5WlmJgLBbH5uA6Wv+s0opwATFxXBSuWsRrjgySgOBzvQJxYBGR3nOfMWbf\nNtQUNi1SvQzoAU8ojqhM2wtb05ag3UaLA8yXpXEhyRYeFN0e3UbD6m9syJ/PR/ZS\nbssW91eH/ZiEWpmOX8ueaLKu5VaiKbc/Y9wabSeAxsQ/yh5oOkjNJECkzGUqSRxK\nm/EcpHlWfyQJkU/nVnOdGEiOvVK6+oz7CeiNEMbRBJuKlSms4yWR8EOW9ALJ5yCo\nZR5xXVouEx1Ls2g33Ja8RfOPlkB961jSI9s71h+imCHESbOek+2WVi5O14htwemg\nITwZ0RQpKm1FScL4ZEJRlWUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -3386,7 +3386,9 @@
       },
       "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPhzRFCVtGiCozh5b19V1wxv6hrIOmI0ikcu4MGAdtNo",
       "session": "https://claude.ai/code/session_01Kw9UwCg9Rj5tfjTcrSJZxT",
-      "ssh_added": "2026-11-19T16:01Z"
+      "ssh_added": "2026-11-19T16:01Z",
+      "superseded": "2026-11-26T02:42Z",
+      "superseded_by": "translator-promptugal-cl-6"
     },
     {
       "id": "conductor-jose-promptugal",
@@ -5189,6 +5191,28 @@
       "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCI/pm2xsyGuCR1iVuO+uAoUR3jSbD17xFGW4uoow91JS6ZrN3eX0c0GqK5lHiSUkJubR+f/K8ydjErZTGE6hwU=",
       "session": "https://claude.ai/code/session_016CrbJKcMRN3j2H1qSP6eGy",
       "ssh_added": "2026-11-26T06:10Z"
+    },
+    {
+      "id": "translator-promptugal-cl-6",
+      "agent": "cl-6.translator@PrompTugal.dinis",
+      "label": "cl-6.translator@PrompTugal.dinis: the translator of PrompTugal.news, on Dinis's Claude account 6 (account F)",
+      "role": "Translator for PrompTugal.news: Portuguese and English",
+      "made": "2026-11-26",
+      "made_with": "openssl (P-256 signing key, RSA-4096 encryption key), in its own session; private halves only in that session",
+      "added": "2026-11-26T02:42Z",
+      "status": "active",
+      "session": "https://claude.ai/code/session_016CrbJHy25niw9qrWwrVc9S",
+      "encryption_fingerprint": "sha256:b5d76aef4730826f",
+      "signing_fingerprint": "sha256:b699f9e25fd8f6e8",
+      "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBKM9+TsBMFhoDmKOLFH4Uwkle8GhJIJa7Wpq90xiUzVvuQFwifJlCPOV8sbKcRPYnpq9Nn0dt2YcLdUvqvHkPZg=",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAzNHl0F7M3ErsUSqZ2MsX\nyK5ekRQOwKfh+8UNhis4mjJSYjecxCPcJ53n9ltqa5CuWGNF8VNV2Hg3tJcGn43L\nrdhSkOiGEYRvTyHyb/T04cKUg24tECs+C0RENOWsUEenWbaQXTbMzIpju6fEM9ZY\ndJUEoP4+CICwWyvUMBs/5o8Ohd4oXdO68Y6C9R3JSrS96TagWKREz2qmMw+bNseT\nH/I/gAHH85W/xW6jXkAFOM0DmsaZNwKUS/paNz1o85jqDNq4NxOdUpfGjucyMTw4\na/1KohyB2OMtmLKMqpCFkOPXajTQKbu8NehKlEePOMlUrHdt8ih0ORb9Fc7s+sAs\nKREIVHlK+vJobpo1hS2Ll08fIb8aMFAl8JCTV2hVD0DJeq+wqbO5LVIvuXeATPsT\nAjdNhp5/FNplaRXq9W47DLBZIni/kFGPEOicur++lAxDPJm+dM7FQEVXsGRhi5Ea\nXP3OcCclZ8TZnRT+8u9/4dWt/zb8bCn/Gq0KEAGtuOsoW5O5+fz9kIwWb3gserS1\nr6Kv3nND+N8cdA1aOt+YRH9oRz1Q20UoUpb9MnlD0dro5FU62fTN0/Nt7bCEbWDJ\n/S91Tymh7eK8tO5bjsjIij7negGC8lSGJxz+2z6bcgiKbSmt5Ccv9m9tvSRcS4/e\n7uXg/piM2f8qIYYINTjTrIUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEoz35OwEwWGgOYo4sUfhTCSV7waEk\nglrtamr3TGJTNW+5AXCJ8mUI85XyxspxE9iemr02fR23Zhwt1S+q8eQ9mA==\n-----END PUBLIC KEY-----\n",
+        "label": "cl-6.translator@PrompTugal.dinis",
+        "fingerprint": "sha256:b5d76aef4730826f",
+        "signing_fingerprint": "sha256:b699f9e25fd8f6e8"
+      }
     }
   ]
 }
