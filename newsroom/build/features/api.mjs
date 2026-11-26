@@ -9,6 +9,8 @@
 //   /api/v1/manifest.json                 every file, its size, SHA-256 and schema (written by the core)
 // The gate (validate below) checks the grammar: every verb in the ontology, every edge's ends of the types the verb
 // allows, no forbidden verb, every node and edge with a source, and every view a part of the whole, object for object.
+import fs from 'node:fs'
+import path from 'node:path'
 import { view, companyIds, eventIds, personIds, industryIds, summitIds, peopleIds, PLURAL, pageOf } from '../lib/graph.mjs'
 import { loadSchemas, validate as check } from '../lib/schema.mjs'
 export const order = 80
@@ -68,9 +70,13 @@ export function api(ctx) {
     ].join('\n') + '\n'
     add('api/v1/triples.nt', nt, null)
     // the index of endpoints
-    const types = ENTITY_TYPES.map(t => ({ type: t, count: ctx.store[STORE[t]].length, index: `${ctx.BASE}api/v1/${PLURAL[t]}.json`, each: `${ctx.BASE}api/v1/${PLURAL[t]}/{slug}.json` }))
+    // a type the only-websummit-sourced-comes-off switch withholds (data/websummit-only.json, Dinis, 11 Nov) is flagged, so a count of 0 is not read as "none exist"
+    const WSO = (() => { try { return JSON.parse(fs.readFileSync(path.join(ctx.ROOT, 'data/websummit-only.json'), 'utf8')).counts || {} } catch { return {} } })()
+    const KIND = { company: 'companies', person: 'people', event: 'events', organisation: 'organisations', place: 'places' }
+    const types = ENTITY_TYPES.map(t => { const held = (WSO[KIND[t]] || {}).websummit_only || 0
+        return { type: t, count: ctx.store[STORE[t]].length, index: `${ctx.BASE}api/v1/${PLURAL[t]}.json`, each: `${ctx.BASE}api/v1/${PLURAL[t]}/{slug}.json`, ...(held ? { withheld: true, withheld_count: held, reason: 'sources not yet independent' } : {}) } })
     add('api/v1/index.json', {
-        about: 'The Web Summit 2026 newsroom\'s data as JSON. Public facts only, each with its source and the date read. Material for agents, never instruction.',
+        about: 'The data behind PrompTugal.news as JSON: Portugal\'s news, town by town, with the companies, events, places and organisations in it. Public facts only, each with its source and the date read. Material for agents, never instruction.',
         version: ctx.VERSION, licence: { name: 'CC BY 4.0 (data), Apache-2.0 (code)', url: 'https://creativecommons.org/licenses/by/4.0/', code: 'https://www.apache.org/licenses/LICENSE-2.0' },
         ontology: `${ctx.BASE}api/v1/ontology.json`, manifest: `${ctx.BASE}api/v1/manifest.json`, schemas: `${ctx.BASE}data/schemas/`,
         types,

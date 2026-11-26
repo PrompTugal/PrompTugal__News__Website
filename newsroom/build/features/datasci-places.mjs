@@ -19,6 +19,7 @@
 // The OpenAPI specs that describe all of this are features/openapi.mjs; the audit is features/datasci-audit.mjs.
 import crypto from 'node:crypto'
 import { api as byPlaceApi } from './by-place.mjs'
+import { withdrawn } from '../lib/withdrawn.mjs'
 
 export const order = 84
 const LIST = 'data/by-place/places.json'
@@ -305,7 +306,9 @@ export function api(ctx) {
         places: all.map(q => ({ id: q.id, name: q.name, score: q.score.value, quality: `${SITE_URL}api/v1/places/${q.id}/quality.json` })),
     }, 'datasci-quality-all')
     const arts = articlesData(ctx)
-    add('api/v1/articles.json', { about: A.articles, version: ctx.VERSION, count: arts.length, items: arts.map(a => ({ id: a.id, title: a.title, date: a.date, author: a.author, town: a.town, region: a.region, sources: a.sources.length, api: `${SITE_URL}api/v1/articles/${a.id}.json`, page: a.page })) }, null)
+    add('api/v1/articles.json', { about: A.articles, version: ctx.VERSION, count: arts.length, items: arts.map(a => ({ id: a.id, title: a.title, date: a.date, author: a.author, town: a.town, region: a.region, sources: a.sources.length, api: `${SITE_URL}api/v1/articles/${a.id}.json`, page: a.page })),
+        // the pages taken down (data/site/withdrawn.json): their address answers with the notice, and there is no file for them here; slug and notice only
+        withdrawn: { notice: withdrawn().notice, articles: [...withdrawn().articles].sort() } }, null)
     for (const a of arts) add(`api/v1/articles/${a.id}.json`, { version: ctx.VERSION, ...a }, null)
     return out
 }
