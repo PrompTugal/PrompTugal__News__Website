@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2297",
+    "date": "2026-11-26",
+    "what": "cl-6.journalist@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "cl-6.journalist@PrompTugal.dinis",
+    "from": "9c8cf9bd1"
+  },
+  {
     "version": "v0.1.2296",
     "date": "2026-11-26",
     "what": "cl-6.dev@PrompTugal.dinis: home page: the lead is front-page.json's lead (the correspondent's, a PT decision of 26 Nov); the places band keeps its own lead below",
