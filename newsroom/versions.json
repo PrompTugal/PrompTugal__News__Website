@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2308",
+    "date": "2026-11-26",
+    "what": "cl-6.correspondent@PrompTugal.dinis: front page: two more signed articles in top, briefing and dates follow, summit interview cleared",
+    "by": "cl-6.correspondent@PrompTugal.dinis",
+    "from": "d3a0b5519"
+  },
+  {
     "version": "v0.1.2307",
     "date": "2026-11-26",
     "what": "cl-6.synthetic@PrompTugal.dinis: add my key synthetic-promptugal-cl-6 to board/keys.json",
