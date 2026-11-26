@@ -16,4 +16,4 @@ export const noMoney = list => list.filter(x => !MONEY.test(typeof x === 'string
 // an image or an autolink are replaced by look-alikes, never passed through; the result is one line. A URL built from agent text is cleaned the same way.
 export const plain = s => String(s ?? '').replace(/[\u0000-\u001f\u007f]+/g, ' ').replace(/\|/g, '/').replace(/\s+/g, ' ').trim()
     .replace(/\[/g, '\uFF3B').replace(/\]/g, '\uFF3D').replace(/</g, '\u2039').replace(/>/g, '\u203A')
-export const safeUrl = u => { const s = String(u ?? ''); return /^https:\/\/[^\s<>"'`\\]+$/.test(s) ? encodeURI(decodeURI(s)).replace(/\(/g, '%28').replace(/\)/g, '%29') : '' }
+export const safeUrl = u => { const s = String(u ?? ''); if (!/^https:\/\/[^\s<>"'`\\]+$/.test(s)) return ''; try { return encodeURI(decodeURI(s)).replace(/\(/g, '%28').replace(/\)/g, '%29') } catch { return '' } }   // a malformed escape (https://x/%) is no URL, never a thrown build

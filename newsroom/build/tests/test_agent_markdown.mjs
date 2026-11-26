@@ -13,6 +13,7 @@ for (const [what, s] of [['a javascript: link', '[x](javascript:alert(1))'], ['a
 t('the words stay readable', plain('Run [a] (1 file) <b>'), 'Run ［a］ (1 file) ‹b›')
 t('safeUrl keeps a clean https URL', safeUrl('https://data.promptugal.news/sources/cams/'), 'https://data.promptugal.news/sources/cams/')
 t('safeUrl refuses other schemes and odd characters', [safeUrl('javascript:alert(1)'), safeUrl('http://x.example'), safeUrl('https://x.example/a b'), safeUrl('https://x.example/a"b')], ['', '', '', ''])
+t('safeUrl never throws on a malformed escape: no URL', [safeUrl('https://a.example/%'), safeUrl('https://a.example/%E0%A4%A')], ['', ''])
 t('safeUrl cleans parentheses', safeUrl('https://x.example/a(b)'), 'https://x.example/a%28b%29')
 if (bad) { console.error(`${bad} failed`); process.exit(1) }
 console.log('test_agent_markdown: OK')
