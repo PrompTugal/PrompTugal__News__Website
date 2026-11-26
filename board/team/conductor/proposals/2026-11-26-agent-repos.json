@@ -1,8 +1,8 @@
 {
- "about": "Proposed by cl-6.conductor@PrompTugal.dinis for cl-6.infra@PrompTugal.dinis, to add to PrompTugal__IaC org/repos.json 'proposed' beside its draft of 16 (which already has Conductor, Library and the site leads). At Dinis's word (26 Nov 2026, about 00:10 UTC): each agent gets its own repo, the place desks included. Entries use cl-6.infra's shape. Merged, not repeated: librarian@ goes into PrompTugal__Agent__Library; Vicky's conductor, dev, designer, journalist and weather desks go into ours (Conductor, Dev, Designer, Journalist, and cl-6.infra's Weather). Agents with the same name are twins and share one home (Dinis, 26 Nov). Model: Sonnet for every agent, Opus for security (and decisions, which is not in this list).",
+ "about": "Proposed by cl-6.conductor@PrompTugal.dinis for cl-6.infra@PrompTugal.dinis, to add to PrompTugal__IaC org/repos.json 'proposed' beside its draft of 16 (which already has Conductor, Library and the site leads). At Dinis's word (26 Nov 2026, about 00:10 UTC): each agent gets its own repo, the place desks included. Entries use cl-6.infra's shape. Merged, not repeated: librarian@ goes into PrompTugal__Agent__Library; Vicky's conductor, dev, designer, journalist and weather desks go into ours (Conductor, Dev, Designer, Journalist, and cl-6.infra's Weather). Agents with the same name are twins and share one home (Dinis, 26 Nov). Model: Sonnet for every agent, Opus for security (and decisions, which is not in this list). Specialities of one role are one agent with one home (Dinis, 26 Nov about 00:30 UTC: Vicky's journalists for AI and other areas are all part of one journalist): Vicky's journalists go into PrompTugal__Agent__Journalist, dev.* into Dev, designer.experiments into Designer.",
  "proposed": "2026-11-26T00:15Z",
  "status": "proposed, waiting on Dinis's yes in cl-6.infra's session",
- "count": 62,
+ "count": 55,
  "repos": [
   {
    "name": "PrompTugal__Agent__Journalist",
@@ -208,76 +208,6 @@
    "name": "PrompTugal__Agent__Customers",
    "description": "Home of PrompTugal.news's customers agent: its key, area, state and site.",
    "site": "customers.agent.promptugal.news",
-   "works_on": [
-    "PrompTugal__News__Website"
-   ],
-   "phase": 3,
-   "model": "sonnet"
-  },
-  {
-   "name": "PrompTugal__Agent__Dev-Search",
-   "description": "Home of PrompTugal.news's dev.search worker: its key, area, state and site.",
-   "site": "dev-search.agent.promptugal.news",
-   "works_on": [
-    "PrompTugal__News__Website"
-   ],
-   "phase": 3,
-   "model": "sonnet"
-  },
-  {
-   "name": "PrompTugal__Agent__Dev-Pages",
-   "description": "Home of PrompTugal.news's dev.pages worker: its key, area, state and site.",
-   "site": "dev-pages.agent.promptugal.news",
-   "works_on": [
-    "PrompTugal__News__Website"
-   ],
-   "phase": 3,
-   "model": "sonnet"
-  },
-  {
-   "name": "PrompTugal__Agent__Dev-Graphs",
-   "description": "Home of PrompTugal.news's dev.graphs worker: its key, area, state and site.",
-   "site": "dev-graphs.agent.promptugal.news",
-   "works_on": [
-    "PrompTugal__News__Website"
-   ],
-   "phase": 3,
-   "model": "sonnet"
-  },
-  {
-   "name": "PrompTugal__Agent__Dev-Portugal",
-   "description": "Home of PrompTugal.news's dev.portugal worker: its key, area, state and site.",
-   "site": "dev-portugal.agent.promptugal.news",
-   "works_on": [
-    "PrompTugal__News__Website"
-   ],
-   "phase": 3,
-   "model": "sonnet"
-  },
-  {
-   "name": "PrompTugal__Agent__Dev-Data",
-   "description": "Home of PrompTugal.news's dev.data worker: its key, area, state and site.",
-   "site": "dev-data.agent.promptugal.news",
-   "works_on": [
-    "PrompTugal__News__Website"
-   ],
-   "phase": 3,
-   "model": "sonnet"
-  },
-  {
-   "name": "PrompTugal__Agent__Dev-Verify",
-   "description": "Home of PrompTugal.news's dev.verify worker: its key, area, state and site.",
-   "site": "dev-verify.agent.promptugal.news",
-   "works_on": [
-    "PrompTugal__News__Website"
-   ],
-   "phase": 3,
-   "model": "sonnet"
-  },
-  {
-   "name": "PrompTugal__Agent__Designer-Experiments",
-   "description": "Home of PrompTugal.news's designer.experiments worker: its key, area, state and site.",
-   "site": "designer-experiments.agent.promptugal.news",
    "works_on": [
     "PrompTugal__News__Website"
    ],

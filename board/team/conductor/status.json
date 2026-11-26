@@ -30,7 +30,8 @@
  "decisions": [
   "2026-11-25T23:38Z: Dinis, in this session: \"Yeah, I agree\" to bringing the multi-conductor, multi-account rules into this repository and to asking outside teams to move their folders to their own homes (team-status-2026-11-25.md, section 3)",
   "2026-11-26T00:10Z: Dinis: each PrompTugal agent gets its own repo, the place desks included; do everything here (account F), then clean up Vicky's environment; the conductor's own repo (PrompTugal__Agent__Conductor) is in cl-6.infra's draft, not yet created",
-  "2026-11-26T00:25Z: Dinis: agents with the same name are all twins; every agent started here on Sonnet unless strategically needed; Opus for decisions and security"
+  "2026-11-26T00:25Z: Dinis: agents with the same name are all twins; every agent started here on Sonnet unless strategically needed; Opus for decisions and security",
+  "2026-11-26T00:30Z: Dinis: several journalists (Vicky's AI and other beats) are one journalist, not separate; applied to dev.* and designer.experiments too"
  ],
  "proposal": "board/team/conductor/proposals/2026-11-26-schedule-account-f.json"
 }
