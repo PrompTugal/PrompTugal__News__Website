@@ -5408,6 +5408,30 @@
       "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGKbmPBv8fuUR7bJYodhKdrSfY5OGJGacKqXc3sqzUIak5sBPTHdb/+ymjQNkzfJV0VBwYUd3KK27zyje3Jyezk=",
       "ssh_added": "2026-11-26T11:15Z",
       "home_copy": "https://github.com/PrompTugal/PrompTugal__Agent__Programme/blob/dev/site/keys/cl-6.programme.json"
+    },
+    {
+      "id": "synthetic-promptugal-cl-6",
+      "agent": "cl-6.synthetic@PrompTugal.dinis",
+      "label": "cl-6.synthetic@PrompTugal.dinis: the synthetic readers' agent of PrompTugal.news, on Dinis's Claude account 6 (account F)",
+      "role": "The synthetic readers of PrompTugal.news: invented personas, each labelled SYNTHETIC, who read the site on a phone and a desktop and report what works, what confuses and what loses them; each finding goes to the agent who owns the fix. Started by cl-6.maestro@dinis for cl-6.conductor@PrompTugal.dinis, 26 November 2026. A session key: it ends with its session.",
+      "made": "2026-11-26",
+      "made_with": "openssl (P-256 signing key, RSA-4096 encryption key), in its own session; private halves only in that session",
+      "added": "2026-11-26T11:14Z",
+      "status": "active",
+      "session": "https://claude.ai/code/session_016CrbJMS4781bAVGCP7qfap",
+      "encryption_fingerprint": "sha256:e3dd61d2d7019a23",
+      "signing_fingerprint": "sha256:b30f233282d8a167",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAowzbqXC/WMDTWzex5CYQ\nsmbvb7TqwF4RHcMBlX2Sd/hr+Th9xxELaTdCkMzDJml0e8/XxtbJLOhkRieMpPHu\nvlRje+wo84WcEpoCEqgSO+E9rS1FXED2f3l2jQogy+Gplk/3xNjXqS1Vv8HD/mVF\n6WwMcdgeKMM68yGcAWQzd50HBYC2qbgoxKchdu5Y7s9bPcPEBd9NzYAKGXrwrOVJ\nNiOMG6LDIY83Zpxeo7tsS0BpS76J1MRNsy+y+6lvwGv7NHKmEDpvCNxv+lb58EQj\nnoYxCRAqPQSq8pd+bGLns008sGkUuumsKUv4r4KVmEkClX6irfB6g0Di5DEc0cYv\nPM5nnW63b46RDibaE/OoG7hSmZKoK8WqnYO325Q32prT9t9HYGCthdwqHJhi/OGO\nvM/7dFuRvYvMlOOl2H5reAVG7qoV/EoUirCO8d+7bZAn2SfZ7/kxJO3XVIPZ96B5\ny7AjsfBaFpzhOpYHdYA4mqkD8FpZKcdE64qobdfHwuHRVwnVuussNkvFq77P0lCY\nZGPl7v+hSLUfa4dBUaYvwMB4bXkv3Os57dD7qb4CejFkVu8VqhKz0QPGPtDvoE92\nuxokNLlpfsf7zdrYWDsvghEQx4owLLy67lE85TJlIMHj48DMPvfbfyVjSWytrDX+\naD4pBa6XwGpQgRMhQnr4TIUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEQKppOYiosdqWBbiR8ivbtx4rWEKS\nu/SbYQt3L6LVWVrk35ipqCHj5DJGBJ6yokkfVeoMtKRoytQak4qn7Z/+6w==\n-----END PUBLIC KEY-----\n",
+        "label": "cl-6.synthetic",
+        "fingerprint": "sha256:e3dd61d2d7019a23",
+        "signing_fingerprint": "sha256:b30f233282d8a167"
+      },
+      "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBECqaTmIqLHalgW4kfIr27ceK1hCkrv0m2ELdy+i1Vla5N+Yqagh4+QyRgSesqJJH1XqDLSkaMrUGpOKp+2f/us=",
+      "ssh_added": "2026-11-26T11:14Z",
+      "home_copy": "https://github.com/PrompTugal/PrompTugal__Agent__Synthetic/blob/dev/site/keys/cl-6.synthetic.json"
     }
   ]
 }
