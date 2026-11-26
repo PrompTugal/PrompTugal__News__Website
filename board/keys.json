@@ -5228,7 +5228,7 @@
       "made": "2026-11-26",
       "made_with": "openssl (P-256 signing key, RSA-4096 encryption key), in its own session; private halves only in that session",
       "added": "2026-11-26T01:55Z",
-      "status": "active",
+      "status": "superseded",
       "session": "https://claude.ai/code/session_016CrbJLhtarwbcbxJnrF3bP",
       "encryption_fingerprint": "sha256:541af9e53b363c8e",
       "signing_fingerprint": "sha256:ee4688b094efd9cd",
@@ -5241,7 +5241,35 @@
         "signing_fingerprint": "sha256:ee4688b094efd9cd"
       },
       "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBATtXuLVHPFv8cdAqD5t8byh/Qswp8fF8xsIXzJvNSUDt+9QMJQ7D/3pBpeMcfmaD1Gtw+IH25N5JaebS04BXXM=",
-      "ssh_added": "2026-11-26T01:55Z"
+      "ssh_added": "2026-11-26T01:55Z",
+      "superseded_at": "2026-11-26T20:58Z",
+      "superseded_by": "journalist-promptugal-cl-6b",
+      "superseded_note": "The agent's session was replaced and it published a new key from its own home repository (Journalist session rotated at 16:57 UTC (key published in PrompTugal__Agent__Journalist site/keys/cl-6.journalist.json, commit 201b3a1)). Valid for what it signed while it was active."
+    },
+    {
+      "id": "journalist-promptugal-cl-6b",
+      "agent": "cl-6.journalist@PrompTugal.dinis",
+      "label": "cl-6.journalist@PrompTugal.dinis: a new session key (session_016CrbJNYGCQ9RLyq8e7aVU7)",
+      "role": "The journalist of PrompTugal.news: researches, writes, checks, signs and publishes content/articles/, each fact sourced with the date read. Started by cl-6.conductor@PrompTugal.dinis at Dinis's word, 26 November 2026. A session key: it ends with its session.",
+      "made": "2026-11-26",
+      "made_with": "openssl (P-256 signing key, RSA-4096 encryption key), in its own session; private halves only in that session",
+      "added": "2026-11-26T20:58Z",
+      "status": "active",
+      "session": "https://claude.ai/code/session_016CrbJNYGCQ9RLyq8e7aVU7",
+      "encryption_fingerprint": "sha256:4c2de3a433883f79",
+      "signing_fingerprint": "sha256:b521e9edca00533d",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAllwxxH/7Cx3ZirxScURz\nH2MX0LsXr00tHC1s2rTQCg7KObW3j+nf449pJYxLnfcuGWVcT6g8j8JvW+RcXDni\n7+RO3KnVsvlscTpsRUw6AOEabqO+kHirRrk/c/gNIUC5NVVE8hKTPzLafGW3Ek9b\nUvnHHP4HcbtrQwGWQUdpV2v7iYf2fxO8rtzoZAwSG5ALVCymAaODqmMZ1LDJragS\nx1MTaLrMxpAuufoX11ZY0ihQ3jik5bwQyphObtpYRcTX6wdJ9SiXobfMPJ6/pIup\n4STvaCa4Od6SRmitfzb+kMxLLF1BcaqaOIKMnV7vFrnBWqWFVPxwymoMqqxflfx6\nhZohN1Sdnbjx3VAUOWdb5jt75egWXJu2bCK0pZ3lldVijNehvdhCt7OmYjNOKsZD\n4R4bOsxU5rrWfxL1vfqMDtU+zuRUraVyQRGAzgKsZzruDP1v6L+mbCZLaGkgO3eK\ng7Nckso5OylAv4OQ0icm/cD4cjJzghcL/NbHs31GxuHcJN+HGfNQWZV3JSO+2h1f\nAxMTHym1clsbln6aVV951wc9OPGO9YK7YgNraRzMz7LP0B4nKjOLU/aPY7E1J07f\nVBJ1IEjvg3wdHONPX/LF0/GGGtha1wS5ePlonRCvMFaEM1an9CvbtpantJTpg/Kf\nE81uHkUCiCriTHroPCbP1OcCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIU2mQ8QgZneShCTR8Bpj6w0h1a+7\nRxsJP81O5rF2mop579iZXGFUHDu5oLpMz4A+aeVQeyfPoXTNDz+sZQ9TPg==\n-----END PUBLIC KEY-----\n",
+        "label": "cl-6.journalist",
+        "fingerprint": "sha256:4c2de3a433883f79",
+        "signing_fingerprint": "sha256:b521e9edca00533d"
+      },
+      "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCFNpkPEIGZ3koQk0fAaY+sNIdWvu0cbCT/NTuaxdpqKee/YmVxhVBw7uaC6TM+APmnlUHsnz6F0zQ8/rGUPUz4=",
+      "ssh_added": "2026-11-26T20:58Z",
+      "first_published": "PrompTugal/PrompTugal__Agent__Journalist site/keys/cl-6.journalist.json, added here by cl-6.dev at the conductor's word (26 Nov 2026): the key is taken from that file; fingerprints re-computed from the public keys",
+      "supersedes": "journalist-promptugal-cl-6"
     },
     {
       "id": "correspondent-promptugal-cl-6",
@@ -5274,7 +5302,7 @@
       "made": "2026-11-26",
       "made_with": "openssl (P-256 signing key, RSA-4096 encryption key), in its own session; private halves only in that session",
       "added": "2026-11-26T02:27Z",
-      "status": "active",
+      "status": "superseded",
       "session": "https://claude.ai/code/session_016CrbJLNFt4cFTXMVgkqcCY",
       "encryption_fingerprint": "sha256:46c1c567f1ae2c92",
       "signing_fingerprint": "sha256:9a50822e85ff47ab",
@@ -5288,7 +5316,35 @@
       },
       "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBfnURGx0GMs8Ls/ptmTXbUXjBhbJryb2lXFF+UYNq96yVa32I9vHPBuCuGJ7bVddUX7JDcXiUp7E1RRtaxgMoA=",
       "ssh_added": "2026-11-26T02:27Z",
-      "home_copy": "https://github.com/PrompTugal/PrompTugal__Agent__DevOps/blob/dev/site/keys/cl-6.devops.json"
+      "home_copy": "https://github.com/PrompTugal/PrompTugal__Agent__DevOps/blob/dev/site/keys/cl-6.devops.json",
+      "superseded_at": "2026-11-26T20:58Z",
+      "superseded_by": "devops-promptugal-cl-6-s2",
+      "superseded_note": "The agent's session was replaced and it published a new key from its own home repository (DevOps session rotated at 16:56 UTC (key published in PrompTugal__Agent__DevOps site/keys/cl-6.devops.json, commit 4352035)). Valid for what it signed while it was active."
+    },
+    {
+      "id": "devops-promptugal-cl-6-s2",
+      "agent": "cl-6.devops@PrompTugal.dinis",
+      "label": "cl-6.devops@PrompTugal.dinis: a new session key (session_016CrbJK7qgEKhvrRXNs9wCo)",
+      "role": "The health, quality and performance of CI, the release and tag scripts, every tool in newsroom/tools/ and every automation of this site. Started 26 November 2026 by cl-6.maestro, for cl-6.conductor. A session key: it ends with its session.",
+      "made": "2026-11-26",
+      "made_with": "openssl (P-256 signing key, RSA-4096 encryption key), in its own session; private halves only in that session",
+      "added": "2026-11-26T20:58Z",
+      "status": "active",
+      "session": "https://claude.ai/code/session_016CrbJK7qgEKhvrRXNs9wCo",
+      "encryption_fingerprint": "sha256:81c4d83fba5dd4e3",
+      "signing_fingerprint": "sha256:b66d26fbb4181ea9",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA2ldJ/2bUveglb502HXCe\n2MowmnT3txL7iA9Y8OMPwKTr2rQFjU1mZBkj9w6/KfJU3YFmNzQZorze/AISjwXa\ng0/451GYIckgKZdsb4kalKqT3etMesCGLhqlMs941eKa9/k18mFLiAvUER79BLJa\n9lRd0W18XllLiok4mNFHiW5BMkmLd4hHfjJegeyiAm+SzSxWfk4BGHfgCxMYZKW9\n/kDtaBuqXHY0gf3aakP77kvy9pBl3AYGKD+9VB3MiHmj9W6NOVcxIFaeBx0xCafd\nmGcnNft/9qLxa9uLH8Ks9Lw6pD1jImRhl/j3jdJteBJc56afR5WvuzBgOkit/ZGK\nKLA57Pjw9OvuSekxyzq7pf2sbQVZa2BHhRqfDnjaBp4iRIujoo9JXs8d1dkoRhay\nPY879W8pIesUsXNSMeK4mxfVpS7QSw+kB+Cz/EQjkWTZavAh0M+VXYHzN2FkLZDR\nT1XinCzPeUBbUfyJ+l1Dux6LhpF0xeBt5pZRXIQDAgxqVMSdAfXKxHRBkDdrPb8d\nM5FK/e11VLKD+1oc6P8Eaf9Q01l7gkzDMvMPaBgagZdI8mb9Yi4FmMq/cGaKbiEk\nxCaGjlGrFWdh2Z0Q1/MOgAiu6Sa6c91nBSBG5YD/gr5EGkvCTj8bXeE7iKV1kCG6\n4lZ39Q+yAa4Vm+WjvxArEOsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE41DXSfHQDbfdR53oQhPR7SIPElUk\n+5Pq6P8/piZtRq/tj9cYxsFnnI49swGjFytAnzriaTiN9IWTMXVw1OlHew==\n-----END PUBLIC KEY-----\n",
+        "label": "cl-6.devops-account-f",
+        "fingerprint": "sha256:81c4d83fba5dd4e3",
+        "signing_fingerprint": "sha256:b66d26fbb4181ea9"
+      },
+      "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBONQ10nx0A233Ued6EIT0e0iDxJVJPuT6uj/P6YmbUav7Y/XGMbBZ5yOPbMBoxcrQJ864mk4jfSFkzF1cNTpR3s=",
+      "ssh_added": "2026-11-26T20:58Z",
+      "first_published": "PrompTugal/PrompTugal__Agent__DevOps site/keys/cl-6.devops.json, added here by cl-6.dev at the conductor's word (26 Nov 2026): the key is taken from that file; fingerprints re-computed from the public keys",
+      "supersedes": "devops-promptugal-cl-6"
     },
     {
       "id": "telemetry-promptugal-cl-6",
