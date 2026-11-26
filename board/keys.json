@@ -814,10 +814,12 @@
         "fingerprint": "sha256:5007cd50e2dcbee3",
         "signing_fingerprint": "sha256:54041c5a8f38f445"
       },
-      "status": "active",
+      "status": "superseded",
       "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILFFW18MpsUc7Us72HPUQYZv8k8/a8WA9zcaqaea/bIc",
       "session": "https://claude.ai/code/session_01Kw9UwBzj6Y59uTXa4AiLNG",
-      "ssh_added": "2026-11-19T16:01Z"
+      "ssh_added": "2026-11-19T16:01Z",
+      "superseded": "2026-11-26T02:34Z",
+      "superseded_in": "researcher-promptugal-cl-6, made by cl-6.researcher@PrompTugal.dinis at the account move (26 Nov 2026)"
     },
     {
       "id": "dev.portugal-promptugal",
@@ -5100,6 +5102,30 @@
       "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBG4WCoPxUeCqMx7fvy10XaJSXtZyHH5KshNn0ftzzXqX8Oi7+TXbbI1BP42vl5RadR8l8bCFFtdHrCxgxn4dLsE=",
       "ssh_added": "2026-11-26T02:29Z",
       "home_copy": "https://github.com/PrompTugal/PrompTugal__Agent__Telemetry/blob/dev/site/keys/cl-6.telemetry.json"
+    },
+    {
+      "id": "researcher-promptugal-cl-6",
+      "agent": "cl-6.researcher@PrompTugal.dinis",
+      "label": "cl-6.researcher@PrompTugal.dinis (Claude Code cloud session, account F)",
+      "role": "The researcher of PrompTugal.news (Sonnet), and from 26 Nov the places detective (detective.places folds into the role): public research on a mandate per task, sources without login, each fact with its URL and date read. A session key: it ends with its session.",
+      "made": "2026-11-26",
+      "made_with": "openssl (P-256 signing key, RSA-4096 encryption key), in its own session; private halves only in that session",
+      "added": "2026-11-26T02:34Z",
+      "status": "active",
+      "session": "https://claude.ai/code/session_016CrbJMo1RxSSek8dG1KAgr",
+      "encryption_fingerprint": "sha256:132762119d59882c",
+      "signing_fingerprint": "sha256:f9c180a7dc6e7c0a",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA67xvegUlwlXgQo3ucl+Z\nPt20mrgVoIt+1jLbxzp5BJmstVLVJvwBi3rlYttGWzCZu/ZtpwveEEBgF7pkheH4\n9PUTYY2F86qUPss4Vv8BeGd9AjYIAUVqs8WllWoGQRUe5idzT/amTC5rUOo/tuqJ\n8UR68BQI4u+4ZBxPjsJtIFeaQTl8uidfjPlPzXRzKdmxhQ5/xY5ImGYvLlvCQ0x9\nvXRe0xV+Udp7XK+cfCGXLvF1jG80JPawK7+mYmR9nnxYBY7MwhIH2GskSG9yQNAY\nIEZlawtJV8WrAzJPtq2mXVLSmPcq7cQ/xb8KY2WfIfPkE/3VFzf9b9ZtLXydyCpf\nbriCVLDsQP+jNgTu9WRHSpKY4x3fq1xPsx7i3nat1CrhA9oeCHeRMgi4mtQOTOSM\nrUXsyyghrROuKMKoNA5tC0+AzEJY0B3rHxG84MRBPeMM08eL/EwXke6sxL4NpgXf\nMMVkHUX2ymp4krM5AiAmcfnOU6ZNvfeD+ydRyjn72wOZ4tBQq2yJ04gWdkcQJ7PO\nExGe30BNRyI9MqrDvHRmPA2lWsA3XyvpMSoadJiZb65Ks55M093Am4r9bEhvqDXz\n4AkwJlszgFdDUhckF+wA7et9UR9b5prLjPqezHBEWAnuuUGT0mNOeDvcQt1+Cit5\ngth33ZOErdkuMiYSGnOykyUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE2IcsRpVe3HqZ9GtEmkdFxon/SRjr\nTCi5BLdfrPDN9ZjHc2BHAhy3GeRlFzChaFoTSdBY4XZtZJvOfMwuobjhdg==\n-----END PUBLIC KEY-----\n",
+        "label": "cl-6.researcher@PrompTugal.dinis",
+        "fingerprint": "sha256:132762119d59882c",
+        "signing_fingerprint": "sha256:f9c180a7dc6e7c0a"
+      },
+      "ssh": "ecdsa-sha2-nistp256",
+      "ssh_added": "2026-11-26T02:34Z",
+      "home_copy": "https://github.com/PrompTugal/PrompTugal__Agent__Researcher/blob/dev/site/keys/cl-6.researcher.json"
     }
   ]
 }
