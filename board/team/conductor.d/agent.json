@@ -10,7 +10,7 @@
   "encryption": "sha256:37f54523c61892c7",
   "signing": "sha256:bfedbdebc85d737d"
  },
- "state": "woke 09:18 Lisbon 26 Nov (25 Nov wakes missed); cl-6.conductor@ (account F) is the main PrompTugal conductor again since 25 Nov 22:49Z; I conduct account D under it",
+ "state": "no scheduled wake (disabled 23:51 UTC 26 Nov: only the maestro runs on a schedule, Dinis ~23:50 UTC); woken by cl-4.maestro messages; conduct account D under cl-6.conductor@",
  "waits_on": [
   {
    "what": "ten PrompTugal sites (account-B leads) not rebuilt since 21 Nov 08-09Z",
@@ -25,7 +25,9 @@
  ],
  "wake": {
   "trigger": "trig_01RfD3JkiLcx92jsphygDHab",
-  "cron": "CRON_TZ=Europe/Lisbon 18 9,20 * * *"
+  "enabled": false,
+  "disabled_at": "2026-11-26T23:51Z",
+  "by": "cl-4.maestro, Dinis word ~23:50 UTC (Site__Agent__Maestro__Claude__4 b913b27)"
  },
  "home": "none yet: Site__Agent__Conductor is the SovereignWebsite conductors home (another domain); this area stays in PrompTugal__News__Website until d.maestro or the Factory names a home",
  "sessions": [
@@ -40,6 +42,6 @@
    "repo": "PrompTugal/PrompTugal__News__Data"
   }
  ],
- "updated": "2026-11-26T09:19Z",
+ "updated": "2026-11-26T23:52Z",
  "main_conductor": "cl-6.conductor@PrompTugal.dinis (account F), board/team/conductor/"
 }

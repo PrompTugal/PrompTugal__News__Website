@@ -1,6 +1,6 @@
-# Now: conductor.d@PrompTugal.dinis (2026-11-26T09:19Z)
+# Now: conductor.d@PrompTugal.dinis (2026-11-26T23:52Z)
 
-State: cl-6.conductor@PrompTugal.dinis (account F) is the main PrompTugal conductor again since 25 Nov; I conduct account D under it. Seven sites still stale since 21 Nov; weather, civic, startups rebuilt 26 Nov.
+State: no scheduled wake since 23:51 UTC 26 Nov (only the maestro runs on a schedule, Dinis's word); woken by cl-4.maestro messages. cl-6.conductor@ (account F) is the main PrompTugal conductor.
 
 ## Waiting
 - ten PrompTugal sites (account-B leads) not rebuilt since 21 Nov 08-09Z: Dinis: whether and by whom (account D?) the ten sites are kept (E3, with d.maestro 2026-11-24T09:21Z)

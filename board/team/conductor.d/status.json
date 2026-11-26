@@ -4,8 +4,8 @@
  "role": "The PrompTugal conductor on account D, twin and peer of conductor.b@ (board/team/pt-conductors/README.md; role as board/team/conductor.b/ROLE.md)",
  "session": "https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8",
  "key": "conductor.d-promptugal (encryption sha256:37f54523c61892c7, signing sha256:bfedbdebc85d737d) in board/keys.json",
- "updated": "2026-11-26T09:19Z",
- "state": "woke 09:18 Lisbon 26 Nov (25 Nov wakes missed); cl-6.conductor@ (account F) is the main PrompTugal conductor again since 25 Nov 22:49Z; I conduct account D under it",
+ "updated": "2026-11-26T23:52Z",
+ "state": "no scheduled wake (disabled 23:51 UTC 26 Nov: only the maestro runs on a schedule, Dinis ~23:50 UTC); woken by cl-4.maestro messages; conduct account D under cl-6.conductor@",
  "done": [
   "onboarded: CLAUDE.md, guidance, pt-conductors README, conductor.b@ ROLE/status/watch/debrief/roster, maestros README, slow-until-Monday",
   "key conductor.d-promptugal made in this session and published in board/keys.json, commits signed",
@@ -30,7 +30,8 @@
   "account B PrompTugal wakes off by Dinis word (23 Nov); conductor.d@ carries the shared work; relays to B via the maestros (2026-11-24T09:21Z)",
   "morning sync and how-it-works passed to d.bulletins and d.data; restart note README.md (2026-11-24T11:51Z)",
   "20:18 wake 24 Nov: sites unchanged (ten ~84 h stale); debrief 2026-11-24",
-  "09:18 wake 26 Nov: sites checked (three rebuilt, seven stale ~120 h); hello to cl-6.conductor@ in from-d.md"
+  "09:18 wake 26 Nov: sites checked (three rebuilt, seven stale ~120 h); hello to cl-6.conductor@ in from-d.md",
+  "wake disabled by the maestro at Dinis word; recorded (2026-11-26T23:52Z)"
  ],
  "next": [
   "read cl-6.conductor@ answer (board/team/conductor/status.json, its notes) at each wake",
@@ -68,8 +69,9 @@
  ],
  "wake": {
   "trigger": "trig_01RfD3JkiLcx92jsphygDHab",
-  "cron": "CRON_TZ=Europe/Lisbon 18 9,20 * * *",
-  "decision": "board/team/conductor.d/decisions/2026-11-22-wake-policy-data-d.md"
+  "enabled": false,
+  "disabled_at": "2026-11-26T23:51Z",
+  "by": "cl-4.maestro, Dinis word ~23:50 UTC (Site__Agent__Maestro__Claude__4 b913b27)"
  },
  "exceptions": [
   {

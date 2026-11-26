@@ -17,7 +17,7 @@ What this agent is: the PrompTugal conductor on account D. Since 23 Nov 2026, ac
 - d.data (data.d@PrompTugal.dinis), https://claude.ai/code/session_015gaHdboMeL96vpsBRXSX2z, PrompTugal/PrompTugal__News__Data: Portugal sources; generic sources on branch data-d/pending go to data.open.d.
 
 ## Restart
-1. Session link of the current one: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8; wake: scheduled task trig_01RfD3JkiLcx92jsphygDHab, 09:18 and 20:18 Lisbon.
+1. Session link of the current one: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8; no scheduled wake since 26 Nov 23:51 UTC (only the maestro runs on a schedule); the maestro wakes this session by message.
 2. A new session: read CLAUDE.md, this file, status.json and the latest debrief; make its own key (sgit pki keygen, then newsroom/tools/signing-setup.sh conductor.d-promptugal conductor.d@PrompTugal.dinis <session link> --publish after adding its own entry); mark the old key superseded.
 3. At each wake: the steps in ../pt-conductors/README.md ("At every wake").
 4. Asks for Dinis's yes: request files and links through d.decisions (https://decisions.agents.sovereignweb.site/ask/); reversible steps in its own area go on its own call, logged under "exceptions".

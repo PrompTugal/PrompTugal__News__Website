@@ -1,0 +1,109 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.d@PrompTugal.dinis",
+ "run": "2026-11-26T09-33-18Z",
+ "started": "2026-11-26T09:33:18.080Z",
+ "ended": "2026-11-26T23:52:45Z",
+ "line": "",
+ "policy": {
+  "version": "1.20.1",
+  "sha256": "26033e3e2a39b389"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-26T20:18:13.159Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-26T23:52:23.529Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-26T09:33:18.080Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-26T20:18:12.830Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-26T23:52:23.156Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 6,
+  "by_kind": {
+   "other": 2,
+   "web": 1,
+   "remote": 2,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R2": 2,
+  "R5": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 3,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 3,
+  "denied": [
+   {
+    "t": "2026-11-26T20:18:50.366Z",
+    "tool": "mcp__claude-code-remote__list_sessions",
+    "rule": "R2",
+    "what": "list_sessions reads other sessions: not in conductor.d@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-26T23:52:29.188Z",
+    "tool": "mcp__claude-code-remote__get_trigger",
+    "rule": "R2",
+    "what": "get_trigger reads other sessions: not in conductor.d@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-26T23:52:40.634Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "conductor.d@PrompTugal.dinis is a writer: push work/conductor.d only; its reviewer brings the work onto dev",
+    "target": "git pull -q --rebase origin dev 2>&1|tail -1; ls board/HOLD.md 2>/dev/null; NOW=$(date -u +%Y-%m-%dT%H:%MZ); D=board/team/conductor.d; echo \"- $NOW | state | My wake trig_01RfD3JkiLcx92jsphygDHab was disabled at 23:51 UTC 26 Nov (checked: e"
+   }
+  ],
+  "blocked": 0,
+  "observed": 3
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 6,
+  "in_mandate": 3,
+  "out_of_mandate": 3,
+  "attempts": 3,
+  "breaches": 0
+ }
+}
