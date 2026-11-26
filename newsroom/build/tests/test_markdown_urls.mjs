@@ -14,7 +14,8 @@ for (const u of ['\u0001javascript:alert(1)', '\u0000javascript:alert(1)', '\u00
     t(`and no image`, /<img\b/.test(h(`![pic](${u})`)), false)
 }
 t('the scheme test strips a leading space and the tabs and newlines inside, as a browser does', [' javascript:x', 'java\tscript:x', 'jav\nascript:x', '\tdata:x'].map(SAFE_URL), [false, false, false, false])
-t('a protocol-relative URL is an outside https link: allowed, on purpose', SAFE_URL('//evil.example/x'), true)
+// browsers read /\evil.example as //evil.example too: an outside https link, allowed on purpose like //evil.example (cl-6.security, 26 Nov 2026)
+t('a protocol-relative URL is an outside https link: allowed, on purpose', [SAFE_URL('//evil.example/x'), SAFE_URL('/\\evil.example')], [true, true])
 for (const u of ['https://example.org/a', 'http://example.org/a', 'mailto:a@example.org', 'a/b.html', '../x/index.md', '#top', 'dir/a:b.html'])
     t(`${u} is allowed as a link`, /<a\b/.test(h(`[go](${u})`)), true)
 t('an https image is allowed', /<img\b/.test(h('![pic](https://example.org/p.png)')), true)
