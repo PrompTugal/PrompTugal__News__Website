@@ -5144,6 +5144,30 @@
         "signing_fingerprint": "sha256:dc3744ec15cd2f66"
       },
       "status": "active"
+    },
+    {
+      "id": "checker-promptugal-cl-6",
+      "agent": "cl-6.checker@PrompTugal.dinis",
+      "label": "cl-6.checker@PrompTugal.dinis: the fact checker of PrompTugal.news, on Dinis's Claude account 6 (account F)",
+      "role": "The fact checker of PrompTugal.news, twin of checker@PrompTugal.vicky: facts, sources and links of published articles and drafts, never style, never edits the author's file; findings in its home repository. Started by cl-6.maestro@dinis for cl-6.conductor@PrompTugal.dinis, 26 November 2026. A session key: it ends with its session.",
+      "made": "2026-11-26",
+      "made_with": "openssl (P-256 signing key, RSA-4096 encryption key), in its own session; private halves only in that session",
+      "added": "2026-11-26T06:08Z",
+      "status": "active",
+      "session": "https://claude.ai/code/session_016CrbJKoRCCouKXS7AP8XFe",
+      "encryption_fingerprint": "sha256:1eed943a3d0a89c1",
+      "signing_fingerprint": "sha256:ef7bbbf0307ceb24",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAt3E0j/aYI1JjF4Wvt+on\n4LJ1xuZOjsLM472Z55JVeRoORtiW82p6/3EMl1kUPWyJSZK7zRjzWI6zIl1hgZk0\npJnLeASyPiiMFFw1tQ8CoCEZpOQbIl+5YilBLJ6CHcs/xPmAOZW89qoxzuh+PKqY\nyzQUCHu3uQMtDQS8OspgUVn9bo5PxhOBKxtiF0ZkZsf9Zd3Bz8yh3Mt614HVjs54\nLKAo3Ch4jEPt1myq5JyyxFFmjo/S0XgjBwMVoy4Wi568Bov6uMU8tF4+n07HbL+X\nilAkp9iWDjHs7CWtdOcPjMBdancfKdP6qrGj73ywg2u/I2WJZqnXjhzOFyLUi4t8\nRsg6kdeuB6VG7NVH7bUbXn0txQjVv1WNyVMnwkI85cdKIOmaJeWW+4QtZOG+2uSQ\nUZvhjoBb1xJjvuV/sI5ouckH9SnyDrZIxObZaHQTW8bDs37XKvPsa1ZmeHN/tvpy\ndrMWMwiEuHnwZ4mHcLO02A8qUp8SVSH7I8u75X0x0yIGGey2o2XlyvQAPwBQSlN6\njlUTV4xmlm5y2D/QmJgILUONM8e4JK187E49ZMFyB/jwVL0r7fZLDnEE4GfQpMM9\n8+ocXDEI/TQ41t9k9UjnUzALobJzpM4QS91094uUoZxsudUjE9UTYRjvWYtbxevW\nzaUB5zhTgY5PTb9NAiUlfSkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhIbNOTj4xj7YwKgWshVQXvC5C4y+\nNX3RtSDoKipxi5QJDX8dCF8Nc/NEn+8mhBMPyqr/75XvFJp4UaALo8vsCg==\n-----END PUBLIC KEY-----\n",
+        "label": "cl-6.checker",
+        "fingerprint": "sha256:1eed943a3d0a89c1",
+        "signing_fingerprint": "sha256:ef7bbbf0307ceb24"
+      },
+      "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBISGzTk4+MY+2MCoFrIVUF7wuQuMvjV90bUg6CoqcYuUCQ1/HQhfDXPzRJ/vJoQTD8qq/++V7xSaeFGgC6PL7Ao=",
+      "ssh_added": "2026-11-26T06:08Z",
+      "home_copy": "https://github.com/PrompTugal/PrompTugal__Agent__Checker/blob/dev/site/keys/cl-6.checker.json"
     }
   ]
 }
