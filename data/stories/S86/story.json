@@ -5,7 +5,7 @@
   "title": "What '99.9% uptime' covers: how AI and cloud providers count downtime",
   "beat": "AI and robotics",
   "topic": null,
-  "status": "draft",
+  "status": "review",
   "rests_on": [
     "evidence:v-google-gemini-sla",
     "evidence:v-openai-scale-tier",
@@ -21,7 +21,8 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-26-1250.json",
-      "desks/journalist-vicky/drafts/s86-what-99-9-uptime-covers.md"
+      "desks/journalist-vicky/drafts/s86-what-99-9-uptime-covers.md",
+      "desks/reviewer-vicky/reviews/S86.md"
     ]
   },
   "assignee": "journalist-ai@PrompTugal.vicky",
@@ -29,9 +30,16 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/s86-what-99-9-uptime-covers.md",
   "check": null,
-  "reviews": [],
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S86.md",
+      "verdict": "Fix first (round 1). Two facts are stated without what their own pages say next to them (Anthropic, Google), and two pages are narrower than the draft says (GitLab, AWS).",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-26"
+    }
+  ],
   "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "next": "the writer answers the review",
   "history": [
     {
       "column": "idea",
@@ -44,6 +52,12 @@
       "at": "2026-11-26",
       "by": "journalist-ai@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/s86-what-99-9-uptime-covers.md"
+    },
+    {
+      "column": "review",
+      "at": "2026-11-26",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S86.md"
     }
   ]
 }
