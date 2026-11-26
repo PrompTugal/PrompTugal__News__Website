@@ -57,9 +57,9 @@ The figures may count different groups. None of the sources reconciles them, and
 |---|---|---|
 | 9 November | The mission's internationalisation seminar | Brazil Pavilion |
 | 10 November | An AI pitch competition between startups from Brazil, France, Portugal and Germany; the startups chosen for the second edition of ApexBrasil and Sebrae's incubation programme in Lisbon announced | Brazil Pavilion |
-| 10 November, 17:30 to 22:30 | [German-Brazilian Startup Night](../events/german-brazilian-startup-night/index.html) | Gale patio |
-| 11 November, 10:30 | ["The next digital frontier"](../events/the-next-digital-frontier/index.html), with São Paulo state's Secretary of Science, Technology and Innovation and Portugal's Secretary of State for Digitalisation, among others | Stage 11 |
-| 12 November, 16:10 | ["Brazil's blueprint for cyber resilience"](../events/brazil-s-blueprint-for-cyber-resilience/index.html), with Serpro's President and CEO | Stage 8 |
+| 10 November, 17:30 to 22:30 | German-Brazilian Startup Night | Gale patio |
+| 11 November, 10:30 | "The next digital frontier", with São Paulo state's Secretary of Science, Technology and Innovation and Portugal's Secretary of State for Digitalisation, among others | Stage 11 |
+| 12 November, 16:10 | "Brazil's blueprint for cyber resilience", with Serpro's President and CEO | Stage 8 |
 
 A suggestion: investors and accelerators interested in Latin America, and Portuguese startups selling into Brazil, could start at the Brazil Pavilion, and the AI pitch competition on 10 November is one place to see several Brazilian startups at once.
 
