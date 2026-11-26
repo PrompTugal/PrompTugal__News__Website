@@ -41,3 +41,8 @@ test('com.pt and org.pt are second levels: two outlets under them are not one do
     const o = ok(); o.media.website = 'https://x.com.pt/'; o.media.contact = { page: 'https://y.com.pt/c', official_email: 'info@y.com.pt', source: { url: 'https://y.com.pt/c', read_at: '2026-11-26', how: 'read' } }
     assert.ok(bad(o).some(x => /own domain/.test(x)))
 })
+test('a sapo.pt outlet cannot vouch for a sapo.pt address: the shared-host error stays', () => {
+    const o = ok(); o.media.website = 'https://24noticias.sapo.pt/'; o.media.contact = { page: 'https://24noticias.sapo.pt/ficha-tecnica', official_email: 'redacao@sapo.pt', source: { url: 'https://24noticias.sapo.pt/ficha-tecnica', read_at: '2026-11-26', how: 'read' } }
+    assert.ok(bad(o).some(y => /shared host/.test(y)))
+})
+test('a non-role local part still fails, whatever the gate\'s email rule allows', () => { const o = ok(); o.media.contact.official_email = 'diretor@jornalx.pt'; assert.ok(bad(o).some(y => /role mailbox/.test(y))) })

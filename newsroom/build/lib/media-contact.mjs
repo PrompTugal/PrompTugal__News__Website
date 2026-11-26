@@ -5,7 +5,7 @@
 export const ROLE_MAILBOXES = ['redacao', 'redaccao', 'newsroom', 'news', 'noticias', 'geral', 'info', 'imprensa', 'press', 'editor', 'editorial', 'tips', 'contacto', 'contact']
 
 // Shared hosts never count as an outlet's own domain (any outlet can have a page there).
-export const SHARED_HOSTS = ['blogspot.com', 'blogspot.pt', 'wordpress.com', 'medium.com', 'substack.com', 'facebook.com', 'instagram.com', 'x.com', 'twitter.com', 'linkedin.com', 'youtube.com', 'tumblr.com', 'wixsite.com', 'github.io', 'linktr.ee']
+export const SHARED_HOSTS = ['blogspot.com', 'blogspot.pt', 'wordpress.com', 'medium.com', 'substack.com', 'facebook.com', 'instagram.com', 'x.com', 'twitter.com', 'linkedin.com', 'youtube.com', 'tumblr.com', 'wixsite.com', 'github.io', 'linktr.ee', 'sapo.pt']
 
 const SECOND_LEVEL = new Set(['co', 'com', 'org', 'net', 'gov', 'ac', 'edu'])
 
