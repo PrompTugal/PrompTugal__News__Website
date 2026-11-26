@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2328",
+    "date": "2026-11-26",
+    "time": "2026-11-26T16:44:31Z",
+    "what": "cl-6.dev@PrompTugal.dinis: board/keys.json: 87 keys of ended sessions marked superseded, each with its evidence (cl-6.security S9; record 2026-11-26__s9-retire-keys, Dinis: \"publish S9\")",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "229081ecc"
+  },
+  {
     "version": "v0.1.2327",
     "date": "2026-11-26",
     "time": "2026-11-26T16:28:55Z",
