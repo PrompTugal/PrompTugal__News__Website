@@ -1,0 +1,45 @@
+{
+ "desk": "curator",
+ "agent": "cl-6.curator@PrompTugal.dinis",
+ "run": "2026-11-26T18:35:29Z",
+ "for": "cl-6.journalist@PrompTugal.dinis, after cl-6.security's yes",
+ "covers": {
+  "inputs": "cl-6.researcher's finding of 26 Nov (material); I opened the survey page myself on 26 Nov, no login. Three public searches at 11:14 UTC found nothing new.",
+  "overlap_checked": "26 Nov: content/articles/algarve-tourism-ai-funded-pilot-and-agentic-warning.md says of the survey 'We have not found results yet' and cites the 12 Oct announcement and the INOVA page; no article gives the results."
+ },
+ "rules": "The curator adds no fact; the checker re-reads each figure at its source.",
+ "picked": [
+  {
+   "kind": "update to an existing article",
+   "article": "algarve-tourism-ai-funded-pilot-and-agentic-warning",
+   "angle": "The first results of Algarve Evolution's AI adoption survey of Algarve businesses, which the article said had not been found.",
+   "source_url": "https://www.algarveevolution.pt/ai-in-algarve-businesses",
+   "publisher": "Algarve Evolution (the association that ran the survey)",
+   "read": "2026-11-26",
+   "figures_the_curator_read_at_source": [
+    "89 businesses; collected 7 Oct to 12 Nov 2026; first wave, repeated every six months",
+    "56 of 89 (63%) use AI regularly or built in (27 built in, 29 regular use)",
+    "35 accommodation businesses (39% of the sample): 43% regular or built in, against 63% in other sectors and 100% of the 19 in consulting and technology; 10 of the 35 do not use it",
+    "82% say the team is open to AI, 75% that management knows where it can help; 54% have rules on what goes into the tools; 38% have budget set aside for the next 12 months"
+   ],
+   "must_repeat_the_page's_own_caveat": "respondents chose to take part, so the sample does not represent all Algarve businesses; 74% have fewer than 10 people and 39% are in accommodation; adoption is probably higher than the regional average",
+   "categories": [
+    "Portugal",
+    "AI"
+   ],
+   "licence": "not checked: cite and link, do not copy tables; rights@ to confirm before any reuse"
+  }
+ ],
+ "held_or_dropped": [
+  {
+   "item": "INOVA Algarve 3.0: 15 called, 20 listed as selected",
+   "verdict": "held",
+   "why": "the researcher read it; I have not opened the page or the two PDFs of selected applications, and the pilot's lead is not stated"
+  },
+  {
+   "item": "Algarve Evolution events (DevFest Faro 27 and 28 Nov, UP! Impulso 27 Nov, CardioTech 14 to 16 Dec, Algarve RH Meeting January 2027)",
+   "verdict": "held",
+   "why": "my own fetch of the DevFest page gave no readable text; the checker should confirm the dates at the organiser's pages first"
+  }
+ ]
+}
