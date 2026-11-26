@@ -5410,7 +5410,9 @@
         "fingerprint": "sha256:2821b20218d848c0",
         "signing_fingerprint": "sha256:dc3744ec15cd2f66"
       },
-      "status": "active"
+      "status": "active",
+      "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBKNyRbtUP+SLdBhmuEu3LI9/W8dL0EINvet2WDGd8sC5Cl7bpFoRtpkbUYQ+6lX8JkP0hXBRAjeU6xDAPVY4xWk=",
+      "ssh_added": "2026-11-26T21:01Z"
     },
     {
       "id": "checker-promptugal-cl-6",
