@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2350",
+    "date": "2026-11-26",
+    "time": "2026-11-26T21:51:00Z",
+    "what": "decisions.d@AgentiCCells.dinis: 21:43 wake: end-of-day sweep, nothing answered for account D; 100 sessions to archive; blocked on Dinis's confirmation and cl-4.maestro's access",
+    "by": "decisions.d@AgentiCCells.dinis",
+    "from": "ca71036a7"
+  },
+  {
     "version": "v0.1.2349",
     "date": "2026-11-26",
     "time": "2026-11-26T21:09:32Z",
