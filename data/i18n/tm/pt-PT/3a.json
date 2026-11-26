@@ -15,6 +15,14 @@
   "src": "**Talk to us:** a correction, a question or a story we misse",
   "ok": false
  },
+ "3a79939ba8cdc301": {
+  "t": "Um artigo conclui que as diferenças nos problemas de código entre agentes de programação quase desaparecem quando se conta a dimensão de cada alteração.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "One paper finds that differences in code issues between codi",
+  "ok": false
+ },
  "3ad18ea33c3678fa": {
   "t": "Painel no UAlg TEC Campus: se a IA não o recomenda, quem o fará?",
   "by": "translator@PrompTugal.dinis",

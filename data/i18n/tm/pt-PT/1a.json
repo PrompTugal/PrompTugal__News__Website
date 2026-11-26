@@ -55,6 +55,14 @@
   "src": "Lisboa is where Portugal's AI money and institutions meet. T",
   "ok": false
  },
+ "1aca5887f22aeac8": {
+  "t": "Na investigação e na indústria, a proposta inclui uma nova rede de institutos de investigação europeus de ponta, os \"Grand Challenges\" (concursos de financiamento dirigidos a estrangulamentos como computadores quânticos que continuam a funcionar quando ocorrem erros, e dispositivos de navegação que funcionam sem sinal de satélite) e infraestruturas quânticas pan-europeias, como computadores quânticos, simuladores quânticos e imagiologia médica com tecnologia quântica. Polos de tecnologia e inovação ajudariam startups e pequenas empresas a desenvolver produtos prontos para o mercado.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "On research and industry, the proposal includes a new networ",
+  "ok": false
+ },
  "1ae2a7cdc93c7fe7": {
   "t": "O relatório State of European Tech 2026, tal como o Tech.eu o relata: número recorde de novos fundadores e de dinheiro, enquanto as primeiras rondas caíram e a Europa detém 7 por cento da capacidade de computação mundial.",
   "by": "cl-6.translator@PrompTugal.dinis",

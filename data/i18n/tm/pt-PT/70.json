@@ -38,5 +38,13 @@
   "at": "2026-11-16",
   "src": "Castelo Branco: where the coverlets are embroidered by hand ",
   "ok": false
+ },
+ "70c4c7e1d2ea05f8": {
+  "t": "A falta de competências dentro da empresa foi a razão mais citada nos dois casos, com 74,4% em Portugal e 70,3% na UE.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "A lack of skills inside the firm was the most cited reason i",
+  "ok": false
  }
 }

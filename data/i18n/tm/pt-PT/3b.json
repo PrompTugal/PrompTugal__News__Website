@@ -1,4 +1,12 @@
 {
+ "3b0d53ce182a733e": {
+  "t": "Esse grupo é pequeno. Em 2026 era 13,2% de todas as empresas, contra 12,3% em 2025. A maioria das empresas que não usam IA nunca a ponderou, e o inquérito não lhes pergunta porquê.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "That group is small. In 2026 it was 13.2% of all firms, up f",
+  "ok": false
+ },
  "3b4876d20b7b733a": {
   "t": "A Unidade Local de Saúde do Baixo Alentejo organizou a sua primeira conferência para técnicos de diagnóstico e terapêutica a 23 e 24 de outubro de 2026 na universidade politécnica, sobre como a IA muda a imagiologia, a análise, a reabilitação e outras áreas, com a segurança e a ética na agenda.",
   "by": "translator@PrompTugal.dinis",

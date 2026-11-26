@@ -22,5 +22,13 @@
   "at": "2026-11-16",
   "src": "Sybilion, from Porto, raises 3.6 million euros for an AI dec",
   "ok": false
+ },
+ "01f10834d09b4252": {
+  "t": "Os números não dizem o que as empresas entendem por custo: licenças, equipamento, novos trabalhadores ou tempo de adaptação. Mostram, sim, que, entre as empresas portuguesas que olharam para a IA e pararam, o dinheiro passou a ser uma barreira tão grande como o saber.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "The figures do not say what firms mean by cost: licences, eq",
+  "ok": false
  }
 }

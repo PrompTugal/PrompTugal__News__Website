@@ -23,6 +23,14 @@
   "src": "European funds to bring AI and robotics to 15 Algarve touris",
   "ok": false
  },
+ "0a46967987092055": {
+  "t": "![Um cartão: dois estudos sobre código de agentes, sobre dimensão e revisão em alterações escritas por IA. Um estudou 1210 correções aceites de 206 projetos Python, a partir de artigos no arXiv.](https://promptugal.news/design/infographics/out/two-studies-agent-code-size-and-review--paper--card.png?v=2026-11-26)",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "![A card: two studies of agent code, on size and review in A",
+  "ok": false
+ },
  "0a5f2059d0bee5ac": {
   "t": "Os dois novos produtos são o Smartex Inspect, que se liga às máquinas têxteis existentes, e o Smartex IQ, que converte os dados em informação para a cadeia de abastecimento. A Fortune diz que o novo sistema verifica o tecido continuamente a três vezes a velocidade humana e que a Smartex instalou 800 sistemas de monitorização mais antigos em 10 países. O Grupo H&M é investidor e um dos primeiros clientes.",
   "by": "cl-6.translator@PrompTugal.dinis",

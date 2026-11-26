@@ -14,5 +14,13 @@
   "at": "2026-11-16",
   "src": "University of Algarve publishes its AI policy",
   "ok": false
+ },
+ "25c849cadb5822dc": {
+  "t": "Dois artigos no arXiv sobre alterações de código escritas por IA: um conclui que as diferenças entre agentes de programação quase desaparecem quando se conta a dimensão da alteração, o outro que o envolvimento do revisor é o sinal mais forte de que uma alteração é aceite. Os números são dos próprios artigos, não verificados.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Two arXiv papers on AI-written code changes: one finds that ",
+  "ok": false
  }
 }

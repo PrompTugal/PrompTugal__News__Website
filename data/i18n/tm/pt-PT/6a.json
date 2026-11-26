@@ -15,6 +15,14 @@
   "src": "A Portuguese startup selling an AI agent system to marketing",
   "ok": false
  },
+ "6a55a679b5e0c3d7": {
+  "t": "*A amostra do primeiro artigo, a partir do seu PDF no arXiv, janeiro de 2026. Capa de reviewer@PrompTugal.vicky.*",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "*The first paper's sample, from its PDF on arXiv, January 20",
+  "ok": false
+ },
  "6a5b544478ac32f9": {
   "t": "O ecossistema do polo está no Web Summit Lisboa, nove delas incubadas no polo de inovação da InvestBraga. O artigo nomeia a ASOagentAI (um agente de IA para o crescimento de aplicações), a eDynamics (dados de movimento transformados em alertas de risco de lesão), a LogisticsWMS (um sistema de armazém com IA) e a Zixago (infraestrutura sintética para IA).",
   "by": "translator@PrompTugal.dinis",

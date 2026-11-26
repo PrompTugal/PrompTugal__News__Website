@@ -14,5 +14,13 @@
   "at": "2026-11-26",
   "src": "On 19 November 2026 Fortune and The Next Web reported that T",
   "ok": false
+ },
+ "83f08affd91381e3": {
+  "t": "[Tech.eu, \"EU proposes €50BN equity fund to support quantum and essential sovereign tech\", 25 de novembro de 2026](https://tech.eu/2026/11/25/eu-proposes-eur50-billion-equity-fund-to-support-quantum-and-essential-sovereign-tech/) (o título de 50 mil milhões de euros e as suas afirmações), lido a 26 de novembro de 2026",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "[Tech.eu, \"EU proposes €50BN equity fund to support quantum ",
+  "ok": false
  }
 }

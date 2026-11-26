@@ -31,6 +31,22 @@
   "src": "PrompTugal.news Viseu: AI and technology in Viseu, a distric",
   "ok": true
  },
+ "fb99e8c21ffeb7ec": {
+  "t": "[Comissão Europeia, \"Europe's quantum leap: strengthening industrial capacity and security with new quantum technologies\", 25 de novembro de 2026](https://commission.europa.eu/news-and-media/news/europes-quantum-leap-strengthening-industrial-capacity-and-security-new-quantum-technologies-2026-11-25_en) (as três prioridades e o fundo), lido a 26 de novembro de 2026",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "[European Commission, \"Europe's quantum leap: strengthening ",
+  "ok": false
+ },
+ "fbbaeba0c4156df0": {
+  "t": "Um pull request é uma alteração de código proposta que um colega verifica antes de entrar num projeto. Já [abordámos um estudo sobre cinco agentes de programação](../articles/five-coding-agents-reverts-security-waits.html). Mais dois artigos, ambos no arXiv, olham para pull requests escritos por agentes sob outros ângulos.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "A pull request is a proposed code change that a colleague ch",
+  "ok": false
+ },
  "fbf134f1beb54447": {
   "t": "A Fundação Champalimaud e o Técnico abrem um Laboratório de Neurorrobótica",
   "by": "translator@PrompTugal.dinis",

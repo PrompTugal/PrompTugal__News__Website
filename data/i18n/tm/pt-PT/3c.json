@@ -6,5 +6,13 @@
   "at": "2026-11-16",
   "src": "The health school of the polytechnic, ESALD, invited health ",
   "ok": false
+ },
+ "3cd7b741b59ce3cc": {
+  "t": "**Análise.** Este texto lê estatísticas oficiais e explica o que mostram. Cada número está ligado à sua fonte, mais abaixo.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**Analysis.** This piece reads official statistics and expla",
+  "ok": false
  }
 }

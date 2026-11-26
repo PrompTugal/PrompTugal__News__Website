@@ -7,6 +7,14 @@
   "src": "Partners from Portugal, Spain, France and Ireland met at the",
   "ok": false
  },
+ "ba5aade3bf726045": {
+  "t": "## O que são e o que não são os 50 mil milhões de euros",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "## What the 50 billion euros is, and is not",
+  "ok": false
+ },
  "ba82092f0fba1546": {
   "t": "Lisboa é onde as universidades constroem centros de dados, os institutos ganham milhões, e um modelo de linguagem nacional ganha palco no Técnico. As startups vêm para Alvalade, os investidores-anjo vêm com os livros de cheques, e a Câmara, abençoada seja, guarda os seus planos de IA para si por agora. Investigação e startups, sim senhor, não a câmara municipal.",
   "by": "translator@PrompTugal.dinis",

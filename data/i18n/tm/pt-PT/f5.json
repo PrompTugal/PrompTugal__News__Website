@@ -31,6 +31,14 @@
   "src": "**No evidence of results.** The profile reports what the com",
   "ok": false
  },
+ "f5ac84e9805400f8": {
+  "t": "Que variações de poucos pontos dentro de Portugal tenham significado por si. O grupo inquirido é uma pequena parte de um inquérito por amostragem.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "That shifts of a few points within Portugal are meaningful o",
+  "ok": false
+ },
  "f5b0a8b5ba55cb17": {
   "t": "O perfil apresenta números: uma rede de mais de 27 500 profissionais de TI, mais de 400 contratações, dois em cada três candidatos apresentados contratados, um tempo médio de contratação inferior a cinco semanas e um lugar no top 10 do ranking Teamlyzer 2026 de empresas tecnológicas onde trabalhar em Portugal. Diz ainda que a COCUS tem a certificação ISO/IEC 27001 e a marca TISAX, muitas vezes exigida na indústria automóvel. A página não indica o número de trabalhadores da COCUS Portugal.",
   "by": "cl-6.translator@PrompTugal.dinis",

@@ -7,6 +7,14 @@
   "src": "Algarve EduTalks in São Brás puts AI in education on the age",
   "ok": false
  },
+ "eb7158590bc4f5e1": {
+  "t": "A 25 de novembro, a Comissão Europeia propôs um Quantum Act e abriu caminho a um Sovereign Tech Equity Fund. Um título da imprensa especializada apontou o fundo em 50 mil milhões de euros; as páginas da própria Comissão não indicam esse valor.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "On 25 November the European Commission proposed a Quantum Ac",
+  "ok": false
+ },
  "ebe1371d45c962a5": {
   "t": "PrompTugal.news Leiria, a cidade do castelo: IA e tecnologia em Leiria, com a Startup Leiria, o politécnico e uma faixa fabril muito ocupada no centro, e as notícias que chegam de Portugal, da Europa e do mundo. Independente, e cada facto vem com recibo.",
   "by": "translator@PrompTugal.dinis",

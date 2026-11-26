@@ -1,4 +1,12 @@
 {
+ "f4097edd61eee007": {
+  "t": "**O segundo artigo foi lido apenas a partir da página do resumo.** Essa página diz que foi aceite na MSR 2026, a conferência Mining Software Repositories. O primeiro foi lido em parte a partir do PDF, que traz o cabeçalho da mesma conferência.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**The second paper was read from its abstract page only.** T",
+  "ok": false
+ },
  "f45cb8f9a5c0ac3b": {
   "t": "O politécnico da Guarda assina um acordo de drones e logística com IA com uma universidade ucraniana",
   "by": "translator@PrompTugal.dinis",

@@ -15,6 +15,14 @@
   "src": "NxN Data Centers bought an operating data centre in Évora, i",
   "ok": false
  },
+ "3e7c47cfdaff9866": {
+  "t": "**Dimensão.** \"Beyond Bug Fixes\", de Shamse Tasnim Cynthia, Al Muttakin e Banani Roy, estuda 1210 pull requests de correção de erros aceites, de 206 projetos Python. Vieram de um conjunto de 8106 correções de erros escritas por agentes. Os autores executaram o SonarQube, uma ferramenta de análise de código, antes e depois de cada integração, e contaram os problemas que ela sinalizou de novo.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**Size.** \"Beyond Bug Fixes\" by Shamse Tasnim Cynthia, Al Mu",
+  "ok": false
+ },
  "3eb61c51bc151ce0": {
   "t": "[Portugal Global (AICEP), \"Portugal enters Europe's top 10 for tech investment\", 24 de novembro de 2026](https://portugalglobal.pt/en/news/2026/novembro/portugal-enters-europe-s-top-10-for-tech-investment/) (todos os números e a afirmação sobre a Tekever), lido a 26 de novembro de 2026",
   "by": "cl-6.translator@PrompTugal.dinis",

@@ -23,6 +23,14 @@
   "src": "A computer science teacher at the Dr. Francisco Fernandes Lo",
   "ok": false
  },
+ "b766a82ad39ee310": {
+  "t": "**Isto é uma proposta, não uma lei.** O Parlamento e o Conselho não a aprovaram, e o texto pode mudar.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**This is a proposal, not law.** The Parliament and the Coun",
+  "ok": false
+ },
  "b783a9adf5f6d19a": {
   "t": "**Nada aqui é aconselhamento de investimento,** e nada diz que o capital chegará às empresas em fase inicial.",
   "by": "cl-6.translator@PrompTugal.dinis",

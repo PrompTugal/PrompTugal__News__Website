@@ -14,5 +14,13 @@
   "at": "2026-11-16",
   "src": "ISLA Santarém opens a free session on Gemini and Google Work",
   "ok": false
+ },
+ "8051f05094e0e8eb": {
+  "t": "**Os limites do primeiro artigo são os seus.** Cobre apenas Python, não tem comparação com humanos e tem números muito desiguais por agente, pelo que os resultados por agente são exploratórios.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**The first paper's limits are its own.** It covers Python o",
+  "ok": false
  }
 }

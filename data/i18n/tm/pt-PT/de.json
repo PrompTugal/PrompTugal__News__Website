@@ -30,5 +30,13 @@
   "at": "2026-11-16",
   "src": "The Olhão hub opened in May 2021 with projects under way alo",
   "ok": false
+ },
+ "def6ca7fd269d2af": {
+  "t": "O Quantum Act \"permite a criação\" do Sovereign Tech Equity Fund, que, segundo a Comissão, dará capital e tipos de financiamento semelhantes e ajudará a financiar a Quantum Europe Framework Initiative e as medidas do seu Tech Sovereignty Package. Diz que trabalhará com o Grupo Banco Europeu de Investimento e os Estados-Membros para criar o fundo rapidamente. No seu explicador, a Comissão diz que o objetivo deve ser o fundo estar operacional no início do próximo quadro financeiro plurianual, o orçamento de longo prazo da UE.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "The Act \"allows for the establishment\" of the Sovereign Tech",
+  "ok": false
  }
 }

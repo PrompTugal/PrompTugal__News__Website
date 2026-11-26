@@ -1,4 +1,12 @@
 {
+ "2f8b0f68e9ceb68c": {
+  "t": "Que estas sejam as razões por que a maioria das empresas portuguesas não usa IA. A pergunta só é feita às empresas que ponderaram a IA, 13,2% de todas as empresas em 2026.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "That these are the reasons most Portuguese firms do not use ",
+  "ok": false
+ },
  "2f9bb2adf63cae5a": {
   "t": "A escola de gestão de Bragança pergunta o que a IA faz à gestão e à contabilidade",
   "by": "translator@PrompTugal.dinis",
