@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2290",
+    "date": "2026-11-26",
+    "what": "c.maestro (account-c): Donna Freed wow pass on account C (Dinis's word), claim to account D",
+    "by": "maestro.c (account-c)",
+    "from": "d0d13382e"
+  },
+  {
     "version": "v0.1.2289",
     "date": "2026-11-26",
     "what": "cl-6.dev@PrompTugal.dinis: gate: the cl-<n>.<role> twin rule is a pure function, with a test pinning what it accepts and refuses",
