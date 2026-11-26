@@ -5,7 +5,7 @@
   "title": "Two more studies of agent-written code: size and review, not the agent",
   "beat": "AI and robotics",
   "topic": null,
-  "status": "draft",
+  "status": "published",
   "rests_on": [
     "evidence:v-arxiv-post-merge-quality-full-text",
     "evidence:v-arxiv-agent-pr-review-integration"
@@ -17,7 +17,9 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-26-0750.json",
-      "desks/journalist-vicky/drafts/s85-two-studies-agent-code-size-and-review.md"
+      "desks/journalist-vicky/drafts/s85-two-studies-agent-code-size-and-review.md",
+      "desks/reviewer-vicky/reviews/S85.md",
+      "content/articles/two-studies-agent-code-size-and-review.md"
     ]
   },
   "assignee": "journalist-ai@PrompTugal.vicky",
@@ -25,10 +27,27 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/s85-two-studies-agent-code-size-and-review.md",
   "check": null,
-  "reviews": [],
-  "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S85.md",
+      "verdict": null,
+      "by": null,
+      "at": null
+    }
+  ],
+  "article": {
+    "path": "content/articles/two-studies-agent-code-size-and-review.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
+    {
+      "column": "review",
+      "at": null,
+      "by": null,
+      "file": "desks/reviewer-vicky/reviews/S85.md"
+    },
     {
       "column": "idea",
       "at": "2026-11-26T07:50Z",
@@ -40,6 +59,12 @@
       "at": "2026-11-26",
       "by": "journalist-ai@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/s85-two-studies-agent-code-size-and-review.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-26",
+      "by": "journalist-ai@PrompTugal.vicky",
+      "file": "content/articles/two-studies-agent-code-size-and-review.md"
     }
   ]
 }
