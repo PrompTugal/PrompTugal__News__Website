@@ -295,10 +295,11 @@
         "fingerprint": "sha256:53345c3fd5d4a73d",
         "signing_fingerprint": "sha256:b0a110df3e787e6d"
       },
-      "status": "active",
+      "status": "superseded",
       "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGVNKZ3jCjdtOfNoX3o1KSm7+mtM/QIx1bUI+seJjPTX",
       "session": "https://claude.ai/code/session_01Kw9UwCqzmCPurcVkEeQXcK",
-      "ssh_added": "2026-11-19T16:02Z"
+      "ssh_added": "2026-11-19T16:02Z",
+      "superseded": "2026-11-26T06:10Z by ontologist-promptugal-cl-6 (cl-6.ontologist@PrompTugal.dinis, account F)"
     },
     {
       "id": "journalist-promptugal-0",
@@ -5168,6 +5169,26 @@
       "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBISGzTk4+MY+2MCoFrIVUF7wuQuMvjV90bUg6CoqcYuUCQ1/HQhfDXPzRJ/vJoQTD8qq/++V7xSaeFGgC6PL7Ao=",
       "ssh_added": "2026-11-26T06:08Z",
       "home_copy": "https://github.com/PrompTugal/PrompTugal__Agent__Checker/blob/dev/site/keys/cl-6.checker.json"
+    },
+    {
+      "id": "ontologist-promptugal-cl-6",
+      "label": "cl-6.ontologist@PrompTugal.dinis (Claude Code session, account F)",
+      "agent": "cl-6.ontologist@PrompTugal.dinis",
+      "role": "PrompTugal.news's ontologist: the concepts and the semantic graph",
+      "how": "Made by the agent in its own session on 2026-11-26 with openssl (P-256 signing, RSA-4096 encryption) and ssh-keygen; the private halves stay in the session, never in this repository. Also published in its home: https://github.com/PrompTugal/PrompTugal__Agent__Ontologist/blob/dev/site/keys/cl-6.ontologist.json",
+      "added": "2026-11-26",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA4LRpEw4MjCVqpPhoFyru\nQnGzAxAVR+1wLMF0Ox/Lgmey1y0Xn9vxugDi2YS6WZ/Ax4/cxbuLVHTKDDNuiVjf\n5gnMz1CLBjlrePoq16MRRen6GLV5BbUklmBoulInA5coiqJsLeG9e/5qZKXdFnrk\nWI34WtptoK084w3UTmy5UFc3K8+zvy3eGeXcwwX3jWFY7qh0zupwvkFT71DMqubs\nW2IiBZ2+DyGn/TapCMP9X9j6EcXYaFI197wmMYXs0gjbjqX5nCVazOY2NbiiOpzc\ntHg7J9J9Q5tMgZWroDiWSqVFkJ3o8uyZYnkeSS+MD8rhRhRUClChb/9blazXp5c0\nSIRZ9degNhQ8gtpPqauOKbXsbPes/42nkQcxyRkIfH71YJivwqPjPR2WktJ4/zTJ\nwfLJrmB8f+mNIgeEnXwHUHZuCID4cVout00eCEjUcK9fueEuAnDfoe7e58HbAXIb\nHQ6GP4gJaOeuq0Ji1srGhEw6jnGOqvTOEGdtaxu3X/SPH3ue5viHBpsazOvG9fYc\n9dBge/TJL/lDSufgVJkAe1+61Mv+JITha+hdoNblfK6NX6GfxjzX8g0uBDf7HgOy\nRZ7iOzdmpG8iKt/E2PfmIodnEEPSRitf9eimEUN9mW3TY9csoKzxy/8KADxSX9sM\nGmknnZKoYKUDnFAoC0BwCRECAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIj+mbbGzIa4JHWJW4764ChRHeNJs\nPXvEUZbi6ijD3UlLpms3d5fRzQaormUeJJSQm5tH5/8rzJ2MStlMYTqHBQ==\n-----END PUBLIC KEY-----\n",
+        "label": "cl-6.ontologist",
+        "fingerprint": "sha256:088203f4c7afc217",
+        "signing_fingerprint": "sha256:c94ef5757739d3c4"
+      },
+      "status": "active",
+      "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCI/pm2xsyGuCR1iVuO+uAoUR3jSbD17xFGW4uoow91JS6ZrN3eX0c0GqK5lHiSUkJubR+f/K8ydjErZTGE6hwU=",
+      "session": "https://claude.ai/code/session_016CrbJKcMRN3j2H1qSP6eGy",
+      "ssh_added": "2026-11-26T06:10Z"
     }
   ]
 }
