@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "openai",
+  "type": "organisation",
+  "name": "OpenAI",
+  "names_as_listed": [
+    "OpenAI"
+  ],
+  "sources": [
+    {
+      "url": "https://openai.com/api-scale-tier",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

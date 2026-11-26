@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-anthropic-service-tiers",
+  "type": "evidence",
+  "source_url": "https://docs.claude.com/en/api/service-tiers",
+  "beat": "AI in real work and infrastructure",
+  "group": "Uptime explainer",
+  "names": [
+    {
+      "as_listed": "Anthropic",
+      "ref": "organisation:anthropic"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-26-1250.json",
+  "run": "2026-11-26T1250Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-26-1250.json"
+    ]
+  }
+}

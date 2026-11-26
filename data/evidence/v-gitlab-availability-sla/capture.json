@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-gitlab-availability-sla",
+  "type": "evidence",
+  "source_url": "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/service-level-agreement/",
+  "beat": "AI in real work and infrastructure",
+  "group": "Uptime explainer",
+  "names": [
+    {
+      "as_listed": "GitLab",
+      "ref": "organisation:gitlab"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-26-1250.json",
+  "run": "2026-11-26T1250Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-26-1250.json"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S86",
+  "type": "story",
+  "title": "What '99.9% uptime' covers: how AI and cloud providers count downtime",
+  "beat": "AI and robotics",
+  "topic": null,
+  "status": "idea",
+  "rests_on": [
+    "evidence:v-google-gemini-sla",
+    "evidence:v-openai-scale-tier",
+    "evidence:v-anthropic-service-tiers",
+    "evidence:v-anthropic-commercial-terms",
+    "evidence:v-gitlab-availability-sla",
+    "evidence:v-aws-ec2-sla"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-26-1250.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-26-1250.json"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-26",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-26-1250.json"
+    }
+  ]
+}

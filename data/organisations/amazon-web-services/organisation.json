@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "amazon-web-services",
+  "type": "organisation",
+  "name": "Amazon Web Services",
+  "names_as_listed": [
+    "Amazon Web Services"
+  ],
+  "sources": [
+    {
+      "url": "https://aws.amazon.com/compute/sla/",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

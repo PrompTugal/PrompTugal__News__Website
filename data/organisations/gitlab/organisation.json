@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "gitlab",
+  "type": "organisation",
+  "name": "GitLab",
+  "names_as_listed": [
+    "GitLab"
+  ],
+  "sources": [
+    {
+      "url": "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/service-level-agreement/",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

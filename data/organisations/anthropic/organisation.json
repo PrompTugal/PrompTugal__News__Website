@@ -1,0 +1,29 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "anthropic",
+  "type": "organisation",
+  "name": "Anthropic",
+  "names_as_listed": [
+    "Anthropic"
+  ],
+  "sources": [
+    {
+      "url": "https://docs.claude.com/en/api/service-tiers",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    },
+    {
+      "url": "https://www.anthropic.com/legal/commercial-terms",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

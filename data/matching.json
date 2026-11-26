@@ -1732,6 +1732,11 @@
         "count": 1
       },
       {
+        "as_listed": "Google Cloud",
+        "ref": "company:google-cloud",
+        "count": 1
+      },
+      {
         "as_listed": "IBM",
         "ref": "company:ibm",
         "count": 1
@@ -1834,6 +1839,11 @@
         "count": 1
       },
       {
+        "as_listed": "Amazon Web Services",
+        "ref": "organisation:amazon-web-services",
+        "count": 1
+      },
+      {
         "as_listed": "Anchorage Digital",
         "ref": "organisation:anchorage-digital",
         "count": 1
@@ -1842,6 +1852,11 @@
         "as_listed": "Anthemis",
         "ref": "organisation:anthemis",
         "count": 1
+      },
+      {
+        "as_listed": "Anthropic",
+        "ref": "organisation:anthropic",
+        "count": 2
       },
       {
         "as_listed": "ApexBrasil",
@@ -2049,6 +2064,11 @@
         "count": 2
       },
       {
+        "as_listed": "GitLab",
+        "ref": "organisation:gitlab",
+        "count": 1
+      },
+      {
         "as_listed": "Go Coimbra",
         "ref": "organisation:go-coimbra",
         "count": 1
@@ -2226,6 +2246,11 @@
       {
         "as_listed": "Open Mercato Night",
         "ref": "organisation:open-mercato-night",
+        "count": 1
+      },
+      {
+        "as_listed": "OpenAI",
+        "ref": "organisation:openai",
         "count": 1
       },
       {
