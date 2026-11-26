@@ -13,6 +13,7 @@ import fs from 'node:fs'
 import os from 'node:os'
 import path from 'node:path'
 import { ROOT } from './config.mjs'
+import { envProblem } from './git-env.mjs'
 
 const FIELDS = ['status', 'superseded', 'superseded_in', 'superseded_by', 'ssh', 'agent', 'bundle']
 const SSH = /^(ecdsa-sha2-nistp256|ssh-ed25519) AAAA[A-Za-z0-9+/]{40,}={0,3}$/
@@ -31,7 +32,8 @@ export function changedEntries(before, after) {
     return out
 }
 
-export function checkKeyChanges({ root = ROOT, baseline = null, operators = [] } = {}) {
+export function checkKeyChanges({ root = ROOT, baseline = null, operators = [], sshKeygen } = {}) {
+    const env = envProblem(root, sshKeygen ? { sshKeygen } : {}); if (env) return [env]
     if (!baseline) { try { baseline = JSON.parse(fs.readFileSync(path.join(root, 'newsroom/tools/keys-baseline.json'), 'utf8')).commit } catch { return ['no baseline commit (newsroom/tools/keys-baseline.json)'] } }
     if (tryGit(root, ['cat-file', '-e', `${baseline}^{commit}`]) === null) return ['the baseline commit is not in this checkout (the gate needs the repository\'s history)']
     const problems = [], tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'keys-changes-'))

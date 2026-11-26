@@ -8,7 +8,7 @@
   "floor": 1,
   "min_share": 1,
   "new_days": 7,
-  "formula": "price = max(floor, round(base[type] x freshness[tier])): at least 1p a page, 2p for pages assembled from several sources, 3p for a signed article (Dinis, 17 November 2026: 'a minimum should be 1p per thing ... some of the things might be 2 or 3p'); charged once per page per session, whatever share is read, times the reader's usefulness rating (1 free, 3 the price, 5 double)",
+  "formula": "price = max(floor, round(base[type] x freshness[tier])): at least 1p a page, 2p for pages assembled from several sources, 3p for a signed article (Dinis, 17 November 2026: 'a minimum should be 1p per thing ... some of the things might be 2 or 3p'); counted once per page per session, whatever share is read, times the reader's usefulness rating (1 free, 3 the price, 5 double)",
   "reference_types": [
     {
       "type": "article",

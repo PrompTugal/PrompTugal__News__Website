@@ -9,6 +9,7 @@ import fs from 'node:fs'
 import os from 'node:os'
 import path from 'node:path'
 import { ROOT } from './config.mjs'
+import { envProblem } from './git-env.mjs'
 
 export const ROOT_FILES = ['newsroom/tools/place-signers.json', 'newsroom/tools/place-sources.json', 'newsroom/tools/keys-baseline.json']
 const AGENTS = /^(cl-\d+\.)?(dev|conductor)@PrompTugal\.dinis$/
@@ -33,8 +34,9 @@ export function keysFrom(keysJson) {
     return { active, superseded }
 }
 
-export function checkSignedRoot({ root = ROOT, files = ROOT_FILES, keys = null } = {}) {
-    const errors = []
+export function checkSignedRoot({ root = ROOT, files = ROOT_FILES, keys = null, sshKeygen } = {}) {
+    const errors = [], env = envProblem(root, sshKeygen ? { sshKeygen } : {})
+    if (env) return [env]
     if (!keys) { try { keys = JSON.parse(fs.readFileSync(path.join(root, 'board/keys.json'), 'utf8')) } catch { return ['board/keys.json: unreadable'] } }
     const { active, superseded } = keysFrom(keys)
     if (!active.length && !superseded.length) return ['no dev or conductor key in board/keys.json']

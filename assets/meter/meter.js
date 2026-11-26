@@ -142,10 +142,10 @@
         }
         var b = m.state.balance
         a.classList.toggle('is-low', b < 100)
-        a.classList.toggle('is-neg', b < 0)
-        a.replaceChildren(h('span', { class: 'meter-label' }, b > 0 ? 'Pay for what you read · ' : 'Credit used · keep reading · '), b > 0 ? m.money(b) : 'top-up coming soon')   // the balance, going down as you read (Dinis, 17 November 2026: "I need to see the value of my budget, always")
-        a.setAttribute('aria-label', 'Reading credit ' + m.money(b) + ', kept in this browser: your account')
-        a.title = b < 0 ? 'You have read ' + m.money(-b) + ' more than your credit. Nothing is blocked; top-ups are coming soon. Kept in this browser only.' : 'Pay for what you read. Credit left: ' + m.money(b) + ', kept in this browser only: your reading account'
+        var shown = m.money(Math.max(0, b))   // never a minus sign (designer@'s spec, 26 Nov 2026)
+        a.replaceChildren(h('span', { class: 'meter-label' }, b > 0 ? 'Pay for what you read · ' : 'Credit used · keep reading · '), shown)
+        a.setAttribute('aria-label', 'Reading credit ' + shown + ', kept in this browser: your account')
+        a.title = b > 0 ? 'You start with ' + m.money(m.cfg.start) + ' of reading credit, kept in this browser. It goes down as you read, by how much of a page you read. When it runs out you can still read everything.' : 'Your credit is used. You can still read everything. Top-ups are coming soon.'
     }
 
     var REASONS = [['clickbait', 'The headline promised more than the page gave'], ['not-relevant', 'Not relevant to me'], ['did-not-read', 'I did not really read it'], ['other', 'Another reason']]
@@ -163,7 +163,7 @@
         var bal = h('span', {}, 'Balance ', h('a', { href: at(m.cfg.links.account) }, h('b', {}, m.money(s.balance))))
         if (m.status === 'declined' || e.declined) {
             var why = (REASONS.find(function (r) { return r[0] === (e.declined && e.declined.reason) }) || ['', 'no reason given'])[1]
-            line.replaceChildren(fold([h('span', {}, h('b', {}, 'Not charged. '), 'You said: ' + why + '. Kept in your history, in this browser only.'), bal]))
+            line.replaceChildren(fold([h('span', {}, h('b', {}, 'Not counted. '), 'You said: ' + why + '. Kept in your history, in this browser only.'), bal]))
             return
         }
         var pct = Math.round((e.depth || 0) * 100)
@@ -220,10 +220,11 @@
                 h('div', {},
                     h('p', { class: 'label' }, 'Balance'),
                     h('p', { class: 'amount', id: 'nr-balance' }, m.money(s.balance)),
-                    h('p', { class: 'sub' }, (s.reads || 0) + ' page' + (s.reads === 1 ? '' : 's') + ' opened in this browser · ' + m.money(s.spent || 0) + ' spent' + (s.declined ? ' · ' + m.money(s.declined) + ' declined' : '') + ((s.topups || []).length ? ' · ' + s.topups.length + ' top-up' + (s.topups.length === 1 ? '' : 's') : '')),
+                    h('p', { class: 'sub' }, (s.reads || 0) + ' page' + (s.reads === 1 ? '' : 's') + ' opened in this browser · ' + m.money(s.spent || 0) + ' of credit used' + (s.declined ? ' · ' + m.money(s.declined) + ' declined' : '') + ((s.topups || []).length ? ' · ' + s.topups.length + ' top-up' + (s.topups.length === 1 ? '' : 's') : '')),
                     m.noStorage ? h('p', { class: 'sub warn' }, 'This browser refuses to keep a balance (private mode or blocked storage): the meter counts this page only.') : null),
                 h('div', { class: 'actions' },
                     m.cfg.topup.link ? h('a', { class: 'btn primary', href: at(m.cfg.links.topup) }, 'Top up ' + m.money(m.cfg.topup.amount)) : h('span', { class: 'btn quiet', 'aria-disabled': 'true' }, 'Top up ' + m.money(m.cfg.topup.amount) + ': coming soon'),
+                    m.cfg.topup.link ? null : h('p', { class: 'sub' }, 'No payment is taken yet.'),
                     h('button', { type: 'button', class: 'btn quiet', onclick: function () { if (window.__vault) window.__vault.open('vault') } }, 'Carry it to another device'))),
             h('h2', { id: 'graph' }, 'Your reading graph'),
             readingGraph(log) || h('p', { class: 'empty' }, 'Read a few pages to see it.'),

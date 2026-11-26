@@ -62,6 +62,12 @@ fs.writeFileSync(path.join(tmp, F[0]), '{"edited":true}')
 t('an uncommitted edit fails', chk(keysOf(S)).length, 1)
 run(['checkout', '--', F[0]])
 t('no dev or conductor key at all fails', chk({ keys: [] }).length, 1)
+// the machine, not the signer (cl-6.maestro, 26 Nov 2026): no ssh-keygen and a shallow clone are named as such
+t('no ssh-keygen is named, not blamed on the signer', (checkSignedRoot({ root: tmp, files: F, keys: keysOf(S), sshKeygen: 'ssh-keygen-that-is-not-there' })[0] || '').startsWith('ssh-keygen-that-is-not-there not found: install openssh-client'), true)
+const shallow = path.join(os.tmpdir(), 'sr-shallow-' + process.pid)
+execFileSync('git', ['clone', '-q', '--depth', '1', 'file://' + tmp, shallow], { env })
+t('a shallow clone is named, not blamed on the signer', (checkSignedRoot({ root: shallow, files: F, keys: keysOf(S) })[0] || '').startsWith('shallow clone: run git fetch --unshallow'), true)
+fs.rmSync(shallow, { recursive: true, force: true })
 fs.rmSync(tmp, { recursive: true, force: true })
 if (bad) { console.error(`${bad} failed`); process.exit(1) }
 console.log('test_signed_root: OK')

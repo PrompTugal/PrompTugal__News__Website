@@ -34,7 +34,7 @@ export function pages(ctx) {
     const account = {
         rel: 'account/index.html', type: 'account', src: PRICES,
         title: 'Your reading account',
-        summary: `A reading meter kept in your browser: every page is priced at a few pence, counted by how much of it you read, from ${start} of starting credit. Credit can go below zero and nothing is blocked.`,
+        summary: `A reading meter kept in your browser: every page is priced at a few pence, counted by how much of it you read, from ${start} of starting credit. When it reaches zero you can still read everything.`,
         md: [
             token('account'),
             '',
@@ -43,10 +43,10 @@ export function pages(ctx) {
             '## How it works {#how}',
             '',
             `- **You start with ${start}** of credit in this browser.`,
-            `- **Nothing is charged.** The credit is not money: a free allowance kept in your browser. Reading never takes money from you; paying is only ever a top-up you choose.`,
+            `- **It is credit, not a bill.** It is kept in your browser and nowhere else: no account, no cookie, no server. Nothing is taken from you; a top-up is only ever a payment you choose.`,
             `- **What you read is counted.** Every page has a price of a few pence, set by what kind of page it is and how fresh it is ([the table](billing.md)); the meter counts the share of it you read on this device, never less than a tenth. Opening a page and leaving counts the minimum.`,
-            '- **Once per page per browser session.** Reading further later tops the same charge up; going back costs nothing more.',
-            '- **It never blocks.** Credit can go below zero and every page still opens.',
+            '- **Once per page per browser session.** Reading further later adds to the same count; going back costs nothing more.',
+            '- **At zero you can still read everything.** Every page still opens whatever your credit.',
             '- **You can say what a page was worth.** At its foot, rate how useful it was (free to double the price), or decline to pay and say why: the charge is refunded and the reason kept.',
             `- **Top up when it feels fair:** [${amount} on Stripe's page](top-up.md), one payment, nothing renews.`,
             '- **Carry it to another device** with [your vault](vault.md), an encrypted vault opened with your passkey (a beta).',
