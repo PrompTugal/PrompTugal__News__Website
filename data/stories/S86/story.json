@@ -5,7 +5,7 @@
   "title": "What '99.9% uptime' covers: how AI and cloud providers count downtime",
   "beat": "AI and robotics",
   "topic": null,
-  "status": "idea",
+  "status": "draft",
   "rests_on": [
     "evidence:v-google-gemini-sla",
     "evidence:v-openai-scale-tier",
@@ -20,23 +20,30 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-26-1250.json"
+      "desks/curator/2026-11-26-1250.json",
+      "desks/journalist-vicky/drafts/s86-what-99-9-uptime-covers.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist-ai@PrompTugal.vicky",
   "needs": null,
   "held": null,
-  "draft": null,
+  "draft": "desks/journalist-vicky/drafts/s86-what-99-9-uptime-covers.md",
   "check": null,
   "reviews": [],
   "article": null,
-  "next": "someone takes it (assignee)",
+  "next": "the fact-check: every fact re-opened at its source",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-26",
       "by": "curator@PrompTugal.vicky",
       "file": "desks/curator/2026-11-26-1250.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-26",
+      "by": "journalist-ai@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/s86-what-99-9-uptime-covers.md"
     }
   ]
 }
