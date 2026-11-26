@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2342",
+    "date": "2026-11-26",
+    "time": "2026-11-26T20:15:25Z",
+    "what": "cl-6.dev@PrompTugal.dinis: test_meter.mjs brought up to date: prices and the minimum share are read from the table, the top-up link from its data file",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "d1b0978f9"
+  },
+  {
     "version": "v0.1.2341",
     "date": "2026-11-26",
     "time": "2026-11-26T20:07:32Z",
