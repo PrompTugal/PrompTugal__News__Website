@@ -101,7 +101,11 @@ html .ctop, html .ctop-tagline, html .dateline, html header.mast, html nav.site 
 .em-nav a { color: var(--ink); text-decoration: none; padding-bottom: 2px; }
 .em-nav a:hover { color: var(--brand-green); }
 .em-nav a[aria-current] { color: var(--brand-green); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 6px; }
+/* below 768 px Follow, App and Ask leave the button row for the end of the section strip, so the row keeps Search, EN and the Credit chip (cl-6.designer, 26 Nov 2026, on N1) */
+.em-xtab { display: none; }
 @media (max-width: 767px) {
+    .em-xtab { display: inline; }
+    .em-tools .em-pill[data-nav="follow"], .em-tools .pt-app-btn, .em-tools .tool.ask, .tools .tool.ask { display: none !important; }
     .em-where, .em-long { display: none; } .em-short { display: inline; } .em-dl { flex-wrap: wrap; }
     .em-dl { padding: 6px 0; }
     .em-mark { padding: 6px 0 4px; } .em-mark .wordmark { width: 240px; }
