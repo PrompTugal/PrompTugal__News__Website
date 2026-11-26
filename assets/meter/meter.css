@@ -70,9 +70,12 @@
 .nr-foot > summary::-webkit-details-marker { display: none; }
 .nr-foot > summary a { color: var(--brand, #006600); }
 .nr-foot-in { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; margin-top: 8px; }
-/* on a phone the figure stays and the label goes (designer@'s spec of 26 Nov 2026: a phone reader sees the balance; it was hidden outright) */
+/* on a phone the long label goes and a short word takes its place: "Credit £4.97" (designer@ and synthetic@, 26 Nov 2026) */
 @media (max-width: 767px) { .tool.meter .meter-label, .ctop-tools .tool.meter .meter-label, html[data-top="c"] .ctop-tools .tool.meter .meter-label { display: none !important; } }
 
 .nr-zero { flex: 1 1 100%; margin-top: 6px; padding-top: 8px; border-top: 1px solid var(--hair, #d9d2c1); }
 .nr-zero p { margin: 0 0 6px; }
 .nr-zero-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; }
+
+.tool.meter .meter-short { display: none; font-family: var(--sans, system-ui, sans-serif); color: var(--ink-3, #595c64); }
+@media (max-width: 767px) { .tool.meter .meter-short { display: inline; } }

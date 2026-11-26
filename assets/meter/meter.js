@@ -143,7 +143,7 @@
         var b = m.state.balance
         a.classList.toggle('is-low', b < 100)
         var shown = m.money(Math.max(0, b))   // never a minus sign (designer@'s spec, 26 Nov 2026)
-        a.replaceChildren(h('span', { class: 'meter-label' }, b > 0 ? 'Pay for what you read · ' : 'Credit used · keep reading · '), shown)
+        a.replaceChildren(h('span', { class: 'meter-label' }, b > 0 ? 'Pay for what you read · ' : 'Credit used · keep reading · '), h('span', { class: 'meter-short' }, 'Credit '), shown)   // a phone says what the number is: "Credit £4.97" (designer@, 26 Nov, on synthetic@'s N1)
         a.setAttribute('aria-label', 'Reading credit ' + shown + ', kept in this browser: your account')
         a.title = b > 0 ? 'You start with ' + m.money(m.cfg.start) + ' of reading credit, kept in this browser. It goes down as you read, by how much of a page you read. When it runs out you can still read everything.' : 'Your credit is used. You can still read everything. Top-ups are coming soon.'
     }
