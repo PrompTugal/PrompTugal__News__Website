@@ -3465,7 +3465,9 @@
         "record": "sha256:b3622aff4c654f79",
         "signing_fingerprint": "sha256:b3622aff4c654f79"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded": "2026-11-26T06:20Z",
+      "superseded_by": "sherpa-promptugal-cl-6"
     },
     {
       "id": "datasci.places-promptugal-b",
@@ -5212,6 +5214,29 @@
         "label": "cl-6.translator@PrompTugal.dinis",
         "fingerprint": "sha256:b5d76aef4730826f",
         "signing_fingerprint": "sha256:b699f9e25fd8f6e8"
+      }
+    },
+    {
+      "id": "sherpa-promptugal-cl-6",
+      "agent": "cl-6.sherpa@PrompTugal.dinis",
+      "label": "cl-6.sherpa@PrompTugal.dinis: the reader's guide of PrompTugal.news, on Dinis's Claude account 6 (account F)",
+      "role": "PrompTugal.news sherpa: reader and newcomer journeys, reviews",
+      "made": "2026-11-26",
+      "made_with": "openssl (P-256 signing key, RSA-4096 encryption key) and ssh-keygen, in its own session; private halves only in that session",
+      "how": "Also published in its home: https://github.com/PrompTugal/PrompTugal__Agent__Sherpa/blob/dev/site/keys/cl-6.sherpa.json",
+      "added": "2026-11-26T06:20Z",
+      "status": "active",
+      "session": "https://claude.ai/code/session_016CrbJMWWVdEEuaqxoSn7QC",
+      "encryption_fingerprint": "sha256:2c59f8995df684e2",
+      "signing_fingerprint": "sha256:e568fe838abac9d1",
+      "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBC9VKKSLrKc+qD4Vpf1RqhI1RsIonOnmGyJFRIJgLM9uaWIzxLdNVtyQ1Z3uuPokWt9QWhbjPqzDWAMjIi2k2xw=",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEApu+RfGkoZtN1jLkDxc3b\ncdGWGmZPtWCs9e/hR68AkTMnRc7M1ufLy8rl4PK3ZaMOCQKZsgr4LeIG+GIrI3x1\nVuck1uTLWmhMTwMB1PIne8YXeOYJszxZKMR2UkGJmGllwr7fBiA/IG+ejS0Kyhj5\ncdnZRrK7+mN6W9O4eedYhzH2p6TsHS8IcPwykieJv/InA0ZdyO2yA9tHyOXKc1/J\ndHMRlRIQ1jyhViBIkYr7BrcNxXkyoqxCxXRxNQR7WKqsPoeCQgV1fCMGYzJvd1cs\n/Mnju16NxRMl+gQyIDldoIOQGrVAUCH4jGiuThi73CCaTpXu/NBzp5cQXRbfz/MI\njUDmkkXVnO/7aq0CqN3XRGWqHxF0irSGTJorxJmwYIldisEJNJs6P9C+IGdXRjSR\n4vW7abt0UTf/Fkg9/VJvJ4tvsRxqp9naOg/Njs42TTSw/Forp+NbL91X3o5J0yXY\nrcu0+XuY96ACt6/22zlUKyD3EUDiDNSVw/EWa0eJH+xNfxwZe1PtsR/sJlkdvNi6\nplPYTWIosJesx7rlcb9T7kRD1mNub4uk7wylY+CbM4g7JyOA0z0W/5Q+RgJ3j3OS\nGAHC24KV8X8qYp7zEif2kO7icLoEZPFng9rb9SbeTZT239BnaJ8Qq3fewBTiEnMt\nVBFkc/mC/kb/9ITxmFoNPFECAwEAAQ==\n-----END PUBLIC KEY-----",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEvbcBRPWOrXy+nYXxJdVwW4wgRJcE\ni4PxGEEzm68MyHqhYqJpUD4Ct0tESF+MORaUSZ1SDjU2OZMTDfZ+la+1qQ==\n-----END PUBLIC KEY-----",
+        "label": "cl-6.sherpa",
+        "fingerprint": "sha256:2c59f8995df684e2",
+        "signing_fingerprint": "sha256:e568fe838abac9d1"
       }
     }
   ]
