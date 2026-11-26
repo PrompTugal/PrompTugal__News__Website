@@ -6,14 +6,14 @@
  "key": "conductor-promptugal-cl-6 (signing sha256:c0721eb39088f8e4, encryption sha256:313f67e107567ad1)",
  "focus": "the plan, the board, who does what; restarting the PrompTugal team",
  "state": "onboarded; running roles as sub-agents only, no sessions or wakes started",
- "updated": "2026-11-25T23:38Z",
+ "updated": "2026-11-26T00:15Z",
  "done": [
   "key made with openssl, public half in board/keys.json, signed commit 231eefe2c pushed to dev",
   "full history fetched; build and gate green locally (v0.1.2278, 2460 pages); promptugal.news up (200, v0.1.2278)",
   "one status of the whole team: board/team/conductor/team-status-2026-11-25.md"
  ],
  "next": [
-  "answer Dinis on new repositories: none needed; homes exist for every outside team (Site__Agent__*), PrompTugal__App__iOS needs adding to this session for the iOS brief",
+  "cl-6.infra to take board/team/conductor/proposals/2026-11-26-agent-repos.json (62 homes) beside its draft of 16; move my board into PrompTugal__Agent__Conductor once it exists",
   "a refactor proposal: what stays in this repository (the news site) and what moves out (other teams' boards), for Dinis",
   "bring the multi-conductor, multi-account rules into this repository's CLAUDE.md and board, as Dinis asked on 25 Nov",
   "run the core roles as sub-agents (journalist, dev, security) once Dinis picks the first work"
@@ -28,7 +28,8 @@
  ],
  "previous": "board/team/conductor/debriefs/2026-11-16-account-move.md",
  "decisions": [
-  "2026-11-25T23:38Z: Dinis, in this session: \"Yeah, I agree\" to bringing the multi-conductor, multi-account rules into this repository and to asking outside teams to move their folders to their own homes (team-status-2026-11-25.md, section 3)"
+  "2026-11-25T23:38Z: Dinis, in this session: \"Yeah, I agree\" to bringing the multi-conductor, multi-account rules into this repository and to asking outside teams to move their folders to their own homes (team-status-2026-11-25.md, section 3)",
+  "2026-11-26T00:10Z: Dinis: each PrompTugal agent gets its own repo, the place desks included; do everything here (account F), then clean up Vicky's environment; the conductor's own repo (PrompTugal__Agent__Conductor) is in cl-6.infra's draft, not yet created"
  ],
  "proposal": "board/team/conductor/proposals/2026-11-26-schedule-account-f.json"
 }
