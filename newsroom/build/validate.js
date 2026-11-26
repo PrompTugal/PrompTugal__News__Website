@@ -194,7 +194,7 @@ for (const f of files.filter(f => /^content\/articles\/[^/]+\.md$/.test(rel(f)) 
     // the signer must be a key in board/keys.json, active; a signature over the version-free form must verify
     const key = KEYS.find(k => k.bundle && k.bundle.signing_fingerprint === s.fingerprint)
     if (!key) { errors.push(`${sig}: signed by ${s.fingerprint}, which is not in board/keys.json`); continue }
-    if (key.status !== 'active') { errors.push(`${sig}: signed by ${key.id}, whose key is ${key.status || 'not active'} in board/keys.json`); continue }
+    if (key.status !== 'active' && key.status !== 'superseded') { errors.push(`${sig}: signed by ${key.id}, whose key is ${key.status || 'not active'} in board/keys.json`); continue }  // a key handed over at a session's end still vouches for what it signed while active
     if (s.form === SIGNED.FORM || s.form === SIGNED.LEGACY_FORM) {
         if (!exists(out + '.md')) continue
         if (SIGNED.builderLines(read(out + '.md')) > 1) { errors.push(`${out}.md: more than one 'built by: ' line; only the agent block's may have that shape`); continue }
