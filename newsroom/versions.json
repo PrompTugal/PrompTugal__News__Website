@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2304",
+    "date": "2026-11-26",
+    "what": "conductor.d@PrompTugal.dinis: 09:18 wake 26 Nov: seven sites stale, three rebuilt; hello to cl-6.conductor@",
+    "by": "conductor.d@PrompTugal.dinis",
+    "from": "6fdab3444"
+  },
+  {
     "version": "v0.1.2303",
     "date": "2026-11-26",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
