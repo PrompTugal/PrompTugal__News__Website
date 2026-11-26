@@ -13,6 +13,8 @@
  *  3. Fail closed: no pin, no key in the home, no good version: nothing is written for that place, and it is reported.
  *  4. Nothing is deleted. A changed place file loses its old .json.sig (made by an old site key over the old bytes, so it no longer
  *     verifies); the provenance is newsroom/tools/place-sources.json (commit, signer, time), written by this tool.
+ * Limits: a file's last good version is looked for in the newest 30 commits that touched it, within the 50 commits fetched per home; beyond that the
+ * file is not written (fail closed), never taken unsigned.
  * The result is an ordinary working-tree change: commit it and release it with newsroom/tools/release.sh (the gate checks every file).
  * The pin file changes only by a signed commit of the dev agent and cl-6.security's review; this tool never writes it. */
 import { execFileSync } from 'node:child_process'
@@ -20,11 +22,13 @@ import fs from 'node:fs'
 import os from 'node:os'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import crypto from 'node:crypto'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..')
 const TRAILER = /^Agent: cl-6\.places@PrompTugal\.dinis$/m
 const HOME_URL = /^https:\/\/github\.com\/PrompTugal\/PrompTugal__Agent__Place__[A-Za-z0-9-]+$/
 
+const sha = b => crypto.createHash('sha256').update(b).digest('hex')
 const git = (cwd, args, env = {}) => execFileSync('git', args, { cwd, encoding: 'utf8', maxBuffer: 1 << 28, stdio: ['ignore', 'pipe', 'pipe'], env: { ...process.env, GIT_LFS_SKIP_SMUDGE: '1', ...env } })
 const tryGit = (cwd, args, env) => { try { return git(cwd, args, env) } catch { return null } }
 
@@ -76,9 +80,9 @@ export function syncHome({ dir, id, pin, siteRoot = ROOT, validate = null, dry =
         const errs = validate ? validate(j, rel) : []
         if (errs.length) { out.notes.push(`${rel}: ${errs.slice(0, 3).join('; ')}; nothing written`); continue }
         const dest = path.join(siteRoot, rel), cur = fs.existsSync(dest) ? fs.readFileSync(dest, 'utf8') : null
-        if (cur === v.bytes) { out.same.push(rel); continue }
+        if (cur === v.bytes) { out.same.push({ file: rel, commit: v.commit, sha256: sha(v.bytes) }); continue }
         if (!dry) { fs.mkdirSync(path.dirname(dest), { recursive: true }); fs.writeFileSync(dest, v.bytes); if (fs.existsSync(dest + '.sig')) fs.rmSync(dest + '.sig') }
-        out.wrote.push({ file: rel, commit: v.commit, skipped: v.skipped })
+        out.wrote.push({ file: rel, commit: v.commit, sha256: sha(v.bytes), skipped: v.skipped })
     }
     return out
 }
@@ -111,7 +115,8 @@ async function main() {
         for (const n of r.notes) console.log(`${p.id}: ${n}`)
         wrote += r.wrote.length
         console.log(`${p.id}: ${r.wrote.length} written, ${r.same.length} unchanged${r.wrote.length ? ' (' + r.wrote.map(w => `${w.file} @ ${w.commit.slice(0, 9)}${w.skipped ? `, ${w.skipped} newer unsigned skipped` : ''}`).join('; ') + ')' : ''}`)
-        if (r.wrote.length && !dry) sources.places[p.id] = { repo: url, head: r.head, files: Object.fromEntries(r.wrote.map(w => [w.file, w.commit])), signed_by: pin.agent, key: pin.fingerprint, synced: new Date().toISOString().slice(0, 16) + 'Z' }
+        // every file taken or confirmed unchanged is recorded with its commit and the sha256 of its bytes; the gate (lib/place-sources.mjs) holds each place file to it
+        if ((r.wrote.length || r.same.length) && !dry) sources.places[p.id] = { repo: url, head: r.head, files: Object.fromEntries([...r.wrote, ...r.same].map(w => [w.file, { commit: w.commit, sha256: w.sha256 }])), signed_by: pin.agent, key: pin.fingerprint, synced: new Date().toISOString().slice(0, 16) + 'Z' }
     }
     if (!dry) fs.writeFileSync(path.join(ROOT, 'newsroom/tools/place-sources.json'), JSON.stringify({ about: 'Where each place file came from: the home, the commit whose bytes were taken (signed by the pinned key, with the trailer), the signer and when. Written by newsroom/tools/sync-places.mjs.', places: sources.places }, null, 1) + '\n')
     console.log(`sync-places: ${wrote} file(s) ${dry ? 'would be ' : ''}written, ${stopped} place(s) stopped`)

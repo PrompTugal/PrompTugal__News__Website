@@ -4,6 +4,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { checkMediaContact } from './media-contact.mjs'
+import { checkPlaceSources } from './place-sources.mjs'
 import { R, walk } from './config.mjs'
 import { loadSchemas, validate } from './schema.mjs'
 import { derive } from './derive.mjs'
@@ -140,6 +141,7 @@ export function checkData() {
     for (const x of s.series) { const w = `data/series/${x.id}`; need(w, x.organised_by); need(w, x.place); for (const d of x.editions) need(w, d.event) }
     for (const e of s.events) need(`data/events/${e.id}`, e.series)
     // a news outlet (kind media)
+    errors.push(...checkPlaceSources())   // a place file is the one synced from a verified commit (lib/place-sources.mjs)
     for (const o of s.organisations) {
         const w = `data/organisations/${o.id}`
         if (!!o.kind !== !!o.media) { errors.push(`${w}: kind/media mismatch`); continue }
