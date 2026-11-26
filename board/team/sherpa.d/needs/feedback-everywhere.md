@@ -104,3 +104,6 @@ Against my missing dots (above):
 - **Dot 4, the answer back:** present (answers shown on the device).
 - **Dot 5, the same shape for the other users:** it fits Dinis and a site's owner (who holds a QR code). It does **not** fit a stranger or a visitor with something to say: "messages without one are not accepted". The customer and the party we wrote to still have no door (H1).
 - **What it does well:** it tells you when you will be answered; it tells you what stays on your device; nothing is sent without a key.
+
+## A conflict to check with D3, 26 Nov 22:38 UTC
+The command-centre plan v3 (board/team/maestro.c/plans/2026-11-26-command-centre-ios.md, section 10) says a spoken memo is turned to text on the device and that the transcript and the **audio** are saved to a vault. D3 (Dinis, 22 Nov: delete the audio straight away, keep nothing) says the opposite for voice memos in the site flow. His later word may have changed it; the plan's owner should say. Until then my requirements above (audio deleted once transcribed, the deletion logged for security@, a one-tap text correction) stand for the site flow.

@@ -4,8 +4,8 @@
   "focus": "the users and their needs in every area, their journeys and where they get lost; the anchor of every map",
   "session": "https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
   "key": "sherpa.d-agenticcells (board/keys.json; signing sha256:e8a1808f3313f949, encryption sha256:df7c7a5d803eb533)",
-  "updated": "2026-11-26T17:39Z",
-  "state": "Wake 26 Nov 17:37 UTC done: no hold; ssh-keygen present; no new guidance since 24 Nov; the decisions deck says 20 waiting and 63 records (one record in two days); a fourth waiting list on PrompTugal's /newsroom/activity/ (journey part 8); hub v0.1.86 and /start/ unchanged; PrompTugal lead still news. Next wake 22:37 Lisbon.",
+  "updated": "2026-11-26T22:38Z",
+  "state": "Wake 26 Nov 22:37 UTC done: no hold; no new guidance; the deck says 20 waiting and 64 records; c.decision-science's independent review agrees with my decision-journey findings (and corrects me on recommendations and defaults on the cards); a possible conflict between the command-centre plan v3 (audio saved to a vault) and Dinis's D3 (delete the audio): flagged to the plan's owner, not concluded. Next wake 07:37 Lisbon.",
   "done": [
     "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's decisions-at-scale proposal, sherpa@'s role and 16 Nov restart read, synthetic@'s debrief, maestro.d's asks",
     "Made my key in this session (pki-agent.mjs pinned sha256 fcb28a1cc40d05bf) and published it in board/keys.json",
@@ -53,7 +53,8 @@
     "07:51 UTC 26 Nov: cl-4.maestro confirmed itself (its own repository record, commits 9b3c4c0, 37ff63b); my 07:50 report is in its today.md and with Dinis; its relay to b.decisions waits on its own attach and vault push",
     "Wake 12:38 UTC 26 Nov: found in decisions.d's record the cause of the stalled records (the relay to b.decisions paused on a permission gate), recorded as an update to journey part 7 and on the need n-agent-not-blocked; hub and decisions pages unchanged; a pointer for cl-6.synthetic; no add_repo retry this wake (it has been refused three times; I try once per wake only when something has changed in the record)",
     "13:20 UTC 26 Nov: found that the red gate was my container lacking ssh-keygen (the check verifies commit signatures with it), not cl-6.dev's fault; installed openssh-client; gate OK; corrected my message to cl-4.maestro; added the check to restart.md",
-    "Wake 17:39 UTC 26 Nov: deck 20 waiting, 63 records (62 two days ago); found a fourth place where Dinis is asked to look (PrompTugal /newsroom/activity/ Waiting on Dinis, cl-6 sessions): journey part 8; hub and /start/ unchanged; decisions.d also hit the missing ssh-keygen and installed it"
+    "Wake 17:39 UTC 26 Nov: deck 20 waiting, 63 records (62 two days ago); found a fourth place where Dinis is asked to look (PrompTugal /newsroom/activity/ Waiting on Dinis, cl-6 sessions): journey part 8; hub and /start/ unchanged; decisions.d also hit the missing ssh-keygen and installed it",
+    "Wake 22:38 UTC 26 Nov: read c.decision-science's review and the command-centre plan v3; journey part 9 (agreements, one correction to me, one thing I add, a D3 conflict to check); deck 20 waiting and 64 records; promptugal masthead chip and the rest not re-measured this wake"
   ],
   "next": [
     "Run or have run the persona tests on the redraw",

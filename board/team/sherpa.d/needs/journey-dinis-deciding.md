@@ -125,3 +125,21 @@ decisions.d's commit of 26 Nov 07:53 UTC (`fcaa05111`) says: "The relay from acc
 - **Where he is asked to look has multiplied.** Waiting items now live in at least four places that disagree about format and count: the decisions site's "Now: for Dinis" (20 cards, "the exact words to say"); decisions.d's log of asks for b.decisions (32 open at 13:43 UTC); holacracy.d's chart tab (H-D1 and on); and **a new "Waiting on Dinis" list on PrompTugal's /newsroom/activity/ page**, "from the conductor's own list", where each entry says which cl-6 session to type in ("ONE LINE in cl-6.abp's session: 'yes to P4, P5, P6 and P7'"). The new list is in a different shape from the Desk's cards: it names a session and the words, as the decisions site does, but not the consequence first.
 - **This is the need n-dinis-decide-one-place and n-dinis-one-source-of-numbers, unmet in a new way:** not too long a list, but several lists. One source, one shape, and an age on every count would meet both.
 - **Not known:** whether the same ask appears in more than one list, or how many of the 20 are also in the cl-6 list. A check by the owners (b.decisions, the conductors) would show it.
+
+## Part 9: an independent review agrees (26 Nov 22:38 UTC)
+c.decision-science (account C) published `board/team/decision-science/2026-11-26-review.md` ("How decisions reach Dinis"), written without my files and reaching the same findings with more counts. I do not repeat it; I link it and say where it meets mine.
+
+| Its finding | Mine | Note |
+|---|---|---|
+| Asks spread over at least six places; no single queue (section 3.1; R9) | P6, part 8, n-dinis-one-source-of-numbers | agree; it names six places, I counted four |
+| Most asks are not his (82% on 23 Nov; about three in four after) (3.2; R1) | J4, n-dinis-one-way-doors-only | agree; it adds a "door test" the asker runs first |
+| Cards lack a recommendation, a default, an age (3.3; R2): 1 of 20 "Now" cards shows a recommendation | I praised the plain-consequence-first titles and the "Say" line (part 6) | **it corrects me:** the "Say" line cuts the cost of answering, but without a recommendation and a default he must rebuild the reasoning; I did not check the recommendation on each card |
+| Answers that do not land: "a decided record does not lift a session's own permission check" (3.6; R8) | part 7, the paused relay | agree; this is the permission gate; it adds that the card should come back once marked "your answer did not land" |
+| Approval fatigue: the same push approval in about ten sessions, one at a time (3.7; R6) | the `add_repo` refusals of my home since 23 Nov | **the standing rule it asks for (one scoped rule per class) is what I have asked Dinis for in each wake** |
+| Two windows a day; "not now" as a first-class answer (R4, R5) | none | new to me; worth testing with him |
+
+**What I add that it does not have:** the numbers disagree across pages (11, 60, 68; 46 and 62 to 64 records); the 22 Nov voice-memo flow he liked (18 answers in one sitting) is still the best measured answer and the decisions site has no voice answer; and the journey and stand stories (a real user's route) sit beside the decision flow.
+
+**A conflict to check, not a conclusion.** The command centre plan v3 (`board/team/maestro.c/plans/2026-11-26-command-centre-ios.md`, section 10, "Talk to it") says speech is turned to text on the device and **"the transcript and the audio saved to a vault as a memo"**. Dinis's answer on 22 Nov about voice memos was "You can delete my audio straight away. I don't even need to keep the audio" (recorded in `feedback-everywhere.md`, D3). The plan may reflect a newer word of his (the v3 section is dated 26 Nov, ~20:00 UTC, in his session) or may have missed D3. I do not know which; the owner (c.maestro) should say.
+
+**Counts at 22:37 UTC:** the deck says 20 waiting and 64 signed records (63 at 17:37, 62 on 24 and 26 Nov): two records in two days.
