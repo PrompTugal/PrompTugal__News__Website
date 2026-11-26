@@ -4,7 +4,7 @@
   "focus": "the users and their needs in every area, their journeys and where they get lost; the anchor of every map",
   "session": "https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
   "key": "sherpa.d-agenticcells (board/keys.json; signing sha256:e8a1808f3313f949, encryption sha256:df7c7a5d803eb533)",
-  "updated": "2026-11-26T07:39Z",
+  "updated": "2026-11-26T07:45Z",
   "state": "Catch-up wake 26 Nov 07:37 UTC done (five wakes queued during session restarts): no hold; the decisions site's deck says 19 waiting (11 on 24 Nov) and 62 records (unchanged), the home says 60 and 46 (stale); PrompTugal front page improved (lead is news, 14.6 phone screens); a new cl-6.sherpa started on the PrompTugal side (note left); add_repo refused a third time. Next wake 12:37 Lisbon.",
   "done": [
     "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's decisions-at-scale proposal, sherpa@'s role and 16 Nov restart read, synthetic@'s debrief, maestro.d's asks",
@@ -48,7 +48,8 @@
     "Wake 12:38 UTC 24 Nov: hub v0.1.71 (no change to O1, O2, O4); Open asks page stale by about ten hours (P6); fixed my persona seed that said to email the request (twin inbox only, per abp@'s draft policy)",
     "14:03 UTC 24 Nov: at Dinis's word (relayed by d.helm): kept the four area files in my current folder because add_repo for my home is refused: agent.json, now.md, role.md, restart.md (modelled on helm.d's); vaults: none, already told d.maestro",
     "Wake 17:39 UTC 24 Nov: read the decisions site's Open asks page, /deck/ and /send/ live at 390 and 1280 px: journey part 6 and the feedback-everywhere section on the first message door; one need added (n-dinis-one-source-of-numbers, a hypothesis); findings to d.maestro as links for b.decisions and feedback.b",
-    "Catch-up wake 07:39 UTC 26 Nov: journey part 7 (19 waiting, 62 records unchanged in 36 h, home stale), PrompTugal front page re-read (P1 fixed, P2 much better, P4 14.6 screens, P3 and P5 stand), twin note updated for cl-6.sherpa, debrief written; add_repo refused a third time"
+    "Catch-up wake 07:39 UTC 26 Nov: journey part 7 (19 waiting, 62 records unchanged in 36 h, home stale), PrompTugal front page re-read (P1 fixed, P2 much better, P4 14.6 screens, P3 and P5 stand), twin note updated for cl-6.sherpa, debrief written; add_repo refused a third time",
+    "07:45 UTC 26 Nov: the outgoing maestro relayed that account D's maestro is now cl-4.maestro (new session; hand-over 25 Nov 23:30 UTC at Dinis's word); not yet in the repository record; I send my wake reports there from now on, links only, d.helm copied"
   ],
   "next": [
     "Run or have run the persona tests on the redraw",
