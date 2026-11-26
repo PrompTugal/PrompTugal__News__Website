@@ -27,7 +27,9 @@ export function api(ctx) {
     for (const f of fs.readdirSync(dir).filter(f => f.endsWith('.md')).sort()) {
         const slug = f.replace(/\.md$/, '')
         if (gone.has(slug)) continue
-        const segs = segmentArticle(fs.readFileSync(path.join(dir, f), 'utf8'))
+        const src = fs.readFileSync(path.join(dir, f), 'utf8')
+        if (!/^status: published\s*$/m.test(src.split('\n---\n')[0])) continue   // the listing page and drafts are not articles
+        const segs = segmentArticle(src)
         if (!segs.length) continue
         for (const s of segs) text.set(s.key, s.text)
         articles.push({ slug, segs })
@@ -39,7 +41,7 @@ export function api(ctx) {
     return [
         { path: 'api/v1/i18n/articles/segments.json', schema: null, data: { about: about.segments_about, version: ctx.VERSION, built: ctx.TODAY, rule: about.rule, segments: sorted(Object.fromEntries(text)) } },
         { path: 'api/v1/i18n/articles/index.json', schema: null, data: { about: about.about, version: ctx.VERSION, built: ctx.TODAY, rule: about.rule, segments_total: text.size,
-            articles: articles.map(a => ({ slug: a.slug, page: `https://promptugal.news/articles/${a.slug}/`, segments: a.segs.map(s => ({ id: `article:${a.slug}#${s.n}`, key: s.key, part: s.part })),
+            articles: articles.map(a => ({ slug: a.slug, page: `https://promptugal.news/articles/${a.slug}.html`, segments: a.segs.map(s => ({ id: `article:${a.slug}#${s.n}`, key: s.key, part: s.part })),
                 translated: Object.fromEntries(mem.map(x => [x.c, have(x.m, a.segs)])) })) } },
         ...mem.map(({ c, m }) => ({ path: `api/v1/i18n/${c}/segments.json`, schema: null, data: { about: about.culture_about, culture: c, version: ctx.VERSION, built: ctx.TODAY,
             segments: sorted(Object.fromEntries([...text.keys()].filter(k => m.has(k)).map(k => [k, m.get(k)]))) } }))
