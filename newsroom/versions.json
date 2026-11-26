@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2302",
+    "date": "2026-11-26",
+    "what": "decisions.d@AgentiCCells.dinis: relay to b.decisions paused until cl-4.maestro's access is allowed",
+    "by": "decisions.d@AgentiCCells.dinis",
+    "from": "fcaa05111"
+  },
+  {
     "version": "v0.1.2301",
     "date": "2026-11-26",
     "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
