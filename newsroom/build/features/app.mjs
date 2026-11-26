@@ -12,21 +12,21 @@ export const order = 89
 
 const T = fs.readFileSync(new URL('../../../assets/app/app.tmpl', import.meta.url), 'utf8')
 const part = n => (T.split(`<!-- part:${n} -->\n`)[1] || '').split('\n<!-- ')[0]
-const SUMMARY = 'The Web Summit programme as an app in your browser: pick sessions, see clashes and free time, add them to your calendar. No store, no account; your picks stay on your device.'
+const SUMMARY = 'Archive of the Web Summit 2026 programme app, in your browser: pick sessions, see clashes and free time, add them to your calendar. No store, no account; your picks stay on your device.'
 
 export const assets = { css: ['assets/app/pane.css'], js: ['assets/app/pane.js'] }
 
 export function pages() {
     // the app's words in 21 cultures (assets/app/i18n.json; Dinis 19:25, the cultures of send.sgraph.ai), in the page, so nothing is fetched for them
     const i18n = fs.readFileSync(new URL('../../../assets/app/i18n.json', import.meta.url), 'utf8')
-    const raw = part('page').replace(/\{\{up\}\}/g, '../').replace(/\{\{summary\}\}/g, SUMMARY).replace('{{i18n}}', JSON.stringify(JSON.parse(i18n)).replace(/</g, '\\u003c'))
+    const raw = part('page').replace(/\{\{up\}\}/g, '../../').replace(/\{\{summary\}\}/g, SUMMARY).replace('{{i18n}}', JSON.stringify(JSON.parse(i18n)).replace(/</g, '\\u003c'))
     return [{
-        rel: 'app/index.html', src: 'assets/app/app.tmpl', type: 'site', raw, title: 'The app', summary: SUMMARY, section: 'agenda',
-        md: `${SUMMARY}\n\n- The programme by day, with a search.\n- Add a session to your picks (the same picks as "Add to my day" on the site and [My day](../my-day/index.md)).\n- My picks: clashes between them, and the free time in between.\n- Add to Calendar: one session, or all your picks, as an .ics file every calendar opens.\n\nIt needs JavaScript. The programme comes from [the days' data](../api/v1/days.json); times are Lisbon time and can change.`,
+        rel: 'app/summit/index.html', src: 'assets/app/app.tmpl', type: 'site', raw, title: 'The Web Summit app (archive)', summary: SUMMARY, section: 'agenda',
+        md: `${SUMMARY}\n\n- The programme by day, with a search.\n- Add a session to your picks (the same picks as "Add to my day" on the site and [My day](../../my-day/index.md)).\n- My picks: clashes between them, and the free time in between.\n- Add to Calendar: one session, or all your picks, as an .ics file every calendar opens.\n\nIt needs JavaScript. The programme comes from [the days' data](../../api/v1/days.json); times are Lisbon time and can change.`,
     }]
 }
 
-export const llms = ctx => `## The app\n- [app/](${ctx.BASE}app/index.md): the summit programme as a web app (picks, clashes, free time, calendar files); picks stay in the browser.`
+export const llms = ctx => `## The app\n- [app/](${ctx.BASE}app/index.md): the PrompTugal.news app, and what it reads.\n- [app/summit/](${ctx.BASE}app/summit/index.md): the Web Summit 2026 programme as a web app, kept as an archive (picks, clashes, free time, calendar files); picks stay in the browser.`
 
 // the picks never leave the browser: the app reads the programme and nothing else goes out
 export function validate(gate) {

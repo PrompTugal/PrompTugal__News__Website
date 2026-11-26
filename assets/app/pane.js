@@ -5,7 +5,7 @@
     'use strict'
     if (window.top !== window) return
     var home = document.querySelector('.ctop-home'); if (!home) return
-    var up = (home.getAttribute('href') || 'index.html').replace(/index\.html$/, ''), url = up + 'app/index.html', KEY = 'pt-app-pane', SIZE = 'pt-app-pane-size', WIDE = 1100, IPAD_MIN = 1500
+    var up = (home.getAttribute('href') || 'index.html').replace(/index\.html$/, ''), url = up + 'app/summit/index.html', KEY = 'pt-app-pane', SIZE = 'pt-app-pane-size', WIDE = 1100, IPAD_MIN = 1500
     var html = document.documentElement, pane = null
     function el(t, c, x) { var e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e }
     function remember(v) { try { localStorage.setItem(KEY, v ? '1' : '') } catch (e) { } }
