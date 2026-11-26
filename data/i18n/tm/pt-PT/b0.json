@@ -7,6 +7,14 @@
   "src": "*Source: Eurostat (isoc_eb_ai), 2025 data, read 23 November ",
   "ok": false
  },
+ "b0f3ad51a807d488": {
+  "t": "[RMT, \"RMT members believe London Mayor should intervene on tube strike\", 26 de novembro de 2026](https://www.rmt.org.uk/news/rmt-members-believe-london-mayor-should-intervene-on-tube/) (o inquérito a mais de 700 trabalhadores e a carta do sindicato à TfL), lido a 26 de novembro de 2026",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "[RMT, \"RMT members believe London Mayor should intervene on ",
+  "ok": false
+ },
  "b0f988d029fd66b1": {
   "t": "A BSC AI Factory abre um segundo concurso para startups de IA, com espaços de incubação em Lisboa e Guimarães",
   "by": "translator@PrompTugal.dinis",

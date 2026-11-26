@@ -7,6 +7,14 @@
   "src": "PrompTugal.news Monchique, from the cool of the Serra: AI an",
   "ok": false
  },
+ "c821e6446564f8a1": {
+  "t": "O litígio é sobre uma semana de quatro dias voluntária para os maquinistas de comboios. A TfL diz que a sua versão mais recente permite aos maquinistas manterem-se em cinco dias no mesmo depósito. O RMT diz que o plano obriga os maquinistas a abdicar de proteções existentes, seja qual for o regime que escolham.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "The dispute is over a voluntary four-day week for train driv",
+  "ok": false
+ },
  "c87d899d0b2d583c": {
   "t": "**A Atomico é um investidor de capital de risco,** pelo que o relatório é também um argumento a favor de mais investimento de capital de risco.",
   "by": "cl-6.translator@PrompTugal.dinis",

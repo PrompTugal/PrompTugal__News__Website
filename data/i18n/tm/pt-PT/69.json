@@ -30,5 +30,13 @@
   "at": "2026-11-16",
   "src": "Startup Braga takes 15 startups to Web Summit, four of them ",
   "ok": false
+ },
+ "699b104ccdef484b": {
+  "t": "Uma promessa de disponibilidade é mais do que a sua percentagem. As regras decidem o que conta como inatividade, em que período e o que o cliente recebe.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "An uptime promise is more than its percentage. The rules dec",
+  "ok": false
  }
 }

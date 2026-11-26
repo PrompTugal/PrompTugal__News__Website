@@ -39,6 +39,14 @@
   "src": "AICEP reports that the tenth Web Summit opened in Lisbon on ",
   "ok": false
  },
+ "12e31acdaabe71e3": {
+  "t": "**Sobre o que é o litígio.** A TfL diz que a ação diz respeito a “propostas revistas para um regime de trabalho voluntário de semana de quatro dias para maquinistas de comboios”, elaboradas em resposta a um pedido dos sindicatos. Diz que alterou as opções para que os maquinistas possam escolher manter-se numa semana de cinco dias com a garantia de permanecerem no mesmo depósito, nas mesmas condições do regime de quatro dias. Diz que o regime foi verificado com ferramentas de fadiga, que os maquinistas continuariam a ser pagos o mesmo por 35 horas semanais e que o sindicato ASLEF, que também representa maquinistas do metro, aceitou a proposta.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**What the dispute is about.** TfL says the action concerns ",
+  "ok": false
+ },
  "12eab77e7612e4f8": {
   "t": "A planície é grande e nós ainda não vimos tudo. Eis o que Beja ainda não nos disse:",
   "by": "translator@PrompTugal.dinis",

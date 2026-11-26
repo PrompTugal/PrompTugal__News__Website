@@ -23,6 +23,14 @@
   "src": "Gota Click2Care: a parish teleassistance pilot for Aljezur's",
   "ok": true
  },
+ "ed6fd214c423f497": {
+  "t": "[Amazon Web Services, \"Amazon Compute Service Level Agreement\"](https://aws.amazon.com/compute/sla/) (as duas promessas do EC2 e a definição de indisponível), lido a 26 de novembro de 2026",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "[Amazon Web Services, \"Amazon Compute Service Level Agreemen",
+  "ok": false
+ },
  "ed99e8c975b51dc9": {
   "t": "Tavira, ó pá, onde o rio é mais calmo do que qualquer sala de servidores e os sete arcos já viram mais migrações do que o seu fornecedor de nuvem.",
   "by": "translator@PrompTugal.dinis",

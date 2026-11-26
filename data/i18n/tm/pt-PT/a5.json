@@ -31,6 +31,14 @@
   "src": "APDC and Google start an AI course for civil servants, kicke",
   "ok": false
  },
+ "a5d369c785daba44": {
+  "t": "Isto lê as páginas de cada fornecedor tal como estavam a 26 de novembro de 2026. Não classifica ninguém.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "This reads each provider's own pages as they stood on 26 Nov",
+  "ok": false
+ },
  "a5e56e75b8fadd24": {
   "t": "Sinceramente, meu amigo, eis o que não conseguimos encontrar, e é muito, como procurar sombra às duas da tarde em agosto:",
   "by": "translator@PrompTugal.dinis",

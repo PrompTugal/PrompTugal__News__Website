@@ -15,6 +15,14 @@
   "src": "Fortune reports that Fadell has put about 10 million dollars",
   "ok": false
  },
+ "26a99722bc438984": {
+  "t": "[Comunicado da TfL PN-259, \"TfL advises customers to plan ahead of strike action on the London Underground network\", 23 de novembro de 2026](https://tfl-newsroom.prgloo.com/news/tfl-advises-customers-to-plan-ahead-of-strike-action-on-the-london-underground-network) (as datas, o plano da primeira greve, a causa tal como a TfL a apresenta, a declaração de Nick Dent, a aceitação da ASLEF, as afirmações sobre salários e fadiga), lido a 26 de novembro de 2026",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "[TfL press release PN-259, \"TfL advises customers to plan ah",
+  "ok": false
+ },
  "26da359c2f02f4b2": {
   "t": "Setúbal faz a sua IA como faz tudo, de capacete na cabeça. O porto está a ensinar setenta trabalhadores a usar um chatbot, o Politécnico acolhe um instituto de tecnologia inteiro e adere a uma rede nacional de IA, e a Navigator diz que as suas máquinas na Mitrena também estão a aprender. A Câmara, abençoada seja, acolhe uma palestra muito civilizada sobre bibliotecas e IA, e nenhuma cena de startups se mostrou ainda.",
   "by": "translator@PrompTugal.dinis",

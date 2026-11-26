@@ -7,6 +7,14 @@
   "src": "The Algarve business association's accelerator, funded by th",
   "ok": false
  },
+ "c915b9d4f125b5d6": {
+  "t": "**A primeira greve, tal como a TfL a planeou a 23 de novembro.** Serviço normal até cerca das 10:00 de quinta-feira, 26 de novembro, depois perturbações à medida que os serviços diminuem. A partir do meio-dia esperava-se que a maioria dos serviços do metro circulasse, com perturbações em todas as linhas, mas sem serviço nas linhas Circle e Piccadilly durante todo o dia e sem serviço na linha Waterloo & City depois do meio-dia. Na sexta-feira, 27 de novembro, esperava-se que os serviços começassem por volta das 07:00, com perturbações até cerca do meio-dia e regresso ao normal por volta das 18:00. A TfL disse que se esperava que a linha Elizabeth, o DLR, o London Overground, os autocarros e os elétricos circulassem, possivelmente mais cheios do que o habitual. O pormenor por linha existe apenas para a primeira greve: a TfL não o publicou para as outras sete. A página da Time Out, lida por volta das 16:00 UTC de 26 de novembro, que introduz com “TfL says to expect the following service” (a TfL diz para esperar o seguinte serviço), acrescenta dois pontos que não constam do comunicado da TfL de 23 de novembro e que não pudemos verificar junto da TfL: nenhum serviço em toda a rede depois das 21:00 de quinta-feira e, na sexta-feira, nenhum comboio nas linhas Circle, Piccadilly e Waterloo & City até às 11:59, com perturbações em todas as linhas até lá. Este artigo não relata o que realmente aconteceu no dia, e quem viajar deve consultar a informação em direto da TfL.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**The first strike, as TfL planned it on 23 November.** Norm",
+  "ok": false
+ },
  "c92d4e3132ecb884": {
   "t": "A atividade de IA do Algarve concentra-se em Faro, em torno da Universidade do Algarve e da Algarve Evolution, e dirige-se sobretudo aos dois grandes setores regionais, o turismo e a saúde, com a universidade a acrescentar património, alimentação e investigação marinha. Organismos regionais como a CCDR Algarve, a NERA e o Turismo do Algarve financiam e ensinam a adoção de IA e, em 2026, a Universidade ganhou 31,5 milhões de euros para um centro de património centrado na IA.",
   "by": "translator@PrompTugal.dinis",

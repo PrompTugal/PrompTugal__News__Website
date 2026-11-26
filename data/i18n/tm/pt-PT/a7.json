@@ -1,4 +1,12 @@
 {
+ "a7663b2b6dd9c6eb": {
+  "t": "[RMT, \"Tube drivers' strike to go ahead\", 24 de novembro de 2026](https://www.rmt.org.uk/news/tube-drivers-strike-to-go-ahead/) (as conversações falhadas no ACAS, as três suspensões, as citações de Eddie Dempsey), lido a 26 de novembro de 2026",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "[RMT, \"Tube drivers' strike to go ahead\", 24 November 2026](",
+  "ok": false
+ },
  "a7b0887344ac3485": {
   "t": "A comunidade intermunicipal CIMAA ganhou cerca de 381 000 euros no âmbito do Alentejo 2030 para 151 ações de formação em 58 cursos para 1195 trabalhadores públicos em 15 municípios. A IA é um de nove temas, a par da cibersegurança e das competências digitais.",
   "by": "translator@PrompTugal.dinis",

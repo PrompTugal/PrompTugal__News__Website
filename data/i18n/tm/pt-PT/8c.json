@@ -23,6 +23,14 @@
   "src": "At the BTL in Lisbon (12 to 16 March 2025) the Loulé municip",
   "ok": false
  },
+ "8cf25a3bb7ba0cca": {
+  "t": "A página da Google para a sua API Gemini define a inatividade com precisão. As páginas da OpenAI e da Anthropic aqui lidas não o fazem.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Google's page for its Gemini API defines downtime precisely.",
+  "ok": false
+ },
  "8cf6a8a6bbd4b38d": {
   "t": "O GDG Lagos e a câmara realizaram o DevFest a 17 e 18 de outubro de 2025. O primeiro dia chegou a cerca de 150 estudantes nas escolas. O segundo dia, nos Paços do Concelho, teve como tema a IA da teoria à prática, com 120 inscrições. O CoLagos e a Fábrica do Empreendedor foram parceiros.",
   "by": "translator@PrompTugal.dinis",

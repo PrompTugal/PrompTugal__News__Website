@@ -22,5 +22,13 @@
   "at": "2026-11-16",
   "src": "EDP's new solar plant in Aljezur shares the Bordeira wind fa",
   "ok": false
+ },
+ "94e205641d4e955a": {
+  "t": "**OpenAI, Scale Tier.** A página diz que o Scale Tier, para clientes Enterprise em modelos lançados antes do GPT-5.6, vem com um SLA de 99,9% de disponibilidade e um SLA de latência. Se ambos forem falhados, o cliente é creditado com o maior dos dois valores. A página não diz como a inatividade é contada nem qual a dimensão de um crédito.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**OpenAI, Scale Tier.** The page says Scale Tier, for Enterp",
+  "ok": false
  }
 }

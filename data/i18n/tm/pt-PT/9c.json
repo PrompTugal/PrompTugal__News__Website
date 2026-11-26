@@ -1,4 +1,20 @@
 {
+ "9c4e5cf5ea2898e9": {
+  "t": "Do mapa do curador: S86, `desks/curator/README.md`",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "From the curator's map: S86, `desks/curator/README.md`",
+  "ok": false
+ },
+ "9c4e88d341c3beef": {
+  "t": "Os maquinistas do metro do sindicato RMT deviam iniciar a primeira de oito greves a 26 de novembro. A Transport for London e o sindicato dão versões opostas do que significa para os maquinistas a proposta da semana de quatro dias.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Tube drivers in the RMT union were due to begin the first of",
+  "ok": false
+ },
  "9c92765d703de7d4": {
   "t": "**Este é um perfil publicado por uma agência comercial,** não jornalismo independente.",
   "by": "cl-6.translator@PrompTugal.dinis",
