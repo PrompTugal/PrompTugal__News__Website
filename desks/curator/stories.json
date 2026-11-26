@@ -2,6 +2,14 @@
  "about": "The lists the README generator (tools/readme.py) reads. Each curator run edits this file, not the script: add the new story to `stories` (id, title, beat, angle, added, note; newest first), its captures to `rests`, publications to `PUBLISHED`, withdrawals to `WITHDRAWN`, the ready list to `READY` and the assignments to `ASSIGN`. LINK_OVERRIDES: a source URL as captured mapped to the same address written another way (a digit percent-encoded, which the URL standard treats as the same address) so the team site's phone check does not read a long run of digits and dashes as a phone number.",
  "stories": [
   [
+   "S86",
+   "What '99.9% uptime' covers: how AI and cloud providers count downtime",
+   "AI and robotics",
+   "An explainer on what an uptime promise covers: what counts as down, over what period, whether partial problems count and what the remedy is, read from five providers' own pages, not ranked.",
+   "26 Nov",
+   "For journalist-ai, category AI. Ready (Vicky's word of 26 Nov about 12:40 UTC, passed on by the conductor's task 2026-11-26-1250-curator-uptime-explainer; this lifts the 'research only' hold of task 2026-11-26-1100-curator-hold-uptime for this explainer only). Angle: what a '99.9% uptime' promise actually covers. The percentage is common, but what counts as 'down', over what period and whether partial problems count differ by provider; a reader choosing tools, AI tools included, should read how downtime is counted, not only the number. Rests only on the six captures (Google's Gemini API SLA, OpenAI's Scale Tier page, Anthropic's service tiers page and Commercial Terms, GitLab's availability handbook page, AWS's EC2 SLA page) and NOT on the GitHub incident captures or any GitHub figure or anything about 25 November. Read each page yourself. Attribute each provider's terms to its own page with the date read; where a page does not define downtime, the period or credits, say so (the OpenAI and Anthropic captures list these as unknown); OpenAI's 99.9% is for Scale Tier (Enterprise customers) and Anthropic's 99.5% target is for the Priority Tier (organizations with a capacity commitment), not for all use; Anthropic's Commercial Terms say services are provided 'AS IS' and 'AS AVAILABLE' and do not warrant uninterrupted use, and no uptime commitment appears in the captured quotes; Google's definition (a more than five percent error rate for five or more consecutive minutes, per calendar month, credits as the sole remedy) is the one page that defines downtime precisely, so set the others beside it without ranking providers. You may include the simple arithmetic of what a percentage allows over a month (99.9% is about 43 minutes, 99.5% about 3.6 hours, 99.99% about 4 minutes), stated as arithmetic and not as a provider's figure. No claim beyond what the pages say. The AI connection is direct (how AI providers promise reliability) and goes in the data note. Explain 'uptime', 'SLA' and 'service credit' in plain words at first use; 400 to 800 words."
+  ],
+  [
    "S85",
    "Two more studies of agent-written code: size and review, not the agent",
    "AI and robotics",
@@ -977,6 +985,14 @@
   "S85": [
    "v-arxiv-post-merge-quality-full-text",
    "v-arxiv-agent-pr-review-integration"
+  ],
+  "S86": [
+   "v-google-gemini-sla",
+   "v-openai-scale-tier",
+   "v-anthropic-service-tiers",
+   "v-anthropic-commercial-terms",
+   "v-gitlab-availability-sla",
+   "v-aws-ec2-sla"
   ]
  },
  "DROPPED": {
@@ -1200,7 +1216,7 @@
   "S54"
  ],
  "READY": [
-  "S85"
+  "S86"
  ],
  "DRAFTED": {
   "S44": "drafted, awaiting review",
@@ -1391,9 +1407,9 @@
  },
  "ASSIGN": [
   [
-   "S85",
+   "S86",
    "journalist-ai",
-   "two arXiv papers (one read in part, one abstract only), figures the papers' and unchecked; follow the note in the story's section"
+   "Vicky's explainer on what uptime promises cover, from the providers' own pages only; follow the note in the story's section"
   ]
  ],
  "LINK_OVERRIDES": {
