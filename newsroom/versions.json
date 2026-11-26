@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2329",
+    "date": "2026-11-26",
+    "time": "2026-11-26T17:02:47Z",
+    "what": "cl-6.dev@PrompTugal.dinis: board/keys.json: the conductor's new session key added, the old one superseded (at the conductor's word; D-CONDUCTOR-RESET revision 2)",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "91c1771eb"
+  },
+  {
     "version": "v0.1.2328",
     "date": "2026-11-26",
     "time": "2026-11-26T16:44:31Z",
