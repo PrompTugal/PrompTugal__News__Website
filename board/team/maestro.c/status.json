@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account C",
   "session": "https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
   "key": "maestro.c-account-c (board/keys.json; signing sha256:c58d733fc473b831; ssh ed25519 for git signatures)",
-  "updated": "2026-11-26T18:34Z",
-  "state": "account C allowed; schedules: c.maestro 6-hourly, @inbox 4-hourly; active: c.ios (+6 workers), c.donna-freed.design",
+  "updated": "2026-11-26T23:41Z",
+  "state": "account C weekly 25% (resets Wed 2 Dec 12:59); full reset (to 10 Dec) and Fable reset (to 9 Mar) available: go hard, double down on Fable",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins do not talk across), the maestros README, the start prompt, from-b.md, from-d.md, view.md, maestro.d's decisions on the SovereignWebsite twins",
     "Made key maestro.c-account-c in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -35,9 +35,8 @@
     "Gmail and CRM briefing deck (14 pages)"
   ],
   "next": [
-    "00:33 UTC wake",
-    "command centre iOS: start once Dinis names the SGit-AI iOS repository",
-    "maestro health report every 4 hours in from-c.md until Site__Agent__Maestro access"
+    "propose Fable projects and work to take from other accounts",
+    "00:33 UTC wake"
   ],
   "asks": [
     "Dinis: the five Gmail and CRM decisions (deck page 13) and who the human users are - https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
