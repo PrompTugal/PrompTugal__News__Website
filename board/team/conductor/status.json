@@ -6,7 +6,7 @@
  "key": "conductor-promptugal-cl-6 (signing sha256:c0721eb39088f8e4, encryption sha256:313f67e107567ad1)",
  "focus": "the plan, the board, who does what; restarting the PrompTugal team",
  "state": "onboarded; running roles as sub-agents only, no sessions or wakes started",
- "updated": "2026-11-26T00:15Z",
+ "updated": "2026-11-26T00:30Z",
  "done": [
   "key made with openssl, public half in board/keys.json, signed commit 231eefe2c pushed to dev",
   "full history fetched; build and gate green locally (v0.1.2278, 2460 pages); promptugal.news up (200, v0.1.2278)",
@@ -29,7 +29,8 @@
  "previous": "board/team/conductor/debriefs/2026-11-16-account-move.md",
  "decisions": [
   "2026-11-25T23:38Z: Dinis, in this session: \"Yeah, I agree\" to bringing the multi-conductor, multi-account rules into this repository and to asking outside teams to move their folders to their own homes (team-status-2026-11-25.md, section 3)",
-  "2026-11-26T00:10Z: Dinis: each PrompTugal agent gets its own repo, the place desks included; do everything here (account F), then clean up Vicky's environment; the conductor's own repo (PrompTugal__Agent__Conductor) is in cl-6.infra's draft, not yet created"
+  "2026-11-26T00:10Z: Dinis: each PrompTugal agent gets its own repo, the place desks included; do everything here (account F), then clean up Vicky's environment; the conductor's own repo (PrompTugal__Agent__Conductor) is in cl-6.infra's draft, not yet created",
+  "2026-11-26T00:25Z: Dinis: agents with the same name are all twins; every agent started here on Sonnet unless strategically needed; Opus for decisions and security"
  ],
  "proposal": "board/team/conductor/proposals/2026-11-26-schedule-account-f.json"
 }

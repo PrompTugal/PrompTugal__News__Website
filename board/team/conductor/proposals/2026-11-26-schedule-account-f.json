@@ -5,7 +5,7 @@
  "sessions": [
   {
    "agent": "cl-6.journalist@PrompTugal.dinis",
-   "model": "opus (signs articles; reviews its writers)",
+   "model": "sonnet (signs articles; writers and Vicky-team twins as Sonnet sub-agents)",
    "cron": "5 7,12,18 * * *",
    "at_each_wake": "the news pipeline: researches what changed (the summit's follow-ups, Portugal, Europe, AI), writes, sources every fact, builds and signs articles. Sub-agents (Sonnet): the writers; twins of Vicky's desk (cl-6.journalist-vicky, cl-6.curator, cl-6.checker, cl-6.reviewer, cl-6.programme) under their old limits (board/guidance/2026-11-10-vickys-reviewer-and-security.md); the correspondent's front-page refresh."
   },
@@ -23,11 +23,13 @@
   },
   {
    "agent": "cl-6.conductor@PrompTugal.dinis (this session)",
-   "model": "opus",
+   "model": "opus for now (the 24 Nov lifecycle record: conductors on Opus); Sonnet if Dinis says so",
    "cron": "20 9,20 * * *",
    "at_each_wake": "the board, team status, status.json for cl-6.maestro; sub-agents (Sonnet) for accountant (budgets), librarian, sherpa and synthetic reviews, and the iOS app brief."
   }
  ],
  "stay_off": "every other role (outreach, investors, customers, the place desks, observability and the rest) until the four above run cleanly for two days; they run as sub-agents of the conductor when needed.",
- "new_repositories": "none needed now: everything for PrompTugal.news stays in this repository; the iOS brief goes to PrompTugal/PrompTugal__App__iOS (where: proposed docs/briefs/, to be agreed with that repository's owner)."
+ "new_repositories": "none needed now: everything for PrompTugal.news stays in this repository; the iOS brief goes to PrompTugal/PrompTugal__App__iOS (where: proposed docs/briefs/, to be agreed with that repository's owner).",
+ "models": "Dinis, 26 Nov 2026 about 00:25 UTC: every agent started here runs on Sonnet unless strategically needed; Opus for security and decisions. Agents with the same name are twins (one home repository).",
+ "updated": "2026-11-26T00:30Z"
 }

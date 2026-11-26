@@ -1,5 +1,5 @@
 {
- "about": "Proposed by cl-6.conductor@PrompTugal.dinis for cl-6.infra@PrompTugal.dinis, to add to PrompTugal__IaC org/repos.json 'proposed' beside its draft of 16 (which already has Conductor, Library and the site leads). At Dinis's word (26 Nov 2026, about 00:10 UTC): each agent gets its own repo, the place desks included. Entries use cl-6.infra's shape. Merged, not repeated: librarian@ goes into PrompTugal__Agent__Library; Vicky's conductor, dev, designer, journalist and weather desks go into ours (Conductor, Dev, Designer, Journalist, and cl-6.infra's Weather).",
+ "about": "Proposed by cl-6.conductor@PrompTugal.dinis for cl-6.infra@PrompTugal.dinis, to add to PrompTugal__IaC org/repos.json 'proposed' beside its draft of 16 (which already has Conductor, Library and the site leads). At Dinis's word (26 Nov 2026, about 00:10 UTC): each agent gets its own repo, the place desks included. Entries use cl-6.infra's shape. Merged, not repeated: librarian@ goes into PrompTugal__Agent__Library; Vicky's conductor, dev, designer, journalist and weather desks go into ours (Conductor, Dev, Designer, Journalist, and cl-6.infra's Weather). Agents with the same name are twins and share one home (Dinis, 26 Nov). Model: Sonnet for every agent, Opus for security (and decisions, which is not in this list).",
  "proposed": "2026-11-26T00:15Z",
  "status": "proposed, waiting on Dinis's yes in cl-6.infra's session",
  "count": 62,
@@ -11,7 +11,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 1
+   "phase": 1,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Dev",
@@ -20,7 +21,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 1
+   "phase": 1,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Security",
@@ -29,7 +31,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 1
+   "phase": 1,
+   "model": "opus"
   },
   {
    "name": "PrompTugal__Agent__Correspondent",
@@ -38,7 +41,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Designer",
@@ -47,7 +51,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Accountant",
@@ -56,7 +61,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__ABP",
@@ -65,7 +71,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Ontologist",
@@ -74,7 +81,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Observability",
@@ -83,7 +91,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__DevOps",
@@ -92,7 +101,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Sherpa",
@@ -101,7 +111,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Synthetic",
@@ -110,7 +121,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Rights",
@@ -119,7 +131,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Translator",
@@ -128,7 +141,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 3
+   "phase": 3,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Telemetry",
@@ -137,7 +151,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 3
+   "phase": 3,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Historian",
@@ -146,7 +161,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 3
+   "phase": 3,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Researcher",
@@ -155,7 +171,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 3
+   "phase": 3,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Outreach",
@@ -164,7 +181,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 3
+   "phase": 3,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Backup",
@@ -173,7 +191,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 3
+   "phase": 3,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Investors",
@@ -182,7 +201,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 3
+   "phase": 3,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Customers",
@@ -191,7 +211,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 3
+   "phase": 3,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Dev-Search",
@@ -200,7 +221,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 3
+   "phase": 3,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Dev-Pages",
@@ -209,7 +231,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 3
+   "phase": 3,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Dev-Graphs",
@@ -218,7 +241,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 3
+   "phase": 3,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Dev-Portugal",
@@ -227,7 +251,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 3
+   "phase": 3,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Dev-Data",
@@ -236,7 +261,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 3
+   "phase": 3,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Dev-Verify",
@@ -245,7 +271,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 3
+   "phase": 3,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Designer-Experiments",
@@ -254,7 +281,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 3
+   "phase": 3,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Place__Albufeira",
@@ -263,7 +291,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Place__Alcoutim",
@@ -272,7 +301,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Place__Algarve",
@@ -281,7 +311,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Place__Algarve-Central",
@@ -290,7 +321,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Place__Algarve-East",
@@ -299,7 +331,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Place__Algarve-West",
@@ -308,7 +341,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Place__Aljezur",
@@ -317,7 +351,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Place__Castro-Marim",
@@ -326,7 +361,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Place__Districts",
@@ -335,7 +371,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Place__Faro",
@@ -344,7 +381,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Place__Lagoa",
@@ -353,7 +391,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Place__Lagos",
@@ -362,7 +401,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Place__Loule",
@@ -371,7 +411,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Place__Monchique",
@@ -380,7 +421,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Place__Olhao",
@@ -389,7 +431,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Place__Portimao",
@@ -398,7 +441,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Place__Portugal",
@@ -407,7 +451,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Place__Quarteira",
@@ -416,7 +461,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Place__Sao-Bras-De-Alportel",
@@ -425,7 +471,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Place__Silves",
@@ -434,7 +481,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Place__Tavira",
@@ -443,7 +491,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Place__Vila-Do-Bispo",
@@ -452,7 +501,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Place__Vila-Real-De-Santo-Antonio",
@@ -461,7 +511,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Places__Data",
@@ -470,7 +521,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Places__Datasci",
@@ -479,7 +531,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Places__Designer",
@@ -488,7 +541,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Places__Detective",
@@ -497,7 +551,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Places__Dev",
@@ -506,7 +561,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Places__Viz",
@@ -515,7 +571,8 @@
    "works_on": [
     "PrompTugal__News__Website"
    ],
-   "phase": 2
+   "phase": 2,
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Reviewer",
@@ -525,7 +582,8 @@
     "PrompTugal__News__Website"
    ],
    "phase": 1,
-   "why": "Dinis, 26 Nov: do everything here, then clean up Vicky's environment"
+   "why": "Dinis, 26 Nov: do everything here, then clean up Vicky's environment",
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Curator",
@@ -535,7 +593,8 @@
     "PrompTugal__News__Website"
    ],
    "phase": 1,
-   "why": "Dinis, 26 Nov: do everything here, then clean up Vicky's environment"
+   "why": "Dinis, 26 Nov: do everything here, then clean up Vicky's environment",
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Checker",
@@ -545,7 +604,8 @@
     "PrompTugal__News__Website"
    ],
    "phase": 1,
-   "why": "Dinis, 26 Nov: do everything here, then clean up Vicky's environment"
+   "why": "Dinis, 26 Nov: do everything here, then clean up Vicky's environment",
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Programme",
@@ -555,7 +615,8 @@
     "PrompTugal__News__Website"
    ],
    "phase": 1,
-   "why": "Dinis, 26 Nov: do everything here, then clean up Vicky's environment"
+   "why": "Dinis, 26 Nov: do everything here, then clean up Vicky's environment",
+   "model": "sonnet"
   },
   {
    "name": "PrompTugal__Agent__Analyst",
@@ -565,7 +626,8 @@
     "PrompTugal__News__Website"
    ],
    "phase": 1,
-   "why": "Dinis, 26 Nov: do everything here, then clean up Vicky's environment"
+   "why": "Dinis, 26 Nov: do everything here, then clean up Vicky's environment",
+   "model": "sonnet"
   }
  ]
 }
