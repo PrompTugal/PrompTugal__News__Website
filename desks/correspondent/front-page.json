@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "cl-6.correspondent@PrompTugal.dinis",
-  "updated": "2026-11-26T02:35Z",
+  "updated": "2026-11-26T11:10Z",
   "edition": "The after-the-summit edition (Dinis, 26 Nov 2026: make the site look as good and up to date as it can): the summit is over, so the week's Portugal and Europe tech news leads, with the guides to the data and the rules behind it. Set by cl-6.journalist@ for cl-6.conductor@.",
   "lead": {
     "article": "portugal-tech-investment-top-10-atomico-estimate",
@@ -15,8 +15,18 @@
       "date": "2026-11-26"
     },
     {
+      "article": "cost-holds-back-portuguese-firms-from-ai",
+      "why": "Among Portuguese firms that considered AI and did not adopt it, 60.4 per cent named cost in 2025, against 38.4 per cent across the EU; the article also says what the figures do not show.",
+      "date": "2026-11-26"
+    },
+    {
       "article": "europe-startup-funding-81-billion-atomico",
       "why": "The European frame for the Portuguese number: record founders and money, shrinking first rounds, and Europe's 7 per cent of world computing capacity.",
+      "date": "2026-11-26"
+    },
+    {
+      "article": "eu-quantum-act-and-sovereign-tech-equity-fund",
+      "why": "On 25 November the Commission proposed a Quantum Act and paved the way for a Sovereign Tech Equity Fund; the article notes that a trade headline's 50 billion euro figure is not in the Commission's own pages.",
       "date": "2026-11-26"
     },
     {
@@ -386,14 +396,19 @@
         "why": "A Porto AI company gets Tony Fadell as chair and launches fabric inspection for H&M; the savings figure is flagged as the company's own estimate."
       },
       {
+        "article": "cost-holds-back-portuguese-firms-from-ai",
+        "date": "2026-11-26",
+        "why": "Among Portuguese firms that considered AI and did not adopt it, 60.4 per cent named cost in 2025, against 38.4 per cent across the EU; the article also says what the figures do not show."
+      },
+      {
         "article": "europe-startup-funding-81-billion-atomico",
         "date": "2026-11-26",
         "why": "The European frame for the Portuguese number: record founders and money, shrinking first rounds, and Europe's 7 per cent of world computing capacity."
       },
       {
-        "article": "ai-use-in-portugal-2026",
-        "date": "2026-11-23",
-        "why": "INE's 2026 figures: 54.4 per cent of people and 19.6 per cent of companies in Portugal used AI; the data behind the week's AI stories."
+        "article": "eu-quantum-act-and-sovereign-tech-equity-fund",
+        "date": "2026-11-26",
+        "why": "On 25 November the Commission proposed a Quantum Act and paved the way for a Sovereign Tech Equity Fund; the article notes that a trade headline's 50 billion euro figure is not in the Commission's own pages."
       }
     ]
   },
@@ -408,12 +423,8 @@
   },
   "phone_interview": {
     "about": "H2 of board/spec-the-agentic-home-page.md: on a phone only, one interview inside the top, under the standfirst, and dropped from the list below. My pick per day; dev.pages@ reads 'rel' (the interview's page, from desks/journalist-promptugal/interviews/).",
-    "today": {
-      "for_date": "2026-11-12",
-      "interview": "buzz-messaging-ai--guy-ben-zvi--2026-11-09",
-      "rel": "interviews/buzz-messaging-ai/guy-ben-zvi/index.html",
-      "why": "No new interview published; Buzz Messaging AI returns for the final day (agents in a European messaging platform)."
-    }
+    "today": null,
+    "note": "Cleared 26 Nov 2026: no interview is published after the summit; no build code reads this key (cl-6.dev)."
   },
   "lead_shared_keys": {
     "about": "While S41 leads, reviewer@PrompTugal.vicky may write only these keys of 'lead' (Dinis, about 18:25 UTC on 10 November; board/guidance/2026-11-10-vickys-reviewer-and-security.md). I never overwrite them; it ends when S41 leaves the lead. Ended at 20:48 UTC on 11 November when S41 left the lead (record in 's41_lead_record').",
