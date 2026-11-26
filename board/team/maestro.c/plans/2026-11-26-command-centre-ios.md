@@ -1,51 +1,75 @@
-# The Command Centre: seeing the whole company on a phone
+# The Command Centre: decide, be briefed, escalate (v2)
 
-c.maestro (account-c), 26 Nov 2026, at Dinis's word in c.maestro's session: "we really need a much better UX and environment, not just me, anybody making decisions, to understand the complexity of this ... since we have access to iOS and we can easily push new versions, can you create a plan and let's have a session about using one of our iOS applications? And I'm thinking the SGit-AI [app] ... because a lot of these will be based on top of Vaults."
+c.maestro (account-c), 26 Nov 2026, from Dinis's words in c.maestro's session (~19:30 UTC), in short: a much better way to see what was done in the last 4 hours, day and week; not only his problem but every manager's; at scale, complexity brings decision paralysis; not every decision needs making at every moment, and stopping is good ("we did a bit, we moved the needle, and then we continue"); but being briefed is essential. Today's running commentary mixes the crucial with the FYI. He wants something like RACI, a way to make decisions and be briefed, and a fast escalation path now that there are customers and users. The primitives: an iOS app given to this team, sgit vaults (two-way, append lanes, pushed UIs, even editing the website), the data (repositories, AWS twin, Gmail), and keys (public/private, his passkey).
 
-## The problem
+## 1. Principles
 
-Five or more accounts (cl-1 to cl-6), each with a maestro, dozens of agents, scheduled wakes, request files, sealed inboxes and decision records. Today the only way to see it is to read `from-<a|b|c|d>.md`, ask a maestro, or open sessions one by one. Dinis is the bottleneck for every "yes", and nobody else can see the whole picture. Every maestro brief ends with a list of "waiting on you" that is retyped, scattered and goes stale.
+1. **Every message has a class.** Escalate, Decide, Brief, FYI. Nothing reaches Dinis unclassed. An Escalate interrupts; a Decide waits in a queue; a Brief is read when he chooses; an FYI is never pushed.
+2. **Every item has a RACI.** Responsible (the agent doing it), Accountable (the one person or maestro who answers for it), Consulted (reviewers, e.g. security), Informed (who sees it). Dinis is Accountable only where the rules say so (one-way doors); everything else names an agent.
+3. **Stop is an outcome, not a failure.** Every Decide offers "yes", "no", "not now" and "stop here"; every piece of work can end with "done enough". The app shows what stopped and why, so stopping is visible and cheap to resume.
+4. **Briefs are by time window.** Last 4 hours, last day, last week: what moved, what stopped, what is waiting, by account and by project. Visual first, text second.
+5. **One place.** Accounts, agents, decisions, mail, sites and costs in one app, not five tabs and six inboxes.
 
-## What the app answers, in order
+## 2. The four surfaces
 
-1. **What needs me now?** One list of every decision waiting on a person, across all accounts: what, who asks, why, the recommendation, the link; answer with one tap.
-2. **Is anything on fire?** Accounts near their limits, agents blocked or errored, gates red, deploys stuck.
-3. **What happened?** The wire: every cross-agent message, decision and release, newest first, filterable by account, agent, site.
-4. **Who is who?** Accounts, maestros, agents, their sites and repositories, their keys, their state, as a map.
-
-## Built on vaults, not on sessions
-
-Everything the app shows already exists or nearly exists as data:
-
-| Feed | Source today | Shape |
+| Surface | Answers | Content |
 |---|---|---|
-| Accounts | Site__Agent__Maestro `site/accounts/accounts.json` | id (cl-N), maestro, room, status |
-| Agents' state | `now-<a>.jsonl` (A, D), `status.json` per agent | state, working_on, stuck_on, waiting_on, as_of |
-| Asks for a person | maestros' "waiting on" lines, request files `site/decisions/requests/*.json` | one record per ask |
-| Decisions | Site__Agent__Decisions `site/records/` (signed) | record, signer, scope |
-| The wire | `from-*.md`, the maestros-channel vault, sealed inbox metadata | one event per line |
-| Owner view | a.ios's `owner.feed/v1` (VoiceDebrief) | agents, sites, briefs, decisions |
+| **Now** | Is anything on fire? | Escalations only: security incident, customer or user problem, account near its limit, agent blocked on Dinis, red gate on a live site, deploy stuck. Push notification, one tap to acknowledge, a named owner and a timer. |
+| **Decide** | What needs me? | One queue across all accounts: the ask, the recommendation first, options, RACI, deadline, link. Answers: yes / no / not now (with a date) / stop here, plus a note; signed with the device key. |
+| **Brief** | What happened? | 4 h / 1 d / 1 w: a timeline per account and project (shipped, stopped, waiting), a short written brief by each maestro, and what changed on the live sites (screenshots). |
+| **Inbox** | What came in? | The Gmail tool's triage across Dinis's inboxes: needs reply / waiting / FYI, drafts made by agents; send from the phone via OAuth after review. |
 
-The plan: each maestro publishes one **owner feed** per account (owner.feed/v1, extended with `asks` and `capacity`) into a **sgit vault** that the app reads with a read key: public parts in clear, private parts (people, prospects, connectors) sealed to the reader's key. The SGit-AI app already holds vault keys and reads vaults, so it becomes the reader; no new server.
+Plus **Map** (accounts, maestros, agents, sites, repositories, keys, state) and, later, **Act** (edit a site's page through its vault).
 
-Answers go the other way: the app signs "yes / no / later + note" with the device's key (passkey where possible) and appends it to the asker's lane; b.decisions (and each account's decisions agent) turns a signed answer into a record. Nothing in the app starts, stops or steers an agent by itself: it answers asks.
+## 3. The primitives and how they fit
 
-## Slices (each a TestFlight build Dinis can try)
+- **The iOS app (native):** the reader and the remote control. Renders the four surfaces natively; holds the device key (Secure Enclave) and Dinis's passkey for sign-in and for signing answers.
+- **Vaults (sgit):** the transport and the store. Each account's maestro writes its feeds into a vault every wake: `now`, `asks`, `brief`, `escalations` (one JSON record each, signed). Public parts in clear; private parts (people, prospects, mail) sealed to the readers' keys. Two-way: the app appends answers to the asker's append lane. A vault can also carry a small HTML UI the app shows in a web view, so a new view ships without an App Store release.
+- **Data:** repositories (commits, gates, releases), the maestros' channels, decision records, the AWS twin (costs, alarms, resources), the Gmail tool, and each account's capacity.
+- **Keys and PKI:** every record signed by its agent's published key; every answer signed by Dinis's device key, bound to his passkey; b.decisions and each account's decisions agent turn signed answers into records. Read keys per person decide who sees what (Angela and the team see their part).
 
-1. **Read-only board (1 to 2 days).** Accounts, agents by state, the wire, from public JSON (accounts.json, now-*.jsonl, from-*.md parsed). Maestros start writing `now-<acct>.jsonl` every wake (A and D do; B and C to start).
-2. **The asks inbox (2 to 3 days).** A shared `asks.jsonl` schema; every maestro writes its "waiting on Dinis" items there instead of chat; the app shows them grouped by urgency with the recommendation first.
-3. **Answer with a tap (3 to 5 days).** Signed answers from the device key into the asker's lane; b.decisions records them. security@ reviews before it ships.
-4. **Vault-backed private view (next week).** Owner feed in a vault, sealed parts readable only by named people; other decision makers (Angela and the team) get their own read keys and see their part.
+## 4. Record shapes (draft, one per class)
 
-## Who does what
+Common fields: `id`, `class` (escalate|decide|brief|fyi), `account` (cl-N), `project`, `title`, `summary` (two lines), `raci` {responsible, accountable, consulted[], informed[]}, `links[]`, `created`, `signed_by`.
 
-- **App:** the SGit-AI iOS app's team (an iOS conductor on one account, workers as sub-agents); c.ios (PrompTugal app, account C) shares the shell and TestFlight pipeline.
-- **Feeds:** each maestro (a, b, c, d, f) writes `now` and `asks` each wake; c.maestro drafts the schemas.
-- **Answers and records:** b.decisions with each account's decisions agent; b.security reviews slice 3.
-- **Design:** one designer pass on the board and the asks inbox before slice 2.
+- **escalate:** `severity` (sev1 security or customer harm; sev2 live site or account at limit; sev3 blocked agent), `owner`, `ack_by` (time), `status`.
+- **decide:** `recommendation`, `options[]` (each with does-well / does-badly), `deadline`, `one_way_door` (bool), `answer` (filled by the app: yes|no|not-now|stop + note + signature).
+- **brief:** `window` (4h|1d|1w), `shipped[]`, `stopped[]` (with why), `waiting[]`, `numbers` (capacity, cost).
+- **fyi:** text and link only; never pushed.
 
-## Open for Dinis
+## 5. The escalation path
 
-- Which repository is the SGit-AI iOS app, and which account builds it (C has room this week)?
-- Slice 3: is a tap on a phone, signed by the device key, enough for a "yes" on a one-way door, or only for routine asks?
-- Who else gets a read key in slice 4?
+- **sev1 (security incident, customer or user harmed, a secret exposed):** any agent raises it; it goes straight to Now with a push and to security@; security can write HOLD; Dinis acknowledges within the hour or the maestro of that account stops the affected work.
+- **sev2 (live site down, red gate on a live site, account at its limit):** to Now and to the owning maestro; the maestro acts within its own call (reversible steps) and reports.
+- **sev3 (agent blocked on Dinis):** to Decide, top of the queue, with the exact ask.
+- No other class may push.
+
+## 6. Which app
+
+| Option | Does well | Does badly |
+|---|---|---|
+| **VoiceDebrief iOS** (a.ios, account A) | Already has an Owner section reading `owner.feed/v1` (agents, sites, briefs, decisions): the closest to this; a personal app, so private views fit | Built on account A; this team needs push access and a hand-over with a.ios |
+| **PrompTugal iOS** (c.ios, account C) | Team and TestFlight pipeline already on account C; sealed lanes to the conductor (PTTalk) exist | A public news app in App Review; a private command centre does not belong in its listing |
+| **A new SGit-AI app** | Clean, named for vaults | Starts from nothing; a new App Store record |
+
+**Recommendation:** VoiceDebrief, with the team on account C (c.ios's workers have the skills and room), coordinating with a.ios so one session owns the Owner section; PrompTugal stays the public news app.
+
+## 7. Slices (each a TestFlight build)
+
+1. **Brief and Map, read-only (1 to 2 days):** every maestro writes `brief` (4h) and `now` each wake to its account vault; the app shows the timeline and the map.
+2. **Decide (2 to 3 days):** maestros move every "waiting on Dinis" line into `decide` records; the app shows one queue; answers still go back by hand.
+3. **Signed answers (3 to 5 days):** device key + passkey; answers appended to lanes; b.decisions records them; security@ reviews first; one-way doors stay out until Dinis says so.
+4. **Now and escalation (with 3):** push notifications for sev1/sev2 only.
+5. **Inbox (next week):** the Gmail tool's triage feed and OAuth send after review.
+6. **AWS and Act (later):** AWS twin numbers in Brief; editing a page through its vault.
+
+## 8. What changes for the agents now (no app needed)
+
+From the next wake, every maestro (and c.maestro first) writes its brief to Dinis in four labelled blocks: **Escalate**, **Decide**, **Brief**, **FYI**, with the RACI owner on each Decide. The same records later feed the app.
+
+## 9. Open for Dinis
+
+1. VoiceDebrief or PrompTugal (or a new app)?
+2. Is a tap on the phone, signed with the device key, enough for a one-way door, or only for routine asks?
+3. Who else gets read keys (Angela, the team) and to which parts?
+4. Which inboxes join the Inbox surface first?
