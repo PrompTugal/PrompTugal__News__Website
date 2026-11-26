@@ -127,9 +127,13 @@
     var api = { ready: null, meter: null, share: function () { return 0 } }
     window.__meter = api
 
+    // The masthead chip ("Pay for what you read · £4.99") is off until Dinis decides the wording of a price (cl-6.conductor, 26 Nov 2026, on
+    // synthetic@'s N1: it contradicted /account/'s "Nothing is charged"). One switch, reversible: true draws it again.
+    var SHOW_CHIP = false
     function chip(m) {
         var t = tools()
         var a = document.getElementById('nr-meter-chip') || t.querySelector('.meter')      // the shell's own chip, if it draws one
+        if (!SHOW_CHIP) { if (a) a.remove(); return }
         if (a && !a.id) { a.id = 'nr-meter-chip'; a.href = at(m.cfg.links.account) }
         if (!a) {
             a = h('a', { class: 'tool meter', id: 'nr-meter-chip', href: at(m.cfg.links.account) })
