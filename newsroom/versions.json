@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2301",
+    "date": "2026-11-26",
+    "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "81602c768"
+  },
+  {
     "version": "v0.1.2300",
     "date": "2026-11-26",
     "what": "cl-6.dev@PrompTugal.dinis: place sync: the pin is the key's SHA-256 fingerprint, not the key string",
