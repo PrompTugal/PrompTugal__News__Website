@@ -22,5 +22,13 @@
   "at": "2026-11-16",
   "src": "The local WordPress Faro Meetup met on 16 April 2026 at UALG",
   "ok": false
+ },
+ "a4d315733ce51d3c": {
+  "t": "Iria abordar ferramentas de IA para transcrição, tradução, legendagem, voz-off e acessibilidade, com demonstrações ao vivo da plataforma plain X da Priberam.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "It was to cover AI tools for transcription, translation, sub",
+  "ok": false
  }
 }

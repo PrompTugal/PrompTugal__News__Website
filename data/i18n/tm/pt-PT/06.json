@@ -1,4 +1,12 @@
 {
+ "064c126fef5ff94f": {
+  "t": "[Tech.eu, \"Investment in European startups surges to $81bn\", 18 de novembro de 2026](https://tech.eu/2026/11/18/investment-in-european-startups-surges-to-81bn-but-capital-concentration-is-a-challenge-for-startups-says-atomico/) (que o relatório da Atomico existe e foi publicado a 18 de novembro; não menciona Portugal), lido a 26 de novembro de 2026",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "[Tech.eu, \"Investment in European startups surges to $81bn\",",
+  "ok": false
+ },
  "06fc7012ed170ce1": {
   "t": "Fundos europeus vão levar IA e robótica a 15 empresas de turismo algarvias, e um aviso sobre IA agêntica",
   "by": "translator@PrompTugal.dinis",

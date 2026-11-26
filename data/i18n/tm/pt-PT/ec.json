@@ -22,5 +22,13 @@
   "at": "2026-11-16",
   "src": "The ULS Viseu Dão-Lafões got 5.8 million euros of recovery p",
   "ok": false
+ },
+ "ecece7e526edcc17": {
+  "t": "A COCUS oferece também equipas de engenharia flexíveis, que cobrem soluções digitais, IA e dados, automação inteligente, conectividade e segurança, com trabalho recente em defesa. O seu serviço de recrutamento faz com que os seus engenheiros avaliem tecnicamente cada candidato.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "COCUS also offers flexible engineering teams, covering digit",
+  "ok": false
  }
 }

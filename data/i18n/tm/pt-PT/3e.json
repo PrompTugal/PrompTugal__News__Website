@@ -15,6 +15,14 @@
   "src": "NxN Data Centers bought an operating data centre in Évora, i",
   "ok": false
  },
+ "3eb61c51bc151ce0": {
+  "t": "[Portugal Global (AICEP), \"Portugal enters Europe's top 10 for tech investment\", 24 de novembro de 2026](https://portugalglobal.pt/en/news/2026/novembro/portugal-enters-europe-s-top-10-for-tech-investment/) (todos os números e a afirmação sobre a Tekever), lido a 26 de novembro de 2026",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "[Portugal Global (AICEP), \"Portugal enters Europe's top 10 f",
+  "ok": false
+ },
  "3ec5a9d3ca9a5be0": {
   "t": "O nó de inovação de Ayamonte deverá chegar a Vila Real de Santo António",
   "by": "translator@PrompTugal.dinis",

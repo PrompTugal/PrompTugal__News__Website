@@ -31,12 +31,28 @@
   "src": "Cork, costumes and a quiet pinch of artificial intelligence,",
   "ok": false
  },
+ "65b02bcb6417678a": {
+  "t": "A AICEP diz que o objetivo é estreitar os laços empresariais e tecnológicos entre Portugal e o Quénia.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "AICEP says the aim is closer business and technology ties be",
+  "ok": false
+ },
  "65cedb917842e18e": {
   "t": "Secretário de Estado da digitalização diz ao Algarve que escolha a robótica e a IA como foco do seu polo",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Digitalisation secretary tells the Algarve to pick robotics ",
+  "ok": false
+ },
+ "65f43427df9cef3a": {
+  "t": "A Europa tem 7 por cento da capacidade de computação mundial, contra 72 por cento dos Estados Unidos.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Europe hosts 7 per cent of the world's computing capacity, a",
   "ok": false
  }
 }

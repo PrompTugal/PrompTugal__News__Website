@@ -39,6 +39,14 @@
   "src": "At the Science for Industry fair the institute showed DBoidS",
   "ok": false
  },
+ "15b624de0dce58cd": {
+  "t": "**Sem financiamento nem dimensão.** O perfil não dá investimento, receitas, número de trabalhadores nem nomes de clientes.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**No funding or size.** The profile gives no investment, rev",
+  "ok": false
+ },
  "15bd45b70554b692": {
   "t": "A Ovibeja 2025 coloca a IA na agricultura no centro da feira",
   "by": "translator@PrompTugal.dinis",

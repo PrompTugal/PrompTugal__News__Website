@@ -7,6 +7,14 @@
   "src": "University of Aveiro approves a framework for assessment in ",
   "ok": false
  },
+ "767932482891cbcc": {
+  "t": "A COCUS vende centros de engenharia da região do Porto a empresas que se instalam em Portugal",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "COCUS sells Porto-region engineering hubs to firms setting u",
+  "ok": false
+ },
  "76c522282590fa75": {
   "t": "O Parque de Ciência e Inovação realizou o concurso Rocket Booster Acceleration com a startUP23 e o Turismo de Portugal, aberto a startups com soluções de IA para turismo, destinos inteligentes ou mobilidade. A própria linha de estado da página diz que as candidaturas encerraram, enquanto o corpo do texto ainda parece aberto, pelo que o prazo não é claro.",
   "by": "translator@PrompTugal.dinis",
@@ -21,6 +29,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "After the Leiria Experience Lab programme of Startup Leiria,",
+  "ok": false
+ },
+ "76e9bc54d7ce74bd": {
+  "t": "Um recorde de 40 000 fundadores criou novas empresas tecnológicas na Europa, mais 36 por cento do que um ano antes.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "A record 40,000 founders started new tech companies in Europ",
   "ok": false
  }
 }

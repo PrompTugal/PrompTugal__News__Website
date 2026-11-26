@@ -7,6 +7,14 @@
   "src": "A Faro software firm tested its smart irrigation in Loulé, w",
   "ok": false
  },
+ "1c483eb437b66b01": {
+  "t": "O perfil, que é a promoção que a agência faz de uma empresa portuguesa, diz que a Reach AI tem sede em Lisboa, foi fundada em 2025 e tem clientes em cinco países: Estados Unidos, Reino Unido, Bélgica, Países Baixos e Espanha. Enquadra o trabalho como “transformar uma nova tendência tecnológica numa oportunidade de negócio global”.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "The profile, which is the agency's own promotion of a Portug",
+  "ok": false
+ },
  "1c5396fa89f81c7e": {
   "t": "O Estadio Algarve vai ter um centro multitecnológico com a IA entre as áreas de demonstração",
   "by": "translator@PrompTugal.dinis",
@@ -37,6 +45,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The Intelligence4Administration project, financed by Norte 2",
+  "ok": false
+ },
+ "1cf5fb7fcff7844b": {
+  "t": "**São projeções.** O artigo chama-lhes valores esperados para o ano completo. O relatório da Atomico em si não foi lido quanto aos números de Portugal, pelo que são os que a AICEP transmite.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**These are projections.** The article calls them expected f",
   "ok": false
  }
 }

@@ -23,6 +23,22 @@
   "src": "AI4YouthWork project launches free AI resources for youth wo",
   "ok": false
  },
+ "f59f723bc9384376": {
+  "t": "**Sem provas de resultados.** O perfil relata o que a empresa diz fazer, não o que consegue.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**No evidence of results.** The profile reports what the com",
+  "ok": false
+ },
+ "f5b0a8b5ba55cb17": {
+  "t": "O perfil apresenta números: uma rede de mais de 27 500 profissionais de TI, mais de 400 contratações, dois em cada três candidatos apresentados contratados, um tempo médio de contratação inferior a cinco semanas e um lugar no top 10 do ranking Teamlyzer 2026 de empresas tecnológicas onde trabalhar em Portugal. Diz ainda que a COCUS tem a certificação ISO/IEC 27001 e a marca TISAX, muitas vezes exigida na indústria automóvel. A página não indica o número de trabalhadores da COCUS Portugal.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "The profile gives numbers: a network of more than 27,500 IT ",
+  "ok": false
+ },
  "f5c4b6076c6b6263": {
   "t": "Todas as histórias aqui passam **o teste PrompTugal**: são sobre IA, diretamente ou a dois ou três passos de distância, e o caminho fica escrito junto. O lugar decide onde uma história aparece e que tamanho tem; a IA decide se é nossa de todo. Cada facto liga à sua fonte, com a data em que foi lida. Nada vem do sítio do Web Summit. Os contactos só são mostrados quando um organismo público ou uma organização os publica no seu próprio sítio, com ligação a essa página e a data de leitura; nunca os de uma pessoa privada. Esta página é uma lente sobre [o grafo partilhado da publicação]({graph}); [o PrompTugal.news por lugar]({region}) explica os níveis.",
   "by": "translator@PrompTugal.dinis",

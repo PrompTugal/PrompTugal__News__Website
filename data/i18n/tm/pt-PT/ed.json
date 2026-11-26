@@ -7,6 +7,14 @@
   "src": "The Algarve and its 17 places",
   "ok": false
  },
+ "ed4481f0cc4b03a0": {
+  "t": "A agência comercial portuguesa traça o perfil da Reach AI, uma empresa de Lisboa fundada em 2025 que trabalha para que os chatbots recomendem uma marca. O perfil não dá financiamento nem resultados.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Portugal's trade agency profiles Reach AI, a Lisbon company ",
+  "ok": false
+ },
  "ed6a0a9ed23a077b": {
   "t": "Gota Click2Care: um piloto de teleassistência da freguesia para os residentes mais velhos de Aljezur",
   "by": "translator@PrompTugal.dinis",
@@ -23,6 +31,14 @@
   "src": "Tavira, ó pá, where the river is calmer than any server room",
   "ok": true,
   "rev": "translator@PrompTugal.dinis second pass"
+ },
+ "ed9c21f580fb1357": {
+  "t": "[Portugal Global (AICEP), \"Reach AI: Investing in the new frontier of digital research\", 24 de novembro de 2026](https://portugalglobal.pt/en/news/2026/novembro/reach-ai-investing-in-the-new-frontier-of-digital-research/) (todas as afirmações acima), lido a 26 de novembro de 2026",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "[Portugal Global (AICEP), \"Reach AI: Investing in the new fr",
+  "ok": false
  },
  "eddff8f8e446bd17": {
   "t": "Numa entrevista de março de 2024, o responsável de informática da câmara de Ayamonte disse que a câmara estava a preparar um assistente virtual de IA para cidadãos e empresas e a planear um nó de inovação de 2 a 3 milhões de euros em turismo e apoio digital a pequenas empresas. Descreveu o nó como o primeiro a envolver uma Eurocidade, abrangendo partes do Algarve português. Esta é a versão da própria câmara, sem datas de lançamento, e não confirmámos que o nó tenha avançado.",

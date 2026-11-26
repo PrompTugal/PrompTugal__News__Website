@@ -1,4 +1,12 @@
 {
+ "ca0cfd060b684f24": {
+  "t": "A Smartex foi fundada no Porto em 2018. Usa câmaras com IA para encontrar defeitos no tecido.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Smartex was founded in Porto in 2018. It uses AI cameras to ",
+  "ok": false
+ },
  "ca129ac5a7c65d66": {
   "t": "Uma palestra matinal a 6 de novembro de 2026 na biblioteca pública municipal, integrada no primeiro Festival Literário de Azeitão e Setúbal, ouviu um escritor dizer que a IA ajuda em tarefas factuais mas pode inventar informação, e que usá-la para criar texto retira o propósito da escrita. A responsável pelos serviços de bibliotecas da cidade foi a moderadora.",
   "by": "translator@PrompTugal.dinis",

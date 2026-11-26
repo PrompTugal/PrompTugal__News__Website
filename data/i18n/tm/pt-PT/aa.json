@@ -15,12 +15,28 @@
   "src": "Here is what we could not find, and sim, we looked properly:",
   "ok": false
  },
+ "aa6e06a37b22e6d6": {
+  "t": "O relatório defende também que as famílias europeias detêm 50 biliões de dólares em ativos financeiros e que mover 1 por cento desse valor para capital de risco acrescentaria cerca de 500 mil milhões de dólares. É citado Tom Wehmeier, sócio da Atomico e responsável de inteligência: “Os dados sobre o ecossistema tecnológico europeu deixaram de ser ambíguos há algum tempo.”",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "The report also argues that European households hold 50 tril",
+  "ok": false
+ },
  "aa7a9e7e22958edf": {
   "t": "Por lugar",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "By place",
+  "ok": false
+ },
+ "aa95e26cba21b9c7": {
+  "t": "A Reach AI é uma empresa de Lisboa fundada em 2025. Ajuda as marcas a ganhar visibilidade em plataformas de IA como o ChatGPT, o Gemini e o Claude, e não apenas nos resultados de pesquisa tradicionais.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Reach AI is a Lisbon company founded in 2025. It helps brand",
   "ok": false
  },
  "aa9e0aaa837fe936": {

@@ -7,6 +7,14 @@
   "src": "From PrompTugal.news",
   "ok": false
  },
+ "1a2116ff8a2219ee": {
+  "t": "## Em resumo",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "## In short",
+  "ok": false
+ },
  "1a3ced336dc4f7fa": {
   "t": "Portalegre tece a sua IA à moda lenta, fio a fio. No tear da universidade estão dois projetos de IA para quintas e estudantes, a Kyndryl está ao lado com os seus sensores, um cluster de tecnologia de defesa puxou uma cadeira, e a Câmara, abençoada seja, anda ocupada com canos de água. Investigação e parceiros industriais, sim senhor, não a câmara municipal.",
   "by": "translator@PrompTugal.dinis",
@@ -45,6 +53,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Lisboa is where Portugal's AI money and institutions meet. T",
+  "ok": false
+ },
+ "1ae2a7cdc93c7fe7": {
+  "t": "O relatório State of European Tech 2026, tal como o Tech.eu o relata: número recorde de novos fundadores e de dinheiro, enquanto as primeiras rondas caíram e a Europa detém 7 por cento da capacidade de computação mundial.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "The State of European Tech 2026 report, as Tech.eu reports i",
   "ok": false
  }
 }

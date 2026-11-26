@@ -30,5 +30,13 @@
   "at": "2026-11-16",
   "src": "Bragança's AI activity sits around two neighbours: the polyt",
   "ok": false
+ },
+ "a8deba6480a9332d": {
+  "t": "A AICEP considera o Quénia “um mercado emergente de interesse para as empresas portuguesas” e diz que apoia oportunidades de comércio e investimento entre os dois países.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "AICEP calls Kenya \"an emerging market of interest for Portug",
+  "ok": false
  }
 }

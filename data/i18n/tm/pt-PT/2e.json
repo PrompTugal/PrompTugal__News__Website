@@ -7,6 +7,14 @@
   "src": "A professor of informatics told Lusa that the university's s",
   "ok": false
  },
+ "2e2508827ccd030c": {
+  "t": "Para Portugal, veja o nosso texto separado sobre o relato da AICEP de uma estimativa da Atomico para o país. O próprio artigo do Tech.eu não menciona Portugal.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "For Portugal, see our separate piece on AICEP's report of an",
+  "ok": false
+ },
  "2e513ec94d637d09": {
   "t": "Braga, ai ai ai: uma cidade que toca os sinos para o arcebispo ao domingo e treina os seus modelos à segunda, com um autocarro cheio de câmaras de IA a contar quem estacionou na paragem.",
   "by": "translator@PrompTugal.dinis",

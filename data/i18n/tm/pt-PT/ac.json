@@ -31,6 +31,14 @@
   "src": "Portugal's new Agency for Research and Innovation (AI²) was ",
   "ok": false
  },
+ "ac8a52b4358a1ccf": {
+  "t": "**São números da Atomico, via Tech.eu.** Não lemos o relatório completo.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**These are Atomico's figures, via Tech.eu.** We did not rea",
+  "ok": false
+ },
  "acf78f0164d5f4ca": {
   "t": "Acesso gratuito a supercomputação (incluindo o MareNostrum 5), mentoria e formação para startups e PME de IA registadas na UE com número de contribuinte português, de 5 de outubro de 2026 a 30 de março de 2027. As candidaturas encerraram a 15 de setembro.",
   "by": "translator@PrompTugal.dinis",

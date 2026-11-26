@@ -30,5 +30,13 @@
   "at": "2026-11-16",
   "src": "During an internship with Lagoa council, a student of the Be",
   "ok": false
+ },
+ "2888e3ecf429f4c2": {
+  "t": "A Atomico, uma sociedade de capital de risco, publica um estudo anual sobre a tecnologia europeia. O relato do Tech.eu sobre a edição de 2026 dá os números principais: um investimento em startups europeias de 81 mil milhões de dólares este ano, um ecossistema avaliado em 4,4 biliões de dólares (mais 18 por cento num ano), mais de 450 empresas avaliadas em mais de mil milhões de dólares e 53 delas acima de 10 mil milhões.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Atomico, a venture capital firm, publishes an annual survey ",
+  "ok": false
  }
 }

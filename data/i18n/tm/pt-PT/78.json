@@ -1,10 +1,34 @@
 {
+ "781de45d4903605c": {
+  "t": "O Tech.eu noticiou a 18 de novembro de 2026 que o relatório State of European Tech da Atomico prevê 81 mil milhões de dólares investidos em startups europeias este ano, o segundo nível mais alto de sempre.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Tech.eu reported on 18 November 2026 that Atomico's State of",
+  "ok": false
+ },
+ "78370b33dcf270db": {
+  "t": "O artigo indica o crescimento como 187 por cento. Os dois valores que apresenta, 320 e 910 milhões de dólares, dão cerca de 184 por cento. Apresentamos os valores e deixamos a percentagem fora do nosso resumo.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "The article states the growth as 187 per cent. The two figur",
+  "ok": false
+ },
  "7862b73cf59b4d2c": {
   "t": "A Viseu Dão Lafões realiza a sua primeira Smart Region Summit e mostra uma plataforma de dados e IA para presidentes de câmara",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Viseu Dão Lafões holds its first Smart Region Summit and sho",
+  "ok": false
+ },
+ "786dd29867dfdaca": {
+  "t": "A Deutsche Welle ia descrever a adaptação de conteúdos para públicos em 32 línguas, e a Lesan AI foi indicada como oradora.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Deutsche Welle was to describe adapting content for audience",
   "ok": false
  },
  "78bee850bc310c70": {

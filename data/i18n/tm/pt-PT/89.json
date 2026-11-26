@@ -38,5 +38,13 @@
   "at": "2026-11-16",
   "src": "European AI research network CAIRNE opens its Portuguese hub",
   "ok": false
+ },
+ "89d1899c5c650994": {
+  "t": "Segundo o The Next Web, a Smartex tem cerca de 65 trabalhadores e foi fundada no Porto em 2018. Vende sistemas de IA que procuram defeitos enquanto o tecido passa numa fábrica, trabalho que muitas fábricas ainda fazem à vista.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "According to The Next Web, Smartex has about 65 employees an",
+  "ok": false
  }
 }

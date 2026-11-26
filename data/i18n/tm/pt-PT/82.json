@@ -23,6 +23,14 @@
   "src": "Beja psychologists ask what AI is changing in their professi",
   "ok": false
  },
+ "82d2b16ee7d55c20": {
+  "t": "**Não sabemos o que foi dito.** A fonte é o anúncio, não um relato do evento.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**We do not know what was said.** The source is the announce",
+  "ok": false
+ },
  "82edbd1a4034832d": {
   "t": "A escola de educação de Santarém abre uma aula sobre texto, IA e construção de sentido",
   "by": "translator@PrompTugal.dinis",

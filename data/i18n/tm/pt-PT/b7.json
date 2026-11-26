@@ -23,6 +23,14 @@
   "src": "A computer science teacher at the Dr. Francisco Fernandes Lo",
   "ok": false
  },
+ "b783a9adf5f6d19a": {
+  "t": "**Nada aqui é aconselhamento de investimento,** e nada diz que o capital chegará às empresas em fase inicial.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**Nothing here is investment advice,** and nothing says the ",
+  "ok": false
+ },
  "b797a4126e37d00a": {
   "t": "O Politécnico da Guarda acolhe uma sessão gratuita de demonstração de IA e competências digitais para empresas da região",
   "by": "translator@PrompTugal.dinis",

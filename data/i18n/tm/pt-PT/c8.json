@@ -7,6 +7,14 @@
   "src": "PrompTugal.news Monchique, from the cool of the Serra: AI an",
   "ok": false
  },
+ "c87d899d0b2d583c": {
+  "t": "**A Atomico é um investidor de capital de risco,** pelo que o relatório é também um argumento a favor de mais investimento de capital de risco.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**Atomico is a venture investor,** so the report is also an ",
+  "ok": false
+ },
  "c896571781f3b30f": {
   "t": "PrompTugal.news Porto: IA e tecnologia no Porto, uma cidade universitária e de startups cujo centro de gravidade é a UPTEC, o parque de ciência da Universidade do Porto, as suas startups de IA e os seus institutos de investigação, e o que chega ao Porto vindo de Portugal, da Europa e do mundo. Independente, e cada facto com fonte.",
   "by": "translator@PrompTugal.dinis",
@@ -21,6 +29,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "PrompTugal.news Porto, a Invicta: AI and tech in Porto, with",
+  "ok": false
+ },
+ "c8c26d3754a2249e": {
+  "t": "**São números da empresa,** repetidos no perfil de uma agência comercial. Nenhum foi verificado de forma independente e não abrimos o ranking Teamlyzer.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**These are the company's figures,** repeated in a trade age",
   "ok": false
  }
 }

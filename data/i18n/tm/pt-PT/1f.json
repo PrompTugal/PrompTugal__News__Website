@@ -23,6 +23,14 @@
   "src": "The council supported a March 2024 workshop on deep learning",
   "ok": false
  },
+ "1fa9b2d44e79e2be": {
+  "t": "O perfil não dá números de financiamento, receitas nem clientes.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "The profile gives no funding, revenue or client numbers.",
+  "ok": false
+ },
  "1fc45385ca174033": {
   "t": "A maior agenda tecnológica do plano de recuperação é agora liderada pela Sword Health. O consórcio prevê cerca de 150 milhões de euros de volume de negócios este ano, sobretudo em exportações, e nomeia a Priberam e a NeuralShift entre os seus produtos.",
   "by": "translator@PrompTugal.dinis",

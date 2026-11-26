@@ -1,4 +1,12 @@
 {
+ "ef0ec4669773c40a": {
+  "t": "**As afirmações sobre o produto são do anúncio.** Não dá pormenores nem testes do plain X.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "**The product claims are the announcement's.** It gives no d",
+  "ok": false
+ },
  "ef208fdbc8b0fb7b": {
   "t": "Instalado na Escola Superior de Tecnologia de Setúbal, o polo trabalha em visão computacional, IA e ciência de dados, plataformas de drones e um laboratório de processamento de imagem médica para o diagnóstico do cancro, com protocolos assinados com duas unidades locais de saúde.",
   "by": "translator@PrompTugal.dinis",

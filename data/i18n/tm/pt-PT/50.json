@@ -23,6 +23,14 @@
   "src": "The regional business association NERA hosted a session at C",
   "ok": true
  },
+ "5074f740b1295a69": {
+  "t": "A 24 de novembro de 2026, a AICEP publicou na sua revista Portugal Global um texto intitulado “Portugal enters Europe's top 10 for tech investment”. Diz que se espera que o país atinja 910 milhões de dólares de investimento de capital de risco em 2026, contra 320 milhões em 2025, e que subiria ao 10.º lugar entre os países europeus, vindo do 14.º.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "On 24 November 2026 AICEP published an item in its Portugal ",
+  "ok": false
+ },
  "50849a820822daab": {
   "t": "PrompTugal.news Aveiro, a cidade dos canais: IA e tecnologia em Aveiro, com a Universidade de Aveiro e o Instituto de Telecomunicações como grandes cérebros, a Câmara a organizar a Tech Week, e as notícias que navegam até cá vindas de Portugal, do Brasil e do mundo. Independente, e cada facto vem com recibo.",
   "by": "translator@PrompTugal.dinis",

@@ -22,5 +22,13 @@
   "at": "2026-11-16",
   "src": "The place's agent is finding what {name} is about, from sour",
   "ok": false
+ },
+ "9dec7bb1ded99f44": {
+  "t": "O artigo situa o valor de 2025 em 320 milhões de dólares (291 milhões de euros) e diz que Portugal passaria do 14.º para o 10.º lugar na Europa.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "The article puts the 2025 figure at 320 million dollars (291",
+  "ok": false
  }
 }

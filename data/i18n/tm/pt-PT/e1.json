@@ -22,5 +22,13 @@
   "at": "2026-11-16",
   "src": "Eurocidade do Guadiana tourism pitch made with AI avatars of",
   "ok": false
+ },
+ "e1eeb6d610e99432": {
+  "t": "A Smartex, uma empresa de inspeção têxtil com IA fundada no Porto em 2018, tem um novo presidente e dois novos produtos. O valor da poupança para a H&M é uma estimativa da própria empresa.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Smartex, an AI textile-inspection company founded in Porto i",
+  "ok": false
  }
 }

@@ -6,5 +6,13 @@
   "at": "2026-11-16",
   "src": "The Portuguese startup helps SMEs and startups find public f",
   "ok": false
+ },
+ "d6cda9abbfc2bbe7": {
+  "t": "A AICEP, a agência portuguesa de comércio e investimento, publicou o anúncio na sua revista Portugal Global a 19 de novembro de 2026. O webinar é descrito no futuro, pelo que a página é um anúncio, não um relato do que foi dito.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "AICEP, Portugal's trade and investment agency, published the",
+  "ok": false
  }
 }

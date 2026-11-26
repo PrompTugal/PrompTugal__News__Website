@@ -6,5 +6,13 @@
   "at": "2026-11-16",
   "src": "GDG Faro's free conference runs on 27 and 28 November at the",
   "ok": false
+ },
+ "83e18bdc0bbeb318": {
+  "t": "A 19 de novembro de 2026, a Fortune e o The Next Web noticiaram que Tony Fadell, que ajudou a criar o iPod e o iPhone, é agora presidente da Smartex.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "On 19 November 2026 Fortune and The Next Web reported that T",
+  "ok": false
  }
 }

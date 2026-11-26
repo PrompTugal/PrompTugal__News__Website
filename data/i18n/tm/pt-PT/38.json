@@ -31,6 +31,14 @@
   "src": "Vila Real's children's assembly debates AI",
   "ok": false
  },
+ "3861ceefc1a1339e": {
+  "t": "## O que isto não afirma",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "## What this does not claim",
+  "ok": false
+ },
  "38726af755a9041b": {
   "t": "**A identidade deste site:** {key} em [board/keys.json]({keys}); não foi possível verificar a assinatura de `{file}`.",
   "by": "translator@PrompTugal.dinis",
@@ -53,6 +61,14 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The council and the University of Algarve met in April 2026 ",
+  "ok": false
+ },
+ "38c38d6395f767f4": {
+  "t": "Uma estimativa da Atomico, divulgada pela agência portuguesa de comércio e investimento, coloca o capital de risco em Portugal em 910 milhões de dólares em 2026, contra 320 milhões, com uma ronda de setembro da Tekever a explicar grande parte da subida.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "An Atomico estimate, relayed by Portugal's trade and investm",
   "ok": false
  },
  "38d3e7192f1cc031": {

@@ -46,5 +46,13 @@
   "at": "2026-11-16",
   "src": "Faro, oh pá: where the storks nest on the bell tower, the la",
   "ok": false
+ },
+ "adb0692d7f07ec10": {
+  "t": "## Quem fez isto",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "## Who made this",
+  "ok": false
  }
 }
