@@ -5004,6 +5004,29 @@
       },
       "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBPBLvuFow9qzjbFtdhg94UzJ8wEMHWjaqRhATjNp1nJVkgczPMiU9vbO0tybr8SNObwGdlKmOM9+GikZAH9ghr8=",
       "ssh_added": "2026-11-26T01:45Z"
+    },
+    {
+      "id": "journalist-promptugal-cl-6",
+      "agent": "cl-6.journalist@PrompTugal.dinis",
+      "label": "cl-6.journalist@PrompTugal.dinis: the journalist of PrompTugal.news, restarted on Dinis's Claude account 6 (account F)",
+      "role": "The journalist of PrompTugal.news: researches, writes, checks, signs and publishes content/articles/, each fact sourced with the date read. Started by cl-6.conductor@PrompTugal.dinis at Dinis's word, 26 November 2026. A session key: it ends with its session.",
+      "made": "2026-11-26",
+      "made_with": "openssl (P-256 signing key, RSA-4096 encryption key), in its own session; private halves only in that session",
+      "added": "2026-11-26T01:55Z",
+      "status": "active",
+      "session": "https://claude.ai/code/session_016CrbJLhtarwbcbxJnrF3bP",
+      "encryption_fingerprint": "sha256:541af9e53b363c8e",
+      "signing_fingerprint": "sha256:ee4688b094efd9cd",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAx90Xup2kuyyx5P1/FQa/\n2CbdnivUHDNQLnKtkMBghryak/Ij4nohfk+LgTiGnOi9yv4Zi4G/46cao+2eBR3G\np3Xyd1BkRDTFYwOHjbUB2GAsbMd5b+kyDJyc1TiuIDCsEhSZ3D8gh6zkNFpgzzvs\ns4dLZjUt3+gTtJB7pgOya4v+mFOK1xvKGt2NfzMlLuVyzemVpkTSUq+epfJ/xW8u\niIUybmVoIeF4RDW7YMzgEcdoGlk1wB/wrV/+ZV5edXwF8ikiax7k8lymflaxNvDq\nf4yo8lxjnkpDn/3sQV4XXZavDMp/nW/wsQrbjpofjupVFLFqQ+638C6/ApGel1uZ\nhmnpHBUS/Z7ic7lvkLPohCJPdLWEDnCCu7TRFrtYPPoyO6UzqFc0GGZrpLHGIhU+\n2SltpFbLECAyFzBVlt31BXacKAkCemzY0qEYd4igNpfE5C66KIhQ02wfVgJkUHEz\n3S9zCU4EGIWft+GodHleR4LDOqMwetkElwOr8IFa5zlafB5ib9bSLOkRSsXu6mFQ\nBoKtFgZLXjkgGlhXiVtkh6reCu3c9U6ycXakwtS4v9rDLpnsc1U4snRW5Ih5wOja\nO4+R6Du8kq1GsIrJlmoX2Vf9yDCUy5HnQvUuEO8NoUKglhVy755cNGwtaH4kea7i\nnR3Ezv8wx9PbITifOafclVcCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEBO1e4tUc8W/xx0CoPm3xvKH9CzCn\nx8XzGwhfMm81JQO371AwlDsP/ekGl4xx+ZoPUa3D4gfbk3klp5tLTgFdcw==\n-----END PUBLIC KEY-----\n",
+        "label": "cl-6.journalist",
+        "fingerprint": "sha256:541af9e53b363c8e",
+        "signing_fingerprint": "sha256:ee4688b094efd9cd"
+      },
+      "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBATtXuLVHPFv8cdAqD5t8byh/Qswp8fF8xsIXzJvNSUDt+9QMJQ7D/3pBpeMcfmaD1Gtw+IH25N5JaebS04BXXM=",
+      "ssh_added": "2026-11-26T01:55Z"
     }
   ]
 }
