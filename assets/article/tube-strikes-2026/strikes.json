@@ -1,0 +1,108 @@
+{
+ "title": "The eight Tube driver strike windows, Nov 2026 to Feb 2027",
+ "note": "Times from TfL's press release PN-259 of 23 Nov 2026. Dates after the first may change.",
+ "strikes": [
+  {
+   "n": 1,
+   "start": "2026-11-26T12:00:00",
+   "end": "2026-11-27T11:59:00",
+   "tz": "Europe/London",
+   "source_url": "https://tfl-newsroom.prgloo.com/news/tfl-advises-customers-to-plan-ahead-of-strike-action-on-the-london-underground-network",
+   "source_date": "2026-11-23",
+   "read_on": "2026-11-26",
+   "status": "in progress"
+  },
+  {
+   "n": 2,
+   "start": "2026-12-17T12:00:00",
+   "end": "2026-12-18T11:59:00",
+   "tz": "Europe/London",
+   "source_url": "https://tfl-newsroom.prgloo.com/news/tfl-advises-customers-to-plan-ahead-of-strike-action-on-the-london-underground-network",
+   "source_date": "2026-11-23",
+   "read_on": "2026-11-26",
+   "status": "announced, may change"
+  },
+  {
+   "n": 3,
+   "start": "2026-12-19T12:00:00",
+   "end": "2026-12-20T11:59:00",
+   "tz": "Europe/London",
+   "source_url": "https://tfl-newsroom.prgloo.com/news/tfl-advises-customers-to-plan-ahead-of-strike-action-on-the-london-underground-network",
+   "source_date": "2026-11-23",
+   "read_on": "2026-11-26",
+   "status": "announced, may change"
+  },
+  {
+   "n": 4,
+   "start": "2027-01-04T12:00:00",
+   "end": "2027-01-05T11:59:00",
+   "tz": "Europe/London",
+   "source_url": "https://tfl-newsroom.prgloo.com/news/tfl-advises-customers-to-plan-ahead-of-strike-action-on-the-london-underground-network",
+   "source_date": "2026-11-23",
+   "read_on": "2026-11-26",
+   "status": "announced, may change"
+  },
+  {
+   "n": 5,
+   "start": "2027-01-06T12:00:00",
+   "end": "2027-01-07T11:59:00",
+   "tz": "Europe/London",
+   "source_url": "https://tfl-newsroom.prgloo.com/news/tfl-advises-customers-to-plan-ahead-of-strike-action-on-the-london-underground-network",
+   "source_date": "2026-11-23",
+   "read_on": "2026-11-26",
+   "status": "announced, may change"
+  },
+  {
+   "n": 6,
+   "start": "2027-02-17T12:00:00",
+   "end": "2027-02-18T11:59:00",
+   "tz": "Europe/London",
+   "source_url": "https://tfl-newsroom.prgloo.com/news/tfl-advises-customers-to-plan-ahead-of-strike-action-on-the-london-underground-network",
+   "source_date": "2026-11-23",
+   "read_on": "2026-11-26",
+   "status": "announced, may change"
+  },
+  {
+   "n": 7,
+   "start": "2027-02-23T12:00:00",
+   "end": "2027-02-24T11:59:00",
+   "tz": "Europe/London",
+   "source_url": "https://tfl-newsroom.prgloo.com/news/tfl-advises-customers-to-plan-ahead-of-strike-action-on-the-london-underground-network",
+   "source_date": "2026-11-23",
+   "read_on": "2026-11-26",
+   "status": "announced, may change"
+  },
+  {
+   "n": 8,
+   "start": "2027-02-25T12:00:00",
+   "end": "2027-02-26T11:59:00",
+   "tz": "Europe/London",
+   "source_url": "https://tfl-newsroom.prgloo.com/news/tfl-advises-customers-to-plan-ahead-of-strike-action-on-the-london-underground-network",
+   "source_date": "2026-11-23",
+   "read_on": "2026-11-26",
+   "status": "announced, may change"
+  }
+ ],
+ "strike1_by_line": [
+  {
+   "service": "Circle and Piccadilly lines",
+   "state": "none",
+   "when": "all day"
+  },
+  {
+   "service": "Waterloo & City line",
+   "state": "none",
+   "when": "after 12:00"
+  },
+  {
+   "service": "All other Underground lines",
+   "state": "disrupted",
+   "when": "from about 12:00"
+  },
+  {
+   "service": "Elizabeth line, DLR, Overground, buses, trams",
+   "state": "running",
+   "when": "expected to run, possibly busier"
+  }
+ ]
+}
