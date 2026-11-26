@@ -3,6 +3,7 @@
 // derivation makes now (newsroom/tools/derive.mjs --check, in memory).
 import fs from 'node:fs'
 import path from 'node:path'
+import { checkMediaContact } from './media-contact.mjs'
 import { R, walk } from './config.mjs'
 import { loadSchemas, validate } from './schema.mjs'
 import { derive } from './derive.mjs'
@@ -142,11 +143,12 @@ export function checkData() {
     for (const o of s.organisations) {
         const w = `data/organisations/${o.id}`
         if (!!o.kind !== !!o.media) { errors.push(`${w}: kind/media mismatch`); continue }
+        if (!o.media && (o.contact || o.media_contact)) { errors.push(...checkMediaContact(o)); continue }
         if (!o.media) continue
         for (const r of o.media.places_covered) need(w, r)
         need(w, o.media.owner?.org)
         for (const x of o.media.people || []) { for (const r of x.places || []) need(w, r); need(w, x.person) }
-        if (o.media.contact?.official_email && /^(?:[a-z]+\.[a-z]+|[a-z]\.[a-z]+)@/.test(o.media.contact.official_email)) errors.push(`${w}: official_email is personal`)
+        errors.push(...checkMediaContact(o))   // role mailbox, own domain, https page, read date, no phone (cl-6.security's five conditions)
         for (const x of o.media.people || []) if (/@|\+?\d{9}/.test(`${x.name} ${x.role} ${x.beat || ''}`)) errors.push(`${w}: contact detail in a person`)
     }
     for (const t of s.topics) for (const b of t.broader) need(`data/topics/${t.id}`, b)
