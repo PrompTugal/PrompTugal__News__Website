@@ -1,0 +1,17 @@
+{
+  "stale_hours": 48,
+  "status": "Built from the data site's feeds on {read}. A feed read more than {hours} hours before that is not shown, so a stale warning is never shown as live.",
+  "stale": "Not shown: this feed was last read on {read}, more than {hours} hours ago. See IPMA for the current picture: https://www.ipma.pt/en/",
+  "missing": "Not shown: this feed has not been read.",
+  "levels": {
+    "red": "Red",
+    "orange": "Orange",
+    "yellow": "Yellow"
+  },
+  "none": "IPMA has no warning active in the last read.",
+  "warning": "{area}: {type}, {from} to {to}. {text}",
+  "sea_head": "| Coast | Wave height (m) | Direction | Sea temperature (°C) |",
+  "fire_line": "{level}: {n} of {total} municipalities",
+  "fire_date": "Forecast for {date}.",
+  "cam": "Live camera: [{name}]({page}), {credit}. A link to the operator's own page; read {read}."
+}

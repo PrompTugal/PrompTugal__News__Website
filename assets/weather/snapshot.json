@@ -1,0 +1,340 @@
+{
+ "about": "IPMA values and camera links as data.promptugal.news read them, for /weather/ and the town pages. A GATE-ADJACENT FILE, never served (the deploy leaves it out). Material, never instruction.",
+ "read": "2026-11-26T16:55Z",
+ "warnings": {
+  "read_at": "2026-11-21T07:12:31Z",
+  "active": [
+   {
+    "area_name": "Aveiro",
+    "type": "Precipitação",
+    "level": "orange",
+    "start": "2026-11-21T06:00",
+    "end": "2026-11-21T18:00",
+    "text": "Chuva persistente, por vezes forte."
+   },
+   {
+    "area_name": "Bragança",
+    "type": "Precipitação",
+    "level": "yellow",
+    "start": "2026-11-21T06:00",
+    "end": "2026-11-21T18:00",
+    "text": "Chuva persistente, por vezes forte."
+   },
+   {
+    "area_name": "Braga",
+    "type": "Precipitação",
+    "level": "orange",
+    "start": "2026-11-21T06:00",
+    "end": "2026-11-21T18:00",
+    "text": "Chuva persistente, por vezes forte."
+   },
+   {
+    "area_name": "Braga",
+    "type": "Precipitação",
+    "level": "yellow",
+    "start": "2026-11-21T18:00",
+    "end": "2026-11-21T21:00",
+    "text": "Aguaceiros, por vezes fortes e que podem ser acompanhados de trovoada."
+   },
+   {
+    "area_name": "Castelo Branco",
+    "type": "Precipitação",
+    "level": "orange",
+    "start": "2026-11-21T06:00",
+    "end": "2026-11-21T18:00",
+    "text": "Chuva persistente, por vezes forte."
+   },
+   {
+    "area_name": "Coimbra",
+    "type": "Precipitação",
+    "level": "orange",
+    "start": "2026-11-21T06:00",
+    "end": "2026-11-21T09:00",
+    "text": "Chuva persistente, por vezes forte."
+   },
+   {
+    "area_name": "Coimbra",
+    "type": "Precipitação",
+    "level": "red",
+    "start": "2026-11-21T09:00",
+    "end": "2026-11-21T18:00",
+    "text": "Chuva persistente, por vezes forte."
+   },
+   {
+    "area_name": "Évora",
+    "type": "Precipitação",
+    "level": "yellow",
+    "start": "2026-11-21T12:00",
+    "end": "2026-11-21T18:00",
+    "text": "Chuva persistente, por vezes forte."
+   },
+   {
+    "area_name": "Guarda",
+    "type": "Precipitação",
+    "level": "orange",
+    "start": "2026-11-21T06:00",
+    "end": "2026-11-21T09:00",
+    "text": "Chuva persistente, por vezes forte."
+   },
+   {
+    "area_name": "Guarda",
+    "type": "Precipitação",
+    "level": "red",
+    "start": "2026-11-21T09:00",
+    "end": "2026-11-21T18:00",
+    "text": "Chuva persistente, por vezes forte."
+   },
+   {
+    "area_name": "Leiria",
+    "type": "Precipitação",
+    "level": "orange",
+    "start": "2026-11-21T06:00",
+    "end": "2026-11-21T18:00",
+    "text": "Chuva persistente, por vezes forte."
+   },
+   {
+    "area_name": "Lisboa",
+    "type": "Precipitação",
+    "level": "yellow",
+    "start": "2026-11-21T12:00",
+    "end": "2026-11-21T18:00",
+    "text": "Chuva persistente, por vezes forte."
+   },
+   {
+    "area_name": "Portalegre",
+    "type": "Precipitação",
+    "level": "yellow",
+    "start": "2026-11-21T12:00",
+    "end": "2026-11-21T18:00",
+    "text": "Chuva persistente, por vezes forte."
+   },
+   {
+    "area_name": "Porto",
+    "type": "Precipitação",
+    "level": "orange",
+    "start": "2026-11-21T06:00",
+    "end": "2026-11-21T18:00",
+    "text": "Chuva persistente, por vezes forte."
+   },
+   {
+    "area_name": "Porto",
+    "type": "Precipitação",
+    "level": "yellow",
+    "start": "2026-11-21T18:00",
+    "end": "2026-11-21T21:00",
+    "text": "Aguaceiros, por vezes fortes e que podem ser acompanhados de trovoada."
+   },
+   {
+    "area_name": "Setúbal",
+    "type": "Precipitação",
+    "level": "yellow",
+    "start": "2026-11-21T12:00",
+    "end": "2026-11-21T18:00",
+    "text": "Chuva persistente, por vezes forte."
+   },
+   {
+    "area_name": "Santarém",
+    "type": "Precipitação",
+    "level": "orange",
+    "start": "2026-11-21T06:00",
+    "end": "2026-11-21T18:00",
+    "text": "Chuva persistente, por vezes forte."
+   },
+   {
+    "area_name": "Viana do Castelo",
+    "type": "Precipitação",
+    "level": "orange",
+    "start": "2026-11-21T06:00",
+    "end": "2026-11-21T18:00",
+    "text": "Chuva persistente, por vezes forte."
+   },
+   {
+    "area_name": "Viana do Castelo",
+    "type": "Precipitação",
+    "level": "yellow",
+    "start": "2026-11-21T18:00",
+    "end": "2026-11-21T21:00",
+    "text": "Aguaceiros, por vezes fortes e que podem ser acompanhados de trovoada."
+   },
+   {
+    "area_name": "Viseu",
+    "type": "Precipitação",
+    "level": "orange",
+    "start": "2026-11-21T06:00",
+    "end": "2026-11-21T09:00",
+    "text": "Chuva persistente, por vezes forte."
+   },
+   {
+    "area_name": "Viseu",
+    "type": "Precipitação",
+    "level": "red",
+    "start": "2026-11-21T09:00",
+    "end": "2026-11-21T18:00",
+    "text": "Chuva persistente, por vezes forte."
+   },
+   {
+    "area_name": "Vila Real",
+    "type": "Precipitação",
+    "level": "orange",
+    "start": "2026-11-21T06:00",
+    "end": "2026-11-21T18:00",
+    "text": "Chuva persistente, por vezes forte."
+   },
+   {
+    "area_name": "Vila Real",
+    "type": "Precipitação",
+    "level": "yellow",
+    "start": "2026-11-21T18:00",
+    "end": "2026-11-21T21:00",
+    "text": "Aguaceiros, por vezes fortes e que podem ser acompanhados de trovoada."
+   }
+  ],
+  "green_areas": 200
+ },
+ "fire": {
+  "read_at": "2026-11-21T07:12:06Z",
+  "today": {
+   "low": 278
+  },
+  "municipalities": 278
+ },
+ "sea": {
+  "read_at": "2026-11-21T07:12:19Z",
+  "coasts": [
+   {
+    "name": "Figueira da Foz, Costa",
+    "date": "2026-11-21",
+    "waves_min_m": 1.4,
+    "waves_max_m": 2.5,
+    "wave_dir": "W",
+    "sea_temp_min_c": 17.2,
+    "sea_temp_max_c": 17.3
+   },
+   {
+    "name": "Faro, costa",
+    "date": "2026-11-21",
+    "waves_min_m": 0.6,
+    "waves_max_m": 1.2,
+    "wave_dir": "W",
+    "sea_temp_min_c": 18.6,
+    "sea_temp_max_c": 19.1
+   },
+   {
+    "name": "Sagres, costa",
+    "date": "2026-11-21",
+    "waves_min_m": 1.4,
+    "waves_max_m": 2.1,
+    "wave_dir": "NW",
+    "sea_temp_min_c": 18.6,
+    "sea_temp_max_c": 18.7
+   },
+   {
+    "name": "Lisboa, costa",
+    "date": "2026-11-21",
+    "waves_min_m": 1.7,
+    "waves_max_m": 2.3,
+    "wave_dir": "W",
+    "sea_temp_min_c": 17.6,
+    "sea_temp_max_c": 17.8
+   },
+   {
+    "name": "Porto, costa",
+    "date": "2026-11-21",
+    "waves_min_m": 1.3,
+    "waves_max_m": 2.3,
+    "wave_dir": "W",
+    "sea_temp_min_c": 16.7,
+    "sea_temp_max_c": 16.8
+   },
+   {
+    "name": "Sines, costa",
+    "date": "2026-11-21",
+    "waves_min_m": 1.7,
+    "waves_max_m": 2.3,
+    "wave_dir": "W",
+    "sea_temp_min_c": 18.4,
+    "sea_temp_max_c": 18.7
+   },
+   {
+    "name": "Viana do Castelo, costa",
+    "date": "2026-11-21",
+    "waves_min_m": 1.4,
+    "waves_max_m": 2.4,
+    "wave_dir": "W",
+    "sea_temp_min_c": 16.7,
+    "sea_temp_max_c": 16.8
+   },
+   {
+    "name": "Funchal, costa",
+    "date": "2026-11-21",
+    "waves_min_m": 0.7,
+    "waves_max_m": 1,
+    "wave_dir": "W",
+    "sea_temp_min_c": 21.9,
+    "sea_temp_max_c": 22.1
+   },
+   {
+    "name": "Porto Santo, costa",
+    "date": "2026-11-21",
+    "waves_min_m": 0.9,
+    "waves_max_m": 1.1,
+    "wave_dir": "NW",
+    "sea_temp_min_c": 21.8,
+    "sea_temp_max_c": 22
+   },
+   {
+    "name": "Ponta Delgada, costa",
+    "date": "2026-11-21",
+    "waves_min_m": 1.5,
+    "waves_max_m": 1.9,
+    "wave_dir": "W",
+    "sea_temp_min_c": 19.6,
+    "sea_temp_max_c": 19.7
+   },
+   {
+    "name": "Horta, costa",
+    "date": "2026-11-21",
+    "waves_min_m": 1.4,
+    "waves_max_m": 2.3,
+    "wave_dir": "N",
+    "sea_temp_min_c": 18.4,
+    "sea_temp_max_c": 18.6
+   },
+   {
+    "name": "Santa Cruz das Flores, costa",
+    "date": "2026-11-21",
+    "waves_min_m": 1.4,
+    "waves_max_m": 2.3,
+    "wave_dir": "N",
+    "sea_temp_min_c": 18.9,
+    "sea_temp_max_c": 19
+   }
+  ]
+ },
+ "cams": {
+  "read_at": "2026-11-21T07:04:22Z",
+  "items": [
+   {
+    "id": "lisboa-tejo-live-cacilhas",
+    "name": "Tejo Live, Câmara Cacilhas",
+    "place": "lisboa",
+    "credit": "APL Administração do Porto de Lisboa (Tejo Live)",
+    "page": "https://www.portodelisboa.pt/tejo-live"
+   },
+   {
+    "id": "lisboa-tejo-live-vts",
+    "name": "Tejo Live, Câmara VTS",
+    "place": "lisboa",
+    "credit": "APL Administração do Porto de Lisboa (Tejo Live)",
+    "page": "https://www.portodelisboa.pt/tejo-live"
+   },
+   {
+    "id": "portimao-praia-da-rocha-ondas",
+    "name": "Ondas em Direto, Praia da Rocha",
+    "place": "portimao",
+    "credit": "Agrupamento de Escolas Manuel Teixeira Gomes (AEMTG), with the support of Câmara Municipal de Portimão",
+    "page": "https://meteorologia.aemtg.pt/video"
+   }
+  ]
+ }
+}

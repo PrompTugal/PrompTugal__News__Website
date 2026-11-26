@@ -5,6 +5,7 @@
 // The Portugal level is the existing portugal/ page, which links here. Built by conductor@PrompTugal.dinis at Dinis's
 // word (15 Nov 2026, for his meeting with Algarve Evolution); dev@ owns it from here.
 export const order = 69
+import { camLines } from './weather.mjs'
 import { checkSites } from '../../../board/abp/tools/site-identity.mjs'
 import { execFileSync } from 'node:child_process'
 import fs from 'node:fs'
@@ -162,6 +163,7 @@ function nowBlock(ctx, p, L) {
     const t = s => String(s || '').slice(11, 16) + ' UTC', out = []
     if (d.airport) out.push(`- **Faro airport** ${d.airport.airline.length} airline, ${d.airport.other_aircraft} other, ${d.airport.within_nm} nm${d.airport.airline.length ? ` (${d.airport.airline.slice(0, 6).map(a => esc(ctx, a.callsign)).join(', ')})` : ''} *[adsb.lol](${d.airport.page || d.airport.source}), ${d.airport.stale ? 'last read ' : ''}${t(d.airport.at)}*`)   // stale: the collector kept the last read (dev@, 17 Nov)
     out.push(`- ${W(L, 'now_weather', { name: esc(ctx, p.name), url: WEATHER(p.id) })}`)
+    for (const c of camLines(ctx, p.id)) out.push(`- ${c}`)   // cleared operators' own pages, as links, while their feed is under 48 hours old
     return `{.mini-h}\n${W(L, 'h_now', { name: esc(ctx, p.name) })}\n\n{.bp-now}\n${out.join('\n')}\n\n`
 }
 

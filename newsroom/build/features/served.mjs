@@ -30,7 +30,7 @@ export function final(ctx) {
     // and the signed twins of withdrawn articles (data/site/withdrawn.json; standing answer 47 on the team site)
     // and ontologist@'s websummit-only inventory: refs only, but it names every person and session that comes off (the
     // pass 2026-11-11-only-websummit-sourced-comes-off, step 2)
-    const keep = ['data/websummit-only.json', DROP, 'api/v1/i18n/segments.json']   // and this list itself: with the switch on it names the files it keeps out
+    const keep = ['data/websummit-only.json', DROP, 'api/v1/i18n/segments.json', 'assets/weather/snapshot.json']   // and this list itself: with the switch on it names the files it keeps out
     // the raw live files hold IPMA's values, non-profit use only; promptugal.news bills, so they are not served here (Dinis,
     // 18 Nov 23:45: board/guidance/2026-11-18-billing-only-on-the-main-site.md); weather.promptugal.news and the data site show them
     keep.push(...execFileSync('git', ['ls-files', 'data/by-place/now/'], { cwd: ctx.ROOT }).toString().split('\n').filter(Boolean))
