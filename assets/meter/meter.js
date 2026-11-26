@@ -231,7 +231,7 @@
             h('h2', { id: 'history' }, 'What you have read'),
             rows.length
                 ? h('div', { class: 'table' }, h('table', { class: 'ledger' },
-                    h('thead', {}, h('tr', {}, h('th', {}, 'Page'), h('th', {}, 'Kind'), h('th', { class: 'num' }, 'Read'), h('th', { class: 'num' }, 'Rated'), h('th', { class: 'num' }, 'Charged'))),
+                    h('thead', {}, h('tr', {}, h('th', {}, 'Page'), h('th', {}, 'Kind'), h('th', { class: 'num' }, 'Read'), h('th', { class: 'num' }, 'Rated'), h('th', { class: 'num' }, 'Used'))),
                     h('tbody', {}, rows)))
                 : h('p', { class: 'empty' }, 'Nothing yet: the pages you read appear here, with what each cost.'),
             log.length > 50 && !showAll ? h('p', {}, h('button', { type: 'button', class: 'btn quiet', onclick: function () { el.setAttribute('data-all', '1'); accountView(m, el) } }, 'Show all ' + log.length)) : null,

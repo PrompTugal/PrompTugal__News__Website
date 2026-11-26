@@ -70,4 +70,5 @@
 .nr-foot > summary::-webkit-details-marker { display: none; }
 .nr-foot > summary a { color: var(--brand, #006600); }
 .nr-foot-in { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; margin-top: 8px; }
-@media (max-width: 767px) { .ctop-tools .tool.meter, .tool.meter { display: none !important; } }
+/* on a phone the figure stays and the label goes (designer@'s spec of 26 Nov 2026: a phone reader sees the balance; it was hidden outright) */
+@media (max-width: 767px) { .tool.meter .meter-label, .ctop-tools .tool.meter .meter-label, html[data-top="c"] .ctop-tools .tool.meter .meter-label { display: none !important; } }
