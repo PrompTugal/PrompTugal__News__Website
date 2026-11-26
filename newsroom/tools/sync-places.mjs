@@ -26,7 +26,7 @@ import { fileURLToPath } from 'node:url'
 import crypto from 'node:crypto'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..')
-const TRAILER = /^Agent: cl-6\.places@PrompTugal\.dinis$/m
+const trailerOf = agent => new RegExp('^Agent: ' + String(agent).replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '$', 'm')   // the trailer a signer's commits carry: its own agent name
 const HOME_URL = /^https:\/\/github\.com\/PrompTugal\/PrompTugal__Agent__Place__[A-Za-z0-9-]+$/
 
 const sha = b => crypto.createHash('sha256').update(b).digest('hex')
@@ -34,11 +34,22 @@ const git = (cwd, args, env = {}) => execFileSync('git', args, { cwd, encoding: 
 const tryGit = (cwd, args, env) => { try { return git(cwd, args, env) } catch { return null } }
 
 // the pinned signer, or null (fail closed)
-export function readPin(file = path.join(ROOT, 'newsroom/tools/place-signers.json')) {
-    let j; try { j = JSON.parse(fs.readFileSync(file, 'utf8')) } catch { return null }
-    const s = (j.signers || [])[0]
-    return s && s.agent && /^SHA256:[A-Za-z0-9+/]{43}$/.test(s.ssh_fingerprint || '') ? { agent: s.agent, home_key_path: s.home_key_path || 'site/keys/cl-6.places.json', fingerprint: s.ssh_fingerprint } : null
+const FPRE = /^SHA256:[A-Za-z0-9+/]{43}$/
+// every pinned signer: the first covers all places not named by another; a later one covers only the places it names, read from its own home (a PrompTugal
+// Place home URL) at its own data path, so no signer can speak for a place that is not its own (cl-6.dev, 26 Nov 2026, for London)
+export function readPins(file = path.join(ROOT, 'newsroom/tools/place-signers.json')) {
+    let j; try { j = JSON.parse(fs.readFileSync(file, 'utf8')) } catch { return [] }
+    return (j.signers || []).map((s, i) => {
+        if (!s || !s.agent || !FPRE.test(s.ssh_fingerprint || '')) return null
+        const pin = { agent: s.agent, home_key_path: s.home_key_path || 'site/keys/cl-6.places.json', fingerprint: s.ssh_fingerprint }
+        if (i === 0) return pin
+        const own = Array.isArray(s.places) && s.places.length && s.places.every(x => /^[a-z0-9-]+$/.test(x)) && HOME_URL.test(s.home || '') && /^(?!.*\.\.)[A-Za-z0-9._/-]+\.json$/.test(s.data_path || '')
+        return own ? { ...pin, places: s.places, home: s.home, data_path: s.data_path } : null
+    }).filter(Boolean)
 }
+export function readPin(file) { return readPins(file)[0] || null }
+// the pin that speaks for a place: the signer that names it, else the first
+export const pinFor = (pins, id) => pins.slice(1).find(p => p.places.includes(id)) || pins[0] || null
 
 // the SHA-256 fingerprint of an ecdsa-sha2-nistp256 public key string, or ''
 export function fingerprintOf(ssh) {
@@ -66,7 +77,7 @@ export function signedVersion(dir, head, pin, file, depth = 30) {
         for (const c of shas) {
             const good = tryGit(dir, ['-c', 'gpg.format=ssh', '-c', 'gpg.ssh.program=ssh-keygen', '-c', `gpg.ssh.allowedSignersFile=${allowed}`, 'verify-commit', c]) !== null   // the verifier is named here, not taken from whatever git config is around
             const msg = tryGit(dir, ['show', '-s', '--format=%B', c]) || ''
-            if (good && TRAILER.test(msg)) { const bytes = tryGit(dir, ['show', `${c}:${file}`]); if (bytes != null) return { commit: c, bytes, skipped } }
+            if (good && trailerOf(pin.agent).test(msg)) { const bytes = tryGit(dir, ['show', `${c}:${file}`]); if (bytes != null) return { commit: c, bytes, skipped } }
             skipped++
         }
         return null
@@ -81,9 +92,10 @@ export function syncHome({ dir, id, pin, siteRoot = ROOT, validate = null, dry =
     const key = homeKeyMatches(dir, head, pin); if (!key.ok) { out.stop = key.why; return out }
     out.head = head
     pin = { ...pin, ssh: key.ssh }   // the key string to verify with: the home's, proven to be the pinned key by its fingerprint
-    for (const rel of [`data/by-place/${id}.json`, `data/by-place/now/${id}.json`]) {
-        if (tryGit(dir, ['cat-file', '-e', `${head}:${rel}`]) === null) continue   // the home has no such file (a now/ file only the Algarve has)
-        const v = signedVersion(dir, head, pin, rel)
+    // the files of a place: the default signer's home has them at data/by-place/; another signer's data path is pinned beside its fingerprint and it has no now/ file
+    for (const [rel, srcPath] of (pin.data_path ? [[`data/by-place/${id}.json`, pin.data_path]] : [[`data/by-place/${id}.json`, `data/by-place/${id}.json`], [`data/by-place/now/${id}.json`, `data/by-place/now/${id}.json`]])) {
+        if (tryGit(dir, ['cat-file', '-e', `${head}:${srcPath}`]) === null) continue   // the home has no such file (a now/ file only the Algarve has)
+        const v = signedVersion(dir, head, pin, srcPath)
         if (!v) { out.notes.push(`${rel}: no commit signed by the pin with the trailer; nothing written`); continue }
         let j; try { j = JSON.parse(v.bytes) } catch { out.notes.push(`${rel}: not JSON at ${v.commit.slice(0, 9)}; nothing written`); continue }
         if (rel.indexOf('/now/') < 0 && j.id !== id) { out.notes.push(`${rel}: id is ${j.id}, not ${id}; nothing written`); continue }
@@ -101,7 +113,7 @@ export function syncHome({ dir, id, pin, siteRoot = ROOT, validate = null, dry =
 async function main() {
     const a = process.argv.slice(2), has = f => a.includes(f), val = f => { const i = a.indexOf(f); return i >= 0 ? a[i + 1] : '' }
     const dry = has('--dry'), cache = val('--cache') || path.join(os.tmpdir(), 'place-homes'), only = val('--only') ? val('--only').split(',') : null
-    const pin = readPin(); if (!pin) { console.error('sync-places: no pin in newsroom/tools/place-signers.json; nothing synced (fail closed)'); process.exit(2) }
+    const pins = readPins(), pin = pins[0]; if (!pin) { console.error('sync-places: no pin in newsroom/tools/place-signers.json; nothing synced (fail closed)'); process.exit(2) }
     const { loadSchemas, validate: check } = await import('../build/lib/schema.mjs')
     const reg = loadSchemas(path.join(ROOT, 'data/schemas'))
     const validate = (j, rel) => check(j, rel.includes('/now/') ? 'by-place-now.schema.json' : 'by-place.schema.json', reg)
@@ -120,14 +132,15 @@ async function main() {
     let stopped = 0, wrote = 0
     for (const p of places) {
         if (only && !only.includes(p.id)) continue
-        const url = homes.get(p.id); if (!url) { console.log(`${p.id}: no home in the registry; skipped`); continue }
-        let r; try { r = syncHome({ dir: fetchHome(url), id: p.id, pin, validate, dry }) } catch (e) { r = { id: p.id, wrote: [], same: [], notes: [], stop: String(e.message).split('\n')[0] } }
+        const sp = pinFor(pins, p.id), url = sp === pin ? homes.get(p.id) : sp.home   // a place a later signer names is read only from that signer's own home, whatever the registry says
+        if (!url) { console.log(`${p.id}: no home in the registry; skipped`); continue }
+        let r; try { r = syncHome({ dir: fetchHome(url), id: p.id, pin: sp, validate, dry }) } catch (e) { r = { id: p.id, wrote: [], same: [], notes: [], stop: String(e.message).split('\n')[0] } }
         if (r.stop) { stopped++; console.log(`${p.id}: STOPPED: ${r.stop}`); continue }
         for (const n of r.notes) console.log(`${p.id}: ${n}`)
         wrote += r.wrote.length
         console.log(`${p.id}: ${r.wrote.length} written, ${r.same.length} unchanged${r.wrote.length ? ' (' + r.wrote.map(w => `${w.file} @ ${w.commit.slice(0, 9)}${w.skipped ? `, ${w.skipped} newer unsigned skipped` : ''}`).join('; ') + ')' : ''}`)
         // every file taken or confirmed unchanged is recorded with its commit and the sha256 of its bytes; the gate (lib/place-sources.mjs) holds each place file to it
-        if ((r.wrote.length || r.same.length) && !dry) sources.places[p.id] = { repo: url, head: r.head, files: Object.fromEntries([...r.wrote, ...r.same].map(w => [w.file, { commit: w.commit, sha256: w.sha256 }])), signed_by: pin.agent, key: pin.fingerprint, synced: new Date().toISOString().slice(0, 16) + 'Z' }
+        if ((r.wrote.length || r.same.length) && !dry) sources.places[p.id] = { repo: url, head: r.head, files: Object.fromEntries([...r.wrote, ...r.same].map(w => [w.file, { commit: w.commit, sha256: w.sha256 }])), signed_by: sp.agent, key: sp.fingerprint, synced: new Date().toISOString().slice(0, 16) + 'Z' }
     }
     if (!dry) fs.writeFileSync(path.join(ROOT, 'newsroom/tools/place-sources.json'), JSON.stringify({ about: 'Where each place file came from: the home, the commit whose bytes were taken (signed by the pinned key, with the trailer), the signer and when. Written by newsroom/tools/sync-places.mjs.', places: sources.places }, null, 1) + '\n')
     console.log(`sync-places: ${wrote} file(s) ${dry ? 'would be ' : ''}written, ${stopped} place(s) stopped`)

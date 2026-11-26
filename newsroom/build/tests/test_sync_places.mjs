@@ -7,7 +7,7 @@ import { execFileSync } from 'node:child_process'
 import fs from 'node:fs'
 import os from 'node:os'
 import path from 'node:path'
-import { syncHome, signedVersion, homeKeyMatches } from '../../tools/sync-places.mjs'
+import { syncHome, signedVersion, homeKeyMatches, readPins, pinFor } from '../../tools/sync-places.mjs'
 
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'sync-test-'))
 const run = (cwd, args, env = {}) => execFileSync('git', args, { cwd, encoding: 'utf8', env: { ...process.env, GIT_CONFIG_GLOBAL: '/dev/null', GIT_CONFIG_SYSTEM: '/dev/null', GIT_AUTHOR_NAME: 't', GIT_AUTHOR_EMAIL: 't@t', GIT_COMMITTER_NAME: 't', GIT_COMMITTER_EMAIL: 't@t', ...env } })
@@ -97,6 +97,30 @@ const F = 'data/by-place/x.json'
     const d2 = home('badschema'); commit(d2, { 'site/keys/cl-6.places.json': KEYFILE(K1), [F]: place(1) }, `a\n\n${TR}`, K1)
     const r = syncHome({ dir: d2, id: 'x', pin, siteRoot: path.join(tmp, 'site8'), validate: () => ['bad shape'] })
     t('a failing schema check writes nothing', [r.wrote.length, r.notes.some(n => /bad shape/.test(n))], [0, true])
+}
+// --- a second signer for one place (London, 26 Nov 2026): its own trailer, its own home path, never another place's file
+{
+    const K3 = keygen('k3'), A2 = 'cl-6.place.london@PrompTugal.dinis', TR2 = `Agent: ${A2}`, P2 = 'site/factory/dinis-cruz/account-f/data/by-place/london.json'
+    const pin2 = { ssh: K3.pub, agent: A2, home_key_path: 'site/keys/cl-6.place.london.json', fingerprint: FP(K3), places: ['london'], home: 'https://github.com/PrompTugal/PrompTugal__Agent__Place__London', data_path: P2 }
+    const d = home('london'); const key3 = { 'site/keys/cl-6.place.london.json': JSON.stringify({ agent: A2, ssh: K3.pub }) }
+    const lon = v => JSON.stringify({ id: 'london', name: 'London', v }) + '\n'
+    commit(d, { ...key3, [P2]: lon(1) }, `one\n\n${TR2}`, K3)
+    const c2 = commit(d, { [P2]: lon(2) }, `two\n\n${TR2}`, K3)
+    commit(d, { [P2]: lon(3) }, `three: the default signer's key and trailer\n\n${TR}`, K1)
+    const site = path.join(tmp, 'site9'); fs.mkdirSync(site)
+    const r = syncHome({ dir: d, id: 'london', pin: pin2, siteRoot: site })
+    t('a place of its own signer is read from the pinned data path, signed by its own key with its own trailer', [r.wrote.length, r.stop], [1, null])
+    t('written to data/by-place/<id>.json in the site', JSON.parse(fs.readFileSync(path.join(site, 'data/by-place/london.json'), 'utf8')).v, 2)
+    t('a newer commit by the default signer (another key, another trailer) is skipped', r.wrote[0].commit, c2)
+    t('such a signer has no now/ file', fs.existsSync(path.join(site, 'data/by-place/now/london.json')), false)
+    t('the default pin does not accept the london signer\'s commits', syncHome({ dir: d, id: 'london', pin, siteRoot: path.join(tmp, 'site10') }).stop !== null, true)
+    // the pins file: the first signer is the default; a later one needs places, a home and a data path, or it is dropped
+    const f = path.join(tmp, 'signers.json')
+    const e = (ag, k, extra = {}) => ({ agent: ag, ssh_fingerprint: FP(k), ...extra })
+    fs.writeFileSync(f, JSON.stringify({ signers: [e(AGENT, K1), e(A2, K3, { places: ['london'], home: pin2.home, data_path: P2 }), e('cl-6.bad@PrompTugal.dinis', K2, { places: ['x'] }), e('cl-6.bad2@PrompTugal.dinis', K2, { places: ['y'], home: 'https://evil.example/x', data_path: 'a.json' }), e('cl-6.bad3@PrompTugal.dinis', K2, { places: ['z'], home: pin2.home, data_path: '../etc.json' })] }))
+    const pins = readPins(f)
+    t('only the default and the fully named later signer are kept', pins.map(x => x.agent), [AGENT, A2])
+    t('pinFor: a named place goes to its signer, any other to the default', [pinFor(pins, 'london').agent, pinFor(pins, 'faro').agent], [A2, AGENT])
 }
 fs.rmSync(tmp, { recursive: true, force: true })
 if (bad) { console.error(`${bad} failed`); process.exit(1) }
