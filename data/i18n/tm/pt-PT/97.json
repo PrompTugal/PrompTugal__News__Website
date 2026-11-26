@@ -22,5 +22,13 @@
   "at": "2026-11-26",
   "src": "The profile closes with a line from Filipe Coutinho, busines",
   "ok": false
+ },
+ "97bd5b16322dc530": {
+  "t": "Uma empresa portuguesa de tecnologia da linguagem e a associação de radiodifusores profissionais do Quénia anunciaram um webinar para 19 de novembro sobre IA na transcrição, tradução e legendagem, com a Deutsche Welle entre os oradores. Não encontrámos nenhum relato de que se tenha realizado.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "A Portuguese language-technology company and Kenya's associa",
+  "ok": false
  }
 }

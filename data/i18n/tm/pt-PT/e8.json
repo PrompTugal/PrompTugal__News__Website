@@ -7,6 +7,14 @@
   "src": "More than 150 people attended the 21 February 2026 conferenc",
   "ok": false
  },
+ "e861e1b9e17eb835": {
+  "t": "Os dois novos produtos são o Smartex Inspect, que se liga às máquinas têxteis existentes, e o Smartex IQ, que converte os dados em informação para a cadeia de abastecimento. A Fortune diz que o novo sistema verifica o tecido continuamente a três vezes a velocidade humana e que a Smartex instalou 800 sistemas de monitorização mais antigos em 10 países. A H&M é investidora. A Fortune diz que fornecedores estratégicos da H&M estão entre os seus clientes de lançamento; o The Next Web diz que a própria H&M é um dos primeiros clientes dos novos produtos, pelo que as fontes divergem.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "The two new products are Smartex Inspect, which attaches to ",
+  "ok": false
+ },
  "e8db8674d792a747": {
   "t": "Pessoas que falaram em público ou aceitaram ser listadas. Apenas factos públicos e profissionais; nenhum contacto pessoal.",
   "by": "translator@PrompTugal.dinis",

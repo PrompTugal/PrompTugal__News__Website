@@ -1,4 +1,12 @@
 {
+ "700e4e7610923f00": {
+  "t": "Uma empresa tecnológica luso-alemã, cujo centro em Portugal fica em Vila Nova de Gaia, constrói e entrega centros de engenharia. Os números vêm do perfil de uma agência comercial, não de uma auditoria.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "A Luso-German technology company, whose Portugal hub is in V",
+  "ok": false
+ },
  "7017283926a98cf8": {
   "t": "A DTech 2026 põe a IA a trabalhar em palco em Vila Real",
   "by": "translator@PrompTugal.dinis",

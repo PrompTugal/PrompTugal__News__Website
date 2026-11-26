@@ -15,6 +15,14 @@
   "src": "FuriosaAI, a South Korean AI chip start-up, sets up its Euro",
   "ok": false
  },
+ "506ac524e1b42a60": {
+  "t": "O site especializado Tech.eu titulou o fundo como de 50 mil milhões de euros e o seu texto atribui à Comissão a expressão “o fundo proposto de 50 mil milhões de euros”. O comunicado de imprensa, a notícia e o explicador da Comissão não dão esse valor, e o explicador diz que a proposta não atribui nenhum orçamento fixo.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "The trade site Tech.eu headlined the fund as 50 billion euro",
+  "ok": false
+ },
  "5070993ad7db0e90": {
   "t": "A associação empresarial regional NERA organizou uma sessão no CRIA, a divisão de empreendedorismo da Universidade do Algarve, em Faro, sobre como usar ferramentas de IA para transformar o feedback dos clientes em decisões de negócio. Decorreu a 10 de novembro no âmbito do projeto transfronteiriço INTREPIDA pro.",
   "by": "translator@PrompTugal.dinis",

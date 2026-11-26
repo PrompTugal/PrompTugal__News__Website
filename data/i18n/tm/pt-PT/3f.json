@@ -1,4 +1,12 @@
 {
+ "3f0f155a029fb6eb": {
+  "t": "A Atomico estima que um recorde de 40 000 fundadores criou novas empresas tecnológicas na Europa, mais 36 por cento do que um ano antes.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Atomico estimates that a record 40,000 founders started new ",
+  "ok": false
+ },
  "3f4a149e4dc06c18": {
   "t": "A Algarve Evolution realizou um piloto, parte do Inova Algarve 3.0 e cofinanciado pelo Algarve 2030, para escolher 15 PME do turismo regional para consultoria técnica e um plano de ação de IA e robótica à medida. As candidaturas decorreram de 20 de fevereiro a 30 de abril de 2026, pelo que o concurso parece encerrado. Nenhuma empresa de Aljezur é nomeada.",
   "by": "translator@PrompTugal.dinis",

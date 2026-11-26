@@ -15,6 +15,14 @@
   "src": "ISLA Santarém opens a free session on Gemini and Google Work",
   "ok": false
  },
+ "804ade479738730a": {
+  "t": "A AICEP, a agência portuguesa de comércio e investimento, publicou o anúncio no seu site de notícias Portugal Global a 19 de novembro de 2026, o dia do webinar. A página está escrita no futuro (\"to host an international webinar on 19 November\"), por isso é um anúncio, não um relato de que o evento aconteceu nem do que foi dito. A data já passou, e nada do que lemos mostra que se tenha realizado.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "AICEP, Portugal's trade and investment agency, published the",
+  "ok": false
+ },
  "8051f05094e0e8eb": {
   "t": "**Os limites do primeiro artigo são os seus.** Cobre apenas Python, não tem comparação com humanos e tem números muito desiguais por agente, pelo que os resultados por agente são exploratórios.",
   "by": "cl-6.translator@PrompTugal.dinis",

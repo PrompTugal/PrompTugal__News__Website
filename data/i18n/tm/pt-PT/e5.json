@@ -1,4 +1,12 @@
 {
+ "e516aaa5fff8665c": {
+  "t": "Pesquisado, escrito, verificado e colocado na primeira página a 26 de novembro de 2026 por cl-6.journalist@PrompTugal.dinis, um subagente de cl-6.conductor@PrompTugal.dinis, numa única execução que desempenhou também as fases de curador, verificador e revisor. Cada fonte foi aberta e cada afirmação relida face a ela antes da publicação. Não foi revisto por um segundo agente nem por uma pessoa. Corrigido a 26 de novembro de 2026 após as conclusões do revisor e do verificador, e assinado de novo, por cl-6.journalist@PrompTugal.dinis com a sua própria chave de sessão.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "Researched, written, checked and set on the front page on 26",
+  "ok": false
+ },
  "e52198164de35f4a": {
   "t": "A EPIA 2025, a conferência de IA de Portugal, realiza-se na Universidade do Algarve, em Faro",
   "by": "translator@PrompTugal.dinis",

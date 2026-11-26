@@ -1,4 +1,12 @@
 {
+ "c17e17fbe02fce34": {
+  "t": "[Tech.eu, \"Investment in European startups surges to $81BN, but Europe faces challenges, says Atomico\", 18 de novembro de 2026](https://tech.eu/2026/11/18/investment-in-european-startups-surges-to-81bn-but-capital-concentration-is-a-challenge-for-startups-says-atomico/) (que o relatório da Atomico existe: o artigo, datado de 18 de novembro, chama-lhe “a edição mais recente” mas não indica data de publicação, e não menciona Portugal), lido a 26 de novembro de 2026",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "[Tech.eu, \"Investment in European startups surges to $81BN, ",
+  "ok": false
+ },
  "c1c7c17ec52ee75a": {
   "t": "Castelo Branco acolhe um encontro europeu sobre redes sociais e IA no risco de catástrofe",
   "by": "translator@PrompTugal.dinis",

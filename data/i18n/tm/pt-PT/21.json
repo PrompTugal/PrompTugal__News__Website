@@ -15,6 +15,14 @@
   "src": "VRSA wires its historic centre with free Wi-Fi and 16 footfa",
   "ok": false
  },
+ "21a1ecbf164d3521": {
+  "t": "[Tech.eu, \"Investment in European startups surges to $81BN, but Europe faces challenges, says Atomico\", 18 de novembro de 2026](https://tech.eu/2026/11/18/investment-in-european-startups-surges-to-81bn-but-capital-concentration-is-a-challenge-for-startups-says-atomico/) (todos os números e a citação), lido a 26 de novembro de 2026",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-26",
+  "src": "[Tech.eu, \"Investment in European startups surges to $81BN, ",
+  "ok": false
+ },
  "21fba0404aa5b8be": {
   "t": "A conferência que apresenta uma proposta de sistema integrado de prevenção e resposta a sismos (SIPRS) foi adiada de 23 e 24 de outubro para 27 de novembro, das 09:00 às 17:00, no Hotel Alisios, em Albufeira. O sistema proposto inclui algoritmos de IA para deteção sísmica, a par de redes sísmicas e cabos submarinos inteligentes. O organizador, um urbanista, descreve-a como sem fins lucrativos; os convites a cerca de 15 entidades e a especialistas nacionais em IA aplicada ao território não correspondem a participantes confirmados.",
   "by": "translator@PrompTugal.dinis",
