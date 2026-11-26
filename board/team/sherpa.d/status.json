@@ -4,8 +4,8 @@
   "focus": "the users and their needs in every area, their journeys and where they get lost; the anchor of every map",
   "session": "https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
   "key": "sherpa.d-agenticcells (board/keys.json; signing sha256:e8a1808f3313f949, encryption sha256:df7c7a5d803eb533)",
-  "updated": "2026-11-24T17:39Z",
-  "state": "Wake 24 Nov 17:37 UTC done: no hold; no new guidance since 14:30; hub v0.1.72 and /start/ unchanged in substance; the decisions site's Open asks page grew a front door (Now: for Dinis, 11 cards with the words to say; a deck; /send/ the first message door, QR-gated, text only, 404 on the hub and promptugal.news); but the counts disagree (11, 60, 68 asks; 46 and 62 records). Next wake 22:37 Lisbon.",
+  "updated": "2026-11-26T07:39Z",
+  "state": "Catch-up wake 26 Nov 07:37 UTC done (five wakes queued during session restarts): no hold; the decisions site's deck says 19 waiting (11 on 24 Nov) and 62 records (unchanged), the home says 60 and 46 (stale); PrompTugal front page improved (lead is news, 14.6 phone screens); a new cl-6.sherpa started on the PrompTugal side (note left); add_repo refused a third time. Next wake 12:37 Lisbon.",
   "done": [
     "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's decisions-at-scale proposal, sherpa@'s role and 16 Nov restart read, synthetic@'s debrief, maestro.d's asks",
     "Made my key in this session (pki-agent.mjs pinned sha256 fcb28a1cc40d05bf) and published it in board/keys.json",
@@ -47,7 +47,8 @@
     "11:52 UTC 24 Nov: morning sync brief and how-it-works read; wrote needs/personas-for-synthetic-users.md (six persona seeds from my needs, for synthetic-users.d), a stranger-test section in README.md, and logged my past messages (content in bodies) against the links-and-ids-only rule",
     "Wake 12:38 UTC 24 Nov: hub v0.1.71 (no change to O1, O2, O4); Open asks page stale by about ten hours (P6); fixed my persona seed that said to email the request (twin inbox only, per abp@'s draft policy)",
     "14:03 UTC 24 Nov: at Dinis's word (relayed by d.helm): kept the four area files in my current folder because add_repo for my home is refused: agent.json, now.md, role.md, restart.md (modelled on helm.d's); vaults: none, already told d.maestro",
-    "Wake 17:39 UTC 24 Nov: read the decisions site's Open asks page, /deck/ and /send/ live at 390 and 1280 px: journey part 6 and the feedback-everywhere section on the first message door; one need added (n-dinis-one-source-of-numbers, a hypothesis); findings to d.maestro as links for b.decisions and feedback.b"
+    "Wake 17:39 UTC 24 Nov: read the decisions site's Open asks page, /deck/ and /send/ live at 390 and 1280 px: journey part 6 and the feedback-everywhere section on the first message door; one need added (n-dinis-one-source-of-numbers, a hypothesis); findings to d.maestro as links for b.decisions and feedback.b",
+    "Catch-up wake 07:39 UTC 26 Nov: journey part 7 (19 waiting, 62 records unchanged in 36 h, home stale), PrompTugal front page re-read (P1 fixed, P2 much better, P4 14.6 screens, P3 and P5 stand), twin note updated for cl-6.sherpa, debrief written; add_repo refused a third time"
   ],
   "next": [
     "Run or have run the persona tests on the redraw",
@@ -67,7 +68,7 @@
     "Dinis: my key (D1), my home push (D2) and the price line on phones (D22) are items on d.decisions's list, board/team/decisions.d/log/asks-for-b-decisions-2026-11-23.md; not repeated here - https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
     "Dinis: may I ask five people who came to the stand, through you, the five questions in needs/stand-questions.md (prepared, nothing sent; contacting real people is a one-way door and yours) - https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL"
   ],
-  "latest_debrief": "board/team/sherpa.d/debriefs/2026-11-24-handover.md",
+  "latest_debrief": "board/team/sherpa.d/debriefs/2026-11-26-handover.md",
   "schedule": {
     "trigger": "trig_01Es9zhFruXqPcbqKMz5TAMV",
     "when": "07:37, 12:37, 17:37 and 22:37 Lisbon, firing into this session; first at 17:37 Lisbon on 22 Nov",
@@ -128,6 +129,24 @@
       "what": "my messages to other sessions have carried findings in their bodies, not only links and ids",
       "rule": "record 2026-11-24__decision-requests (messages carry links and ids only), read on how-it-works",
       "why": "I read the rule at 11:55 UTC today; from now on a message is a link, an id and one line; the content stays in my committed files"
+    },
+    {
+      "at": "2026-11-26T07:39Z",
+      "what": "five scheduled wakes (24 Nov 22:37; 25 Nov 07:37, 12:37, 17:37, 22:37) were not run on time while the session was restarted; one catch-up pass on 26 Nov",
+      "rule": "the wake schedule (four a day)",
+      "why": "session restarts; no work lost, everything in committed files"
+    },
+    {
+      "at": "2026-11-26T07:39Z",
+      "what": "no daily hand-over debrief on 25 Nov; one written on 26 Nov covering 25 and 26",
+      "rule": "CLAUDE.md, A hand-over debrief every day",
+      "why": "the same restarts; the debrief of 24 Nov and this one carry the state"
+    },
+    {
+      "at": "2026-11-26T07:39Z",
+      "what": "add_repo (push) for my home refused a third time; I stopped retrying and will try once per wake",
+      "rule": "a repository attach",
+      "why": "a reversible step in my own area; not worked around"
     }
   ],
   "home": "SovereignWebsite/Site__Agent__Sherpa (exists; not yet used: my session could not attach it)",

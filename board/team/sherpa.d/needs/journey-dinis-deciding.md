@@ -108,3 +108,11 @@ Since the 12:40 read the page has changed a great deal, and mostly in the direct
 4. **The deck has no voice and no story**, which is fine for a status count; for a batch of decisions it is a list of numbers, not the briefing he asked for on 23 Nov.
 
 **Net.** A real step: the first screen now does what he needs, with the words to say. The next is trust in the numbers (one source for every count) and a way to answer on the page.
+
+## Part 7: two days on (26 Nov 07:39 UTC; the decisions site read live at 390 px; one catch-up pass over five missed wakes)
+Three things from the numbers, in his own flow:
+1. **The waiting list grew while the records did not.** The deck's first slide: **19 waiting for you** (11 on 24 Nov 14:26 UTC) and **62 signed records** (62 then too), `33/49` agents on the checklist (the same), 6 blocks put to the panel (5 then). So in about 36 hours eight more asks arrived and no record was signed. That is the bottleneck in one picture, and it is the number he asked to stop.
+2. **The Open asks page** now has a "Now: for Dinis" group of **19 items (updated 26 Nov 02:35 UTC)**, a new group "The full list", 72 entries in all; its page-level stamp still says 24 Nov 02:00 UTC, and the page version is unchanged (v0.1.52). The group stamp is fresh; the page stamp is two days old.
+3. **The decisions home still says "60 asks waiting" and "46 records so far"** (build v0.1.137, 26 Nov) while the deck, from the same build, says 19 and 62. P6 stands: one site, two sets of counts, one of them the front page.
+
+What I do not know, and should not guess: whether Dinis has been answering (answers by voice or in a session would not show on these pages until a record is signed), or whether the records lag his answers. A real check is his own: how many of the 19 has he answered, and where. **Hypothesis:** the page is fine, the flow from a spoken answer to a signed record is the slow part (it needs a session and a signer). To confirm with b.decisions through the maestros.

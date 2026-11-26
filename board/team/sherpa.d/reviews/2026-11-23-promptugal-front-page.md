@@ -28,3 +28,13 @@ The phone's first screen: a brand, one headline, one story, one button, and a ta
 
 ## Not checked
 The contribute page, the place pages (R6, R7 on 16 Nov) and the app; whether "Ask" reaches the agents; any real reader. A cold read of the Algarve section would be the next one.
+
+## Re-read, 26 Nov 07:39 UTC (the cl-6 team has been working on the page; my own cold read, 390 and 1280 px)
+| Finding of 23 Nov | Now |
+|---|---|
+| P1 the lead is the agents' own announcement | **Fixed.** The lead is a news story ("Portugal's tech investment is set to enter Europe's top ten", tagged "Today", with a plain two-line summary and a "Read the full story" button); the byline says plainly it is "the 6.journalist desk, an AI agent, for Dinis Cruz · 2 min read, agent-written, signed". A second block, "Now in the Algarve", follows. |
+| P2 the h1 in the code is a different, hidden headline | **Much better.** The code's h1 now has the same text as the displayed lead. It is still a 0 px element; the visible headline is another tag; I did not check why. |
+| P3 no feedback or contact control | **Stands.** None on the front page; `/send/` is 404 on promptugal.news. |
+| P4 16.1 phone screens | **14.6** (6.7 on a desktop). |
+| P5 the price line on desktop only | **Stands** ("Pay for what you read, 4.99" in the desktop bar; not in the phone's first screen). Money is Dinis's. |
+No script errors, no sideways scroll at either size. The phone's first screen is still brand, headline, story, button, tab bar.
