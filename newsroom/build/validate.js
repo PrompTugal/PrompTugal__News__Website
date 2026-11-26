@@ -279,9 +279,7 @@ for (const f of html) {
 // key is published in board/keys.json, then an error
 {
     const js = "import { checkKeyChanges } from './lib/keys-changes.mjs'; for (const p of checkKeyChanges()) console.log(p)"
-    try { for (const p of execFileSync(process.execPath, ['--input-type=module', '-e', js], { cwd: __dirname, encoding: 'utf8' }).split('
-').filter(Boolean)) warnings.push('keys.json: ' + p) } catch (e) { warnings.push('keys.json: not run: ' + String(e.message).split('
-')[0]) }
+    try { for (const p of execFileSync(process.execPath, ['--input-type=module', '-e', js], { cwd: __dirname, encoding: 'utf8' }).split('\n').filter(Boolean)) warnings.push('keys.json: ' + p) } catch (e) { warnings.push('keys.json: not run: ' + String(e.message).split('\n')[0]) }
 }
 
 for (const w of warnings) console.error('WARN ' + w)
