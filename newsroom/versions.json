@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2318",
+    "date": "2026-11-26",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "b164d5690"
+  },
+  {
     "version": "v0.1.2317",
     "date": "2026-11-26",
     "what": "cl-6.dev@PrompTugal.dinis: agents snapshot under the contact gate (rule 7 walks assets/newsroom), phone numbers and spend figures dropped, tests (cl-6.security's three conditions)",
