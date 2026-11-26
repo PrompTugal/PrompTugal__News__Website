@@ -118,6 +118,10 @@ const F = 'data/by-place/x.json'
     const f = path.join(tmp, 'signers.json')
     const e = (ag, k, extra = {}) => ({ agent: ag, ssh_fingerprint: FP(k), ...extra })
     fs.writeFileSync(f, JSON.stringify({ signers: [e(AGENT, K1), e(A2, K3, { places: ['london'], home: pin2.home, data_path: P2 }), e('cl-6.bad@PrompTugal.dinis', K2, { places: ['x'] }), e('cl-6.bad2@PrompTugal.dinis', K2, { places: ['y'], home: 'https://evil.example/x', data_path: 'a.json' }), e('cl-6.bad3@PrompTugal.dinis', K2, { places: ['z'], home: pin2.home, data_path: '../etc.json' })] }))
+    // a later signer cannot name a place another later signer already names
+    const f2 = path.join(tmp, 'signers2.json')
+    fs.writeFileSync(f2, JSON.stringify({ signers: [e(AGENT, K1), e(A2, K3, { places: ['london'], home: pin2.home, data_path: P2 }), e('cl-6.rival@PrompTugal.dinis', K2, { places: ['london', 'other'], home: 'https://github.com/PrompTugal/PrompTugal__Agent__Place__Rival', data_path: 'x/london.json' })] }))
+    t('a later signer naming a place an earlier later signer names is dropped', readPins(f2).map(x => x.agent), [AGENT, A2])
     const pins = readPins(f)
     t('only the default and the fully named later signer are kept', pins.map(x => x.agent), [AGENT, A2])
     t('pinFor: a named place goes to its signer, any other to the default', [pinFor(pins, 'london').agent, pinFor(pins, 'faro').agent], [A2, AGENT])

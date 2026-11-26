@@ -39,12 +39,15 @@ const FPRE = /^SHA256:[A-Za-z0-9+/]{43}$/
 // Place home URL) at its own data path, so no signer can speak for a place that is not its own (cl-6.dev, 26 Nov 2026, for London)
 export function readPins(file = path.join(ROOT, 'newsroom/tools/place-signers.json')) {
     let j; try { j = JSON.parse(fs.readFileSync(file, 'utf8')) } catch { return [] }
+    const claimed = new Set()   // a place named by one later signer cannot be named by another (cl-6.security, 26 Nov 2026): no entry quietly takes a place over
     return (j.signers || []).map((s, i) => {
         if (!s || !s.agent || !FPRE.test(s.ssh_fingerprint || '')) return null
         const pin = { agent: s.agent, home_key_path: s.home_key_path || 'site/keys/cl-6.places.json', fingerprint: s.ssh_fingerprint }
         if (i === 0) return pin
         const own = Array.isArray(s.places) && s.places.length && s.places.every(x => /^[a-z0-9-]+$/.test(x)) && HOME_URL.test(s.home || '') && /^(?!.*\.\.)[A-Za-z0-9._/-]+\.json$/.test(s.data_path || '')
-        return own ? { ...pin, places: s.places, home: s.home, data_path: s.data_path } : null
+        if (!own || s.places.some(x => claimed.has(x))) return null
+        s.places.forEach(x => claimed.add(x))
+        return { ...pin, places: s.places, home: s.home, data_path: s.data_path }
     }).filter(Boolean)
 }
 export function readPin(file) { return readPins(file)[0] || null }
@@ -133,6 +136,7 @@ async function main() {
     for (const p of places) {
         if (only && !only.includes(p.id)) continue
         const sp = pinFor(pins, p.id), url = sp === pin ? homes.get(p.id) : sp.home   // a place a later signer names is read only from that signer's own home, whatever the registry says
+        if (sp !== pin && homes.has(p.id)) { stopped++; console.log(`${p.id}: STOPPED: a later signer (${sp.agent}) names a place that has a home in the Portugal registry; it cannot take it over`); continue }
         if (!url) { console.log(`${p.id}: no home in the registry; skipped`); continue }
         let r; try { r = syncHome({ dir: fetchHome(url), id: p.id, pin: sp, validate, dry }) } catch (e) { r = { id: p.id, wrote: [], same: [], notes: [], stop: String(e.message).split('\n')[0] } }
         if (r.stop) { stopped++; console.log(`${p.id}: STOPPED: ${r.stop}`); continue }
