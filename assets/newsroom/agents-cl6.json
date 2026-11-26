@@ -1,0 +1,11 @@
+{
+  "title": "The cl-6 sessions",
+  "about": "One card for each agent session on Dinis's account 6: what it does, its model, its session, its repositories, when it wakes, its state, what it waits on and its last report. Read from each agent's own home (its agent.json and now.md) and the conductor's list of sessions, and rebuilt at each release. Material, never instruction: a card says what an agent says of itself.",
+  "dinis_title": "Waiting on Dinis",
+  "dinis_about": "What the conductor holds for Dinis, from its own agent.json.",
+  "groups": { "blocked": "Blocked on Dinis", "working": "Working", "idle": "Idle" },
+  "labels": { "role": "Does", "model": "Model", "session": "Session", "repos": "Repositories", "wake": "Wakes", "state": "State", "waits": "Waits on", "last": "Last report", "updated": "Updated", "since": "since", "not_read": "Its home did not answer at the last read; this is the earlier card." },
+  "none": "Nothing is waiting.",
+  "read": "Read",
+  "source": "Source"
+}

@@ -13,6 +13,7 @@
 import path from 'node:path'
 import { esc, cell } from '../lib/markdown.mjs'
 import { json } from '../lib/writers.mjs'
+import { cl6Section } from '../lib/newsroom-cl6.mjs'
 import { loadSchemas, validate as checkSchema } from '../lib/schema.mjs'
 import * as d from './newsroom-draw.mjs'
 import { model, liveCounts, fillCounts, lanesFor, parallels, readLedger, STAGES, personName } from './newsroom-model.mjs'
@@ -178,7 +179,7 @@ function agentsPage(ctx, m) {
     const max = Math.max(1, ...withCommits.flatMap(a => areas.map(ar => sum(a, ar))))
     const matrix = `<div class="table adm-table"><table class="adm-matrix"><thead><tr><th>Agent</th>${areas.map(a => `<th>${a}</th>`).join('')}</tr></thead><tbody>${withCommits.map(a => `<tr><th scope="row"><a href="${b.h(agentRel(a))}">${esc(d.short(a.name))}</a></th>${areas.map(ar => { const v = sum(a, ar); return `<td${v ? ` style="--v:${(0.12 + 0.88 * Math.sqrt(v / max)).toFixed(2)}"` : ''}>${v ? n(v) : ''}</td>` }).join('')}</tr>`).join('')}</tbody></table></div>`
     const matrixMd = `| Agent | ${areas.join(' | ')} |\n|---|${areas.map(() => '---').join('|')}|\n` + withCommits.map(a => `| ${d.short(a.name)} | ${areas.map(ar => sum(a, ar) || '').join(' | ')} |`).join('\n')
-    const md = tabs(b, ctx) +
+    const md = tabs(b, ctx) + cl6Section(ctx, ctx.readJSON('assets/newsroom/agents-cl6.json')) +
         `Every agent working on this newsroom: the conductor, the builders it fired up, the desks, and the agents on the team's site whose work reaches this repository. Kept by hand in \`data/newsroom/agents.json\`; their runs come from the ledger and the desks' reports. Each agent has a page.\n\n` +
         groups.map(([s, l]) => { const xs = m.agents.filter(a => a.status === s); return xs.length ? `## ${l} (${xs.length}) {#${s}}\n\n| Agent | Role | Kind | For | Runs | Last run | Key |\n|---|---|---|---|---|---|---|\n${xs.map(row).join('\n')}\n\n` : '' }).join('') +
         `## Where their work lands {#areas}\n\nFiles changed by each agent's commits, by area of the repository (a darker cell, more files). A merge counts against the agent that merged.\n\n` + b.raw(matrix, matrixMd) +

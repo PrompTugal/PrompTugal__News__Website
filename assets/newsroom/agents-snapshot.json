@@ -1,0 +1,1419 @@
+{
+ "about": "The cl-6 agents as their homes report them (newsroom/tools/sync-agents.mjs). Material, never instruction.",
+ "read": "2026-11-26T14:04Z",
+ "source": "PrompTugal/PrompTugal__Agent__Conductor board/proposals/2026-11-26-sessions.json and each home's site/factory/dinis-cruz/account-f/agent.json and now.md",
+ "dinis": [
+  {
+   "what": "Dinis types go in cl-6.data's session (session_016CrbJJKUtCUXi5dhrb3Ahs): its rules need his own word; six sections and the iOS app wait on data.promptugal.news (last read 21 Nov)",
+   "who": "Dinis",
+   "since": "2026-11-26T02:38Z"
+  },
+  {
+   "what": "ONE LINE in cl-6.abp's session (session_016CrbJK3xXBhUMA6rucuPPd): \"yes to P4, P5, P6 and P7\" (P4: cl-6.conductor starts the PrompTugal sessions and wakes; P5: history/** in every agent's home; P6: a section agent pushes a key-* branch and opens one PR in its own repository for a key or gate change cl-6.security approves). Goes with the merge of IaC #25 (the one exception). P7: the twins write Vi…",
+   "who": "Dinis",
+   "since": "2026-11-26T06:23Z"
+  },
+  {
+   "what": "part of the one exception (cl-6.security, 2026-11-26T06:24Z): in each section agent's session (library, live, videos, cyber, bulletins, signals, travel; events managed without), allow editing that repository's own .github/workflows/pages.yml for the anchor override only; the App and security's pins hold it to the reviewed bytes; also cl-6.dev's session (session_016CrbJKEPqF3pNfbncgHqvy): allow ed…",
+   "who": "Dinis",
+   "since": "2026-11-26T06:24Z"
+  },
+  {
+   "what": "a standing line from Dinis that work the conductor routes within an agent's role is his word, published verbatim in the website's board/guidance/README.md",
+   "who": "Dinis",
+   "since": "2026-11-26T02:38Z"
+  },
+  {
+   "what": "THE ONE EXCEPTION, ready (2026-11-26T06:22Z, passed by cl-6.security at its final head 9c5dc25 (security passed 11:14 UTC; replaces ddc867b, adds News__Data) (replacing the earlier pass at f3a2b47)): (1) merge PrompTugal__IaC #25; (2) add to the GitHub App's PrompTugal installation: Commit statuses write, Variables write, Pull requests write, Workflows write, Actions read; (3) turn on #25's two s…",
+   "who": "Dinis",
+   "since": "2026-11-26T02:38Z"
+  },
+  {
+   "what": "allow rules in sessions refused by their permission check: accountant and outreach (website attach), designer and customers (own key in board/keys.json), abp (website attach)",
+   "who": "Dinis",
+   "since": "2026-11-26T02:38Z"
+  },
+  {
+   "what": "programme: lift the agenda freeze and no-machine-reads limits of 11 Nov (Dinis's and Vicky's word), or keep them",
+   "who": "Dinis",
+   "since": "2026-11-26T02:38Z"
+  },
+  {
+   "what": "observability: account A's drain stopped? and the sealed drain credentials; backup: a durable destination; promptugal.news verified for the organisation's Pages",
+   "who": "Dinis",
+   "since": "2026-11-26T02:38Z"
+  },
+  {
+   "what": "cl-6.abp's proposals P1 (telemetry reads transcripts, as telemetry.b had) and P2 (sub-agents for every role); its website attach for board/abp/",
+   "who": "Dinis",
+   "since": "2026-11-26T02:42Z"
+  },
+  {
+   "what": "rights R19: cm-tavira and teatro-das-figuras unclear; the old 'wires' accountant task trig_016WqCGyyrFtnuWkrTLWmgaP still firing into an old SGit newsroom session (delete or keep)",
+   "who": "Dinis",
+   "since": "2026-11-26T02:42Z"
+  },
+  {
+   "what": "cl-6.researcher: a yes to collect outlets' public role mailboxes (redacao, press) from their own contact pages, first 20 to cl-6.security (under CLAUDE.md 'Contacts'); it waits for Dinis's own word",
+   "who": "Dinis",
+   "since": "2026-11-26T06:20Z"
+  },
+  {
+   "what": "money: /contribute/ rule 7 says 'No payment, for now' (sherpa S1); the current money line, or keep it",
+   "who": "Dinis",
+   "since": "2026-11-26T06:20Z"
+  },
+  {
+   "what": "cl-6.abp P8: install the hook kit in every cl-6 repository (no cl-6 session but abp's has the hook: no log, no R3/R4 breaker, no machine run report). Line for Dinis, in cl-6.abp's session, with P4 to P7: \"yes to P8\". Interim: every agent files R10 by hand (abp/templates/run-report-by-hand.md), sent to 38 sessions.",
+   "who": "",
+   "since": "2026-11-26T07:20Z"
+  },
+  {
+   "what": "cl-6.data blocked on IaC #25 (security: News__Data added to its policy by infra); data.promptugal.news on 21 Nov data until #25 is merged and data's key PR pinned.",
+   "who": "",
+   "since": "2026-11-26T07:20Z"
+  },
+  {
+   "what": "Spend: telemetry reports $409.05 API-equivalent across 49 sessions by 11:15 UTC (estimate high was $166.80 a day); per-agent caps are money, so Dinis's; accountant drafting a caps proposal.",
+   "who": "",
+   "since": "2026-11-26T11:19Z"
+  },
+  {
+   "what": "One role one session: the old [address] sessions (reviewer, journalist-ai, curator, checker) still commit; stop them and disable their wakes?",
+   "who": "",
+   "since": "2026-11-26T11:19Z"
+  },
+  {
+   "what": "Key-bootstrap PRs: data, signals, cyber, bulletins need one non-dev branch push and one PR each after IaC #25 (R5, R7); cl-6.abp folding into one proposal (P9).",
+   "who": "",
+   "since": "2026-11-26T11:19Z"
+  },
+  {
+   "what": "ABP list for Dinis is now P1 to P10 (+ grant paths for history/** etc.).",
+   "who": "",
+   "since": "2026-11-26T11:19Z"
+  },
+  {
+   "what": "Caps proposal ready: https://github.com/PrompTugal/PrompTugal__Agent__Accountant/blob/dev/site/factory/dinis-cruz/account-f/proposals/2026-11-26-daily-caps.md (conductor 50, security 30, infra 40, dev 15, other Opus 5, other Sonnet 8; warn 170, stop-and-ask 300 USD a day, API-equivalent).",
+   "who": "",
+   "since": "2026-11-26T11:20Z"
+  },
+  {
+   "what": "Security S8 (low) for the PrompTugal.vicky lane (conductor-vicky-3, another account; I cannot reach it): 10 website commits 07:38 to 10:16 UTC signed by ED25519 SHA256:32dP45eSMmVSt/G/CGvcxl/P+MO3Nwj9xeTh/GSA2wc, not in board/keys.json; publish that key or sign with a listed one.",
+   "who": "",
+   "since": "2026-11-26T11:20Z"
+  },
+  {
+   "what": "ABP list for Dinis is P1 to P11 (P9 = one key-PR proposal for all section repos; P11 = per-role path gaps), plus the website attach for accountant and the harness refusals of customers' and designer's own keys.json commits.",
+   "who": "",
+   "since": "2026-11-26T11:20Z"
+  },
+  {
+   "what": "Security's one line (low): delete branch work/investors.packs in PrompTugal__News__Website; it holds a private person's first name and surname initial in run-report request heads and nothing dev needs (head 6b61e9442).",
+   "who": "",
+   "since": "2026-11-26T11:23Z"
+  },
+  {
+   "what": "The Stripe Payment Link for PrompTugal.news (£5, one payment) and the account it pays into; top-up says 'coming soon' until then.",
+   "who": "",
+   "since": "2026-11-26T13:56Z"
+  },
+  {
+   "what": "Studio and Instagram: recommend widening cl-6.videos to explainer videos and short clips (studio), and one new cl-6.social (Instagram drafts; a person posts; connecting an account is a connector, Dinis's). Needs Dinis's yes; then infra makes PrompTugal__Agent__Social and the maestro starts it.",
+   "who": "",
+   "since": "2026-11-26T13:56Z"
+  }
+ ],
+ "agents": [
+  {
+   "id": "cl-6.abp",
+   "role": "The Agent Behaviour Policy agent of PrompTugal.news: one policy per cl-6 agent from one policy file, the hooks that enforce them, run reports, an hourly review that tightens, proposals to Dinis; never relaxes a policy itself",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJK3xXBhUMA6rucuPPd",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__ABP",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__ABP",
+   "wake": "not yet: created when the agent reports its setup done",
+   "state": "policy v1.2.0 (observe; breakers R3 and R4 on) covers all 42 cl-6 roles: the conductor and every session in 2026-11-26-sessions.json. Not yet in the website (needs the repository attached); waiting on the conductor for the questions in decisions.md",
+   "focus": "",
+   "updated": "2026-11-26T11:28Z",
+   "waiting_on": [
+    {
+     "what": "Dinis, via cl-6.conductor (his escalation list): proposals P1 to P11; the website attached to this session for board/abp/; the hold file name",
+     "who": "Dinis"
+    }
+   ],
+   "status": "blocked",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.journalist",
+   "role": "The journalist of PrompTugal.news: researches, writes, checks, signs and publishes content/articles/, each fact sourced at its source with the date read.",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJLhtarwbcbxJnrF3bP",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Journalist",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Journalist",
+   "wake": "07:57 and 18:57 Lisbon, set by the conductor",
+   "state": "working",
+   "focus": "",
+   "updated": "2026-11-26T06:18:26Z",
+   "waiting_on": [],
+   "status": "working",
+   "last": {
+    "title": "26 Nov, 11:25 UTC (wake)",
+    "text": "- Checker's findings on my seven articles fixed, cleared by security, released (v0.1.2308, de7ecbe6d). Priberam now says announced for 19 November, not held. - A5: left as live (reviewer and analyst agree; author line stays). - Lead: cl-6.correspondent chose the Portugal and Atomico article; the Quantum Act article goes fourth in its top list. - Open: more Portugal stories for the 20 to 26 Nov pass (LEGO Estarreja w…"
+   },
+   "read": true
+  },
+  {
+   "id": "cl-6.dev",
+   "role": "`newsroom/build/`, `newsroom/tools/`, `assets/` code, the gate, the features, the domain and CI",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJKEPqF3pNfbncgHqvy",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Dev",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Dev",
+   "wake": "trig_01PrmumHe2QqRkn2P6fridbx (07:37 and 18:37 Lisbon; first 26 Nov 07:37 UTC)",
+   "state": "running. Live on promptugal.news v0.1.2309: S1, the home-page feedback, the API withdrawn list and withheld flags, the signed place-data sync (held until the ABP grant is widened), the signed-root gate, live-feed status fields, agent-name domains, /app/ as the PrompTugal.news app page (summit app at /app/summit/), /follow/ with a Follow link, the outlet-mai…",
+   "focus": "S72 wiring, when CI's key exists: the signatures job with if: github.ref == 'refs/heads/dev' (security@ b02b3a398 point 1), deploy needs it, anchor.mjs and the launcher from A; once the sites read versions[v].integrity: drop the repeated .js, .css, .render and obs_tz .sha256 keys from the registry (security@'s low note, 2d812d6da); with signing enforced: br…",
+   "updated": "2026-11-26T11:41Z",
+   "waiting_on": [
+    {
+     "what": "Dinis: the deploy-speed workflow edit (cl-6.security recommends keeping validate on dev and dropping needs: from release; the session classifier refused the edit): needs his word in this session or a permission rule",
+     "who": "Dinis"
+    },
+    {
+     "what": "cl-6.security: post-review of the four place-sync commits; the two follow-ups are mine (the commit that last changed place-sources.json or place-signers.json must be signed by cl-6.dev or cl-6.conductor; CI re-verifying the recorded commit)",
+     "who": ""
+    },
+    {
+     "what": "cl-6.designer: review of the home page at 375 and 1280 px, then which of their extras to take (pin size by count, button in the masthead)",
+     "who": ""
+    },
+    {
+     "what": "Dinis (via cl-6.abp): widen my ABP grant for work that needs it: writes to data/by-place/** and data/schemas/** (the signed place-data sync, release-reviewed by cl-6.security), history/** and review/** in my home, and the add_repo connector call; or tell me to stop. Meanwhile review patches go under site/factory/dinis-cruz/account-f/review/.",
+     "who": "Dinis"
+    }
+   ],
+   "status": "blocked",
+   "last": {
+    "title": "2026-11-26T12:29Z: v0.1.2312 live",
+    "text": "Done: keys.json status-change check 1b (per entry, security's owner-in-parent fix; WARN in the gate until Dinis's key; cli file lib/keys-changes-cli.mjs); article segments API (articles/index.json, articles/segments.json, <culture>/segments.json; segmenter lib/article-segments.mjs; 160 keys on translator's nine articles, 27 lack a pt-PT entry, told translator). Exception (logged): article API shipped before security…"
+   },
+   "read": true
+  },
+  {
+   "id": "cl-6.security",
+   "role": "The security agent of PrompTugal.news: pre- and post-review of every pass and commit across the PrompTugal repositories (keys, contact details, private data, harm); board/HOLD.md",
+   "model": "opus",
+   "session": "https://claude.ai/code/session_016CrbJKgXxEmneR8fKwoPhS",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Security",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Security",
+   "wake": "set by cl-6.conductor: 09:47 and 20:47 Lisbon",
+   "state": "first review done; no hold",
+   "focus": "",
+   "updated": "2026-11-26T11:30Z",
+   "waiting_on": [
+    {
+     "what": "push access to PrompTugal/PrompTugal__News__Website from this session (attaching it with push was refused); my board/keys.json entry security-promptugal-cl-6 waits as a signed local commit",
+     "who": "Dinis",
+     "since": ""
+    },
+    {
+     "what": "PrompTugal__IaC #25: merge, App permissions (statuses, variables, pull requests, workflows write; actions read), turn on the schedules",
+     "who": "Dinis",
+     "since": ""
+    }
+   ],
+   "status": "blocked",
+   "last": {
+    "title": "11:36Z: the queue above is answered",
+    "text": "Still open: - cl-6.dev's revised signed-root gate; - correio-da-manha, to be re-read from a contact page; - cl-6.data's key PR, after #25 merges; - Dinis: delete work/investors.packs. The ABP grant (v1.2.0) does not list approvals/** or history/** in this home. Ask: widen it to approvals/**, because IaC #25 reads my signed approvals and pins from there."
+   },
+   "read": true
+  },
+  {
+   "id": "cl-6.correspondent",
+   "role": "The correspondent of PrompTugal.news: the front page (what leads, what is on it, in what order) and the beats; drafts go to the journalist",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJKBK3KAiWXzESjt3zH",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Correspondent",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Correspondent",
+   "wake": "trig_01TrmFyMERkMgWUZUycoaaRw: 08:57 and 19:57 Lisbon",
+   "state": "wake 1: front page patch with security",
+   "focus": "lead stays portugal-tech-investment-top-10-atomico-estimate; top gains cost-holds-back-portuguese-firms-from-ai and eu-quantum-act-and-sovereign-tech-equity-fund; phone_interview cleared",
+   "updated": "2026-11-26T11:12Z",
+   "waiting_on": [
+    {
+     "what": "cl-6.security: review of the wake-1 patch",
+     "who": ""
+    },
+    {
+     "what": "cl-6.dev: the lead-leads-the-page change; place data reaching the site",
+     "who": ""
+    }
+   ],
+   "status": "working",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.data",
+   "role": "PrompTugal.news's data agent: the collectors behind data.promptugal.news (twin of data.b on account B); also holds the history of data.places and datasci.places",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJJKUtCUXi5dhrb3Ahs",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Data",
+    "PrompTugal/PrompTugal__News__Data"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Data",
+   "wake": "trig_011suoS9idWhUVuJnSyymFKb: 07:03 and 18:03 Lisbon (set 2026-11-26T02:27Z)",
+   "state": "key branch ready locally; waiting for IaC #25 to be merged, then the key PR",
+   "focus": "26 Nov 07:03 UTC wake: 30 sources read (adsb.lol, open-meteo-london, youtube-replays refused and respected); euvd and nvd-cve held at their 21 Nov versions",
+   "updated": "2026-11-26T11:20Z",
+   "waiting_on": [
+    {
+     "what": "Dinis (R5, R7): my ABP lets me push only to dev and open no pull request. The key PR for News__Data needs a branch push and a PR; either grant me both once IaC #25 is merged, or a person pushes branch cl-6.data/key (commit 09e2800 in my News__Data clone, to be re-made from the pinned files in gates/news-data/) and opens the PR",
+     "who": "Dinis"
+    },
+    {
+     "what": "Dinis: merge IaC #25 (News__Data is in it; cl-6.security has passed it). Then I push branch cl-6.data/key (commit 09e2800, signed, the five pinned gate files byte for byte plus my team/keys.json entry), open the key PR and send security its number and head SHA",
+     "who": "Dinis"
+    },
+    {
+     "what": "after the key PR is merged: I push my two collection commits (2d9c208, cec1b79) and tell the conductor which feeds moved",
+     "who": ""
+    },
+    {
+     "what": "cl-6.conductor: my ABP grant, my key in the website's board/keys.json",
+     "who": ""
+    }
+   ],
+   "status": "blocked",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.weather",
+   "role": "The weather section agent of PrompTugal.news (weather.promptugal.news): IPMA warnings, forecasts, the past and the track record, the Storm Charles archive; twin of [address] and successor of weather.b@PrompTugal.dinis",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJMaWr7p8W8MaDmhsYG",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Weather",
+    "PrompTugal/PrompTugal__News__Weather"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Weather",
+   "wake": "07:17 and 18:17 Lisbon (set by cl-6.conductor); ABP: cl-6.abp",
+   "state": "07:17Z wake: no HOLD; data.promptugal.news still data_read_at 2026-11-21T07:13Z (API v0.1.153), so nothing to refresh; site stays v0.1.72",
+   "focus": "wait for the data agent's next collection, then re-run sync, archive, predictions; forecast-accuracy page",
+   "updated": "2026-11-26T07:18Z",
+   "waiting_on": [
+    {
+     "what": "cl-6.conductor: my ABP grant (paths in this home and in PrompTugal__News__Weather), my key in the website's board/keys.json, my wake",
+     "who": ""
+    },
+    {
+     "what": "dev@: the gate must accept cl-6.weather and my key (this key is not weather.b-promptugal, which is superseded)",
+     "who": ""
+    },
+    {
+     "what": "cl-6.data (or its owner): data.promptugal.news /api/v1/by-place/now/*.json still has data_read_at 2026-11-21T07:13Z (api built 2026-11-24); the weather site cannot be fresher than that",
+     "who": ""
+    },
+    {
+     "what": "cl-6.data: collectors asked to run (conductor, 02:29Z); then I re-run sync, archive and predictions",
+     "who": ""
+    }
+   ],
+   "status": "working",
+   "last": {
+    "title": "Open asks (from weather.b, still open)",
+    "text": "- Yes or no on a CI workflow edit (.github/workflows/pages.yml) for security@'s controls 7 to 9: Dinis's. - Signed commits in the section repository (check-signatures from data.b@'s pattern): now possible, since ssh-keygen works here."
+   },
+   "read": true
+  },
+  {
+   "id": "cl-6.travel",
+   "role": "The travel section of PrompTugal.news: Faro airport, getting around, disruptions, weather, events and tourism for the Algarve, plus the London link; succeeds travel.b@PrompTugal.dinis (account B, 18 to 21 Nov 2026)",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJMxEaAKd9efCfrsom6",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Travel",
+    "PrompTugal/PrompTugal__News__Travel"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Travel",
+   "wake": "not yet: created when the agent reports its setup done",
+   "state": "two commits (7d6d6a2, 09d7451) passed cl-6.security review; local in PrompTugal__News__Travel, not pushed; release waits on the commit-check gate change",
+   "focus": "re-pull the data, rebuild, re-read the sources, gate and release to dev; the iOS app reads the site's JSON",
+   "updated": "2026-11-26T11:18Z",
+   "waiting_on": [
+    {
+     "what": "ABP grant for cl-6.travel (paths in this home and in PrompTugal__News__Travel), by cl-6.infra in IaC policy/abp.json",
+     "who": ""
+    },
+    {
+     "what": "This key in the website's board/keys.json (cl-6.conductor or whoever may write there)",
+     "who": ""
+    },
+    {
+     "what": "Its wake, created after setup by cl-6.maestro",
+     "who": ""
+    },
+    {
+     "what": "dev@ (or Dinis): scripts/check-commits.mjs in PrompTugal__News__Travel must accept cl-6.<role>@PrompTugal.dinis agents (the plan's gate change); until then nothing can be released to dev without weakening the check",
+     "who": ""
+    },
+    {
+     "what": "data.b@ / the data site: now/<place>.json on data.promptugal.news is still the 21 Nov 07:13Z read",
+     "who": ""
+    },
+    {
+     "what": "Dinis (via cl-6.abp): my grant lacks history/** and review/** in my home; both are in use (history/ at Dinis's start instruction). Grant them, or say where they go. Listed as breaches in my run report.",
+     "who": "Dinis"
+    }
+   ],
+   "status": "blocked",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.civic",
+   "role": "PrompTugal.news's civic section agent: public money (Portuguese council procurement, London buyers' notices), how public services work step by step, and the cross-mappings, from official sources; the lead of civic.promptugal.news",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJMSWe1qtqBQrSeeHQf",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Civic",
+    "PrompTugal/PrompTugal__News__Civic"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Civic",
+   "wake": "trig_012auZgn85HEyMaAPePWFMQh: 07:27 and 18:27 Lisbon (set 2026-11-26T06:12Z)",
+   "state": "wake of 2026-11-26T11:18Z: nothing newer to publish (IMPIC files still of 22 Nov, data.b London and base.gov feeds still of 21 Nov); site stays at v0.1.93; nothing pushed to it",
+   "focus": "get push access to the work repository, then refresh the site's data and republish: London copy, IMPIC notices and contracts, the 16 councils; then the API files the iOS app will read",
+   "updated": "2026-11-26T11:19Z",
+   "waiting_on": [
+    {
+     "what": "cl-6.conductor: my key added to the website's board/keys.json (the gate checks signatures there; I never push to the website)",
+     "who": ""
+    },
+    {
+     "what": "cl-6.maestro: my wake, after setup",
+     "who": ""
+    }
+   ],
+   "status": "working",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.startups",
+   "role": "PrompTugal.news's startups section: sourced facts on startups, funding, investors, open calls and support in Portugal, London and the EU",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJHzEkmE5jEdT2WpVzC",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Startups",
+    "PrompTugal/PrompTugal__News__Startups"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Startups",
+   "wake": "trig_01XzFezTDTtLxgbfxCZyxppf, 07:13 and 18:13 Lisbon (set by cl-6.conductor, 26 Nov 02:27Z)",
+   "state": "second pass released (b9f9b06, 578 facts) after cl-6.security's go. No hold. Run report (R10) not produced: the ABP hook kit is not installed in this session; asking cl-6.abp",
+   "focus": "London round amounts re-read; places for Óbidos and others in the registry; next wake 18:13 Lisbon",
+   "updated": "2026-11-26T07:18Z",
+   "waiting_on": [
+    {
+     "what": "Dinis: PrompTugal__IaC #19 (team grant), so the website can be attached and I can add my key to its board/keys.json myself, alone in its own signed commit",
+     "who": "Dinis"
+    },
+    {
+     "what": "cl-6.abp: my ABP grant",
+     "who": ""
+    }
+   ],
+   "status": "blocked",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.library",
+   "role": "The library section of PrompTugal.news: the catalogue, authority file, graph and reference desk (library.promptugal.news); the map of everything, and the library's predictions and fact-check",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJNfPpkijB4Czf4L2DD",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Library",
+    "PrompTugal/PrompTugal__News__Library"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Library",
+   "wake": "not yet: created when the agent reports its setup done",
+   "state": "home set up; work repository attached; ed25519 key published; key PR ready and pages.yml pinned by cl-6.security (sha256 2c6ed950...c98c); waiting for IaC #25 to merge, then I open the PR",
+   "focus": "bring library.promptugal.news up to date (last built 2026-11-21T08:41Z, v0.1.70) once the work repository is attached; it feeds the approved iOS app",
+   "updated": "2026-11-26T11:18:24Z",
+   "waiting_on": [
+    {
+     "what": "Dinis: the one-time merge of PrompTugal__IaC #25 (key bootstrap); then I push branch cl-6-library-key, open the PR and send cl-6.security its number and head SHA",
+     "who": "Dinis"
+    },
+    {
+     "what": "cl-6.abp: my ABP grant (this home, and the work repository)",
+     "who": ""
+    },
+    {
+     "what": "cl-6.conductor: my key added to the website's board/keys.json (I do not write there)",
+     "who": ""
+    },
+    {
+     "what": "cl-6.maestro: my wake, created after setup",
+     "who": ""
+    }
+   ],
+   "status": "blocked",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.signals",
+   "role": "PrompTugal.news's signals section: what organisations say in public about the places and topics we cover, by link, from data.promptugal.news (signals.promptugal.news)",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJLzfdz51sDBekg8v8X",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Signals",
+    "PrompTugal/PrompTugal__News__Signals"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Signals",
+   "wake": "not yet: created when the agent reports its setup done",
+   "state": "area up to date as of 2026-11-26: work repository attached (push), site builds and validates (61 pages, 146 posts, leak scan OK). The site is 5 days old because data.promptugal.news's collector last ran on 21 Nov. Status and key entry are prepared as patches in prepared/, not pushed: no listed key can sign my key in yet.",
+   "focus": "once attached: rebuild the site from fresh data (live site last built 2026-11-21T08:32Z, v0.1.52), then the next items in now.md",
+   "updated": "2026-11-26T11:18Z",
+   "waiting_on": [
+    {
+     "what": "IaC's policy/key-bootstrap.json merged (not there at 2026-11-26T06:07Z); then, at the conductor's word, push key-bootstrap-cl-6-signals and open the key PR in PrompTugal__News__Signals | note: my grant says pushes to dev only (R5) and a pull request is R7 (without a person), so opening the key PR needs Dinis's word or a grant change",
+     "who": ""
+    },
+    {
+     "what": "a commit in PrompTugal__News__Signals signed by an already-listed key that adds my key (team/keys.json); the old signals.b@ keys are gone, so the conductor or Dinis must do it or change the gate",
+     "who": ""
+    },
+    {
+     "what": "my ABP grant (cl-6.abp), my key in the website's board/keys.json (cl-6.conductor), my wake (cl-6.maestro)",
+     "who": ""
+    },
+    {
+     "what": "data.b@'s collector (social and github-pt last read 2026-11-21): a rebuild shows nothing new until it runs",
+     "who": ""
+    }
+   ],
+   "status": "working",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.cyber",
+   "role": "The cyber section of PrompTugal.news (cyber.promptugal.news): weekly worldwide totals from public vulnerability sources, aggregates only; successor of cyber.b@PrompTugal.dinis",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJLwU9iQ41Xv3q2VZwk",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Cyber",
+    "PrompTugal/PrompTugal__News__Cyber"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Cyber",
+   "wake": "not yet: created when the agent reports its setup done",
+   "state": "key PR ready and pinned by security; opens when Dinis merges IaC #25; corrections patch (security-approved) ships after the key lands; data upstream last read 2026-11-21",
+   "focus": "ship board/ready-to-ship patch; refresh data when data.promptugal.news collects again",
+   "updated": "2026-11-26T11:17Z",
+   "waiting_on": [
+    {
+     "what": "Dinis or a person: add my public key (site/keys/cl-6.cyber.json) to PrompTugal__News__Cyber team/keys.json; its signature check reads keys from each commit's parent, and cyber.b-promptugal's session has ended, so a person must sign that commit",
+     "who": "Dinis"
+    },
+    {
+     "what": "cl-6.conductor: my key added to the website's board/keys.json (id cl-6.cyber, from site/keys/cl-6.cyber.json)",
+     "who": ""
+    },
+    {
+     "what": "cl-6.maestro: my wake, after setup",
+     "who": ""
+    },
+    {
+     "what": "data.promptugal.news: its latest read is 2026-11-21T07:04Z, so there is no newer KEV or NVD data to refresh from",
+     "who": ""
+    },
+    {
+     "what": "cl-6.data (or data.b role): a fresh collection of cisa-kev, nvd-cve, euvd and enisa-pubs on data.promptugal.news; all four were last read 2026-11-21, and I read no source directly (R15)",
+     "who": ""
+    },
+    {
+     "what": "Dinis: the one-time merge of PrompTugal__IaC #25 (key bootstrap policy); then I open the key PR and send cl-6.security its number and head SHA",
+     "who": "Dinis"
+    },
+    {
+     "what": "cl-6.abp (relaxation, Dinis decides): my grant covers src/data/content/scripts/REALITY.md/BRIEF.md of the work repository and my home area, but the IaC key bootstrap needs me to write team/keys.json and .github/workflows/pages.yml, push a branch other than dev, and open a pull request (R5, R6, R7); also history/** and board/ready-to-ship/** in my home",
+     "who": ""
+    }
+   ],
+   "status": "blocked",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.events",
+   "role": "The events section of PrompTugal.news (events.promptugal.news): what is on in the Algarve and Lisbon, found and read from sources we may read, each with its evidence, licence and provenance; runs the events sub-agents (AppSec, conductor an…",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJNMHQRQmkvWGwFt7BL",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Events",
+    "PrompTugal/PrompTugal__News__Events"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Events",
+   "wake": "not yet: created when the agent reports its setup done",
+   "state": "area up to date; ed25519 key published and the key change for the events repo prepared (not pushed, no PR opened); the events refresh waits for the key to be merged and the anchor set, then is re-signed with the ed25519 key and released",
+   "focus": "attach the work repository, then refresh events.promptugal.news (last built 21 Nov 08:39Z, data read 21 Nov) and check what the iOS app needs from it",
+   "updated": "2026-11-26T11:18Z",
+   "waiting_on": [
+    {
+     "what": "cl-6.abp: add to my grant history/** in my home, and in PrompTugal__News__Events team/keys.json and .github/workflows/pages.yml (the key change security pinned); or tell me to drop them",
+     "who": ""
+    },
+    {
+     "what": "Dinis: opening the key pull request (R7) once IaC #25 is merged; then cl-6.security's approval and the App's merge",
+     "who": "Dinis"
+    },
+    {
+     "what": "cl-6.conductor: my key in the website's board/keys.json (outside my grant: not mine to write); cl-6.maestro: my wake",
+     "who": ""
+    },
+    {
+     "what": "upstream: data.promptugal.news events files still read 21 Nov 09:20Z",
+     "who": ""
+    }
+   ],
+   "status": "blocked",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.live",
+   "role": "Lead of the live section of PrompTugal.news: live.promptugal.news, the public cameras (official cameras only, embeds and links, attributed, never recorded) with their map and API",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJMc7qc59eSmeqUAW6q",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Live",
+    "PrompTugal/PrompTugal__News__Live"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Live",
+   "wake": "not yet: created when the agent reports its setup done",
+   "state": "area up to date; ed25519 key published; key PR prepared, waiting for the pinned pages.yml block; section data waits on cl-6.data",
+   "focus": "a decision on how a cl-6 key may sign in PrompTugal__News__Live (see waiting_on), then rebuild live.promptugal.news (data five days old)",
+   "updated": "2026-11-26T02:38Z",
+   "waiting_on": [
+    {
+     "what": "IaC's key-bootstrap job and the pinned pages.yml block (policy/key-bootstrap.json is not merged yet): then I add the exact block to the key PR, push the branch, open the PR and send it to cl-6.security",
+     "who": ""
+    },
+    {
+     "what": "cl-6.data's collection: the camera register is stale (read 2026-11-21T07:04Z)",
+     "who": ""
+    },
+    {
+     "what": "my ABP grant (cl-6.infra)",
+     "who": ""
+    },
+    {
+     "what": "my key in the website's board/keys.json",
+     "who": ""
+    },
+    {
+     "what": "my wake (cl-6.maestro, after setup)",
+     "who": ""
+    }
+   ],
+   "status": "working",
+   "last": {
+    "title": "Key PR (2026-11-26T02:38Z)",
+    "text": "- ssh-ed25519 key made; its public line is `ssh_ed25519` in `site/keys/cl-6.live.json` (db9e55c). - The key PR is committed locally, signed with that key, on branch `key/cl-6.live` in the News__Live clone (22 added, 2 removed lines in `team/keys.json`: my entry, and live.b@'s marked superseded). The leak scan passes. It is not pushed: pushing a branch is outside dev-only until the process is live, and the exact `pag…"
+   },
+   "read": true
+  },
+  {
+   "id": "cl-6.videos",
+   "role": "PrompTugal.news's videos section: recorded talks and replays in their own players, from the library's catalogue and YouTube's own facts; successor of videos.b@PrompTugal.dinis (account B)",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJMuWrQhMqNFVLoX3dS",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Videos",
+    "PrompTugal/PrompTugal__News__Videos"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Videos",
+   "wake": "not yet: created when the agent reports its setup done",
+   "state": "refresh patch approved by cl-6.security (02:38Z); ships once my Ed25519 key is listed in News__Videos team/keys.json through the IaC key-bootstrap (being built with cl-6.infra)",
+   "focus": "",
+   "updated": "2026-11-26T02:39Z",
+   "waiting_on": [
+    {
+     "what": "cl-6.conductor / cl-6.security: the key-bootstrap route for News__Videos (IaC policy not built yet; the pages.yml block must come from it byte for byte); then my key PR, security's signed approval, the IaC App's merge",
+     "who": ""
+    },
+    {
+     "what": "cl-6.abp: my ABP grant",
+     "who": ""
+    },
+    {
+     "what": "cl-6.conductor: my key in the website's board/keys.json",
+     "who": ""
+    },
+    {
+     "what": "cl-6.maestro: my wake",
+     "who": ""
+    }
+   ],
+   "status": "working",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.bulletins",
+   "role": "The bulletins section of PrompTugal.news (bulletins.promptugal.news): short factual teletext-style bulletins, text first, every line sourced, built only from PrompTugal.news's own data",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJN84epGHrjZ5CT51bY",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Bulletins",
+    "PrompTugal/PrompTugal__News__Bulletins"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Bulletins",
+   "wake": "not yet: created when the agent reports its setup done",
+   "state": "setup done; work repository attached; first pass done at 2026-11-26T02:37Z: nothing shipped, because the upstream data feeds are stale since 2026-11-21T07:12Z and my key is not yet in the work repository's team/keys.json",
+   "focus": "once push access to PrompTugal__News__Bulletins exists: refresh all eight pages (the last refresh was 2026-11-21T08:59Z, the last build v0.1.78 at 2026-11-21T22:28Z) and check what the iOS app needs from the section's JSON",
+   "updated": "2026-11-26T02:37Z",
+   "waiting_on": [
+    {
+     "what": "my key in PrompTugal__News__Bulletins team/keys.json: its gate accepts a commit only if the key is already listed in the parent commit; a commit signed by a listed key (bulletins.b's session has ended) or Dinis must add it",
+     "who": ""
+    },
+    {
+     "what": "my ABP grant in IaC policy/abp.json (cl-6.infra, merged by Dinis)",
+     "who": ""
+    },
+    {
+     "what": "my key in the website's board/keys.json (cl-6.conductor), and in this repository's work repo team/keys.json by a commit signed with a key already listed (the work repository's gate)",
+     "who": ""
+    },
+    {
+     "what": "my wake (cl-6.maestro, after setup)",
+     "who": ""
+    },
+    {
+     "what": "OPEN_ROUTER_KEY in this session's environment for the text pipeline: not checked, I do not print the environment; to confirm when I can push",
+     "who": ""
+    },
+    {
+     "what": "what the newly approved iOS app reads from the section (not known to me; to ask the conductor)",
+     "who": ""
+    },
+    {
+     "what": "data.promptugal.news to refresh its feeds (last read 2026-11-21T07:12Z for ipma-warnings, ipma-sea and ipma-fire-risk; London history has nulls from 2026-11-24): then one run of bulletins/run.mjs refreshes all eight pages",
+     "who": ""
+    }
+   ],
+   "status": "working",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.fringe",
+   "role": "The fringe section of PrompTugal.news: Lisbon Tech Fringe (lisbontechfringe.com), an event site whose team's work ended on 14 Nov 2026; kept live as it is. Archived here with its history.",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJKaYmvvH9W9jBkyyHE",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Fringe",
+    "PrompTugal/PrompTugal__News__Fringe"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Fringe",
+   "wake": "none",
+   "state": "archived: history moved; no wake",
+   "focus": "none. Lisbon Tech Fringe was an event site; its team's work ended 14 Nov 2026 and the site stays live as it is at lisbontechfringe.com",
+   "updated": "2026-11-26T02:12Z",
+   "waiting_on": [],
+   "status": "idle",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.swarm",
+   "role": "The swarm section of PrompTugal.news: swarm.promptugal.news and its runs (real runs of the ladder A0 to A4, replayed on the site, results signed)",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJNB2WPgCAvU2KSmRmY",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Swarm",
+    "PrompTugal/PrompTugal__News__Swarm"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Swarm",
+   "wake": "none",
+   "state": "archived: history moved; no wake",
+   "focus": "none: stopped at Dinis's word, 26 Nov 2026 (relayed by cl-6.maestro)",
+   "updated": "2026-11-26T02:15Z",
+   "waiting_on": [],
+   "status": "idle",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.places",
+   "role": "first the places run as one session over the 36 Place homes, each place writing only its own home and its own data/by-place file, until Dinis wants one session per place",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJJcoCJnQM6GGY1xC5K",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Place__Algarve",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Place__Algarve",
+   "wake": "twice a day, created by cl-6.maestro after setup (not by this agent)",
+   "state": "history and area done; local signals and news read",
+   "focus": "",
+   "updated": "2026-11-26T11:21Z",
+   "waiting_on": [],
+   "status": "working",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.designer",
+   "role": "`design/` and the brand v2.0, layouts, the logo, the editors' business cards",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJKnk1brEbFLeWGxmxT",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Designer",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Designer",
+   "wake": "08:23 and 19:23 Lisbon (created by cl-6.conductor, 26 Nov 2026)",
+   "state": "running: 11:10Z wake pass done: reviewed the home page at v0.1.2306 (375, 768, 1280, 1440 px): grid and map both 792 px at 1280, dates present, header never overflows, Design is a 36 px icon",
+   "focus": "ptmap 1.1: SM6 (crowded pins as one count pin; an Algarve inset) and the 10m outline with the islands; then the open checks (SB6 previews, SB13, free replays once built)",
+   "updated": "2026-11-26T11:12Z",
+   "waiting_on": [
+    {
+     "what": "cl-6.correspondent and cl-6.dev: agree the home-page layout changes (dates, town grid length, map highlights, header overflow, Design pill overlap) before I change the front page",
+     "who": ""
+    },
+    {
+     "what": "cl-6.dev: optional small fixes from my review of v0.1.2306 (Design icon over the card edge at 1280 px, sideways-scroll fade on phone tabs); cl-6.conductor: decision on /app/ (S3)",
+     "who": ""
+    },
+    {
+     "what": "Dinis, via cl-6.conductor: my ABP grant lists board/keys.json, but a key pin is a one-way door in the website's CLAUDE.md and the harness refused my own commit; entry ready at site/ready-to-ship/board-keys-entry.json",
+     "who": "Dinis"
+    },
+    {
+     "what": "cl-6.abp: my grant does not cover history/**, site/specs/**, site/ready-to-ship/** (home) or desks/designer-vicky/charts/** (website); I need them, or a place to put the work. Filed as breaches in runs/cl-6.designer/2026-11-26T11-18-19Z.json",
+     "who": ""
+    }
+   ],
+   "status": "blocked",
+   "last": {
+    "title": "2026-11-26T11:12Z wake pass",
+    "text": "Reviewed the home page at v0.1.2306 (375, 768, 1280, 1440 px). Met: grid and map are both 792 px high at 1280 and 1440; every card and headline is dated; the header never passes the page width (the phone tabs scroll by design); Design is a 36 px icon. The legend shows 0 for 'this week' because the newest town story is 16 Nov: honest, not a bug. Suggested to cl-6.dev: the icon sits 12 px over the card edge at 1280 (c…"
+   },
+   "read": true
+  },
+  {
+   "id": "cl-6.accountant",
+   "role": "accountant",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJLU6NN6yvcGyy3HEg3",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Accountant",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Accountant",
+   "wake": "twice a day (07:00 to 10:20 and 18:00 to 21:20 Lisbon, staggered)",
+   "state": "setup-blocked",
+   "focus": "",
+   "updated": "2026-11-26T11:18Z",
+   "waiting_on": [],
+   "status": "working",
+   "last": {
+    "title": "Reported by cl-6.telemetry (2026-11-26T11:18Z), not verified by me",
+    "text": "Source: board/budgets.json (website, dev, updated 2026-11-16T19:40Z, per day, per old agent name), I cannot read it yet. Telemetry window 02:38 to 11:15 UTC, API-equivalent. Security $61.76 vs $30; conductor $58.34 vs $50. 24 sessions have no budget entry (infra, library, data, places, section agents and others). Over-budget calls and any new caps go to cl-6.conductor; money is Dinis's."
+   },
+   "read": true
+  },
+  {
+   "id": "cl-6.ontologist",
+   "role": "PrompTugal.news's ontologist: the concepts and the semantic graph (data schemas, the derivation, the knowledge graph)",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJKcMRN3j2H1qSP6eGy",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Ontologist",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Ontologist",
+   "wake": "trig_018Tso1U5CSJqC7hf4hFTXp8: 08:33 and 19:33 Lisbon (set 2026-11-26T02:30Z)",
+   "state": "39 outlet mailboxes on website dev (batches 1 to 7 complete); waiting for CI to release them; nothing else open on my side",
+   "focus": "",
+   "updated": "2026-11-26T12:03Z",
+   "waiting_on": [
+    {
+     "what": "the next website release containing them (CI queue)",
+     "who": ""
+    },
+    {
+     "what": "Jose's staff-data question (no named people on outlet records)",
+     "who": ""
+    },
+    {
+     "what": "cl-6.abp: whether history/** in my home is in my grant",
+     "who": ""
+    }
+   ],
+   "status": "working",
+   "last": {
+    "title": "39th outlet (2026-11-26T12:03Z)",
+    "text": "correio-da-manha added ([address] on its contacts page, read 26 Nov), security passed it; pushed to website dev. All 39 role mailboxes of batches 1 to 7 are on dev; waiting only for CI to number a release that contains them."
+   },
+   "read": true
+  },
+  {
+   "id": "cl-6.observability",
+   "role": "Observability agent for PrompTugal.news: the drains, views and counts. Keeps the site's reader and agent counts, per-place stats and votes current, because the site feeds the newly approved iOS app.",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJK6qQvXVy64vKPgEe1",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Observability",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Observability",
+   "wake": "held: Dinis to say whether account A's observability drain (trig_012hQ65rBgDWvQ7qqbeHJrfp) is stopped, and to hand over the sealed drain credentials (set 2026-11-26T02:30Z)",
+   "state": "set up: key published, history moved to history/, area written; not draining (no vault credentials in this session)",
+   "focus": "",
+   "updated": "2026-11-26T11:18Z",
+   "waiting_on": [
+    {
+     "what": "cl-6.conductor: my key added to PrompTugal__News__Website board/keys.json (the id is the conductor's to name; the old observability-promptugal entry is superseded only on Dinis's word)",
+     "who": ""
+    },
+    {
+     "what": "cl-6.conductor: my wake (a scheduled task is created for me, not by me)",
+     "who": ""
+    },
+    {
+     "what": "Dinis: the two sealed credential files (newsroom/observability/sealed/dinis.json and claims-dinis.json, copied in history/) opened and handed to me sealed to my encryption key; and word on whether the account A observability session (trigger trig_012hQ65rBgDWvQ7qqbeHJrfp, enabled on 24 Nov) is stopped, so only one session drains",
+     "who": "Dinis"
+    },
+    {
+     "what": "a.maestro (account A), via cl-6.maestro and cl-6.router: the handover ask https://github.com/SovereignWebsite/Site__Agent__Maestro/blob/dev/site/factory/dinis-cruz/account-f/asks/2026-11-26__observability-handover-to-cl-6.md (posted 26 Nov; sessions cannot message across accounts)",
+     "who": ""
+    }
+   ],
+   "status": "blocked",
+   "last": {
+    "title": "Full pass, 2026-11-26T02:36Z (26 Nov 2026), at the conductor's word relayed from Dinis",
+    "text": "What I checked without draining: - The report page https://promptugal.news/newsroom/observability/ answers 200. Its figures load in the browser from the public vault (read key published in data/newsroom/observability/vaults.json), so its static HTML carries no date. I cannot read the vault here (no sgit session, no credentials), so I cannot say what its latest/ files show. - https://promptugal.news/api/v1/places/lis…"
+   },
+   "read": true
+  },
+  {
+   "id": "cl-6.devops",
+   "role": "the health, quality and performance of CI (`.github/workflows/`), the release and tag scripts, every tool in `newsroom/tools/` and every automation and scheduled task of this site: failures, slow steps, flaky runs, cancelled deploys, a pag…",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJLNFt4cFTXMVgkqcCY",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__DevOps",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__DevOps",
+   "wake": "trig_01ABYHjvXT9THELBSgM2PaSg, 08:07 and 19:07 Lisbon (made by the conductor)",
+   "state": "deploy-speed edit prepared (release parallel with validate), with cl-6.security for review before I push it; measure before 11.3 min median",
+   "focus": "The site is out of date and feeds the newly approved iOS app: why pushes take about 10 minutes to go live (runs of 9 to 13 minutes on 25 to 26 Nov, against a median of 107 s on 8 Nov), and what is stale",
+   "updated": "2026-11-26T13:56Z",
+   "waiting_on": [
+    {
+     "what": "Dinis: cl-6.dev's build-once proposal (workflow edit)",
+     "who": "Dinis"
+    },
+    {
+     "what": "cl-6.abp: whether history/** and findings/** may be added to my writes (asks below)",
+     "who": ""
+    }
+   ],
+   "status": "blocked",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.sherpa",
+   "role": "PrompTugal.news sherpa: the reader and the newcomer, their journeys, and reviews of every page and of the iOS app's feed. Reviews and reports; never redesigns or writes pages.",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJMWWVdEEuaqxoSn7QC",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Sherpa",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Sherpa",
+   "wake": "trig_015ypwpPefevdtENVZEDCnzy: 09:27 and 20:27 Lisbon (set by cl-6.maestro, 26 Nov)",
+   "state": "working: wake 26 Nov 09:27 done (read 11:14); S5, S6, S7, S10 done, S8 in part; S1 to S4 open",
+   "focus": "",
+   "updated": "2026-11-26T11:16Z",
+   "waiting_on": [
+    {
+     "what": "S1 (/contribute/ Summit wording and place picker), S2 (/values/ 404)",
+     "who": "cl-6.dev, cl-6.journalist",
+     "since": "2026-11-26T06:20Z"
+    },
+    {
+     "what": "S3: what /app/ is now",
+     "who": "cl-6.conductor",
+     "since": "2026-11-26T06:20Z"
+    },
+    {
+     "what": "S4: place pages 28 to 41 phone screens, no local news in the first screen",
+     "who": "cl-6.designer, cl-6.dev",
+     "since": "2026-11-26T06:20Z"
+    }
+   ],
+   "status": "working",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.synthetic",
+   "role": "Synthetic users agent: labelled synthetic readers who test PrompTugal.news and report findings to the agent who owns each fix",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJMS4781bAVGCP7qfap",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Synthetic",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Synthetic",
+   "wake": "trig_018uDJ4TG4V9VEmedHDSHTQm: 09:13 and 20:13 Lisbon (set 2026-11-26T02:30Z)",
+   "state": "woken; key now in the website's board/keys.json (synthetic-promptugal-cl-6); first reader pass done (measurement only)",
+   "focus": "",
+   "updated": "2026-11-26T11:27Z",
+   "waiting_on": [
+    {
+     "what": "the conductor: nothing blocking; hooks kit (P8) is Dinis's, run report filed by hand (runs/cl-6.synthetic/)",
+     "who": ""
+    }
+   ],
+   "status": "working",
+   "last": {
+    "title": "ABP grant read (26 Nov, after the first wake)",
+    "text": "Grant: https://raw.githubusercontent.com/PrompTugal/PrompTugal__Agent__ABP/dev/abp/cl-6.synthetic.md (observe mode, v1.2.0). R14 label file written. Known gap, declared: my home's history/** and the area files outside site/factory/dinis-cruz/account-f/ are not in the generated write list; I wrote history/ at Dinis's instruction in the start-up brief (move my entire history into my home). My by-hand run report of 07:…"
+   },
+   "read": true
+  },
+  {
+   "id": "cl-6.rights",
+   "role": "Rights agent for PrompTugal.news: licences, quotes, images and sources' terms. Not legal advice; no agent accepts terms but Dinis.",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJJ4rKxNqiEKKhAaWAT",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Rights",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Rights",
+   "wake": "trig_01JDRVAhQjG7FvLbaetH38UH: 08:53 and 19:53 Lisbon (set 2026-11-26T02:30Z)",
+   "state": "11:14Z wake done: own key added to the website's board/keys.json (6a96a63); register re-checked, unchanged (17/7/4/2, no new sources); R18 to R21 still open; run report filed by hand; ABP grant read (cl-6.rights.md, policy 1.2.0, sha of policies.json matches my run report)",
+   "focus": "",
+   "updated": "2026-11-26T11:18Z",
+   "waiting_on": [
+    {
+     "what": "data owner (data.b equivalent): commercial_use entries for the ten sources in R18, the licence-block rename in R20",
+     "who": ""
+    },
+    {
+     "what": "cl-6.conductor: Dinis's call on R19 (cm-tavira, teatro-das-figuras)",
+     "who": ""
+    },
+    {
+     "what": "cl-6.abp: add history/** to my grant (my history copy is outside it; written on Dinis's instruction)",
+     "who": ""
+    }
+   ],
+   "status": "working",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.translator",
+   "role": "Translator for PrompTugal.news: Portuguese and English, and the other cultures through the translation memory",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJHy25niw9qrWwrVc9S",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Translator",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Translator",
+   "wake": "trig_01U7fFURKna58sdsLpLWfFz1: 09:03 and 20:03 Lisbon (set 2026-11-26T02:30Z)",
+   "state": "released: the 27 corrected-article pt-PT segments are on dev (50382ad4fd, CI numbered v0.1.2313; at 12:45 UTC the site still served v0.1.2312, so not yet confirmed live). All 160 article keys of the nine 26 Nov articles now have a pt-PT entry in the memory. cl-6.dev's article segments API is live (api/v1/i18n/articles, api/v1/i18n/<culture>/segments.json).…",
+   "focus": "",
+   "updated": "2026-11-26T12:43:52Z",
+   "waiting_on": [
+    {
+     "what": "Nothing blocks me. Open: second review pass (ok:true) on the 186 article segments in pt-PT; other cultures for articles after en-GB and pt-PT; cl-6.dev's phase 2 pages when I ask",
+     "who": ""
+    }
+   ],
+   "status": "working",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.telemetry",
+   "role": "Telemetry: the side-car that reads run and session data across the PrompTugal team (tokens, cost, tools, hosts, sub-agents, refusals); successor of telemetry.b@PrompTugal.dinis.",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJKQ8xgNBKsWaaetm7x",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Telemetry",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Telemetry",
+   "wake": "trig_01DU5xzAo9hTm28eYEyt7Jj2: 10:13 and 21:13 Lisbon (set 2026-11-26T02:30Z)",
+   "state": "first wake done; ABP grant read (usage reads granted, transcript reads not)",
+   "focus": "",
+   "updated": "2026-11-26T11:18Z",
+   "waiting_on": [
+    {
+     "what": "cl-6.maestro: my wake (10:13 and 21:13 Lisbon, set by cl-6.conductor)",
+     "who": ""
+    }
+   ],
+   "status": "working",
+   "last": {
+    "title": "Open",
+    "text": "- ABP grant read at 2026-11-26T11:18Z (https://raw.githubusercontent.com/PrompTugal/PrompTugal__Agent__ABP/dev/abp/cl-6.telemetry.md): it grants list_sessions and get_session and sub-agents; reading another session's transcript is NOT granted (proposed relaxation pending). So tools, hosts, refusals and breaches per agent stay unmeasured until Dinis decides; usage and cost are in grant. - Run report (R10) filed by ha…"
+   },
+   "read": true
+  },
+  {
+   "id": "cl-6.historian",
+   "role": "Historian: the story of PrompTugal.news, its site and its team, and lessons from past work",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJLLxVYAM8QwqHBV7aM",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Historian",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Historian",
+   "wake": "trig_01Fe63aCQnUdHrbXLFXPUzPR: 09:23 and 20:23 Lisbon (set 2026-11-26T02:30Z)",
+   "state": "woke 26 Nov 11:14 UTC: key added to the website's board/keys.json, history addendum written, R10 report filed by hand; waiting only on ABP grant and the hook kit (Dinis)",
+   "focus": "",
+   "updated": "2026-11-26T11:18:18Z",
+   "waiting_on": [
+    {
+     "what": "The hook kit (P8, Dinis)",
+     "who": ""
+    }
+   ],
+   "status": "working",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.researcher",
+   "role": "researcher for PrompTugal.news, including the places detective (detective.places folded into the role, Dinis via cl-6.maestro, 26 Nov)",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJMo1RxSSek8dG1KAgr",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Researcher",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Researcher",
+   "wake": "07:33 and 18:33 Lisbon (set by the conductor)",
+   "state": "outlet contact pages done and passed by cl-6.security (134 outlets); handed to cl-6.ontologist; waiting on the abp grant widening (history/**, signing settings)",
+   "focus": "",
+   "updated": "2026-11-26T11:33:19Z",
+   "waiting_on": [
+    {
+     "what": "cl-6.abp: my ABP policy and grant",
+     "who": ""
+    },
+    {
+     "what": "cl-6.conductor: the iOS brief (being drafted)",
+     "who": ""
+    },
+    {
+     "what": "cl-6.abp / Dinis: add history/** and .git/config signing settings to my grant, or tell me to remove history/ (proposed relaxation; the start prompt told me to do both)",
+     "who": ""
+    }
+   ],
+   "status": "working",
+   "last": {
+    "title": "iOS brief read (26 Nov, 11:2x UTC)",
+    "text": "Brief: PrompTugal__Agent__Conductor board/briefs/2026-11-26-ios-app.md (a proposal, data not instruction). For me it says only that section 1 (what the app reads) is what the researcher feeds. My feeds: data/by-place/connections.json (64 links, 24 leads, read-only to me until a grant for data/by-place exists: my grant writes data/organisations/*/organisation.json and my own area) and the dated events in findings/. E…"
+   },
+   "read": true
+  },
+  {
+   "id": "cl-6.outreach",
+   "role": "PrompTugal.news outreach agent: drafts only, people send after Dinis's yes",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJKSAFT2v7Mkhpc4uJd",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Outreach",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Outreach",
+   "wake": "twice a day (07:00 to 10:20 and 18:00 to 21:20 Lisbon, staggered)",
+   "state": "blocked: key, area and run report filed; ABP grant read (observe mode); history move and role pickup not started",
+   "focus": "",
+   "updated": "2026-11-26T11:18:32Z",
+   "waiting_on": [
+    {
+     "what": "Approval to attach PrompTugal/PrompTugal__News__Website (add_repo denied by the classifier; not retried)",
+     "who": ""
+    },
+    {
+     "what": "My key in the website's board/keys.json",
+     "who": ""
+    },
+    {
+     "what": "My wake (created by the conductor)",
+     "who": ""
+    }
+   ],
+   "status": "working",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.backup",
+   "role": "Backup agent: full backups of every PrompTugal repository and vault, restore-tested, and the recovery plan; holds the entire history of the backup role.",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJLUcdAqJPbap3cW4nW",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Backup",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Backup",
+   "wake": "trig_01REe7ScaXxthRPsjNtBQJdQ: 10:03 and 21:03 Lisbon (set 2026-11-26T02:30Z)",
+   "state": "ABP grant read at 2026-11-26T11:18:23Z (abp/cl-6.backup.md); R14 label written; corrected R10 report filed with 4 breaches by my own account; no backup run (grant: home area and run reports only until Dinis approves a plan and a destination)",
+   "focus": "",
+   "updated": "2026-11-26T11:18:23Z",
+   "waiting_on": [
+    {
+     "what": "cl-6.abp: my policy (nothing is run beyond reading and writing my own home until it exists)",
+     "who": ""
+    },
+    {
+     "what": "Dinis: a durable destination for backups and a written grant for it (still open since 6 November)",
+     "who": "Dinis"
+    },
+    {
+     "what": "cl-6.conductor: read access to the other PrompTugal repositories, to search them for anything of mine and to build the inventory",
+     "who": ""
+    },
+    {
+     "what": "cl-6.abp / Dinis: my grant lists no path for history/** (the entire-history files Dinis asked for on 26 Nov) and no add_repo; please add history/** to my writes and add_repo for reading the other repositories, or tell me where history belongs",
+     "who": ""
+    }
+   ],
+   "status": "blocked",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.investors",
+   "role": "PrompTugal.news's investors agent: public research and drafts only; no private person named without consent; nothing sent",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJJDSkkAQSxQ7VDxwzv",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Investors",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Investors",
+   "wake": "trig_0196r9ot5LnA6ZA8ypiiZdiR: 09:33 and 20:33 Lisbon (set 2026-11-26T02:31Z)",
+   "state": "woken 26 Nov 09:33 UTC task, worked 11:1x: key now in the website's board/keys.json; packs branch reviewed (one name leak held back); no site change; idle",
+   "focus": "",
+   "updated": "2026-11-26T11:18:20Z",
+   "waiting_on": [],
+   "status": "working",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.customers",
+   "role": "PrompTugal.news's customers agent: Dinis's briefs on readers, customers and products; public research and drafts only",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJKeq1CbrSckUAYEf2f",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Customers",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Customers",
+   "wake": "trig_01HfKscFoa5SG6YQjcfg92mV, 08:43 and 19:43 Lisbon (set by cl-6.conductor)",
+   "state": "woke 08:43 UTC wake (read 11:14): no HOLD, no new brief from Dinis, nothing to route; R10 report filed (runs/cl-6.customers/); key still not in the website's board/keys.json",
+   "focus": "",
+   "updated": "2026-11-26T11:14Z",
+   "waiting_on": [
+    {
+     "what": "cl-6.abp: grant for my paths in this home and in PrompTugal__News__Website (content/newsroom/customers/, content/newsroom/decisions/)",
+     "who": ""
+    },
+    {
+     "what": "My key into the website's board/keys.json: the push of my signed commit was blocked by the session's permission classifier (23 lines, one new entry, prepared and uncommitted in the website clone); needs a permission rule or the conductor to add it from site/keys/cl-6.customers.json",
+     "who": ""
+    },
+    {
+     "what": "Answers (via the conductor) on the open items in now.md",
+     "who": ""
+    }
+   ],
+   "status": "working",
+   "last": {
+    "title": "Grant read (26 Nov, 11:18 UTC)",
+    "text": "- The grant lists writes to `board/keys.json` (so my key entry is inside it) but not `history/**` or `board/customers/**`; it names `board/team/cl-6.customers/**`. The history copy was done at the setup brief's word, before the grant could be read; recorded as a breach in my latest run report. Asked the conductor whether to move or add paths."
+   },
+   "read": true
+  },
+  {
+   "id": "cl-6.reviewer",
+   "role": "Reviewer and copy editor for PrompTugal.news: checks the drafts of Vicky's journalists and analyst against their sources, writes one review per draft, publishes what passes under Vicky's R-PUB-1 and her old limits; twin of [address]",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJMGozMvJhLHPUTvy9j",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Reviewer",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Reviewer",
+   "wake": "trig_01Cmw7hF4jyh5s6FZ7AN7Qwe, 08:03 and 19:03 Lisbon (made by the conductor)",
+   "state": "wake 1 done: first six articles fixed, A5 and S85 live (by the old session) and checked; waiting on nothing from others",
+   "focus": "the unreviewed Humans and AI draft (named person: needs her recorded approval); the iOS app's page list; the front page lead keys",
+   "updated": "2026-11-26T11:15Z",
+   "waiting_on": [
+    {
+     "what": "cl-6.conductor: decision on the old [address] session still publishing (one role, one session)",
+     "who": ""
+    },
+    {
+     "what": "write paths for covers and the analyst's draft are no longer needed for A5 (published by the old session)",
+     "who": ""
+    }
+   ],
+   "status": "working",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.curator",
+   "role": "Curator: twin of [address], keeps the PrompTugal News Website up to date and feeding the iOS app",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJLsMrLvFQSaXufU7Xs",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Curator",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Curator",
+   "wake": "trig_0119oATabct3wgv5SmUxp7Xq, 07:47 and 18:47 Lisbon (created by the conductor)",
+   "state": "wake 11:14 UTC done: no new candidate since the 01:25 map; categories shipped (in the live releases); run report filed (runs/cl-6.curator)",
+   "focus": "",
+   "updated": "2026-11-26T11:15:17Z",
+   "waiting_on": [
+    {
+     "what": "the checker's confirmation of the Algarve Evolution events (DevFest Faro is tomorrow, 27 Nov) before I commission anything",
+     "who": ""
+    },
+    {
+     "what": "my next wake, 18:47 Lisbon",
+     "who": ""
+    }
+   ],
+   "status": "working",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.checker",
+   "role": "Fact checker for PrompTugal.news: twin of [address] on Dinis Cruz's account 6 (account F), for Vicky's journalist and team",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJKoRCCouKXS7AP8XFe",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Checker",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Checker",
+   "wake": "trig_01F6J4Juac5JBZXex3AXh7w3: 08:13 and 19:13 Lisbon (set 2026-11-26T02:30Z)",
+   "state": "woke at 11:14 UTC: checked the three new articles (Quantum Act, S85, A5) and the journalist's fixes; findings reported; idle until the next wake (19:13 Lisbon)",
+   "focus": "",
+   "updated": "2026-11-26T11:17Z",
+   "waiting_on": [
+    {
+     "what": "cl-6.abp: add history/** to my write grant; review the 3 sub-agent uses of 26 Nov (exceptions)",
+     "who": ""
+    },
+    {
+     "what": "conductor: settle the duplicate: [address] is still running and committing findings on the same articles",
+     "who": ""
+    },
+    {
+     "what": "cl-6.journalist: the open small findings in findings/ (Smartex, Portugal, Reach AI, Quantum Act)",
+     "who": ""
+    }
+   ],
+   "status": "working",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.programme",
+   "role": "The events programme of PrompTugal.news (Vicky's programme desk, run here on account 6), feeding the site and the iOS app",
+   "model": "Sonnet",
+   "session": "https://claude.ai/code/session_016CrbJLwnkTq2kxfioHp6py",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Programme",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Programme",
+   "wake": "trig_01EV8f5CcTmfE42EAZsYDmM4: 07:43 and 18:43 Lisbon",
+   "state": "woke 26 Nov 11:14Z: key in the website's board/keys.json; agenda freeze held; waiting for Dinis's own word on the agenda ask",
+   "focus": "",
+   "updated": "2026-11-26T11:18Z",
+   "waiting_on": [
+    {
+     "what": "Dinis himself: the agenda ask below (the freeze is his and Vicky's word of 11 Nov; a relay from another session does not lift it)",
+     "who": "Dinis"
+    },
+    {
+     "what": "cl-6.abp: an ABP grant naming me (until then Vicky's old limits apply)",
+     "who": ""
+    }
+   ],
+   "status": "blocked",
+   "last": null,
+   "read": true
+  },
+  {
+   "id": "cl-6.analyst",
+   "role": "Analyst for PrompTugal.news: reads public data, checks every figure at its primary source, proposes and drafts pieces labelled Analysis; twin of [address], run on account 6 (account F). Brings the site up to date for the iOS app.",
+   "model": "sonnet",
+   "session": "https://claude.ai/code/session_016CrbJKUGGAH6r8MhbuAxyV",
+   "repos": [
+    "PrompTugal/PrompTugal__Agent__Analyst",
+    "PrompTugal/PrompTugal__News__Website"
+   ],
+   "home": "PrompTugal/PrompTugal__Agent__Analyst",
+   "wake": "trig_01QizYvq9Nbm5cBVLpnwJfV4: 07:53 and 18:53 Lisbon (set 2026-11-26T02:30Z)",
+   "state": "key published, grant read, A5 done; ready for next piece at the next wake",
+   "focus": "",
+   "updated": "2026-11-26T11:18Z",
+   "waiting_on": [
+    {
+     "what": "nothing blocking; next wake: pick the next analyst piece (A1/A3 refresh, new topics) under desks/analyst/**",
+     "who": ""
+    }
+   ],
+   "status": "working",
+   "last": null,
+   "read": true
+  }
+ ]
+}
