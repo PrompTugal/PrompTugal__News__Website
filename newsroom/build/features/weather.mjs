@@ -1,11 +1,15 @@
 // The free weather page (/weather/; content/weather/index.md, free: true, so no meter loads) and the camera links on the town pages (Dinis, 26 Nov 2026:
 // IPMA values may show on a page that carries no charge, with its credit and the line "This page is free"; a credited link to APL's and AEMTG's own pages
 // is allowed, MEO and Skyline are not). From assets/weather/snapshot.json (newsroom/tools/sync-weather.mjs), which the deploy leaves out. A feed read more
-// than 48 hours before the build is not shown. The words are in assets/weather/weather.json. cl-6.dev@PrompTugal.dinis.
+// than 48 hours before the build is not shown. The terms claim on the page is the data site's own record of IPMA's terms (its sources/commercial.json:
+// ipma-warnings, ipma-fire-risk and ipma-sea "not allowed" for a paid site, non-profit use only) and Dinis's word, relayed by the conductor, 26 Nov 2026, 16:30 UTC
+// ("we show the data, we don't charge"); cl-6.rights confirms and dates the quoted terms on its register. Only Dinis accepts terms. The words are in assets/weather/weather.json. cl-6.dev@PrompTugal.dinis.
 import fs from 'node:fs'
 import path from 'node:path'
 import { plain as cell, safeUrl } from '../lib/agent-text.mjs'
 export const order = 62
+// the two camera pages cleared as credited links, pinned exactly (cl-6.security's W3); the same list as newsroom/tools/sync-weather.mjs
+export const CAM_PAGES = ['https://www.portodelisboa.pt/tejo-live', 'https://meteorologia.aemtg.pt/video']
 
 export const snap = ctx => { try { return JSON.parse(fs.readFileSync(path.join(ctx.ROOT, 'assets/weather/snapshot.json'), 'utf8')) } catch { return null } }
 export const words = ctx => JSON.parse(fs.readFileSync(path.join(ctx.ROOT, 'assets/weather/weather.json'), 'utf8'))
@@ -27,5 +31,5 @@ export { fillers as fill }
 // the camera links for one town, for its "Now in" block: cleared operators only, only when the camera feed was read in the last 48 hours
 export function camLines(ctx, placeId, now = new Date()) {
     const S = snap(ctx), W = words(ctx); if (!S || !S.cams || !fresh(S.cams.read_at, W, now)) return []
-    return S.cams.items.filter(c => c.place === placeId && safeUrl(c.page)).map(c => fill(W.cam, { name: cell(c.name), page: safeUrl(c.page), credit: cell(c.credit), read: S.cams.read_at.slice(0, 10) }))
+    return S.cams.items.filter(c => c.place === placeId && CAM_PAGES.includes(c.page) && safeUrl(c.page)).map(c => fill(W.cam, { name: cell(c.name), page: safeUrl(c.page), credit: cell(c.credit), read: S.cams.read_at.slice(0, 10) }))
 }

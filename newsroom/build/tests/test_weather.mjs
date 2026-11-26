@@ -5,7 +5,7 @@ import fs from 'node:fs'
 import os from 'node:os'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { fill, fresh, camLines } from '../features/weather.mjs'
+import { fill, fresh, camLines, CAM_PAGES } from '../features/weather.mjs'
 const here = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../..')
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'weather-test-')); fs.mkdirSync(path.join(tmp, 'assets/weather'), { recursive: true })
 fs.copyFileSync(path.join(here, 'assets/weather/weather.json'), path.join(tmp, 'assets/weather/weather.json'))
@@ -22,9 +22,17 @@ t('fresh is under the limit', [fresh(hoursAgo(47), W), fresh(hoursAgo(49), W), f
 put(1)
 const w = fill['weather:warnings'](null, ctx)
 t('a fresh warnings feed shows red, orange and yellow groups in order, with the area and the text', [/### Orange/.test(w), /### Yellow/.test(w), w.indexOf('Orange') < w.indexOf('Yellow'), /Faro: Vento/.test(w), /Vento forte/.test(w)], [true, true, true, true, true])
+const S1 = snap(1); S1.warnings.active[0].text = '[x](https://evil.example/a) ![i](https://evil.example/p.png) <https://evil.example/b>'; S1.warnings.active[0].area_name = '[a](javascript:alert(1))'; fs.writeFileSync(path.join(tmp, 'assets/weather/snapshot.json'), JSON.stringify(S1))
+t('IPMA text with a link, an image and an autolink stays plain through plain() (W2)', [/\]\(https:\/\/evil/.test(fill['weather:warnings'](null, ctx)), /!\[/.test(fill['weather:warnings'](null, ctx)), /<https/.test(fill['weather:warnings'](null, ctx))], [false, false, false])
+put(1)
 t('the sea table and the fire counts show', [/Sagres, Costa/.test(fill['weather:sea'](null, ctx)), /high: 8 of 278/.test(fill['weather:fire'](null, ctx))], [true, true])
 t('a fresh camera feed gives the cleared operator\'s link with its credit', camLines(ctx, 'lisboa').length, 1)
 t('and none for another town', camLines(ctx, 'faro'), [])
+const S0 = JSON.parse(fs.readFileSync(path.join(tmp, 'assets/weather/snapshot.json'), 'utf8')); S0.cams.items.push({ id: 'x', name: 'Third', place: 'lisboa', credit: 'APL', page: 'https://evil.example/login' }, { id: 'y', name: 'Fourth', place: 'lisboa', credit: 'APL', page: 'https://www.portodelisboa.pt/tejo-live)(x' })
+fs.writeFileSync(path.join(tmp, 'assets/weather/snapshot.json'), JSON.stringify(S0))
+t('a camera under a cleared operator name but on another URL is dropped, pinned exactly (W3)', camLines(ctx, 'lisboa').length, 1)
+t('and the two pinned pages are the only ones', CAM_PAGES, ['https://www.portodelisboa.pt/tejo-live', 'https://meteorologia.aemtg.pt/video'])
+put(1)
 put(60)
 t('a warnings feed older than 48 hours is not shown', [/Vento forte/.test(fill['weather:warnings'](null, ctx)), /more than 48 hours ago/.test(fill['weather:warnings'](null, ctx))], [false, true])
 t('nor the sea or the fire risk', [/Sagres/.test(fill['weather:sea'](null, ctx)), /high: 8/.test(fill['weather:fire'](null, ctx))], [false, false])
