@@ -242,5 +242,19 @@
    "and AI"
   ],
   "tfig": "60.4%"
+ },
+ {
+  "slug": "two-studies-agent-code-size-and-review",
+  "title": "Two studies of agent code",
+  "sub": "Size and review in AI-written changes",
+  "fig": "1,210 merged fixes",
+  "line": "from 206 Python projects, in one study",
+  "src": "Source: two papers on arXiv, 2026",
+  "alt": "A card: two studies of agent code, on size and review in AI-written changes. One studied 1,210 merged fixes from 206 Python projects, from papers on arXiv.",
+  "ttitle": [
+   "Agent",
+   "code"
+  ],
+  "tfig": "1,210"
  }
 ]

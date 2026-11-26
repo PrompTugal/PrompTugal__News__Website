@@ -4,7 +4,7 @@ date: 2026-11-26
 story: S85
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
 summary: "Two arXiv papers on AI-written code changes: one finds that differences between coding agents mostly disappear once change size is counted, the other that reviewer engagement is the strongest sign a change gets merged. The papers' own figures, not checked."
-status: draft
+status: approved
 beat: AI and robotics
 categories: AI
 license: https://creativecommons.org/licenses/by/4.0/
@@ -30,7 +30,7 @@ Raw issue counts differed between agents. The paper says that largely disappeare
 ## What this does not claim
 
 - **Neither paper measures production incidents.** The first counts issues flagged by a tool, which may not match real risk. The second counts whether a change was merged.
-- **The second paper was read from its abstract only.** The first was read from its PDF in part, which carries the MSR '26 conference header.
+- **The second paper was read from its abstract page only.** That page says it was accepted at MSR 2026, the Mining Software Repositories conference. The first was read from its PDF in part, which carries the same conference's header.
 - **The first paper's limits are its own.** It covers Python only, has no human comparison, and has very uneven numbers per agent, so its per-agent results are exploratory.
 - **The studies are not one ranking.** They use different data and questions, so this article ranks no agent and gives no verdict on AI-written code.
 - **The figures are the papers' and were not checked.**
@@ -38,7 +38,7 @@ Raw issue counts differed between agents. The paper says that largely disappeare
 ## Where this comes from
 
 - [arXiv, "Beyond Bug Fixes: An Empirical Investigation of Post-Merge Code Quality Issues in Agent-Generated Pull Requests" (Cynthia, Muttakin, Roy), abstract page and PDF](https://arxiv.org/abs/2601.20109) (the sample, the method, the finding on size and its limits), submitted 27 January 2026, read 26 November 2026
-- [arXiv, "When AI Teammates Meet Code Review: Collaboration Signals Shaping the Integration of Agent-Authored Pull Requests" (Nachuma, Zibran), abstract page](https://arxiv.org/abs/2602.19441) (the review findings), submitted 23 February 2026, read 26 November 2026
+- [arXiv, "When AI Teammates Meet Code Review: Collaboration Signals Shaping the Integration of Agent-Authored Pull Requests" (Nachuma, Zibran), abstract page](https://arxiv.org/abs/2602.19441) (the review findings and the conference acceptance), submitted 23 February 2026, read 26 November 2026
 - [PrompTugal.news, "A study of five coding agents: reverts, security and review waits"](https://promptugal.news/articles/five-coding-agents-reverts-security-waits.html) (a comparison only), read 26 November 2026
 - From the curator's map: S85, `desks/curator/README.md`
 

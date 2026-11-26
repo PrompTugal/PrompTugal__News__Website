@@ -4865,6 +4865,62 @@
     "source": "desks/reviewer-vicky/covers/cost-holds-back-portuguese-firms-from-ai/cost-holds-back-portuguese-firms-from-ai--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
     "checked": "60.4% against 38.4% (cost, firms that considered AI but did not use it, 2025), against the article, the data note and Eurostat isoc_eb_ai (re-read 26 November 2026); every line measured inside its limit; 26 November 2026, by reviewer@PrompTugal.vicky"
    }
+  },
+  {
+   "slug": "two-studies-agent-code-size-and-review",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "card",
+   "file": "two-studies-agent-code-size-and-review--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-26",
+    "source": "desks/reviewer-vicky/covers/two-studies-agent-code-size-and-review/two-studies-agent-code-size-and-review--card.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "1,210 merged bug-fix pull requests from 206 Python projects, against the article and the first paper's abstract and PDF on arXiv (read 26 November 2026); every line measured inside its limit; 26 November 2026, by reviewer@PrompTugal.vicky"
+   }
+  },
+  {
+   "slug": "two-studies-agent-code-size-and-review",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "card",
+   "file": "two-studies-agent-code-size-and-review--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-26",
+    "source": "desks/reviewer-vicky/covers/two-studies-agent-code-size-and-review/two-studies-agent-code-size-and-review--card.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "1,210 merged bug-fix pull requests from 206 Python projects, against the article and the first paper's abstract and PDF on arXiv (read 26 November 2026); every line measured inside its limit; 26 November 2026, by reviewer@PrompTugal.vicky"
+   }
+  },
+  {
+   "slug": "two-studies-agent-code-size-and-review",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "two-studies-agent-code-size-and-review--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-26",
+    "source": "desks/reviewer-vicky/covers/two-studies-agent-code-size-and-review/two-studies-agent-code-size-and-review--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "1,210 merged bug-fix pull requests from 206 Python projects, against the article and the first paper's abstract and PDF on arXiv (read 26 November 2026); every line measured inside its limit; 26 November 2026, by reviewer@PrompTugal.vicky"
+   }
+  },
+  {
+   "slug": "two-studies-agent-code-size-and-review",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "two-studies-agent-code-size-and-review--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-26",
+    "source": "desks/reviewer-vicky/covers/two-studies-agent-code-size-and-review/two-studies-agent-code-size-and-review--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "1,210 merged bug-fix pull requests from 206 Python projects, against the article and the first paper's abstract and PDF on arXiv (read 26 November 2026); every line measured inside its limit; 26 November 2026, by reviewer@PrompTugal.vicky"
+   }
   }
  ]
 }
