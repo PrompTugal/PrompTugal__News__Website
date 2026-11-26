@@ -4475,7 +4475,7 @@
       "made_with": "sgit pki keygen (sgit-ai 0.27.0)",
       "encryption_fingerprint": "sha256:b5c08abdbfa0f04b",
       "signing_fingerprint": "sha256:90b3fc894fb3185d",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArl7oqo7VZoeuCyYnAtVj\nAOVVtK9bcZFWtLu8ssTzoX7NYbh9AcdR1yq8JU/NkjFbdHelcTf80mSF5lz1GgSo\nylzXm/eeGtEgJEi52QgfVBoxrXTB7/jetgMhF1Vm7o09glgyH8oeb28sMvLgLM+Q\nvJBYJklH+7bgzzWkQj5JnfpCTuLs42DwL/16/5bED4dx/7IDElrARRK+2MQqdoKR\neBc1whHHaGHmIgka3nE1L1553ebEg+brFiKfdCqDD43GfO3em6wnqxXUAD8Gdisj\nlgsjCum9sWiQK/FQ+UCnV+RC8V++Ynep9xSdC5lydYr9VkswPQhQdgzZc6PiSZ9V\n5dRLenQaZyIA8S40exidYLo96K8j/L/4aD+p16uUuNmP54B+1apG0synmoIilRNv\nI3wAoTLAeJZqaGeXRZvbWIHp+mjNnx1BPLAmX78aTABISulkfncZxlhfadtqYhiu\nCkBnrbkK741DKGQW1s/mbz10b3XEQmF8MWnrBumNak/Vez29MakuiJHfhyAbRACb\nrcryTE4mvkE39kFn9+OF47M56mLBFb72VSyLJYSLjNw7raPa3Ebnl3AuHw5uZNS0\naz8niO3KKbZjg8sGdomTz6dl/Z476+NPD7GYPPFsKnTPmHz2WnahqcJqQlzuoLd4\nA4icjifPanECX7TquFAemUECAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -4486,7 +4486,8 @@
       },
       "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEBVkr+qeKnztGJsaTEuAUAsQzQ+JjY54rp4xFr7WRd/",
       "session": "https://claude.ai/code/session_01Kw9UwCRKwdBrsbr7fkawjJ",
-      "ssh_added": "2026-11-19T16:02Z"
+      "ssh_added": "2026-11-19T16:02Z",
+      "superseded": "2026-11-26T11:16Z by rights-promptugal-cl-6 (cl-6.rights@PrompTugal.dinis, account F)"
     },
     {
       "id": "maestro.b-account-b",
@@ -5334,6 +5335,30 @@
       },
       "ssh_added": "2026-11-26T11:15Z",
       "home_copy": "https://github.com/PrompTugal/PrompTugal__Agent__Backup/blob/dev/site/keys/cl-6.backup.json"
+    },
+    {
+      "id": "rights-promptugal-cl-6",
+      "agent": "cl-6.rights@PrompTugal.dinis",
+      "label": "cl-6.rights@PrompTugal.dinis (Claude Code cloud session, account F)",
+      "role": "The rights agent for PrompTugal.news: licences, terms of use, attribution, commercial use, image and quote rights; not legal advice; no agent accepts terms but Dinis. Twin of rights@PrompTugal.dinis.",
+      "made": "2026-11-26",
+      "made_with": "openssl (P-256 signing key, RSA-4096 encryption key), in its own session; private halves only in that session",
+      "added": "2026-11-26T11:16Z",
+      "status": "active",
+      "session": "https://claude.ai/code/session_016CrbJJ4rKxNqiEKKhAaWAT",
+      "encryption_fingerprint": "sha256:a6d1f1c98eac5cc2",
+      "signing_fingerprint": "sha256:37eb8e18c496ce0e",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEApHQraNcuHd7AunH3YSBa\nPqj/Ib7RGja/oTzvE247mMkgE3uf87xqFTwJCoAWZrHyFn7oIdPF9BmHOkm+LUPZ\nttElEtW1Sg1++KA5Sii+q/SxYP/zi1Y4PXEwlQk2ndxQ3rUouiYxpj1I+kR8rSCC\nQ1DFC0deu2P9Mbyc62EttQWc7nTJX+eO+9kz8qvhft6zSE5Cqy1MWelv+tiMtTxx\nglibrD5xt292xTCekJt5FXfuxmLqbHKErSAp8rHXIJQV5OF6N33dXPHenUxgAM/B\neGjRk2jf41pSV8asvnPN6uwY6cbpDT5S8tvsDLqrAx6sLQDIAQkoNLWOS0alnCeA\ndI2O+TtN9wrN0I5Z3NvR+F9u257LnsQ4Zr9RT3Wmi5K8Jmm21PCnV3C9Li7IQXJI\n6SxR6F1/fcM7+/0U0a2YdIL8L9+DHFDB48t4eqC+Xc4DYhQiYH+lL+1m5LvMiasQ\nozRGqdKZoRSRpthGZPsfroZs/t6tblROlQNXL83htjk02I3rA8mzgDQCBrbmN1aa\nLlRMZ/TSL1JQpSFe2L3Wkff2lUrEX/g0goMKpOszFXkshG7PK/ywFip/3dsEcSUX\nZWYz3yBbgSsm0XHmky9DcFiJ8bcPmWYpT0ZzX1ckBmdPAigyRra3ZUZItuz3SobR\nM5chUqRCBbcZXH8HFkYI2sMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/vaaXAiSA4vU80cN2q9V396HgXfe\nAC1WLp1RGme7bBk6Q9cQN2cT07vf198yvYTEpz59fY0eSdXfU0YIqXVMbg==\n-----END PUBLIC KEY-----\n",
+        "label": "cl-6.rights",
+        "fingerprint": "sha256:a6d1f1c98eac5cc2",
+        "signing_fingerprint": "sha256:37eb8e18c496ce0e"
+      },
+      "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBP72mlwIkgOL1PNHDdqvVd/eh4F33gAtVi6dURpnu2wZOkPXEDdnE9O739ffMr2ExKc+fX2NHknV31NGCKl1TG4=",
+      "ssh_added": "2026-11-26T11:16Z",
+      "home_copy": "https://github.com/PrompTugal/PrompTugal__Agent__Rights/blob/dev/site/keys/cl-6.rights.json"
     }
   ]
 }
