@@ -18,13 +18,13 @@ tags: London, Tube, RMT, TfL, strikes, four-day week
 - Tube drivers in the RMT union began the first of eight strikes at 12:00 on Thursday 26 November 2026. The other seven start on 17 and 19 December, 4 and 6 January, and 17, 23 and 25 February.
 - For the first strike, Transport for London (TfL) said there would be no service on the Circle or Piccadilly lines all day and none on the Waterloo & City line after midday, with disruption on all other lines.
 - The dispute is over a voluntary four-day week for train drivers. TfL says its latest version lets drivers stay on five days at the same depot. The RMT says the plan forces drivers to give up existing protections whichever pattern they choose.
-- We found no public figure for how many journeys the strikes affect, and no statement from the Mayor of London or the Department for Transport.
+- We found no public figure for how many journeys the strikes affect, and, as of 26 November, no statement from the Mayor of London or the Department for Transport.
 
 ## The story
 
-TfL's press release of 23 November says the strike is "the first in a series of dates announced by the RMT between November 2026 and February 2027". Each strike runs for 24 hours, from 12:00 to 11:59 the next day, and both TfL and the RMT list the same eight start dates: 26 November, 17 December, 19 December, 4 January, 6 January, 17 February, 23 February and 25 February. TfL says disruption is expected before and after each window and that more customer information will follow closer to each date.
+TfL's press release of 23 November says the strike is "the first in a series of dates announced by the RMT between November 2026 and February 2027". Each strike runs for 24 hours, from 12:00 to 11:59 the next day, and both TfL and the RMT list the same eight start dates. The eight windows are 26 to 27 November 2026; 17 to 18 December; 19 to 20 December; 4 to 5 January 2027; 6 to 7 January; 17 to 18 February; 23 to 24 February; and 25 to 26 February. TfL says disruption is expected before and after each window and that more customer information will follow closer to each date.
 
-**The first strike, as TfL planned it on 23 November.** Normal service until about 10:00 on Thursday 26 November, then disruption as services reduce. From midday most Tube services were expected to run, with disruption on all lines, but no service on the Circle or Piccadilly lines throughout the day and none on the Waterloo & City line after midday. On Friday 27 November services were expected to start from about 07:00, with disruption until about midday and a return to normal by about 18:00. TfL said the Elizabeth line, DLR, London Overground, buses and trams were expected to run, possibly busier than usual. It has not published line-by-line detail for the other seven strikes. This article does not report what actually happened on the day.
+**The first strike, as TfL planned it on 23 November.** Normal service until about 10:00 on Thursday 26 November, then disruption as services reduce. From midday most Tube services were expected to run, with disruption on all lines, but no service on the Circle or Piccadilly lines throughout the day and none on the Waterloo & City line after midday. On Friday 27 November services were expected to start from about 07:00, with disruption until about midday and a return to normal by about 18:00. TfL said the Elizabeth line, DLR, London Overground, buses and trams were expected to run, possibly busier than usual. Line detail exists only for the first strike: TfL has not published it for the other seven. This article does not report what actually happened on the day.
 
 **What the dispute is about.** TfL says the action concerns "revised proposals for a voluntary four-day week working pattern for train drivers", drawn up in response to a request from trade unions. It says it has changed the options so that drivers can choose to stay on a five-day week with a guarantee of remaining at the same depot, on the same terms as the four-day pattern. It says the pattern has been checked with fatigue tools, that drivers would still be paid the same for 35 hours a week, and that the ASLEF union, which also represents Tube drivers, has accepted the proposal.
 
@@ -40,8 +40,8 @@ On 26 November the RMT also published a survey of more than 700 frontline London
 
 - **We do not say who is right.** TfL and the RMT disagree on whether the proposal is voluntary and what it costs drivers. Each side's account here is its own, from its own press release.
 - **TfL's figures and the claim that ASLEF has accepted are TfL's.** We did not check them with ASLEF directly.
-- **We did not read tfl.gov.uk's page,** which refused our request; TfL's release was read on its press-office site.
-- **No journeys figure, no cost figure and no estimate** of how many people the strikes affect has been published in the sources we read.
+- **We did not read tfl.gov.uk's page,** which refused our request at about 15:50 UTC on 26 November; TfL's release was read on its press-office site. The RMT's own site returned an error to the correspondent's earlier attempts and answered when we read it, around 15:55 UTC.
+- **No journeys figure, no cost figure and no estimate** of how many people the strikes affect has been published in the sources we read. As of 26 November 2026 we found no statement on the strikes from the Mayor of London or the Department for Transport.
 - **Dates after the first may change.** Time Out notes that future strikes could be called off if a deal is reached; none had been on 26 November.
 
 ## Where this comes from
@@ -50,6 +50,7 @@ On 26 November the RMT also published a survey of more than 700 frontline London
 - [RMT, "Tube drivers to take eight days of strike action over attacks on working conditions", 6 November 2026](https://www.rmt.org.uk/news/tube-drivers-to-take-eight-days-of-strike-action-over-attacks/) (the RMT's dates and its account of the dispute), read 26 November 2026
 - [RMT, "Tube drivers' strike to go ahead", 24 November 2026](https://www.rmt.org.uk/news/tube-drivers-strike-to-go-ahead/) (the failed ACAS talks, three suspensions, Eddie Dempsey's quotes), read 26 November 2026
 - [RMT, "RMT members believe London Mayor should intervene on tube strike", 26 November 2026](https://www.rmt.org.uk/news/rmt-members-believe-london-mayor-should-intervene-on-tube/) (the survey of more than 700 staff and the union's letter to TfL), read 26 November 2026
+- The chart: strike windows and first-day line detail from TfL press release PN-259, 23 November 2026 (read 26 November 2026), with the RMT's own releases for the dates. Dates after the first may change.
 - [Time Out, "London Tube Strikes Winter and Christmas 2026/2027: Full list of dates", 26 November 2026](https://www.timeout.com/london/news/tube-and-train-strikes-christmas-winter-2026-2027-full-list-of-dates-and-lines-110626) (the ASLEF organiser's words as quoted, the note that later strikes could be called off), read 26 November 2026
 
 ## Who made this
