@@ -167,6 +167,10 @@ function fillE(page, ctx) {
     const esc = ctx.md.esc, { AGENDA, itemsOn } = load(ctx)
     const fo = frontOrder(ctx), placed = fo.filter(a => a.meta.region || a.meta.town).sort((x, y) => (y.meta.front_lead ? 1 : 0) - (x.meta.front_lead ? 1 : 0) || String(y.meta.date).localeCompare(String(x.meta.date)))
     const all = [...placed, ...fo.filter(a => !placed.includes(a))]
+    // the lead is the correspondent's (front-page.json "lead": what leads, a PT decision of 26 Nov 2026 on the conductor's word); with none published,
+    // the first placed article as before. The places band keeps its own lead: the placed stories below start from the first placed article.
+    const FP = (() => { try { return JSON.parse(fs.readFileSync(path.join(ctx.ROOT, 'desks/correspondent/front-page.json'), 'utf8')) } catch { return null } })()
+    const pick = FP?.lead?.article && fo.find(a => slugOf(a) === FP.lead.article), theLead = pick || all[0]
     const { L: PL, rows: PR } = placesOf(ctx, all)
     // the Algarve's grid beside the map: the towns with the newest news first, capped so the two columns balance, then a link to all of them
     const algTowns = PR.filter(r => r.p.parent === 'algarve' || r.p.parent === 'loule').sort((x, y) => (y.newest || '').localeCompare(x.newest || '') || (y.news + y.map) - (x.news + x.map) || x.p.name.localeCompare(y.p.name))
@@ -190,7 +194,7 @@ function fillE(page, ctx) {
     page.before = (page.before || '') + put(part('page'), {
         today: ctx.TODAY, date: `${ctx.DAY(ctx.TODAY)} ${y}`, opening_at: openingAt, opening_in: days > 0 ? `${days}d` : '', name: esc(ctx.SITE.name), wordmark: WORDMARK(''),
         '#nav': many('nav', ctx.NAV.nav.map(n => ({ href: n.href, label: esc(n.label), cur: n.id === 'now' ? ' aria-current="page"' : '' }))),
-        lead: lead(ctx, all[0]),
+        lead: lead(ctx, theLead),
         spectrum: stripHtml(ctx, ''),   // GAMMA-Ray's cards under the lead (THE RESTART: the agentic edition), left out with no data
         ...(() => { const tk = PR.filter(r => r.a || r.n).map(r => r.a ? { href: r.a.rel, date: r.a.meta.date, when: esc(r.p.name), what: esc(cut(r.a.meta.title, 80)), where: '' } : { href: r.p.path + 'index.html', date: '', when: esc(r.p.name), what: esc(cut(r.n.title || r.n.headline || '', 80)), where: '' })
             return { '#week': many('week', tk), '#week_again': many('week', tk.map(w => ({ ...w, tab: ' tabindex="-1"' }))) } })(),
@@ -200,8 +204,8 @@ function fillE(page, ctx) {
         '#places': many('place', algTowns.slice(0, ALG_CAP).map(r => ({ href: r.p.path + 'index.html', name: esc(r.p.name), counts: `${r.news} stories · ${r.map} on the AI map`, about: esc(r.about),
             newest: r.a ? put(item('pnew'), { href: r.a.rel, date: nice(ctx, r.a.meta.date), title: esc(cut(r.a.meta.title, 80)) }) : r.n && r.n.title ? put(item('pnew'), { href: r.p.path + 'index.html#local', date: nice(ctx, r.n.date || r.n.read_on), title: esc(cut(r.n.title, 80)) }) : '' }))),
         '#stats': many('stat', statsOf(ctx, PR, all)),
-        '#briefing': many('brief', all.filter(a => !(a.meta.region || a.meta.town)).slice(0, 8).map(a => ({ href: a.rel, title: esc(a.meta.title), beat: esc(beatOf(a)) + dt(ctx, dateOf(ctx, a)) }))),  // national and international (Dinis, 16 Nov): what has no place, in the correspondent's order
-        '#stories': placed.slice(1, 9).map(story).join(''),
+        '#briefing': many('brief', all.filter(a => !(a.meta.region || a.meta.town) && a !== theLead).slice(0, 8).map(a => ({ href: a.rel, title: esc(a.meta.title), beat: esc(beatOf(a)) + dt(ctx, dateOf(ctx, a)) }))),  // national and international (Dinis, 16 Nov): what has no place, in the correspondent's order
+        '#stories': placed.filter(a => a !== theLead).slice(pick && !placed.includes(pick) ? 0 : 1, pick && !placed.includes(pick) ? 8 : 9).map(story).join(''),
         '#next': many('next', next.map(i => ({ href: `events/${i.id}/index.html`, date: i.date, end: endOf(i), when: esc(when(ctx, i)), what: esc(cut(i.what, 110)), where: esc(i.where || '') }))),
         '#radar': many('radar', fields.slice(0, 6).map(([t, n]) => ({ href: `topics/${t.id}/index.html`, name: esc(t.name), n, pct: Math.round(100 * n / max) }))),
         '#nums': many('num', [[PR.length, 'places, an agent each'], [PR.reduce((s, r) => s + r.news, 0), 'local AI stories, sourced'], [PR.reduce((s, r) => s + r.map, 0), 'AI builders mapped'], [signed, 'stories, signed']].map(([value, label]) => ({ value, label }))),
