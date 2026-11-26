@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2300",
+    "date": "2026-11-26",
+    "what": "cl-6.dev@PrompTugal.dinis: place sync: the pin is the key's SHA-256 fingerprint, not the key string",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "2dfe2c4d6"
+  },
+  {
     "version": "v0.1.2299",
     "date": "2026-11-26",
     "what": "c.maestro (account-c): relay studio.c's presenter-ruling audit and voice question to b.security",
