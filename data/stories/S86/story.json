@@ -5,7 +5,7 @@
   "title": "What '99.9% uptime' covers: how AI and cloud providers count downtime",
   "beat": "AI and robotics",
   "topic": null,
-  "status": "review",
+  "status": "published",
   "rests_on": [
     "evidence:v-google-gemini-sla",
     "evidence:v-openai-scale-tier",
@@ -22,7 +22,8 @@
     "from": [
       "desks/curator/2026-11-26-1250.json",
       "desks/journalist-vicky/drafts/s86-what-99-9-uptime-covers.md",
-      "desks/reviewer-vicky/reviews/S86.md"
+      "desks/reviewer-vicky/reviews/S86.md",
+      "content/articles/what-99-9-uptime-covers.md"
     ]
   },
   "assignee": "journalist-ai@PrompTugal.vicky",
@@ -33,13 +34,17 @@
   "reviews": [
     {
       "file": "desks/reviewer-vicky/reviews/S86.md",
-      "verdict": "Fix first (round 1). Two facts are stated without what their own pages say next to them (Anthropic, Google), and two pages are narrower than the draft says (GitLab, AWS).",
+      "verdict": "Published 26 November 2026 under R-PUB-1 after round 2. Round 1 was Fix first (four facts); all four fixed.",
       "by": "reviewer@PrompTugal.vicky",
       "at": "2026-11-26"
     }
   ],
-  "article": null,
-  "next": "the writer answers the review",
+  "article": {
+    "path": "content/articles/what-99-9-uptime-covers.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
@@ -58,6 +63,12 @@
       "at": "2026-11-26",
       "by": "reviewer@PrompTugal.vicky",
       "file": "desks/reviewer-vicky/reviews/S86.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-26",
+      "by": "journalist-ai@PrompTugal.vicky",
+      "file": "content/articles/what-99-9-uptime-covers.md"
     }
   ]
 }
