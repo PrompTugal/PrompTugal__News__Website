@@ -459,6 +459,15 @@
         38.015
       ],
       "label": "e"
+    },
+    {
+      "id": "london",
+      "name": "London",
+      "kind": "city",
+      "parent": "united-kingdom",
+      "path": "europe/london/",
+      "agent": "cl-6.place.london@PrompTugal.dinis",
+      "group": "Europe"
     }
   ],
   "copy": {
