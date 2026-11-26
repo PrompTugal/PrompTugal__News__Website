@@ -50,7 +50,7 @@ for try in 1 2 3 4; do
   node -e '
     const fs = require("fs"), [v, what, by, from] = process.argv.slice(1)
     const rows = JSON.parse(fs.readFileSync("newsroom/versions.json", "utf8")).filter(r => r.version !== v)
-    rows.unshift({ version: v, date: new Date().toISOString().slice(0, 10), what, ...(by ? { by } : {}), ...(from ? { from } : {}) })
+    rows.unshift({ version: v, date: new Date().toISOString().slice(0, 10), time: new Date().toISOString().slice(0, 19) + "Z", what, ...(by ? { by } : {}), ...(from ? { from } : {}) })
     fs.writeFileSync("newsroom/versions.json", JSON.stringify(rows, null, 2) + "\n")' "$NEW" "$WHAT" "$AGENT" "$(git rev-parse --short=9 HEAD)"
   sed -i -E "s/\(site v[0-9]+\.[0-9]+\.[0-9]+\)/(site $NEW)/" REALITY.md
   node newsroom/build/build.mjs > /dev/null
