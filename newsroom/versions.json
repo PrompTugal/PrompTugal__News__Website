@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2348",
+    "date": "2026-11-26",
+    "time": "2026-11-26T21:02:35Z",
+    "what": "cl-6.dev@PrompTugal.dinis: board/keys.json: the journalist's and the devops agent's new session keys added, the old ones superseded (cl-6.security's S15; keys taken from each agent's own home file, fingerprints re-computed)",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "6688c89f3"
+  },
+  {
     "version": "v0.1.2347",
     "date": "2026-11-26",
     "time": "2026-11-26T20:54:20Z",
