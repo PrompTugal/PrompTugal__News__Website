@@ -1,7 +1,8 @@
 // The /newsroom/activity/ page (the conductor's brief, Dinis's word of 26 Nov 2026): data feeds by freshness, the timeline of signed decisions and
 // agent runs, the run reports by agent, and Dinis's waiting list. From assets/newsroom/activity-snapshot.json (newsroom/tools/sync-activity.mjs) and
 // agents-snapshot.json; the words are in assets/newsroom/activity.json. Every value is escaped; none is trusted. No cost figure. cl-6.dev@PrompTugal.dinis.
-import { esc, cell } from './markdown.mjs'
+import { esc } from './markdown.mjs'
+import { plain as cell, safeUrl } from './agent-text.mjs'
 
 const HOUR = 3600e3
 const tFmt = (s, n) => s.replace('{n}', n)
@@ -14,10 +15,10 @@ export function activityParts(ctx, T, now = new Date()) {
     const agoOf = h => h === null ? T.ago.none : h < 48 ? tFmt(T.ago.h, Math.max(0, Math.round(h))) : tFmt(T.ago.d, Math.round(h / 24))
     const feeds = [...S.feeds].map(f => { const h = age(f.read_at); return { ...f, h, level: level(h), ago: agoOf(h) } }).sort((a, b) => (b.h ?? 1e9) - (a.h ?? 1e9))
     const counts = Object.fromEntries([F.green, F.amber, F.red].map(l => [l, feeds.filter(f => f.level === l).length]))
-    const feedsHtml = `<div class="adm-feeds">${feeds.map(f => `<${f.page ? `a href="${esc(f.page)}"` : 'div'} class="adm-feed adm-fresh-${f.level}"><b>${esc(f.title || f.id)}</b><span>${esc(f.ago)}</span><i>${esc(f.cadence)} · ${esc(f.level)}</i></${f.page ? 'a' : 'div'}>`).join('')}</div>`
-    const feedsMd = `| Feed | Read | Cadence | Freshness |\n|---|---|---|---|\n` + feeds.map(f => `| ${f.page ? `[${cell(f.title || f.id)}](${f.page})` : cell(f.title || f.id)} | ${cell(f.ago)} | ${cell(f.cadence)} | ${f.level} |`).join('\n')
+    const feedsHtml = `<div class="adm-feeds">${feeds.map(f => `<${safeUrl(f.page) ? `a href="${esc(safeUrl(f.page))}"` : 'div'} class="adm-feed adm-fresh-${f.level}"><b>${esc(f.title || f.id)}</b><span>${esc(f.ago)}</span><i>${esc(f.cadence)} · ${esc(f.level)}</i></${safeUrl(f.page) ? 'a' : 'div'}>`).join('')}</div>`
+    const feedsMd = `| Feed | Read | Cadence | Freshness |\n|---|---|---|---|\n` + feeds.map(f => `| ${safeUrl(f.page) ? `[${cell(f.title || f.id)}](${safeUrl(f.page)})` : cell(f.title || f.id)} | ${cell(f.ago)} | ${cell(f.cadence)} | ${f.level} |`).join('\n')
     // the timeline: decisions and runs, newest first, by day
-    const ev = [...S.decisions.map(d => ({ at: d.at, kind: T.decision, md: `[${cell(d.record)}](${d.url}): ${cell(d.what)}` })),
+    const ev = [...S.decisions.map(d => ({ at: d.at, kind: T.decision, md: `${safeUrl(d.url) ? `[${cell(d.record)}](${safeUrl(d.url)})` : cell(d.record)}: ${cell(d.what)}` })),
         ...S.runs.map(r => ({ at: r.ended || r.started, kind: T.run, md: `${cell(r.agent.replace(/@.*/, ''))}${r.breaches ? `, ${r.breaches} ${T.breaches}` : ''}: ${cell(r.line)}` }))]
         .filter(e => /^\d{4}-\d\d-\d\dT/.test(e.at || '')).sort((a, b) => b.at.localeCompare(a.at))
     const days = new Map(); for (const e of ev) { const d = e.at.slice(0, 10); if (!days.has(d)) days.set(d, []); days.get(d).push(e) }

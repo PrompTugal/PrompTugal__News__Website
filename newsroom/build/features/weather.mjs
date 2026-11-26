@@ -4,7 +4,7 @@
 // than 48 hours before the build is not shown. The words are in assets/weather/weather.json. cl-6.dev@PrompTugal.dinis.
 import fs from 'node:fs'
 import path from 'node:path'
-import { cell } from '../lib/markdown.mjs'
+import { plain as cell, safeUrl } from '../lib/agent-text.mjs'
 export const order = 62
 
 export const snap = ctx => { try { return JSON.parse(fs.readFileSync(path.join(ctx.ROOT, 'assets/weather/snapshot.json'), 'utf8')) } catch { return null } }
@@ -27,5 +27,5 @@ export { fillers as fill }
 // the camera links for one town, for its "Now in" block: cleared operators only, only when the camera feed was read in the last 48 hours
 export function camLines(ctx, placeId, now = new Date()) {
     const S = snap(ctx), W = words(ctx); if (!S || !S.cams || !fresh(S.cams.read_at, W, now)) return []
-    return S.cams.items.filter(c => c.place === placeId).map(c => fill(W.cam, { name: cell(c.name), page: c.page, credit: cell(c.credit), read: S.cams.read_at.slice(0, 10) }))
+    return S.cams.items.filter(c => c.place === placeId && safeUrl(c.page)).map(c => fill(W.cam, { name: cell(c.name), page: safeUrl(c.page), credit: cell(c.credit), read: S.cams.read_at.slice(0, 10) }))
 }

@@ -1,7 +1,8 @@
 // The cl-6 sessions section of /newsroom/agents/ (the conductor's brief of 26 Nov 2026): cards from assets/newsroom/agents-snapshot.json (newsroom/tools/sync-agents.mjs),
 // Dinis's list on top, then the agents grouped by state. The words are in assets/newsroom/agents-cl6.json. Every value is escaped; none is trusted.
 // cl-6.dev@PrompTugal.dinis.
-import { esc, cell } from './markdown.mjs'
+import { esc } from './markdown.mjs'
+import { plain as cell, safeUrl } from './agent-text.mjs'
 
 const id = s => String(s).toLowerCase().replace(/[^a-z0-9]+/g, '-')
 const line = (k, v) => v ? `- **${k}:** ${v}` : ''
@@ -11,8 +12,8 @@ export function cl6Section(ctx, T) {
     const L = T.labels, waits = a => (a.waiting_on || []).map(w => `  - ${cell(w.what)}${w.who && w.who !== 'Dinis' ? ` (${cell(w.who)})` : ''}${w.since ? ` ${L.since} ${cell(w.since)}` : ''}`).join('\n')
     const card = a => [`### ${cell(a.id)} {#${id(a.id)}}`, '',
         line(L.role, cell(a.role)), line(L.model, cell(a.model)),
-        line(L.session, a.session ? `[${cell(a.session.replace('https://claude.ai/code/', ''))}](${a.session})` : ''),
-        line(L.repos, (a.repos || []).map(r => `[${cell(r.replace('PrompTugal/', ''))}](https://github.com/${encodeURI(r)})`).join(', ')),
+        line(L.session, safeUrl(a.session) ? `[${cell(a.session.replace('https://claude.ai/code/', ''))}](${safeUrl(a.session)})` : ''),
+        line(L.repos, (a.repos || []).filter(r => safeUrl(`https://github.com/${r}`)).map(r => `[${cell(r.replace('PrompTugal/', ''))}](${safeUrl(`https://github.com/${r}`)})`).join(', ')),
         line(L.wake, cell(a.wake)), line(L.state, cell(a.state || a.focus)),
         (a.waiting_on || []).length ? `- **${L.waits}:**\n${waits(a)}` : '',
         a.last ? line(L.last, `${cell(a.last.title)}: ${cell(a.last.text)}`) : '', line(L.updated, cell(a.updated)),
