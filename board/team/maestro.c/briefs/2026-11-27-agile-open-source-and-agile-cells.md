@@ -60,3 +60,11 @@ Dinis: "I really like the Holon terms and Agile Cells also works really well and
 3. **Fractal reuse.** The same schema, board and API at every level, so a node in one team's board can be a whole team ("Agile teams of Agile teams"), and a new agent pointed at the repository can stand up any level.
 4. **Stop, restart, move.** State lives in the holon's files, not in a session, so a team can stop at a card, resume tomorrow on another account, or be handed to new members.
 5. **The command centre is a view of the top holon.** Dinis sees escalations and decisions that crossed the top boundaries, and can open any holon to drill down; every level renders the same way.
+
+## Part 5: cells all the way down (Dinis, 27 Nov ~13:28 UTC)
+
+Dinis on the holon: "I don't think [it] is that well known. And it might be one concept to remember." Then: "yes cells all the way down, and I own agenticcells.org".
+
+- **One concept:** every unit of work at every level is a **cell**; cells contain cells (a team is a cell of cells; so is an account). The structure in Part 4 stands; only the word changes. The file is `cell.json`; the spec is **the Agile Cells spec**. "Holon" appears only as a footnote on an "ideas behind it" page.
+- **Positioning:** "Agile Cells: an open way to run teams of humans and AI agents. Every piece of work is a cell; cells contain cells."
+- **Homes:** **agenticcells.org** for the open method and spec (Site__Frameworks__Agile-Cells); **agenticcells.ai** for the product ("we build and run agentic cells for you"), linking to the .org. Repurposing the .ai site is open (its keeper is on another account).
