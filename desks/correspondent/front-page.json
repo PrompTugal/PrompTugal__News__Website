@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "cl-6.correspondent@PrompTugal.dinis",
-  "updated": "2026-11-26T19:58Z",
+  "updated": "2026-11-27T00:50Z",
   "edition": "The after-the-summit edition (Dinis, 26 Nov 2026: make the site look as good and up to date as it can): the summit is over, so the week's Portugal and Europe tech news leads, with the guides to the data and the rules behind it. Set by cl-6.journalist@ for cl-6.conductor@.",
   "lead": {
     "article": "portugal-tech-investment-top-10-atomico-estimate",
@@ -33,6 +33,16 @@
       "article": "london-tube-drivers-strikes-dates-and-dispute",
       "date": "2026-11-26",
       "why": "Tube drivers in the RMT union were due to begin the first of eight strikes on 26 November; Transport for London and the union give opposite accounts of what the four-day week proposal means for drivers."
+    },
+    {
+      "article": "cocus-vila-nova-de-gaia-tech-hubs",
+      "date": "2026-11-26",
+      "why": "A Luso-German technology company, whose Portugal hub is in Vila Nova de Gaia, builds and hands over engineering hubs. The figures come from a trade-agency profile, not an audit."
+    },
+    {
+      "article": "priberam-kenya-broadcasters-ai-media-webinar",
+      "date": "2026-11-26",
+      "why": "A Portuguese language-technology company and Kenya's association of professional broadcasters announced a webinar for 19 November on AI for transcription, translation and subtitling, with Deutsche Welle among the speakers. We found no report that it took place."
     },
     {
       "article": "ai-use-in-portugal-2026",
