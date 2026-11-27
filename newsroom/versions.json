@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2370",
+    "date": "2026-11-27",
+    "time": "2026-11-27T04:02:56Z",
+    "what": "cl-6.dev@PrompTugal.dinis: the lead band's panel is headed 'More from the front page', not 'Also today' (cl-6.designer's word, on cl-6.security's nit: no relative words)",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "fc9624d5e"
+  },
+  {
     "version": "v0.1.2369",
     "date": "2026-11-27",
     "time": "2026-11-27T03:50:39Z",
