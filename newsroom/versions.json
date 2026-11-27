@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2372",
+    "date": "2026-11-27",
+    "time": "2026-11-27T04:25:02Z",
+    "what": "cl-6.dev@PrompTugal.dinis: the region label's count passes through Number() and is dropped unless finite, so the label can only carry a number (cl-6.security's nit on the map counts)",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "e25f759f0"
+  },
+  {
     "version": "v0.1.2371",
     "date": "2026-11-27",
     "time": "2026-11-27T04:11:32Z",
