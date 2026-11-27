@@ -207,7 +207,7 @@ function fillE(page, ctx) {
             return `<span class="on"></span> a place we cover <span class="on is-week"></span> dated news this week (${wk.length + day.length}) <span class="on is-day"></span> today or yesterday (${day.length}) <span class="next"></span> a district capital, coming next` })(), nowline: nowLine(ctx),
         '#places': many('place', algTowns.slice(0, ALG_CAP).map(r => ({ href: r.p.path + 'index.html', name: esc(r.p.name), counts: `${r.news} stories · ${r.map} on the AI map`, about: esc(r.about),
             newest: r.a ? put(item('pnew'), { href: r.a.rel, date: nice(ctx, r.a.meta.date), title: esc(cut(r.a.meta.title, 80)) }) : r.n && r.n.title ? put(item('pnew'), { href: r.p.path + 'index.html#local', date: nice(ctx, r.n.date || r.n.read_on), title: esc(cut(r.n.title, 80)) }) : '' }))),
-        '#stats': many('stat', statsOf(ctx, PR, all)),
+        '#stats': many('stat', statsOf(ctx, PR, all).slice(0, 4)), '#stats_more': many('stat', statsOf(ctx, PR, all).slice(4)), nstats: String(statsOf(ctx, PR, all).length),
         '#briefing': many('brief', all.filter(a => !(a.meta.region || a.meta.town) && a !== theLead).slice(0, 8).map(a => ({ href: a.rel, title: esc(a.meta.title), beat: esc(beatOf(a)) + dt(ctx, dateOf(ctx, a)) }))),  // national and international (Dinis, 16 Nov): what has no place, in the correspondent's order
         '#stories': placed.filter(a => a !== theLead).slice(pick && !placed.includes(pick) ? 0 : 1, pick && !placed.includes(pick) ? 8 : 9).map(story).join(''),
         '#next': many('next', next.map(i => ({ href: `events/${i.id}/index.html`, date: i.date, end: endOf(i), when: esc(when(ctx, i)), what: esc(cut(i.what, 110)), where: esc(i.where || '') }))),

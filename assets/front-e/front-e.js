@@ -12,6 +12,8 @@
             return true
         }
         if (cd && tick()) setInterval(tick, 30000)
+        // on a phone the figures beyond the first four sit behind "All figures" (designer@, 27 Nov); without script they stay open
+        var af = document.querySelector('.fe-allfig'); if (af && window.matchMedia && window.matchMedia('(max-width: 760px)').matches) af.open = false
         var now = Date.now(), shown = 0
         document.querySelectorAll('.fe-nx li[data-end]').forEach(function (li) {
             var end = Date.parse(li.getAttribute('data-end'))

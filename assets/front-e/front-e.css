@@ -218,3 +218,17 @@
 .fe-pall { margin: 12px 0 4px; font: 600 15px var(--sans); }
 
 .fe-expl { margin: 8px 0 0; font-size: 14px; }
+
+/* phone order (designer@, 27 Nov 2026, on synthetic@'s read): the lead, then the national and international list, then the Algarve stories,
+   then the town cards, then the map at a fixed height, then the numbers (the first four open, the rest behind "All figures"). The wrappers
+   dissolve so the sections can be ordered against each other; each keeps the page gutter. */
+@media (max-width: 760px) {
+    html[data-design="e"] .fe.pt-design[data-design-of="e"] { display: flex; flex-direction: column; }
+    .fe-colsw, .fe-cols, .fe-ptb { display: contents; }
+    .fe > .fe-w:first-child { order: 0; } .fe > .fe-band { order: 10; } .fe > .fe-iv { order: 15; } .fe > .fe-w:not(.fe-colsw):not(.fe-ptb):not(.fe-ask):not(:first-child):not(.fe-iv) { order: 20; }
+    .fe-brf { order: 30; } .fe-stories { order: 40; } .fe-pl { order: 50; } .fe-ptb-map { order: 60; } .fe-colsw .fe-cols > .fe-nx { order: 70; } .fe > .fe-nums { order: 80; } .fe > .fe-ask { order: 90; }
+    .fe-brf, .fe-stories, .fe-pl, .fe-ptb-map, .fe-nx { padding-left: var(--gutter) !important; padding-right: var(--gutter) !important; box-sizing: border-box; width: 100%; max-width: var(--page); margin-left: auto; margin-right: auto; }
+    .fe-ptb-map svg, .fe-ptb-map img { height: 260px; width: 100%; }
+    .fe-allfig > summary { cursor: pointer; font: 600 13px var(--sans); padding: 8px 0; color: var(--brand); }
+}
+@media (min-width: 761px) { .fe-allfig > summary { display: none; } }
