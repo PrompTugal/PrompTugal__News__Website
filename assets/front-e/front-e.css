@@ -246,3 +246,5 @@
 .fe-also a { color: inherit; text-decoration: none; } .fe-also a:hover { text-decoration: underline; }
 .fe-also .fe-dt { display: block; margin-top: 4px; font: 12px var(--mono, monospace); color: var(--fe-on-band-2, #cfe3d4); }
 @media (max-width: 760px) { .fe-also { display: none; } }
+.fe-ptk .fe-ptn { display: block; margin-top: 4px; font: 12px var(--sans); color: var(--ink-3); }
+.fe-ptmap .cnt { font-size: 11px; }

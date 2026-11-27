@@ -142,22 +142,22 @@ function ptMap(ctx, PR, named = new Set(), view = null) {
     const sc = W / ((V.lon1 - V.lon0) * k), H = Math.round((V.lat1 - V.lat0) * sc)
     const X = lo => ((lo - V.lon0) * k * sc).toFixed(1), Y = la => ((V.lat1 - la) * sc).toFixed(1)
     const land = (n, c) => (O.countries[n] || []).map(poly => put(item('mland'), { cls: c, d: poly.map(r => 'M' + r.map(([lo, la]) => `${X(lo)},${Y(la)}`).join('L') + 'Z').join('') })).join('')
-    const esc = ctx.md.esc, algWk = PR.filter(r => r.p.parent === 'algarve' || r.p.parent === 'loule').reduce((n, r) => n + r.wk, 0)
+    const esc = ctx.md.esc, SC = rd('data/site/story-counts-by-place.json'), algStories = (SC && SC.places && SC.places.algarve && SC.places.algarve.rolled_up && SC.places.algarve.rolled_up.local_stories) || PR.filter(r => r.p.parent === 'algarve' || r.p.parent === 'loule').reduce((n, r) => n + r.news, 0)
     // the towns shown in the grid carry their names (designer@, 27 Nov), each at the first spot of eight around its dot that clears the labels already placed; the other pins stay plain
-    const placed = [], lbl = new Map(), SPOTS = [[7, -8, 'start'], [7, 15, 'start'], [-7, -8, 'end'], [-7, 15, 'end'], [7, 4, 'start'], [-7, 4, 'end'], [0, -17, 'middle'], [0, 26, 'middle']]
+    const placed = [], lbl = new Map(), SPOTS = [[7, -8, 'start'], [7, 15, 'start'], [-7, -8, 'end'], [-7, 15, 'end'], [7, 4, 'start'], [-7, 4, 'end'], [0, -17, 'middle'], [0, 26, 'middle'], [7, -22, 'start'], [7, 30, 'start'], [-7, -22, 'end'], [-7, 30, 'end'], [7, -36, 'start'], [-7, -36, 'end'], [7, 44, 'start'], [-7, 44, 'end']]
     for (const r of PR.filter(r => named.has(r.p.id) && Array.isArray(r.p.at) && (!view || inV(r.p.at))).sort((a, b) => b.news - a.news)) {
-        const x0 = +X(r.p.at[0]), y0 = +Y(r.p.at[1]), w = 6.6 * String(r.p.name).length
+        const x0 = +X(r.p.at[0]), y0 = +Y(r.p.at[1]), w = 6.6 * (String(r.p.name).length + (r.news ? String(r.news).length + 1 : 0))
         const box = ([dx, dy, a]) => { const x = x0 + dx; return { x, y: y0 + dy, l: a === 'start' ? x : a === 'end' ? x - w : x - w / 2, t: y0 + dy - 10, w, h: 12 } }
         const hit = b => b.l < 2 || b.l + b.w > W - 2 || placed.some(o => b.l < o.l + o.w && o.l < b.l + b.w && b.t < o.t + o.h && o.t < b.t + b.h)
         const pick = SPOTS.find(sp => !hit(box(sp))) || SPOTS[0], b = box(pick); placed.push(b)
-        lbl.set(r.p.id, put(item('mlbl'), { x: b.x.toFixed(1), y: b.y.toFixed(1), anchor: pick[2], name: esc(r.p.name) }))
+        lbl.set(r.p.id, put(item('mlbl'), { x: b.x.toFixed(1), y: b.y.toFixed(1), anchor: pick[2], name: esc(r.p.name) + (r.news ? ` ${r.news}` : '') }))
     }
     const pins = PR.filter(r => Array.isArray(r.p.at) && (!view || inV(r.p.at))).map(r => put(item('mpin'), { tab: view ? ' tabindex="-1"' : '', href: r.p.path + 'index.html', title: esc(`${r.p.name}: ${r.news} local AI stories, ${r.map} on the AI map${r.day ? `; ${r.day} dated in the last day` : r.wk ? `; ${r.wk} dated in the last week` : ''}`),
         cls: r.day ? ' is-day' : r.wk ? ' is-week' : '', lbl: lbl.get(r.p.id) || '',
-        cnt: r.wk && r.p.parent === 'portugal' ? put(item('mcnt'), { x: (+X(r.p.at[0]) + 8).toFixed(1), y: (+Y(r.p.at[1]) + 3).toFixed(1), n: r.wk }) : '', x: X(r.p.at[0]), y: Y(r.p.at[1]), r: (2.5 + Math.min(5, Math.sqrt(r.news + r.map) * 0.8)).toFixed(1) })).join('')
+        cnt: !view && r.news && r.p.parent === 'portugal' ? put(item('mcnt'), { x: (+X(r.p.at[0]) + 8).toFixed(1), y: (+Y(r.p.at[1]) + 3).toFixed(1), n: r.news }) : '', x: X(r.p.at[0]), y: Y(r.p.at[1]), r: (2.5 + Math.min(5, Math.sqrt(r.news + r.map) * 0.8)).toFixed(1) })).join('')
     const have = new Set(PR.map(r => r.p.id)), next = (N?.places || []).filter(q => !have.has(q.id) && (!view || inV(q.at))).map(q => put(item('mnext'), { title: esc(q.name), x: X(q.at[0]), y: Y(q.at[1]), lx: (+X(q.at[0]) + 6).toFixed(1), ly: (+Y(q.at[1]) + 3).toFixed(1) })).join('')
     return put(item('map'), { cls: view ? ' fe-ptmap-alg' : '', ro: view ? ' aria-hidden="true"' : ` role="img" aria-label="${esc(`Map of mainland Portugal: ${PR.length} places covered, ${(N?.places || []).length} district capitals to come`)}"`, w: W, h: H, aria: view ? esc(`The Algarve, enlarged: ${named.size} towns named`) : esc(`Map of mainland Portugal: ${PR.length} places covered, ${(N?.places || []).length} district capitals to come`), body: land('Spain', 'es') + land('Portugal', 'pt') + next + pins, ax: X(-8.9), ay: Y(36.9),
-        rg: view ? '' : 'The Algarve' + (algWk ? ` · ${algWk} this week` : '') })
+        rg: view ? '' : 'The Algarve' + (algStories ? ` · ${algStories}` : '') })
 }
 
 // Now in the Algarve, one line under the ticker (Dinis, 16 Nov): data/by-place/now/ (board/tools/local-now.mjs); markup: front-e.tmpl
