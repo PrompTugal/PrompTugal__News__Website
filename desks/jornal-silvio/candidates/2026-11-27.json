@@ -1,0 +1,124 @@
+{
+  "desk": "jornal-silvio",
+  "kept_by": "jornal@PrompTugal.silvio",
+  "date": "2026-11-27",
+  "status": "candidates, not published, waiting for the editor and for Silvio",
+  "candidates": [
+    {
+      "id": "js-2026-11-27-01",
+      "title": "An AI agent pays Papa John's straight from a bank account, inside limits the customer set with Lloyds, in the FCA's sandbox",
+      "summary": "In a trial within the UK Financial Conduct Authority's AI regulatory sandbox, Papa John's own AI agent took a customer's order and paid from the bank account linked to their Papa John's account, through TrueLayer and Lloyds' variable recurring payment APIs; TrueLayer says it is the first time an AI agent has paid a UK retailer this way. The customer's spending limits are set with the bank and the agent cannot exceed them; no card details are shared. The FCA had reminded firms building agents that week that existing rules apply.",
+      "why_it_matters": "The mandate held by the bank, not the agent: the limit lives where the money is, and a regulator's sandbox watches. A European model for agentic payments to set beside the US banks pushing losses onto customers.",
+      "beat": "ai-agents",
+      "sources": [
+        {
+          "url": "https://tech.eu/2026/11/27/papa-johns-pizza-order-first-uk-cardless-payment-by-ai-agent/",
+          "publisher": "Tech.eu",
+          "published": "2026-11-27",
+          "read": "2026-11-27T18:09Z"
+        }
+      ],
+      "quote": {
+        "text": "Today it's pizza. Tomorrow it's everything else.",
+        "by": "Francesco Simoneschi, CEO and co-founder of TrueLayer, quoted by Tech.eu",
+        "source": "https://tech.eu/2026/11/27/papa-johns-pizza-order-first-uk-cardless-payment-by-ai-agent/"
+      },
+      "claims_to_check": [
+        "TrueLayer's, Lloyds' or the FCA's own announcement; 'first' is TrueLayer's claim"
+      ],
+      "importance": {
+        "score": 4,
+        "reason": "Same-day, European, regulator-supervised agent payment with bank-held limits."
+      },
+      "photo": {
+        "url": null,
+        "description": "none credited",
+        "credit": null,
+        "licence": null,
+        "reuse": "link only"
+      }
+    },
+    {
+      "id": "js-2026-11-27-02",
+      "title": "Black Friday test: AI shopping agents make 0.4% of online orders as half of big retailers keep them out",
+      "summary": "Bain & Co research cited by CNBC finds AI agent purchases were 0.4% of global e-commerce transactions and 0.2% of their value. Testing by London's Human Forward, reported by Bloomberg, found about half of big retailers do not let AI assistants shop their sites; Amazon still blocks Meta's Muse and is suing Perplexity over its Comet agent, while eBay, United and Kohl's restrict agents and Best Buy's terms disclaim responsibility for any 'Digital Agent'. A Visa test found 22 models failed 42.8% of runs on 15 shopping tasks.",
+      "why_it_matters": "Behind the launches, the numbers: agents are barely buying yet, and the merchants writing their own rules for them are the reason.",
+      "beat": "ai-agents",
+      "sources": [
+        {
+          "url": "https://thenextweb.com/news/ai-shopping-agents-black-friday-retailers-trust",
+          "publisher": "The Next Web",
+          "published": "2026-11-27",
+          "read": "2026-11-27T18:09Z"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/27/ai-shopping-agents-retailer-blocks.html",
+          "publisher": "CNBC",
+          "published": "2026-11-27",
+          "read": "search summary only"
+        }
+      ],
+      "claims_to_check": [
+        "Bain's study (no sample or year given by TNW); Human Forward's test via Bloomberg; Visa's test"
+      ],
+      "importance": {
+        "score": 3,
+        "reason": "Useful numbers for the week's thread; mostly second-hand."
+      },
+      "photo": {
+        "url": null,
+        "description": "generic",
+        "credit": "Unsplash",
+        "licence": "not read",
+        "reuse": "link only"
+      }
+    },
+    {
+      "id": "js-2026-11-27-03",
+      "title": "88% of Portuguese workers now use AI agents at work, up from 58% in a year, Adecco finds; only 7% feel managers' empathy",
+      "summary": "Adecco Group's Global Workforce of the Future 2026 (40,500 workers in 36 countries, 950 in Portugal) finds the share of Portuguese workers using AI agents at work rose from 58% to 88% in a year, against a 10-point rise globally, while only 7% say managers show empathy for the change's effect on their jobs (19% globally). Adecco Portugal's CEO Alexandra Andrade says introducing tools is not enough.",
+      "why_it_matters": "Portugal adopting agents faster than the world, with a governance gap of its own: who explains the agents' mandate to the people working beside them.",
+      "beat": "portugal",
+      "sources": [
+        {
+          "url": "https://jornaleconomico.sapo.pt/noticias/88-dos-trabalhadores-portugueses-ja-usam-agentes-de-ia-mas-so-7-sentem-empatia-das-chefias/",
+          "publisher": "Jornal Económico",
+          "published": "2026-11-27",
+          "read": "2026-11-27T18:09Z"
+        }
+      ],
+      "quote": {
+        "text": "Não basta introduzir novas ferramentas e esperar que as pessoas se adaptem.",
+        "by": "Alexandra Andrade, CEO of Adecco Portugal, quoted by Jornal Económico",
+        "source": "https://jornaleconomico.sapo.pt/noticias/88-dos-trabalhadores-portugueses-ja-usam-agentes-de-ia-mas-so-7-sentem-empatia-das-chefias/"
+      },
+      "claims_to_check": [
+        "Adecco's own report, and what it counts as 'using AI agents' (the 23 Nov Jornal de Negócios figure was 74% globally)"
+      ],
+      "importance": {
+        "score": 3,
+        "reason": "Portuguese, same-day, a striking figure that needs its definition checked."
+      },
+      "photo": {
+        "url": null,
+        "description": "generic image, no credit",
+        "credit": null,
+        "licence": null,
+        "reuse": "link only"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "what": "Coding agents porting a leaked GTA 6 build (The Decoder)",
+      "why": "concerns leaked material; off the beats"
+    }
+  ],
+  "wakes": [
+    {
+      "at": "2026-11-27T18:09Z",
+      "added": 3,
+      "note": "daily wake (18:07 Lisbon)"
+    }
+  ]
+}

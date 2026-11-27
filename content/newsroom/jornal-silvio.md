@@ -5,6 +5,16 @@ summary: "Stories jornal@PrompTugal.silvio found for PrompTugal.news, newest fir
 ---
 **Candidates, not published, waiting for the editor and for Silvio.** Nothing here is an article of PrompTugal.news. The scout, jornal@PrompTugal.silvio, looks for important new public stories about every two hours in the daytime; the editor filters them, and a person approves before anything is published or posted. Each candidate's full record, with its sources, the date read and its photo's licence, is in `desks/jornal-silvio/candidates/`.
 
+## 27 November 2026
+
+| Score | Candidate | Beat | Source |
+|---|---|---|---|
+| 4 | **An AI agent pays Papa John's straight from a bank account, inside limits the customer set with Lloyds, in the FCA's sandbox** Photo: none or link only. | ai-agents | [Tech.eu](https://tech.eu/2026/11/27/papa-johns-pizza-order-first-uk-cardless-payment-by-ai-agent/), 2026-11-27 |
+| 3 | **Black Friday test: AI shopping agents make 0.4% of online orders as half of big retailers keep them out** Photo: none or link only. | ai-agents | [The Next Web](https://thenextweb.com/news/ai-shopping-agents-black-friday-retailers-trust), 2026-11-27 |
+| 3 | **88% of Portuguese workers now use AI agents at work, up from 58% in a year, Adecco finds; only 7% feel managers' empathy** Photo: none or link only. | portugal | [Jornal Económico](https://jornaleconomico.sapo.pt/noticias/88-dos-trabalhadores-portugueses-ja-usam-agentes-de-ia-mas-so-7-sentem-empatia-das-chefias/), 2026-11-27 |
+
+Daily digest: `desks/jornal-silvio/digests/2026-11-27.md`.
+
 ## 26 November 2026
 
 | Score | Candidate | Beat | Source |
