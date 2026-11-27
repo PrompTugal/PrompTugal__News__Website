@@ -33,6 +33,11 @@ export { fillers as fill }
 export const quotesIpma = g => /\bIPMA\b[^.]*\b(warning|warnings|feed)\b[^.]*\b(yellow|orange|red|green)\b/i.test(String(g).slice(0, 500))
 
 // the camera links for one town, for its "Now in" block: cleared operators only, only when the camera feed was read in the last 48 hours
+// the same cleared links as data, for the place's JSON (the audit holds every source a page shows to be in its API)
+export function camItems(ctx, placeId, now = new Date()) {
+    const S = snap(ctx), W = words(ctx); if (!S || !S.cams || !fresh(S.cams.read_at, W, now)) return []
+    return S.cams.items.filter(c => c.place === placeId && CAM_PAGES.includes(c.page) && safeUrl(c.page)).map(c => ({ name: c.name, page: c.page, credit: c.credit, read_at: S.cams.read_at, kind: 'link to the operator\'s own page' }))
+}
 export function camLines(ctx, placeId, now = new Date()) {
     const S = snap(ctx), W = words(ctx); if (!S || !S.cams || !fresh(S.cams.read_at, W, now)) return []
     return S.cams.items.filter(c => c.place === placeId && CAM_PAGES.includes(c.page) && safeUrl(c.page)).map(c => fill(W.cam, { name: cell(c.name), page: safeUrl(c.page), credit: cell(c.credit), read: S.cams.read_at.slice(0, 10) }))

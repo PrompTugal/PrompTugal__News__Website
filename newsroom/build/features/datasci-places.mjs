@@ -20,6 +20,7 @@
 import { levelOfArticle, listOf } from '../lib/article-flow.mjs'
 import crypto from 'node:crypto'
 import { api as byPlaceApi } from './by-place.mjs'
+import { camItems } from './weather.mjs'
 import { withdrawn } from '../lib/withdrawn.mjs'
 
 export const order = 84
@@ -172,6 +173,7 @@ function pageView(ctx, M, r) {
             { id: 'map', title: 'The AI map', items: r.ai_map },
             ...side, how]
     }
+    const cams = camItems(ctx, r.id); if (cams.length) sections.splice(1, 0, { id: 'cameras', title: 'Cameras: links to the operators', items: cams })
     return { id: r.id, name: r.name, page: r.page, twin: r.twin, about: fillW(words(ctx).api.page_about, { page: r.page }), sections }
 }
 

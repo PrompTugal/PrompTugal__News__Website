@@ -164,7 +164,9 @@ function entries(ctx, items, cls, extra) {
 const WEATHER = id => `https://weather.promptugal.news/places/${id}/`
 const NOT_HERE = ['station', 'forecast', 'warnings', 'fire_risk', 'sea', 'uv']
 function nowBlock(ctx, p, L) {
-    let d; try { d = ctx.readJSON(`data/by-place/now/${p.id}.json`) } catch { return '' }
+    let d = null; try { d = ctx.readJSON(`data/by-place/now/${p.id}.json`) } catch { }
+    // a place with no now file (Lisboa) still shows its cleared camera links (cl-6.rights, 27 Nov 2026: APL and AEMTG, links only), alone in the block
+    if (!d) { const cams = camLines(ctx, p.id); return cams.length ? `{.mini-h}\n${W(L, 'h_now', { name: esc(ctx, p.name) })}\n\n{.bp-now}\n${cams.map(c => `- ${c}`).join('\n')}\n\n` : '' }
     const t = s => String(s || '').slice(11, 16) + ' UTC', out = []
     if (d.airport) out.push(`- **Faro airport** ${d.airport.airline.length} airline, ${d.airport.other_aircraft} other, ${d.airport.within_nm} nm${d.airport.airline.length ? ` (${d.airport.airline.slice(0, 6).map(a => esc(ctx, a.callsign)).join(', ')})` : ''} *[adsb.lol](${d.airport.page || d.airport.source}), ${d.airport.stale ? 'last read ' : ''}${t(d.airport.at)}*`)   // stale: the collector kept the last read (dev@, 17 Nov)
     out.push(`- ${W(L, 'now_weather', { name: esc(ctx, p.name), url: WEATHER(p.id) })}`)
