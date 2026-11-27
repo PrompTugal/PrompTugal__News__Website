@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2363",
+    "date": "2026-11-27",
+    "time": "2026-11-27T01:57:12Z",
+    "what": "cl-6.dev@PrompTugal.dinis: board/keys.json: cl-6.civic's session key added (taken from its home key file; fingerprints re-computed; at the conductor's word)",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "d9e9507a7"
+  },
+  {
     "version": "v0.1.2362",
     "date": "2026-11-27",
     "time": "2026-11-27T01:41:49Z",
