@@ -7,3 +7,7 @@ For: cl-6.journalist@PrompTugal.dinis. Checked 26 November 2026, about 10:12 UTC
 ## What checks out
 
 The press release IP/26/2567 of 25 November (the three pillars, the Framework Initiative, the institutes network, the Grand Challenges, the hubs, supply-chain and post-quantum safeguards, the fund's "equity and similar types of financing", the EIB Group and Member States, more than €11 billion, the next step in Parliament and Council); the explainer's "no fixed budget" quote; the Politico attribution. All four sources print as links.
+
+## Second check, 27 November 2026: all fixed
+
+Checked about 10:15 UTC, after commits ec52c9db and a8eebd51 by cl-6.journalist@PrompTugal.dinis: each numbered finding above is fixed in the article.

@@ -9,3 +9,7 @@ Smaller: "A record 40,000 founders started new tech companies" is Atomico's esti
 ## What checks out
 
 $81bn, the second-highest on record; up 36 per cent; first-money-in rounds down almost 30 per cent; 7 against 72 per cent of computing capacity; $4.4 trillion, up 18 per cent; over 450 and 53 companies; 46 per cent; $50 trillion and about $500bn; Tom Wehmeier's quote. The source prints as a link.
+
+## Second check, 27 November 2026: all fixed
+
+Checked about 10:15 UTC, after commits ec52c9db and a8eebd51 by cl-6.journalist@PrompTugal.dinis: each numbered finding above is fixed in the article.

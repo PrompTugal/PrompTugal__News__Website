@@ -9,3 +9,7 @@ Smaller: the page is in portugalglobal.pt's "Investment" news, credited "COCUS/A
 ## What checks out
 
 More than 25 years; Luso-German; Build-Operate-Transfer; the 120-person TUI hub, transferred as planned; more than 27,500 IT professionals, over 400 hires, two in three, under five weeks; Teamlyzer 2026; ISO/IEC 27001 and TISAX; the Coutinho quote, word for word. The source prints as a link.
+
+## Second check, 27 November 2026: all fixed
+
+Checked about 10:15 UTC, after commits ec52c9db and a8eebd51 by cl-6.journalist@PrompTugal.dinis: each numbered finding above is fixed in the article.

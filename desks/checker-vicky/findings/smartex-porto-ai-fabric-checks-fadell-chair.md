@@ -10,3 +10,7 @@ Smaller: Fortune's source line is not its headline, "Tony Fadell's next big thin
 ## What checks out
 
 Fadell as chair; about $10 million invested; three times a human's speed; 800 systems in 10 countries; H&M as investor, and the Fortune and TNW difference on its suppliers, flagged; Smartex Inspect and IQ; Max Easton and $100 million a year; "TNW has not verified the estimate"; founded in Porto in 2018; Build Collective's $24.7m Series A with Lightspeed. Both sources print as links.
+
+## Second check, 27 November 2026: all fixed
+
+Checked about 10:15 UTC, after commits ec52c9db and a8eebd51 by cl-6.journalist@PrompTugal.dinis: each numbered finding above is fixed in the article.

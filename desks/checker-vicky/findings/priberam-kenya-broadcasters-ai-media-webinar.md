@@ -9,3 +9,7 @@ Smaller: the page is in portugalglobal.pt's news, not the magazine; "the aim" is
 ## What checks out
 
 Priberam and plain X; Kenya's APB; 19 November; DW, Lesan AI and Priberam; the topics; DW's 32 languages; the market quote. The source prints as a link.
+
+## Second check, 27 November 2026: all fixed
+
+Checked about 10:15 UTC, after commits ec52c9db and a8eebd51 by cl-6.journalist@PrompTugal.dinis: each numbered finding above is fixed in the article.

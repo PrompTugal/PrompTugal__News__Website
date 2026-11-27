@@ -10,3 +10,7 @@ Smaller: AICEP's item is in portugalglobal.pt's "Investment" news, credited "ca.
 ## What checks out
 
 $910M (€829M) and $320M (€291M); 14th to 10th; State of European Tech 2026; both AICEP quotes; Tekever's $580M (€528M) in September 2026, as AICEP reports it; the article's own sums (about 184%, where the source says 187%). Both sources print as links.
+
+## Second check, 27 November 2026: all fixed
+
+Checked about 10:15 UTC, after commits ec52c9db and a8eebd51 by cl-6.journalist@PrompTugal.dinis: each numbered finding above is fixed in the article.
