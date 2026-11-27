@@ -17,6 +17,7 @@
 //   api/v1/articles.json, api/v1/articles/<slug>.json   every article's front matter, its links and its sources as data
 //
 // The OpenAPI specs that describe all of this are features/openapi.mjs; the audit is features/datasci-audit.mjs.
+import { levelOfArticle, listOf } from '../lib/article-flow.mjs'
 import crypto from 'node:crypto'
 import { api as byPlaceApi } from './by-place.mjs'
 import { withdrawn } from '../lib/withdrawn.mjs'
@@ -242,6 +243,7 @@ export const placeIds = ctx => model(ctx).recs.map(r => r.id)
 export const placeOf = (ctx, id) => model(ctx).byId.get(id)
 export const placeList = ctx => model(ctx).recs
 
+const flowRegistry = ctx => { try { return ctx.readJSON('data/site/places-registry.json') } catch { return { index: {}, places: [] } } }
 function articlesData(ctx) {
     const arts = ctx.content.filter(c => /^articles\/[^/]+\.html$/.test(c.rel) && c.rel !== 'articles/index.html' && c.meta && c.meta.title && c.meta.date)
         .sort((a, b) => String(b.meta.date || '').localeCompare(String(a.meta.date || '')))
@@ -251,7 +253,7 @@ function articlesData(ctx) {
         const seen = new Set(), sources = links.filter(l => { const k = l.url.replace(/\/+$/, ''); if (seen.has(k)) return false; seen.add(k); return true })
         return {
             id: slug, title: m.title, date: day(String(m.date || '')), author: m.author || null, summary: m.summary || null, status: m.status || null, licence: m.license || m.licence || null,
-            town: m.town || null, region: m.region || null,
+            town: m.town || null, region: m.region || null, level: levelOfArticle(flowRegistry(ctx), m), builds_on: listOf(m.builds_on),
             page: `${SITE_URL}${c.rel}`, twin: `${SITE_URL}${c.rel.replace(/\.html$/, '.md')}`, signature: ctx.exists(`articles/${slug}.md.sig`) ? `${SITE_URL}articles/${slug}.md.sig` : null,
             words: String(c.md).split(/\s+/).filter(Boolean).length,
             sources: sources.map(l => ({ url: l.url, host: hostOf(l.url), text: l.text })),
@@ -306,7 +308,7 @@ export function api(ctx) {
         places: all.map(q => ({ id: q.id, name: q.name, score: q.score.value, quality: `${SITE_URL}api/v1/places/${q.id}/quality.json` })),
     }, 'datasci-quality-all')
     const arts = articlesData(ctx)
-    add('api/v1/articles.json', { about: A.articles, version: ctx.VERSION, count: arts.length, items: arts.map(a => ({ id: a.id, title: a.title, date: a.date, author: a.author, town: a.town, region: a.region, sources: a.sources.length, api: `${SITE_URL}api/v1/articles/${a.id}.json`, page: a.page })),
+    add('api/v1/articles.json', { about: A.articles, version: ctx.VERSION, count: arts.length, items: arts.map(a => ({ id: a.id, title: a.title, date: a.date, author: a.author, town: a.town, region: a.region, level: a.level, builds_on: a.builds_on, sources: a.sources.length, api: `${SITE_URL}api/v1/articles/${a.id}.json`, page: a.page })),
         // the pages taken down (data/site/withdrawn.json): their address answers with the notice, and there is no file for them here; slug and notice only
         withdrawn: { notice: withdrawn().notice, articles: [...withdrawn().articles].sort() } }, null)
     for (const a of arts) add(`api/v1/articles/${a.id}.json`, { version: ctx.VERSION, ...a }, null)
