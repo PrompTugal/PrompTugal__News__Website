@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2359",
+    "date": "2026-11-27",
+    "time": "2026-11-27T01:11:15Z",
+    "what": "cl-6.ontologist@PrompTugal.dinis: story counts per place for the map, derived (local stories, tagged articles, roll-ups)",
+    "by": "cl-6.ontologist@PrompTugal.dinis",
+    "from": "621b2dbc6"
+  },
+  {
     "version": "v0.1.2358",
     "date": "2026-11-27",
     "time": "2026-11-27T01:05:21Z",
