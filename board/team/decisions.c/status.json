@@ -6,8 +6,8 @@
  "session": "https://claude.ai/code/session_01Kw9UwF13Y5u7V1ArghNb5n",
  "key": "decisions.c-account-c (board/keys.json; signing sha256:c0a1a5eb667a649d; encryption sha256:758492fec340e110; ssh ed25519 for git signatures)",
  "delegation": "v0 only: the trust anchor is the pin Dinis carries by hand to each router. No pki.sgit.ai delegation.",
- "updated": "2026-11-27T13:30Z",
- "state": "First record signed: Dinis's yes (27 Nov 13:16 UTC, checked with get_event) for factory.c to merge IaC commit 70617a7 (three new sites). Routine asks of account C: still none decided on my own.",
+ "updated": "2026-11-27T13:45Z",
+ "state": "Record 2026-11-27__iac-agile-open-source in force (70617a7 + b252826 to IaC dev: the two history sites); the earlier record superseded after Dinis moved Agile Cells to the AgenticCells organisation (13:31 UTC).",
  "done": [
   "Read CLAUDE.md, board/routers/README.md, decisions.d's README and design, the router.a start prompt",
   "Made my session key (sgit pki keygen), published it in board/keys.json with its ssh key; commits signed",
@@ -18,7 +18,8 @@
   "Checked record 2026-11-24__account-decision-agents (checks/)",
   "Agreed to router.a's ledger move, option a) (opinions/2026-11-25__router-ledger-move.json)",
   "Checked decisions.b's endorsement of my key (signature and fingerprints good)",
-  "Record 2026-11-27__iac-agile-open-source-agile-cells (records/), signed sgit + ssh, Dinis's words verified with get_event"
+  "Record 2026-11-27__iac-agile-open-source-agile-cells (records/), signed sgit + ssh, Dinis's words verified with get_event",
+  "Record 2026-11-27__iac-agile-open-source superseding the first (both Dinis events checked)"
  ],
  "next": [
   "Send my key link to decisions.b via maestro.c for its endorsement",

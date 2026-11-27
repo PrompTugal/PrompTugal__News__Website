@@ -1,0 +1,60 @@
+{
+  "v": 2,
+  "kind": "push",
+  "id": "2026-11-27__iac-agile-open-source",
+  "supersedes": "2026-11-27__iac-agile-open-source-agile-cells",
+  "decided_by": "Dinis Cruz",
+  "words": "Yes the factory session can merge them, the decision agent should underwrite this",
+  "event_uuid": "440f602e-08e0-4a82-8214-6ed6b14f7501",
+  "at": "2026-11-27T13:16:33Z",
+  "later_words": "can you ask the Infra agent to create the repo in the AgenticCells GH org and I'll wire up the DNS (on the new Route53 hosted zone)",
+  "later_event_uuid": "8db84fd6-135b-4deb-8438-aebcc94bc31e",
+  "later_at": "2026-11-27T13:31:07Z",
+  "session": "https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
+  "words_checked": "decisions.c read both events in c.maestro's session (account C) at 2026-11-27T13:34:29Z with get_event and list_events: user messages from Dinis (iOS, then web); quoted verbatim (the first is the first line of its message). The later words take Agile Cells out of SovereignWebsite, so of the three requests his yes now covers the two history sites.",
+  "recorded_by": "decisions.c (AgentiCCells)",
+  "recorder_key": "sha256:c0a1a5eb667a649d",
+  "recorder_endorsement": "https://decisions.agents.sovereignweb.site/keys/endorsements/decisions-c.json",
+  "recorded_at": "2026-11-27T13:34:29Z",
+  "expires": "2026-11-30T23:59:59Z",
+  "status": "in-force",
+  "decision": "factory.c (session https://claude.ai/code/session_01Kw9UwFQ86g2ZeXQ2edTAjh) may merge SovereignWebsite__IaC branch work/factory.c-agile-open-source at head b252826 (commits 70617a7 and b252826, together) into dev; Org apply then creates Site__History__Agile and Site__History__Open-Source. Site__Frameworks__Agile-Cells is not created in SovereignWebsite.",
+  "change": {
+    "repository": "SovereignWebsite/SovereignWebsite__IaC",
+    "from_branch": "work/factory.c-agile-open-source",
+    "branch": "dev",
+    "head": "b25282627e1b3e6fb4d2ab0a2de793a8cda2788a",
+    "commits": 2,
+    "commit_list": [
+      "70617a7870d6a9ec5982fe6f2675bd0d635de28b",
+      "b25282627e1b3e6fb4d2ab0a2de793a8cda2788a"
+    ],
+    "patch_ids": [
+      "b339f938ad7d3da6471086e72a4def54b4c5ba70",
+      "36e32b827c83f0d8367fce9eb9a7c121ef896034"
+    ],
+    "paths": [
+      "build/requests.mjs",
+      "requests/2026-11-27__agile/site.json",
+      "requests/2026-11-27__open-source/site.json",
+      "requests/README.md",
+      "requests/2026-11-27__agile-cells/site.json"
+    ],
+    "creates": [
+      "Site__History__Agile (agile.history.sovereignweb.site, keeper c.history)",
+      "Site__History__Open-Source (open-source.history.sovereignweb.site, keeper c.history)"
+    ],
+    "checked": "decisions.c fetched the branch at 2026-11-27T13:34:29Z: the two commits are on top of dev; net change against dev: build/requests.mjs adds the group history (GROUPS, GROUP_NAMES), two requests/<id>/site.json, one README row; b252826 only deletes requests/2026-11-27__agile-cells/site.json",
+    "paths_note": "requests/2026-11-27__agile-cells/site.json is listed only because 70617a7 adds it and b252826 removes it; it is absent from dev after the merge"
+  },
+  "notes": [
+    "build/ is on the IaC's wait-for-Dinis list: this record rests on Dinis's words above, not on decisions.c's endorsement for routine asks.",
+    "The group name history was c.maestro's suggestion; Dinis's yes was given to the requests as asked, so it covers it.",
+    "Only the two commits together, at head b252826; 70617a7 alone is not covered. Not covered: any other commit, main, keys, policy/, .github/, org/, team/keys.json, or anything in Org apply beyond the two repositories. The Agile Cells repository in the AgenticCells organisation is a separate ask (the Infra agent), not covered here."
+  ],
+  "scope": {
+    "repository": "SovereignWebsite/SovereignWebsite__IaC",
+    "branch": "dev",
+    "never": "main"
+  }
+}
