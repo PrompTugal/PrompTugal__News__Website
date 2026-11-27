@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2379",
+    "date": "2026-11-27",
+    "time": "2026-11-27T08:54:39Z",
+    "what": "cl-6.dev@PrompTugal.dinis: place pages on a phone: below 768 px the page folds in place (the newest dated story under the title, the centre of gravity before the map, five stories and five investments with 'All n', the sidebar's blocks and 'About this page' closed); Faro goes from 43.6 to 15.8 screens at 375 px, desktop unchanged, nothing dropped (cl-6.designer's S4 spec)",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "649ec9b26"
+  },
+  {
     "version": "v0.1.2378",
     "date": "2026-11-27",
     "time": "2026-11-27T08:13:58Z",
