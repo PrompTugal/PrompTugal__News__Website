@@ -1,6 +1,6 @@
 {
  "about": "The governance record of Dinis's agents, kept by holacracy.d@AgentiCCells.dinis. First draft, 22 November 2026. Account D from list_sessions, get_session (status, model, cost, parent; never transcripts) and the status.json files; account B reported, not seen.",
- "generated": "2026-11-24T12:25Z",
+ "generated": "2026-11-27T00:30Z",
  "schema": "circles[], roles(=agents)[], tensions in proposals/. Roles' domains come from the ABP grant where one exists (none yet for the .d agents, see T4).",
  "sources": [
   "board/team/maestro.d/status.json",
@@ -128,15 +128,15 @@
  "agents_account_d": [
   {
    "id": "maestro.d",
-   "name": "d.maestro (account-d)",
+   "name": "cl-4.maestro (account-d)",
    "circle": "maestros",
    "parent": null,
-   "session": "https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T",
+   "session": "https://claude.ai/code/session_015gaHdaUZWyhvN7nQ4fEmMo",
    "model": "opus",
    "configured": "sonnet",
    "state": "working",
-   "cost": 12.2,
-   "wake": "every 4 h at :48 UTC",
+   "cost": 13.92,
+   "wake": "the only agent on a schedule (relayed, Dinis ~23:50Z 26 Nov, by d.helm); others are woken by message from cl-4.maestro",
    "repo": "PrompTugal/PrompTugal__News__Website",
    "purpose": "One combined view of both accounts and one brief to Dinis; conducts account D's conductors; never a conductor's work",
    "twin": "maestro.b (account-b)",
@@ -145,11 +145,20 @@
    ],
    "account": "D",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
-   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
-   "home": "SovereignWebsite/Site__Agent__Maestro",
+   "cost_seen": "27 Nov ~00:05Z (get_session)",
+   "home": "SovereignWebsite/Site__Agent__Maestro__Claude__4 (the new filler's repository, relayed by d.helm); role home SovereignWebsite/Site__Agent__Maestro",
    "name_before": "maestro.d (account-d)",
-   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "last_ran": "2026-11-23T16:48:55Z"
+   "name_note": "filler since 25 Nov 23:34Z; checked with get_session (new session running, old archived and retitled)",
+   "last_ran": "2026-11-27T00:05:35Z",
+   "previous_fillers": [
+    {
+     "title": "d.maestro (account-d)",
+     "session": "https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T",
+     "archived": "2026-11-26T23:52Z",
+     "lifetime_cost_usd": 179.41,
+     "note": "retitled '[recycled] ... now cl-4.maestro'"
+    }
+   ]
   },
   {
    "id": "holacracy.d",
@@ -166,11 +175,11 @@
    "purpose": "The health of the whole system of Dinis's agents: every circle has a lead, every role is written and filled, every structure problem reaches someone who can resolve it",
    "twin": "none yet",
    "account": "D",
-   "state_seen": "13:26Z 22 Nov (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "name_before": "holacracy.d@AgentiCCells.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
    "home": "SovereignWebsite/Site__Agent__Holacracy",
-   "last_ran": "2026-11-23T16:51:45Z",
+   "last_ran": "2026-11-27T00:05:19Z",
    "area": "board/team/holacracy.d/factory/dinis-cruz/account-d/ (agent.json, now.md, role.md, restart.md) and board/team/holacracy.d/README.md in PrompTugal/PrompTugal__News__Website"
   },
   {
@@ -180,9 +189,9 @@
    "parent": "maestro.d",
    "session": "https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8",
    "model": "opus",
-   "state": "working",
+   "state": "review ready",
    "cost": 3.42,
-   "wake": "none (waits on Dinis)",
+   "wake": "disabled, not deleted (relayed, Dinis ~23:50Z 26 Nov, by d.helm)",
    "repo": "PrompTugal/PrompTugal__News__Website",
    "purpose": "Conduct the PrompTugal sessions on account D and carry the shared PrompTugal work",
    "twin": "conductor.b@PrompTugal.dinis",
@@ -191,21 +200,21 @@
    ],
    "configured": "opus",
    "account": "D",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
    "home": "SovereignWebsite/Site__Agent__Conductor",
    "name_before": "conductor.d@PrompTugal.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "last_ran": "2026-11-23T16:51:42Z"
+   "last_ran": "2026-11-27T00:01:25Z"
   },
   {
    "id": "bulletins.d",
-   "name": "d.bulletins (PrompTugal)",
+   "name": "d.bulletins",
    "circle": "PrompTugal",
    "parent": "conductor.d@PrompTugal",
    "session": "https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj",
    "model": "opus",
-   "state": "review ready",
+   "state": "completed",
    "cost": 2.48,
    "wake": "none",
    "repo": "PrompTugal/PrompTugal__News__Bulletins",
@@ -213,12 +222,12 @@
    "twin": "bulletins.b@PrompTugal.dinis",
    "configured": "opus",
    "account": "D",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
    "home": null,
    "name_before": "bulletins.d@PrompTugal.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "last_ran": "2026-11-23T05:08:12Z"
+   "last_ran": "2026-11-24T13:52:03Z"
   },
   {
    "id": "conductor.d@SovereignWebsite",
@@ -227,7 +236,7 @@
    "parent": "maestro.d",
    "session": "https://claude.ai/code/session_015gaHdbX954ByXJf8LH5FLL",
    "model": "opus",
-   "state": "working",
+   "state": "completed",
    "cost": 19.48,
    "wake": "none",
    "repo": "SovereignWebsite/SovereignWebsite__Factory",
@@ -238,12 +247,12 @@
    ],
    "configured": "opus",
    "account": "D",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
    "home": "SovereignWebsite/Site__Agent__Conductor",
    "name_before": "conductor.d (SovereignWebsite)",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "last_ran": "2026-11-23T16:51:42Z"
+   "last_ran": "2026-11-26T23:53:02Z"
   },
   {
    "id": "sites.d",
@@ -252,7 +261,7 @@
    "parent": "maestro.d",
    "session": "https://claude.ai/code/session_015gaHde5GfQygpBgyUhNzuf",
    "model": "sonnet",
-   "state": "working",
+   "state": "FAILED: the session failed",
    "cost": 2.18,
    "wake": "none",
    "repo": "SovereignWebsite/Site__Agents__Sites",
@@ -263,13 +272,13 @@
    ],
    "configured": "sonnet",
    "account": "D",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
    "conductor": "conductor.d (SovereignWebsite) since 21 Nov ~22:10Z per its own board (relayed by helm.d, not read by me: that board is in another repository); Dinis to helm.d ~15:47Z agrees",
    "home": "SovereignWebsite/Site__Agent__Sites",
    "name_before": "sites.d (SovereignWebsite)",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "last_ran": "2026-11-23T16:51:44Z"
+   "last_ran": "2026-11-24T21:58:28Z"
   },
   {
    "id": "hub.d",
@@ -278,7 +287,7 @@
    "parent": "maestro.d",
    "session": "https://claude.ai/code/session_015gaHdbMGVTN5vJ9jVfAi3N",
    "model": "sonnet",
-   "state": "waiting on Dinis: merge work/hub.d-r2?",
+   "state": "waiting on Dinis: draft the area files?",
    "cost": 1.44,
    "wake": "none",
    "repo": "SovereignWebsite/SovereignWebsite__Hub",
@@ -286,13 +295,13 @@
    "twin": "hub.b",
    "configured": "sonnet",
    "account": "D",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
    "conductor": "conductor.d (SovereignWebsite) since 21 Nov ~22:10Z per its own board (relayed by helm.d, not read by me: that board is in another repository); Dinis to helm.d ~15:47Z agrees",
    "home": "SovereignWebsite/Site__Agent__Hub",
    "name_before": "hub.d (SovereignWebsite)",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "last_ran": "2026-11-23T16:51:57Z"
+   "last_ran": "2026-11-24T13:51:15Z"
   },
   {
    "id": "design.d",
@@ -301,20 +310,20 @@
    "parent": "conductor.d@SovereignWebsite",
    "session": "https://claude.ai/code/session_015gaHdczGFLc7N3kCq8MrWz",
    "model": "opus",
-   "state": "waiting on Dinis: contrast fix, key, files",
+   "state": "waiting on Dinis: policy paths for its area",
    "cost": 6.49,
-   "wake": "own round at 02:59 UTC (set inside its session, not seen as a scheduled task here)",
+   "wake": "disabled, not deleted (relayed, Dinis ~23:50Z 26 Nov, by d.helm)",
    "repo": "SovereignWebsite/Site__Agents__Design",
    "purpose": "Design rounds for the .d sites",
    "twin": "design.b?",
    "configured": "opus",
    "account": "D",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
    "home": "SovereignWebsite/Site__Agent__Design",
    "name_before": "design.d (SovereignWebsite)",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "last_ran": "2026-11-23T15:00:18Z"
+   "last_ran": "2026-11-26T22:59:45Z"
   },
   {
    "id": "synthetic-users.d",
@@ -323,7 +332,7 @@
    "parent": "conductor.d@SovereignWebsite",
    "session": "https://claude.ai/code/session_015gaHddQiB4aYZWXjfs16rM",
    "model": "opus",
-   "state": "waiting on Dinis: policy paths, version-chip fix",
+   "state": "waiting on Dinis: attach Site__Agent__Synthetic-Users",
    "cost": 7.05,
    "wake": "none",
    "repo": "SovereignWebsite/Site__Agents__Design",
@@ -331,12 +340,12 @@
    "twin": "synthetic-users.b?",
    "configured": "opus",
    "account": "D",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
    "home": "SovereignWebsite/Site__Agent__Synthetic-Users",
    "name_before": "synthetic-users.d (SovereignWebsite)",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "last_ran": "2026-11-23T04:52:27Z"
+   "last_ran": "2026-11-24T13:53:45Z"
   },
   {
    "id": "factory.d",
@@ -345,7 +354,7 @@
    "parent": "conductor.d@SovereignWebsite",
    "session": "https://claude.ai/code/session_015gaHde6kToHbUHDD8AN72E",
    "model": "opus",
-   "state": "waiting on Dinis: attach IaC to six agents, platform sites",
+   "state": "waiting on Dinis: yes/no on homes, push access for .d agents",
    "cost": 3.41,
    "wake": "none",
    "repo": "SovereignWebsite/SovereignWebsite__Factory",
@@ -353,12 +362,12 @@
    "twin": "factory.b",
    "configured": "opus",
    "account": "D",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
    "home": "SovereignWebsite/Site__Agent__Factory",
    "name_before": "factory.d (SovereignWebsite)",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "last_ran": "2026-11-23T05:39:45Z"
+   "last_ran": "2026-11-24T13:55:34Z"
   },
   {
    "id": "library.d",
@@ -367,7 +376,7 @@
    "parent": "conductor.d@SovereignWebsite",
    "session": "https://claude.ai/code/session_015gaHdecGUXfFRDs8DmeUFN",
    "model": "opus",
-   "state": "waiting on Dinis: rename in README and policy",
+   "state": "waiting on Dinis: start a fresh d.library session from START.md",
    "cost": 10.24,
    "wake": "none",
    "repo": "SovereignWebsite/Site__Agents__Library",
@@ -375,12 +384,12 @@
    "twin": "librarian.b (SovereignWebsite)",
    "configured": "opus",
    "account": "D",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
    "home": "SovereignWebsite/Site__Agent__Library",
    "name_before": "library.d (SovereignWebsite)",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "last_ran": "2026-11-23T04:52:48Z"
+   "last_ran": "2026-11-24T13:51:58Z"
   },
   {
    "id": "streaming.d",
@@ -390,20 +399,20 @@
    "session": "https://claude.ai/code/session_015gaHdbE7t4XNf21L7neufF",
    "model": "opus",
    "configured": "sonnet",
-   "state": "working",
+   "state": "waiting on Dinis: whether the reversible-steps rule applies; share card, images",
    "cost": 7.72,
    "wake": "none",
    "repo": "SovereignWebsite/Site__Tool__Streaming",
    "purpose": "The streaming site",
    "twin": "streaming.b?",
    "account": "D",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
    "conductor": "conductor.d (SovereignWebsite) since 21 Nov ~22:10Z per its own board (relayed by helm.d, not read by me: that board is in another repository); Dinis to helm.d ~15:47Z agrees",
    "home": null,
    "name_before": "streaming.d (StreamingWebsite)",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "last_ran": "2026-11-23T16:52:11Z"
+   "last_ran": "2026-11-24T13:57:36Z"
   },
   {
    "id": "conductor.d@AgentiCCells",
@@ -412,7 +421,7 @@
    "parent": "maestro.d",
    "session": "https://claude.ai/code/session_015gaHdcaj9Ta2Tke7pnZ3Q9",
    "model": "opus",
-   "state": "working",
+   "state": "waiting on Dinis: copy the reversible-steps rule into AgentiCCells repositories?",
    "cost": 3.66,
    "wake": "none",
    "repo": "AgentiCCells/AgentiCCells__Site__Factory",
@@ -424,12 +433,12 @@
    ],
    "configured": "opus",
    "account": "D",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
    "home": "SovereignWebsite/Site__Agent__Conductor",
    "name_before": "conductor.d@AgentiCCells.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "last_ran": "2026-11-23T16:51:43Z"
+   "last_ran": "2026-11-26T23:52:55Z"
   },
   {
    "id": "cell.email.d",
@@ -438,7 +447,7 @@
    "parent": "conductor.d@AgentiCCells",
    "session": "https://claude.ai/code/session_015gaHde7zcTqMyBWcdpdnR6",
    "model": "opus",
-   "state": "working",
+   "state": "completed",
    "cost": 3.97,
    "wake": "none",
    "repo": "AgentiCCells/AgentiCCells__Cell__Email",
@@ -446,12 +455,12 @@
    "twin": "cell.email.b",
    "configured": "opus",
    "account": "D",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
    "home": null,
    "name_before": "cell.email.d@AgentiCCells.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "last_ran": "2026-11-23T16:52:01Z"
+   "last_ran": "2026-11-24T00:52:06Z"
   },
   {
    "id": "newsroom.d",
@@ -461,20 +470,20 @@
    "session": "https://claude.ai/code/session_015gaHdb5n5RdwdbHzWijPMS",
    "model": "opus",
    "configured": "opus",
-   "state": "waiting on Dinis: name, asks route, deny list",
+   "state": "waiting on Dinis: deny list; ask for a home or keep the area",
    "cost": 9.33,
    "wake": "none seen",
    "repo": "SGit-AI/SGit-AI__Website__Newsroom",
    "purpose": "The newsroom writer on account D, twin of writer-10 (becoming newsroom.b); received my brief as material",
    "twin": "writer-10 (newsroom.b), reported",
    "account": "D",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
    "conductor": "none; sits under sgit.ai, led by Dinis; stays with maestro.d for sgit.ai (relayed by helm.d)",
    "home": null,
    "name_before": "newsroom.d (sgit.ai)",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "last_ran": "2026-11-23T16:52:10Z"
+   "last_ran": "2026-11-24T13:51:56Z"
   },
   {
    "id": "helm.d",
@@ -484,7 +493,7 @@
    "session": "https://claude.ai/code/session_015gaHdbUFC93JvpTQHrx8WV",
    "model": "not fetched",
    "configured": "not fetched",
-   "state": "working",
+   "state": "waiting on Dinis: attach homes for six agents; merge the Factory's dev into main",
    "cost": null,
    "wake": "none",
    "repo": "SovereignWebsite/Site__Agents__Helm (agent site requested on SovereignWebsite__Factory dev, 13947db, relayed 15:34Z)",
@@ -495,7 +504,7 @@
    "accountabilities": "brief Dinis on structure and direction; keep the circle's roles written; route each question to the role that owns it; report to the maestros by the board",
    "overlap": "maestros execute, helm.d sets the map and direction",
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "level": "top-level agent, peer of the conductors (Dinis to helm.d ~14:05Z, relayed): manages every agent not under a conductor",
    "span": [
     "strategy.d",
@@ -513,7 +522,7 @@
    "name_before": "helm.d@AgentiCCells.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
    "home": "SovereignWebsite/Site__Agent__Helm",
-   "last_ran": "2026-11-23T16:51:54Z"
+   "last_ran": "2026-11-27T00:05:31Z"
   },
   {
    "id": "strategy.d",
@@ -523,7 +532,7 @@
    "session": "https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
    "model": "not fetched",
    "configured": "not fetched",
-   "state": "completed",
+   "state": "working",
    "cost": null,
    "wake": "none",
    "repo": "home to be requested: Site__Agents__<Name>",
@@ -534,11 +543,11 @@
    "accountabilities": "a Wardley map per area and the estate; strategic concepts and actions; context briefs",
    "overlap": "cartographer.d draws the maps; strategy.d decides what they say",
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "name_before": "strategy.d@AgentiCCells.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
    "home": "SovereignWebsite/Site__Agent__Strategy",
-   "last_ran": "2026-11-23T06:22:18Z"
+   "last_ran": "2026-11-27T00:05:16Z"
   },
   {
    "id": "cartographer.d",
@@ -548,7 +557,7 @@
    "session": "https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH",
    "model": "not fetched",
    "configured": "not fetched",
-   "state": "review ready",
+   "state": "working",
    "cost": null,
    "wake": "none",
    "repo": "home to be requested: Site__Agents__<Name>",
@@ -559,11 +568,11 @@
    "accountabilities": "turn strategy.d's and sherpa.d's maps into JSON and pages, dated and sourced",
    "overlap": "librarian@ (B) maps what is where; cartographer.d maps strategy",
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "name_before": "cartographer.d@AgentiCCells.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
    "home": "SovereignWebsite/Site__Agent__Cartographer",
-   "last_ran": "2026-11-23T05:47:59Z"
+   "last_ran": "2026-11-27T00:05:16Z"
   },
   {
    "id": "sherpa.d",
@@ -573,9 +582,9 @@
    "session": "https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
    "model": "not fetched",
    "configured": "not fetched",
-   "state": "review ready",
+   "state": "working",
    "cost": null,
-   "wake": "none",
+   "wake": "disabled, not deleted (relayed, Dinis ~23:50Z 26 Nov, by d.helm)",
    "repo": "home to be requested: Site__Agents__<Name>",
    "purpose": "User needs and journeys, the anchor of every map",
    "twin": "sherpa@PrompTugal.dinis (account B): twins, per Dinis to helm.d ~14:05Z (relayed)",
@@ -584,11 +593,11 @@
    "accountabilities": "users and needs per area; journeys; the top of each map",
    "overlap": "sherpa@ (B) reviews one site's pages as a cold reader: twins or two roles is Dinis's",
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "name_before": "sherpa.d@AgentiCCells.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
    "home": "SovereignWebsite/Site__Agent__Sherpa",
-   "last_ran": "2026-11-23T12:44:38Z"
+   "last_ran": "2026-11-27T00:05:16Z"
   },
   {
    "id": "accountant.d",
@@ -609,11 +618,11 @@
    "accountabilities": "primitives catalogue; budgets across every agent and account; spend against them",
    "overlap": "accountant@ (B) budgets one team; whose home Site__Agents__Accountant is, Dinis's",
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "name_before": "accountant.d@AgentiCCells.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
    "home": "SovereignWebsite/Site__Agent__Accountant",
-   "last_ran": "2026-11-23T05:20:14Z"
+   "last_ran": "2026-11-27T00:05:33Z"
   },
   {
    "id": "counsel.d",
@@ -623,7 +632,7 @@
    "session": "https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
    "model": "not fetched",
    "configured": "not fetched",
-   "state": "completed",
+   "state": "working",
    "cost": null,
    "wake": "none",
    "repo": "home to be requested: Site__Agents__<Name>",
@@ -634,11 +643,11 @@
    "accountabilities": "drafts; tests against cases; risks; never legal advice",
    "overlap": "rights@ (B) checks licences and terms of data; counsel.d drafts Dinis's own instruments",
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "name_before": "counsel.d@AgentiCCells.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
    "home": "SovereignWebsite/Site__Agent__Counsel",
-   "last_ran": "2026-11-23T06:13:25Z"
+   "last_ran": "2026-11-27T00:05:17Z"
   },
   {
    "id": "decisions.d",
@@ -650,7 +659,7 @@
    "configured": "not fetched",
    "state": "working",
    "cost": null,
-   "wake": "none",
+   "wake": "disabled, not deleted (relayed, Dinis ~23:50Z 26 Nov, by d.helm)",
    "repo": "home to be requested: Site__Agents__<Name>",
    "purpose": "Take decisions within a limited power of attorney Dinis signs",
    "twin": "none yet",
@@ -659,11 +668,11 @@
    "accountabilities": "hold the power; decide only inside it, each decision signed and recorded; refer the rest to Dinis",
    "overlap": "the decision pages: owners still propose and decide PT decisions",
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "name_before": "decisions.d@AgentiCCells.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
    "home": "SovereignWebsite/Site__Agent__Decisions",
-   "last_ran": "2026-11-23T16:52:18Z"
+   "last_ran": "2026-11-27T00:05:18Z"
   },
   {
    "id": "studio.d",
@@ -684,11 +693,11 @@
    "accountabilities": "storyboard, script, presenters; every briefing published; sources shown",
    "overlap": "bulletins.d/.b make news summaries from data; studio.d makes briefings on the estate's own topics",
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "name_before": "studio.d@AgentiCCells.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
    "home": "SovereignWebsite/Site__Agent__Studio",
-   "last_ran": "2026-11-23T16:51:43Z"
+   "last_ran": "2026-11-27T00:05:18Z"
   },
   {
    "id": "landscape.d",
@@ -698,7 +707,7 @@
    "session": "https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW",
    "model": "not fetched",
    "configured": "not fetched",
-   "state": "review ready",
+   "state": "working",
    "cost": null,
    "wake": "none",
    "repo": "home to be requested: Site__Agents__<Name>",
@@ -709,11 +718,11 @@
    "accountabilities": "market research; recommendations; site variants; first: Sovereign Website",
    "overlap": "designer.experiments@ (B) varies PrompTugal pages; landscape.d starts from the market",
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "name_before": "landscape.d@AgentiCCells.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
    "home": "SovereignWebsite/Site__Agent__Landscape",
-   "last_ran": "2026-11-23T05:50:56Z"
+   "last_ran": "2026-11-27T00:05:19Z"
   },
   {
    "id": "email.workflows.d",
@@ -730,7 +739,7 @@
    "purpose": "Email cell workflows",
    "twin": "none yet",
    "account": "D",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "home": null,
    "name_before": "email.workflows.d@AgentiCCells.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
@@ -751,7 +760,7 @@
    "purpose": "Email cell design",
    "twin": "none yet",
    "account": "D",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "home": null,
    "name_before": "email.design.d@AgentiCCells.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
@@ -765,18 +774,18 @@
    "session": "https://claude.ai/code/session_015gaHdasKF9YcSA27g5dMPz",
    "model": "not fetched",
    "configured": "not fetched",
-   "state": "working",
+   "state": "completed",
    "cost": null,
    "wake": "none",
    "repo": "AgentiCCells/AgentiCCells__Cell__Email (assumed)",
    "purpose": "Email cell product management",
    "twin": "none yet",
    "account": "D",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "home": null,
    "name_before": "email.pm.d@AgentiCCells.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "last_ran": "2026-11-23T16:52:01Z"
+   "last_ran": "2026-11-23T16:52:54Z"
   },
   {
    "id": "data.d",
@@ -793,11 +802,11 @@
    "purpose": "Data for PrompTugal on account D (twin of data.b)",
    "twin": "none yet",
    "account": "D",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
    "home": null,
    "name_before": "data.d@PrompTugal.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "last_ran": "2026-11-23T04:55:10Z"
+   "last_ran": "2026-11-24T13:53:14Z"
   },
   {
    "id": "slides.d",
@@ -807,7 +816,7 @@
    "session": "https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8",
    "model": "opus",
    "configured": "opus",
-   "state": "waiting on Dinis: push access to SovereignWebsite__IaC",
+   "state": "working",
    "cost": null,
    "wake": "none",
    "repo": "SovereignWebsite/Site__Agents__Slides (home requested, relayed)",
@@ -818,8 +827,8 @@
    "home": "SovereignWebsite/Site__Agent__Slides",
    "name_before": "slides.d (account-d)",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
-   "last_ran": "2026-11-23T16:52:14Z"
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
+   "last_ran": "2026-11-27T00:05:19Z"
   },
   {
    "id": "pybot.d",
@@ -829,7 +838,7 @@
    "session": "https://claude.ai/code/session_015gaHddy85C9E8oW9YhJ6FK",
    "model": "not fetched",
    "configured": "not fetched",
-   "state": "working",
+   "state": "waiting on Dinis: four open questions on the PyBot site",
    "cost": null,
    "wake": "none",
    "repo": "not recorded",
@@ -837,7 +846,8 @@
    "twin": "none yet",
    "account": "D",
    "first_seen": "2026-11-23T17:10Z",
-   "last_ran": "2026-11-23T16:52:12Z"
+   "last_ran": "2026-11-26T18:03:27Z",
+   "state_seen": "27 Nov 00:30Z (list_sessions)"
   },
   {
    "id": "donna-freed.d",
@@ -847,7 +857,7 @@
    "session": "https://claude.ai/code/session_015gaHdeh6Sh45Ef2fZFAhLi",
    "model": "not fetched",
    "configured": "not fetched",
-   "state": "working",
+   "state": "waiting on Dinis: photos, bio, Instagram link, /send/ page",
    "cost": null,
    "wake": "none",
    "repo": "not recorded",
@@ -855,7 +865,8 @@
    "twin": "none yet",
    "account": "D",
    "first_seen": "2026-11-23T17:10Z",
-   "last_ran": "2026-11-23T16:52:12Z"
+   "last_ran": "2026-11-24T13:51:36Z",
+   "state_seen": "27 Nov 00:30Z (list_sessions)"
   },
   {
    "id": "wordpress.d",
@@ -865,7 +876,7 @@
    "session": "https://claude.ai/code/session_015gaHda1bnbqASo1ed8VUdY",
    "model": "not fetched",
    "configured": "not fetched",
-   "state": "working",
+   "state": "waiting on Dinis: four open questions",
    "cost": null,
    "wake": "none",
    "repo": "not recorded",
@@ -873,7 +884,8 @@
    "twin": "none yet",
    "account": "D",
    "first_seen": "2026-11-23T17:10Z",
-   "last_ran": "2026-11-23T16:52:11Z"
+   "last_ran": "2026-11-24T13:51:33Z",
+   "state_seen": "27 Nov 00:30Z (list_sessions)"
   },
   {
    "id": "observability.d",
@@ -883,7 +895,7 @@
    "session": "https://claude.ai/code/session_015gaHdayiD5PCvJRyqNHyjC",
    "model": "not fetched",
    "configured": "not fetched",
-   "state": "waiting on Dinis: cookie-free capture, append lanes",
+   "state": "waiting on Dinis: second keeper of Site__Agent__Observability",
    "cost": null,
    "wake": "none",
    "repo": "not recorded",
@@ -891,7 +903,8 @@
    "twin": "none yet",
    "account": "D",
    "first_seen": "2026-11-23T17:10Z",
-   "last_ran": "2026-11-23T04:52:17Z"
+   "last_ran": "2026-11-24T13:54:00Z",
+   "state_seen": "27 Nov 00:30Z (list_sessions)"
   },
   {
    "id": "counsel.d@SovereignWebsite",
@@ -901,7 +914,7 @@
    "session": "https://claude.ai/code/session_015gaHdaCnEbzJ8Q8CLjisbW",
    "model": "not fetched",
    "configured": "not fetched",
-   "state": "waiting on Dinis: which counsel agent keeps the key reviews",
+   "state": "waiting on Dinis: attach Site__Agent__Counsel; the key reviewer (its D18)",
    "cost": null,
    "wake": "none",
    "repo": "not recorded",
@@ -910,8 +923,8 @@
    "account": "D",
    "first_seen": "2026-11-23T17:10Z",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, relayed). An earlier pass in this record had overwritten this title and state with the central counsel's; corrected 24 Nov",
-   "state_seen": "23 Nov 17:10Z (list_sessions)",
-   "last_ran": "2026-11-23T04:52:01Z"
+   "state_seen": "27 Nov 00:30Z (list_sessions)",
+   "last_ran": "2026-11-24T13:53:44Z"
   },
   {
    "id": "security.d",
@@ -921,7 +934,7 @@
    "session": "https://claude.ai/code/session_015gaHdegs3vxyNtU2tmc28P",
    "model": "not fetched",
    "configured": "not fetched",
-   "state": "waiting on Dinis: confirm the rule, merge key-request commits",
+   "state": "waiting on Dinis: push adfc5ff; share Site__Agent__Security",
    "cost": null,
    "wake": "none",
    "repo": "not recorded",
@@ -929,17 +942,18 @@
    "twin": "none yet",
    "account": "D",
    "first_seen": "2026-11-23T17:10Z",
-   "last_ran": "2026-11-23T04:52:01Z"
+   "last_ran": "2026-11-24T13:53:40Z",
+   "state_seen": "27 Nov 00:30Z (list_sessions)"
   },
   {
    "id": "chiswick-cheese-market.d",
-   "name": "d.chiswick-cheese-market (SovereignWebsite)",
+   "name": "d.chiswick-cheese-market (Chiswick Cheese Market)",
    "circle": "SovereignWebsite",
    "parent": "conductor.d@SovereignWebsite",
    "session": "https://claude.ai/code/session_015gaHdcNSDvpHf63UJRg64C",
    "model": "not fetched",
    "configured": "not fetched",
-   "state": "waiting on Dinis: push access",
+   "state": "waiting on Dinis: Factory push access",
    "cost": null,
    "wake": "none",
    "repo": "not recorded",
@@ -947,7 +961,28 @@
    "twin": "none yet",
    "account": "D",
    "first_seen": "2026-11-23T17:10Z",
-   "last_ran": "2026-11-23T04:52:09Z"
+   "last_ran": "2026-11-24T13:51:34Z",
+   "name_before": "d.chiswick-cheese-market (SovereignWebsite)",
+   "state_seen": "27 Nov 00:30Z (list_sessions)"
+  },
+  {
+   "id": "cl-4.suno@SovereignWebsite",
+   "name": "cl-4.suno (SovereignWebsite)",
+   "circle": "SovereignWebsite",
+   "parent": "maestro.d",
+   "session": "https://claude.ai/code/session_015gaHdbzz8sb6r4WfYnsTLm",
+   "model": "not fetched",
+   "configured": "not fetched",
+   "state": "waiting on Dinis: a spend cap and the Suno MCP",
+   "cost": null,
+   "wake": "none",
+   "repo": "not recorded",
+   "purpose": "Not yet written in the record (new since 25 Nov; started under the maestro)",
+   "twin": "none yet",
+   "account": "D",
+   "first_seen": "2026-11-27T00:30Z",
+   "last_ran": "2026-11-25T23:56:57Z",
+   "state_seen": "27 Nov 00:30Z (list_sessions)"
   }
  ],
  "account_b": {
@@ -1007,5 +1042,17 @@
   "rule": "An agent's active_until is at most 7 days and is renewed on work; an agent idle 48 hours with nothing waiting is archived (following the offboarding process; never one still holding others' sealed secrets or keys); the restart test is run once per agent type this week; a model per role, switched only after its restart test passes; the model changes at hand-over",
   "scope_in_record": "applies_to: maestro.b, every maestro, design.b, design.b.rounds, factory.b, sites.b, accountant.b. Account D's agents other than the maestro are not named; I record it as the direction of travel, not as binding on them",
   "what_i_do": "At each refresh I list agents idle for 48 hours with nothing waiting as archive candidates in the round; I recommend, and never archive (a session's archiving is not mine)"
+ },
+ "archive_candidates": {
+  "as_of": "27 Nov 2026 ~00:30Z",
+  "rule": "block-03: idle 48 hours with nothing waiting (relayed; scope names the maestros and some .b agents, not these)",
+  "candidates": [
+   "d.email.design (completed, last event 23 Nov 04:51Z)",
+   "d.email.pm (completed, 23 Nov 16:52Z, hand-over note written, hourly task disabled)",
+   "d.email.dev (completed, 24 Nov 00:52Z)",
+   "d.data (completed, 24 Nov 13:53Z; a home request waits on a yes to d.factory)",
+   "d.bulletins (completed, 24 Nov 13:52Z, restart.md written)"
+  ],
+  "note": "I recommend only; I never archive. Archiving is Dinis's, and a session still holding others' sealed keys is never archived."
  }
 }

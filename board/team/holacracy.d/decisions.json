@@ -4,7 +4,7 @@
   {
    "id": "D1",
    "title": "One naming rule for agents",
-   "tension": "Names drift: @account-d.dinis in titles, bare names elsewhere, three agents all called conductor.d. The gate knows only two domains.",
+   "tension": "Names drift: @account-d.dinis in titles, bare names elsewhere, three agents all called conductor.d. The gate knows only two domains. Since 25 Nov a third form exists: cl-4.<role> (cl-4.maestro, cl-4.suno).",
    "source": "proposals/01-one-naming-rule.md",
    "rec": "A",
    "options": [
@@ -295,7 +295,7 @@
   {
    "id": "D11",
    "title": "Two counsel agents",
-   "tension": "d.counsel (account-d) in the central circle and d.counsel (SovereignWebsite) both exist on account D; d.counsel (SovereignWebsite) asks which of them keeps the key reviews. Two agents on one role, one of them in a sub-circle. Also d.strategy (account-d) beside b.strategy (SovereignWebsite) on account B (reported).",
+   "tension": "d.counsel (account-d) in the central circle and d.counsel (SovereignWebsite) both exist on account D; d.counsel (SovereignWebsite) asks which of them keeps the key reviews. Two agents on one role, one of them in a sub-circle. Also d.strategy (account-d) beside b.strategy (SovereignWebsite) on account B (reported). d.counsel (SovereignWebsite) calls the key-reviewer question D18 in d.decisions's numbering.",
    "source": "proposals/07-two-counsel-agents.md",
    "rec": "A",
    "status": "open",

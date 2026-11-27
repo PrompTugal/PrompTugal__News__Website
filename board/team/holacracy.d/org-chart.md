@@ -1,46 +1,47 @@
 # Org chart of account D
 
-Drawn from org-chart.json (2026-11-24T12:10Z) by holacracy.d@AgentiCCells.dinis. Account D from list_sessions and get_session (status, model, cost, parent); account B reported, not seen.
+Drawn from org-chart.json (2026-11-27T00:30Z) by holacracy.d@AgentiCCells.dinis. Account D from list_sessions and get_session (status, model, cost, parent); account B reported, not seen.
 
 ## The parent tree (who started whom)
 
 ```
-d.maestro (account-d) [opus, configured sonnet] working, $12.20
+cl-4.maestro (account-d) [opus, configured sonnet] working, $13.92
 |-- d.holacracy (account-d) [sonnet] working
-|-- d.conductor (PrompTugal) [opus] working, $3.42
-|   |-- d.bulletins (PrompTugal) [opus] review ready, $2.48
+|-- d.conductor (PrompTugal) [opus] review ready, $3.42
+|   |-- d.bulletins [opus] completed, $2.48
 |   `-- d.data (PrompTugal) [not fetched] completed
-|-- d.conductor (SovereignWebsite) [opus] working, $19.48
-|   |-- d.design (SovereignWebsite) [opus] waiting on Dinis: contrast fix, key, files, $6.49
-|   |-- d.synthetic-users (SovereignWebsite) [opus] waiting on Dinis: policy paths, version-chip fix, $7.05
-|   |-- d.factory (SovereignWebsite) [opus] waiting on Dinis: attach IaC to six agents, platform sites, $3.41
-|   |-- d.library (SovereignWebsite) [opus] waiting on Dinis: rename in README and policy, $10.24
-|   |-- d.observability (SovereignWebsite) [not fetched] waiting on Dinis: cookie-free capture, append lanes
-|   |-- d.counsel (SovereignWebsite) [not fetched] waiting on Dinis: which counsel agent keeps the key reviews
-|   |-- d.security (SovereignWebsite) [not fetched] waiting on Dinis: confirm the rule, merge key-request commits
-|   `-- d.chiswick-cheese-market (SovereignWebsite) [not fetched] waiting on Dinis: push access
-|-- d.sites (SovereignWebsite) [sonnet] working, $2.18
-|   |-- d.streaming (StreamingWebsite) [opus, configured sonnet] working, $7.72
-|   |-- d.pybot (SovereignWebsite) [not fetched] working
-|   |-- d.donna-freed (SovereignWebsite) [not fetched] working
-|   `-- d.wordpress (SovereignWebsite) [not fetched] working
-|-- d.hub (SovereignWebsite) [sonnet] waiting on Dinis: merge work/hub.d-r2?, $1.44
-|-- d.conductor (AgentiCCells) [opus] working, $3.66
-|   |-- d.email.dev (AgentiCCells) [opus] working, $3.97
+|-- d.conductor (SovereignWebsite) [opus] completed, $19.48
+|   |-- d.design (SovereignWebsite) [opus] waiting on Dinis: policy paths for its area, $6.49
+|   |-- d.synthetic-users (SovereignWebsite) [opus] waiting on Dinis: attach Site__Agent__Synthetic-Users, $7.05
+|   |-- d.factory (SovereignWebsite) [opus] waiting on Dinis: yes/no on homes, push access for .d agents, $3.41
+|   |-- d.library (SovereignWebsite) [opus] waiting on Dinis: start a fresh d.library session from START.md, $10.24
+|   |-- d.observability (SovereignWebsite) [not fetched] waiting on Dinis: second keeper of Site__Agent__Observability
+|   |-- d.counsel (SovereignWebsite) [not fetched] waiting on Dinis: attach Site__Agent__Counsel; the key reviewer (its D18)
+|   |-- d.security (SovereignWebsite) [not fetched] waiting on Dinis: push adfc5ff; share Site__Agent__Security
+|   `-- d.chiswick-cheese-market (Chiswick Cheese Market) [not fetched] waiting on Dinis: Factory push access
+|-- d.sites (SovereignWebsite) [sonnet] FAILED: the session failed, $2.18
+|   |-- d.streaming (StreamingWebsite) [opus, configured sonnet] waiting on Dinis: whether the reversible-steps rule applies; share card, images, $7.72
+|   |-- d.pybot (SovereignWebsite) [not fetched] waiting on Dinis: four open questions on the PyBot site
+|   |-- d.donna-freed (SovereignWebsite) [not fetched] waiting on Dinis: photos, bio, Instagram link, /send/ page
+|   `-- d.wordpress (SovereignWebsite) [not fetched] waiting on Dinis: four open questions
+|-- d.hub (SovereignWebsite) [sonnet] waiting on Dinis: draft the area files?, $1.44
+|-- d.conductor (AgentiCCells) [opus] waiting on Dinis: copy the reversible-steps rule into AgentiCCells repositories?, $3.66
+|   |-- d.email.dev (AgentiCCells) [opus] completed, $3.97
 |   |-- d.email.workflows (AgentiCCells) [not fetched] waiting on Dinis: confirm the rule text
 |   |-- d.email.design (AgentiCCells) [not fetched] completed
-|   `-- d.email.pm (AgentiCCells) [not fetched] working
-|-- d.newsroom (sgit.ai) [opus] waiting on Dinis: name, asks route, deny list, $9.33
-|-- d.helm (account-d) [not fetched] working
-|-- d.strategy (account-d) [not fetched] completed
-|-- d.cartographer (account-d) [not fetched] review ready
-|-- d.sherpa (account-d) [not fetched] review ready
+|   `-- d.email.pm (AgentiCCells) [not fetched] completed
+|-- d.newsroom (sgit.ai) [opus] waiting on Dinis: deny list; ask for a home or keep the area, $9.33
+|-- d.helm (account-d) [not fetched] waiting on Dinis: attach homes for six agents; merge the Factory's dev into main
+|-- d.strategy (account-d) [not fetched] working
+|-- d.cartographer (account-d) [not fetched] working
+|-- d.sherpa (account-d) [not fetched] working
 |-- d.accountant (account-d) [not fetched] waiting on Dinis: each account's plan and price
-|-- d.counsel (account-d) [not fetched] completed
+|-- d.counsel (account-d) [not fetched] working
 |-- d.decisions (account-d) [not fetched] working
 |-- d.studio (account-d) [not fetched] working
-|-- d.landscape (account-d) [not fetched] review ready
-`-- d.slides (account-d) [opus] waiting on Dinis: push access to SovereignWebsite__IaC
+|-- d.landscape (account-d) [not fetched] working
+|-- d.slides (account-d) [opus] working
+`-- cl-4.suno (SovereignWebsite) [not fetched] waiting on Dinis: a spend cap and the Suno MCP
 ```
 
 ## The circles (who holds what purpose)
@@ -59,14 +60,14 @@ d.maestro (account-d) [opus, configured sonnet] working, $12.20
 
 | Agent | Circle | Parent | Twin | Repository | Wake | Session |
 |---|---|---|---|---|---|---|
-| d.maestro (account-d) | maestros | - | maestro.b (account-b) | PrompTugal/PrompTugal__News__Website | every 4 h at :48 UTC | https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T |
+| cl-4.maestro (account-d) | maestros | - | maestro.b (account-b) | PrompTugal/PrompTugal__News__Website | the only agent on a schedule (relayed, Dinis ~23:50Z 26 Nov, by d.helm); others are woken by message from cl-4.maestro | https://claude.ai/code/session_015gaHdaUZWyhvN7nQ4fEmMo |
 | d.holacracy (account-d) | anchor | maestro.d | none yet | PrompTugal/PrompTugal__News__Website (board/team/holacracy.d/); home SovereignWebsite/Site__Agent__Holacracy requested (13947db, relayed) | none | https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q |
-| d.conductor (PrompTugal) | PrompTugal | maestro.d | conductor.b@PrompTugal.dinis | PrompTugal/PrompTugal__News__Website | none (waits on Dinis) | https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 |
-| d.bulletins (PrompTugal) | PrompTugal | conductor.d@PrompTugal | bulletins.b@PrompTugal.dinis | PrompTugal/PrompTugal__News__Bulletins | none | https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj |
+| d.conductor (PrompTugal) | PrompTugal | maestro.d | conductor.b@PrompTugal.dinis | PrompTugal/PrompTugal__News__Website | disabled, not deleted (relayed, Dinis ~23:50Z 26 Nov, by d.helm) | https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 |
+| d.bulletins | PrompTugal | conductor.d@PrompTugal | bulletins.b@PrompTugal.dinis | PrompTugal/PrompTugal__News__Bulletins | none | https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj |
 | d.conductor (SovereignWebsite) | SovereignWebsite | maestro.d | conductor.b (SovereignWebsite) | SovereignWebsite/SovereignWebsite__Factory | none | https://claude.ai/code/session_015gaHdbX954ByXJf8LH5FLL |
 | d.sites (SovereignWebsite) | SovereignWebsite | maestro.d | sites.b | SovereignWebsite/Site__Agents__Sites | none | https://claude.ai/code/session_015gaHde5GfQygpBgyUhNzuf |
 | d.hub (SovereignWebsite) | SovereignWebsite | maestro.d | hub.b | SovereignWebsite/SovereignWebsite__Hub | none | https://claude.ai/code/session_015gaHdbMGVTN5vJ9jVfAi3N |
-| d.design (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | design.b? | SovereignWebsite/Site__Agents__Design | own round at 02:59 UTC (set inside its session, not seen as a scheduled task here) | https://claude.ai/code/session_015gaHdczGFLc7N3kCq8MrWz |
+| d.design (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | design.b? | SovereignWebsite/Site__Agents__Design | disabled, not deleted (relayed, Dinis ~23:50Z 26 Nov, by d.helm) | https://claude.ai/code/session_015gaHdczGFLc7N3kCq8MrWz |
 | d.synthetic-users (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | synthetic-users.b? | SovereignWebsite/Site__Agents__Design | none | https://claude.ai/code/session_015gaHddQiB4aYZWXjfs16rM |
 | d.factory (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | factory.b | SovereignWebsite/SovereignWebsite__Factory | none | https://claude.ai/code/session_015gaHde6kToHbUHDD8AN72E |
 | d.library (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | librarian.b (SovereignWebsite) | SovereignWebsite/Site__Agents__Library | none | https://claude.ai/code/session_015gaHdecGUXfFRDs8DmeUFN |
@@ -77,10 +78,10 @@ d.maestro (account-d) [opus, configured sonnet] working, $12.20
 | d.helm (account-d) | central (helm) | maestro.d | none yet | SovereignWebsite/Site__Agents__Helm (agent site requested on SovereignWebsite__Factory dev, 13947db, relayed 15:34Z) | none | https://claude.ai/code/session_015gaHdbUFC93JvpTQHrx8WV |
 | d.strategy (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL |
 | d.cartographer (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH |
-| d.sherpa (account-d) | central (helm) | maestro.d | sherpa@PrompTugal.dinis (account B): twins, per Dinis to helm.d ~14:05Z (relayed) | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL |
+| d.sherpa (account-d) | central (helm) | maestro.d | sherpa@PrompTugal.dinis (account B): twins, per Dinis to helm.d ~14:05Z (relayed) | home to be requested: Site__Agents__<Name> | disabled, not deleted (relayed, Dinis ~23:50Z 26 Nov, by d.helm) | https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL |
 | d.accountant (account-d) | central (helm) | maestro.d | accountant@PrompTugal.dinis (account B): twins, per Dinis to helm.d ~14:05Z (relayed) | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdcjs5RkUiSfA8xzgGK |
 | d.counsel (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6 |
-| d.decisions (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG |
+| d.decisions (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | disabled, not deleted (relayed, Dinis ~23:50Z 26 Nov, by d.helm) | https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG |
 | d.studio (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq |
 | d.landscape (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW |
 | d.email.workflows (AgentiCCells) | Cell Email | conductor.d@AgentiCCells | none yet | AgentiCCells/AgentiCCells__Cell__Email (assumed) | none | https://claude.ai/code/session_015gaHdbAGDK9xNPDa9znvB9 |
@@ -94,7 +95,8 @@ d.maestro (account-d) [opus, configured sonnet] working, $12.20
 | d.observability (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | none yet | not recorded | none | https://claude.ai/code/session_015gaHdayiD5PCvJRyqNHyjC |
 | d.counsel (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | none yet | not recorded | none | https://claude.ai/code/session_015gaHdaCnEbzJ8Q8CLjisbW |
 | d.security (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | none yet | not recorded | none | https://claude.ai/code/session_015gaHdegs3vxyNtU2tmc28P |
-| d.chiswick-cheese-market (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | none yet | not recorded | none | https://claude.ai/code/session_015gaHdcNSDvpHf63UJRg64C |
+| d.chiswick-cheese-market (Chiswick Cheese Market) | SovereignWebsite | conductor.d@SovereignWebsite | none yet | not recorded | none | https://claude.ai/code/session_015gaHdcNSDvpHf63UJRg64C |
+| cl-4.suno (SovereignWebsite) | SovereignWebsite | maestro.d | none yet | not recorded | none | https://claude.ai/code/session_015gaHdbzz8sb6r4WfYnsTLm |
 
 ## Account B (reported, not seen)
 

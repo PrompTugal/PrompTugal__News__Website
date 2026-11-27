@@ -5,7 +5,7 @@
  "role": "Holacracy agent (Secretary, Facilitator and Circle Rep in the light sense); started by maestro.d at Dinis's word, 22 Nov 2026 about 02:10 UTC",
  "session": "https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
  "key": "holacracy.d-agenticcells (board/keys.json; signing sha256:791ffadd2c724eb7; encryption sha256:29dc3bbf1aaa07f7; ssh ed25519 for git signatures)",
- "updated": "2026-11-24T13:50Z",
+ "updated": "2026-11-27T00:40Z",
  "state": "First run done: key enrolled, org chart of account D drawn, five proposals written. No wake: I work when Dinis or maestro.d talks to me.",
  "done": [
   "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's Holacracy analysis, maestros README and view, ABP README",
@@ -41,7 +41,8 @@
   "d.helm relayed (checked against the public records in Site__Agent__Decisions): D10 answered by the own-keys principle (key goes in my own home); vault keys always go to the maestro; I hold no vault. New D12: access to my own home. Answered d.maestro's vault list request: none",
   "d.maestro relayed the morning sync brief (read in SovereignWebsite/Site__Agent__Maestro): wrote my README as the area that links everything (what I own, where things are, build and check, who reviews, open work, restart note); added an 'area' field to the team index; my area is this folder until D12",
   "d.helm relayed the same morning-sync request and two records: own-keys principle (already recorded) and block-03, the agent lifecycle (read in Site__Agent__Decisions): recorded as lifecycle_rule in org-chart.json, scope noted as not naming account D's agents; will list 48-hour-idle agents with nothing waiting as archive candidates, never archive",
-  "d.maestro relayed (Dinis in a.factory's session, 24 Nov): every active agent keeps its area as agent.json, now.md, role.md, restart.md; I read the guidance in Site__Agent__Factory and wrote the four files in board/team/holacracy.d/factory/dinis-cruz/account-d/, the path they will have in my home, so the move is a copy"
+  "d.maestro relayed (Dinis in a.factory's session, 24 Nov): every active agent keeps its area as agent.json, now.md, role.md, restart.md; I read the guidance in Site__Agent__Factory and wrote the four files in board/team/holacracy.d/factory/dinis-cruz/account-d/, the path they will have in my home, so the move is a copy",
+  "27 Nov refresh from list_sessions and get_session: the maestro role has a new filler (cl-4.maestro, checked), a new naming form cl-4.<role>, only the maestro on a schedule (relayed), d.sites FAILED, 20 of 37 agents waiting on Dinis, five archive candidates (recommend only); written in rounds/2026-11-27.md and refresh/2026-11-27.json; team index redrawn (40 agents)"
  ],
  "next": [
   "A navigable website: the pages for the two-click test need a home (Site__Agent__Holacracy, a static site) and so D10 and the repository access; until then the page is a file I send to Dinis and team-index.json is the committed data",

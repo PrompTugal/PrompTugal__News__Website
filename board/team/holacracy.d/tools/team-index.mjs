@@ -12,6 +12,7 @@ const dec = JSON.parse(fs.readFileSync(path.join(dir, 'decisions.json'), 'utf8')
 const idOf = a => { const c = ((a.name.match(/\((.*)\)/) || [])[1] || '').replace(/\./g, '-'); return slug(a) + (c ? '.' + c : '') }   // d.studio.account-d
 const status = a => {
   const s = (a.state || '').toLowerCase()
+  if (/failed/.test(s)) return 'blocked'
   if (/waiting|blocked|needs input/.test(s)) return 'waiting'
   if (/review/.test(s)) return 'waiting'
   if (/working/.test(s)) return 'working'

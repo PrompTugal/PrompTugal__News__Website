@@ -1,0 +1,264 @@
+{
+ "read": "list_sessions and get_session, 27 Nov 2026 ~00:30Z; status, title, updated_at only; never transcripts",
+ "rows": [
+  {
+   "session": "session_015gaHbzz8sb6r4WfYnsTLm",
+   "title": "cl-4.suno (SovereignWebsite)",
+   "state": "blocked",
+   "updated": "2026-11-25T23:56:57Z",
+   "note": "a spend cap and the Suno MCP"
+  },
+  {
+   "session": "session_015gaHaUZWyhvN7nQ4fEmMo",
+   "title": "cl-4.maestro (account-d)",
+   "state": "working",
+   "updated": "2026-11-27T00:05:35Z",
+   "note": ""
+  },
+  {
+   "session": "session_015gaHddy85C9E8oW9YhJ6FK",
+   "title": "d.pybot (SovereignWebsite)",
+   "state": "blocked",
+   "updated": "2026-11-26T18:03:27Z",
+   "note": "four open questions on the PyBot site"
+  },
+  {
+   "session": "session_015gaHdeh6Sh45Ef2fZFAhLi",
+   "title": "d.donna-freed (SovereignWebsite)",
+   "state": "blocked",
+   "updated": "2026-11-24T13:51:36Z",
+   "note": "photos, bio, Instagram link, /send/ page"
+  },
+  {
+   "session": "session_015gaHda1bnbqASo1ed8VUdY",
+   "title": "d.wordpress (SovereignWebsite)",
+   "state": "blocked",
+   "updated": "2026-11-24T13:51:33Z",
+   "note": "four open questions"
+  },
+  {
+   "session": "session_015gaHdayiD5PCvJRyqNHyjC",
+   "title": "d.observability (SovereignWebsite)",
+   "state": "blocked",
+   "updated": "2026-11-24T13:54:00Z",
+   "note": "second keeper of Site__Agent__Observability"
+  },
+  {
+   "session": "session_015gaHdaCnEbzJ8Q8CLjisbW",
+   "title": "d.counsel (SovereignWebsite)",
+   "state": "blocked",
+   "updated": "2026-11-24T13:53:44Z",
+   "note": "attach Site__Agent__Counsel; the key reviewer (its D18)"
+  },
+  {
+   "session": "session_015gaHdegs3vxyNtU2tmc28P",
+   "title": "d.security (SovereignWebsite)",
+   "state": "blocked",
+   "updated": "2026-11-24T13:53:40Z",
+   "note": "push adfc5ff; share Site__Agent__Security"
+  },
+  {
+   "session": "session_015gaHddnGD3ja8j2kzPwDp8",
+   "title": "d.slides (account-d)",
+   "state": "working",
+   "updated": "2026-11-27T00:05:19Z",
+   "note": ""
+  },
+  {
+   "session": "session_015gaHdcNSDvpHf63UJRg64C",
+   "title": "d.chiswick-cheese-market (Chiswick Cheese Market)",
+   "state": "blocked",
+   "updated": "2026-11-24T13:51:34Z",
+   "note": "Factory push access"
+  },
+  {
+   "session": "session_015gaHdcXVgPryjU8ZBvpPUW",
+   "title": "d.landscape (account-d)",
+   "state": "working",
+   "updated": "2026-11-27T00:05:19Z",
+   "note": ""
+  },
+  {
+   "session": "session_015gaHdbwwKT7uSfaEm8rKoq",
+   "title": "d.studio (account-d)",
+   "state": "working",
+   "updated": "2026-11-27T00:05:18Z",
+   "note": ""
+  },
+  {
+   "session": "session_015gaHdaiX9VvjVwHaNezGJG",
+   "title": "d.decisions (account-d)",
+   "state": "working",
+   "updated": "2026-11-27T00:05:18Z",
+   "note": ""
+  },
+  {
+   "session": "session_015gaHddhcfpguWLhSXwEJu6",
+   "title": "d.counsel (account-d)",
+   "state": "working",
+   "updated": "2026-11-27T00:05:17Z",
+   "note": ""
+  },
+  {
+   "session": "session_015gaHdcjs5RkUiSfA8xzgGK",
+   "title": "d.accountant (account-d)",
+   "state": "blocked",
+   "updated": "2026-11-27T00:05:33Z",
+   "note": "each account's plan and price"
+  },
+  {
+   "session": "session_015gaHdacSn5rnCfTLnoB3FL",
+   "title": "d.sherpa (account-d)",
+   "state": "working",
+   "updated": "2026-11-27T00:05:16Z",
+   "note": ""
+  },
+  {
+   "session": "session_015gaHdbagtmfJeonLhTHnbH",
+   "title": "d.cartographer (account-d)",
+   "state": "working",
+   "updated": "2026-11-27T00:05:16Z",
+   "note": ""
+  },
+  {
+   "session": "session_015gaHddd1qVEaY3EG6feEsL",
+   "title": "d.strategy (account-d)",
+   "state": "working",
+   "updated": "2026-11-27T00:05:16Z",
+   "note": ""
+  },
+  {
+   "session": "session_015gaHdbUFC93JvpTQHrx8WV",
+   "title": "d.helm (account-d)",
+   "state": "blocked",
+   "updated": "2026-11-27T00:05:31Z",
+   "note": "attach homes for six agents; merge the Factory's dev into main"
+  },
+  {
+   "session": "session_015gaHdbAGDK9xNPDa9znvB9",
+   "title": "d.email.workflows (AgentiCCells)",
+   "state": "blocked",
+   "updated": "2026-11-23T04:51:20Z",
+   "note": "confirm the rule text"
+  },
+  {
+   "session": "session_015gaHdb5B7vab8KyN7YiDNZ",
+   "title": "d.email.design (AgentiCCells)",
+   "state": "done",
+   "updated": "2026-11-23T04:51:14Z",
+   "note": ""
+  },
+  {
+   "session": "session_015gaHdasKF9YcSA27g5dMPz",
+   "title": "d.email.pm (AgentiCCells)",
+   "state": "done",
+   "updated": "2026-11-23T16:52:54Z",
+   "note": ""
+  },
+  {
+   "session": "session_015gaHdboMeL96vpsBRXSX2z",
+   "title": "d.data (PrompTugal)",
+   "state": "done",
+   "updated": "2026-11-24T13:53:14Z",
+   "note": ""
+  },
+  {
+   "session": "session_015gaHdb5n5RdwdbHzWijPMS",
+   "title": "d.newsroom (sgit.ai)",
+   "state": "blocked",
+   "updated": "2026-11-24T13:51:56Z",
+   "note": "deny list; ask for a home or keep the area"
+  },
+  {
+   "session": "session_015gaHdeitbXmvVmpjcHbB6q",
+   "title": "d.holacracy (account-d)",
+   "state": "working",
+   "updated": "2026-11-27T00:05:19Z",
+   "note": ""
+  },
+  {
+   "session": "session_015gaHde7zcTqMyBWcdpdnR6",
+   "title": "d.email.dev (AgentiCCells)",
+   "state": "done",
+   "updated": "2026-11-24T00:52:06Z",
+   "note": ""
+  },
+  {
+   "session": "session_015gaHdcaj9Ta2Tke7pnZ3Q9",
+   "title": "d.conductor (AgentiCCells)",
+   "state": "blocked",
+   "updated": "2026-11-26T23:52:55Z",
+   "note": "copy the reversible-steps rule into AgentiCCells repositories?"
+  },
+  {
+   "session": "session_015gaHde6kToHbUHDD8AN72E",
+   "title": "d.factory (SovereignWebsite)",
+   "state": "blocked",
+   "updated": "2026-11-24T13:55:34Z",
+   "note": "yes/no on homes, push access for .d agents"
+  },
+  {
+   "session": "session_015gaHdecGUXfFRDs8DmeUFN",
+   "title": "d.library (SovereignWebsite)",
+   "state": "blocked",
+   "updated": "2026-11-24T13:51:58Z",
+   "note": "start a fresh d.library session from START.md"
+  },
+  {
+   "session": "session_015gaHddQiB4aYZWXjfs16rM",
+   "title": "d.synthetic-users (SovereignWebsite)",
+   "state": "blocked",
+   "updated": "2026-11-24T13:53:45Z",
+   "note": "attach Site__Agent__Synthetic-Users"
+  },
+  {
+   "session": "session_015gaHdczGFLc7N3kCq8MrWz",
+   "title": "d.design (SovereignWebsite)",
+   "state": "blocked",
+   "updated": "2026-11-26T22:59:45Z",
+   "note": "policy paths for its area"
+  },
+  {
+   "session": "session_015gaHdc5qb6hjqRntz5XQXj",
+   "title": "d.bulletins",
+   "state": "done",
+   "updated": "2026-11-24T13:52:03Z",
+   "note": ""
+  },
+  {
+   "session": "session_015gaHdeRkCjZyCB2PTeQiJ8",
+   "title": "d.conductor (PrompTugal)",
+   "state": "review",
+   "updated": "2026-11-27T00:01:25Z",
+   "note": ""
+  },
+  {
+   "session": "session_015gaHdbE7t4XNf21L7neufF",
+   "title": "d.streaming (StreamingWebsite)",
+   "state": "blocked",
+   "updated": "2026-11-24T13:57:36Z",
+   "note": "whether the reversible-steps rule applies; share card, images"
+  },
+  {
+   "session": "session_015gaHdbMGVTN5vJ9jVfAi3N",
+   "title": "d.hub (SovereignWebsite)",
+   "state": "blocked",
+   "updated": "2026-11-24T13:51:15Z",
+   "note": "draft the area files?"
+  },
+  {
+   "session": "session_015gaHde5GfQygpBgyUhNzuf",
+   "title": "d.sites (SovereignWebsite)",
+   "state": "failed",
+   "updated": "2026-11-24T21:58:28Z",
+   "note": "the session failed"
+  },
+  {
+   "session": "session_015gaHdbX954ByXJf8LH5FLL",
+   "title": "d.conductor (SovereignWebsite)",
+   "state": "done",
+   "updated": "2026-11-26T23:53:02Z",
+   "note": ""
+  }
+ ]
+}
