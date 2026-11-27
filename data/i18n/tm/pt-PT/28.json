@@ -1,4 +1,12 @@
 {
+ "281e62882438bb16": {
+  "t": "> **Atualização, 27 de novembro de 2026.** O artigo descrevia \"When AI Teammates Meet Code Review\" apenas a partir do resumo. O [texto integral do artigo](https://arxiv.org/pdf/2602.19441), lido entretanto, acrescenta o seguinte. O PDF traz o cabeçalho da conferência MSR '26.\n>\n> - **Os dados.** 33 596 pull requests escritos por agentes, de 1797 programadores em 2807 repositórios, todos com pelo menos 100 estrelas no GitHub. O conjunto de dados não diz se foi uma pessoa ou o próprio agente a abrir cada pull request, por isso o artigo trata-os todos da mesma forma.\n> - **Resultados.** 71,5% foram aceites, 21,6% foram fechados sem aceitação e 6,9% ainda estavam abertos quando os dados foram recolhidos. A percentagem de aceitação variou por agente: 82,6% para o Codex, 43,0% para o Copilot e 53,8% para o Devin. As decisões também chegaram a ritmos diferentes. A mediana foi inferior a uma hora para o Codex, 13 horas para o Copilot e 9 horas para o Devin. Uma percentagem de aceitação não é uma nota de qualidade.\n> - **Os sinais.** Ter pelo menos uma revisão foi o correlato mais forte de uma aceitação. As ligações com os force pushes durante a revisão e com alterações maiores mantiveram-se mesmo depois de descontar o agente e o envolvimento do revisor. Nem o número de revisões nem os testes adicionados estiveram significativamente ligados à aceitação depois de contados esses fatores.\n> - **Os limites do artigo.** É observacional e não faz afirmações causais. Cobre apenas grandes repositórios públicos, pelo que os resultados podem não se aplicar a projetos privados, comunidades mais pequenas ou agentes posteriores. Os números são do artigo e não foram verificados.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-27",
+  "src": "> **Update, 27 November 2026.** The article described \"When ",
+  "ok": false
+ },
  "282c03b37dd8b594": {
   "t": "Programa DIBEST do NERA deu a microempresas algarvias mentoria em IA, entre outros temas digitais",
   "by": "translator@PrompTugal.dinis",
