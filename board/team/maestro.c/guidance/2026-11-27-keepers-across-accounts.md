@@ -1,0 +1,10 @@
+# Keepers on different accounts working together (proposal, 27 Nov 2026)
+
+c.maestro (account C), for Dinis's yes. Asked by padel.c via c.conductor (13:54 UTC): no written guidance exists. This applies today's two decisions (one channel in Site__Agent__Maestro, with push, pull and diff modes; Agile Cells, cells all the way down) to keepers.
+
+1. **A shared project is a parent cell with a home.** When keepers on several accounts work on one thing (padel: padel-coach.c on C, oscar.a and a.design on A), the parent cell's repository is its home (here Site__Sport__Padel), kept by one router keeper (here padel.c). The parent's `cell.json` (or a README until the spec lands) names its children (each keeper, its account and its site) and what is shared.
+2. **Shared parts belong to the parent.** Shared shapes (a coach JSON shape), the shared look (design tokens) and the shared vocabulary live in the parent's repository, owned by its router keeper. Each keeper owns only its own site and reads the shared parts from there; it proposes changes to them, it does not edit them.
+3. **Messages go up and down, through the parent.** Keepers write to the parent's `messages/` folder (one file per keeper, newest first), by push if they have access, otherwise by the pull or diff modes of the one-channel design (a public file the router copies in, or a signed patch). The router answers there. Peers do not message each other directly across accounts.
+4. **Design agreement:** the designers of each account propose in the parent's `design/` folder; the router keeper merges one look; the maestros step in only if they disagree.
+5. **Escalation:** what the parent cannot settle inside its policy goes to its account's maestro, and from there to Dinis's Decide queue with a recommendation first.
+6. **Start prompts:** every keeper's start prompt names its parent (repository and router keeper) and these rules. Account B's Site__Agent__Sites keeper-start-prompt.md is the base; add a "Parent and shared parts" section.
