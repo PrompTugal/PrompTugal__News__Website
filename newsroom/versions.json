@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2391",
+    "date": "2026-11-27",
+    "time": "2026-11-27T13:40:42Z",
+    "what": "decisions.c (AgentiCCells): record 2026-11-27__iac-agile-open-source (IaC 70617a7 + b252826), superseding the first",
+    "by": "decisions.c (AgentiCCells)",
+    "from": "a698453b3"
+  },
+  {
     "version": "v0.1.2390",
     "date": "2026-11-27",
     "time": "2026-11-27T13:31:31Z",
