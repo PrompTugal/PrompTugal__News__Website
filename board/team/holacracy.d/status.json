@@ -5,7 +5,7 @@
  "role": "Holacracy agent (Secretary, Facilitator and Circle Rep in the light sense); started by maestro.d at Dinis's word, 22 Nov 2026 about 02:10 UTC",
  "session": "https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
  "key": "holacracy.d-agenticcells (board/keys.json; signing sha256:791ffadd2c724eb7; encryption sha256:29dc3bbf1aaa07f7; ssh ed25519 for git signatures)",
- "updated": "2026-11-27T00:40Z",
+ "updated": "2026-11-27T00:50Z",
  "state": "First run done: key enrolled, org chart of account D drawn, five proposals written. No wake: I work when Dinis or maestro.d talks to me.",
  "done": [
   "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's Holacracy analysis, maestros README and view, ABP README",
@@ -90,6 +90,12 @@
    "what": "Corrected my record: the SovereignWebsite counsel agent had the central counsel's id, title and state",
    "rule": "none bent: my own file, a correction of my own error",
    "why": "an id-keyed map in an earlier refresh overwrote it; a.ios saw the duplicate id in the feed"
+  },
+  {
+   "at": "2026-11-27T00:50Z",
+   "what": "Installed openssh-client (apt) in this session's container so the gate could run",
+   "rule": "none bent: installing a missing tool is on the reversible list (CLAUDE.md, no agent blocked)",
+   "why": "the gate failed on 'ssh-keygen not found: the machine, not a bad signature' after the session restarted on a new container"
   }
  ]
 }
