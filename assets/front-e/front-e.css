@@ -232,3 +232,7 @@
     .fe-allfig > summary { cursor: pointer; font: 600 13px var(--sans); padding: 8px 0; color: var(--brand); }
 }
 @media (min-width: 761px) { .fe-allfig > summary { display: none; } }
+
+.fe-ptmap .lbl { font: 500 11px var(--mono, monospace); fill: var(--ink, #14171c); paint-order: stroke; stroke: var(--paper, #fff); stroke-width: 3px; stroke-linejoin: round; pointer-events: none; }
+.fe-ord { margin: 2px 0 8px; font: 12px var(--mono, monospace); color: var(--ink-3); }
+.fe-ptmap-alg { margin-top: 8px; }
