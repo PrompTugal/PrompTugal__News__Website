@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2392",
+    "date": "2026-11-27",
+    "time": "2026-11-27T13:55:10Z",
+    "what": "c.maestro (account-c): AgentiCCells agent homes relayed to c.conductor",
+    "by": "maestro.c (account-c)",
+    "from": "b0b38fdef"
+  },
+  {
     "version": "v0.1.2391",
     "date": "2026-11-27",
     "time": "2026-11-27T13:40:42Z",
