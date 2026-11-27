@@ -27,7 +27,7 @@ test('each story is counted once per day at the level of its place; a story at t
 })
 test('nothing is dropped: no date is undated, no place is unplaced', () => {
     const f = flow()
-    assert.deepEqual(f.totals.undated, { stories: 1, articles: 1 })
+    assert.deepEqual(f.totals.undated, { stories: 1, articles: 1, partial_dates: {} })
     assert.equal(f.days['2026-11-02'].unplaced.articles, 1); assert.equal(f.totals.by_level.unplaced.articles, 1)
     assert.equal(f.totals.articles_total, 3); assert.equal(f.totals.articles_placed, 2)
 })
@@ -35,4 +35,9 @@ test('a story lists every place and level it is filed under; ids are short hashe
     const f = flow(), both = Object.values(f.stories).find(s => s.places.length === 2)
     assert.deepEqual(both.places, ['algarve', 'faro']); assert.deepEqual(both.levels, ['local', 'regional'])
     for (const id of Object.keys(f.stories)) assert.match(id, /^[0-9a-f]{10}$/)
+})
+test('a partial date is not a day: it is counted as undated and listed', () => {
+    const f = newsFlow(registry, [{ id: 'faro', news: [{ key: 'p1', date: '2026' }, { key: 'p2', date: '2025-05' }, { key: 'p3', date: '2026-11-03' }] }], [])
+    assert.deepEqual(Object.keys(f.days), ['2026-11-03']); assert.equal(f.totals.undated.stories, 2)
+    assert.deepEqual(f.totals.undated.partial_dates, { '2025-05': 1, '2026': 1 }); assert.equal(f.totals.stories_distinct, 3)
 })

@@ -367,14 +367,15 @@ export function newsFlow(registry, placeNews, articles) {
     const levelOf = r => !r ? 'unplaced' : r.country && r.country !== 'PT' ? 'europe' : r.kind === 'country' ? 'national' : r.kind === 'region' ? 'regional' : 'local'
     const sid = key => createHash('sha1').update(String(key)).digest('hex').slice(0, 10)
     const empty = () => Object.fromEntries(LEVELS.map(l => [l, { stories: new Set(), articles: new Set() }]))
-    const days = {}, total = empty(), undated = { stories: new Set(), articles: new Set() }, stories = {}
+    const days = {}, total = empty(), undated = { stories: new Set(), articles: new Set() }, stories = {}, partial = {}, DAY = /^\d{4}-\d{2}-\d{2}$/
     for (const f of placeNews) {
         const pid = idx[f.id]; if (!pid) continue
         const lv = levelOf(row[pid])
         for (const n of f.news) {
             const id = sid(n.key), st = (stories[id] ||= { date: n.date || null, places: new Set(), levels: new Set() })
             st.places.add(pid); st.levels.add(lv); total[lv].stories.add(id)
-            if (n.date) (days[n.date] ||= empty())[lv].stories.add(id); else undated.stories.add(id)
+            if (DAY.test(n.date)) (days[n.date] ||= empty())[lv].stories.add(id)
+            else { undated.stories.add(id); if (n.date) partial[n.date] = (partial[n.date] || new Set()).add(id) }
         }
     }
     let placed = 0
@@ -384,12 +385,12 @@ export function newsFlow(registry, placeNews, articles) {
         if (pid) placed++
         total[lv].articles.add(slug)
         const date = String(a.fm.date || '').slice(0, 10)
-        if (date) (days[date] ||= empty())[lv].articles.add(slug); else undated.articles.add(slug)
+        if (DAY.test(date)) (days[date] ||= empty())[lv].articles.add(slug); else undated.articles.add(slug)
     }
     const cell = c => ({ stories: c.stories.size, articles: c.articles.size, story_ids: [...c.stories].sort(byKey), article_ids: [...c.articles].sort(byKey) })
     return {
         $schema: '../schemas/news-flow-by-date.schema.json', levels: LEVELS,
-        totals: { stories_distinct: Object.keys(stories).length, articles_total: articles.length, articles_placed: placed, spanning_stories: Object.values(stories).filter(x => x.levels.size > 1).length, undated: { stories: undated.stories.size, articles: undated.articles.size }, by_level: Object.fromEntries(LEVELS.map(l => [l, { stories: total[l].stories.size, articles: total[l].articles.size }])) },
+        totals: { stories_distinct: Object.keys(stories).length, articles_total: articles.length, articles_placed: placed, spanning_stories: Object.values(stories).filter(x => x.levels.size > 1).length, undated: { stories: undated.stories.size, articles: undated.articles.size, partial_dates: Object.fromEntries(Object.keys(partial).sort(byKey).map(d => [d, partial[d].size])) }, by_level: Object.fromEntries(LEVELS.map(l => [l, { stories: total[l].stories.size, articles: total[l].articles.size }])) },
         days: Object.fromEntries(Object.keys(days).sort(byKey).map(d => [d, Object.fromEntries(LEVELS.map(l => [l, cell(days[d][l])]))])),
         stories: Object.fromEntries(Object.keys(stories).sort(byKey).map(id => [id, { date: stories[id].date, places: [...stories[id].places].sort(byKey), levels: LEVELS.filter(l => stories[id].levels.has(l)) }])),
         derived: { by: BY, from: ['data/by-place/', 'content/articles/', 'data/places/'] },

@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://promptugal.news/data/schemas/news-flow-by-date.schema.json",
   "title": "The news by day and level (data/site/news-flow-by-date.json, derived by newsroom/tools/derive.mjs)",
-  "description": "Each story (from a place's own page, data/by-place/<id>.json) and each article is counted once on its day at the level of the place it is filed under (town: local, region: regional, Portugal: national, elsewhere: europe, no place: unplaced). A story filed at several levels is counted at each and has several levels in stories. Nothing is dropped: no date is undated. Story ids are a short hash of the story's url or title.",
+  "description": "Each story (from a place's own page, data/by-place/<id>.json) and each article is counted once on its day at the level of the place it is filed under (town: local, region: regional, Portugal: national, elsewhere: europe, no place: unplaced). A story filed at several levels is counted at each and has several levels in stories. Nothing is dropped: a story or article with no full date (a partial one such as 2026 or 2025-05 included) is counted under undated, the partial values listed in partial_dates. Story ids are a short hash of the story's url or title.",
   "type": "object",
   "required": ["levels", "totals", "days", "stories", "derived"],
   "$defs": {
@@ -14,6 +14,16 @@
         "articles": { "type": "integer", "minimum": 0 },
         "story_ids": { "type": "array", "items": { "type": "string", "pattern": "^[0-9a-f]{10}$" } },
         "article_ids": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": false
+    },
+    "undated_counts": {
+      "type": "object",
+      "required": ["stories", "articles", "partial_dates"],
+      "properties": {
+        "stories": { "type": "integer", "minimum": 0 },
+        "articles": { "type": "integer", "minimum": 0 },
+        "partial_dates": { "type": "object", "additionalProperties": { "type": "integer", "minimum": 1 } }
       },
       "additionalProperties": false
     },
@@ -35,7 +45,7 @@
         "articles_total": { "type": "integer", "minimum": 0 },
         "articles_placed": { "type": "integer", "minimum": 0 },
         "spanning_stories": { "type": "integer", "minimum": 0 },
-        "undated": { "$ref": "#/$defs/counts" },
+        "undated": { "$ref": "#/$defs/undated_counts" },
         "by_level": {
           "type": "object",
           "required": ["local", "regional", "national", "europe", "unplaced"],
