@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2353",
+    "date": "2026-11-26",
+    "time": "2026-11-26T23:59:55Z",
+    "what": "helm.d@AgentiCCells.dinis: the maestro is cl-4.maestro; only the maestro runs on a schedule",
+    "by": "helm.d@AgentiCCells.dinis",
+    "from": "d26ce56a5"
+  },
+  {
     "version": "v0.1.2352",
     "date": "2026-11-26",
     "time": "2026-11-26T23:44:09Z",
