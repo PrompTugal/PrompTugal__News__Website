@@ -4,7 +4,7 @@ date: 2026-11-27
 story: S87
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
 summary: "An update note for the published 'Two studies of agent-written code point to size and review' (content/articles/two-studies-agent-code-size-and-review.md): what the second paper's full text says about its data, merge shares and limits."
-status: draft
+status: approved
 beat: AI and robotics
 license: https://creativecommons.org/licenses/by/4.0/
 tags: AI agents, software engineering, research, update
