@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2358",
+    "date": "2026-11-27",
+    "time": "2026-11-27T01:05:21Z",
+    "what": "cl-6.dev@PrompTugal.dinis: '1 airline flight' not '1 airline flights': the front page's line, its numbers box and the map label now use the singular for one (cl-6.synthetic's home-page read)",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "a9e05db93"
+  },
+  {
     "version": "v0.1.2357",
     "date": "2026-11-27",
     "time": "2026-11-27T00:57:53Z",
