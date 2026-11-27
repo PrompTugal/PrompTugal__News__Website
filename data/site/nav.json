@@ -258,6 +258,11 @@
     },
     {
       "column": "Read",
+      "label": "Rated agentic products: the GAMMA-Ray spectrum",
+      "href": "agentic/index.html"
+    },
+    {
+      "column": "Read",
       "label": "Your reading account",
       "href": "account/index.html"
     },
