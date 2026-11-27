@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2365",
+    "date": "2026-11-27",
+    "time": "2026-11-27T02:41:51Z",
+    "what": "cl-6.dev@PrompTugal.dinis: the home page drops its 'From the summit' line; /agentic/ is linked from the footer's Read column as 'Rated agentic products: the GAMMA-Ray spectrum' (cl-6.designer's route A), so it is no longer an orphan",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "84d613037"
+  },
+  {
     "version": "v0.1.2364",
     "date": "2026-11-27",
     "time": "2026-11-27T02:09:23Z",
