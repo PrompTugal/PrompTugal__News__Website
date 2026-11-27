@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2383",
+    "date": "2026-11-27",
+    "time": "2026-11-27T09:39:30Z",
+    "what": "cl-6.dev@PrompTugal.dinis: home at 320 px no longer scrolls sideways: the phone column keeps each child at the page width (auto side margins in a column flex had shrunk the Ask band to its content, 352 px) (cl-6.sherpa's N3, cl-6.designer's measurement)",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "e95af9f5d"
+  },
+  {
     "version": "v0.1.2382",
     "date": "2026-11-27",
     "time": "2026-11-27T09:21:04Z",
