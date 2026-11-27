@@ -229,13 +229,18 @@ BP_W.more = function (n) { var all = { en: 'Show all', pt: 'Ver todos', es: 'Ver
     var DAY = /(\d{4}-\d\d-\d\d)/
 
     // 1. the newest dated local story, under the title
-    var local = $('local'), h1 = frame.querySelector('h1') || document.querySelector('h1')
-    if (local && h1) {
-        var cards = section(local).filter(function (n) { return n.tagName === 'UL' && /bp-cards/.test(n.className) })[0]
+    var h1 = frame.querySelector('h1') || document.querySelector('h1')
+    if (h1) {
+        // a town: its own stories (#local); the Algarve: #latest; Portugal: #local, else the stories by place (#by-place)
         var best = null
-        if (cards) Array.prototype.forEach.call(cards.children, function (li) {
-            var a = li.querySelector('strong a'), em = li.querySelector('em'), m = em && DAY.exec(em.textContent)
-            if (a && m && (!best || m[1] > best.d)) best = { d: m[1], a: a, pub: em.textContent.split(',')[0].trim() }
+        ;['local', 'latest', 'by-place'].forEach(function (id) {
+            var h2 = $(id); if (!h2) return
+            section(h2).filter(function (n) { return n.tagName === 'UL' && /bp-cards/.test(n.className) }).forEach(function (cards) {
+                Array.prototype.forEach.call(cards.children, function (li) {
+                    var a = li.querySelector('strong a'), ems = li.querySelectorAll('em'), em = ems[ems.length - 1], m = em && DAY.exec(em.textContent)
+                    if (a && m && (!best || m[1] > best.d)) best = { d: m[1], a: a, pub: em.textContent.split(',')[0].trim() }
+                })
+            })
         })
         if (best) {
             var p = el('p', 'pp-first'), name = document.title.split(' · ')[0].replace(/^PrompTugal\.news\s+/, '')
