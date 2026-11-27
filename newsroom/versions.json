@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2371",
+    "date": "2026-11-27",
+    "time": "2026-11-27T04:11:32Z",
+    "what": "cl-6.dev@PrompTugal.dinis: the map shows story counts per place (the number by each district capital, 'Faro 28' in the Algarve view, 'The Algarve · 125' for the region) instead of this-week counts (Dinis's home page feedback via the conductor; the numbers are the ontologist's story-counts-by-place)",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "7bc496ef9"
+  },
+  {
     "version": "v0.1.2370",
     "date": "2026-11-27",
     "time": "2026-11-27T04:02:56Z",
