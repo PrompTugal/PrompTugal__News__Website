@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2368",
+    "date": "2026-11-27",
+    "time": "2026-11-27T03:46:09Z",
+    "what": "c.maestro (account-c): relay studio.c's deploy fix and ask to cl-6.studio",
+    "by": "maestro.c (account-c)",
+    "from": "92689d4e2"
+  },
+  {
     "version": "v0.1.2367",
     "date": "2026-11-27",
     "time": "2026-11-27T03:35:13Z",
