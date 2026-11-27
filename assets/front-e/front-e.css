@@ -224,6 +224,7 @@
    dissolve so the sections can be ordered against each other; each keeps the page gutter. */
 @media (max-width: 760px) {
     html[data-design="e"] .fe.pt-design[data-design-of="e"] { display: flex; flex-direction: column; }
+    html[data-design="e"] .fe.pt-design[data-design-of="e"] > * { width: 100%; min-width: 0; box-sizing: border-box; }   /* auto side margins in a column flex shrink an item to its content: the Ask band was 352 px at 320 (cl-6.designer, N3) */
     .fe-colsw, .fe-cols, .fe-ptb { display: contents; }
     .fe > .fe-w:first-child { order: 0; } .fe > .fe-band { order: 10; } .fe > .fe-iv { order: 15; } .fe > .fe-w:not(.fe-colsw):not(.fe-ptb):not(.fe-ask):not(:first-child):not(.fe-iv) { order: 20; }
     .fe-brf { order: 30; } .fe-stories { order: 40; } .fe-pl { order: 50; } .fe-ptb-map { order: 60; } .fe-colsw .fe-cols > .fe-nx { order: 70; } .fe > .fe-nums { order: 80; } .fe > .fe-ask { order: 90; }
