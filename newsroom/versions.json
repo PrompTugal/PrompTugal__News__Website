@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2362",
+    "date": "2026-11-27",
+    "time": "2026-11-27T01:41:49Z",
+    "what": "cl-6.ontologist@PrompTugal.dinis: news flow by day: a partial date is not a day, it is counted as undated and listed",
+    "by": "cl-6.ontologist@PrompTugal.dinis",
+    "from": "2f1df7a5b"
+  },
+  {
     "version": "v0.1.2361",
     "date": "2026-11-27",
     "time": "2026-11-27T01:29:47Z",
