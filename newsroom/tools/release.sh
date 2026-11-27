@@ -128,6 +128,16 @@ Claude-Session: ${SESSION}}"; then
     git commit -q -m "$AGENT: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)" -m "Agent: $AGENT"
     echo "release.sh: the derived data changed with your desk files; committed it separately"
   fi
+  # the weather snapshot (assets/weather/snapshot.json, never served) follows the feeds: refreshed when cl-6.dev releases, in a commit of its own, so the town pages'
+  # camera links and /weather/ do not rest on a file older than the build's 48-hour limit (cl-6.dev@PrompTugal.dinis, 27 Nov 2026). Only cl-6.dev: the file is in its ABP paths,
+  # not other agents'. A feed that cannot be read leaves the old values and their old read time. NO_WEATHER_SYNC=1 skips it.
+  case "$AGENT" in cl-6.dev@*)
+    if [ "${NO_WEATHER_SYNC:-0}" != 1 ] && node newsroom/tools/sync-weather.mjs >/dev/null 2>&1 && [ -n "$(git status --porcelain -- assets/weather/snapshot.json)" ]; then
+      git add assets/weather/snapshot.json
+      git commit -q -m "$AGENT: the weather snapshot brought up to date (newsroom/tools/sync-weather.mjs, run by release.sh)" -m "Agent: $AGENT"
+      echo "release.sh: the weather snapshot changed; committed it separately"
+    fi ;;
+  esac
   BASE=$(git rev-parse "origin/$BRANCH")
   if needs_gate "$GATED_OVER" "$BASE"; then
     [ -n "$GATED_OVER" ] && echo "release.sh: what landed meanwhile touches your files or the build; the gate runs again"
