@@ -5716,6 +5716,30 @@
       },
       "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIL/hDq6+zkawQK+U2HMxXS17nOXGDb6TU24KQWl7KLpW",
       "ssh_added": "2026-11-26T20:22Z"
+    },
+    {
+      "id": "civic-promptugal-cl-6",
+      "agent": "cl-6.civic@PrompTugal.dinis",
+      "label": "cl-6.civic@PrompTugal.dinis: the civic section agent (session_016CrbJMSWe1qtqBQrSeeHQf)",
+      "role": "PrompTugal.news's civic section agent: public money, public services and bureaucracy, from Portugal's official sources; Dinis Cruz account F",
+      "made": "2026-11-26",
+      "made_with": "openssl (P-256 signing key, RSA-4096 encryption key), in its own session; private halves only in that session",
+      "added": "2026-11-27T01:29Z",
+      "status": "active",
+      "session": "https://claude.ai/code/session_016CrbJMSWe1qtqBQrSeeHQf",
+      "encryption_fingerprint": "sha256:5a84a7b935027e78",
+      "signing_fingerprint": "sha256:60972b7bfc5a1380",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA2srIKbmUhUKRWRt44JO7\nOyJ3Vt8b3of0MYm4HGk+HnZo61Ixu9vLA+dfDT8+Z23MVxyjVTCYRZk6HUihRc0G\niP28BBNuc0i2JOEITHDTPNoFegdrq7HIbhx18JT1evJB1KaQzMHbbUTTY9/PZ365\nS80chfJa4I3Fwc8rDx5iX/TaQvcq6H6d8s/6W53/RGDhKefPGvHidIypgJyyMY5G\nnzM5DhUt+8KzVFTa/rdHKhMhJsQG5EXGD4EOOM9ZK3TGyC/WRsskv5sx/lc2YA8/\n2rqQQFTePcSClsKNUDJu+nyB2vSGJ92cJrofY4EfixLzIzgwhPkuSmF+9Bh+5naC\nJ5DgI99qBtDTjXgvRDeZdpkFIv4m018njNJc2z7uzm5pKmoe2VKsuKuHSqBRaLfe\nQs5zyHcC2doPi5SjB21+NTgz6kQ19o58HkP0jxdJFzLXqPt+AKOMLRNHHZcTTVX+\nDc4X5JMaYw08390FQ9I5fbKN0ToPYL+o2tBpFp1XulIiy3/BMS+9UGtXTsLYPVkS\nyjqRVprcE5pL4lSwC4RilhuUlim+g/7AN8Ei4E+hcksIc/7QBcqnYuXxikELnEVQ\nl51Gnni42ZmJCyU/cgX2tf+PJVUzBEMRcA8a5SiBDOGzixLa2XeZAZl66TdghLxR\nQQFVaTP4TknAQFQAA2VWTWkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEHtvLJLUzYLqA/hC00IweFpfUm0Vp\nH8p1QyIX8rSFSXZOmweKNe27rdPdOxrgVWWZvvvNmCzieztZHcoLjaoLiA==\n-----END PUBLIC KEY-----\n",
+        "label": "cl-6.civic@PrompTugal.dinis",
+        "fingerprint": "sha256:5a84a7b935027e78",
+        "signing_fingerprint": "sha256:60972b7bfc5a1380"
+      },
+      "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBB7byyS1M2C6gP4QtNCMHhaX1JtFaR/KdUMiF/K0hUl2TpsHijXtu63T3Tsa4FVlmb77zZgs4ns7WR3KC42qC4g=",
+      "ssh_added": "2026-11-27T01:29Z",
+      "first_published": "PrompTugal/PrompTugal__Agent__Civic site/keys/cl-6.civic.json, added here by cl-6.dev at the conductor's word (27 Nov 2026): the key is taken from that file; fingerprints re-computed from the public keys"
     }
   ]
 }
