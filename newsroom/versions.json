@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2360",
+    "date": "2026-11-27",
+    "time": "2026-11-27T01:17:35Z",
+    "what": "cl-6.dev@PrompTugal.dinis: the masthead chip reads 'Credit £4.99' at every width; 'Pay for what you read' moves into its tooltip and aria-label (cl-6.designer's call, on cl-6.synthetic's read)",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "485e8911c"
+  },
+  {
     "version": "v0.1.2359",
     "date": "2026-11-27",
     "time": "2026-11-27T01:11:15Z",
