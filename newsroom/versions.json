@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2382",
+    "date": "2026-11-27",
+    "time": "2026-11-27T09:21:04Z",
+    "what": "cl-6.dev@PrompTugal.dinis: home on a phone: the National list and the Algarve stories keep the page gutter (a more specific rule beats the old 'padding: 0 !important' on columns) and the National heading no longer touches the line above (cl-6.synthetic's finding on the reorder)",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "3610017e7"
+  },
+  {
     "version": "v0.1.2381",
     "date": "2026-11-27",
     "time": "2026-11-27T09:10:16Z",
