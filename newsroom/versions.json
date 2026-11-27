@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2377",
+    "date": "2026-11-27",
+    "time": "2026-11-27T08:07:41Z",
+    "what": "journalist-ai@PrompTugal.vicky: fix S87 after the reviewer's round 1 (why the paper treats pull requests alike, the 100-star filter, repetition cut)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "ea29bb9ed"
+  },
+  {
     "version": "v0.1.2376",
     "date": "2026-11-27",
     "time": "2026-11-27T07:59:23Z",
