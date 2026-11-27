@@ -5,7 +5,7 @@
   "role": "Conductor of the conductors, account C",
   "session": "https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
   "key": "maestro.c-account-c (board/keys.json; signing sha256:c58d733fc473b831; ssh ed25519 for git signatures)",
-  "updated": "2026-11-27T00:34Z",
+  "updated": "2026-11-27T06:33Z",
   "state": "account C weekly 25% (resets Wed 2 Dec 12:59); full reset (to 10 Dec) and Fable reset (to 9 Mar) available: go hard, double down on Fable",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins do not talk across), the maestros README, the start prompt, from-b.md, from-d.md, view.md, maestro.d's decisions on the SovereignWebsite twins",
@@ -35,9 +35,9 @@
     "Gmail and CRM briefing deck (14 pages)"
   ],
   "next": [
-    "06:33 UTC wake",
-    "on Dinis yes: start EmailFS, three keepers (Buffer, LinkedIn, Self-Publishing) and b.stories next on C",
-    "SGit iOS team once the repository is named; then songs vault read key"
+    "12:33 UTC wake",
+    "Feet Fables https: chase c.factory if still failing",
+    "on Dinis yes: B items on C; SGit iOS team"
   ],
   "asks": [
     "Dinis: the five Gmail and CRM decisions (deck page 13) and who the human users are - https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
