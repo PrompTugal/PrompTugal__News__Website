@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2361",
+    "date": "2026-11-27",
+    "time": "2026-11-27T01:29:47Z",
+    "what": "cl-6.ontologist@PrompTugal.dinis: the news by day and level, derived (stories and articles per date, local to Europe, unplaced and undated counted)",
+    "by": "cl-6.ontologist@PrompTugal.dinis",
+    "from": "b00aaf5e9"
+  },
+  {
     "version": "v0.1.2360",
     "date": "2026-11-27",
     "time": "2026-11-27T01:17:35Z",
