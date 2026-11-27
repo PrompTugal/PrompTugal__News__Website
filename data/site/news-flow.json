@@ -1,0 +1,1140 @@
+{
+  "$schema": "../schemas/news-flow.schema.json",
+  "levels": [
+    "local",
+    "regional",
+    "national",
+    "europe",
+    "unplaced"
+  ],
+  "totals": {
+    "articles": 117,
+    "placed": 18,
+    "with_builds_on": 0,
+    "feeds_links": 0
+  },
+  "articles": {
+    "agent-setup-guide": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "ai-act-first-harmonised-standard": {
+      "date": "2026-11-11",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "ai-literacy-bias-data-small-firms-ai-act": {
+      "date": "2026-11-21",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "ai-physiotherapy-portugal-health-service": {
+      "date": "2026-11-17",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "ai-use-in-portugal-2026": {
+      "date": "2026-11-23",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "alcoutim-ai-path-runs-through-the-guadiana": {
+      "date": "2026-11-16",
+      "level": "local",
+      "town": "alcoutim",
+      "region": "algarve",
+      "places": [
+        "alcoutim",
+        "algarve",
+        "portugal"
+      ],
+      "builds_on": [],
+      "feeds": []
+    },
+    "alcoutim-council-in-a-weeding-robot-project": {
+      "date": "2026-11-16",
+      "level": "local",
+      "town": "alcoutim",
+      "region": "algarve",
+      "places": [
+        "alcoutim",
+        "algarve",
+        "portugal"
+      ],
+      "builds_on": [],
+      "feeds": []
+    },
+    "algar-ai-recycling-points-almancil": {
+      "date": "2026-11-15",
+      "level": "local",
+      "town": "loule",
+      "region": "algarve",
+      "places": [
+        "loule",
+        "algarve",
+        "portugal"
+      ],
+      "builds_on": [],
+      "feeds": []
+    },
+    "algarve-farms-become-ai-and-robot-test-beds": {
+      "date": "2026-11-16",
+      "level": "regional",
+      "town": null,
+      "region": "algarve",
+      "places": [
+        "algarve",
+        "portugal"
+      ],
+      "builds_on": [],
+      "feeds": []
+    },
+    "algarve-tourism-ai-funded-pilot-and-agentic-warning": {
+      "date": "2026-11-16",
+      "level": "regional",
+      "town": null,
+      "region": "algarve",
+      "places": [
+        "algarve",
+        "portugal"
+      ],
+      "builds_on": [],
+      "feeds": []
+    },
+    "amalia-and-ania-portugal-ai-plans": {
+      "date": "2026-11-16",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "angelos-communication-graph": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "atm-currency-conversion-portugal-mark-up": {
+      "date": "2026-11-17",
+      "level": "national",
+      "town": null,
+      "region": "portugal",
+      "places": [
+        "portugal"
+      ],
+      "builds_on": [],
+      "feeds": []
+    },
+    "best-number-one-3wx-loule": {
+      "date": "2026-11-14",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "brazil-comes-to-lisbon-intuitivo-heads-to-brazil": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "brazil-last-year-counts": {
+      "date": "2026-11-07",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "brazil-on-the-stages": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "brazil-startup-mission": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "brazils-doors-into-europe": {
+      "date": "2026-11-07",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "brazils-startup-house-in-lisbon": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "breakout-startups-thursday-centre-stage": {
+      "date": "2026-11-11",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "center-for-responsible-ai-money-partners-goals": {
+      "date": "2026-11-16",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "cocus-vila-nova-de-gaia-tech-hubs": {
+      "date": "2026-11-26",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "cost-holds-back-portuguese-firms-from-ai": {
+      "date": "2026-11-26",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "crewai-trust-starts-with-human-review": {
+      "date": "2026-11-23",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "daily-newsletter": {
+      "date": "2026-11-07",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "digital-fairness-act-ai-agents": {
+      "date": "2026-11-11",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "discord-lisbon-engineering-hub": {
+      "date": "2026-11-12",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "driving-to-web-summit": {
+      "date": "2026-11-07",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "eu-election-guidelines-generative-ai": {
+      "date": "2026-11-11",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "eu-quantum-act-and-sovereign-tech-equity-fund": {
+      "date": "2026-11-26",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "europe-ai-help-and-portugal-ai-startups": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "europe-in-pavilion-4": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "europe-startup-funding-81-billion-atomico": {
+      "date": "2026-11-26",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "faro-ai-gathers-around-the-university": {
+      "date": "2026-11-16",
+      "level": "local",
+      "town": "faro",
+      "region": "algarve",
+      "places": [
+        "faro",
+        "algarve",
+        "portugal"
+      ],
+      "builds_on": [],
+      "feeds": []
+    },
+    "five-ai-builders-to-know": {
+      "date": "2026-11-08",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "five-coding-agents-reverts-security-waits": {
+      "date": "2026-11-24",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "following-robotics-at-web-summit": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "from-pitch-to-new-markets": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "gender-in-tech-report-2026": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "getting-around-lisbon-wednesday": {
+      "date": "2026-11-11",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "glovo-restaurant-agents-getvocal": {
+      "date": "2026-11-10",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "gravitee-agent-security-survey": {
+      "date": "2026-11-10",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "health-service-pays-remote-physiotherapy": {
+      "date": "2026-11-19",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "health-startups-by-problem": {
+      "date": "2026-11-08",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "how-agents-avoid-collisions": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "how-the-agents-talk": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "how-the-eu-simplified-the-ai-act": {
+      "date": "2026-11-20",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "humanos-road-2-web-summit-winner": {
+      "date": "2026-11-13",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "humans-and-ai-vicky-wang": {
+      "date": "2026-11-14",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "ibm-sports-tech-challenge": {
+      "date": "2026-11-09",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "intercom-ai-approves-code-changes": {
+      "date": "2026-11-23",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "italy-and-portugal-in-beato": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "know-the-reach-ai-music-video": {
+      "date": "2026-11-16",
+      "level": "local",
+      "town": "loule",
+      "region": "algarve",
+      "places": [
+        "loule",
+        "algarve",
+        "portugal"
+      ],
+      "builds_on": [],
+      "feeds": []
+    },
+    "konecta-lisbon-delivery-centre": {
+      "date": "2026-11-11",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "lagos-ai-community-not-a-cluster": {
+      "date": "2026-11-15",
+      "level": "local",
+      "town": "lagos",
+      "region": "algarve",
+      "places": [
+        "lagos",
+        "algarve",
+        "portugal"
+      ],
+      "builds_on": [],
+      "feeds": []
+    },
+    "lisbon-awards-and-the-algarve-plan": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "lisbon-universities-at-web-summit": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "london-tube-drivers-strikes-dates-and-dispute": {
+      "date": "2026-11-26",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "manus-2-0-agents-own-email-phone-wallet": {
+      "date": "2026-11-11",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "mistakes-we-made": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "monchique-ai-in-the-accounts-not-the-forest": {
+      "date": "2026-11-16",
+      "level": "local",
+      "town": "monchique",
+      "region": "algarve",
+      "places": [
+        "monchique",
+        "algarve",
+        "portugal"
+      ],
+      "builds_on": [],
+      "feeds": []
+    },
+    "neuraspace-coimbra-raises-15-6-million": {
+      "date": "2026-11-16",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "newsroom-status-four-days-out": {
+      "date": "2026-11-05",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "octo-health-launches": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "olhao-the-ai-path-runs-through-the-fish-farm": {
+      "date": "2026-11-16",
+      "level": "local",
+      "town": "olhao",
+      "region": "algarve",
+      "places": [
+        "olhao",
+        "algarve",
+        "portugal"
+      ],
+      "builds_on": [],
+      "feeds": []
+    },
+    "one-door": {
+      "date": "2026-11-16",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "pagerduty-agents-in-production": {
+      "date": "2026-11-12",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "pineapple-waste-to-fish-feed": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "plan-your-week-by-field": {
+      "date": "2026-11-07",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "portimao-ai-in-the-public-service": {
+      "date": "2026-11-16",
+      "level": "local",
+      "town": "portimao",
+      "region": "algarve",
+      "places": [
+        "portimao",
+        "algarve",
+        "portugal"
+      ],
+      "builds_on": [],
+      "feeds": []
+    },
+    "portugal-60-mw-computing-capacity": {
+      "date": "2026-11-16",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "portugal-on-the-programme": {
+      "date": "2026-11-09",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "portugal-tech-investment-top-10-atomico-estimate": {
+      "date": "2026-11-26",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "press-conferences-day-by-day": {
+      "date": "2026-11-09",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "priberam-kenya-broadcasters-ai-media-webinar": {
+      "date": "2026-11-26",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "promptugal-news-local-news-town-by-town": {
+      "date": "2026-11-16",
+      "level": "national",
+      "town": null,
+      "region": "portugal",
+      "places": [
+        "portugal"
+      ],
+      "builds_on": [],
+      "feeds": []
+    },
+    "reach-ai-lisbon-brands-in-ai-answers": {
+      "date": "2026-11-26",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "red-wind-warning-lisbon-wednesday": {
+      "date": "2026-11-10",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "rio-ten-startups-to-lisbon": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "riskmandate-film-claude-laptop": {
+      "date": "2026-11-16",
+      "level": "local",
+      "town": "loule",
+      "region": "algarve",
+      "places": [
+        "loule",
+        "algarve",
+        "portugal"
+      ],
+      "builds_on": [],
+      "feeds": []
+    },
+    "road-2-web-summit-2026": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "road-2-web-summit-beyond-lisbon": {
+      "date": "2026-11-09",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "six-people-250-agents-promptugal-news": {
+      "date": "2026-11-16",
+      "level": "local",
+      "town": "loule",
+      "region": "algarve",
+      "places": [
+        "loule",
+        "algarve",
+        "portugal"
+      ],
+      "builds_on": [],
+      "feeds": []
+    },
+    "smartex-porto-ai-fabric-checks-fadell-chair": {
+      "date": "2026-11-26",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "speed-where-its-safe-control-where-it-matters": {
+      "date": "2026-11-10",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "spotify-ai-change-outran-checks": {
+      "date": "2026-11-23",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "superhuman-to-buy-rows-porto": {
+      "date": "2026-11-19",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "teamworks-coaches-agent": {
+      "date": "2026-11-10",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "the-first-night-of-promptugal-news": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "the-payment-desk-that-could-not-take-payment": {
+      "date": "2026-11-17",
+      "level": "national",
+      "town": null,
+      "region": "portugal",
+      "places": [
+        "portugal"
+      ],
+      "builds_on": [],
+      "feeds": []
+    },
+    "the-sign-in": {
+      "date": "2026-11-07",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "thursday-last-day-guide": {
+      "date": "2026-11-11",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "tiktok-for-you-dsa-preliminary-finding": {
+      "date": "2026-11-11",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "tuesday-10-november-three-ways-in": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "two-studies-agent-code-size-and-review": {
+      "date": "2026-11-26",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "venue-map": {
+      "date": "2026-11-07",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "vila-real-de-santo-antonio-shipyard-robots-and-drones": {
+      "date": "2026-11-16",
+      "level": "local",
+      "town": "vila-real-de-santo-antonio",
+      "region": "algarve",
+      "places": [
+        "vila-real-de-santo-antonio",
+        "algarve",
+        "portugal"
+      ],
+      "builds_on": [],
+      "feeds": []
+    },
+    "web-summit-2026-in-numbers": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "web-summit-before-2026": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "web-summit-day-2-refunds": {
+      "date": "2026-11-10",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "web-summit-passes-and-colours": {
+      "date": "2026-11-09",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "web-summit-ten-lisbon-years": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "web-summit-wristband-queues": {
+      "date": "2026-11-09",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "wednesday-11-november-going-abroad": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "what-99-9-uptime-covers": {
+      "date": "2026-11-26",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "what-lovable-deleted": {
+      "date": "2026-11-10",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "what-the-agents-say-to-each-other": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "where-to-find-portugal": {
+      "date": "2026-11-09",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "who-builds-the-parts-of-an-ai-agent": {
+      "date": "2026-11-08",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "who-does-the-work": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "who-wrote-this-who-checked-it-who-signs-it": {
+      "date": "2026-11-17",
+      "level": "national",
+      "town": null,
+      "region": "portugal",
+      "places": [
+        "portugal"
+      ],
+      "builds_on": [],
+      "feeds": []
+    },
+    "why-people-trust-ai-summaries": {
+      "date": "2026-11-13",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "women-learning-and-building-ai-in-portugal": {
+      "date": "2026-11-13",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "wpp-call-transcripts-to-jira": {
+      "date": "2026-11-10",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "your-first-day-at-web-summit": {
+      "date": "2026-11-06",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    },
+    "zalando-ai-coding-agents": {
+      "date": "2026-11-11",
+      "level": "unplaced",
+      "town": null,
+      "region": null,
+      "places": [],
+      "builds_on": [],
+      "feeds": []
+    }
+  },
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "content/articles/",
+      "data/places/"
+    ]
+  }
+}

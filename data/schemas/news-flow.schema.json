@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/news-flow.schema.json",
+  "title": "Each article in the flow (data/site/news-flow.json, derived by newsroom/tools/derive.mjs)",
+  "description": "Per article: its level (local, regional, national, europe, unplaced; cl-6.dev's rule), the places from its town or region up to the country, the earlier articles it builds on (existing articles only) and the articles that build on it (feeds). Untagged articles are unplaced, never guessed.",
+  "type": "object",
+  "required": ["levels", "totals", "articles", "derived"],
+  "properties": {
+    "$schema": { "$ref": "common.schema.json#/$defs/schema_link" },
+    "levels": { "type": "array", "items": { "enum": ["local", "regional", "national", "europe", "unplaced"] }, "minItems": 5, "maxItems": 5 },
+    "totals": {
+      "type": "object",
+      "required": ["articles", "placed", "with_builds_on", "feeds_links"],
+      "properties": {
+        "articles": { "type": "integer", "minimum": 0 },
+        "placed": { "type": "integer", "minimum": 0 },
+        "with_builds_on": { "type": "integer", "minimum": 0 },
+        "feeds_links": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": false
+    },
+    "articles": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["date", "level", "town", "region", "places", "builds_on", "feeds"],
+        "properties": {
+          "date": { "type": ["string", "null"] },
+          "level": { "enum": ["local", "regional", "national", "europe", "unplaced"] },
+          "town": { "type": ["string", "null"] },
+          "region": { "type": ["string", "null"] },
+          "places": { "type": "array", "items": { "type": "string" } },
+          "builds_on": { "type": "array", "items": { "type": "string" } },
+          "feeds": { "type": "array", "items": { "type": "string" } }
+        },
+        "additionalProperties": false
+      }
+    },
+    "derived": { "$ref": "common.schema.json#/$defs/derived" }
+  },
+  "additionalProperties": false
+}

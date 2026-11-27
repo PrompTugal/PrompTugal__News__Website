@@ -11,6 +11,7 @@
 // in memory and fails if a committed derived file differs. A derived file carries "derived"; a hand-written entity
 // (no "derived") in the same folder always wins over a derived one with the same slug.
 import { createHash } from 'node:crypto'
+import { LEVELS, levelOfRow, rowOf, listOf, levelOfArticle } from './article-flow.mjs'
 import { ident, nameKey } from './ids.mjs'
 import { listingOf, sourceKind } from './companies-map.mjs'
 
@@ -322,6 +323,7 @@ export function derive({ agenda, curator, companies, places, topics, handEvents,
     files['data/site/places-registry.json'] = { $schema: '../schemas/places-registry.schema.json', index: Object.fromEntries(places.filter(p => KEEP.has(p.kind)).flatMap(p => [[p.id, p.id], ...(p.aliases || []).map(a => [a, p.id])]).sort(([a], [b]) => byKey(a, b))), places: places.filter(p => KEEP.has(p.kind)).sort((a, b) => byKey(a.id, b.id)).map(p => ({ id: p.id, name: p.name, kind: p.kind, parent: p.located_in || null, country: p.country || countryOf(p.id), timezone: p.timezone || null, aliases: p.aliases || [], seat: p.seat || null, at: p.at || (p.seat && (places.find(q => q.id === String(p.seat).replace(/^place:/, '')) || {}).at) || null, wikidata: p.wikidata ? p.wikidata.id : null })), derived: { by: BY, from: ['data/places/'] } }
     files['data/site/story-counts-by-place.json'] = storyCounts(files['data/site/places-registry.json'], placeNews, pipeline.articles)
     files['data/site/news-flow-by-date.json'] = newsFlow(files['data/site/places-registry.json'], placeNews, pipeline.articles)
+    files['data/site/news-flow.json'] = articleFlow(files['data/site/places-registry.json'], pipeline.articles)
     files['data/websummit-only.json'] = websummitOnly({ files, companies, places, handEvents, handOrgs, handPeople })
     return { files }
 }
@@ -361,10 +363,9 @@ export function storyCounts(registry, placeNews, articles) {
 // The flow of news up the levels, per day (cl-6.designer, 27 Nov 2026): every story and article counted once on its day at the level of
 // the place it is filed under. A story filed at several levels counts at each and is listed in "stories" with all its places;
 // nothing is dropped: no date is "undated", no place is "unplaced". Story ids are a short hash of the story's url or title.
-export const LEVELS = ['local', 'regional', 'national', 'europe', 'unplaced']
 export function newsFlow(registry, placeNews, articles) {
     const idx = registry.index, row = Object.fromEntries(registry.places.map(p => [p.id, p]))
-    const levelOf = r => !r ? 'unplaced' : r.country && r.country !== 'PT' ? 'europe' : r.kind === 'country' ? 'national' : r.kind === 'region' ? 'regional' : 'local'
+    const levelOf = levelOfRow
     const sid = key => createHash('sha1').update(String(key)).digest('hex').slice(0, 10)
     const empty = () => Object.fromEntries(LEVELS.map(l => [l, { stories: new Set(), articles: new Set() }]))
     const days = {}, total = empty(), undated = { stories: new Set(), articles: new Set() }, stories = {}, partial = {}, DAY = /^\d{4}-\d{2}-\d{2}$/
@@ -375,7 +376,7 @@ export function newsFlow(registry, placeNews, articles) {
             const id = sid(n.key), st = (stories[id] ||= { date: n.date || null, places: new Set(), levels: new Set() })
             st.places.add(pid); st.levels.add(lv); total[lv].stories.add(id)
             if (DAY.test(n.date)) (days[n.date] ||= empty())[lv].stories.add(id)
-            else { undated.stories.add(id); if (n.date) partial[n.date] = (partial[n.date] || new Set()).add(id) }
+            else { undated.stories.add(id); if (n.date) { const k = /^\d{4}(-\d{2})?$/.test(n.date) ? n.date : 'other'; partial[k] = (partial[k] || new Set()).add(id) } }
         }
     }
     let placed = 0
@@ -395,6 +396,21 @@ export function newsFlow(registry, placeNews, articles) {
         stories: Object.fromEntries(Object.keys(stories).sort(byKey).map(id => [id, { date: stories[id].date, places: [...stories[id].places].sort(byKey), levels: LEVELS.filter(l => stories[id].levels.has(l)) }])),
         derived: { by: BY, from: ['data/by-place/', 'content/articles/', 'data/places/'] },
     }
+}
+
+// Each article in the flow (cl-6.designer, 27 Nov 2026): its level (cl-6.dev's rule, lib/article-flow.mjs), its place chain from town or region up
+// to the country, the earlier articles it builds on (only slugs of existing articles; the gate checks the rest) and, the other way round, the
+// articles that build on it (the graph verb feeds). Untagged articles are listed as unplaced, never guessed.
+export function articleFlow(registry, articles) {
+    const row = Object.fromEntries(registry.places.map(p => [p.id, p])), slugs = new Set(articles.map(a => a.path.replace(/^content\/articles\//, '').replace(/\.md$/, '')))
+    const chain = id => { const out = []; for (let x = row[id], n = 0; x && n < 12; x = row[x.parent && String(x.parent).replace(/^place:/, '')], n++) out.push(x.id); return out }
+    const list = articles.map(a => { const slug = a.path.replace(/^content\/articles\//, '').replace(/\.md$/, ''), r = rowOf(registry, a.fm); return { slug, a, r } }).sort((x, y) => byKey(x.slug, y.slug))
+    const feeds = {}
+    for (const { slug, a } of list) for (const b of listOf(a.fm.builds_on)) if (slugs.has(b) && b !== slug) (feeds[b] ||= new Set()).add(slug)
+    const out = {}
+    for (const { slug, a, r } of list) out[slug] = { date: String(a.fm.date || '').slice(0, 10) || null, level: levelOfArticle(registry, a.fm), town: a.fm.town || null, region: a.fm.region || null, places: r ? chain(r.id) : [], builds_on: [...new Set(listOf(a.fm.builds_on).filter(b => slugs.has(b) && b !== slug))].sort(byKey), feeds: [...(feeds[slug] || [])].sort(byKey) }
+    const all = Object.values(out)
+    return { $schema: '../schemas/news-flow.schema.json', levels: LEVELS, totals: { articles: all.length, placed: all.filter(x => x.level !== 'unplaced').length, with_builds_on: all.filter(x => x.builds_on.length).length, feeds_links: all.reduce((n, x) => n + x.feeds.length, 0) }, articles: out, derived: { by: BY, from: ['content/articles/', 'data/places/'] } }
 }
 
 // What rests only on websummit.com (Dinis, 11 Nov 2026 ~18:50; board/passes/2026-11-11-only-websummit-sourced-comes-off.md):
