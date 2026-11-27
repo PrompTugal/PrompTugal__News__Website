@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2400",
+    "date": "2026-11-27",
+    "time": "2026-11-27T18:37:36Z",
+    "what": "c.maestro (account-c): 18:33 wake, weekly warning, hand-over due",
+    "by": "maestro.c (account-c)",
+    "from": "05db4ec87"
+  },
+  {
     "version": "v0.1.2399",
     "date": "2026-11-27",
     "time": "2026-11-27T18:17:03Z",
