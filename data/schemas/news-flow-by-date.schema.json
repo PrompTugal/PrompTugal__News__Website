@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/news-flow-by-date.schema.json",
+  "title": "The news by day and level (data/site/news-flow-by-date.json, derived by newsroom/tools/derive.mjs)",
+  "description": "Each story (from a place's own page, data/by-place/<id>.json) and each article is counted once on its day at the level of the place it is filed under (town: local, region: regional, Portugal: national, elsewhere: europe, no place: unplaced). A story filed at several levels is counted at each and has several levels in stories. Nothing is dropped: no date is undated. Story ids are a short hash of the story's url or title.",
+  "type": "object",
+  "required": ["levels", "totals", "days", "stories", "derived"],
+  "$defs": {
+    "cell": {
+      "type": "object",
+      "required": ["stories", "articles", "story_ids", "article_ids"],
+      "properties": {
+        "stories": { "type": "integer", "minimum": 0 },
+        "articles": { "type": "integer", "minimum": 0 },
+        "story_ids": { "type": "array", "items": { "type": "string", "pattern": "^[0-9a-f]{10}$" } },
+        "article_ids": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": false
+    },
+    "counts": {
+      "type": "object",
+      "required": ["stories", "articles"],
+      "properties": { "stories": { "type": "integer", "minimum": 0 }, "articles": { "type": "integer", "minimum": 0 } },
+      "additionalProperties": false
+    }
+  },
+  "properties": {
+    "$schema": { "$ref": "common.schema.json#/$defs/schema_link" },
+    "levels": { "type": "array", "items": { "enum": ["local", "regional", "national", "europe", "unplaced"] }, "minItems": 5, "maxItems": 5 },
+    "totals": {
+      "type": "object",
+      "required": ["stories_distinct", "articles_total", "articles_placed", "spanning_stories", "undated", "by_level"],
+      "properties": {
+        "stories_distinct": { "type": "integer", "minimum": 0 },
+        "articles_total": { "type": "integer", "minimum": 0 },
+        "articles_placed": { "type": "integer", "minimum": 0 },
+        "spanning_stories": { "type": "integer", "minimum": 0 },
+        "undated": { "$ref": "#/$defs/counts" },
+        "by_level": {
+          "type": "object",
+          "required": ["local", "regional", "national", "europe", "unplaced"],
+          "properties": {
+            "local": { "$ref": "#/$defs/counts" }, "regional": { "$ref": "#/$defs/counts" }, "national": { "$ref": "#/$defs/counts" },
+            "europe": { "$ref": "#/$defs/counts" }, "unplaced": { "$ref": "#/$defs/counts" }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "days": {
+      "type": "object",
+      "propertyNames": { "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+      "additionalProperties": {
+        "type": "object",
+        "required": ["local", "regional", "national", "europe", "unplaced"],
+        "properties": {
+          "local": { "$ref": "#/$defs/cell" }, "regional": { "$ref": "#/$defs/cell" }, "national": { "$ref": "#/$defs/cell" },
+          "europe": { "$ref": "#/$defs/cell" }, "unplaced": { "$ref": "#/$defs/cell" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "stories": {
+      "type": "object",
+      "propertyNames": { "pattern": "^[0-9a-f]{10}$" },
+      "additionalProperties": {
+        "type": "object",
+        "required": ["date", "places", "levels"],
+        "properties": {
+          "date": { "type": ["string", "null"] },
+          "places": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "levels": { "type": "array", "items": { "enum": ["local", "regional", "national", "europe", "unplaced"] }, "minItems": 1 }
+        },
+        "additionalProperties": false
+      }
+    },
+    "derived": { "$ref": "common.schema.json#/$defs/derived" }
+  },
+  "additionalProperties": false
+}

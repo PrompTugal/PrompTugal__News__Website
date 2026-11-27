@@ -10,6 +10,7 @@
 // Pure: derive(readers) returns { files: { path: object } }. newsroom/tools/derive.mjs writes them; the gate re-derives
 // in memory and fails if a committed derived file differs. A derived file carries "derived"; a hand-written entity
 // (no "derived") in the same folder always wins over a derived one with the same slug.
+import { createHash } from 'node:crypto'
 import { ident, nameKey } from './ids.mjs'
 import { listingOf, sourceKind } from './companies-map.mjs'
 
@@ -320,6 +321,7 @@ export function derive({ agenda, curator, companies, places, topics, handEvents,
     const countryOf = id => { for (let x = places.find(p => p.id === id), n = 0; x && n < 12; x = places.find(p => p.id === String(x.located_in || '').replace(/^place:/, '')), n++) { if (x.country) return x.country } return null }
     files['data/site/places-registry.json'] = { $schema: '../schemas/places-registry.schema.json', index: Object.fromEntries(places.filter(p => KEEP.has(p.kind)).flatMap(p => [[p.id, p.id], ...(p.aliases || []).map(a => [a, p.id])]).sort(([a], [b]) => byKey(a, b))), places: places.filter(p => KEEP.has(p.kind)).sort((a, b) => byKey(a.id, b.id)).map(p => ({ id: p.id, name: p.name, kind: p.kind, parent: p.located_in || null, country: p.country || countryOf(p.id), timezone: p.timezone || null, aliases: p.aliases || [], seat: p.seat || null, at: p.at || (p.seat && (places.find(q => q.id === String(p.seat).replace(/^place:/, '')) || {}).at) || null, wikidata: p.wikidata ? p.wikidata.id : null })), derived: { by: BY, from: ['data/places/'] } }
     files['data/site/story-counts-by-place.json'] = storyCounts(files['data/site/places-registry.json'], placeNews, pipeline.articles)
+    files['data/site/news-flow-by-date.json'] = newsFlow(files['data/site/places-registry.json'], placeNews, pipeline.articles)
     files['data/websummit-only.json'] = websummitOnly({ files, companies, places, handEvents, handOrgs, handPeople })
     return { files }
 }
@@ -354,6 +356,44 @@ export function storyCounts(registry, placeNews, articles) {
     }
     const distinct = new Set(placeNews.flatMap(f => f.news.map(n => n.key)))
     return { $schema: '../schemas/story-counts-by-place.schema.json', map_uses: 'local_stories', totals: { local_stories_distinct: distinct.size, articles_total: articles.length, articles_placed: placed }, unresolved, places, derived: { by: BY, from: ['data/by-place/', 'content/articles/', 'data/places/'] } }
+}
+
+// The flow of news up the levels, per day (cl-6.designer, 27 Nov 2026): every story and article counted once on its day at the level of
+// the place it is filed under. A story filed at several levels counts at each and is listed in "stories" with all its places;
+// nothing is dropped: no date is "undated", no place is "unplaced". Story ids are a short hash of the story's url or title.
+export const LEVELS = ['local', 'regional', 'national', 'europe', 'unplaced']
+export function newsFlow(registry, placeNews, articles) {
+    const idx = registry.index, row = Object.fromEntries(registry.places.map(p => [p.id, p]))
+    const levelOf = r => !r ? 'unplaced' : r.country && r.country !== 'PT' ? 'europe' : r.kind === 'country' ? 'national' : r.kind === 'region' ? 'regional' : 'local'
+    const sid = key => createHash('sha1').update(String(key)).digest('hex').slice(0, 10)
+    const empty = () => Object.fromEntries(LEVELS.map(l => [l, { stories: new Set(), articles: new Set() }]))
+    const days = {}, total = empty(), undated = { stories: new Set(), articles: new Set() }, stories = {}
+    for (const f of placeNews) {
+        const pid = idx[f.id]; if (!pid) continue
+        const lv = levelOf(row[pid])
+        for (const n of f.news) {
+            const id = sid(n.key), st = (stories[id] ||= { date: n.date || null, places: new Set(), levels: new Set() })
+            st.places.add(pid); st.levels.add(lv); total[lv].stories.add(id)
+            if (n.date) (days[n.date] ||= empty())[lv].stories.add(id); else undated.stories.add(id)
+        }
+    }
+    let placed = 0
+    for (const a of articles) {
+        const slug = a.path.replace(/^content\/articles\//, '').replace(/\.md$/, ''), want = a.fm.town || a.fm.region
+        const pid = want ? idx[String(want).toLowerCase()] : null, lv = pid ? levelOf(row[pid]) : 'unplaced'
+        if (pid) placed++
+        total[lv].articles.add(slug)
+        const date = String(a.fm.date || '').slice(0, 10)
+        if (date) (days[date] ||= empty())[lv].articles.add(slug); else undated.articles.add(slug)
+    }
+    const cell = c => ({ stories: c.stories.size, articles: c.articles.size, story_ids: [...c.stories].sort(byKey), article_ids: [...c.articles].sort(byKey) })
+    return {
+        $schema: '../schemas/news-flow-by-date.schema.json', levels: LEVELS,
+        totals: { stories_distinct: Object.keys(stories).length, articles_total: articles.length, articles_placed: placed, spanning_stories: Object.values(stories).filter(x => x.levels.size > 1).length, undated: { stories: undated.stories.size, articles: undated.articles.size }, by_level: Object.fromEntries(LEVELS.map(l => [l, { stories: total[l].stories.size, articles: total[l].articles.size }])) },
+        days: Object.fromEntries(Object.keys(days).sort(byKey).map(d => [d, Object.fromEntries(LEVELS.map(l => [l, cell(days[d][l])]))])),
+        stories: Object.fromEntries(Object.keys(stories).sort(byKey).map(id => [id, { date: stories[id].date, places: [...stories[id].places].sort(byKey), levels: LEVELS.filter(l => stories[id].levels.has(l)) }])),
+        derived: { by: BY, from: ['data/by-place/', 'content/articles/', 'data/places/'] },
+    }
 }
 
 // What rests only on websummit.com (Dinis, 11 Nov 2026 ~18:50; board/passes/2026-11-11-only-websummit-sourced-comes-off.md):
