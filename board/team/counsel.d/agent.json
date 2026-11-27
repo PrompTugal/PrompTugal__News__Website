@@ -23,7 +23,7 @@
     "home": "SovereignWebsite/Site__Agent__Counsel (exists; add_repo refused in this session)",
     "current_area": "PrompTugal/PrompTugal__News__Website board/team/counsel.d/"
   },
-  "wake": "none: works when Dinis or d.maestro/d.helm talks to it",
+  "wake": "none: only the maestro runs on a schedule; counsel is woken by message from it or d.helm (Dinis, relayed, 26 Nov ~23:50 UTC)",
   "state": "working",
   "waiting_on": [
     {
@@ -47,5 +47,10 @@
       "since": "2026-11-22T19:04Z"
     }
   ],
-  "updated": "2026-11-24T14:03Z"
+  "updated": "2026-11-27T00:05Z",
+  "maestro": {
+    "agent": "cl-4.maestro (account-d)",
+    "session": "https://claude.ai/code/session_015gaHdaUZWyhvN7nQ4fEmMo",
+    "since": "2026-11-25T23:34Z (per d.helm); the old d.maestro session is archived"
+  }
 }
