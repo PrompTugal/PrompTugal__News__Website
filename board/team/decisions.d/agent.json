@@ -17,7 +17,7 @@
     "current_area": "PrompTugal/PrompTugal__News__Website board/team/decisions.d/"
   },
   "leader": "d.helm",
-  "wake": "scheduled trig_01EkWuma8DGQNwD69RpwvSnw: 07:43, 10:43, 13:43, 18:43, 21:43 Lisbon (Dinis's word in this session, 22 Nov ~15:30 UTC)",
+  "wake": "No schedule since 26 Nov 23:51 UTC: the wake trig_01EkWuma8DGQNwD69RpwvSnw is disabled (not deleted; confirmed with get_trigger at 2026-11-27T00:05Z). Dinis's word relayed by d.helm (about 23:50 UTC 26 Nov): only the maestro runs on a schedule; d.decisions is woken by message from the maestro, cl-4.maestro (session_015gaHdaUZWyhvN7nQ4fEmMo).",
   "state": "working",
   "waiting_on": [
     {
@@ -46,7 +46,7 @@
       "since": "2026-11-26T07:53Z"
     }
   ],
-  "updated": "2026-11-26T21:45Z",
+  "updated": "2026-11-27T00:05Z",
   "keys": [
     {
       "id": "decisions.d-agenticcells",

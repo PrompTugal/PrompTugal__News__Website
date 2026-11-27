@@ -6,7 +6,7 @@
  "session": "https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
  "key": "decisions.d-agenticcells (board/keys.json; signing sha256:d4de20909c983bd1; encryption sha256:d4562f808111c080; ssh ed25519 for git signatures)",
  "delegation": "Endorsed: b.decisions's endorsement https://decisions.agents.sovereignweb.site/keys/endorsements/decisions-d.json (Site__Agent__Decisions 164eea2) of role key sha256:ecd0a963d618ea35, scoped to account D's routine asks, expires 2026-11-30T23:59:59Z, not revoked; verified 15:50 UTC (sgit pki verify valid, signer sha256:eefbe996d9c67a7c; bundle identical to keys/decisions.d-account-d-routine.json). I decide nothing until Dinis confirms the role in his own words in this session (my note, accepted by b.decisions).",
- "updated": "2026-11-26T21:45Z",
+ "updated": "2026-11-27T00:05Z",
  "state": "Account D's decisions agent under b.decisions's record 2026-11-24__account-decision-agents (Dinis, 14:26 UTC 24 Nov): once b.decisions endorses my role key, I decide account D's routine asks with a panel and relay each record to b.decisions; until then I log and gather only. One-way doors, money, legal, main, harness settings and keys stay Dinis's.",
  "latest_debrief": "board/team/decisions.d/debriefs/2026-11-26-handover.md",
  "done": [
@@ -56,7 +56,8 @@
   "21:45 UTC end-of-day sweep: 31 asks; 13 merge into 3 (nine agents' home pushes are one settings-rule question), 5 overtaken (counsel.d's power-of-attorney asks replaced by b.decisions's model); about 13 distinct questions remain",
   "07:45 UTC 26 Nov: catch-up wake. The five wakes of 25 Nov did not run (the worker restarted; they arrived together at 07:43 UTC 26 Nov). No new b.decisions records for account D since 24 Nov (only endorsements for decisions.c, decisions.f, cl-6); my endorsement not revoked. d.maestro handed over to cl-4.maestro (session_015gaHdaUZWyhvN7nQ4fEmMo, 25 Nov 23:31 UTC). Session map applies the lifecycle rule (48 h idle, nothing waiting): 89 recommended for archiving, incl. d.sites (failed) and the four email-cell sessions; d.conductor (PrompTugal) failed 25 Nov 20:18 UTC",
   "18:45 UTC wake: two new b.decisions records (cl-6 decisions widened, account F; SovereignWebsite__Website and Site__Tool__GitHub to account B keepers, not account D); daily debrief",
-  "21:45 UTC wake: end-of-day sweep (log/retire.md): nothing for account D answered since 24 Nov; 100 sessions now recommended for archiving; ask 31 added"
+  "21:45 UTC wake: end-of-day sweep (log/retire.md): nothing for account D answered since 24 Nov; 100 sessions now recommended for archiving; ask 31 added",
+  "00:05 UTC: noted that the scheduled wake is disabled (26 Nov 23:51 UTC, Dinis's word relayed by d.helm; checked with get_trigger); woken by cl-4.maestro's messages from now on"
  ],
  "next": [
   "Compare design/shared-record.md with decisions.b's first record in SovereignWebsite__IaC decisions/ when it lands",
@@ -76,7 +77,8 @@
   "Two b.decisions records (block-01, block-02-a) carry 'at' times ahead of the clock when read (01:05 and 01:15 UTC, read 00:52 UTC)",
   "My start-up brief (22 Nov) says I never decide anything myself; the record of 24 Nov 14:26 UTC (Dinis's words in b.decisions's session, signed by his delegate) makes me account D's decider for routine asks. I follow the record and have asked Dinis to confirm it in his own words",
   "Five scheduled wakes of 25 Nov did not run in this session (worker restarts); they were delivered together at 07:43 UTC 26 Nov",
-  "The relay from account D to b.decisions is paused: cl-4.maestro (d.maestro's successor) can pass request links on only once its PrompTugal__News__Website attach and vault push are allowed (its message, 07:54 UTC 26 Nov)"
+  "The relay from account D to b.decisions is paused: cl-4.maestro (d.maestro's successor) can pass request links on only once its PrompTugal__News__Website attach and vault push are allowed (its message, 07:54 UTC 26 Nov)",
+  "2026-11-27T00:05Z: the instruction that I run on a schedule (Dinis, 22 Nov, in this session) is replaced by his word relayed by d.helm (26 Nov ~23:50 UTC) that only the maestro runs on a schedule; relayed, not in this session, but the trigger's state (disabled 23:51:33 UTC) matches it, so I follow it. The end-of-day sweep now runs at the last message-wake after 21:00 UTC, or when cl-4.maestro asks."
  ],
  "asks": [
   "Dinis: confirm in your own words that d.decisions decides account D's routine asks (record 2026-11-24__account-decision-agents): it reverses 'never decide' in my start-up brief. I act on the record once b.decisions endorses my role key, with a panel per decision - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
