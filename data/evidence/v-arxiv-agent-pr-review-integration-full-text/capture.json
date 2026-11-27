@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-arxiv-agent-pr-review-integration-full-text",
+  "type": "evidence",
+  "source_url": "https://arxiv.org/pdf/2602.19441",
+  "beat": "AI agents in real work",
+  "group": "AI agents in real work",
+  "names": [
+    {
+      "as_listed": "arXiv",
+      "ref": "organisation:arxiv"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-27-0750.json",
+  "run": "2026-11-27T07:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-27-0750.json"
+    ]
+  }
+}
