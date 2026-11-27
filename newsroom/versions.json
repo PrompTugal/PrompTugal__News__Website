@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2369",
+    "date": "2026-11-27",
+    "time": "2026-11-27T03:50:39Z",
+    "what": "cl-6.ontologist@PrompTugal.dinis: each article in the flow: level, place chain, builds_on and feeds, derived",
+    "by": "cl-6.ontologist@PrompTugal.dinis",
+    "from": "400531d40"
+  },
+  {
     "version": "v0.1.2368",
     "date": "2026-11-27",
     "time": "2026-11-27T03:46:09Z",
