@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2366",
+    "date": "2026-11-27",
+    "time": "2026-11-27T03:12:04Z",
+    "what": "cl-6.dev@PrompTugal.dinis: home lead band: where the lead has no picture, an 'Also today' panel with the next three items of front-page.json (top, then the briefing), each a dated headline; under the lead below 1000 px, hidden on a phone (cl-6.designer's call 4)",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "df395a37a"
+  },
+  {
     "version": "v0.1.2365",
     "date": "2026-11-27",
     "time": "2026-11-27T02:41:51Z",
