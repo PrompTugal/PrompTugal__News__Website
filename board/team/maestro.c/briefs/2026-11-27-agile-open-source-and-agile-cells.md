@@ -76,3 +76,11 @@ Dinis bought **agilecells.com, agilecells.org and agilecells.site**, and **riskm
 - **Brand model (proposed by c.maestro, Dinis to confirm):** Agile Cells is the open method (agilecells.org; agilecells.com redirects there); AgenticCells is the company that runs it (agenticcells.ai sells consulting and services; agenticcells.org the open organisation); agilecells.site hosts customer sites (client.agilecells.site, which can be paid). Line: "AgenticCells builds and runs Agile Cells teams for you."
 - **Market test (proposed):** two identical landing pages, "Agile Cells" against "AgenticCells", same offer and traffic, enquiries per visitor counted without cookies or anything identifying a person, 2 to 4 weeks; agilecells.ai only if Agile Cells wins.
 - **The .org strategy:** each .org is the open, free home of a body of work: agilecells.org (the method and spec), agenticcells.org (the organisation), sovereignwebsite.org (principles), and **riskmandate.org (Agent Behaviour Policies, moving later from the Open Security Summit)**; the .ai sites sell.
+
+## Part 7: practice first (Dinis, 27 Nov ~14:38 UTC)
+
+Dinis, word for word: "for now let's not create the agilecells sites, let's first use them in practice, put their definitions inside the AgenticCells site and then we'll create this later (once we spot some market traction)"; and on the domains plan: park it "for now".
+
+- Agile Cells lives as a section of the AgenticCells site at agenticcells.org (AgentiCCells__Site__AgentiCCells-Org, e.g. /agile-cells/), marked draft and "in practice first".
+- No agilecells.* sites, addresses or brand pages yet; no market test; the domains plan (AgentiCCells__Site__Factory branch cl-3.factory/domains-plan) is parked, riskmandate.org too.
+- First real use: our own teams running as cells.
