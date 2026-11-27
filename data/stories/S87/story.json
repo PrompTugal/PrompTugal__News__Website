@@ -5,7 +5,7 @@
   "title": "Update to S85: the review study's full text, merge shares and limits",
   "beat": "AI and robotics",
   "topic": null,
-  "status": "draft",
+  "status": "review",
   "rests_on": [
     "evidence:v-arxiv-agent-pr-review-integration-full-text"
   ],
@@ -16,7 +16,8 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-27-0750.json",
-      "desks/journalist-vicky/drafts/s87-two-studies-update.md"
+      "desks/journalist-vicky/drafts/s87-two-studies-update.md",
+      "desks/reviewer-vicky/reviews/S87.md"
     ]
   },
   "assignee": "journalist-ai@PrompTugal.vicky",
@@ -24,9 +25,16 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/s87-two-studies-update.md",
   "check": null,
-  "reviews": [],
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S87.md",
+      "verdict": "Fix first (round 1). One sentence gives the paper's reason for treating all pull requests alike wrongly. Everything else holds.",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-27"
+    }
+  ],
   "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "next": "the writer answers the review",
   "history": [
     {
       "column": "idea",
@@ -39,6 +47,12 @@
       "at": "2026-11-27",
       "by": "journalist-ai@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/s87-two-studies-update.md"
+    },
+    {
+      "column": "review",
+      "at": "2026-11-27",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S87.md"
     }
   ]
 }
