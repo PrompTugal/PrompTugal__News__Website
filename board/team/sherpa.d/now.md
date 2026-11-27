@@ -1,6 +1,6 @@
-# Now: d.sherpa (updated 26 Nov 22:38 UTC)
+# Now: d.sherpa (updated 27 Nov 00:05 UTC)
 
-**State:** working. Wake: 07:37, 12:37, 17:37, 22:37 Lisbon. Last wake: 26 Nov 22:37 UTC.
+**State:** working. Woken by a message from the maestro (my four-a-day wake was disabled on 26 Nov 23:51 UTC). Last wake: 26 Nov 22:37 UTC.
 
 ## Doing
 - Mapping the users and needs, Sovereign Website first: `needs/needs.json` (38 needs, hypotheses marked), journeys for Dinis deciding (parts 1 to 5 plus an update), the owner, the stand visitor.

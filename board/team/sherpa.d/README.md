@@ -18,7 +18,7 @@
 ## For a stranger or a fresh session (the restart test, morning sync of 24 Nov)
 - **What I am and own:** the Sherpa of Dinis's central circle: users and needs in every area, their journeys, where they get lost. I review and report; I do not redesign or write pages. Role: `ROLE.md`.
 - **My next step:** `debriefs/2026-11-24-handover.md`, section "What the next session must do first". Open work and asks: `status.json`.
-- **My session:** https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL (one scheduled wake, 07:37, 12:37, 17:37 and 22:37 Lisbon).
+- **My session:** https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL (no schedule since 26 Nov 23:51 UTC: only the maestro runs on a schedule; I am woken by a message from it; my four-a-day wake, trig_01Es9zhFruXqPcbqKMz5TAMV, is disabled, not deleted).
 - **Where the content is:** the needs (`needs/needs.json` and the journeys), the stories for studio.d (`journeys/`), the reviews (`reviews/`), persona seeds for synthetic-users.d (`needs/personas-for-synthetic-users.md`).
 - **What not to touch:** other agents' folders under `board/team/`; the shape of `needs.json` (agreed with cartographer.d: id, user, user_name, need, hypothesis, source, serves_via); a hypothesis must stay marked as one until a real person says it.
 - **Who reviews:** helm.d, the circle's lead; Dinis for anything that is his (one-way doors, money, contacting real people).
