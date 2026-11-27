@@ -93,13 +93,22 @@ function satFigure(ctx, a) {
 }
 // the lead links to the storm page when this is the satellite's article (S41) and the page's data exists
 const stormLink = (ctx, a) => { try { const L = JSON.parse(fs.readFileSync(path.join(ctx.ROOT, 'assets/satellite/loop.json'), 'utf8')); return L.article === slugOf(a) && fs.existsSync(path.join(ctx.ROOT, 'desks/dev-vicky/storm/charles.json')) ? item('lstorm') : '' } catch { return '' } }
+// "Also today" (designer@, 27 Nov): where the lead has no picture, the next three items of front-page.json (top, then the briefing), each a dated headline
+let FPALSO = null
+function alsoPanel(ctx, a) {
+    if (!FPALSO) { try { FPALSO = JSON.parse(fs.readFileSync(path.join(ctx.ROOT, 'desks/correspondent/front-page.json'), 'utf8')) } catch { FPALSO = {} } }
+    const by = new Map(frontOrder(ctx).map(x => [slugOf(x), x])), seen = new Set([slugOf(a)]), out = []
+    for (const x of [...(FPALSO.top || []), ...((FPALSO.briefing || {}).items || [])]) { const b = x && by.get(x.article); if (b && !seen.has(x.article)) { seen.add(x.article); out.push(b) } }
+    const rows = out.slice(0, 3).map(b => ({ href: b.rel, title: ctx.md.esc(b.meta.title), date: dt(ctx, dateOf(ctx, b)).replace(/^ · /, '') }))
+    return rows.length ? put(item('also'), { items: many('alsoi', rows) }) : ''
+}
 function lead(ctx, a) {
     if (!a) return part('none')
     const esc = ctx.md.esc, f = figureOf(a), fig = picture(esc, a, 'card', false)
     let headline = esc(a.meta.title)
     if (f?.value && headline.includes(esc(f.value))) headline = headline.replace(esc(f.value), put(item('mark'), { text: esc(f.value) }))
     return put(part('lead'), { href: a.rel, kicker: esc(a.meta.tags || beatOf(a)) + dt(ctx, dateOf(ctx, a)), headline, dek: esc(a.meta.summary || ''), byline: esc(byline(a.meta.author)), minutes: minutes(a.md),
-        pill: pill(ctx, a), storm: stormLink(ctx, a), figure: satFigure(ctx, a) || (fig ? put(item('figure'), { href: a.rel, picture: fig, cap: 'AI-made image' }) : ''), ...leadExtra(ctx, a) })
+        pill: pill(ctx, a), storm: stormLink(ctx, a), figure: satFigure(ctx, a) || (fig ? put(item('figure'), { href: a.rel, picture: fig, cap: 'AI-made image' }) : '') || alsoPanel(ctx, a), ...leadExtra(ctx, a) })
 }
 
 
