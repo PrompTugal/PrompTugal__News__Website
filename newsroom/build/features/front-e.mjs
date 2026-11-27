@@ -143,11 +143,11 @@ function ptMap(ctx, PR, named = new Set(), view = null) {
         const pick = SPOTS.find(sp => !hit(box(sp))) || SPOTS[0], b = box(pick); placed.push(b)
         lbl.set(r.p.id, put(item('mlbl'), { x: b.x.toFixed(1), y: b.y.toFixed(1), anchor: pick[2], name: esc(r.p.name) }))
     }
-    const pins = PR.filter(r => Array.isArray(r.p.at) && (!view || inV(r.p.at))).map(r => put(item('mpin'), { href: r.p.path + 'index.html', title: esc(`${r.p.name}: ${r.news} local AI stories, ${r.map} on the AI map${r.day ? `; ${r.day} dated in the last day` : r.wk ? `; ${r.wk} dated in the last week` : ''}`),
+    const pins = PR.filter(r => Array.isArray(r.p.at) && (!view || inV(r.p.at))).map(r => put(item('mpin'), { tab: view ? ' tabindex="-1"' : '', href: r.p.path + 'index.html', title: esc(`${r.p.name}: ${r.news} local AI stories, ${r.map} on the AI map${r.day ? `; ${r.day} dated in the last day` : r.wk ? `; ${r.wk} dated in the last week` : ''}`),
         cls: r.day ? ' is-day' : r.wk ? ' is-week' : '', lbl: lbl.get(r.p.id) || '',
         cnt: r.wk && r.p.parent === 'portugal' ? put(item('mcnt'), { x: (+X(r.p.at[0]) + 8).toFixed(1), y: (+Y(r.p.at[1]) + 3).toFixed(1), n: r.wk }) : '', x: X(r.p.at[0]), y: Y(r.p.at[1]), r: (2.5 + Math.min(5, Math.sqrt(r.news + r.map) * 0.8)).toFixed(1) })).join('')
     const have = new Set(PR.map(r => r.p.id)), next = (N?.places || []).filter(q => !have.has(q.id) && (!view || inV(q.at))).map(q => put(item('mnext'), { title: esc(q.name), x: X(q.at[0]), y: Y(q.at[1]), lx: (+X(q.at[0]) + 6).toFixed(1), ly: (+Y(q.at[1]) + 3).toFixed(1) })).join('')
-    return put(item('map'), { cls: view ? ' fe-ptmap-alg' : '', w: W, h: H, aria: view ? esc(`The Algarve, enlarged: ${named.size} towns named`) : esc(`Map of mainland Portugal: ${PR.length} places covered, ${(N?.places || []).length} district capitals to come`), body: land('Spain', 'es') + land('Portugal', 'pt') + next + pins, ax: X(-8.9), ay: Y(36.9),
+    return put(item('map'), { cls: view ? ' fe-ptmap-alg' : '', ro: view ? ' aria-hidden="true"' : ` role="img" aria-label="${esc(`Map of mainland Portugal: ${PR.length} places covered, ${(N?.places || []).length} district capitals to come`)}"`, w: W, h: H, aria: view ? esc(`The Algarve, enlarged: ${named.size} towns named`) : esc(`Map of mainland Portugal: ${PR.length} places covered, ${(N?.places || []).length} district capitals to come`), body: land('Spain', 'es') + land('Portugal', 'pt') + next + pins, ax: X(-8.9), ay: Y(36.9),
         rg: view ? '' : 'The Algarve' + (algWk ? ` · ${algWk} this week` : '') })
 }
 
