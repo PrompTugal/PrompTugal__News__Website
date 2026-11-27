@@ -81,6 +81,12 @@
       "what": "the OWASP note gave its read time as 06:05Z, ahead of the clock (06:01Z); corrected",
       "rule": "R17",
       "why": "estimated instead of taken from date -u; my slip"
+    },
+    {
+      "t": "2026-11-27T00:09Z",
+      "what": "installed openssh-client in this container (apt) so the gate's signature checks could run",
+      "rule": "environment (CLAUDE.md: reversible steps on my own call)",
+      "why": "the gate failed with 'ssh-keygen not found: install openssh-client (this is the machine, not a bad signature)'; the setup script should provide it"
     }
   ],
   "home": "https://github.com/SovereignWebsite/Site__Agent__Counsel (exists; not yet reachable from this session)",
