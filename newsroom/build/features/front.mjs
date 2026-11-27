@@ -47,7 +47,7 @@ const OWNER = { dinis: 'Dinis Cruz', vicky: 'Vicky Wang', indi: 'Indi Gupte' }
 const ROLE = { security: 'the security agent', newsroom: 'the newsroom', conductor: 'the conductor' }
 export function byline(author) {
     const first = String(author || '').split(',')[0].trim(), forr = (String(author).match(/, for ([^,]+)/) || [])[1]
-    const [local, domain = ''] = first.split('@'), [role, desk] = local.split('-')
+    const [local0, domain = ''] = first.split('@'), local = local0.replace(/^cl-\d+\./, ''), [role, desk] = local.split('-')   // a session's name carries cl-6., which is not the desk's
     // a place agent (place.<town>@PrompTugal.dinis): "the Alcoutim agent"
     if (/^place\./.test(local)) return `the ${PNAME[local.slice(6)] || local.slice(6)} agent, an AI agent${forr ? `, for ${forr}` : ''}`
     const who = ROLE[role] && !desk ? ROLE[role] : desk ? `the ${desk === 'ai' ? 'AI' : desk.charAt(0).toUpperCase() + desk.slice(1)} desk` : `the ${role}`
