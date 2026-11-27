@@ -93,3 +93,19 @@ Dinis changed his mind on Part 7 (spoken, transcribed; "agile sells" and "energe
 - **agenticcells.org** stays as it is, linking to agilecells.org as "the method we use"; agilecells.org links back.
 - **The thesis:** agile never scaled because of the communication and coordination around teams; agents now carry that load, so agile teams can be bigger, shorter-lived, restartable and distributed.
 - agilecells.com, agilecells.site and riskmandate.org stay parked; no .ai.
+
+## Part 9: kinds of cells (Dinis, 27 Nov ~15:00 UTC, and c.maestro's proposal)
+
+Dinis: "And it has all those concepts of ephemeral cells, long-lived, agentic agile cells, which also works quite well."
+
+Proposed vocabulary (two plain questions, one word each):
+
+| | **Ephemeral** (one brief; ends when its deliverable lands) | **Long-lived** (a standing job; keeps its board) |
+|---|---|---|
+| **Human** | a classic agile team on one task | a classic standing team |
+| **Agentic** | e.g. the Feet Fables proof of concept, the donna-freed wow pass | e.g. a site keeper, a maestro, a conductor |
+| **Mixed** | people and agents on one brief | a department or account |
+
+- An **agentic agile cell** is any Agile Cell whose members are mostly agents; the agents carry the coordination agile used to cost (briefs, boards, stand-ups as written state, hand-overs).
+- Long-lived cells start ephemeral cells (a keeper spins up a cell for a redesign); ephemeral cells report to the long-lived cell that started them: cells all the way down.
+- The same `cell.json` for all of them, with `lifetime` (ephemeral|long-lived) and `members` (human|agentic|mixed).
