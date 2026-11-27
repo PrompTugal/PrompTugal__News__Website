@@ -34,6 +34,12 @@
    "what": "signed a push record for SovereignWebsite__IaC from Dinis's words in c.maestro's session (not mine)",
    "rule": "start prompt: Dinis's words in this session; the words were verified by get_event and name the decision agent",
    "why": "Dinis asked the decision agent to underwrite it; the record holds his words only, no decision of mine"
+  },
+  {
+   "at": "2026-11-27T13:35Z",
+   "what": "apt-get install openssh-client in this session",
+   "rule": "environment change (ABP R4)",
+   "why": "the gate's signature checks need ssh-keygen, absent from this container; reversible, session only"
   }
  ],
  "endorsement": {
