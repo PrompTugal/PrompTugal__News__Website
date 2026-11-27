@@ -217,8 +217,11 @@ function fillE(page, ctx) {
             return { '#week': many('week', tk), '#week_again': many('week', tk.map(w => ({ ...w, tab: ' tabindex="-1"' }))) } })(),
         places_all: `All ${algTowns.length} towns`, places_shown: String(Math.min(ALG_CAP, algTowns.length)), places_total: String(algTowns.length), places_intro: esc(PL.copy?.home_places_intro || ''), ptmap: ptMap(ctx, PR), ptmap_alg: ptMap(ctx, PR, new Set(algTowns.slice(0, ALG_CAP).map(r => r.p.id)), { lon0: -9.05, lon1: -7.3, lat0: 36.9, lat1: 37.55 }),
         ptk: (() => { const day = PR.filter(r => r.day), wk = PR.filter(r => r.wk && !r.day), n = wk.length + day.length
-            // a legend entry only when its count is above zero: no "(0)" that reads as broken (designer@, 27 Nov)
-            return [`<span class="on"></span> a place we cover`, n ? `<span class="on is-week"></span> dated news this week (${n})` : '', day.length ? `<span class="on is-day"></span> today or yesterday (${day.length})` : '', `<span class="next"></span> a district capital, coming next`].filter(Boolean).join(' ') })(), nowline: nowLine(ctx),
+            // dates, not "today" or "this week", which go stale when a built page is served later (designer@, 27 Nov); an entry only when its count is above zero
+            const to = dayOf(ctx.TODAY), ago = k => new Date(Date.parse(to) - k * 864e5).toISOString().slice(0, 10)
+            const fmt = (d, m) => new Date(d + 'T00:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', ...(m ? { month: 'short' } : {}), timeZone: 'UTC' })
+            const span = (a, b) => `${fmt(a, a.slice(5, 7) !== b.slice(5, 7))} to ${fmt(b, true)}`
+            return [`<span class="on"></span> a place we cover`, n ? `<span class="on is-week"></span> news dated ${span(ago(7), to)} (${n})` : '', day.length ? `<span class="on is-day"></span> news dated ${span(ago(1), to)} (${day.length})` : '', `<span class="next"></span> a district capital, coming next`].filter(Boolean).join(' ') })(), nowline: nowLine(ctx),
         '#places': many('place', algTowns.slice(0, ALG_CAP).map(r => ({ href: r.p.path + 'index.html', name: esc(r.p.name), counts: `${r.news} stories · ${r.map} on the AI map`, about: esc(r.about),
             newest: r.a ? put(item('pnew'), { href: r.a.rel, date: nice(ctx, r.a.meta.date), title: esc(cut(r.a.meta.title, 80)) }) : r.n && r.n.title ? put(item('pnew'), { href: r.p.path + 'index.html#local', date: nice(ctx, r.n.date || r.n.read_on), title: esc(cut(r.n.title, 80)) }) : '' }))),
         '#stats': many('stat', statsOf(ctx, PR, all).slice(0, 4)), '#stats_more': many('stat', statsOf(ctx, PR, all).slice(4)), nstats: String(statsOf(ctx, PR, all).length),
