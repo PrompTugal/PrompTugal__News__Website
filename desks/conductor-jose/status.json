@@ -2,12 +2,12 @@
   "agent": "conductor@PrompTugal.jose",
   "focus": "Jose sees in one file what each of his PrompTugal agents did, what is open, and what waits on him or on Dinis",
   "state": "ok",
-  "updated": "2026-11-17T12:20:00Z",
+  "updated": "2026-11-27T18:10:00Z",
   "session": "session_01CqQLD944eKWrwwiaimessY (Jose's account)",
   "key": "conductor-jose-promptugal (record sha256:e006f2f5d2bcef71)",
   "dinis_yes": "board/guidance/2026-11-16-restart-here-go.md (16 Nov, about 19:25 UTC)",
   "grant": "board/abp/policies.json v1.14.0, external.by_agent (20:00 UTC): desks/conductor-jose/** and board/runs/conductor-jose/**",
-  "done": "17 Nov, 12:20 UTC run: writer@PrompTugal.jose read the standing rules in a session of Jose's and asked two things (where it reports; whether J1 covers it). J1's scope made plain in standing-rules.md: the three cards bind this conductor and local@, not the writer's own pieces. Earlier today: J11, the self-check.",
+  "done": "27 Nov, 18:10 UTC run: scanned the repo for how vault access is given (two patterns: a public read key committed openly; the vault key sealed to a named recipient). At Jose's word, filed a request for Dinis to seal the outreach CRM vault (promptugal-outreach) to Jose, flagging that it should go to Jose's person key, not an agent session key, because it holds private contacts (R8). Also profiled The Portugal News from public sources for Jose.",
   "agents": [
     {
       "agent": "local@PrompTugal.jose",
@@ -30,6 +30,7 @@
   ],
   "next": "Each run: Dinis's answers to the five questions; local@'s next towns read against J11.",
   "asks": [
+    "Jose: the outreach CRM vault holds real private contacts. Decide whether Dinis seals it to your own person key (you open it in a browser; recommended) or to this agent's session key (an agent could then read private contacts, against R8; not recommended). Say which; if a person key, make or name one.",
     "Jose: start local@'s next run for Portimão and Olhão when you want them, with the repository as the session's working directory, so the ABP hooks log the run (its run report, like this desk's, counts no tool calls otherwise).",
     "Jose: Regiao Sul and Jornal do Algarve are yours to read in a browser, if you will; desks/local-jose/for-jose/reading-checklist.md says what to note.",
     "Jose: the writer asks where it reports. This desk recommends both: a status.json in desks/writer-jose/ (so it shows in this desk's one list) and its STATE.md on the team site as its memory between sessions. No new piece in the newsroom until Dinis's yes for the writer desk is recorded.",
@@ -42,6 +43,7 @@
   ],
   "debrief": "desks/conductor-jose/debriefs/2026-11-17-handover.md",
   "requests": [
+    "desks/conductor-jose/requests/2026-11-27-dinis-seal-outreach-vault-to-jose.md (open)",
     "desks/conductor-jose/requests/2026-11-16-for-dinis-five-questions-from-jose.md (open)",
     "desks/conductor-jose/requests/2026-11-16-outreach-the-first-contact-decision-holds-jose-drafts.md (open)",
     "desks/conductor-jose/requests/2026-11-16-abp-the-organisations-path-in-locals-grant.md (answered)",
