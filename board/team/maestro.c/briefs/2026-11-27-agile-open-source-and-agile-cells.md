@@ -87,7 +87,7 @@ Dinis, word for word: "for now let's not create the agilecells sites, let's firs
 
 ## Part 8: build agilecells.org now (Dinis, 27 Nov ~14:55 UTC)
 
-Dinis changed his mind on Part 7: "agile sells ... really well ... it will also be a really much easier thing to understand ... we can make the case that agile ... never scales on all the comms and teams around it. And now we can have all that stuff. So I think we probably should just build it and then leave the agentic cells as it is, or maybe to make a connection ... we just do the .org for now. So we just start with the agilecells.org. We don't put the commercial element for now."
+Dinis changed his mind on Part 7 (spoken, transcribed; "agile sells" and "energetic sells" in the transcript are "Agile Cells" and "agentic cells", which Dinis confirmed: "it should read agile cells (AC), translation issue"): "Agile Cells types really well, and the agentic cells [too], and I think it will also be a really much easier thing to understand. And I think we can make the case that Agile Cells [works] ... because agile never scales on all the comms and teams around it. And now we can have all that stuff. So I think we probably should just build it and then leave the agentic cells as it is, or maybe to make a connection ... we just do the .org for now. So we just start with the agilecells.org. We don't put the commercial element for now."
 
 - **agilecells.org** is built now: the open method and spec, its own site in the AgentiCCells organisation, kept by c.agile-cells. No commercial pages.
 - **agenticcells.org** stays as it is, linking to agilecells.org as "the method we use"; agilecells.org links back.
