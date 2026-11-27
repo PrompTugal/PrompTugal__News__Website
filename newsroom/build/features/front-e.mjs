@@ -21,13 +21,15 @@ const many = (n, list) => list.map(v => put(item(n), v)).join('')
 
 const slugOf = a => a.rel.replace(/^articles\//, '').replace(/\.html$/, '')
 const beatOf = a => String(a.meta.beat || String(a.meta.tags || 'News').split(',')[0]).replace(/^connections:\s*/i, '').trim()
-// a date on every card and headline (Dinis, 26 Nov: "a date on every card"): "Today", "Yesterday", else "24 Nov", in a <time>; the page's own day
+// a date on every card and headline (Dinis, 26 Nov: "a date on every card"): always absolute, "24 Nov", in a <time>; the page's own day
 // is the build's day. A date given in front-page.json beside an article's slug ("date", ISO) wins over the article's own, so the correspondent can
 // set the moment a headline is current from (the iOS app's JSON carries the same field).
 const dayOf = v => String(v || '').slice(0, 10)
 const ageDays = (ctx, v) => Math.round((Date.parse(ctx.TODAY) - Date.parse(dayOf(v))) / 864e5)
-const nice = (ctx, v) => { const d = dayOf(v); if (!/^\d{4}-\d\d-\d\d$/.test(d) || isNaN(Date.parse(d))) return ''; const n = ageDays(ctx, d)
-    return `<time class="fe-dt" datetime="${d}">${n <= 0 ? 'Today' : n === 1 ? 'Yesterday' : new Date(d + 'T00:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'short', timeZone: 'UTC' })}</time>` }
+const nice = (ctx, v) => { const d = dayOf(v); if (!/^\d{4}-\d\d-\d\d$/.test(d) || isNaN(Date.parse(d))) return ''; 
+    // one style, absolute ("16 Nov"; with the year when it is not this year): a built page is served long after it was built, so "Yesterday" goes wrong (no relative word anywhere, not even in a title, which would go stale the same way)
+    const opts = { day: 'numeric', month: 'short', timeZone: 'UTC', ...(d.slice(0, 4) !== dayOf(ctx.TODAY).slice(0, 4) ? { year: 'numeric' } : {}) }
+    return `<time class="fe-dt" datetime="${d}">${new Date(d + 'T00:00:00Z').toLocaleDateString('en-GB', opts)}</time>` }
 const dt = (ctx, v) => { const t = nice(ctx, v); return t ? ' · ' + t : '' }
 let FPDATES = null
 const dateOf = (ctx, a) => { if (!FPDATES) { FPDATES = new Map(); try { const F = JSON.parse(fs.readFileSync(path.join(ctx.ROOT, 'desks/correspondent/front-page.json'), 'utf8'))
