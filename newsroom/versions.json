@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2402",
+    "date": "2026-11-27",
+    "time": "2026-11-27T20:28:14Z",
+    "what": "cl-6.dev@PrompTugal.dinis: release.sh refreshes the weather snapshot when cl-6.dev releases (own commit; a feed that cannot be read keeps the old values and read time), so the camera links and /weather/ cannot rest on a stale file; NOT to ship until cl-6.rights answers on the camera operators (conductor's word)",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "9ce3c9a48"
+  },
+  {
     "version": "v0.1.2401",
     "date": "2026-11-27",
     "time": "2026-11-27T18:53:06Z",
