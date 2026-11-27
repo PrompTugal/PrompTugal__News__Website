@@ -282,7 +282,7 @@ function nowMapHtml(ctx, region) {
     const fr = rows.find(r => r.t.id === 'faro'), ap = fr && fr.n.airport
     if (ap && placesAt(ctx).has('faro')) {
         const fa = placesAt(ctx).get('faro').at, x = P.X0(fa[0]) + 96, y = P.Y0(fa[1]) + 40, al = arr(ap.airline)
-        body += tf(T['now-flights'], { href: X(ap.page || 'https://globe.adsb.lol/'), title: X(al.map(f => `${f.callsign} (${f.type || '?'}, ${f.on_ground ? 'on the ground' : (f.alt_ft || '?') + ' ft'})`).join(', ') || C.nowmap_flights.replace('{n}', '0')), x: x.toFixed(1), y: y.toFixed(1), tx: (x + 16).toFixed(1), ty: (y + 4).toFixed(1), t: X(W(C.nowmap_flights, { n: al.length })) })
+        body += tf(T['now-flights'], { href: X(ap.page || 'https://globe.adsb.lol/'), title: X(al.map(f => `${f.callsign} (${f.type || '?'}, ${f.on_ground ? 'on the ground' : (f.alt_ft || '?') + ' ft'})`).join(', ') || C.nowmap_flights.replace('{n}', '0')), x: x.toFixed(1), y: y.toFixed(1), tx: (x + 16).toFixed(1), ty: (y + 4).toFixed(1), t: X(W(al.length === 1 ? C.nowmap_flight_one : C.nowmap_flights, { n: al.length })) })
     }
     const read = rows.map(r => r.n.read_at).filter(Boolean).sort().pop() || ''
     const obsAt = rows.map(r => r.n.station && r.n.station.reading && r.n.station.reading.at).filter(Boolean).sort().pop() || ''

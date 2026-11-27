@@ -150,5 +150,6 @@
   "arcs_twin": "- {a} and {b}: {what} ([source]({url}), read {read})",
   "nowmap_twin_now": "{t}° now at {station} ({at} UTC); ",
   "nowmap_warn_none": "IPMA: no warnings for the Faro district",
-  "nowmap_flights": "{n} airline flights near Faro"
+  "nowmap_flights": "{n} airline flights near Faro",
+  "nowmap_flight_one": "{n} airline flight near Faro"
 }

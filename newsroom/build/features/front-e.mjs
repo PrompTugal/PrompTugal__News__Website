@@ -143,7 +143,7 @@ function nowLine(ctx) {
     // promptugal.news bills, so no IPMA values here (Dinis, 18 Nov 23:45: board/guidance/2026-11-18-billing-only-on-the-main-site.md):
     // Faro airport (adsb.lol, ODbL) and a link to the weather on weather.promptugal.news
     const esc = ctx.md.esc, ap = (F && F.airport) || R.airport
-    const bits = [ap && put(item('nowlink'), { href: esc(ap.source), text: `Faro airport: ${ap.airline.length} airline flights near` }),
+    const bits = [ap && put(item('nowlink'), { href: esc(ap.source), text: `Faro airport: ${ap.airline.length} airline flight${ap.airline.length === 1 ? '' : 's'} near` }),
         put(item('nowlink'), { href: 'https://weather.promptugal.news/places/algarve/', text: 'the weather and IPMA warnings: PrompTugal Weather' })].filter(Boolean)
     return put(item('now'), { bits: bits.join(' · '), at: esc(String(R.read_at).slice(11, 16)) })
 }
@@ -159,7 +159,7 @@ function statsOf(ctx, PR, all) {
         ...Object.entries(types).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([t, n]) => [n, `on the maps: ${t}`]),
         [sum(d => (d.events || []).length), 'events'], [sum(d => (d.sources || []).length), 'sources the agents read'], [sum(d => (d.gaps || []).length), 'gaps: looked for, not found'],
         [all.filter(a => a.meta.region || a.meta.town).length, 'place stories written'], [signed, 'stories signed'],
-        ...(F && F.airport ? [[F.airport.airline.length, `airline flights near Faro at ${String(F.airport.at).slice(11, 16)} UTC`]] : [])]
+        ...(F && F.airport ? [[F.airport.airline.length, `airline flight${F.airport.airline.length === 1 ? '' : 's'} near Faro at ${String(F.airport.at).slice(11, 16)} UTC`]] : [])]
     return rows.map(([n, label]) => ({ n, label: ctx.md.esc(label) }))
 }
 
