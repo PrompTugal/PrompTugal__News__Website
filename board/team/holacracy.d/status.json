@@ -96,6 +96,12 @@
    "what": "Installed openssh-client (apt) in this session's container so the gate could run",
    "rule": "none bent: installing a missing tool is on the reversible list (CLAUDE.md, no agent blocked)",
    "why": "the gate failed on 'ssh-keygen not found: the machine, not a bad signature' after the session restarted on a new container"
+  },
+  {
+   "at": "2026-11-27T00:55Z",
+   "what": "Ran git fetch --unshallow on this session's clone",
+   "rule": "none bent: own clone, reversible",
+   "why": "the gate refuses a shallow clone (signatures are checked against history)"
   }
  ]
 }
