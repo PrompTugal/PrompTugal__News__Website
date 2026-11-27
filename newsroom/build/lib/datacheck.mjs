@@ -42,6 +42,7 @@ export const KINDS = [
     [/^data\/stories\/[^/]+\/claims\.json$/, 'story-claims'],
     [/^data\/media\/by-place\.json$/, 'media-by-place'],
     [/^data\/site\/places-registry\.json$/, 'places-registry'],
+    [/^data\/site\/story-counts-by-place\.json$/, 'story-counts-by-place'],
     [/^data\/stories\/[^/]+\/provenance\.json$/, 'story-provenance'],
     [/^data\/stories\/[^/]+\/graph\.json$/, 'story-graph'],
     [/^data\/stories\/[^/]+\/timeline\.json$/, 'story-timeline'],

@@ -64,7 +64,7 @@ const sessionSlug = url => { const m = String(url || '').match(/websummit\.com\/
 const titleBase = what => ident(String(what).replace(/\s*[:(].*$/, '').trim() || what, 48)
 const byKey = (a, b) => a < b ? -1 : a > b ? 1 : 0
 
-export function derive({ agenda, curator, companies, places, topics, handEvents, handOrgs, handPeople, curation, pipeline = { ideas: [], drafts: [], checks: [], reviews: [], articles: [] } }) {
+export function derive({ agenda, curator, companies, places, topics, handEvents, handOrgs, handPeople, curation, pipeline = { ideas: [], drafts: [], checks: [], reviews: [], articles: [] }, placeNews = [] }) {
     const files = {}
     const report = { speaker_organisations: { matched: [], unmatched: [], near_misses: [] }, places: { unmatched_where: [] }, tracks: { mapped: [], unmapped: [] }, company_sessions: { resolved: [], unresolved: [] }, people: { merged_listings: [] }, evidence_names: { matched: [], unmatched: [] }, hosted_by: [], handles_dropped: 0 }
 
@@ -319,8 +319,41 @@ export function derive({ agenda, curator, companies, places, topics, handEvents,
     const KEEP = new Set(['country', 'region', 'city', 'district', 'municipality', 'borough'])
     const countryOf = id => { for (let x = places.find(p => p.id === id), n = 0; x && n < 12; x = places.find(p => p.id === String(x.located_in || '').replace(/^place:/, '')), n++) { if (x.country) return x.country } return null }
     files['data/site/places-registry.json'] = { $schema: '../schemas/places-registry.schema.json', index: Object.fromEntries(places.filter(p => KEEP.has(p.kind)).flatMap(p => [[p.id, p.id], ...(p.aliases || []).map(a => [a, p.id])]).sort(([a], [b]) => byKey(a, b))), places: places.filter(p => KEEP.has(p.kind)).sort((a, b) => byKey(a.id, b.id)).map(p => ({ id: p.id, name: p.name, kind: p.kind, parent: p.located_in || null, country: p.country || countryOf(p.id), timezone: p.timezone || null, aliases: p.aliases || [], seat: p.seat || null, at: p.at || (p.seat && (places.find(q => q.id === String(p.seat).replace(/^place:/, '')) || {}).at) || null, wikidata: p.wikidata ? p.wikidata.id : null })), derived: { by: BY, from: ['data/places/'] } }
+    files['data/site/story-counts-by-place.json'] = storyCounts(files['data/site/places-registry.json'], placeNews, pipeline.articles)
     files['data/websummit-only.json'] = websummitOnly({ files, companies, places, handEvents, handOrgs, handPeople })
     return { files }
+}
+
+// Stories per place for the map (cl-6.designer, 27 Nov 2026): local_stories is the length of the place's own ai_news list (what the
+// place's page shows; the map uses it), articles are the readers' articles tagged to the place in their front matter (town, else
+// region), shown on hover. rolled_up counts each story once for the place and every place above it (registry parent chain).
+export function storyCounts(registry, placeNews, articles) {
+    const idx = registry.index, row = Object.fromEntries(registry.places.map(p => [p.id, p]))
+    const chain = id => { const out = []; for (let x = row[id], n = 0; x && n < 12; x = row[x.parent && String(x.parent).replace(/^place:/, '')], n++) out.push(x.id); return out }
+    const own = {}, rolled = {}, unresolved = { by_place_files: [], articles: [] }
+    const at = (id, k) => (own[id] ||= { stories: new Map(), articles: new Set() })[k]
+    const roll = (id, k, key) => { for (const c of chain(id)) ((rolled[c] ||= { stories: new Set(), articles: new Set() })[k]).add(key) }
+    for (const f of placeNews) {
+        const id = idx[f.id]
+        if (!id) { unresolved.by_place_files.push(f.id); continue }
+        for (const n of f.news) { at(id, 'stories').set(n.key + '|' + f.id, n.date); roll(id, 'stories', n.key) }
+    }
+    let placed = 0
+    for (const a of articles) {
+        const slug = a.path.replace(/^content\/articles\//, '').replace(/\.md$/, ''), want = a.fm.town || a.fm.region
+        if (!want) continue
+        const id = idx[String(want).toLowerCase()]
+        if (!id) { unresolved.articles.push(`${slug}: ${want}`); continue }
+        at(id, 'articles').add(slug); roll(id, 'articles', slug); placed++
+    }
+    const places = {}
+    for (const id of Object.keys(rolled).sort(byKey)) {
+        const p = row[id], o = own[id] || { stories: new Map(), articles: new Set() }, byDate = {}
+        for (const d of o.stories.values()) if (d) byDate[d] = (byDate[d] || 0) + 1
+        places[id] = { name: p.name, kind: p.kind, parent: p.parent, at: p.at, local_stories: o.stories.size, articles: o.articles.size, local_by_date: Object.fromEntries(Object.entries(byDate).sort(([a], [b]) => byKey(a, b))), rolled_up: { local_stories: rolled[id].stories.size, articles: rolled[id].articles.size } }
+    }
+    const distinct = new Set(placeNews.flatMap(f => f.news.map(n => n.key)))
+    return { $schema: '../schemas/story-counts-by-place.schema.json', map_uses: 'local_stories', totals: { local_stories_distinct: distinct.size, articles_total: articles.length, articles_placed: placed }, unresolved, places, derived: { by: BY, from: ['data/by-place/', 'content/articles/', 'data/places/'] } }
 }
 
 // What rests only on websummit.com (Dinis, 11 Nov 2026 ~18:50; board/passes/2026-11-11-only-websummit-sourced-comes-off.md):

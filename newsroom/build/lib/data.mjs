@@ -58,6 +58,15 @@ export function readPipeline() {
     }
 }
 
+// each place's own stories (data/by-place/<id>.json, ai_news: written by the places' agents, read here only to count them)
+export function readByPlace() {
+    const dir = R('data/by-place')
+    if (!fs.existsSync(dir)) return []
+    return fs.readdirSync(dir).filter(f => f.endsWith('.json')).sort().map(f => { try { return JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')) } catch { return null } })
+        .filter(d => d && typeof d.id === 'string' && Array.isArray(d.ai_news))
+        .map(d => ({ id: d.id, news: d.ai_news.map(n => ({ key: n.url || n.title, date: String(n.date || '').slice(0, 10) })) }))
+}
+
 export function derivationInputs() {
     const isHand = x => !x.derived
     return {
@@ -70,6 +79,7 @@ export function derivationInputs() {
         handOrgs: readFolder('organisation').filter(isHand),
         handPeople: readFolder('person').filter(isHand),
         pipeline: readPipeline(),
+        placeNews: readByPlace(),
         curation: { organisations: readJSON('data/curation/organisations.json'), events: readJSON('data/curation/events.json'), speakers: readJSON('data/curation/speakers.json') },
     }
 }

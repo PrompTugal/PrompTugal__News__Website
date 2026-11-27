@@ -1,0 +1,923 @@
+{
+  "$schema": "../schemas/story-counts-by-place.schema.json",
+  "map_uses": "local_stories",
+  "totals": {
+    "local_stories_distinct": 299,
+    "articles_total": 117,
+    "articles_placed": 18
+  },
+  "unresolved": {
+    "by_place_files": [],
+    "articles": []
+  },
+  "places": {
+    "albufeira": {
+      "name": "Albufeira",
+      "kind": "municipality",
+      "parent": "place:algarve",
+      "at": [
+        -8.25,
+        37.089
+      ],
+      "local_stories": 6,
+      "articles": 0,
+      "local_by_date": {
+        "2024-05-02": 1,
+        "2026-02-24": 1,
+        "2026-06-11": 1,
+        "2026-06-16": 1,
+        "2026-10-20": 1,
+        "2026-11-02": 1
+      },
+      "rolled_up": {
+        "local_stories": 6,
+        "articles": 0
+      }
+    },
+    "alcoutim": {
+      "name": "Alcoutim",
+      "kind": "municipality",
+      "parent": "place:algarve",
+      "at": [
+        -7.471,
+        37.471
+      ],
+      "local_stories": 7,
+      "articles": 2,
+      "local_by_date": {
+        "2025-05-08": 1,
+        "2026-03-25": 1,
+        "2026-06-09": 1,
+        "2026-06-12": 1,
+        "2026-09-18": 1,
+        "2026-09-25": 2
+      },
+      "rolled_up": {
+        "local_stories": 7,
+        "articles": 2
+      }
+    },
+    "algarve": {
+      "name": "Algarve",
+      "kind": "region",
+      "parent": "place:portugal",
+      "at": [
+        -8.0111,
+        37.2338
+      ],
+      "local_stories": 19,
+      "articles": 2,
+      "local_by_date": {
+        "2025-10-01": 1,
+        "2025-11-18": 1,
+        "2026-02-23": 1,
+        "2026-03-19": 1,
+        "2026-03-20": 1,
+        "2026-03-26": 1,
+        "2026-04-16": 1,
+        "2026-04-23": 1,
+        "2026-05-06": 1,
+        "2026-07-03": 1,
+        "2026-07-10": 1,
+        "2026-07-17": 1,
+        "2026-07-22": 1,
+        "2026-09-10": 1,
+        "2026-09-24": 1,
+        "2026-10-12": 1,
+        "2026-10-19": 1,
+        "2026-11-06": 1,
+        "2026-11-11": 1
+      },
+      "rolled_up": {
+        "local_stories": 125,
+        "articles": 14
+      }
+    },
+    "aljezur": {
+      "name": "Aljezur",
+      "kind": "municipality",
+      "parent": "place:algarve",
+      "at": [
+        -8.803,
+        37.318
+      ],
+      "local_stories": 5,
+      "articles": 0,
+      "local_by_date": {
+        "2022-09-30": 1,
+        "2025-10-08": 1,
+        "2026-02-23": 1,
+        "2026-03-20": 1,
+        "2026-03-31": 1
+      },
+      "rolled_up": {
+        "local_stories": 5,
+        "articles": 0
+      }
+    },
+    "aveiro": {
+      "name": "Aveiro",
+      "kind": "city",
+      "parent": "place:portugal",
+      "at": [
+        -8.654,
+        40.64
+      ],
+      "local_stories": 6,
+      "articles": 0,
+      "local_by_date": {
+        "2026-01-28": 1,
+        "2026-03-25": 1,
+        "2026-06-22": 1,
+        "2026-07-24": 1,
+        "2026-11-03": 1,
+        "2026-11-15": 1
+      },
+      "rolled_up": {
+        "local_stories": 6,
+        "articles": 0
+      }
+    },
+    "beja": {
+      "name": "Beja",
+      "kind": "city",
+      "parent": "place:portugal",
+      "at": [
+        -7.863,
+        38.015
+      ],
+      "local_stories": 8,
+      "articles": 0,
+      "local_by_date": {
+        "2025-04-29": 1,
+        "2025-11-27": 1,
+        "2025-12-05": 1,
+        "2026-03-18": 1,
+        "2026-04-28": 1,
+        "2026-09-02": 1,
+        "2026-10-20": 1,
+        "2026-11-14": 1
+      },
+      "rolled_up": {
+        "local_stories": 8,
+        "articles": 0
+      }
+    },
+    "braga": {
+      "name": "Braga",
+      "kind": "city",
+      "parent": "place:portugal",
+      "at": [
+        -8.426,
+        41.551
+      ],
+      "local_stories": 8,
+      "articles": 0,
+      "local_by_date": {
+        "2025-01-29": 1,
+        "2025-08-18": 1,
+        "2026-02-19": 1,
+        "2026-07-07": 1,
+        "2026-08-19": 1,
+        "2026-10-09": 1,
+        "2026-11-05": 1,
+        "2026-11-10": 1
+      },
+      "rolled_up": {
+        "local_stories": 8,
+        "articles": 0
+      }
+    },
+    "braganca": {
+      "name": "Bragança",
+      "kind": "city",
+      "parent": "place:portugal",
+      "at": [
+        -6.757,
+        41.806
+      ],
+      "local_stories": 12,
+      "articles": 0,
+      "local_by_date": {
+        "2025-04-10": 1,
+        "2025-09-16": 1,
+        "2025-12-06": 1,
+        "2026-02-28": 1,
+        "2026-04-10": 1,
+        "2026-05-08": 1,
+        "2026-05-19": 1,
+        "2026-06-03": 1,
+        "2026-07-18": 1,
+        "2026-09-09": 1,
+        "2026-09-22": 1,
+        "2026-10-28": 1
+      },
+      "rolled_up": {
+        "local_stories": 12,
+        "articles": 0
+      }
+    },
+    "castelo-branco": {
+      "name": "Castelo Branco",
+      "kind": "city",
+      "parent": "place:portugal",
+      "at": [
+        -7.508,
+        39.822
+      ],
+      "local_stories": 7,
+      "articles": 0,
+      "local_by_date": {
+        "2025-02-04": 1,
+        "2025-02-14": 1,
+        "2025-03-30": 1,
+        "2025-04-07": 1,
+        "2026-01-16": 1,
+        "2026-08-21": 1,
+        "2026-09-10": 1
+      },
+      "rolled_up": {
+        "local_stories": 7,
+        "articles": 0
+      }
+    },
+    "castro-marim": {
+      "name": "Castro Marim",
+      "kind": "municipality",
+      "parent": "place:algarve",
+      "at": [
+        -7.443,
+        37.218
+      ],
+      "local_stories": 4,
+      "articles": 0,
+      "local_by_date": {
+        "2024-01-25": 1,
+        "2026-07-02": 1,
+        "2026-07-07": 1,
+        "2026-07-11": 1
+      },
+      "rolled_up": {
+        "local_stories": 4,
+        "articles": 0
+      }
+    },
+    "coimbra": {
+      "name": "Coimbra",
+      "kind": "city",
+      "parent": "place:portugal",
+      "at": [
+        -8.429,
+        40.205
+      ],
+      "local_stories": 12,
+      "articles": 0,
+      "local_by_date": {
+        "2024-06-28": 1,
+        "2025-06-15": 1,
+        "2025-06-17": 1,
+        "2026-04-30": 1,
+        "2026-05-08": 1,
+        "2026-06-08": 1,
+        "2026-08-03": 1,
+        "2026-09-01": 1,
+        "2026-09-11": 1,
+        "2026-09-18": 1,
+        "2026-11-02": 1,
+        "2026-11-11": 1
+      },
+      "rolled_up": {
+        "local_stories": 12,
+        "articles": 0
+      }
+    },
+    "evora": {
+      "name": "Évora",
+      "kind": "city",
+      "parent": "place:portugal",
+      "at": [
+        -7.909,
+        38.571
+      ],
+      "local_stories": 6,
+      "articles": 0,
+      "local_by_date": {
+        "2025-11-28": 1,
+        "2026-02-06": 1,
+        "2026-03-06": 1,
+        "2026-04-20": 1,
+        "2026-10-02": 1,
+        "2026-10-16": 1
+      },
+      "rolled_up": {
+        "local_stories": 6,
+        "articles": 0
+      }
+    },
+    "faro": {
+      "name": "Faro",
+      "kind": "municipality",
+      "parent": "place:algarve",
+      "at": [
+        -7.935,
+        37.019
+      ],
+      "local_stories": 28,
+      "articles": 1,
+      "local_by_date": {
+        "2025-03-19": 1,
+        "2025-06-17": 1,
+        "2026-02-16": 1,
+        "2026-02-18": 1,
+        "2026-03-19": 1,
+        "2026-03-20": 1,
+        "2026-03-26": 1,
+        "2026-04-08": 1,
+        "2026-04-23": 1,
+        "2026-05-29": 1,
+        "2026-06-19": 1,
+        "2026-06-20": 1,
+        "2026-06-22": 1,
+        "2026-07-10": 1,
+        "2026-07-17": 2,
+        "2026-07-18": 1,
+        "2026-09-10": 1,
+        "2026-09-24": 2,
+        "2026-10-06": 1,
+        "2026-10-08": 1,
+        "2026-10-16": 1,
+        "2026-10-22": 1,
+        "2026-10-31": 1,
+        "2026-11-06": 1,
+        "2026-11-12": 1,
+        "2026-11-16": 1
+      },
+      "rolled_up": {
+        "local_stories": 28,
+        "articles": 1
+      }
+    },
+    "guarda": {
+      "name": "Guarda",
+      "kind": "city",
+      "parent": "place:portugal",
+      "at": [
+        -7.268,
+        40.538
+      ],
+      "local_stories": 5,
+      "articles": 0,
+      "local_by_date": {
+        "2025-02-14": 1,
+        "2025-06-23": 1,
+        "2025-09-30": 1,
+        "2026-04-05": 1,
+        "2026-04-08": 1
+      },
+      "rolled_up": {
+        "local_stories": 5,
+        "articles": 0
+      }
+    },
+    "lagoa": {
+      "name": "Lagoa",
+      "kind": "municipality",
+      "parent": "place:algarve",
+      "at": [
+        -8.453,
+        37.135
+      ],
+      "local_stories": 4,
+      "articles": 0,
+      "local_by_date": {
+        "2025-02-28": 1,
+        "2025-05-20": 1,
+        "2025-05-28": 1,
+        "2025-12-05": 1
+      },
+      "rolled_up": {
+        "local_stories": 4,
+        "articles": 0
+      }
+    },
+    "lagos": {
+      "name": "Lagos",
+      "kind": "municipality",
+      "parent": "place:algarve",
+      "at": [
+        -8.673,
+        37.102
+      ],
+      "local_stories": 3,
+      "articles": 1,
+      "local_by_date": {
+        "2025-04-15": 1,
+        "2025-10-23": 1,
+        "2025-11-04": 1
+      },
+      "rolled_up": {
+        "local_stories": 3,
+        "articles": 1
+      }
+    },
+    "leiria": {
+      "name": "Leiria",
+      "kind": "city",
+      "parent": "place:portugal",
+      "at": [
+        -8.807,
+        39.744
+      ],
+      "local_stories": 9,
+      "articles": 0,
+      "local_by_date": {
+        "2026-02-02": 1,
+        "2026-02-12": 1,
+        "2026-06": 1,
+        "2026-07-03": 1,
+        "2026-07-25": 1,
+        "2026-09-29": 1,
+        "2026-10-13": 1,
+        "2026-10-30": 1,
+        "2026-11-02": 1
+      },
+      "rolled_up": {
+        "local_stories": 9,
+        "articles": 0
+      }
+    },
+    "lisbon": {
+      "name": "Lisbon",
+      "kind": "city",
+      "parent": "place:portugal",
+      "at": [
+        -9.139,
+        38.722
+      ],
+      "local_stories": 10,
+      "articles": 0,
+      "local_by_date": {
+        "2026-02-26": 1,
+        "2026-03-03": 1,
+        "2026-04-22": 1,
+        "2026-04-28": 1,
+        "2026-06-01": 1,
+        "2026-07-02": 1,
+        "2026-07-18": 1,
+        "2026-07-24": 1,
+        "2026-11-05": 1,
+        "2026-11-16": 1
+      },
+      "rolled_up": {
+        "local_stories": 10,
+        "articles": 0
+      }
+    },
+    "loule": {
+      "name": "Loulé",
+      "kind": "municipality",
+      "parent": "place:algarve",
+      "at": [
+        -8.023,
+        37.138
+      ],
+      "local_stories": 13,
+      "articles": 4,
+      "local_by_date": {
+        "2023-04-14": 1,
+        "2023-05-18": 1,
+        "2024-11-18": 1,
+        "2025-01-23": 1,
+        "2025-03-11": 1,
+        "2025-07-14": 1,
+        "2025-12-22": 1,
+        "2026-02-22": 1,
+        "2026-07-28": 1,
+        "2026-09-24": 2,
+        "2026-11-14": 1,
+        "2026-11-16": 1
+      },
+      "rolled_up": {
+        "local_stories": 18,
+        "articles": 4
+      }
+    },
+    "monchique": {
+      "name": "Monchique",
+      "kind": "municipality",
+      "parent": "place:algarve",
+      "at": [
+        -8.555,
+        37.317
+      ],
+      "local_stories": 5,
+      "articles": 1,
+      "local_by_date": {
+        "2021-11-02": 1,
+        "2024-05-29": 1,
+        "2025-03-27": 1,
+        "2025-10-21": 1,
+        "2026-03-23": 1
+      },
+      "rolled_up": {
+        "local_stories": 5,
+        "articles": 1
+      }
+    },
+    "olhao": {
+      "name": "Olhão",
+      "kind": "municipality",
+      "parent": "place:algarve",
+      "at": [
+        -7.841,
+        37.026
+      ],
+      "local_stories": 11,
+      "articles": 1,
+      "local_by_date": {
+        "2021-05-12": 1,
+        "2023-01-19": 1,
+        "2024-04-04": 1,
+        "2026-02-09": 1,
+        "2026-02-23": 1,
+        "2026-02-25": 1,
+        "2026-03-02": 1,
+        "2026-03-03": 1,
+        "2026-10-19": 1,
+        "2026-11-16": 1,
+        "2026-11-17": 1
+      },
+      "rolled_up": {
+        "local_stories": 11,
+        "articles": 1
+      }
+    },
+    "portalegre": {
+      "name": "Portalegre",
+      "kind": "city",
+      "parent": "place:portugal",
+      "at": [
+        -7.431,
+        39.294
+      ],
+      "local_stories": 8,
+      "articles": 0,
+      "local_by_date": {
+        "2025-07-15": 1,
+        "2026-05-21": 1,
+        "2026-09-01": 2,
+        "2026-09-18": 1,
+        "2026-10-23": 1,
+        "2026-11-06": 1,
+        "2026-11-16": 1
+      },
+      "rolled_up": {
+        "local_stories": 8,
+        "articles": 0
+      }
+    },
+    "portimao": {
+      "name": "Portimão",
+      "kind": "municipality",
+      "parent": "place:algarve",
+      "at": [
+        -8.537,
+        37.138
+      ],
+      "local_stories": 10,
+      "articles": 1,
+      "local_by_date": {
+        "2025-01-22": 1,
+        "2025-08-21": 1,
+        "2026-02-12": 1,
+        "2026-02-23": 1,
+        "2026-03-04": 1,
+        "2026-06-09": 1,
+        "2026-07-03": 1,
+        "2026-07-23": 1,
+        "2026-10-19": 1,
+        "2026-11-10": 1
+      },
+      "rolled_up": {
+        "local_stories": 10,
+        "articles": 1
+      }
+    },
+    "porto": {
+      "name": "Porto",
+      "kind": "city",
+      "parent": "place:portugal",
+      "at": [
+        -8.611,
+        41.15
+      ],
+      "local_stories": 15,
+      "articles": 0,
+      "local_by_date": {
+        "2026-05-20": 1,
+        "2026-05-27": 1,
+        "2026-07-08": 3,
+        "2026-07-17": 1,
+        "2026-08-19": 1,
+        "2026-09-01": 1,
+        "2026-09-17": 1,
+        "2026-10-26": 1,
+        "2026-10-28": 1,
+        "2026-11-02": 1,
+        "2026-11-06": 1,
+        "2026-11-10": 1,
+        "2026-11-16": 1
+      },
+      "rolled_up": {
+        "local_stories": 15,
+        "articles": 0
+      }
+    },
+    "portugal": {
+      "name": "Portugal",
+      "kind": "country",
+      "parent": null,
+      "at": null,
+      "local_stories": 22,
+      "articles": 4,
+      "local_by_date": {
+        "2025-10-21": 1,
+        "2025-12-14": 1,
+        "2026-01-08": 2,
+        "2026-02-26": 1,
+        "2026-03-03": 1,
+        "2026-03-12": 1,
+        "2026-04": 1,
+        "2026-04-08": 1,
+        "2026-04-22": 1,
+        "2026-05": 1,
+        "2026-05-05": 1,
+        "2026-06-01": 1,
+        "2026-06-19": 1,
+        "2026-06-26": 1,
+        "2026-07-01": 1,
+        "2026-07-15": 1,
+        "2026-07-18": 1,
+        "2026-08-05": 1,
+        "2026-09-15": 1,
+        "2026-09-25": 1,
+        "2026-11-03": 1
+      },
+      "rolled_up": {
+        "local_stories": 299,
+        "articles": 18
+      }
+    },
+    "quarteira": {
+      "name": "Quarteira",
+      "kind": "city",
+      "parent": "place:loule",
+      "at": [
+        -8.103,
+        37.069
+      ],
+      "local_stories": 6,
+      "articles": 0,
+      "local_by_date": {
+        "2020-05-05": 1,
+        "2025-03-06": 1,
+        "2026-03-11": 1,
+        "2026-03-20": 1,
+        "2026-06-23": 1,
+        "2026-07-28": 1
+      },
+      "rolled_up": {
+        "local_stories": 6,
+        "articles": 0
+      }
+    },
+    "santarem": {
+      "name": "Santarém",
+      "kind": "city",
+      "parent": "place:portugal",
+      "at": [
+        -8.686,
+        39.236
+      ],
+      "local_stories": 9,
+      "articles": 0,
+      "local_by_date": {
+        "2025-10-01": 1,
+        "2025-12-04": 1,
+        "2026-02-25": 1,
+        "2026-03-05": 1,
+        "2026-08-08": 1,
+        "2026-08-17": 1,
+        "2026-10-02": 1,
+        "2026-11-09": 1,
+        "2026-11-13": 1
+      },
+      "rolled_up": {
+        "local_stories": 9,
+        "articles": 0
+      }
+    },
+    "sao-bras-de-alportel": {
+      "name": "São Brás de Alportel",
+      "kind": "municipality",
+      "parent": "place:algarve",
+      "at": [
+        -7.888,
+        37.153
+      ],
+      "local_stories": 7,
+      "articles": 0,
+      "local_by_date": {
+        "2024-04-08": 1,
+        "2024-10-15": 1,
+        "2025-06-26": 1,
+        "2026-03-02": 1,
+        "2026-04-29": 1,
+        "2026-11-02": 1,
+        "2026-11-16": 1
+      },
+      "rolled_up": {
+        "local_stories": 7,
+        "articles": 0
+      }
+    },
+    "setubal": {
+      "name": "Setúbal",
+      "kind": "city",
+      "parent": "place:portugal",
+      "at": [
+        -8.893,
+        38.524
+      ],
+      "local_stories": 9,
+      "articles": 0,
+      "local_by_date": {
+        "2025-03-11": 1,
+        "2025-07-16": 1,
+        "2026-01-28": 1,
+        "2026-02-24": 1,
+        "2026-03-31": 1,
+        "2026-07-14": 1,
+        "2026-10-28": 1,
+        "2026-11-05": 1,
+        "2026-11-06": 1
+      },
+      "rolled_up": {
+        "local_stories": 9,
+        "articles": 0
+      }
+    },
+    "silves": {
+      "name": "Silves",
+      "kind": "municipality",
+      "parent": "place:algarve",
+      "at": [
+        -8.44,
+        37.189
+      ],
+      "local_stories": 2,
+      "articles": 0,
+      "local_by_date": {
+        "2024-08-14": 1,
+        "2026-03-17": 1
+      },
+      "rolled_up": {
+        "local_stories": 2,
+        "articles": 0
+      }
+    },
+    "tavira": {
+      "name": "Tavira",
+      "kind": "municipality",
+      "parent": "place:algarve",
+      "at": [
+        -7.649,
+        37.127
+      ],
+      "local_stories": 4,
+      "articles": 0,
+      "local_by_date": {
+        "2021-11-26": 1,
+        "2024-12-20": 1,
+        "2025-05": 1,
+        "2026-04-15": 1
+      },
+      "rolled_up": {
+        "local_stories": 4,
+        "articles": 0
+      }
+    },
+    "viana-do-castelo": {
+      "name": "Viana do Castelo",
+      "kind": "city",
+      "parent": "place:portugal",
+      "at": [
+        -8.832,
+        41.693
+      ],
+      "local_stories": 7,
+      "articles": 0,
+      "local_by_date": {
+        "2025-05-01": 1,
+        "2025-11-18": 1,
+        "2026-02-18": 1,
+        "2026-04-09": 1,
+        "2026-07-24": 1,
+        "2026-09-04": 1,
+        "2026-10-14": 1
+      },
+      "rolled_up": {
+        "local_stories": 7,
+        "articles": 0
+      }
+    },
+    "vila-real": {
+      "name": "Vila Real",
+      "kind": "city",
+      "parent": "place:portugal",
+      "at": [
+        -7.745,
+        41.301
+      ],
+      "local_stories": 14,
+      "articles": 0,
+      "local_by_date": {
+        "2025-02-14": 1,
+        "2025-05-19": 1,
+        "2026-01-08": 1,
+        "2026-01-12": 1,
+        "2026-01-14": 1,
+        "2026-01-27": 1,
+        "2026-02-03": 1,
+        "2026-03-10": 1,
+        "2026-06-24": 1,
+        "2026-09-09": 1,
+        "2026-09-16": 1,
+        "2026-09-18": 1,
+        "2026-10-16": 1,
+        "2026-10-28": 1
+      },
+      "rolled_up": {
+        "local_stories": 14,
+        "articles": 0
+      }
+    },
+    "vila-real-de-santo-antonio": {
+      "name": "Vila Real de Santo António",
+      "kind": "municipality",
+      "parent": "place:algarve",
+      "at": [
+        -7.418,
+        37.195
+      ],
+      "local_stories": 4,
+      "articles": 1,
+      "local_by_date": {
+        "2024-03-15": 1,
+        "2025-12-17": 1,
+        "2026-05-18": 1,
+        "2026-09-25": 1
+      },
+      "rolled_up": {
+        "local_stories": 4,
+        "articles": 1
+      }
+    },
+    "viseu": {
+      "name": "Viseu",
+      "kind": "city",
+      "parent": "place:portugal",
+      "at": [
+        -7.912,
+        40.661
+      ],
+      "local_stories": 11,
+      "articles": 0,
+      "local_by_date": {
+        "2026": 1,
+        "2025-02-21": 1,
+        "2025-12-10": 1,
+        "2026-02-06": 1,
+        "2026-02-12": 1,
+        "2026-03-14": 1,
+        "2026-05-15": 1,
+        "2026-05-22": 1,
+        "2026-09-08": 1,
+        "2026-09-29": 1,
+        "2026-10-29": 1
+      },
+      "rolled_up": {
+        "local_stories": 11,
+        "articles": 0
+      }
+    }
+  },
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "data/by-place/",
+      "content/articles/",
+      "data/places/"
+    ]
+  }
+}

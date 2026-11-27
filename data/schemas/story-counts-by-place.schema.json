@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/story-counts-by-place.schema.json",
+  "title": "Stories per place for the map (data/site/story-counts-by-place.json, derived by newsroom/tools/derive.mjs)",
+  "description": "local_stories is what the place's own page lists (data/by-place/<id>.json, ai_news) and is what the map draws; articles are the readers' articles tagged to the place in their front matter; rolled_up counts each story once for the place and every place above it.",
+  "type": "object",
+  "required": ["map_uses", "totals", "unresolved", "places", "derived"],
+  "properties": {
+    "$schema": { "$ref": "common.schema.json#/$defs/schema_link" },
+    "map_uses": { "const": "local_stories" },
+    "totals": {
+      "type": "object",
+      "required": ["local_stories_distinct", "articles_total", "articles_placed"],
+      "properties": {
+        "local_stories_distinct": { "type": "integer", "minimum": 0 },
+        "articles_total": { "type": "integer", "minimum": 0 },
+        "articles_placed": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": false
+    },
+    "unresolved": {
+      "type": "object",
+      "required": ["by_place_files", "articles"],
+      "properties": {
+        "by_place_files": { "type": "array", "items": { "type": "string" } },
+        "articles": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": false
+    },
+    "places": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["name", "kind", "parent", "at", "local_stories", "articles", "local_by_date", "rolled_up"],
+        "properties": {
+          "name": { "type": "string" },
+          "kind": { "type": "string" },
+          "parent": { "type": ["string", "null"] },
+          "at": { "type": ["array", "null"], "items": { "type": "number" }, "minItems": 2, "maxItems": 2 },
+          "local_stories": { "type": "integer", "minimum": 0 },
+          "articles": { "type": "integer", "minimum": 0 },
+          "local_by_date": { "type": "object", "additionalProperties": { "type": "integer", "minimum": 1 } },
+          "rolled_up": {
+            "type": "object",
+            "required": ["local_stories", "articles"],
+            "properties": { "local_stories": { "type": "integer", "minimum": 0 }, "articles": { "type": "integer", "minimum": 0 } },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "derived": { "$ref": "common.schema.json#/$defs/derived" }
+  },
+  "additionalProperties": false
+}
