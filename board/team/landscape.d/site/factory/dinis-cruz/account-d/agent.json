@@ -40,9 +40,9 @@
     "project": "PrompTugal__News__Website board/team/landscape.d/ (branch dev, released with newsroom/tools/release.sh)",
     "home": "SovereignWebsite/Site__Agent__Landscape (not reachable: add_repo with push is refused by the harness classifier; this area is a copy of what the home will hold)"
   },
-  "wake": "none scheduled (the brief says no scheduled wake); it works when a message or Dinis wakes the session",
+  "wake": "none scheduled; only the maestro (cl-4.maestro, account-d, since 25 Nov 23:34 UTC) runs on a schedule and wakes the others by message (Dinis, relayed by d.helm, ~23:50 UTC 26 Nov)",
   "state": "idle, waiting on answers",
-  "updated": "2026-11-24T14:03Z",
+  "updated": "2026-11-27T00:06Z",
   "waiting_on": [
     {
       "who": "Dinis",
@@ -77,6 +77,7 @@
   "contradictions": [
     "the gate's status schema accepts only the PrompTugal.dinis domain in status.json's agent field, so status.json says landscape.d@PrompTugal.dinis while commits and this file use landscape.d@AgentiCCells.dinis",
     "my title is d.landscape since 23 Nov 16:52; keys, trailers and policy are unchanged by d.helm's relay",
-    "the home repository's README title reads plural (Site__Agents__Landscape) while role homes are singular (Site__Agent__Landscape)"
+    "the home repository's README title reads plural (Site__Agents__Landscape) while role homes are singular (Site__Agent__Landscape)",
+    "the maestro changed: the old d.maestro session is archived; messages and links now go to cl-4.maestro (session_015gaHdaUZWyhvN7nQ4fEmMo)"
   ]
 }
