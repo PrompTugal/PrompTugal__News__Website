@@ -29,3 +29,34 @@ Agile as "a conceptual framework for setting up a team, for setting up pieces of
 ## Part 3: coordination
 
 "We need to find that way of how can I now continue this conversation in my [account] F": this brief is the hand-over. cl-6.maestro (account F) runs work cells (decisions/2026-11-27-work-cells.md in Site__Agent__Maestro__Claude__6); one project, not two.
+
+## Part 4: the names, and how the holon fits (Dinis, 27 Nov ~13:16 UTC)
+
+Dinis: "I really like the Holon terms and Agile Cells also works really well and it is a good description of what we are talking about: Multiple Types of Cells working together in an Agile way." Asked: "How does Holon fit in this architecture?"
+
+**Agile Cells** is the method: multiple types of cells working together in an agile way. **Holon** is the shape every unit in it shares: a whole made of parts, and itself a part of something larger (Arthur Koestler, *The Ghost in the Machine*, 1967). A fractal hierarchy of holons is a **holarchy**.
+
+### Every level is a holon
+
+| Altitude | Holon | Made of | Part of |
+|---|---|---|---|
+| code | a function, a script, a check | lines | an LLM call or a loop |
+| LLM | one model call with its prompt | code and context | a loop |
+| loop | an agent's tool loop until a check passes | LLM calls and tools | an agent |
+| agent | one session or sub-agent with a role and a policy | loops | a cell |
+| **cell** | one agentic cell: one job, its roles, its ABP | agents (and humans) | a team |
+| **team** (an Agile Cells team, ephemeral) | the cells working one brief to one deliverable, on one board | cells | a programme |
+| programme / account | a maestro's account, or a project like PrompTugal | teams | the organisation |
+| organisation | Dinis's estate | programmes | (its customers' world) |
+
+### What every holon has (one schema, at every level)
+
+`holon.json`: id, level, parent, children; **brief** (the objective in the owner's words); **policy** (its ABP: what it may and may not touch); **board** (cards: to do, doing, done, stopped); **state** (in files, so it can pause, resume and move across accounts); **deliverables** (a diff, an artefact, a record); **RACI** (who is accountable at this level); **brief up** (what it reports to its parent, by time window); **escalations** (what it cannot settle inside its policy).
+
+### What the holon idea gives the architecture
+
+1. **Janus-faced autonomy** (Koestler's term): each holon is self-governing inside its boundary (its ABP) and serves its parent's brief. This is the door test: a decision is made by the lowest holon whose policy covers it; only what crosses a boundary goes up. Most asks never reach Dinis.
+2. **Talk up and down, not sideways.** A holon reports to its parent and briefs its children; peers coordinate through the parent's channel. That is the one-channel design: an account's maestro is the parent of its teams, Site__Agent__Maestro is the parent channel of the accounts.
+3. **Fractal reuse.** The same schema, board and API at every level, so a node in one team's board can be a whole team ("Agile teams of Agile teams"), and a new agent pointed at the repository can stand up any level.
+4. **Stop, restart, move.** State lives in the holon's files, not in a session, so a team can stop at a card, resume tomorrow on another account, or be handed to new members.
+5. **The command centre is a view of the top holon.** Dinis sees escalations and decisions that crossed the top boundaries, and can open any holon to drill down; every level renders the same way.
