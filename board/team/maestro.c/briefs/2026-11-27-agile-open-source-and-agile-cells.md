@@ -84,3 +84,12 @@ Dinis, word for word: "for now let's not create the agilecells sites, let's firs
 - Agile Cells lives as a section of the AgenticCells site at agenticcells.org (AgentiCCells__Site__AgentiCCells-Org, e.g. /agile-cells/), marked draft and "in practice first".
 - No agilecells.* sites, addresses or brand pages yet; no market test; the domains plan (AgentiCCells__Site__Factory branch cl-3.factory/domains-plan) is parked, riskmandate.org too.
 - First real use: our own teams running as cells.
+
+## Part 8: build agilecells.org now (Dinis, 27 Nov ~14:55 UTC)
+
+Dinis changed his mind on Part 7: "agile sells ... really well ... it will also be a really much easier thing to understand ... we can make the case that agile ... never scales on all the comms and teams around it. And now we can have all that stuff. So I think we probably should just build it and then leave the agentic cells as it is, or maybe to make a connection ... we just do the .org for now. So we just start with the agilecells.org. We don't put the commercial element for now."
+
+- **agilecells.org** is built now: the open method and spec, its own site in the AgentiCCells organisation, kept by c.agile-cells. No commercial pages.
+- **agenticcells.org** stays as it is, linking to agilecells.org as "the method we use"; agilecells.org links back.
+- **The thesis:** agile never scaled because of the communication and coordination around teams; agents now carry that load, so agile teams can be bigger, shorter-lived, restartable and distributed.
+- agilecells.com, agilecells.site and riskmandate.org stay parked; no .ai.
