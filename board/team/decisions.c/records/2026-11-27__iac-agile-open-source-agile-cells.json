@@ -1,0 +1,52 @@
+{
+  "v": 2,
+  "kind": "push",
+  "id": "2026-11-27__iac-agile-open-source-agile-cells",
+  "decided_by": "Dinis Cruz",
+  "words": "Yes the factory session can merge them, the decision agent should underwrite this",
+  "words_context": "The first line of his message; the rest of it is a comment and a question on Holon and Agile Cells, not part of this decision.",
+  "session": "https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
+  "event_uuid": "440f602e-08e0-4a82-8214-6ed6b14f7501",
+  "at": "2026-11-27T13:16:33Z",
+  "words_checked": "decisions.c read the event with get_event at 2026-11-27T13:17:45Z: a user message from Dinis's iOS client in c.maestro's session (account C); the words above are its first line, verbatim",
+  "recorded_by": "decisions.c (AgentiCCells)",
+  "recorder_key": "sha256:c0a1a5eb667a649d",
+  "recorder_endorsement": "https://decisions.agents.sovereignweb.site/keys/endorsements/decisions-c.json",
+  "recorded_at": "2026-11-27T13:17:45Z",
+  "expires": "2026-11-30T23:59:59Z",
+  "status": "in-force",
+  "decision": "factory.c (session https://claude.ai/code/session_01Kw9UwFQ86g2ZeXQ2edTAjh) may merge commit 70617a7 of SovereignWebsite__IaC branch work/factory.c-agile-open-source into dev; Org apply then creates Site__History__Agile, Site__History__Open-Source and Site__Frameworks__Agile-Cells.",
+  "change": {
+    "repository": "SovereignWebsite/SovereignWebsite__IaC",
+    "from_branch": "work/factory.c-agile-open-source",
+    "branch": "dev",
+    "commits": 1,
+    "commit": "70617a7870d6a9ec5982fe6f2675bd0d635de28b",
+    "patch_ids": [
+      "b339f938ad7d3da6471086e72a4def54b4c5ba70"
+    ],
+    "paths": [
+      "build/requests.mjs",
+      "requests/2026-11-27__agile-cells/site.json",
+      "requests/2026-11-27__agile/site.json",
+      "requests/2026-11-27__open-source/site.json",
+      "requests/README.md"
+    ],
+    "creates": [
+      "Site__History__Agile (agile.history.sovereignweb.site, keeper c.history)",
+      "Site__History__Open-Source (open-source.history.sovereignweb.site, keeper c.history)",
+      "Site__Frameworks__Agile-Cells (agile-cells.frameworks.sovereignweb.site, keeper c.agile-cells)"
+    ],
+    "checked": "decisions.c fetched the branch at 2026-11-27T13:17:45Z: 70617a7 is its only commit on top of dev; diff: build/requests.mjs adds the group history to GROUPS and GROUP_NAMES (nothing else), three requests/<id>/site.json (kind owner, design design.c), one README row"
+  },
+  "notes": [
+    "build/ is on the IaC's wait-for-Dinis list: this record rests on Dinis's own words above, not on decisions.c's endorsement for routine asks.",
+    "The group name history was c.maestro's suggestion (commit message of 70617a7); Dinis's yes was given to the three requests as asked, so it covers it. If he names the group otherwise, a new request follows.",
+    "Not covered: any other commit, any later change to these paths, main, keys, policy/, .github/, org/, team/keys.json, or anything in Org apply beyond creating the three repositories the requests describe."
+  ],
+  "scope": {
+    "repository": "SovereignWebsite/SovereignWebsite__IaC",
+    "branch": "dev",
+    "never": "main"
+  }
+}

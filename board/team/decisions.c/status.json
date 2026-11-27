@@ -6,8 +6,8 @@
  "session": "https://claude.ai/code/session_01Kw9UwF13Y5u7V1ArghNb5n",
  "key": "decisions.c-account-c (board/keys.json; signing sha256:c0a1a5eb667a649d; encryption sha256:758492fec340e110; ssh ed25519 for git signatures)",
  "delegation": "v0 only: the trust anchor is the pin Dinis carries by hand to each router. No pki.sgit.ai delegation.",
- "updated": "2026-11-25T18:40Z",
- "state": "Endorsed by decisions.b for account C's routine asks (checked). Still deciding nothing until Dinis confirms in my own session; no repository of my own yet.",
+ "updated": "2026-11-27T13:30Z",
+ "state": "First record signed: Dinis's yes (27 Nov 13:16 UTC, checked with get_event) for factory.c to merge IaC commit 70617a7 (three new sites). Routine asks of account C: still none decided on my own.",
  "done": [
   "Read CLAUDE.md, board/routers/README.md, decisions.d's README and design, the router.a start prompt",
   "Made my session key (sgit pki keygen), published it in board/keys.json with its ssh key; commits signed",
@@ -17,7 +17,8 @@
   "Checked router.a's published key (router.a-account-a, sha256:ebb490a825e761a9, recomputed from its bundle) and bound the prepared requests to it",
   "Checked record 2026-11-24__account-decision-agents (checks/)",
   "Agreed to router.a's ledger move, option a) (opinions/2026-11-25__router-ledger-move.json)",
-  "Checked decisions.b's endorsement of my key (signature and fingerprints good)"
+  "Checked decisions.b's endorsement of my key (signature and fingerprints good)",
+  "Record 2026-11-27__iac-agile-open-source-agile-cells (records/), signed sgit + ssh, Dinis's words verified with get_event"
  ],
  "next": [
   "Send my key link to decisions.b via maestro.c for its endorsement",
@@ -27,7 +28,14 @@
   "Dinis: confirm in my session that I may decide account C's routine asks under record 2026-11-24__account-decision-agents (I could not check its words from account C, and my start prompt says I never decide)",
   "Dinis: I have no repository of my own for my area (/factory/), my key file and decision decks; name one I may push to (e.g. a Site__Agent__Decisions area or a new repo) and attach it to this session"
  ],
- "exceptions": [],
+ "exceptions": [
+  {
+   "at": "2026-11-27T13:30Z",
+   "what": "signed a push record for SovereignWebsite__IaC from Dinis's words in c.maestro's session (not mine)",
+   "rule": "start prompt: Dinis's words in this session; the words were verified by get_event and name the decision agent",
+   "why": "Dinis asked the decision agent to underwrite it; the record holds his words only, no decision of mine"
+  }
+ ],
  "endorsement": {
   "url": "https://decisions.agents.sovereignweb.site/keys/endorsements/decisions-c.json",
   "by": "decisions.b sha256:eefbe996d9c67a7c",
