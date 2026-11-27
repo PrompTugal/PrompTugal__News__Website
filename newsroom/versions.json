@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2364",
+    "date": "2026-11-27",
+    "time": "2026-11-27T02:09:23Z",
+    "what": "cl-6.dev@PrompTugal.dinis: home page: the map legend lists only what has a count; an enlarged Algarve beneath the map names the nine towns of the grid; the grid says its order ('Newest local news first · 9 of 17 towns'); blurbs end at a word in two lines, never inside a bracket (cl-6.designer's calls 2 and 3)",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "d21993c74"
+  },
+  {
     "version": "v0.1.2363",
     "date": "2026-11-27",
     "time": "2026-11-27T01:57:12Z",
