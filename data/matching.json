@@ -1949,6 +1949,11 @@
         "count": 3
       },
       {
+        "as_listed": "DORA",
+        "ref": "organisation:dora",
+        "count": 1
+      },
+      {
         "as_listed": "Dealroom",
         "ref": "organisation:dealroom",
         "count": 1
@@ -2071,6 +2076,11 @@
       {
         "as_listed": "Go Coimbra",
         "ref": "organisation:go-coimbra",
+        "count": 1
+      },
+      {
+        "as_listed": "Google",
+        "ref": "organisation:google",
         "count": 1
       },
       {
@@ -2531,7 +2541,7 @@
       {
         "as_listed": "arXiv",
         "ref": "organisation:arxiv",
-        "count": 6
+        "count": 7
       },
       {
         "as_listed": "eDynamics",

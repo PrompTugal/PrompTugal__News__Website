@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-dora-2025-ai-delivery-instability",
+  "type": "evidence",
+  "source_url": "https://services.google.com/fh/files/misc/2025_state_of_ai_assisted_software_development.pdf",
+  "beat": "AI agents in real work",
+  "group": "Held",
+  "names": [
+    {
+      "as_listed": "DORA",
+      "ref": "organisation:dora"
+    },
+    {
+      "as_listed": "Google",
+      "ref": "organisation:google"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-27-1550.json",
+  "run": "2026-11-27T15:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-27-1550.json"
+    ]
+  }
+}

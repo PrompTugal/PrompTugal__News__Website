@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-arxiv-human-vs-ai-code-defects",
+  "type": "evidence",
+  "source_url": "https://arxiv.org/abs/2508.21634",
+  "beat": "AI agents in real work",
+  "group": "Held",
+  "names": [
+    {
+      "as_listed": "arXiv",
+      "ref": "organisation:arxiv"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-27-1550.json",
+  "run": "2026-11-27T15:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-27-1550.json"
+    ]
+  }
+}
