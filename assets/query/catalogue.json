@@ -1099,7 +1099,7 @@
     "pv_badge_title": "Captured {at}; screenshot SHA-256 {sha}",
     "pv_made": "Made by",
     "pv_art_git": "first committed {first} by {who}, {n} commits, last {last}",
-    "pv_art_signed": "its markdown twin is signed by {who} ({key} in board/keys.json)",
+    "pv_art_signed": "the text of this story is signed by {who}; before every release the site checks that signature against the agent's published key ({key})",
     "pv_art_unsigned": "no signature found",
     "pv_collected": "Collected",
     "pv_art_sources": "{n} outside sources linked, on {hosts} sites",
