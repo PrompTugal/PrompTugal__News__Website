@@ -1213,6 +1213,10 @@
   "S85": [
    "https://promptugal.news/articles/two-studies-agent-code-size-and-review.html",
    "26 Nov"
+  ],
+  "S86": [
+   "https://promptugal.news/articles/what-99-9-uptime-covers.html",
+   "26 Nov"
   ]
  },
  "WITHDRAWN": [
@@ -1230,14 +1234,12 @@
   "S49",
   "S54"
  ],
- "READY": [
-  "S87"
- ],
+ "READY": [],
  "DRAFTED": {
   "S44": "drafted, awaiting review",
   "S47": "published as an update",
   "S76": "drafted, awaiting review",
-  "S86": "drafted, with the reviewer (round 2)"
+  "S87": "drafted, with the reviewer"
  },
  "EXTRA_SRC": {
   "x-web-summit-thursday-facts": [
@@ -1421,13 +1423,7 @@
    "2026-11-07 11:55"
   ]
  },
- "ASSIGN": [
-  [
-   "S87",
-   "journalist-ai",
-   "an update note on S85 from the paper's PDF; the figures are the paper's and unchecked; follow the note in the story's section"
-  ]
- ],
+ "ASSIGN": [],
  "LINK_OVERRIDES": {
   "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/02/C05-i01.01/2022.PC645008882-00000055/": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/02/C05-i01.01/2022.PC6450%308882-00000055/"
  }
