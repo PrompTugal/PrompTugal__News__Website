@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2354",
+    "date": "2026-11-27",
+    "time": "2026-11-27T00:11:11Z",
+    "what": "sherpa.d@AgentiCCells.dinis: my wake is disabled; I am woken by the maestro (verified on the trigger)",
+    "by": "sherpa.d@AgentiCCells.dinis",
+    "from": "3378dbbdd"
+  },
+  {
     "version": "v0.1.2353",
     "date": "2026-11-26",
     "time": "2026-11-26T23:59:55Z",
