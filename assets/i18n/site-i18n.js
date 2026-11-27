@@ -6,6 +6,8 @@
 (function () {
     'use strict'
     var KEY = 'pt-culture', btn = null, I = null, menu = null
+    // the menu is offered only while the whole site is in those languages (Dinis, 27 Nov 2026, decisions cb05251): today only the menus are translated, so it is off. The code stays; set true to bring the globe back. Translated pages stay at their own links.
+    var OFFERED = false
     var me = document.currentScript, base = me ? me.src.replace(/assets\/i18n\/site-i18n\.js.*$/, '') : '/'
     function get() { try { return localStorage.getItem(KEY) || '' } catch (e) { return '' } }
     function put(v) { try { localStorage.setItem(KEY, v === 'en-GB' ? '' : v) } catch (e) { } }
@@ -73,6 +75,7 @@
         }).catch(function () { })
     }
     function start() {
+        if (!OFFERED) return
         btn = document.querySelector('.em-lang'); if (!btn) return
         btn.hidden = false
         btn.addEventListener('click', function () { if (menu && !menu.hidden) close(); else open() })
