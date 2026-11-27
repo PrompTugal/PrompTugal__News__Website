@@ -228,6 +228,8 @@
     .fe > .fe-w:first-child { order: 0; } .fe > .fe-band { order: 10; } .fe > .fe-iv { order: 15; } .fe > .fe-w:not(.fe-colsw):not(.fe-ptb):not(.fe-ask):not(:first-child):not(.fe-iv) { order: 20; }
     .fe-brf { order: 30; } .fe-stories { order: 40; } .fe-pl { order: 50; } .fe-ptb-map { order: 60; } .fe-colsw .fe-cols > .fe-nx { order: 70; } .fe > .fe-nums { order: 80; } .fe > .fe-ask { order: 90; }
     .fe-brf, .fe-stories, .fe-pl, .fe-ptb-map, .fe-nx { padding-left: var(--gutter) !important; padding-right: var(--gutter) !important; box-sizing: border-box; width: 100%; max-width: var(--page); margin-left: auto; margin-right: auto; }
+    .fe-colsw .fe-cols > section.fe-brf, .fe-colsw .fe-cols > section.fe-stories { padding-left: var(--gutter) !important; padding-right: var(--gutter) !important; }   /* beats '.fe-cols > section { padding: 0 !important }' (cl-6.synthetic: both sat at x 0) */
+    .fe-brf { margin-top: 22px; }
     .fe-ptb-map svg, .fe-ptb-map img { height: 260px; width: 100%; }
     .fe-allfig > summary { cursor: pointer; font: 600 13px var(--sans); padding: 8px 0; color: var(--brand); }
 }
