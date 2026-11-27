@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2367",
+    "date": "2026-11-27",
+    "time": "2026-11-27T03:35:13Z",
+    "what": "cl-6.dev@PrompTugal.dinis: the gate checks the news-flow front matter (town and region must be registry places; builds_on: existing earlier articles, not itself, no cycle, no higher level) and the articles API lists each article's derived level and builds_on (cl-6.ontologist's proposal; all keys optional)",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "62d3ab2bd"
+  },
+  {
     "version": "v0.1.2366",
     "date": "2026-11-27",
     "time": "2026-11-27T03:12:04Z",
