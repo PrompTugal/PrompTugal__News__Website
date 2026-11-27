@@ -360,3 +360,11 @@ main.bp-page details.toc a:hover { color: var(--accent-ink); }
 .bp-frame figure.bp-svgmap.bp-inset { overflow: visible; max-width: 26rem; }
 .bp-frame figure.bp-svgmap.bp-inset svg { min-width: 0; }
 .bp-svgmap.bp-inset .bp-pin text, .bp-svgmap.bp-inset text { font-size: 12px; }
+
+/* a place page on a phone (below 768 px; assets/by-place/by-place.js folds it) */
+.pp-first { margin: 6px 0 14px; font: 500 15px/1.4 var(--sans); }
+.pp-more > summary, .pp-about > summary { cursor: pointer; font: 600 14px var(--sans); color: var(--brand, #0b6b2e); padding: 10px 0; }
+.pp-about { margin: 22px 0; border-top: 1px solid var(--hair); }
+.pp-about > summary { font-size: 16px; }
+.pp-block { margin: 6px 0; border-top: 1px solid var(--hair); }
+.pp-block > summary { cursor: pointer; font: 600 14px var(--sans); padding: 10px 0; }

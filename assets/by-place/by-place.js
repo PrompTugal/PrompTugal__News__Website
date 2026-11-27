@@ -213,3 +213,66 @@ BP_W.more = function (n) { var all = { en: 'Show all', pt: 'Ver todos', es: 'Ver
     })
     outlets.parentNode.insertBefore(nav, outlets.nextSibling)
 })()
+
+// On a phone a place page is 30 to 44 screens (cl-6.designer's measurement, 27 Nov 2026). Below 768 px, the page folds in place: the newest dated local
+// story under the title, the centre of gravity just before the map, the five newest stories and the five largest investments with "All n" opening the
+// rest, and how the page is made, talk to us, the agents and the licences in one closed "About this page". Nothing is dropped or removed from the DOM
+// (the folds are details elements around the same nodes), and without script or above 768 px the page is as built.
+;(function () {
+    'use strict'
+    if (!window.matchMedia || !window.matchMedia('(max-width: 767px)').matches) return
+    var frame = document.querySelector('.bp-frame'); if (!frame) return
+    var $ = function (id) { return document.getElementById(id) }
+    var el = function (t, c, x) { var e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e }
+    // a section: its h2 and what follows up to the next h2 (siblings in the same container)
+    var section = function (h2) { var out = [h2], n = h2.nextElementSibling; while (n && n.tagName !== 'H2') { out.push(n); n = n.nextElementSibling } return out }
+    var DAY = /(\d{4}-\d\d-\d\d)/
+
+    // 1. the newest dated local story, under the title
+    var local = $('local'), h1 = frame.querySelector('h1') || document.querySelector('h1')
+    if (local && h1) {
+        var cards = section(local).filter(function (n) { return n.tagName === 'UL' && /bp-cards/.test(n.className) })[0]
+        var best = null
+        if (cards) Array.prototype.forEach.call(cards.children, function (li) {
+            var a = li.querySelector('strong a'), em = li.querySelector('em'), m = em && DAY.exec(em.textContent)
+            if (a && m && (!best || m[1] > best.d)) best = { d: m[1], a: a, pub: em.textContent.split(',')[0].trim() }
+        })
+        if (best) {
+            var p = el('p', 'pp-first'), name = document.title.split(' · ')[0].replace(/^PrompTugal\.news\s+/, '')
+            p.appendChild(el('b', null, 'Local AI news in ' + name + '. Newest: '))
+            var link = el('a', null, best.a.textContent); link.href = best.a.href; link.target = '_blank'; link.rel = 'noopener'; p.appendChild(link)
+            p.appendChild(document.createTextNode(' · ' + new Date(best.d + 'T00:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'short', timeZone: 'UTC' }) + ' · ' + best.pub))
+            h1.parentNode.insertBefore(p, h1.nextSibling)
+        }
+    }
+    // 2. the centre of gravity just before the map
+    var g = $('gravity'), map = $('map')
+    if (g && map && (g.compareDocumentPosition(map) & Node.DOCUMENT_POSITION_FOLLOWING)) section(g).forEach(function (n) { map.parentNode.insertBefore(n, map) })
+    // 3. five and "All n": the first list of a section, the rest in a details after it
+    function five(id, what) {
+        var h2 = $(id); if (!h2) return
+        var ul = section(h2).filter(function (n) { return n.tagName === 'UL' && /bp-(cards|entries)/.test(n.className) })[0]
+        if (!ul || ul.children.length <= 6) return
+        var rest = Array.prototype.slice.call(ul.children, 5), d = el('details', 'pp-more'), more = ul.cloneNode(false)
+        d.appendChild(el('summary', null, 'All ' + ul.children.length + ' ' + what)); rest.forEach(function (li) { more.appendChild(li) }); d.appendChild(more)
+        ul.parentNode.insertBefore(d, ul.nextSibling)
+    }
+    five('local', 'stories'); five('investors', 'investors and investments')
+    // 4. how the page is made, talk to us, the agents, the licences: one closed "About this page"
+    var how = $('how')
+    if (how) {
+        var all = []; for (var n = how; n; n = n.nextElementSibling) all.push(n)   // how, talk to us, the agents, the licences are the last four sections of the frame
+        var box = el('details', 'pp-about'); box.appendChild(el('summary', null, 'About this page'))
+        how.parentNode.insertBefore(box, how); all.forEach(function (x) { box.appendChild(x) })
+    }
+    // 5. the sidebar's blocks (events, starting a company, official contacts, sources, gaps: 12 screens on Faro, 6 of them the gaps), each closed under its own heading,
+    //    except the local media, which a reader wants first; the heading becomes the summary and the nodes are the same ones
+    Array.prototype.forEach.call(frame.querySelectorAll('.cols-8-4 > .col p.mini-h'), function (mh) {
+        if (/^local media$/i.test(mh.textContent.trim())) return
+        var nodes = [], n = mh.nextElementSibling
+        while (n && !(n.tagName === 'P' && /\bmini-h\b/.test(n.className))) { nodes.push(n); n = n.nextElementSibling }
+        if (!nodes.length) return
+        var d = el('details', 'pp-block'), sm = el('summary', null, mh.textContent.trim())
+        d.appendChild(sm); mh.parentNode.insertBefore(d, mh); nodes.forEach(function (x) { d.appendChild(x) }); mh.remove()
+    })
+})()
