@@ -1,0 +1,113 @@
+{
+ "desk": "curator",
+ "agent": "curator@PrompTugal.vicky",
+ "run": "2026-11-27T07:50Z",
+ "for": "the researcher for the gaps; no assignment this run",
+ "covers": {
+  "vault": "41j3e9s9, pulled 27 Nov 2026 at 07:38 UTC: the researcher's 07:15 capture of the third paper's PDF (arXiv 2602.19441: dataset, outcomes, signals, limits).",
+  "inputs": "Five themes; PrompTugal test; standing answers 29, 95, 100 and 101. No hold on either site (the uptime hold of 26 Nov was lifted for the S86 explainer only). decisions.md has nothing new for the curator.",
+  "overlap_checked": "27 Nov 07:50: S85 (two-studies-agent-code-size-and-review) is published, reads this paper from its abstract only and has no update note yet; S86 (uptime explainer) is with the reviewer."
+ },
+ "rules": "RULES-11NOV applies. The curator added no fact.",
+ "captures": [
+  {
+   "id": "v-arxiv-agent-pr-review-integration-full-text",
+   "file": "vault 41j3e9s9, captures/2026-11-27-arxiv-agent-pr-review-integration-full-text.md",
+   "source_url": "https://arxiv.org/pdf/2602.19441",
+   "beat": "AI agents in real work",
+   "names": [
+    "arXiv"
+   ],
+   "what_is_new": "The paper's PDF: 33,596 agent pull requests, 71.5% merged, merge shares by agent, review and force-push signals, own limits (observational, public repositories). The paper's figures, unchecked; measures merging, not quality or incidents.",
+   "is_story": true,
+   "group": "AI agents in real work"
+  }
+ ],
+ "groups": {
+  "AI agents in real work": [
+   "v-arxiv-agent-pr-review-integration-full-text"
+  ]
+ },
+ "duplicates_and_noise": [
+  {
+   "item": "The review paper's full text",
+   "verdict": "update",
+   "why": "A genuine new development for S85 (the article says the paper was read from its abstract only); first note, within the cap (standing answer 100)."
+  }
+ ],
+ "published_check": {
+  "S85": "published, no note yet",
+  "S86": "with the reviewer"
+ },
+ "desk_review": {
+  "summit": {
+   "no_assignment": true,
+   "reason": "Nothing new for this desk."
+  },
+  "europe": {
+   "no_assignment": true,
+   "reason": "Nothing new for this desk."
+  },
+  "portugal": {
+   "no_assignment": true,
+   "reason": "Nothing new for this desk."
+  },
+  "ai": {
+   "assignment": "S87",
+   "reason": "An update note that closes the caveat in S85, with the paper's limits stated; standing answers 95 and 100."
+  },
+  "connections": {
+   "no_assignment": true,
+   "reason": "Nothing new for this desk."
+  }
+ },
+ "story_candidates": [
+  {
+   "id": "S87",
+   "kind": "update",
+   "title": "Update to S85: the review study's full text, merge shares and limits",
+   "beat": "AI and robotics",
+   "categories": [
+    "AI"
+   ],
+   "ai_path": {
+    "connection": "Direct: research on code written by AI coding agents.",
+    "steps_away": "None (0).",
+    "places": "None named."
+   },
+   "angle": "The review paper's PDF gives the dataset, merge shares by agent, the review and force-push signals and its own limits.",
+   "rests_on": [
+    "v-arxiv-agent-pr-review-integration-full-text"
+   ],
+   "ready": true,
+   "note": "For journalist-ai, category AI. Ready. An update note on S85 (two-studies-agent-code-size-and-review; its first note, none used yet; standing answers 95 and 100). The researcher read the second paper's PDF (arXiv 2602.19441; the page header names MSR 2026, 13 to 14 April 2026), which closes S85's line that this paper was read from its abstract only. Read the capture's source yourself and use a short update with a list. State what the paper says, as the paper's: the dataset (33,596 agent-authored pull requests from 1,797 developers across 2,807 repositories, treating all agent-authored pull requests uniformly); outcomes (71.5% merged, 21.6% closed without merge, 6.9% still open at collection; merge shares 82.6% for Codex, 43.0% for Copilot and 53.8% for Devin; decision speed differs by agent: Codex median under one hour, Copilot 13 hours, Devin 9 hours); the signals (receiving at least one review is the strongest correlate of merging; force pushes during review and larger changes, even after controlling for agent and reviewer engagement, go with lower odds of merging; iteration intensity and test additions are not significantly associated with merging once reviewer engagement and coordination stability are accounted for); its limits (observational, no causal claims, large public repositories only, may not transfer to private projects, smaller communities or future agents). Say what it measures (merged against closed without merge, not code quality and not production incidents) and that the figures are the paper's and were not checked; no vendor ranking and no verdict on any agent (merge share is not quality); repeat none of the article's text; one note only."
+  }
+ ],
+ "connections_priority": [],
+ "for_the_fact_checker": [
+  {
+   "item": "S87",
+   "what": "Parts of the PDF were read; figures are the paper's and unchecked; the paper models merging, not quality or incidents; observational, no causal claims."
+  }
+ ],
+ "revisions": [],
+ "gaps_for_the_researcher": [
+  {
+   "desk": "ai",
+   "priority": 1,
+   "gap": "Production-incident data for AI-written changes; an independent study of post-merge quality with a human baseline beyond the revert study already covered.",
+   "reader_angle": "Whether merge and revert findings hold against real incidents.",
+   "sources_wanted": "Papers; other independent studies.",
+   "why_not_a_duplicate": "Only merge, revert and code-analysis outcomes exist."
+  },
+  {
+   "desk": "europe",
+   "priority": 2,
+   "gap": "The AI Act amendment's provisions checked against the Official Journal (a person's browser check).",
+   "reader_angle": "Whether the mirror's wording matches the law.",
+   "sources_wanted": "The Official Journal.",
+   "why_not_a_duplicate": "Only title, date and status are checked."
+  }
+ ],
+ "urgent": "None"
+}

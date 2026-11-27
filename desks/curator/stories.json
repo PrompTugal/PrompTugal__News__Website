@@ -2,6 +2,14 @@
  "about": "The lists the README generator (tools/readme.py) reads. Each curator run edits this file, not the script: add the new story to `stories` (id, title, beat, angle, added, note; newest first), its captures to `rests`, publications to `PUBLISHED`, withdrawals to `WITHDRAWN`, the ready list to `READY` and the assignments to `ASSIGN`. LINK_OVERRIDES: a source URL as captured mapped to the same address written another way (a digit percent-encoded, which the URL standard treats as the same address) so the team site's phone check does not read a long run of digits and dashes as a phone number.",
  "stories": [
   [
+   "S87",
+   "Update to S85: the review study's full text, merge shares and limits",
+   "AI and robotics",
+   "The second paper's PDF gives the dataset (33,596 agent pull requests), merge shares by agent, the review and force-push signals and its own limits; a short update note on S85 in the paper's words.",
+   "27 Nov",
+   "For journalist-ai, category AI. Ready. An update note on S85 (two-studies-agent-code-size-and-review; its first note, none used yet; standing answers 95 and 100). The researcher read the second paper's PDF (arXiv 2602.19441; the page header names MSR 2026, 13 to 14 April 2026), which closes S85's line that this paper was read from its abstract only. Read the capture's source yourself and use a short update with a list. State what the paper says, as the paper's: the dataset (33,596 agent-authored pull requests from 1,797 developers across 2,807 repositories, treating all agent-authored pull requests uniformly); outcomes (71.5% merged, 21.6% closed without merge, 6.9% still open at collection; merge shares 82.6% for Codex, 43.0% for Copilot and 53.8% for Devin; decision speed differs by agent: Codex median under one hour, Copilot 13 hours, Devin 9 hours); the signals (receiving at least one review is the strongest correlate of merging; force pushes during review and larger changes, even after controlling for agent and reviewer engagement, go with lower odds of merging; iteration intensity and test additions are not significantly associated with merging once reviewer engagement and coordination stability are accounted for); its limits (observational, no causal claims, large public repositories only, may not transfer to private projects, smaller communities or future agents). Say what it measures (merged against closed without merge, not code quality and not production incidents) and that the figures are the paper's and were not checked; no vendor ranking and no verdict on any agent (merge share is not quality); repeat none of the article's text; one note only."
+  ],
+  [
    "S86",
    "What '99.9% uptime' covers: how AI and cloud providers count downtime",
    "AI and robotics",
@@ -993,6 +1001,9 @@
    "v-anthropic-commercial-terms",
    "v-gitlab-availability-sla",
    "v-aws-ec2-sla"
+  ],
+  "S87": [
+   "v-arxiv-agent-pr-review-integration-full-text"
   ]
  },
  "DROPPED": {
@@ -1198,6 +1209,10 @@
   "S84": [
    "https://promptugal.news/articles/five-coding-agents-reverts-security-waits.html",
    "24 Nov"
+  ],
+  "S85": [
+   "https://promptugal.news/articles/two-studies-agent-code-size-and-review.html",
+   "26 Nov"
   ]
  },
  "WITHDRAWN": [
@@ -1216,12 +1231,13 @@
   "S54"
  ],
  "READY": [
-  "S86"
+  "S87"
  ],
  "DRAFTED": {
   "S44": "drafted, awaiting review",
   "S47": "published as an update",
-  "S76": "drafted, awaiting review"
+  "S76": "drafted, awaiting review",
+  "S86": "drafted, with the reviewer (round 2)"
  },
  "EXTRA_SRC": {
   "x-web-summit-thursday-facts": [
@@ -1407,9 +1423,9 @@
  },
  "ASSIGN": [
   [
-   "S86",
+   "S87",
    "journalist-ai",
-   "Vicky's explainer on what uptime promises cover, from the providers' own pages only; follow the note in the story's section"
+   "an update note on S85 from the paper's PDF; the figures are the paper's and unchecked; follow the note in the story's section"
   ]
  ],
  "LINK_OVERRIDES": {
