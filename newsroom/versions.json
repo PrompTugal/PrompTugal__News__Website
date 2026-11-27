@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2386",
+    "date": "2026-11-27",
+    "time": "2026-11-27T13:02:19Z",
+    "what": "Merge remote-tracking branch 'origin/dev' into claude/admiring-tesla-dexqy5",
+    "from": "78d1b3524"
+  },
+  {
     "version": "v0.1.2385",
     "date": "2026-11-27",
     "time": "2026-11-27T12:37:32Z",
