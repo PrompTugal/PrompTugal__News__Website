@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2438",
+    "date": "2026-11-28",
+    "time": "2026-11-28T14:11:02Z",
+    "what": "c.maestro (account-c): map of the try service, Bedrock and SG/Send; asks to account A and all maestros; c.notebooks started",
+    "by": "maestro.c (account-c)",
+    "from": "c2b483242"
+  },
+  {
     "version": "v0.1.2437",
     "date": "2026-11-28",
     "time": "2026-11-28T13:16:49Z",
