@@ -1,0 +1,10 @@
+<!-- The markup of /newsroom/, the journalists' front page: newsroom/build/lib/newsroom-front.mjs fills the {{slots}}, every value already escaped. -->
+<!-- item:a --><a href="{{href}}">{{label}}</a>
+<!-- item:ext --><a href="{{href}}" target="_blank" rel="noopener">{{label}}</a>
+<!-- item:li --><li>{{text}}</li>
+<!-- item:ul --><ul class="nf-list">{{items}}</ul>
+<!-- item:liw --><li>{{link}} <small>{{note}}</small></li>
+<!-- item:lir --><li><b>{{v}}</b> <small>{{date}}</small> {{what}}</li>
+<!-- item:p --><p>{{text}}</p>
+<!-- item:card --><details class="nf-card" id="{{id}}"{{open}}><summary><b>{{title}}</b><span>{{sum}}</span></summary>{{body}}</details>
+<!-- item:page --><div class="ns-top nf-top">{{leftrail}}<aside class="ns-rail"><h2>{{rail_title}}</h2>{{rail}}</aside><div class="ns-main"><p class="nf-lede">{{lede}}</p><p class="nf-links">{{trust}} · {{how}}</p>{{cards}}</div></div>

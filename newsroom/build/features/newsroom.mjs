@@ -11,6 +11,7 @@
 //                             team's site by newsroom/tools/desks-snapshot.mjs
 //   ctx.store, ctx.graph()    the data;  REALITY.md, content/brief/09-*.md, newsroom/build/validate.js: read as text
 import { statusMd, statusNav } from '../lib/newsroom-status.mjs'
+import { frontMd } from '../lib/newsroom-front.mjs'
 import path from 'node:path'
 import { esc, cell } from '../lib/markdown.mjs'
 import { json } from '../lib/writers.mjs'
@@ -47,8 +48,8 @@ const page = (b, p) => ({ ...p, rel: b.rel, type: 'site', layout: 'wide', assets
 const crumbs = (...xs) => [['newsroom/index.html', 'Newsroom'], ...xs]
 
 // ---------- the overview ----------
-function overview(ctx, m) {
-    const b = builder('newsroom/index.html'), counts = liveCounts(ctx, m), P = m.plan
+function recordPage(ctx, m) {
+    const b = builder('newsroom/record/index.html'), counts = liveCounts(ctx, m), P = m.plan
     const brief9 = briefOrder(ctx)
     const glance = d.glanceBox(`${ctx.HOST}, ${ctx.VERSION}, ${d.dayLabel(ctx.TODAY)}`, P.glance.map(g => ({ ...g, note: fillCounts(g.note, counts) })))
     // agents at work
@@ -113,7 +114,12 @@ function overview(ctx, m) {
         `## What exists, and what does not yet {#reality}\n\n[REALITY.md](${REPO_URL}/blob/dev/REALITY.md) lists ${R.exists.length} things that exist. Not yet (${R.notYet.length}):\n\n${R.notYet.map(x => `- ${cell(x)}`).join('\n')}\n\n` +
         `## The latest runs {#latest}\n\n| When | Who | What | Release |\n|---|---|---|---|\n${latest.map(r => `| [${d.when(r.when)}](${ctx.link(b.rel, runRel(r))}) | ${r.roster ? `[${d.short(r.by)}](${ctx.link(b.rel, agentRel(r.roster))})` : d.short(r.by === 'GitHub Actions' ? null : r.by)} | ${cell(r.what)} | ${r.release ? `[${r.release}](${ctx.link(b.rel, `newsroom/versions.html#${r.release}`)})` : r.source === 'desk-report' ? 'reported' : 'not yet'} |`).join('\n')}\n\n[Every run](${ctx.link(b.rel, 'newsroom/runs/index.html')}).\n\n` +
         sourcesSection(ctx, b.rel, m)
-    return page(b, { src: 'data/newsroom/plan.json', date: ctx.TODAY, title: 'The newsroom', crumbs: [[null, 'Newsroom']], summary: 'Every agent working on PrompTugal.news, every run, the plan and the data, live from the repository at every release: the status report of 5 November, drawn from data.', md })
+    return page(b, { src: 'data/newsroom/plan.json', date: ctx.TODAY, title: 'The record of the first days', crumbs: [['newsroom/index.html', 'Newsroom'], [null, 'The record']], summary: 'Every agent working on PrompTugal.news in its first days, every run, the plan and the data, drawn from the repository: the status report of 5 November.', md })
+}
+// the journalists' front page (cl-6.designer's spec d, 28 Nov 2026): one sentence and five cards, the page list a fold on a phone and a left rail from 1100 px; words assets/newsroom/front-words.json
+function overview(ctx) {
+    const b = builder('newsroom/index.html'), W = ctx.readJSON('assets/newsroom/front-words.json'), nav = statusNav(ctx, b, TABS)
+    return page(b, { src: 'assets/newsroom/front-words.json', title: W.title, crumbs: [[null, 'Newsroom']], summary: W.summary, md: b.raw(nav.top, `**Newsroom:** ${nav.md}`) + frontMd(ctx, b, nav) + '\n\n' + b.raw(nav.foot, ''), assets: { css: [...ASSETS.css, 'assets/newsroom/status.css', 'assets/newsroom/front.css'], js: [...ASSETS.js, 'assets/newsroom/front.js'] } })
 }
 const and = xs => xs.length < 2 ? xs.join('') : `${xs.slice(0, -1).join(', ')} and ${xs.at(-1)}`
 function wrap(s, w) { const out = []; let cur = ''; for (const word of String(s).split(/\s+/)) { if ((cur + ' ' + word).trim().length > w) { out.push(cur.trim()); cur = word } else cur += ' ' + word } if (cur.trim()) out.push(cur.trim()); return out }
@@ -424,7 +430,7 @@ export async function pages(ctx) {
     const { loadFeatures } = await import('../lib/features.mjs')
     FEATURES = await loadFeatures()
     const m = model(ctx)
-    return [overview(ctx, m), runsPage(ctx, m), agentsPage(ctx, m), activityPage(ctx), statusPage(ctx), ...m.agents.map(a => agentPage(ctx, m, a)), timelinePage(ctx, m), dataPage(ctx, m), workflowsPage(ctx, m), labPage(ctx, m)]
+    return [overview(ctx), recordPage(ctx, m), runsPage(ctx, m), agentsPage(ctx, m), activityPage(ctx), statusPage(ctx), ...m.agents.map(a => agentPage(ctx, m, a)), timelinePage(ctx, m), dataPage(ctx, m), workflowsPage(ctx, m), labPage(ctx, m)]
 }
 
 // the twin of a newsroom page: its markdown with each raw block's markdown in place (read at write time, after fill);

@@ -1,0 +1,56 @@
+{
+ "about": "The words of /newsroom/, the journalists' front page (cl-6.designer's spec d of 28 Nov 2026, Dinis's home-page review). Read by newsroom/build/lib/newsroom-front.mjs.",
+ "title": "The newsroom",
+ "summary": "How PrompTugal.news is made, in public: what we are writing, where the facts come from, what changed, who made it and what the press can use.",
+ "lede": "The newsroom is the back end of PrompTugal.news, run by AI agents under a named human operator, Dinis Cruz. It shows the work so you can judge it.",
+ "trust": "Can I trust this? How each fact is checked",
+ "trust_href": "newsroom/verification/index.html",
+ "how": "How we work",
+ "how_href": "about/index.html",
+ "cards": {
+  "writing": {
+   "title": "What we are writing now",
+   "sum": "The front page and the newest stories, each with where it stands: published, signed."
+  },
+  "facts": {
+   "title": "Where the facts come from",
+   "sum": "The public data sources we read and whether each is fresh, with a page per source."
+  },
+  "changes": {
+   "title": "Corrections and changes",
+   "sum": "What changed on the site, newest first, with dates."
+  },
+  "who": {
+   "title": "Who and what",
+   "sum": "The agents behind the newsroom and the line on every article that says who made it."
+  },
+  "press": {
+   "title": "For the press",
+   "sum": "The logo, the brand guide, the licence on our text and images, and how to reach us."
+  }
+ },
+ "w_signed": "published, signed",
+ "w_published": "published",
+ "w_none": "Nothing listed yet.",
+ "facts_line": "{n} data sources: {f} fresh, {p} with a problem. Each source has its own page on data.promptugal.news, with its health, its runs and its files.",
+ "facts_all": "Every source and its health on the status page",
+ "facts_live": "The live view on data.promptugal.news",
+ "changes_note": "Each change is a release with a version number and a date; the full list is on the releases page.",
+ "changes_all": "Every release",
+ "who_line": "{n} agents, each with a role, a state and a home repository. Every article page says who made it: agent-written, signed, and with which key.",
+ "who_agents": "The agents and what each does",
+ "who_status": "What the agents are doing now, in public",
+ "who_record": "The record of the first days (4 and 5 Nov)",
+ "who_articles": "The articles, each with its signature",
+ "press_logo": "The wordmark, light and dark",
+ "press_mark": "The mark",
+ "press_guide": "The brand guide (PDF)",
+ "press_licence": "Our text and images are CC BY 4.0, and our code is Apache-2.0, unless a page says otherwise. Data keeps its publisher's own terms, shown on each source page.",
+ "press_contact": "No press contact channel is published yet. Until one is, nothing here asks you to write to a private address.",
+ "rail_title": "The newsroom in numbers",
+ "r_articles": "{n} articles published",
+ "r_signed": "{n} signed",
+ "r_agents": "{n} agents",
+ "r_data": "{n} data sources, {f} fresh",
+ "r_version": "Site version {v}"
+}
