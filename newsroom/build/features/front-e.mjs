@@ -11,6 +11,7 @@ import { load, rank, cancelledDays } from './agenda.mjs'
 import { WORDMARK } from '../lib/shell.mjs'
 import { model as homeModel } from '../lib/home.mjs'
 import { stripHtml } from './gamma.mjs'
+import { frontImages } from '../lib/front-photo.mjs'
 export const order = 23
 
 const T = fs.readFileSync(new URL('../../../assets/front-e/front-e.tmpl', import.meta.url), 'utf8')
@@ -102,13 +103,22 @@ function alsoPanel(ctx, a) {
     const rows = out.slice(0, 3).map(b => ({ href: b.rel, title: ctx.md.esc(b.meta.title), date: dt(ctx, dateOf(ctx, b)).replace(/^ · /, '') }))
     return rows.length ? put(item('also'), { items: many('alsoi', rows) }) : ''
 }
+// the licensed pictures of front-page.json (lib/front-photo.mjs refuses one without rights_checked_by); the credit line is the licence's condition: the author, the licence and the source, linked
+const PW = JSON.parse(fs.readFileSync(new URL('../../../assets/front-e/photo-words.json', import.meta.url), 'utf8'))
+let FPIMG = null
+const photos = ctx => { if (!FPIMG) { let F = null; try { F = JSON.parse(fs.readFileSync(path.join(ctx.ROOT, 'desks/correspondent/front-page.json'), 'utf8')) } catch { } FPIMG = frontImages(ctx.ROOT, F) } return FPIMG }
+function photoCredit(esc, im) {
+    const lic = im.licence_url ? put(item('photolicence'), { href: esc(im.licence_url), name: esc(im.licence) }) : esc(im.licence)
+    return put(item('photocredit'), { label: esc(im.ai ? PW.ai : PW.labels[im.kind]), source: esc(im.source_url), who: esc(im.credit), licence: lic, altered: esc(PW.altered) })
+}
+const photoCap = (esc, im) => im.caption ? esc(im.caption) : ''
 function lead(ctx, a) {
     if (!a) return part('none')
-    const esc = ctx.md.esc, f = figureOf(a), fig = picture(esc, a, 'card', false)
+    const esc = ctx.md.esc, f = figureOf(a), fig = picture(esc, a, 'card', false), im = photos(ctx).get(slugOf(a))
     let headline = esc(a.meta.title)
     if (f?.value && headline.includes(esc(f.value))) headline = headline.replace(esc(f.value), put(item('mark'), { text: esc(f.value) }))
     return put(part('lead'), { href: a.rel, kicker: esc(a.meta.tags || beatOf(a)) + dt(ctx, dateOf(ctx, a)), headline, dek: esc(a.meta.summary || ''), byline: esc(byline(a.meta.author)), minutes: minutes(a.md),
-        pill: pill(ctx, a), storm: stormLink(ctx, a), figure: satFigure(ctx, a) || (fig ? put(item('figure'), { href: a.rel, picture: fig, cap: 'AI-made image' }) : '') || alsoPanel(ctx, a), ...leadExtra(ctx, a) })
+        pill: pill(ctx, a), storm: stormLink(ctx, a), figure: satFigure(ctx, a) || (im ? put(item('photo'), { href: a.rel, src: esc(im.path), alt: esc(im.alt), w: im.w, h: im.h, caption: photoCap(esc, im), credit: photoCredit(esc, im) }) : '') || (fig ? put(item('figure'), { href: a.rel, picture: fig, cap: 'AI-made image' }) : '') || alsoPanel(ctx, a), ...leadExtra(ctx, a) })
 }
 
 
@@ -210,8 +220,9 @@ function fillE(page, ctx) {
     // the Algarve's grid beside the map: the towns with the newest news first, capped so the two columns balance, then a link to all of them
     const algTowns = PR.filter(r => r.p.parent === 'algarve' || r.p.parent === 'loule').sort((x, y) => (y.newest || '').localeCompare(x.newest || '') || (y.news + y.map) - (x.news + x.map) || x.p.name.localeCompare(y.p.name))
     const ALG_CAP = 9
-    const story = (a, i) => put(item('story'), { big: i ? '' : ' big', beat: esc(beatOf(a)) + dt(ctx, dateOf(ctx, a)), href: a.rel, title: esc(a.meta.title), dek: esc(cut(a.meta.summary || '', 170)), pill: pill(ctx, a),
-        thumb: i && imageFile(a, 'thumb') ? put(item('thumb'), { href: a.rel, picture: picture(esc, a, 'thumb', true) }) : '' })
+    const pic = a => photos(ctx).get(slugOf(a)), story = (a, i) => put(item('story'), { big: i ? '' : ' big', beat: esc(beatOf(a)) + dt(ctx, dateOf(ctx, a)), href: a.rel, title: esc(a.meta.title), dek: esc(cut(a.meta.summary || '', 170)), pill: pill(ctx, a),
+        photocap: pic(a) ? put(item('photocap'), { caption: photoCap(esc, pic(a)), credit: photoCredit(esc, pic(a)) }) : '',
+        thumb: pic(a) ? put(item('photothumb'), { href: a.rel, src: esc(pic(a).path), alt: esc(pic(a).alt), w: pic(a).w, h: pic(a).h }) : i && imageFile(a, 'thumb') ? put(item('thumb'), { href: a.rel, picture: picture(esc, a, 'thumb', true) }) : '' })
     // this week: today and the six days after it, the two that matter most each day
     const week = [...Array(7).keys()].map(n => plusDays(ctx.TODAY, n)).filter(d => !cancelledDays()[d]).flatMap(d => [...itemsOn(d)].sort((x, y) => rank(x) - rank(y) || (x.start || '').localeCompare(y.start || '')).slice(0, 2))
     const seenWk = new Set()

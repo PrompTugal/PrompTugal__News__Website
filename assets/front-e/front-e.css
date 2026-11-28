@@ -260,3 +260,13 @@
 .fe-reading:empty { display: none; } .fe-reading { margin: 0 0 20px; } .fe-rd-note { font: 13px/1.4 var(--sans); color: var(--ink-3); margin: 0 0 8px; } .fe-rd-count { font: 600 13px var(--sans); margin: 6px 0; }
 .fe-reading .nr-graph { width: 100%; height: auto; max-height: 280px; } .fe-rd-sample { opacity: .35; } .fe-rd-sample circle { fill: none; stroke: var(--ink-3); stroke-width: 2; } .fe-rd-empty { font: 600 14px var(--sans); margin: 4px 0; }
 .fe-rd-top { margin: 4px 0 8px; padding-inline-start: 20px; font: 13px/1.4 var(--sans); } .fe-rd-acts { font: 13px var(--sans); margin: 4px 0; } .fe-rd-acts .btn { font-size: 13px; }
+
+/* licensed pictures (spec b): the credit is 12 px mono under the image; a picture keeps its own proportions (resized, never cropped) */
+.fe-band figure.fe-photo { max-width: 440px; padding: 0; background: none; transform: none; box-shadow: none; }
+.fe-photo img, .fe-pthumb img { display: block; width: 100%; height: auto; }
+.fe-photo figcaption { font: 12px/1.4 var(--mono); color: var(--fe-on-band-2); text-align: left; padding-top: 6px; }
+.fe-photo figcaption a { color: inherit; }
+.fe-cap { font: 12px/1.4 var(--mono) !important; color: var(--ink-3) !important; margin: 8px 0 0 !important; }
+.fe-cr { font: 12px/1.4 var(--mono); }
+.fe-cr a { color: inherit; }
+.fe-st.big .fe-pthumb { max-width: 360px; margin-top: 10px; }

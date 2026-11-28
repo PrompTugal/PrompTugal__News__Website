@@ -1,0 +1,6 @@
+{
+ "about": "The words around a licensed picture on the home page (features/front-e.mjs): the credit line and its labels. The licence terms are those of cl-6.rights: the author, the licence linked, the source linked, and \"resized\" because a picture is only ever resized here, never cropped, tinted or overlaid.",
+ "labels": { "photo": "Photo", "chart": "Chart", "illustration": "Illustration" },
+ "ai": "Illustration, AI-made",
+ "altered": "resized"
+}

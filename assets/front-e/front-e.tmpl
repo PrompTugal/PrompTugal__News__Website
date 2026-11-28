@@ -42,7 +42,12 @@
 <!-- item:nav --><a href="{{href}}"{{cur}}>{{label}}</a>
 <!-- item:week --><li><a href="{{href}}"{{tab}}><time datetime="{{date}}">{{when}}</time> {{what}}{{where}}</a></li>
 <!-- item:brief --><li><a href="{{href}}">{{title}}</a><small>{{beat}}</small></li>
-<!-- item:story --><article class="fe-st{{big}}"><div><p class="fe-k">{{beat}}</p><h3><a href="{{href}}">{{title}}</a></h3><p>{{dek}}</p>{{pill}}</div>{{thumb}}</article>
+<!-- item:story --><article class="fe-st{{big}}"><div><p class="fe-k">{{beat}}</p><h3><a href="{{href}}">{{title}}</a></h3><p>{{dek}}</p>{{pill}}{{photocap}}</div>{{thumb}}</article>
+<!-- item:photo --><figure class="fe-photo"><a href="{{href}}" tabindex="-1"><img src="{{src}}" alt="{{alt}}" width="{{w}}" height="{{h}}" fetchpriority="high"></a><figcaption>{{caption}}{{credit}}</figcaption></figure>
+<!-- item:photothumb --><a class="fe-thumb fe-pthumb" href="{{href}}" tabindex="-1"><img src="{{src}}" alt="{{alt}}" width="{{w}}" height="{{h}}" loading="lazy" decoding="async"></a>
+<!-- item:photocap --><p class="fe-cap">{{caption}}{{credit}}</p>
+<!-- item:photocredit --> <small class="fe-cr">{{label}}: <a href="{{source}}" target="_blank" rel="noopener">{{who}}</a>, {{licence}}, {{altered}}.</small>
+<!-- item:photolicence --><a href="{{href}}" target="_blank" rel="noopener">{{name}}</a>
 <!-- item:thumb --><a class="fe-thumb" href="{{href}}" tabindex="-1">{{picture}}<span>AI-made</span></a>
 <!-- item:map --><svg class="fe-ptmap{{cls}}" viewBox="0 0 {{w}} {{h}}"{{ro}}>{{body}}<text class="rg" x="{{ax}}" y="{{ay}}">{{rg}}</text></svg>
 <!-- item:mland --><path class="{{cls}}" d="{{d}}"/>
