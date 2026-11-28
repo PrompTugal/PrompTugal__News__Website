@@ -10,6 +10,7 @@
 //   data/newsroom/team-site.json the desks' run lines, the newsroom's board issues and the keys' public facts, from the
 //                             team's site by newsroom/tools/desks-snapshot.mjs
 //   ctx.store, ctx.graph()    the data;  REALITY.md, content/brief/09-*.md, newsroom/build/validate.js: read as text
+import { statusMd } from '../lib/newsroom-status.mjs'
 import path from 'node:path'
 import { esc, cell } from '../lib/markdown.mjs'
 import { json } from '../lib/writers.mjs'
@@ -20,7 +21,7 @@ import * as d from './newsroom-draw.mjs'
 import { model, liveCounts, fillCounts, lanesFor, parallels, readLedger, STAGES, personName } from './newsroom-model.mjs'
 
 export const order = 91
-export const TABS = [['newsroom/index.html', 'Overview'], ['newsroom/runs/index.html', 'Runs'], ['newsroom/dashboard/index.html', 'Dashboard'], ['newsroom/decisions/index.html', 'Decisions'], ['newsroom/notes/index.html', 'Notes'], ['newsroom/stories/index.html', 'Stories'], ['newsroom/desks/index.html', 'Desks'], ['newsroom/quality/index.html', 'Quality'], ['newsroom/agents/index.html', 'Agents'], ['newsroom/activity/index.html', 'Activity'], ['newsroom/live/index.html', 'Live'], ['newsroom/pieces/index.html', 'Pieces'], ['newsroom/decision-graph/index.html', 'Storm'], ['newsroom/timeline/index.html', 'Timeline'], ['newsroom/data/index.html', 'Data'], ['newsroom/workflows/index.html', 'Workflows'], ['newsroom/lab/index.html', 'Lab'], ['newsroom/observability/index.html', 'Observability'], ['newsroom/versions.html', 'Releases']]
+export const TABS = [['newsroom/index.html', 'Overview'], ['newsroom/runs/index.html', 'Runs'], ['newsroom/dashboard/index.html', 'Dashboard'], ['newsroom/decisions/index.html', 'Decisions'], ['newsroom/notes/index.html', 'Notes'], ['newsroom/stories/index.html', 'Stories'], ['newsroom/desks/index.html', 'Desks'], ['newsroom/quality/index.html', 'Quality'], ['newsroom/status/index.html', 'Status'], ['newsroom/agents/index.html', 'Agents'], ['newsroom/activity/index.html', 'Activity'], ['newsroom/live/index.html', 'Live'], ['newsroom/pieces/index.html', 'Pieces'], ['newsroom/decision-graph/index.html', 'Storm'], ['newsroom/timeline/index.html', 'Timeline'], ['newsroom/data/index.html', 'Data'], ['newsroom/workflows/index.html', 'Workflows'], ['newsroom/lab/index.html', 'Lab'], ['newsroom/observability/index.html', 'Observability'], ['newsroom/versions.html', 'Releases']]
 export const LABEL = '<p class="nr-label"><a href="@@UP@@newsroom/index.html">The newsroom</a> · How PrompTugal.news is made, in public</p>'
 const ASSETS = { css: ['assets/newsroom/newsroom.css'], js: ['assets/newsroom/newsroom.js'] }
 const TEAM_BOARD = 'https://github.com/SGit-AI/SGit-AI__Website__Web-Summit/blob/dev/'
@@ -191,6 +192,10 @@ function agentsPage(ctx, m) {
 function activityPage(ctx) {
     const b = builder('newsroom/activity/index.html'), T = ctx.readJSON('assets/newsroom/activity.json')
     return page(b, { src: 'assets/newsroom/activity-snapshot.json', title: T.title, crumbs: crumbs([null, T.title]), summary: T.summary, md: tabs(b, ctx) + activityMd(ctx, b, T) })
+}
+function statusPage(ctx) {
+    const b = builder('newsroom/status/index.html'), W = ctx.readJSON('assets/newsroom/status-words.json')
+    return page(b, { src: 'assets/newsroom/status-snapshot.json', title: W.title, crumbs: crumbs([null, W.title]), summary: W.summary, md: tabs(b, ctx) + statusMd(ctx) })
 }
 function agentPage(ctx, m, a) {
     const b = builder(agentRel(a))
@@ -397,7 +402,7 @@ export async function pages(ctx) {
     const { loadFeatures } = await import('../lib/features.mjs')
     FEATURES = await loadFeatures()
     const m = model(ctx)
-    return [overview(ctx, m), runsPage(ctx, m), agentsPage(ctx, m), activityPage(ctx), ...m.agents.map(a => agentPage(ctx, m, a)), timelinePage(ctx, m), dataPage(ctx, m), workflowsPage(ctx, m), labPage(ctx, m)]
+    return [overview(ctx, m), runsPage(ctx, m), agentsPage(ctx, m), activityPage(ctx), statusPage(ctx), ...m.agents.map(a => agentPage(ctx, m, a)), timelinePage(ctx, m), dataPage(ctx, m), workflowsPage(ctx, m), labPage(ctx, m)]
 }
 
 // the twin of a newsroom page: its markdown with each raw block's markdown in place (read at write time, after fill);

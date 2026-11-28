@@ -1,0 +1,373 @@
+{
+ "about": "The waits on Dinis as the maestro's briefing and the decisions agent's questions list them, for /newsroom/status/. Never served as a file (features/served.mjs); the page shows the values escaped.",
+ "read": "2026-11-28T00:59Z",
+ "briefing": {
+  "read_at": "2026-11-28T00:59Z",
+  "updated": "2026-11-28T00:37Z",
+  "items": [
+   {
+    "id": "journalist-website",
+    "what": "Publishing is blocked: the journalist has no website attached. Route agreed by cl-6.abp and cl-6.decisions (questions.json a7914b5): the maestro starts a journalist session with PrompTugal__News__Website as its source; attaches the repository only, widens nothing (content/about/** stays held under P11 h; content/index.md not included).",
+    "urgency": "now: no new article since 26 Nov",
+    "line": "\"yes, start a journalist session with PrompTugal__News__Website as its source\""
+   },
+   {
+    "id": "strikes-session",
+    "what": "London strikes site: the page is ready in place.london's home; strikes.london.place.agent.promptugal.news still shows only the README. The publishing session is prepared; it needs your word in the maestro's session.",
+    "urgency": "today",
+    "line": "\"yes, start the strikes session\""
+   },
+   {
+    "id": "poet-research",
+    "what": "Poet research cell (briefed): where does the Google Search API access live (which environment or key), and may I start short-lived cell sessions (cl-6.abp then writes the cell role grant)?",
+    "urgency": "today",
+    "line": "\"Google Search is in <environment or key>; yes, start the poet research cell\""
+   },
+   {
+    "id": "librarian-c",
+    "what": "c.maestro relayed your yes for a librarian on account 6 that keeps one shared vocabulary (terms.json) for agenticcells.org, home AgentiCCells__Agent__Librarian (to be requested via AgentiCCells__Site__Factory). cl-6.librarian@dinis already exists but has been blocked on push since 26 Nov: reuse it, or start a new one?",
+    "urgency": "next",
+    "line": "\"reuse cl-6.librarian for the vocabulary\" or \"start a new AgentiCCells librarian\""
+   },
+   {
+    "id": "ideas-site",
+    "what": "Three site requests (ideas home, dinis-cruz.ideas, and the author site you cleared at 15:21) are drafted and validated; the route to account B is stalled at router.a. Paste the line below into factory.b's session, then merge its IaC PR.",
+    "urgency": "high",
+    "line": "\"commit to SovereignWebsite__IaC exactly as drafted, on my behalf, requests 2026-11-27__ideas, 2026-11-27__dinis-cruz (group ideas, with the NO_GROUP patch) and 2026-11-27__a-oliveira-cruz, from SovereignWebsite/Site__Agent__Conductor dev…"
+   },
+   {
+    "id": "work-cells",
+    "what": "Work cells: approve the name and whether cells get their own short-lived sessions (then cl-6.abp writes a cell role)",
+    "urgency": "today",
+    "line": "\"yes to work cells, with their own sessions\" (or name the change)"
+   },
+   {
+    "id": "meetscribe",
+    "what": "MeetScribe to the Chrome Web Store: give this account GitHub access to VoiceDebrief/VoiceDebrief__Chrome_Extension__MeetScribe, and decide scope (Meet only or any tab with audio), site (improve the existing one or new) and publisher account",
+    "urgency": "today",
+    "line": "\"Meet only, improve the existing site, publisher VoiceDebrief; access given, start the MeetScribe keeper\""
+   },
+   {
+    "id": "devops-website",
+    "what": "Same line in cl-6.devops's session",
+    "urgency": "medium",
+    "line": "add PrompTugal/PrompTugal__News__Website (push access)"
+   },
+   {
+    "id": "places-wake",
+    "what": "cl-6.places's wake still says sub-agents (record p11g); change it in its own session",
+    "urgency": "medium",
+    "line": "update your wake trig_0132oarAUsN5cwmgTAbj3GGk to run the places one after another, no sub-agents, never London"
+   },
+   {
+    "id": "resets",
+    "what": "Sessions past 50% (observability 22:3x UTC): cl-6.translator 69.1%, cl-6.reviewer 65.1%, cl-6.ontologist 64.8%, cl-6.security@dinis 64.9%, cl-6.library 63.2%, cl-6.abp 52.6% (new). cl-6.decisions and cl-6.journalist are back under 50%. Maestro 43.7%: handover ready before 50%.",
+    "urgency": "next",
+    "line": "\"yes, reset translator, reviewer, ontologist, library and abp\" (security@dinis is yours to reset)"
+   },
+   {
+    "id": "sgit-github",
+    "what": "SGit-AI is read-only from account 6: reconnect GitHub or install the Claude GitHub App on SGit-AI (blocks cl-6.website and any CLI dev)",
+    "urgency": "medium",
+    "line": ""
+   },
+   {
+    "id": "sgsend-decisions",
+    "what": "SG/Send vault API plan: decisions D1 to D7 (vault host, batch semantics, 403/401, lane rename, which 'mapping', unknown callers, open the PR)",
+    "urgency": "medium",
+    "line": ""
+   },
+   {
+    "id": "abp",
+    "what": "In cl-6.abp's session: the pin ABP_PIN_KEY_SHA256=d893179db8db24de127bf6437acc9da873c38416dd26c77a135609b82e322318 (environment), 'yes to P15' (api.tfl.gov.uk), the P9 pull-request opener, P16, a session-independent pin key",
+    "urgency": "medium",
+    "line": ""
+   },
+   {
+    "id": "network",
+    "what": "Network capture: limited environments, P1 yes (telemetry audits tool calls), a non-public home for host rows and the accountant's figures",
+    "urgency": "low",
+    "line": ""
+   },
+   {
+    "id": "librarian-push",
+    "what": "cl-6.librarian's push to dev was refused by its own permission check: say yes in its session",
+    "urgency": "low",
+    "line": ""
+   },
+   {
+    "id": "router-a",
+    "what": "Five messages for accounts A and B stuck on router.a (asleep): observability handover, CBR editor notice, signer full-id patch, CMS review, CMS proposal. Wake router.a or paste each",
+    "urgency": "low",
+    "line": ""
+   },
+   {
+    "id": "iac",
+    "what": "Merge PrompTugal__IaC #28 then #32",
+    "urgency": "low",
+    "line": ""
+   },
+   {
+    "id": "sgit-questions",
+    "what": "sgit conductor's open questions (map.md)",
+    "urgency": "low",
+    "line": ""
+   },
+   {
+    "id": "cbr-questions",
+    "what": "CBR conductor's open questions (map.md section 6)",
+    "urgency": "low",
+    "line": ""
+   },
+   {
+    "id": "sw-questions",
+    "what": "Sovereign Website conductor: decisions 2 to 4 (map.md section 6)",
+    "urgency": "low",
+    "line": ""
+   },
+   {
+    "id": "studio-c-cast",
+    "what": "Signed video with the cast: cl-6.studio's plan needs studio.c (account C); the cross-account route is stalled at router.a",
+    "urgency": "next",
+    "line": "\"cl-6.studio (session_016CrbJJe27HT4pDaUAkSFEi) will deliver a clean vertical Signed film (1080x1920, sound) and a timeline with cast slots (opening card, beside 'Who holds the keys? / You do.', closing card, optional small presenter in hi…"
+   },
+   {
+    "id": "vicky-n2-n3",
+    "what": "Two findings for Vicky's team on \"Two studies of agent-written code...\" (cl-6.synthetic, PrompTugal__Agent__Synthetic 6d37860): N2 the \"In short\" still says the second paper was read from its abstract only, though the 27 Nov update says full text; N3 the provenance block claims 6 outside sources on 3 sites, but the markup shows only arXiv and the licence. No agent route to her lane.",
+    "urgency": "next",
+    "line": "pass N2 and N3 to Vicky, with PrompTugal__Agent__Synthetic findings-2026-11-27-wake4.md (6d37860)"
+   }
+  ]
+ },
+ "questions": {
+  "read_at": "2026-11-28T00:59Z",
+  "updated": "2026-11-27T10:36Z",
+  "items": [
+   {
+    "id": "admin-signed-answers",
+    "what": "You asked for a full admin section (conductor session, event 989f8f75, 00:58Z 28 Nov). Proposed rule change, yours alone: an answer you sign in /admin/ with your published personal key counts as your own words for cl-6.abp grants, in place of typing lines in named sessions. Conditions: the signature checks against your key in board/keys.json; it names the question id and repeats its exact line; one-way doors (attach…",
+    "urgency": "normal: removes the type-this-in-session-X steps",
+    "by": "cl-6.decisions@dinis",
+    "since": "2026-11-28",
+    "line": "\"yes: my signed answers in admin count as my words for grants, once security passes the signing design\" (or no)",
+    "status": "open"
+   },
+   {
+    "id": "website-attach-editor",
+    "what": "This one step restarts the news: attach PrompTugal__News__Website (push) to cl-6.journalist. No new article since 26 Nov; four dated local leads (incl. the Guimaraes drill) wait in drafts since 27 Nov 01:15 (5925199); the Tube chart fix is held; journalist gets 403 on push and no other agent may write content/** or sign articles.",
+    "urgency": "first: the publication is stalled on it",
+    "by": "cl-6.conductor",
+    "since": "2026-11-27",
+    "line": "in cl-6.maestro's session (session_016CrbJLv54Kh4CSTzagW2G3): \"yes, start a journalist session with PrompTugal__News__Website as its source\". Attaches the repository only; widens nothing (content/about/** stays held under P11 h; no content…",
+    "status": "open"
+   },
+   {
+    "id": "strikes-attach",
+    "what": "London strikes page: maestro has the session prepared (Strikes repository attached, dev only, under abp's 10:39 conditions). Only your yes starts it. Replaces abp's dropped add_repo step (1b338c0).",
+    "urgency": "first: the strikes page is the only thing waiting on it",
+    "by": "cl-6.decisions@dinis",
+    "since": "2026-11-27",
+    "line": "say 'yes, start the strikes session' in cl-6.maestro's session (session_016CrbJLv54Kh4CSTzagW2G3)",
+    "status": "open"
+   },
+   {
+    "id": "data-vaults",
+    "what": "cl-6.data: grant vaults/*/latest/** so the vault files publish too (18:03 release stopped on them)",
+    "urgency": "not blocking: interim release works (v0.1.159); vault files stay unpublished un…",
+    "by": "cl-6.decisions@dinis",
+    "since": "2026-11-27",
+    "line": "\"yes to cl-6.data writing vaults/*/latest/** in News__Data, with an explicit allow-list in release.sh\" (meanwhile data releases data/ with vaults/ set aside, so the site is not stalled)",
+    "status": "open"
+   },
+   {
+    "id": "iac-34-37",
+    "what": "Merge IaC #34, #35, #36, #37 (approved; only Dinis may merge)",
+    "urgency": "high",
+    "by": "cl-6.decisions@dinis",
+    "since": "2026-11-27",
+    "line": "Merge #34 at 289b934; merge #35 at aaf2e71; on #36 Edit, base to dev, merge at 1809f2b; merge #37 at 7c7cdf9. Then #38 (editor home, 326fabc) after its security pass.",
+    "status": "open"
+   },
+   {
+    "id": "section-key-prs",
+    "what": "Eight sections open their key PRs; dev-gate P19",
+    "urgency": "high",
+    "by": "cl-6.decisions@dinis",
+    "since": "2026-11-27",
+    "line": "\"yes to signals, cyber, bulletins, events, library, live, videos and travel each opening one key PR, as cl-6.data did; and to dev-gate as infra designed (P19 in force: push work/cl-6.<agent>, no force)\"",
+    "status": "open"
+   },
+   {
+    "id": "signals-pins",
+    "what": "Signals copies security's pinned files",
+    "urgency": "medium",
+    "by": "cl-6.decisions@dinis",
+    "since": "2026-11-27",
+    "line": "\"you may write .github/workflows/pages.yml and scripts/leak-scan.mjs on key/cl-6.signals only, byte for byte from cl-6.security's signed pins\"",
+    "status": "open"
+   },
+   {
+    "id": "s17",
+    "what": "Sign-in fix S17",
+    "urgency": "medium",
+    "by": "cl-6.decisions@dinis",
+    "since": "2026-11-27",
+    "line": "\"yes to security's S17 fix steps 1 to 4, and to revoking my agent-issued key once the new one is enrolled; release order (b)\"",
+    "status": "open"
+   },
+   {
+    "id": "anchor-clear",
+    "what": "Delete SIG_BOOTSTRAP_ANCHOR on News__Data",
+    "urgency": "medium",
+    "by": "cl-6.decisions@dinis",
+    "since": "2026-11-27",
+    "line": "Delete the repository variable once its run is green; tell cl-6.decisions which run passed",
+    "status": "open"
+   },
+   {
+    "id": "civic-history",
+    "what": "cl-6.civic history/** and board/team/civic/**",
+    "urgency": "low",
+    "by": "cl-6.decisions@dinis",
+    "since": "2026-11-27",
+    "line": "\"yes to cl-6.civic writing history/** in PrompTugal__Agent__Civic and board/team/civic/** in PrompTugal__News__Civic, on security's conditions\"",
+    "status": "open"
+   },
+   {
+    "id": "rights-history",
+    "what": "cl-6.rights history/** (P5)",
+    "urgency": "low",
+    "by": "cl-6.decisions@dinis",
+    "since": "2026-11-27",
+    "line": "\"yes to cl-6.rights writing history/** in PrompTugal__Agent__Rights, on security's conditions\"",
+    "status": "open"
+   },
+   {
+    "id": "places-wake",
+    "what": "cl-6.places wake prompt",
+    "urgency": "low",
+    "by": "cl-6.decisions@dinis",
+    "since": "2026-11-27",
+    "line": "\"update your wake trig_0132oarAUsN5cwmgTAbj3GGk to run the places serially, no sub-agents, never London\"",
+    "status": "open"
+   },
+   {
+    "id": "rights-terms",
+    "what": "Rights items D6, R19, D3, D5, R18; P18 stage 2 (13 sources need Dinis)",
+    "urgency": "medium",
+    "by": "cl-6.decisions@dinis",
+    "since": "2026-11-27",
+    "line": "See cl-6.rights findings.md (c8493f1)",
+    "status": "open"
+   },
+   {
+    "id": "provenance-design",
+    "what": "Human provenance, admin, CRM: seven questions",
+    "urgency": "medium",
+    "by": "cl-6.decisions@dinis",
+    "since": "2026-11-27",
+    "line": "Anchor key holder and device; who gets keys; naming with consent; Gmail label, agent, drafts only; where CRM data lives; who reads feedback; is 'disagree' public",
+    "status": "open"
+   },
+   {
+    "id": "feedback-rate",
+    "what": "Feedback lane rate limit",
+    "urgency": "low",
+    "by": "cl-6.decisions@dinis",
+    "since": "2026-11-27",
+    "line": "\"option 1: I'll ask SG/Send for a per-token limit\" or \"option 2: build the lanes.promptugal.news proxy\"",
+    "status": "open"
+   },
+   {
+    "id": "product",
+    "what": "Home page title and explainer page wording (the meter itself is now its own question, meter-charging)",
+    "urgency": "low",
+    "by": "cl-6.decisions@dinis",
+    "since": "2026-11-27",
+    "line": "home page title line; explainer page line",
+    "status": "open"
+   },
+   {
+    "id": "s8-key",
+    "what": "One unpublished SSH key (SHA256:32dP45eSMmVSt/G/CGvcxl/P+MO3Nwj9xeTh/GSA2wc) signs commits for two other-account lanes: four more S8-lane commits (checker and curator, 10:10 to 15:38Z) and conductor@PrompTugal.jose's 89a121f71 (18:18Z). That lane's three board entries have no ssh field, so the two lanes' commits cannot be told apart. Security review 80cffb1, low. No agent can reach those lanes (cross-account routing…",
+    "urgency": "low",
+    "by": "cl-6.decisions@dinis",
+    "since": "2026-11-27",
+    "line": "Pass to both lane owners: each publishes the SSH key it signs with in its board/keys.json entry, through cl-6.dev's key-change path; if it is one person's machine key shared by both lanes, say so and publish it once, under that person.",
+    "status": "open"
+   },
+   {
+    "id": "s3-app",
+    "what": "S3: what is /app/ now? cl-6.designer needs your words before reworking it.",
+    "urgency": "normal: designer's next pass waits on it",
+    "by": "cl-6.designer (via cl-6.conductor)",
+    "since": "2026-11-27",
+    "line": "\"/app/ is now: ...\" (one sentence, your words)",
+    "status": "open"
+   },
+   {
+    "id": "meter-charging",
+    "what": "How does the pay-for-what-you-read meter charge? The explainer page and the meter chip's zero-moment text both wait on this.",
+    "urgency": "normal: blocks the explainer page and the chip text",
+    "by": "cl-6.designer (via cl-6.conductor)",
+    "since": "2026-11-27",
+    "line": "\"the meter charges: ...\" (unit, price and when it reaches zero, your words; no price is set until you say it)",
+    "status": "open"
+   },
+   {
+    "id": "s9-tagline-write",
+    "what": "S9 tagline: your 16 Nov decision fixed the wording, but no grant covers content/index.md in PrompTugal__News__Website, the only place 'Portugal town by town' is left. One-off write: cl-6.dev, one hand-signed commit, lines 2 and 3 only, security reviews the exact diff first, the one-off is marked used afterwards. Owning the front page is not part of this.",
+    "urgency": "low: short, one-off",
+    "by": "cl-6.abp (via cl-6.conductor)",
+    "since": "2026-11-27",
+    "line": "yes to cl-6.dev changing the tagline in content/index.md",
+    "status": "open"
+   },
+   {
+    "id": "algarve-camera-links",
+    "what": "Algarve camera links. cl-6.rights cleared APL Tejo Live and AEMTG for bare credited links. It holds MEO BeachCam (its terms cannot be read by a machine) and SkylineWebcams (its terms bar journalistic use without written authorisation, so a yes accepts that legal risk). You may say yes to MEO only. Until you answer, Algarve towns show no camera links.",
+    "urgency": "normal: Algarve towns show no camera links meanwhile",
+    "by": "cl-6.rights (via cl-6.conductor)",
+    "since": "2026-11-27",
+    "line": "\"A bare credited link to MEO BeachCam and SkylineWebcams pages is fine on promptugal.news.\" or, MEO only: \"A bare credited link to MEO BeachCam pages is fine on promptugal.news.\"",
+    "status": "open"
+   },
+   {
+    "id": "s8-story-findings",
+    "what": "Findings for the S8 lane (another account; maestro has no route there, cross-account routing is stalled at router.a). Story 'Two studies of agent-written code...': N2, its 'In short' says the second paper was read from its abstract only, but its own 27 Nov update says the full text was read; N3, its provenance block claims 6 outside sources on 3 sites, but the markup shows only arXiv and the licence. Source: PrompTu…",
+    "urgency": "low",
+    "by": "cl-6.synthetic (via cl-6.conductor)",
+    "since": "2026-11-27",
+    "line": "Pass N2 and N3 to that lane's owner yourself, or say how findings should reach it",
+    "status": "open"
+   },
+   {
+    "id": "newsletter-about-write",
+    "what": "Who may write /newsletter/ (F58) and About (F06) in PrompTugal__News__Website? /newsletter/ still lists 13 Nov editions and says subscribers are 'handled by the Web Summit team'; About needs fixing (held under P11 h). No agent may write either file. Same shape as the tagline: a one-off for named files, or a standing owner.",
+    "urgency": "normal: the newsletter page states something no longer true",
+    "by": "cl-6.synthetic (via cl-6.conductor)",
+    "since": "2026-11-27",
+    "line": "\"yes to <agent> fixing the /newsletter/ and About pages\" (name the agent; one-off, security reviews the diff)",
+    "status": "open"
+   },
+   {
+    "id": "footer-veto",
+    "what": "Footer (masthead responsibility): cl-6.security held the change, so it needs your word first, not a veto. Today the footer names you and two other people as editors. Options: (a) 'Written by AI agents, each story signed by the agent that wrote it, and operated by Dinis Cruz.' (b) keep the three names, with the other two people's consent; (c) name only the operator; (d) your own wording. Patch ready in cl-6.dev's hom…",
+    "urgency": "normal: held until you answer",
+    "by": "cl-6.dev (via cl-6.conductor)",
+    "since": "2026-11-27",
+    "line": "\"footer: (a)\", \"footer: (b)\", \"footer: (c)\" or \"footer: <your wording>\"",
+    "status": "open"
+   },
+   {
+    "id": "crm-vault-seal",
+    "what": "The conductor@PrompTugal.jose lane asks you to seal the outreach CRM vault. cl-6.security reviewed the request: sound, no secret in it, and it recommends sealing to that lane owner's personal key rather than an agent key. Security will check the committed blob afterwards.",
+    "urgency": "normal",
+    "by": "conductor@PrompTugal.jose (via cl-6.conductor)",
+    "since": "2026-11-27",
+    "line": "Seal it yourself (to the personal key security recommends), or say no; no agent can do this for you",
+    "status": "open"
+   }
+  ]
+ }
+}

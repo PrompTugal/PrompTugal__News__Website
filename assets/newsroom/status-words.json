@@ -1,0 +1,22 @@
+{
+ "about": "The words of /newsroom/status/ (cell 2026-11-28-promptugal-status): the waits on Dinis, every agent, the data. Read by newsroom/build/lib/newsroom-status.mjs.",
+ "title": "Status",
+ "summary": "What is waiting on Dinis, what every agent is doing, and the state of the data, read from the files the agents keep.",
+ "lede": "One page for the state of everything: what waits on Dinis, what every agent is doing and what it waits on, and how fresh the data is. It is built from files the agents keep in their own repositories, read when the site is built; nothing here is typed by hand, and a file that could not be read says so.",
+ "waits_title": "Waits on Dinis",
+ "waits_about": "The maestro's briefing and the decisions agent's open questions, as they stand. Each has the line Dinis types or signs to answer it.",
+ "briefing_title": "From the briefing",
+ "questions_title": "Open questions",
+ "urgency": "Urgency",
+ "line": "The line that answers it",
+ "by": "Asked by",
+ "since": "since",
+ "none": "Nothing waiting.",
+ "read": "read",
+ "not_read": "not read yet: the file could not be fetched when the site was built",
+ "agents_title": "Every agent",
+ "agents_about": "Every agent of the cl-6 team, by what it is doing. Other teams' agents join here when their files are read.",
+ "data_title": "The data",
+ "data_none": "Not read yet: the data agent's status file is not part of the build yet. Until it is, this section stays empty rather than guess.",
+ "data_head": "| Dataset | Last refresh | Source | Rows | Freshness | Owner |\n|---|---|---|---|---|---|"
+}
