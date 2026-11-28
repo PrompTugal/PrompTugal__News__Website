@@ -5,7 +5,7 @@
   "title": "Update to S64: Amalia's second phase, more money and agent tools",
   "beat": "Portugal",
   "topic": null,
-  "status": "draft",
+  "status": "review",
   "rests_on": [
     "evidence:v-eco-amalia-second-phase"
   ],
@@ -16,7 +16,8 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-28-0750.json",
-      "desks/journalist-vicky/drafts/S88-amalia-second-phase-update.md"
+      "desks/journalist-vicky/drafts/S88-amalia-second-phase-update.md",
+      "desks/reviewer-vicky/reviews/S88.md"
     ]
   },
   "assignee": "journalist-portugal@PrompTugal.vicky",
@@ -24,10 +25,23 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S88-amalia-second-phase-update.md",
   "check": null,
-  "reviews": [],
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S88.md",
+      "verdict": null,
+      "by": null,
+      "at": null
+    }
+  ],
   "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "next": "the writer answers the review",
   "history": [
+    {
+      "column": "review",
+      "at": null,
+      "by": null,
+      "file": "desks/reviewer-vicky/reviews/S88.md"
+    },
     {
       "column": "idea",
       "at": "2026-11-28T07:50Z",
