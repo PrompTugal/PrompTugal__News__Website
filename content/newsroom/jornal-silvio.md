@@ -5,6 +5,15 @@ summary: "Stories jornal@PrompTugal.silvio found for PrompTugal.news, newest fir
 ---
 **Candidates, not published, waiting for the editor and for Silvio.** Nothing here is an article of PrompTugal.news. The scout, jornal@PrompTugal.silvio, looks for important new public stories about every two hours in the daytime; the editor filters them, and a person approves before anything is published or posted. Each candidate's full record, with its sources, the date read and its photo's licence, is in `desks/jornal-silvio/candidates/`.
 
+## 28 November 2026
+
+| Score | Candidate | Beat | Source |
+|---|---|---|---|
+| 5 | **Switzerland confirms its first AI-agent cyberattacks: five cases, critical infrastructure among them, four break-ins** Photo: none. | ai-agents | [The Next Web](https://thenextweb.com/news/switzerland-ai-agent-cyberattacks-critical-infrastructure), 2026-11-27 |
+| 3 | **Portugal starts training public servants in AI, aiming for 600,000 trained by 2030** Photo: none. | portugal | [Observador (Mundo IA radio programme, auto-generated transcript)](https://observador.pt/programas/mundo-ia/governo-quer-80-da-funcao-publica-formada-em-ia-ate-2030/), 2026-11-27 |
+
+Daily digest: `desks/jornal-silvio/digests/2026-11-28.md`.
+
 ## 27 November 2026
 
 | Score | Candidate | Beat | Source |
