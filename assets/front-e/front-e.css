@@ -251,3 +251,7 @@
 @media (max-width: 760px) { .fe-also { display: none; } }
 .fe-ptk .fe-ptn { display: block; margin-top: 4px; font: 12px var(--sans); color: var(--ink-3); }
 .fe-ptmap .cnt { font-size: 11px; }
+
+/* top stories by region, in the right-hand panel (cl-6.dev, 28 Nov) */
+.fe-regions { margin: 0 0 20px; } .fe-reg { border-top: 1px solid var(--hair); padding: 8px 0; } .fe-reg h3 { margin: 0 0 4px; font: 600 13px var(--sans); text-transform: uppercase; letter-spacing: .04em; }
+.fe-reg ul { list-style: none; margin: 0; padding: 0; } .fe-reg li { margin: 4px 0; font: 14px/1.35 var(--serif); } .fe-reg small { color: var(--ink-3); font: 12px var(--mono); }

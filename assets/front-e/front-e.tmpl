@@ -9,7 +9,7 @@
 <nav class="fe-nav" aria-label="Sections">{{#nav}}</nav></div>
 {{lead}}
 <div class="fe-w">{{nowline}}{{explainer}}</div>
-<section class="fe-w fe-ptb" aria-label="Portugal, town by town"><div class="fe-ptb-map"><h2 class="fe-h">Portugal, town by town</h2>{{ptmap}}{{ptmap_alg}}<p class="fe-ptk">{{ptk}} <small class="fe-ptn">The number by a place is its stories.</small></p></div><div class="fe-pl"><h2 class="fe-h">The Algarve</h2><p class="fe-pli">{{places_intro}}</p><p class="fe-ord">Newest local news first · {{places_shown}} of {{places_total}} towns</p><ul>{{#places}}</ul><p class="fe-more fe-pall"><a href="algarve/index.html">{{places_all}} <span aria-hidden="true">→</span></a></p><p class="fe-more"><a href="algarve/index.html">The Algarve</a> · <a href="portugal/index.html">Portugal</a> · <a href="api/swagger/index.html">The API</a></p></div></section>
+<section class="fe-w fe-ptb" aria-label="Portugal, town by town"><div class="fe-ptb-map"><h2 class="fe-h">Portugal, town by town</h2>{{ptmap}}{{ptmap_alg}}<p class="fe-ptk">{{ptk}} <small class="fe-ptn">The number by a place is its stories.</small></p></div><div class="fe-pl">{{regions}}<h2 class="fe-h">The Algarve</h2><p class="fe-pli">{{places_intro}}</p><p class="fe-ord">Newest local news first · {{places_shown}} of {{places_total}} towns</p><ul>{{#places}}</ul><p class="fe-more fe-pall"><a href="algarve/index.html">{{places_all}} <span aria-hidden="true">→</span></a></p><p class="fe-more"><a href="algarve/index.html">The Algarve</a> · <a href="portugal/index.html">Portugal</a> · <a href="api/swagger/index.html">The API</a></p></div></section>
 <div class="fe-w fe-colsw"><div class="fe-cols">
 <section class="fe-brf"><h2 class="fe-h">National and international</h2><ol>{{#briefing}}</ol></section>
 <section class="fe-stories"><h2 class="fe-h">{{stories_h}}</h2>{{#stories}}</section>
@@ -62,3 +62,7 @@
 <!-- item:ask --><a href="search/index.html?q={{q}}">{{text}}</a>
 <!-- item:phone --><source media="(max-width: 599px) and (prefers-color-scheme: dark)" srcset="{{phone_ink}}"><source media="(max-width: 599px)" srcset="{{phone}}">
 <!-- end -->
+<!-- item:regions --><section class="fe-regions"><h2 class="fe-h">Top stories by region</h2>{{rows}}</section>
+<!-- item:region --><div class="fe-reg"><h3>{{head}}</h3><ul>{{stories}}</ul></div>
+<!-- item:regionlink --><a href="{{href}}">{{label}}</a>
+<!-- item:rstory --><li><a href="{{href}}">{{title}}</a> <small>{{date}}</small></li>

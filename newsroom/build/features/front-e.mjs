@@ -200,6 +200,13 @@ function fillE(page, ctx) {
     // the middle column is the national view (Dinis, 28 Nov): the correspondent's front-page.json 'top', in its order, after the lead; the Algarve's own stories are the Algarve pages' (and the places band's). Without a 'top', the placed stories as before.
     const bySlug = new Map(fo.map(a => [slugOf(a), a])), topList = (FP && Array.isArray(FP.top) ? FP.top : []).map(t => t && bySlug.get(t.article)).filter(a => a && a !== theLead).slice(0, 8)
     const { L: PL, rows: PR } = placesOf(ctx, all)
+    // the right-hand panel's top stories by region (Dinis, 28 Nov; the correspondent's front-page.json "regions", passed by cl-6.security): each region's signed stories, newest first, linked; the region's heading links its place page where one is built. Only slugs of published articles are used.
+    const regionsHtml = (() => { const list = FP && FP.regions && Array.isArray(FP.regions.list) ? FP.regions.list : []
+        const rows = list.map(r => { const place = PL.places.find(p => p.id === r.place), page = place && place.path && fs.existsSync(path.join(ctx.ROOT, place.path, 'index.html')) ? `${place.path}index.html` : '',
+            arts = (Array.isArray(r.stories) ? r.stories : []).map(x => x && bySlug.get(x.article)).filter(Boolean).slice(0, 4)
+            return arts.length ? put(item('region'), { head: page ? put(item('regionlink'), { href: esc(page), label: esc(String(r.label || '')) }) : esc(String(r.label || '')), stories: arts.map(a => put(item('rstory'), { href: a.rel, title: esc(cut(a.meta.title, 110)), date: nice(ctx, a.meta.date) })).join('') }) : '' }).join('')
+        return rows ? put(item('regions'), { rows }) : '' })()
+
     // the Algarve's grid beside the map: the towns with the newest news first, capped so the two columns balance, then a link to all of them
     const algTowns = PR.filter(r => r.p.parent === 'algarve' || r.p.parent === 'loule').sort((x, y) => (y.newest || '').localeCompare(x.newest || '') || (y.news + y.map) - (x.news + x.map) || x.p.name.localeCompare(y.p.name))
     const ALG_CAP = 9
@@ -239,7 +246,7 @@ function fillE(page, ctx) {
             newest: r.a ? put(item('pnew'), { href: r.a.rel, date: nice(ctx, r.a.meta.date), title: esc(cut(r.a.meta.title, 80)) }) : r.n && r.n.title ? put(item('pnew'), { href: r.p.path + 'index.html#local', date: nice(ctx, r.n.date || r.n.read_on), title: esc(cut(r.n.title, 80)) }) : '' }))),
         '#stats': many('stat', statsOf(ctx, PR, all).slice(0, 4)), '#stats_more': many('stat', statsOf(ctx, PR, all).slice(4)), nstats: String(statsOf(ctx, PR, all).length),
         '#briefing': many('brief', all.filter(a => !(a.meta.region || a.meta.town) && a !== theLead).slice(0, 8).map(a => ({ href: a.rel, title: esc(a.meta.title), beat: esc(beatOf(a)) + dt(ctx, dateOf(ctx, a)) }))),  // national and international (Dinis, 16 Nov): what has no place, in the correspondent's order
-        '#stories': (topList.length ? topList : placed.filter(a => a !== theLead).slice(pick && !placed.includes(pick) ? 0 : 1, pick && !placed.includes(pick) ? 8 : 9)).map(story).join(''), stories_h: topList.length ? 'Top stories' : 'From the Algarve',
+        '#stories': (topList.length ? topList : placed.filter(a => a !== theLead).slice(pick && !placed.includes(pick) ? 0 : 1, pick && !placed.includes(pick) ? 8 : 9)).map(story).join(''), stories_h: topList.length ? 'Top stories' : 'From the Algarve', regions: regionsHtml,
         '#next': many('next', next.map(i => ({ href: `events/${i.id}/index.html`, date: i.date, end: endOf(i), when: esc(when(ctx, i)), what: esc(cut(i.what, 110)), where: esc(i.where || '') }))),
         '#radar': many('radar', fields.slice(0, 6).map(([t, n]) => ({ href: `topics/${t.id}/index.html`, name: esc(t.name), n, pct: Math.round(100 * n / max) }))),
         '#nums': many('num', [[PR.length, 'places, an agent each'], [PR.reduce((s, r) => s + r.news, 0), 'local AI stories, sourced'], [PR.reduce((s, r) => s + r.map, 0), 'AI builders mapped'], [signed, 'stories, signed']].map(([value, label]) => ({ value, label }))),
