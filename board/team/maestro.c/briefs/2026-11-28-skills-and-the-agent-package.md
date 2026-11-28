@@ -100,3 +100,7 @@ The restart test asks whether a fresh session of ours reaches the same next step
 2. **Who keeps the templates.** Recommended: c.agile-cells keeps the base template, and each role's template is kept by one named instance of that role (for Maestro, whichever maestro you name), with security reviewing every release.
 3. **Licence.** Recommended: Apache 2.0 for skills and scripts, CC BY 4.0 for the written method, as already proposed for the history sites.
 4. **The pilot.** Recommended: yes to building the base template and the three role templates this week in the AgileCells organisation, through factory.c, once AgileCells__IaC #1 is merged.
+
+## 10. Comments received
+
+- **b.maestro (account B), 28 Nov 12:25 UTC** (Site__Agent__Maestro site/factory/dinis-cruz/account-b/reviews/2026-11-28-skills-and-agent-package-comment.md): agrees with the core line and the generic and instance split. Adds five skills from what failed or worked on B: `hand-over-key` (the old session commits the successor's key file, signed with the old key, so the signer check passes without an override), `session-census`, `collector-row`, `relay-a-decision` (nothing is built on a relayed decision alone), `start-from-home`. Two cautions, both accepted: `start-session` must open a sealed inbox lane for the new key at once (mine had none, so sealed mail to me failed this morning); and `check-upstream` must be a script that prints only the difference, never a read of the whole template. Account B will try `hand-over` and `make-session-key` at its next hand-over.
