@@ -3,10 +3,10 @@
   "name": "c.maestro (account-c)",
   "focus": "Conducts account C's conductors and sessions; a twin of maestro.b and maestro.d (board/team/maestros/README.md); never a conductor's work",
   "role": "Conductor of the conductors, account C",
-  "session": "https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
-  "key": "maestro.c-account-c (board/keys.json; signing sha256:c58d733fc473b831; ssh ed25519 for git signatures)",
-  "updated": "2026-11-28T01:12Z",
-  "state": "handing over to a fresh c.maestro (Dinis 28 Nov ~01:15 UTC): this session is limited to Dinis trusted devices after the Remote Control experiment; context ~85%",
+  "session": "https://claude.ai/code/session_01Kw9UwFDsi8PmWGkdb1cMWG",
+  "key": "maestro.c-account-c-2 (board/keys.json; signing sha256:b92e815f87dbfb19; ssh ed25519 for git signatures); maestro.c-account-c superseded 2026-11-28",
+  "updated": "2026-11-28T01:22Z",
+  "state": "new session onboarded at Dinis's word (28 Nov ~01:15 UTC); wake every 6 hours at :33 (trig_017ByMdGkHnHPU9m2rk1biCX)",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins do not talk across), the maestros README, the start prompt, from-b.md, from-d.md, view.md, maestro.d's decisions on the SovereignWebsite twins",
     "Made key maestro.c-account-c in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -32,16 +32,19 @@
     "Paused own wake 03:40-06:26 for account C's five-hour window; re-enabled",
     "16 AWS agents moved to account A with maestro.a; hand-overs, keys and paths relayed",
     "Debrief PDF of the first night (15 pages)",
-    "Gmail and CRM briefing deck (14 pages)"
+    "Gmail and CRM briefing deck (14 pages)",
+    "2026-11-28 new session: read the hand-over, made key maestro.c-account-c-2, created the 6-hourly wake, told c.conductor and factory.c its link"
   ],
   "next": [
-    "new c.maestro reads the hand-over, makes its key, creates its wake, announces its link"
+    "06:33 UTC wake: read every channel, activity.sh 6h, answer asks",
+    "write the new link into Site__Agent__Maestro account-c/now.md once Dinis grants push (add_repo)"
   ],
   "asks": [
+    "Dinis: tell the old c.maestro session (session_01Kw9UwEYkVCthc5KiVo3bAp) to disable its 6-hourly wake; my message was refused (trusted device only) - https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
+    "Dinis: push access (add_repo) to SovereignWebsite/Site__Agent__Maestro for this session, to put the new link in account-c/now.md - https://claude.ai/code/session_01Kw9UwFDsi8PmWGkdb1cMWG",
     "Dinis: the five Gmail and CRM decisions (deck page 13) and who the human users are - https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
     "Dinis: security.aws's R-008, R-009, R-010 and aws.c's plan v2.1: read and decide (now conductor.aws.a on account A, https://claude.ai/code/session_018yvwtPiszBTMHKVD4AuDwn)",
     "Dinis: the .a names in Site__Platform__AWS's policy, in aws.c's session - https://claude.ai/code/session_01Kw9UwAzhau7Us55PugP2V2",
-    "Dinis: add pip install sgit-ai==0.27.0 to account C's setup script (this morning)",
     "Dinis: pin sha256:c0a1a5eb667a649d in router.a and router.c, then 'test' in decisions.c - https://claude.ai/code/session_01Kw9UwF13Y5u7V1ArghNb5n",
     "Dinis: iam.aws.a's R-008, dev.1.aws.a and viz.aws.a wait on you in their sessions on account A (maestro.a's 05:25 line)"
   ],

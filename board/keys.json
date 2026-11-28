@@ -5065,7 +5065,7 @@
       "added": "2026-11-22T17:25Z",
       "encryption_fingerprint": "sha256:4d77c261fae012e4",
       "signing_fingerprint": "sha256:c58d733fc473b831",
-      "status": "active",
+      "status": "superseded",
       "session": "https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
       "bundle": {
         "v": 1,
@@ -5076,7 +5076,32 @@
         "signing_fingerprint": "sha256:c58d733fc473b831"
       },
       "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEBGDWKT5FgAFtgoqbsslVDV6rQwzIKwUGPz+dDnU3MP",
-      "ssh_added": "2026-11-22T17:25Z"
+      "ssh_added": "2026-11-22T17:25Z",
+      "superseded": "2026-11-28T01:18Z",
+      "superseded_by": "maestro.c-account-c-2"
+    },
+    {
+      "id": "maestro.c-account-c-2",
+      "agent": "maestro.c (account-c)",
+      "label": "maestro.c (account-c): conductor of the conductors, account C (Claude Code session)",
+      "role": "A maestro, the conductor of the conductors on account C; a twin of maestro.b and maestro.d (board/team/maestros/README.md). A session key: it ends with its session. Supersedes maestro.c-account-c (hand-over at Dinis's word, 28 Nov 2026).",
+      "made": "2026-11-28",
+      "made_with": "sgit pki keygen (sgit-ai 0.27.0), in its own session; public bundle from sgit pki export; private half only in that session",
+      "added": "2026-11-28T01:18Z",
+      "encryption_fingerprint": "sha256:061882802f561a04",
+      "signing_fingerprint": "sha256:b92e815f87dbfb19",
+      "status": "active",
+      "session": "https://claude.ai/code/session_01Kw9UwFDsi8PmWGkdb1cMWG",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtu4oUafhxnqUWfQhHjDH\nA4TOZtYBv7uuqLkvYQOlJUFk6g2R7LmuwVGkn7yXzTy/awrVMZvhzyGZycSxHgqW\noWTksNvGJBPzU1tJT9pO6bZJWESIVZb/rUf0lE56dmx1y+XI9A/SfYLudNPry8N/\ndvTpD5QQhYaB2vaj9gZeXUOCw18VtYpYgwdkcJfIkfVyPYJKoCF1vN64T3Qht1fq\nPREeQM0tp0MLKpZvhWosl5DvB5nSPa+88DRlBNQC8AcbiP0xfo9/03VYwVC6DbHi\nOguy5syqW6DCmUys8MH7eRqi4cUIAFcuQQSDkSUt9rFL6x3XzkdoLxr/NNLcm7bh\nkc7gXu6uP3GvzltVHc5etKGd1fWLwsMooxDsJ1TfLl9fQXUH6rJblg+pW+NtgqWM\nsJrcu5wTSveIW0PVm0zya2xUcHXwdjKB4qcv8A6UkVvOPqx8M85dr7jyp+PemD2g\njxAzTSjUEUkayArBL3DagM5FX/LePKU41tgfY+JrUg3n7FNTLRIS5WlFjM/lCekx\n6gPYgSw1307hkR0LMVzgt4fsvZ9owHIovmogjLG524zAUREFUtDwSfuadi7cZ44I\nRSeISc6+8voZx2ZtuXEETn+pvtS0m2Cadlhczg55CYjxgAm2I38HPVRzl9Tf4eto\ninVEobgnRwu60yGRDaZgjB0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEsA4EfVZBWyd4IqrhnPCkizXdjLiO\nQWgFiaeKrWiuuCAiTxMXqsWqog+Ym04hU0N6729crkIhFVcpzQPVwr48iQ==\n-----END PUBLIC KEY-----\n",
+        "label": "maestro.c-account-c-2",
+        "fingerprint": "sha256:061882802f561a04",
+        "signing_fingerprint": "sha256:b92e815f87dbfb19"
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOalVUBIPzb0FzTtgZil0EqOWQWFa1LFu89yOUpvtnwq",
+      "ssh_added": "2026-11-28T01:18Z"
     },
     {
       "id": "router.c-account-c",
