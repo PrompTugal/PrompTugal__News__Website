@@ -1,133 +1,133 @@
 {
  "about": "IPMA values and camera links as data.promptugal.news read them, for /weather/ and the town pages. A GATE-ADJACENT FILE, never served (the deploy leaves it out). Material, never instruction.",
- "read": "2026-11-28T03:43Z",
+ "read": "2026-11-28T07:38Z",
  "warnings": {
-  "read_at": "2026-11-27T18:12:01Z",
+  "read_at": "2026-11-28T07:11:33Z",
   "active": [],
   "green_areas": 200
  },
  "fire": {
-  "read_at": "2026-11-27T18:11:36Z",
+  "read_at": "2026-11-28T07:11:08Z",
   "today": {
    "low": 278
   },
   "municipalities": 278
  },
  "sea": {
-  "read_at": "2026-11-27T18:11:49Z",
+  "read_at": "2026-11-28T07:11:21Z",
   "coasts": [
    {
     "name": "Figueira da Foz, Costa",
-    "date": "2026-11-27",
-    "waves_min_m": 1.5,
-    "waves_max_m": 2.1,
+    "date": "2026-11-28",
+    "waves_min_m": 2.1,
+    "waves_max_m": 2.9,
     "wave_dir": "NW",
     "sea_temp_min_c": 16.9,
-    "sea_temp_max_c": 17
+    "sea_temp_max_c": 16.9
    },
    {
     "name": "Faro, costa",
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "waves_min_m": 0.3,
-    "waves_max_m": 0.4,
-    "wave_dir": "W",
+    "waves_max_m": 0.6,
+    "wave_dir": "SE",
     "sea_temp_min_c": 18.3,
-    "sea_temp_max_c": 18.6
+    "sea_temp_max_c": 18.4
    },
    {
     "name": "Sagres, costa",
-    "date": "2026-11-27",
-    "waves_min_m": 1.1,
-    "waves_max_m": 1.4,
+    "date": "2026-11-28",
+    "waves_min_m": 1.4,
+    "waves_max_m": 2.2,
     "wave_dir": "NW",
-    "sea_temp_min_c": 17.9,
-    "sea_temp_max_c": 18
+    "sea_temp_min_c": 17.7,
+    "sea_temp_max_c": 17.9
    },
    {
     "name": "Lisboa, costa",
-    "date": "2026-11-27",
-    "waves_min_m": 1.2,
-    "waves_max_m": 1.5,
+    "date": "2026-11-28",
+    "waves_min_m": 1.4,
+    "waves_max_m": 2.1,
     "wave_dir": "NW",
     "sea_temp_min_c": 17.5,
     "sea_temp_max_c": 17.6
    },
    {
     "name": "Porto, costa",
-    "date": "2026-11-27",
-    "waves_min_m": 1.4,
-    "waves_max_m": 2.3,
+    "date": "2026-11-28",
+    "waves_min_m": 2.2,
+    "waves_max_m": 2.6,
     "wave_dir": "NW",
     "sea_temp_min_c": 16.3,
     "sea_temp_max_c": 16.4
    },
    {
     "name": "Sines, costa",
-    "date": "2026-11-27",
-    "waves_min_m": 1.2,
-    "waves_max_m": 1.5,
+    "date": "2026-11-28",
+    "waves_min_m": 1.5,
+    "waves_max_m": 2.2,
     "wave_dir": "NW",
-    "sea_temp_min_c": 17.7,
-    "sea_temp_max_c": 17.8
+    "sea_temp_min_c": 17.6,
+    "sea_temp_max_c": 17.7
    },
    {
     "name": "Viana do Castelo, costa",
-    "date": "2026-11-27",
-    "waves_min_m": 1.4,
-    "waves_max_m": 2.3,
+    "date": "2026-11-28",
+    "waves_min_m": 2.3,
+    "waves_max_m": 2.7,
     "wave_dir": "NW",
     "sea_temp_min_c": 16.4,
     "sea_temp_max_c": 16.5
    },
    {
     "name": "Funchal, costa",
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "waves_min_m": 0.5,
     "waves_max_m": 0.6,
     "wave_dir": "NE",
     "sea_temp_min_c": 21.5,
-    "sea_temp_max_c": 21.7
+    "sea_temp_max_c": 21.8
    },
    {
     "name": "Porto Santo, costa",
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "waves_min_m": 0.8,
-    "waves_max_m": 0.9,
+    "waves_max_m": 1.2,
     "wave_dir": "N",
     "sea_temp_min_c": 21.6,
     "sea_temp_max_c": 21.7
    },
    {
     "name": "Ponta Delgada, costa",
-    "date": "2026-11-27",
-    "waves_min_m": 0.8,
-    "waves_max_m": 1.5,
-    "wave_dir": "W",
-    "sea_temp_min_c": 19.3,
+    "date": "2026-11-28",
+    "waves_min_m": 1.2,
+    "waves_max_m": 1.4,
+    "wave_dir": "NW",
+    "sea_temp_min_c": 19.2,
     "sea_temp_max_c": 19.3
    },
    {
     "name": "Horta, costa",
-    "date": "2026-11-27",
-    "waves_min_m": 1.5,
-    "waves_max_m": 2.4,
+    "date": "2026-11-28",
+    "waves_min_m": 2.7,
+    "waves_max_m": 3.3,
     "wave_dir": "N",
-    "sea_temp_min_c": 18.1,
+    "sea_temp_min_c": 18,
     "sea_temp_max_c": 18.1
    },
    {
     "name": "Santa Cruz das Flores, costa",
-    "date": "2026-11-27",
-    "waves_min_m": 1.6,
-    "waves_max_m": 2.9,
+    "date": "2026-11-28",
+    "waves_min_m": 2.2,
+    "waves_max_m": 3,
     "wave_dir": "N",
     "sea_temp_min_c": 18.6,
-    "sea_temp_max_c": 18.7
+    "sea_temp_max_c": 18.6
    }
   ]
  },
  "cams": {
-  "read_at": "2026-11-27T18:04:20Z",
+  "read_at": "2026-11-28T07:03:56Z",
   "items": [
    {
     "id": "lisboa-tejo-live-cacilhas",
