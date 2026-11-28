@@ -43,7 +43,7 @@ function builder(rel) {
 }
 const tabs = (b, ctx) => b.raw(`<nav class="adm-tabs" aria-label="Newsroom">${TABS.map(([r, l]) => `<a href="${b.h(r)}"${r === b.rel ? ' aria-current="page"' : ''}>${l}</a>`).join('')}</nav>`,
     `**Newsroom:** ${TABS.map(([r, l]) => r === b.rel ? `**${l}**` : `[${l}](${ctx.link(b.rel, r)})`).join(' · ')}`)
-const page = (b, p) => ({ ...p, rel: b.rel, type: 'site', layout: 'wide', assets: ASSETS, toc: [], _newsroom: b, postHtml: html => html.replace(/<p>@@NEWSROOM:(\d+)@@<\/p>/g, (m, i) => b.blocks[+i].html) })
+const page = (b, p) => ({ ...p, rel: b.rel, type: 'site', layout: 'wide', assets: p.assets || ASSETS, toc: [], _newsroom: b, postHtml: html => html.replace(/<p>@@NEWSROOM:(\d+)@@<\/p>/g, (m, i) => b.blocks[+i].html) })
 const crumbs = (...xs) => [['newsroom/index.html', 'Newsroom'], ...xs]
 
 // ---------- the overview ----------
@@ -195,7 +195,7 @@ function activityPage(ctx) {
 }
 function statusPage(ctx) {
     const b = builder('newsroom/status/index.html'), W = ctx.readJSON('assets/newsroom/status-words.json')
-    return page(b, { src: 'assets/newsroom/status-snapshot.json', title: W.title, crumbs: crumbs([null, W.title]), summary: W.summary, md: tabs(b, ctx) + statusMd(ctx) })
+    return page(b, { src: 'assets/newsroom/status-snapshot.json', title: W.title, crumbs: crumbs([null, W.title]), summary: W.summary, md: tabs(b, ctx) + statusMd(ctx, b), assets: { css: [...ASSETS.css, 'assets/newsroom/status.css'], js: ASSETS.js } })
 }
 function agentPage(ctx, m, a) {
     const b = builder(agentRel(a))

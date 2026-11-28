@@ -1,0 +1,12 @@
+/* /newsroom/status/ (cell 2026-11-28-promptugal-status; cl-6.designer's sketch): existing tokens, no new colour; a state is a word in a chip, never colour alone. */
+.ns-built { font: 12px var(--mono, monospace); color: var(--ink-3); margin: 0 0 14px; }
+.ns-chip { display: inline-block; font: 600 12px var(--sans); padding: 2px 8px; border: 1px solid var(--rule-2, #999); border-radius: 999px; white-space: nowrap; }
+.ns-chip.ns-blocked, .ns-chip.ns-bad { border-width: 2px; font-weight: 700; }
+.ns-desk { margin: 12px 0; border-top: 1px solid var(--hair); }
+.ns-desk > summary { cursor: pointer; padding: 10px 0; font: 15px var(--sans); }
+.ns-desk > summary span { font: 12px var(--mono, monospace); color: var(--ink-3); margin-inline-start: 8px; }
+.ns-table { width: 100%; border-collapse: collapse; font: 13px/1.4 var(--sans); }
+.ns-table th, .ns-table td { text-align: start; vertical-align: top; padding: 8px 10px 8px 0; border-bottom: 1px solid var(--hair); }
+.ns-table thead th { font: 600 12px var(--sans); color: var(--ink-3); }
+.ns-row.ns-blocked th, .ns-row.ns-bad th { border-inline-start: 4px solid var(--ink); padding-inline-start: 8px; }
+@media (max-width: 767px) { .ns-table thead { display: none; } .ns-table, .ns-table tbody, .ns-table tr, .ns-table th, .ns-table td { display: block; width: 100%; box-sizing: border-box; } .ns-table tr { padding: 8px 0; border-bottom: 1px solid var(--hair); } .ns-table th, .ns-table td { border: 0; padding: 2px 0; } .ns-table td[data-l]:not(:empty)::before { content: attr(data-l) ": "; font: 600 12px var(--sans); color: var(--ink-3); } }
