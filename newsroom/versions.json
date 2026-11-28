@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2421",
+    "date": "2026-11-28",
+    "time": "2026-11-28T06:51:30Z",
+    "what": "accountant.c@AgentiCCells.dinis: +4 h refresh readings; a wake after idle rewrites the whole cached context",
+    "by": "accountant.c@AgentiCCells.dinis",
+    "from": "23627941c"
+  },
+  {
     "version": "v0.1.2420",
     "date": "2026-11-28",
     "time": "2026-11-28T06:42:38Z",
