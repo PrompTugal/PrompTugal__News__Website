@@ -53,7 +53,8 @@ export function statusMd(ctx, b = { raw: (h, m) => m }) {
     if (H && H.articles) parts.push(fill(W.hb_articles, { n: H.articles, d: H.newest ? day(H.newest) : '' }))
     if (ctx.VERSION) parts.push(fill(W.hb_build, { v: cell(ctx.VERSION) }))
     const nA = k => A.filter(a => (isBlocked(a) ? 'blocked' : a.status) === k).length
-    if (A.length) parts.push(fill(W.hb_agents, { n: A.length, w: nA('working'), i: nA('idle'), b: nA('blocked') }))
+    if (A.length) { const w = nA('working'), bl = nA('blocked'), pl = n => n === 1 ? ['agent', 'is'] : ['agents', 'are']
+        parts.push(fill(w ? W.hb_waiting_some : W.hb_waiting_none, { w, wag: pl(w)[0], wis: pl(w)[1], b: bl, ag: pl(bl)[0], is: pl(bl)[1] })) }
     const bad = D ? D.datasets.filter(d => (RANK[d.freshness] ?? 5) < 4).length : 0, arch = D ? D.datasets.filter(d => d.freshness === 'archive (no schedule)').length : 0
     if (D) parts.push(fill(W.hb_data, { n: D.datasets.length, f: D.datasets.filter(d => d.freshness === 'fresh').length, a: arch, p: bad }))
     const heart = parts.length ? `- ${parts.join('\n- ')}` : W.not_read
@@ -74,6 +75,13 @@ export function statusMd(ctx, b = { raw: (h, m) => m }) {
             b.raw(put(item('fold'), { label: esc(W.fold_data), body: (D.rule ? put(item('rule'), { text: `${esc(W.rule_label)} ${E(D.rule)}` }) : '') + (drows.some(r => r.bad) ? put(item('data'), { ...dhead, rows: drows.filter(r => r.bad).map(r => r.html).join('') }) : '') + (drows.some(r => !r.bad) ? put(item('more'), { label: esc(fill(W.more_data, { n: drows.filter(r => !r.bad).length })), table: put(item('data'), { ...dhead, rows: drows.filter(r => !r.bad).map(r => r.html).join('') }) }) : '') }), drows.map(r => `- ${cell(r.d.title || r.d.id)}: ${W[`f_${r.d.freshness}`] || cell(r.d.freshness)}, ${when(r.d.last_refresh) || W.s_none}`).join('\n')) + `\n\n${W.live_view}`
     }
     const other = S.other_teams && S.other_teams.items.length ? `\n## ${W.other_title} {#other}\n\n${b.raw(put(item('fold'), { label: esc(fill(W.fold_other, { n: S.other_teams.items.length })), body: put(item('p'), { text: esc(W.other_about) }) + put(item('ul'), { items: S.other_teams.items.map(x => put(item('li'), { text: `${E(x.id)}: ${esc(when(x.last_at))}` })).join('') }) }), W.other_about + '\n\n' + S.other_teams.items.map(x => `- ${cell(x.id)}: ${when(x.last_at)}`).join('\n'))}\n` : ''
-    return `${b.raw(put(item('built'), { text: esc(line) }), line)}\n\n${W.lede}\n\n${top}\n\n## ${W.agents_title} {#status-agents}\n\n${parts.find(x => /agents/.test(x)) || ''}\n\n${agentsBlock(ctx, b, W, S)}${other}\n## ${W.data_title} {#data}\n\n${D ? fill(W.hb_data, { n: D.datasets.length, f: D.datasets.filter(d => d.freshness === 'fresh').length, a: arch, p: bad }) : ''}\n\n${dataBlock}\n`
+    return `${b.raw(put(item('built'), { text: esc(line) }), line)}\n\n${W.lede}\n\n${top}\n\n## ${W.agents_title} {#status-agents}\n\n${parts.find(x => /waiting on a decision|working now/.test(x)) || ''}\n\n${agentsBlock(ctx, b, W, S)}${other}\n## ${W.data_title} {#data}\n\n${D ? fill(W.hb_data, { n: D.datasets.length, f: D.datasets.filter(d => d.freshness === 'fresh').length, a: arch, p: bad }) : ''}\n\n${dataBlock}\n`
 }
 const day = s => { const m = /^(\d{4})-(\d\d)-(\d\d)/.exec(String(s || '')); return m ? `${+m[3]} ${MON[+m[2] - 1]}` : '' }
+
+// the newsroom's page list for this page only (cl-6.conductor's last round, 28 Nov): a closed fold on a phone, the row from 700 px, the same list repeated at the foot on a phone. Words in status-words.json, markup in status.tmpl.
+export function statusNav(ctx, b, tabs) {
+    const W = ctx.readJSON('assets/newsroom/status-words.json')
+    const list = tabs.map(([r, l]) => put(item(r === b.rel ? 'navhere' : 'navlink'), { href: esc(b.h(r)), label: esc(l), here: esc(W.here) })).join('')
+    return { top: put(item('navtop'), { list, label: esc(W.nav_label) }), foot: put(item('navfoot'), { list, label: esc(W.nav_label) }), md: tabs.map(([r, l]) => `[${l}](${b.h(r).replace(/index\.html$/, 'index.md').replace(/\.html$/, '.md')})`).join(' · ') }
+}

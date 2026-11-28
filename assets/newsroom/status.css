@@ -20,3 +20,8 @@
 .ns-ptr { font: 13px var(--sans); color: var(--ink-3); margin: 10px 0 0; }
 .ns-fold { margin: 8px 0 16px; } .ns-fold > summary { cursor: pointer; font: 600 14px var(--sans); padding: 6px 0; }
 @media (min-width: 1100px) { .ns-top { grid-template-columns: minmax(0, 1fr) 280px; grid-template-areas: "main rail"; } .ns-main { grid-area: main; } .ns-rail { grid-area: rail; border-inline-start: 1px solid var(--hair); padding-inline-start: 24px; } }
+/* the page list (cl-6.conductor, 28 Nov): a closed fold under 700 px, repeated at the foot; the row from 700 px */
+.ns-here { font: 600 11px var(--sans); margin-inline-start: 6px; } .ns-list a { display: block; min-height: 44px; line-height: 44px; border-bottom: 1px solid var(--hair); color: inherit; text-decoration: none; }
+.ns-list a[aria-current] { border-inline-start: 4px solid var(--ink); padding-inline-start: 8px; } .ns-pages > summary { cursor: pointer; font: 600 14px var(--sans); padding: 10px 0; min-height: 44px; box-sizing: border-box; }
+@media (max-width: 699px) { .ns-row { display: none; } }
+@media (min-width: 700px) { .ns-pages, .ns-foot { display: none; } .ns-row { flex-wrap: wrap; overflow-x: visible; } .ns-row .ns-here { display: none; } }

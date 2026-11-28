@@ -10,7 +10,7 @@
 //   data/newsroom/team-site.json the desks' run lines, the newsroom's board issues and the keys' public facts, from the
 //                             team's site by newsroom/tools/desks-snapshot.mjs
 //   ctx.store, ctx.graph()    the data;  REALITY.md, content/brief/09-*.md, newsroom/build/validate.js: read as text
-import { statusMd } from '../lib/newsroom-status.mjs'
+import { statusMd, statusNav } from '../lib/newsroom-status.mjs'
 import path from 'node:path'
 import { esc, cell } from '../lib/markdown.mjs'
 import { json } from '../lib/writers.mjs'
@@ -195,7 +195,8 @@ function activityPage(ctx) {
 }
 function statusPage(ctx) {
     const b = builder('newsroom/status/index.html'), W = ctx.readJSON('assets/newsroom/status-words.json')
-    return page(b, { src: 'assets/newsroom/status-snapshot.json', title: W.title, crumbs: crumbs([null, W.title]), summary: W.summary, md: tabs(b, ctx) + statusMd(ctx, b), assets: { css: [...ASSETS.css, 'assets/newsroom/status.css'], js: ASSETS.js } })
+    const nav = statusNav(ctx, b, TABS)
+    return page(b, { src: 'assets/newsroom/status-snapshot.json', title: W.title, crumbs: crumbs([null, W.title]), summary: W.summary, md: b.raw(nav.top, `**Newsroom:** ${nav.md}`) + statusMd(ctx, b) + '\n\n' + b.raw(nav.foot, ''), assets: { css: [...ASSETS.css, 'assets/newsroom/status.css'], js: ASSETS.js } })
 }
 function agentPage(ctx, m, a) {
     const b = builder(agentRel(a))
