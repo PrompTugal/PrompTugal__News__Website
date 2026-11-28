@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account C",
   "session": "https://claude.ai/code/session_01Kw9UwFDsi8PmWGkdb1cMWG",
   "key": "maestro.c-account-c-2 (board/keys.json; signing sha256:b92e815f87dbfb19; ssh ed25519 for git signatures); maestro.c-account-c superseded 2026-11-28",
-  "updated": "2026-11-28T01:22Z",
-  "state": "new session onboarded at Dinis's word (28 Nov ~01:15 UTC); wake every 6 hours at :33 (trig_017ByMdGkHnHPU9m2rk1biCX)",
+  "updated": "2026-11-28T06:40Z",
+  "state": "wake 06:33: vault keys received sealed and checked; relays to b.maestro and cl-6 written; next wake 12:33",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins do not talk across), the maestros README, the start prompt, from-b.md, from-d.md, view.md, maestro.d's decisions on the SovereignWebsite twins",
     "Made key maestro.c-account-c in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -33,14 +33,18 @@
     "16 AWS agents moved to account A with maestro.a; hand-overs, keys and paths relayed",
     "Debrief PDF of the first night (15 pages)",
     "Gmail and CRM briefing deck (14 pages)",
-    "2026-11-28 new session: read the hand-over, made key maestro.c-account-c-2, created the 6-hourly wake, told c.conductor and factory.c its link"
+    "2026-11-28 new session: read the hand-over, made key maestro.c-account-c-2, created the 6-hourly wake, told c.conductor and factory.c its link",
+    "Archived old c.conductor and old c.productions after their successors confirmed; disabled the old c.maestro wake",
+    "Holding five vault keys sealed (c.productions old and new, instagram.c c0kmaggy), each checked to open"
   ],
   "next": [
-    "06:33 UTC wake: read every channel, activity.sh 6h, answer asks",
-    "write the new link into Site__Agent__Maestro account-c/now.md once Dinis grants push (add_repo)"
+    "12:33 wake",
+    "archive the old c.maestro session if Dinis allows from a trusted device",
+    "write account-c/now.md in Site__Agent__Maestro once push access is granted"
   ],
   "asks": [
-    "Dinis: tell the old c.maestro session (session_01Kw9UwEYkVCthc5KiVo3bAp) to disable its 6-hourly wake; my message was refused (trusted device only) - https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
+    "Dinis: archive the old c.maestro session yourself (its wake is now disabled; it accepts only your trusted devices) - https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
+    "Dinis: the vault keys given to c.maestro live only in this session; should backup@ hold a sealed copy? - https://claude.ai/code/session_01Kw9UwFDsi8PmWGkdb1cMWG",
     "Dinis: push access (add_repo) to SovereignWebsite/Site__Agent__Maestro for this session, to put the new link in account-c/now.md - https://claude.ai/code/session_01Kw9UwFDsi8PmWGkdb1cMWG",
     "Dinis: the five Gmail and CRM decisions (deck page 13) and who the human users are - https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
     "Dinis: security.aws's R-008, R-009, R-010 and aws.c's plan v2.1: read and decide (now conductor.aws.a on account A, https://claude.ai/code/session_018yvwtPiszBTMHKVD4AuDwn)",
@@ -49,11 +53,12 @@
     "Dinis: iam.aws.a's R-008, dev.1.aws.a and viz.aws.a wait on you in their sessions on account A (maestro.a's 05:25 line)"
   ],
   "latest_debrief": "board/team/maestro.c/debriefs/2026-11-28-handover.md",
-  "last_read_from_b": "2026-11-23T15:34Z",
-  "last_read_from_d": "2026-11-23T15:10Z",
-  "last_read_from_a": "2026-11-23T15:31Z",
+  "last_read_from_b": "2026-11-28T06:40Z",
+  "last_read_from_d": "2026-11-28T06:40Z",
+  "last_read_from_a": "2026-11-28T06:40Z",
   "exceptions": [
     "2026-11-24T11:25Z wake moved 3-hourly to 6-hourly and accountant pings dropped on c.accountant RED advice; reversible, own area (no-agent-blocked rule)",
-    "2026-11-25T00:33Z skipped wake and paused own wake until reset (account C at 91%); reversible, own area"
+    "2026-11-25T00:33Z skipped wake and paused own wake until reset (account C at 91%); reversible, own area",
+    "2026-11-28T02:48Z disabled the old c.maestro wake and archived two refreshed sessions (old c.conductor, old c.productions); rule bent: CLAUDE.md hand-over 'Dinis archives it'; why: Dinis's word in this session ~02:45 UTC; reversible (unarchive)"
   ]
 }
