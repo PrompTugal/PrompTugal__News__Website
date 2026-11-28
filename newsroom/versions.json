@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2448",
+    "date": "2026-11-28",
+    "time": "2026-11-28T17:31:11Z",
+    "what": "cl-6.dev@PrompTugal.dinis: the team's days brought up to date (newsroom/tools/team-days.mjs, run by release.sh)",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "7ff8d462a"
+  },
+  {
     "version": "v0.1.2447",
     "date": "2026-11-28",
     "time": "2026-11-28T17:24:06Z",
