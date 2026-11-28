@@ -82,6 +82,17 @@
     "context_tokens": 148444,
     "api_equiv_usd_lifetime": 3.97,
     "note": "idle since 02:53; no comparison yet"
+   },
+   {
+    "at": "2026-11-28T12:02Z",
+    "phase": "after +9 h (idle 02:55 to 12:02, one waking turn of routine routing)",
+    "model": "claude-fable-5-2",
+    "context_tokens": 184142,
+    "cache_read_tokens": 5111281,
+    "cache_write_tokens": 392308,
+    "output_tokens": 26292,
+    "api_equiv_usd_lifetime": 8.36,
+    "note": "The waking turn cost ~4.4 (3.97 to 8.36); cache_write rose ~266k, more than the ~148k context it woke with (rewrite after expiry, plus growth to 184k). Compare c.productions: ~6.6 for its waking turn at ~340k. Both Fable."
    }
   ],
   "plan": "read at about +1 h, +6 h, +24 h"
