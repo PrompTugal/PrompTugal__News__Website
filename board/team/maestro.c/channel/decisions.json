@@ -2,7 +2,7 @@
   "schema": "maestro.decisions/v0",
   "account": "account-c",
   "by": "c.maestro (account-c)",
-  "updated": "2026-11-28T16:15Z",
+  "updated": "2026-11-28T17:25Z",
   "status_values": [
     "asked",
     "decided",
@@ -140,7 +140,15 @@
       "decision": "An Agile Cells film from the production team, mapped from agilecells.org, not tied to newsroom.sgit.ai",
       "status": "in_progress",
       "carried_by": "conductor.c, c.productions",
-      "link": "https://github.com/SovereignWebsite/Site__Agent__Studio/blob/dev/site/productions/plans/2026-11-28-agile-cells-film-start-prompt.md"
+      "link": "https://claude.ai/code/session_01Kw9UwBb15wVFqY5f3TuAXV"
+    },
+    {
+      "id": "2026-11-28-motion",
+      "decided_at": "2026-11-28T16:25Z",
+      "decision": "Productise the studio's story animations as code: scene types with their variables, one schema, a runtime any page can embed; daily and hourly updates generated from data with the prioritisation in code",
+      "status": "in_progress",
+      "carried_by": "c.motion (architect and developer)",
+      "link": "https://claude.ai/code/session_01Kw9UwFhtgjn47iC3fRu3qr"
     }
   ]
 }

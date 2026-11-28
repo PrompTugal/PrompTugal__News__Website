@@ -2,9 +2,14 @@
   "schema": "maestro.ideas/v0",
   "account": "account-c",
   "by": "c.maestro (account-c)",
-  "updated": "2026-11-28T16:15Z",
+  "updated": "2026-11-28T17:25Z",
   "window": "26 to 28 Nov 2026",
   "ideas": [
+    {
+      "idea": "Productions find how to say something; then it is productised as code (scene types plus variables), so any page, and the daily and hourly updates, can tell the story the same way",
+      "date": "2026-11-28",
+      "link": "https://claude.ai/code/session_01Kw9UwFhtgjn47iC3fRu3qr"
+    },
     {
       "idea": "The roles this team runs on (Librarian, Conductor, Cartographer, Historian, Journalist, Sherpa) were first written in Dinis's NotebookLM work, 5 to 20 Feb 2026; SG/Send was shipped by an AI team in a week (12 to 13 Feb)",
       "date": "2026-11-28",
