@@ -14,6 +14,14 @@
    "api_equiv_usd_lifetime": 82.19,
    "created": "2026-11-27T18:03Z",
    "note": "~11.4 an hour average over 7.2 h; account C five-hour window allowed_warning at this time"
+  },
+  {
+   "at": "2026-11-28T02:42Z",
+   "phase": "after +0 (successor started 02:39:50Z)",
+   "model": "claude-fable-5-2",
+   "context_tokens": 0,
+   "api_equiv_usd_lifetime": 0,
+   "note": "same model as the outgoing session, so cost can be compared directly; account C seven_day allowed_warning"
   }
  ],
  "plan": "successor read at about +1 h, +6 h and +24 h after it starts"
