@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account C",
   "session": "https://claude.ai/code/session_01Kw9UwFDsi8PmWGkdb1cMWG",
   "key": "maestro.c-account-c-2 (board/keys.json; signing sha256:b92e815f87dbfb19; ssh ed25519 for git signatures); maestro.c-account-c superseded 2026-11-28",
-  "updated": "2026-11-28T06:40Z",
-  "state": "wake 06:33: vault keys received sealed and checked; relays to b.maestro and cl-6 written; next wake 12:33",
+  "updated": "2026-11-28T12:50Z",
+  "state": "skills strategy written at Dinis's word; three pilot skills; next wake 18:33",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins do not talk across), the maestros README, the start prompt, from-b.md, from-d.md, view.md, maestro.d's decisions on the SovereignWebsite twins",
     "Made key maestro.c-account-c in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -35,7 +35,8 @@
     "Gmail and CRM briefing deck (14 pages)",
     "2026-11-28 new session: read the hand-over, made key maestro.c-account-c-2, created the 6-hourly wake, told c.conductor and factory.c its link",
     "Archived old c.conductor and old c.productions after their successors confirmed; disabled the old c.maestro wake",
-    "Holding five vault keys sealed (c.productions old and new, instagram.c c0kmaggy), each checked to open"
+    "Holding five vault keys sealed (c.productions old and new, instagram.c c0kmaggy), each checked to open",
+    "Skills and the agent package: strategy brief and three pilot skills (briefs/2026-11-28-skills-and-the-agent-package.md, skills/); review of 'How we refresh a session' sent to c.productions"
   ],
   "next": [
     "12:33 wake",
@@ -43,6 +44,7 @@
     "write account-c/now.md in Site__Agent__Maestro once push access is granted"
   ],
   "asks": [
+    "Dinis: the skills strategy: confirm the template names, who keeps them, the licence and the pilot (section 9) - https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/maestro.c/briefs/2026-11-28-skills-and-the-agent-package.md",
     "Dinis: archive the old c.maestro session yourself (its wake is now disabled; it accepts only your trusted devices) - https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
     "Dinis: the vault keys given to c.maestro live only in this session; should backup@ hold a sealed copy? - https://claude.ai/code/session_01Kw9UwFDsi8PmWGkdb1cMWG",
     "Dinis: push access (add_repo) to SovereignWebsite/Site__Agent__Maestro for this session, to put the new link in account-c/now.md - https://claude.ai/code/session_01Kw9UwFDsi8PmWGkdb1cMWG",
