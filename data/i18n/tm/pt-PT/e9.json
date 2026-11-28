@@ -1,4 +1,12 @@
 {
+ "e92ff0bffb0112e5": {
+  "t": "> **Atualização, 28 de novembro de 2026.** O [ECO](https://eco.sapo.pt/2026/09/15/amalia-ganha-ferramentas-de-agentificacao-ate-final-do-ano/) noticiou a 15 de setembro de 2026 que a segunda fase de desenvolvimento da AMALIA tinha sido oficializada. A notícia é anterior a este artigo, que não a cobriu. O ECO relata uma declaração do governo de 9 de setembro e uma resolução do Conselho de Ministros publicada em Diário da República a 15 de setembro. Não lemos a resolução.\n>\n> - **Dinheiro.** A notícia diz que o governo acrescentou 1,8 milhões de euros do Plano de Recuperação e Resiliência, com efeitos retroativos a 1 de julho. Diz que isso elevou o custo total da AMALIA para 7,3 milhões de euros no fim dos trabalhos. Este artigo indicava 5,5 milhões de euros do INESC-ID e da NOVA FCT. São números de fontes diferentes e não os conciliamos.\n> - **Objetivos.** Até ao fim de 2026, o governo queria o modelo treinado para \"ferramentas de agentificação\" (agent tools, em inglês no original), software que executa tarefas por si próprio, e para soluções adaptadas aos processos internos da administração pública, além de usos de imagem e voz. O objetivo principal, tal como o ECO o cita, era que a AMALIA deixasse de ser apenas um protótipo e passasse a integrar o atendimento ao cidadão.\n> - **Dados.** O governo disse que abriria em breve conversações com empresas de media sobre o acesso aos seus arquivos mais recentes para treino. O ECO acrescenta que o Sindicato dos Jornalistas tinha contestado o acesso ao arquivo Arquivo.pt na primeira fase.\n>\n> Esta é uma notícia que reproduz declarações do governo. Não encontrámos números de adoção da AMALIA nem notícias posteriores sobre a segunda fase.",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-28",
+  "src": "> **Update, 28 November 2026.** [ECO](https://eco.sapo.pt/20",
+  "ok": false
+ },
  "e93106c08849b9aa": {
   "t": "[RMT, \"Tube drivers to take eight days of strike action over attacks on working conditions\", 6 de novembro de 2026](https://www.rmt.org.uk/news/tube-drivers-to-take-eight-days-of-strike-action-over-attacks/) (as datas do RMT e a sua versão do litígio), lido a 26 de novembro de 2026",
   "by": "cl-6.translator@PrompTugal.dinis",
