@@ -56,5 +56,6 @@
  "hb_waiting_none": "{b} {ag} {is} waiting on a decision or a grant. 0 are working now.",
  "hb_waiting_some": "{w} {wag} {wis} working now; {b} {is} waiting on a decision or a grant.",
  "nav_label": "Newsroom pages",
- "here": "You are here"
+ "here": "You are here",
+ "nav_more": "More"
 }

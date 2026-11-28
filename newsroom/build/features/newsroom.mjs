@@ -196,7 +196,7 @@ function activityPage(ctx) {
 function statusPage(ctx) {
     const b = builder('newsroom/status/index.html'), W = ctx.readJSON('assets/newsroom/status-words.json')
     const nav = statusNav(ctx, b, TABS)
-    return page(b, { src: 'assets/newsroom/status-snapshot.json', title: W.title, crumbs: crumbs([null, W.title]), summary: W.summary, md: b.raw(nav.top, `**Newsroom:** ${nav.md}`) + statusMd(ctx, b) + '\n\n' + b.raw(nav.foot, ''), assets: { css: [...ASSETS.css, 'assets/newsroom/status.css'], js: ASSETS.js } })
+    return page(b, { src: 'assets/newsroom/status-snapshot.json', title: W.title, crumbs: crumbs([null, W.title]), summary: W.summary, md: b.raw(nav.top, `**Newsroom:** ${nav.md}`) + statusMd(ctx, b, nav) + '\n\n' + b.raw(nav.foot, ''), assets: { css: [...ASSETS.css, 'assets/newsroom/status.css'], js: ASSETS.js } })
 }
 function agentPage(ctx, m, a) {
     const b = builder(agentRel(a))

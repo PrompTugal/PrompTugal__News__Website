@@ -43,7 +43,7 @@ function agentsBlock(ctx, b, W, S) {
 }
 
 const pick = (S, k) => S && S[k] && (Array.isArray(S[k].items) || S[k].read_at) ? S[k] : null
-export function statusMd(ctx, b = { raw: (h, m) => m }) {
+export function statusMd(ctx, b = { raw: (h, m) => m }, nav = null) {
     const W = ctx.readJSON('assets/newsroom/status-words.json'), S = rd(ctx, 'assets/newsroom/status-snapshot.json') || {}
     const built = new Date().toISOString().slice(0, 13).replace('T', ' ') + ':00 UTC'
     const line = fill(W.built, { built, agents: S.agents ? hour(S.agents.read_at) || cell(S.agents.read_at) : W.not_read_short, data: S.data ? hour(S.data.read_at) || cell(S.data.read_at) : W.not_read_short })
@@ -63,7 +63,7 @@ export function statusMd(ctx, b = { raw: (h, m) => m }) {
     const decMd = x => `- **${cell(x.title)}**${x.summary ? `: ${cell(x.summary)}` : ''}${[['d_wait', x.if_you_wait]].filter(r => r[1]).map(r => `\n  - ${W[r[0]]} ${cell(r[1])}`).join('')}`
     const cardsHtml = DEC && DEC.items.length ? put(item('decs'), { items: DEC.items.map(decOf).join('') }) : put(item('p'), { text: esc(W.none) }), cardsMd = DEC && DEC.items.length ? DEC.items.map(decMd).join('\n') : W.none
     // the top of the page (cl-6.designer's loop 5 public mock): the heartbeat and the waiting decisions, side by side from 1100 px (the rail), stacked on a phone; the pointer says where the answers go, with no link and no id
-    const top = b.raw(put(item('top'), { heart_title: esc(W.heart_title), heart: parts.length ? put(item('ul'), { items: parts.map(x => put(item('li'), { text: esc(x) })).join('') }) : put(item('p'), { text: esc(W.not_read) }), waits_title: esc(W.waits_title), waits_about: esc(W.waits_about), cards: cardsHtml, pointer: esc(W.d_pointer) }),
+    const top = b.raw(put(item('top'), { leftrail: nav ? nav.rail : '', heart_title: esc(W.heart_title), heart: parts.length ? put(item('ul'), { items: parts.map(x => put(item('li'), { text: esc(x) })).join('') }) : put(item('p'), { text: esc(W.not_read) }), waits_title: esc(W.waits_title), waits_about: esc(W.waits_about), cards: cardsHtml, pointer: esc(W.d_pointer) }),
         `## ${W.heart_title} {#heartbeat}\n\n${heart}\n\n## ${W.waits_title} {#waits}\n\n${W.waits_about}\n\n${cardsMd}\n\n${W.d_pointer}`)
     let dataBlock = W.data_none
     if (D) {
@@ -83,5 +83,6 @@ const day = s => { const m = /^(\d{4})-(\d\d)-(\d\d)/.exec(String(s || '')); ret
 export function statusNav(ctx, b, tabs) {
     const W = ctx.readJSON('assets/newsroom/status-words.json')
     const list = tabs.map(([r, l]) => put(item(r === b.rel ? 'navhere' : 'navlink'), { href: esc(b.h(r)), label: esc(l), here: esc(W.here) })).join('')
-    return { top: put(item('navtop'), { list, label: esc(W.nav_label) }), foot: put(item('navfoot'), { list, label: esc(W.nav_label) }), md: tabs.map(([r, l]) => `[${l}](${b.h(r).replace(/index\.html$/, 'index.md').replace(/\.html$/, '.md')})`).join(' · ') }
+    const link = ([r, l]) => put(item(r === b.rel ? 'navhere' : 'navlink'), { href: esc(b.h(r)), label: esc(l), here: esc(W.here) }), TOP = 8      // the row keeps the first eight; the rest sit behind "More" (two lines at most)
+    return { top: put(item('navtop'), { list, first: tabs.slice(0, TOP).map(link).join(''), rest: tabs.slice(TOP).map(link).join(''), more: esc(W.nav_more), label: esc(W.nav_label) }), rail: put(item('navrail'), { list, label: esc(W.nav_label) }), foot: put(item('navfoot'), { list, label: esc(W.nav_label) }), md: tabs.map(([r, l]) => `[${l}](${b.h(r).replace(/index\.html$/, 'index.md').replace(/\.html$/, '.md')})`).join(' · ') }
 }

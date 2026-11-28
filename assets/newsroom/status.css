@@ -25,3 +25,7 @@
 .ns-list a[aria-current] { border-inline-start: 4px solid var(--ink); padding-inline-start: 8px; } .ns-pages > summary { cursor: pointer; font: 600 14px var(--sans); padding: 10px 0; min-height: 44px; box-sizing: border-box; }
 @media (max-width: 699px) { .ns-row { display: none; } }
 @media (min-width: 700px) { .ns-pages, .ns-foot { display: none; } .ns-row { flex-wrap: wrap; overflow-x: visible; } .ns-row .ns-here { display: none; } }
+/* tablet: the row keeps eight pages and "More" opens the rest on a line of its own; from 1100 px the list is a left rail beside the cards and the counts (cl-6.designer, last round, 28 Nov) */
+.ns-leftrail { display: none; } .ns-moretabs { flex: 1 0 100%; } .ns-moretabs > summary { cursor: pointer; padding: 10px 0 9px; } .ns-moretabs[open] { display: flex; flex-wrap: wrap; gap: 2px 18px; } .ns-moretabs[open] > summary { flex: 1 0 100%; }
+@media (max-width: 699px) { .ns-moretabs { display: none; } }
+@media (min-width: 1100px) { .ns-row { display: none; } .ns-top { grid-template-columns: 200px minmax(0, 1fr) 280px; grid-template-areas: "nav main rail"; } .ns-leftrail { display: block; grid-area: nav; align-self: start; } .ns-leftrail a { min-height: 34px; line-height: 34px; font: 600 13px var(--sans); } }
