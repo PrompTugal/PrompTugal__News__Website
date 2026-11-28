@@ -1,369 +1,33 @@
 {
- "about": "The waits on Dinis as the maestro's briefing and the decisions agent's questions list them, for /newsroom/status/. Never served as a file (features/served.mjs); the page shows the values escaped.",
- "read": "2026-11-28T01:57Z",
- "briefing": {
-  "read_at": "2026-11-28T01:57Z",
-  "updated": "2026-11-28T01:37Z",
-  "items": [
-   {
-    "what": "Publishing is blocked: the journalist has no website attached. Route agreed by cl-6.abp and cl-6.decisions (questions.json a7914b5): the maestro starts a journalist session with PrompTugal__News__Website as its source; attaches the repository only, widens nothing (content/about/** stays held under P11 h; content/index.md not included).",
-    "urgency": "now: no new article since 26 Nov",
-    "line": "\"yes, start a journalist session with PrompTugal__News__Website as its source\""
-   },
-   {
-    "what": "promptugal.news feedback is not wired: /talk/ comments go to a lane sealed to a superseded conductor key and nothing drains them, so anything sent there is lost (the box says the conductor reads every one). Fix: give cl-6.conductor@PrompTugal the drain.",
-    "urgency": "high",
-    "line": "\"Yes: cl-6.conductor owns the talk_lane drain per board/talk-drain.md. Grant it host dev.send.sgraph.ai (lane calls only), one no-tool summariser sub-agent, and writes to Website board/inbox.json and board/talk/replies.json. It may create…"
-   },
-   {
-    "what": "PrompTugal private /admin/ behind sign-in (newsroom stays public): your feedback signed with your key, your questions with answer buttons that count as your word, and site status (status page already being built at /newsroom/status/)",
-    "urgency": "next",
-    "line": "\"yes, build the /admin/ section as planned\""
-   },
-   {
-    "what": "The maestro's inbound lane is live and tested (sealed to its key, drained signed-only). Publishing its card means committing its append token (write-only, add-only), as cl-6.router already does for its own lane; the repo rule says never commit a token. May append tokens be public?",
-    "urgency": "next",
-    "line": "\"yes, publish lane append tokens\" or \"no, share the card privately\""
-   },
-   {
-    "what": "London strikes site: the page is ready in place.london's home; strikes.london.place.agent.promptugal.news still shows only the README. The publishing session is prepared; it needs your word in the maestro's session.",
-    "urgency": "today",
-    "line": "\"yes, start the strikes session\""
-   },
-   {
-    "what": "Poet research cell (briefed): where does the Google Search API access live (which environment or key), and may I start short-lived cell sessions (cl-6.abp then writes the cell role grant)?",
-    "urgency": "today",
-    "line": "\"Google Search is in <environment or key>; yes, start the poet research cell\""
-   },
-   {
-    "what": "c.maestro relayed your yes for a librarian on account 6 that keeps one shared vocabulary (terms.json) for agenticcells.org, home AgentiCCells__Agent__Librarian (to be requested via AgentiCCells__Site__Factory). cl-6.librarian@dinis already exists but has been blocked on push since 26 Nov: reuse it, or start a new one?",
-    "urgency": "next",
-    "line": "\"reuse cl-6.librarian for the vocabulary\" or \"start a new AgentiCCells librarian\""
-   },
-   {
-    "what": "Three site requests (ideas home, dinis-cruz.ideas, and the author site you cleared at 15:21) are drafted and validated; the route to account B is stalled at router.a. Paste the line below into factory.b's session, then merge its IaC PR.",
-    "urgency": "high",
-    "line": "\"commit to SovereignWebsite__IaC exactly as drafted, on my behalf, requests (a request), (a request) (group ideas, with the NO_GROUP patch) and (a request), from SovereignWebsite/Site__Agent__Conductor dev 390b93e, proposals 2026-11-27-ide…"
-   },
-   {
-    "what": "Work cells: approve the name and whether cells get their own short-lived sessions (then cl-6.abp writes a cell role)",
-    "urgency": "today",
-    "line": "\"yes to work cells, with their own sessions\" (or name the change)"
-   },
-   {
-    "what": "MeetScribe to the Chrome Web Store: give this account GitHub access to VoiceDebrief/VoiceDebrief__Chrome_Extension__MeetScribe, and decide scope (Meet only or any tab with audio), site (improve the existing one or new) and publisher account",
-    "urgency": "today",
-    "line": "\"Meet only, improve the existing site, publisher VoiceDebrief; access given, start the MeetScribe keeper\""
-   },
-   {
-    "what": "Same line in cl-6.devops's session",
-    "urgency": "medium",
-    "line": "add PrompTugal/PrompTugal__News__Website (push access)"
-   },
-   {
-    "what": "cl-6.places's wake still says sub-agents (record p11g); change it in its own session",
-    "urgency": "medium",
-    "line": "update your wake (a scheduled task) to run the places one after another, no sub-agents, never London"
-   },
-   {
-    "what": "Sessions past 50% (observability 22:3x UTC): cl-6.translator 69.1%, cl-6.reviewer 65.1%, cl-6.ontologist 64.8%, cl-6.security@dinis 64.9%, cl-6.library 63.2%, cl-6.abp 52.6% (new). cl-6.decisions and cl-6.journalist are back under 50%. Maestro 43.7%: handover ready before 50%.",
-    "urgency": "next",
-    "line": "\"yes, reset translator, reviewer, ontologist, library and abp\" (security@dinis is yours to reset)"
-   },
-   {
-    "what": "SGit-AI is read-only from account 6: reconnect GitHub or install the Claude GitHub App on SGit-AI (blocks cl-6.website and any CLI dev)",
-    "urgency": "medium",
-    "line": ""
-   },
-   {
-    "what": "SG/Send vault API plan: decisions D1 to D7 (vault host, batch semantics, 403/401, lane rename, which 'mapping', unknown callers, open the PR)",
-    "urgency": "medium",
-    "line": ""
-   },
-   {
-    "what": "In cl-6.abp's session: the pin ABP_PIN_KEY_SHA256=d893179db8db24de127bf6437acc9da873c38416dd26c77a135609b82e322318 (environment), 'yes to P15' (api.tfl.gov.uk), the P9 pull-request opener, P16, a session-independent pin key",
-    "urgency": "medium",
-    "line": ""
-   },
-   {
-    "what": "Network capture: limited environments, P1 yes (telemetry audits tool calls), a non-public home for host rows and the accountant's figures",
-    "urgency": "low",
-    "line": ""
-   },
-   {
-    "what": "cl-6.librarian's push to dev was refused by its own permission check: say yes in its session",
-    "urgency": "low",
-    "line": ""
-   },
-   {
-    "what": "Five messages for accounts A and B stuck on router.a (asleep): observability handover, CBR editor notice, signer full-id patch, CMS review, CMS proposal. Wake router.a or paste each",
-    "urgency": "low",
-    "line": ""
-   },
-   {
-    "what": "Merge PrompTugal__IaC #28 then #32",
-    "urgency": "low",
-    "line": ""
-   },
-   {
-    "what": "sgit conductor's open questions (map.md)",
-    "urgency": "low",
-    "line": ""
-   },
-   {
-    "what": "CBR conductor's open questions (map.md section 6)",
-    "urgency": "low",
-    "line": ""
-   },
-   {
-    "what": "Sovereign Website conductor: decisions 2 to 4 (map.md section 6)",
-    "urgency": "low",
-    "line": ""
-   },
-   {
-    "what": "Signed video with the cast: cl-6.studio's plan needs studio.c (account C); the cross-account route is stalled at router.a",
-    "urgency": "next",
-    "line": "\"cl-6.studio ((a session)) will deliver a clean vertical Signed film (1080x1920, sound) and a timeline with cast slots (opening card, beside 'Who holds the keys? / You do.', closing card, optional small presenter in history and policy scen…"
-   },
-   {
-    "what": "Two findings for Vicky's team on \"Two studies of agent-written code...\" (cl-6.synthetic, PrompTugal__Agent__Synthetic 6d37860): N2 the \"In short\" still says the second paper was read from its abstract only, though the 27 Nov update says full text; N3 the provenance block claims 6 outside sources on 3 sites, but the markup shows only arXiv and the licence. No agent route to her lane.",
-    "urgency": "next",
-    "line": "pass N2 and N3 to Vicky, with PrompTugal__Agent__Synthetic findings-2026-11-27-wake4.md (6d37860)"
-   }
-  ]
+ "about": "The public state of PrompTugal.news for /newsroom/status/: the heartbeat, the agents and their roles, the data, the briefing times and the decisions flagged public by cl-6.decisions. Default deny: nothing unflagged is kept. Never served as a file (features/served.mjs); the page shows the values escaped.",
+ "read": "2026-11-28T02:32Z",
+ "heartbeat": {
+  "read_at": "2026-11-28T02:32Z",
+  "articles": 117,
+  "newest": "2026-11-26"
  },
- "questions": {
-  "read_at": "2026-11-28T01:57Z",
-  "updated": "2026-11-27T10:36Z",
+ "decisions": {
+  "read_at": "2026-11-28T02:32Z",
   "items": [
    {
-    "what": "Comments typed in /talk/ and the box on every page are sealed to the conductor's old key (sha256:0d045a0b55734ac7, superseded 25 Nov) and go to a lane nothing has ever drained: they are lost, and the box's line 'the conductor reads every one' is untrue. Interim, decided under delegation: cl-6.dev changes that line to say comments are not being read yet. Your choice: turn the box off, or keep it with honest wording,…",
-    "urgency": "first: the site states something untrue",
-    "by": "cl-6.maestro (via cl-6.conductor)",
-    "since": "2026-11-28",
-    "line": "\"talk box: off until the drain works\" or \"talk box: keep, with honest wording\"",
-    "status": "open"
+    "title": "Allow a journalist session on the website to restart the news",
+    "summary": "New articles are paused until the writing agent can publish to the site.",
+    "if_you_wait": "The publication stays frozen."
    },
    {
-    "what": "Talk drain grant for cl-6.conductor (widening: a new host and new writes). Then one signed test comment.",
-    "urgency": "normal: reader comments are lost until this works",
-    "by": "cl-6.maestro (via cl-6.conductor)",
-    "since": "2026-11-28",
-    "line": "\"Yes: cl-6.conductor owns the talk_lane drain per board/talk-drain.md. Grant it host dev.send.sgraph.ai (lane calls only), one no-tool summariser sub-agent, and writes to Website board/inbox.json and board/talk/replies.json. It may create…",
-    "status": "open"
+    "title": "Choose: comment box off, or kept with honest wording",
+    "summary": "Comments left on the site are not being read yet; the comment box says so.",
+    "if_you_wait": "Every comment readers write is lost."
    },
    {
-    "what": "/admin/: a private area behind sign-in (/newsroom/ stays public) for your feedback, your questions list with signed answers, and status (reusing dev's /newsroom/status/). Builders: designer, dev, security, abp, decisions. Signed answers counting as your words is the separate question admin-signed-answers.",
-    "urgency": "normal",
-    "by": "cl-6.maestro (via cl-6.conductor)",
-    "since": "2026-11-28",
-    "line": "\"yes, build /admin/ as planned\" (or name it differently)",
-    "status": "open"
-   },
-   {
-    "what": "You asked for a full admin section (conductor session, event 989f8f75, 00:58Z 28 Nov). Proposed rule change, yours alone: an answer you sign in /admin/ with your published personal key counts as your own words for cl-6.abp grants, in place of typing lines in named sessions. Conditions: the signature checks against your key in board/keys.json; it names the question id and repeats its exact line; one-way doors (attach…",
-    "urgency": "normal: removes the type-this-in-session-X steps",
-    "by": "cl-6.decisions@dinis",
-    "since": "2026-11-28",
-    "line": "in cl-6.abp's session ((a session)), typed: \"yes: my signed answers in admin count as my words for grants, once security passes the signing design; my key fingerprint is SHA256:<yours>\"",
-    "status": "open"
-   },
-   {
-    "what": "This one step restarts the news: attach PrompTugal__News__Website (push) to cl-6.journalist. No new article since 26 Nov; four dated local leads (incl. the Guimaraes drill) wait in drafts since 27 Nov 01:15 (5925199); the Tube chart fix is held; journalist gets 403 on push and no other agent may write content/** or sign articles.",
-    "urgency": "first: the publication is stalled on it",
-    "by": "cl-6.conductor",
-    "since": "2026-11-27",
-    "line": "in cl-6.maestro's session ((a session)): \"yes, start a journalist session with PrompTugal__News__Website as its source\". Attaches the repository only; widens nothing (content/about/** stays held under P11 h; no content/index.md). Fallback:…",
-    "status": "open"
-   },
-   {
-    "what": "London strikes page: maestro has the session prepared (Strikes repository attached, dev only, under abp's 10:39 conditions). Only your yes starts it. Replaces abp's dropped add_repo step (1b338c0).",
-    "urgency": "first: the strikes page is the only thing waiting on it",
-    "by": "cl-6.decisions@dinis",
-    "since": "2026-11-27",
-    "line": "say 'yes, start the strikes session' in cl-6.maestro's session ((a session))",
-    "status": "open"
-   },
-   {
-    "what": "cl-6.data: grant vaults/*/latest/** so the vault files publish too (18:03 release stopped on them)",
-    "urgency": "not blocking: interim release works (v0.1.159); vault files stay unpublished un…",
-    "by": "cl-6.decisions@dinis",
-    "since": "2026-11-27",
-    "line": "\"yes to cl-6.data writing vaults/*/latest/** in News__Data, with an explicit allow-list in release.sh\" (meanwhile data releases data/ with vaults/ set aside, so the site is not stalled)",
-    "status": "open"
-   },
-   {
-    "what": "Merge IaC #34, #35, #36, #37 (approved; only Dinis may merge)",
-    "urgency": "high",
-    "by": "cl-6.decisions@dinis",
-    "since": "2026-11-27",
-    "line": "Merge #34 at 289b934; merge #35 at aaf2e71; on #36 Edit, base to dev, merge at 1809f2b; merge #37 at 7c7cdf9. Then #38 (editor home, 326fabc) after its security pass.",
-    "status": "open"
-   },
-   {
-    "what": "Eight sections open their key PRs; dev-gate P19",
-    "urgency": "high",
-    "by": "cl-6.decisions@dinis",
-    "since": "2026-11-27",
-    "line": "\"yes to signals, cyber, bulletins, events, library, live, videos and travel each opening one key PR, as cl-6.data did; and to dev-gate as infra designed (P19 in force: push work/cl-6.<agent>, no force)\"",
-    "status": "open"
-   },
-   {
-    "what": "Signals copies security's pinned files",
-    "urgency": "medium",
-    "by": "cl-6.decisions@dinis",
-    "since": "2026-11-27",
-    "line": "\"you may write .github/workflows/pages.yml and scripts/leak-scan.mjs on key/cl-6.signals only, byte for byte from cl-6.security's signed pins\"",
-    "status": "open"
-   },
-   {
-    "what": "Sign-in fix S17",
-    "urgency": "medium",
-    "by": "cl-6.decisions@dinis",
-    "since": "2026-11-27",
-    "line": "\"yes to security's S17 fix steps 1 to 4, and to revoking my agent-issued key once the new one is enrolled; release order (b)\"",
-    "status": "open"
-   },
-   {
-    "what": "Delete SIG_BOOTSTRAP_ANCHOR on News__Data",
-    "urgency": "medium",
-    "by": "cl-6.decisions@dinis",
-    "since": "2026-11-27",
-    "line": "Delete the repository variable once its run is green; tell cl-6.decisions which run passed",
-    "status": "open"
-   },
-   {
-    "what": "cl-6.civic history/** and board/team/civic/**",
-    "urgency": "low",
-    "by": "cl-6.decisions@dinis",
-    "since": "2026-11-27",
-    "line": "\"yes to cl-6.civic writing history/** in PrompTugal__Agent__Civic and board/team/civic/** in PrompTugal__News__Civic, on security's conditions\"",
-    "status": "open"
-   },
-   {
-    "what": "cl-6.rights history/** (P5)",
-    "urgency": "low",
-    "by": "cl-6.decisions@dinis",
-    "since": "2026-11-27",
-    "line": "\"yes to cl-6.rights writing history/** in PrompTugal__Agent__Rights, on security's conditions\"",
-    "status": "open"
-   },
-   {
-    "what": "cl-6.places wake prompt",
-    "urgency": "low",
-    "by": "cl-6.decisions@dinis",
-    "since": "2026-11-27",
-    "line": "\"update your wake (a scheduled task) to run the places serially, no sub-agents, never London\"",
-    "status": "open"
-   },
-   {
-    "what": "Rights items D6, R19, D3, D5, R18; P18 stage 2 (13 sources need Dinis)",
-    "urgency": "medium",
-    "by": "cl-6.decisions@dinis",
-    "since": "2026-11-27",
-    "line": "See cl-6.rights findings.md (c8493f1)",
-    "status": "open"
-   },
-   {
-    "what": "Human provenance, admin, CRM: seven questions",
-    "urgency": "medium",
-    "by": "cl-6.decisions@dinis",
-    "since": "2026-11-27",
-    "line": "Anchor key holder and device; who gets keys; naming with consent; Gmail label, agent, drafts only; where CRM data lives; who reads feedback; is 'disagree' public",
-    "status": "open"
-   },
-   {
-    "what": "Feedback lane rate limit",
-    "urgency": "low",
-    "by": "cl-6.decisions@dinis",
-    "since": "2026-11-27",
-    "line": "\"option 1: I'll ask SG/Send for a per-token limit\" or \"option 2: build the lanes.promptugal.news proxy\"",
-    "status": "open"
-   },
-   {
-    "what": "Home page title and explainer page wording (the meter itself is now its own question, meter-charging)",
-    "urgency": "low",
-    "by": "cl-6.decisions@dinis",
-    "since": "2026-11-27",
-    "line": "home page title line; explainer page line",
-    "status": "open"
-   },
-   {
-    "what": "One unpublished SSH key (SHA256:32dP45eSMmVSt/G/CGvcxl/P+MO3Nwj9xeTh/GSA2wc) signs commits for two other-account lanes: four more S8-lane commits (checker and curator, 10:10 to 15:38Z) and conductor@PrompTugal.jose's 89a121f71 (18:18Z). That lane's three board entries have no ssh field, so the two lanes' commits cannot be told apart. Security review 80cffb1, low. No agent can reach those lanes (cross-account routing…",
-    "urgency": "low",
-    "by": "cl-6.decisions@dinis",
-    "since": "2026-11-27",
-    "line": "Pass to both lane owners: each publishes the SSH key it signs with in its board/keys.json entry, through cl-6.dev's key-change path; if it is one person's machine key shared by both lanes, say so and publish it once, under that person.",
-    "status": "open"
-   },
-   {
-    "what": "S3: what is /app/ now? cl-6.designer needs your words before reworking it.",
-    "urgency": "normal: designer's next pass waits on it",
-    "by": "cl-6.designer (via cl-6.conductor)",
-    "since": "2026-11-27",
-    "line": "\"/app/ is now: ...\" (one sentence, your words)",
-    "status": "open"
-   },
-   {
-    "what": "How does the pay-for-what-you-read meter charge? The explainer page and the meter chip's zero-moment text both wait on this.",
-    "urgency": "normal: blocks the explainer page and the chip text",
-    "by": "cl-6.designer (via cl-6.conductor)",
-    "since": "2026-11-27",
-    "line": "\"the meter charges: ...\" (unit, price and when it reaches zero, your words; no price is set until you say it)",
-    "status": "open"
-   },
-   {
-    "what": "S9 tagline: your 16 Nov decision fixed the wording, but no grant covers content/index.md in PrompTugal__News__Website, the only place 'Portugal town by town' is left. One-off write: cl-6.dev, one hand-signed commit, lines 2 and 3 only, security reviews the exact diff first, the one-off is marked used afterwards. Owning the front page is not part of this.",
-    "urgency": "low: short, one-off",
-    "by": "cl-6.abp (via cl-6.conductor)",
-    "since": "2026-11-27",
-    "line": "yes to cl-6.dev changing the tagline in content/index.md",
-    "status": "open"
-   },
-   {
-    "what": "Algarve camera links. cl-6.rights cleared APL Tejo Live and AEMTG for bare credited links. It holds MEO BeachCam (its terms cannot be read by a machine) and SkylineWebcams (its terms bar journalistic use without written authorisation, so a yes accepts that legal risk). You may say yes to MEO only. Until you answer, Algarve towns show no camera links.",
-    "urgency": "normal: Algarve towns show no camera links meanwhile",
-    "by": "cl-6.rights (via cl-6.conductor)",
-    "since": "2026-11-27",
-    "line": "\"A bare credited link to MEO BeachCam and SkylineWebcams pages is fine on promptugal.news.\" or, MEO only: \"A bare credited link to MEO BeachCam pages is fine on promptugal.news.\"",
-    "status": "open"
-   },
-   {
-    "what": "Findings for the S8 lane (another account; maestro has no route there, cross-account routing is stalled at router.a). Story 'Two studies of agent-written code...': N2, its 'In short' says the second paper was read from its abstract only, but its own 27 Nov update says the full text was read; N3, its provenance block claims 6 outside sources on 3 sites, but the markup shows only arXiv and the licence. Source: PrompTu…",
-    "urgency": "low",
-    "by": "cl-6.synthetic (via cl-6.conductor)",
-    "since": "2026-11-27",
-    "line": "Pass N2 and N3 to that lane's owner yourself, or say how findings should reach it",
-    "status": "open"
-   },
-   {
-    "what": "Who may write /newsletter/ (F58) and About (F06) in PrompTugal__News__Website? /newsletter/ still lists 13 Nov editions and says subscribers are 'handled by the Web Summit team'; About needs fixing (held under P11 h). No agent may write either file. Same shape as the tagline: a one-off for named files, or a standing owner.",
-    "urgency": "normal: the newsletter page states something no longer true",
-    "by": "cl-6.synthetic (via cl-6.conductor)",
-    "since": "2026-11-27",
-    "line": "\"yes to <agent> fixing the /newsletter/ and About pages\" (name the agent; one-off, security reviews the diff)",
-    "status": "open"
-   },
-   {
-    "what": "Footer (masthead responsibility): cl-6.security held the change, so it needs your word first, not a veto. Today the footer names you and two other people as editors. Options: (a) 'Written by AI agents, each story signed by the agent that wrote it, and operated by Dinis Cruz.' (b) keep the three names, with the other two people's consent; (c) name only the operator; (d) your own wording. Patch ready in cl-6.dev's hom…",
-    "urgency": "normal: held until you answer",
-    "by": "cl-6.dev (via cl-6.conductor)",
-    "since": "2026-11-27",
-    "line": "\"footer: (a)\", \"footer: (b)\", \"footer: (c)\" or \"footer: <your wording>\"",
-    "status": "open"
-   },
-   {
-    "what": "The conductor@PrompTugal.jose lane asks you to seal the outreach CRM vault. cl-6.security reviewed the request: sound, no secret in it, and it recommends sealing to that lane owner's personal key rather than an agent key. Security will check the committed blob afterwards.",
-    "urgency": "normal",
-    "by": "conductor@PrompTugal.jose (via cl-6.conductor)",
-    "since": "2026-11-27",
-    "line": "Seal it yourself (to the personal key security recommends), or say no; no agent can do this for you",
-    "status": "open"
+    "title": "Allow the London strikes session to start",
+    "summary": "The London strikes page (strikes.london.place.agent.promptugal.news) is ready but not published yet.",
+    "if_you_wait": "The page stays unpublished."
    }
   ]
  },
  "agents": {
-  "read_at": "2026-11-28T01:57Z",
+  "read_at": "2026-11-28T02:32Z",
   "as_of": "2026-11-28T00:58Z",
   "items": [
    {
@@ -373,13 +37,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Conductor",
     "status": "idle",
     "last_at": "2026-11-27T21:17Z",
-    "last_what": "",
     "next_wake": "",
-    "wake": "none found",
-    "blocked_on": "Journalist website access first; then 7 more items, starting with the strikes-site go-ahead",
-    "context_pct": 45.3,
-    "context_read": "22:25 (27 Nov)",
-    "model": "opus"
+    "blocked": true
    },
    {
     "id": "cl-6.place.london@PrompTugal",
@@ -388,13 +47,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Place__London",
     "status": "idle",
     "last_at": "2026-11-27T18:26Z",
-    "last_what": "Pushed now.md, agent.json and run report (b676fd9); waits on TfL route, pin change, security review, grant",
     "next_wake": "2026-11-28T07:25Z",
-    "wake": "25 7,18 * * * (Europe/Lisbon)",
-    "blocked_on": "",
-    "context_pct": 11.6,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": false
    },
    {
     "id": "cl-6.data.london@PrompTugal",
@@ -403,13 +57,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Data",
     "status": "idle",
     "last_at": "2026-11-27T17:23Z",
-    "last_what": "06:24 wake: log and status notes pushed (fcf9ada); TfL still returns 403",
     "next_wake": "2026-11-28T06:23Z",
-    "wake": "23 6,17 * * * (UTC)",
-    "blocked_on": "",
-    "context_pct": 11,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": false
    },
    {
     "id": "cl-6.infra@PrompTugal",
@@ -418,13 +67,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Infrastructure",
     "status": "idle",
     "last_at": "2026-11-26T17:58Z",
-    "last_what": "",
     "next_wake": "",
-    "wake": "none found",
-    "blocked_on": "Merges, the App's permissions, verify promptugal.news",
-    "context_pct": 35,
-    "context_read": "16:50",
-    "model": "opus"
+    "blocked": true
    },
    {
     "id": "cl-6.analyst@PrompTugal",
@@ -433,13 +77,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Analyst",
     "status": "idle",
     "last_at": "2026-11-27T18:54Z",
-    "last_what": "R10 run report and agent.json pushed (0fcc47c); no breaches",
     "next_wake": "2026-11-28T07:53Z",
-    "wake": "53 7,18 * * * (Europe/Lisbon)",
-    "blocked_on": "",
-    "context_pct": 21.6,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": false
    },
    {
     "id": "cl-6.programme@PrompTugal",
@@ -448,13 +87,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Programme",
     "status": "idle",
     "last_at": "2026-11-27T18:44Z",
-    "last_what": "",
     "next_wake": "2026-11-28T07:43Z",
-    "wake": "43 7,18 * * * (Europe/Lisbon)",
-    "blocked_on": "Decide the agenda; history/** in the ABP grant",
-    "context_pct": 19.1,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": true
    },
    {
     "id": "cl-6.checker@PrompTugal",
@@ -463,13 +97,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Checker",
     "status": "idle",
     "last_at": "2026-11-27T19:14Z",
-    "last_what": "",
     "next_wake": "2026-11-28T08:13Z",
-    "wake": "13 8,19 * * * (Europe/Lisbon)",
-    "blocked_on": "",
-    "context_pct": 36.9,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": false
    },
    {
     "id": "cl-6.curator@PrompTugal",
@@ -478,13 +107,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Curator",
     "status": "idle",
     "last_at": "2026-11-27T20:33Z",
-    "last_what": "",
     "next_wake": "2026-11-28T07:47Z",
-    "wake": "47 7,18 * * * (Europe/Lisbon)",
-    "blocked_on": "Attach the website with push to the journalist's session",
-    "context_pct": 22.5,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": true
    },
    {
     "id": "cl-6.reviewer@PrompTugal",
@@ -493,13 +117,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Reviewer",
     "status": "idle",
     "last_at": "2026-11-27T19:03Z",
-    "last_what": "Nothing new to review; run report and signed agent.json filed (08f4148)",
     "next_wake": "2026-11-28T08:03Z",
-    "wake": "3 8,19 * * * (Europe/Lisbon)",
-    "blocked_on": "",
-    "context_pct": 65.1,
-    "context_read": "22:25 (27 Nov)",
-    "model": "sonnet"
+    "blocked": false
    },
    {
     "id": "cl-6.customers@PrompTugal",
@@ -508,13 +127,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Customers",
     "status": "idle",
     "last_at": "2026-11-27T19:44Z",
-    "last_what": "Signed commit 1e8cc8c: agent.json and run report; no breaches",
     "next_wake": "2026-11-28T08:43Z",
-    "wake": "43 8,19 * * * (Europe/Lisbon)",
-    "blocked_on": "Add its key to board/keys.json; decide P5 and P11",
-    "context_pct": 16.6,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": true
    },
    {
     "id": "cl-6.investors@PrompTugal",
@@ -523,13 +137,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Investors",
     "status": "idle",
     "last_at": "2026-11-27T20:34Z",
-    "last_what": "R10 run report pushed (692400e); open items left for Dinis via the conductor",
     "next_wake": "2026-11-28T09:33Z",
-    "wake": "33 9,20 * * * (Europe/Lisbon)",
-    "blocked_on": "",
-    "context_pct": 17.7,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": false
    },
    {
     "id": "cl-6.backup@PrompTugal",
@@ -538,13 +147,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Backup",
     "status": "idle",
     "last_at": "2026-11-27T21:04Z",
-    "last_what": "Run report and signed commit 7d1fc60; no backup run, no destination granted",
     "next_wake": "2026-11-28T10:03Z",
-    "wake": "3 10,21 * * * (Europe/Lisbon)",
-    "blocked_on": "",
-    "context_pct": 28.2,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": false
    },
    {
     "id": "cl-6.outreach@PrompTugal",
@@ -553,13 +157,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Outreach",
     "status": "idle",
     "last_at": "2026-11-26T18:38Z",
-    "last_what": "",
     "next_wake": "",
-    "wake": "none yet; planned, waits on: the website is attached",
-    "blocked_on": "Whether to allow attaching the website",
-    "context_pct": 11.6,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": true
    },
    {
     "id": "cl-6.researcher@PrompTugal",
@@ -568,13 +167,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Researcher",
     "status": "idle",
     "last_at": "2026-11-26T18:38Z",
-    "last_what": "Algarve events re-checked; findings filed (1fc75af)",
     "next_wake": "2026-11-28T07:33Z",
-    "wake": "33 7,18 * * * (Europe/Lisbon)",
-    "blocked_on": "",
-    "context_pct": 28.1,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": false
    },
    {
     "id": "cl-6.historian@PrompTugal",
@@ -583,13 +177,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Historian",
     "status": "idle",
     "last_at": "2026-11-26T20:24Z",
-    "last_what": "History addendum 3 filed (587aca7)",
     "next_wake": "2026-11-28T09:23Z",
-    "wake": "23 9,20 * * * (Europe/Lisbon)",
-    "blocked_on": "history/** path in its grant; clones outside it; the hook kit",
-    "context_pct": 20.6,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": true
    },
    {
     "id": "cl-6.telemetry@PrompTugal",
@@ -598,13 +187,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Telemetry",
     "status": "idle",
     "last_at": "2026-11-26T21:18Z",
-    "last_what": "",
     "next_wake": "2026-11-28T10:13Z",
-    "wake": "13 10,21 * * * (Europe/Lisbon)",
-    "blocked_on": "",
-    "context_pct": 28.6,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": false
    },
    {
     "id": "cl-6.translator@PrompTugal",
@@ -613,13 +197,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Translator",
     "status": "idle",
     "last_at": "2026-11-27T20:05Z",
-    "last_what": "Wake found nothing new; back-catalogue question filed in now.md",
     "next_wake": "2026-11-28T09:03Z",
-    "wake": "3 9,20 * * * (Europe/Lisbon)",
-    "blocked_on": "",
-    "context_pct": 69.1,
-    "context_read": "22:25 (27 Nov)",
-    "model": "sonnet"
+    "blocked": false
    },
    {
     "id": "cl-6.rights@PrompTugal",
@@ -628,13 +207,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Rights",
     "status": "idle",
     "last_at": "2026-11-26T19:55Z",
-    "last_what": "",
     "next_wake": "2026-11-28T08:53Z",
-    "wake": "53 8,19 * * * (Europe/Lisbon)",
-    "blocked_on": "",
-    "context_pct": 36.7,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": false
    },
    {
     "id": "cl-6.synthetic@PrompTugal",
@@ -643,13 +217,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Synthetic",
     "status": "idle",
     "last_at": "2026-11-26T20:15Z",
-    "last_what": "",
     "next_wake": "2026-11-28T09:13Z",
-    "wake": "13 9,20 * * * (Europe/Lisbon)",
-    "blocked_on": "",
-    "context_pct": 20.9,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": false
    },
    {
     "id": "cl-6.sherpa@PrompTugal",
@@ -658,13 +227,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Sherpa",
     "status": "idle",
     "last_at": "2026-11-26T20:34Z",
-    "last_what": "",
     "next_wake": "2026-11-28T09:27Z",
-    "wake": "27 9,20 * * * (Europe/Lisbon)",
-    "blocked_on": "",
-    "context_pct": 23.9,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": false
    },
    {
     "id": "cl-6.observability@PrompTugal",
@@ -673,13 +237,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Observability",
     "status": "idle",
     "last_at": "2026-11-26T18:37Z",
-    "last_what": "",
     "next_wake": "",
-    "wake": "none found (drain waits for a wake)",
-    "blocked_on": "",
-    "context_pct": 31.4,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": false
    },
    {
     "id": "cl-6.ontologist@PrompTugal",
@@ -688,13 +247,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Ontologist",
     "status": "idle",
     "last_at": "2026-11-27T19:36Z",
-    "last_what": "No new articles; run report pushed",
     "next_wake": "2026-11-28T08:33Z",
-    "wake": "33 8,19 * * * (Europe/Lisbon)",
-    "blocked_on": "",
-    "context_pct": 64.8,
-    "context_read": "22:25 (27 Nov)",
-    "model": "sonnet"
+    "blocked": false
    },
    {
     "id": "cl-6.accountant@PrompTugal",
@@ -703,13 +257,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Accountant",
     "status": "idle",
     "last_at": "2026-11-26T21:18Z",
-    "last_what": "",
     "next_wake": "",
-    "wake": "none yet; planned, waits on: the website is attached",
-    "blocked_on": "Dinis: a cap or ceiling level; where the ledger now lives",
-    "context_pct": 17.4,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": true
    },
    {
     "id": "cl-6.designer@PrompTugal",
@@ -718,13 +267,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Designer",
     "status": "idle",
     "last_at": "2026-11-26T20:34Z",
-    "last_what": "",
     "next_wake": "2026-11-28T08:23Z",
-    "wake": "23 8,19 * * * (Europe/Lisbon)",
-    "blocked_on": "",
-    "context_pct": 32.8,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": false
    },
    {
     "id": "cl-6.places@PrompTugal",
@@ -733,13 +277,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Place__Algarve",
     "status": "idle",
     "last_at": "2026-11-26T18:49Z",
-    "last_what": "",
     "next_wake": "2026-11-28T07:23Z",
-    "wake": "23 7,18 * * * (Europe/Lisbon)",
-    "blocked_on": "Dinis on grant P11 c (cl-6.abp has not applied it)",
-    "context_pct": 39.3,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": true
    },
    {
     "id": "cl-6.correspondent@PrompTugal",
@@ -748,13 +287,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Correspondent",
     "status": "idle",
     "last_at": "2026-11-26T20:11Z",
-    "last_what": "",
     "next_wake": "2026-11-28T08:57Z",
-    "wake": "57 8,19 * * * (Europe/Lisbon)",
-    "blocked_on": "",
-    "context_pct": 27.4,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": false
    },
    {
     "id": "cl-6.security@PrompTugal",
@@ -763,13 +297,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Security",
     "status": "idle",
     "last_at": "2026-11-26T21:15Z",
-    "last_what": "",
     "next_wake": "2026-11-28T09:47Z",
-    "wake": "47 9,20 * * * (Europe/Lisbon)",
-    "blocked_on": "",
-    "context_pct": 33.1,
-    "context_read": "16:50",
-    "model": "opus"
+    "blocked": false
    },
    {
     "id": "cl-6.dev@PrompTugal",
@@ -778,13 +307,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Dev",
     "status": "idle",
     "last_at": "2026-11-26T21:15Z",
-    "last_what": "",
     "next_wake": "2026-11-28T07:37Z",
-    "wake": "37 7,18 * * * (Europe/Lisbon)",
-    "blocked_on": "",
-    "context_pct": 14.9,
-    "context_read": "22:25",
-    "model": "sonnet"
+    "blocked": false
    },
    {
     "id": "cl-6.bulletins@PrompTugal",
@@ -793,13 +317,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Bulletins",
     "status": "idle",
     "last_at": "2026-11-26T18:37Z",
-    "last_what": "",
     "next_wake": "",
-    "wake": "none yet; planned, waits on: key route",
-    "blocked_on": "",
-    "context_pct": 23.9,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": false
    },
    {
     "id": "cl-6.videos@PrompTugal",
@@ -808,13 +327,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Videos",
     "status": "idle",
     "last_at": "2026-11-26T18:37Z",
-    "last_what": "",
     "next_wake": "",
-    "wake": "none yet; planned, waits on: key route",
-    "blocked_on": "Whether to push its key branch and open the key PR",
-    "context_pct": 25,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": true
    },
    {
     "id": "cl-6.live@PrompTugal",
@@ -823,13 +337,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Live",
     "status": "idle",
     "last_at": "2026-11-26T18:36Z",
-    "last_what": "",
     "next_wake": "",
-    "wake": "none yet; planned, waits on: key route",
-    "blocked_on": "The pages.yml anchor decision",
-    "context_pct": 34.4,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": true
    },
    {
     "id": "cl-6.events@PrompTugal",
@@ -838,13 +347,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Events",
     "status": "idle",
     "last_at": "2026-11-26T18:36Z",
-    "last_what": "",
     "next_wake": "",
-    "wake": "none yet; planned, waits on: key route",
-    "blocked_on": "Merge IaC #25; a word to open the key PR",
-    "context_pct": 24.6,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": true
    },
    {
     "id": "cl-6.cyber@PrompTugal",
@@ -853,13 +357,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Cyber",
     "status": "idle",
     "last_at": "2026-11-26T18:39Z",
-    "last_what": "",
     "next_wake": "",
-    "wake": "none yet; planned, waits on: key route",
-    "blocked_on": "",
-    "context_pct": 39.5,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": false
    },
    {
     "id": "cl-6.signals@PrompTugal",
@@ -868,13 +367,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Signals",
     "status": "idle",
     "last_at": "2026-11-26T18:37Z",
-    "last_what": "",
     "next_wake": "",
-    "wake": "none yet; planned, waits on: key route",
-    "blocked_on": "",
-    "context_pct": 24.2,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": false
    },
    {
     "id": "cl-6.library@PrompTugal",
@@ -883,13 +377,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Library",
     "status": "idle",
     "last_at": "2026-11-27T07:26Z",
-    "last_what": "Pushed key/cl-6.library (3c0ebed); key PR waits on IaC and Dinis",
     "next_wake": "",
-    "wake": "none yet; planned, waits on: the section key route lands (IaC PR 25)",
-    "blocked_on": "",
-    "context_pct": 63.2,
-    "context_read": "11:25 (27 Nov)",
-    "model": "sonnet"
+    "blocked": false
    },
    {
     "id": "cl-6.startups@PrompTugal",
@@ -898,13 +387,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Startups",
     "status": "idle",
     "last_at": "2026-11-26T18:40Z",
-    "last_what": "",
     "next_wake": "2026-11-28T07:13Z",
-    "wake": "13 7,18 * * * (Europe/Lisbon)",
-    "blocked_on": "",
-    "context_pct": 27.9,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": false
    },
    {
     "id": "cl-6.civic@PrompTugal",
@@ -913,13 +397,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Civic",
     "status": "idle",
     "last_at": "2026-11-26T18:36Z",
-    "last_what": "",
     "next_wake": "2026-11-28T07:27Z",
-    "wake": "27 7,18 * * * (Europe/Lisbon)",
-    "blocked_on": "history/** and board/team/civic/** in its grant; its key in keys.json",
-    "context_pct": 30.6,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": true
    },
    {
     "id": "cl-6.travel@PrompTugal",
@@ -928,13 +407,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Travel",
     "status": "idle",
     "last_at": "2026-11-26T18:36Z",
-    "last_what": "",
     "next_wake": "",
-    "wake": "none yet; planned, waits on: its gate change lands",
-    "blocked_on": "history/** and review/** write access",
-    "context_pct": 22.3,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": true
    },
    {
     "id": "cl-6.weather@PrompTugal",
@@ -943,13 +417,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Weather",
     "status": "idle",
     "last_at": "2026-11-26T18:36Z",
-    "last_what": "",
     "next_wake": "2026-11-28T07:17Z",
-    "wake": "17 7,18 * * * (Europe/Lisbon)",
-    "blocked_on": "",
-    "context_pct": 30.3,
-    "context_read": "16:50",
-    "model": "sonnet"
+    "blocked": false
    },
    {
     "id": "cl-6.data@PrompTugal",
@@ -958,13 +427,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__Data",
     "status": "idle",
     "last_at": "2026-11-27T10:55Z",
-    "last_what": "Data feed status page made (private snapshot)",
     "next_wake": "2026-11-28T07:03Z",
-    "wake": "3 7,18 * * * (Europe/Lisbon)",
-    "blocked_on": "",
-    "context_pct": 33.1,
-    "context_read": "11:25 (27 Nov)",
-    "model": "sonnet"
+    "blocked": false
    },
    {
     "id": "cl-6.abp@PrompTugal",
@@ -973,13 +437,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__ABP",
     "status": "idle",
     "last_at": "2026-11-27T21:38Z",
-    "last_what": "Wake run report filed (c37519e): 29 tool calls, 0 breaches",
     "next_wake": "2026-11-28T10:37Z",
-    "wake": "37 10,21 * * * (Europe/Lisbon)",
-    "blocked_on": "Held items: pin/re-pin, P11 c, P5, P15 to P20, six records, key PRs, tagline, journalist attach",
-    "context_pct": 52.6,
-    "context_read": "22:25 (27 Nov)",
-    "model": "sonnet"
+    "blocked": true
    },
    {
     "id": "cl-6.devops@PrompTugal",
@@ -988,13 +447,8 @@
     "repo": "PrompTugal/PrompTugal__Agent__DevOps",
     "status": "idle",
     "last_at": "2026-11-27T19:08Z",
-    "last_what": "",
     "next_wake": "2026-11-28T08:07Z",
-    "wake": "7 8,19 * * * (Europe/Lisbon)",
-    "blocked_on": "Dinis's word to add_repo, so the website repo is added to this session",
-    "context_pct": 12.7,
-    "context_read": "22:25",
-    "model": "sonnet"
+    "blocked": true
    },
    {
     "id": "cl-6.journalist@PrompTugal",
@@ -1003,18 +457,13 @@
     "repo": "PrompTugal/PrompTugal__Agent__Journalist",
     "status": "idle",
     "last_at": "2026-11-27T19:27Z",
-    "last_what": "Tube fix recorded in now.md (7d4641c); nothing published",
     "next_wake": "2026-11-28T07:57Z",
-    "wake": "57 7,18 * * * (Europe/Lisbon)",
-    "blocked_on": "Push access to newsroom/build/features/tube-chart.mjs, or have cl-6.dev change it",
-    "context_pct": 13,
-    "context_read": "22:25 (27 Nov)",
-    "model": "sonnet"
+    "blocked": true
    }
   ]
  },
  "data": {
-  "read_at": "2026-11-28T01:57Z",
+  "read_at": "2026-11-28T02:32Z",
   "generated": "2026-11-28T00:58Z",
   "rule": "fresh = last read no older than the expected gap plus 2 hours; expected gap = max(cadence, 12 hours) because collection runs twice a day",
   "summary": {
@@ -1022,16 +471,6 @@
    "fresh": 23,
    "source problem": 6
   },
-  "blockers": [
-   {
-    "what": "vaults/*/latest/** regenerated by every collection but outside cl-6.data's write grant (9 sources, 44 files)",
-    "needs": "Dinis to rule on a vaults/*/latest/** grant"
-   },
-   {
-    "what": "Release goes direct to dev; dev-gate flow (work/cl-6.data) approved by cl-6.security but not applied",
-    "needs": "P19 in force and IaC #34 and #35 merged"
-   }
-  ],
   "datasets": [
    {
     "id": "adsb-faro",
@@ -1041,8 +480,7 @@
     "age_hours": 6.9,
     "rows": 3,
     "freshness": "fresh",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by adsb.lol (community ADS-B receivers)",
-    "blocked_by": ""
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by adsb.lol (community ADS-B receivers)"
    },
    {
     "id": "base-gov-pt",
@@ -1052,8 +490,7 @@
     "age_hours": 6.9,
     "rows": 1496,
     "freshness": "fresh",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by IMPIC, Instituto dos Mercados Públicos, do Imobiliário e da Construção (Portal BASE), through dados.gov.pt",
-    "blocked_by": ""
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by IMPIC, Instituto dos Mercados Públicos, do Imobiliário e da Construção (Portal BASE), through dados.gov.pt"
    },
    {
     "id": "cams",
@@ -1063,8 +500,7 @@
     "age_hours": 6.9,
     "rows": 24,
     "freshness": "fresh",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by Each camera's operator, on its own page (register/cams.json lists them)",
-    "blocked_by": ""
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by Each camera's operator, on its own page (register/cams.json lists them)"
    },
    {
     "id": "carbon-intensity-london",
@@ -1074,8 +510,7 @@
     "age_hours": 17.9,
     "rows": 73,
     "freshness": "fresh",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by National Energy System Operator (NESO), Carbon Intensity API",
-    "blocked_by": ""
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by National Energy System Operator (NESO), Carbon Intensity API"
    },
    {
     "id": "cisa-kev",
@@ -1085,8 +520,7 @@
     "age_hours": 6.9,
     "rows": 1805,
     "freshness": "fresh",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by CISA (Cybersecurity and Infrastructure Security Agency, United States)",
-    "blocked_by": ""
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by CISA (Cybersecurity and Infrastructure Security Agency, United States)"
    },
    {
     "id": "contracts-finder",
@@ -1096,8 +530,7 @@
     "age_hours": 6.9,
     "rows": 233,
     "freshness": "fresh",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by Cabinet Office (Contracts Finder, UK government)",
-    "blocked_by": ""
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by Cabinet Office (Contracts Finder, UK government)"
    },
    {
     "id": "ea-flood",
@@ -1107,8 +540,7 @@
     "age_hours": 6.9,
     "rows": 0,
     "freshness": "fresh",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by Environment Agency (England)",
-    "blocked_by": ""
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by Environment Agency (England)"
    },
    {
     "id": "ea-thames-tide",
@@ -1118,8 +550,7 @@
     "age_hours": 17.9,
     "rows": 7,
     "freshness": "fresh",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by Environment Agency, real-time flood-monitoring API",
-    "blocked_by": ""
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by Environment Agency, real-time flood-monitoring API"
    },
    {
     "id": "enisa-pubs",
@@ -1129,8 +560,7 @@
     "age_hours": 6.9,
     "rows": 10,
     "freshness": "fresh",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by ENISA (European Union Agency for Cybersecurity)",
-    "blocked_by": ""
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by ENISA (European Union Agency for Cybersecurity)"
    },
    {
     "id": "eurostat-tourism",
@@ -1140,8 +570,7 @@
     "age_hours": 6.9,
     "rows": 280,
     "freshness": "fresh",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by Eurostat (European Commission)",
-    "blocked_by": ""
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by Eurostat (European Commission)"
    },
    {
     "id": "euvd",
@@ -1151,8 +580,7 @@
     "age_hours": 6.9,
     "rows": 750,
     "freshness": "source problem",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by ENISA (European Union Agency for Cybersecurity), EU Vulnerability Database",
-    "blocked_by": "At the 27 Nov 18:03 UTC collection 1 of 13 reads failed or were refused (refusals are respected and not retried within the cadence)."
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by ENISA (European Union Agency for Cybersecurity), EU Vulnerability Database"
    },
    {
     "id": "events-pt",
@@ -1162,8 +590,7 @@
     "age_hours": 6.8,
     "rows": 615,
     "freshness": "source problem",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by Câmara Municipal de Lisboa (Agenda Cultural de Lisboa, agendalx.pt) Câmara Municipal de Lagos (cm-lagos.p…",
-    "blocked_by": "At the 27 Nov 18:03 UTC collection 1 of 18 reads failed or were refused (refusals are respected and not retried within the cadence)."
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by Câmara Municipal de Lisboa (Agenda Cultural de Lisboa, agendalx.pt) Câmara Municipal de Lagos (cm-lagos.p…"
    },
    {
     "id": "github-pt",
@@ -1173,8 +600,7 @@
     "age_hours": 6.8,
     "rows": 21,
     "freshness": "source problem",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by The organisations listed in sources/github-pt/orgs.json, through GitHub, Inc.'s REST API",
-    "blocked_by": "At the 27 Nov 18:03 UTC collection 21 of 22 reads failed or were refused (refusals are respected and not retried within the cadence)."
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by The organisations listed in sources/github-pt/orgs.json, through GitHub, Inc.'s REST API"
    },
    {
     "id": "ipma-city-forecasts",
@@ -1184,8 +610,7 @@
     "age_hours": 6.8,
     "rows": 35,
     "freshness": "fresh",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by IPMA, Instituto Português do Mar e da Atmosfera",
-    "blocked_by": ""
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by IPMA, Instituto Português do Mar e da Atmosfera"
    },
    {
     "id": "ipma-fire-risk",
@@ -1195,8 +620,7 @@
     "age_hours": 6.8,
     "rows": 278,
     "freshness": "fresh",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by IPMA, Instituto Português do Mar e da Atmosfera",
-    "blocked_by": ""
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by IPMA, Instituto Português do Mar e da Atmosfera"
    },
    {
     "id": "ipma-observations",
@@ -1206,8 +630,7 @@
     "age_hours": 6.8,
     "rows": 227,
     "freshness": "fresh",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by IPMA, Instituto Português do Mar e da Atmosfera",
-    "blocked_by": ""
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by IPMA, Instituto Português do Mar e da Atmosfera"
    },
    {
     "id": "ipma-sea",
@@ -1217,8 +640,7 @@
     "age_hours": 6.8,
     "rows": 12,
     "freshness": "fresh",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by IPMA, Instituto Português do Mar e da Atmosfera",
-    "blocked_by": ""
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by IPMA, Instituto Português do Mar e da Atmosfera"
    },
    {
     "id": "ipma-uv",
@@ -1228,8 +650,7 @@
     "age_hours": 6.8,
     "rows": 28,
     "freshness": "fresh",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by IPMA, Instituto Português do Mar e da Atmosfera",
-    "blocked_by": ""
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by IPMA, Instituto Português do Mar e da Atmosfera"
    },
    {
     "id": "ipma-warnings",
@@ -1239,8 +660,7 @@
     "age_hours": 6.8,
     "rows": 0,
     "freshness": "fresh",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by IPMA, Instituto Português do Mar e da Atmosfera",
-    "blocked_by": ""
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by IPMA, Instituto Português do Mar e da Atmosfera"
    },
    {
     "id": "meteoalarm-pt",
@@ -1250,8 +670,7 @@
     "age_hours": 6.8,
     "rows": 8,
     "freshness": "fresh",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by MeteoAlarm (EUMETNET), from IPMA",
-    "blocked_by": ""
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by MeteoAlarm (EUMETNET), from IPMA"
    },
    {
     "id": "nvd-cve",
@@ -1261,8 +680,7 @@
     "age_hours": 6.8,
     "rows": 743,
     "freshness": "fresh",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by NIST, National Vulnerability Database (United States)",
-    "blocked_by": ""
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by NIST, National Vulnerability Database (United States)"
    },
    {
     "id": "nvd-kev",
@@ -1272,8 +690,7 @@
     "age_hours": 17.7,
     "rows": 1805,
     "freshness": "fresh",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by NIST, National Vulnerability Database (United States)",
-    "blocked_by": ""
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by NIST, National Vulnerability Database (United States)"
    },
    {
     "id": "open-meteo-london",
@@ -1283,8 +700,7 @@
     "age_hours": 17.7,
     "rows": 72,
     "freshness": "source problem",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by Open-Meteo (OpenMeteo GmbH, Switzerland)",
-    "blocked_by": "At the 27 Nov 18:03 UTC collection 1 of 1 reads failed or were refused ((latest.json kept as it was))."
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by Open-Meteo (OpenMeteo GmbH, Switzerland)"
    },
    {
     "id": "social",
@@ -1294,8 +710,7 @@
     "age_hours": 6.8,
     "rows": 145,
     "freshness": "source problem",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by The organisations themselves, through Bluesky (public AppView API) and Mastodon (public instance API)",
-    "blocked_by": "At the 27 Nov 18:03 UTC collection 5 of 10 reads failed or were refused (refusals are respected and not retried within the cadence)."
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by The organisations themselves, through Bluesky (public AppView API) and Mastodon (public instance API)"
    },
    {
     "id": "tfl-bikepoint",
@@ -1305,8 +720,7 @@
     "age_hours": 17.7,
     "rows": 799,
     "freshness": "fresh",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by Transport for London (TfL), Unified API",
-    "blocked_by": ""
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by Transport for London (TfL), Unified API"
    },
    {
     "id": "tfl-jamcams",
@@ -1316,8 +730,7 @@
     "age_hours": 6.8,
     "rows": 889,
     "freshness": "fresh",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by Transport for London (TfL), Unified API",
-    "blocked_by": ""
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by Transport for London (TfL), Unified API"
    },
    {
     "id": "tfl-road-disruptions",
@@ -1327,8 +740,7 @@
     "age_hours": 17.7,
     "rows": 93,
     "freshness": "fresh",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by Transport for London (TfL), Unified API",
-    "blocked_by": ""
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by Transport for London (TfL), Unified API"
    },
    {
     "id": "tfl-status",
@@ -1338,8 +750,7 @@
     "age_hours": 17.7,
     "rows": 20,
     "freshness": "fresh",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by Transport for London (TfL), Unified API",
-    "blocked_by": ""
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by Transport for London (TfL), Unified API"
    },
    {
     "id": "youtube-replays",
@@ -1349,8 +760,7 @@
     "age_hours": 161.7,
     "rows": 6,
     "freshness": "source problem",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by Web Summit, through YouTube (YouTube LLC, Google)",
-    "blocked_by": "Every read refused (HTTP 403) since 21 Nov; respected and not retried."
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by Web Summit, through YouTube (YouTube LLC, Google)"
    },
    {
     "id": "storm-charles-archive",
@@ -1360,13 +770,12 @@
     "age_hours": 245.5,
     "rows": 142,
     "freshness": "archive (no schedule)",
-    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by storm-charles.promptugal.news (the Storm Charles incident team)",
-    "blocked_by": ""
+    "owner": "cl-6.data@PrompTugal.dinis (collector); data owned by storm-charles.promptugal.news (the Storm Charles incident team)"
    }
   ]
  },
  "other_teams": {
-  "read_at": "2026-11-28T01:57Z",
+  "read_at": "2026-11-28T02:32Z",
   "items": [
    {
     "id": "curator@PrompTugal.vicky",

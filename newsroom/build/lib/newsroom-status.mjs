@@ -1,4 +1,4 @@
-// /newsroom/status/: the waits on Dinis, every agent by desk, the data (cell 2026-11-28-promptugal-status; cl-6.designer's sketch of 28 Nov). Words: assets/newsroom/status-words.json;
+// /newsroom/status/, the PUBLIC mode: the heartbeat, the counts, every agent with its role, the data, the briefing times and the decisions cl-6.decisions flagged public (cell 2026-11-28-promptugal-status; cl-6.designer's loop 3 and 4). Words: assets/newsroom/status-words.json;
 // markup: assets/newsroom/status.tmpl; values: assets/newsroom/status-snapshot.json (newsroom/tools/sync-status.mjs). Every value goes through cell() and esc(): never trusted.
 import fs from 'node:fs'
 import { esc } from './markdown.mjs'
@@ -18,54 +18,60 @@ export const when = s => { const m = /^(\d{4})-(\d\d)-(\d\d)T(\d\d):(\d\d)/.exec
 const hour = s => when(s) || ''
 const E = s => esc(cell(s))
 const RANK = { 'source problem': 0, stale: 1, late: 2, 'archive (no schedule)': 4 }
-const isBlocked = a => a.blocked_on && !/^(none|n\/a|-|—|nothing)\b/i.test(a.blocked_on)
-
-const note = (W, f) => f ? `${W.read}: ${cell(f.read_at)}${f.updated ? ` (${cell(f.updated)})` : ''}` : W.not_read
-const waitItem = (W, x) => [`- **${cell(x.what)}**`, x.urgency ? `  - ${W.urgency}: ${cell(x.urgency)}` : '', x.by ? `  - ${W.by}: ${cell(x.by)}${x.since ? `, ${W.since} ${cell(x.since)}` : ''}` : '', x.line ? `  - ${W.line}: ${cell(x.line)}` : ''].filter(Boolean).join('\n')
+const isBlocked = a => a.blocked === true
 
 function agentsBlock(ctx, b, W, S) {
     const A = S.agents && S.agents.items.length ? S.agents : null
     if (!A) { const old = rd(ctx, 'assets/newsroom/agents-snapshot.json'); return old ? cl6Section(ctx, ctx.readJSON('assets/newsroom/agents-cl6.json')).replace(/^## .*\{#cl6\}\n\n[\s\S]*?\n\n## .*\{#dinis\}\n\n[\s\S]*?(?=\n## )/, '') : `${W.not_read}\n` }
     const by = new Map(); for (const a of A.items) (by.get(a.desk || '?') || by.set(a.desk || '?', []).get(a.desk || '?')).push(a)
     const kindOf = a => isBlocked(a) ? 'blocked' : a.status === 'working' ? 'working' : a.status === 'idle' ? 'idle' : 'none'
-    const head = Object.fromEntries(['h_agent', 'h_state', 'h_last', 'h_next', 'h_blocked', 'h_repo'].map(k => [k, esc(W[k])]))
+    const head = Object.fromEntries(['h_agent', 'h_role', 'h_state', 'h_last', 'h_next', 'h_repo'].map(k => [k, esc(W[k])]))
     const NR = esc(W.s_none)
     let html = '', md = ''
     for (const [desk, xs] of [...by].sort((x, y) => y[1].filter(isBlocked).length - x[1].filter(isBlocked).length || x[0].localeCompare(y[0]))) {
         const sorted = [...xs].sort((p, q) => (isBlocked(q) ? 1 : 0) - (isBlocked(p) ? 1 : 0) || p.id.localeCompare(q.id)), nb = xs.filter(isBlocked).length
         const rowsOf = list => list.map(a => { const k = kindOf(a), url = a.repo && safeUrl(`https://github.com/${a.repo}`)
-            return put(item('row'), { ...head, kind: k, name: E(a.id), chip: put(item('chip'), { kind: k, label: esc(W[`s_${k}`]) }), last: a.last_at ? `${esc(when(a.last_at))}${a.last_what ? `<br>${E(a.last_what)}` : ''}` : NR,
-                next: a.next_wake ? (when(a.next_wake) ? esc(when(a.next_wake)) : E(a.next_wake)) : a.wake ? E(a.wake) : NR, blocked: a.blocked_on && isBlocked(a) ? E(a.blocked_on) : '', repo: url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${E(a.repo.replace(/^[^/]+\//, ''))}</a>` : NR }) }).join('')
+            return put(item('row'), { ...head, kind: k, name: E(a.id), role: a.role ? E(a.role) : NR, chip: put(item('chip'), { kind: k, label: esc(W[`s_${k}`]) }), last: a.last_at ? esc(when(a.last_at)) : NR,
+                next: a.next_wake ? (when(a.next_wake) ? esc(when(a.next_wake)) : E(a.next_wake)) : NR, repo: url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${E(a.repo.replace(/^[^/]+\//, ''))}</a>` : NR }) }).join('')
         const tbl = rs => put(item('tbl'), { ...head, rows: rs })
         const blockedRows = sorted.filter(isBlocked), restRows = sorted.filter(a => !isBlocked(a))
         const body = (blockedRows.length ? tbl(rowsOf(blockedRows)) : '') + (restRows.length ? put(item('more'), { label: esc(fill(W.more_agents, { n: restRows.length })), table: tbl(rowsOf(restRows)) }) : '')
         html += put(item('desk'), { desk: E(desk), counts: esc(fill(W.counts, { n: xs.length, b: nb })), body })
-        md += `### ${cell(desk)} (${fill(W.counts, { n: xs.length, b: nb })})\n\n` + sorted.map(a => `- ${cell(a.id)}: ${W[`s_${kindOf(a)}`]}${a.last_at ? `, ${when(a.last_at)}` : ''}${isBlocked(a) ? `, ${W.h_blocked.toLowerCase()}: ${cell(a.blocked_on)}` : ''}`).join('\n') + '\n\n'
+        md += `### ${cell(desk)} (${fill(W.counts, { n: xs.length, b: nb })})\n\n` + sorted.map(a => `- ${cell(a.id)}${a.role ? ` (${cell(a.role)})` : ''}: ${W[`s_${kindOf(a)}`]}${a.last_at ? `, ${when(a.last_at)}` : ''}`).join('\n') + '\n\n'
     }
     return b.raw(html, md)
 }
 
+const pick = (S, k) => S && S[k] && (Array.isArray(S[k].items) || S[k].read_at) ? S[k] : null
 export function statusMd(ctx, b = { raw: (h, m) => m }) {
     const W = ctx.readJSON('assets/newsroom/status-words.json'), S = rd(ctx, 'assets/newsroom/status-snapshot.json') || {}
-    // the first five waits as text; the rest closed under "n more" (cl-6.maestro: the page was 35 000 px on a phone)
-    const waitHtml = x => put(item('wait'), { what: E(x.what), rest: [x.urgency && `<br>${esc(W.urgency)}: ${E(x.urgency)}`, x.by && `<br>${esc(W.by)}: ${E(x.by)}${x.since ? `, ${esc(W.since)} ${E(x.since)}` : ''}`, x.line && `<br>${esc(W.line)}: ${E(x.line)}`].filter(Boolean).join('') })
-    const waits = (title, f) => { const xs = f && f.items.length ? f.items : [], head = xs.slice(0, 5), rest = xs.slice(5)
-        return `### ${title}\n\n${note(W, f)}\n\n${xs.length ? head.map(x => waitItem(W, x)).join('\n') : W.none}\n` + (rest.length ? b.raw(put(item('more'), { label: esc(fill(W.more_waits, { n: rest.length })), table: put(item('waits'), { items: rest.map(waitHtml).join('') }) }), rest.map(x => waitItem(W, x)).join('\n')) : '') }
     const built = new Date().toISOString().slice(0, 13).replace('T', ' ') + ':00 UTC'
     const line = fill(W.built, { built, agents: S.agents ? hour(S.agents.read_at) || cell(S.agents.read_at) : W.not_read_short, data: S.data ? hour(S.data.read_at) || cell(S.data.read_at) : W.not_read_short })
-    const D = S.data && Array.isArray(S.data.datasets) ? S.data : null
+    const A = S.agents && S.agents.items.length ? S.agents.items : [], D = S.data && Array.isArray(S.data.datasets) ? S.data : null, H = pick(S, 'heartbeat'), DEC = pick(S, 'decisions')
+    // the heartbeat and the counts: plain sentences from the files, nothing typed by hand
+    const parts = []
+    if (H && H.articles) parts.push(fill(W.hb_articles, { n: H.articles, d: H.newest ? day(H.newest) : '' }))
+    if (ctx.VERSION) parts.push(fill(W.hb_build, { v: cell(ctx.VERSION) }))
+    const nA = k => A.filter(a => (isBlocked(a) ? 'blocked' : a.status) === k).length
+    if (A.length) parts.push(fill(W.hb_agents, { n: A.length, w: nA('working'), i: nA('idle'), b: nA('blocked') }))
+    const bad = D ? D.datasets.filter(d => (RANK[d.freshness] ?? 5) < 4).length : 0
+    if (D) parts.push(fill(W.hb_data, { n: D.datasets.length, f: D.datasets.filter(d => d.freshness === 'fresh').length, p: bad }))
+    const heart = parts.length ? `- ${parts.join('\n- ')}` : W.not_read
+    // the decisions the decisions agent flagged public: title and short lines, never an answer, a link, an id or a name
+    const decOf = x => put(item('dec'), { title: E(x.title), summary: x.summary ? E(x.summary) : '', rows: [['d_wait', x.if_you_wait]].filter(r => r[1]).map(r => `<li><b>${esc(W[r[0]])}</b> ${E(r[1])}</li>`).join('') })
+    const decMd = x => `- **${cell(x.title)}**${x.summary ? `: ${cell(x.summary)}` : ''}${[['d_wait', x.if_you_wait]].filter(r => r[1]).map(r => `\n  - ${W[r[0]]} ${cell(r[1])}`).join('')}`
+    const decs = DEC && DEC.items.length ? b.raw(`<div class="ns-decs">${DEC.items.map(decOf).join('')}</div>`, DEC.items.map(decMd).join('\n')) + '' : W.none
     let dataBlock = W.data_none
     if (D) {
         const dhead = Object.fromEntries(['h_dataset', 'h_owner', 'h_refresh', 'h_source', 'h_rows', 'h_verdict'].map(k => [k, esc(W[k])]))
-        const drows = [...D.datasets].sort((p, q) => (RANK[p.freshness] ?? 5) - (RANK[q.freshness] ?? 5) || (q.age_hours || 0) - (p.age_hours || 0)).map(d => { const bad = (RANK[d.freshness] ?? 5) < 4
-            return { d, bad, html: put(item('drow'), { ...dhead, kind: bad ? 'bad' : 'ok', name: E(d.title || d.id), owner: E(d.owner), refresh: d.last_refresh ? esc(when(d.last_refresh)) : esc(W.s_none), source: E(d.source), rows: d.rows == null ? esc(W.s_none) : esc(String(d.rows)),
-                chip: put(item('chip'), { kind: bad ? 'bad' : 'ok', label: esc(W[`f_${d.freshness}`] || cell(d.freshness)) }) }) } })
-        const head = Object.fromEntries(['h_dataset', 'h_owner', 'h_refresh', 'h_source', 'h_rows', 'h_verdict'].map(k => [k, esc(W[k])]))
+        const drows = [...D.datasets].sort((p, q) => (RANK[p.freshness] ?? 5) - (RANK[q.freshness] ?? 5) || (q.age_hours || 0) - (p.age_hours || 0)).map(d => { const isBad = (RANK[d.freshness] ?? 5) < 4
+            return { d, bad: isBad, html: put(item('drow'), { ...dhead, kind: isBad ? 'bad' : 'ok', name: E(d.title || d.id), owner: E(d.owner), refresh: d.last_refresh ? esc(when(d.last_refresh)) : esc(W.s_none), source: E(d.source), rows: d.rows == null ? esc(W.s_none) : esc(String(d.rows)),
+                chip: put(item('chip'), { kind: isBad ? 'bad' : 'ok', label: esc(W[`f_${d.freshness}`] || cell(d.freshness)) }) }) } })
         const summary = Object.entries(D.summary || {}).map(([k, v]) => `${v} ${cell(k)}`).join(', ')
-        const blockers = D.blockers && D.blockers.length ? `\n\n### ${W.blockers_title}\n\n${D.blockers.map(x => `- ${cell(x.what)}${x.needs ? ` (${cell(x.needs)})` : ''}`).join('\n')}` : ''
         dataBlock = `${W.data_about}\n\n${D.rule ? `${W.rule_label} ${cell(D.rule)}\n\n` : ''}${summary ? `${fill(W.data_summary, { text: summary })}\n\n` : ''}` +
-            b.raw((drows.some(r => r.bad) ? put(item('data'), { ...head, rows: drows.filter(r => r.bad).map(r => r.html).join('') }) : '') + (drows.some(r => !r.bad) ? put(item('more'), { label: esc(fill(W.more_data, { n: drows.filter(r => !r.bad).length })), table: put(item('data'), { ...head, rows: drows.filter(r => !r.bad).map(r => r.html).join('') }) }) : ''), drows.map(r => `- ${cell(r.d.title || r.d.id)}: ${W[`f_${r.d.freshness}`] || cell(r.d.freshness)}, ${when(r.d.last_refresh) || W.s_none}`).join('\n')) + blockers + `\n\n${W.live_view}`
+            b.raw((drows.some(r => r.bad) ? put(item('data'), { ...dhead, rows: drows.filter(r => r.bad).map(r => r.html).join('') }) : '') + (drows.some(r => !r.bad) ? put(item('more'), { label: esc(fill(W.more_data, { n: drows.filter(r => !r.bad).length })), table: put(item('data'), { ...dhead, rows: drows.filter(r => !r.bad).map(r => r.html).join('') }) }) : ''), drows.map(r => `- ${cell(r.d.title || r.d.id)}: ${W[`f_${r.d.freshness}`] || cell(r.d.freshness)}, ${when(r.d.last_refresh) || W.s_none}`).join('\n')) + `\n\n${W.live_view}`
     }
-    const other = S.other_teams && S.other_teams.items.length ? `\n## ${W.other_title} {#other}\n\n${W.other_about}\n\n${S.other_teams.items.map(x => `- ${cell(x.id)}: ${when(x.last_at)}, ${cell(x.last_what)}`).join('\n')}\n` : ''
-    return `${b.raw(put(item('built'), { text: esc(line) }), line)}\n\n${W.lede}\n\n## ${W.waits_title} {#waits}\n\n${W.waits_about}\n\n${waits(W.briefing_title, S.briefing)}\n${waits(W.questions_title, S.questions)}\n## ${W.agents_title} {#agents}\n\n${W.agents_about}\n\n${agentsBlock(ctx, b, W, S)}${other}\n## ${W.data_title} {#data}\n\n${dataBlock}\n`
+    const other = S.other_teams && S.other_teams.items.length ? `\n## ${W.other_title} {#other}\n\n${W.other_about}\n\n${S.other_teams.items.map(x => `- ${cell(x.id)}: ${when(x.last_at)}`).join('\n')}\n` : ''
+    return `${b.raw(put(item('built'), { text: esc(line) }), line)}\n\n${W.lede}\n\n## ${W.heart_title} {#heartbeat}\n\n${heart}\n\n## ${W.waits_title} {#waits}\n\n${W.waits_about}\n\n${decs}\n\n## ${W.agents_title} {#agents}\n\n${W.agents_about}\n\n${agentsBlock(ctx, b, W, S)}${other}\n## ${W.data_title} {#data}\n\n${dataBlock}\n`
 }
+const day = s => { const m = /^(\d{4})-(\d\d)-(\d\d)/.exec(String(s || '')); return m ? `${+m[3]} ${MON[+m[2] - 1]}` : '' }

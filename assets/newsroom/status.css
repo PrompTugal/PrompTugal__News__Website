@@ -10,3 +10,8 @@
 .ns-table thead th { font: 600 12px var(--sans); color: var(--ink-3); }
 .ns-row.ns-blocked th, .ns-row.ns-bad th { border-inline-start: 4px solid var(--ink); padding-inline-start: 8px; }
 @media (max-width: 767px) { .ns-table thead { display: none; } .ns-table, .ns-table tbody, .ns-table tr, .ns-table th, .ns-table td { display: block; width: 100%; box-sizing: border-box; } .ns-table tr { padding: 8px 0; border-bottom: 1px solid var(--hair); } .ns-table th, .ns-table td { border: 0; padding: 2px 0; } .ns-table td[data-l]:not(:empty)::before { content: attr(data-l) ": "; font: 600 12px var(--sans); color: var(--ink-3); } }
+.ns-decs { display: grid; gap: 12px; margin: 12px 0; }
+.ns-dec { border: 1px solid var(--rule-2, #999); border-radius: 6px; padding: 12px 14px; }
+.ns-dec h3 { margin: 0 0 6px; font: 600 16px/1.3 var(--sans); }
+.ns-dec p { margin: 0 0 8px; }
+.ns-dec ul { margin: 0; padding-inline-start: 18px; font: 14px/1.45 var(--sans); }
