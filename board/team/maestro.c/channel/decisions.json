@@ -1,0 +1,135 @@
+{
+  "schema": "maestro.decisions/v0",
+  "account": "account-c",
+  "by": "c.maestro (account-c)",
+  "updated": "2026-11-28T16:05Z",
+  "status_values": [
+    "asked",
+    "decided",
+    "in_progress",
+    "done",
+    "waiting_on_dinis"
+  ],
+  "decisions": [
+    {
+      "id": "2026-11-28-skills",
+      "decided_at": "2026-11-28T12:05Z",
+      "decision": "Use skills much more: every agent and agent site has a skills folder with scripts, as one standard agent package with generic templates",
+      "status": "waiting_on_dinis",
+      "carried_by": "c.maestro",
+      "link": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/maestro.c/briefs/2026-11-28-skills-and-the-agent-package.md",
+      "waits_on": "template names, keepers, licence, pilot (section 9)"
+    },
+    {
+      "id": "2026-11-28-agile-cells-home",
+      "decided_at": "2026-11-28T12:20Z",
+      "decision": "Agile Cells is the brand and the home for the agent package, templates and skills",
+      "status": "decided",
+      "carried_by": "c.agile-cells",
+      "link": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/maestro.c/briefs/2026-11-28-skills-and-the-agent-package.md",
+      "waits_on": "AgileCells__IaC #1 merge"
+    },
+    {
+      "id": "2026-11-28-skills-site",
+      "decided_at": "2026-11-28T13:20Z",
+      "decision": "A skills site with a reviewed allow list and a role-to-skill map",
+      "status": "in_progress",
+      "carried_by": "c.agile-cells",
+      "link": "(plan in c.agile-cells's session; repository waits on AgileCells__IaC #1)",
+      "waits_on": "AgileCells__IaC #1; 'attach' in c.agile-cells's session"
+    },
+    {
+      "id": "2026-11-28-go-to-market",
+      "decided_at": "2026-11-28T14:30Z",
+      "decision": "Sell Agile Cells as vertical cells (social media, website, CRM, design, agent behaviour policy); go to market",
+      "status": "in_progress",
+      "carried_by": "c.agile-cells",
+      "link": "(go-to-market plan asked)"
+    },
+    {
+      "id": "2026-11-28-auto-ontology",
+      "decided_at": "2026-11-28T12:50Z",
+      "decision": "Look at NVIDIA Auto Ontology and find a good use, with a website showing how",
+      "status": "waiting_on_dinis",
+      "carried_by": "c.auto-ontology",
+      "link": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/work/c.auto-ontology/board/team/auto-ontology/2026-11-28-brief.md",
+      "waits_on": "pick a use (recommended: our public knowledge graph); an environment with Docker; an NVIDIA key"
+    },
+    {
+      "id": "2026-11-28-try-service",
+      "decided_at": "2026-11-28T14:30Z",
+      "decision": "A serverless 'try' service for images and basic inference on Cloudflare; Dinis sets up the account",
+      "status": "waiting_on_dinis",
+      "carried_by": "c.cloudflare",
+      "link": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/work/c.cloudflare/board/team/cloudflare/2026-11-28-try-plan-v2.md",
+      "waits_on": "Cloudflare account and scoped token; 'go' in c.cloudflare's session"
+    },
+    {
+      "id": "2026-11-28-higgsfield-cap",
+      "decided_at": "2026-11-28T12:45Z",
+      "decision": "No spending cap for Higgsfield for now; record every cost; images allowed",
+      "status": "decided",
+      "carried_by": "higgsfield.c, higgsfield.b",
+      "link": "https://studio.agents.sovereignweb.site/productions/higgsfield/trial/",
+      "waits_on": "higgsfield.b may want the word in its own session"
+    },
+    {
+      "id": "2026-11-28-higgsfield-research",
+      "decided_at": "2026-11-28T13:00Z",
+      "decision": "Research the use and resale of Higgsfield images for our users",
+      "status": "done",
+      "carried_by": "higgsfield.c",
+      "link": "https://studio.agents.sovereignweb.site/productions/higgsfield/research/"
+    },
+    {
+      "id": "2026-11-28-bedrock",
+      "decided_at": "2026-11-28T13:20Z",
+      "decision": "Add Bedrock and AWS agent services; integrate more with AWS",
+      "status": "asked",
+      "carried_by": "a.maestro, conductor.aws.a",
+      "link": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/maestro.c/briefs/2026-11-28-serverless-services-bedrock-sg-send.md"
+    },
+    {
+      "id": "2026-11-28-sg-send-cell",
+      "decided_at": "2026-11-28T14:30Z",
+      "decision": "An Agile Cell owns SG/Send: product, deployment in any account and region, website, new brand, sales",
+      "status": "in_progress",
+      "carried_by": "c.sg-send",
+      "link": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/maestro.c/briefs/2026-11-28-serverless-services-bedrock-sg-send.md"
+    },
+    {
+      "id": "2026-11-28-agile-films",
+      "decided_at": "2026-11-28T14:30Z",
+      "decision": "Vertical cut of the Agile film for Instagram, horizontal on YouTube, videos hosted on the sites; then an Agile Cells film by a new team",
+      "status": "in_progress",
+      "carried_by": "c.productions",
+      "link": "https://github.com/SovereignWebsite/Site__Agent__Studio/blob/dev/site/productions/plans/2026-11-28-agile-vertical-hosting-agile-cells.md",
+      "waits_on": "sign off the exact version before anything is posted"
+    },
+    {
+      "id": "2026-11-28-notebooks",
+      "decided_at": "2026-11-28T14:30Z",
+      "decision": "Map the NotebookLM infographics and slides repository; phase one: understand what is there, in small chunks",
+      "status": "in_progress",
+      "carried_by": "c.notebooks",
+      "link": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/work/c.notebooks/board/team/notebooks/2026-11-28-plan.md"
+    },
+    {
+      "id": "2026-11-28-command-centre",
+      "decided_at": "2026-11-28T16:00Z",
+      "decision": "The SGit app shows decisions and key ideas, synced on phone, iPad and laptop through vaults",
+      "status": "in_progress",
+      "carried_by": "c.ios",
+      "link": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/maestro.c/plans/2026-11-26-command-centre-ios.md",
+      "waits_on": "confirm the Team app is the SGit app, in c.ios's session if it asks"
+    },
+    {
+      "id": "2026-11-28-archive-refreshed",
+      "decided_at": "2026-11-28T02:45Z",
+      "decision": "The maestro may archive refreshed sessions",
+      "status": "done",
+      "carried_by": "c.maestro",
+      "link": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/maestros/from-c.md"
+    }
+  ]
+}
