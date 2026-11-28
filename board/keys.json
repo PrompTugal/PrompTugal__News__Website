@@ -5635,6 +5635,20 @@
       "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBECqaTmIqLHalgW4kfIr27ceK1hCkrv0m2ELdy+i1Vla5N+Yqagh4+QyRgSesqJJH1XqDLSkaMrUGpOKp+2f/us=",
       "ssh_added": "2026-11-26T11:14Z",
       "home_copy": "https://github.com/PrompTugal/PrompTugal__Agent__Synthetic/blob/dev/site/keys/cl-6.synthetic.json"
+    },
+    {
+      "id": "auto-ontology-promptugal-c",
+      "agent": "c.auto-ontology (account C, cl-3)",
+      "label": "c.auto-ontology: an ephemeral Agile Cell on Dinis's Claude account C, started by c.maestro on 28 November 2026 to brief on NVIDIA Auto Ontology",
+      "role": "Research brief only (board/team/auto-ontology/). A session key: it ends with its session.",
+      "made": "2026-11-28",
+      "made_with": "openssl (P-256 signing key), in its own session; private half only in the session, never in this repository",
+      "added": "2026-11-28T13:20Z",
+      "status": "active",
+      "session": "https://claude.ai/code/session_01Kw9UwEUDt4TBxpSmfPmG3S",
+      "signing_fingerprint": "sha256:497009bc4f27125a",
+      "sign_public_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE4/qZ32XgrXeSKDR0sDotd2qLHJYj\nRuW4H3ZpZJHBtblQdEWQtiTENRdFNJ37VAvlXYlIeUtXI6HfBs9M03Ilzw==\n-----END PUBLIC KEY-----\n",
+      "note": "No ssh-keygen in this container, so git commits carry the environment's signature; files this cell writes carry a detached P-256 signature (<file>.sig, base64 DER over SHA-256) checkable against this key."
     }
   ]
 }
