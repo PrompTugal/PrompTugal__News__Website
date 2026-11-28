@@ -265,12 +265,13 @@
     // company, a topic) taken from its address, and to the page read before it (the reading path). Nothing is sent anywhere.
     var SUBJECT_SECTIONS = { algarve: 1, portugal: 1, places: 1, companies: 1, people: 1, topics: 1, organisations: 1, events: 1, storm: 1 }
     var KIND_COLOUR = { article: '#c52830', place: '#006600', site: '#3f424a', story: '#9a6700', data: '#1a4fa0', company: '#5b2ca0', topic: '#5b2ca0', event: '#9a6700', person: '#7a5c00', organisation: '#5b2ca0' }
-    function readingGraph(log) {
-        var NS = 'http://www.w3.org/2000/svg', W = 760, H = 440
+    function readingGraph(log, o) {
+        o = o || {}
+        var NS = 'http://www.w3.org/2000/svg', W = o.W || 760, H = o.H || 440
         var sv = function (tag, attrs, kids) { var e = document.createElementNS(NS, tag); for (var k in attrs || {}) e.setAttribute(k, attrs[k]); (kids || []).forEach(function (c) { if (c) e.append(c) }); return e }
         var seen = {}, pages = []
         log.slice().reverse().forEach(function (e) { if (!e.path || seen[e.path]) return; seen[e.path] = 1; pages.push(e) })
-        pages = pages.slice(-60)
+        pages = pages.slice(-(o.cap || 60))
         if (pages.length < 2) return null
         var nodes = [], byId = {}, links = []
         var node = function (id, o) { if (!byId[id]) { o.id = id; o.x = W / 2 + (Math.random() - .5) * W * .6; o.y = H / 2 + (Math.random() - .5) * H * .6; o.vx = 0; o.vy = 0; byId[id] = o; nodes.push(o) } return byId[id] }
@@ -305,7 +306,35 @@
                 g.append(a)
             }
         })
-        return h('figure', { class: 'nr-graph-fig' }, g, h('figcaption', { class: 'meta' }, pages.length + ' pages read, linked to their subjects; dashed: the order read. Made in this browser.'))
+        var deg = {}; links.forEach(function (l) { if (l[2] === 'c') deg[l[1].id] = (deg[l[1].id] || 0) + 1 })
+        var subj = nodes.filter(function (n) { return n.type === 'concept' && /^t:/.test(n.id) }).sort(function (a, b) { return (deg[b.id] || 0) - (deg[a.id] || 0) })
+        var fig = h('figure', { class: 'nr-graph-fig' }, g, o.quiet ? null : h('figcaption', { class: 'meta' }, pages.length + ' pages read, linked to their subjects; dashed: the order read. Made in this browser.'))
+        fig.stats = { pages: pages.length, topics: subj.filter(function (n) { return /^t:topics\//.test(n.id) }).length, places: subj.filter(function (n) { return /^t:(algarve|portugal|places)\//.test(n.id) }).length, top: subj.slice(0, 5).map(function (n) { return { title: n.title, n: deg[n.id] || 0 } }) }
+        return fig
+    }
+
+    // ------------------------------------------------------------ "Your reading" on the front page (cl-6.designer's spec c, 28 Nov 2026; Dinis's home-page review)
+    // Drawn from the meter's own log in this browser, after the meter is ready: no request of its own, nothing stored but a time (the last "clear"), nothing sent. "Clear my reading" hides the pages
+    // read until now from this panel and the graph only: the log (and so the balance and the receipts) is not touched.
+    function readingPanel(m, el) {
+        var key = m.cfg.storageKey + '.reading-cleared', since = ''
+        try { since = localStorage.getItem(key) || '' } catch (e) { }
+        var log = (m.state.log || []).filter(function (e) { return !e.declined && (!since || String(e.at || e.when || '') > since) })
+        var draw = function () {
+            el.textContent = ''
+            var fig = readingGraph(log, { W: 300, H: 240, cap: 40, quiet: true })
+            el.append(h('h2', { class: 'fe-h' }, el.dataset.title), h('p', { class: 'fe-rd-note' }, el.dataset.note))
+            if (!fig) {
+                el.append(h('p', { class: 'fe-rd-empty' }, el.dataset.empty), h('svg', { class: 'nr-graph fe-rd-sample', viewBox: '0 0 300 120', 'aria-hidden': 'true' }))
+                var NS = 'http://www.w3.org/2000/svg', sam = el.querySelector('.fe-rd-sample'); [[60, 60], [150, 30], [150, 90], [240, 60], [110, 60]].forEach(function (c, i) { var e = document.createElementNS(NS, i < 4 ? 'circle' : 'circle'); e.setAttribute('cx', c[0]); e.setAttribute('cy', c[1]); e.setAttribute('r', i === 4 ? 9 : 6); sam.append(e) })
+                return
+            }
+            var st = fig.stats, top = h('ol', { class: 'fe-rd-top' }, st.top.map(function (t) { return h('li', {}, t.title + ' (' + t.n + ')') }))
+            el.append(fig, h('p', { class: 'fe-rd-count' }, el.dataset.count.replace('{p}', st.pages).replace('{t}', st.topics).replace('{l}', st.places)), st.top.length ? top : null,
+                h('p', { class: 'fe-rd-acts' }, h('a', { href: at(m.cfg.links.account) + '#graph' }, el.dataset.open), ' · ',
+                    h('button', { type: 'button', class: 'btn quiet', onclick: function () { try { localStorage.setItem(key, new Date().toISOString()) } catch (e) { } log = []; draw() } }, el.dataset.clear)))
+        }
+        draw()
     }
     function exportJson(m) {
         var blob = new Blob([JSON.stringify(m.state, null, 1)], { type: 'application/json' })
@@ -393,6 +422,7 @@
         }
         var tu = document.getElementById('nr-topped'); if (tu) toppedView(m, tu)
         paint()
+        var rp = document.querySelector('[data-reading]'); if (rp) readingPanel(m, rp)         // once: the panel does not follow every page read
         document.addEventListener('sg:meter.changed', paint)
         if (m.status === 'reading') measure(function (share) { m.reach(share) })
         return m

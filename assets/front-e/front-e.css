@@ -255,3 +255,8 @@
 /* top stories by region, in the right-hand panel (cl-6.dev, 28 Nov) */
 .fe-regions { margin: 0 0 20px; } .fe-reg { border-top: 1px solid var(--hair); padding: 8px 0; } .fe-reg h3 { margin: 0 0 4px; font: 600 13px var(--sans); text-transform: uppercase; letter-spacing: .04em; }
 .fe-reg ul { list-style: none; margin: 0; padding: 0; } .fe-reg li { margin: 4px 0; font: 14px/1.35 var(--serif); } .fe-reg small { color: var(--ink-3); font: 12px var(--mono); }
+
+/* "Your reading" (spec c): the reader's own graph, drawn in this browser; empty state with a faint sample */
+.fe-reading:empty { display: none; } .fe-reading { margin: 0 0 20px; } .fe-rd-note { font: 13px/1.4 var(--sans); color: var(--ink-3); margin: 0 0 8px; } .fe-rd-count { font: 600 13px var(--sans); margin: 6px 0; }
+.fe-reading .nr-graph { width: 100%; height: auto; max-height: 280px; } .fe-rd-sample { opacity: .35; } .fe-rd-sample circle { fill: none; stroke: var(--ink-3); stroke-width: 2; } .fe-rd-empty { font: 600 14px var(--sans); margin: 4px 0; }
+.fe-rd-top { margin: 4px 0 8px; padding-inline-start: 20px; font: 13px/1.4 var(--sans); } .fe-rd-acts { font: 13px var(--sans); margin: 4px 0; } .fe-rd-acts .btn { font-size: 13px; }
