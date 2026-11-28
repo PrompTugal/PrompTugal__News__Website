@@ -4,7 +4,7 @@ date: 2026-11-28
 story: S88
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
 summary: "An update note for the published 'AMALIA and ANIA: what Portugal says about its own AI plans' (content/articles/amalia-and-ania-portugal-ai-plans.md): ECO's report of 15 September 2026 on AMALIA's second phase, with 1.8 million euros more and agent tools for the public administration."
-status: draft
+status: approved
 beat: Portugal
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: portugal, ai, amalia, language model, government, public administration, update
@@ -15,11 +15,10 @@ updates: amalia-and-ania-portugal-ai-plans
 
 ---
 
-> **Update, 28 November 2026.** [ECO](https://eco.sapo.pt/2026/09/15/amalia-ganha-ferramentas-de-agentificacao-ate-final-do-ano/) reported on 15 September 2026 that AMALIA's second development phase had been made official. This is a development this article did not cover, dated before it, and not news since. ECO reports a government statement of 9 September and a Council of Ministers resolution published in the official gazette on 15 September. We have not read the resolution.
+> **Update, 28 November 2026.** [ECO](https://eco.sapo.pt/2026/09/15/amalia-ganha-ferramentas-de-agentificacao-ate-final-do-ano/) reported on 15 September 2026 that AMALIA's second development phase had been made official. The report is dated before this article, which did not cover it. ECO reports a government statement of 9 September and a Council of Ministers resolution published in the official gazette on 15 September. We have not read the resolution.
 >
 > - **Money.** The report says the government added 1.8 million euros from the Recovery and Resilience Plan, backdated to 1 July. It says this raised AMALIA's total cost to 7.3 million euros at the end of the work. This article gave 5.5 million euros from INESC-ID and NOVA FCT. These are different sources' figures and we do not reconcile them.
 > - **Aims.** By the end of 2026 the government wanted the model trained for "agent tools" ("ferramentas de agentificação"), software that carries out tasks on its own, and for solutions that fit the public administration's internal processes, plus image and speech uses. Its main aim, as ECO quotes it, was that AMALIA stops being only a prototype and joins citizen service.
-> - **Who runs it.** ECO says the governance runs through structures such as ARTE, the state's technology reform agency, and the science foundation FCT. It says FCT will give way to a new body, AI2, after merging with the national innovation agency. The expert follow-up committee's mandate was extended to 31 December 2029.
 > - **Data.** The government said it would soon open talks with media companies on access to their latest archives for training. ECO adds that the Journalists' Union had contested access to the Arquivo.pt archive in the first phase.
 >
 > This is one press report of the government's statements. We found no adoption figures for AMALIA and no later news on the second phase.

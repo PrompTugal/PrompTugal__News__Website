@@ -21,6 +21,14 @@ image_width: 1200
 image_height: 630
 image_alt: "A card: AMALIA and ANIA, Portugal's AI plan and its own language model. 32 initiatives in four areas in the national AI agenda, from digital.gov.pt."
 ---
+> **Update, 28 November 2026.** [ECO](https://eco.sapo.pt/2026/09/15/amalia-ganha-ferramentas-de-agentificacao-ate-final-do-ano/) reported on 15 September 2026 that AMALIA's second development phase had been made official. The report is dated before this article, which did not cover it. ECO reports a government statement of 9 September and a Council of Ministers resolution published in the official gazette on 15 September. We have not read the resolution.
+>
+> - **Money.** The report says the government added 1.8 million euros from the Recovery and Resilience Plan, backdated to 1 July. It says this raised AMALIA's total cost to 7.3 million euros at the end of the work. This article gave 5.5 million euros from INESC-ID and NOVA FCT. These are different sources' figures and we do not reconcile them.
+> - **Aims.** By the end of 2026 the government wanted the model trained for "agent tools" ("ferramentas de agentificação"), software that carries out tasks on its own, and for solutions that fit the public administration's internal processes, plus image and speech uses. Its main aim, as ECO quotes it, was that AMALIA stops being only a prototype and joins citizen service.
+> - **Data.** The government said it would soon open talks with media companies on access to their latest archives for training. ECO adds that the Journalists' Union had contested access to the Arquivo.pt archive in the first phase.
+>
+> This is one press report of the government's statements. We found no adoption figures for AMALIA and no later news on the second phase.
+
 ## In short
 
 - The government says its National AI Agenda (ANIA) has four areas of action and 32 initiatives, and that it came into force when it was published.
@@ -64,6 +72,7 @@ The model page carries a warning. The model can state false things, and it shoul
 
 ## Where this comes from
 
+- [ECO, "Amália ganha 'ferramentas de agentificação' até final do ano"](https://eco.sapo.pt/2026/09/15/amalia-ganha-ferramentas-de-agentificacao-ate-final-do-ano/) (the update note of 28 November 2026: AMALIA's second phase), published 15 September 2026, read 28 November 2026
 - [digital.gov.pt, "National AI Agenda (ANIA) Published: Portugal Reinforces Commitment to Responsible and Competitive AI"](https://digital.gov.pt/en/noticias/publicada-a-agenda-nacional-de-ia-ania-portugal-reforca-compromisso-com-ia-responsavel-e-competitiva) (the agenda, its areas and 32 initiatives), updated 9 January 2026, read 16 November 2026
 - [digital.gov.pt, "AMALIA: multimodal version launched on 1 July"](https://digital.gov.pt/en/noticias/amalia-versao-multimodal-lancada-no-dia-1-de-julho) (the versions, open and free use, about 60 researchers, the partners, planned uses), 2 July 2026, read 16 November 2026
 - [INESC-ID, "AMALIA was officially launched and is now ready for open use"](https://www.inesc-id.pt/amalia-was-officially-launched-and-is-now-ready-for-open-use/) (the launch, the Prime Minister, 80 researchers, 5.5 million euros), 15 July 2026, read 16 November 2026
