@@ -23,9 +23,14 @@ export function stateLine(strikes, words, now) {
     return fill(done.length === 1 ? words.first_ended : words.some_ended, v)
 }
 
-export function chart(tmpl, strikes, now, words) {
+// every word put into the SVG is escaped (cl-6.security, 28 Nov): the words are repo-held today, so this keeps it so if they ever are not
+const xml = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
+
+export function chart(tmpl, strikes, now, words, byLine) {
     const t = london(now); let i = 0
-    return tmpl.replace('{{state}}', stateLine(strikes, words, now)).replace(/<rect class="(?:fl|ol|pa)"( x="[\d.]+" y="[\d.]+" width="8\.0" height="18")\/>/g, (m, rest) => {
+    const ended = strikes[0].end < t, B = (ended ? byLine.after : byLine.before), vals = { state: stateLine(strikes, words, now), by_head: B.head, by_note: B.note, desc_first: B.desc }
+    B.rows.forEach((r, k) => { vals[`r${k + 1}t`] = r[0]; vals[`r${k + 1}n`] = r[1] })
+    return tmpl.replace(/\{\{(\w+)\}\}/g, (m, k) => xml(vals[k] ?? '')).replace(/<rect class="(?:fl|ol|pa)"( x="[\d.]+" y="[\d.]+" width="8\.0" height="18")\/>/g, (m, rest) => {
         const s = strikes[i++]
         return `<rect class="${!s || s.start > t ? 'ol' : s.end < t ? 'pa' : 'fl'}"${rest}/>`
     })
@@ -34,5 +39,5 @@ export function chart(tmpl, strikes, now, words) {
 export function api(ctx) {
     const dir = path.join(ctx.ROOT, 'assets/article/tube-strikes-2026')
     const data = JSON.parse(fs.readFileSync(path.join(dir, 'strikes.json'), 'utf8')), strikes = data.strikes
-    return [{ path: 'api/v1/charts/tube-strikes-2026.svg', schema: null, data: chart(fs.readFileSync(path.join(dir, 'chart.tmpl'), 'utf8'), strikes, new Date(), data.words) }]
+    return [{ path: 'api/v1/charts/tube-strikes-2026.svg', schema: null, data: chart(fs.readFileSync(path.join(dir, 'chart.tmpl'), 'utf8'), strikes, new Date(), data.words, data.by_line) }]
 }

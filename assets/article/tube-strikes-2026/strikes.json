@@ -112,5 +112,53 @@
   "first_ended": "The first ({first}) has ended; the next is {next}.",
   "some_ended": "{done} have ended; the next is {next}.",
   "all_ended": "All {all} have ended."
+ },
+ "by_line": {
+  "before": {
+   "head": "Strike 1 by line: Thu 26 Nov",
+   "note": "",
+   "rows": [
+    [
+     "Circle and Piccadilly",
+     "No service all day"
+    ],
+    [
+     "Waterloo & City",
+     "No service after 12:00"
+    ],
+    [
+     "All other Tube lines",
+     "Disruption from about 12:00"
+    ],
+    [
+     "Elizabeth line, DLR, Overground, buses, trams",
+     "Expected to run, possibly busier"
+    ]
+   ],
+   "desc": "On the first strike there is no service on the Circle and Piccadilly lines all day, none on Waterloo and City after 12:00, disruption on all other Tube lines from about 12:00, and the Elizabeth line, DLR, Overground, buses and trams are expected to run."
+  },
+  "after": {
+   "head": "The first strike, as TfL planned it",
+   "note": "(TfL, 23 November; not a record of what happened)",
+   "rows": [
+    [
+     "Circle and Piccadilly lines",
+     "TfL planned no service all day on 26 November"
+    ],
+    [
+     "Waterloo & City line",
+     "TfL planned no service after 12:00"
+    ],
+    [
+     "All other Underground lines",
+     "TfL planned disruption from about 12:00"
+    ],
+    [
+     "Elizabeth line, DLR, Overground, buses, trams",
+     "TfL expected them to run, possibly busier than usual"
+    ]
+   ],
+   "desc": "As TfL planned the first strike (not a record of what happened): no service on the Circle and Piccadilly lines all day, none on Waterloo and City after 12:00, disruption on all other Underground lines from about 12:00, and the Elizabeth line, DLR, Overground, buses and trams expected to run, possibly busier than usual."
+  }
  }
 }
