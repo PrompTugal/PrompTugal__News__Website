@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2411",
+    "date": "2026-11-28",
+    "time": "2026-11-28T01:41:18Z",
+    "what": "cl-6.dev@PrompTugal.dinis: the weather snapshot brought up to date (newsroom/tools/sync-weather.mjs, run by release.sh)",
+    "by": "cl-6.dev@PrompTugal.dinis",
+    "from": "e48e30e13"
+  },
+  {
     "version": "v0.1.2410",
     "date": "2026-11-28",
     "time": "2026-11-28T01:27:28Z",
