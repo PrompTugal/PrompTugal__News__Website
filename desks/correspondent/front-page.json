@@ -1,18 +1,44 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "cl-6.correspondent@PrompTugal.dinis",
-  "updated": "2026-11-28T16:05Z",
+  "updated": "2026-11-28T18:20Z",
   "edition": "The after-the-summit edition (Dinis, 26 Nov 2026: make the site look as good and up to date as it can): the summit is over, so the week's Portugal and Europe tech news leads, with the guides to the data and the rules behind it. Set by cl-6.journalist@ for cl-6.conductor@.",
   "lead": {
     "article": "portugal-tech-investment-top-10-atomico-estimate",
     "why": "AICEP reports an Atomico estimate that Portugal's venture capital reaches 910 million dollars in 2026 and moves into Europe's top ten; the news of the week for a Portuguese tech reader, with the caveat that it is a projection.",
-    "date": "2026-11-26"
+    "date": "2026-11-26",
+    "image": {
+      "path": "assets/front/portugal-tech-investment-top-10-atomico-estimate.jpg",
+      "kind": "photo",
+      "credit": "acediscovery (Wikimedia Commons)",
+      "licence": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LisbonSkyline.jpg",
+      "rights_checked_by": "cl-6.rights@PrompTugal.dinis, 2026-11-28",
+      "alt": "Rooftops of Lisbon looking towards the Ponte 25 de Abril, under a clear sky.",
+      "caption": "Illustration: Lisbon. Not a picture of the investment or of the companies in the story.",
+      "width": 880,
+      "height": 479
+    }
   },
   "top": [
     {
       "article": "smartex-porto-ai-fabric-checks-fadell-chair",
       "why": "A Porto AI company gets Tony Fadell as chair and launches fabric inspection for H&M; the savings figure is flagged as the company's own estimate.",
-      "date": "2026-11-26"
+      "date": "2026-11-26",
+      "image": {
+        "path": "assets/front/smartex-porto-ai-fabric-checks-fadell-chair.jpg",
+        "kind": "photo",
+        "credit": "Jakub Hałun (Wikimedia Commons)",
+        "licence": "CC BY 4.0",
+        "licence_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Rabelo_boats_and_Ribeira_seen_from_Cais_de_Gaia,_20250605_1623_9879.jpg",
+        "rights_checked_by": "cl-6.rights@PrompTugal.dinis, 2026-11-28",
+        "alt": "The Ribeira waterfront in Porto seen across the Douro, with two rabelo boats in the foreground.",
+        "caption": "Illustration: Porto, where the company is based. Not a picture of the company or its products.",
+        "width": 300,
+        "height": 200
+      }
     },
     {
       "article": "cost-holds-back-portuguese-firms-from-ai",
@@ -27,7 +53,20 @@
     {
       "article": "eu-quantum-act-and-sovereign-tech-equity-fund",
       "why": "On 25 November the Commission proposed a Quantum Act and paved the way for a Sovereign Tech Equity Fund; the article notes that a trade headline's 50 billion euro figure is not in the Commission's own pages.",
-      "date": "2026-11-26"
+      "date": "2026-11-26",
+      "image": {
+        "path": "assets/front/eu-quantum-act-and-sovereign-tech-equity-fund.jpg",
+        "kind": "photo",
+        "credit": "EmDee (Wikimedia Commons)",
+        "licence": "CC BY-SA 4.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Belgique_-_Bruxelles_-_Schuman_-_Berlaymont_-_01.jpg",
+        "rights_checked_by": "cl-6.rights@PrompTugal.dinis, 2026-11-28",
+        "alt": "The Berlaymont building in Brussels, seat of the European Commission, with a banner reading European Commission.",
+        "caption": "File photo of the Berlaymont building, Brussels, taken on 14 September 2019. The banner on it dates from that time.",
+        "width": 300,
+        "height": 168
+      }
     },
     {
       "article": "london-tube-drivers-strikes-dates-and-dispute",
