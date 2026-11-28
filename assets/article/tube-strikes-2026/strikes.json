@@ -104,5 +104,13 @@
    "state": "running",
    "when": "expected to run, possibly busier"
   }
- ]
+ ],
+ "words": {
+  "under_way": "The first is under way.",
+  "other_under_way": "Strike {n} ({dates}) is under way; the next is {next}.",
+  "before": "The first is {first}.",
+  "first_ended": "The first ({first}) has ended; the next is {next}.",
+  "some_ended": "{done} have ended; the next is {next}.",
+  "all_ended": "All {all} have ended."
+ }
 }
