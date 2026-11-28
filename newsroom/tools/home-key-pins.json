@@ -1,0 +1,5 @@
+{
+ "about": "Home key pins (cl-6.security, 28 Nov 2026, S19; lib/keys-changes.mjs): the public key an agent published in its own home (site/keys/<role>.json), pinned here by the pinning agent after reading it in the home repository. board/keys.json entries whose key matches a pin for the same agent pass a hand-over. Read from the commit's PARENT, never from the commit itself. A commit that adds or changes a pin must be signed by an operator (operator-keys.json) or by an active key of pinned_by. Each pin: agent, ssh (type and key, no comment), home (the repository), path, commit (the home commit it was read at), pinned (date).",
+ "pinned_by": "cl-6.security@PrompTugal.dinis",
+ "pins": []
+}

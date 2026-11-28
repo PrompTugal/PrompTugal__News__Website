@@ -84,6 +84,69 @@ t('a missing baseline is reported, not passed', checkKeyChanges({ root: tmp, bas
     prev = c2; commit([...keys, OPK, FAKE, { ...V, status: 'active' }, { ...OPK, status: 'superseded' }], KO, 'the operator key itself is retired by its own signature')
     t('an operator, active in the parent, may retire its own key', checkKeyChanges({ root: tmp, baseline: c2, operators: [fp(KO)] }).length, 0)
 }
+// home key pins (cl-6.security, 28 Nov 2026, S19): a key pinned from the agent's own home passes a hand-over; the pins are read from the parent, and a new pin is itself judged
+{
+    const H = key('h'), H2 = key('h2'), SEC = key('sec'), S1 = key('s1'), S2 = key('s2'), S3 = key('s3')
+    const pinsFile = (by, pins) => { fs.mkdirSync(path.join(tmp, 'newsroom/tools'), { recursive: true }); fs.writeFileSync(path.join(tmp, 'newsroom/tools/home-key-pins.json'), JSON.stringify({ pinned_by: by, pins }, null, 1) + '\n') }
+    const pin = (agent, k) => ({ agent, ssh: k.pub, home: 'x/y', path: 'site/keys/z.json', commit: 'c'.repeat(40) })
+    const base = [E('sec-1', 'sec@x', SEC), E('h-1', 'h@x', H)]
+    pinsFile('sec@x', []); const b0 = commit(base, null, 'base'); prev = b0
+    const go = (keys, k, msg) => { const c = commit(keys, k, msg); const got = checkKeyChanges({ root: tmp, baseline: prev }); prev = c; return got }
+    const retired = { ...base[1], status: 'superseded', superseded_in: 'q' }
+    // 1. a self-signed hand-over with no home match is reported
+    let r = go([...base.slice(0, 1), retired, E('h-2', 'h@x', H2)], H2, 'no pin')
+    t('unpinned', r.some(x => /h-1 changed in the commit that adds a key for h@x \(hand-over/.test(x)) && r.some(x => /h-2 added for h@x, which already has an active key/.test(x)), true)
+    // reset to the baseline state for the next cases
+    run(['reset', '-q', '--hard', b0]); prev = b0
+    // 2. a home match passes (the pin is made first, by the pinning agent's key, then the hand-over)
+    pinsFile('sec@x', [pin('h@x', H2)]); r = go(base, SEC, 'pin')
+    t('pin by pinner ok', r, [])
+    r = go([...base.slice(0, 1), retired, E('h-2', 'h@x', H2)], H2, 'pinned hand-over')
+    t('pinned ok', r, [])
+    // 3. a pin changed in the same push does not count
+    run(['reset', '-q', '--hard', b0]); prev = b0; pinsFile('sec@x', [])
+    pinsFile('sec@x', [pin('h@x', H2)])
+    r = go([...base.slice(0, 1), retired, E('h-2', 'h@x', H2)], H2, 'same-push pin')
+    t('same-push pin', [r.some(x => /pins file had a pin added, changed or removed/.test(x)), r.some(x => /h-1 changed in the commit that adds a key/.test(x))], [true, true])
+    // 4. a pin for another agent's key does not vouch (the pin names its agent)
+    run(['reset', '-q', '--hard', b0]); prev = b0; pinsFile('sec@x', [pin('other@x', H2)]); go(base, SEC, 'pin for another')
+    r = go([...base.slice(0, 1), retired, E('h-2', 'h@x', H2)], H2, 'wrong-agent pin')
+    t('pin agent', r.some(x => /h-1 changed in the commit that adds a key/.test(x)), true)
+    // 5. a key added and the old one retired in one commit, signed by the old key, passes (as before)
+    run(['reset', '-q', '--hard', b0]); prev = b0
+    r = go([...base.slice(0, 1), retired, E('h-2', 'h@x', H2)], H, 'old key signs')
+    t('old key ok', r, [])
+    // pinned_by moved in one commit, then a pin by the new agent's key: both reported; a removal by a stranger; the file deleted
+    run(['reset', '-q', '--hard', b0]); prev = b0
+    pinsFile('sec@x', [pin('h@x', H2)]); go(base, SEC, 'pin'); const b1 = prev
+    pinsFile('h@x', [pin('h@x', H2)]); commit(base, SEC, 'by'); pinsFile('h@x', [pin('h@x', H2), pin('h@x', S1)]); commit(base, H, 'new pin')
+    r = checkKeyChanges({ root: tmp, baseline: b1 })
+    t('by then pin: both', r.filter(m => /changed its pinned_by/.test(m)).length, 2)
+    run(['reset', '-q', '--hard', b0]); prev = b0
+    pinsFile('sec@x', [pin('h@x', H2)]); go(base, SEC, 'pin')
+    pinsFile('sec@x', []); r = go(base, H, 'drop')
+    t('stranger removal', r.some(m => /had a pin added, changed or removed/.test(m)), true)
+    fs.rmSync(path.join(tmp, 'newsroom/tools/home-key-pins.json')); r = go(base, SEC, 'delete')
+    t('deleted', r.some(m => /was deleted/.test(m)), true)
+    // a reported pin does not vouch for the next commit's hand-over; delete then re-create is reported, and so is the hand-over after it
+    run(['reset', '-q', '--hard', b0]); prev = b0
+    pinsFile('sec@x', [pin('h@x', H2)]); commit(base, H, 'stranger pin')
+    commit([...base.slice(0, 1), retired, E('h-2', 'h@x', H2)], H2, 'hand-over')
+    r = checkKeyChanges({ root: tmp, baseline: b0 })
+    t('reported pin, then hand-over: both', [r.some(m => /pin added/.test(m)), r.some(m => /h-1 changed/.test(m))], [true, true])
+    run(['reset', '-q', '--hard', b0]); prev = b0
+    fs.rmSync(path.join(tmp, 'newsroom/tools/home-key-pins.json')); commit(base, SEC, 'del')
+    pinsFile('h@x', [pin('h@x', H2)]); commit(base, H, 'again')
+    commit([...base.slice(0, 1), retired, E('h-2', 'h@x', H2)], H2, 'hand-over')
+    r = checkKeyChanges({ root: tmp, baseline: b0 })
+    t('delete, re-create, hand-over: all three', [r.some(m => /was deleted/.test(m)), r.some(m => /re-created/.test(m)), r.some(m => /h-1 changed/.test(m))], [true, true, true])
+    // a stranger sets pinned_by to X (reported); the pinner then pins on top of it: the pinner does not move to X
+    run(['reset', '-q', '--hard', b0]); prev = b0
+    pinsFile('h@x', []); commit(base, H, 'stranger by'); pinsFile('h@x', [pin('h@x', S1)]); commit(base, SEC, 'pinner pin')
+    pinsFile('h@x', [pin('h@x', S1), pin('h@x', S2)]); commit(base, H, 'x pin')
+    r = checkKeyChanges({ root: tmp, baseline: b0 })
+    t('pinner not moved to X', r.filter(m => /changed its pinned_by/.test(m)).length, 3)
+}
 fs.rmSync(tmp, { recursive: true, force: true })
 if (bad) { console.error(`${bad} failed`); process.exit(1) }
 console.log('test_keys_changes: OK')
