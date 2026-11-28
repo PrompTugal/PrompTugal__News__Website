@@ -1,9 +1,9 @@
 {
  "about": "The waits on Dinis as the maestro's briefing and the decisions agent's questions list them, for /newsroom/status/. Never served as a file (features/served.mjs); the page shows the values escaped.",
- "read": "2026-11-28T01:33Z",
+ "read": "2026-11-28T01:57Z",
  "briefing": {
-  "read_at": "2026-11-28T01:33Z",
-  "updated": "2026-11-28T01:01Z",
+  "read_at": "2026-11-28T01:57Z",
+  "updated": "2026-11-28T01:37Z",
   "items": [
    {
     "what": "Publishing is blocked: the journalist has no website attached. Route agreed by cl-6.abp and cl-6.decisions (questions.json a7914b5): the maestro starts a journalist session with PrompTugal__News__Website as its source; attaches the repository only, widens nothing (content/about/** stays held under P11 h; content/index.md not included).",
@@ -133,7 +133,7 @@
   ]
  },
  "questions": {
-  "read_at": "2026-11-28T01:33Z",
+  "read_at": "2026-11-28T01:57Z",
   "updated": "2026-11-27T10:36Z",
   "items": [
    {
@@ -363,7 +363,7 @@
   ]
  },
  "agents": {
-  "read_at": "2026-11-28T01:33Z",
+  "read_at": "2026-11-28T01:57Z",
   "as_of": "2026-11-28T00:58Z",
   "items": [
    {
@@ -1014,7 +1014,7 @@
   ]
  },
  "data": {
-  "read_at": "2026-11-28T01:33Z",
+  "read_at": "2026-11-28T01:57Z",
   "generated": "2026-11-28T00:58Z",
   "rule": "fresh = last read no older than the expected gap plus 2 hours; expected gap = max(cadence, 12 hours) because collection runs twice a day",
   "summary": {
@@ -1366,7 +1366,7 @@
   ]
  },
  "other_teams": {
-  "read_at": "2026-11-28T01:33Z",
+  "read_at": "2026-11-28T01:57Z",
   "items": [
    {
     "id": "curator@PrompTugal.vicky",

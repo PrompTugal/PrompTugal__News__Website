@@ -2,9 +2,11 @@
 // markup: assets/newsroom/status.tmpl; values: assets/newsroom/status-snapshot.json (newsroom/tools/sync-status.mjs). Every value goes through cell() and esc(): never trusted.
 import fs from 'node:fs'
 import { esc } from './markdown.mjs'
-import { plain as cell, safeUrl } from './agent-text.mjs'
+import { plain, safeUrl } from './agent-text.mjs'
 import { cl6Section } from './newsroom-cl6.mjs'
 
+// an asterisk in a feed's text (a glob such as content/about/**) would open bold in the renderer, which has no backslash escape: the asterisk operator looks the same and is not markup
+const cell = s => plain(s).replace(/\*/g, '\u2217')
 const T = fs.readFileSync(new URL('../../../assets/newsroom/status.tmpl', import.meta.url), 'utf8')
 const item = n => (T.split(`<!-- item:${n} -->`)[1] || '').split('\n')[0]
 const put = (t, v) => t.replace(/\{\{([a-z_]+)\}\}/g, (m, k) => v[k] ?? '')
@@ -31,10 +33,13 @@ function agentsBlock(ctx, b, W, S) {
     let html = '', md = ''
     for (const [desk, xs] of [...by].sort((x, y) => y[1].filter(isBlocked).length - x[1].filter(isBlocked).length || x[0].localeCompare(y[0]))) {
         const sorted = [...xs].sort((p, q) => (isBlocked(q) ? 1 : 0) - (isBlocked(p) ? 1 : 0) || p.id.localeCompare(q.id)), nb = xs.filter(isBlocked).length
-        const rows = sorted.map(a => { const k = kindOf(a), url = a.repo && safeUrl(`https://github.com/${a.repo}`)
+        const rowsOf = list => list.map(a => { const k = kindOf(a), url = a.repo && safeUrl(`https://github.com/${a.repo}`)
             return put(item('row'), { ...head, kind: k, name: E(a.id), chip: put(item('chip'), { kind: k, label: esc(W[`s_${k}`]) }), last: a.last_at ? `${esc(when(a.last_at))}${a.last_what ? `<br>${E(a.last_what)}` : ''}` : NR,
                 next: a.next_wake ? (when(a.next_wake) ? esc(when(a.next_wake)) : E(a.next_wake)) : a.wake ? E(a.wake) : NR, blocked: a.blocked_on && isBlocked(a) ? E(a.blocked_on) : '', repo: url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${E(a.repo.replace(/^[^/]+\//, ''))}</a>` : NR }) }).join('')
-        html += put(item('desk'), { ...head, desk: E(desk), counts: esc(fill(W.counts, { n: xs.length, b: nb })), open: nb ? ' open' : '', rows })
+        const tbl = rs => put(item('tbl'), { ...head, rows: rs })
+        const blockedRows = sorted.filter(isBlocked), restRows = sorted.filter(a => !isBlocked(a))
+        const body = (blockedRows.length ? tbl(rowsOf(blockedRows)) : '') + (restRows.length ? put(item('more'), { label: esc(fill(W.more_agents, { n: restRows.length })), table: tbl(rowsOf(restRows)) }) : '')
+        html += put(item('desk'), { desk: E(desk), counts: esc(fill(W.counts, { n: xs.length, b: nb })), body })
         md += `### ${cell(desk)} (${fill(W.counts, { n: xs.length, b: nb })})\n\n` + sorted.map(a => `- ${cell(a.id)}: ${W[`s_${kindOf(a)}`]}${a.last_at ? `, ${when(a.last_at)}` : ''}${isBlocked(a) ? `, ${W.h_blocked.toLowerCase()}: ${cell(a.blocked_on)}` : ''}`).join('\n') + '\n\n'
     }
     return b.raw(html, md)
@@ -42,7 +47,10 @@ function agentsBlock(ctx, b, W, S) {
 
 export function statusMd(ctx, b = { raw: (h, m) => m }) {
     const W = ctx.readJSON('assets/newsroom/status-words.json'), S = rd(ctx, 'assets/newsroom/status-snapshot.json') || {}
-    const waits = (title, f) => `### ${title}\n\n${note(W, f)}\n\n${f && f.items.length ? f.items.map(x => waitItem(W, x)).join('\n') : W.none}\n`
+    // the first five waits as text; the rest closed under "n more" (cl-6.maestro: the page was 35 000 px on a phone)
+    const waitHtml = x => put(item('wait'), { what: E(x.what), rest: [x.urgency && `<br>${esc(W.urgency)}: ${E(x.urgency)}`, x.by && `<br>${esc(W.by)}: ${E(x.by)}${x.since ? `, ${esc(W.since)} ${E(x.since)}` : ''}`, x.line && `<br>${esc(W.line)}: ${E(x.line)}`].filter(Boolean).join('') })
+    const waits = (title, f) => { const xs = f && f.items.length ? f.items : [], head = xs.slice(0, 5), rest = xs.slice(5)
+        return `### ${title}\n\n${note(W, f)}\n\n${xs.length ? head.map(x => waitItem(W, x)).join('\n') : W.none}\n` + (rest.length ? b.raw(put(item('more'), { label: esc(fill(W.more_waits, { n: rest.length })), table: put(item('waits'), { items: rest.map(waitHtml).join('') }) }), rest.map(x => waitItem(W, x)).join('\n')) : '') }
     const built = new Date().toISOString().slice(0, 13).replace('T', ' ') + ':00 UTC'
     const line = fill(W.built, { built, agents: S.agents ? hour(S.agents.read_at) || cell(S.agents.read_at) : W.not_read_short, data: S.data ? hour(S.data.read_at) || cell(S.data.read_at) : W.not_read_short })
     const D = S.data && Array.isArray(S.data.datasets) ? S.data : null
@@ -56,7 +64,7 @@ export function statusMd(ctx, b = { raw: (h, m) => m }) {
         const summary = Object.entries(D.summary || {}).map(([k, v]) => `${v} ${cell(k)}`).join(', ')
         const blockers = D.blockers && D.blockers.length ? `\n\n### ${W.blockers_title}\n\n${D.blockers.map(x => `- ${cell(x.what)}${x.needs ? ` (${cell(x.needs)})` : ''}`).join('\n')}` : ''
         dataBlock = `${W.data_about}\n\n${D.rule ? `${W.rule_label} ${cell(D.rule)}\n\n` : ''}${summary ? `${fill(W.data_summary, { text: summary })}\n\n` : ''}` +
-            b.raw(put(item('data'), { ...head, rows: drows.map(r => r.html).join('') }), drows.map(r => `- ${cell(r.d.title || r.d.id)}: ${W[`f_${r.d.freshness}`] || cell(r.d.freshness)}, ${when(r.d.last_refresh) || W.s_none}`).join('\n')) + blockers + `\n\n${W.live_view}`
+            b.raw((drows.some(r => r.bad) ? put(item('data'), { ...head, rows: drows.filter(r => r.bad).map(r => r.html).join('') }) : '') + (drows.some(r => !r.bad) ? put(item('more'), { label: esc(fill(W.more_data, { n: drows.filter(r => !r.bad).length })), table: put(item('data'), { ...head, rows: drows.filter(r => !r.bad).map(r => r.html).join('') }) }) : ''), drows.map(r => `- ${cell(r.d.title || r.d.id)}: ${W[`f_${r.d.freshness}`] || cell(r.d.freshness)}, ${when(r.d.last_refresh) || W.s_none}`).join('\n')) + blockers + `\n\n${W.live_view}`
     }
     const other = S.other_teams && S.other_teams.items.length ? `\n## ${W.other_title} {#other}\n\n${W.other_about}\n\n${S.other_teams.items.map(x => `- ${cell(x.id)}: ${when(x.last_at)}, ${cell(x.last_what)}`).join('\n')}\n` : ''
     return `${b.raw(put(item('built'), { text: esc(line) }), line)}\n\n${W.lede}\n\n## ${W.waits_title} {#waits}\n\n${W.waits_about}\n\n${waits(W.briefing_title, S.briefing)}\n${waits(W.questions_title, S.questions)}\n## ${W.agents_title} {#agents}\n\n${W.agents_about}\n\n${agentsBlock(ctx, b, W, S)}${other}\n## ${W.data_title} {#data}\n\n${dataBlock}\n`
