@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2424",
+    "date": "2026-11-28",
+    "time": "2026-11-28T08:08:21Z",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "d2252ad75"
+  },
+  {
     "version": "v0.1.2423",
     "date": "2026-11-28",
     "time": "2026-11-28T07:56:49Z",
