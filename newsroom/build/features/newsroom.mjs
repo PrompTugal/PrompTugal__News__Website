@@ -225,11 +225,32 @@ function agentPage(ctx, m, a) {
 }
 
 // ---------- the timeline ----------
+// the cl-6 team's today, week and month, from assets/newsroom/team-days.json (newsroom/tools/team-days.mjs); the words are assets/newsroom/timeline-words.json
+function teamViews(ctx, b) {
+    let T, W; try { T = ctx.readJSON('assets/newsroom/team-days.json'); W = ctx.readJSON('assets/newsroom/timeline-words.json') } catch { return '' }
+    const days = Object.keys(T.days).sort(); if (!days.length) return ''
+    const latest = days.at(-1), fill = (t, v) => t.replace(/\{(\w+)\}/g, (_, k) => v[k] ?? '')
+    const team = day => Object.entries(T.days[day] || {}).filter(([a]) => a.startsWith('cl-6.')).sort(([a], [x]) => a.localeCompare(x))
+    const at = (day, t) => new Date(`${day}T${t}:00Z`)
+    const lanes = team(latest).map(([a, ts]) => ({ id: a, label: a.replace(/@.*/, ''), sub: `${ts.length} commit${ts.length === 1 ? '' : 's'}`, kind: 'builder', events: ts.map(t => ({ t: at(latest, t), type: 'commit', title: `${a.replace(/@.*/, '')} at ${t} UTC` })), span: [at(latest, ts[0]), at(latest, ts.at(-1))], running: false }))
+    const ci = (T.days[latest] || {}).ci; if (ci) lanes.push({ id: 'ci', label: W.ci, sub: W.ci_sub, kind: 'ci', events: ci.map(t => ({ t: at(latest, t), type: 'release', title: `a release at ${t} UTC` })), span: null, running: false })
+    const from = Date.parse(`${latest}T00:00:00Z`), all = lanes.filter(l => l.kind !== 'ci')
+    const today = lanes.length ? b.raw(d.figure({ svg: d.swimlanes(lanes, { from, to: from + 864e5, title: `${d.dayLabel(latest)}: the cl-6 team, by agent`, axis: fill(W.today_axis, { day: d.dayLabel(latest), year: latest.slice(0, 4) }) }), minWidth: 760 }),
+        `${fill(W.today_note, { runs: all.reduce((s, l) => s + l.events.length, 0), agents: all.length, from: lanes.length ? d.hm(Math.min(...all.map(l => +l.span[0]))) : '', to: d.hm(Math.max(...all.map(l => +l.span[1]))) })}\n`) : W.none
+    const grid = n => {
+        const win = days.slice(-n), rows = [...new Set(win.flatMap(day => team(day).map(([a]) => a)))].map(a => ({ label: a.replace(/@.*/, ''), full: a, counts: win.map(day => ((T.days[day] || {})[a] || []).length) })).sort((x, y) => y.counts.reduce((s, v) => s + v, 0) - x.counts.reduce((s, v) => s + v, 0))
+        return rows.length ? b.raw(d.figure({ svg: d.heatgrid(rows, win.map(day => ({ label: String(+day.slice(8)), sub: d.dayLabel(day).slice(0, 3), full: d.dayLabel(day) })), { title: `${n === 7 ? W.h_week : W.h_month}: the cl-6 team, commits per agent per day (UTC)`, axis: W.grid_axis }), minWidth: n > 7 ? 760 : 640 }),
+            rows.map(r => `- ${r.label}: ${r.counts.reduce((s, v) => s + v, 0)} commits`).join('\n') + '\n') : W.none
+    }
+    return `## ${W.h_team} {#team}\n\n${W.intro}\n\n${W.views} [${W.h_today}](#today) · [${W.h_week}](#week) · [${W.h_month}](#month) · [${W.h_old}](#old)\n\n### ${W.h_today} {#today}\n\n${today}\n\n### ${W.h_week} {#week}\n\n${grid(7)}\n\n### ${W.h_month} {#month}\n\n${grid(30)}\n\n## ${W.h_old} {#old}\n\n`
+}
+
 function timelinePage(ctx, m) {
     const b = builder('newsroom/timeline/index.html')
     const days = [...new Set([...m.runs.map(r => d.dayOf(r.when))])].sort().reverse()
     const latest = days[0]
     let md = tabs(b, ctx) + `The sequence of events across all agents, one lane per agent, time running left to right (UTC). A bar is an agent at work, from its first event of the day to its last; where two bars overlap, two agents worked in parallel. Circles are commits here, squares are runs a desk reported on the team's site, diamonds are releases, a hollow ring is an agent fired up. A running builder's bar runs on to the right edge. Every mark is a link to its run.\n\n`
+    md += teamViews(ctx, b)
     for (const day of days) {
         const runs = m.runs.filter(r => d.dayOf(r.when) === day)
         const starts = m.agents.filter(a => a.started && a.started.length > 10 && d.dayOf(a.started) === day).map(a => d.ms(a.started))
@@ -241,7 +262,7 @@ function timelinePage(ctx, m) {
         const seq = runs.slice().reverse().map(r => `${d.hm(r.when)}  ${r.kind === 'release' ? '*' : r.source === 'desk-report' ? '#' : 'o'}  ${(r.kind === 'release' ? r.release : d.short(r.by).replace(/@.*/, '')).padEnd(14)} ${r.what}`.slice(0, d.W))
         const fired = m.agents.filter(a => a.started && a.started.length > 10 && d.dayOf(a.started) === day)
         md += `## ${d.dayLabel(day)} {#d-${day}}\n\n` +
-            b.raw(d.figure({ svg: d.swimlanes(lanes, { ...win, title: `${d.dayLabel(day)}: who did what, by agent` }), minWidth: 760, caption: `${d.markLegend()}` }),
+            b.raw(d.figure({ svg: d.swimlanes(lanes, { ...win, title: `${d.dayLabel(day)}: who did what, by agent`, axis: `${d.dayLabel(day)} ${day.slice(0, 4)}, times in UTC` }), minWidth: 760, caption: `${d.markLegend()}` }),
                 fence(seq.join('\n'))) +
             `${runs.length} runs by ${lanes.filter(l => l.kind !== 'ci').length} agents${runs.some(r => r.kind === 'release') ? `, ${runs.filter(r => r.kind === 'release').length} releases` : ''}, from ${d.hm(runs.at(-1).when)} to ${d.hm(runs[0].when)}.` +
             (fired.length ? ` Fired up this day: ${fired.map(a => `[${d.short(a.name)}](${ctx.link(b.rel, agentRel(a))}) at ${d.hm(a.started)}`).join(', ')}.` : '') + '\n\n' +

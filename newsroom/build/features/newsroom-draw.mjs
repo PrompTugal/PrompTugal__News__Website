@@ -128,7 +128,7 @@ export function hourBars(events, { title, w = 1000, h = 220 } = {}) {
 
 // swim lanes: lanes [{ label, sub, kind, href, events: [{ t, type: commit|merge|desk|release|start, title, href }],
 // span: [t0, t1] | null, running }], over [from, to]; one lane per agent, time left to right
-export function swimlanes(lanes, { from, to, title, w = 1000, nowLabel } = {}) {
+export function swimlanes(lanes, { from, to, title, w = 1000, nowLabel, axis = '' } = {}) {
     const L = 190, R = 78, top = 30, lh = 34, h = top + lanes.length * lh + 26, area = w - L - R
     const x = t => L + (ms(t) - from) / Math.max(1, to - from) * area
     const span = to - from, step = [5, 10, 15, 30, 60, 120, 180, 360].map(m => m * 6e4).find(s => span / s <= 9) || 7.2e6
@@ -156,7 +156,7 @@ export function swimlanes(lanes, { from, to, title, w = 1000, nowLabel } = {}) {
             out += e.href ? `<a href="${esc(e.href)}">${mark}</a>` : mark
         }
     })
-    return out + '</svg>'
+    return out + (axis ? `<text class="sub axis" x="${L}" y="${h - 6}">${esc(axis)}</text>` : '') + '</svg>'
 }
 export const markLegend = () => `<span class="adm-legend"><span><svg viewBox="0 0 14 14" class="key"><circle class="mk k-builder" cx="7" cy="7" r="5"/></svg>a commit here</span><span><svg viewBox="0 0 14 14" class="key"><rect class="mk k-desk" x="2" y="2" width="10" height="10" rx="1"/></svg>a run reported on the team's site</span><span><svg viewBox="0 0 14 14" class="key"><path class="mk k-ci" d="M7 1l6 6-6 6-6-6z"/></svg>a release by CI</span><span><svg viewBox="0 0 14 14" class="key"><circle class="mk start" cx="7" cy="7" r="5"/></svg>fired up</span><span><svg viewBox="0 0 22 14" class="key wide"><rect class="span k-builder" x="1" y="4" width="20" height="6" rx="3"/></svg>at work (first to last)</span></span>`
 
@@ -172,4 +172,18 @@ export function scheduleStrip(phases, { title, w = 760 } = {}) {
         for (const t of p.times) { const [a, b] = t.split(':').map(Number), xx = x(a + b / 60); out += `<rect class="bar" x="${(xx - 3).toFixed(1)}" y="${y + 12}" width="6" height="16" rx="2"><title>${esc(`${p.label}: a run at ${t} UTC`)}</title></rect>` }
     })
     return out + '</svg>'
+}
+
+// a heat grid for the team's week or month: rows [{ label, counts: [n per day] }], cols [{ label, sub }] (the days, oldest first), one cell per agent per day, the count in it
+export function heatgrid(rows, cols, { title, axis = '' } = {}) {
+    const L = 190, top = 40, lh = 22, cw = Math.max(18, Math.min(52, Math.floor(700 / Math.max(1, cols.length)))), w = L + cols.length * cw + 12, h = top + rows.length * lh + 26
+    const mx = Math.max(1, ...rows.flatMap(r => r.counts)), lv = n => n === 0 ? 0 : n <= mx / 8 ? 1 : n <= mx / 3 ? 2 : 3
+    let out = svgOpen(w, h, title)
+    cols.forEach((c, i) => { const x = L + i * cw + cw / 2; out += `<text class="tick" x="${x}" y="${top - 18}" text-anchor="middle">${esc(c.label)}</text><text class="tick" x="${x}" y="${top - 6}" text-anchor="middle">${esc(c.sub || '')}</text>` })
+    rows.forEach((r, j) => {
+        const y = top + j * lh
+        out += `<text class="lab" x="${L - 10}" y="${y + 15}" text-anchor="end">${esc(fit(r.label, 26))}</text>`
+        r.counts.forEach((n, i) => { out += `<rect class="hg hg${lv(n)}" x="${L + i * cw + 1}" y="${y + 1}" width="${cw - 2}" height="${lh - 2}" rx="2"><title>${esc(`${r.label}, ${cols[i].full || cols[i].label}: ${n} commit${n === 1 ? '' : 's'}`)}</title></rect>`; if (n && cw >= 24) out += `<text class="val${lv(n) === 3 ? ' hi' : ''}" x="${L + i * cw + cw / 2}" y="${y + 15}" text-anchor="middle">${n}</text>` })
+    })
+    return out + (axis ? `<text class="sub axis" x="${L}" y="${h - 6}">${esc(axis)}</text>` : '') + '</svg>'
 }

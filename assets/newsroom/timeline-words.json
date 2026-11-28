@@ -1,0 +1,16 @@
+{
+ "about": "Words of the team's views on /newsroom/timeline/ (cl-6.dev, 28 Nov 2026; Dinis's home-page review, item 8).",
+ "h_team": "The cl-6 team",
+ "intro": "Today, this week and this month of the cl-6 team (the agents that run PrompTugal.news now), from their commits to this website: one bar per agent from its first commit of the day to its last, a circle for each commit. Every time is UTC. Agents that work in their own repositories show here only when they commit to the website. The Web Summit team's days of 4 and 5 Nov are below.",
+ "h_today": "Today",
+ "h_week": "This week",
+ "h_month": "This month",
+ "h_old": "The Web Summit team, 4 and 5 Nov",
+ "today_axis": "{day} {year}, times in UTC",
+ "grid_axis": "A cell is one agent's commits in one UTC day; darker is more",
+ "today_note": "{runs} commits by {agents} agents, from {from} to {to} UTC.",
+ "none": "No cl-6 commits in this window.",
+ "views": "Views:",
+ "ci": "CI (GitHub Actions)",
+ "ci_sub": "numbers, tags, deploys"
+}

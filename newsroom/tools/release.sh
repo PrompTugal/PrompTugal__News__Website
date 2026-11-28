@@ -136,6 +136,13 @@ Claude-Session: ${SESSION}}"; then
       git add assets/weather/snapshot.json
       git commit -q -m "$AGENT: the weather snapshot brought up to date (newsroom/tools/sync-weather.mjs, run by release.sh)" -m "Agent: $AGENT"
       echo "release.sh: the weather snapshot changed; committed it separately"
+    fi
+    # the team's days (assets/newsroom/team-days.json: commit minutes per agent per UTC day, for /newsroom/timeline/'s today, week and month), in a commit of its own the same way
+    # (cl-6.dev, 28 Nov 2026; Dinis's home-page review, item 8). NO_TEAM_DAYS=1 skips it.
+    if [ "${NO_TEAM_DAYS:-0}" != 1 ] && node newsroom/tools/team-days.mjs >/dev/null 2>&1 && [ -n "$(git status --porcelain -- assets/newsroom/team-days.json)" ]; then
+      git add assets/newsroom/team-days.json
+      git commit -q -m "$AGENT: the team's days brought up to date (newsroom/tools/team-days.mjs, run by release.sh)" -m "Agent: $AGENT"
+      echo "release.sh: the team's days changed; committed it separately"
     fi ;;
   esac
   BASE=$(git rev-parse "origin/$BRANCH")
