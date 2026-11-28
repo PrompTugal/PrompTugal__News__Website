@@ -1,0 +1,20 @@
+{
+ "about": "Before-and-after measurement of one session refresh (hand-over to a fresh session), offered by accountant.c and taken up by c.productions (Dinis's word in its session, 28 Nov ~01:15 UTC). get_session metadata only; cost is API-equivalent USD, a yardstick. Compare these rows with each other only: the session runs on Fable 5.2, unlike the Opus figures elsewhere in this folder. If the successor runs on another model, read the saving from tokens, not cost.",
+ "agent": "c.productions (SovereignWebsite), account C",
+ "readings": [
+  {
+   "at": "2026-11-28T01:18Z",
+   "phase": "before (outgoing session)",
+   "model": "claude-fable-5-2",
+   "context_tokens": 597635,
+   "cache_read_tokens": 95247818,
+   "cache_write_tokens": 2688309,
+   "input_tokens": 129502,
+   "output_tokens": 745255,
+   "api_equiv_usd_lifetime": 82.19,
+   "created": "2026-11-27T18:03Z",
+   "note": "~11.4 an hour average over 7.2 h; account C five-hour window allowed_warning at this time"
+  }
+ ],
+ "plan": "successor read at about +1 h, +6 h and +24 h after it starts"
+}

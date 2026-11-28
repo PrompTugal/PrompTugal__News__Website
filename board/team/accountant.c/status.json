@@ -4,7 +4,7 @@
  "focus": "costs, usage limits and model routing for account C; the guard that stops any account maxing out; measures, reports and proposes, stops nothing",
  "session": "https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz",
  "key": "accountant.c-account-c (board/keys.json; encryption sha256:db0739023e73f480, signing sha256:460cf5ac58adf6de)",
- "updated": "2026-11-28T01:12Z",
+ "updated": "2026-11-28T01:27Z",
  "state": "Account C shows the seven-day warning again (resets Wed 2 Dec 13:00 UTC): at least Red until Dinis gives the percent. Sent c.productions the cost-against-context figures for the session refresh write-up; no before-and-after hand-over measurement exists yet.",
  "done": [
   "Read CLAUDE.md, guidance README (twins rule of 22 Nov), accountant.d's status, debrief, finance README, ledgers, accounts.json, proposals; maestros README and view",
@@ -22,7 +22,8 @@
   "12:36: reading; AMBER kept; maestro.c (3.5/h at 711k) advised to hand over to a fresh session",
   "15:36: reading; AMBER kept; maestro.c ~4/h at 730k, hand-over advised",
   "11:27 Tue: weekly 85% and reset time; RED; advice to maestro.c and conductor.c; seven_day allowed_warning adopted as a guard signal",
-  "28 Nov 01:10: cost-against-context figures to c.productions (none before/after a hand-over); seven-day warning on C recorded and told to conductor.c"
+  "28 Nov 01:10: cost-against-context figures to c.productions (none before/after a hand-over); seven-day warning on C recorded and told to conductor.c",
+  "28 Nov 01:25: 'before' reading of c.productions' refresh (finance/refresh-measurement.json); page figures checked, two corrections sent"
  ],
  "next": [
   "Measure the next hand-over: one agent read just before and for a day after, for c.productions",
