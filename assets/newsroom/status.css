@@ -15,3 +15,8 @@
 .ns-dec h3 { margin: 0 0 6px; font: 600 16px/1.3 var(--sans); }
 .ns-dec p { margin: 0 0 8px; }
 .ns-dec ul { margin: 0; padding-inline-start: 18px; font: 14px/1.45 var(--sans); }
+.ns-top { display: grid; grid-template-columns: 1fr; gap: 0 32px; }
+.ns-rail ul { margin: 0 0 12px; padding-inline-start: 18px; }
+.ns-ptr { font: 13px var(--sans); color: var(--ink-3); margin: 10px 0 0; }
+.ns-fold { margin: 8px 0 16px; } .ns-fold > summary { cursor: pointer; font: 600 14px var(--sans); padding: 6px 0; }
+@media (min-width: 1100px) { .ns-top { grid-template-columns: minmax(0, 1fr) 280px; grid-template-areas: "main rail"; } .ns-main { grid-area: main; } .ns-rail { grid-area: rail; border-inline-start: 1px solid var(--hair); padding-inline-start: 24px; } }
