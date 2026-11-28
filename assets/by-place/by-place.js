@@ -53,7 +53,9 @@ BP_W.more = function (n) { var all = { en: 'Show all', pt: 'Ver todos', es: 'Ver
     })
 
     // 3. the local voice, only where the place's agent has written one; remembered in this browser only
-    if (!frame.querySelector('.bp-voice')) return
+    // paused (Dinis, 28 Nov: the button does not work yet): no switch is offered until it does; the voice text stays hidden. Set to true to bring it back.
+    var VOICE_OFFERED = false
+    if (!VOICE_OFFERED || !frame.querySelector('.bp-voice')) return
     var mast = frame.querySelector('.bp-mast')
     if (!mast) return
     var label = document.createElement('p'); label.className = 'bp-voice-label'

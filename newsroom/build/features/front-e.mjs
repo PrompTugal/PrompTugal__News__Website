@@ -197,6 +197,8 @@ function fillE(page, ctx) {
     // the first placed article as before. The places band keeps its own lead: the placed stories below start from the first placed article.
     const FP = (() => { try { return JSON.parse(fs.readFileSync(path.join(ctx.ROOT, 'desks/correspondent/front-page.json'), 'utf8')) } catch { return null } })()
     const pick = FP?.lead?.article && fo.find(a => slugOf(a) === FP.lead.article), theLead = pick || all[0]
+    // the middle column is the national view (Dinis, 28 Nov): the correspondent's front-page.json 'top', in its order, after the lead; the Algarve's own stories are the Algarve pages' (and the places band's). Without a 'top', the placed stories as before.
+    const bySlug = new Map(fo.map(a => [slugOf(a), a])), topList = (FP && Array.isArray(FP.top) ? FP.top : []).map(t => t && bySlug.get(t.article)).filter(a => a && a !== theLead).slice(0, 8)
     const { L: PL, rows: PR } = placesOf(ctx, all)
     // the Algarve's grid beside the map: the towns with the newest news first, capped so the two columns balance, then a link to all of them
     const algTowns = PR.filter(r => r.p.parent === 'algarve' || r.p.parent === 'loule').sort((x, y) => (y.newest || '').localeCompare(x.newest || '') || (y.news + y.map) - (x.news + x.map) || x.p.name.localeCompare(y.p.name))
@@ -237,7 +239,7 @@ function fillE(page, ctx) {
             newest: r.a ? put(item('pnew'), { href: r.a.rel, date: nice(ctx, r.a.meta.date), title: esc(cut(r.a.meta.title, 80)) }) : r.n && r.n.title ? put(item('pnew'), { href: r.p.path + 'index.html#local', date: nice(ctx, r.n.date || r.n.read_on), title: esc(cut(r.n.title, 80)) }) : '' }))),
         '#stats': many('stat', statsOf(ctx, PR, all).slice(0, 4)), '#stats_more': many('stat', statsOf(ctx, PR, all).slice(4)), nstats: String(statsOf(ctx, PR, all).length),
         '#briefing': many('brief', all.filter(a => !(a.meta.region || a.meta.town) && a !== theLead).slice(0, 8).map(a => ({ href: a.rel, title: esc(a.meta.title), beat: esc(beatOf(a)) + dt(ctx, dateOf(ctx, a)) }))),  // national and international (Dinis, 16 Nov): what has no place, in the correspondent's order
-        '#stories': placed.filter(a => a !== theLead).slice(pick && !placed.includes(pick) ? 0 : 1, pick && !placed.includes(pick) ? 8 : 9).map(story).join(''),
+        '#stories': (topList.length ? topList : placed.filter(a => a !== theLead).slice(pick && !placed.includes(pick) ? 0 : 1, pick && !placed.includes(pick) ? 8 : 9)).map(story).join(''), stories_h: topList.length ? 'Top stories' : 'From the Algarve',
         '#next': many('next', next.map(i => ({ href: `events/${i.id}/index.html`, date: i.date, end: endOf(i), when: esc(when(ctx, i)), what: esc(cut(i.what, 110)), where: esc(i.where || '') }))),
         '#radar': many('radar', fields.slice(0, 6).map(([t, n]) => ({ href: `topics/${t.id}/index.html`, name: esc(t.name), n, pct: Math.round(100 * n / max) }))),
         '#nums': many('num', [[PR.length, 'places, an agent each'], [PR.reduce((s, r) => s + r.news, 0), 'local AI stories, sourced'], [PR.reduce((s, r) => s + r.map, 0), 'AI builders mapped'], [signed, 'stories, signed']].map(([value, label]) => ({ value, label }))),
