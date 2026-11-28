@@ -3,15 +3,20 @@
 import fs from 'node:fs'
 import os from 'node:os'
 import path from 'node:path'
-import { fromBriefing, fromQuestions } from '../../tools/sync-status.mjs'
+import { fromBriefing, fromQuestions, clean } from '../../tools/sync-status.mjs'
 import { statusMd, when } from '../lib/newsroom-status.mjs'
 import { fromAgents, fromData, fromLog } from '../../tools/sync-status.mjs'
 let bad = 0
 const t = (what, got, want) => { if (JSON.stringify(got) !== JSON.stringify(want)) { bad++; console.error(`FAIL ${what}: ${JSON.stringify(got)}, want ${JSON.stringify(want)}`) } }
 const b = fromBriefing({ waiting_on_dinis: [{ id: 'a', what: 'say yes to jo@example.com or +351 912 345 678', urgency: 'now', where: 'https://claude.ai/code/session_x', line: '"yes"', extra: 'dropped' }, { id: 'm', what: 'pay $500 for it' }] })
-t('only the named fields, a contact scrubbed, a money item dropped, no session link kept', [b.length, Object.keys(b[0]).sort(), /@|912|claude\.ai/.test(JSON.stringify(b))], [1, ['id', 'line', 'urgency', 'what'], false])
+t('only the named fields, a contact scrubbed, a money item dropped, no session link kept', [b.length, Object.keys(b[0]).sort(), /@|912|claude\.ai/.test(JSON.stringify(b))], [1, ['line', 'urgency', 'what'], false])
 const q = fromQuestions({ questions: [{ id: 'q1', question: 'a', status: 'open', since: '2026-11-28T01:00Z', asked_by: 'x' }, { id: 'q2', question: 'b', status: 'answered' }, { id: 'q3', question: 'c', status: 'closed' }] })
-t('answered and closed questions are left out; since is a day', [q.map(x => x.id), q[0].since], [['q1'], '2026-11-28'])
+t('answered and closed questions are left out; since is a day', [q.map(x => x.what), q[0].since], [['a'], '2026-11-28'])
+// ids that must not be published: a session, a scheduled task, a claude.ai link, a request id that names a person (cl-6.security, 28 Nov)
+const c = fromBriefing({ waiting_on_dinis: [{ id: 'x', what: 'in session_016CrbJLv54Kh4CSTzagW2G3, task trig_0132oarAUsN5cwmgTAbj3GGk, see https://claude.ai/code/session_016CrbJJe27HT4pDaUAkSFEi and request 2026-11-27__a-oliveira-cruz', line: 'run trig_0132oarAUsN5cwmgTAbj3GGk' }] })
+t('no session id, task id, session link or request id in what or line', [/session_0|trig_0|claude\.ai|oliveira/i.test(JSON.stringify(c)), c[0].what.includes('(a session)'), c[0].what.includes('(a request)'), c[0].line], [false, true, true, 'run (a scheduled task)'])
+t('no id field is kept on a wait', Object.keys(c[0]).includes('id'), false)
+t('clean() on its own', clean('a session_abcdef1234 b'), 'a (a session) b')
 // rendering: hostile text stays text
 const root = fs.mkdtempSync(path.join(os.tmpdir(), 'status-')); fs.mkdirSync(path.join(root, 'assets/newsroom'), { recursive: true })
 const w = JSON.parse(fs.readFileSync(new URL('../../../assets/newsroom/status-words.json', import.meta.url), 'utf8'))

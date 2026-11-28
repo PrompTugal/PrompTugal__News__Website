@@ -49,5 +49,6 @@
  "f_late": "late",
  "f_stale": "stale",
  "f_source problem": "source problem",
- "f_archive (no schedule)": "archive"
+ "f_archive (no schedule)": "archive",
+ "rule_label": "Rule as stated by the data agent:"
 }

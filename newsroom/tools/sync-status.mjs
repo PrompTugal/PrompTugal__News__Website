@@ -7,7 +7,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { execFileSync } from 'node:child_process'
-import { cut, noMoney } from '../build/lib/agent-text.mjs'
+import { cut as cut0, noMoney } from '../build/lib/agent-text.mjs'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..'), OUT = path.join(ROOT, 'assets/newsroom/status-snapshot.json')
 const RAW = 'https://raw.githubusercontent.com/', F = 'site/factory/dinis-cruz/account-f/'
@@ -17,11 +17,14 @@ export const FEEDS = {
     agents: `${RAW}SovereignWebsite/Site__Agent__Observability/dev/${F}promptugal-agents.json`,
     data: `${RAW}PrompTugal/PrompTugal__Agent__Data/dev/${F}data-status.json`,
 }
+// what the page may publish (cl-6.security, 28 Nov): no session or scheduled-task id, no claude.ai session link, and no request id that carries a person's name (YYYY-MM-DD__name): they become plain words
+export const clean = s => String(s ?? '').replace(/https?:\/\/claude\.ai\/code\/\S*/gi, '(a session)').replace(/\bsession_[A-Za-z0-9]{6,}/g, '(a session)').replace(/\btrig_[A-Za-z0-9]{6,}/g, '(a scheduled task)').replace(/\b\d{4}-\d\d-\d\d__[A-Za-z0-9._-]+/g, '(a request)')
+const cut = (s, n) => cut0(clean(s), n)
 const get = async u => { try { const r = await fetch(u, { signal: AbortSignal.timeout(30000) }); return r.ok ? await r.json() : null } catch { return null } }
 const day = s => /^\d{4}-\d\d-\d\d/.test(String(s || '')) ? String(s).slice(0, 10) : ''
 // the shapes, kept apart so a test can feed them without the network
-export const fromBriefing = j => noMoney((j && Array.isArray(j.waiting_on_dinis) ? j.waiting_on_dinis : []).map(x => ({ id: cut(x.id, 60), what: cut(x.what, 420), urgency: cut(x.urgency, 80), line: cut(x.line, 240) })))
-export const fromQuestions = j => noMoney((j && Array.isArray(j.questions) ? j.questions : []).filter(x => !/^(answered|closed|done|withdrawn)/i.test(String(x.status || ''))).map(x => ({ id: cut(x.id, 60), what: cut(x.question, 420), urgency: cut(x.urgency, 80), by: cut(x.asked_by, 80), since: day(x.since), line: cut(x.line_to_paste, 240), status: cut(x.status, 40) })))
+export const fromBriefing = j => noMoney((j && Array.isArray(j.waiting_on_dinis) ? j.waiting_on_dinis : []).map(x => ({ what: cut(x.what, 420), urgency: cut(x.urgency, 80), line: cut(x.line, 240) })))
+export const fromQuestions = j => noMoney((j && Array.isArray(j.questions) ? j.questions : []).filter(x => !/^(answered|closed|done|withdrawn)/i.test(String(x.status || ''))).map(x => ({ what: cut(x.question, 420), urgency: cut(x.urgency, 80), by: cut(x.asked_by, 80), since: day(x.since), line: cut(x.line_to_paste, 240), status: cut(x.status, 40) })))
 
 const num = v => Number.isFinite(+v) ? +v : null
 const repo = v => /^[A-Za-z0-9._-]+\/[A-Za-z0-9._-]+$/.test(String(v || '')) ? String(v) : ''

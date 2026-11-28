@@ -55,7 +55,7 @@ export function statusMd(ctx, b = { raw: (h, m) => m }) {
         const head = Object.fromEntries(['h_dataset', 'h_owner', 'h_refresh', 'h_source', 'h_rows', 'h_verdict'].map(k => [k, esc(W[k])]))
         const summary = Object.entries(D.summary || {}).map(([k, v]) => `${v} ${cell(k)}`).join(', ')
         const blockers = D.blockers && D.blockers.length ? `\n\n### ${W.blockers_title}\n\n${D.blockers.map(x => `- ${cell(x.what)}${x.needs ? ` (${cell(x.needs)})` : ''}`).join('\n')}` : ''
-        dataBlock = `${W.data_about}\n\n${D.rule ? `${cell(D.rule)}\n\n` : ''}${summary ? `${fill(W.data_summary, { text: summary })}\n\n` : ''}` +
+        dataBlock = `${W.data_about}\n\n${D.rule ? `${W.rule_label} ${cell(D.rule)}\n\n` : ''}${summary ? `${fill(W.data_summary, { text: summary })}\n\n` : ''}` +
             b.raw(put(item('data'), { ...head, rows: drows.map(r => r.html).join('') }), drows.map(r => `- ${cell(r.d.title || r.d.id)}: ${W[`f_${r.d.freshness}`] || cell(r.d.freshness)}, ${when(r.d.last_refresh) || W.s_none}`).join('\n')) + blockers + `\n\n${W.live_view}`
     }
     const other = S.other_teams && S.other_teams.items.length ? `\n## ${W.other_title} {#other}\n\n${W.other_about}\n\n${S.other_teams.items.map(x => `- ${cell(x.id)}: ${when(x.last_at)}, ${cell(x.last_what)}`).join('\n')}\n` : ''
