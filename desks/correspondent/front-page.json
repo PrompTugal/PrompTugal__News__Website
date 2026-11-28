@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "cl-6.correspondent@PrompTugal.dinis",
-  "updated": "2026-11-27T00:50Z",
+  "updated": "2026-11-28T16:05Z",
   "edition": "The after-the-summit edition (Dinis, 26 Nov 2026: make the site look as good and up to date as it can): the summit is over, so the week's Portugal and Europe tech news leads, with the guides to the data and the rules behind it. Set by cl-6.journalist@ for cl-6.conductor@.",
   "lead": {
     "article": "portugal-tech-investment-top-10-atomico-estimate",
@@ -514,5 +514,84 @@
     "for_date": "2026-11-27",
     "lead": null
   },
-  "date_fields": "Each lead, top and briefing item carries 'date' (the article's own date), for the home page and the app JSON; dev@ to confirm the names."
+  "date_fields": "Each lead, top and briefing item carries 'date' (the article's own date), for the home page and the app JSON; dev@ to confirm the names.",
+  "regions": {
+    "about": "Top stories per region for the home page's right-hand panel (Dinis, 28 Nov 2026): each region lists its newest or strongest signed stories, newest first, to be linked from the region's row. Topics beyond places (cyber, traffic, weather, social) are not listed here until their desks publish dated stories. Not yet read by the build: cl-6.dev to wire.",
+    "list": [
+      {
+        "id": "portugal",
+        "label": "Portugal",
+        "place": "portugal",
+        "stories": [
+          {
+            "article": "portugal-tech-investment-top-10-atomico-estimate",
+            "date": "2026-11-26"
+          },
+          {
+            "article": "smartex-porto-ai-fabric-checks-fadell-chair",
+            "date": "2026-11-26"
+          },
+          {
+            "article": "cost-holds-back-portuguese-firms-from-ai",
+            "date": "2026-11-26"
+          },
+          {
+            "article": "cocus-vila-nova-de-gaia-tech-hubs",
+            "date": "2026-11-26"
+          }
+        ]
+      },
+      {
+        "id": "algarve",
+        "label": "The Algarve",
+        "place": "algarve",
+        "stories": [
+          {
+            "article": "riskmandate-film-claude-laptop",
+            "date": "2026-11-16"
+          },
+          {
+            "article": "know-the-reach-ai-music-video",
+            "date": "2026-11-16"
+          },
+          {
+            "article": "portimao-ai-in-the-public-service",
+            "date": "2026-11-16"
+          }
+        ],
+        "note": "newest dated Algarve stories are 16 to 17 Nov: fresh local stories wait on the journalist's website access"
+      },
+      {
+        "id": "europe",
+        "label": "Europe",
+        "place": "europe",
+        "stories": [
+          {
+            "article": "europe-startup-funding-81-billion-atomico",
+            "date": "2026-11-26"
+          },
+          {
+            "article": "eu-quantum-act-and-sovereign-tech-equity-fund",
+            "date": "2026-11-26"
+          },
+          {
+            "article": "how-the-eu-simplified-the-ai-act",
+            "date": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "london",
+        "label": "London",
+        "place": "london",
+        "stories": [
+          {
+            "article": "london-tube-drivers-strikes-dates-and-dispute",
+            "date": "2026-11-26"
+          }
+        ],
+        "note": "London place agent and data not yet publishing; the Tube strikes article is the first London story"
+      }
+    ]
+  }
 }
