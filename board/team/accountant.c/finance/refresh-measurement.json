@@ -34,6 +34,18 @@
    "output_tokens": 434621,
    "api_equiv_usd_lifetime": 43.62,
    "note": "~93 an hour against ~11.4 before. Not like-for-like: two rounds of five sub-agents, a critic, heavy output, all counted in this session. The refresh emptied the context (598k to 0) but the new work refilled it to 318k in 28 min. No saving can be claimed from this case."
+  },
+  {
+   "at": "2026-11-28T06:48Z",
+   "phase": "after +4 h (idle 03:15 to 06:48, one waking turn)",
+   "model": "claude-fable-5-2",
+   "context_tokens": 342335,
+   "cache_read_tokens": 38364985,
+   "cache_write_tokens": 2108282,
+   "input_tokens": 1799,
+   "output_tokens": 443576,
+   "api_equiv_usd_lifetime": 50.24,
+   "note": "One turn after 3.5 h idle cost ~6.6; cache_write rose ~333k, about the whole context: the cache had expired and was rewritten. The cost of waking a ~340k-context session."
   }
  ],
  "plan": "successor read at about +1 h, +6 h and +24 h after it starts",
@@ -62,8 +74,17 @@
     "output_tokens": 23029,
     "api_equiv_usd_lifetime": 3.52,
     "note": "the one-off cost of the hand-over: onboarding reads"
+   },
+   {
+    "at": "2026-11-28T06:50Z",
+    "phase": "after +4 h",
+    "model": "claude-fable-5-2",
+    "context_tokens": 148444,
+    "api_equiv_usd_lifetime": 3.97,
+    "note": "idle since 02:53; no comparison yet"
    }
   ],
   "plan": "read at about +1 h, +6 h, +24 h"
- }
+ },
+ "finding_so_far": "A refresh resets the context, but cost follows the workload first. The clearest measured effect of context size: after a long idle, a session pays to rewrite its whole cached context on its first turn (about 6.6 at 340k on Fable). Waking fresh at a small context is the saving; it is not yet measured on like-for-like work."
 }
