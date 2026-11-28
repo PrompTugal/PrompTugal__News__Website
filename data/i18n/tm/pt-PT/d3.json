@@ -1,4 +1,12 @@
 {
+ "d328c43cf5112ba9": {
+  "t": "[ECO, \"Amália ganha 'ferramentas de agentificação' até final do ano\"](https://eco.sapo.pt/2026/09/15/amalia-ganha-ferramentas-de-agentificacao-ate-final-do-ano/) (a nota de atualização de 28 de novembro de 2026: a segunda fase da AMALIA), publicado a 15 de setembro de 2026, lido a 28 de novembro de 2026",
+  "by": "cl-6.translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-28",
+  "src": "[ECO, \"Amália ganha 'ferramentas de agentificação' até final",
+  "ok": false
+ },
  "d32b72b6bb7be210": {
   "t": "No festival Noitada Portimão, a 24 e 25 de julho, duas instalações chamadas Magic Wall e Universos Paralelos usaram IA e sensores de movimento em tempo real para que os visitantes interagissem com a arte.",
   "by": "translator@PrompTugal.dinis",
