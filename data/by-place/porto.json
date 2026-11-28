@@ -5,7 +5,7 @@
  "kind": "city",
  "parent": "portugal",
  "status": "live",
- "updated": "2026-11-26",
+ "updated": "2026-11-28",
  "by": "place.porto@PrompTugal.dinis",
  "mandate": "PrompTugal.news Porto: AI and technology in Porto, a university and startup city whose centre of gravity is UPTEC, the University of Porto's science park, its AI startups and its research institutes, and what reaches Porto from Portugal, Europe and the world. Independent, and every fact sourced.",
  "gravity": {
@@ -1328,160 +1328,182 @@
   }
  ],
  "latest_news": {
-  "read_at": "2026-11-26T02:33Z",
+  "read_at": "2026-11-28T07:37:37Z",
   "by": "place.porto@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
   "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
   "main_headline": {
-   "title": "Atenção utentes do Metro do Porto. Greve dos maquinistas reduz serviço na sexta-feira",
-   "url": "https://24noticias.sapo.pt/atualidade/artigos/atencao-utentes-do-metro-do-porto-greve-dos-maquinistas-reduz-servico-na-sexta-feira",
+   "title": "Pai Natal dos Oceanos regressa ao SEA LIFE Porto com mergulhos, contos e poesia",
+   "url": "https://24noticias.sapo.pt/vida/artigos/pai-natal-dos-oceanos-regressa-ao-sea-life-porto-com-mergulhos-contos-e-poesia",
    "source": "24 Notícias",
-   "date": "2026-11-25",
-   "read_at": "2026-11-26T02:28:44Z",
+   "date": "2026-11-27",
+   "read_at": "2026-11-28T07:25:39Z",
    "names_place": true
   },
   "items": [
    {
-    "title": "IL diz que Governo terá de arcar com as consequências do \"imbróglio jurídico\" que criou",
-    "url": "https://www.jornaldenegocios.pt/economia/detalhe/il-diz-que-governo-tera-de-arcar-com-as-consequencias-do-imbroglio-juridico-que-criou",
-    "published": "2026-11-25T23:32Z",
-    "source": "Jornal de Negócios",
-    "source_site": "https://www.jornaldenegocios.pt/",
-    "feed": "https://www.jornaldenegocios.pt/rss",
-    "read_at": "2026-11-26T02:28:51Z",
-    "mentions_place": false,
-    "date": "2026-11-25"
-   },
-   {
-    "title": "Sobrevalorização das casas disparou no último ano. Bruxelas faz análise detalhada",
-    "url": "https://www.jornaldenegocios.pt/economia/habitacao/detalhe/sobrevalorizacao-das-casas-disparou-no-ultimo-ano-bruxelas-faz-analise-detalhada",
-    "published": "2026-11-25T23:30Z",
-    "source": "Jornal de Negócios",
-    "source_site": "https://www.jornaldenegocios.pt/",
-    "feed": "https://www.jornaldenegocios.pt/rss",
-    "read_at": "2026-11-26T02:28:51Z",
-    "mentions_place": false,
-    "date": "2026-11-25"
-   },
-   {
-    "title": "Antigo guitarrista dos Duran Duran morre aos 65 anos, vítima de cancro",
-    "url": "https://24noticias.sapo.pt/atualidade/artigos/antigo-guitarrista-dos-duran-duran-morre-aos-65-anos-vitima-de-cancro",
-    "published": "2026-11-25T23:06Z",
+    "title": "Presidente da República faz surpresa no Banco Alimentar",
+    "url": "https://24noticias.sapo.pt/atualidade/artigos/presidente-da-republica-faz-surpresa-no-banco-alimentar",
+    "published": "2026-11-27T23:59Z",
     "source": "24 Notícias",
     "source_site": "https://24noticias.sapo.pt/",
     "feed": "https://24noticias.sapo.pt/feed",
-    "read_at": "2026-11-26T02:28:44Z",
+    "read_at": "2026-11-28T07:25:39Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
    },
    {
-    "title": "O que nos diz Aguiar-Branco",
-    "url": "https://www.jornaldenegocios.pt/opiniao/editorial/detalhe/o-que-nos-diz-aguiar-branco",
-    "published": "2026-11-25T23:00Z",
-    "source": "Jornal de Negócios",
-    "source_site": "https://www.jornaldenegocios.pt/",
-    "feed": "https://www.jornaldenegocios.pt/rss",
-    "read_at": "2026-11-26T02:28:51Z",
-    "mentions_place": false,
-    "date": "2026-11-25"
-   },
-   {
-    "title": "Medina afirma que posição de Montenegro sobre IVA Zero é \"perfeitamente defensável\"",
-    "url": "https://www.jornaldenegocios.pt/economia/detalhe/montenegro-rejeita-lista-de-alimentos-com-iva-zero-medina-afirma-que-posicao-e-perfeitamente-defensavel",
-    "published": "2026-11-25T22:39Z",
-    "source": "Jornal de Negócios",
-    "source_site": "https://www.jornaldenegocios.pt/",
-    "feed": "https://www.jornaldenegocios.pt/rss",
-    "read_at": "2026-11-26T02:28:51Z",
-    "mentions_place": false,
-    "date": "2026-11-25"
-   },
-   {
-    "title": "Acampada de Lisboa revela contacto da PSP para desmobilização",
-    "url": "https://24noticias.sapo.pt/atualidade/artigos/acampada-de-lisboa-revela-contacto-da-psp-para-desmobilizacao",
-    "published": "2026-11-25T22:35Z",
+    "title": "Plataforma da Câmara de Oeiras alvo de ciberataque que obteve dados de utilizadores",
+    "url": "https://24noticias.sapo.pt/atualidade/artigos/plataforma-da-camara-de-oeiras-alvo-de-ciberataque-que-obteve-dados-de-utilizadores",
+    "published": "2026-11-27T22:48Z",
     "source": "24 Notícias",
     "source_site": "https://24noticias.sapo.pt/",
     "feed": "https://24noticias.sapo.pt/feed",
-    "read_at": "2026-11-26T02:28:44Z",
+    "read_at": "2026-11-28T07:25:39Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
    },
    {
-    "title": "IA gasta menos água por dólar do que leite de amêndoa ou golfe, diz estudo",
-    "url": "https://www.jornaldenegocios.pt/sustentabilidade/ambiental/detalhe/ia-gasta-menos-agua-por-dolar-do-que-leite-de-amendoa-ou-golfe-diz-estudo",
-    "published": "2026-11-25T22:31Z",
-    "source": "Jornal de Negócios",
-    "source_site": "https://www.jornaldenegocios.pt/",
-    "feed": "https://www.jornaldenegocios.pt/rss",
-    "read_at": "2026-11-26T02:28:51Z",
-    "mentions_place": false,
-    "date": "2026-11-25"
-   },
-   {
-    "title": "\"Let's practice what we preach\"",
-    "url": "https://www.jornaldenegocios.pt/opiniao/colunistas/joana-garoupa/detalhe/let-s-practice-what-we-preach",
-    "published": "2026-11-25T22:02Z",
-    "source": "Jornal de Negócios",
-    "source_site": "https://www.jornaldenegocios.pt/",
-    "feed": "https://www.jornaldenegocios.pt/rss",
-    "read_at": "2026-11-26T02:28:51Z",
-    "mentions_place": false,
-    "date": "2026-11-25"
-   },
-   {
-    "title": "Montenegro garante que “nada justifica a demissão”. Recusa aplicar IVA zero e mantém benefícios fiscais para as rendas moderadas",
-    "url": "https://24noticias.sapo.pt/atualidade/artigos/e-preciso-esclarecer-os-portugueses-sobre-o-rumo-do-pais-diz-montenegro",
-    "published": "2026-11-25T20:48Z",
+    "title": "Videovigilância reforçada em Coimbra",
+    "url": "https://24noticias.sapo.pt/atualidade/artigos/videovigilancia-reforcada-em-coimbra",
+    "published": "2026-11-27T21:48Z",
     "source": "24 Notícias",
     "source_site": "https://24noticias.sapo.pt/",
     "feed": "https://24noticias.sapo.pt/feed",
-    "read_at": "2026-11-26T02:28:44Z",
+    "read_at": "2026-11-28T07:25:39Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
    },
    {
-    "title": "Atenção utentes do Metro do Porto. Greve dos maquinistas reduz serviço na sexta-feira",
-    "url": "https://24noticias.sapo.pt/atualidade/artigos/atencao-utentes-do-metro-do-porto-greve-dos-maquinistas-reduz-servico-na-sexta-feira",
-    "published": "2026-11-25T20:42Z",
+    "title": "Quatro pessoas detidas em São Miguel. Transportavam bezerros roubados dentro de uma viatura",
+    "url": "https://24noticias.sapo.pt/atualidade/artigos/quatro-pessoas-detidas-em-sao-miguel-transportavam-bezerros-roubados-dentro-de-uma-viatura",
+    "published": "2026-11-27T20:45Z",
     "source": "24 Notícias",
     "source_site": "https://24noticias.sapo.pt/",
     "feed": "https://24noticias.sapo.pt/feed",
-    "read_at": "2026-11-26T02:28:44Z",
+    "read_at": "2026-11-28T07:25:39Z",
+    "mentions_place": false,
+    "date": "2026-11-27"
+   },
+   {
+    "title": "Já começou as compras natalícias? 1.º prémio do Euromilhões, 59 milhões de euros, pode ajudar",
+    "url": "https://24noticias.sapo.pt/atualidade/artigos/ja-comecou-as-compras-natalicias1-o-premio-do-euromilhoes-59-milhoes-de-euros-pode-ajudar",
+    "published": "2026-11-27T20:29Z",
+    "source": "24 Notícias",
+    "source_site": "https://24noticias.sapo.pt/",
+    "feed": "https://24noticias.sapo.pt/feed",
+    "read_at": "2026-11-28T07:25:39Z",
+    "mentions_place": false,
+    "date": "2026-11-27"
+   },
+   {
+    "title": "Pai Natal dos Oceanos regressa ao SEA LIFE Porto com mergulhos, contos e poesia",
+    "url": "https://24noticias.sapo.pt/vida/artigos/pai-natal-dos-oceanos-regressa-ao-sea-life-porto-com-mergulhos-contos-e-poesia",
+    "published": "2026-11-27T19:16Z",
+    "source": "24 Notícias",
+    "source_site": "https://24noticias.sapo.pt/",
+    "feed": "https://24noticias.sapo.pt/feed",
+    "read_at": "2026-11-28T07:25:39Z",
     "mentions_place": true,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
    },
    {
-    "title": "A partir de 2027: Abrantes tem refeições escolares gratuitas para mais de quatro mil alunos do ensino público",
-    "url": "https://24noticias.sapo.pt/atualidade/artigos/a-partir-de-2027-abrantes-tem-refeicoes-escolares-gratuitas-para-mais-de-quatro-mil-alunos-do-ensino-publico",
-    "published": "2026-11-25T20:02Z",
-    "source": "24 Notícias",
-    "source_site": "https://24noticias.sapo.pt/",
-    "feed": "https://24noticias.sapo.pt/feed",
-    "read_at": "2026-11-26T02:28:44Z",
+    "title": "OE 2027: 15 propostas aprovadas que vão mexer no bolso dos portugueses (ou talvez não)",
+    "url": "https://www.jpn.up.pt/2026/11/27/oe-2027-15-propostas-aprovadas-que-vao-mexer-no-bolso-dos-portugueses-ou-talvez-nao/",
+    "published": "2026-11-27T17:39Z",
+    "source": "JPN - JornalismoPortoNet",
+    "source_site": "https://www.jpn.up.pt/",
+    "feed": "https://www.jpn.up.pt/feed/",
+    "read_at": "2026-11-28T07:25:58Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
    },
    {
-    "title": "POST PUNK STRIKES BACK AGAIN PELA 7ª VEZ JÁ ESTE FIM-DE-SEMANA",
-    "url": "https://globalnews.pt/cultura/post-punk-strikes-back-again-pela-7a-vez-ja-este-fim-de-semana/",
-    "published": "2026-11-25T19:56Z",
-    "source": "Global News",
-    "source_site": "http://globalnews.pt",
-    "feed": "http://globalnews.pt/feed/",
-    "read_at": "2026-11-26T02:28:49Z",
+    "title": "OE 2027: O “documento possível”, com propostas “não muito ambiciosas”, “sai pior” do Parlamento",
+    "url": "https://www.jpn.up.pt/2026/11/27/oe-2027-o-documento-possivel-com-propostas-nao-muito-ambiciosas-sai-pior-do-parlamento/",
+    "published": "2026-11-27T16:54Z",
+    "source": "JPN - JornalismoPortoNet",
+    "source_site": "https://www.jpn.up.pt/",
+    "feed": "https://www.jpn.up.pt/feed/",
+    "read_at": "2026-11-28T07:25:58Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
    },
    {
-    "title": "Músculos paralisados ainda podem receber ordens do cérebro. Descoberta abre caminho a novas terapias",
-    "url": "https://24noticias.sapo.pt/atualidade/artigos/musculos-paralisados-ainda-podem-receber-ordens-do-cerebro-descoberta-abre-caminho-a-novas-terapias",
-    "published": "2026-11-25T18:55Z",
-    "source": "24 Notícias",
-    "source_site": "https://24noticias.sapo.pt/",
-    "feed": "https://24noticias.sapo.pt/feed",
-    "read_at": "2026-11-26T02:28:44Z",
+    "title": "Potencial transformador da mudança foi tema de debate na 5.ª edição do \"Women on Boards\"",
+    "url": "https://www.porto.pt/pt/noticia/pedro-duarte-sublinha-o-potencial-transformador-da-mudanca-na-5-edicao-do-women-on-boards/",
+    "published": "2026-11-27",
+    "date": "2026-11-27",
+    "source": "Câmara Municipal do Porto (official site)",
+    "source_site": "https://www.cm-porto.pt/",
+    "feed": "https://www.cm-porto.pt/",
+    "read_at": "2026-11-28T07:36:13Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Conselho Metropolitano enaltece alinhamento de estratégias com o Governo na mobilidade na região",
+    "url": "https://www.porto.pt/pt/noticia/conselho-metropolitano-enaltece-alinhamento-de-estrategias-com-o-governo-na-mobilidade-na-regiao/",
+    "published": "2026-11-27",
+    "date": "2026-11-27",
+    "source": "Câmara Municipal do Porto (official site)",
+    "source_site": "https://www.cm-porto.pt/",
+    "feed": "https://www.cm-porto.pt/",
+    "read_at": "2026-11-28T07:36:16Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Município reforça papel na agenda global dos Direitos Digitais",
+    "url": "https://www.porto.pt/pt/noticia/municipio-reforca-papel-na-agenda-global-dos-direitos-digitais/",
+    "published": "2026-11-27",
+    "date": "2026-11-27",
+    "source": "Câmara Municipal do Porto (official site)",
+    "source_site": "https://www.cm-porto.pt/",
+    "feed": "https://www.cm-porto.pt/",
+    "read_at": "2026-11-28T07:36:19Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Sofia Lemos assume direção artística da Galeria Municipal do Porto",
+    "url": "https://www.porto.pt/pt/noticia/sofia-lemos-assume-direcao-artistica-da-galeria-municipal-do-porto/",
+    "published": "2026-11-27",
+    "date": "2026-11-27",
+    "source": "Câmara Municipal do Porto (official site)",
+    "source_site": "https://www.cm-porto.pt/",
+    "feed": "https://www.cm-porto.pt/",
+    "read_at": "2026-11-28T07:36:21Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Montenegro acusa PS e Chega de “arranjo político”, oposição fala em “mau orçamento”, mas documento recebe luz verde",
+    "url": "https://www.jpn.up.pt/2026/11/26/montenegro-acusa-ps-e-chega-de-arranjo-politico-oposicao-fala-em-mau-orcamento-mas-documento-recebe-luz-verde/",
+    "published": "2026-11-26T17:37Z",
+    "source": "JPN - JornalismoPortoNet",
+    "source_site": "https://www.jpn.up.pt/",
+    "feed": "https://www.jpn.up.pt/feed/",
+    "read_at": "2026-11-28T07:25:58Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Beethoven marca a programação para 2027 da Casa da Música",
+    "url": "https://www.jpn.up.pt/2026/11/26/beethoven-marca-a-programacao-para-2027-da-casa-da-musica/",
+    "published": "2026-11-26T15:53Z",
+    "source": "JPN - JornalismoPortoNet",
+    "source_site": "https://www.jpn.up.pt/",
+    "feed": "https://www.jpn.up.pt/feed/",
+    "read_at": "2026-11-28T07:25:58Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Parlamento trava descongelamento das propinas, mas FAP crítica esquecimento da ação social",
+    "url": "https://www.jpn.up.pt/2026/11/26/parlamento-trava-descongelamento-das-propinas-mas-fap-critica-esquecimento-da-acao-social/",
+    "published": "2026-11-26T12:52Z",
+    "source": "JPN - JornalismoPortoNet",
+    "source_site": "https://www.jpn.up.pt/",
+    "feed": "https://www.jpn.up.pt/feed/",
+    "read_at": "2026-11-28T07:25:58Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
    },
    {
     "title": "Lufthansa Technik ajuda Feira a “diversificar tecido industrial”",
@@ -1490,7 +1512,7 @@
     "source": "JPN - JornalismoPortoNet",
     "source_site": "https://www.jpn.up.pt/",
     "feed": "https://www.jpn.up.pt/feed/",
-    "read_at": "2026-11-26T02:28:54Z",
+    "read_at": "2026-11-28T07:25:58Z",
     "mentions_place": false,
     "date": "2026-11-25"
    },
@@ -1501,19 +1523,8 @@
     "source": "Quinzenário A Defesa",
     "source_site": "https://adefesa.org/",
     "feed": "https://adefesa.org/feed/",
-    "read_at": "2026-11-26T02:28:47Z",
+    "read_at": "2026-11-28T07:25:42Z",
     "mentions_place": false,
-    "date": "2026-11-25"
-   },
-   {
-    "title": "Palácio da Bolsa junta-se à magia do Natal do Porto com a maior iluminação de sempre",
-    "url": "https://globalnews.pt/sociedade/palacio-da-bolsa-junta-se-a-magia-do-natal-do-porto-com-a-maior-iluminacao-de-sempre/",
-    "published": "2026-11-25T11:36Z",
-    "source": "Global News",
-    "source_site": "http://globalnews.pt",
-    "feed": "http://globalnews.pt/feed/",
-    "read_at": "2026-11-26T02:28:49Z",
-    "mentions_place": true,
     "date": "2026-11-25"
    },
    {
@@ -1523,7 +1534,7 @@
     "source": "Quinzenário A Defesa",
     "source_site": "https://adefesa.org/",
     "feed": "https://adefesa.org/feed/",
-    "read_at": "2026-11-26T02:28:47Z",
+    "read_at": "2026-11-28T07:25:42Z",
     "mentions_place": false,
     "date": "2026-11-25"
    },
@@ -1534,7 +1545,7 @@
     "source": "Quinzenário A Defesa",
     "source_site": "https://adefesa.org/",
     "feed": "https://adefesa.org/feed/",
-    "read_at": "2026-11-26T02:28:47Z",
+    "read_at": "2026-11-28T07:25:42Z",
     "mentions_place": false,
     "date": "2026-11-25"
    },
@@ -1545,7 +1556,7 @@
     "source": "Quinzenário A Defesa",
     "source_site": "https://adefesa.org/",
     "feed": "https://adefesa.org/feed/",
-    "read_at": "2026-11-26T02:28:47Z",
+    "read_at": "2026-11-28T07:25:42Z",
     "mentions_place": false,
     "date": "2026-11-25"
    },
@@ -1556,7 +1567,7 @@
     "source": "Quinzenário A Defesa",
     "source_site": "https://adefesa.org/",
     "feed": "https://adefesa.org/feed/",
-    "read_at": "2026-11-26T02:28:47Z",
+    "read_at": "2026-11-28T07:25:42Z",
     "mentions_place": false,
     "date": "2026-11-24"
    },
@@ -1567,108 +1578,9 @@
     "source": "Quinzenário A Defesa",
     "source_site": "https://adefesa.org/",
     "feed": "https://adefesa.org/feed/",
-    "read_at": "2026-11-26T02:28:47Z",
+    "read_at": "2026-11-28T07:25:42Z",
     "mentions_place": false,
     "date": "2026-11-24"
-   },
-   {
-    "title": "“Sozinho em Casa” entra no Natal da McDonald’s",
-    "url": "https://globalnews.pt/sociedade/sozinho-em-casa-entra-no-natal-da-mcdonalds/",
-    "published": "2026-11-24T14:00Z",
-    "source": "Global News",
-    "source_site": "http://globalnews.pt",
-    "feed": "http://globalnews.pt/feed/",
-    "read_at": "2026-11-26T02:28:49Z",
-    "mentions_place": false,
-    "date": "2026-11-24"
-   },
-   {
-    "title": "Orçamento do Estado aprovado no Parlamento",
-    "url": "https://www.jpn.up.pt/2026/11/24/ao-minuto-debate-da-votacao-final-global-do-oe-2027/",
-    "published": "2026-11-24T11:41Z",
-    "source": "JPN - JornalismoPortoNet",
-    "source_site": "https://www.jpn.up.pt/",
-    "feed": "https://www.jpn.up.pt/feed/",
-    "read_at": "2026-11-26T02:28:54Z",
-    "mentions_place": false,
-    "date": "2026-11-24"
-   },
-   {
-    "title": "De D. Dinis a Kurt Cobain: Pedro Lima desafia fronteiras musicais em “1994”",
-    "url": "https://globalnews.pt/cultura/de-d-dinis-a-kurt-cobain-pedro-lima-desafia-fronteiras-musicais-em-1994/",
-    "published": "2026-11-23T11:44Z",
-    "source": "Global News",
-    "source_site": "http://globalnews.pt",
-    "feed": "http://globalnews.pt/feed/",
-    "read_at": "2026-11-26T02:28:49Z",
-    "mentions_place": false,
-    "date": "2026-11-23"
-   },
-   {
-    "title": "Raquel Duarte eleita diretora do Instituto de Ciências Biomédicas Abel Salazar",
-    "url": "https://globalnews.pt/sociedade/raquel-duarte-eleita-diretora-do-instituto-de-ciencias-biomedicas-abel-salazar/",
-    "published": "2026-11-22T17:47Z",
-    "source": "Global News",
-    "source_site": "http://globalnews.pt",
-    "feed": "http://globalnews.pt/feed/",
-    "read_at": "2026-11-26T02:28:49Z",
-    "mentions_place": false,
-    "date": "2026-11-22"
-   },
-   {
-    "title": "Parlamento aprova na especialidade proposta do Chega para congelar propinas em 2027/2028",
-    "url": "https://www.jpn.up.pt/2026/11/22/parlamento-aprova-na-especialidade-proposta-do-chega-para-congelar-propinas-em-2027-2028/",
-    "published": "2026-11-22T17:42Z",
-    "source": "JPN - JornalismoPortoNet",
-    "source_site": "https://www.jpn.up.pt/",
-    "feed": "https://www.jpn.up.pt/feed/",
-    "read_at": "2026-11-26T02:28:54Z",
-    "mentions_place": false,
-    "date": "2026-11-22"
-   },
-   {
-    "title": "Três defesas de Cláudio Ramos salvam FC Porto de tombar na Taça",
-    "url": "https://www.jpn.up.pt/2026/11/22/tres-defesas-de-claudio-ramos-salvam-fc-porto-de-tombar-na-taca/",
-    "published": "2026-11-22T01:18Z",
-    "source": "JPN - JornalismoPortoNet",
-    "source_site": "https://www.jpn.up.pt/",
-    "feed": "https://www.jpn.up.pt/feed/",
-    "read_at": "2026-11-26T02:28:54Z",
-    "mentions_place": true,
-    "date": "2026-11-22"
-   },
-   {
-    "title": "Como pedir um cartão de crédito sem anuidade e de aprovação rápida",
-    "url": "https://globalnews.pt/sociedade/como-pedir-um-cartao-de-credito-sem-anuidade-e-de-aprovacao-rapida/",
-    "published": "2026-11-21T17:12Z",
-    "source": "Global News",
-    "source_site": "http://globalnews.pt",
-    "feed": "http://globalnews.pt/feed/",
-    "read_at": "2026-11-26T02:28:49Z",
-    "mentions_place": false,
-    "date": "2026-11-21"
-   },
-   {
-    "title": "Dino D’Santiago junta-se a Buraka Som Sistema no Marés Vivas do próximo ano",
-    "url": "https://www.jpn.up.pt/2026/11/20/dino-dsantiago-junta-se-a-buraka-som-sistema-no-mares-vivas-do-proximo-ano/",
-    "published": "2026-11-20T18:48Z",
-    "source": "JPN - JornalismoPortoNet",
-    "source_site": "https://www.jpn.up.pt/",
-    "feed": "https://www.jpn.up.pt/feed/",
-    "read_at": "2026-11-26T02:28:54Z",
-    "mentions_place": false,
-    "date": "2026-11-20"
-   },
-   {
-    "title": "Porto/Post/Doc: Cinema à “procura de um lugar possível no mundo”",
-    "url": "https://www.jpn.up.pt/2026/11/18/porto-post-doc-cinema-a-procura-de-um-lugar-possivel-no-mundo/",
-    "published": "2026-11-18T23:51Z",
-    "source": "JPN - JornalismoPortoNet",
-    "source_site": "https://www.jpn.up.pt/",
-    "feed": "https://www.jpn.up.pt/feed/",
-    "read_at": "2026-11-26T02:28:54Z",
-    "mentions_place": true,
-    "date": "2026-11-18"
    }
   ]
  }

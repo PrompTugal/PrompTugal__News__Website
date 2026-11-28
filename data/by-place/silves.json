@@ -5,7 +5,7 @@
  "kind": "municipality",
  "parent": "algarve",
  "status": "live",
- "updated": "2026-11-26",
+ "updated": "2026-11-28",
  "by": "place.silves@PrompTugal.dinis",
  "mandate": "PrompTugal.news Silves: AI and technology in Silves, the Algarve's orange capital and old regional capital, and what reaches Silves from the Algarve, Portugal and the world. Independent; every fact sourced.",
  "gravity": {
@@ -226,18 +226,62 @@
   }
  ],
  "latest_news": {
-  "read_at": "2026-11-26T06:13:32Z",
+  "read_at": "2026-11-28T07:37:37Z",
   "by": "place.silves@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
   "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
   "main_headline": {
-   "title": "Serviços municipais de Silves encerram ao público na próxima segunda-feira",
-   "url": "https://postal.pt/algarve/servicos-municipais-de-silves-encerram-ao-publico-na-proxima-segunda-feira/",
+   "title": "Rejeição do orçamento de Silves leva presidente da Câmara a alertar para obras e apoios que poderão ficar comprometidos",
+   "url": "https://postal.pt/algarve/rejeicao-do-orcamento-de-silves-leva-presidente-da-camara-a-alertar-para-obras-e-apoios-que-poderao-ficar-comprometidos/",
    "source": "Postal do Algarve",
-   "date": "2026-11-25",
-   "read_at": "2026-11-26T06:13:05Z",
+   "date": "2026-11-27",
+   "read_at": "2026-11-28T07:25:21Z",
    "names_place": true
   },
   "items": [
+   {
+    "title": "Rejeição do orçamento de Silves leva presidente da Câmara a alertar para obras e apoios que poderão ficar comprometidos",
+    "url": "https://postal.pt/algarve/rejeicao-do-orcamento-de-silves-leva-presidente-da-camara-a-alertar-para-obras-e-apoios-que-poderao-ficar-comprometidos/",
+    "published": "2026-11-27T18:28Z",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/feed/",
+    "read_at": "2026-11-28T07:25:21Z",
+    "mentions_place": true,
+    "date": "2026-11-27"
+   },
+   {
+    "title": "São Silvestre de Vila Real de Santo António – Monte Gordo bate recorde com mais de 1.500 inscritos",
+    "url": "https://postal.pt/algarve/sao-silvestre-de-vila-real-de-santo-antonio-monte-gordo-bate-recorde-com-mais-de-1-500-inscritos/",
+    "published": "2026-11-27T16:30Z",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/feed/",
+    "read_at": "2026-11-28T07:25:21Z",
+    "mentions_place": true,
+    "date": "2026-11-27"
+   },
+   {
+    "title": "Silves procura adquirir até 47 casas para responder às necessidades habitacionais do concelho",
+    "url": "https://postal.pt/algarve/silves-procura-adquirir-ate-47-casas-para-responder-as-necessidades-habitacionais-do-concelho/",
+    "published": "2026-11-27T14:15Z",
+    "date": "2026-11-27",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/?s=Silves&feed=rss2",
+    "read_at": "2026-11-28T07:34:34Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Silves recebe ROUXINOL, um baile mandado para adiar o fim",
+    "url": "https://www.barlavento.pt/rouxinol-baile-mandado-silves/",
+    "published": "2026-11-26T15:09Z",
+    "source": "Barlavento",
+    "source_site": "https://www.barlavento.pt/",
+    "feed": "https://www.barlavento.pt/feed/",
+    "read_at": "2026-11-28T07:25:19Z",
+    "mentions_place": true,
+    "date": "2026-11-26"
+   },
    {
     "title": "Serviços municipais de Silves encerram ao público na próxima segunda-feira",
     "url": "https://postal.pt/algarve/servicos-municipais-de-silves-encerram-ao-publico-na-proxima-segunda-feira/",
@@ -246,7 +290,7 @@
     "source": "Postal do Algarve",
     "source_site": "https://postal.pt/",
     "feed": "https://postal.pt/?s=Silves&feed=rss2",
-    "read_at": "2026-11-26T06:13:05Z",
+    "read_at": "2026-11-28T07:34:34Z",
     "mentions_place": true
    },
    {
@@ -257,30 +301,30 @@
     "source": "Postal do Algarve",
     "source_site": "https://postal.pt/",
     "feed": "https://postal.pt/?s=Silves&feed=rss2",
-    "read_at": "2026-11-26T06:13:05Z",
+    "read_at": "2026-11-28T07:34:34Z",
     "mentions_place": true
    },
    {
     "title": "GNR apreende 8.638 litros de aguardente de medronho em duas operações em Silves",
     "url": "https://www.barlavento.pt/gnr-apreensao-aguardente-medronho-silves/",
     "published": "2026-11-25T09:55Z",
+    "date": "2026-11-25",
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
-    "feed": "https://www.barlavento.pt/feed/",
-    "read_at": "2026-11-26T02:28:24Z",
-    "mentions_place": true,
-    "date": "2026-11-25"
+    "feed": "https://www.barlavento.pt/?s=Silves&feed=rss2",
+    "read_at": "2026-11-28T07:34:29Z",
+    "mentions_place": true
    },
    {
     "title": "Orçamento municipal de Silves: concelho em piloto automático e executivo sem rumo",
     "url": "https://www.barlavento.pt/orcamento-silves-piloto-automatico-executivo-sem-rumo/",
     "published": "2026-11-24T18:11Z",
+    "date": "2026-11-24",
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
-    "feed": "https://www.barlavento.pt/feed/",
-    "read_at": "2026-11-26T02:28:24Z",
-    "mentions_place": true,
-    "date": "2026-11-24"
+    "feed": "https://www.barlavento.pt/?s=Silves&feed=rss2",
+    "read_at": "2026-11-28T07:34:29Z",
+    "mentions_place": true
    },
    {
     "title": "Aguardente de medronho avaliada em 210 mil euros apreendida pela GNR em Silves",
@@ -290,7 +334,7 @@
     "source": "Postal do Algarve",
     "source_site": "https://postal.pt/",
     "feed": "https://postal.pt/?s=Silves&feed=rss2",
-    "read_at": "2026-11-26T06:13:05Z",
+    "read_at": "2026-11-28T07:34:34Z",
     "mentions_place": true
    },
    {
@@ -301,51 +345,7 @@
     "source": "Postal do Algarve",
     "source_site": "https://postal.pt/",
     "feed": "https://postal.pt/?s=Silves&feed=rss2",
-    "read_at": "2026-11-26T06:13:05Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Jazz nas Adegas leva música, vinho e tapas a duas adegas do concelho de Silves",
-    "url": "https://postal.pt/algarve/jazz-nas-adegas-leva-musica-vinho-e-tapas-a-duas-adegas-do-concelho-de-silves/",
-    "published": "2026-11-18T16:10Z",
-    "date": "2026-11-18",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Silves&feed=rss2",
-    "read_at": "2026-11-26T06:13:05Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Silves recebe debate sobre os desafios da participação cívica na cultura",
-    "url": "https://postal.pt/algarve/silves-recebe-debate-sobre-os-desafios-da-participacao-civica-na-cultura/",
-    "published": "2026-11-17T15:50Z",
-    "date": "2026-11-17",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Silves&feed=rss2",
-    "read_at": "2026-11-26T06:13:05Z",
-    "mentions_place": true
-   },
-   {
-    "title": "São Silvestre de Albufeira espera reunir 2.000 participantes e estreia corrida para crianças",
-    "url": "https://postal.pt/algarve/sao-silvestre-de-albufeira-espera-reunir-2-000-participantes-e-estreia-corrida-para-criancas/",
-    "published": "2026-11-17T07:20Z",
-    "date": "2026-11-17",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Silves&feed=rss2",
-    "read_at": "2026-11-26T06:13:05Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Silves vai distinguir Usumane Djumo como “Estrela Internacional”",
-    "url": "https://postal.pt/desporto/silves-vai-distinguir-usumane-djumo-como-estrela-internacional/",
-    "published": "2026-11-15T20:09Z",
-    "date": "2026-11-15",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Silves&feed=rss2",
-    "read_at": "2026-11-26T06:13:05Z",
+    "read_at": "2026-11-28T07:34:34Z",
     "mentions_place": true
    }
   ]

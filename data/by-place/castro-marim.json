@@ -5,7 +5,7 @@
  "kind": "municipality",
  "parent": "algarve",
  "status": "live",
- "updated": "2026-11-26",
+ "updated": "2026-11-28",
  "by": "place.castro-marim@PrompTugal.dinis",
  "mandate": "PrompTugal.news Castro Marim: AI and technology in Castro Marim, a salt-pan and Guadiana border town where the AI sits in its council's planning office and its salt works, and what reaches Castro Marim from the Algarve, Portugal and the world. Independent, and every fact sourced.",
  "gravity": {
@@ -530,84 +530,18 @@
   }
  ],
  "latest_news": {
-  "read_at": "2026-11-26T06:13:32Z",
+  "read_at": "2026-11-28T07:37:37Z",
   "by": "place.castro-marim@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
   "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
   "main_headline": {
-   "title": "Castro Marim ultima rede de rega de Odeleite que vai beneficiar 130 hectares agrícolas",
-   "url": "https://postal.pt/algarve/castro-marim-ultima-rede-de-rega-de-odeleite-que-vai-beneficiar-130-hectares-agricolas/",
-   "source": "Postal do Algarve",
-   "date": "2026-11-24",
-   "read_at": "2026-11-26T06:09:13Z",
+   "title": "Castro Marim recebe terceira edição do Congresso do Algarve de Alzheimer e Outras Demências",
+   "url": "https://www.barlavento.pt/congresso-alzheimer-outras-demencias-castro-marim/",
+   "source": "Barlavento",
+   "date": "2026-11-10",
+   "read_at": "2026-11-28T07:31:04Z",
    "names_place": true
   },
   "items": [
-   {
-    "title": "Castro Marim ultima rede de rega de Odeleite que vai beneficiar 130 hectares agrícolas",
-    "url": "https://postal.pt/algarve/castro-marim-ultima-rede-de-rega-de-odeleite-que-vai-beneficiar-130-hectares-agricolas/",
-    "published": "2026-11-24T16:00Z",
-    "date": "2026-11-24",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Castro Marim&feed=rss2",
-    "read_at": "2026-11-26T06:09:13Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Mendes Bota destaca trabalho social e projetos da Junta de Odeleite em Castro Marim",
-    "url": "https://postal.pt/algarve/mendes-bota-destaca-trabalho-social-e-projetos-da-junta-de-odeleite-em-castro-marim/",
-    "published": "2026-11-23T17:10Z",
-    "date": "2026-11-23",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Castro Marim&feed=rss2",
-    "read_at": "2026-11-26T06:09:13Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Presépio com 1100 figuras e toneladas de sal celebra tradições de Castro Marim",
-    "url": "https://postal.pt/algarve/presepio-com-1100-figuras-e-toneladas-de-sal-celebra-tradicoes-de-castro-marim/",
-    "published": "2026-11-20T12:30Z",
-    "date": "2026-11-20",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Castro Marim&feed=rss2",
-    "read_at": "2026-11-26T06:09:13Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Castro Marim inaugura presépio com 3.000 figuras, 200 pontos de luz e figuras animadas",
-    "url": "https://postal.pt/cultura/castro-marim-inaugura-presepio-com-3-000-figuras-200-pontos-de-luz-e-figuras-animadas/",
-    "published": "2026-11-18T07:45Z",
-    "date": "2026-11-18",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Castro Marim&feed=rss2",
-    "read_at": "2026-11-26T06:09:13Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Castro Marim transforma-se na Vila Coração para celebrar o Natal com mercados, animação e atividades para famílias",
-    "url": "https://postal.pt/algarve/castro-marim-transforma-se-na-vila-coracao-para-celebrar-o-natal-com-mercados-animacao-e-atividades-para-familias/",
-    "published": "2026-11-17T07:45Z",
-    "date": "2026-11-17",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Castro Marim&feed=rss2",
-    "read_at": "2026-11-26T06:09:13Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Castro Marim tem projeto pioneiro: residência dedicada a doenças neurodegenerativas tem 70 utentes e é a primeira da região sul",
-    "url": "https://postal.pt/algarve/castro-marim-tem-projeto-pioneiro-residencia-dedicada-a-doencas-neurodegenerativas-tem-70-utentes-e-e-a-primeira-da-regiao-sul/",
-    "published": "2026-11-16T16:40Z",
-    "date": "2026-11-16",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Castro Marim&feed=rss2",
-    "read_at": "2026-11-26T06:09:13Z",
-    "mentions_place": true
-   },
    {
     "title": "Castro Marim recebe terceira edição do Congresso do Algarve de Alzheimer e Outras Demências",
     "url": "https://www.barlavento.pt/congresso-alzheimer-outras-demencias-castro-marim/",
@@ -616,40 +550,7 @@
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
     "feed": "https://www.barlavento.pt/?s=Castro Marim&feed=rss2",
-    "read_at": "2026-11-26T06:09:07Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Fernando Pessanha revisita em Castro Marim a conquista e destruição de Anafé em 1468",
-    "url": "https://postal.pt/algarve/fernando-pessanha-revisita-em-castro-marim-a-conquista-e-destruicao-de-anafe-em-1468/",
-    "published": "2026-11-09T15:55Z",
-    "date": "2026-11-09",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Castro Marim&feed=rss2",
-    "read_at": "2026-11-26T06:09:13Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Castro Marim recebe congresso sobre Alzheimer e outras demências com especialistas de várias áreas",
-    "url": "https://postal.pt/algarve/castro-marim-recebe-congresso-sobre-alzheimer-e-outras-demencias-com-especialistas-de-varias-areas/",
-    "published": "2026-11-09T14:14Z",
-    "date": "2026-11-09",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Castro Marim&feed=rss2",
-    "read_at": "2026-11-26T06:09:13Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Castro Marim inicia obras no Centro de Saúde e garante manutenção dos serviços durante intervenção",
-    "url": "https://postal.pt/europedirectalgarve/castro-marim-inicia-obras-no-centro-de-saude-e-garante-manutencao-dos-servicos-durante-intervencao/",
-    "published": "2026-11-04T15:00Z",
-    "date": "2026-11-04",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Castro Marim&feed=rss2",
-    "read_at": "2026-11-26T06:09:13Z",
+    "read_at": "2026-11-28T07:31:04Z",
     "mentions_place": true
    }
   ]

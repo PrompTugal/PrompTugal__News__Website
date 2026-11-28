@@ -5,7 +5,7 @@
  "kind": "municipality",
  "parent": "algarve",
  "status": "live",
- "updated": "2026-11-26",
+ "updated": "2026-11-28",
  "by": "place.alcoutim@PrompTugal.dinis",
  "mandate": "PrompTugal.news Alcoutim: AI and technology in Alcoutim, an inland, low-density municipality on the Guadiana where connectivity, sensors and digital inclusion are the road to AI, and what reaches Alcoutim from the Algarve, Portugal and the world. Independent. Every fact sourced.",
  "gravity": {
@@ -621,28 +621,61 @@
   }
  ],
  "latest_news": {
-  "read_at": "2026-11-26T06:13:32Z",
+  "read_at": "2026-11-28T07:37:37Z",
   "by": "place.alcoutim@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
   "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
   "main_headline": {
-   "title": "ALUT desafia uma centena de atletas a percorrer mais de 300 quilómetros entre Alcoutim e Sagres",
-   "url": "https://postal.pt/algarve/alut-desafia-uma-centena-de-atletas-a-percorrer-mais-de-300-quilometros-entre-alcoutim-e-sagres/",
+   "title": "Alcoutim vai construir quatro habitações sociais com investimento de cerca de 920 mil euros",
+   "url": "https://postal.pt/nacional/alcoutim-vai-construir-quatro-habitacoes-sociais-com-investimento-de-cerca-de-920-mil-euros/",
    "source": "Postal do Algarve",
-   "date": "2026-11-25",
-   "read_at": "2026-11-26T02:28:26Z",
+   "date": "2026-11-27",
+   "read_at": "2026-11-28T07:33:52Z",
    "names_place": true
   },
   "items": [
    {
+    "title": "Alcoutim vai construir quatro habitações sociais com investimento de cerca de 920 mil euros",
+    "url": "https://postal.pt/nacional/alcoutim-vai-construir-quatro-habitacoes-sociais-com-investimento-de-cerca-de-920-mil-euros/",
+    "published": "2026-11-27T12:00Z",
+    "date": "2026-11-27",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/?s=Alcoutim&feed=rss2",
+    "read_at": "2026-11-28T07:33:52Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Alcoutim atribui cerca de 37 mil euros para apoiar igrejas e preservar património religioso",
+    "url": "https://postal.pt/algarve/alcoutim-atribui-cerca-de-37-mil-euros-para-apoiar-igrejas-e-preservar-patrimonio-religioso/",
+    "published": "2026-11-26T15:19Z",
+    "date": "2026-11-26",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/?s=Alcoutim&feed=rss2",
+    "read_at": "2026-11-28T07:33:52Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Algarviana Ultra Trail bate recorde com 100 inscritos na travessia de Alcoutim a Sagres",
+    "url": "https://www.barlavento.pt/algarviana-ultra-trail-recorde-inscritos-alcoutim-sagres/",
+    "published": "2026-11-26T09:00Z",
+    "date": "2026-11-26",
+    "source": "Barlavento",
+    "source_site": "https://www.barlavento.pt/",
+    "feed": "https://www.barlavento.pt/?s=Alcoutim&feed=rss2",
+    "read_at": "2026-11-28T07:33:46Z",
+    "mentions_place": true
+   },
+   {
     "title": "ALUT desafia uma centena de atletas a percorrer mais de 300 quilómetros entre Alcoutim e Sagres",
     "url": "https://postal.pt/algarve/alut-desafia-uma-centena-de-atletas-a-percorrer-mais-de-300-quilometros-entre-alcoutim-e-sagres/",
     "published": "2026-11-25T18:42Z",
+    "date": "2026-11-25",
     "source": "Postal do Algarve",
     "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/feed/",
-    "read_at": "2026-11-26T02:28:26Z",
-    "mentions_place": true,
-    "date": "2026-11-25"
+    "feed": "https://postal.pt/?s=Alcoutim&feed=rss2",
+    "read_at": "2026-11-28T07:33:52Z",
+    "mentions_place": true
    },
    {
     "title": "Alcoutim investe quase cinco milhões de euros para modernizar rede de água do concelho",
@@ -652,7 +685,7 @@
     "source": "Postal do Algarve",
     "source_site": "https://postal.pt/",
     "feed": "https://postal.pt/?s=Alcoutim&feed=rss2",
-    "read_at": "2026-11-26T06:12:37Z",
+    "read_at": "2026-11-28T07:33:52Z",
     "mentions_place": true
    },
    {
@@ -663,7 +696,7 @@
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
     "feed": "https://www.barlavento.pt/?s=Alcoutim&feed=rss2",
-    "read_at": "2026-11-26T06:12:31Z",
+    "read_at": "2026-11-28T07:33:46Z",
     "mentions_place": true
    },
    {
@@ -674,7 +707,7 @@
     "source": "Postal do Algarve",
     "source_site": "https://postal.pt/",
     "feed": "https://postal.pt/?s=Alcoutim&feed=rss2",
-    "read_at": "2026-11-26T06:12:37Z",
+    "read_at": "2026-11-28T07:33:52Z",
     "mentions_place": true
    },
    {
@@ -685,7 +718,7 @@
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
     "feed": "https://www.barlavento.pt/?s=Alcoutim&feed=rss2",
-    "read_at": "2026-11-26T06:12:31Z",
+    "read_at": "2026-11-28T07:33:46Z",
     "mentions_place": true
    },
    {
@@ -696,7 +729,7 @@
     "source": "Postal do Algarve",
     "source_site": "https://postal.pt/",
     "feed": "https://postal.pt/?s=Alcoutim&feed=rss2",
-    "read_at": "2026-11-26T06:12:37Z",
+    "read_at": "2026-11-28T07:33:52Z",
     "mentions_place": true
    },
    {
@@ -707,40 +740,7 @@
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
     "feed": "https://www.barlavento.pt/?s=Alcoutim&feed=rss2",
-    "read_at": "2026-11-26T06:12:31Z",
-    "mentions_place": true
-   },
-   {
-    "title": "GNR apreende duas embarcações de alta velocidade e cerca de 1.120 litros de combustível em Alcoutim",
-    "url": "https://www.barlavento.pt/gnr-apreensao-embarcacoes-alta-velocidade-combustivel-alcoutim/",
-    "published": "2026-11-12T14:51Z",
-    "date": "2026-11-12",
-    "source": "Barlavento",
-    "source_site": "https://www.barlavento.pt/",
-    "feed": "https://www.barlavento.pt/?s=Alcoutim&feed=rss2",
-    "read_at": "2026-11-26T06:12:31Z",
-    "mentions_place": true
-   },
-   {
-    "title": "GNR apreende duas embarcações e 1.120 litros de combustível em Alcoutim",
-    "url": "https://postal.pt/algarve/gnr-apreende-duas-embarcacoes-e-1-120-litros-de-combustivel-em-alcoutim/",
-    "published": "2026-11-12T11:57Z",
-    "date": "2026-11-12",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Alcoutim&feed=rss2",
-    "read_at": "2026-11-26T06:12:37Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Alcoutim leva arte às ruas e recupera memórias da fronteira com Espanha",
-    "url": "https://postal.pt/algarve/alcoutim-leva-arte-as-ruas-e-recupera-memorias-da-fronteira-com-espanha/",
-    "published": "2026-11-07T10:30Z",
-    "date": "2026-11-07",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Alcoutim&feed=rss2",
-    "read_at": "2026-11-26T06:12:37Z",
+    "read_at": "2026-11-28T07:33:46Z",
     "mentions_place": true
    }
   ]

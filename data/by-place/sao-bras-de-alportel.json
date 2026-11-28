@@ -5,7 +5,7 @@
  "kind": "municipality",
  "parent": "algarve",
  "status": "live",
- "updated": "2026-11-26",
+ "updated": "2026-11-28",
  "by": "place.sao-bras-de-alportel@PrompTugal.dinis",
  "mandate": "PrompTugal.news São Brás de Alportel: AI and technology in São Brás de Alportel, a hill town of cork heritage, a costume museum and a municipal push to digitise, and what reaches São Brás de Alportel from the Algarve, Portugal and the world. Independent; every fact sourced.",
  "gravity": {
@@ -500,10 +500,40 @@
   }
  ],
  "latest_news": {
-  "read_at": "2026-11-26T02:33Z",
+  "read_at": "2026-11-28T07:37:37Z",
   "by": "place.sao-bras-de-alportel@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
   "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
-  "main_headline": null,
-  "items": []
+  "main_headline": {
+   "title": "São Brás de Alportel atribui 7.500 euros ao RIAS para apoiar recuperação de animais selvagens",
+   "url": "https://postal.pt/algarve/sao-bras-de-alportel-atribui-7-500-euros-ao-rias-para-apoiar-recuperacao-de-animais-selvagens/",
+   "source": "Postal do Algarve",
+   "date": "2026-11-27",
+   "read_at": "2026-11-28T07:33:09Z",
+   "names_place": true
+  },
+  "items": [
+   {
+    "title": "São Brás de Alportel atribui 7.500 euros ao RIAS para apoiar recuperação de animais selvagens",
+    "url": "https://postal.pt/algarve/sao-bras-de-alportel-atribui-7-500-euros-ao-rias-para-apoiar-recuperacao-de-animais-selvagens/",
+    "published": "2026-11-27T11:30Z",
+    "date": "2026-11-27",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/?s=São Brás&feed=rss2",
+    "read_at": "2026-11-28T07:33:09Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Coro Bel Canto apresenta concerto de Natal no Museu do Traje em São Brás de Alportel",
+    "url": "https://postal.pt/algarve/coro-bel-canto-apresenta-concerto-de-natal-no-museu-do-traje-em-sao-bras-de-alportel/",
+    "published": "2026-11-20T17:05Z",
+    "date": "2026-11-20",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/?s=São Brás&feed=rss2",
+    "read_at": "2026-11-28T07:33:09Z",
+    "mentions_place": true
+   }
+  ]
  }
 }

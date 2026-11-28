@@ -5,7 +5,7 @@
  "kind": "city",
  "parent": "portugal",
  "status": "live",
- "updated": "2026-11-26",
+ "updated": "2026-11-28",
  "by": "place.braganca@PrompTugal.dinis",
  "mandate": "PrompTugal.news Bragança: AI and technology in Bragança, a northeastern district capital whose centre of gravity is its polytechnic and its science park, Brigantia EcoPark, and what reaches Bragança from Portugal, Europe and the world. Independent; every fact sourced.",
  "gravity": {
@@ -580,83 +580,127 @@
   }
  ],
  "latest_news": {
-  "read_at": "2026-11-26T02:34Z",
+  "read_at": "2026-11-28T07:37Z",
   "by": "place.braganca@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
   "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
   "main_headline": {
-   "title": "Universidade Notícias de 25 de novembro | Edição Marcos Vilaça",
-   "url": "https://www.universidade.fm/universidade-noticias-de-25-de-novembro-edicao-marcos-vilaca/",
+   "title": "Universidade Notícias de 27 de novembro | Edição Marcos Vilaça",
+   "url": "https://www.universidade.fm/universidade-noticias-de-27-de-novembro-edicao-marcos-vilaca/",
    "source": "Universidade FM",
-   "date": "2026-11-25",
-   "read_at": "2026-11-26T02:29:24Z",
+   "date": "2026-11-27",
+   "read_at": "2026-11-28T07:26:29Z",
    "names_place": false
   },
   "items": [
    {
-    "title": "Universidade Notícias de 25 de novembro | Edição Marcos Vilaça",
-    "url": "https://www.universidade.fm/universidade-noticias-de-25-de-novembro-edicao-marcos-vilaca/",
-    "published": "2026-11-25T18:15Z",
+    "title": "Universidade Notícias de 27 de novembro | Edição Marcos Vilaça",
+    "url": "https://www.universidade.fm/universidade-noticias-de-27-de-novembro-edicao-marcos-vilaca/",
+    "published": "2026-11-27T19:00Z",
     "source": "Universidade FM",
     "source_site": "https://www.universidade.fm/",
     "feed": "https://www.universidade.fm/feed/",
-    "read_at": "2026-11-26T02:29:24Z",
+    "read_at": "2026-11-28T07:26:29Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
    },
    {
-    "title": "Bloco de Esquerda alerta para a falta de Planos Municipais para a Igualdade em sete municípios do distrito de Vila Real",
-    "url": "https://www.universidade.fm/bloco-de-esquerda-alerta-para-a-falta-de-planos-municipais-para-a-igualdade-em-sete-municipios-do-distrito-de-vila-real/",
-    "published": "2026-11-25T16:41Z",
+    "title": "Antigo aluno da UTAD apresenta exposição sobre dinossauros descobertos em Portugal",
+    "url": "https://www.universidade.fm/antigo-aluno-da-utad-apresenta-exposicao-sobre-dinossauros-descobertos-em-portugal/",
+    "published": "2026-11-27T14:00Z",
     "source": "Universidade FM",
     "source_site": "https://www.universidade.fm/",
     "feed": "https://www.universidade.fm/feed/",
-    "read_at": "2026-11-26T02:29:24Z",
+    "read_at": "2026-11-28T07:26:29Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
    },
    {
-    "title": "Filipe Oliveira é candidato à liderança da AAUTAD",
-    "url": "https://www.universidade.fm/filipe-oliveira-e-candidato-a-lideranca-da-aautad/",
-    "published": "2026-11-25T16:03Z",
+    "title": "Notícias 27 novembro 2026_Edição Mila Brigas",
+    "url": "https://www.universidade.fm/noticias-27-novembro-2026_edicao-mila-brigas/",
+    "published": "2026-11-27T13:26Z",
     "source": "Universidade FM",
     "source_site": "https://www.universidade.fm/",
     "feed": "https://www.universidade.fm/feed/",
-    "read_at": "2026-11-26T02:29:24Z",
+    "read_at": "2026-11-28T07:26:29Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
    },
    {
-    "title": "Prémio “Vinha Douro 2025” distingue produtores que preservam a paisagem",
-    "url": "https://www.universidade.fm/premio-vinha-douro-2025-distingue-produtores-que-preservam-a-paisagem/",
-    "published": "2026-11-25T15:30Z",
+    "title": "“A (re)invenção dos GNR”_Entrevista",
+    "url": "https://www.universidade.fm/a-reinvencao-dos-gnr_entrevista/",
+    "published": "2026-11-27T13:03Z",
     "source": "Universidade FM",
     "source_site": "https://www.universidade.fm/",
     "feed": "https://www.universidade.fm/feed/",
-    "read_at": "2026-11-26T02:29:24Z",
+    "read_at": "2026-11-28T07:26:29Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
    },
    {
-    "title": "Participação da UTAD nos 20 anos da Uni-CV reforça cooperação com África e espaço lusófono",
-    "url": "https://www.universidade.fm/participacao-da-utad-nos-20-anos-da-uni-cv-reforca-cooperacao-com-africa-e-espaco-lusofono/",
-    "published": "2026-11-25T15:26Z",
+    "title": "Revista de Imprensa – Nuno Augusto – 27 novembro",
+    "url": "https://www.universidade.fm/revista-de-imprensa-nuno-augusto-27-novembro/",
+    "published": "2026-11-27T11:57Z",
     "source": "Universidade FM",
     "source_site": "https://www.universidade.fm/",
     "feed": "https://www.universidade.fm/feed/",
-    "read_at": "2026-11-26T02:29:24Z",
+    "read_at": "2026-11-28T07:26:29Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
    },
    {
-    "title": "GNR promove campanha de sensibilização contra violência para com as mulheres",
-    "url": "https://www.universidade.fm/gnr-promove-campanha-de-sensibilizacao-contra-violencia-para-com-as-mulheres/",
-    "published": "2026-11-25T15:21Z",
+    "title": "“Ficar na escola é fixe” iniciativa da autarquia de Vila Real vai decorrer de 16 a 18 de dezembro",
+    "url": "https://www.universidade.fm/ficar-na-escola-e-fixe-iniciativa-da-autarquia-de-vila-real-vai-decorrer-de-16-a-18-de-dezembro/",
+    "published": "2026-11-27T10:55Z",
     "source": "Universidade FM",
     "source_site": "https://www.universidade.fm/",
     "feed": "https://www.universidade.fm/feed/",
-    "read_at": "2026-11-26T02:29:24Z",
+    "read_at": "2026-11-28T07:26:29Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
+   },
+   {
+    "title": "GNR de Bragança associa-se à Eliminação da Violência Contra as Mulheres",
+    "url": "https://avozdebraganca.sapo.pt/noticias/gnr-de-braganca-associa-se-a-eliminacao-da-violencia-contra-as-mulheres",
+    "published": null,
+    "source": "A Voz de Bragança",
+    "source_site": "https://avozdebraganca.sapo.pt/",
+    "feed": "https://avozdebraganca.sapo.pt/feed/",
+    "read_at": "2026-11-28T07:26:26Z",
+    "mentions_place": true,
+    "date": null
+   },
+   {
+    "title": "Bragança apresenta primeiro Conselho Consultivo de Agricultura e Desenvolvimento Rural",
+    "url": "https://avozdebraganca.sapo.pt/noticias/braganca-apresenta-primeiro-conselho-consultivo-de-agricultura-e-desenvolvimento-rural",
+    "published": null,
+    "source": "A Voz de Bragança",
+    "source_site": "https://avozdebraganca.sapo.pt/",
+    "feed": "https://avozdebraganca.sapo.pt/feed/",
+    "read_at": "2026-11-28T07:26:26Z",
+    "mentions_place": true,
+    "date": null
+   },
+   {
+    "title": "Bragança no Centro da Ambição Transfronteiriça” nos 50 anos do Poder Local",
+    "url": "https://avozdebraganca.sapo.pt/noticias/braganca-no-centro-da-ambicao-transfronteirica-nos-50-anos-do-poder-local",
+    "published": null,
+    "source": "A Voz de Bragança",
+    "source_site": "https://avozdebraganca.sapo.pt/",
+    "feed": "https://avozdebraganca.sapo.pt/feed/",
+    "read_at": "2026-11-28T07:26:26Z",
+    "mentions_place": true,
+    "date": null
+   },
+   {
+    "title": "Projeto de combate ao isolamento social decorreu na Sala de Atos",
+    "url": "https://avozdebraganca.sapo.pt/noticias/projeto-de-combate-ao-isolamento-social-decorreu-na-sala-de-atos",
+    "published": null,
+    "source": "A Voz de Bragança",
+    "source_site": "https://avozdebraganca.sapo.pt/",
+    "feed": "https://avozdebraganca.sapo.pt/feed/",
+    "read_at": "2026-11-28T07:26:26Z",
+    "mentions_place": false,
+    "date": null
    },
    {
     "title": "Bragança é palco do Campeonato da Europa de Granfondo 2027",
@@ -665,7 +709,7 @@
     "source": "A Voz de Bragança",
     "source_site": "https://avozdebraganca.sapo.pt/",
     "feed": "https://avozdebraganca.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:29:21Z",
+    "read_at": "2026-11-28T07:26:26Z",
     "mentions_place": true,
     "date": null
    },
@@ -676,52 +720,8 @@
     "source": "A Voz de Bragança",
     "source_site": "https://avozdebraganca.sapo.pt/",
     "feed": "https://avozdebraganca.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:29:21Z",
+    "read_at": "2026-11-28T07:26:26Z",
     "mentions_place": false,
-    "date": null
-   },
-   {
-    "title": "Câmara Municipal de Bragança disponibiliza pinheiros naturais de Natal",
-    "url": "https://avozdebraganca.sapo.pt/noticias/camara-municipal-de-braganca-disponibiliza-pinheiros-naturais-de-natal",
-    "published": null,
-    "source": "A Voz de Bragança",
-    "source_site": "https://avozdebraganca.sapo.pt/",
-    "feed": "https://avozdebraganca.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:29:21Z",
-    "mentions_place": true,
-    "date": null
-   },
-   {
-    "title": "Município e CSLB visitam Escola Básica de Alfândega da Fé",
-    "url": "https://avozdebraganca.sapo.pt/noticias/municipio-e-cslb-visitam-escola-basica-de-alfandega-da-fe",
-    "published": null,
-    "source": "A Voz de Bragança",
-    "source_site": "https://avozdebraganca.sapo.pt/",
-    "feed": "https://avozdebraganca.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:29:21Z",
-    "mentions_place": false,
-    "date": null
-   },
-   {
-    "title": "Seleção da Sub-16 Futebol Masculino da AF Bragança em preparação para o TIA",
-    "url": "https://avozdebraganca.sapo.pt/noticias/selecao-da-sub-16-futebol-masculino-da-af-braganca-em-preparacao-para-o-tia",
-    "published": null,
-    "source": "A Voz de Bragança",
-    "source_site": "https://avozdebraganca.sapo.pt/",
-    "feed": "https://avozdebraganca.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:29:21Z",
-    "mentions_place": true,
-    "date": null
-   },
-   {
-    "title": "Município esclarece turvação da água registada em algumas zonas de Bragança",
-    "url": "https://avozdebraganca.sapo.pt/noticias/municipio-esclarece-turvacao-da-agua-registada-em-algumas-zonas-de-braganca",
-    "published": null,
-    "source": "A Voz de Bragança",
-    "source_site": "https://avozdebraganca.sapo.pt/",
-    "feed": "https://avozdebraganca.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:29:21Z",
-    "mentions_place": true,
     "date": null
    }
   ]

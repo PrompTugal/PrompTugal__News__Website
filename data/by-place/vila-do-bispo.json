@@ -5,7 +5,7 @@
  "kind": "municipality",
  "parent": "algarve",
  "status": "live",
- "updated": "2026-11-26",
+ "updated": "2026-11-28",
  "by": "place.vila-do-bispo@PrompTugal.dinis",
  "mandate": "PrompTugal.news Vila do Bispo: AI and technology in Vila do Bispo, from Sagres and Cape St Vincent to the sea and the wind, and what reaches Vila do Bispo from the Algarve, Portugal and the world. Independent; every fact sourced.",
  "gravity": {
@@ -279,40 +279,18 @@
   }
  ],
  "latest_news": {
-  "read_at": "2026-11-26T06:13:32Z",
+  "read_at": "2026-11-28T07:37:37Z",
   "by": "place.vila-do-bispo@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
   "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
   "main_headline": {
-   "title": "Vila do Bispo pede esclarecimentos à ULS Algarve sobre mortes na urgência de Portimão",
-   "url": "https://postal.pt/algarve/vila-do-bispo-pede-esclarecimentos-a-uls-algarve-sobre-mortes-na-urgencia-de-portimao/",
-   "source": "Postal do Algarve",
-   "date": "2026-11-25",
-   "read_at": "2026-11-26T06:12:09Z",
+   "title": "Polícia Marítima apreende 181 jerricãs de combustível em Vila do Bispo",
+   "url": "https://www.barlavento.pt/policia-maritima-apreensao-jerricas-combustivel-boca-rio/",
+   "source": "Barlavento",
+   "date": "2026-11-23",
+   "read_at": "2026-11-28T07:33:26Z",
    "names_place": true
   },
   "items": [
-   {
-    "title": "Vila do Bispo pede esclarecimentos à ULS Algarve sobre mortes na urgência de Portimão",
-    "url": "https://postal.pt/algarve/vila-do-bispo-pede-esclarecimentos-a-uls-algarve-sobre-mortes-na-urgencia-de-portimao/",
-    "published": "2026-11-25T13:00Z",
-    "date": "2026-11-25",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Vila do Bispo&feed=rss2",
-    "read_at": "2026-11-26T06:12:09Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Polícia Marítima apreende 4.500 litros de combustível em praia de Vila do Bispo",
-    "url": "https://postal.pt/algarve/policia-maritima-apreende-4-500-litros-de-combustivel-em-praia-de-vila-do-bispo/",
-    "published": "2026-11-23T19:20Z",
-    "date": "2026-11-23",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Vila do Bispo&feed=rss2",
-    "read_at": "2026-11-26T06:12:09Z",
-    "mentions_place": true
-   },
    {
     "title": "Polícia Marítima apreende 181 jerricãs de combustível em Vila do Bispo",
     "url": "https://www.barlavento.pt/policia-maritima-apreensao-jerricas-combustivel-boca-rio/",
@@ -321,29 +299,7 @@
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
     "feed": "https://www.barlavento.pt/?s=Vila do Bispo&feed=rss2",
-    "read_at": "2026-11-26T06:12:03Z",
-    "mentions_place": true
-   },
-   {
-    "title": "José Marques: Vila do Bispo quer aproximar os jovens da vida autárquica",
-    "url": "https://postal.pt/edicaopapel/jose-marques-vila-do-bispo-quer-aproximar-os-jovens-da-vida-autarquica/",
-    "published": "2026-11-07T16:00Z",
-    "date": "2026-11-07",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Vila do Bispo&feed=rss2",
-    "read_at": "2026-11-26T06:12:09Z",
-    "mentions_place": true
-   },
-   {
-    "title": "No concelho de Vila do Bispo mais de um terço dos residentes não tem religião",
-    "url": "https://postal.pt/algarve/no-concelho-de-vila-do-bispo-mais-de-um-terco-dos-residentes-nao-tem-religiao/",
-    "published": "2026-10-30T12:50Z",
-    "date": "2026-10-30",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Vila do Bispo&feed=rss2",
-    "read_at": "2026-11-26T06:12:09Z",
+    "read_at": "2026-11-28T07:33:26Z",
     "mentions_place": true
    }
   ]

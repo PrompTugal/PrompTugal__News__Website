@@ -5,7 +5,7 @@
  "kind": "region",
  "parent": "portugal",
  "status": "live",
- "updated": "2026-11-26",
+ "updated": "2026-11-28",
  "by": "place.algarve@PrompTugal.dinis",
  "mandate": "PrompTugal.news The Algarve: AI and technology across the Algarve and its 17 towns, centred on Faro's university and innovation community and on tourism and health, and what reaches the region from Portugal and the world. Independent; every fact sourced.",
  "gravity": {
@@ -1333,149 +1333,149 @@
   }
  ],
  "latest_news": {
-  "read_at": "2026-11-26T02:33Z",
+  "read_at": "2026-11-28T07:36Z",
   "by": "place.algarve@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
   "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
   "main_headline": {
-   "title": "Cinco passeios de carro para descobrir o Algarve no inverno",
-   "url": "https://postal.pt/auto/cinco-passeios-de-carro-para-descobrir-o-algarve-no-inverno/",
+   "title": "E-REDES vai cortar a eletricidade no domingo em 12 concelhos: o Algarve está na lista e há interrupções de até sete horas",
+   "url": "https://postal.pt/nacional/e-redes-vai-cortar-a-eletricidade-no-domingo-em-12-concelhos-o-algarve-esta-na-lista-e-ha-interrupcoes-de-ate-sete-horas/",
    "source": "Postal do Algarve",
-   "date": "2026-11-25",
-   "read_at": "2026-11-26T02:28:26Z",
+   "date": "2026-11-28",
+   "read_at": "2026-11-28T07:25:21Z",
    "names_place": true
   },
   "items": [
    {
-    "title": "A região portuguesa onde se vive menos tempo e com a escolaridade abaixo da média nacional",
-    "url": "https://postal.pt/economia/a-regiao-portuguesa-onde-se-vive-menos-tempo-e-com-a-escolaridade-abaixo-da-media-nacional/",
-    "published": "2026-11-25T22:05Z",
+    "title": "Chuva dá tréguas no feriado de 1 de dezembro, mas frio aperta e termómetros podem descer aos 3 ºC",
+    "url": "https://postal.pt/nacional/tempo/chuva-da-treguas-no-feriado-de-1-de-dezembro-mas-frio-aperta-e-termometros-podem-descer-aos-3-oc/",
+    "published": "2026-11-28T07:00Z",
     "source": "Postal do Algarve",
     "source_site": "https://postal.pt/",
     "feed": "https://postal.pt/feed/",
-    "read_at": "2026-11-26T02:28:26Z",
+    "read_at": "2026-11-28T07:25:21Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-28"
    },
    {
-    "title": "Viu um carro usado barato num leilão online? Faça esta conta antes de licitar",
-    "url": "https://postal.pt/nacional/viu-um-carro-usado-barato-num-leilao-online-faca-esta-conta-antes-de-licitar/",
-    "published": "2026-11-25T20:20Z",
+    "title": "E-REDES vai cortar a eletricidade no domingo em 12 concelhos: o Algarve está na lista e há interrupções de até sete horas",
+    "url": "https://postal.pt/nacional/e-redes-vai-cortar-a-eletricidade-no-domingo-em-12-concelhos-o-algarve-esta-na-lista-e-ha-interrupcoes-de-ate-sete-horas/",
+    "published": "2026-11-28T06:20Z",
     "source": "Postal do Algarve",
     "source_site": "https://postal.pt/",
     "feed": "https://postal.pt/feed/",
-    "read_at": "2026-11-26T02:28:26Z",
-    "mentions_place": false,
-    "date": "2026-11-25"
-   },
-   {
-    "title": "Tem uma segunda casa onde quase não gasta eletricidade? Há uma taxa que pode deixar de pagar",
-    "url": "https://postal.pt/nacional/tem-uma-segunda-casa-onde-quase-nao-gasta-eletricidade-ha-uma-taxa-que-pode-deixar-de-pagar/",
-    "published": "2026-11-25T20:20Z",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/feed/",
-    "read_at": "2026-11-26T02:28:26Z",
-    "mentions_place": false,
-    "date": "2026-11-25"
-   },
-   {
-    "title": "Bebe água logo ao acordar mesmo sem ter sede? Nutricionista explica se deve manter este hábito",
-    "url": "https://postal.pt/saude/bebe-agua-logo-ao-acordar-mesmo-sem-ter-sede-nutricionista-explica-se-deve-manter-este-habito/",
-    "published": "2026-11-25T20:10Z",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/feed/",
-    "read_at": "2026-11-26T02:28:26Z",
-    "mentions_place": false,
-    "date": "2026-11-25"
-   },
-   {
-    "title": "Cinco passeios de carro para descobrir o Algarve no inverno",
-    "url": "https://postal.pt/auto/cinco-passeios-de-carro-para-descobrir-o-algarve-no-inverno/",
-    "published": "2026-11-25T19:10Z",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/feed/",
-    "read_at": "2026-11-26T02:28:26Z",
+    "read_at": "2026-11-28T07:25:21Z",
     "mentions_place": true,
-    "date": "2026-11-25"
+    "date": "2026-11-28"
    },
    {
-    "title": "Algarve aprova revisão do programa regional de prevenção e gestão de fogos rurais",
-    "url": "https://postal.pt/algarve/algarve-aprova-revisao-do-programa-regional-de-prevencao-e-gestao-de-fogos-rurais/",
-    "published": "2026-11-25T19:00Z",
+    "title": "Lembra-se do Aqualine? O que é feito do parque aquático no Algarve que está fechado há mais de 30 anos",
+    "url": "https://postal.pt/algarve/lembra-se-do-aqualine-o-que-e-feito-do-parque-aquatico-no-algarve-que-esta-fechado-ha-mais-de-30-anos/",
+    "published": "2026-11-27T20:40Z",
     "source": "Postal do Algarve",
     "source_site": "https://postal.pt/",
     "feed": "https://postal.pt/feed/",
-    "read_at": "2026-11-26T02:28:26Z",
+    "read_at": "2026-11-28T07:25:21Z",
     "mentions_place": true,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
    },
    {
-    "title": "Faro é o segundo distrito com mais mulheres e raparigas vítimas de crime e violência apoiadas pela APAV",
-    "url": "https://www.barlavento.pt/apav-vitimas-mulheres-raparigas-violencia-distrito-faro-2026/",
-    "published": "2026-11-25T15:43Z",
+    "title": "Se compra azeite virgem extra, tenha atenção: estas quatro marcas vendidas com essa indicação falharam teste de qualidade",
+    "url": "https://postal.pt/nacional/se-compra-azeite-virgem-extra-tenha-atencao-estas-quatro-marcas-vendidas-com-essa-indicacao-falharam-teste-de-qualidade/",
+    "published": "2026-11-27T20:30Z",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/feed/",
+    "read_at": "2026-11-28T07:25:21Z",
+    "mentions_place": false,
+    "date": "2026-11-27"
+   },
+   {
+    "title": "Moncarapacho celebra dezembro com matinés seniores, música e tradições natalícias",
+    "url": "https://postal.pt/algarve/moncarapacho-celebra-dezembro-com-matines-seniores-musica-e-tradicoes-natalicias/",
+    "published": "2026-11-27T19:34Z",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/feed/",
+    "read_at": "2026-11-28T07:25:21Z",
+    "mentions_place": false,
+    "date": "2026-11-27"
+   },
+   {
+    "title": "Iniciativa solidária na Luz de Tavira transforma fardamento usado em camas para animais",
+    "url": "https://postal.pt/algarve/iniciativa-solidaria-na-luz-de-tavira-transforma-fardamento-usado-em-camas-para-animais/",
+    "published": "2026-11-27T19:06Z",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/feed/",
+    "read_at": "2026-11-28T07:25:21Z",
+    "mentions_place": false,
+    "date": "2026-11-27"
+   },
+   {
+    "title": "Algarve é a terceira região da UE onde a fruta mais pesa no valor da produção agrícola",
+    "url": "https://www.barlavento.pt/fruta-producao-agricola-algarve-europa/",
+    "published": "2026-11-27T11:57Z",
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
     "feed": "https://www.barlavento.pt/feed/",
-    "read_at": "2026-11-26T02:28:24Z",
-    "mentions_place": false,
-    "date": "2026-11-25"
+    "read_at": "2026-11-28T07:25:19Z",
+    "mentions_place": true,
+    "date": "2026-11-27"
    },
    {
-    "title": "Parques eólicos da costa sudoeste algarvia registam em média uma colisão por cada 21 mil aves observadas",
-    "url": "https://www.barlavento.pt/parques-eolicos-colisoes-aves-costa-sudoeste-algarvia/",
-    "published": "2026-11-25T14:22Z",
+    "title": "Algarve tem a maior prevalência de doença pulmonar obstrutiva crónica entre cinco regiões estudadas",
+    "url": "https://www.barlavento.pt/doenca-pulmonar-obstrutiva-cronica-algarve/",
+    "published": "2026-11-27T11:24Z",
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
     "feed": "https://www.barlavento.pt/feed/",
-    "read_at": "2026-11-26T02:28:24Z",
-    "mentions_place": false,
-    "date": "2026-11-25"
+    "read_at": "2026-11-28T07:25:19Z",
+    "mentions_place": true,
+    "date": "2026-11-27"
    },
    {
-    "title": "Câmara de Faro aprova proposta do PSD para criar Fundo Municipal de Habitação",
-    "url": "https://www.barlavento.pt/faro-fundo-municipal-habitacao-proposta-psd/",
-    "published": "2026-11-25T13:44Z",
+    "title": "Vértebra de dinossauro descoberta em Salir terá cerca de 227 milhões de anos",
+    "url": "https://www.barlavento.pt/vertebra-de-dinossauro-descoberta-em-salir-tera-cerca-de-227-milhoes-de-anos/",
+    "published": "2026-11-27T09:53Z",
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
     "feed": "https://www.barlavento.pt/feed/",
-    "read_at": "2026-11-26T02:28:24Z",
+    "read_at": "2026-11-28T07:25:19Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
    },
    {
-    "title": "Zoomarine acompanha por satélite a adaptação da tartaruga Molly à vida no oceano",
-    "url": "https://www.barlavento.pt/tartaruga-molly-zoomarine-monitorizacao-satelite/",
-    "published": "2026-11-25T11:02Z",
+    "title": "Relatório europeu aponta riscos para jovens LGBTIQ+ nas escolas portuguesas",
+    "url": "https://www.barlavento.pt/jovens-lgbtiq-escolas-portugal/",
+    "published": "2026-11-26T17:49Z",
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
     "feed": "https://www.barlavento.pt/feed/",
-    "read_at": "2026-11-26T02:28:24Z",
+    "read_at": "2026-11-28T07:25:19Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-26"
    },
    {
-    "title": "Vila Natal com mercados, concertos e teatro no centro de Vila Real de Santo António",
-    "url": "https://www.barlavento.pt/vila-natal-vila-real-santo-antonio-programa-2026/",
-    "published": "2026-11-25T10:34Z",
+    "title": "Lusomorango quer certificar as pegadas hídrica, de carbono e ecológica",
+    "url": "https://www.barlavento.pt/lusomorango-quer-certificar-as-pegadas-hidrica-de-carbono-e-ecologica/",
+    "published": "2026-11-26T17:29Z",
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
     "feed": "https://www.barlavento.pt/feed/",
-    "read_at": "2026-11-26T02:28:24Z",
+    "read_at": "2026-11-28T07:25:19Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-26"
    },
    {
-    "title": "Rede de rega da Várzea de Odeleite vai levar água da barragem a 130 hectares",
-    "url": "https://www.barlavento.pt/rede-rega-varzea-odeleite-130-hectares-ccdr-algarve/",
-    "published": "2026-11-25T10:18Z",
+    "title": "Olhão apresenta primeira estratégia para a cultura e a criatividade",
+    "url": "https://www.barlavento.pt/estrategia-cultura-criatividade-olhao/",
+    "published": "2026-11-26T17:08Z",
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
     "feed": "https://www.barlavento.pt/feed/",
-    "read_at": "2026-11-26T02:28:24Z",
+    "read_at": "2026-11-28T07:25:19Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-26"
    }
   ]
  }

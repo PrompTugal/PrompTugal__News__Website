@@ -5,7 +5,7 @@
  "kind": "municipality",
  "parent": "algarve",
  "status": "live",
- "updated": "2026-11-26",
+ "updated": "2026-11-28",
  "by": "place.monchique@PrompTugal.dinis",
  "mandate": "PrompTugal.news Monchique: AI and technology in Monchique, a forested mountain municipality where wildfire risk and a small municipal business incubator set the agenda, and what reaches Monchique from the Algarve, Portugal and the world. Independent; every fact sourced.",
  "gravity": {
@@ -322,73 +322,10 @@
   }
  ],
  "latest_news": {
-  "read_at": "2026-11-26T06:13:32Z",
+  "read_at": "2026-11-28T07:36Z",
   "by": "place.monchique@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
   "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
-  "main_headline": {
-   "title": "Festival de Caminhadas de Monchique regressa com trilhos, yoga e observação das estrelas",
-   "url": "https://postal.pt/algarve/festival-de-caminhadas-de-monchique-regressa-com-trilhos-yoga-e-observacao-das-estrelas/",
-   "source": "Postal do Algarve",
-   "date": "2026-11-16",
-   "read_at": "2026-11-26T06:10:31Z",
-   "names_place": true
-  },
-  "items": [
-   {
-    "title": "Festival de Caminhadas de Monchique regressa com trilhos, yoga e observação das estrelas",
-    "url": "https://postal.pt/algarve/festival-de-caminhadas-de-monchique-regressa-com-trilhos-yoga-e-observacao-das-estrelas/",
-    "published": "2026-11-16T15:30Z",
-    "date": "2026-11-16",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Monchique&feed=rss2",
-    "read_at": "2026-11-26T06:10:31Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Monchique vai transformar-se num destino de Natal durante mais de um mês e promete animação para toda a família",
-    "url": "https://postal.pt/algarve/monchique-vai-transformar-se-num-destino-de-natal-durante-mais-de-um-mes-e-promete-animacao-para-toda-a-familia/",
-    "published": "2026-11-14T10:10Z",
-    "date": "2026-11-14",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Monchique&feed=rss2",
-    "read_at": "2026-11-26T06:10:31Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Graça Mira: Monchique admite ponderar transmissões da Assembleia nas redes sociais",
-    "url": "https://postal.pt/edicaopapel/graca-mira-monchique-admite-ponderar-transmissoes-da-assembleia-nas-redes-sociais/",
-    "published": "2026-11-07T17:00Z",
-    "date": "2026-11-07",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Monchique&feed=rss2",
-    "read_at": "2026-11-26T06:10:31Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Lembra-se do burro Pacífico? Foi comprado a um agricultor de Monchique por menos de 1€ e levava os tacos de golfe nos campos da Penina",
-    "url": "https://postal.pt/algarve/lembra-se-do-burro-pacifico-foi-comprado-a-um-agricultor-de-monchique-por-menos-de-1e-e-levava-os-tacos-de-golfe-nos-campos-da-penina/",
-    "published": "2026-10-21T15:20Z",
-    "date": "2026-10-21",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Monchique&feed=rss2",
-    "read_at": "2026-11-26T06:10:31Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Nem Monchique nem Tavira: esta localidade do Algarve guarda vestígios de um oceano que desapareceu há milhões de anos",
-    "url": "https://postal.pt/algarve/nem-monchique-nem-tavira-esta-localidade-do-algarve-guarda-vestigios-de-um-oceano-que-desapareceu-ha-milhoes-de-anos/",
-    "published": "2026-10-12T16:50Z",
-    "date": "2026-10-12",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Monchique&feed=rss2",
-    "read_at": "2026-11-26T06:10:31Z",
-    "mentions_place": true
-   }
-  ]
+  "main_headline": null,
+  "items": []
  }
 }

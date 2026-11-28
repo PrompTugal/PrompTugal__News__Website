@@ -5,7 +5,7 @@
  "kind": "municipality",
  "parent": "algarve",
  "status": "live",
- "updated": "2026-11-26",
+ "updated": "2026-11-28",
  "by": "place.faro@PrompTugal.dinis",
  "mandate": "PrompTugal.news Faro: AI and technology in Faro, a university city whose centre of gravity is the Universidade do Algarve, its research and its startup campus, and what reaches Faro from the Algarve, Portugal and the world. Independent; every fact sourced.",
  "gravity": {
@@ -1239,83 +1239,83 @@
   }
  ],
  "latest_news": {
-  "read_at": "2026-11-26T02:33Z",
+  "read_at": "2026-11-28T07:36Z",
   "by": "place.faro@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
   "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
   "main_headline": {
-   "title": "Faro é o segundo distrito com mais mulheres e raparigas vítimas de crime e violência apoiadas pela APAV",
-   "url": "https://www.barlavento.pt/apav-vitimas-mulheres-raparigas-violencia-distrito-faro-2026/",
+   "title": "Algarve é a terceira região da UE onde a fruta mais pesa no valor da produção agrícola",
+   "url": "https://www.barlavento.pt/fruta-producao-agricola-algarve-europa/",
    "source": "Barlavento",
-   "date": "2026-11-25",
-   "read_at": "2026-11-26T02:28:24Z",
-   "names_place": true
+   "date": "2026-11-27",
+   "read_at": "2026-11-28T07:25:19Z",
+   "names_place": false
   },
   "items": [
    {
-    "title": "Faro é o segundo distrito com mais mulheres e raparigas vítimas de crime e violência apoiadas pela APAV",
-    "url": "https://www.barlavento.pt/apav-vitimas-mulheres-raparigas-violencia-distrito-faro-2026/",
-    "published": "2026-11-25T15:43Z",
+    "title": "Algarve é a terceira região da UE onde a fruta mais pesa no valor da produção agrícola",
+    "url": "https://www.barlavento.pt/fruta-producao-agricola-algarve-europa/",
+    "published": "2026-11-27T11:57Z",
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
     "feed": "https://www.barlavento.pt/feed/",
-    "read_at": "2026-11-26T02:28:24Z",
-    "mentions_place": true,
-    "date": "2026-11-25"
-   },
-   {
-    "title": "Parques eólicos da costa sudoeste algarvia registam em média uma colisão por cada 21 mil aves observadas",
-    "url": "https://www.barlavento.pt/parques-eolicos-colisoes-aves-costa-sudoeste-algarvia/",
-    "published": "2026-11-25T14:22Z",
-    "source": "Barlavento",
-    "source_site": "https://www.barlavento.pt/",
-    "feed": "https://www.barlavento.pt/feed/",
-    "read_at": "2026-11-26T02:28:24Z",
+    "read_at": "2026-11-28T07:25:19Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
    },
    {
-    "title": "Câmara de Faro aprova proposta do PSD para criar Fundo Municipal de Habitação",
-    "url": "https://www.barlavento.pt/faro-fundo-municipal-habitacao-proposta-psd/",
-    "published": "2026-11-25T13:44Z",
+    "title": "Algarve tem a maior prevalência de doença pulmonar obstrutiva crónica entre cinco regiões estudadas",
+    "url": "https://www.barlavento.pt/doenca-pulmonar-obstrutiva-cronica-algarve/",
+    "published": "2026-11-27T11:24Z",
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
     "feed": "https://www.barlavento.pt/feed/",
-    "read_at": "2026-11-26T02:28:24Z",
-    "mentions_place": true,
-    "date": "2026-11-25"
-   },
-   {
-    "title": "Zoomarine acompanha por satélite a adaptação da tartaruga Molly à vida no oceano",
-    "url": "https://www.barlavento.pt/tartaruga-molly-zoomarine-monitorizacao-satelite/",
-    "published": "2026-11-25T11:02Z",
-    "source": "Barlavento",
-    "source_site": "https://www.barlavento.pt/",
-    "feed": "https://www.barlavento.pt/feed/",
-    "read_at": "2026-11-26T02:28:24Z",
+    "read_at": "2026-11-28T07:25:19Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
    },
    {
-    "title": "Vila Natal com mercados, concertos e teatro no centro de Vila Real de Santo António",
-    "url": "https://www.barlavento.pt/vila-natal-vila-real-santo-antonio-programa-2026/",
-    "published": "2026-11-25T10:34Z",
+    "title": "Vértebra de dinossauro descoberta em Salir terá cerca de 227 milhões de anos",
+    "url": "https://www.barlavento.pt/vertebra-de-dinossauro-descoberta-em-salir-tera-cerca-de-227-milhoes-de-anos/",
+    "published": "2026-11-27T09:53Z",
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
     "feed": "https://www.barlavento.pt/feed/",
-    "read_at": "2026-11-26T02:28:24Z",
+    "read_at": "2026-11-28T07:25:19Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
    },
    {
-    "title": "Rede de rega da Várzea de Odeleite vai levar água da barragem a 130 hectares",
-    "url": "https://www.barlavento.pt/rede-rega-varzea-odeleite-130-hectares-ccdr-algarve/",
-    "published": "2026-11-25T10:18Z",
+    "title": "Relatório europeu aponta riscos para jovens LGBTIQ+ nas escolas portuguesas",
+    "url": "https://www.barlavento.pt/jovens-lgbtiq-escolas-portugal/",
+    "published": "2026-11-26T17:49Z",
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
     "feed": "https://www.barlavento.pt/feed/",
-    "read_at": "2026-11-26T02:28:24Z",
+    "read_at": "2026-11-28T07:25:19Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Lusomorango quer certificar as pegadas hídrica, de carbono e ecológica",
+    "url": "https://www.barlavento.pt/lusomorango-quer-certificar-as-pegadas-hidrica-de-carbono-e-ecologica/",
+    "published": "2026-11-26T17:29Z",
+    "source": "Barlavento",
+    "source_site": "https://www.barlavento.pt/",
+    "feed": "https://www.barlavento.pt/feed/",
+    "read_at": "2026-11-28T07:25:19Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Olhão apresenta primeira estratégia para a cultura e a criatividade",
+    "url": "https://www.barlavento.pt/estrategia-cultura-criatividade-olhao/",
+    "published": "2026-11-26T17:08Z",
+    "source": "Barlavento",
+    "source_site": "https://www.barlavento.pt/",
+    "feed": "https://www.barlavento.pt/feed/",
+    "read_at": "2026-11-28T07:25:19Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
    }
   ]
  }

@@ -5,7 +5,7 @@
  "kind": "municipality",
  "parent": "algarve",
  "status": "live",
- "updated": "2026-11-26",
+ "updated": "2026-11-28",
  "by": "place.lagoa@PrompTugal.dinis",
  "mandate": "PrompTugal.news Lagoa: AI and technology in Lagoa, a tourism, wine and congress municipality whose AI work comes from its council, its parishes, an IT firm and a school, and what reaches Lagoa from the Algarve, Portugal and the world. Independent; every fact sourced.",
  "gravity": {
@@ -262,18 +262,29 @@
   "gaps_intro": "Here is what we could not find, and yes, we looked behind the fishing boats too."
  },
  "latest_news": {
-  "read_at": "2026-11-26T06:13:32Z",
+  "read_at": "2026-11-28T07:37:37Z",
   "by": "place.lagoa@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
   "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
   "main_headline": {
-   "title": "Livro «Quebrar em caso de emergência climática» da Climáximo apresentado em Lagoa",
-   "url": "https://www.barlavento.pt/quebrar-caso-emergencia-climatica-lagoa/",
+   "title": "Lagoa dos Salgados tem prazo para ser reserva natural e SPEA-BirdLife quer modelo de gestão",
+   "url": "https://www.barlavento.pt/lagoa-salgados-reserva-natural-2027-spea-birdlife/",
    "source": "Barlavento",
-   "date": "2026-11-24",
-   "read_at": "2026-11-26T06:09:35Z",
+   "date": "2026-11-26",
+   "read_at": "2026-11-28T07:31:22Z",
    "names_place": true
   },
   "items": [
+   {
+    "title": "Lagoa dos Salgados tem prazo para ser reserva natural e SPEA-BirdLife quer modelo de gestão",
+    "url": "https://www.barlavento.pt/lagoa-salgados-reserva-natural-2027-spea-birdlife/",
+    "published": "2026-11-26T09:18Z",
+    "date": "2026-11-26",
+    "source": "Barlavento",
+    "source_site": "https://www.barlavento.pt/",
+    "feed": "https://www.barlavento.pt/?s=Lagoa&feed=rss2",
+    "read_at": "2026-11-28T07:31:22Z",
+    "mentions_place": true
+   },
    {
     "title": "Livro «Quebrar em caso de emergência climática» da Climáximo apresentado em Lagoa",
     "url": "https://www.barlavento.pt/quebrar-caso-emergencia-climatica-lagoa/",
@@ -282,7 +293,7 @@
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
     "feed": "https://www.barlavento.pt/?s=Lagoa&feed=rss2",
-    "read_at": "2026-11-26T06:09:35Z",
+    "read_at": "2026-11-28T07:31:22Z",
     "mentions_place": true
    },
    {
@@ -293,18 +304,7 @@
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
     "feed": "https://www.barlavento.pt/?s=Lagoa&feed=rss2",
-    "read_at": "2026-11-26T06:09:35Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Algarve Real Estate Summit reúne 488 participantes do setor imobiliário em Lagoa",
-    "url": "https://postal.pt/algarve/algarve-real-estate-summit-reune-488-participantes-do-setor-imobiliario-em-lagoa/",
-    "published": "2026-11-23T15:50Z",
-    "date": "2026-11-23",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Lagoa&feed=rss2",
-    "read_at": "2026-11-26T06:09:41Z",
+    "read_at": "2026-11-28T07:31:22Z",
     "mentions_place": true
    },
    {
@@ -315,73 +315,7 @@
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
     "feed": "https://www.barlavento.pt/?s=Lagoa&feed=rss2",
-    "read_at": "2026-11-26T06:09:35Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Festival Contrapeso leva quatro espetáculos a Faro, Loulé e Lagoa",
-    "url": "https://www.barlavento.pt/festival-contrapeso-2026-faro-loule-lagoa/",
-    "published": "2026-11-13T16:01Z",
-    "date": "2026-11-13",
-    "source": "Barlavento",
-    "source_site": "https://www.barlavento.pt/",
-    "feed": "https://www.barlavento.pt/?s=Lagoa&feed=rss2",
-    "read_at": "2026-11-26T06:09:35Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Lagoa instala quiosque que recebe 120 embalagens por minuto",
-    "url": "https://postal.pt/algarve/lagoa-instala-quiosque-que-recebe-120-embalagens-por-minuto/",
-    "published": "2026-11-13T16:00Z",
-    "date": "2026-11-13",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Lagoa&feed=rss2",
-    "read_at": "2026-11-26T06:09:41Z",
-    "mentions_place": true
-   },
-   {
-    "title": "José Águas da Cruz: Lagoa leva a Assembleia às freguesias para ouvir os cidadãos",
-    "url": "https://postal.pt/edicaopapel/jose-aguas-da-cruz-lagoa-leva-a-assembleia-as-freguesias-para-ouvir-os-cidadaos/",
-    "published": "2026-11-07T15:00Z",
-    "date": "2026-11-07",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Lagoa&feed=rss2",
-    "read_at": "2026-11-26T06:09:41Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Lagoa recebe 16 artistas nas Estátuas Vivas no Natal e homenageia recordista do Guinness",
-    "url": "https://postal.pt/algarve/lagoa-recebe-16-artistas-nas-estatuas-vivas-no-natal-e-homenageia-recordista-do-guinness/",
-    "published": "2026-11-01T08:00Z",
-    "date": "2026-11-01",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Lagoa&feed=rss2",
-    "read_at": "2026-11-26T06:09:41Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Festival de órgão do Algarve arranca em Portimão e leva concertos gratuitos a Faro e Lagoa",
-    "url": "https://postal.pt/algarve/festival-de-orgao-do-algarve-arranca-em-portimao-e-leva-concertos-gratuitos-a-faro-e-lagoa/",
-    "published": "2026-10-30T11:06Z",
-    "date": "2026-10-30",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Lagoa&feed=rss2",
-    "read_at": "2026-11-26T06:09:41Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Lagoa reuniu 70 participantes no primeiro torneio de Walking Football do Algarve",
-    "url": "https://postal.pt/algarve/lagoa-reuniu-70-participantes-no-primeiro-torneio-de-walking-football-do-algarve/",
-    "published": "2026-10-29T16:06Z",
-    "date": "2026-10-29",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Lagoa&feed=rss2",
-    "read_at": "2026-11-26T06:09:41Z",
+    "read_at": "2026-11-28T07:31:22Z",
     "mentions_place": true
    }
   ]

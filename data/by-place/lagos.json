@@ -5,7 +5,7 @@
  "kind": "municipality",
  "parent": "algarve",
  "status": "live",
- "updated": "2026-11-26",
+ "updated": "2026-11-28",
  "by": "place.lagos@PrompTugal.dinis",
  "mandate": "PrompTugal.news Lagos: AI and technology in Lagos, a town of remote workers, a municipal coworking space and a busy Google developer community, and what reaches Lagos from the Algarve, Portugal and the world. Independent; every fact sourced.",
  "gravity": {
@@ -345,18 +345,95 @@
   "gaps_intro": "Here is what we could not find, and sim, we looked properly:"
  },
  "latest_news": {
-  "read_at": "2026-11-26T06:13:32Z",
+  "read_at": "2026-11-28T07:37:37Z",
   "by": "place.lagos@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
   "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
   "main_headline": {
-   "title": "Baja de Lagos regressa com títulos nacionais em disputa e percurso renovado",
-   "url": "https://postal.pt/algarve/baja-de-lagos-regressa-com-titulos-nacionais-em-disputa-e-percurso-renovado/",
+   "title": "Instituições de Lagos unem esforços para promover a inclusão através do xadrez adaptado",
+   "url": "https://postal.pt/algarve/instituicoes-de-lagos-unem-esforcos-para-promover-a-inclusao-atraves-do-xadrez-adaptado/",
    "source": "Postal do Algarve",
-   "date": "2026-11-24",
-   "read_at": "2026-11-26T06:10:04Z",
+   "date": "2026-11-27",
+   "read_at": "2026-11-28T07:31:47Z",
    "names_place": true
   },
   "items": [
+   {
+    "title": "Instituições de Lagos unem esforços para promover a inclusão através do xadrez adaptado",
+    "url": "https://postal.pt/algarve/instituicoes-de-lagos-unem-esforcos-para-promover-a-inclusao-atraves-do-xadrez-adaptado/",
+    "published": "2026-11-27T11:40Z",
+    "date": "2026-11-27",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/?s=Lagos&feed=rss2",
+    "read_at": "2026-11-28T07:31:47Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Lagos mobiliza cerca de 304 alunos e voluntários para ações de reflorestação do concelho",
+    "url": "https://postal.pt/algarve/lagos-mobiliza-cerca-de-304-alunos-e-voluntarios-para-acoes-de-reflorestacao-do-concelho/",
+    "published": "2026-11-27T08:08Z",
+    "date": "2026-11-27",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/?s=Lagos&feed=rss2",
+    "read_at": "2026-11-28T07:31:47Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Lagos quer reforçar cooperação internacional com adesão à União das Cidades Capitais de Língua Portuguesa",
+    "url": "https://postal.pt/algarve/lagos-quer-reforcar-cooperacao-internacional-com-adesao-a-uniao-das-cidades-capitais-de-lingua-portuguesa/",
+    "published": "2026-11-26T15:39Z",
+    "date": "2026-11-26",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/?s=Lagos&feed=rss2",
+    "read_at": "2026-11-28T07:31:47Z",
+    "mentions_place": true
+   },
+   {
+    "title": "V Jornadas de Lagos debatem impacto da mobilidade no desenvolvimento do concelho",
+    "url": "https://www.barlavento.pt/v-jornadas-lagos-mobilidade/",
+    "published": "2026-11-26T14:39Z",
+    "date": "2026-11-26",
+    "source": "Barlavento",
+    "source_site": "https://www.barlavento.pt/",
+    "feed": "https://www.barlavento.pt/?s=Lagos&feed=rss2",
+    "read_at": "2026-11-28T07:31:42Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Macaco à solta no Algarve: fugiu do Zoo de Lagos há três dias e foi visto junto a uma plantação de abacates",
+    "url": "https://postal.pt/algarve/macaco-a-solta-no-algarve-fugiu-do-zoo-de-lagos-ha-tres-dias-e-foi-visto-junto-a-uma-plantacao-de-abacates/",
+    "published": "2026-11-26T11:20Z",
+    "date": "2026-11-26",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/?s=Lagos&feed=rss2",
+    "read_at": "2026-11-28T07:31:47Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Câmara de Lagos aprova orçamento superior a 119 milhões de euros para 2027",
+    "url": "https://www.barlavento.pt/camara-de-lagos-aprova-orcamento-superior-a-119-milhoes-de-euros-para-2027/",
+    "published": "2026-11-26T10:33Z",
+    "date": "2026-11-26",
+    "source": "Barlavento",
+    "source_site": "https://www.barlavento.pt/",
+    "feed": "https://www.barlavento.pt/?s=Lagos&feed=rss2",
+    "read_at": "2026-11-28T07:31:42Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Lagos aprova orçamento superior a 119 milhões de euros com habitação no topo das prioridades",
+    "url": "https://postal.pt/algarve/lagos-aprova-orcamento-superior-a-119-milhoes-de-euros-com-habitacao-no-topo-das-prioridades/",
+    "published": "2026-11-26T08:00Z",
+    "date": "2026-11-26",
+    "source": "Postal do Algarve",
+    "source_site": "https://postal.pt/",
+    "feed": "https://postal.pt/?s=Lagos&feed=rss2",
+    "read_at": "2026-11-28T07:31:47Z",
+    "mentions_place": true
+   },
    {
     "title": "Baja de Lagos regressa com títulos nacionais em disputa e percurso renovado",
     "url": "https://postal.pt/algarve/baja-de-lagos-regressa-com-titulos-nacionais-em-disputa-e-percurso-renovado/",
@@ -365,7 +442,7 @@
     "source": "Postal do Algarve",
     "source_site": "https://postal.pt/",
     "feed": "https://postal.pt/?s=Lagos&feed=rss2",
-    "read_at": "2026-11-26T06:10:04Z",
+    "read_at": "2026-11-28T07:31:47Z",
     "mentions_place": true
    },
    {
@@ -376,7 +453,7 @@
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
     "feed": "https://www.barlavento.pt/?s=Lagos&feed=rss2",
-    "read_at": "2026-11-26T06:09:58Z",
+    "read_at": "2026-11-28T07:31:42Z",
     "mentions_place": true
    },
    {
@@ -387,84 +464,7 @@
     "source": "Postal do Algarve",
     "source_site": "https://postal.pt/",
     "feed": "https://postal.pt/?s=Lagos&feed=rss2",
-    "read_at": "2026-11-26T06:10:04Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Fórum Lagos – Ecossistema Azul reúne instituições científicas e empresas para debater a economia do mar",
-    "url": "https://www.barlavento.pt/forum-lagos-ecossistema-azul/",
-    "published": "2026-11-23T19:16Z",
-    "date": "2026-11-23",
-    "source": "Barlavento",
-    "source_site": "https://www.barlavento.pt/",
-    "feed": "https://www.barlavento.pt/?s=Lagos&feed=rss2",
-    "read_at": "2026-11-26T06:09:58Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Mercado de Natal da Mercearia Bio em Lagos tem oficinas de biscoitos para crianças",
-    "url": "https://www.barlavento.pt/mercado-natal-mercearia-bio-lagos-2026/",
-    "published": "2026-11-23T18:57Z",
-    "date": "2026-11-23",
-    "source": "Barlavento",
-    "source_site": "https://www.barlavento.pt/",
-    "feed": "https://www.barlavento.pt/?s=Lagos&feed=rss2",
-    "read_at": "2026-11-26T06:09:58Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Orquestra Ligeira de Lagos e Gabriel Fialho levam o jazz ao Natal no Centro Cultural",
-    "url": "https://postal.pt/algarve/orquestra-ligeira-de-lagos-e-gabriel-fialho-levam-o-jazz-ao-natal-no-centro-cultural/",
-    "published": "2026-11-23T10:00Z",
-    "date": "2026-11-23",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Lagos&feed=rss2",
-    "read_at": "2026-11-26T06:10:04Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Autocarros gratuitos ligam Portimão e Lagos ao MotoGP no Algarve",
-    "url": "https://www.barlavento.pt/autocarros-gratuitos-portimao-lagos-motogp-algarve/",
-    "published": "2026-11-18T22:38Z",
-    "date": "2026-11-18",
-    "source": "Barlavento",
-    "source_site": "https://www.barlavento.pt/",
-    "feed": "https://www.barlavento.pt/?s=Lagos&feed=rss2",
-    "read_at": "2026-11-26T06:09:58Z",
-    "mentions_place": true
-   },
-   {
-    "title": "MotoGP regressa ao Algarve com corrida principal às 13:00 e autocarros gratuitos de Portimão e Lagos",
-    "url": "https://postal.pt/algarve/motogp-regressa-ao-algarve-com-corrida-principal-as-1300-e-autocarros-gratuitos-de-portimao-e-lagos/",
-    "published": "2026-11-18T18:00Z",
-    "date": "2026-11-18",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Lagos&feed=rss2",
-    "read_at": "2026-11-26T06:10:04Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Quanto custa deixar um barco nas marinas de Vilamoura e Lagos? Há lugares que ultrapassam os 30.000€ por ano",
-    "url": "https://postal.pt/algarve/quanto-custa-deixar-um-barco-nas-marinas-de-vilamoura-e-lagos-ha-lugares-que-ultrapassam-os-30-000e-por-ano/",
-    "published": "2026-11-17T18:50Z",
-    "date": "2026-11-17",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Lagos&feed=rss2",
-    "read_at": "2026-11-26T06:10:04Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Operação da PSP contra crimes em Lagos leva a oito detenções e 35 buscas",
-    "url": "https://postal.pt/algarve/operacao-da-psp-contra-crimes-em-lagos-leva-a-oito-detencoes-e-35-buscas/",
-    "published": "2026-11-17T14:19Z",
-    "date": "2026-11-17",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Lagos&feed=rss2",
-    "read_at": "2026-11-26T06:10:04Z",
+    "read_at": "2026-11-28T07:31:47Z",
     "mentions_place": true
    }
   ]

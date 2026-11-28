@@ -5,7 +5,7 @@
  "kind": "municipality",
  "parent": "algarve",
  "status": "live",
- "updated": "2026-11-26",
+ "updated": "2026-11-28",
  "by": "place.albufeira@PrompTugal.dinis",
  "mandate": "PrompTugal.news Albufeira: AI and technology in Albufeira, a tourism and hospitality town, and what reaches Albufeira from the Algarve, Portugal and the world. Independent; every fact sourced.",
  "gravity": {
@@ -354,51 +354,18 @@
   }
  ],
  "latest_news": {
-  "read_at": "2026-11-26T06:13:32Z",
+  "read_at": "2026-11-28T07:37:37Z",
   "by": "place.albufeira@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
   "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
   "main_headline": {
-   "title": "100 Montaditos abre novo restaurante em Albufeira e cria cinco postos de trabalho",
-   "url": "https://postal.pt/algarve/100-montaditos-abre-novo-restaurante-em-albufeira-e-cria-cinco-postos-de-trabalho/",
-   "source": "Postal do Algarve",
-   "date": "2026-11-25",
-   "read_at": "2026-11-26T06:08:22Z",
+   "title": "GNR detém em Albufeira suspeito de furtos no Algarve e Alentejo",
+   "url": "https://www.barlavento.pt/gnr-detencao-albufeira-furto-qualificado/",
+   "source": "Barlavento",
+   "date": "2026-11-23",
+   "read_at": "2026-11-28T07:30:18Z",
    "names_place": true
   },
   "items": [
-   {
-    "title": "100 Montaditos abre novo restaurante em Albufeira e cria cinco postos de trabalho",
-    "url": "https://postal.pt/algarve/100-montaditos-abre-novo-restaurante-em-albufeira-e-cria-cinco-postos-de-trabalho/",
-    "published": "2026-11-25T10:40Z",
-    "date": "2026-11-25",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Albufeira&feed=rss2",
-    "read_at": "2026-11-26T06:08:22Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Albufeira acolhe apresentação de sistema de prevenção e resposta a sismos e outras catástrofes",
-    "url": "https://postal.pt/algarve/albufeira-acolhe-apresentacao-de-sistema-de-prevencao-e-resposta-a-sismos-e-outras-catastrofes/",
-    "published": "2026-11-25T07:10Z",
-    "date": "2026-11-25",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Albufeira&feed=rss2",
-    "read_at": "2026-11-26T06:08:22Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Albufeira assinala o 25 de Novembro pela primeira vez com honras protocolares",
-    "url": "https://postal.pt/algarve/albufeira-assinala-o-25-de-novembro-pela-primeira-vez-com-honras-protocolares/",
-    "published": "2026-11-24T11:40Z",
-    "date": "2026-11-24",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Albufeira&feed=rss2",
-    "read_at": "2026-11-26T06:08:22Z",
-    "mentions_place": true
-   },
    {
     "title": "GNR detém em Albufeira suspeito de furtos no Algarve e Alentejo",
     "url": "https://www.barlavento.pt/gnr-detencao-albufeira-furto-qualificado/",
@@ -407,62 +374,7 @@
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
     "feed": "https://www.barlavento.pt/?s=Albufeira&feed=rss2",
-    "read_at": "2026-11-26T06:08:15Z",
-    "mentions_place": true
-   },
-   {
-    "title": "António Nóbrega apresenta projeto em Albufeira para reforçar a prevenção de sismos e salvar vidas",
-    "url": "https://postal.pt/edicaopapel/antonio-nobrega-apresenta-projeto-em-albufeira-para-reforcar-a-prevencao-de-sismos-e-salvar-vidas/",
-    "published": "2026-11-22T11:00Z",
-    "date": "2026-11-22",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Albufeira&feed=rss2",
-    "read_at": "2026-11-26T06:08:22Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Luna Silva quer criar Assembleia Municipal da Juventude em Albufeira",
-    "url": "https://postal.pt/edicaopapel/luna-silva-quer-criar-assembleia-municipal-da-juventude-em-albufeira/",
-    "published": "2026-11-21T17:30Z",
-    "date": "2026-11-21",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Albufeira&feed=rss2",
-    "read_at": "2026-11-26T06:08:22Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Albufeira apresenta projeto inovador de prevenção de sismos e catástrofes",
-    "url": "https://postal.pt/edicaopapel/albufeira-apresenta-projeto-inovador-de-prevencao-de-sismos-e-catastrofes/",
-    "published": "2026-11-21T10:00Z",
-    "date": "2026-11-21",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Albufeira&feed=rss2",
-    "read_at": "2026-11-26T06:08:22Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Assalto à mão armada em agência do Novo Banco em Albufeira está a ser investigado pela PJ",
-    "url": "https://postal.pt/algarve/assalto-a-mao-armada-em-agencia-do-novo-banco-em-albufeira-esta-a-ser-investigado-pela-pj/",
-    "published": "2026-11-20T17:30Z",
-    "date": "2026-11-20",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Albufeira&feed=rss2",
-    "read_at": "2026-11-26T06:08:22Z",
-    "mentions_place": true
-   },
-   {
-    "title": "MP pede perda de mandato do presidente da Câmara de Albufeira por nomeação da irmã",
-    "url": "https://postal.pt/politica/mp-pede-perda-de-mandato-do-presidente-da-camara-de-albufeira-por-nomeacao-da-irma/",
-    "published": "2026-11-20T07:45Z",
-    "date": "2026-11-20",
-    "source": "Postal do Algarve",
-    "source_site": "https://postal.pt/",
-    "feed": "https://postal.pt/?s=Albufeira&feed=rss2",
-    "read_at": "2026-11-26T06:08:22Z",
+    "read_at": "2026-11-28T07:30:18Z",
     "mentions_place": true
    },
    {
@@ -473,7 +385,18 @@
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
     "feed": "https://www.barlavento.pt/?s=Albufeira&feed=rss2",
-    "read_at": "2026-11-26T06:08:15Z",
+    "read_at": "2026-11-28T07:30:18Z",
+    "mentions_place": true
+   },
+   {
+    "title": "PS quer OE2027 com estudo sobre ligação de albufeiras nos distritos de Beja e Faro",
+    "url": "https://www.barlavento.pt/ps-estudo-ligacoes-monte-rocha-santa-clara-bravura/",
+    "published": "2026-11-19T11:24Z",
+    "date": "2026-11-19",
+    "source": "Barlavento",
+    "source_site": "https://www.barlavento.pt/",
+    "feed": "https://www.barlavento.pt/?s=Albufeira&feed=rss2",
+    "read_at": "2026-11-28T07:30:18Z",
     "mentions_place": true
    }
   ]

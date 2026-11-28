@@ -5,7 +5,7 @@
  "kind": "city",
  "parent": "portugal",
  "status": "live",
- "updated": "2026-11-26",
+ "updated": "2026-11-28",
  "by": "place.castelo-branco@PrompTugal.dinis",
  "mandate": "PrompTugal.news Castelo Branco: AI and technology in Castelo Branco, a Beira Baixa district capital whose centre of gravity is its polytechnic, now the Universidade Politécnica de Castelo Branco, and a small circle of local tech firms, and what reaches Castelo Branco from Portugal, Europe and the world. Independent. Every fact sourced.",
  "gravity": {
@@ -533,83 +533,105 @@
   }
  ],
  "latest_news": {
-  "read_at": "2026-11-26T02:34Z",
+  "read_at": "2026-11-28T07:37Z",
   "by": "place.castelo-branco@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
   "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
   "main_headline": {
-   "title": "Castelo Branco",
-   "url": "https://www.beirabaixatv.pt/castelo-branco-6300/",
+   "title": "O movimento contra mega-projetos",
+   "url": "https://www.beirabaixatv.pt/o-movimento-contra-mega-projetos-como-parques-eolicos-e-minas-de-litio-anuncio/",
    "source": "Beira Baixa TV",
-   "date": "2026-11-25",
-   "read_at": "2026-11-26T02:30:38Z",
-   "names_place": true
+   "date": "2026-11-27",
+   "read_at": "2026-11-28T07:27:39Z",
+   "names_place": false
   },
   "items": [
    {
-    "title": "Castelo Branco",
-    "url": "https://www.beirabaixatv.pt/castelo-branco-6300/",
-    "published": "2026-11-25T21:10Z",
+    "title": "O movimento contra mega-projetos",
+    "url": "https://www.beirabaixatv.pt/o-movimento-contra-mega-projetos-como-parques-eolicos-e-minas-de-litio-anuncio/",
+    "published": "2026-11-27T21:10Z",
     "source": "Beira Baixa TV",
     "source_site": "http://beirabaixatv.pt",
     "feed": "http://beirabaixatv.pt/feed/",
-    "read_at": "2026-11-26T02:30:38Z",
-    "mentions_place": true,
-    "date": "2026-11-25"
+    "read_at": "2026-11-28T07:27:39Z",
+    "mentions_place": false,
+    "date": "2026-11-27"
    },
    {
-    "title": "A Associação Humanitária dos Bombeiros Voluntários de Proença-a-Nova celebra est",
-    "url": "https://www.beirabaixatv.pt/a-associacao-humanitaria-dos-bombeiros-voluntarios-de-proenca-a-nova-celebra-est/",
-    "published": "2026-11-25T20:29Z",
+    "title": "O Agrupamento de Escolas da Sertã fez chegar à redação da Beira Baixa TV um comu",
+    "url": "https://www.beirabaixatv.pt/o-agrupamento-de-escolas-da-serta-fez-chegar-a-redacao-da-beira-baixa-tv-um-comu/",
+    "published": "2026-11-27T20:40Z",
     "source": "Beira Baixa TV",
     "source_site": "http://beirabaixatv.pt",
     "feed": "http://beirabaixatv.pt/feed/",
-    "read_at": "2026-11-26T02:30:38Z",
+    "read_at": "2026-11-28T07:27:39Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
    },
    {
-    "title": "Faleceu Maria Felismina de Jesus Caetano, aos 79 anos, natural da Covilhã.",
-    "url": "https://www.beirabaixatv.pt/faleceu-maria-felismina-de-jesus-caetano-aos-79-anos-natural-da-covilha/",
-    "published": "2026-11-25T20:10Z",
+    "title": "EM DIRETO: BEIRA BAIXA TV",
+    "url": "https://www.beirabaixatv.pt/em-direto-beira-baixa-tv-1271/",
+    "published": "2026-11-27T20:10Z",
     "source": "Beira Baixa TV",
     "source_site": "http://beirabaixatv.pt",
     "feed": "http://beirabaixatv.pt/feed/",
-    "read_at": "2026-11-26T02:30:38Z",
+    "read_at": "2026-11-28T07:27:39Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
    },
    {
-    "title": "A proposta do PS para reforçar a execução do Programa de Revitalização do Parque",
-    "url": "https://www.beirabaixatv.pt/a-proposta-do-ps-para-reforcar-a-execucao-do-programa-de-revitalizacao-do-parque/",
-    "published": "2026-11-25T19:40Z",
+    "title": "A idade da reforma deverá subir para 67 anos em 2028",
+    "url": "https://www.beirabaixatv.pt/a-idade-da-reforma-devera-subir-para-67-anos-em-2028-de-acordo-com-os-calculos/",
+    "published": "2026-11-27T19:40Z",
     "source": "Beira Baixa TV",
     "source_site": "http://beirabaixatv.pt",
     "feed": "http://beirabaixatv.pt/feed/",
-    "read_at": "2026-11-26T02:30:38Z",
+    "read_at": "2026-11-28T07:27:39Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
    },
    {
-    "title": "Bruna Vilarinho anunciou, esta terça-feira",
-    "url": "https://www.beirabaixatv.pt/bruna-vilarinho-anunciou-esta-terca-feira-24-de-novembro-atraves-das-suas-red/",
-    "published": "2026-11-25T19:10Z",
+    "title": "A Câmara de Belmonte aprovou hoje",
+    "url": "https://www.beirabaixatv.pt/a-camara-de-belmonte-aprovou-hoje-por-unanimidade-na-reuniao-publica-do-execut/",
+    "published": "2026-11-27T19:10Z",
     "source": "Beira Baixa TV",
     "source_site": "http://beirabaixatv.pt",
     "feed": "http://beirabaixatv.pt/feed/",
-    "read_at": "2026-11-26T02:30:38Z",
+    "read_at": "2026-11-28T07:27:39Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
    },
    {
-    "title": "Raquel Maria à conversa no «Chá das Marias»",
-    "url": "https://www.beirabaixatv.pt/raquel-maria-a-conversa-no-cha-das-marias-2/",
-    "published": "2026-11-25T18:36Z",
+    "title": "Faleceu o Dr. Jorge Manuel Pereira Marques, aos 60 anos",
+    "url": "https://www.beirabaixatv.pt/faleceu-o-dr-jorge-manuel-pereira-marques-aos-60-anos-residente-no-barco-cov/",
+    "published": "2026-11-27T18:40Z",
     "source": "Beira Baixa TV",
     "source_site": "http://beirabaixatv.pt",
     "feed": "http://beirabaixatv.pt/feed/",
-    "read_at": "2026-11-26T02:30:38Z",
+    "read_at": "2026-11-28T07:27:39Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
+   },
+   {
+    "title": "Natal, literatura, ballet e dinamarqueses em dezembro no TMC",
+    "url": "https://noticiasdacovilha.pt/natal-literatura-ballet-e-dinamarqueses-em-dezembro-no-tmc/",
+    "published": "2026-11-26T11:20Z",
+    "source": "Notícias da Covilhã",
+    "source_site": "https://noticiasdacovilha.pt",
+    "feed": "https://noticiasdacovilha.pt/feed/",
+    "read_at": "2026-11-28T07:27:41Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Mais 95 novos casos de violência doméstica na Cova da Beira",
+    "url": "https://noticiasdacovilha.pt/mais-95-novos-casos-de-violencia-domestica-na-cova-da-beira/",
+    "published": "2026-11-26T10:09Z",
+    "source": "Notícias da Covilhã",
+    "source_site": "https://noticiasdacovilha.pt",
+    "feed": "https://noticiasdacovilha.pt/feed/",
+    "read_at": "2026-11-28T07:27:41Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
    },
    {
     "title": "Covilhã celebra 50 anos do poder democrático",
@@ -618,7 +640,7 @@
     "source": "Notícias da Covilhã",
     "source_site": "https://noticiasdacovilha.pt",
     "feed": "https://noticiasdacovilha.pt/feed/",
-    "read_at": "2026-11-26T02:30:41Z",
+    "read_at": "2026-11-28T07:27:41Z",
     "mentions_place": false,
     "date": "2026-11-23"
    },
@@ -629,7 +651,7 @@
     "source": "Notícias da Covilhã",
     "source_site": "https://noticiasdacovilha.pt",
     "feed": "https://noticiasdacovilha.pt/feed/",
-    "read_at": "2026-11-26T02:30:41Z",
+    "read_at": "2026-11-28T07:27:41Z",
     "mentions_place": false,
     "date": "2026-11-19"
    },
@@ -640,7 +662,7 @@
     "source": "Notícias da Covilhã",
     "source_site": "https://noticiasdacovilha.pt",
     "feed": "https://noticiasdacovilha.pt/feed/",
-    "read_at": "2026-11-26T02:30:41Z",
+    "read_at": "2026-11-28T07:27:41Z",
     "mentions_place": false,
     "date": "2026-11-19"
    },
@@ -651,31 +673,53 @@
     "source": "Notícias da Covilhã",
     "source_site": "https://noticiasdacovilha.pt",
     "feed": "https://noticiasdacovilha.pt/feed/",
-    "read_at": "2026-11-26T02:30:41Z",
+    "read_at": "2026-11-28T07:27:41Z",
     "mentions_place": false,
     "date": "2026-11-18"
    },
    {
-    "title": "Passe social único de 30 euros vai ter que esperar",
-    "url": "https://noticiasdacovilha.pt/passe-social-unico-de-30-euros-vai-ter-que-esperar/",
-    "published": "2026-11-18T11:14Z",
-    "source": "Notícias da Covilhã",
-    "source_site": "https://noticiasdacovilha.pt",
-    "feed": "https://noticiasdacovilha.pt/feed/",
-    "read_at": "2026-11-26T02:30:41Z",
+    "title": "SPCPC da Sertã realiza Prevenção e Segurança no Meio Rural",
+    "url": "https://avozdecastelobranco.sapo.pt/noticias/spcpc-da-serta-realiza-prevencao-e-seguranca-no-meio-rural",
+    "published": null,
+    "source": "A Voz de Castelo Branco",
+    "source_site": "https://avozdecastelobranco.sapo.pt/",
+    "feed": "https://avozdecastelobranco.sapo.pt/feed/",
+    "read_at": "2026-11-28T07:27:36Z",
     "mentions_place": false,
-    "date": "2026-11-18"
+    "date": null
    },
    {
-    "title": "Faculdade de Ciências da Saúde distinguida",
-    "url": "https://noticiasdacovilha.pt/faculdade-de-ciencias-da-saude-distinguida/",
-    "published": "2026-11-17T11:49Z",
-    "source": "Notícias da Covilhã",
-    "source_site": "https://noticiasdacovilha.pt",
-    "feed": "https://noticiasdacovilha.pt/feed/",
-    "read_at": "2026-11-26T02:30:41Z",
+    "title": "Castelo Branco volta a ser distinguido como “Territórios da Longevidade” pela CCDR",
+    "url": "https://avozdecastelobranco.sapo.pt/noticias/castelo-branco-volta-a-ser-distinguido-como-territorios-da-longevidade-pela-ccdr",
+    "published": null,
+    "source": "A Voz de Castelo Branco",
+    "source_site": "https://avozdecastelobranco.sapo.pt/",
+    "feed": "https://avozdecastelobranco.sapo.pt/feed/",
+    "read_at": "2026-11-28T07:27:36Z",
+    "mentions_place": true,
+    "date": null
+   },
+   {
+    "title": "Versigent expande unidade na área empresarial de Castelo Branco",
+    "url": "https://avozdecastelobranco.sapo.pt/noticias/versigent-expande-unidade-na-area-empresarial-de-castelo-branco",
+    "published": null,
+    "source": "A Voz de Castelo Branco",
+    "source_site": "https://avozdecastelobranco.sapo.pt/",
+    "feed": "https://avozdecastelobranco.sapo.pt/feed/",
+    "read_at": "2026-11-28T07:27:36Z",
+    "mentions_place": true,
+    "date": null
+   },
+   {
+    "title": "Município galardoado com Prémio ODSlocal 2026 – Selo Progresso Global",
+    "url": "https://avozdecastelobranco.sapo.pt/noticias/municipio-galardoado-com-premio-odslocal-2026-selo-progresso-global",
+    "published": null,
+    "source": "A Voz de Castelo Branco",
+    "source_site": "https://avozdecastelobranco.sapo.pt/",
+    "feed": "https://avozdecastelobranco.sapo.pt/feed/",
+    "read_at": "2026-11-28T07:27:36Z",
     "mentions_place": false,
-    "date": "2026-11-17"
+    "date": null
    },
    {
     "title": "Centro de Cultura  expõe projeto que cruza a fotografia com a literatura",
@@ -684,7 +728,7 @@
     "source": "A Voz de Castelo Branco",
     "source_site": "https://avozdecastelobranco.sapo.pt/",
     "feed": "https://avozdecastelobranco.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:30:36Z",
+    "read_at": "2026-11-28T07:27:36Z",
     "mentions_place": false,
     "date": null
    },
@@ -695,52 +739,8 @@
     "source": "A Voz de Castelo Branco",
     "source_site": "https://avozdecastelobranco.sapo.pt/",
     "feed": "https://avozdecastelobranco.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:30:36Z",
+    "read_at": "2026-11-28T07:27:36Z",
     "mentions_place": true,
-    "date": null
-   },
-   {
-    "title": "Paços do Concelho recebe delegação empresarial chinesa",
-    "url": "https://avozdecastelobranco.sapo.pt/noticias/pacos-do-concelho-recebe-delegacao-empresarial-chinesa",
-    "published": null,
-    "source": "A Voz de Castelo Branco",
-    "source_site": "https://avozdecastelobranco.sapo.pt/",
-    "feed": "https://avozdecastelobranco.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:30:36Z",
-    "mentions_place": false,
-    "date": null
-   },
-   {
-    "title": "Realização da 1.ª edição da Feira \"Azeitona & Tradição\" felicitada pelo Executivo",
-    "url": "https://avozdecastelobranco.sapo.pt/noticias/realizacao-da-1-edicao-da-feira-azeitona-e-tradicao-felicitada-pelo-executivo",
-    "published": null,
-    "source": "A Voz de Castelo Branco",
-    "source_site": "https://avozdecastelobranco.sapo.pt/",
-    "feed": "https://avozdecastelobranco.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:30:36Z",
-    "mentions_place": false,
-    "date": null
-   },
-   {
-    "title": "União Idanhense vence Belmonte em jogo da 4.ª jornada da Taça de Honra José Farromba",
-    "url": "https://avozdecastelobranco.sapo.pt/noticias/uniao-idanhense-vence-belmonte-em-jogo-da-4-jornada-da-taca-de-honra-jose-farromba",
-    "published": null,
-    "source": "A Voz de Castelo Branco",
-    "source_site": "https://avozdecastelobranco.sapo.pt/",
-    "feed": "https://avozdecastelobranco.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:30:36Z",
-    "mentions_place": false,
-    "date": null
-   },
-   {
-    "title": "D. Teresinha Sanches e Fernando Dias de Carvalho dão nome aos novos centros de saúde de Alcains",
-    "url": "https://avozdecastelobranco.sapo.pt/noticias/d-teresinha-sanches-e-fernando-dias-de-carvalho-dao-nome-aosnovos-centros-de-saude-de-alcains",
-    "published": null,
-    "source": "A Voz de Castelo Branco",
-    "source_site": "https://avozdecastelobranco.sapo.pt/",
-    "feed": "https://avozdecastelobranco.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:30:36Z",
-    "mentions_place": false,
     "date": null
    }
   ]

@@ -5,7 +5,7 @@
  "kind": "municipality",
  "parent": "algarve",
  "status": "live",
- "updated": "2026-11-26",
+ "updated": "2026-11-28",
  "by": "place.portimao@PrompTugal.dinis",
  "mandate": "PrompTugal.news Portimão: AI and technology in Portimão, a council and a water company putting AI to work in public services, a smart-city incubator and a private higher-education institute, and what reaches Portimão from the Algarve, Portugal and the world. Independent; every fact sourced.",
  "gravity": {
@@ -537,18 +537,40 @@
   }
  ],
  "latest_news": {
-  "read_at": "2026-11-26T06:13:32Z",
+  "read_at": "2026-11-28T07:37:37Z",
   "by": "place.portimao@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
   "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
   "main_headline": {
-   "title": "Portimão apresenta em sessão pública as primeiras conclusões do diagnóstico ao turismo",
-   "url": "https://www.barlavento.pt/portimao-apresenta-em-sessao-publica-as-primeiras-conclusoes-do-diagnostico-ao-turismo/",
+   "title": "Portimão conclui diagnóstico para definir estratégia de turismo até 2035",
+   "url": "https://www.barlavento.pt/portimao-conclui-diagnostico-para-definir-estrategia-de-turismo-ate-2035/",
    "source": "Barlavento",
-   "date": "2026-11-23",
-   "read_at": "2026-11-26T06:11:15Z",
+   "date": "2026-11-26",
+   "read_at": "2026-11-28T07:25:19Z",
    "names_place": true
   },
   "items": [
+   {
+    "title": "Portimão conclui diagnóstico para definir estratégia de turismo até 2035",
+    "url": "https://www.barlavento.pt/portimao-conclui-diagnostico-para-definir-estrategia-de-turismo-ate-2035/",
+    "published": "2026-11-26T15:30Z",
+    "source": "Barlavento",
+    "source_site": "https://www.barlavento.pt/",
+    "feed": "https://www.barlavento.pt/feed/",
+    "read_at": "2026-11-28T07:25:19Z",
+    "mentions_place": true,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Portimão vive 37 dias de Natal com pista de gelo e 60 espetáculos gratuitos",
+    "url": "https://www.barlavento.pt/portimao-vive-37-dias-de-natal-com-pista-de-gelo-e-60-espetaculos-gratuitos/",
+    "published": "2026-11-26T09:44Z",
+    "date": "2026-11-26",
+    "source": "Barlavento",
+    "source_site": "https://www.barlavento.pt/",
+    "feed": "https://www.barlavento.pt/?s=Portimão&feed=rss2",
+    "read_at": "2026-11-28T07:32:42Z",
+    "mentions_place": true
+   },
    {
     "title": "Portimão apresenta em sessão pública as primeiras conclusões do diagnóstico ao turismo",
     "url": "https://www.barlavento.pt/portimao-apresenta-em-sessao-publica-as-primeiras-conclusoes-do-diagnostico-ao-turismo/",
@@ -557,7 +579,7 @@
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
     "feed": "https://www.barlavento.pt/?s=Portimão&feed=rss2",
-    "read_at": "2026-11-26T06:11:15Z",
+    "read_at": "2026-11-28T07:32:42Z",
     "mentions_place": true
    },
    {
@@ -568,7 +590,7 @@
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
     "feed": "https://www.barlavento.pt/?s=Portimão&feed=rss2",
-    "read_at": "2026-11-26T06:11:15Z",
+    "read_at": "2026-11-28T07:32:42Z",
     "mentions_place": true
    },
    {
@@ -579,7 +601,7 @@
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
     "feed": "https://www.barlavento.pt/?s=Portimão&feed=rss2",
-    "read_at": "2026-11-26T06:11:15Z",
+    "read_at": "2026-11-28T07:32:42Z",
     "mentions_place": true
    },
    {
@@ -590,29 +612,7 @@
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
     "feed": "https://www.barlavento.pt/?s=Portimão&feed=rss2",
-    "read_at": "2026-11-26T06:11:15Z",
-    "mentions_place": true
-   },
-   {
-    "title": "MotoGP serve de teste à logística do regresso da Fórmula 1 a Portimão",
-    "url": "https://www.barlavento.pt/motogp-teste-logistica-regresso-formula-1-portimao/",
-    "published": "2026-11-21T13:31Z",
-    "date": "2026-11-21",
-    "source": "Barlavento",
-    "source_site": "https://www.barlavento.pt/",
-    "feed": "https://www.barlavento.pt/?s=Portimão&feed=rss2",
-    "read_at": "2026-11-26T06:11:15Z",
-    "mentions_place": true
-   },
-   {
-    "title": "Marco Bezzecchi conquista a pole do MotoGP em Portimão com recorde do circuito",
-    "url": "https://www.barlavento.pt/marco-bezzecchi-conquista-a-pole-do-motogp-em-portimao-com-recorde-do-circuito/",
-    "published": "2026-11-21T13:02Z",
-    "date": "2026-11-21",
-    "source": "Barlavento",
-    "source_site": "https://www.barlavento.pt/",
-    "feed": "https://www.barlavento.pt/?s=Portimão&feed=rss2",
-    "read_at": "2026-11-26T06:11:15Z",
+    "read_at": "2026-11-28T07:32:42Z",
     "mentions_place": true
    }
   ]

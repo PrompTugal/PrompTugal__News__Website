@@ -5,7 +5,7 @@
  "kind": "city",
  "parent": "loule",
  "status": "live",
- "updated": "2026-11-26",
+ "updated": "2026-11-28",
  "by": "place.quarteira@PrompTugal.dinis",
  "mandate": "PrompTugal.news Quarteira: AI and technology in Quarteira, a beach and golf city whose parish holds Vilamoura, and what reaches Quarteira from Loulé, the Algarve, Portugal and the world. Independent; every fact sourced.",
  "gravity": {
@@ -384,83 +384,83 @@
   }
  ],
  "latest_news": {
-  "read_at": "2026-11-26T02:33Z",
+  "read_at": "2026-11-28T07:36Z",
   "by": "place.quarteira@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
   "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
   "main_headline": {
-   "title": "A região portuguesa onde se vive menos tempo e com a escolaridade abaixo da média nacional",
-   "url": "https://postal.pt/economia/a-regiao-portuguesa-onde-se-vive-menos-tempo-e-com-a-escolaridade-abaixo-da-media-nacional/",
+   "title": "Chuva dá tréguas no feriado de 1 de dezembro, mas frio aperta e termómetros podem descer aos 3 ºC",
+   "url": "https://postal.pt/nacional/tempo/chuva-da-treguas-no-feriado-de-1-de-dezembro-mas-frio-aperta-e-termometros-podem-descer-aos-3-oc/",
    "source": "Postal do Algarve",
-   "date": "2026-11-25",
-   "read_at": "2026-11-26T02:28:26Z",
+   "date": "2026-11-28",
+   "read_at": "2026-11-28T07:25:21Z",
    "names_place": false
   },
   "items": [
    {
-    "title": "A região portuguesa onde se vive menos tempo e com a escolaridade abaixo da média nacional",
-    "url": "https://postal.pt/economia/a-regiao-portuguesa-onde-se-vive-menos-tempo-e-com-a-escolaridade-abaixo-da-media-nacional/",
-    "published": "2026-11-25T22:05Z",
+    "title": "Chuva dá tréguas no feriado de 1 de dezembro, mas frio aperta e termómetros podem descer aos 3 ºC",
+    "url": "https://postal.pt/nacional/tempo/chuva-da-treguas-no-feriado-de-1-de-dezembro-mas-frio-aperta-e-termometros-podem-descer-aos-3-oc/",
+    "published": "2026-11-28T07:00Z",
     "source": "Postal do Algarve",
     "source_site": "https://postal.pt/",
     "feed": "https://postal.pt/feed/",
-    "read_at": "2026-11-26T02:28:26Z",
+    "read_at": "2026-11-28T07:25:21Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-28"
    },
    {
-    "title": "Viu um carro usado barato num leilão online? Faça esta conta antes de licitar",
-    "url": "https://postal.pt/nacional/viu-um-carro-usado-barato-num-leilao-online-faca-esta-conta-antes-de-licitar/",
-    "published": "2026-11-25T20:20Z",
+    "title": "E-REDES vai cortar a eletricidade no domingo em 12 concelhos: o Algarve está na lista e há interrupções de até sete horas",
+    "url": "https://postal.pt/nacional/e-redes-vai-cortar-a-eletricidade-no-domingo-em-12-concelhos-o-algarve-esta-na-lista-e-ha-interrupcoes-de-ate-sete-horas/",
+    "published": "2026-11-28T06:20Z",
     "source": "Postal do Algarve",
     "source_site": "https://postal.pt/",
     "feed": "https://postal.pt/feed/",
-    "read_at": "2026-11-26T02:28:26Z",
+    "read_at": "2026-11-28T07:25:21Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-28"
    },
    {
-    "title": "Tem uma segunda casa onde quase não gasta eletricidade? Há uma taxa que pode deixar de pagar",
-    "url": "https://postal.pt/nacional/tem-uma-segunda-casa-onde-quase-nao-gasta-eletricidade-ha-uma-taxa-que-pode-deixar-de-pagar/",
-    "published": "2026-11-25T20:20Z",
+    "title": "Lembra-se do Aqualine? O que é feito do parque aquático no Algarve que está fechado há mais de 30 anos",
+    "url": "https://postal.pt/algarve/lembra-se-do-aqualine-o-que-e-feito-do-parque-aquatico-no-algarve-que-esta-fechado-ha-mais-de-30-anos/",
+    "published": "2026-11-27T20:40Z",
     "source": "Postal do Algarve",
     "source_site": "https://postal.pt/",
     "feed": "https://postal.pt/feed/",
-    "read_at": "2026-11-26T02:28:26Z",
+    "read_at": "2026-11-28T07:25:21Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
    },
    {
-    "title": "Bebe água logo ao acordar mesmo sem ter sede? Nutricionista explica se deve manter este hábito",
-    "url": "https://postal.pt/saude/bebe-agua-logo-ao-acordar-mesmo-sem-ter-sede-nutricionista-explica-se-deve-manter-este-habito/",
-    "published": "2026-11-25T20:10Z",
+    "title": "Se compra azeite virgem extra, tenha atenção: estas quatro marcas vendidas com essa indicação falharam teste de qualidade",
+    "url": "https://postal.pt/nacional/se-compra-azeite-virgem-extra-tenha-atencao-estas-quatro-marcas-vendidas-com-essa-indicacao-falharam-teste-de-qualidade/",
+    "published": "2026-11-27T20:30Z",
     "source": "Postal do Algarve",
     "source_site": "https://postal.pt/",
     "feed": "https://postal.pt/feed/",
-    "read_at": "2026-11-26T02:28:26Z",
+    "read_at": "2026-11-28T07:25:21Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
    },
    {
-    "title": "Cinco passeios de carro para descobrir o Algarve no inverno",
-    "url": "https://postal.pt/auto/cinco-passeios-de-carro-para-descobrir-o-algarve-no-inverno/",
-    "published": "2026-11-25T19:10Z",
+    "title": "Moncarapacho celebra dezembro com matinés seniores, música e tradições natalícias",
+    "url": "https://postal.pt/algarve/moncarapacho-celebra-dezembro-com-matines-seniores-musica-e-tradicoes-natalicias/",
+    "published": "2026-11-27T19:34Z",
     "source": "Postal do Algarve",
     "source_site": "https://postal.pt/",
     "feed": "https://postal.pt/feed/",
-    "read_at": "2026-11-26T02:28:26Z",
+    "read_at": "2026-11-28T07:25:21Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
    },
    {
-    "title": "Algarve aprova revisão do programa regional de prevenção e gestão de fogos rurais",
-    "url": "https://postal.pt/algarve/algarve-aprova-revisao-do-programa-regional-de-prevencao-e-gestao-de-fogos-rurais/",
-    "published": "2026-11-25T19:00Z",
+    "title": "Iniciativa solidária na Luz de Tavira transforma fardamento usado em camas para animais",
+    "url": "https://postal.pt/algarve/iniciativa-solidaria-na-luz-de-tavira-transforma-fardamento-usado-em-camas-para-animais/",
+    "published": "2026-11-27T19:06Z",
     "source": "Postal do Algarve",
     "source_site": "https://postal.pt/",
     "feed": "https://postal.pt/feed/",
-    "read_at": "2026-11-26T02:28:26Z",
+    "read_at": "2026-11-28T07:25:21Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
    }
   ]
  }

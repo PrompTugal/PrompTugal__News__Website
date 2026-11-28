@@ -5,7 +5,7 @@
  "kind": "city",
  "parent": "portugal",
  "status": "live",
- "updated": "2026-11-26",
+ "updated": "2026-11-28",
  "by": "place.portalegre@PrompTugal.dinis",
  "mandate": "PrompTugal.news Portalegre: AI and technology in Portalegre, the Alto Alentejo capital whose centre of gravity is its polytechnic university and the IoT, agriculture and defence-tech ambitions around it, and what reaches Portalegre from the Alentejo, Portugal and the world. Independent; every fact sourced.",
  "gravity": {
@@ -543,149 +543,127 @@
   }
  ],
  "latest_news": {
-  "read_at": "2026-11-26T02:34Z",
+  "read_at": "2026-11-28T07:37Z",
   "by": "place.portalegre@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
   "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
   "main_headline": {
-   "title": "PS e PSD disputam autoria dos investimentos previstos para o distrito de Portalegre",
-   "url": "https://radioportalegre.pt/ps-e-psd-disputam-autoria-dos-investimentos-previstos-para-o-distrito-de-portalegre/",
-   "source": "Rádio Portalegre",
-   "date": "2026-11-25",
-   "read_at": "2026-11-26T02:32:21Z",
-   "names_place": true
+   "title": "Debate with Ukraine’s Minister of Agriculture | News",
+   "url": "https://canalalentejo.sapo.pt/debate-with-ukraines-minister-of-agriculture-news/",
+   "source": "Canal Alentejo",
+   "date": "2026-11-28",
+   "read_at": "2026-11-28T07:29:03Z",
+   "names_place": false
   },
   "items": [
    {
-    "title": "Patinar, dar uma volta ou voar? No Elvas Cidade Natal, os mais novos escolhem p…",
-    "url": "https://canalalentejo.sapo.pt/patinar-dar-uma-volta-ou-voar-no-elvas-cidade-natal-os-mais-novos-escolhem-p/",
-    "published": "2026-11-25T21:00Z",
+    "title": "Debate with Ukraine’s Minister of Agriculture | News",
+    "url": "https://canalalentejo.sapo.pt/debate-with-ukraines-minister-of-agriculture-news/",
+    "published": "2026-11-28T07:25Z",
     "source": "Canal Alentejo",
     "source_site": "https://canalalentejo.sapo.pt/",
     "feed": "https://canalalentejo.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:32:13Z",
+    "read_at": "2026-11-28T07:29:03Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-28"
    },
    {
-    "title": "Portugal apresentou, na COP31, medidas e soluções nacionais responder aos desaf…",
-    "url": "https://canalalentejo.sapo.pt/portugal-apresentou-na-cop31-medidas-e-solucoes-nacionais-responder-aos-desaf/",
-    "published": "2026-11-25T20:30Z",
+    "title": "Plataformas digitais: Eurodeputados querem melhorar as condições de trabalho | Atualidade",
+    "url": "https://canalalentejo.sapo.pt/plataformas-digitais-eurodeputados-querem-melhorar-as-condicoes-de-trabalho-atualidade/",
+    "published": "2026-11-28T07:24Z",
     "source": "Canal Alentejo",
     "source_site": "https://canalalentejo.sapo.pt/",
     "feed": "https://canalalentejo.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:32:13Z",
+    "read_at": "2026-11-28T07:29:03Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-28"
    },
    {
-    "title": "VILA VIÇOSA ǀ COMEMORAÇÕES DO 1º DEZEMBRO\n Comemorações da Restauração da Indep…",
-    "url": "https://canalalentejo.sapo.pt/vila-vicosa-%c7%80-comemoracoes-do-1o-dezembro-comemoracoes-da-restauracao-da-indep-2/",
-    "published": "2026-11-25T20:30Z",
+    "title": "The Employment and Social Affairs committee adopts position on a new ESF | News",
+    "url": "https://canalalentejo.sapo.pt/the-employment-and-social-affairs-committee-adopts-position-on-a-new-esf-news/",
+    "published": "2026-11-28T07:03Z",
     "source": "Canal Alentejo",
     "source_site": "https://canalalentejo.sapo.pt/",
     "feed": "https://canalalentejo.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:32:13Z",
+    "read_at": "2026-11-28T07:29:03Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-28"
    },
    {
-    "title": "Com chocolate ou sem chocolate? \n\nQual o seu preferido? \n\nEstas e outras delíci…",
-    "url": "https://canalalentejo.sapo.pt/com-chocolate-ou-sem-chocolate-qual-o-seu-preferido-estas-e-outras-delici/",
-    "published": "2026-11-25T19:36Z",
+    "title": "First ever EU rules on combating violence against women: deal reached | News",
+    "url": "https://canalalentejo.sapo.pt/first-ever-eu-rules-on-combating-violence-against-women-deal-reached-news/",
+    "published": "2026-11-28T06:10Z",
     "source": "Canal Alentejo",
     "source_site": "https://canalalentejo.sapo.pt/",
     "feed": "https://canalalentejo.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:32:13Z",
+    "read_at": "2026-11-28T07:29:03Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-28"
    },
    {
-    "title": "Presidente Clarisse Campos foi convidada no Palácio de Belém\n\nO Presidente da R…",
-    "url": "https://canalalentejo.sapo.pt/presidente-clarisse-campos-foi-convidada-no-palacio-de-belemo-presidente-da-r/",
-    "published": "2026-11-25T19:30Z",
+    "title": "Segurança alimentar: Eurodeputados apelam a medidas para aumentar produção da UE | Atualidade",
+    "url": "https://canalalentejo.sapo.pt/seguranca-alimentar-eurodeputados-apelam-a-medidas-para-aumentar-producao-da-ue-atualidade/",
+    "published": "2026-11-28T06:10Z",
     "source": "Canal Alentejo",
     "source_site": "https://canalalentejo.sapo.pt/",
     "feed": "https://canalalentejo.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:32:13Z",
+    "read_at": "2026-11-28T07:29:03Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-28"
    },
    {
-    "title": "Hoje assinala-se o Dia Internacional para a Eliminação da Violência contra as M…",
-    "url": "https://canalalentejo.sapo.pt/hoje-assinala-se-o-dia-internacional-para-a-eliminacao-da-violencia-contra-as-m/",
-    "published": "2026-11-25T19:30Z",
+    "title": "Rendimento mínimo: Aumentar o apoio, a acessibilidade e a inclusão | Atualidade",
+    "url": "https://canalalentejo.sapo.pt/rendimento-minimo-aumentar-o-apoio-a-acessibilidade-e-a-inclusao-atualidade/",
+    "published": "2026-11-28T06:09Z",
     "source": "Canal Alentejo",
     "source_site": "https://canalalentejo.sapo.pt/",
     "feed": "https://canalalentejo.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:32:13Z",
+    "read_at": "2026-11-28T07:29:03Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-28"
    },
    {
-    "title": "PS e PSD disputam autoria dos investimentos previstos para o distrito de Portalegre",
-    "url": "https://radioportalegre.pt/ps-e-psd-disputam-autoria-dos-investimentos-previstos-para-o-distrito-de-portalegre/",
-    "published": "2026-11-25T17:26Z",
-    "source": "Rádio Portalegre",
-    "source_site": "https://radioportalegre.pt/",
-    "feed": "https://radioportalegre.pt/feed/",
-    "read_at": "2026-11-26T02:32:21Z",
+    "title": "GNR e Pingo Doce realizam almoço solidário de Natal para 100 idosos",
+    "url": "https://jornaldeportalegre.sapo.pt/noticias/gnr-e-pingo-doce-realizam-almoco-solidario-de-natal-para-100-idosos",
+    "published": null,
+    "source": "Jornal de Portalegre",
+    "source_site": "https://jornaldeportalegre.sapo.pt/",
+    "feed": "https://jornaldeportalegre.sapo.pt/feed/",
+    "read_at": "2026-11-28T07:29:10Z",
+    "mentions_place": false,
+    "date": null
+   },
+   {
+    "title": "Atividades nos Equipamentos Desportivos Municipais de Portalegre",
+    "url": "https://jornaldeportalegre.sapo.pt/noticias/atividades-nos-equipamentos-desportivos-municipais-de-portalegre",
+    "published": null,
+    "source": "Jornal de Portalegre",
+    "source_site": "https://jornaldeportalegre.sapo.pt/",
+    "feed": "https://jornaldeportalegre.sapo.pt/feed/",
+    "read_at": "2026-11-28T07:29:10Z",
     "mentions_place": true,
-    "date": "2026-11-25"
+    "date": null
    },
    {
-    "title": "GNR faz buscas no distrito de Portalegre em operação contra rede de apoio ao tráfico de droga",
-    "url": "https://radioportalegre.pt/gnr-faz-buscas-no-distrito-de-portalegre-em-operacao-contra-rede-de-apoio-ao-trafico-de-droga/",
-    "published": "2026-11-25T17:12Z",
-    "source": "Rádio Portalegre",
-    "source_site": "https://radioportalegre.pt/",
-    "feed": "https://radioportalegre.pt/feed/",
-    "read_at": "2026-11-26T02:32:21Z",
+    "title": "Empresários do Distrito de Portalegre reúnem com Turismo do Alentejo e Ribatejo",
+    "url": "https://jornaldeportalegre.sapo.pt/noticias/empresarios-do-distrito-de-portalegre-reunem-com-turismo-do-alentejo-e-ribatejo",
+    "published": null,
+    "source": "Jornal de Portalegre",
+    "source_site": "https://jornaldeportalegre.sapo.pt/",
+    "feed": "https://jornaldeportalegre.sapo.pt/feed/",
+    "read_at": "2026-11-28T07:29:10Z",
     "mentions_place": true,
-    "date": "2026-11-25"
+    "date": null
    },
    {
-    "title": "Portalegre: ampliação da residência dos Assentos acrescenta 80 camas e reforça capacidade de alojamento estudantil (c/fotos)",
-    "url": "https://radioportalegre.pt/portalegre-ampliacao-da-residencia-dos-assentos-acrescenta-80-camas-e-reforca-capacidade-de-alojamento-estudantil/",
-    "published": "2026-11-25T16:21Z",
-    "source": "Rádio Portalegre",
-    "source_site": "https://radioportalegre.pt/",
-    "feed": "https://radioportalegre.pt/feed/",
-    "read_at": "2026-11-26T02:32:21Z",
+    "title": "Novo minicampo de futebol de Portalegre inaugurado no Bairro das Lysias",
+    "url": "https://jornaldeportalegre.sapo.pt/noticias/novo-minicampo-de-futebol-de-portalegre-inaugurado-no-bairro-das-lysias",
+    "published": null,
+    "source": "Jornal de Portalegre",
+    "source_site": "https://jornaldeportalegre.sapo.pt/",
+    "feed": "https://jornaldeportalegre.sapo.pt/feed/",
+    "read_at": "2026-11-28T07:29:10Z",
     "mentions_place": true,
-    "date": "2026-11-25"
-   },
-   {
-    "title": "Portalegre: FOOTPARK das Lysias já está ao serviço da comunidade (c/fotos)",
-    "url": "https://radioportalegre.pt/portalegre-footpark-das-lysias-ja-esta-ao-servico-da-comunidade-c-fotos/",
-    "published": "2026-11-25T15:57Z",
-    "source": "Rádio Portalegre",
-    "source_site": "https://radioportalegre.pt/",
-    "feed": "https://radioportalegre.pt/feed/",
-    "read_at": "2026-11-26T02:32:21Z",
-    "mentions_place": true,
-    "date": "2026-11-25"
-   },
-   {
-    "title": "José Barros agradece homenagem do Estrela após conquista do campeonato brasileiro pelo Flamengo",
-    "url": "https://radioportalegre.pt/jose-barros-agradece-homenagem-do-estrela-apos-conquista-do-campeonato-brasileiro-pelo-flamengo/",
-    "published": "2026-11-25T11:06Z",
-    "source": "Rádio Portalegre",
-    "source_site": "https://radioportalegre.pt/",
-    "feed": "https://radioportalegre.pt/feed/",
-    "read_at": "2026-11-26T02:32:21Z",
-    "mentions_place": false,
-    "date": "2026-11-25"
-   },
-   {
-    "title": "FOOTPARK de Portalegre inaugurado esta quarta-feira após adiamento devido ao mau tempo",
-    "url": "https://radioportalegre.pt/footpark-de-portalegre-inaugurado-esta-quarta-feira-apos-adiamento-devido-ao-mau-tempo/",
-    "published": "2026-11-25T10:54Z",
-    "source": "Rádio Portalegre",
-    "source_site": "https://radioportalegre.pt/",
-    "feed": "https://radioportalegre.pt/feed/",
-    "read_at": "2026-11-26T02:32:21Z",
-    "mentions_place": true,
-    "date": "2026-11-25"
+    "date": null
    },
    {
     "title": "Campanha Black Friday 2026 - AF Portalegre x Veo decorre até 30 de novembro",
@@ -694,7 +672,7 @@
     "source": "Jornal de Portalegre",
     "source_site": "https://jornaldeportalegre.sapo.pt/",
     "feed": "https://jornaldeportalegre.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:32:19Z",
+    "read_at": "2026-11-28T07:29:10Z",
     "mentions_place": true,
     "date": null
    },
@@ -705,52 +683,8 @@
     "source": "Jornal de Portalegre",
     "source_site": "https://jornaldeportalegre.sapo.pt/",
     "feed": "https://jornaldeportalegre.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:32:19Z",
+    "read_at": "2026-11-28T07:29:10Z",
     "mentions_place": false,
-    "date": null
-   },
-   {
-    "title": "“Diálogos Tipografia Tapeçaria” patente até 24 de janeiro de 2027",
-    "url": "https://jornaldeportalegre.sapo.pt/noticias/dialogos-tipografia-tapecaria-patente-ate-24-de-janeiro-de-2027",
-    "published": null,
-    "source": "Jornal de Portalegre",
-    "source_site": "https://jornaldeportalegre.sapo.pt/",
-    "feed": "https://jornaldeportalegre.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:32:19Z",
-    "mentions_place": false,
-    "date": null
-   },
-   {
-    "title": "CAEP recebe um fascinante retrato de Camilo Castelo Branco",
-    "url": "https://jornaldeportalegre.sapo.pt/noticias/caep-recebe-um-fascinante-retrato-de-camilo-castelo-branco",
-    "published": null,
-    "source": "Jornal de Portalegre",
-    "source_site": "https://jornaldeportalegre.sapo.pt/",
-    "feed": "https://jornaldeportalegre.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:32:19Z",
-    "mentions_place": false,
-    "date": null
-   },
-   {
-    "title": "Arronches recebeu festa do futebol para Petizes e Traquinas",
-    "url": "https://jornaldeportalegre.sapo.pt/noticias/arronches-recebeu-festa-do-futebol-para-petizes-e-traquinas",
-    "published": null,
-    "source": "Jornal de Portalegre",
-    "source_site": "https://jornaldeportalegre.sapo.pt/",
-    "feed": "https://jornaldeportalegre.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:32:19Z",
-    "mentions_place": false,
-    "date": null
-   },
-   {
-    "title": "Pavilhão Municipal recebeu Torneio de Futsal Cidade de Portalegre",
-    "url": "https://jornaldeportalegre.sapo.pt/noticias/pavilhao-municipal-recebeu-torneio-de-futsal-cidade-de-portalegre",
-    "published": null,
-    "source": "Jornal de Portalegre",
-    "source_site": "https://jornaldeportalegre.sapo.pt/",
-    "feed": "https://jornaldeportalegre.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:32:19Z",
-    "mentions_place": true,
     "date": null
    }
   ]

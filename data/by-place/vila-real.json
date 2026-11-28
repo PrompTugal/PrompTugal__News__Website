@@ -5,7 +5,7 @@
  "kind": "city",
  "parent": "portugal",
  "status": "live",
- "updated": "2026-11-26",
+ "updated": "2026-11-28",
  "by": "place.vila-real@PrompTugal.dinis",
  "mandate": "PrompTugal.news Vila Real: AI and technology in Vila Real, a university and science-park city whose centre of gravity is the UTAD campus and the Regia Douro Park, and what reaches Vila Real from Trás-os-Montes, Portugal and the world. Independent; every fact sourced.",
  "gravity": {
@@ -593,149 +593,149 @@
   }
  ],
  "latest_news": {
-  "read_at": "2026-11-26T02:33Z",
+  "read_at": "2026-11-28T07:37Z",
   "by": "place.vila-real@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
   "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
   "main_headline": {
-   "title": "Montalegre assinala combate à violência contra as mulheres com exposição de 21 pares de sapatos vermelhos",
-   "url": "https://noticiasdevilareal.sapo.pt/montalegre-assinala-combate-a-violencia-contra-as-mulheres-com-exposicao-de-21-pares-de-sapatos-vermelhos/",
+   "title": "Morreu José Pinto Nóbrega, antigo dirigente associativo e desportivo de Vila Real",
+   "url": "https://noticiasdevilareal.sapo.pt/morreu-jose-pinto-nobrega-antigo-dirigente-associativo-e-desportivo-de-vila-real/",
    "source": "Notícias de Vila Real",
-   "date": "2026-11-25",
-   "read_at": "2026-11-26T02:29:05Z",
-   "names_place": false
+   "date": "2026-11-27",
+   "read_at": "2026-11-28T07:26:12Z",
+   "names_place": true
   },
   "items": [
    {
-    "title": "Montalegre assinala combate à violência contra as mulheres com exposição de 21 pares de sapatos vermelhos",
-    "url": "https://noticiasdevilareal.sapo.pt/montalegre-assinala-combate-a-violencia-contra-as-mulheres-com-exposicao-de-21-pares-de-sapatos-vermelhos/",
-    "published": "2026-11-25T16:29Z",
-    "source": "Notícias de Vila Real",
-    "source_site": "https://noticiasdevilareal.sapo.pt/",
-    "feed": "https://noticiasdevilareal.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:29:05Z",
-    "mentions_place": false,
-    "date": "2026-11-25"
-   },
-   {
-    "title": "Núncio apostólico presidiu às celebrações dos 250 anos da dedicação da Sé de Lamego",
-    "url": "https://noticiasdevilareal.sapo.pt/nuncio-apostolico-presidiu-as-celebracoes-dos-250-anos-da-dedicacao-da-se-de-lamego/",
-    "published": "2026-11-25T16:13Z",
-    "source": "Notícias de Vila Real",
-    "source_site": "https://noticiasdevilareal.sapo.pt/",
-    "feed": "https://noticiasdevilareal.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:29:05Z",
-    "mentions_place": false,
-    "date": "2026-11-25"
-   },
-   {
-    "title": "UTAD participa em projeto para desenvolver edifícios rotativos e energeticamente eficientes",
-    "url": "https://noticiasdevilareal.sapo.pt/utad-participa-em-projeto-para-desenvolver-edificios-rotativos-e-energeticamente-eficientes/",
-    "published": "2026-11-25T15:53Z",
-    "source": "Notícias de Vila Real",
-    "source_site": "https://noticiasdevilareal.sapo.pt/",
-    "feed": "https://noticiasdevilareal.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:29:05Z",
-    "mentions_place": false,
-    "date": "2026-11-25"
-   },
-   {
-    "title": "Gonçalo Pinto e Filipe Oliveira disputam presidência da Associação Académica da UTAD",
-    "url": "https://noticiasdevilareal.sapo.pt/goncalo-pinto-e-filipe-oliveira-disputam-presidencia-da-associacao-academica-da-utad/",
-    "published": "2026-11-25T10:04Z",
-    "source": "Notícias de Vila Real",
-    "source_site": "https://noticiasdevilareal.sapo.pt/",
-    "feed": "https://noticiasdevilareal.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:29:05Z",
-    "mentions_place": false,
-    "date": "2026-11-25"
-   },
-   {
-    "title": "Edição nº 1022",
-    "url": "https://noticiasdevilareal.sapo.pt/edicao-no-1022/",
-    "published": "2026-11-25T09:00Z",
-    "source": "Notícias de Vila Real",
-    "source_site": "https://noticiasdevilareal.sapo.pt/",
-    "feed": "https://noticiasdevilareal.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:29:05Z",
-    "mentions_place": false,
-    "date": "2026-11-25"
-   },
-   {
-    "title": "Barro negro de Bisalhães perpetuado em Museu 10 anos após classificação da UNESCO",
-    "url": "https://www.diariodetrasosmontes.com/noticia/barro-negro-de-bisalhaes-perpetuado-em-museu-10-anos-apos-classificacao-da-unesco",
-    "published": "2026-11-25T08:03Z",
+    "title": "Estudante da UPB vence concurso  internacional e ganha 30 mil euros",
+    "url": "https://www.diariodetrasosmontes.com/noticia/projeto-de-estudante-da-upb-vence-concurso-internacional-e-conquista-financiamento-de-30-mil-euros",
+    "published": "2026-11-27T18:38Z",
     "source": "Diário de Trás-os-Montes",
     "source_site": "https://www.diariodetrasosmontes.com/",
     "feed": "https://www.diariodetrasosmontes.com/feed/rss.xml",
-    "read_at": "2026-11-26T02:28:57Z",
+    "read_at": "2026-11-28T07:26:01Z",
     "mentions_place": false,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
    },
    {
-    "title": "Douro quer atrair visitantes mas \"acima de tudo\" fixar jovens",
-    "url": "https://www.diariodetrasosmontes.com/noticia/douro-quer-atrair-visitantes-mas-acima-de-tudo-fixar-jovens-cim",
-    "published": "2026-11-24T22:45Z",
+    "title": "Centro de Saúde de Mogadouro com consulta descentralizada mensal de cirurgia geral",
+    "url": "https://www.diariodetrasosmontes.com/noticia/centro-de-saude-de-mogadouro-com-consulta-descentralizada-mensal-de-cirurgia-geral",
+    "published": "2026-11-27T18:09Z",
     "source": "Diário de Trás-os-Montes",
     "source_site": "https://www.diariodetrasosmontes.com/",
     "feed": "https://www.diariodetrasosmontes.com/feed/rss.xml",
-    "read_at": "2026-11-26T02:28:57Z",
+    "read_at": "2026-11-28T07:26:01Z",
     "mentions_place": false,
-    "date": "2026-11-24"
+    "date": "2026-11-27"
    },
    {
-    "title": "Ricardo Taberneiro assume presidência da Junta de Freguesia da Bouça em Mirandela",
-    "url": "https://www.diariodetrasosmontes.com/noticia/ricardo-taberneiro-assume-presidencia-da-junta-de-freguesia-da-bouca-em-mirandela",
-    "published": "2026-11-24T19:57Z",
+    "title": "Perfumes na Black Friday: o que ter em conta antes de comprar",
+    "url": "https://www.diariodetrasosmontes.com/noticia/perfumes-na-black-friday-o-que-ter-em-conta-antes-de-comprar",
+    "published": "2026-11-27T17:55Z",
     "source": "Diário de Trás-os-Montes",
     "source_site": "https://www.diariodetrasosmontes.com/",
     "feed": "https://www.diariodetrasosmontes.com/feed/rss.xml",
-    "read_at": "2026-11-26T02:28:57Z",
+    "read_at": "2026-11-28T07:26:01Z",
     "mentions_place": false,
-    "date": "2026-11-24"
+    "date": "2026-11-27"
    },
    {
-    "title": "Vila Natal de Vila Pouca de Aguiar abre a 1 de dezembro com atividades gratuitas",
-    "url": "https://www.diariodetrasosmontes.com/noticia/vila-natal-de-vila-pouca-de-aguiar-abre-a-1-de-dezembro-com-atividades-gratuitas",
-    "published": "2026-11-24T19:45Z",
+    "title": "Polícia fora de serviço ameaçado e agredido por grupo de pessoas em Mirandela",
+    "url": "https://www.diariodetrasosmontes.com/noticia/policia-fora-de-servico-ameacado-e-agredido-por-grupo-de-pessoas-em-mirandela",
+    "published": "2026-11-27T15:47Z",
     "source": "Diário de Trás-os-Montes",
     "source_site": "https://www.diariodetrasosmontes.com/",
     "feed": "https://www.diariodetrasosmontes.com/feed/rss.xml",
-    "read_at": "2026-11-26T02:28:57Z",
+    "read_at": "2026-11-28T07:26:01Z",
     "mentions_place": false,
-    "date": "2026-11-24"
+    "date": "2026-11-27"
    },
    {
-    "title": "Emílio Almendra substitui Abílio Evaristo como vereador do PS em Vila Flor",
-    "url": "https://www.diariodetrasosmontes.com/noticia/emilio-almendra-substitui-abilio-evaristo-como-vereador-do-ps-em-vila-flor",
-    "published": "2026-11-24T17:50Z",
+    "title": "Festival Aves do Tua leva observação de aves aos cinco concelhos do Vale do Tua",
+    "url": "https://www.diariodetrasosmontes.com/noticia/festival-aves-do-tua-leva-observacao-de-aves-aos-cinco-concelhos-do-vale-do-tua",
+    "published": "2026-11-27T14:30Z",
     "source": "Diário de Trás-os-Montes",
     "source_site": "https://www.diariodetrasosmontes.com/",
     "feed": "https://www.diariodetrasosmontes.com/feed/rss.xml",
-    "read_at": "2026-11-26T02:28:57Z",
+    "read_at": "2026-11-28T07:26:01Z",
     "mentions_place": false,
-    "date": "2026-11-24"
+    "date": "2026-11-27"
    },
    {
-    "title": "NORTE 2030 aprova projetos em Bragança e Freixo de Espada à Cinta com mais de um milhão de euros de investimento",
-    "url": "https://www.diariodetrasosmontes.com/noticia/norte-2030-aprova-projetos-em-braganca-e-freixo-de-espada-a-cinta-com-mais-de-um-milhao-de-euros-de-investimento",
-    "published": "2026-11-24T16:00Z",
-    "source": "Diário de Trás-os-Montes",
-    "source_site": "https://www.diariodetrasosmontes.com/",
-    "feed": "https://www.diariodetrasosmontes.com/feed/rss.xml",
-    "read_at": "2026-11-26T02:28:57Z",
-    "mentions_place": false,
-    "date": "2026-11-24"
-   },
-   {
-    "title": "Explorações vitícolas de Sabrosa e Vila Nova de Foz Côa vencem Prémio Vinha Douro 2025",
-    "url": "https://noticiasdevilareal.sapo.pt/exploracoes-viticolas-de-sabrosa-e-vila-nova-de-foz-coa-vencem-premio-vinha-douro-2025/",
-    "published": "2026-11-24T10:31Z",
+    "title": "Crianças do Pinhão e de Vilarinho de Cotas participaram em experiências científicas",
+    "url": "https://noticiasdevilareal.sapo.pt/criancas-do-pinhao-e-de-vilarinho-de-cotas-participaram-em-experiencias-cientificas/",
+    "published": "2026-11-27T12:48Z",
     "source": "Notícias de Vila Real",
     "source_site": "https://noticiasdevilareal.sapo.pt/",
     "feed": "https://noticiasdevilareal.sapo.pt/feed/",
-    "read_at": "2026-11-26T02:29:05Z",
+    "read_at": "2026-11-28T07:26:12Z",
     "mentions_place": false,
-    "date": "2026-11-24"
+    "date": "2026-11-27"
+   },
+   {
+    "title": "Morreu José Pinto Nóbrega, antigo dirigente associativo e desportivo de Vila Real",
+    "url": "https://noticiasdevilareal.sapo.pt/morreu-jose-pinto-nobrega-antigo-dirigente-associativo-e-desportivo-de-vila-real/",
+    "published": "2026-11-27T12:38Z",
+    "source": "Notícias de Vila Real",
+    "source_site": "https://noticiasdevilareal.sapo.pt/",
+    "feed": "https://noticiasdevilareal.sapo.pt/feed/",
+    "read_at": "2026-11-28T07:26:12Z",
+    "mentions_place": true,
+    "date": "2026-11-27"
+   },
+   {
+    "title": "Unidade Hospitalar de Chaves assinalou Dia do Doente com Doenças Reumáticas",
+    "url": "https://www.diariodetrasosmontes.com/noticia/unidade-hospitalar-de-chaves-assinalou-dia-do-doente-com-doencas-reumaticas",
+    "published": "2026-11-27T12:17Z",
+    "source": "Diário de Trás-os-Montes",
+    "source_site": "https://www.diariodetrasosmontes.com/",
+    "feed": "https://www.diariodetrasosmontes.com/feed/rss.xml",
+    "read_at": "2026-11-28T07:26:01Z",
+    "mentions_place": false,
+    "date": "2026-11-27"
+   },
+   {
+    "title": "Ministro da Educação inaugura hoje duas novas residências universitárias da UTAD",
+    "url": "https://noticiasdevilareal.sapo.pt/ministro-da-educacao-inaugura-hoje-duas-novas-residencias-universitarias-da-utad/",
+    "published": "2026-11-27T10:28Z",
+    "source": "Notícias de Vila Real",
+    "source_site": "https://noticiasdevilareal.sapo.pt/",
+    "feed": "https://noticiasdevilareal.sapo.pt/feed/",
+    "read_at": "2026-11-28T07:26:12Z",
+    "mentions_place": false,
+    "date": "2026-11-27"
+   },
+   {
+    "title": "Alunos do 1.º Ciclo de Alijó participaram no Desafio Bebras 2026",
+    "url": "https://noticiasdevilareal.sapo.pt/alunos-do-1-o-ciclo-de-alijo-participaram-no-desafio-bebras-2026/",
+    "published": "2026-11-26T17:58Z",
+    "source": "Notícias de Vila Real",
+    "source_site": "https://noticiasdevilareal.sapo.pt/",
+    "feed": "https://noticiasdevilareal.sapo.pt/feed/",
+    "read_at": "2026-11-28T07:26:12Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Associação de Covas do Barroso aponta falhas na avaliação do ruído da mina de lítio",
+    "url": "https://noticiasdevilareal.sapo.pt/associacao-de-covas-do-barroso-aponta-falhas-na-avaliacao-do-ruido-da-mina-de-litio/",
+    "published": "2026-11-26T15:07Z",
+    "source": "Notícias de Vila Real",
+    "source_site": "https://noticiasdevilareal.sapo.pt/",
+    "feed": "https://noticiasdevilareal.sapo.pt/feed/",
+    "read_at": "2026-11-28T07:26:12Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
+   },
+   {
+    "title": "Mário Centeno apresenta livro “Contas Certas” no Regia Douro Park",
+    "url": "https://noticiasdevilareal.sapo.pt/mario-centeno-apresenta-livro-contas-certas-no-regia-douro-park/",
+    "published": "2026-11-26T14:18Z",
+    "source": "Notícias de Vila Real",
+    "source_site": "https://noticiasdevilareal.sapo.pt/",
+    "feed": "https://noticiasdevilareal.sapo.pt/feed/",
+    "read_at": "2026-11-28T07:26:12Z",
+    "mentions_place": false,
+    "date": "2026-11-26"
    },
    {
     "title": "GD Boticas conquista Supertaça de Futsal Sénior Masculino",
@@ -744,7 +744,7 @@
     "source": "Douro Interior Jornal",
     "source_site": "https://www.dourointeriorjornal.pt",
     "feed": "https://www.dourointeriorjornal.pt/feed/",
-    "read_at": "2026-11-26T02:29:03Z",
+    "read_at": "2026-11-28T07:26:09Z",
     "mentions_place": false,
     "date": null
    },
@@ -755,7 +755,7 @@
     "source": "Douro Interior Jornal",
     "source_site": "https://www.dourointeriorjornal.pt",
     "feed": "https://www.dourointeriorjornal.pt/feed/",
-    "read_at": "2026-11-26T02:29:03Z",
+    "read_at": "2026-11-28T07:26:09Z",
     "mentions_place": true,
     "date": null
    },
@@ -766,7 +766,7 @@
     "source": "Douro Interior Jornal",
     "source_site": "https://www.dourointeriorjornal.pt",
     "feed": "https://www.dourointeriorjornal.pt/feed/",
-    "read_at": "2026-11-26T02:29:03Z",
+    "read_at": "2026-11-28T07:26:09Z",
     "mentions_place": true,
     "date": null
    },
@@ -777,7 +777,7 @@
     "source": "Douro Interior Jornal",
     "source_site": "https://www.dourointeriorjornal.pt",
     "feed": "https://www.dourointeriorjornal.pt/feed/",
-    "read_at": "2026-11-26T02:29:03Z",
+    "read_at": "2026-11-28T07:26:09Z",
     "mentions_place": false,
     "date": null
    },
@@ -788,7 +788,7 @@
     "source": "Douro Interior Jornal",
     "source_site": "https://www.dourointeriorjornal.pt",
     "feed": "https://www.dourointeriorjornal.pt/feed/",
-    "read_at": "2026-11-26T02:29:03Z",
+    "read_at": "2026-11-28T07:26:09Z",
     "mentions_place": false,
     "date": null
    },
@@ -799,7 +799,7 @@
     "source": "Douro Interior Jornal",
     "source_site": "https://www.dourointeriorjornal.pt",
     "feed": "https://www.dourointeriorjornal.pt/feed/",
-    "read_at": "2026-11-26T02:29:03Z",
+    "read_at": "2026-11-28T07:26:09Z",
     "mentions_place": false,
     "date": null
    }

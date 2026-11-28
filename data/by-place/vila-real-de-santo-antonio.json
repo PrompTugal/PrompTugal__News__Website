@@ -5,7 +5,7 @@
  "kind": "municipality",
  "parent": "algarve",
  "status": "live",
- "updated": "2026-11-26",
+ "updated": "2026-11-28",
  "by": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
  "mandate": "PrompTugal.news Vila Real de Santo António: AI and technology in Vila Real de Santo António, a Pombaline border town on the Guadiana where cross-border projects count, and what reaches it from the Algarve, Portugal and the world. Independent; every fact sourced.",
  "gravity": {
@@ -579,39 +579,50 @@
   }
  ],
  "latest_news": {
-  "read_at": "2026-11-26T02:33Z",
+  "read_at": "2026-11-28T07:37:37Z",
   "by": "place.vila-real-de-santo-antonio@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
   "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
   "main_headline": {
-   "title": "Travessia de ciclismo desafia atletas a percorrer 340 quilómetros entre Tróia e Vila Real de Santo António",
-   "url": "https://postal.pt/europedirectalgarve/travessia-de-ciclismo-desafia-atletas-a-percorrer-340-quilometros-entre-troia-e-vila-real-de-santo-antonio/",
+   "title": "São Silvestre de Vila Real de Santo António – Monte Gordo bate recorde com mais de 1.500 inscritos",
+   "url": "https://postal.pt/algarve/sao-silvestre-de-vila-real-de-santo-antonio-monte-gordo-bate-recorde-com-mais-de-1-500-inscritos/",
    "source": "Postal do Algarve",
-   "date": "2026-11-25",
-   "read_at": "2026-11-26T02:28:26Z",
+   "date": "2026-11-27",
+   "read_at": "2026-11-28T07:25:21Z",
    "names_place": true
   },
   "items": [
    {
-    "title": "Travessia de ciclismo desafia atletas a percorrer 340 quilómetros entre Tróia e Vila Real de Santo António",
-    "url": "https://postal.pt/europedirectalgarve/travessia-de-ciclismo-desafia-atletas-a-percorrer-340-quilometros-entre-troia-e-vila-real-de-santo-antonio/",
-    "published": "2026-11-25T17:34Z",
+    "title": "São Silvestre de Vila Real de Santo António – Monte Gordo bate recorde com mais de 1.500 inscritos",
+    "url": "https://postal.pt/algarve/sao-silvestre-de-vila-real-de-santo-antonio-monte-gordo-bate-recorde-com-mais-de-1-500-inscritos/",
+    "published": "2026-11-27T16:30Z",
     "source": "Postal do Algarve",
     "source_site": "https://postal.pt/",
     "feed": "https://postal.pt/feed/",
-    "read_at": "2026-11-26T02:28:26Z",
+    "read_at": "2026-11-28T07:25:21Z",
     "mentions_place": true,
-    "date": "2026-11-25"
+    "date": "2026-11-27"
    },
    {
     "title": "Vila Natal com mercados, concertos e teatro no centro de Vila Real de Santo António",
     "url": "https://www.barlavento.pt/vila-natal-vila-real-santo-antonio-programa-2026/",
     "published": "2026-11-25T10:34Z",
+    "date": "2026-11-25",
     "source": "Barlavento",
     "source_site": "https://www.barlavento.pt/",
-    "feed": "https://www.barlavento.pt/feed/",
-    "read_at": "2026-11-26T02:28:24Z",
-    "mentions_place": true,
-    "date": "2026-11-25"
+    "feed": "https://www.barlavento.pt/?s=Vila Real de Santo António&feed=rss2",
+    "read_at": "2026-11-28T07:34:10Z",
+    "mentions_place": true
+   },
+   {
+    "title": "PAN propõe trocar zonas de asfalto e estacionamento por espaços verdes em Vila Real de Santo António",
+    "url": "https://www.barlavento.pt/pan-espacos-verdes-jardim-ribeirinho-vila-real-santo-antonio/",
+    "published": "2026-11-21T16:39Z",
+    "date": "2026-11-21",
+    "source": "Barlavento",
+    "source_site": "https://www.barlavento.pt/",
+    "feed": "https://www.barlavento.pt/?s=Vila Real de Santo António&feed=rss2",
+    "read_at": "2026-11-28T07:34:10Z",
+    "mentions_place": true
    }
   ]
  }
