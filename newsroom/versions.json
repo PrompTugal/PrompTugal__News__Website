@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2431",
+    "date": "2026-11-28",
+    "time": "2026-11-28T12:05:29Z",
+    "what": "accountant.c@AgentiCCells.dinis: conductor.c refresh reading after 9 h idle (waking turn ~4.4 at ~150-184k)",
+    "by": "accountant.c@AgentiCCells.dinis",
+    "from": "004755d7d"
+  },
+  {
     "version": "v0.1.2430",
     "date": "2026-11-28",
     "time": "2026-11-28T10:17:25Z",
