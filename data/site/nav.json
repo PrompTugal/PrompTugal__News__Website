@@ -26,6 +26,14 @@
       ]
     },
     {
+      "id": "newsroom",
+      "label": "Newsroom",
+      "href": "newsroom/index.html",
+      "match": [
+        "newsroom/"
+      ]
+    },
+    {
       "id": "companies",
       "label": "Companies",
       "href": "companies/index.html",
