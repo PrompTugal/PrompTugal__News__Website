@@ -2,9 +2,14 @@
   "schema": "maestro.ideas/v0",
   "account": "account-c",
   "by": "c.maestro (account-c)",
-  "updated": "2026-11-28T17:25Z",
+  "updated": "2026-11-28T17:35Z",
   "window": "26 to 28 Nov 2026",
   "ideas": [
+    {
+      "idea": "Programmatic mini movies as a product: a library of visual blocks with a movie behaviour policy (what a buyer may change, what is locked), both orientations from one file, browser voice by default; sold as customised mini applications, and used on every page (PrompTugal.news towns, RiskMandate and ABP explainers)",
+      "date": "2026-11-28",
+      "link": "https://claude.ai/code/session_01Kw9UwFhtgjn47iC3fRu3qr"
+    },
     {
       "idea": "Productions find how to say something; then it is productised as code (scene types plus variables), so any page, and the daily and hourly updates, can tell the story the same way",
       "date": "2026-11-28",
