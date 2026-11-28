@@ -1,0 +1,151 @@
+{
+ "desk": "curator",
+ "agent": "curator@PrompTugal.vicky",
+ "run": "2026-11-28T07:50Z",
+ "for": "the researcher for the gaps; no assignment this run",
+ "covers": {
+  "vault": "41j3e9s9, pulled 28 Nov 2026 at 07:40 UTC: the researcher's 07:17 captures of ECO's 15 September report on Amalia's second phase and the Portuguese government's 25 June page on the AI gigafactory bid.",
+  "inputs": "Five themes; PrompTugal test; standing answers 29, 95, 100, 101, 104 and 105 (weekends: the morning loop only). No hold on either site. decisions.md has nothing else new for the curator.",
+  "overlap_checked": "28 Nov 07:50: S64 (amalia-and-ania-portugal-ai-plans, 16 Nov) gives AMALIA's 5.5 million euros and has no update note and no mention of the second phase or the gigafactory; no article covers the gigafactory bid; S87 is published (as the update note of S85)."
+ },
+ "rules": "RULES-11NOV applies. The curator added no fact.",
+ "captures": [
+  {
+   "id": "v-eco-amalia-second-phase",
+   "file": "vault 41j3e9s9, captures/2026-11-28-eco-amalia-second-phase.md",
+   "source_url": "https://eco.sapo.pt/2026/09/15/amalia-ganha-ferramentas-de-agentificacao-ate-final-do-ano/",
+   "beat": "Portugal",
+   "names": [
+    "Amalia",
+    "ECO",
+    "ARTE",
+    "FCT"
+   ],
+   "what_is_new": "ECO (15 September 2026): second phase made official, 1,8 million euros more from the Recovery and Resilience Plan, total 7,3 million; agent tools for the public administration; aim to move from prototype to citizen service. A press report of a government statement and resolution; adoption figures unknown.",
+   "is_story": true,
+   "group": "Portugal"
+  },
+  {
+   "id": "v-govpt-ai-gigafactories",
+   "file": "vault 41j3e9s9, captures/2026-11-28-govpt-ai-gigafactories.md",
+   "source_url": "https://portugal.gov.pt/en/gc25/communication/news/ai-gigafactories-boost-technological-sovereignty-with-a-200-million-investment",
+   "beat": "Portugal and Europe",
+   "names": [
+    "Portuguese government",
+    "EuroHPC"
+   ],
+   "what_is_new": "Government page (25 June 2026): Portugal in an Iberian EuroHPC bid for AI gigafactories; up to 200 million euros for computing time, about 4 billion euros for the Portuguese part; whether the bid was selected is not known.",
+   "is_story": false,
+   "group": "Held"
+  }
+ ],
+ "groups": {
+  "Portugal": [
+   "v-eco-amalia-second-phase"
+  ],
+  "Held": [
+   "v-govpt-ai-gigafactories"
+  ]
+ },
+ "duplicates_and_noise": [
+  {
+   "item": "Amalia second phase",
+   "verdict": "update",
+   "why": "A development S64 did not cover (it predates S64 but S64 does not mention it); S64 has no note yet; first note within the cap (standing answer 100)."
+  },
+  {
+   "item": "AI gigafactory bid (government page, 25 June)",
+   "verdict": "held",
+   "why": "A June plan with the key outcome (whether the Iberian bid was selected) unknown; an article now would present a five-month-old plan as news. Revisit when the selection status is captured."
+  }
+ ],
+ "published_check": {
+  "S64": "published, no note yet",
+  "S87": "published (update note of S85)"
+ },
+ "desk_review": {
+  "summit": {
+   "no_assignment": true,
+   "reason": "Nothing new for this desk."
+  },
+  "europe": {
+   "no_assignment": true,
+   "reason": "The gigafactory page is Portugal and Europe but held until the bid's outcome is known."
+  },
+  "portugal": {
+   "assignment": "S88",
+   "reason": "A development after an article we covered, from a press report of a government statement, as SA58 theme 1 asks."
+  },
+  "ai": {
+   "no_assignment": true,
+   "reason": "Nothing new for this desk."
+  },
+  "connections": {
+   "no_assignment": true,
+   "reason": "Nothing new for this desk."
+  }
+ },
+ "story_candidates": [
+  {
+   "id": "S88",
+   "kind": "update",
+   "title": "Update to S64: Amalia's second phase, more money and agent tools",
+   "beat": "Portugal",
+   "categories": [
+    "Portugal",
+    "AI"
+   ],
+   "ai_path": {
+    "connection": "Direct: a national language model and agent tools.",
+    "steps_away": "None (0).",
+    "places": "Portugal."
+   },
+   "angle": "ECO reports a second phase for Amalia: 1,8 million euros more, total 7,3 million, agent tools for the public administration and a stated aim to leave the prototype stage.",
+   "rests_on": [
+    "v-eco-amalia-second-phase"
+   ],
+   "ready": true,
+   "note": "For journalist-portugal, categories Portugal and AI. Ready. An update note on S64 (amalia-and-ania-portugal-ai-plans; its first note, none used yet; standing answers 95 and 100). S64 gives AMALIA's cost as 5.5 million euros from the Recovery and Resilience Plan and says both it and the national AI agenda give aims, not results; a press report says the model's second development phase was made official with more money. Read the ECO article yourself (the capture's source) and write a short update with a list. Attribute everything to ECO, which says it reports a government statement of 9 September and a resolution of the Council of Ministers published in the Diario da Republica on 15 September 2026; the resolution itself was not read, so say so. What ECO reports: an additional 1,8 million euros from the Recovery and Resilience Plan, retroactive to 1 July, raising the project's total cost to 7,3 million euros at the end of execution (do not write that this is 5.5 plus 1.8 unless you say it is your own arithmetic and that S64's 5.5 million is a different source's figure for the consortium); until the end of the year the government wants the model trained for 'ferramentas de agentificacao' (agent tools) and solutions that can be integrated into the public administration's internal processes, plus image and speech use cases; the government's stated main aim that Amalia stops being only a prototype and is integrated into citizen service, supporting access to state services; the structures named (the state's technology reform agency, ARTE, and the science foundation, FCT, which ECO says will give way to a newly created body, AI2, after a merger with the national innovation agency); the expert follow-up committee's mandate extended to 31 December 2029; the government's intention to open a dialogue with media companies on access to their most recent archives to train the model on Portuguese content. Say plainly what is not known: adoption figures for the model, and what has happened since September (the article is dated 15 September 2026, before S64; say the update is a development S64 did not cover, not news since). The AI connection is direct (a language model and agent tools). Quote Portuguese only as the capture's quotes give it; no invented quotes; repeat none of the article's text; one note only."
+  }
+ ],
+ "connections_priority": [],
+ "for_the_fact_checker": [
+  {
+   "item": "S88",
+   "what": "One press report (ECO) of a government statement and a resolution published 15 September 2026; the resolution was not read; figures are as reported; the update is a development S64 did not cover, dated before S64."
+  }
+ ],
+ "revisions": [
+  {
+   "candidate": "S85",
+   "change": "Published; off the drafted list."
+  }
+ ],
+ "gaps_for_the_researcher": [
+  {
+   "desk": "portugal",
+   "priority": 1,
+   "gap": "Whether the Iberian AI gigafactory bid was selected by the European Commission and what happened after June (EuroHPC or government page); the resolution on Amalia's second phase in the Diario da Republica; any adoption figure for Amalia.",
+   "reader_angle": "What happened next to Portugal's AI plans.",
+   "sources_wanted": "EuroHPC; the Portuguese government; the Diario da Republica.",
+   "why_not_a_duplicate": "Only the June plan and a September press report exist."
+  },
+  {
+   "desk": "portugal",
+   "priority": 2,
+   "gap": "Telerehabilitation numbers; a dated report of the Rows closing; other providers in the convention; UST's Lisbon activity; Cova da Beira's own account.",
+   "reader_angle": "What happened after earlier stories.",
+   "sources_wanted": "Press; the health service.",
+   "why_not_a_duplicate": "Only company estimates and prescribing rules exist."
+  },
+  {
+   "desk": "ai",
+   "priority": 3,
+   "gap": "Real incident data for AI-written changes, if any exists.",
+   "reader_angle": "Whether findings show up as real incidents.",
+   "sources_wanted": "Post-mortems; press.",
+   "why_not_a_duplicate": "Only surveys and code-analysis studies exist."
+  }
+ ],
+ "urgent": "None"
+}

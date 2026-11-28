@@ -2,6 +2,14 @@
  "about": "The lists the README generator (tools/readme.py) reads. Each curator run edits this file, not the script: add the new story to `stories` (id, title, beat, angle, added, note; newest first), its captures to `rests`, publications to `PUBLISHED`, withdrawals to `WITHDRAWN`, the ready list to `READY` and the assignments to `ASSIGN`. LINK_OVERRIDES: a source URL as captured mapped to the same address written another way (a digit percent-encoded, which the URL standard treats as the same address) so the team site's phone check does not read a long run of digits and dashes as a phone number.",
  "stories": [
   [
+   "S88",
+   "Update to S64: Amalia's second phase, more money and agent tools",
+   "Portugal",
+   "ECO reports that Amalia's second development phase got 1,8 million euros more (total cost 7,3 million), agent tools for the public administration and a stated aim to move from prototype to citizen service; a short update note on S64.",
+   "28 Nov",
+   "For journalist-portugal, categories Portugal and AI. Ready. An update note on S64 (amalia-and-ania-portugal-ai-plans; its first note, none used yet; standing answers 95 and 100). S64 gives AMALIA's cost as 5.5 million euros from the Recovery and Resilience Plan and says both it and the national AI agenda give aims, not results; a press report says the model's second development phase was made official with more money. Read the ECO article yourself (the capture's source) and write a short update with a list. Attribute everything to ECO, which says it reports a government statement of 9 September and a resolution of the Council of Ministers published in the Diario da Republica on 15 September 2026; the resolution itself was not read, so say so. What ECO reports: an additional 1,8 million euros from the Recovery and Resilience Plan, retroactive to 1 July, raising the project's total cost to 7,3 million euros at the end of execution (do not write that this is 5.5 plus 1.8 unless you say it is your own arithmetic and that S64's 5.5 million is a different source's figure for the consortium); until the end of the year the government wants the model trained for 'ferramentas de agentificacao' (agent tools) and solutions that can be integrated into the public administration's internal processes, plus image and speech use cases; the government's stated main aim that Amalia stops being only a prototype and is integrated into citizen service, supporting access to state services; the structures named (the state's technology reform agency, ARTE, and the science foundation, FCT, which ECO says will give way to a newly created body, AI2, after a merger with the national innovation agency); the expert follow-up committee's mandate extended to 31 December 2029; the government's intention to open a dialogue with media companies on access to their most recent archives to train the model on Portuguese content. Say plainly what is not known: adoption figures for the model, and what has happened since September (the article is dated 15 September 2026, before S64; say the update is a development S64 did not cover, not news since). The AI connection is direct (a language model and agent tools). Quote Portuguese only as the capture's quotes give it; no invented quotes; repeat none of the article's text; one note only."
+  ],
+  [
    "S87",
    "Update to S85: the review study's full text, merge shares and limits",
    "AI and robotics",
@@ -1004,6 +1012,9 @@
   ],
   "S87": [
    "v-arxiv-agent-pr-review-integration-full-text"
+  ],
+  "S88": [
+   "v-eco-amalia-second-phase"
   ]
  },
  "DROPPED": {
@@ -1217,6 +1228,10 @@
   "S86": [
    "https://promptugal.news/articles/what-99-9-uptime-covers.html",
    "26 Nov"
+  ],
+  "S87": [
+   "https://promptugal.news/articles/two-studies-agent-code-size-and-review.html",
+   "27 Nov (as the update note of S85)"
   ]
  },
  "WITHDRAWN": [
@@ -1234,12 +1249,13 @@
   "S49",
   "S54"
  ],
- "READY": [],
+ "READY": [
+  "S88"
+ ],
  "DRAFTED": {
   "S44": "drafted, awaiting review",
   "S47": "published as an update",
-  "S76": "drafted, awaiting review",
-  "S87": "drafted, with the reviewer"
+  "S76": "drafted, awaiting review"
  },
  "EXTRA_SRC": {
   "x-web-summit-thursday-facts": [
@@ -1423,7 +1439,13 @@
    "2026-11-07 11:55"
   ]
  },
- "ASSIGN": [],
+ "ASSIGN": [
+  [
+   "S88",
+   "journalist-portugal",
+   "an update note on S64 from one press report of a government statement; the resolution itself not read; follow the note in the story's section"
+  ]
+ ],
  "LINK_OVERRIDES": {
   "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/02/C05-i01.01/2022.PC645008882-00000055/": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/02/C05-i01.01/2022.PC6450%308882-00000055/"
  }
