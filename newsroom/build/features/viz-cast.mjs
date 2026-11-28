@@ -38,9 +38,9 @@ const hand = (deg, len) => { const r = (deg - 90) * Math.PI / 180; return `M40 3
 
 function parts(ctx, role, accent, mood, colour) {
     const T = tmpl(ctx, 'assets/viz/cast.tmpl'), L = lookOf(ctx, role, accent, colour), c = L.colour
-    const hs = HANDS[mood] || HANDS.happy
+    const hs = HANDS.happy      // one neutral face for every agent, always (cl-6.designer's spec a, 28 Nov): the state is the dot and the word, never an expression
     const face = L.look === 'conductor' ? fill(T.clock, { h1: hand(hs[0], 8), h2: hand(hs[1], 10) })
-        : (/^(researcher|reviewer)$/.test(L.look) ? T['eyes-glasses'] : T.eyes) + (T[`mouth-${mood}`] || '')
+        : (/^(researcher|reviewer)$/.test(L.look) ? T['eyes-glasses'] : T.eyes) + T['mouth-neutral']
     return {
         L, face, c,
         hat: fill(T[`hat-${L.look}`] || '', { c }), prop: fill(T[`prop-${L.look}`] || '', { c }),

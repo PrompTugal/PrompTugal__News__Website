@@ -17,7 +17,7 @@
 .vz-fig .vz-sweat, .vz-headonly .vz-sweat { fill: #5aa9e6; }
 .vz-fig .vz-gold, .vz-headonly .vz-gold { fill: #d9a520; }
 .vz-fig.vz-happy { animation: vz-bob 2.8s ease-in-out infinite; }
-.vz-fig.vz-stressed { animation: vz-shake 1.6s ease-in-out infinite; }
+
 @keyframes vz-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-2px); } }
 @keyframes vz-shake { 0%, 90%, 100% { transform: rotate(0); } 93% { transform: rotate(-2deg); } 96% { transform: rotate(2deg); } }
 @media (prefers-reduced-motion: reduce) { .vz-fig.vz-happy, .vz-fig.vz-stressed { animation: none; } }
@@ -43,10 +43,9 @@
 .vz-role { margin: 2px 0 0; font: 400 12px/1.3 var(--sans); color: var(--ink-3); }
 .vz-mood { margin: 4px 0 0; font: 600 12px/1.3 var(--sans); color: var(--ink-2); }
 .vz-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; background: var(--rule-2); vertical-align: 0; }
-.vz-m-happy .vz-dot { background: var(--ok); box-shadow: 0 0 0 3px var(--ok-soft); }
-.vz-m-stressed .vz-dot { background: var(--warn); box-shadow: 0 0 0 3px var(--warn-soft); }
-.vz-m-worried .vz-dot { background: #b8a160; }
-.vz-m-unhappy .vz-dot { background: var(--ink-3); }
+.vz-m-happy .vz-dot { background: var(--ink); }                                                   /* at work: a filled dot */
+.vz-m-stressed .vz-dot { background: transparent; border: 2px solid var(--ink); box-shadow: 0 0 0 2px var(--rule-2); box-sizing: border-box; }   /* waiting on Dinis: a ringed dot */
+.vz-m-worried .vz-dot, .vz-m-unhappy .vz-dot { background: transparent; border: 1.5px solid var(--ink-3); box-sizing: border-box; }   /* resting: a hollow dot; the state is shape and word, never colour alone */
 .vz-card p { margin: 6px 0 0; }
 .vz-card b { font-weight: 600; color: var(--ink); margin-right: 4px; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; }
 .vz-job { color: var(--ink); }

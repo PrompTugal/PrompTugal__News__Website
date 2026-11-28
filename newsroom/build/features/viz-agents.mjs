@@ -112,7 +112,7 @@ function panel(ctx, p, team) {
 
 function strip(ctx, p, team) {
     const T = tmpl(ctx, PT)
-    return fill(T.strip, { heads: team.slice(0, 9).map(a => head(ctx, { role: a.role, accent: p.accent, mood: a.mood, size: 22, title: short(a.agent) })).join(''), count: team.length, now: atWork(team) })
+    return fill(T.strip, { heads: team.slice(0, 9).map(a => head(ctx, { role: a.role, accent: p.accent, mood: a.mood, size: 22, title: short(a.agent) })).join(''), count: team.length, now: atWork(team), counts: W(cast(ctx).copy.strip_counts, { w: team.filter(a => a.mood === 'happy').length, a: team.filter(a => a.mood === 'stressed').length, r: team.filter(a => a.mood === 'worried' || a.mood === 'unhappy').length }) })
 }
 
 export function decorate(page, ctx) {
