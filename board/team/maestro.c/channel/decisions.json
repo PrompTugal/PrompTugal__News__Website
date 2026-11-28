@@ -2,7 +2,7 @@
   "schema": "maestro.decisions/v0",
   "account": "account-c",
   "by": "c.maestro (account-c)",
-  "updated": "2026-11-28T16:05Z",
+  "updated": "2026-11-28T16:15Z",
   "status_values": [
     "asked",
     "decided",
@@ -42,9 +42,10 @@
       "id": "2026-11-28-go-to-market",
       "decided_at": "2026-11-28T14:30Z",
       "decision": "Sell Agile Cells as vertical cells (social media, website, CRM, design, agent behaviour policy); go to market",
-      "status": "in_progress",
+      "status": "waiting_on_dinis",
       "carried_by": "c.agile-cells",
-      "link": "(go-to-market plan asked)"
+      "link": "(go-to-market plan asked)",
+      "waits_on": "is Agile Cells now the commercial name (reverses 'no commercial element for now'); lead with website and ABP cells; prices, terms, named examples, who sells"
     },
     {
       "id": "2026-11-28-auto-ontology",
@@ -62,7 +63,7 @@
       "status": "waiting_on_dinis",
       "carried_by": "c.cloudflare",
       "link": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/work/c.cloudflare/board/team/cloudflare/2026-11-28-try-plan-v2.md",
-      "waits_on": "Cloudflare account and scoped token; 'go' in c.cloudflare's session"
+      "waits_on": "account and token per section 5 of plan v2; secrets CLOUDFLARE_ACCOUNT_ID and CLOUDFLARE_API_TOKEN; restart c.cloudflare; 'go' there"
     },
     {
       "id": "2026-11-28-higgsfield-cap",
@@ -93,9 +94,10 @@
       "id": "2026-11-28-sg-send-cell",
       "decided_at": "2026-11-28T14:30Z",
       "decision": "An Agile Cell owns SG/Send: product, deployment in any account and region, website, new brand, sales",
-      "status": "in_progress",
+      "status": "waiting_on_dinis",
       "carried_by": "c.sg-send",
-      "link": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/maestro.c/briefs/2026-11-28-serverless-services-bedrock-sg-send.md"
+      "link": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/maestro.c/briefs/2026-11-28-serverless-services-bedrock-sg-send.md",
+      "waits_on": "yes to the plan; which account runs the SG/Send team; test AWS accounts and regions; may the cell ask the existing teams for work; brand steer; GitHub access for the-cyber-boardroom repo"
     },
     {
       "id": "2026-11-28-agile-films",
@@ -104,24 +106,25 @@
       "status": "in_progress",
       "carried_by": "c.productions",
       "link": "https://github.com/SovereignWebsite/Site__Agent__Studio/blob/dev/site/productions/plans/2026-11-28-agile-vertical-hosting-agile-cells.md",
-      "waits_on": "sign off the exact version before anything is posted"
+      "waits_on": "sign off the exact versions; the Agile Cells film team is started by conductor.c (c.productions-cells)"
     },
     {
       "id": "2026-11-28-notebooks",
       "decided_at": "2026-11-28T14:30Z",
       "decision": "Map the NotebookLM infographics and slides repository; phase one: understand what is there, in small chunks",
-      "status": "in_progress",
+      "status": "waiting_on_dinis",
       "carried_by": "c.notebooks",
-      "link": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/work/c.notebooks/board/team/notebooks/2026-11-28-plan.md"
+      "link": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/work/c.notebooks/board/team/notebooks/2026-11-28-plan.md",
+      "waits_on": "phase one done (about 330 items, ten lead stories): go for phase two"
     },
     {
       "id": "2026-11-28-command-centre",
       "decided_at": "2026-11-28T16:00Z",
       "decision": "The SGit app shows decisions and key ideas, synced on phone, iPad and laptop through vaults",
-      "status": "in_progress",
+      "status": "waiting_on_dinis",
       "carried_by": "c.ios",
       "link": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/maestro.c/plans/2026-11-26-command-centre-ios.md",
-      "waits_on": "confirm the Team app is the SGit app, in c.ios's session if it asks"
+      "waits_on": "yes in c.ios's session (the Team app is the SGit app; start slice 1)"
     },
     {
       "id": "2026-11-28-archive-refreshed",
@@ -130,6 +133,14 @@
       "status": "done",
       "carried_by": "c.maestro",
       "link": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/maestros/from-c.md"
+    },
+    {
+      "id": "2026-11-28-agile-cells-film",
+      "decided_at": "2026-11-28T15:40Z",
+      "decision": "An Agile Cells film from the production team, mapped from agilecells.org, not tied to newsroom.sgit.ai",
+      "status": "in_progress",
+      "carried_by": "conductor.c, c.productions",
+      "link": "https://github.com/SovereignWebsite/Site__Agent__Studio/blob/dev/site/productions/plans/2026-11-28-agile-cells-film-start-prompt.md"
     }
   ]
 }

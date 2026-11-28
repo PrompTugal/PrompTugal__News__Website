@@ -2,9 +2,19 @@
   "schema": "maestro.ideas/v0",
   "account": "account-c",
   "by": "c.maestro (account-c)",
-  "updated": "2026-11-28T16:05Z",
+  "updated": "2026-11-28T16:15Z",
   "window": "26 to 28 Nov 2026",
   "ideas": [
+    {
+      "idea": "The roles this team runs on (Librarian, Conductor, Cartographer, Historian, Journalist, Sherpa) were first written in Dinis's NotebookLM work, 5 to 20 Feb 2026; SG/Send was shipped by an AI team in a week (12 to 13 Feb)",
+      "date": "2026-11-28",
+      "link": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/work/c.notebooks/board/team/notebooks/catalogue/README.md"
+    },
+    {
+      "idea": "Sell Agile Cells as vertical cells: template plus our own running instance as the worked example; lead with the website and ABP cells",
+      "date": "2026-11-28",
+      "link": "(c.agile-cells, docs/plans/2026-11-28-go-to-market.md, local)"
+    },
     {
       "idea": "Cells all the way down: every unit of work is a cell; a team of 10 to 50 roles is a mini organisation made to deliver one task",
       "date": "2026-11-27",
