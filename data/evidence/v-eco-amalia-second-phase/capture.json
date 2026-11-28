@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-eco-amalia-second-phase",
+  "type": "evidence",
+  "source_url": "https://eco.sapo.pt/2026/09/15/amalia-ganha-ferramentas-de-agentificacao-ate-final-do-ano/",
+  "beat": "Portugal",
+  "group": "Portugal",
+  "names": [
+    {
+      "as_listed": "Amalia",
+      "ref": "organisation:amalia"
+    },
+    {
+      "as_listed": "ECO",
+      "ref": "organisation:eco"
+    },
+    {
+      "as_listed": "ARTE",
+      "ref": "organisation:arte"
+    },
+    {
+      "as_listed": "FCT",
+      "ref": "organisation:fct"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-28-0750.json",
+  "run": "2026-11-28T07:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-28-0750.json"
+    ]
+  }
+}

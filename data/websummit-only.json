@@ -8,9 +8,9 @@
   "rule": "board/guidance/2026-11-11-only-websummit-sourced-comes-off.md",
   "counts": {
     "evidence": {
-      "total": 151,
+      "total": 153,
       "websummit_only": 31,
-      "other_source": 120,
+      "other_source": 122,
       "no_source": 0
     },
     "companies": {

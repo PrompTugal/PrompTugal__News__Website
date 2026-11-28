@@ -1806,7 +1806,7 @@
       {
         "as_listed": "ARTE",
         "ref": "organisation:arte",
-        "count": 2
+        "count": 3
       },
       {
         "as_listed": "Acubic",
@@ -1836,6 +1836,11 @@
       {
         "as_listed": "AltaIR Capital",
         "ref": "organisation:altair-capital",
+        "count": 1
+      },
+      {
+        "as_listed": "Amalia",
+        "ref": "organisation:amalia",
         "count": 1
       },
       {
@@ -1979,6 +1984,11 @@
         "count": 1
       },
       {
+        "as_listed": "ECO",
+        "ref": "organisation:eco",
+        "count": 1
+      },
+      {
         "as_listed": "ETSA Group",
         "ref": "organisation:etsa",
         "count": 1
@@ -2011,7 +2021,7 @@
       {
         "as_listed": "EuroHPC",
         "ref": "organisation:eurohpc",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "EuroLLM-9B",
@@ -2031,7 +2041,7 @@
       {
         "as_listed": "FCT",
         "ref": "organisation:fct",
-        "count": 2
+        "count": 3
       },
       {
         "as_listed": "Fertagus",
@@ -2311,7 +2321,7 @@
       {
         "as_listed": "Portuguese government",
         "ref": "organisation:portuguese-government",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Postal do Algarve",

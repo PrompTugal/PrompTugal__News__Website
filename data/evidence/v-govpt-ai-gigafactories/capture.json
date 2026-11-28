@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-govpt-ai-gigafactories",
+  "type": "evidence",
+  "source_url": "https://portugal.gov.pt/en/gc25/communication/news/ai-gigafactories-boost-technological-sovereignty-with-a-200-million-investment",
+  "beat": "Portugal and Europe",
+  "group": "Held",
+  "names": [
+    {
+      "as_listed": "Portuguese government",
+      "ref": "organisation:portuguese-government"
+    },
+    {
+      "as_listed": "EuroHPC",
+      "ref": "organisation:eurohpc"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-28-0750.json",
+  "run": "2026-11-28T07:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-28-0750.json"
+    ]
+  }
+}
