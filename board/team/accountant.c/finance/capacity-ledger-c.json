@@ -145,6 +145,19 @@
    "sessions_blocked": null,
    "api_equiv_usd_lifetime_read": null,
    "notes": "RED (Stop at 88%). 61% Mon 09:40 to 85% Tue 11:20: ~0.93 points/h; at that pace 100% near Wed 03:00-04:00, before the reset. Must average <0.55/h: cut ~40%. Scheduled on C: maestro.c 3-hourly, cowork inbox run 2-hourly; the rest interactive. Advice sent to maestro.c and conductor.c."
+  },
+  {
+   "at": "2026-11-28T01:08Z",
+   "account": "C",
+   "source": "read (get_session: rateLimitType seven_day, status allowed_warning, resetsAt 2026-12-02T13:00Z)",
+   "five_hour_status": null,
+   "five_hour_resets_utc": null,
+   "weekly_percent": null,
+   "weekly_resets_utc": "2026-12-02T13:00Z",
+   "sessions_working": null,
+   "sessions_blocked": null,
+   "api_equiv_usd_lifetime_read": null,
+   "notes": "Weekly limit near again (warning signal, percent not exposed). maestro.c lifetime 246.02 at 845k context (after an automatic compaction), no hand-over yet. Treat C as at least Red until Dinis gives the percent."
   }
  ]
 }

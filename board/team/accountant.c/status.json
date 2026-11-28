@@ -4,8 +4,8 @@
  "focus": "costs, usage limits and model routing for account C; the guard that stops any account maxing out; measures, reports and proposes, stops nothing",
  "session": "https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz",
  "key": "accountant.c-account-c (board/keys.json; encryption sha256:db0739023e73f480, signing sha256:460cf5ac58adf6de)",
- "updated": "2026-11-24T11:30Z",
- "state": "Account C RED: weekly 85% at ~11:20 Tue, resets Wed 25 Nov 13:00 UTC; at the recent pace it reaches 100% around Wed 03:00. Advice sent: cut ~40% (maestro.c wake 6-hourly or off, the inbox run off C or 4-hourly, interactive work to other accounts, no new sessions). Guard now reads get_session's seven_day / allowed_warning signal.",
+ "updated": "2026-11-28T01:12Z",
+ "state": "Account C shows the seven-day warning again (resets Wed 2 Dec 13:00 UTC): at least Red until Dinis gives the percent. Sent c.productions the cost-against-context figures for the session refresh write-up; no before-and-after hand-over measurement exists yet.",
  "done": [
   "Read CLAUDE.md, guidance README (twins rule of 22 Nov), accountant.d's status, debrief, finance README, ledgers, accounts.json, proposals; maestros README and view",
   "Key accountant.c-account-c made in this session; entry and ssh half in board/keys.json, signed commit",
@@ -21,9 +21,11 @@
   "10:50: weekly 61% received; AMBER; advice to conductor.c and maestro.c",
   "12:36: reading; AMBER kept; maestro.c (3.5/h at 711k) advised to hand over to a fresh session",
   "15:36: reading; AMBER kept; maestro.c ~4/h at 730k, hand-over advised",
-  "11:27 Tue: weekly 85% and reset time; RED; advice to maestro.c and conductor.c; seven_day allowed_warning adopted as a guard signal"
+  "11:27 Tue: weekly 85% and reset time; RED; advice to maestro.c and conductor.c; seven_day allowed_warning adopted as a guard signal",
+  "28 Nov 01:10: cost-against-context figures to c.productions (none before/after a hand-over); seven-day warning on C recorded and told to conductor.c"
  ],
  "next": [
+  "Measure the next hand-over: one agent read just before and for a day after, for c.productions",
   "Measure the AWS programme per role after 24 h; compare with the ceilings",
   "A reading at each maestro.c wake if Dinis allows it as my trigger; else when Dinis talks to me",
   "With mistral.c: credit, prices, first workflow (translation, no-news wake check)",
