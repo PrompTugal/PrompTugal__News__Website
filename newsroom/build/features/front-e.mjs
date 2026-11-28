@@ -167,9 +167,11 @@ function nowLine(ctx) {
     // promptugal.news bills, so no IPMA values here (Dinis, 18 Nov 23:45: board/guidance/2026-11-18-billing-only-on-the-main-site.md):
     // Faro airport (adsb.lol, ODbL) and a link to the weather on weather.promptugal.news
     const esc = ctx.md.esc, ap = (F && F.airport) || R.airport
-    const bits = [ap && put(item('nowlink'), { href: esc(ap.source), text: `Faro airport: ${ap.airline.length} airline flight${ap.airline.length === 1 ? '' : 's'} near` }),
+    // the read time is the file's own, with its date; a time later than the build, or older than 12 hours, is never shown as 'now': a future time is dropped, a stale flight count is left out (S12, 28 Nov: '11:10' was 26 Nov)
+    const ts = Date.parse(R.read_at), age = Date.now() - ts, ok = Number.isFinite(ts) && age >= -300000, fresh = ok && age <= 12 * 3600000
+    const bits = [fresh && ap && put(item('nowlink'), { href: esc(ap.source), text: `Faro airport: ${ap.airline.length} airline flight${ap.airline.length === 1 ? '' : 's'} near` }),
         put(item('nowlink'), { href: 'https://weather.promptugal.news/places/algarve/', text: 'the weather and IPMA warnings: PrompTugal Weather' })].filter(Boolean)
-    return put(item('now'), { bits: bits.join(' · '), at: esc(String(R.read_at).slice(11, 16)) })
+    return put(item('now'), { bits: bits.join(' · '), read: ok ? put(item('nowread'), { at: `${nice(ctx, R.read_at)} ${(/^\d{4}-\d\d-\d\dT(\d\d:\d\d)/.exec(String(R.read_at)) || [])[1] || ''} UTC` }) : '' })   // nice() returns its own escaped markup
 }
 
 // the numbers beside the stories (Dinis, 16 Nov: "add more statistics on the right-hand side"), all from the place files

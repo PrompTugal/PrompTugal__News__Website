@@ -168,7 +168,9 @@ function nowBlock(ctx, p, L) {
     // a place with no now file (Lisboa) still shows its cleared camera links (cl-6.rights, 27 Nov 2026: APL and AEMTG, links only), alone in the block
     if (!d) { const cams = camLines(ctx, p.id); return cams.length ? `{.mini-h}\n${W(L, 'h_now', { name: esc(ctx, p.name) })}\n\n{.bp-now}\n${cams.map(c => `- ${c}`).join('\n')}\n\n` : '' }
     const t = s => String(s || '').slice(11, 16) + ' UTC', out = []
-    if (d.airport) out.push(`- **Faro airport** ${d.airport.airline.length} airline, ${d.airport.other_aircraft} other, ${d.airport.within_nm} nm${d.airport.airline.length ? ` (${d.airport.airline.slice(0, 6).map(a => esc(ctx, a.callsign)).join(', ')})` : ''} *[adsb.lol](${d.airport.page || d.airport.source}), ${d.airport.stale ? 'last read ' : ''}${t(d.airport.at)}*`)   // stale: the collector kept the last read (dev@, 17 Nov)
+    // a flight count is 'now' only while it is under 12 hours old and not from the future (S12, 28 Nov: '11:10 UTC' was 26 Nov); otherwise the line is left out, never shown as live
+    const apAge = d.airport ? Date.now() - Date.parse(d.airport.at) : NaN, apFresh = Number.isFinite(apAge) && apAge >= -300000 && apAge <= 12 * 3600000
+    if (d.airport && apFresh) out.push(`- **Faro airport** ${d.airport.airline.length} airline, ${d.airport.other_aircraft} other, ${d.airport.within_nm} nm${d.airport.airline.length ? ` (${d.airport.airline.slice(0, 6).map(a => esc(ctx, a.callsign)).join(', ')})` : ''} *[adsb.lol](${d.airport.page || d.airport.source}), ${d.airport.stale ? 'last read ' : ''}${t(d.airport.at)}*`)   // stale: the collector kept the last read (dev@, 17 Nov)
     out.push(`- ${W(L, 'now_weather', { name: esc(ctx, p.name), url: WEATHER(p.id) })}`)
     for (const c of camLines(ctx, p.id)) out.push(`- ${c}`)   // cleared operators' own pages, as links, while their feed is under 48 hours old
     return `{.mini-h}\n${W(L, 'h_now', { name: esc(ctx, p.name) })}\n\n{.bp-now}\n${out.join('\n')}\n\n`
