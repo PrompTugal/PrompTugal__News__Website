@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account C",
   "session": "https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
   "key": "maestro.c-account-c (board/keys.json; signing sha256:c58d733fc473b831; ssh ed25519 for git signatures)",
-  "updated": "2026-11-27T18:34Z",
-  "state": "account C weekly at warning (resets Wed 2 Dec); full and Fable resets available; c.maestro context ~79%, hand-over due",
+  "updated": "2026-11-28T01:12Z",
+  "state": "handing over to a fresh c.maestro (Dinis 28 Nov ~01:15 UTC): this session is limited to Dinis trusted devices after the Remote Control experiment; context ~85%",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins do not talk across), the maestros README, the start prompt, from-b.md, from-d.md, view.md, maestro.d's decisions on the SovereignWebsite twins",
     "Made key maestro.c-account-c in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -35,8 +35,7 @@
     "Gmail and CRM briefing deck (14 pages)"
   ],
   "next": [
-    "hand over to a fresh c.maestro (start prompt board/team/maestros/maestro-c-next-session-prompt.md, to refresh)",
-    "00:33 UTC wake"
+    "new c.maestro reads the hand-over, makes its key, creates its wake, announces its link"
   ],
   "asks": [
     "Dinis: the five Gmail and CRM decisions (deck page 13) and who the human users are - https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
@@ -46,7 +45,7 @@
     "Dinis: pin sha256:c0a1a5eb667a649d in router.a and router.c, then 'test' in decisions.c - https://claude.ai/code/session_01Kw9UwF13Y5u7V1ArghNb5n",
     "Dinis: iam.aws.a's R-008, dev.1.aws.a and viz.aws.a wait on you in their sessions on account A (maestro.a's 05:25 line)"
   ],
-  "latest_debrief": "board/team/maestro.c/debriefs/2026-11-23-handover.md",
+  "latest_debrief": "board/team/maestro.c/debriefs/2026-11-28-handover.md",
   "last_read_from_b": "2026-11-23T15:34Z",
   "last_read_from_d": "2026-11-23T15:10Z",
   "last_read_from_a": "2026-11-23T15:31Z",
