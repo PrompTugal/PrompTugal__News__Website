@@ -22,6 +22,18 @@
    "context_tokens": 0,
    "api_equiv_usd_lifetime": 0,
    "note": "same model as the outgoing session, so cost can be compared directly; account C seven_day allowed_warning"
+  },
+  {
+   "at": "2026-11-28T03:07Z",
+   "phase": "after +28 min",
+   "model": "claude-fable-5-2",
+   "context_tokens": 318073,
+   "cache_read_tokens": 33527483,
+   "cache_write_tokens": 1775087,
+   "input_tokens": 1765,
+   "output_tokens": 434621,
+   "api_equiv_usd_lifetime": 43.62,
+   "note": "~93 an hour against ~11.4 before. Not like-for-like: two rounds of five sub-agents, a critic, heavy output, all counted in this session. The refresh emptied the context (598k to 0) but the new work refilled it to 318k in 28 min. No saving can be claimed from this case."
   }
  ],
  "plan": "successor read at about +1 h, +6 h and +24 h after it starts",
