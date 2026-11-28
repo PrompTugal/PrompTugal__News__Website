@@ -213,7 +213,7 @@
         var rows = (showAll ? log : log.slice(0, 50)).map(function (e) {
             var cost = e.declined ? h('span', {}, 'declined', h('br'), h('span', { class: 'meta' }, (REASONS.find(function (r) { return r[0] === e.declined.reason }) || ['', ''])[1])) : m.pence(e.cost)
             return h('tr', {},
-                h('td', {}, h('a', { href: e.path }, e.title || e.path), h('br'), h('span', { class: 'meta' }, when(e.at) + (e.device ? ' · from another device' : ''))),
+                h('td', {}, ownPath(e.path) ? h('a', { href: ownPath(e.path) }, e.title || e.path) : h('span', {}, e.title || e.path), h('br'), h('span', { class: 'meta' }, when(e.at) + (e.device ? ' · from another device' : ''))),
                 h('td', {}, kindLabel(e.kind)),
                 h('td', { class: 'num' }, Math.round((e.depth || 0) * 100) + '%'),
                 h('td', { class: 'num' }, e.rating && e.rating.useful ? e.rating.useful + '/5' : '·'),
@@ -263,6 +263,8 @@
     // ------------------------------------------------------------ the reading graph (Dinis, 17 November 2026: "the graph is so powerful of what the person has been reading")
     // Drawn in this browser from the meter's own log: each page read, linked to its section and its subject (a place, a
     // company, a topic) taken from its address, and to the page read before it (the reading path). Nothing is sent anywhere.
+    // a logged path is a link only if, resolved against this page, it stays on this site (a log merged from another device could carry '//host', '/\\host', 'javascript:' or a full address); else ''
+    function ownPath(p) { try { var u = new URL(String(p), location.href); return u.origin === location.origin ? u.pathname + u.search + u.hash : '' } catch (e) { return '' } }
     var SUBJECT_SECTIONS = { algarve: 1, portugal: 1, places: 1, companies: 1, people: 1, topics: 1, organisations: 1, events: 1, storm: 1 }
     var KIND_COLOUR = { article: '#c52830', place: '#006600', site: '#3f424a', story: '#9a6700', data: '#1a4fa0', company: '#5b2ca0', topic: '#5b2ca0', event: '#9a6700', person: '#7a5c00', organisation: '#5b2ca0' }
     function readingGraph(log, o) {
@@ -302,8 +304,9 @@
                 g.append(sv('g', {}, [sv('circle', { cx: n.x.toFixed(1), cy: n.y.toFixed(1), r: 7, fill: '#f6f3ec', stroke: '#121317', 'stroke-width': 1.5 }), t]))
             } else {
                 var tt = sv('title', {}); tt.textContent = n.title
-                var a = sv('a', { href: n.href }, [sv('circle', { cx: n.x.toFixed(1), cy: n.y.toFixed(1), r: 5, fill: KIND_COLOUR[n.kind] || '#3f424a' }), tt])
-                g.append(a)
+                var dot = sv('circle', { cx: n.x.toFixed(1), cy: n.y.toFixed(1), r: 5, fill: KIND_COLOUR[n.kind] || '#3f424a' })
+                // a page is a link only when its path is one of this site's (a log merged from another device could carry anything): /x, never //host
+                g.append(ownPath(n.href) ? sv('a', { href: ownPath(n.href) }, [dot, tt]) : sv('g', {}, [dot, tt]))
             }
         })
         var deg = {}; links.forEach(function (l) { if (l[2] === 'c') deg[l[1].id] = (deg[l[1].id] || 0) + 1 })
