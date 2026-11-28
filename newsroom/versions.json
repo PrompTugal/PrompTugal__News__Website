@@ -1,5 +1,13 @@
 [
   {
+    "version": "v0.1.2413",
+    "date": "2026-11-28",
+    "time": "2026-11-28T02:38:46Z",
+    "what": "c.maestro (account-c): new session takes over; key maestro.c-account-c-2, 6-hourly wake",
+    "by": "maestro.c (account-c)",
+    "from": "ac80b75fa"
+  },
+  {
     "version": "v0.1.2412",
     "date": "2026-11-28",
     "time": "2026-11-28T02:01:31Z",
