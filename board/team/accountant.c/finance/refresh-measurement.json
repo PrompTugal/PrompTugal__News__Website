@@ -24,5 +24,34 @@
    "note": "same model as the outgoing session, so cost can be compared directly; account C seven_day allowed_warning"
   }
  ],
- "plan": "successor read at about +1 h, +6 h and +24 h after it starts"
+ "plan": "successor read at about +1 h, +6 h and +24 h after it starts",
+ "second": {
+  "agent": "conductor.c (SovereignWebsite), account C",
+  "readings": [
+   {
+    "at": "2026-11-28T02:47Z",
+    "phase": "before (outgoing session, archived)",
+    "model": "claude-fable-5-2 (switched from Opus during its life)",
+    "context_tokens": 640334,
+    "cache_read_tokens": 373790848,
+    "cache_write_tokens": 9888121,
+    "output_tokens": 365631,
+    "api_equiv_usd_lifetime": 172.09,
+    "created": "2026-11-22T17:15Z",
+    "note": "lifetime mixes models; compare per-turn tokens rather than lifetime cost"
+   },
+   {
+    "at": "2026-11-28T02:47Z",
+    "phase": "after +6 min (successor started 02:41:51Z)",
+    "model": "claude-fable-5-2",
+    "context_tokens": 138279,
+    "cache_read_tokens": 3723037,
+    "cache_write_tokens": 115909,
+    "output_tokens": 23029,
+    "api_equiv_usd_lifetime": 3.52,
+    "note": "the one-off cost of the hand-over: onboarding reads"
+   }
+  ],
+  "plan": "read at about +1 h, +6 h, +24 h"
+ }
 }
